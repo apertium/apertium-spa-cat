@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="test"/>
+  </sdefs>
+
+  <pardefs>
+    <pardef n="caracter_general">
+      <e>
+        <i>;</i>
+      </e>
+      <e>
+        <i>#</i>
+      </e>
+      <e>
+        <i>)</i>
+      </e>
+      <e>
+        <i>:</i>
+      </e>
+      <e>
+        <i>(</i>
+      </e>
+      <e>
+        <i>[</i>
+      </e>
+      <e>
+        <i>]</i>
+      </e>
+      <e>
+        <i>"</i>
+      </e>
+      <e>
+        <i>'</i>
+      </e>
+      <e>
+        <i>*</i>
+      </e>
+      <e>
+        <i>@</i>
+      </e>
+      <e>
+        <i>«</i>
+      </e>
+      <e>
+        <i>-</i>
+      </e>
+      <e>
+        <i>,</i>
+      </e>
+      <e>
+        <i>?</i>
+      </e>
+      <e>
+        <i>/</i>
+      </e>
+      <e>
+        <i>`</i>
+      </e>
+      <e>
+        <i>±</i>
+      </e>
+      <e>
+        <i>­</i>
+      </e>
+      <e>
+        <i>$</i>
+      </e>
+  <!--    <e>
+        <p>
+          <l>)</l>
+          <r>:</r>
+        </p>
+      </e>-->
+      <e>
+        <i>.</i>
+      </e>
+    </pardef>
+
+    <pardef n="el">
+   <!--   <e>
+        <p>
+          <l><a/>el<b/></l> 
+          <r>l<b/></r>
+        </p>
+      </e> -->
+      <e>
+        <p>
+          <l>el<b/></l>
+          <r>l<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>el</l>
+          <r>l</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
+
+   
+    <pardef n="pr">
+      <e>
+        <p>
+          <l><a/>de<b/><a/>la<b/></l>
+          <r>del<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>a<b/><a/>la<b/></l>
+          <r>al<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>la<b/></l>
+          <r>el<b/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="la">
+      <e>
+        <i><b/></i>
+      </e>
+      <e>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
+
+   <pardef n="le">
+      <e>
+        <p>
+          <l>la<b/></l>
+          <r>se<b/>la<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>las<b/></l>
+          <r>se<b/>las<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lo<b/></l>
+          <r>se<b/>lo<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>los<b/></l>
+          <r>se<b/>los<b/></r>
+        </p>
+      </e>      
+    </pardef>
+
+  </pardefs>
+
+  <section id="main" type="standard">
+      <e>
+        <p>
+          <l><a/>de<b/></l>
+          <r>de</r>
+        </p>
+        <par n="el"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>de</l>
+          <r>de</r>
+        </p>
+        <par n="el"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>a<b/></l>
+          <r>a</r>
+        </p>
+        <par n="el"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>a</l>
+          <r>a</r>
+        </p>
+        <par n="el"/>
+      </e>      
+      <e>
+        <p>
+          <l><a/>y<b/>i</l>
+          <r>e<b/>i</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><a/>o<b/>o</l>
+          <r>u<b/>o</r>
+        </p>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>agua</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>águila</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>acta</i>        
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>área</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>aula</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>ala</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>alga</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>álgebra</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>alma</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>anca</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>ansia</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>arca</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>arpa</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>asma</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>aspa</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>asta</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <par n="pr"/>
+        <i>aya</i>
+        <par n="la"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>le<b/></l>
+          <r></r>
+        </p>
+        <par n="le"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>les<b/></l>
+          <r></r>
+        </p>
+        <par n="le"/>
+      </e>
+
+
+  </section>
+
+</dictionary>
