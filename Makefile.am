@@ -84,4 +84,4 @@ apertium_es_ca_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
                     trules-$(PREFIX2).xml trules-$(PREFIX1).bin \
                     trules-$(PREFIX2).bin modes
 
-CLEANFILES = $(TARGETS)
+CLEANFILES = -rf $(TARGETS)
