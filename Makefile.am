@@ -72,16 +72,30 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).trules-$(PREFIX2).xml $(PREFIX1).prob $(PREFIX2).prob \
            modes.xml translate-to-default-equivalent.xsl
            
+apertium_es_cadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_es_modesdir=$(prefix)/share/apertium/modes/
+
+$(PREFIX1).mode: modes.xml 
+	apertium-gen-modes modes.xml
+
+$(PREFIX2).mode: modes.xml 
+	apertium-gen-modes modes.xml
+
 modes: modes.xml
 	apertium-gen-modes modes.xml
            
-apertium_es_cadir=$(prefix)/share/apertium-1.0/$(PREFIX1)/
 apertium_es_ca_DATA=$(PREFIX1).automorf.bin $(PREFIX2).automorf.bin \
-                    $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
-                    $(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
-                    $(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
-                    $(PREFIX1).prob $(PREFIX2).prob trules-$(PREFIX1).xml \
-                    trules-$(PREFIX2).xml trules-$(PREFIX1).bin \
-                    trules-$(PREFIX2).bin modes
+	$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
+	$(PREFIX1).autogen.bin $(PREFIX2).autogen.bin \
+	$(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
+	$(PREFIX1).prob $(PREFIX2).prob trules-$(PREFIX1).xml \
+	trules-$(PREFIX2).xml trules-$(PREFIX1).bin \
+	trules-$(PREFIX2).bin $(PREFIX1).mode $(PREFIX2).mode
 
-CLEANFILES = -rf $(TARGETS)
+install-data-local:
+	$(prefix)/bin/apertium-gen-modes modes.xml apertium-$(PREFIX1)
+	$(INSTALL_DATA) $(PREFIX1).mode $(apertium_es_modesdir)
+	$(INSTALL_DATA) $(PREFIX2).mode $(apertium_es_modesdir)
+	$(INSTALL_DATA) $(BASENAME).trules-$(PREFIX2).xml $(BASENAME).trules-$(PREFIX1).xml $(apertium_es_cadir)
+
+CLEANFILES = -rf $(TARGETS) modes
