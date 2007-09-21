@@ -46,13 +46,13 @@
     </pipeline>
   </mode>
 
-  <mode name="ca-es-unicode">
+  <mode name="ca-es-latin1">
     <pipeline>
       <program name="lt-proc">
         <file name="ca-es.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g">
-        <file name="ca-es-unicode.prob"/>
+        <file name="ca-es-latin1.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
@@ -69,13 +69,13 @@
     </pipeline>
   </mode>
   
-  <mode name="es-ca-unicode">
+  <mode name="es-ca-latin1">
     <pipeline>
       <program name="lt-proc">
         <file name="es-ca.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g">
-        <file name="es-ca-unicode.prob"/>
+        <file name="es-ca-latin1.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
