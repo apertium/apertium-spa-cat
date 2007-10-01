@@ -4,8 +4,8 @@
 
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-es-ca], [1.0.2], [sortiz@users.sourceforge.net])
-AM_INIT_AUTOMAKE([apertium-es-ca], [1.0.2], no-define)
+AC_INIT([apertium-es-ca], [1.0.4], [sortiz@users.sourceforge.net])
+AM_INIT_AUTOMAKE([apertium-es-ca], [1.0.4], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 AC_CONFIG_HEADER([config])
