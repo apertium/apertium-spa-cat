@@ -1,4 +1,4 @@
-VERSION=1.0.4
+VERSION=1.0.5
 LANG1=es
 LANG2=ca
 PREFIX1=$(LANG1)-$(LANG2)
@@ -70,7 +70,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1).tsx \
            $(BASENAME).$(LANG2).tsx $(BASENAME).trules-$(PREFIX1).xml \
            $(BASENAME).trules-$(PREFIX2).xml $(PREFIX1).prob $(PREFIX2).prob \
-           modes.xml translate-to-default-equivalent.xsl
+           modes.xml translate-to-default-equivalent.xsl \
+           $(PREFIX1)-latin1.prob $(PREFIX2)-latin1.prob
            
 apertium_es_cadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_es_modesdir=$(prefix)/share/apertium/modes/
