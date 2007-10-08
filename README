@@ -1,9 +1,11 @@
 TRANSLATOR
 
-You need apertium-1.0 and lttoolbox-1.0 to use this translator.  To compile
+You need apertium-3.0 and lttoolbox-3.0 to use this translator.  To compile
 the linguistical data simply do:
 
+./configure
 make
+make install
 
 inside of this directory.
 
@@ -17,40 +19,7 @@ the dictionaries in a reasonably way.
 
 If for some reason you need to retrain the tagger (for example, you
 have made really extensive changes to the dictionaries such as
-creating new lexical categories), you have two alternatives:
-
-* To perform a supervised training:
-
-  To this end tagged corpora is provided, but tagged corpora
-  (es-tagger-data/es.tagged and ca-tagger-data/ca.tagged) could be
-  obsolete for some words. If this is the case, the tagger training 
-  program  will show you where the problems are and you will need 
-  to solve them by hand. Be sure to solve the problems by modifying 
-  ONLY the .tagged file, NEVER the .untagged file that is 
-  automatically generated.
-
-  The supervised training is done by typing: 
-
-  make -f es-ca-supervised.make
-  make -f ca-es-supervised.make
-
-* To perform an unsupervised training:
-
-  For this purpose you will need to assemble a large (hundreds of
-  thousand of words) plain-text corpus for each language (for example,
-  using a robot to harvest text from online newspapers) and put them in
-  the proper place, for instance es-tagger-data/es.crp.txt and
-  ca-tagger-data/ca.crp.txt. This type of training does not need human
-  intervention but, as expected, results will be less adequate than
-  those obtained with the supervised training.
-
-  The unsupervised training is done through the iterative Baum-Welch
-  algorithm. By default the number of iterations is set to 8, but you
-  can change this value by editing the Makefile and changing the
-  value of TAGGER_UNSUPERVISED_ITERATIONS.
-
-  The unsupervised training is done by typing:
-
-  make -f es-ca-unsupervised.make
-  make -f ca-es-unsupervised.make
-
+creating new lexical categories), please see the documentation
+on our Wiki:
+ 
+  http://xixona.dlsi.ua.es/wiki/index.php/Tagger_training
