@@ -46,7 +46,7 @@
     </pipeline>
   </mode>
 
-  <mode name="ca-es-latin1">
+  <mode name="ca-es-latin1" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="ca-es.automorf.bin"/>
@@ -69,7 +69,7 @@
     </pipeline>
   </mode>
   
-  <mode name="es-ca-latin1">
+  <mode name="es-ca-latin1" install="yes">
     <pipeline>
       <program name="lt-proc">
         <file name="es-ca.automorf.bin"/>
