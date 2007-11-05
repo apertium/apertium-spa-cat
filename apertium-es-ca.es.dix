@@ -1226,6 +1226,31 @@
           <r>to<s n="adj"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
+      
+      <e>
+        <p>
+          <l>tísimas</l>
+          <r>to<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tísima</l>
+          <r>to<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tísimos</l>
+          <r>to<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tísimo</l>
+          <r>to<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="abrumador__adj">
       <e>
@@ -2340,13 +2365,13 @@
     <e>
         <p>
           <l>unes</l>
-          <r>ún<s n="adj"/><s n="mf"/><s n="pl"/></r>
+          <r>ún<s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ún</l>
-          <r>ún<s n="adj"/><s n="mf"/><s n="sg"/></r>
+          <r>ún<s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -134407,7 +134432,7 @@
       </e>
        <e lm="fatigoso">
         <i>fatigos</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
       </e>
        <e lm="idílico">
         <i>idílic</i>
@@ -134940,11 +134965,6 @@
      <e lm="afluente" a="prompsit2adn">
         <i>afluente</i>
         <par n="abismo__n"/>
-     </e>
-
-     <e lm="afrenta" a="prompsit2adn">
-        <i>afrenta</i>
-        <par n="abeja__n"/>
      </e>
 
      <e lm="afrentar" a="prompsit2adn">
@@ -135491,16 +135511,6 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="añadidura" a="prompsit2adn">
-        <i>añadidura</i>
-        <par n="abeja__n"/>
-     </e>
-
-     <e lm="APA" a="prompsit2adn">
-        <i>APA</i>
-        <par n="ABC__np"/>
-     </e>
-
      <e lm="apaciguar" a="prompsit2adn">
         <i>apacigu</i>
         <par n="averigu/ar__vblex"/>
@@ -135598,17 +135608,12 @@
 
      <e lm="arábigo" a="prompsit2adn">
         <i>arábig</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="arancel" a="prompsit2adn">
         <i>arancel</i>
         <par n="abril__n"/>
-     </e>
-
-     <e lm="arañazo" a="prompsit2adn">
-        <i>arañazo</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="arbitrar" a="prompsit2adn">
@@ -135627,11 +135632,6 @@
      <e lm="arbitrario" a="prompsit2adn">
         <i>arbitrari</i>
         <par n="absolut/o__adj"/>
-     </e>
-
-     <e lm="archidiócesis" a="prompsit2adn">
-        <i>archidiócesis</i>
-        <par n="Tm__n"/>
      </e>
 
      <e lm="archipiélago" a="prompsit2adn">
@@ -135724,6 +135724,11 @@
 
      <e lm="arquetipo" a="prompsit2adn">
         <i>arquetipo</i>
+        <par n="abismo__n"/>
+     </e>
+     
+     <e lm="arañazo" a="prompsit2adn">
+        <i>arañazo</i>
         <par n="abismo__n"/>
      </e>
 
@@ -135867,12 +135872,7 @@
         <par n="abandón/ar__vblex"/>
      </e>
 
-     <e lm="asonada" a="prompsit2adn">
-        <i>asonada</i>
-        <par n="abeja__n"/>
-     </e>
-
-     <e lm="aspa" a="prompsit2adn">
+      <e lm="aspa" a="prompsit2adn">
         <i>aspa</i>
         <par n="abeja__n"/>
      </e>
@@ -135890,16 +135890,6 @@
      <e lm="atener" a="prompsit2adn">
         <i>at</i>
         <par n="abst/ener__vblex"/>
-     </e>
-
-     <e lm="ateniense" a="prompsit2adn">
-        <i>ateniense</i>
-        <par n="abundante__adj"/>
-      </e>
-
-     <e lm="ateniense" a="prompsit2adn">
-        <i>ateniense</i>
-        <par n="accionista__n"/>
      </e>
 
      <e lm="atenuante" a="prompsit2adn">
@@ -135942,11 +135932,6 @@
         </p>
         <par n="abandón/ar__vblex"/>
      </e>
-
-     <e lm="atestado" a="prompsit2adn">
-        <i>atestad</i>
-        <par n="absolut/o__adj"/>
-      </e>
 
      <e lm="atestado" a="prompsit2adn">
         <i>atestado</i>
@@ -136128,11 +136113,6 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="averiguación" a="prompsit2adn">
-        <i>averiguaci</i>
-        <par n="acci/ón__n"/>
-     </e>
-
      <e lm="avícola" a="prompsit2adn">
         <i>avícola</i>
         <par n="abundante__adj"/>
@@ -136265,19 +136245,9 @@
         <par n="abdominal__adj"/>
      </e>
 
-     <e lm="banderín" a="prompsit2adn">
-        <i>bander</i>
-        <par n="bailar/ín__n"/>
-     </e>
-
      <e lm="bandido" a="prompsit2adn">
         <i>bandido</i>
         <par n="abismo__n"/>
-     </e>
-
-     <e lm="bañador" a="prompsit2adn">
-        <i>bañador</i>
-        <par n="abril__n"/>
      </e>
 
      <e lm="barbecho" a="prompsit2adn">
@@ -136483,11 +136453,6 @@
         <par n="abril__n"/>
      </e>
 
-     <e lm="bolos" a="prompsit2adn">
-        <i>bolos</i>
-        <par n="campus__n"/>
-     </e>
-
      <e lm="bombardero" a="prompsit2adn">
         <i>bombarder</i>
         <par n="absolut/o__adj"/>
@@ -136626,12 +136591,7 @@
         <par n="ahora__adv"/>
      </e>
 
-     <e lm="camarote" a="prompsit2adn">
-        <i>camarote</i>
-        <par n="abismo__n"/>
-     </e>
-
-     <e lm="cambiante" a="prompsit2adn">
+      <e lm="cambiante" a="prompsit2adn">
         <i>cambiante</i>
         <par n="abundante__adj"/>
      </e>
@@ -136654,11 +136614,6 @@
      <e lm="capacitación" a="prompsit2adn">
         <i>capacitaci</i>
         <par n="acci/ón__n"/>
-     </e>
-
-     <e lm="caparazón" a="prompsit2adn">
-        <i>caparaz</i>
-        <par n="aluvi/ón__n"/>
      </e>
 
      <e lm="capear" a="prompsit2adn">
@@ -136785,16 +136740,7 @@
         <par n="abogad/o__n"/>
      </e>
 
-     <e lm="carpetazo" a="prompsit2adn">
-        <i>carpetazo</i>
-        <par n="abismo__n"/>
-     </e>
-
-     <e lm="carretilla" a="prompsit2adn">
-        <i>carretilla</i>
-        <par n="abeja__n"/>
-     </e>
-
+ 
      <e lm="cartografía" a="prompsit2adn">
         <i>cartografía</i>
         <par n="abeja__n"/>
@@ -136897,11 +136843,6 @@
         <par n="abandón/ar__vblex"/>
      </e>
 
-     <e lm="catarsis" a="prompsit2adn">
-        <i>catarsis</i>
-        <par n="Tm__n"/>
-     </e>
-
      <e lm="catenaria" a="prompsit2adn">
         <i>catenaria</i>
         <par n="abeja__n"/>
@@ -136926,13 +136867,6 @@
         <i>cavidad</i>
         <par n="accesibilidad__n"/>
      </e>
-
-     <e lm="cayuco" a="prompsit2adn">
-			<i>cayuco</i>
-			<par n="abismo__n"/>
-		</e>
-
-
 
      <e lm="ce" a="prompsit2adn">
         <i>ce</i>
@@ -137009,12 +136943,7 @@
         <par n="absolut/o__adj"/>
      </e>
 
-     <e lm="cerilla" a="prompsit2adn">
-        <i>cerilla</i>
-        <par n="abeja__n"/>
-     </e>
-
-     <e lm="cetro" a="prompsit2adn">
+      <e lm="cetro" a="prompsit2adn">
         <i>cetro</i>
         <par n="abismo__n"/>
      </e>
@@ -137260,11 +137189,7 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="colchoneta" a="prompsit2adn">
-        <i>colchoneta</i>
-        <par n="abeja__n"/>
-     </e>
-
+   
      <e lm="colectividad" a="prompsit2adn">
         <i>colectividad</i>
         <par n="accesibilidad__n"/>
@@ -137273,11 +137198,6 @@
      <e lm="coletazo" a="prompsit2adn">
         <i>coletazo</i>
         <par n="abismo__n"/>
-     </e>
-
-     <e lm="colmena" a="prompsit2adn">
-        <i>colmena</i>
-        <par n="abeja__n"/>
      </e>
 
      <e lm="colofón" a="prompsit2adn">
@@ -137434,7 +137354,7 @@
         <par n="abdominal__adj"/>
      </e>
 
-     <e lm="condicionante" r="LR" a="prompsit2adn">
+     <e lm="condicionante" a="prompsit2adn">
         <i>condicionante</i>
         <par n="abismo__n"/>
      </e>
@@ -137815,11 +137735,6 @@
         <par n="absolut/o__adj"/>
      </e>
 
-     <e lm="corsé" a="prompsit2adn">
-        <i>corsé</i>
-        <par n="abismo__n"/>
-     </e>
-
      <e lm="cortejar" a="prompsit2adn">
         <i>cortej</i>
         <par n="abandon/ar__vblex"/>
@@ -137854,11 +137769,6 @@
           <r>cotej</r>
         </p>
         <par n="abandón/ar__vblex"/>
-     </e>
-
-     <e lm="cotizante" a="prompsit2adn">
-        <i>cotizante</i>
-        <par n="accionista__n"/>
      </e>
 
      <e lm="coyuntural" a="prompsit2adn">
@@ -138063,11 +137973,6 @@
         <par n="abeja__n"/>
      </e>
 
-     <e lm="decepcionante" a="prompsit2adn">
-        <i>decepcionante</i>
-        <par n="abundante__adj"/>
-     </e>
-
      <e lm="decididamente" a="prompsit2adn">
         <i>decididamente</i>
         <par n="ahora__adv"/>
@@ -138111,14 +138016,10 @@
         <par n="deg/ollar__vblex"/>
      </e>
 
-     <e lm="dejación" r="LR" a="prompsit2adn">
-        <i>dejaci</i>
-        <par n="acci/ón__n"/>
-     </e>
 
      <e lm="delfín" a="prompsit2adn">
         <i>delf</i>
-        <par n="bailar/ín__n"/>
+        <par n="bot/ín__n"/>
      </e>
 
      <e lm="deliberación" a="prompsit2adn">
@@ -138225,11 +138126,6 @@
         <par n="señor__n"/>
      </e>
 
-     <e lm="derechista" a="prompsit2adn">
-        <i>derechista</i>
-        <par n="abundante__adj"/>
-     </e>
-
      <e lm="derivación" a="prompsit2adn">
         <i>derivaci</i>
         <par n="acci/ón__n"/>
@@ -138246,11 +138142,6 @@
           <r>derog</r>
         </p>
         <par n="alég/ar__vblex"/>
-     </e>
-
-     <e lm="derramamiento" a="prompsit2adn">
-        <i>derramamiento</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="derrocar" a="prompsit2adn">
@@ -138684,11 +138575,6 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="desgravación" a="prompsit2adn">
-        <i>desgravaci</i>
-        <par n="acci/ón__n"/>
-     </e>
-
      <e lm="desheredado" a="prompsit2adn">
         <i>desheredad</i>
         <par n="absolut/o__adj"/>
@@ -138815,11 +138701,6 @@
      <e lm="despiadado" a="prompsit2adn">
         <i>despiadad</i>
         <par n="absolut/o__adj"/>
-     </e>
-
-     <e lm="despojo" a="prompsit2adn">
-        <i>despojo</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="despreciable" a="prompsit2adn">
@@ -138987,11 +138868,6 @@
         <par n="abalán/zar__vblex"/>
      </e>
 
-     <e lm="dineral" a="prompsit2adn">
-        <i>dineral</i>
-        <par n="abril__n"/>
-     </e>
-
      <e lm="dióxido" a="prompsit2adn">
         <i>dióxido</i>
         <par n="abismo__n"/>
@@ -139013,11 +138889,6 @@
      <e lm="discernir" a="prompsit2adn">
         <i>disc</i>
         <par n="conc/ernir__vblex"/>
-     </e>
-
-     <e lm="discípulo" a="prompsit2adn">
-        <i>discípul</i>
-        <par n="abogad/o__n"/>
      </e>
 
      <e lm="discóbolo" a="prompsit2adn">
@@ -139451,11 +139322,6 @@
 
      <e lm="emolumento" a="prompsit2adn">
         <i>emolumento</i>
-        <par n="abismo__n"/>
-     </e>
-
-     <e lm="emoticono" a="prompsit2adn">
-        <i>emoticono</i>
         <par n="abismo__n"/>
      </e>
 
@@ -139910,12 +139776,7 @@
         <par n="abandón/ar__vblex"/>
      </e>
 
-     <e lm="enzima" a="prompsit2adn">
-        <i>enzima</i>
-        <par n="abeja__n"/>
-     </e>
-
-     <e lm="epílogo" a="prompsit2adn">
+      <e lm="epílogo" a="prompsit2adn">
         <i>epílogo</i>
         <par n="abismo__n"/>
      </e>
@@ -140006,11 +139867,6 @@
         <par n="abalán/zar__vblex"/>
      </e>
 
-     <e lm="escafandra" a="prompsit2adn">
-        <i>escafandra</i>
-        <par n="abeja__n"/>
-     </e>
-
      <e lm="escalador" a="prompsit2adn">
         <i>escalador</i>
         <par n="abrumador__adj"/>
@@ -140090,11 +139946,6 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="esclavitud" a="prompsit2adn">
-        <i>esclavitud</i>
-        <par n="accesibilidad__n"/>
-     </e>
-
      <e lm="escrupulosamente" a="prompsit2adn">
         <i>escrupulosamente</i>
         <par n="ahora__adv"/>
@@ -140138,11 +139989,6 @@
         <par n="absolut/o__adj"/>
      </e>
 
-     <e lm="eslabón" a="prompsit2adn">
-        <i>eslab</i>
-        <par n="aluvi/ón__n"/>
-     </e>
-
      <e lm="eslora" a="prompsit2adn">
         <i>eslora</i>
         <par n="abeja__n"/>
@@ -140178,11 +140024,7 @@
         <par n="abogad/o__n"/>
      </e>
 
-     <e lm="espeluznante" a="prompsit2adn">
-        <i>espeluznante</i>
-        <par n="abundante__adj"/>
-     </e>
-
+   
      <e lm="esperanzador" a="prompsit2adn">
         <i>esperanzador</i>
         <par n="abrumador__adj"/>
@@ -140338,11 +140180,6 @@
         <par n="abeja__n"/>
      </e>
 
-     <e lm="estrado" a="prompsit2adn">
-        <i>estrado</i>
-        <par n="abismo__n"/>
-     </e>
-
      <e lm="estrangular" a="prompsit2adn">
         <i>estrangul</i>
         <par n="abandon/ar__vblex"/>
@@ -140392,11 +140229,6 @@
           <r>estrib</r>
         </p>
         <par n="abandón/ar__vblex"/>
-     </e>
-
-     <e lm="estribillo" a="prompsit2adn">
-        <i>estribillo</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="estructuralmente" a="prompsit2adn">
@@ -140847,7 +140679,7 @@
 
      <e lm="festín" a="prompsit2adn">
         <i>fest</i>
-        <par n="bailar/ín__n"/>
+        <par n="bot/ín__n"/>
      </e>
 
      <e lm="fiambrera" a="prompsit2adn">
@@ -140982,9 +140814,14 @@
      <e lm="flauta" a="prompsit2adn">
         <i>flauta</i>
         <par n="abeja__n"/>
+     </e> 
+     
+     <e lm="fregona" r="RL" a="prompsit2adn">
+        <i>fregona</i>
+        <par n="abeja__n"/>
      </e>
 
-     <e lm="fleco" r="LR" a="prompsit2adn">
+     <e lm="fleco" a="prompsit2adn">
         <i>fleco</i>
         <par n="abismo__n"/>
      </e>
@@ -141010,11 +140847,6 @@
      <e lm="flexibilización" a="prompsit2adn">
         <i>flexibilizaci</i>
         <par n="acci/ón__n"/>
-     </e>
-
-     <e lm="florecimiento" a="prompsit2adn">
-        <i>florecimiento</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="flotación" a="prompsit2adn">
@@ -141047,7 +140879,7 @@
 
      <e lm="folletín" a="prompsit2adn">
         <i>follet</i>
-        <par n="bailar/ín__n"/>
+        <par n="bot/ín__n"/>
      </e>
 
      <e lm="formulación" a="prompsit2adn">
@@ -141118,13 +140950,6 @@
         <par n="abeja__n"/>
      </e>
 
-     <e lm="fregona" a="prompsit2adn">
-			<i>fregona</i>
-			<par n="abeja__n"/>
-		</e>
-
-
-
      <e lm="frivolidad" a="prompsit2adn">
         <i>frivolidad</i>
         <par n="accesibilidad__n"/>
@@ -141158,12 +140983,7 @@
         <par n="abundante__adj"/>
      </e>
 
-     <e lm="frutal" a="prompsit2adn">
-        <i>frutal</i>
-        <par n="abdominal__adj"/>
-     </e>
-
-     <e lm="frutero" r="LR" a="prompsit2adn">
+     <e lm="frutero" r="RL" a="prompsit2adn">
         <i>fruter</i>
         <par n="absolut/o__adj"/>
       </e>
@@ -141236,11 +141056,7 @@
         <par n="abandón/ar__vblex"/>
      </e>
 
-     <e lm="gafe" a="prompsit2adn">
-        <i>gafe</i>
-        <par n="abundante__adj"/>
-     </e>
-
+    
      <e lm="galón" a="prompsit2adn">
         <i>gal</i>
         <par n="aluvi/ón__n"/>
@@ -141284,11 +141100,7 @@
         <par n="abril__n"/>
      </e>
 
-     <e lm="génesis" a="prompsit2adn">
-        <i>génesis</i>
-        <par n="campus__n"/>
-     </e>
-
+   
      <e lm="genocida" a="prompsit2adn">
         <i>genocida</i>
         <par n="abundante__adj"/>
@@ -141312,11 +141124,6 @@
      <e lm="germinación" a="prompsit2adn">
         <i>germinaci</i>
         <par n="acci/ón__n"/>
-     </e>
-
-     <e lm="gerundense" a="prompsit2adn">
-        <i>gerundense</i>
-        <par n="abundante__adj"/>
      </e>
 
      <e lm="Gescartera" a="prompsit2adn">
@@ -141441,11 +141248,6 @@
         <par n="abogad/o__n"/>
      </e>
 
-     <e lm="GRAPO" a="prompsit2adn">
-        <i>GRAPO</i>
-        <par n="ABC__np"/>
-     </e>
-
      <e lm="gratitud" a="prompsit2adn">
         <i>gratitud</i>
         <par n="accesibilidad__n"/>
@@ -141487,10 +141289,6 @@
         <par n="abandón/ar__vblex"/>
      </e>
 
-     <e lm="guiño" a="prompsit2adn">
-        <i>guiño</i>
-        <par n="abismo__n"/>
-     </e>
 
      <e lm="haber" a="prompsit2adn">
         <i>haber</i>
@@ -141526,11 +141324,7 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="hincapié" a="prompsit2adn">
-        <i>hincapié</i>
-        <par n="abismo__n"/>
-     </e>
-
+   
      <e lm="hinchable" a="prompsit2adn">
         <i>hinchable</i>
         <par n="abundante__adj"/>
@@ -141630,11 +141424,6 @@
         <par n="abeja__n"/>
      </e>
 
-     <e lm="hostigamiento" a="prompsit2adn">
-        <i>hostigamiento</i>
-        <par n="abismo__n"/>
-     </e>
-
      <e lm="hoyo" a="prompsit2adn">
         <i>hoyo</i>
         <par n="abismo__n"/>
@@ -141693,11 +141482,6 @@
      <e lm="idilio" a="prompsit2adn">
         <i>idilio</i>
         <par n="abismo__n"/>
-     </e>
-
-     <e lm="IFA" a="prompsit2adn">
-        <i>IFA</i>
-        <par n="ABC__np"/>
      </e>
 
      <e lm="ilegalidad" a="prompsit2adn">
@@ -141833,11 +141617,6 @@
 
      <e lm="inactivo" a="prompsit2adn">
         <i>inactiv</i>
-        <par n="absolut/o__adj"/>
-     </e>
-
-     <e lm="inalámbrico" a="prompsit2adn">
-        <i>inalámbric</i>
         <par n="absolut/o__adj"/>
      </e>
 
@@ -142956,11 +142735,6 @@
         <par n="abeja__n"/>
      </e>
 
-     <e lm="LOU" a="prompsit2adn">
-        <i>LOU</i>
-        <par n="BBC__n"/>
-     </e>
-
      <e lm="lubricante" a="prompsit2adn">
         <i>lubricante</i>
         <par n="abundante__adj"/>
@@ -143007,12 +142781,6 @@
 		</e>
 
 
-
-     <e lm="madriguera" a="prompsit2adn">
-        <i>madriguera</i>
-        <par n="abeja__n"/>
-     </e>
-
      <e lm="magnificar" a="prompsit2adn">
         <i>magnifi</i>
         <par n="ata/car__vblex"/>
@@ -143029,11 +142797,6 @@
      <e lm="magno" a="prompsit2adn">
         <i>magn</i>
         <par n="absolut/o__adj"/>
-     </e>
-
-     <e lm="maíz" a="prompsit2adn">
-        <i>maí</i>
-        <par n="ajedre/z__n"/>
      </e>
 
      <e lm="malformación" a="prompsit2adn">
@@ -143071,12 +142834,7 @@
         <par n="acci/ón__n"/>
      </e>
 
-     <e lm="manantial" a="prompsit2adn">
-        <i>manantial</i>
-        <par n="abril__n"/>
-     </e>
-
-     <e lm="mandíbula" a="prompsit2adn">
+    <e lm="mandíbula" a="prompsit2adn">
         <i>mandíbula</i>
         <par n="abeja__n"/>
      </e>
@@ -143104,11 +142862,6 @@
      <e lm="marchante" a="prompsit2adn">
         <i>marchante</i>
         <par n="accionista__n"/>
-     </e>
-
-     <e lm="maremoto" a="prompsit2adn">
-        <i>maremoto</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="martillo" a="prompsit2adn">
@@ -143295,11 +143048,6 @@
         <par n="señor__n"/>
      </e>
 
-     <e lm="merengue" a="prompsit2adn">
-        <i>merengue</i>
-        <par n="abismo__n"/>
-     </e>
-
      <e lm="meridional" a="prompsit2adn">
         <i>meridional</i>
         <par n="abdominal__adj"/>
@@ -143308,11 +143056,6 @@
      <e lm="meritorio" a="prompsit2adn">
         <i>meritori</i>
         <par n="absolut/o__adj"/>
-     </e>
-
-     <e lm="meseta" a="prompsit2adn">
-        <i>meseta</i>
-        <par n="abeja__n"/>
      </e>
 
      <e lm="mesurar" a="prompsit2adn">
@@ -143341,11 +143084,6 @@
      <e lm="metalúrgico" a="prompsit2adn">
         <i>metalúrgic</i>
         <par n="absolut/o__adj"/>
-     </e>
-
-     <e lm="metamorfosis" a="prompsit2adn">
-        <i>metamorfosis</i>
-        <par n="Tm__n"/>
      </e>
 
      <e lm="metano" a="prompsit2adn">
@@ -143708,11 +143446,6 @@
         <par n="absolut/o__adj"/>
      </e>
 
-     <e lm="monitorización" a="prompsit2adn">
-        <i>monitorizaci</i>
-        <par n="acci/ón__n"/>
-     </e>
-
      <e lm="monolito" a="prompsit2adn">
         <i>monolito</i>
         <par n="abismo__n"/>
@@ -143761,10 +143494,6 @@
         <par n="absolut/o__adj"/>
      </e>
 
-     <e lm="monto" a="prompsit2adn">
-        <i>monto</i>
-        <par n="abismo__n"/>
-     </e>
 
      <e lm="montura" a="prompsit2adn">
         <i>montura</i>
@@ -143789,16 +143518,6 @@
      <e lm="mordaza" a="prompsit2adn">
         <i>mordaza</i>
         <par n="abeja__n"/>
-     </e>
-
-     <e lm="mordedura" a="prompsit2adn">
-        <i>mordedura</i>
-        <par n="abeja__n"/>
-     </e>
-
-     <e lm="mordisco" a="prompsit2adn">
-        <i>mordisco</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="morfología" a="prompsit2adn">
@@ -143862,11 +143581,6 @@
      <e lm="motriz" a="prompsit2adn">
         <i>motri</i>
         <par n="atro/z__adj"/>
-     </e>
-
-     <e lm="muela" a="prompsit2adn">
-        <i>muela</i>
-        <par n="abeja__n"/>
      </e>
 
      <e lm="multicolor" a="prompsit2adn">
@@ -143966,7 +143680,7 @@
         <par n="accionista__n"/>
      </e>
 
-     <e lm="natalicio" a="prompsit2adn">
+     <e lm="natalicio" r="LR" a="prompsit2adn">
         <i>natalicio</i>
         <par n="abismo__n"/>
      </e>
@@ -144046,7 +143760,7 @@
         <par n="aluvi/ón__n"/>
      </e>
 
-     <e lm="netamente" a="prompsit2adn">
+     <e lm="netamente" r="LR" a="prompsit2adn">
         <i>netamente</i>
         <par n="ahora__adv"/>
      </e>
@@ -144091,16 +143805,7 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="nicaragüense" a="prompsit2adn">
-        <i>nicaragüense</i>
-        <par n="abundante__adj"/>
-      </e>
-
-     <e lm="nicaragüense" a="prompsit2adn">
-        <i>nicaragüense</i>
-        <par n="accionista__n"/>
-     </e>
-
+     
      <e lm="nicho" a="prompsit2adn">
         <i>nicho</i>
         <par n="abismo__n"/>
@@ -144162,10 +143867,20 @@
      <e lm="nuboso" r="LR" a="prompsit2adn">
         <i>nubos</i>
         <par n="abstract/o__adj"/>
+     </e> 
+     
+     <e lm="nublado" a="prompsit2adn">
+        <i>nublad</i>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="nucleolo" a="prompsit2adn">
         <i>nucleolo</i>
+        <par n="abismo__n"/>
+     </e>
+     
+     <e lm="presentimiento" a="prompsit2adn">
+        <i>presentimiento</i>
         <par n="abismo__n"/>
      </e>
 
@@ -144464,11 +144179,6 @@
         <par n="abogad/o__n"/>
      </e>
 
-     <e lm="ósmosis" a="prompsit2adn">
-        <i>ósmosis</i>
-        <par n="Tm__n"/>
-     </e>
-
      <e lm="ostentación" a="prompsit2adn">
         <i>ostentaci</i>
         <par n="acci/ón__n"/>
@@ -144489,12 +144199,7 @@
         <par n="abogad/o__n"/>
      </e>
 
-     <e lm="otoñal" a="prompsit2adn">
-        <i>otoñal</i>
-        <par n="abdominal__adj"/>
-     </e>
-
-     <e lm="ovacionar" a="prompsit2adn">
+      <e lm="ovacionar" a="prompsit2adn">
         <i>ovacion</i>
         <par n="abandon/ar__vblex"/>
       </e>
@@ -144612,11 +144317,6 @@
         <par n="abandón/ar__vblex"/>
      </e>
 
-     <e lm="pardo" a="prompsit2adn">
-        <i>pard</i>
-        <par n="absolut/o__adj"/>
-     </e>
-
      <e lm="parentesco" a="prompsit2adn">
         <i>parentesco</i>
         <par n="abismo__n"/>
@@ -144649,11 +144349,6 @@
 
      <e lm="parvulario" a="prompsit2adn">
         <i>parvulario</i>
-        <par n="abismo__n"/>
-     </e>
-
-     <e lm="pasatiempo" a="prompsit2adn">
-        <i>pasatiempo</i>
         <par n="abismo__n"/>
      </e>
 
@@ -144725,25 +144420,13 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="patrullera" a="prompsit2adn">
-        <i>patrullera</i>
-        <par n="abeja__n"/>
-     </e>
-
-     <e lm="pavo" a="prompsit2adn">
-        <i>pav</i>
-        <par n="abogad/o__n"/>
-     </e>
+  
 
      <e lm="pdf" a="prompsit2adn">
         <i>pdf</i>
         <par n="ABC__np"/>
      </e>
 
-     <e lm="peatonal" a="prompsit2adn">
-        <i>peatonal</i>
-        <par n="abdominal__adj"/>
-     </e>
 
      <e lm="pecio" a="prompsit2adn">
 			<i>pecio</i>
@@ -144759,11 +144442,6 @@
 
      <e lm="pediátrico" a="prompsit2adn">
         <i>pediátric</i>
-        <par n="absolut/o__adj"/>
-     </e>
-
-     <e lm="pedigüeño" a="prompsit2adn">
-        <i>pedigüeñ</i>
         <par n="absolut/o__adj"/>
      </e>
 
@@ -144815,11 +144493,6 @@
      <e lm="perdiz" a="prompsit2adn">
         <i>perdi</i>
         <par n="actri/z__n"/>
-     </e>
-
-     <e lm="perecedero" a="prompsit2adn">
-        <i>pereceder</i>
-        <par n="absolut/o__adj"/>
      </e>
 
      <e lm="peregrinaje" a="prompsit2adn">
@@ -144890,11 +144563,6 @@
      <e lm="personalización" a="prompsit2adn">
         <i>personalizaci</i>
         <par n="acci/ón__n"/>
-     </e>
-
-     <e lm="perspicaz" a="prompsit2adn">
-        <i>perspica</i>
-        <par n="atro/z__adj"/>
      </e>
 
      <e lm="persuadir" a="prompsit2adn">
@@ -145005,16 +144673,6 @@
         <par n="abeja__n"/>
      </e>
 
-     <e lm="pizca" r="RL" a="prompsit2adn">
-        <i>pizca</i>
-        <par n="abeja__n"/>
-      </e>
-
-     <e lm="pizca" r="LR" a="prompsit2adn">
-        <i>pizca</i>
-        <par n="abeja__n"/>
-     </e>
-
      <e lm="plácido" a="prompsit2adn">
         <i>plácid</i>
         <par n="absolut/o__adj"/>
@@ -145056,11 +144714,6 @@
           <r>pleite</r>
         </p>
         <par n="abandón/ar__vblex"/>
-     </e>
-
-     <e lm="pleitesía" a="prompsit2adn">
-        <i>pleitesía</i>
-        <par n="abeja__n"/>
      </e>
 
      <e lm="plica" a="prompsit2adn">
@@ -145154,7 +144807,7 @@
 
      <e lm="polvorín" a="prompsit2adn">
         <i>polvor</i>
-        <par n="bailar/ín__n"/>
+        <par n="bot/ín__n"/>
      </e>
 
      <e lm="pompa" a="prompsit2adn">
@@ -145201,6 +144854,11 @@
         <i>pormenorizadamente</i>
         <par n="ahora__adv"/>
      </e>
+     
+     <e lm="detalladamente" a="prompsit2adn">
+        <i>detalladamente</i>
+        <par n="ahora__adv"/>
+     </e>
 
      <e lm="pornográfico" a="prompsit2adn">
         <i>pornográfic</i>
@@ -145223,7 +144881,7 @@
      </e>
 
      <e lm="posgrado" a="prompsit2adn">
-        <i>pos</i>
+        <i>posgrado</i>
         <par n="abismo__n"/>
      </e>
 
@@ -145472,10 +145130,6 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="prestamista" a="prompsit2adn">
-        <i>prestamista</i>
-        <par n="accionista__n"/>
-     </e>
 
      <e lm="presumible" a="prompsit2adn">
         <i>presumible</i>
@@ -145623,11 +145277,6 @@
         <par n="abogad/o__n"/>
      </e>
 
-     <e lm="profundización" a="prompsit2adn">
-        <i>profundizaci</i>
-        <par n="acci/ón__n"/>
-     </e>
-
      <e lm="profusión" a="prompsit2adn">
         <i>profusi</i>
         <par n="acci/ón__n"/>
@@ -145655,11 +145304,6 @@
 
      <e lm="prólogo" a="prompsit2adn">
         <i>prólogo</i>
-        <par n="abismo__n"/>
-     </e>
-
-     <e lm="promedio" a="prompsit2adn">
-        <i>promedio</i>
         <par n="abismo__n"/>
      </e>
 
@@ -145824,12 +145468,7 @@
         <par n="/pseudónimo__adj"/>
      </e>
 
-     <e lm="psicoanálisis" a="prompsit2adn">
-        <i>psicoanálisis</i>
-        <par n="Tm__n"/>
-     </e>
-
-  
+      
      <e lm="pujante" a="prompsit2adn">
         <i>pujante</i>
         <par n="abundante__adj"/>
@@ -145863,11 +145502,6 @@
      <e lm="punzante" a="prompsit2adn">
         <i>punzante</i>
         <par n="abundante__adj"/>
-     </e>
-
-     <e lm="puñetazo" a="prompsit2adn">
-        <i>puñetazo</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="pureza" a="prompsit2adn">
@@ -145908,24 +145542,7 @@
         <par n="abeja__n"/>
      </e>
 
-     <e lm="quebrantar" a="prompsit2adn">
-        <i>quebrant</i>
-        <par n="abandon/ar__vblex"/>
-      </e>
-
-     <e lm="quebrantar" a="prompsit2adn">
-        <p>
-          <l>quebránt</l>
-          <r>quebrant</r>
-        </p>
-        <par n="abandón/ar__vblex"/>
-     </e>
-
-     <e lm="quemazón" a="prompsit2adn">
-        <i>quemaz</i>
-        <par n="aluvi/ón__n"/>
-     </e>
-
+    
      <e lm="querencia" a="prompsit2adn">
         <i>querencia</i>
         <par n="abeja__n"/>
@@ -146334,10 +145951,6 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="recibimiento" a="prompsit2adn">
-        <i>recibimiento</i>
-        <par n="abismo__n"/>
-     </e>
 
      <e lm="reciprocidad" a="prompsit2adn">
         <i>reciprocidad</i>
@@ -146433,21 +146046,12 @@
         <par n="abandón/ar__vblex"/>
      </e>
 
-     <e lm="recordman" a="prompsit2adn">
-        <i>record</i>
-        <par n="record/man__n"/>
-     </e>
-
      <e lm="recriminación" a="prompsit2adn">
         <i>recriminaci</i>
         <par n="acci/ón__n"/>
      </e>
 
-     <e lm="recrudecimiento" a="prompsit2adn">
-        <i>recrudecimiento</i>
-        <par n="abismo__n"/>
-     </e>
-
+    
      <e lm="recubrir" a="prompsit2adn">
         <i>recub</i>
         <par n="ab/rir__vblex"/>
@@ -146724,11 +146328,6 @@
         <par n="ahora__adv"/>
      </e>
 
-     <e lm="regocijo" a="prompsit2adn">
-        <i>regocijo</i>
-        <par n="abismo__n"/>
-     </e>
-
      <e lm="regusto" a="prompsit2adn">
         <i>regusto</i>
         <par n="abismo__n"/>
@@ -146969,11 +146568,6 @@
         <par n="acci/ón__n"/>
      </e>
 
-     <e lm="rendija" a="prompsit2adn">
-        <i>rendija</i>
-        <par n="abeja__n"/>
-     </e>
-
      <e lm="renegociación" a="prompsit2adn">
         <i>renegociaci</i>
         <par n="acci/ón__n"/>
@@ -146990,11 +146584,6 @@
           <r>renegoci</r>
         </p>
         <par n="abandón/ar__vblex"/>
-     </e>
-
-     <e lm="renglón" a="prompsit2adn">
-        <i>rengl</i>
-        <par n="aluvi/ón__n"/>
      </e>
 
      <e lm="renovador" a="prompsit2adn">
@@ -147099,7 +146688,7 @@
         <par n="abundante__adj"/>
      </e>
 
-     <e lm="repunte" r="LR" a="prompsit2adn">
+     <e lm="repunte" a="prompsit2adn">
         <i>repunte</i>
         <par n="abismo__n"/>
      </e>
@@ -147122,16 +146711,7 @@
         <par n="abandón/ar__vblex"/>
      </e>
 
-     <e lm="res" a="prompsit2adn">
-        <i>res</i>
-        <par n="accesibilidad__n"/>
-     </e>
-
-     <e lm="resbalón" a="prompsit2adn">
-        <i>resbal</i>
-        <par n="aluvi/ón__n"/>
-     </e>
-
+   
      <e lm="rescoldo" a="prompsit2adn">
         <i>rescoldo</i>
         <par n="abismo__n"/>
@@ -147152,11 +146732,7 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="resquicio" a="prompsit2adn">
-        <i>resquicio</i>
-        <par n="abismo__n"/>
-     </e>
-
+   
      <e lm="restablecimiento" a="prompsit2adn">
         <i>restablecimiento</i>
         <par n="abismo__n"/>
@@ -147276,11 +146852,6 @@
           <r>revend</r>
         </p>
         <par n="vénd/er__vblex"/>
-     </e>
-
-     <e lm="reventón" a="prompsit2adn">
-        <i>revent</i>
-        <par n="aluvi/ón__n"/>
      </e>
 
      <e lm="reverendo" a="prompsit2adn">
@@ -147460,13 +147031,6 @@
      <e lm="salinidad" a="prompsit2adn">
 			<i>salinidad</i>
 			<par n="accesibilidad__n"/>
-		</e>
-
-
-
-     <e lm="salmantino" r="LR" a="prompsit2adn">
-			<i>salmantin</i>
-			<par n="absolut/o__adj"/>
 		</e>
 
 
@@ -147798,25 +147362,11 @@
         <par n="abril__n"/>
      </e>
 
-     <e lm="silo" a="prompsit2adn">
-        <i>silo</i>
-        <par n="abismo__n"/>
-     </e>
-
      <e lm="silvestre" a="prompsit2adn">
         <i>silvestre</i>
         <par n="abundante__adj"/>
      </e>
 
-     <e lm="sima" a="prompsit2adn">
-        <i>sima</i>
-        <par n="abeja__n"/>
-     </e>
-
-     <e lm="simbiosis" a="prompsit2adn">
-        <i>simbiosis</i>
-        <par n="Tm__n"/>
-     </e>
 
      <e lm="simbólicamente" a="prompsit2adn">
         <i>simbólicamente</i>
@@ -147904,11 +147454,7 @@
         <par n="accesibilidad__n"/>
      </e>
 
-     <e lm="sinopsis" a="prompsit2adn">
-        <i>sinopsis</i>
-        <par n="Tm__n"/>
-     </e>
-
+   
      <e lm="sintetizador" a="prompsit2adn">
         <i>sintetizador</i>
         <par n="abril__n"/>
@@ -147970,11 +147516,7 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="sobredosis" a="prompsit2adn">
-        <i>sobredosis</i>
-        <par n="Tm__n"/>
-     </e>
-
+   
      <e lm="sobremanera" a="prompsit2adn">
         <i>sobremanera</i>
         <par n="ahora__adv"/>
@@ -148479,11 +148021,7 @@
         <par n="ahora__adv"/>
      </e>
 
-     <e lm="sustentación" a="prompsit2adn">
-        <i>sustentaci</i>
-        <par n="acci/ón__n"/>
-     </e>
-
+    
      <e lm="sustrato" a="prompsit2adn">
         <i>sustrato</i>
         <par n="abismo__n"/>
@@ -148517,11 +148055,6 @@
      <e lm="tajantemente" a="prompsit2adn">
         <i>tajantemente</i>
         <par n="ahora__adv"/>
-     </e>
-
-     <e lm="tajo" a="prompsit2adn">
-        <i>tajo</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="talibán" a="prompsit2adn">
@@ -148589,11 +148122,11 @@
         <i>tarraconense</i>
         <par n="abundante__adj"/>
       </e>
-
+      
      <e lm="tarraconense" a="prompsit2adn">
         <i>tarraconense</i>
         <par n="accionista__n"/>
-     </e>
+      </e>
 
      <e lm="tartamudo" a="prompsit2adn">
         <i>tartamud</i>
@@ -148686,11 +148219,7 @@
         <par n="señor__n"/>
      </e>
 
-     <e lm="tenaz" a="prompsit2adn">
-        <i>tena</i>
-        <par n="atro/z__adj"/>
-     </e>
-
+ 
      <e lm="tendente" a="prompsit2adn">
         <i>tendente</i>
         <par n="abundante__adj"/>
@@ -148873,11 +148402,6 @@
           <r>titube</r>
         </p>
         <par n="abandón/ar__vblex"/>
-     </e>
-
-     <e lm="tiza" a="prompsit2adn">
-        <i>tiza</i>
-        <par n="abeja__n"/>
      </e>
 
      <e lm="tocamiento" a="prompsit2adn">
@@ -149141,10 +148665,6 @@
         <par n="abogad/o__n"/>
      </e>
 
-     <e lm="trecho" r="LR" a="prompsit2adn">
-        <i>trecho</i>
-        <par n="abismo__n"/>
-     </e>
 
      <e lm="trenzar" a="prompsit2adn">
         <i>tren</i>
@@ -149204,7 +148724,7 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="troika" r="LR" a="prompsit2adn">
+     <e lm="troika" a="prompsit2adn">
         <i>troika</i>
         <par n="abeja__n"/>
      </e>
@@ -149234,19 +148754,9 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="tuberculosis" a="prompsit2adn">
-        <i>tuberculosis</i>
-        <par n="Tm__n"/>
-     </e>
-
      <e lm="tuerto" a="prompsit2adn">
         <i>tuert</i>
         <par n="absolut/o__adj"/>
-     </e>
-
-     <e lm="tulipán" a="prompsit2adn">
-        <i>tulip</i>
-        <par n="adem/án__n"/>
      </e>
 
      <e lm="tullido" a="prompsit2adn">
@@ -149322,11 +148832,6 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="ultravioleta" a="prompsit2adn">
-        <i>ultravioleta</i>
-        <par n="abundante__adj"/>
-     </e>
-
      <e lm="unicidad" a="prompsit2adn">
         <i>unicidad</i>
         <par n="accesibilidad__n"/>
@@ -149365,11 +148870,6 @@
      <e lm="UOC" a="prompsit2adn">
         <i>UOC</i>
         <par n="BBC__n"/>
-     </e>
-
-     <e lm="UPN" a="prompsit2adn">
-        <i>UPN</i>
-        <par n="ABC__np"/>
      </e>
 
      <e lm="urbanista" a="prompsit2adn">
@@ -149415,11 +148915,6 @@
         <par n="absolut/o__adj"/>
       </e>
 
-     <e lm="vagabundo" a="prompsit2adn">
-        <i>vagabund</i>
-        <par n="abogad/o__n"/>
-     </e>
-
      <e lm="vagamente" a="prompsit2adn">
         <i>vagamente</i>
         <par n="ahora__adv"/>
@@ -149441,11 +148936,6 @@
      <e lm="vaivén" a="prompsit2adn">
         <i>vaiv</i>
         <par n="almac/én__n"/>
-     </e>
-
-     <e lm="valedor" a="prompsit2adn">
-        <i>valedor</i>
-        <par n="señor__n"/>
      </e>
 
      <e lm="valorización" a="prompsit2adn">
@@ -149595,11 +149085,6 @@
         <par n="abeja__n"/>
      </e>
 
-     <e lm="verja" a="prompsit2adn">
-        <i>verja</i>
-        <par n="abeja__n"/>
-     </e>
-
      <e lm="verosímil" a="prompsit2adn">
         <i>verosímil</i>
         <par n="abdominal__adj"/>
@@ -149631,11 +149116,6 @@
           <r>vertebr</r>
         </p>
         <par n="abandón/ar__vblex"/>
-     </e>
-
-     <e lm="vértice" a="prompsit2adn">
-        <i>vértice</i>
-        <par n="abismo__n"/>
      </e>
 
      <e lm="vicecanciller" a="prompsit2adn">
@@ -149709,11 +149189,7 @@
         <par n="accionista__n"/>
      </e>
 
-     <e lm="videocámara" r="LR" a="prompsit2adn">
-        <i>videocámara</i>
-        <par n="abeja__n"/>
-     </e>
-
+   
      <e lm="videoconferencia" a="prompsit2adn">
         <i>videoconferencia</i>
         <par n="abeja__n"/>
@@ -149722,16 +149198,6 @@
      <e lm="videográfico" a="prompsit2adn">
         <i>videográfic</i>
         <par n="absolut/o__adj"/>
-     </e>
-
-     <e lm="VIH" a="prompsit2adn">
-        <i>VIH</i>
-        <par n="IRPF__n"/>
-     </e>
-
-     <e lm="vikingo" a="prompsit2adn">
-        <i>viking</i>
-        <par n="abogad/o__n"/>
      </e>
 
      <e lm="viña" a="prompsit2adn">
@@ -149767,11 +149233,6 @@
      <e lm="vitalista" a="prompsit2adn">
         <i>vitalista</i>
         <par n="abundante__adj"/>
-     </e>
-
-     <e lm="vivaz" a="prompsit2adn">
-        <i>viva</i>
-        <par n="atro/z__adj"/>
      </e>
 
      <e lm="víveres" a="prompsit2adn">
@@ -149819,21 +149280,6 @@
         <par n="accesibilidad__n"/>
      </e>
 
-     <e lm="voraz" a="prompsit2adn">
-        <i>vora</i>
-        <par n="atro/z__adj"/>
-     </e>
-
-     <e lm="vórtice" a="prompsit2adn">
-        <i>vórtice</i>
-        <par n="abismo__n"/>
-     </e>
-
-     <e lm="yema" a="prompsit2adn">
-        <i>yema</i>
-        <par n="abeja__n"/>
-     </e>
-
      <e lm="yen" a="prompsit2adn">
         <i>yen</i>
         <par n="abril__n"/>
@@ -149844,15 +149290,6 @@
         <par n="abismo__n"/>
      </e>
 
-     <e lm="yeso" a="prompsit2adn">
-        <i>yeso</i>
-        <par n="abismo__n"/>
-     </e>
-
-     <e lm="YPF" a="prompsit2adn">
-        <i>YPF</i>
-        <par n="ABC__np"/>
-     </e>
 
      <e lm="yugo" a="prompsit2adn">
         <i>yugo</i>
@@ -149889,11 +149326,7 @@
         <par n="abdominal__adj"/>
      </e>
 
-     <e lm="zozobra" a="prompsit2adn">
-        <i>zozobra</i>
-        <par n="abeja__n"/>
-     </e>
-
+   
      <e lm="zozobrar" a="prompsit2adn">
         <i>zozobr</i>
         <par n="abandon/ar__vblex"/>

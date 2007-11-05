@@ -8399,7 +8399,7 @@
         </p>
       </e>
     </pardef>
-		<pardef n="MTS__n">
+    <pardef n="MTS__n">
       <e>
         <p>
           <l/>
@@ -73501,7 +73501,7 @@
         <par n="abdominal__adj"/>
       </e>
       
-      <e lm="centenari">
+      <e lm="centenri">
         <i>centen</i>
         <par n="adjudicat/ari__adj"/>
       </e>
@@ -133635,10 +133635,6 @@
         <par n="afric/à__adj"/>
       </e>
 
-            <e lm="ciutadà">
-        <i>ciutad</i>
-        <par n="afric/à__adj"/>
-      </e>
 
             <e lm="catòlic">
         <i>catòli</i>
@@ -137371,10 +137367,6 @@
       <i>hostalatge</i>
       <par n="abric__n"/>
     </e>
-    <e lm="embalatge">
-      <i>embalatge</i>
-      <par n="abric__n"/>
-    </e>
     <e lm="pizzeria">
       <i>pizzeri</i>
       <par n="abell/a__n"/>
@@ -137614,6 +137606,25 @@
         <i>fit</i>
         <par n="abander/ar__vblex"/>
      </e>
+     
+      <e lm="formar expedient">
+        <i>form</i>
+	<par n="abander/ar__vblex"/>
+	<p>
+          <l><b/>expedient</l>
+          <r><g><b/>expedient</g></r>
+        </p>
+      </e>
+      
+      <e lm="fer explotar">
+        <i>f</i>
+	<par n="f/er__vblex"/>
+	<p>
+          <l><b/>explotar</l>
+          <r><g><b/>explotar</g></r>
+        </p>
+      </e>
+
 
      <e lm="crivellar" a="prompsit2adn">
         <i>crivell</i>
@@ -138117,6 +138128,21 @@
         <i>antípod</i>
         <par n="accionist/a__n"/>
      </e>
+     
+     <e lm="antítesi" a="prompsit2adn">
+        <i>antítesi</i>
+        <par n="accessibilitat__n"/>
+     </e> 
+      
+     <e lm="oasi" a="prompsit2adn">
+        <i>oasi</i>
+        <par n="abric__n"/>
+     </e> 
+     
+     <e lm="metàstasi" a="prompsit2adn">
+        <i>metàstasi</i>
+        <par n="accessibilitat__n"/>
+     </e>
 
      <e lm="antologia" a="prompsit2adn">
         <i>antologi</i>
@@ -138228,7 +138254,7 @@
         <par n="abric__n"/>
      </e>
 
-     <e lm="arrap" r="LR" a="prompsit2adn">
+     <e lm="arrap" a="prompsit2adn">
         <i>arrap</i>
         <par n="abric__n"/>
      </e>
@@ -138521,6 +138547,11 @@
 
      <e lm="audàcia" a="prompsit2adn">
         <i>audàci</i>
+        <par n="abell/a__n"/>
+     </e>
+
+     <e lm="tonyina" a="prompsit2adn">
+        <i>tonyin</i>
         <par n="abell/a__n"/>
      </e>
 
@@ -138845,6 +138876,11 @@
         <i>birm</i>
         <par n="afric/à__adj"/>
      </e>
+     
+     <e lm="germà" a="prompsit2adn">
+        <i>germ</i>
+        <par n="afric/à__adj"/>
+     </e>
 
      <e lm="frontissa" a="prompsit2adn">
         <i>frontiss</i>
@@ -138932,7 +138968,7 @@
 
      <e lm="boscós" a="prompsit2adn">
         <i>bosc</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="bregar" a="prompsit2adn">
@@ -139351,6 +139387,7 @@
         <i>xarang</i>
         <par n="alg/a__n"/>
      </e>
+     
      <e lm="xàrter" a="prompsit2adn">
         <i>xàrter</i>
         <par n="multimèdia__adj"/>
@@ -139358,7 +139395,7 @@
 
      <e lm="xàrter" a="prompsit2adn">
         <i>xàrter</i>
-        <par n="guardaespatlles__n"/>
+        <par n="campus__n"/>
      </e>
 
      <e lm="desencís" a="prompsit2adn">
@@ -139565,11 +139602,6 @@
         <i>comerci</i>
         <par n="acarici/ar__vblex"/>
      </e>
-
-     <e lm="còmic" a="prompsit2adn">
-        <i>còmi</i>
-        <par n="acadèmi/c__adj"/>
-      </e>
 
      <e lm="compartiment" a="prompsit2adn">
         <i>compartiment</i>
@@ -139902,7 +139934,7 @@
 
      <e lm="convuls" a="prompsit2adn">
         <i>convuls</i>
-        <par n="annex__adj"/>
+        <par n="complex__adj"/>
      </e>
 
      <e lm="cooperant" a="prompsit2adn">
@@ -140076,7 +140108,7 @@
 
      <e lm="quantiós" a="prompsit2adn">
         <i>quanti</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="panerola" a="prompsit2adn">
@@ -140098,7 +140130,7 @@
 
      <e lm="curós" a="prompsit2adn">
         <i>cur</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="culminació" a="prompsit2adn">
@@ -140494,7 +140526,7 @@
 
      <e lm="desitjós" a="prompsit2adn">
         <i>desitj</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="deserció" a="prompsit2adn">
@@ -140807,7 +140839,7 @@
 
      <e lm="dispers" a="prompsit2adn">
         <i>dispers</i>
-        <par n="annex__adj"/>
+        <par n="complex__adj"/>
      </e>
 
      <e lm="distanciament" a="prompsit2adn">
@@ -140887,7 +140919,7 @@
 
      <e lm="dolós" a="prompsit2adn">
         <i>dol</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="domesticació" a="prompsit2adn">
@@ -141675,7 +141707,7 @@
 
      <e lm="estrepitós" a="prompsit2adn">
         <i>estrepit</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="estrebar" a="prompsit2adn">
@@ -141688,11 +141720,7 @@
         <par n="ahir__adv"/>
      </e>
 
-     <e lm="estudiós" a="prompsit2adn">
-        <i>estudi</i>
-        <par n="aliment/ós__adj"/>
-     </e>
-
+ 
      <e lm="etrusc" a="prompsit2adn">
         <i>etrus</i>
         <par n="acadèmi/c__adj"/>
@@ -142244,7 +142272,7 @@
         <par n="abdominal__adj"/>
      </e>
 
-     <e lm="fruiter" a="prompsit2adn">
+     <e lm="fruiter" r="LR" a="prompsit2adn">
         <i>fruiter</i>
         <par n="absolut__adj"/>
       </e>
@@ -143477,7 +143505,7 @@
 
      <e lm="jocós" a="prompsit2adn">
         <i>joc</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="joier" a="prompsit2adn">
@@ -144562,10 +144590,6 @@
         <par n="acompanyant__n"/>
      </e>
 
-     <e lm="natalici" a="prompsit2adn">
-        <i>natalici</i>
-        <par n="abric__n"/>
-     </e>
      <e lm="naturalista" a="prompsit2adn">
         <i>naturalist</i>
         <par n="agrícol/a__adj"/>
@@ -144645,7 +144669,7 @@
         <par n="aband/ó__n"/>
      </e>
 
-     <e lm="netament" a="prompsit2adn">
+     <e lm="netament" r="RL" a="prompsit2adn">
         <i>netament</i>
         <par n="ahir__adv"/>
      </e>
@@ -144746,7 +144770,7 @@
 
      <e lm="nuvolós" a="prompsit2adn">
         <i>nuvol</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="nuclèol" a="prompsit2adn">
@@ -144836,6 +144860,11 @@
      <e lm="odiós" a="prompsit2adn">
         <i>odi</i>
         <par n="aliment/ós__adj"/>
+     </e> 
+     
+     <e lm="estudiós" a="prompsit2adn">
+        <i>estudi</i>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="of" a="prompsit2adn">
@@ -144855,7 +144884,7 @@
 
      <e lm="oficiós" a="prompsit2adn">
         <i>ofici</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="oferiment" a="prompsit2adn">
@@ -145174,7 +145203,7 @@
         <par n="abric__n"/>
      </e>
 
-     <e lm="esbalair" a="prompsit2adn">
+     <e lm="esbalair" r="RL" a="prompsit2adn">
         <i>esbala</i>
         <par n="addu/ir__vblex"/>
      </e>
@@ -145414,7 +145443,7 @@
 
      <e lm="piadós" a="prompsit2adn">
         <i>piad</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="picada" a="prompsit2adn">
@@ -145643,7 +145672,7 @@
 
      <e lm="portentós" a="prompsit2adn">
         <i>portent</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="possès" a="prompsit2adn">
@@ -145914,7 +145943,7 @@
 
      <e lm="prismàtics" a="prompsit2adn">
         <i>prismàtics</i>
-        <par n="campus__n"/>
+        <par n="afores__n"/>
      </e>
 
      <e lm="privació" a="prompsit2adn">
@@ -146050,14 +146079,6 @@
         <par n="abstract/e__adj"/>
       </e>
 
-       <e lm="prompte" a="prompsit2adn">
-        <p>
-          <l>prompt</l>
-          <r>prompt</r>
-        </p>
-        <par n="abstract/e__adj"/>
-      </e>
-
      <e lm="pronunciament" a="prompsit2adn">
         <i>pronunciament</i>
         <par n="abric__n"/>
@@ -146080,7 +146101,7 @@
 
      <e lm="propens" a="prompsit2adn">
         <i>propens</i>
-        <par n="annex__adj"/>
+        <par n="complex__adj"/>
      </e>
 
      <e lm="proporcionalitat" a="prompsit2adn">
@@ -146145,7 +146166,7 @@
 
      <e lm="profitós" a="prompsit2adn">
         <i>profit</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="providència" a="prompsit2adn">
@@ -146723,7 +146744,7 @@
         <par n="abric__n"/>
      </e>
 
-     <e lm="refregar" a="prompsit2adn">
+     <e lm="refregar" r="RL" a="prompsit2adn">
         <i>refreg</i>
         <par n="afalag/ar__vblex"/>
      </e>
@@ -148150,12 +148171,12 @@
         <par n="abander/ar__vblex"/>
      </e>
 
-     <e lm="tarraconense" r="LR" a="prompsit2adn">
+     <e lm="tarraconense"  a="prompsit2adn">
         <i>tarraconense</i>
         <par n="abdominal__adj"/>
       </e>
 
-     <e lm="tarraconense" r="LR" a="prompsit2adn">
+     <e lm="tarraconense" a="prompsit2adn">
         <i>tarraconense</i>
         <par n="acompanyant__n"/>
      </e>
@@ -148192,7 +148213,7 @@
 
      <e lm="tediós" a="prompsit2adn">
         <i>tedi</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="teixó" a="prompsit2adn">
@@ -148252,7 +148273,7 @@
 
      <e lm="tenebrós" a="prompsit2adn">
         <i>tenebr</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="tenidor" a="prompsit2adn">
@@ -148513,7 +148534,7 @@
 
      <e lm="transmissor" a="prompsit2adn">
         <i>transmissor</i>
-        <par n="senyor__n"/>
+        <par n="abric__n"/>
      </e>
 
      <e lm="transoceànic" a="prompsit2adn">
@@ -148639,11 +148660,6 @@
      <e lm="troncal" a="prompsit2adn">
         <i>troncal</i>
         <par n="abdominal__adj"/>
-     </e>
-
-     <e lm="pressa" a="prompsit2adn">
-        <i>press</i>
-        <par n="abell/a__n"/>
      </e>
 
      <e lm="ensopec" a="prompsit2adn">
@@ -148821,16 +148837,6 @@
         <par n="vaiv/é__n"/>
      </e>
 
-     <e lm="valedor" a="prompsit2adn">
-        <i>valedor</i>
-        <par n="absolut__adj"/>
-      </e>
-
-     <e lm="valedor" a="prompsit2adn">
-        <i>valedor</i>
-        <par n="senyor__n"/>
-     </e>
-
      <e lm="valorització" a="prompsit2adn">
         <i>valoritzaci</i>
         <par n="acci/ó__n"/>
@@ -148993,7 +148999,7 @@
 
      <e lm="viciós" a="prompsit2adn">
         <i>vici</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
 
@@ -149004,7 +149010,7 @@
 
      <e lm="victoriós" a="prompsit2adn">
         <i>victori</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="vinya" a="prompsit2adn">
@@ -149049,7 +149055,7 @@
 
      <e lm="viscós" a="prompsit2adn">
         <i>visc</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="visionari" a="prompsit2adn">
@@ -149064,7 +149070,7 @@
 
      <e lm="queviures" a="prompsit2adn">
         <i>queviures</i>
-        <par n="campus__n"/>
+        <par n="afores__n"/>
      </e>
 
      <e lm="vivent" a="prompsit2adn">
@@ -149094,12 +149100,12 @@
 
      <e lm="voluminós" a="prompsit2adn">
         <i>volumin</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="voluntariós" a="prompsit2adn">
         <i>voluntari</i>
-        <par n="aliment/ós__adj"/>
+        <par n="afectu/ós__adj"/>
      </e>
 
      <e lm="voracitat" a="prompsit2adn">
