@@ -106654,6 +106654,11 @@
       <e lm="reclús">
         <i>recl</i>
         <par n="andal/ús__n"/>
+      </e> 
+      
+      <e lm="reclús">
+        <i>recl</i>
+        <par n="andal/ús__adj"/>
       </e>
       
       <e lm="recolzament">
@@ -112564,12 +112569,7 @@
         <i>Almansa</i>
         <par n="Afganistan__np"/>
       </e>
-      
-      <e lm="Almería">
-        <i>Almería</i>
-        <par n="Afganistan__np"/>
-      </e>
-      
+       
       <e lm="Almodóvar">
         <i>Almodóvar</i>
         <par n="Abad__np"/>
@@ -116775,11 +116775,7 @@
         <par n="Abad__np"/>
       </e>
       
-      <e lm="Moscou">
-        <i>Moscou</i>
-        <par n="Afganistan__np"/>
-      </e>
-      
+        
       <e lm="Moskva">
         <i>Moskva</i>
         <par n="Afganistan__np"/>
@@ -118424,10 +118420,6 @@
         <par n="Afganistan__np"/>
       </e>
       
-      <e lm="Taiwan">
-        <i>Taiwan</i>
-        <par n="Afganistan__np"/>
-      </e>
       
       <e lm="Tania">
         <i>Tania</i>
@@ -141105,17 +141097,14 @@
 		</e>
 
 
-
-     <e lm="euríbor" r="LR" a="prompsit2adn">
+     <e lm="euríbor" a="prompsit2adn">
 	<i>euríbor</i>
 	<par n="atletisme__n"/>
-		</e>
-
-
+     </e>
 
      <e lm="eurodiputat" a="prompsit2adn">
         <i>eurodiputa</i>
-		  <par n="advoca/t__n"/>
+	<par n="advoca/t__n"/>
      </e>
 
      <e lm="evangèlic" a="prompsit2adn">
@@ -151191,7 +151180,7 @@
 </e>
 <e lm="merenga" a="prompsit2adn">
   <i>mereng</i>
-  <par n="meg/a__n"/>
+  <par n="abell/a__n"/>
 </e>
 <e lm="migcampista" a="prompsit2adn">
   <i>migcampist</i>
@@ -151347,7 +151336,7 @@
 </e>
 <e lm="resituar" a="prompsit2adn">
   <i>resitu</i>
-  <par n="adequ/ar__vblex"/>
+  <par n="acarici/ar__vblex"/>
 </e>
 <e lm="retinopatia" a="prompsit2adn">
   <i>retinopati</i>
@@ -151383,7 +151372,7 @@
 </e>
 <e lm="plusmarca" a="prompsit2adn">
   <i>plusmar</i>
-  <par n="monar/ca__n"/>
+  <par n="acústi/ca__n"/>
 </e>
 <e lm="plusmarquista" a="prompsit2adn">
   <i>plusmarquist</i>
@@ -151637,12 +151626,12 @@
   <i>tex</i>
   <par n="americ/à__n"/>
 </e>
-<e lm="somalí" a="prompsit2adn">
-  <i>somalí</i>
+<e lm="somali" a="prompsit2adn">
+  <i>somali</i>
   <par n="abdominal__adj"/>
 </e>
-<e lm="somalí" a="prompsit2adn">
-  <i>somalí</i>
+<e lm="somali" a="prompsit2adn">
+  <i>somali</i>
   <par n="acompanyant__n"/>
 </e>
 <e lm="rellançar" a="prompsit2adn">
@@ -151675,30 +151664,22 @@
 </e>
 <e lm="pupil" a="prompsit2adn">
   <i>pupil</i>
-  <par n="acompanyant__n"/>
+  <par n="gal__n"/>
 </e>
 <e lm="precampanya" a="prompsit2adn">
   <i>precampany</i>
   <par n="abell/a__n"/>
 </e>
-
-
-
-
-
-
-
-
 <e lm="porfídia" a="prompsit2adn">
   <i>porfídi</i>
   <par n="abell/a__n"/>
 </e>
 <e lm="de Pontevedra" a="prompsit2adn">
-  <i>de Pontevedra</i>
+  <i>de<b/>Pontevedra</i>
   <par n="guardaespatlles__n"/>
 </e>
 <e lm="de Pontevedra" a="prompsit2adn">
-  <i>de Pontevedra</i>
+  <i>de<b/>Pontevedra</i>
   <par n="multimèdia__adj"/>
 </e>
 <e lm="pederàstia" a="prompsit2adn">
@@ -151714,7 +151695,7 @@
   <par n="absolut__adj"/>
 </e>
 <e lm="per als vianants" a="prompsit2adn">
-  <i>per als vianants</i>
+  <i>per<b/>als<b/>vianants</i>
   <par n="multimèdia__adj"/>
 </e>
 <e lm="paracaigudista" a="prompsit2adn">
@@ -151750,11 +151731,11 @@
   <par n="acadèmi/c__adj"/>
 </e>
 <e lm="de Melilla" a="prompsit2adn">
-  <i>de Melilla</i>
+  <i>de<b/>Melilla</i>
   <par n="multimèdia__adj"/>
 </e>
 <e lm="de Melilla" a="prompsit2adn">
-  <i>de Melilla</i>
+  <i>de<b/>Melilla</i>
   <par n="guardaespatlles__n"/>
 </e>
 <e lm="emmanillar" a="prompsit2adn">
@@ -151797,10 +151778,6 @@
   <i>etzib</i>
   <par n="abander/ar__vblex"/>
 </e>
-<e lm="malgastar" a="prompsit2adn">
-  <i>malgast</i>
-  <par n="abander/ar__vblex"/>
-</e>
 <e lm="descaradura" a="prompsit2adn">
   <i>descaradur</i>
   <par n="abell/a__n"/>
@@ -151820,10 +151797,6 @@
 <e lm="alcorànic" a="prompsit2adn">
   <i>alcoràni</i>
   <par n="acadèmi/c__adj"/>
-</e>
-<e lm="porter" a="prompsit2adn">
-  <i>porter</i>
-  <par n="senyor__n"/>
 </e>
 <e lm="txetxè" a="prompsit2adn">
   <i>txetx</i>
@@ -151879,7 +151852,7 @@
 </e>
 <e lm="antiaeri" a="prompsit2adn">
   <i>antia</i>
-  <par n="adjudicat/ari__adj"/>
+  <par n="a/eri__adj"/>
 </e>
 <e lm="antitabac" a="prompsit2adn">
   <i>antitabac</i>
@@ -151901,22 +151874,19 @@
   <i>tuberculosi</i>
   <par n="accessibilitat__n"/>
 </e>
-<e lm="trasplantació" a="prompsit2adn">
+<e lm="trasplantació" a="prompsit2adn" r="LR">
   <i>trasplantaci</i>
-  <par n="aband/ó__n"/>
+  <par n="acci/ó__n"/>
 </e>
 <e lm="surrealista" a="prompsit2adn">
   <i>surrealist</i>
   <par n="agrícol/a__adj"/>
 </e>
-<e lm="surrealista" a="prompsit2adn">
-  <i>surrealist</i>
-  <par n="agrícol/a__adj"/>
-</e><!-- borrar RL surrealista -->
+
 <e lm="socorrista" a="prompsit2adn">
   <i>socorrist</i>
   <par n="agrícol/a__adj"/>
-</e><!-- borrar RL surrealista -->
+</e>
 <e lm="socorrista" a="prompsit2adn">
   <i>socorrist</i>
   <par n="accionist/a__n"/>
@@ -151954,19 +151924,19 @@
   <par n="adjudicat/ari__adj"/>
 </e>
 <e lm="de Lugo" a="prompsit2adn">
-  <i>de Lugo</i>
+  <i>de<b/>Lugo</i>
   <par n="multimèdia__adj"/>
 </e>
 <e lm="de Lugo" a="prompsit2adn">
-  <i>de Lugo</i>
+  <i>de<b/>Lugo</i>
   <par n="guardaespatlles__n"/>
 </e>
 <e lm="de Lima" a="prompsit2adn">
-  <i>de Lima</i>
+  <i>de<b/>Lima</i>
   <par n="guardaespatlles__n"/>
 </e>
 <e lm="de Lima" a="prompsit2adn">
-  <i>de Lima</i>
+  <i>de<b/>Lima</i>
   <par n="multimèdia__adj"/>
 </e>
 <e lm="legionari" a="prompsit2adn">
@@ -152657,7 +152627,8 @@
 <e lm="ADNes" a="prompsit2adn"><i>ADNes</i><par n="ABC__np"/></e>
 <e lm="ADN.es" a="prompsit2adn"><i>ADN.es</i><par n="ABC__np"/></e>
 <e lm="The Times" a="prompsit2adn"><i>The<b/>Times</i><par n="ABC__np"/></e>
-<e lm="Al Quaeda" a="prompsit2adn"><i>Al<b/>Quaeda</i><par n="ABC__np"/></e>
+<e lm="Al Qaida" a="prompsit2adn"><i>Al<b/>Qaida</i><par n="ABC__np"/></e>
+<e lm="Al Qaeda" a="prompsit2adn"><i>Al<b/>Qaeda</i><par n="ABC__np"/></e>
 <e lm="Mediapro" a="prompsit2adn"><i>Mediapro</i><par n="ABC__np"/></e>
 <e lm="Tour" a="prompsit2adn"><i>Tour</i><par n="ABC__np"/></e>
 <e lm="McLaren" a="prompsit2adn"><i>McLaren</i><par n="ABC__np"/></e>
@@ -152680,9 +152651,7 @@
 <e lm="Fatah" a="prompsit2adn"><i>Fatah</i><par n="ABC__np"/></e>
 <e lm="Acciona" a="prompsit2adn"><i>Acciona</i><par n="ABC__np"/></e>
 <e lm="Supercopa" a="prompsit2adn"><i>Supercopa</i><par n="ABC__np"/></e>
-<e lm="La Caixa" a="prompsit2adn"><i>La</i><par n="ABC__np"/></e>
 <e lm="Adif" a="prompsit2adn"><i>Adif</i><par n="ABC__np"/></e>
-<e lm="Euribor" a="prompsit2adn"><i>Euribor</i><par n="ABC__np"/></e>
 <e lm="McLaren-Mercedes" a="prompsit2adn"><i>McLaren-Mercedes</i><par n="ABC__np"/></e>
 <e lm="Endeavour" a="prompsit2adn"><i>Endeavour</i><par n="ABC__np"/></e>
 <e lm="Esquerra" a="prompsit2adn"><i>Esquerra</i><par n="ABC__np"/></e>
@@ -152699,6 +152668,7 @@
 <e lm="Barclays" a="prompsit2adn"><i>Barclays</i><par n="ABC__np"/></e>
 <e lm="Inter" a="prompsit2adn"><i>Inter</i><par n="ABC__np"/></e>
 <e lm="Inter de Milan" a="prompsit2adn"><i>Inter<b/>de<b/>Milan</i><par n="ABC__np"/></e>
+<e lm="Milan" a="prompsit2adn"><i>Milan</i><par n="ABC__np"/></e>
 <e lm="Renault" a="prompsit2adn"><i>Renault</i><par n="ABC__np"/></e>
 <e lm="Williams" a="prompsit2adn"><i>Williams</i><par n="ABC__np"/></e>
 <e lm="Astroc" a="prompsit2adn"><i>Astroc</i><par n="ABC__np"/></e>
@@ -152719,7 +152689,7 @@
 <e lm="Disney Channel" a="prompsit2adn"><i>Disney<b/>Channel</i><par n="ABC__np"/></e>
 <e lm="Yihad" a="prompsit2adn"><i>Yihad</i><par n="ABC__np"/></e>
 <e lm="Euskal" a="prompsit2adn"><i>Euskal</i><par n="ABC__np"/></e>
-<e lm="Daily" a="prompsit2adn"><i>Daily</i><par n="ABC__np"/></e>
+<e lm="Daily News" a="prompsit2adn"><i>Daily<b/>News</i><par n="ABC__np"/></e>
 <e lm="Altadis" a="prompsit2adn"><i>Altadis</i><par n="ABC__np"/></e>
 <e lm="The Guardian" a="prompsit2adn"><i>The<b/>Guardian</i><par n="ABC__np"/></e>
 <e lm="Eurocopa" a="prompsit2adn"><i>Eurocopa</i><par n="ABC__np"/></e>
@@ -152819,17 +152789,15 @@
 <e lm="Torontó" a="prompsit2adn"><i>Torontó</i><par n="Afganistan__np"/></e>
 <e lm="l'Havana" a="prompsit2adn"><i>l'Havana</i><par n="Afganistan__np"/></e>
 <e lm="Congonhas" a="prompsit2adn"><i>Congonhas</i><par n="Afganistan__np"/></e>
-<e lm="Bogotá" a="prompsit2adn"><i>Bogotá</i><par n="Afganistan__np"/></e>
 <e lm="Egibar" a="prompsit2adn"><i>Egibar</i><par n="Afganistan__np"/></e>
 <e lm="Nova Zelanda" a="prompsit2adn"><i>Nova<b/>Zelanda</i><par n="Afganistan__np"/></e>
 <e lm="Kyoto" a="prompsit2adn"><i>Kyoto</i><par n="Afganistan__np"/></e>
 <e lm="Hong Kong" a="prompsit2adn"><i>Hong<b/>Kong</i><par n="Afganistan__np"/></e>
 <e lm="Glasgow" a="prompsit2adn"><i>Glasgow</i><par n="Afganistan__np"/></e>
 <e lm="Barbate" a="prompsit2adn"><i>Barbate</i><par n="Afganistan__np"/></e>
-<e lm="Jerusalén" a="prompsit2adn"><i>Jerusalén</i><par n="Afganistan__np"/></e>
 <e lm="Algarve" a="prompsit2adn"><i>Algarve</i><par n="Afganistan__np"/></e>
 <e lm="Las Vegas" a="prompsit2adn"><i>Las<b/>Vegas</i><par n="Afganistan__np"/></e>
-<e lm="Moscú" a="prompsit2adn"><i>Moscú</i><par n="Afganistan__np"/></e>
+<e lm="Moscou" a="prompsit2adn"><i>Moscou</i><par n="Afganistan__np"/></e>
 <e lm="Santiago de Compostel·la" a="prompsit2adn"><i>Santiago<b/>de<b/>Compostel·la</i><par n="Afganistan__np"/></e>
 <e lm="Taiwan" a="prompsit2adn"><i>Taiwan</i><par n="Afganistan__np"/></e>
 <e lm="Xanghai" a="prompsit2adn"><i>Xanghai</i><par n="Afganistan__np"/></e>
@@ -152975,7 +152943,7 @@
 <e lm="xapista" a="prompsit2adn"><i>xapist</i><par n="agrícol/a__adj"/></e>
 <e lm="chavista" a="prompsit2adn"><i>chavist</i><par n="agrícol/a__adj"/></e>
 <e lm="ciberterrorista" a="prompsit2adn"><i>ciberterrorist</i><par n="agrícol/a__adj"/></e>
-<e lm="cuer" a="prompsit2adn"><i>cuer</i><par n="agrícol/a__adj"/></e>
+<e lm="cuer" a="prompsit2adn"><i>cuer</i><par n="absolut__adj"/></e>
 <e lm="colonialista" a="prompsit2adn"><i>colonialist</i><par n="agrícol/a__adj"/></e>
 <e lm="colorista" a="prompsit2adn"><i>colorist</i><par n="agrícol/a__adj"/></e>
 <e lm="conservacionista" a="prompsit2adn"><i>conservacionist</i><par n="agrícol/a__adj"/></e>
@@ -152984,7 +152952,6 @@
 <e lm="costumista" a="prompsit2adn"><i>costumist</i><par n="agrícol/a__adj"/></e>
 <e lm="cubista" a="prompsit2adn"><i>cubist</i><par n="agrícol/a__adj"/></e>
 <e lm="democristià-socialista" a="prompsit2adn"><i>democristià-socialist</i><par n="agrícol/a__adj"/></e>
-<e lm="dretà" a="prompsit2adn"><i>dretà</i><par n="agrícol/a__adj"/></e>
 <e lm="derrotista" a="prompsit2adn"><i>derrotist</i><par n="agrícol/a__adj"/></e>
 <e lm="desnudista" a="prompsit2adn"><i>desnudist</i><par n="agrícol/a__adj"/></e>
 <e lm="detallista" a="prompsit2adn"><i>detallist</i><par n="agrícol/a__adj"/></e>
@@ -153034,7 +153001,6 @@
 <e lm="mileurista" a="prompsit2adn"><i>mileurist</i><par n="agrícol/a__adj"/></e>
 <e lm="minimalista" a="prompsit2adn"><i>minimalist</i><par n="agrícol/a__adj"/></e>
 <e lm="monopolista" a="prompsit2adn"><i>monopolist</i><par n="agrícol/a__adj"/></e>
-<e lm="mondialista" a="prompsit2adn"><i>mondialist</i><par n="agrícol/a__adj"/></e>
 <e lm="nacionalsocialista" a="prompsit2adn"><i>nacionalsocialist</i><par n="agrícol/a__adj"/></e>
 <e lm="neonacionalista" a="prompsit2adn"><i>neonacionalist</i><par n="agrícol/a__adj"/></e>
 <e lm="nihilista" a="prompsit2adn"><i>nihilist</i><par n="agrícol/a__adj"/></e>
@@ -153072,13 +153038,21 @@
 <e lm="surrealista" a="prompsit2adn"><i>surrealist</i><par n="agrícol/a__adj"/></e>
 <e lm="tercermundista" a="prompsit2adn"><i>tercermundist</i><par n="agrícol/a__adj"/></e>
 <e lm="triomfalista" a="prompsit2adn"><i>triomfalist</i><par n="agrícol/a__adj"/></e>
-<e lm="ultradretà" a="prompsit2adn"><i>ultradretà</i><par n="agrícol/a__adj"/></e>
-<e lm="ultradretà" a="prompsit2adn"><i>ultradretà</i><par n="agrícol/a__adj"/></e>
+<e lm="ultradretà" a="prompsit2adn"><i>ultradret</i><par n="afric/à__adj"/></e>
 <e lm="ultranacionalista" a="prompsit2adn"><i>ultranacionalist</i><par n="agrícol/a__adj"/></e>
 <e lm="ultrarrealista" a="prompsit2adn"><i>ultrarrealist</i><par n="agrícol/a__adj"/></e>
 <e lm="unipartidista" a="prompsit2adn"><i>unipartidist</i><par n="agrícol/a__adj"/></e>
 <e lm="valencianista" a="prompsit2adn"><i>valencianist</i><par n="agrícol/a__adj"/></e>
-<e lm="corredor de tanques" a="prompsit2adn"><i>corredor</i><par n="absolut__adj"/><p><l><b/>de<b/>tanques</l><r><g><b/>de<b/>tanques</g></r></p></e>
+
+<e lm="corredor de tanques" a="prompsit2adn">
+  <i>corredor</i>
+  <par n="absolut__adj"/>
+  <p>
+    <l><b/>de<b/>tanques</l>
+    <r><g><b/>de<b/>tanques</g></r>
+  </p>
+</e>
+
 <e lm="yihadista" a="prompsit2adn"><i>yihadist</i><par n="agrícol/a__adj"/></e>
 <e lm="zapatista" a="prompsit2adn"><i>zapatist</i><par n="agrícol/a__adj"/></e>
 <e lm="saragossista" a="prompsit2adn"><i>saragossist</i><par n="agrícol/a__adj"/></e>
@@ -153128,7 +153102,7 @@
 <e lm="xapista" a="prompsit2adn"><i>xapist</i><par n="accionist/a__n"/></e>
 <e lm="chavista" a="prompsit2adn"><i>chavist</i><par n="accionist/a__n"/></e>
 <e lm="ciberterrorista" a="prompsit2adn"><i>ciberterrorist</i><par n="accionist/a__n"/></e>
-<e lm="cuer" a="prompsit2adn"><i>cuer</i><par n="accionist/a__n"/></e>
+<e lm="cuer" a="prompsit2adn"><i>cuer</i><par n="senyor__n"/></e>
 <e lm="colonialista" a="prompsit2adn"><i>colonialist</i><par n="accionist/a__n"/></e>
 <e lm="colorista" a="prompsit2adn"><i>colorist</i><par n="accionist/a__n"/></e>
 <e lm="conservacionista" a="prompsit2adn"><i>conservacionist</i><par n="accionist/a__n"/></e>
@@ -153137,7 +153111,6 @@
 <e lm="costumista" a="prompsit2adn"><i>costumist</i><par n="accionist/a__n"/></e>
 <e lm="cubista" a="prompsit2adn"><i>cubist</i><par n="accionist/a__n"/></e>
 <e lm="democristià-socialista" a="prompsit2adn"><i>democristià-socialist</i><par n="accionist/a__n"/></e>
-<e lm="dretà" a="prompsit2adn"><i>dretà</i><par n="accionist/a__n"/></e>
 <e lm="derrotista" a="prompsit2adn"><i>derrotist</i><par n="accionist/a__n"/></e>
 <e lm="desnudista" a="prompsit2adn"><i>desnudist</i><par n="accionist/a__n"/></e>
 <e lm="detallista" a="prompsit2adn"><i>detallist</i><par n="accionist/a__n"/></e>
@@ -153187,7 +153160,6 @@
 <e lm="mileurista" a="prompsit2adn"><i>mileurist</i><par n="accionist/a__n"/></e>
 <e lm="minimalista" a="prompsit2adn"><i>minimalist</i><par n="accionist/a__n"/></e>
 <e lm="monopolista" a="prompsit2adn"><i>monopolist</i><par n="accionist/a__n"/></e>
-<e lm="mondialista" a="prompsit2adn"><i>mondialist</i><par n="accionist/a__n"/></e>
 <e lm="nacionalsocialista" a="prompsit2adn"><i>nacionalsocialist</i><par n="accionist/a__n"/></e>
 <e lm="neonacionalista" a="prompsit2adn"><i>neonacionalist</i><par n="accionist/a__n"/></e>
 <e lm="nihilista" a="prompsit2adn"><i>nihilist</i><par n="accionist/a__n"/></e>
@@ -153225,13 +153197,20 @@
 <e lm="surrealista" a="prompsit2adn"><i>surrealist</i><par n="accionist/a__n"/></e>
 <e lm="tercermundista" a="prompsit2adn"><i>tercermundist</i><par n="accionist/a__n"/></e>
 <e lm="triomfalista" a="prompsit2adn"><i>triomfalist</i><par n="accionist/a__n"/></e>
-<e lm="ultradretà" a="prompsit2adn"><i>ultradretà</i><par n="accionist/a__n"/></e>
-<e lm="ultradretà" a="prompsit2adn"><i>ultradretà</i><par n="accionist/a__n"/></e>
+<e lm="ultradretà" a="prompsit2adn"><i>ultradret</i><par n="americ/à__n"/></e>
 <e lm="ultranacionalista" a="prompsit2adn"><i>ultranacionalist</i><par n="accionist/a__n"/></e>
 <e lm="ultrarrealista" a="prompsit2adn"><i>ultrarrealist</i><par n="accionist/a__n"/></e>
 <e lm="unipartidista" a="prompsit2adn"><i>unipartidist</i><par n="accionist/a__n"/></e>
 <e lm="valencianista" a="prompsit2adn"><i>valencianist</i><par n="accionist/a__n"/></e>
-<e lm="corredor de tanques" a="prompsit2adn"><i>corredor</i><par n="senyor__n"/><p><l><b/>de<b/>tanques</l><r><g><b/>de<b/>tanques</g></r></p></e>
+
+<e lm="corredor de tanques" a="prompsit2adn">
+  <i>corredor</i>
+  <par n="senyor__n"/>
+  <p>
+    <l><b/>de<b/>tanques</l>
+    <r><g><b/>de<b/>tanques</g></r>
+  </p>
+</e>
 
 <e lm="yihadista" a="prompsit2adn"><i>yihadist</i><par n="accionist/a__n"/></e>
 <e lm="zapatista" a="prompsit2adn"><i>zapatist</i><par n="accionist/a__n"/></e>
@@ -153305,8 +153284,9 @@
 <e lm="xií" a="prompsit2adn"><i>xiït</i><par n="agrícol/a__adj"/></e>
 <e lm="suní" a="prompsit2adn"><i>sunit</i><par n="accionist/a__n"/></e>
 <e lm="suní" a="prompsit2adn"><i>sunit</i><par n="agrícol/a__adj"/></e>
+<e lm="mallot" a="prompsit2adn"><i>mallot</i><par n="abric__n"/></e>
 
-
+<e lm="min." a="prompsit2adn"><i>min.</i><par n="campus__n"/></e>
 
 
 <!--fi secció adn-->   

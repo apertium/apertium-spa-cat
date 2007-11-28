@@ -20965,8 +20965,8 @@
       </e>
       <e>
         <p>
-          <l>sed<s n="n"/></l>
-          <r>set<s n="n"/></r>
+          <l>sed<s n="n"/><s n="f"/></l>
+          <r>set<s n="n"/><s n="f"/></r>
         </p>
       </e>
       <e>
@@ -32773,10 +32773,6 @@
           <l>por<b/>lo<b/>menos<s n="adv"/></l>
           <r>almenys<s n="adv"/></r>
         </p>
-      </e>
-
-      <e>
-        <i>Almería<s n="np"/></i>
       </e>
       <e>
         <i>Almodóvar<s n="np"/></i>
@@ -54097,12 +54093,6 @@
       </e>
       <e>
         <p>
-          <l>Moscú<s n="np"/></l>
-          <r>Moscou<s n="np"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
           <l>Moscova<s n="np"/><s n="loc"/></l>
           <r>Moskva<s n="np"/><s n="loc"/></r>
         </p>
@@ -59830,10 +59820,10 @@
           <r>reclús<s n="n"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>recluso<s n="adj"/></l>
-          <r>recloure<s n="vblex"/><s n="pp"/></r>
+          <r>reclús<s n="adj"/></r>
         </p>
       </e>
       <e>
@@ -63564,9 +63554,6 @@
           <l>Tailandia<s n="np"/></l>
           <r>Tailàndia<s n="np"/></r>
         </p>
-      </e>
-      <e>
-        <i>Taiwan<s n="np"/></i>
       </e>
       <e>
         <i>tal<s n="adj"/></i>
@@ -78591,18 +78578,18 @@
      </e>
 
      <e a="prompsit2adn"> 
-			<p>
-				<l>euribor<s n="n"/></l>
-				<r>euribor<s n="n"/></r>
-			</p>
-		</e>
+	<p>
+	  <l>euribor<s n="n"/></l>
+	  <r>euribor<s n="n"/></r>
+	</p>
+     </e>
 
-     <e r="RL" a="prompsit2adn"> 
-			<p>
-				<l>euribor<s n="n"/></l>
-				<r>euríbor<s n="n"/></r>
-			</p>
-		</e>
+     <e a="prompsit2adn"> 
+	<p>
+ 	  <l>euríbor<s n="n"/></l>
+	  <r>euríbor<s n="n"/></r>
+	</p>
+     </e>
 
 
 
@@ -90786,12 +90773,12 @@
 </e>
 <e r="LR" a="prompsit2adn"><p><l>sureño<s n="n"/><s n="f"/></l><r>meridional<s n="n"/><s n="mf"/></r></p></e>
 
-<e r="LR" a="prompsit2adn"><p><l>sureño<s n="adj"/><s n="m"/></l><r>meridional<s n="n"/><s n="mf"/></r></p></e>
-
-
 <e r="LR" a="prompsit2adn"><p><l>sureño<s n="n"/><s n="m"/></l><r>meridional<s n="n"/><s n="mf"/></r></p></e>
 
+
 <e r="LR" a="prompsit2adn"><p><l>sureño<s n="adj"/><s n="f"/></l><r>meridional<s n="adj"/><s n="mf"/></r></p></e>
+
+<e r="LR" a="prompsit2adn"><p><l>sureño<s n="adj"/><s n="m"/></l><r>meridional<s n="adj"/><s n="mf"/></r></p></e>
 
 
 <e a="prompsit2adn">
@@ -92846,8 +92833,8 @@
 </e>
 <e a="prompsit2adn">
   <p>
-    <l>merengue<s n="n"/><s n="f"/></l>
-    <r>merenga<s n="n"/><s n="m"/></r>
+    <l>merengue<s n="n"/><s n="m"/></l>
+    <r>merenga<s n="n"/><s n="f"/></r>
   </p>
 </e>
 
@@ -93205,33 +93192,33 @@
 
 <e a="prompsit2adn" r="RL">
   <p>
-    <l>paulistano<s n="n"/><s n="GD"/><s n="ND"/></l>
-    <r>de<b/>São<b/>Paulo<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>paulistano<s n="adj"/><s n="GD"/><s n="ND"/></l>
+    <r>de<b/>São<b/>Paulo<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 <e a="prompsit2adn" r="LR">
   <p>
-    <l>paulistano<s n="n"/><s n="m"/><s n="sg"/></l>
-    <r>de<b/>São<b/>Paulo<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>paulistano<s n="adj"/><s n="m"/><s n="sg"/></l>
+    <r>de<b/>São<b/>Paulo<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 <e a="prompsit2adn" r="LR">
   <p>
-    <l>paulistano<s n="n"/><s n="m"/><s n="pl"/></l>
-    <r>de<b/>São<b/>Paulo<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>paulistano<s n="adj"/><s n="m"/><s n="pl"/></l>
+    <r>de<b/>São<b/>Paulo<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 
 <e a="prompsit2adn" r="LR">
   <p>
-    <l>paulistano<s n="n"/><s n="f"/><s n="sg"/></l>
-    <r>de<b/>São<b/>Paulo<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>paulistano<s n="adj"/><s n="f"/><s n="sg"/></l>
+    <r>de<b/>São<b/>Paulo<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 <e a="prompsit2adn" r="LR">
   <p>
-    <l>paulistano<s n="n"/><s n="f"/><s n="pl"/></l>
-    <r>de<b/>São<b/>Paulo<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>paulistano<s n="adj"/><s n="f"/><s n="pl"/></l>
+    <r>de<b/>São<b/>Paulo<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 
@@ -93393,16 +93380,40 @@
     <r>jeltzale<s n="n"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e a="prompsit2adn" r="LR">
   <p>
-    <l>gerundense<s n="n"/></l>
-    <r>gironí<s n="n"/></r>
+    <l>gerundense<s n="n"/><s n="mf"/></l>
+    <r>gironí<s n="n"/><s n="GD"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e a="prompsit2adn" r="RL">
   <p>
-    <l>gerundense<s n="adj"/></l>
-    <r>gironí<s n="adj"/></r>
+    <l>gerundense<s n="n"/><s n="mf"/></l>
+    <r>gironí<s n="n"/><s n="m"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="RL">
+  <p>
+    <l>gerundense<s n="n"/><s n="mf"/></l>
+    <r>gironí<s n="n"/><s n="f"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>gerundense<s n="adj"/><s n="mf"/></l>
+    <r>gironí<s n="adj"/><s n="GD"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="RL">
+  <p>
+    <l>gerundense<s n="adj"/><s n="mf"/></l>
+    <r>gironí<s n="adj"/><s n="m"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="RL">
+  <p>
+    <l>gerundense<s n="adj"/><s n="mf"/></l>
+    <r>gironí<s n="adj"/><s n="f"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -93466,33 +93477,33 @@
 
 <e a="prompsit2adn" r="RL">
   <p>
-    <l>caribeño<s n="n"/><s n="GD"/><s n="ND"/></l>
-    <r>del<b/>Carib<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>caribeño<s n="adj"/><s n="GD"/><s n="ND"/></l>
+    <r>del<b/>Carib<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 <e a="prompsit2adn" r="LR">
   <p>
-    <l>caribeño<s n="n"/><s n="m"/><s n="sg"/></l>
-    <r>del<b/>Carib<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>caribeño<s n="adj"/><s n="m"/><s n="sg"/></l>
+    <r>del<b/>Carib<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 <e a="prompsit2adn" r="LR">
   <p>
-    <l>caribeño<s n="n"/><s n="m"/><s n="pl"/></l>
-    <r>del<b/>Carib<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>caribeño<s n="adj"/><s n="m"/><s n="pl"/></l>
+    <r>del<b/>Carib<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 
 <e a="prompsit2adn" r="LR">
   <p>
-    <l>caribeño<s n="n"/><s n="f"/><s n="sg"/></l>
-    <r>del<b/>Carib<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>caribeño<s n="adj"/><s n="f"/><s n="sg"/></l>
+    <r>del<b/>Carib<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 <e a="prompsit2adn" r="LR">
   <p>
-    <l>caribeño<s n="n"/><s n="f"/><s n="pl"/></l>
-    <r>del<b/>Carib<s n="n"/><s n="mf"/><s n="sp"/></r>
+    <l>caribeño<s n="adj"/><s n="f"/><s n="pl"/></l>
+    <r>del<b/>Carib<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
 
@@ -93741,9 +93752,6 @@
         </p>
       </e>
 
-<!--GEma : ósmosis?-->
-
-
 <e a="prompsit2adn">
   <p>
     <l>ébola<s n="n"/></l>
@@ -93797,7 +93805,7 @@
 <e a="prompsit2adn">
   <p>
     <l>somalí<s n="n"/></l>
-    <r>somalí<s n="n"/></r>
+    <r>somali<s n="n"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -93884,18 +93892,72 @@
     <r>porfídia<s n="n"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+
+
+<e a="prompsit2adn" r="RL">
   <p>
-    <l>pontevedrés<s n="n"/></l>
-    <r>de Pontevedra<s n="n"/></r>
+    <l>pontevedrés<s n="n"/><s n="GD"/><s n="ND"/></l>
+    <r>de<b/>Pontevedra<s n="n"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e a="prompsit2adn" r="LR">
   <p>
-    <l>pontevedrés<s n="adj"/></l>
-    <r>de Pontevedra<s n="adj"/></r>
+    <l>pontevedrés<s n="n"/><s n="m"/><s n="sg"/></l>
+    <r>de<b/>Pontevedra<s n="n"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>pontevedrés<s n="n"/><s n="m"/><s n="pl"/></l>
+    <r>de<b/>Pontevedra<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>pontevedrés<s n="n"/><s n="f"/><s n="sg"/></l>
+    <r>de<b/>Pontevedra<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>pontevedrés<s n="n"/><s n="f"/><s n="pl"/></l>
+    <r>de<b/>Pontevedra<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+<e a="prompsit2adn" r="RL">
+  <p>
+    <l>pontevedrés<s n="adj"/><s n="GD"/><s n="ND"/></l>
+    <r>de<b/>Pontevedra<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>pontevedrés<s n="adj"/><s n="m"/><s n="sg"/></l>
+    <r>de<b/>Pontevedra<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>pontevedrés<s n="adj"/><s n="m"/><s n="pl"/></l>
+    <r>de<b/>Pontevedra<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>pontevedrés<s n="adj"/><s n="f"/><s n="sg"/></l>
+    <r>de<b/>Pontevedra<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>pontevedrés<s n="adj"/><s n="f"/><s n="pl"/></l>
+    <r>de<b/>Pontevedra<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
 <e a="prompsit2adn">
   <p>
     <l>pederastia<s n="n"/></l>
@@ -93914,12 +93976,28 @@
     <r>perseguidor<s n="adj"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+
+<e a="prompsit2adn" r="RL">
   <p>
-    <l>peatonal<s n="adj"/></l>
-    <r>per als vianants<s n="adj"/></r>
+    <l>peatonal<s n="adj"/><s n="mf"/><s n="ND"/></l>
+    <r>per<b/>als<b/>vianants<s n="adj"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
+
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>peatonal<s n="adj"/><s n="mf"/><s n="sg"/></l>
+    <r>per<b/>als<b/>vianants<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>peatonal<s n="adj"/><s n="mf"/><s n="pl"/></l>
+    <r>per<b/>als<b/>vianants<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
 <e a="prompsit2adn">
   <p>
     <l>paracaidista<s n="adj"/></l>
@@ -93968,18 +94046,48 @@
     <r>monsònic<s n="adj"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+
+
+<e a="prompsit2adn" r="RL">
   <p>
-    <l>melillense<s n="adj"/></l>
-    <r>de Melilla<s n="adj"/></r>
+    <l>melillense<s n="n"/><s n="mf"/><s n="ND"/></l>
+    <r>de<b/>Melilla<s n="n"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e a="prompsit2adn" r="LR">
   <p>
-    <l>melillense<s n="n"/></l>
-    <r>de Melilla<s n="n"/></r>
+    <l>melillense<s n="n"/><s n="mf"/><s n="sg"/></l>
+    <r>de<b/>Melilla<s n="n"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>melillense<s n="n"/><s n="mf"/><s n="pl"/></l>
+    <r>de<b/>Melilla<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+
+<e a="prompsit2adn" r="RL">
+  <p>
+    <l>melillense<s n="adj"/><s n="mf"/><s n="ND"/></l>
+    <r>de<b/>Melilla<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>melillense<s n="adj"/><s n="mf"/><s n="sg"/></l>
+    <r>de<b/>Melilla<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>melillense<s n="adj"/><s n="mf"/><s n="pl"/></l>
+    <r>de<b/>Melilla<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+
 <e a="prompsit2adn">
   <p>
     <l>maniatar<s n="vblex"/></l>
@@ -94040,11 +94148,13 @@
     <r>etzibar<s n="vblex"/></r>
   </p>
 </e>
+
 <e r="LR" a="prompsit2adn"><p><l>desperdiciar<s n="vblex"/></l><r>malgastar<s n="vblex"/></r></p></e>
+
 <e a="prompsit2adn">
   <p>
-    <l>descaro<s n="n"/></l>
-    <r>descaradura<s n="n"/></r>
+    <l>descaro<s n="n"/><s n="m"/></l>
+    <r>descaradura<s n="n"/><s n="f"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -94071,7 +94181,9 @@
     <r>alcorànic<s n="adj"/></r>
   </p>
 </e>
+
 <e r="LR" a="prompsit2adn"><p><l>cancerbero<s n="n"/></l><r>porter<s n="n"/></r></p></e>
+
 <e a="prompsit2adn">
   <p>
     <l>checheno<s n="n"/></l>
@@ -94128,8 +94240,8 @@
 </e>
 <e a="prompsit2adn">
   <p>
-    <l>averiguación<s n="n"/></l>
-    <r>esbrinament<s n="n"/></r>
+    <l>averiguación<s n="n"/><s n="f"/></l>
+    <r>esbrinament<s n="n"/><s n="m"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -94180,14 +94292,32 @@
     <r>biscaí<s n="n"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
-  <p>
-    <l>tuberculosis<s n="n"/></l>
-    <r>tuberculosi<s n="n"/></r>
-  </p>
-</e>
-<e r="RL" a="prompsit2adn"><p><l>trasplante<s n="n"/></l><r>trasplantació<s n="n"/></r></p></e>
-<e r="RL" a="prompsit2adn"><p><l>surrealista<s n="adj"/></l><r>surrealista<s n="adj"/></r></p></e>
+
+
+
+      <e r="LR" a="prompsit2adn">
+        <p>
+          <l>tuberculosis<s n="n"/><s n="f"/><s n="sp"/></l>
+          <r>tuberculosi<s n="n"/><s n="f"/><s n="ND"/></r>
+        </p>
+      </e>
+      <e r="RL" a="prompsit2adn">
+        <p>
+          <l>tuberculosis<s n="n"/><s n="f"/><s n="sp"/></l>
+          <r>tuberculosi<s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL" a="prompsit2adn">
+        <p>
+          <l>tuberculosis<s n="n"/><s n="f"/><s n="sp"/></l>
+          <r>tuberculosi<s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+
+
+<e r="RL" a="prompsit2adn"><p><l>trasplante<s n="n"/><s n="m"/></l><r>trasplantació<s n="n"/><s n="f"/></r></p></e>
+
+
 <e a="prompsit2adn">
   <p>
     <l>surrealista<s n="adj"/></l>
@@ -94220,8 +94350,8 @@
 </e>
 <e a="prompsit2adn">
   <p>
-    <l>recibimiento<s n="n"/></l>
-    <r>rebuda<s n="n"/></r>
+    <l>recibimiento<s n="n"/><s n="m"/></l>
+    <r>rebuda<s n="n"/><s n="f"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -94248,36 +94378,128 @@
     <r>maltractador<s n="n"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e a="prompsit2adn" r="LR">
   <p>
-    <l>multidisciplinar<s n="adj"/></l>
-    <r>multidisciplinari<s n="adj"/></r>
+    <l>multidisciplinar<s n="adj"/><s n="mf"/></l>
+    <r>multidisciplinari<s n="adj"/><s n="GD"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+
+<e a="prompsit2adn" r="RL">
   <p>
-    <l>lucense<s n="adj"/></l>
-    <r>de Lugo<s n="adj"/></r>
+    <l>multidisciplinar<s n="adj"/><s n="mf"/></l>
+    <r>multidisciplinari<s n="adj"/><s n="f"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e a="prompsit2adn" r="RL">
   <p>
-    <l>lucense<s n="n"/></l>
-    <r>de Lugo<s n="n"/></r>
+    <l>multidisciplinar<s n="adj"/><s n="mf"/></l>
+    <r>multidisciplinari<s n="adj"/><s n="m"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+
+<e a="prompsit2adn" r="RL">
   <p>
-    <l>limeño<s n="n"/></l>
-    <r>de Lima<s n="n"/></r>
+    <l>lucense<s n="n"/><s n="mf"/><s n="ND"/></l>
+    <r>de<b/>Lugo<s n="n"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e a="prompsit2adn" r="LR">
   <p>
-    <l>limeño<s n="adj"/></l>
-    <r>de Lima<s n="adj"/></r>
+    <l>lucense<s n="n"/><s n="mf"/><s n="sg"/></l>
+    <r>de<b/>Lugo<s n="n"/><s n="mf"/><s n="sp"/></r>
   </p>
 </e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>lucense<s n="n"/><s n="mf"/><s n="pl"/></l>
+    <r>de<b/>Lugo<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+<e a="prompsit2adn" r="RL">
+  <p>
+    <l>lucense<s n="adj"/><s n="mf"/><s n="ND"/></l>
+    <r>de<b/>Lugo<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>lucense<s n="adj"/><s n="mf"/><s n="sg"/></l>
+    <r>de<b/>Lugo<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>lucense<s n="adj"/><s n="mf"/><s n="pl"/></l>
+    <r>de<b/>Lugo<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+<e a="prompsit2adn" r="RL">
+  <p>
+    <l>limeño<s n="n"/><s n="GD"/><s n="ND"/></l>
+    <r>de<b/>Lima<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>limeño<s n="n"/><s n="m"/><s n="sg"/></l>
+    <r>de<b/>Lima<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>limeño<s n="n"/><s n="m"/><s n="pl"/></l>
+    <r>de<b/>Lima<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>limeño<s n="n"/><s n="f"/><s n="sg"/></l>
+    <r>de<b/>Lima<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>limeño<s n="n"/><s n="f"/><s n="pl"/></l>
+    <r>de<b/>Lima<s n="n"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+<e a="prompsit2adn" r="RL">
+  <p>
+    <l>limeño<s n="adj"/><s n="GD"/><s n="ND"/></l>
+    <r>de<b/>Lima<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>limeño<s n="adj"/><s n="m"/><s n="sg"/></l>
+    <r>de<b/>Lima<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>limeño<s n="adj"/><s n="m"/><s n="pl"/></l>
+    <r>de<b/>Lima<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>limeño<s n="adj"/><s n="f"/><s n="sg"/></l>
+    <r>de<b/>Lima<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+<e a="prompsit2adn" r="LR">
+  <p>
+    <l>limeño<s n="adj"/><s n="f"/><s n="pl"/></l>
+    <r>de<b/>Lima<s n="adj"/><s n="mf"/><s n="sp"/></r>
+  </p>
+</e>
+
 <e a="prompsit2adn">
   <p>
     <l>legionario<s n="n"/></l>
@@ -95004,7 +95226,10 @@
 <e a="prompsit2adn"><p><l>ADNes<s n="np"/></l><r>ADNes<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>ADN.es<s n="np"/></l><r>ADN.es<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>The<b/>Times<s n="np"/></l><r>The<b/>Times<s n="np"/></r></p></e>
+
 <e a="prompsit2adn"><p><l>Al<b/>Qaeda<s n="np"/></l><r>Al<b/>Qaeda<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Al<b/>Qaida<s n="np"/></l><r>Al<b/>Qaida<s n="np"/></r></p></e>
+
 <e a="prompsit2adn"><p><l>Mediapro<s n="np"/></l><r>Mediapro<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Tour<s n="np"/></l><r>Tour<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>McLaren<s n="np"/></l><r>McLaren<s n="np"/></r></p></e>
@@ -95027,14 +95252,12 @@
 <e a="prompsit2adn"><p><l>Fatah<s n="np"/></l><r>Fatah<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Acciona<s n="np"/></l><r>Acciona<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Supercopa<s n="np"/></l><r>Supercopa<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>La<b/>Caixa<s n="np"/></l><r>La<b/>Caixa<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Adif<s n="np"/></l><r>Adif<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Euribor<s n="np"/></l><r>Euribor<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>McLaren-Mercedes<s n="np"/></l><r>McLaren-Mercedes<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Endeavour<s n="np"/></l><r>Endeavour<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Esquerra<s n="np"/></l><r>Esquerra<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Enel<s n="np"/></l><r>Enel<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Amnistía<b/>Internacional<s n="np"/></l><r>Amnistía<b/>Internacional<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Amnistía<b/>Internacional<s n="np"/></l><r>Amnistia<b/>Internacional<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Ciutadans<s n="np"/></l><r>Ciutadans<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Petraeus<s n="np"/></l><r>Petraeus<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Fecsa<s n="np"/></l><r>Fecsa<s n="np"/></r></p></e>
@@ -95044,7 +95267,9 @@
 <e a="prompsit2adn"><p><l>Xunta<s n="np"/></l><r>Xunta<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Scotland<b/>Yard<s n="np"/></l><r>Scotland<b/>Yard<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Barclays<s n="np"/></l><r>Barclays<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Inter<b/>de<b/>Milan?<s n="np"/></l><r>Inter<b/>de<b/>Milan?<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Inter<s n="np"/></l><r>Inter<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Inter<b/>de<b/>Milan<s n="np"/></l><r>Inter<b/>de<b/>Milan<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Milan<s n="np"/></l><r>Milan<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Renault<s n="np"/></l><r>Renault<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Williams<s n="np"/></l><r>Williams<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Astroc<s n="np"/></l><r>Astroc<s n="np"/></r></p></e>
@@ -95165,17 +95390,16 @@
 <e a="prompsit2adn"><p><l>Toronto<s n="np"/></l><r>Torontó<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>La<b/>Habana<s n="np"/></l><r>l'Havana<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Congonhas<s n="np"/></l><r>Congonhas<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Bogotá<s n="np"/></l><r>Bogotá<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Egibar<s n="np"/></l><r>Egibar<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Nueva<b/>Zelanda<s n="np"/></l><r>Nova<b/>Zelanda<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Kioto<s n="np"/></l><r>Kyoto<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Hong<b/>Kong<s n="np"/></l><r>Hong<b/>Kong<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Glasgow<s n="np"/></l><r>Glasgow<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Barbate<s n="np"/></l><r>Barbate<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Jerusalén<s n="np"/></l><r>Jerusalén<s n="np"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>Jerusalem<s n="np"/></l><r>Jerusalem<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Algarve<s n="np"/></l><r>Algarve<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Las<b/>Vegas<s n="np"/></l><r>Las<b/>Vegas<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Moscú<s n="np"/></l><r>Moscú<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Moscú<s n="np"/></l><r>Moscou<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Santiago<b/>de<b/>Compostela<s n="np"/></l><r>Santiago<b/>de<b/>Compostel·la<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Taiwán<s n="np"/></l><r>Taiwan<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Shanghai<s n="np"/></l><r>Xanghai<s n="np"/></r></p></e>
@@ -95325,7 +95549,17 @@
 <e a="prompsit2adn"><p><l>chapista<s n="adj"/></l><r>xapista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>chavista<s n="adj"/></l><r>chavista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>ciberterrorista<s n="adj"/></l><r>ciberterrorista<s n="adj"/></r></p></e>
-<e a="prompsit2adn"><p><l>colista<s n="adj"/></l><r>cuer<s n="adj"/></r></p></e>
+
+<e a="prompsit2adn" r="LR"><p><l>colista<s n="adj"/><s n="mf"/></l><r>cuer<s n="adj"/><s n="GD"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>colista<s n="adj"/><s n="mf"/></l><r>cuer<s n="adj"/><s n="f"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>colista<s n="adj"/><s n="mf"/></l><r>cuer<s n="adj"/><s n="m"/></r></p></e>
+
+
+<e a="prompsit2adn" r="LR"><p><l>colista<s n="n"/><s n="mf"/></l><r>cuer<s n="n"/><s n="GD"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>colista<s n="n"/><s n="mf"/></l><r>cuer<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>colista<s n="n"/><s n="mf"/></l><r>cuer<s n="n"/><s n="m"/></r></p></e>
+
+
 <e a="prompsit2adn"><p><l>colonialista<s n="adj"/></l><r>colonialista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>colorista<s n="adj"/></l><r>colorista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>conservacionista<s n="adj"/></l><r>conservacionista<s n="adj"/></r></p></e>
@@ -95334,7 +95568,6 @@
 <e a="prompsit2adn"><p><l>costumbrista<s n="adj"/></l><r>costumista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>cubista<s n="adj"/></l><r>cubista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>democristiano-socialista<s n="adj"/></l><r>democristià-socialista<s n="adj"/></r></p></e>
-<e a="prompsit2adn"><p><l>derechista<s n="adj"/></l><r>dretà<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>derrotista<s n="adj"/></l><r>derrotista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>desnudista<s n="adj"/></l><r>desnudista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>detallista<s n="adj"/></l><r>detallista<s n="adj"/></r></p></e>
@@ -95389,7 +95622,6 @@
 <e a="prompsit2adn"><p><l>mileurista<s n="adj"/></l><r>mileurista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>minimalista<s n="adj"/></l><r>minimalista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>monopolista<s n="adj"/></l><r>monopolista<s n="adj"/></r></p></e>
-<e a="prompsit2adn"><p><l>mundialista<s n="adj"/></l><r>mondialista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>nacionalsocialista<s n="adj"/></l><r>nacionalsocialista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>neonacionalista<s n="adj"/></l><r>neonacionalista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>nihilista<s n="adj"/></l><r>nihilista<s n="adj"/></r></p></e>
@@ -95427,8 +95659,15 @@
 <e a="prompsit2adn"><p><l>surrealista<s n="adj"/></l><r>surrealista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>tercermundista<s n="adj"/></l><r>tercermundista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>triunfalista<s n="adj"/></l><r>triomfalista<s n="adj"/></r></p></e>
-<e a="prompsit2adn"><p><l>ultraderechista<s n="adj"/></l><r>ultradretà<s n="adj"/></r></p></e>
-<e a="prompsit2adn"><p><l>ultra-derechista<s n="adj"/></l><r>ultradretà<s n="adj"/></r></p></e>
+
+
+<e a="prompsit2adn" r="LR"><p><l>ultraderechista<s n="adj"/><s n="mf"/></l><r>ultradretà<s n="adj"/><s n="GD"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>ultraderechista<s n="adj"/><s n="mf"/></l><r>ultradretà<s n="adj"/><s n="f"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>ultraderechista<s n="adj"/><s n="mf"/></l><r>ultradretà<s n="adj"/><s n="m"/></r></p></e>
+
+
+<e a="prompsit2adn" r="LR"><p><l>ultra-derechista<s n="adj"/><s n="mf"/></l><r>ultradretà<s n="adj"/><s n="GD"/></r></p></e>
+
 <e a="prompsit2adn"><p><l>ultranacionalista<s n="adj"/></l><r>ultranacionalista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>ultrarrealista<s n="adj"/></l><r>ultrarrealista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>unipartidista<s n="adj"/></l><r>unipartidista<s n="adj"/></r></p></e>
@@ -95492,7 +95731,9 @@
 <e a="prompsit2adn"><p><l>chapista<s n="n"/></l><r>xapista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>chavista<s n="n"/></l><r>chavista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>ciberterrorista<s n="n"/></l><r>ciberterrorista<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>colista<s n="n"/></l><r>cuer<s n="n"/></r></p></e>
+
+
+
 <e a="prompsit2adn"><p><l>colonialista<s n="n"/></l><r>colonialista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>colorista<s n="n"/></l><r>colorista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>conservacionista<s n="n"/></l><r>conservacionista<s n="n"/></r></p></e>
@@ -95501,7 +95742,6 @@
 <e a="prompsit2adn"><p><l>costumbrista<s n="n"/></l><r>costumista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>cubista<s n="n"/></l><r>cubista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>democristiano-socialista<s n="n"/></l><r>democristià-socialista<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>derechista<s n="n"/></l><r>dretà<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>derrotista<s n="n"/></l><r>derrotista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>desnudista<s n="n"/></l><r>desnudista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>detallista<s n="n"/></l><r>detallista<s n="n"/></r></p></e>
@@ -95556,7 +95796,6 @@
 <e a="prompsit2adn"><p><l>mileurista<s n="n"/></l><r>mileurista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>minimalista<s n="n"/></l><r>minimalista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>monopolista<s n="n"/></l><r>monopolista<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>mundialista<s n="n"/></l><r>mondialista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>nacionalsocialista<s n="n"/></l><r>nacionalsocialista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>neonacionalista<s n="n"/></l><r>neonacionalista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>nihilista<s n="n"/></l><r>nihilista<s n="n"/></r></p></e>
@@ -95594,8 +95833,12 @@
 <e a="prompsit2adn"><p><l>surrealista<s n="n"/></l><r>surrealista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>tercermundista<s n="n"/></l><r>tercermundista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>triunfalista<s n="n"/></l><r>triomfalista<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>ultraderechista<s n="n"/></l><r>ultradretà<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>ultra-derechista<s n="n"/></l><r>ultradretà<s n="n"/></r></p></e>
+
+<e a="prompsit2adn" r="LR"><p><l>ultraderechista<s n="n"/><s n="mf"/></l><r>ultradretà<s n="n"/><s n="GD"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>ultraderechista<s n="n"/><s n="mf"/></l><r>ultradretà<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>ultraderechista<s n="n"/><s n="mf"/></l><r>ultradretà<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>ultra-derechista<s n="n"/><s n="mf"/></l><r>ultradretà<s n="n"/><s n="GD"/></r></p></e>
+
 <e a="prompsit2adn"><p><l>ultranacionalista<s n="n"/></l><r>ultranacionalista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>ultrarrealista<s n="n"/></l><r>ultrarrealista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>unipartidista<s n="n"/></l><r>unipartidista<s n="n"/></r></p></e>
@@ -95612,9 +95855,9 @@
 <e a="prompsit2adn"><p><l>zapatista<s n="n"/></l><r>zapatista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>zaragocista<s n="n"/></l><r>saragossista<s n="n"/></r></p></e>
 
-<e a="prompsit2adn" r="LR"><p><l>arreglista<s n="adj"/><s n="mf"/></l><r>arranjador<s n="adj"/><s n="GD"/></r></p></e>
-<e a="prompsit2adn" r="RL"><p><l>arreglista<s n="adj"/><s n="mf"/></l><r>arranjador<s n="adj"/><s n="m"/></r></p></e>
-<e a="prompsit2adn" r="RL"><p><l>arreglista<s n="adj"/><s n="mf"/></l><r>arranjador<s n="adj"/><s n="f"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>arreglista<s n="n"/><s n="mf"/></l><r>arranjador<s n="n"/><s n="GD"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>arreglista<s n="n"/><s n="mf"/></l><r>arranjador<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>arreglista<s n="n"/><s n="mf"/></l><r>arranjador<s n="n"/><s n="f"/></r></p></e>
 
 
 
@@ -95659,9 +95902,9 @@
 <e a="prompsit2adn"><p><l>plusmarquista<s n="n"/></l><r>plusmarquista<s n="n"/></r></p></e>
 
 
-<e a="prompsit2adn" r="LR"><p><l>prestamista<s n="adj"/><s n="mf"/></l><r>prestador<s n="adj"/><s n="GD"/></r></p></e>
-<e a="prompsit2adn" r="RL"><p><l>prestamista<s n="adj"/><s n="mf"/></l><r>prestador<s n="adj"/><s n="m"/></r></p></e>
-<e a="prompsit2adn" r="RL"><p><l>prestamista<s n="adj"/><s n="mf"/></l><r>prestador<s n="adj"/><s n="f"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>prestamista<s n="n"/><s n="mf"/></l><r>prestador<s n="n"/><s n="GD"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>prestamista<s n="n"/><s n="mf"/></l><r>prestador<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>prestamista<s n="n"/><s n="mf"/></l><r>prestador<s n="n"/><s n="f"/></r></p></e>
 
 <e a="prompsit2adn"><p><l>proselitista<s n="n"/></l><r>proselitista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>psicoanalista<s n="n"/></l><r>psicoanalista<s n="n"/></r></p></e>
@@ -95682,11 +95925,13 @@
 <e><p><l>min.<s n="n"/></l><r>min.<s n="n"/></r></p></e>
 <e><p><l>opa<s n="n"/></l><r>opa<s n="n"/></r></p></e>
 <e><p><l>blog<s n="n"/></l><r>blog<s n="n"/></r></p></e>
-<e><p><l>set<s n="n"/></l><r>set<s n="n"/></r></p></e>
+<e><p><l>set<s n="n"/><s n="m"/></l><r>set<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>chií<s n="n"/></l><r>xiïta<s n="n"/></r></p></e>
 <e><p><l>chií<s n="adj"/></l><r>xiïta<s n="adj"/></r></p></e>
 <e><p><l>suní<s n="n"/></l><r>sunita<s n="n"/></r></p></e>
 <e><p><l>suní<s n="adj"/></l><r>sunita<s n="adj"/></r></p></e>
+<e><p><l>maillot<s n="n"/></l><r>mallot<s n="n"/></r></p></e>
+
 <!--fi secció adn-->
 
 

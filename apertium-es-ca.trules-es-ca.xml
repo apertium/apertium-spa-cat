@@ -2480,7 +2480,6 @@
 	      <clip pos="1" side="tl" part="gen"/>
 	      <clip pos="1" side="tl" part="nbr"/>
 	      <clip pos="1" side="tl" part="lemq"/>
-	      <!--<clip pos="1" side="tl" part="whole"/>-->
 	    </lu>
          </out>
        </action>
@@ -2496,7 +2495,11 @@
 	  </call-macro>     
           <out>   
 	    <lu>
-	      <clip pos="1" side="tl" part="whole"/> 
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
          </out>
       </action>
@@ -2636,8 +2639,12 @@ is not applicable because gender and number cannot be taken from previous rules 
 	    <with-param pos="1"/>
 	  </call-macro>
           <out>  
-	    <lu>  
-              <clip pos="1" side="tl" part="whole"/>
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>  
 	    </lu>
 	    <b pos="1"/>
 	    <lu> 
@@ -2939,8 +2946,12 @@ is not applicable because gender and number cannot be taken from previous rules 
 	    <with-param pos="1"/>
 	  </call-macro>
           <out>  
-	    <lu>    
-              <clip pos="1" side="tl" part="whole"/>
+	    <lu>
+	      <clip pos="1" side="tl" part="lemh"/>
+	      <clip pos="1" side="tl" part="a_adj"/>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <clip pos="1" side="tl" part="lemq"/>    
 	    </lu>
 	    <b pos="1"/>
             <lu>
