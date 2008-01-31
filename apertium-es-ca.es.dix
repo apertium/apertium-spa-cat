@@ -133,6 +133,25 @@
         </p>
       </e>
     </pardef>
+    <pardef n="emails">
+      <e>
+	<re>[a-z.]+@[a-z.]+</re>
+	<p>
+	 <l/>
+	 <r><s n="num"/></r>
+	</p>
+     </e>
+   </pardef>
+   <pardef n="urls">
+     <e>
+	<re>((www.)[a-z\-]+[.][a-z]+)</re>
+	<p>
+	  <l/>
+	  <r><s n="num"/></r>
+	</p>
+     </e>
+    </pardef>
+
     <pardef n="S__cantándome">
 <!--2o pronombre tras me/nos -->
 <!-- <e>
@@ -2103,6 +2122,20 @@
         <p>
           <l>ín</l>
           <r>ín<s n="adj"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="an/ís__adj">
+      <e>
+        <p>
+          <l>ises</l>
+          <r>ís<s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ís</l>
+          <r>ís<s n="adj"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -154607,6 +154640,9 @@
 <e lm="maillot" a="prompsit2adn"><i>maillot</i><par n="abismo__n"/></e>
 <!--fi secció adn-->
 
+
+
+
   </section>
 
   <section id="final" type="inconditional">
@@ -154631,5 +154667,11 @@
 <!--    <e>
         <par n="internet"/>
       </e> -->
+    <e>
+      <par n="emails"/>
+     </e>
+    <e>
+      <par n="urls"/>
+    </e>
   </section>
 </dictionary>
