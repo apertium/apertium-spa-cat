@@ -154888,8 +154888,6 @@
 <!--fi secció adn-->   
 
   
-<!--secció not commited-->
-
           <e lm="Abidjan" a="prompsit"><i>Abidjan</i><par n="Afganistan__np"/></e>
           <e lm="Abuja" a="prompsit"><i>Abuja</i><par n="Afganistan__np"/></e>
           <e lm="Accra" a="prompsit"><i>Accra</i><par n="Afganistan__np"/></e>
@@ -159684,23 +159682,9 @@
   <par n="abo/car__vblex"/>
 </e>
 
-
-<!--secció kutxa-->
-
-
 <e a="prompsit" lm="bestreure" r="LR">
   <i>bestr</i>
   <par n="atr/eure__vblex"/>
-</e>
-
-<e a="prompsit" lm="deute">
-  <i>deute</i>
-  <par n="abric__n"/>
-</e>
-
-<e a="prompsit" lm="deuda" r="RL">
-  <i>deuda</i>
-  <par n="abric__n"/>
 </e>
 
 <e a="prompsit" lm="amortitzable">
@@ -159739,8 +159723,8 @@
   <par n="abric__n"/>
 </e>
 
-<e a="prompsit" lm="cédula">
-  <i>cédul</i>
+<e a="prompsit" lm="cèdula">
+  <i>cèdul</i>
   <par n="abell/a__n"/>
 </e>
 
@@ -160948,11 +160932,16 @@
   <par n="atletisme__n"/>
 </e>
 
-<!-- fi secció kutxa-->
+<e a="prompsit" lm="endós">
+  <i>end</i>
+  <par n="calab/ós__n"/>
+</e>
 
-<!--fi subsecció webform-->
+<e a="prompsit" lm="resguard">
+  <i>resguard</i>
+  <par n="abric__n"/>
+</e>
 
-<!--fi secció not commited-->
 
 
  </section>

@@ -95854,7 +95854,6 @@
 
 <!--fi secció adn-->
 
-<!--secció not commited-->
 <e a="prompsit"><p><l>Abiyán<s n="np"/></l><r>Abidjan<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Abuya<s n="np"/></l><r>Abuja<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Accra<s n="np"/></l><r>Accra<s n="np"/></r></p></e>
@@ -102615,7 +102614,6 @@
   </p>
 </e>
 
-<!--secció kutxa-->
 
 <e a="prompsit" r="RL">
   <p>
@@ -102624,17 +102622,10 @@
   </p>
 </e>
 
-<e a="prompsit">
+<e a="prompsit" r="LR">
           <p>
             <l>adeudo<s n="n"/></l>
             <r>deute<s n="n"/></r>
-          </p>
-        </e>
-
-<e a="prompsit">
-          <p>
-            <l>adeudo<s n="n"/></l>
-            <r>deuda<s n="n"/></r>
           </p>
         </e>
 
@@ -102718,7 +102709,7 @@
 <e a="prompsit">
           <p>
             <l>cédula<s n="n"/></l>
-            <r>cédula<s n="n"/></r>
+            <r>cèdula<s n="n"/></r>
           </p>
         </e>
 
@@ -103412,6 +103403,21 @@
   </p>
 </e>
 
+
+<e a="prompsit">
+  <p>
+    <l>endoso<s n="n"/></l>
+    <r>endós<s n="n"/></r>
+  </p>
+</e>
+
+<e a="prompsit">
+  <p>
+    <l>resguardo<s n="n"/></l>
+    <r>resguard<s n="n"/></r>
+  </p>
+</e>
+
 <e a="prompsit">
   <p>
     <l>sus<b/>labores<s n="n"/></l>
@@ -103617,14 +103623,6 @@
 
 <e a="prompsit"><p><l>lo<b/>que<b/>no<b/>proceda<s n="n"/></l><r>allò<b/>no<b/>procedent<s n="n"/></r></p></e>
 
-<!--fi secció kutxa-->
-
-
-
-<!-- fi subsecció webform-->
-
-
-<!--fi secció not commited-->
 <e>
         <re>[0-9]+([.,][0-9]+)?</re>
         <p>
