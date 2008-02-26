@@ -38,5 +38,9 @@ fi
 
 AC_SUBST(MODES)
 
+if test -d .deps
+then echo "";
+else mkdir .deps
+fi
   
 AC_OUTPUT([Makefile])

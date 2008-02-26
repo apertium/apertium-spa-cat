@@ -103622,7 +103622,6 @@
 <e a="prompsit"><p><l>recibido<b/>y<b/>conforme<s n="adj"/></l><r>rebut<b/>i<b/>conforme<s n="adj"/></r></p></e>
 
 <e a="prompsit"><p><l>lo<b/>que<b/>no<b/>proceda<s n="n"/></l><r>allò<b/>no<b/>procedent<s n="n"/></r></p></e>
-
 <e>
         <re>[0-9]+([.,][0-9]+)?</re>
         <p>
@@ -103665,6 +103664,10 @@
           <r><s n="rpar"/></r>
         </p>
       </e>    
+
+    </section>
+ <section id="final" type="standard">
+
     <e>
       <re>[a-z.]+@[a-z.]+</re>
         <p>
@@ -103679,6 +103682,7 @@
 	  <r><s n="num"/></r>
 	</p>
     </e>
+
     <e>
       <re>(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9])(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))</re>     
 	<p>
@@ -103687,12 +103691,12 @@
 	</p>
     </e>
 
-    </section>
-<!--  <section id="final" type="standard">
-    <e>
+
+<!--    <e>
       <re>(http://|ftp://|[a-zA-Z][a-zA-Z0-9.]*@)?([a-zA-Z][a-zA-Z0-9]*.)+[a-z][a-z]+</re>        
       <i><s n="web"/></i>
-    </e>
-  </section> -->
+    </e> -->
+
+  </section>
 
 </dictionary>
