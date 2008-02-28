@@ -79704,11 +79704,6 @@
         <par n="abdominal__adj"/>
       </e>
       
-      <e lm="minorista">
-        <i>minorist</i>
-        <par n="agrícol/a__adj"/>
-      </e>
-      
       <e lm="minoritari">
         <i>minorit</i>
         <par n="adjudicat/ari__adj"/>
@@ -99150,11 +99145,11 @@
         <par n="senyor__n"/>
       </e>
       
-      <e lm="guanys">
-        <i>guanys</i>
+      <e lm="béns de guanys">
+        <i>béns<b/>de<b/>guanys</i>
         <par n="afores__n"/>
-      </e>
-      
+      </e> 
+            
       <e lm="guardaespatlles">
         <i>guardaespatlles</i>
         <par n="guardaespatlles__n"/>
@@ -102932,7 +102927,7 @@
         <par n="abell/a__n"/>
       </e>
       
-      <e lm="minorista">
+      <e lm="minorista" r="LR">
         <i>minorist</i>
         <par n="accionist/a__n"/>
       </e>
@@ -121740,6 +121735,11 @@
         <par n="a__pr"/>
       </e>
       
+      <e lm="salvant">
+        <i>salvant</i>
+        <par n="a__pr"/>
+      </e>
+      
       <e lm="extra">
         <i>extra</i>
         <par n="a__pr"/>
@@ -122818,7 +122818,7 @@
         <par n="abander/ar__vblex"/>
       </e>
       
-      <e lm="abastir">
+      <e lm="abastir" r="LR">
         <i>abast</i>
         <par n="abarat/ir__vblex"/>
       </e>
@@ -136194,10 +136194,6 @@
   <i>xarampi</i>
   <par n="aband/ó__n"/>
 </e>
-<e lm="tanmateix" a=" alseoane@gmail.com" r="LR">
-  <i>tanmateix</i>
-  <par n="ahir__adv"/>
-</e>
 <e lm="meningocòccic" a=" alseoane@gmail.com">
   <i>meningocòcci</i>
   <par n="acadèmi/c__adj"/>
@@ -137523,7 +137519,7 @@
       
       <e lm="tanmateix">
         <i>tanmateix</i>
-        <par n="ahir__adv"/>
+        <par n="a_fe_que__cnjadv"/>
       </e>
 		<e lm="Seat">
 			<i>Seat</i>
@@ -141037,12 +141033,12 @@
      </e>
 
 
-     <e lm="desembors" a="prompsit2adn">
+     <e lm="desembors" r="LR" a="prompsit2adn">
         <i>desembors</i>
         <par n="as__n"/>
      </e>
 
-     <e lm="desemborsament" r="LR" a="prompsit2adn">
+     <e lm="desemborsament" a="prompsit2adn">
         <i>desemborsament</i>
         <par n="abric__n"/>
      </e>
@@ -156608,6 +156604,10 @@
   <i>signat</i>
   <par n="adjudicat/ari__adj"/>
 </e>
+<e a="prompsit" lm="sotasignat">
+  <i>sotasigna</i>
+  <par n="advoca/t__n"/>
+</e>
 <e a="prompsit" lm="sintàctic">
   <i>sintàcti</i>
   <par n="acadèmi/c__adj"/>
@@ -159903,7 +159903,7 @@
   <par n="adjudicat/ari__adj"/>
 </e>
 
-<e a="prompsit" lm="prima" r="LR">
+<e a="prompsit" lm="prima" alt="eco">
   <i>prim</i>
   <par n="abell/a__n"/>
 </e>
@@ -159916,11 +159916,6 @@
 <e a="prompsit" lm="rèdit">
   <i>rèdit</i>
   <par n="abric__n"/>
-</e>
-
-<e a="prompsit" lm="assegurança" r="LR">
-  <i>asseguranç</i>
-  <par n="abell/a__n"/>
 </e>
 
 <e a="prompsit" lm="comandita">
@@ -160183,13 +160178,13 @@
 </e>
 
 
-<e a="prompsit" lm="aquest document" r="RL">
-  <i>aquest<b/>document</i>
+<e a="prompsit" lm="escrit" alt="eco" r="RL">
+  <i>escrit</i>
   <par n="atletisme__n"/>
 </e>
 
-<e a="prompsit" lm="mitjançant aquest document" r="RL">
-  <i>mitjançant<b/>aquest<b/>document</i>
+<e a="prompsit" lm="amb aquest escrit" alt="eco" r="RL">
+  <i>amb<b/>aquest<b/>escrit</i>
   <par n="ahir__adv"/>
 </e>
 
@@ -160267,10 +160262,16 @@
   <par n="ahir__adv"/>
 </e>
 
-<e a="prompsit" lm="atès el que ha estat establert">
+<e a="prompsit" lm="segons allò que s'ha fixat">
+  <i>segons<b/>allò<b/>que<b/>s'ha<b/>fixat</i>
+  <par n="ahir__adv"/>
+</e>
+
+<e a="prompsit" lm="atès el que ha estat establert" r="LR">
   <i>atès<b/>el<b/>que<b/>ha<b/>estat<b/>establert</i>
   <par n="ahir__adv"/>
 </e>
+
 
 <e a="prompsit" lm="tenint en compte el que ha estat establert" r="LR">
   <i>tenint<b/>en<b/>compte<b/>el<b/>que<b/>ha<b/>estat<b/>establert</i>
@@ -160297,7 +160298,7 @@
   <par n="ahir__adv"/>
 </e>
 
-<e a="prompsit" lm="estendre">
+<e a="prompsit" lm="estendre acta">
         <i>este</i>
         <par n="ate/ndre__vblex"/>
 	<p>
@@ -160306,7 +160307,7 @@
       </p>
       </e>
       
-      <e a="prompsit" lm="estendre">
+      <e a="prompsit" lm="estendre acta">
         <p>
           <l>estè</l>
           <r>este</r>
@@ -160319,7 +160320,7 @@
       </p>
       </e>
       
-      <e a="prompsit" lm="estendre">
+      <e a="prompsit" lm="estendre acta">
         <p>
           <l>esté</l>
           <r>este</r>
@@ -160483,7 +160484,16 @@
       </p>
     </e>
 
-<e a="prompsit" lm="fer fallida" r="LR">
+<e a="prompsit" lm="fer fallida" alt="eco">
+      <i>f</i>
+      <par n="f/er__vblex"/>
+      <p>
+	<l><b/>fallida</l>
+	<r><g><b/>fallida</g></r>
+      </p>
+    </e>
+    
+<e a="prompsit" lm="fer fallida" alt="std" r="LR">
       <i>f</i>
       <par n="f/er__vblex"/>
       <p>
@@ -160536,36 +160546,84 @@
 
 <e a="prompsit" lm="bé arrel" r="LR">
       <i>bé</i>
-      <par n="pa__n"/>
+      <par n="atletisme__n"/>
       <p>
 	<l><b/>arrel</l>
+	<r><g><b/>arrel</g></r>
+      </p>
+    </e>
+    
+<e a="prompsit" lm="bens arrels" r="LR">
+      <p>
+	<l>béns</l>
+	<r>bé</r>
+      </p>
+      <par n="afores__n"/>
+      <p>
+	<l><b/>arrels</l>
 	<r><g><b/>arrel</g></r>
       </p>
     </e>
 
 <e a="prompsit" lm="bé seent">
       <i>bé</i>
-      <par n="pa__n"/>
+      <par n="atletisme__n"/>
       <p>
 	<l><b/>seent</l>
+	<r><g><b/>seent</g></r>
+      </p>
+    </e>
+    
+<e a="prompsit" lm="béns seent">
+      <p>
+	<l>béns</l>
+	<r>bé</r>
+      </p>
+      <par n="afores__n"/>
+      <p>
+	<l><b/>seents</l>
 	<r><g><b/>seent</g></r>
       </p>
     </e>
 
 <e a="prompsit" lm="xec confirmat">
       <i>xec</i>
-      <par n="abric__n"/>
+      <par n="atletisme__n"/>
       <p>
 	<l><b/>confirmat</l>
+	<r><g><b/>confirmat</g></r>
+      </p>
+    </e>
+    
+<e a="prompsit" lm="xecs confirmats">
+      <p>
+	<l>xecs</l>
+	<r>xec</r>
+      </p>
+      <par n="afores__n"/>
+      <p>
+	<l><b/>confirmats</l>
 	<r><g><b/>confirmat</g></r>
       </p>
     </e>
 
 <e a="prompsit" lm="xec barrat">
       <i>xec</i>
-      <par n="abric__n"/>
+      <par n="atletisme__n"/>
       <p>
 	<l><b/>barrat</l>
+	<r><g><b/>barrat</g></r>
+      </p>
+    </e>
+
+<e a="prompsit" lm="xecs barrats">
+       <p>
+	<l>xecs</l>
+	<r>xec</r>
+      </p>
+      <par n="afores__n"/>
+      <p>
+	<l><b/>barrats</l>
 	<r><g><b/>barrat</g></r>
       </p>
     </e>
@@ -160585,6 +160643,17 @@
       <p>
 	<l><b/>d'actiu</l>
 	<r><g><b/>d'actiu</g></r>
+      </p>
+    </e>
+
+
+
+<e a="prompsit" lm="tauler d'anuncis">
+      <i>tauler</i>
+      <par n="abric__n"/>
+      <p>
+	<l><b/>d'anuncis</l>
+	<r><g><b/>d'anuncis</g></r>
       </p>
     </e>
 
@@ -160693,7 +160762,7 @@
     </e>
 
 <e a="prompsit" lm="habitatges protegits">
-     <p>
+      <p>
 	<l>habitatges</l>
 	<r>habitatge</r>
       </p>
@@ -160747,12 +160816,25 @@
   <i>segons<b/>el<b/>que<b/>es<b/>disposa</i>
   <par n="ahir__adv"/>
 </e>
-
+    
 <e a="prompsit" lm="saldo mitjà">
       <i>saldo</i>
-      <par n="abric__n"/>
+      <par n="atletisme__n"/>
       <p>
 	<l><b/>mitjà</l>
+	<r><g><b/>mitjà</g></r>
+      </p>
+    </e>
+
+
+<e a="prompsit" lm="saldos mitjans">
+      <p>
+	<l>saldos</l>
+	<r>saldo</r>
+      </p>
+      <par n="afores__n"/>
+      <p>
+	<l><b/>mitjans</l>
 	<r><g><b/>mitjà</g></r>
       </p>
     </e>
@@ -160873,8 +160955,8 @@
     </e>
 
 <e a="prompsit" lm="mitjà de pagament">
-      <i>mitjà</i>
-      <par n="abric__n"/>
+      <i>mitj</i>
+      <par n="bacall/à__n"/>
       <p>
 	<l><b/>de<b/>pagament</l>
 	<r><g><b/>de<b/>pagament</g></r>
@@ -160943,6 +161025,28 @@
 </e>
 
 
+<e a="prompsit" lm="European Free Trade Association">
+  <i>European<b/>Free<b/>Trade<b/>Association</i>
+  <par n="ABC__np"/>
+</e>
+
+ 
+<e lm="a mitjà termini">
+  <i>a<b/>mitjà<b/>termini</i>
+  <par n="ahir__adv"/>
+</e>
+
+ 
+<e lm="a mitjà i llarg termini">
+  <i>a<b/>mitjà<b/>i<b/>llarg<b/>termini</i>
+  <par n="ahir__adv"/>
+</e>
+
+   
+<e a="prompsit" lm="sense dilació">
+      <i>sense<b/>dilació</i>
+      <par n="ahir__adv"/>
+    </e>
 
  </section>
  

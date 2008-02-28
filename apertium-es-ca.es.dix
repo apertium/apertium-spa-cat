@@ -74500,10 +74500,6 @@
       <i>ministerial</i>
       <par n="abdominal__adj"/>
     </e>
-    <e lm="minorista">
-      <i>minorista</i>
-      <par n="abundante__adj"/>
-    </e>
     <e lm="minoritario">
       <i>minoritari</i>
       <par n="absolut/o__adj"/>
@@ -89377,6 +89373,10 @@
       <i>firmante</i>
       <par n="accionista__n"/>
     </e>
+    <e lm="abajo firmante">
+      <i>abajo<b/>firmante</i>
+      <par n="accionista__n"/>
+    </e>
     <e lm="fiscal">
       <i>fiscal</i>
       <par n="albañil__n"/>
@@ -93704,10 +93704,6 @@
     <e lm="ministro">
       <i>ministr</i>
       <par n="abogad/o__n"/>
-    </e>
-    <e lm="minorista">
-      <i>minorista</i>
-      <par n="accionista__n"/>
     </e>
     <e lm="minoría">
       <i>minoría</i>
@@ -124008,7 +124004,7 @@
         <r>ocup</r>
       </p>
       <par n="abandón/ar__vblex"/>
-    </e>
+    </e> 
     <e lm="ocurrir">
       <i>ocurr</i>
       <par n="abat/ir__vblex"/>
@@ -133114,9 +133110,9 @@
   <i>sarampi</i>
   <par n="aluvi/ón__n"/>
 </e>
-<e lm="aun así" a=" alseoane@gmail.com" r="RL">
-  <i>aun<b/>así</i>
-  <par n="ahora__adv"/>
+<e lm="ni aun así" a=" alseoane@gmail.com" r="RL">
+  <i>ni<b/>aun<b/>así</i>
+  <par n="a_fe_que__cnjadv"/>
 </e>
 <e lm="meningocócico" a=" alseoane@gmail.com">
   <i>meningocócic</i>
@@ -134903,11 +134899,6 @@
 
       <e lm="vicepresidencia">
         <i>vicepresidencia</i>
-        <par n="abeja__n"/>
-      </e>
-
-      <e lm="vivienda">
-        <i>vivienda</i>
         <par n="abeja__n"/>
       </e>
 
@@ -159706,7 +159697,7 @@
   <par n="absolut/o__adj"/>
 </e>
 
-<e a="prompsit" lm="prima" r="RL">
+<e a="prompsit" lm="prima" alt="eco">
   <i>prima</i>
   <par n="abeja__n"/>
 </e>
@@ -159962,12 +159953,12 @@
 </e>
 
 
-<e lm="la presente" r="LR">
-  <i>la<b/>presente</i>
+<e lm="presente" alt="eco" r="LR">
+  <i>presente</i>
   <par n="cuaresma__n"/>
 </e>
 
-<e lm="por la presente" r="LR">
+<e lm="por la presente" alt="eco" r="LR">
   <i>por<b/>la<b/>presente</i>
   <par n="ahora__adv"/>
 </e>
@@ -160189,11 +160180,20 @@
       <par n="abandón/ar__vblex"/>
     </e>
 
-<e a="prompsit" lm="ser acorde">
+<e a="prompsit" lm="ser acorde" r="LR">
       <par n="/ser__vbser"/>
       <p>
 	<l><b/>acorde</l>
 	<r><g><b/>acorde</g></r>
+      </p>
+    </e>
+    
+    
+<e a="prompsit" lm="ser conforme">
+      <par n="/ser__vbser"/>
+      <p>
+	<l><b/>conforme</l>
+	<r><g><b/>conforme</g></r>
       </p>
     </e>
 
@@ -160237,27 +160237,63 @@
 
 <e a="prompsit" lm="bien raíz">
       <i>bien</i>
-      <par n="abril__n"/>
+      <par n="atletismo__n"/>
       <p>
 	<l><b/>raíz</l>
+	<r><g><b/>raíz</g></r>
+      </p>
+    </e>
+    
+<e a="prompsit" lm="bienes raíces">
+      <p>
+	<l>bienes</l>
+	<r>bien</r>
+      </p>
+      <par n="alrededores__n"/>
+      <p>
+	<l><b/>raíces</l>
 	<r><g><b/>raíz</g></r>
       </p>
     </e>
 
 <e a="prompsit" lm="cheque conformado">
       <i>cheque</i>
-      <par n="abismo__n"/>
+      <par n="atletismo__n"/>
       <p>
 	<l><b/>conformado</l>
+	<r><g><b/>conformado</g></r>
+      </p>
+    </e>
+    
+<e a="prompsit" lm="cheques conformados">
+      <p>
+	<l>cheques</l>
+	<r>cheque</r>
+      </p>
+      <par n="alrededores__n"/>
+      <p>
+	<l><b/>conformados</l>
 	<r><g><b/>conformado</g></r>
       </p>
     </e>
 
 <e a="prompsit" lm="cheque cruzado">
       <i>cheque</i>
-      <par n="abismo__n"/>
+      <par n="atletismo__n"/>
       <p>
 	<l><b/>cruzado</l>
+	<r><g><b/>cruzado</g></r>
+      </p>
+    </e>
+    
+<e a="prompsit" lm="cheques cruzados">
+      <p>
+	<l>cheques</l>
+	<r>cheque</r>
+      </p>
+      <par n="alrededores__n"/>
+      <p>
+	<l><b/>cruzados</l>
 	<r><g><b/>cruzado</g></r>
       </p>
     </e>
@@ -160270,6 +160306,18 @@
 	<r><g><b/>de<b/>activo</g></r>
       </p>
     </e>
+
+
+
+<e a="prompsit" lm="tablón de anuncios">
+      <i>tabl</i>
+      <par n="aluvi/ón__n"/>
+      <p>
+	<l><b/>de<b/>anuncios</l>
+	<r><g><b/>de<b/>anuncios</g></r>
+      </p>
+    </e>
+
 
 <e a="prompsit" lm="cuenta corriente soporte">
       <i>cuenta</i>
@@ -160430,9 +160478,21 @@
 
 <e a="prompsit" lm="saldo medio">
       <i>saldo</i>
-      <par n="abismo__n"/>
+      <par n="atletismo__n"/>
       <p>
 	<l><b/>medio</l>
+	<r><g><b/>medio</g></r>
+      </p>
+    </e>
+
+<e a="prompsit" lm="saldos medios">
+      <p>
+	<l>saldos</l>
+	<r>saldo</r>
+      </p>
+      <par n="alrededores__n"/>
+      <p>
+	<l><b/>medios</l>
 	<r><g><b/>medio</g></r>
       </p>
     </e>
@@ -160645,6 +160705,32 @@
   <i>resguardo</i>
   <par n="abismo__n"/>
 </e>
+
+<e a="prompsit" lm="European Free Trade Association">
+  <i>European<b/>Free<b/>Trade<b/>Association</i>
+  <par n="ABC__np"/>
+</e>
+
+
+<e a="prompsit" lm="en defecto de" r="LR">   
+     <i>en<b/>defecto<b/></i>
+     <par n="contde__pr"/>
+   </e>
+
+<e a="prompsit" lm="a medio plazo">
+      <i>a<b/>medio<b/>plazo</i>
+      <par n="ahora__adv"/>
+    </e>
+
+<e a="prompsit" lm="a medio y largo plazo">
+      <i>a<b/>medio<b/>y<b/>largo<b/>plazo</i>
+      <par n="ahora__adv"/>
+    </e>
+    
+<e a="prompsit" lm="sin más dilación">
+      <i>sin<b/>más<b/>dilación</i>
+      <par n="ahora__adv"/>
+    </e>
 
 </section>
 

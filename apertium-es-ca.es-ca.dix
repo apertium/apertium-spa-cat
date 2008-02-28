@@ -1288,7 +1288,19 @@
           <r>corresponent<s n="adj"/></r>
         </p>
       </e>
-      <e>
+      <e alt="std">
+        <p>
+          <l>corriente<s n="adj"/></l>
+          <r>corrent<s n="adj"/></r>
+        </p>
+      </e>
+      <e alt="eco">
+        <p>
+          <l>corriente<s n="adj"/></l>
+          <r>actual<s n="adj"/></r>
+        </p>
+      </e>
+      <e alt="eco" r="RL">
         <p>
           <l>corriente<s n="adj"/></l>
           <r>corrent<s n="adj"/></r>
@@ -12748,13 +12760,13 @@
           <r>centelleig<s n="n"/></r>
         </p>
       </e>
-      <e slr="destí D">
+      <e slr="destí">
         <p>
           <l>destino<s n="n"/></l>
           <r>destí<s n="n"/></r>
         </p>
       </e>
-      <e slr="destinació">
+      <e slr="destinació D">
         <p>
           <l>destino<s n="n"/><s n="m"/></l>
           <r>destinació<s n="n"/><s n="f"/></r>
@@ -24627,10 +24639,10 @@
           <r>excepte<s n="pr"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>salvo<s n="pr"/></l>
-          <r>excepte<s n="pr"/></r>
+          <r>salvant<s n="pr"/></r>
         </p>
       </e>
       <e>
@@ -25935,7 +25947,7 @@
       <e>
         <i>abandonar<s n="vblex"/></i>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>abarcar<s n="vblex"/></l>
           <r>abastar<s n="vblex"/></r>
@@ -28176,7 +28188,19 @@
       <e>
         <i>empinar<s n="vblex"/></i>
       </e>
-      <e>
+      <e alt="std">
+        <p>
+          <l>emplear<s n="vblex"/></l>
+          <r>emprar<s n="vblex"/></r>
+        </p>
+      </e> 
+      <e alt="eco" r="LR">
+        <p>
+          <l>emplear<s n="vblex"/></l>
+          <r>ocupar<s n="vblex"/></r>
+        </p>
+      </e>
+      <e alt="eco" r="RL">
         <p>
           <l>emplear<s n="vblex"/></l>
           <r>emprar<s n="vblex"/></r>
@@ -30120,7 +30144,7 @@
       <e>
         <i>publicar<s n="vblex"/></i>
       </e>
-      <e r="LR">
+      <e r="LR" alt="std">
         <p>
           <l>quebrar<s n="vblex"/></l>
           <r>trencar<s n="vblex"/></r>
@@ -31351,12 +31375,6 @@
         <p>
           <l>abasto<s n="n"/></l>
           <r>abastament<s n="n"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>abastecer<s n="vblex"/></l>
-          <r>abastir<s n="vblex"/></r>
         </p>
       </e>
       <e>
@@ -34508,8 +34526,8 @@
       </e>
       <e r="LR">
         <p>
-          <l>desempleo<s n="n"/></l>
-          <r>atur<s n="n"/></r>
+          <l>desempleo<s n="n"/><s n="m"/></l>
+          <r>desocupació<s n="n"/><s n="f"/></r>
         </p>
       </e>
       <e>
@@ -47811,7 +47829,7 @@
       <e>
         <p>
           <l>bienes<b/>gananciales<s n="n"/></l>
-          <r>guanys<s n="n"/></r>
+          <r>béns<b/>de<b/>guanys<s n="n"/></r>
         </p>
       </e>
       <e>
@@ -53621,10 +53639,7 @@
       <e>
         <i>ministerial<s n="adj"/></i>
       </e>
-      <e>
-        <i>minorista<s n="adj"/></i>
-      </e>
-      <e>
+      <e r="RL">
         <i>minorista<s n="n"/></i>
       </e>
       <e>
@@ -70215,12 +70230,6 @@
     <r>xarampió<s n="n"/></r>
   </p>
 </e>
-<e a=" alseoane@gmail.com" r="RL">
-  <p>
-    <l>aun<b/>así<s n="adv"/></l>
-    <r>tanmateix<s n="adv"/></r>
-  </p>
-</e>
 <e a=" alseoane@gmail.com">
   <p>
     <l>meningocócico<s n="adj"/></l>
@@ -72035,17 +72044,17 @@
         </p>
       </e>
 
-      <e>
+      <e r="RL">
         <p>
-          <l>aun<b/>así<s n="adv"/></l>
-          <r>tanmateix<s n="adv"/></r>
+          <l>aun<b/>así<s n="cnjadv"/></l>
+          <r>tanmateix<s n="cnjadv"/></r>
         </p>
       </e>
 
       <e r="LR">
         <p>
-          <l>ni<b/>aun<b/>así<s n="adv"/></l>
-          <r>tanmateix<s n="adv"/></r>
+          <l>ni<b/>aun<b/>así<s n="cnjadv"/></l>
+          <r>tanmateix<s n="cnjadv"/></r>
         </p>
       </e>
 
@@ -76882,14 +76891,14 @@
         </p>
      </e>
 
-     <e a="prompsit2adn">
+     <e r="RL" a="prompsit2adn">
         <p>
           <l>desembolso<s n="n"/></l>
           <r>desembors<s n="n"/></r>
         </p>
       </e>
 
-     <e r="RL" a="prompsit2adn">
+     <e a="prompsit2adn">
         <p>
           <l>desembolso<s n="n"/></l>
           <r>desemborsament<s n="n"/></r>
@@ -97048,7 +97057,6 @@
     <e a="prompsit"><p><l>aligerar<s n="vblex"/></l><r>alleugerir<s n="vblex"/></r></p></e>
     <e a="prompsit"><i>servir<s n="vblex"/></i></e>
     <e a="prompsit"><p><l>pudrir<s n="vblex"/></l><r>podrir<s n="vblex"/></r></p></e>
-    <e a="prompsit"><p><l>tener<s n="vblex"/></l><r>tenir<s n="vblex"/></r></p></e>
     <e a="prompsit"><p><l>desmenuzar<s n="vblex"/></l><r>esmicolar<s n="vblex"/></r></p></e>
     <e a="prompsit"><i>venir<s n="vblex"/></i></e>
     <e a="prompsit"><p><l>travestir<s n="vblex"/></l><r>transvestir<s n="vblex"/></r></p></e>
@@ -97801,6 +97809,26 @@
             <r>signatari<s n="adj"/><s n="m"/></r>
           </p>
         </e>
+	
+	<e a="prompsit" r="RL">
+          <p>
+            <l>abajo<b/>firmante<s n="n"/><s n="mf"/></l>
+            <r>sotasignat<s n="n"/><s n="f"/></r>
+          </p>
+        </e>
+	<e a="prompsit" r="LR">
+          <p>
+            <l>abajo<b/>firmante<s n="n"/><s n="mf"/></l>
+            <r>sotasignat<s n="n"/><s n="GD"/></r>
+          </p>
+        </e>
+	<e a="prompsit" r="RL">
+          <p>
+            <l>abajo<b/>firmante<s n="n"/><s n="mf"/></l>
+            <r>sotasignat<s n="n"/><s n="m"/></r>
+          </p>
+        </e>
+	
 	<e a="prompsit">
           <p>
             <l>sintáctico<s n="adj"/></l>
@@ -102967,13 +102995,6 @@
 
 <e a="prompsit">
           <p>
-            <l>prima<s n="n"/></l>
-            <r>prima<s n="n"/></r>
-          </p>
-        </e>
-
-<e a="prompsit">
-          <p>
             <l>protesto<s n="n"/></l>
             <r>protest<s n="n"/></r>
           </p>
@@ -102986,12 +103007,6 @@
           </p>
         </e>
 
-<e a="prompsit" r="LR">
-          <p>
-            <l>seguro<s n="n"/></l>
-            <r>assegurança<s n="n"/></r>
-          </p>
-        </e>
 
 <e a="prompsit">
           <p>
@@ -103353,17 +103368,17 @@
   </p>
 </e>
 
-<e a="prompsit" r="LR">
+<e a="prompsit" alt="eco" r="LR">
   <p>
-    <l>la<b/>presente<s n="n"/><s n="f"/></l>
-    <r>aquest<b/>document<s n="n"/><s n="m"/></r>
+    <l>presente<s n="n"/><s n="f"/></l>
+    <r>escrit<s n="n"/><s n="m"/></r>
   </p>
 </e>
 
-<e a="prompsit" r="LR">
+<e a="prompsit" alt="eco" r="LR">
   <p>
     <l>por<b/>la<b/>presente<s n="adv"/></l>
-    <r>mitjançant<b/>aquest<b/>document<s n="adv"/></r>
+    <r>amb<b/>aquest<b/>escrit<s n="adv"/></r>
   </p>
 </e>
 
@@ -103411,6 +103426,13 @@
   </p>
 </e>
 
+<e alt="eco" a="prompsit">
+  <p>
+    <l>prima<s n="n"/></l>
+    <r>prima<s n="n"/></r>
+  </p>
+</e>
+
 <e a="prompsit">
   <p>
     <l>resguardo<s n="n"/></l>
@@ -103446,11 +103468,14 @@
 
 <e a="prompsit"><p><l>a<b/>vuelta<b/>de<b/>correo<s n="adv"/></l><r>a<b/>correu<b/>seguit<s n="adv"/></r></p></e>
 
-<e a="prompsit"><p><l>a<b/>tenor<b/>de<b/>lo<b/>establecido<s n="adv"/></l><r>atès<b/>el<b/>que<b/>ha<b/>estat<b/>establert<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>a<b/>tenor<b/>de<b/>lo<b/>establecido<s n="adv"/></l><r>segons<b/>allò<b/>que<b/>s'ha<b/>fixat<s n="adv"/></r></p></e>
+
+<e a="prompsit" r="RL"><p><l>a<b/>tenor<b/>de<b/>lo<b/>establecido<s n="adv"/></l><r>atès<b/>el<b/>que<b/>ha<b/>estat<b/>establert<s n="adv"/></r></p></e>
 
 <e a="prompsit" r="RL"><p><l>a<b/>tenor<b/>de<b/>lo<b/>establecido<s n="adv"/></l><r>tenint<b/>en<b/>compte<b/>el<b/>que<b/>ha<b/>estat<b/>establert<s n="adv"/></r></p></e>
 
 <e a="prompsit" r="RL"><p><l>a<b/>tenor<b/>de<b/>lo<b/>establecido<s n="adv"/></l><r>per<b/>raó<b/>del<b/>que<b/>ha<b/>estat<b/>establert<s n="adv"/></r></p></e>
+
 
 <e a="prompsit" r="LR"><p><l>en<b/>lo<b/>sucesivo<s n="adv"/></l><r>d'ara<b/>endavant<s n="adv"/></r></p></e>
 
@@ -103479,11 +103504,13 @@
 
 <e a="prompsit"><p><l>por<b/>adelantado<s n="adv"/></l><r>per<b/>endavant<s n="adv"/></r></p></e>
 
-<e a="prompsit"><p><l>abastecer<s n="vblex"/></l><r>fornir<s n="vblex"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>abastecer<s n="vblex"/></l><r>proveir<s n="vblex"/></r></p></e>
+
+<e a="prompsit" r="RL"><p><l>abastecer<s n="vblex"/></l><r>fornir<s n="vblex"/></r></p></e>
 
 <e a="prompsit" r="RL"><p><l>alcanzar<s n="vblex"/></l><r>abastar<s n="vblex"/></r></p></e>
 
-<e a="prompsit" r="RL"><p><l>alcanzar<s n="vblex"/></l><r>abastir<s n="vblex"/></r></p></e> <!-- borrar abastecer abastir-->
+<e a="prompsit" r="RL"><p><l>alcanzar<s n="vblex"/></l><r>abastir<s n="vblex"/></r></p></e>
 
 <e a="prompsit"><p><l>acuse<g><b/>de<b/>recibo</g><s n="n"/></l><r>justificant<g><b/>de<b/>recepció</g><s n="n"/></r></p></e>
 
@@ -103499,9 +103526,13 @@
 
 <e a="prompsit"><p><l>debitar<s n="vblex"/></l><r>carregar<g><b/>en<b/>compte</g><s n="vblex"/></r></p></e>
 
-<e a="prompsit" r="RL"><p><l>quebrar<s n="vblex"/></l><r>fer<g><b/>fallida</g><s n="vblex"/></r></p></e>
+<e a="prompsit" alt="eco"><p><l>quebrar<s n="vblex"/></l><r>fer<g><b/>fallida</g><s n="vblex"/></r></p></e>
 
-<e a="prompsit"><p><l>ser<g><b/>acorde</g><s n="vbser"/></l><r>ser<g><b/>conforme</g><s n="vbser"/></r></p></e>
+<e a="prompsit" alt="std" r="RL"><p><l>quebrar<s n="vblex"/></l><r>fer<g><b/>fallida</g><s n="vblex"/></r></p></e>
+
+<e a="prompsit" r="LR"><p><l>ser<g><b/>acorde</g><s n="vbser"/></l><r>ser<g><b/>conforme</g><s n="vbser"/></r></p></e>
+
+<e a="prompsit"><p><l>ser<g><b/>conforme</g><s n="vbser"/></l><r>ser<g><b/>conforme</g><s n="vbser"/></r></p></e>
 
 <e a="prompsit"><p><l>surtir<g><b/>los<b/>efectos<b/>oportunos</g><s n="vblex"/></l><r>tenir<g><b/>els<b/>efectes<b/>oportuns</g><s n="vblex"/></r></p></e>
 
@@ -103522,6 +103553,8 @@
 <e a="prompsit"><p><l>cliente<g><b/>de<b/>activo</g><s n="n"/></l><r>client<g><b/>d'actiu</g><s n="n"/></r></p></e>
 
 <e a="prompsit" r="RL"><p><l>cliente<g><b/>de<b/>activo</g><s n="n"/></l><r>client<g><b/>actiu</g><s n="n"/></r></p></e>
+
+<e a="prompsit"><p><l>tablón<g><b/>de<b/>anuncios</g><s n="n"/></l><r>tauler<g><b/>d'anuncis</g><s n="n"/></r></p></e>
 
 <e a="prompsit"><p><l>cuenta<g><b/>corriente<b/>soporte</g><s n="n"/><s n="f"/></l><r>compte<g><b/>corrent<b/>de<b/>suport</g><s n="n"/><s n="m"/></r></p></e>
 
@@ -103622,6 +103655,19 @@
 <e a="prompsit"><p><l>recibido<b/>y<b/>conforme<s n="adj"/></l><r>rebut<b/>i<b/>conforme<s n="adj"/></r></p></e>
 
 <e a="prompsit"><p><l>lo<b/>que<b/>no<b/>proceda<s n="n"/></l><r>allò<b/>no<b/>procedent<s n="n"/></r></p></e>
+
+<e a="prompsit"><p><l>European<b/>Free<b/>Trade<b/>Association<s n="np"/></l><r>European<b/>Free<b/>Trade<b/>Association<s n="np"/></r></p></e>
+
+<e a="prompsit" r="LR"><p><l>en<b/>defecto<b/>de<s n="pr"/></l><r>a<b/>falta<b/>de<s n="pr"/></r></p></e>
+
+<e a="prompsit"><p><l>a<b/>medio<b/>plazo<s n="adv"/></l><r>a<b/>mitjà<b/>termini<s n="adv"/></r></p></e>
+
+<e a="prompsit"><p><l>a<b/>medio<b/>y<b/>largo<b/>plazo<s n="adv"/></l><r>a<b/>mitjà<b/>i<b/>llarg<b/>termini<s n="adv"/></r></p></e>
+
+<e a="prompsit"><p><l>sin<b/>más<b/>dilación<s n="adv"/></l><r>sense<b/>dilació<s n="adv"/></r></p></e>
+
+
+
 <e>
         <re>[0-9]+([.,][0-9]+)?</re>
         <p>
