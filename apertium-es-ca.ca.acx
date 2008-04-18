@@ -1,6 +1,8 @@
+<?xml version="1.0"?>
 <analysis-chars>
-  <char value="A">
-    <equiv-char value="B"/>
-    <equiv-char value="C"/>
+  <!-- Make apostrophe variants equal ' -->
+  <char value="'">
+    <equiv-char value="’"/>
+    <equiv-char value="ʼ"/>
   </char>
 </analysis-chars>
