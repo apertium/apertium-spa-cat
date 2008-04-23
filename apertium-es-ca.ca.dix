@@ -155407,7 +155407,7 @@
 <e a="prompsit" lm="de moment"><i>de<b/>moment</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="a vegades" r="LR"><i>a<b/>vegades</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="més aviat"><i>més<b/>aviat</i><par n="ahir__adv"/></e>
-<e a="prompsit" lm="cada vegada"><i>cada<b/>vegada</i><par n="ahir__adv"/></e>
+<e a="prompsit" lm="cada vegada" r="LR"><i>cada<b/>vegada</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="per primera vegada"><i>per<b/>primera<b/>vegada</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="per segona vegada"><i>per<b/>segona<b/>vegada</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="per tercera vegada"><i>per<b/>tercera<b/>vegada</i><par n="ahir__adv"/></e>
@@ -161044,27 +161044,22 @@
 </e>
 
    
-<e a="prompsit" lm="sense dilació">
+    <e a="prompsit" lm="sense dilació">
       <i>sense<b/>dilació</i>
       <par n="ahir__adv"/>
     </e>
 
- <e  a="prompsit2ecl" lm="enllaç">
-        <i>enllaç</i>
-        <par n="as__n"/>
- </e>
+    <e  a="prompsit2ecl" lm="enllaç">
+      <i>enllaç</i>
+      <par n="as__n"/>
+    </e>
 
- <e lm="reproduïble" a="prompsit2ecl">
-        <i>reproduïble</i>
-        <par n="abdominal__adj"/>
-     </e>
-     
-     <e lm="reproduïble" a="prompsit2ecl">
-        <i>reproduïble</i>
-        <par n="abdominal__adj"/>
-     </e>
+    <e lm="reproduïble" a="prompsit2ecl">
+      <i>reproduïble</i>
+      <par n="abdominal__adj"/>
+    </e>
 
-<e a="prompsit2ecl" lm="sala d'espera">
+    <e a="prompsit2ecl" lm="sala d'espera">
       <i>sal</i>
       <par n="abell/a__n"/>
       <p>
@@ -161073,16 +161068,20 @@
       </p>
     </e>
     
-     <e lm="d'empresa" a="prompsit2ecl">
-        <i>d'empres</i>
-        <par n="agrícol/a__adj"/>
-     </e>  
+    <e lm="d'empresa" a="prompsit2ecl">
+      <i>d'empres</i>
+      <par n="agrícol/a__adj"/>
+    </e>  
      
-     <e lm="globalitzar" a="prompsit2ecl">
-        <i>globalitz</i>
-        <par n="abander/ar__vblex"/>
-     </e>
+    <e lm="globalitzar" a="prompsit2ecl">
+      <i>globalitz</i>
+      <par n="abander/ar__vblex"/>
+    </e>
     
+    <e a="prompsit2ecl" lm="globalitzat">
+      <i>globalitza</i>
+      <par n="afortuna/t__adj"/>
+    </e>
       
     <e a="prompsit2ecl" lm="cada cop">
       <i>cada<b/>cop</i>
@@ -161133,13 +161132,37 @@
       <i>si<b/>us<b/>plau</i>
       <par n="a_reveure__ij"/>
     </e>
+    
+    <e a="prompsit2ecl" lm="sisplau" r="LR">
+      <i>sisplau</i>
+      <par n="a_reveure__ij"/>
+    </e>
       
     <e a="prompsit2ecl" lm="si et plau" r="LR">
       <i>si<b/>et<b/>plau</i>
       <par n="a_reveure__ij"/>
     </e>
-      
-     
+        
+    <e a="prompsit2ecl" lm="empresari/ària">
+      <i>empresari/ària</i>
+      <par n="atletisme__n"/>
+    </e>  
+       
+    <e a="prompsit2ecl" lm="empresaris/àries">
+      <i>empresaris/àries</i>
+      <par n="afores__n"/>
+    </e> 
+    
+    <e a="prompsit2ecl" lm="benvolgut/da">
+      <i>benvolgut/da</i>
+      <par n="multimèdia__adj"/>
+    </e>  
+       
+    <e a="prompsit2ecl" lm="benvolguts/des">
+      <i>benvolguts/des</i>
+      <par n="multimèdia__adj"/>
+    </e>
+    
  </section>
  
 
