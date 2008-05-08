@@ -17,12 +17,12 @@ $(PREFIX).prob: $(BASENAME).$(LANG1).tsx $(TAGGER)/$(LANG1).dic $(TAGGER)/$(LANG
                            $(TAGGER)/$(LANG1).tagged \
                            $(TAGGER)/$(LANG1).untagged;
 
-$(TAGGER)/$(LANG1).dic: $(BASENAME).$(LANG1).dix $(PREFIX).automorf.bin
+$(TAGGER)/$(LANG1).dic: .deps/$(LANG1).dix $(PREFIX).automorf.bin
 	@echo "Generating $@";
 	@echo "This may take some time. Please, take a cup of coffee and come back later.";
-	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
+	apertium-validate-dictionary .deps/$(LANG1).dix
 	apertium-validate-tagger $(BASENAME).$(LANG1).tsx
-	lt-expand $(BASENAME).$(LANG1).dix | grep -v "__REGEXP__" | grep -v ":<:" |\
+	lt-expand .deps/$(LANG1).dix | grep -v "__REGEXP__" | grep -v ":<:" |\
 	awk 'BEGIN{FS=":>:|:"}{print $$1 ".";}' | apertium-destxt >$(LANG1).dic.expanded
 	@echo "." >>$(LANG1).dic.expanded
 	@echo "?" >>$(LANG1).dic.expanded

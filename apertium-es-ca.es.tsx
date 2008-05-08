@@ -136,6 +136,43 @@
   <def-label name="PRNPRO" closed="true">
     <tags-item tags="prn.pro.*"/>
   </def-label>
+  <def-label name="VSERINF" closed="true">
+    <tags-item lemma="estar" tags="vblex.inf"/>
+    <tags-item tags="vbser.inf"/>
+  </def-label>
+  <def-label name="VSERGER" closed="true">
+    <tags-item lemma="estar" tags="vblex.ger"/>
+    <tags-item tags="vbser.ger"/>
+  </def-label>
+  <def-label name="VSERPARTPI" closed="true">
+    <tags-item tags="vbser.pp.*"/>
+  </def-label>
+  <def-label name="VSERPFCI" closed="true">
+    <tags-item lemma="estar" tags="vblex.pri.*"/>
+    <tags-item lemma="estar" tags="vblex.fti.*"/>    
+    <tags-item lemma="estar" tags="vblex.cni.*"/>
+    <tags-item tags="vbser.pri.*"/>
+    <tags-item tags="vbser.fti.*"/>
+    <tags-item tags="vbser.cni.*"/>
+  </def-label>
+  <def-label name="VSERIPI" closed="true">
+    <tags-item lemma="estar" tags="vblex.pii.*"/>
+    <tags-item lemma="estar" tags="vblex.ifi.*"/>
+    <tags-item tags="vbser.pii.*"/>
+    <tags-item tags="vbser.ifi.*"/>
+  </def-label>
+  <def-label name="VSERSUBJ" closed="true">
+    <tags-item lemma="estar" tags="vblex.prs.*"/>
+    <tags-item lemma="estar" tags="vblex.pis.*"/>
+    <tags-item lemma="estar" tags="vblex.fts.*"/>
+    <tags-item tags="vbser.prs.*"/>
+    <tags-item tags="vbser.pis.*"/>
+    <tags-item tags="vbser.fts.*"/>
+  </def-label>
+  <def-label name="VSERIMP" closed="true">
+    <tags-item lemma="estar" tags="vblex.imp.*"/>
+    <tags-item tags="vbser.imp.*"/>
+  </def-label>
   <def-label name="VLEXINF">
     <tags-item tags="vblex.inf"/>
   </def-label>
@@ -161,32 +198,6 @@
   </def-label>
   <def-label name="VLEXIMP">
     <tags-item tags="vblex.imp.*"/>
-  </def-label>
-  <def-label name="VSERINF" closed="true">
-    <tags-item tags="vbser.inf"/>
-  </def-label>
-  <def-label name="VSERGER" closed="true">
-    <tags-item tags="vbser.ger"/>
-  </def-label>
-  <def-label name="VSERPARTPI" closed="true">
-    <tags-item tags="vbser.pp.*"/>
-  </def-label>
-  <def-label name="VSERPFCI" closed="true">
-    <tags-item tags="vbser.pri.*"/>
-    <tags-item tags="vbser.fti.*"/>
-    <tags-item tags="vbser.cni.*"/>
-  </def-label>
-  <def-label name="VSERIPI" closed="true">
-    <tags-item tags="vbser.pii.*"/>
-    <tags-item tags="vbser.ifi.*"/>
-  </def-label>
-  <def-label name="VSERSUBJ" closed="true">
-    <tags-item tags="vbser.prs.*"/>
-    <tags-item tags="vbser.pis.*"/>
-    <tags-item tags="vbser.fts.*"/>
-  </def-label>
-  <def-label name="VSERIMP" closed="true">
-    <tags-item tags="vbser.imp.*"/>
   </def-label>
   <def-label name="VHABERINF" closed="true">
     <tags-item tags="vbhaver.inf"/>
@@ -1846,6 +1857,18 @@
     <label-sequence>
       <label-item label="VMODALIMP"/>
       <label-item label="ADJPOS"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="ADV"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="ADV"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="ADV"/>
+      <label-item label="VSERIMP"/>
     </label-sequence>
 
   </forbid>
