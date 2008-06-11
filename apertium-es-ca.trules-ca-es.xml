@@ -3460,7 +3460,27 @@ is not applicable because gender and number can not be taken from previous rules
 	    <with-param pos="3"/>
             <with-param pos="2"/>
 	    <with-param pos="1"/>
-	  </call-macro>     
+	  </call-macro>  
+	  <choose>
+		  <when>
+			  <test>
+				  <equal caseless="yes">
+					  <clip pos="1" side="sl" part="lem"/>
+					  <lit v="tot"/>
+				  </equal>
+			  </test>
+			  <let>
+				 <clip pos="1" side="tl" part="lem"/>
+				<get-case-from pos="1">
+				 	 <lit v="el"/>
+			  	</get-case-from>
+			  </let>
+			  <let>
+				  <clip pos="1" side="tl" part="a_det"/>
+				  <lit-tag v="det.def"/>
+			  </let>
+		  </when>
+	  </choose>
           <out>     
 	   <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -3480,6 +3500,59 @@ is not applicable because gender and number can not be taken from previous rules
 	   </lu>
          </out>
      </action>
+   </rule>
+   
+   <rule> <!-- REGLA: DET NUMERAL NOM -->
+	   <pattern>
+		   <pattern-item n="det"/>
+		   <pattern-item n="num"/>
+		   <pattern-item n="adjec"/>
+	   </pattern>
+	   <action>
+		   <call-macro n="f_concord3">
+			   <with-param pos="3"/>
+			   <with-param pos="2"/>
+			   <with-param pos="1"/>
+		   </call-macro>  
+		   <choose>
+			   <when>
+				   <test>
+					   <equal caseless="yes">
+						   <clip pos="1" side="sl" part="lem"/>
+						   <lit v="tot"/>
+					   </equal>
+				   </test>
+				   <let>
+					   <clip pos="1" side="tl" part="lem"/>
+					   <get-case-from pos="1">
+						   <lit v="el"/>
+					   </get-case-from>
+				   </let>
+				   <let>
+					   <clip pos="1" side="tl" part="a_det"/>
+					   <lit-tag v="det.def"/>
+				   </let>
+			   </when>
+		   </choose>
+		   <out>     
+			   <lu>
+				   <clip pos="1" side="tl" part="whole"/>
+			   </lu>
+			   <b pos="1"/>
+			   
+			   <lu>
+				   <clip pos="2" side="tl" part="whole"/>
+			   </lu>  
+			   <b pos="2"/>
+			   <lu>
+				   <clip pos="3" side="tl" part="lemh"/>
+				   <clip pos="3" side="tl" part="a_adjec"/>
+				   <clip pos="3" side="tl" part="gen"/>
+				   <clip pos="3" side="tl" part="nbr"/>
+				   <clip pos="3" side="tl" part="lemq"/> 
+			   </lu>
+		   </out>
+	   </action>
    </rule>
  <rule> <!-- REGLA: RELAT --> <!-- revisar què fa aquesta regla!!!! : qui <ND>?-->
       <pattern>
@@ -3688,6 +3761,50 @@ is not applicable because gender and number can not be taken from previous rules
     </action>
 </rule>
 
+<rule> <!--REGLA: tot + VERB (tot cantant -> cantando)-->
+	<pattern>
+		<pattern-item n="tot"/>
+		<pattern-item n="verb"/>
+	</pattern>
+	<action>
+		<choose>
+			<when>
+				<test>
+					<not>
+						<equal>
+							<clip pos="2" side="sl" part="temps"/>
+							<lit-tag v="ger"/>
+						</equal>
+					</not>
+				</test>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="whole"/>
+					</lu>
+					<b pos="1"/>
+				</out>
+			</when>
+			<otherwise>
+				<call-macro n="f_bcond">
+					<with-param pos="1"/>
+				</call-macro>
+			</otherwise>
+		</choose>
+
+		<out>                
+			<lu>
+				<clip pos="2" side="tl" part="lemh"/>
+				<clip pos="2" side="tl" part="a_verb"/>
+				<clip pos="2" side="tl" part="temps"/>
+				<clip pos="2" side="tl" part="persona"/>
+				<clip pos="2" side="tl" part="gen"/>
+				<clip pos="2" side="tl" part="nbr"/>
+				<clip pos="2" side="tl" part="lemq"/>
+			</lu>		
+		</out>
+	</action>
+</rule>
+
 
 <rule> <!--REGLA: VERB + ENCLÍTIC-->
       <pattern>
@@ -3700,6 +3817,43 @@ is not applicable because gender and number can not be taken from previous rules
 	<with-param pos="2"/>
       </call-macro>      
     </action>
+</rule>
+
+<rule> <!--REGLA: tot + VERB + ENCLÍTIC-->
+	<pattern>
+		<pattern-item n="tot"/>
+		<pattern-item n="verb"/>
+		<pattern-item n="prnenc"/>
+	</pattern>
+	<action>
+		<choose>
+			<when>
+				<test>
+					<not>
+						<equal>
+							<clip pos="2" side="sl" part="temps"/>
+							<lit-tag v="ger"/>
+						</equal>
+					</not>
+				</test>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="whole"/>
+					</lu>
+					<b pos="1"/>
+				</out>
+			</when>
+			<otherwise>
+				<call-macro n="f_bcond">
+					<with-param pos="1"/>
+				</call-macro>
+			</otherwise>
+		</choose>
+		<call-macro n="f_outverb2">
+			<with-param pos="2"/>
+			<with-param pos="3"/>
+		</call-macro>      
+	</action>
 </rule>
 
 
@@ -3716,6 +3870,45 @@ is not applicable because gender and number can not be taken from previous rules
 	<with-param pos="3"/>
       </call-macro>       
     </action>
+</rule>
+
+<rule> <!--REGLA: tot + VERB + ENCLÍTIC + ENCLÍTIC-->
+	<pattern>
+		<pattern-item n="tot"/>
+		<pattern-item n="verb"/>
+		<pattern-item n="prnenc"/>
+		<pattern-item n="prnenc"/>
+	</pattern>
+	<action>
+		<choose>
+			<when>
+				<test>
+					<not>
+						<equal>
+							<clip pos="2" side="sl" part="temps"/>
+							<lit-tag v="ger"/>
+						</equal>
+					</not>
+				</test>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="whole"/>
+					</lu>
+					<b pos="1"/>
+				</out>
+			</when>
+			<otherwise>
+				<call-macro n="f_bcond">
+					<with-param pos="1"/>
+				</call-macro>
+			</otherwise>
+		</choose>
+		<call-macro n="f_outverb3">
+			<with-param pos="2"/>
+			<with-param pos="3"/>
+			<with-param pos="4"/>
+		</call-macro>       
+	</action>
 </rule>
 
 

@@ -459,6 +459,20 @@
 	</get-case-from>
       </let>
     </when>
+    <when>
+	    <test>
+		    <equal caseless="yes">
+			    <clip pos="1" side ="tl" part="lem"/>
+			    <lit v="mitjà"/>
+		    </equal>	  
+	    </test>
+	    <let>
+		    <clip pos="1" side ="tl" part="lem"/>
+		    <get-case-from pos="1">
+			    <lit v="mig"/>
+		    </get-case-from>
+	    </let>
+    </when>
   </choose>
 </def-macro>
 
