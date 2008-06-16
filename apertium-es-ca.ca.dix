@@ -85869,6 +85869,14 @@
         <i>n'hi<b/>ha<b/>prou<b/>que</i>
         <par n="a_fe_que__cnjadv"/>
       </e>
+      <e lm="n'hi ha prou de">
+        <i>n'hi<b/>ha<b/>prou<b/></i>
+        <par n="contde__pr"/>
+      </e>
+      <e lm="ja n'hi ha prou">
+        <i>ja<b/>n'hi<b/>ha<b/>prou</i>
+        <par n="a_reveure__ij"/>
+      </e>
       
       <e lm="no obstant">
         <i>no<b/>obstant</i>
@@ -113868,6 +113876,10 @@
       <e lm="ABC">
         <i>ABC</i>
         <par n="ABC__np"/>
+      </e>
+      <e lm="Almoines">
+        <i>Amoines</i>
+        <par n="Afganistan__np"/>
       </e>
       
       <e lm="Abad">
@@ -160602,6 +160614,10 @@
      <i>a<b/>instàncies<b/></i>
      <par n="contde__pr"/>
    </e>
+<e a="prompsit" lm="al final de">   
+     <i>al<b/>final<b/></i>
+     <par n="contde__pr"/>
+   </e>
 
 <e a="prompsit" lm="a proposició de" r="LR">   
      <i>a<b/>proposició<b/></i>
@@ -162145,6 +162161,20 @@
         <p>
           <l>davant<b/>d'</l>
           <r>davant<b/>de</r>
+        </p>
+        <par n="a__pr"/>
+      </e>
+<e lm="n'hi ha prou de" r="LR">
+        <p>
+          <l>n'hi<b/>ha<b/>prou<b/>d'</l>
+          <r>n'hi<b/>ha<b/>prou<b/>de</r>
+        </p>
+        <par n="a__pr"/>
+      </e>
+ <e lm="al final de" r="LR">
+        <p>
+          <l>al<b/>final<b/>d'</l>
+          <r>al<b/>final<b/>de</r>
         </p>
         <par n="a__pr"/>
       </e>

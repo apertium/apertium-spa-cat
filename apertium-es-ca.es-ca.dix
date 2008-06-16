@@ -2,6 +2,7 @@
 <dictionary>
   <alphabet/>
   <sdefs>
+    <sdef n="v2"/>
     <sdef n="acr"/>
     <sdef n="predet"/>
     <sdef n="detnt"/>
@@ -7155,6 +7156,12 @@
       </e>
       <e>
         <p>
+          <l>basta<b/>de<s n="pr"/></l>
+          <r>n'hi<b/>ha<b/>prou<b/>de<s n="pr"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>comoquiera<b/>que<s n="cnjadv"/></l>
           <r>per<b/>tal<b/>com<s n="cnjadv"/></r>
         </p>
@@ -8099,6 +8106,12 @@
         <p>
           <l>basta<s n="ij"/></l>
           <r>prou<s n="ij"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>basta<s n="ij"/></l>
+          <r>ja<b/>n'hi<b/>ha<b/>prou<s n="ij"/></r>
         </p>
       </e>
       <e r="RL">
@@ -24463,7 +24476,7 @@
           <r>davant<b/>de<s n="pr"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>ante<s n="pr"/></l>
           <r>davant<b/>de<s n="pr"/></r>
@@ -27532,6 +27545,12 @@
       </e>
       <e r="RL">
         <i>contar<s n="vblex"/></i>
+      </e>
+      <e>
+        <p>
+          <l>contar<g><b/>con</g><s n="vblex"/></l>
+          <r>comptar<g><b/>amb</g><s n="vblex"/></r>
+        </p>
       </e>
       <e>
         <i>contemplar<s n="vblex"/></i>
@@ -31325,7 +31344,7 @@
       </e>
       <e>
         <p>
-          <l>ver<s n="vblex"/></l>
+          <l>ver<s n="vblex"/><s n="v2"/></l>
           <r>veure<s n="vblex"/></r>
         </p>
       </e>
@@ -68551,6 +68570,18 @@
           <r>en<b/>termes<b/>de<s n="pr"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>al<b/>término<b/>de<s n="pr"/></l>
+          <r>al<b/>final<b/>de<s n="pr"/></r>
+        </p>
+      </e>
+     <e>
+        <p>
+          <l>al<b/>final<b/>de<s n="pr"/></l>
+          <r>al<b/>final<b/>de<s n="pr"/></r>
+        </p>
+      </e>
 
       <e>
         <p>
@@ -68570,6 +68601,12 @@
         <p>
           <l>Tanzania<s n="np"/></l>
           <r>Tanzània<s n="np"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>Almoines<s n="np"/></l>
+          <r>Almoines<s n="np"/></r>
         </p>
       </e>
 
