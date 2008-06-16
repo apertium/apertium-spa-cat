@@ -78728,7 +78728,11 @@
         <i>intemporal</i>
         <par n="abdominal__adj"/>
       </e>
-      
+       <e lm="intertemporal">
+        <i>intertemporal</i>
+        <par n="abdominal__adj"/>
+      </e>
+     
       <e lm="intencionat">
         <i>intenciona</i>
         <par n="afortuna/t__adj"/>
@@ -78773,6 +78777,10 @@
         <i>intermedi</i>
         <par n="adjudicat/ari__adj"/>
       </e>
+     <e lm="aranzelari">
+        <i>aranzel</i>
+        <par n="adjudicat/ari__adj"/>
+      </e>
       
       <e lm="interminable">
         <i>interminable</i>
@@ -78798,7 +78806,11 @@
         <i>interpretati</i>
         <par n="abusi/u__adj"/>
       </e>
-      
+       <e lm="acumulatiu">
+        <i>acumulati</i>
+        <par n="abusi/u__adj"/>
+      </e>
+     
       <e lm="interprofessional">
         <i>interprofessional</i>
         <par n="abdominal__adj"/>
@@ -81593,6 +81605,10 @@
       
       <e lm="regional">
         <i>regional</i>
+        <par n="abdominal__adj"/>
+      </e>
+      <e lm="interregional">
+        <i>interregional</i>
         <par n="abdominal__adj"/>
       </e>
       
@@ -85744,6 +85760,10 @@
         <i>amb<b/>finalitats</i>
         <par n="a__pr"/>
       </e>
+      <e lm="tot i" r="LR">
+        <i>tot<b/>i</i>
+        <par n="a__pr"/>
+      </e>
       
       <e lm="ans" r="LR">
         <i>ans</i>
@@ -86382,6 +86402,10 @@
         <i>BBVA</i>
         <par n="BBVA__n"/>
       </e>
+      <e lm="PNB">
+        <i>PNB</i>
+        <par n="BBVA__n"/>
+      </e>
       
       <e lm="BOE">
         <i>BOE</i>
@@ -86596,9 +86620,17 @@
         <i>Sr</i>
         <par n="senyor__n"/>
       </e>
+      <e lm="prestador">
+        <i>prestador</i>
+        <par n="senyor__n"/>
+      </e>
       
       <e lm="Tenorio">
         <i>Tenorio</i>
+        <par n="abric__n"/>
+      </e>
+     <e lm="vector">
+        <i>vector</i>
         <par n="abric__n"/>
       </e>
       
@@ -94128,9 +94160,17 @@
         <i>denegaci</i>
         <par n="acci/ó__n"/>
       </e>
+    <e lm="Yaser">
+      <i>Yaser</i>
+      <par n="Abad__np"/>
+    </e>
       
       <e lm="denominació">
         <i>denominaci</i>
+        <par n="acci/ó__n"/>
+      </e>
+      <e lm="redenominació">
+        <i>redenominaci</i>
         <par n="acci/ó__n"/>
       </e>
       
@@ -94151,6 +94191,10 @@
       
       <e lm="dentadura">
         <i>dentadur</i>
+        <par n="abell/a__n"/>
+      </e>
+      <e lm="econometria">
+        <i>econometri</i>
         <par n="abell/a__n"/>
       </e>
       
@@ -95542,7 +95586,11 @@
         <i>economi</i>
         <par n="abell/a__n"/>
       </e>
-      
+      <e lm="macroeconomia">
+        <i>macroeconomi</i>
+        <par n="abell/a__n"/>
+      </e>
+
       <e lm="economista">
         <i>economist</i>
         <par n="accionist/a__n"/>
@@ -113886,6 +113934,38 @@
         <i>Abad</i>
         <par n="Abad__np"/>
       </e>
+      <e lm="Suanzes">
+        <i>Suanzes</i>
+        <par n="Abad__np"/>
+      </e>
+      <e lm="Aparicio">
+        <i>Aparicio</i>
+        <par n="Abad__np"/>
+      </e>
+      <e lm="Tamayo">
+        <i>Tamayo</i>
+        <par n="Abad__np"/>
+      </e>
+      <e lm="Lewinsky">
+        <i>Lewinsky</i>
+        <par n="Abad__np"/>
+      </e>
+       <e lm="Serafín">
+        <i>Serafín</i>
+        <par n="Abad__np"/>
+      </e>
+      <e lm="Herce">
+        <i>Herce</i>
+        <par n="Abad__np"/>
+      </e>
+      <e lm="Forner">
+        <i>Forner</i>
+        <par n="Abad__np"/>
+      </e>
+        <e lm="Arjones">
+        <i>Arjones</i>
+        <par n="Abad__np"/>
+      </e>
       
       <e lm="Abascal">
         <i>Abascal</i>
@@ -114639,6 +114719,14 @@
       
       <e lm="Barcelona">
         <i>Barcelona</i>
+        <par n="Afganistan__np"/>
+      </e>
+      <e lm="Ulster">
+        <i>Ulster</i>
+        <par n="Afganistan__np"/>
+      </e>
+      <e lm="Novelda">
+        <i>Novelda</i>
         <par n="Afganistan__np"/>
       </e>
       
@@ -116574,7 +116662,7 @@
       
       <e lm="Generalitat">
         <i>Generalitat</i>
-        <par n="ABC__np"/>
+        <par n="Afganistan__np"/>
       </e>
       
       <e lm="George">
@@ -121781,6 +121869,10 @@
 	<i>per<b/>tot<b/>arreu</i>
         <par n="ahir__adv"/>
       </e>
+      <e lm="per càpita">
+	<i>per<b/>càpita</i>
+	<par n="ahir__adv"/>
+      </e>
 
       <e lm="cap a">
         <i>cap<b/></i>
@@ -122927,6 +123019,14 @@
       <e lm="tot">
         <i>tot</i>
         <par n="algun__prn"/>
+      </e>
+      <e lm="tot i res">
+        <i>tot<b/>i<b/>res</i>
+        <par n="alguna_cosa__prn"/>
+      </e>
+      <e lm="tot i més">
+        <i>tot<b/>i<b/>més</i>
+        <par n="alguna_cosa__prn"/>
       </e>
       
       <e lm="tot plegat">
@@ -131946,6 +132046,10 @@
         </p>
         <par n="esglaï/ar__vblex"/>
       </e>
+       <e lm="Jamal">
+        <i>Jamal</i>
+        <par n="Abad__np"/>
+      </e>
       
       <e lm="remenar">
         <i>remen</i>
@@ -134080,6 +134184,26 @@
   <i>CiU</i>
   <par n="ABC__np"/>
 </e>
+<e lm="Argentaria">
+  <i>Argentaria</i>
+  <par n="ABC__np"/>
+</e>
+<e lm="Cepsa">
+  <i>Cepsa</i>
+  <par n="ABC__np"/>
+</e>
+<e lm="Boyhumus">
+  <i>Boyhumus</i>
+  <par n="ABC__np"/>
+</e>
+<e lm="Airtel">
+  <i>Airtel</i>
+  <par n="ABC__np"/>
+</e>
+<e lm="Retevisión">
+  <i>Retevisión</i>
+  <par n="ABC__np"/>
+</e>
 
 <e lm="a través" a="mginesti">
   <i>a<b/>través</i>
@@ -134306,6 +134430,10 @@
   <i>cimer</i>
   <par n="abell/a__n"/>
 </e>
+<e lm="pirita">
+  <i>pirit</i>
+  <par n="abell/a__n"/>
+</e>
 <e lm="tal com" a="mginesti">
   <i>tal<b/>com</i>
   <par n="a_fe_que__cnjadv"/>
@@ -134381,6 +134509,10 @@
 </e>
 <e lm="repartiment" a="mginesti">
   <i>repartiment</i>
+  <par n="abric__n"/>
+</e>
+<e lm="sulfato">
+  <i>sulfato</i>
   <par n="abric__n"/>
 </e>
 <e lm="mitjana" a="mginesti">
@@ -134558,6 +134690,10 @@
   <i>certitud</i>
   <par n="accessibilitat__n"/>
 </e>
+<e lm="externalitat">
+  <i>externalitat</i>
+  <par n="accessibilitat__n"/>
+</e>
 <e lm="escrupolós" a="mikel">
   <i>escrupol</i>
   <par n="aliment/ós__adj"/>
@@ -134572,6 +134708,18 @@
 </e>
 <e lm="Simó" a="gema">
   <i>Simó</i>
+  <par n="Abad__np"/>
+</e>
+<e lm="Mubarak">
+  <i>Mubarak</i>
+  <par n="Abad__np"/>
+</e>
+<e lm="Harris">
+  <i>Harris</i>
+  <par n="Abad__np"/>
+</e>
+<e lm="Fischler">
+  <i>Fischler</i>
   <par n="Abad__np"/>
 </e>
 <e lm="morera" a="gema">
@@ -134618,6 +134766,14 @@
 	<p>
           <l><b/>fàstic</l>
           <r><g><b/>fàstic</g></r>
+        </p>
+      </e>
+     <e lm="fer públic">
+        <i>f</i>
+	<par n="f/er__vblex"/>
+	<p>
+          <l><b/>públic</l>
+          <r><g><b/>públic</g></r>
         </p>
       </e>
 
@@ -135411,8 +135567,12 @@
         <par n="abell/a__n"/>
       </e>
 
-            <e lm="trinitat">
+      <e lm="trinitat">
         <i>trinitat</i>
+        <par n="accessibilitat__n"/>
+      </e>
+      <e lm="progressivitat">
+        <i>progressivitat</i>
         <par n="accessibilitat__n"/>
       </e>
          <e lm="àgape">
@@ -135498,6 +135658,14 @@
   <i>telemàti</i>
   <par n="acadèmi/c__adj"/>
 </e>
+<e lm="politècnic">
+  <i>politècni</i>
+  <par n="acadèmi/c__adj"/>
+</e>
+<e lm="amònic">
+  <i>amòni</i>
+  <par n="acadèmi/c__adj"/>
+</e>
 <e lm="nominal">
   <i>nominal</i>
   <par n="abdominal__adj"/>
@@ -135512,6 +135680,10 @@
 </e>
 <e lm="validació">
   <i>validaci</i>
+  <par n="acci/ó__n"/>
+</e>
+<e lm="regressió">
+  <i>regressi</i>
   <par n="acci/ó__n"/>
 </e>
 <e lm="truncar">
@@ -136764,6 +136936,10 @@
 </e>
 <e lm="immunodeficiència" a=" alseoane@gmail.com">
   <i>immunodeficiènci</i>
+  <par n="abell/a__n"/>
+</e>
+<e lm="ineficiència">
+  <i>ineficiènci</i>
   <par n="abell/a__n"/>
 </e>
 <e lm="hormonal" a=" alseoane@gmail.com">
@@ -143953,6 +144129,10 @@
         <i>inexistènci</i>
         <par n="abell/a__n"/>
      </e>
+     <e lm="coexistència">
+        <i>coexistènci</i>
+        <par n="abell/a__n"/>
+     </e>
 
      <e lm="inexplicable" a="prompsit2adn">
         <i>inexplicable</i>
@@ -144036,6 +144216,10 @@
 
      <e lm="empelt" a="prompsit2adn">
         <i>empelt</i>
+        <par n="abric__n"/>
+     </e>
+     <e lm="quocient">
+        <i>quocient</i>
         <par n="abric__n"/>
      </e>
 
@@ -144723,6 +144907,10 @@
 
      <e lm="magnificar" a="prompsit2adn">
         <i>magnifi</i>
+        <par n="abo/car__vblex"/>
+     </e>
+    <e lm="clarificar" r="LR">
+        <i>clarifi</i>
         <par n="abo/car__vblex"/>
      </e>
 
@@ -150628,6 +150816,10 @@
   <i>CCOO</i>
   <par n="BBVA__n"/>
 </e>
+<e lm="CC.OO." a="prompsit2adn">
+  <i>CC.OO.</i>
+  <par n="BBVA__n"/>
+</e>
 <e lm="PSE-EE" a="prompsit2adn">
   <i>PSE-EE</i>
   <par n="BBVA__n"/>
@@ -154728,6 +154920,8 @@
 <e lm="Paramount" a="prompsit2adn"><i>Paramount</i><par n="ABC__np"/></e>
 <e lm="Audiovisual Sport" a="prompsit2adn"><i>Audiovisual<b/>Sport</i><par n="ABC__np"/></e>
 <e lm="Wall Street" a="prompsit2adn"><i>Wall<b/>Street</i><par n="ABC__np"/></e>
+<e lm="Alentejo"><i>Alentejo</i><par n="Afganistan__np"/></e>
+<e lm="Seattle"><i>Seattle</i><par n="Afganistan__np"/></e>
 
 <e lm="New York" a="prompsit2adn"><i>New<b/>York</i><par n="Afganistan__np"/></e>
 <e lm="Gaza" a="prompsit2adn"><i>Gaza</i><par n="Afganistan__np"/></e>
@@ -156168,6 +156362,7 @@
           <e a="prompsit" lm="Lauren"><i>Lauren</i><par n="ABC__np"/></e>
           <e a="prompsit" lm="Laurent"><i>Laurent</i><par n="Abad__np"/></e>
           <e a="prompsit" lm="La Vanguardia"><i>La<b/>Vanguardia</i><par n="ABC__np"/></e>
+          <e a="prompsit" lm="Insalud"><i>Insalud</i><par n="ABC__np"/></e>
           <e a="prompsit" lm="Lawrence"><i>Lawrence</i><par n="Abad__np"/></e>
           <e a="prompsit" lm="Lee"><i>Lee</i><par n="Abad__np"/></e>
           <e a="prompsit" lm="Leslie"><i>Leslie</i><par n="Abad__np"/></e>
@@ -156531,6 +156726,7 @@
 <e lm="hostilitzar" a="prompsit"><i>hostilitz</i><par n="abander/ar__vblex"/></e>
 <e lm="inventariar" a="prompsit"><i>inventari</i><par n="acarici/ar__vblex"/></e>
 <e lm="armada" a="prompsit"><i>armad</i><par n="abell/a__n"/></e>
+<e lm="estocada"><i>estocad</i><par n="abell/a__n"/></e>
 <e lm="marina" a="prompsit"><i>marin</i><par n="abell/a__n"/></e>
 <e lm="davantal" a="prompsit"><i>davantal</i><par n="abric__n"/></e>
 <e lm="blancor" a="prompsit"><i>blancor</i><par n="accessibilitat__n"/></e>
@@ -161059,13 +161255,16 @@
     </e>
 
 <e a="prompsit" lm="compte corrent de suport">
-      <i>compte</i>
-      <par n="abric__n"/>
-      <p>
-	<l><b/>corrent<b/>de<b/>suport</l>
-	<r><g><b/>corrent<b/>de<b/>suport</g></r>
-      </p>
+      <i>compte<b/>corrent<b/>de<b/>suport</i>
+      <par n="atletisme__n"/>
     </e>
+<e a="prompsit" lm="compte corrent de suport">
+    <p>
+      <l>comptes<b/>corrents<b/>de<b/>suport</l>
+      <r>compte<b/>corrent<b/>de<b/>suport</r>
+    </p>
+      <par n="afores__n"/>
+</e>
 
 <e a="prompsit" lm="compte domiciliació">
       <i>compte</i>
@@ -161154,24 +161353,16 @@
     </e>
 
 <e a="prompsit" lm="habitatge protegit">
-      <i>habitatge</i>
+      <i>habitatge<b/>protegit</i>
       <par n="atletisme__n"/>
-      <p>
-	<l><b/>protegit</l>
-	<r><g><b/>protegit</g></r>
-      </p>
     </e>
 
 <e a="prompsit" lm="habitatges protegits">
       <p>
-	<l>habitatges</l>
-	<r>habitatge</r>
+	<l>habitatges<b/>protegits</l>
+	<r>habitatge<b/>protegit</r>
       </p>
       <par n="afores__n"/>
-      <p>
-	<l><b/>protegits</l>
-	<r><g><b/>protegit</g></r>
-      </p>
     </e>
 
 <e a="prompsit" lm="vistiplau">
@@ -161421,6 +161612,18 @@
         <i>rebut<b/>i<b/>conforme</i>
         <par n="multimèdia__adj"/>
       </e>
+<e lm="vice">
+        <i>vice</i>
+        <par n="multimèdia__adj"/>
+      </e>
+    <e lm="Ribó">
+      <i>Ribó</i>
+      <par n="Abad__np"/>
+    </e>
+    <e lm="Jonquera">
+      <i>Jonquera</i>
+      <par n="Afganistan__np"/>
+    </e>
 
 <e a="prompsit" lm="allò no procedent">
   <i>allò<b/>no<b/>procedent</i>

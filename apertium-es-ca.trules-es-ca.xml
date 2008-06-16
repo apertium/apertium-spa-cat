@@ -194,6 +194,7 @@
      <def-attr n="a_nom">
 	  <attr-item tags="n"/>
 	  <attr-item tags="n.acr"/>
+	  <attr-item tags="np.ant"/>
      </def-attr>
 
      <def-attr n="a_nomp">
@@ -4262,7 +4263,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 			   <with-param pos="4"/>
 		   </call-macro>     
 		   
-		   <call-macro n="f_concord3">
+		   <call-macro n="f_concord2">
 			   <with-param pos="4"/>
 			   <with-param pos="2"/>
 		   </call-macro>     
