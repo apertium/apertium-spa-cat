@@ -356,6 +356,7 @@
 </section-def-attrs>
 
 <section-def-vars>
+	<def-var n="numvist"/>
 	<def-var n="valverb"/>
 	<def-var n="tipusverb"/>
       <def-var n="uno"/>
@@ -378,6 +379,7 @@
 	</def-list>
 	<def-list n="locatiu">
 		<list-item v="món"/>
+		<list-item v="base"/>
 		<list-item v="ascensor"/>
 		<list-item v="carrer"/>
 		<list-item v="plaça"/>
@@ -675,6 +677,31 @@
   </choose>
 </def-macro>
 
+<def-macro n="f_lexicDet" npar="1">
+	<choose>
+		<when>
+			<test>
+				<and>
+					<equal caseless="yes">
+						<var n="numvist"/>
+						<lit v="yes"/>
+					</equal>	  
+					<equal caseless="yes">
+						<clip pos="1" side ="sl" part="lem"/>
+						<lit v="otros tantos"/>
+					</equal>	  
+				</and>
+			</test>
+			<let>
+				<clip pos="1" side ="tl" part="lem"/>
+				<get-case-from pos="1">
+					<lit v="sengles"/>
+				</get-case-from>
+			</let>
+		</when>
+	</choose>
+</def-macro>
+	
 
 
 <def-macro n="f_seleccioLex" npar="1">
@@ -2670,7 +2697,10 @@
 	<call-macro n="f_concord1">
 	    <with-param pos="1"/>
 	  </call-macro>     
-          <out> 
+	  <call-macro n="f_lexicDet">
+		  <with-param pos="1"/>
+	  </call-macro>
+           <out> 
 	    <lu>   
 	      <clip pos="1" side="tl" part="whole"/> 
 	    </lu> 
@@ -2774,6 +2804,10 @@ is not applicable because gender and number cannot be taken from previous rules 
               <clip pos="1" side="tl" part="whole"/>
 	    </lu>
          </out>
+	 <let>
+		 <var n="numvist"/>
+		 <lit v="yes"/>
+	 </let>
      </action>
    </rule>
 
@@ -2789,7 +2823,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	    <with-param pos="2"/>
             <with-param pos="1"/>
 	  </call-macro>     
-          <out>     
+	  <call-macro n="f_lexicDet">
+		  <with-param pos="1"/>
+	  </call-macro>
+           <out>     
 	   <lu>
               <clip pos="1" side="tl" part="whole"/>
 	   </lu>
@@ -2884,7 +2921,10 @@ is not applicable because gender and number cannot be taken from previous rules 
             <with-param pos="3"/>
 	    <with-param pos="1"/>
 	  </call-macro>     
-          <out>    
+	  <call-macro n="f_lexicDet">
+		  <with-param pos="1"/>
+	  </call-macro>
+           <out>    
 	    <lu>  
               <clip pos="1" side="tl" part="whole"/>
 	    </lu> 
@@ -2924,7 +2964,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	    <with-param pos="4"/>
 	    <with-param pos="1"/>
 	  </call-macro>     
-          <out>    
+	  <call-macro n="f_lexicDet">
+		  <with-param pos="1"/>
+	  </call-macro>
+           <out>    
 	    <lu>  
               <clip pos="1" side="tl" part="whole"/>
             </lu> 
@@ -3013,7 +3056,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	  <call-macro n="f_lexicAdj">
 	    <with-param pos="2"/>
 	  </call-macro>
-          <out>  
+	  <call-macro n="f_lexicDet">
+		  <with-param pos="1"/>
+	  </call-macro>
+           <out>  
 	    <lu>    
 	      <clip pos="1" side="tl" part="whole"/>
 	    </lu>
@@ -3050,7 +3096,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	    <with-param pos="2"/>
 	    <with-param pos="1"/>
 	  </call-macro>     
-          <out> 
+	  <call-macro n="f_lexicDet">
+		  <with-param pos="2"/>
+	  </call-macro>
+           <out> 
 	    <lu>    
               <clip pos="1" side="tl" part="whole"/>
 	    </lu>
@@ -3085,7 +3134,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	    <with-param pos="2"/>
 	    <with-param pos="1"/>
 	  </call-macro>     
-          <out> 
+	  <call-macro n="f_lexicDet">
+		  <with-param pos="2"/>
+	  </call-macro>
+           <out> 
 	    <lu>    
               <clip pos="1" side="tl" part="whole"/>
 	    </lu>
@@ -3126,7 +3178,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	    <with-param pos="2"/>
             <with-param pos="1"/>
 	  </call-macro>     
-          <out>     
+	  <call-macro n="f_lexicDet">
+		  <with-param pos="1"/>
+	  </call-macro>
+           <out>     
 	   <lu>
               <clip pos="1" side="tl" part="whole"/>
 	   </lu>
@@ -3195,7 +3250,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	<pattern-item n="adjec"/>
       </pattern>
       <action>
-          <call-macro n="f_concord4">
+	      <call-macro n="f_lexicDet">
+		      <with-param pos="1"/>
+	      </call-macro>
+           <call-macro n="f_concord4">
 	    <with-param pos="3"/>
             <with-param pos="4"/>
 	    <with-param pos="2"/>
@@ -3282,7 +3340,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	<pattern-item n="adjec"/>
       </pattern>
       <action>
-          <call-macro n="f_concord3">
+	      <call-macro n="f_lexicDet">
+		      <with-param pos="1"/>
+	      </call-macro>
+           <call-macro n="f_concord3">
 	    <with-param pos="2"/>
             <with-param pos="1"/>
 	    <with-param pos="4"/>
@@ -3324,7 +3385,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-          <call-macro n="f_concord2">
+	      <call-macro n="f_lexicDet">
+		      <with-param pos="1"/>
+	      </call-macro>
+           <call-macro n="f_concord2">
 	    <with-param pos="3"/>
             <with-param pos="1"/>
 	  </call-macro>     
@@ -3373,7 +3437,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>  
          </out>
-       
+	 <let>
+		 <var n="numvist"/>
+		 <lit v="yes"/>
+	 </let>
+        
      </action>
    </rule>
 
@@ -3400,6 +3468,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	      <clip pos="2" side="tl" part="lemq"/>
 	    </lu>
          </out>       
+	 <let>
+		 <var n="numvist"/>
+		 <lit v="yes"/>
+	 </let>
      </action>
    </rule>
 
@@ -3437,7 +3509,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 	      <clip pos="3" side="tl" part="lemq"/>
 	    </lu>
          </out>
-       
+	 <let>
+		 <var n="numvist"/>
+		 <lit v="yes"/>
+	 </let>
+        
      </action>
    </rule>
 
@@ -3477,7 +3553,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 	      <clip pos="3" side="tl" part="lemq"/>
 	   </lu>
          </out>
-       
+	 <let>
+		 <var n="numvist"/>
+		 <lit v="yes"/>
+	 </let>
+        
      </action>
    </rule>
 
@@ -3490,7 +3570,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	<pattern-item n="nom"/>
       </pattern>
       <action>
-          <call-macro n="f_concord3">
+	      <call-macro n="f_lexicDet">
+		      <with-param pos="1"/>
+	      </call-macro>
+           <call-macro n="f_concord3">
 	    <with-param pos="3"/>
             <with-param pos="2"/>
 	    <with-param pos="1"/>
@@ -3512,7 +3595,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 	      <clip pos="3" side="tl" part="lemq"/>
 	   </lu>
          </out>
-       
+	 <let>
+		 <var n="numvist"/>
+		 <lit v="yes"/>
+	 </let>
+        
      </action>
    </rule>
 
@@ -3634,7 +3721,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 				   <clip pos="2" side="tl" part="whole"/>
 			   </lu>
 		   </out>
-	   </action>
+		   <let>
+			   <var n="numvist"/>
+			   <lit v="yes"/>
+		   </let>
+ 	   </action>
    </rule>
    
    
@@ -3646,7 +3737,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="nom"/>
 	   </pattern>
 	   <action>	
-		   <call-macro n="f_preps">
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="2"/>
+		   </call-macro>
+ 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
 		   </call-macro>     
@@ -3755,6 +3849,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>		  
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="2"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
@@ -3798,6 +3895,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>	
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="2"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
@@ -3896,6 +3996,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="nom"/>
 	   </pattern>
 	   <action>	
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="2"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="4"/>
@@ -3941,6 +4044,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="nom"/>
 	   </pattern>
 	   <action>	
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="3"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="4"/>
@@ -3980,6 +4086,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>		   
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="3"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="4"/>
@@ -4029,6 +4138,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>		   
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="2"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
@@ -4113,6 +4225,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>		   
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="2"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="4"/>
@@ -4211,6 +4326,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>		   
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="2"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
@@ -4258,6 +4376,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="nom"/>
 	   </pattern>
 	   <action>		   
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="2"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="4"/>
@@ -4318,7 +4439,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 				   <clip pos="3" side="tl" part="lemq"/>
 			   </lu>  
 		   </out>
-		   
+		   <let>
+			   <var n="numvist"/>
+			   <lit v="yes"/>
+		   </let>
+ 		   
 	   </action>
    </rule>
    
@@ -4351,7 +4476,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 				   <clip pos="3" side="tl" part="lemq"/>
 			   </lu>
 		   </out>       
-	   </action>
+		   <let>
+			   <var n="numvist"/>
+			   <lit v="yes"/>
+		   </let>
+ 	   </action>
    </rule>
    
    
@@ -4394,7 +4523,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 				   <clip pos="4" side="tl" part="lemq"/>
 			   </lu>
 		   </out>
-		   
+		   <let>
+			   <var n="numvist"/>
+			   <lit v="yes"/>
+		   </let>
+ 		   
 	   </action>
    </rule>
    
@@ -4440,7 +4573,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 				   <clip pos="4" side="tl" part="lemq"/>
 			   </lu>
 		   </out>
-		   
+		   <let>
+			   <var n="numvist"/>
+			   <lit v="yes"/>
+		   </let>
+ 		   
 	   </action>
    </rule>
    
@@ -4454,6 +4591,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="nom"/>
 	   </pattern>
 	   <action>		   
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="2"/>
+		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="4"/>
@@ -4480,7 +4620,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 				   <clip pos="4" side="tl" part="lemq"/>
 			   </lu>
 		   </out>
-		   
+		   <let>
+			   <var n="numvist"/>
+			   <lit v="yes"/>
+		   </let>
+ 		   
 	   </action>
    </rule>
    
@@ -6447,7 +6591,11 @@ is not applicable because gender and number cannot be taken from previous rules 
 	  <var n="genero"/>
 	  <lit-tag v="m"/>
 	</let>
-	<out>
+	<let>
+		<var n="numvist"/>
+		<lit v=""/>
+	</let>
+ 	<out>
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
 	  </lu>

@@ -2768,13 +2768,13 @@
       <e>
         <p>
           <l>as</l>
-          <r>os<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r>
+          <r>os<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>os</l>
-          <r>os<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r>
+          <r>os<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -74921,6 +74921,18 @@
       <i>a<b/>menudo</i>
       <par n="ahora__adv"/>
     </e>
+    <e lm="uno tras otro">
+      <i>uno<b/>tras<b/>otro</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="tras otro">
+      <i>tras<b/>otro</i>
+      <par n="ahora__adv"/>
+    </e>
+      <e lm="Guardiola">
+        <i>Guardiola</i>
+        <par n="Abad__np"/>
+      </e>
     <e lm="patas arriba">
       <i>patas<b/>arriba</i>
       <par n="ahora__adv"/>
@@ -75553,6 +75565,19 @@
       <i>otr</i>
       <par n="otr/o__adj"/>
     </e>
+     <e lm="otros tantos" r="LR">
+	<p>
+		<l>otros<b/>tantos</l>
+		<r>otros<b/>tantos<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+     <e lm="otros tantos" r="LR">
+	<p>
+		<l>otras<b/>tantas</l>
+		<r>otros<b/>tantos<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+
     <e lm="oyente">
       <i>oyente</i>
       <par n="abundante__adj"/>
@@ -79895,7 +79920,7 @@
       <par n="a_fe_que__cnjadv"/>
     </e>
     <e lm="basta de">
-      <i>basta<b/>de</i>
+      <i>basta<b/></i>
       <par n="contde__pr"/>
     </e>
     <e lm="comoquiera que">
@@ -109746,12 +109771,20 @@
       <i>en<b/>consonancia<b/>con</i>
       <par n="a__pr"/>
     </e>
-    <e lm="en cualquier parte de">
+   <!-- <e lm="en cualquier parte de">
       <i>en<b/>cualquier<b/>parte<b/></i>
       <par n="contde__pr"/>
+    </e>-->
+    <e lm="en todo">
+      <i>en<b/>todo</i>
+      <par n="a__pr"/>
     </e>
     <e lm="por supuesto">
       <i>por<b/>supuesto</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="de pies a cabeza">
+      <i>de<b/>pies<b/>a<b/>cabeza</i>
       <par n="ahora__adv"/>
     </e>
     <e lm="per cápita">
@@ -123503,6 +123536,17 @@
       </p>
       <par n="abandón/ar__vblex"/>
     </e>
+    <e lm="reinventar">
+      <i>reinvent</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="reinventar">
+      <p>
+        <l>reinvént</l>
+        <r>reinvent</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
     <e lm="invertir">
       <i>inv</i>
       <par n="adv/ertir__vblex"/>
@@ -125158,6 +125202,17 @@
       </p>
       <par n="abalán/zar__vblex"/>
     </e>
+     <e lm="desorganizar">
+      <i>desorgani</i>
+      <par n="abalan/zar__vblex"/>
+    </e>
+    <e lm="desorganizar">
+      <p>
+        <l>desorganí</l>
+        <r>desorgani</r>
+      </p>
+      <par n="abalán/zar__vblex"/>
+    </e>
     <e lm="orientar">
       <i>orient</i>
       <par n="abandon/ar__vblex"/>
@@ -125180,7 +125235,11 @@
       </p>
       <par n="abandón/ar__vblex"/>
     </e>
-    <e lm="orquestar">
+ <e lm="la Llotja">
+  <i>la<b/>Llotja</i>
+  <par n="Afganistán__np"/>
+</e>
+   <e lm="orquestar">
       <i>orquest</i>
       <par n="abandon/ar__vblex"/>
     </e>
@@ -128911,7 +128970,11 @@
       </p>
       <par n="abandón/ar__vblex"/>
     </e>
-    <e lm="sacar">
+ <e lm="la Fura dels Baus">
+  <i>la<b/>Fura<b/>dels<b/>Baus</i>
+  <par n="ABC__np"/>
+</e>
+   <e lm="sacar">
       <i>sa</i>
       <par n="ata/car__vblex"/>
     </e>
@@ -131322,8 +131385,16 @@
       <i>a<b/>través</i>
       <par n="ahora__adv"/>
     </e>
+    <e lm="a domicilio">
+      <i>a<b/>domicilio</i>
+      <par n="ahora__adv"/>
+    </e>
     <e lm="eso sí">
       <i>eso<b/>sí</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="con cuidado">
+      <i>con<b/>cuidado</i>
       <par n="ahora__adv"/>
     </e>
     <e lm="como por ejemplo" r="RL" a="mginesti">
@@ -156714,6 +156785,7 @@
 <e a="prompsit" lm="hasta ahora"><i>hasta<b/>ahora</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="en cambio"><i>en<b/>cambio</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="hacia adentro"><i>hacia<b/>adentro</i><par n="ahora__adv"/></e>
+<e a="prompsit" lm="hacia donde"><i>hacia<b/>donde</i><par n="ahora__adv"/></e>
 
 <e a="prompsit" lm="a regañadientes"><i>a<b/>regañadientes</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="antes de tiempo"><i>antes<b/>de<b/>tiempo</i><par n="ahora__adv"/></e>

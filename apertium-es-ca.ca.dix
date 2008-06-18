@@ -7735,7 +7735,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r>
+          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -73829,6 +73829,18 @@
         <i>altr</i>
         <par n="altr/e__adj"/>
       </e>
+     <e lm="d'altres">
+	<p>
+		<l>d'altres</l>
+		<r>d'altres<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+     <e lm="d'altres" r="LR">
+	<p>
+		<l>d'altres</l>
+		<r>d'altres<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
       
       <e lm="al·lucinant">
         <i>al·lucinant</i>
@@ -83544,6 +83556,10 @@
         <i>potes<b/>enlaire</i>
         <par n="ahir__adv"/>
       </e>
+      <e lm="a domicili">
+        <i>a<b/>domicili</i>
+        <par n="ahir__adv"/>
+      </e>
       <e lm="tan sols">
         <i>tan<b/>sols</i>
         <par n="ahir__adv"/>
@@ -85907,6 +85923,14 @@
         <i>no<b/>obstant<b/>això</i>
         <par n="a_fe_que__cnjadv"/>
       </e>
+      <e lm="tot amb tot" r="LR">
+        <i>tot<b/>amb<b/>tot</i>
+        <par n="a_fe_que__cnjadv"/>
+      </e>
+      <e lm="nogensmenys" r="LR">
+        <i>nogensmenys</i>
+        <par n="a_fe_que__cnjadv"/>
+      </e>
       
       <e lm="només que">
         <i>només<b/>que</i>
@@ -86351,6 +86375,22 @@
       
       <e lm="prou">
         <i>prou</i>
+        <par n="ahir__adv"/>
+      </e>
+      <e lm="un darrere l'altre">
+        <i>un<b/>darrere<b/>l'altre</i>
+        <par n="ahir__adv"/>
+      </e>
+      <e lm="darrere l'altre">
+        <i>darrere<b/>l'altre</i>
+        <par n="ahir__adv"/>
+      </e>
+      <e lm="de bell nou" r="LR">
+        <i>de<b/>bell<b/>nou</i>
+        <par n="ahir__adv"/>
+      </e>
+      <e lm="l'un darrere l'altre" r="LR">
+        <i>l'un<b/>darrere<b/>l'altre</i>
         <par n="ahir__adv"/>
       </e>
       
@@ -90865,6 +90905,10 @@
       
       <e lm="capritx">
         <i>capritx</i>
+        <par n="abast__n"/>
+      </e>
+      <e lm="caprici" r="LR">
+        <i>caprici</i>
         <par n="abast__n"/>
       </e>
       
@@ -96430,6 +96474,10 @@
         <i>escasses</i>
         <par n="abell/a__n"/>
       </e>
+      <e lm="escassetat" r="LR">
+        <i>escassetat</i>
+        <par n="accessibilitat__n"/>
+      </e>
       
       <e lm="escena">
         <i>escen</i>
@@ -99500,6 +99548,10 @@
       <e lm="guardiola">
         <i>guardiol</i>
         <par n="abell/a__n"/>
+      </e>
+      <e lm="Guardiola">
+        <i>Guardiola</i>
+        <par n="Abad__np"/>
       </e>
       
       <e lm="guardià">
@@ -111513,7 +111565,13 @@
         <i>t</i>
         <par n="t/erme__n"/>
       </e>
-      
+      <e lm="en termes" r="LR">
+        <p>
+          <l>en<b/>termes</l>
+          <r>en<s n="pr"/><j/>terme<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+       
       <e lm="terminal">
         <i>terminal</i>
         <par n="accessibilitat__n"/>
@@ -121839,6 +121897,14 @@
         <i>arreu<b/></i>
         <par n="contde__pr"/>
       </e>
+      <e lm="amb cura">
+	<i>amb<b/>cura</i>
+	<par n="ahir__adv"/>
+      </e>
+     <e lm="de cap a peus">
+	<i>de<b/>cap<b/>a<b/>peus</i>
+	<par n="ahir__adv"/>
+      </e>
 
       <e lm="a tot arreu">
 	<i>a<b/>tot<b/>arreu</i>
@@ -129779,6 +129845,10 @@
         <i>invent</i>
         <par n="abander/ar__vblex"/>
       </e>
+      <e lm="reinventar">
+        <i>reinvent</i>
+        <par n="abander/ar__vblex"/>
+      </e>
       
       <e lm="invertir">
         <i>invert</i>
@@ -130605,8 +130675,16 @@
         <par n="abander/ar__vblex"/>
       </e>
       
+      <e lm="desorganitzar">
+        <i>desorganitz</i>
+        <par n="abander/ar__vblex"/>
+      </e>
       <e lm="organitzar">
         <i>organitz</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+      <e lm="servar" r="LR">
+        <i>serv</i>
         <par n="abander/ar__vblex"/>
       </e>
       
@@ -134225,6 +134303,14 @@
 <e lm="Nova York" a="mginesti">
   <i>Nova<b/>York</i>
   <par n="Afganistan__np"/>
+</e>
+<e lm="la Llotja">
+  <i>la<b/>Llotja</i>
+  <par n="Afganistan__np"/>
+</e>
+<e lm="la Fura dels Baus">
+  <i>la<b/>Fura<b/>dels<b/>Baus</i>
+  <par n="ABC__np"/>
 </e>
 
 <e lm="EUA" a="mginesti">
@@ -155960,6 +156046,7 @@
 <e a="prompsit" lm="fins ara"><i>fins<b/>ara</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="en canvi"><i>en<b/>canvi</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="cap a dintre"><i>cap<b/>a<b/>dintre</i><par n="ahir__adv"/></e>
+<e a="prompsit" lm="cap a on"><i>cap<b/>a<b/>on</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="a dintre" r="LR"><i>a<b/>dintre</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="a contracor"><i>a<b/>contracor</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="abans d'hora"><i>abans<b/>d'hora</i><par n="ahir__adv"/></e>

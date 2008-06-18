@@ -397,6 +397,7 @@
 
 <section-def-vars>
 	<def-var n="valverb"/>
+	<def-var n="hi"/>
 	<def-var n="tipusverb"/>
        <def-var n="uno"/>
       <def-var n="genero"/>
@@ -484,6 +485,7 @@
   </def-list>
   <def-list n="locatiu">
 	  <list-item v="món"/>
+	  <list-item v="base"/>
 	  <list-item v="ascensor"/>
 	  <list-item v="carrer"/>
 	  <list-item v="plaça"/>
@@ -634,6 +636,57 @@
 				</let>
 			</when>
 		</choose>
+		<call-macro n="f_serhi">
+			<with-param pos="1"/>
+		</call-macro>
+
+	</def-macro>
+	<def-macro n="f_hi" npar="1">
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="hi"/>
+					</equal>
+				</test>
+				<let>
+					<var n="hi"/>
+					<lit v="yes"/>
+				</let>
+			</when>
+		</choose>
+	</def-macro>
+	
+	<def-macro n="f_serhi" npar="1">
+		<choose>
+			<when>
+				<test>
+					<and>
+						<equal>
+							<clip pos="1" side="sl" part="a_verb"/>
+							<lit-tag v="vbser"/>
+						</equal>
+						<equal>
+							<var n="hi"/>
+							<lit v="yes"/>
+						</equal>
+					</and>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="a_verb"/>
+					<lit-tag v="vblex"/>
+				</let>
+				<let>
+					<clip pos="1" side="tl" part="lem"/>
+					<lit v="estar"/>
+				</let>
+			</when>
+		</choose>
+		<let>
+			<var n="hi"/>
+			<lit v="yes"/>
+		</let>
 	</def-macro>
 	
 	<def-macro n="f_preps" npar="2">
@@ -745,6 +798,12 @@
 	    </out>
 	  </when>
 	  <otherwise>
+		  <call-macro n="f_hi">
+			  <with-param pos="1"/>
+		  </call-macro>
+		  <call-macro n="f_serhi">
+			  <with-param pos="1"/>
+		  </call-macro>
 	    <out>
 	      <lu>
 		<clip pos="1" side="tl" part="lemh"/>
@@ -3864,7 +3923,7 @@ is not applicable because gender and number can not be taken from previous rules
 		   <out>   
 			   <lu>
 				   <clip pos="2" side="tl" part="lemh"/>
-				   <clip pos="2" side="tl" part="a_adj"/>
+				   <clip pos="2" side="tl" part="a_nom"/>
 				   <clip pos="2" side="tl" part="gen"/>
 				   <clip pos="2" side="tl" part="nbr"/>
 				   <clip pos="2" side="tl" part="lemq"/>
@@ -4834,6 +4893,44 @@ is not applicable because gender and number can not be taken from previous rules
          </out>
      </action>
    </rule>
+
+   
+   
+	<rule> <!-- prnrpo -->
+		<pattern>
+			<pattern-item n="prnpro"/>
+		</pattern>
+		<action>
+			<call-macro n="f_concord1">
+				<with-param pos="1"/>
+			</call-macro>
+			<choose>
+				<when>
+					<test>
+						<not>
+							<equal>
+								<clip pos="1" side="tl" part="lem"/>
+								<lit v=""/>
+							</equal>
+						</not>
+					</test>
+					<out>  
+						<lu> 
+							<clip pos="1" side="tl" part="whole"/>
+						</lu>
+					</out>
+				</when>
+				<otherwise>
+					<call-macro n="f_hi">
+						<with-param pos="1"/>
+					</call-macro>
+					<!--<call-macro n="f_bcond">
+						<with-param pos="1"/>
+					</call-macro>-->
+				</otherwise>
+			</choose>
+		</action>
+	</rule>
 
 
 
