@@ -128,6 +128,12 @@
           <cat-item lemma="que" tags="cnjsub"/>
 	  <cat-item lemma="que" tags="rel.an.mf.sp"/>
      </def-cat>
+     <def-cat n="el_que">
+	     <cat-item lemma="el que" tags="rel.an.*"/>
+     </def-cat>
+     <def-cat n="porque">
+	     <cat-item lemma="porque" tags="cnjadv"/>
+     </def-cat>
 
      <def-cat n="haber">
        <cat-item lemma="haber" tags="vbhaver.*"/>
@@ -357,6 +363,7 @@
 
 <section-def-vars>
 	<def-var n="numvist"/>
+	<def-var n="varporque"/>
 	<def-var n="valverb"/>
 	<def-var n="tipusverb"/>
       <def-var n="uno"/>
@@ -482,6 +489,46 @@
 				</let>
 			</when>
 		</choose>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<var n="varporque"/>
+						<lit v="yes"/>
+					</equal>
+				</test>
+				<choose>
+					<when>
+						<test>
+							<equal>
+								<clip pos="1" side="sl" part="temps"/>
+								<lit-tag v="prs"/>
+							</equal>
+						</test>
+						<let>
+							<clip pos="1" side="tl" part="temps"/>
+							<lit-tag v="pri"/>
+						</let>
+					</when>
+					<when>
+						<test>
+							<equal>
+								<clip pos="1" side="sl" part="temps"/>
+								<lit-tag v="pis"/>
+							</equal>
+						</test>
+						<let>
+							<clip pos="1" side="tl" part="temps"/>
+							<lit-tag v="pii"/>
+						</let>
+					</when>
+				</choose>
+			</when>
+		</choose>
+		<let>
+			<var n="varporque"/>
+			<lit v=""/>
+		</let>
 	</def-macro>
 
 	<def-macro n="f_preps" npar="2">
@@ -4671,6 +4718,44 @@ is not applicable because gender and number cannot be taken from previous rules 
   </action>
 </rule>
 
+<rule> <!-- prep + el que -> prep el qual -->
+	<pattern>
+		<pattern-item n="prep"/>
+		<pattern-item n="el_que"/>
+	</pattern>
+	<action>
+				<out>
+					<lu>
+						<clip pos="1" side="tl" part="whole"/>
+					</lu>
+					<b pos ="1"/>
+					<lu>
+						<lit v="el qual"/>
+						<lit-tag v="rel.an"/>
+						<clip pos="2" side="sl" part="gen"/>
+						<clip pos="2" side="sl" part="nbr"/>
+					</lu>
+				</out>
+
+	</action>
+</rule>
+<rule> <!-- activa la variable porque -->
+	<pattern>
+		<pattern-item n="porque"/>
+	</pattern>
+	<action>
+		<out>
+			<lu>
+				<clip pos="1" side="tl" part="whole"/>
+			</lu>
+		</out>
+		<let>
+			<var n="varporque"/>
+			<lit v="yes"/>
+		</let>
+	</action>
+</rule>
+
 <!-- Para traducir "dije" por "vaig dir" -->
 <!-- REGLA: PERIF -->
 <!-- <rule> 
@@ -6593,6 +6678,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 	</let>
 	<let>
 		<var n="numvist"/>
+		<lit v=""/>
+	</let>
+	<let>
+		<var n="varporque"/>
 		<lit v=""/>
 	</let>
  	<out>

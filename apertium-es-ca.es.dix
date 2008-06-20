@@ -109334,7 +109334,12 @@
       <i/>
       <par n="conta__pr"/>
     </e>
-
+    <e lm="la nada">
+      <p>
+        <l>la<b/>nada</l>
+        <r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><b/>nada<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
     <e lm="a que">
       <p>
         <l>a<b/>que</l>
@@ -111291,6 +111296,17 @@
       <p>
         <l>actualí</l>
         <r>actuali</r>
+      </p>
+      <par n="abalán/zar__vblex"/>
+    </e>
+    <e lm="minorizar">
+      <i>minori</i>
+      <par n="abalan/zar__vblex"/>
+    </e>
+    <e lm="minorizar">
+      <p>
+        <l>minorí</l>
+        <r>minori</r>
       </p>
       <par n="abalán/zar__vblex"/>
     </e>
@@ -125088,6 +125104,20 @@
     <e lm="oler">
       <par n="/oler__vblex"/>
     </e>
+     <e lm="oler bien">
+      <par n="/oler__vblex"/>
+	<p>
+          <l><b/>bien</l>
+          <r><g><b/>bien</g></r>
+        </p>
+    </e>
+     <e lm="oler mal">
+      <par n="/oler__vblex"/>
+	<p>
+          <l><b/>mal</l>
+          <r><g><b/>mal</g></r>
+        </p>
+    </e>
     <e lm="olvidar">
       <i>olvid</i>
       <par n="abandon/ar__vblex"/>
@@ -128671,6 +128701,17 @@
       </p>
       <par n="abandón/ar__vblex"/>
     </e>
+    <e lm="trastornar">
+      <i>trastorn</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="trastornar">
+      <p>
+        <l>trastórn</l>
+        <r>trastorn</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
     <e lm="retransmitir">
       <i>retransmit</i>
       <par n="abat/ir__vblex"/>
@@ -128682,7 +128723,11 @@
       </p>
       <par n="abát/ir__vblex"/>
     </e>
-    <e lm="retrasar">
+ <e lm="La Costera">
+  <i>La<b/>Costera</i>
+  <par n="Afganistán__np"/>
+</e>
+   <e lm="retrasar">
       <i>retras</i>
       <par n="abandon/ar__vblex"/>
     </e>
@@ -131387,6 +131432,10 @@
     </e>
     <e lm="a domicilio">
       <i>a<b/>domicilio</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="por ejemplo">
+      <i>por<b/>ejemplo</i>
       <par n="ahora__adv"/>
     </e>
     <e lm="eso sí">
@@ -162486,6 +162535,150 @@
 		<l><b/>de<b/>transporte</l>
 		<r><g><b/>de<b/>transporte</g></r>
 	</p>
+</e>
+<e lm="a las doce y cuarto">
+	<i>a<b/>las<b/>doce<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las doce y media">
+	<i>a<b/>las<b/>doce<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a la una menos cuarto">
+	<i>a<b/>la<b/>una<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a la una y cuarto">
+	<i>a<b/>la<b/>una<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a la una y media">
+	<i>a<b/>la<b/>una<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las dos menos cuarto">
+	<i>a<b/>las<b/>dos<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las dos y cuarto">
+	<i>a<b/>las<b/>dos<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las dos y media">
+	<i>a<b/>las<b/>dos<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las tres menos cuarto">
+	<i>a<b/>las<b/>tres<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las tres y cuarto">
+	<i>a<b/>las<b/>tres<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las tres y media">
+	<i>a<b/>las<b/>tres<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las cuatro menos cuarto">
+	<i>a<b/>las<b/>cuatro<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las cuatro y cuarto">
+	<i>a<b/>las<b/>cuatro<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las cuatro y media">
+	<i>a<b/>las<b/>cuatro<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las cinco menos cuarto">
+	<i>a<b/>las<b/>cinco<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las cinco y cuarto">
+	<i>a<b/>las<b/>cinco<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las cinco y media">
+	<i>a<b/>las<b/>cinco<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las seis menos cuarto">
+	<i>a<b/>las<b/>seis<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las seis y cuarto">
+	<i>a<b/>las<b/>seis<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las seis y media">
+	<i>a<b/>las<b/>seis<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las siete menos cuarto">
+	<i>a<b/>las<b/>siete<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las siete y cuarto">
+	<i>a<b/>las<b/>siete<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las siete y media">
+	<i>a<b/>las<b/>siete<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las ocho menos cuarto">
+	<i>a<b/>las<b/>ocho<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las ocho y cuarto">
+	<i>a<b/>las<b/>ocho<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las ocho y media">
+	<i>a<b/>las<b/>ocho<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las nueve menos cuarto">
+	<i>a<b/>las<b/>nueve<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las nueve y cuarto">
+	<i>a<b/>las<b/>nueve<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las nueve y media">
+	<i>a<b/>las<b/>nueve<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las diez menos cuarto">
+	<i>a<b/>las<b/>diez<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las diez y cuarto">
+	<i>a<b/>las<b/>diez<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las diez y media">
+	<i>a<b/>las<b/>diez<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las once menos cuarto">
+	<i>a<b/>las<b/>once<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las once y cuarto">
+	<i>a<b/>las<b/>once<b/>y<b/>cuarto</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las once y media">
+	<i>a<b/>las<b/>once<b/>y<b/>media</i>
+	<par n="ahora__adv"/>
+</e>
+<e lm="a las doce menos cuarto">
+	<i>a<b/>las<b/>doce<b/>menos<b/>cuarto</i>
+	<par n="ahora__adv"/>
 </e>
 
 </section>

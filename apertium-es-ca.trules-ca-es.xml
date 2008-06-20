@@ -479,6 +479,7 @@
     <list-item v="trobar"/>
     <list-item v="ubicar"/> 
     <list-item v="estudiar"/> 
+    <list-item v="retenir"/> 
   </def-list>
   <def-list n="per_de">
 	  <list-item v="lalala"/>
@@ -594,6 +595,22 @@
 			<lit v=""/>
 		</let>
 	</def-macro>
+	<def-macro n="f_coma" npar="1">
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="como"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="1" side="sl" part="lem"/>
+					<lit v="com a"/>
+				</let>
+			</when>
+		</choose>
+	</def-macro>
 	
 	<def-macro n="f_tipusverb" npar="1">
 		<choose>
@@ -685,7 +702,7 @@
 		</choose>
 		<let>
 			<var n="hi"/>
-			<lit v="yes"/>
+			<lit v=""/>
 		</let>
 	</def-macro>
 	
@@ -3919,7 +3936,10 @@ is not applicable because gender and number can not be taken from previous rules
 		   </call-macro>
 		   <call-macro n="f_concord1">
 			   <with-param pos="2"/>
-		   </call-macro>     
+		   </call-macro>
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>
 		   <out>   
 			   <lu>
 				   <clip pos="2" side="tl" part="lemh"/>
@@ -3945,6 +3965,9 @@ is not applicable because gender and number can not be taken from previous rules
 		   <call-macro n="f_concord1">
 			   <with-param pos="2"/>
 		   </call-macro>     
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>
 		   <out>   
 			   <lu>
 				   <clip pos="2" side="tl" part="lemh"/>
@@ -4040,6 +4063,9 @@ is not applicable because gender and number can not be taken from previous rules
 			   <with-param pos="1"/>
 			   <with-param pos="2"/>
 		   </call-macro>     
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>
 		   <call-macro n="f_concord2">
 			   <with-param pos="2"/>
 			   <with-param pos="3"/>
@@ -4086,6 +4112,9 @@ is not applicable because gender and number can not be taken from previous rules
 		   </call-macro>
 		   <call-macro n="f_lexicAdj">
 			   <with-param pos="2"/>
+		   </call-macro>
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
 		   </call-macro>
 		   <out>  
 			   <lu>
@@ -4251,6 +4280,9 @@ is not applicable because gender and number can not be taken from previous rules
 			   <with-param pos="3"/>
 			   <with-param pos="4"/>
 		   </call-macro>     
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>
 		   <out>    
 			   <lu>  
 				   <clip pos="2" side="tl" part="lemh"/>
@@ -4459,7 +4491,9 @@ is not applicable because gender and number can not be taken from previous rules
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
 		   </call-macro>     
-		   
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>
 		   <call-macro n="f_concord3">
 			   <with-param pos="3"/>
 			   <with-param pos="4"/>
@@ -4565,7 +4599,9 @@ is not applicable because gender and number can not be taken from previous rules
 			   <with-param pos="1"/>
 			   <with-param pos="2"/>
 		   </call-macro>     
-		   
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>
 		   <call-macro n="f_concord2">
 			   <with-param pos="2"/>
 			   <with-param pos="4"/>
@@ -6329,6 +6365,10 @@ is not applicable because gender and number can not be taken from previous rules
 	<let>
 	  <var n="genero"/>
 	  <lit-tag v="m"/>
+	</let>
+	<let>
+		<var n="hi"/>
+		<lit v=""/>
 	</let>
 	<out>
 	  <lu>

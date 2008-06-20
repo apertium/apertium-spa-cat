@@ -6407,6 +6407,12 @@
           <r>de<b/>pressa<s n="adv"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>después<s n="adv"/></l>
+          <r>en<b/>acabat<s n="adv"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>después<s n="adv"/></l>
@@ -6499,6 +6505,9 @@
       </e>
       <e>
         <i>igual<s n="adv"/></i>
+      </e>
+      <e>
+        <i>La<b/>Costera<s n="np"/></i>
       </e>
       <e>
         <p>
@@ -26043,10 +26052,10 @@
           <r>el<b/>qual<s n="rel"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>el<b/>que<s n="rel"/></l>
-          <r>el<b/>qual<s n="rel"/></r>
+          <r>el<b/>que<s n="rel"/></r>
         </p>
       </e>
       <e>
@@ -26186,6 +26195,12 @@
         <p>
           <l>abatir<s n="vblex"/></l>
           <r>abatre<s n="vblex"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>minorizar<s n="vblex"/></l>
+          <r>minoritzar<s n="vblex"/></r>
         </p>
       </e>
       <e>
@@ -29953,13 +29968,31 @@
           <r>sentir<s n="vblex"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>oler<s n="vblex"/></l>
           <r>olorar<s n="vblex"/></r>
         </p>
       </e>
       <e>
+        <p>
+          <l>oler<s n="vblex"/></l>
+          <r>fer<g><b/>olor</g><s n="vblex"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oler<g><b/>mal</g><s n="vblex"/></l>
+          <r>fer<g><b/>mala<b/>olor</g><s n="vblex"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>oler<g><b/>bien</g><s n="vblex"/></l>
+          <r>fer<g><b/>bona<b/>olor</g><s n="vblex"/></r>
+        </p>
+      </e>
+     <e>
         <p>
           <l>olvidar<s n="vblex"/></l>
           <r>oblidar<s n="vblex"/></r>
@@ -67329,6 +67362,24 @@
     <r>a<b/>través<s n="adv"/></r>
   </p>
 </e>
+<e>
+  <p>
+    <l>por<b/>ejemplo<s n="adv"/></l>
+    <r>per<b/>exemple<s n="adv"/></r>
+  </p>
+</e>
+<e>
+  <p>
+    <l>nada<s n="n"/><s n="f"/></l>
+    <r>no-res<s n="n"/><s n="m"/></r>
+  </p>
+</e>
+<e r="RL">
+  <p>
+    <l>por<b/>ejemplo<s n="adv"/></l>
+    <r>posem<b/>per<b/>cas<s n="adv"/></r>
+  </p>
+</e>
 
 <e r="RL" a="mginesti">
   <p>
@@ -96953,6 +97004,7 @@
 <e a="prompsit"><p><l>bien<b/>temprano<s n="adv"/></l><r>ben<b/>d'hora<s n="adv"/></r></p></e>
 <e a="prompsit" r="RL"><p><l>allá<s n="adv"/></l><r>enllà<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>en<b/>ninguna<b/>parte<s n="adv"/></l><r>enlloc<s n="adv"/></r></p></e>
+<e r="RL"><p><l>en<b/>ninguna<b/>parte<s n="adv"/></l><r>per<b/>enlloc<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>claro<b/>está<s n="adv"/></l><r>és<b/>clar<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>al<b/>capdavall<s n="adv"/></l><r>en<b/>la<b/>parte<b/>inferior<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>tan<b/>pronto<s n="adv"/></l><r>tan<b/>aviat<s n="adv"/></r></p></e>
@@ -104802,6 +104854,294 @@
 	<p>
 		<l>cámara<g><b/>mortuoria</g><s n="n"/></l>
 		<r>cambra<g><b/>mortuòria</g><s n="n"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>doce<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>d'una<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>doce<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>d'una<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>doce<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>d'una<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>la<b/>una<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>d'una<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>la<b/>una<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>dues<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>la<b/>una<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>dues<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>la<b/>una<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>dues<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>dos<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>dues<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>dos<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>tres<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>dos<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>tres<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>dos<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>tres<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>tres<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>tres<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>tres<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>quatre<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>tres<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>quatre<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>tres<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>quatre<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>cuatro<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>quatre<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>cuatro<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>cinc<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>cuatro<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>cinc<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>cuatro<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>cinc<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>cinco<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>cinc<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>cinco<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>sis<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>cinco<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>sis<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>cinco<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>sis<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>seis<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>sis<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>seis<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>set<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>seis<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>set<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>seis<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>set<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>siete<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>set<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>siete<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>vuit<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>siete<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>vuit<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>siete<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>vuit<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>ocho<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>vuit<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>ocho<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>nou<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>ocho<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>nou<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>ocho<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>nou<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>nueve<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>nou<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>nueve<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>deu<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>nueve<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>deu<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>nueve<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>deu<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>diez<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>deu<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>diez<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>d'onze<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>diez<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>d'onze<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>diez<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>d'onze<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>once<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>d'onze<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>once<b/>y<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>un<b/>quart<b/>de<b/>dotze<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>once<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>dos<b/>quarts<b/>de<b/>dotze<s n="adv"/></r>
+	</p>
+</e>
+<e r="RL">
+	<p>
+		<l>a<b/>las<b/>once<b/>y<b/>media<s n="adv"/></l>
+		<r>a<b/>quarts<b/>de<b/>dotze<s n="adv"/></r>
+	</p>
+</e>
+<e>
+	<p>
+		<l>a<b/>las<b/>doce<b/>menos<b/>cuarto<s n="adv"/></l>
+		<r>a<b/>tres<b/>quarts<b/>de<b/>dotze<s n="adv"/></r>
 	</p>
 </e>
 

@@ -13026,7 +13026,32 @@
         </p>
       </e>
     </pardef>
-
+    <pardef n="/el_que__rel">
+      <e>
+        <p>
+          <l>les<b/>que</l>
+          <r>el<b/>que<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>la<b/>que</l>
+          <r>el<b/>que<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>els<b/>que</l>
+          <r>el<b/>que<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>el<b/>que</l>
+          <r>el<b/>que<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="la_qual_cosa__rel">
       
       <e>
@@ -83552,6 +83577,10 @@
         <i>a<b/>cel<b/>obert</i>
         <par n="ahir__adv"/>
       </e>
+      <e lm="en acabat" r="LR">
+        <i>en<b/>acabat</i>
+        <par n="ahir__adv"/>
+      </e>
       <e lm="potes enlaire">
         <i>potes<b/>enlaire</i>
         <par n="ahir__adv"/>
@@ -122177,6 +122206,20 @@
         <i>en<b/>suport<b/></i>
         <par n="contde__pr"/>
       </e>
+      <e lm="per exemple">
+        <i>per<b/>exemple</i>
+        <par n="ahir__adv"/>
+      </e>
+      <e lm="posem per cas" r="LR">
+        <i>posem<b/>per<b/>cas</i>
+        <par n="ahir__adv"/>
+      </e>
+    <e lm="el no-res">
+      <p>
+        <l>el<b/>no-res</l>
+        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><b/>no-res<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
 
       <e lm="en to de pau">
         <p>
@@ -123216,6 +123259,9 @@
       <e lm="el qual">
         <par n="/el_qual__rel"/>
       </e>
+      <e lm="el que">
+        <par n="/el_que__rel"/>
+      </e>
 
       <e lm="qual">
 	      <i>qual</i>
@@ -123588,6 +123634,10 @@
       
       <e lm="actualitzar">
         <i>actualitz</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+      <e lm="minoritzar">
+        <i>minoritz</i>
         <par n="abander/ar__vblex"/>
       </e>
       
@@ -130765,6 +130815,10 @@
         <i>parl</i>
         <par n="abander/ar__vblex"/>
       </e>
+      <e lm="trasbalsar">
+        <i>trasbals</i>
+        <par n="abander/ar__vblex"/>
+      </e>
       
       <e lm="parodiar">
         <i>parodi</i>
@@ -134308,6 +134362,10 @@
   <i>la<b/>Llotja</i>
   <par n="Afganistan__np"/>
 </e>
+<e lm="La Costera">
+  <i>La<b/>Costera</i>
+  <par n="Afganistan__np"/>
+</e>
 <e lm="la Fura dels Baus">
   <i>la<b/>Fura<b/>dels<b/>Baus</i>
   <par n="ABC__np"/>
@@ -134854,6 +134912,31 @@
           <r><g><b/>fàstic</g></r>
         </p>
       </e>
+      <e lm="fer olor">
+        <i>f</i>
+	<par n="f/er__vblex"/>
+	<p>
+          <l><b/>olor</l>
+          <r><g><b/>olor</g></r>
+        </p>
+      </e>
+      <e lm="fer bona olor">
+        <i>f</i>
+	<par n="f/er__vblex"/>
+	<p>
+          <l><b/>bona<b/>olor</l>
+          <r><g><b/>bona<b/>olor</g></r>
+        </p>
+      </e>
+      <e lm="fer mala olor">
+        <i>f</i>
+	<par n="f/er__vblex"/>
+	<p>
+          <l><b/>mala<b/>olor</l>
+          <r><g><b/>mala<b/>olor</g></r>
+        </p>
+      </e>
+  
      <e lm="fer públic">
         <i>f</i>
 	<par n="f/er__vblex"/>
@@ -156078,6 +156161,7 @@
 <e a="prompsit" lm="ben d'hora"><i>ben<b/>d'hora</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="enllà" r="LR"><i>enllà</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="enlloc"><i>enlloc</i><par n="ahir__adv"/></e>
+<e r="LR" lm="per enlloc"><i>per<b/>enlloc</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="és clar"><i>és<b/>clar</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="en la parte inferior"><i>en<b/>la<b/>parte<b/>inferior</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="tan aviat"><i>tan<b/>aviat</i><par n="ahir__adv"/></e>
@@ -162372,6 +162456,210 @@
 		<r><g><b/>de<b/>transport</g></r>
 	</p>
 </e>
+
+
+	<e lm="a un quart d'una">
+		<i>a<b/>un<b/>quart<b/>d'una</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts d'una">
+		<i>a<b/>dos<b/>quarts<b/>d'una</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts d'una" r="LR">
+		<i>a<b/>quarts<b/>d'una</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts d'una">
+		<i>a<b/>tres<b/>quarts<b/>d'una</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a un quart de dues">
+		<i>a<b/>un<b/>quart<b/>de<b/>dues</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de dues">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>dues</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de dues" r="LR">
+		<i>a<b/>quarts<b/>de<b/>dues</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de dues">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>dues</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart de tres">
+		<i>a<b/>un<b/>quart<b/>de<b/>tres</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de tres">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>tres</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de tres" r="LR">
+		<i>a<b/>quarts<b/>de<b/>tres</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de tres">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>tres</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart de quatre">
+		<i>a<b/>un<b/>quart<b/>de<b/>quatre</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de quatre">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>quatre</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de quatre" r="LR">
+		<i>a<b/>quarts<b/>de<b/>quatre</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de quatre">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>quatre</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart de cinc">
+		<i>a<b/>un<b/>quart<b/>de<b/>cinc</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de cinc">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>cinc</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de cinc" r="LR">
+		<i>a<b/>quarts<b/>de<b/>cinc</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de cinc">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>cinc</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart de sis">
+		<i>a<b/>un<b/>quart<b/>de<b/>sis</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de sis">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>sis</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de sis" r="LR">
+		<i>a<b/>quarts<b/>de<b/>sis</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de sis">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>sis</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart de set">
+		<i>a<b/>un<b/>quart<b/>de<b/>set</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de set">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>set</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de set" r="LR">
+		<i>a<b/>quarts<b/>de<b/>set</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de set">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>set</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart de vuit">
+		<i>a<b/>un<b/>quart<b/>de<b/>vuit</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de vuit">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>vuit</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de vuit" r="LR">
+		<i>a<b/>quarts<b/>de<b/>vuit</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de vuit">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>vuit</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart de nou">
+		<i>a<b/>un<b/>quart<b/>de<b/>nou</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de nou">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>nou</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de nou" r="LR">
+		<i>a<b/>quarts<b/>de<b/>nou</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de nou">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>nou</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart de deu">
+		<i>a<b/>un<b/>quart<b/>de<b/>deu</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de deu">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>deu</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de deu" r="LR">
+		<i>a<b/>quarts<b/>de<b/>deu</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de deu">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>deu</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart d'onze">
+		<i>a<b/>un<b/>quart<b/>d'onze</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts d'onze">
+		<i>a<b/>dos<b/>quarts<b/>d'onze</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts d'onze" r="LR">
+		<i>a<b/>quarts<b/>d'onze</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts d'onze">
+		<i>a<b/>tres<b/>quarts<b/>d'onze</i>
+		<par n="ahir__adv"/>
+	</e>
+
+	<e lm="a un quart de dotze">
+		<i>a<b/>un<b/>quart<b/>de<b/>dotze</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a dos quarts de dotze">
+		<i>a<b/>dos<b/>quarts<b/>de<b/>dotze</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a quarts de dotze" r="LR">
+		<i>a<b/>quarts<b/>de<b/>dotze</i>
+		<par n="ahir__adv"/>
+	</e>
+	<e lm="a tres quarts de dotze">
+		<i>a<b/>tres<b/>quarts<b/>de<b/>dotze</i>
+		<par n="ahir__adv"/>
+	</e>
 
 
 
