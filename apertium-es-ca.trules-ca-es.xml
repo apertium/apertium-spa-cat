@@ -680,10 +680,16 @@
 			<when>
 				<test>
 					<and>
-						<equal>
-							<clip pos="1" side="sl" part="a_verb"/>
-							<lit-tag v="vbser"/>
-						</equal>
+						<or>
+							<equal>
+								<clip pos="1" side="sl" part="a_verb"/>
+								<lit-tag v="vbser"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="lem"/>
+								<lit v="restar"/>
+							</equal>
+						</or>
 						<equal>
 							<var n="hi"/>
 							<lit v="yes"/>
@@ -2812,7 +2818,22 @@
 	  </when>
 	</choose>      
       </def-macro> 
-
+      <def-macro n="f_lexicAdv" npar="1">
+	      <choose>
+		      <when>
+			      <test>
+				      <equal caseless="yes">
+					      <clip pos="1" side="sl" part="lem"/>
+					      <lit v="ben"/>
+				      </equal>
+			      </test>
+			      <let>
+				      <clip pos="1" side="tl" part="lem"/>
+				      <lit v="muy"/>
+			      </let>
+		      </when>
+	      </choose>
+</def-macro>
 <def-macro n="f_lexicAdj" npar="1">
   <choose>
     <when>
@@ -3563,6 +3584,9 @@ is not applicable because gender and number can not be taken from previous rules
 	      <call-macro n="f_enviaa">
 		      <with-param pos="1"/>
 	      </call-macro>     
+	      <call-macro n="f_lexicAdv">
+		      <with-param pos="2"/>
+	      </call-macro>     
           <call-macro n="f_concord2">
 	    <with-param pos="1"/>
             <with-param pos="3"/>
@@ -3601,6 +3625,9 @@ is not applicable because gender and number can not be taken from previous rules
       <action>
 	      <call-macro n="f_enviaa">
 		      <with-param pos="2"/>
+	      </call-macro>     
+	      <call-macro n="f_lexicAdv">
+		      <with-param pos="3"/>
 	      </call-macro>     
           <call-macro n="f_concord3">
 	    <with-param pos="2"/>
@@ -3646,7 +3673,10 @@ is not applicable because gender and number can not be taken from previous rules
 	      <call-macro n="f_enviaa">
 		      <with-param pos="3"/>
 	      </call-macro>     
-          <call-macro n="f_concord2">
+	      <call-macro n="f_lexicAdv">
+		      <with-param pos="2"/>
+	      </call-macro>     
+         <call-macro n="f_concord2">
 	    <with-param pos="3"/>
             <with-param pos="1"/>
 	  </call-macro>     
@@ -4602,6 +4632,9 @@ is not applicable because gender and number can not be taken from previous rules
 		   <call-macro n="f_coma">
 			   <with-param pos="1"/>
 		   </call-macro>
+		   <call-macro n="f_lexicAdv">
+			   <with-param pos="3"/>
+		   </call-macro>     
 		   <call-macro n="f_concord2">
 			   <with-param pos="2"/>
 			   <with-param pos="4"/>
@@ -4644,6 +4677,9 @@ is not applicable because gender and number can not be taken from previous rules
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
 		   </call-macro>
+		   <call-macro n="f_lexicAdv">
+			   <with-param pos="4"/>
+		   </call-macro>     
 		   <call-macro n="f_concord3">
 			   <with-param pos="3"/>
 			   <with-param pos="2"/>
@@ -4691,7 +4727,10 @@ is not applicable because gender and number can not be taken from previous rules
 			   <with-param pos="1"/>
 			   <with-param pos="4"/>
 		   </call-macro>     
-		   
+		   <call-macro n="f_lexicAdv">
+			   <with-param pos="3"/>
+		   </call-macro>     
+	   
 		   <call-macro n="f_concord3">
 			   <with-param pos="4"/>
 			   <with-param pos="2"/>
@@ -4718,6 +4757,28 @@ is not applicable because gender and number can not be taken from previous rules
    </rule>
    
    
+   <rule> <!-- REGLA: NOM ADVERBI ADJECTIU-->
+	   <pattern>
+		   <pattern-item n="adv"/>
+		   <pattern-item n="adjec"/>
+	   </pattern>
+	   <action>
+		   <call-macro n="f_lexicAdv">
+			   <with-param pos="1"/>
+		   </call-macro>     
+		   <out>   
+			   <lu>
+				   <clip pos="1" side="tl" part="whole"/>
+			   </lu>
+			   <b pos="1"/>
+			   <lu>
+				   <clip pos="2" side="tl" part="whole"/>
+			   </lu>
+		   </out>
+		   
+	   </action>
+   </rule>
+
    <rule> <!-- REGLA: PREP NUMERAL NOM -->
 	   <pattern>
 		   <pattern-item n="prep"/>

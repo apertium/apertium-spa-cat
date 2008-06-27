@@ -2391,6 +2391,12 @@
           <r>áster<s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>asteres</l>
+          <r>áster<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
       
       <e>
         <p>
@@ -69921,6 +69927,10 @@
       <i>absolut</i>
       <par n="absolut/o__adj"/>
     </e>
+    <e lm="bosnio">
+      <i>bosni</i>
+      <par n="absolut/o__adj"/>
+    </e>
     <e lm="abstracto">
       <i>abstract</i>
       <par n="abstract/o__adj"/>
@@ -70317,7 +70327,20 @@
       <i>antidroga</i>
       <par n="multimedia__adj"/>
     </e>
-    <e lm="antiguo">
+    <e lm="de peso">
+      <i>de<b/>peso</i>
+      <par n="multimedia__adj"/>
+    </e>
+    <e lm="Caixa Catalunya">
+      <i>Caixa<b/>Catalunya</i>
+      <par n="ABC__np"/>
+    </e>
+
+       <e lm="Pedrera">
+        <i>Pedrera</i>
+        <par n="Afganistán__np"/>
+      </e>
+   <e lm="antiguo">
       <i>anti</i>
       <par n="anti/guo__adj"/>
     </e>
@@ -74921,7 +74944,25 @@
       <i>a<b/>menudo</i>
       <par n="ahora__adv"/>
     </e>
-    <e lm="uno tras otro">
+    <e lm="en mi contra">
+      <i>en<b/>mi<b/>contra</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="en tu contra">
+      <i>en<b/>tu<b/>contra</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="en su contra">
+      <i>en<b/>su<b/>contra</i>
+      <par n="ahora__adv"/>
+    </e>
+      <e lm="algo de cierto">
+        <p>
+          <l>algo<b/>de<b/>cierto</l>
+          <r>algo<b/>de<b/>cierto<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+     <e lm="uno tras otro">
       <i>uno<b/>tras<b/>otro</i>
       <par n="ahora__adv"/>
     </e>
@@ -75125,7 +75166,11 @@
       <i>multimedia</i>
       <par n="multimedia__adj"/>
     </e>
-    <e lm="multitudinario">
+      <e lm="honoris causa">
+        <i>honoris<b/>causa</i>
+        <par n="multimedia__adj"/>
+      </e>
+   <e lm="multitudinario">
       <i>multitudinari</i>
       <par n="absolut/o__adj"/>
     </e>
@@ -80078,8 +80123,12 @@
       <i>por<b/>ende</i>
       <par n="a_fe_que__cnjadv"/>
     </e>
-    <e lm="por eso es por lo que">
+    <e lm="por eso es por lo que" r="LR">
       <i>por<b/>eso<b/>es<b/>por<b/>lo<b/>que</i>
+      <par n="a_fe_que__cnjadv"/>
+    </e>
+    <e lm="es por eso que">
+      <i>es<b/>por<b/>eso<b/>que</i>
       <par n="a_fe_que__cnjadv"/>
     </e>
     <e lm="por lo tanto">
@@ -80438,12 +80487,24 @@
       <i>BBVA</i>
       <par n="BBVA__n"/>
     </e>
-    <e lm="BOE">
+     <e lm="IMS">
+        <i>IMS</i>
+        <par n="BBVA__n"/>
+      </e>
+     <e lm="ICDE">
+        <i>ICDE</i>
+        <par n="BBVA__n"/>
+      </e>
+     <e lm="BOE">
       <i>BOE</i>
       <par n="BBVA__n"/>
     </e>
     <e lm="Barbera">
       <i>Barbera</i>
+      <par n="ABC__np"/>
+    </e>
+    <e lm="Informe Horizon">
+      <i>Informe<b/>Horizon</i>
       <par n="ABC__np"/>
     </e>
     <e lm="Barça">
@@ -80720,6 +80781,43 @@
     </e>
     <e lm="abrigo">
       <i>abrigo</i>
+      <par n="abismo__n"/>
+    </e>
+    <e lm="respecto">
+      <i>respecto</i>
+      <par n="abismo__n"/>
+    </e>
+       <e lm="Lundberg">
+        <i>Lundberg</i>
+        <par n="Abad__np"/>
+      </e>
+    <e lm="Hardey">
+      <i>Hardey</i>
+      <par n="Abad__np"/>
+    </e>
+    <e lm="Hanes">
+      <i>Hanes</i>
+      <par n="Abad__np"/>
+    </e>
+    <e lm="Ferraté">
+      <i>Ferraté</i>
+      <par n="Abad__np"/>
+    </e>
+     <e lm="Digithum">
+        <i>Digithum</i>
+        <par n="ABC__np"/>
+      </e> 
+       <e lm="WITSA">
+        <i>WITSA</i>
+        <par n="BBC__n"/>
+      </e>
+
+    <e lm="Niklas">
+        <i>Niklas</i>
+        <par n="Abad__np"/>
+      </e>
+     <e lm="repositorio">
+      <i>repositorio</i>
       <par n="abismo__n"/>
     </e>
     <e lm="sulfato">
@@ -81515,6 +81613,10 @@
       <i>amante</i>
       <par n="accionista__n"/>
     </e>
+      <e lm="wiki">
+        <i>wiki</i>
+        <par n="accionista__n"/>
+      </e>
     <e lm="amargura">
       <i>amargura</i>
       <par n="abeja__n"/>
@@ -81533,6 +81635,10 @@
     </e>
     <e lm="ambiente">
       <i>ambiente</i>
+      <par n="abismo__n"/>
+    </e>
+    <e lm="vicerrectorado">
+      <i>vicerrectorado</i>
       <par n="abismo__n"/>
     </e>
     <e lm="ambulancia">
@@ -81567,11 +81673,36 @@
       <i>am</i>
       <par n="abogad/o__n"/>
     </e>
-    <e lm="amonestación">
+      <e lm="Segrià">
+        <i>Segrià</i>
+        <par n="Afganistán__np"/>
+      </e>
+     <e lm="amonestación">
       <i>amonestaci</i>
       <par n="acci/ón__n"/>
     </e>
-    <e lm="amor">
+    <e lm="NMC">
+        <i>NMC</i>
+        <par n="BBVA__n"/>
+      </e>
+
+      <e lm="Varennes">
+        <i>Varennes</i>
+        <par n="Afganistán__np"/>
+      </e>
+      <e lm="interacción hombreordenador">
+      <i>interacci</i>
+      <par n="acci/ón__n"/>
+	<p>
+		<l>hombreordenador</l>
+		<r><g>hombreordenador</g></r>
+	</p>
+    </e>
+     <e lm="interrelación">
+      <i>interrelaci</i>
+      <par n="acci/ón__n"/>
+    </e>
+   <e lm="amor">
       <i>amor</i>
       <par n="abril__n"/>
     </e>
@@ -84109,6 +84240,10 @@
     </e>
     <e lm="casa">
       <i>casa</i>
+      <par n="abeja__n"/>
+    </e>
+     <e lm="antropología">
+      <i>antropología</i>
       <par n="abeja__n"/>
     </e>
     <e lm="estocada">
@@ -87546,6 +87681,10 @@
     </e>
     <e lm="despacio">
       <i>despacio</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="sanos y salvos">
+      <i>sanos<b/>y<b/>salvos</i>
       <par n="ahora__adv"/>
     </e>
     <e lm="desparpajo">
@@ -94264,6 +94403,10 @@
       <i>medicina</i>
       <par n="abeja__n"/>
     </e>
+    <e lm="telemedicina">
+      <i>telemedicina</i>
+      <par n="abeja__n"/>
+    </e>
     <e lm="medición">
       <i>medici</i>
       <par n="acci/ón__n"/>
@@ -99904,6 +100047,18 @@
         <r>sensación<s n="n"/><s n="f"/><s n="sg"/><j/>de<s n="pr"/><j/>que<s n="cnjsub"/></r>
       </p>
     </e>
+    <e lm="huella dactilar">
+      <p>
+        <l>huella<b/>dactilar</l>
+        <r>huella<b/>dactilar<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+   <e lm="huellas dactilares">
+      <p>
+        <l>huellas<b/>dactilares</l>
+        <r>huella<b/>dactilar<s n="n"/><s n="f"/><s n="pl"/></r>
+      </p>
+    </e>
     <e lm="sensatez">
       <i>sensate</i>
       <par n="actri/z__n"/>
@@ -99972,6 +100127,23 @@
       <i>ser</i>
       <par n="abril__n"/>
     </e>
+      <e lm="ser querido">
+        <p>
+          <l>ser<b/>querido</l>
+          <r>ser<b/>querido<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e lm="ser querido">
+        <p>
+          <l>seres<b/>queridos</l>
+          <r>ser<b/>querido<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+<e lm="San Juan">
+  <i>San<b/>Juan</i>
+  <par n="ABC__np"/>
+</e>
+
     <e lm="serbio">
       <i>serbi</i>
       <par n="abogad/o__n"/>
@@ -104585,6 +104757,14 @@
       <i>Corea</i>
       <par n="Afganistán__np"/>
     </e>
+    <e lm="Corea del Norte">
+      <i>Corea<b/>del<b/>Norte</i>
+      <par n="Afganistán__np"/>
+    </e>
+    <e lm="Corea del Sur">
+      <i>Corea<b/>del<b/>Sur</i>
+      <par n="Afganistán__np"/>
+    </e>
     <e lm="Coria">
       <i>Coria</i>
       <par n="Afganistán__np"/>
@@ -104593,6 +104773,11 @@
       <i>Cornellà</i>
       <par n="Afganistán__np"/>
     </e>
+      <e lm="Bassas">
+        <i>Bassas</i>
+        <par n="Abad__np"/>
+      </e>
+
     <e lm="Cornellá" r="LR">
       <i>Cornellá</i>
       <par n="Afganistán__np"/>
@@ -106219,6 +106404,10 @@
     </e>
     <e lm="Linux">
       <i>Linux</i>
+      <par n="ABC__np"/>
+    </e>
+    <e lm="Second Life">
+      <i>Second<b/>Life</i>
       <par n="ABC__np"/>
     </e>
     <e lm="Liria">
@@ -108114,6 +108303,14 @@
       <i>Soria</i>
       <par n="Soria__np"/>
     </e>
+    <e lm="Universitat Oberta de Catalunya">
+      <i>Universitat<b/>Oberta<b/>de<b/>Catalunya</i>
+      <par n="Soria__np"/>
+    </e>
+    <e lm="Open University">
+      <i>Open<b/>University</i>
+      <par n="Soria__np"/>
+    </e>
     <e lm="Soriano">
       <i>Soriano</i>
       <par n="Abad__np"/>
@@ -109780,12 +109977,28 @@
       <i>en<b/>cualquier<b/>parte<b/></i>
       <par n="contde__pr"/>
     </e>-->
-    <e lm="en todo">
+    <e lm="en todo" r="RL">
       <i>en<b/>todo</i>
       <par n="a__pr"/>
     </e>
-    <e lm="por supuesto">
+     <e lm="de todo" r="RL">
+      <i>de<b/>todo</i>
+      <par n="a__pr"/>
+    </e>
+   <e lm="por supuesto">
       <i>por<b/>supuesto</i>
+      <par n="ahora__adv"/>
+    </e>
+   <e lm="en bicicleta">
+      <i>en<b/>bicicleta</i>
+      <par n="ahora__adv"/>
+    </e>
+   <e lm="en bici">
+      <i>en<b/>bici</i>
+      <par n="ahora__adv"/>
+    </e>
+   <e lm="en coche">
+      <i>en<b/>coche</i>
       <par n="ahora__adv"/>
     </e>
     <e lm="de pies a cabeza">
@@ -109818,6 +110031,10 @@
     </e>
     <e lm="en espera de">
       <i>en<b/>espera<b/></i>
+      <par n="contde__pr"/>
+    </e>
+    <e lm="hasta después de">
+      <i>hasta<b/>después<b/></i>
       <par n="contde__pr"/>
     </e>
     <e lm="en frente de">
@@ -109992,9 +110209,17 @@
       <i>miles<b/></i>
       <par n="contde__pr"/>
     </e>
+    <e lm="miles y miles de">
+      <i>miles<b/>y<b/>miles<b/></i>
+      <par n="contde__pr"/>
+    </e>
     <e lm="ni un ápice de">
       <i>ni<b/>un<b/>ápice<b/></i>
       <par n="contde__pr"/>
+    </e>
+    <e lm="nada que ver con">
+      <i>nada<b/>que<b/>ver<b/>con</i>
+      <par n="a__pr"/>
     </e>
     <e lm="para">
       <i>para</i>
@@ -110439,9 +110664,17 @@
       <i>todo<b/>ello</i>
       <par n="aquello__prn"/>
     </e>
-    <e lm="todo el mundo" r="RL">
+    <e lm="todo el mundo">
       <i>todo<b/>el<b/>mundo</i>
       <par n="todo_el_mundo__prn"/>
+    </e>
+    <e lm="por todo el mundo">
+      <i>por<b/>todo<b/>el<b/>mundo</i>
+      <par n="ahora__adv"/>
+    </e>
+   <e lm="en todo el mundo">
+      <i>en<b/>todo<b/>el<b/>mundo</i>
+      <par n="ahora__adv"/>
     </e>
     <e lm="tú">
       <i>tú</i>
@@ -115483,6 +115716,18 @@
       <i>conclus</i>
       <par n="absolut/o__adj"/>
     </e>
+     <e lm="ubicuo">
+      <i>ubicu</i>
+      <par n="absolut/o__adj"/>
+    </e>
+      <e lm="AQU">
+        <i>AQU</i>
+        <par n="BBC__n"/>
+      </e>
+    <e lm="colaborativo">
+      <i>colaborativ</i>
+      <par n="absolut/o__adj"/>
+    </e>
     <e lm="politécnico">
       <i>politécnic</i>
       <par n="absolut/o__adj"/>
@@ -115999,6 +116244,10 @@
     <e lm="contar con">
       <i>c</i>
       <par n="c/ontar__vblex"/>
+        <p>
+          <l>con</l>
+          <r><g>con</g></r>
+        </p>
     </e>
     <e lm="contemplar">
       <i>contempl</i>
@@ -120678,6 +120927,14 @@
       <p>
 	<l><b/>a<b/>punto</l>
 	<r><g><b/>a<b/>punto</g></r>
+      </p>
+    </e>
+    <e lm="estar de acuerdo">
+      <i>est</i>
+      <par n="est/ar__vblex"/>
+      <p>
+	<l><b/>de<b/>acuerdo</l>
+	<r><g><b/>de<b/>acuerdo</g></r>
       </p>
     </e>
     <e lm="estereotipar">
@@ -129115,6 +129372,25 @@
       </p>
       <par n="sál/ir__vblex"/>
     </e>
+    <e lm="salir adelante">
+      <i>sal</i>
+      <par n="sal/ir__vblex"/>
+        <p>
+          <l>endavant</l>
+          <r><g>endavant</g></r>
+        </p>
+   </e>
+    <e lm="salir adelante">
+      <p>
+        <l>sál</l>
+        <r>sal</r>
+      </p>
+      <par n="sál/ir__vblex"/>
+       <p>
+          <l>endavant</l>
+          <r><g>endavant</g></r>
+        </p>
+    </e>
     <e lm="salpicar">
       <i>salpi</i>
       <par n="ata/car__vblex"/>
@@ -131094,6 +131370,14 @@
     <e lm="venir">
       <i>v</i>
       <par n="v/enir__vblex"/>
+	<p>
+		<l><b/>abajo</l>
+		<r><g><b/>abajo</g></r>
+	</p>
+    </e>
+    <e lm="venir">
+      <i>v</i>
+      <par n="v/enir__vblex"/>
     </e>
     <e lm="ver">
       <i>v</i>
@@ -131430,8 +131714,16 @@
       <i>a<b/>través</i>
       <par n="ahora__adv"/>
     </e>
+     <e lm="al fin y al cabo">
+      <i>al<b/>fin<b/>y<b/>al<b/>cabo</i>
+      <par n="ahora__adv"/>
+    </e>
     <e lm="a domicilio">
       <i>a<b/>domicilio</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="a mitad de camino">
+      <i>a<b/>mitad<b/>de<b/>camino</i>
       <par n="ahora__adv"/>
     </e>
     <e lm="por ejemplo">
@@ -131750,6 +132042,10 @@
 </e>
 <e lm="etc." a="mginesti">
   <i>etc.</i>
+  <par n="ahora__adv"/>
+</e>
+<e lm="etc">
+  <i>etc</i>
   <par n="ahora__adv"/>
 </e>
 <e lm="ajuste" a="mginesti">
@@ -132315,9 +132611,17 @@
         <i>anochecer</i>
         <par n="abril__n"/>
       </e>
+<e lm="Fernand">
+  <i>Fernand</i>
+  <par n="Abad__np"/>
+</e>
 
             <e lm="UNESCO">
         <i>UNESCO</i>
+        <par n="BBC__n"/>
+      </e>
+      <e lm="EEES">
+        <i>EEES</i>
         <par n="BBC__n"/>
       </e>
 
@@ -133068,6 +133372,10 @@
   <i>cobrador</i>
   <par n="señor__n"/>
 </e>
+<e lm="Dr">
+  <i>Dr</i>
+  <par n="señor__n"/>
+</e>
 <e lm="centralizar">
   <i>centrali</i>
   <par n="abalan/zar__vblex"/>
@@ -133583,6 +133891,11 @@
   <i>cash-flow</i>
   <par n="atletismo__n"/>
 </e>
+     <e lm="elearning">
+        <i>elearning</i>
+        <par n="atletismo__n"/>
+      </e>
+
 <e lm="flow" a="gema">
   <i>flow</i>
   <par n="atletismo__n"/>
@@ -134363,6 +134676,11 @@
   <i>WC</i>
   <par n="IRPF__n"/>
 </e>
+     <e lm="PID">
+        <i>PID</i>
+        <par n="IRPF__n"/>
+      </e>
+ 
 <e lm="UVA" a=" alseoane@gmail.com">
   <i>UVA</i>
   <par n="IRPF__n"/>
@@ -134814,6 +135132,11 @@
   <i>Falopio</i>
   <par n="Abad__np"/>
 </e>
+    <e lm="Tubella">
+      <i>Tubella</i>
+      <par n="Abad__np"/>
+    </e>
+
 <e lm="extremidad" a=" alseoane@gmail.com">
   <i>extremidad</i>
   <par n="accesibilidad__n"/>
@@ -134908,6 +135231,10 @@
 </e>
 <e lm="ETS">
   <i>ETS</i>
+  <par n="ETS__n"/>
+</e>
+<e lm="TIC">
+  <i>TIC</i>
   <par n="ETS__n"/>
 </e>
 <e lm="verruga" a=" alseoane@gmail.com">
@@ -135235,6 +135562,14 @@
         <i>cuarto</i>
         <par n="abismo__n"/>
       </e>
+    <e lm="cuarto de final">
+        <i>cuarto</i>
+        <par n="abismo__n"/>
+ 	<p>
+		<l><b/>de<b/>final</l>
+		<r><g><b/>de<b/>final</g></r>
+	</p>
+      </e>
 
       <e lm="dejar">
         <i>dej</i>
@@ -135292,6 +135627,10 @@
 
       <e lm="entonces">
         <i>entonces</i>
+        <par n="ahora__adv"/>
+      </e>
+      <e lm="por supuesto">
+        <i>por<b/>supuesto</i>
         <par n="ahora__adv"/>
       </e>
 
@@ -135402,11 +135741,15 @@
         <i>human</i>
         <par n="abogad/o__n"/>
       </e>
+      <e lm="FUOC">
+        <i>FUOC</i>
+        <par n="BBC__n"/>
+      </e>
 
      <e lm="ICV">
-			<i>ICV</i>
-			<par n="BBC__n"/>
-		</e>
+		<i>ICV</i>
+		<par n="BBC__n"/>
+	</e>
 
       <e lm="III">
         <i>III</i>
@@ -138719,6 +139062,10 @@
         <i>CIS</i>
         <par n="BBVA__n"/>
      </e>
+      <e lm="IN3">
+        <i>IN3</i>
+        <par n="BBVA__n"/>
+      </e>
 
      <e lm="cisma" a="prompsit2adn">
         <i>cisma</i>
@@ -151607,6 +151954,11 @@
   <i>PS</i>
   <par n="IRPF__n"/>
 </e>
+<e lm="PI">
+  <i>PI</i>
+  <par n="IRPF__n"/>
+</e>
+
 <e lm="CNE" a="prompsit2adn">
   <i>CNE</i>
   <par n="BBC__n"/>
@@ -152881,6 +153233,14 @@
 <e lm="tanda" a="prompsit2adn">
   <i>tanda</i>
   <par n="abeja__n"/>
+</e>
+<e lm="tanda de penaltis" a="prompsit2adn">
+  <i>tanda</i>
+  <par n="abeja__n"/>
+	<p>
+		<l><b/>de<b/>penaltis</l>
+		<r><g><b/>de<b/>penaltis</g></r>
+	</p>
 </e>
 <e lm="liguero" a="prompsit2adn">
   <i>liguer</i>
@@ -154807,6 +155167,27 @@
   <i>desesperadamente</i>
   <par n="ahora__adv"/>
 </e>
+      <e lm="en primera plana">
+	<i>en<b/>primera<b/>plana</i>
+	<par n="ahora__adv"/>
+      </e>
+     <e lm="mala suerte">
+        <p>
+          <l>mala<b/>suerte</l>
+          <r>mala<b/>suerte<s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e lm="malas suertes">
+        <p>
+          <l>malas<b/>suertes</l>
+          <r>mala<b/>suerte<s n="n"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+<e lm="gafe">
+  <i>gafe</i>
+  <par n="abismo__n"/>
+</e>
+
 <e lm="coreógrafo" a="prompsit2adn">
   <i>coreógraf</i>
   <par n="abogad/o__n"/>
@@ -155690,7 +156071,27 @@
 <e lm="Sirera" a="prompsit2adn"><i>Sirera</i><par n="Abad__np"/></e>
 <e lm="Shuterland" a="prompsit2adn"><i>Shuterland</i><par n="Abad__np"/></e>
 <e lm="Chivite" a="prompsit2adn"><i>Chivite</i><par n="Abad__np"/></e>
-
+      <e lm="Grup 62">
+        <i>Grup<b/>62</i>
+        <par n="ABC__np"/>
+      </e>
+   <e lm="Divjak">
+      <i>Divjak</i>
+      <par n="Abad__np"/>
+    </e>
+      <e lm="Grup62">
+        <i>Grup62</i>
+        <par n="ABC__np"/>
+      </e>
+   <e lm="Lletra">
+        <i>Lletra</i>
+        <par n="ABC__np"/>
+      </e>
+    <e lm="LinguamónUOC">
+        <i>LinguamónUOC</i>
+        <par n="ABC__np"/>
+      </e>
+  
 <e lm="Press" a="prompsit2adn"><i>Press</i><par n="ABC__np"/></e>
 <e lm="ADNes" a="prompsit2adn"><i>ADNes</i><par n="ABC__np"/></e>
 <e lm="ADN.es" a="prompsit2adn"><i>ADN.es</i><par n="ABC__np"/></e>

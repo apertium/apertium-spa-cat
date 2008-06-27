@@ -531,6 +531,23 @@
 		</let>
 	</def-macro>
 
+	<def-macro n="f_coma" npar="1">
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="como"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="lem"/>
+					<lit v="com a"/>
+				</let>
+			</when>
+		</choose>
+	</def-macro>
+
 	<def-macro n="f_preps" npar="2">
 		<choose> 
 			<when>
@@ -690,6 +707,8 @@
       </otherwise>
     </choose>
 </def-macro>
+
+
 
 <def-macro n="f_lexicAdj" npar="1">
   <choose>
@@ -3378,7 +3397,7 @@ is not applicable because gender and number cannot be taken from previous rules 
        
      </action>
    </rule>
-
+ 
 <rule> <!-- REGLA: DET NOM ADVERBI ADJECTIU -->
       <pattern>
 	<pattern-item n="det"/>
@@ -3390,7 +3409,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 	      <call-macro n="f_lexicDet">
 		      <with-param pos="1"/>
 	      </call-macro>
-           <call-macro n="f_concord3">
+            <call-macro n="f_concord3">
 	    <with-param pos="2"/>
             <with-param pos="1"/>
 	    <with-param pos="4"/>
@@ -3435,7 +3454,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 	      <call-macro n="f_lexicDet">
 		      <with-param pos="1"/>
 	      </call-macro>
-           <call-macro n="f_concord2">
+            <call-macro n="f_concord2">
 	    <with-param pos="3"/>
             <with-param pos="1"/>
 	  </call-macro>     
@@ -3656,6 +3675,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="nom"/>
 	   </pattern>
 	   <action>
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>     
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="2"/>
@@ -3682,6 +3704,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adj"/>
 	   </pattern>
 	   <action>	
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>     
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="2"/>
@@ -3819,6 +3844,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>	
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>     
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="2"/>
@@ -3856,6 +3884,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="nom"/>
 	   </pattern>
 	   <action>	
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>     
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
@@ -3996,6 +4027,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>	
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>     
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="2"/>
@@ -4221,6 +4255,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>     
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
@@ -4330,7 +4367,10 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="adjec"/>
 	   </pattern>
 	   <action>	
-		   <call-macro n="f_preps">
+		   <call-macro n="f_coma">
+			   <with-param pos="1"/>
+		   </call-macro>     
+ 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="2"/>
 		   </call-macro>     
@@ -4376,7 +4416,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <call-macro n="f_lexicDet">
 			   <with-param pos="2"/>
 		   </call-macro>
-		   <call-macro n="f_preps">
+ 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="3"/>
 		   </call-macro>
@@ -4425,6 +4465,9 @@ is not applicable because gender and number cannot be taken from previous rules 
 	   <action>		   
 		   <call-macro n="f_lexicDet">
 			   <with-param pos="2"/>
+		   </call-macro>
+		   <call-macro n="f_lexicDet">
+			   <with-param pos="3"/>
 		   </call-macro>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
