@@ -13986,6 +13986,90 @@
         </p>
       </e>
     </pardef>
+<pardef n="haver__vblex">
+     <e>
+        <p>
+          <l>hi<b/>hauria</l>
+          <r>haver<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hi<b/>hauria</l>
+          <r>haver<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hi<b/>haurà</l>
+          <r>haver<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hi<b/>hagués</l>
+          <r>haver<s n="vblex"/><s n="fts"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>hi<b/>hagués</l>
+          <r>haver<s n="vblex"/><s n="fts"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+     <e>
+        <p>
+          <l>havent-hi</l>
+          <r>haver<s n="vblex"/><s n="ger"/></r>
+        </p>
+      </e>
+     <e>
+        <p>
+          <l>hi<b/>va<b/>haver</l>
+          <r>haver<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+     <e>
+        <p>
+          <l>haver-hi</l>
+          <r>haver<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hi<b/>havia</l>
+          <r>haver<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+     <e>
+        <p>
+          <l>hi<b/>havia</l>
+          <r>haver<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hi<b/>hagués</l>
+          <r>haver<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>hi<b/>hagués</l>
+          <r>haver<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+     <e>
+        <p>
+          <l>hi<b/>hagi</l>
+          <r>haver<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
+        </p>
+      </e>
+
+</pardef>
+ 
 
 
 <pardef n="haver__vaux">
@@ -85629,6 +85713,10 @@
         <i>sota</i>
         <par n="ahir__adv"/>
       </e>
+      <e lm="per sota">
+        <i>per<b/>sota</i>
+        <par n="ahir__adv"/>
+      </e>
 
       <e lm="sovint">
         <i>sovint</i>
@@ -85948,10 +86036,10 @@
         <i>amb<b/>finalitats</i>
         <par n="a__pr"/>
       </e>
-      <e lm="tot i" r="LR">
+  <!--    <e lm="tot i" r="LR">
         <i>tot<b/>i</i>
         <par n="a__pr"/>
-      </e>
+      </e>-->
       
       <e lm="ans" r="LR">
         <i>ans</i>
@@ -86045,6 +86133,10 @@
       
       <e lm="ja que">
         <i>ja<b/>que</i>
+        <par n="a_fe_que__cnjadv"/>
+      </e>
+      <e lm="car" r="LR">
+        <i>car</i>
         <par n="a_fe_que__cnjadv"/>
       </e>
       
@@ -86663,6 +86755,10 @@
         <i>BBC</i>
         <par n="BBC__n"/>
       </e>
+    <e lm="COPE">
+      <i>COPE</i>
+      <par n="BBC__n"/>
+    </e>
       
       <e lm="Efe">
         <i>Efe</i>
@@ -86671,6 +86767,14 @@
       
       <e lm="BBVA">
         <i>BBVA</i>
+        <par n="BBVA__n"/>
+      </e>
+      <e lm="TSJ">
+        <i>TSJ</i>
+        <par n="BBVA__n"/>
+      </e>
+     <e lm="TSJV">
+        <i>TSJV</i>
         <par n="BBVA__n"/>
       </e>
       <e lm="IMS">
@@ -86730,6 +86834,10 @@
       </e>
      <e lm="Grup62">
         <i>Grup62</i>
+        <par n="ABC__np"/>
+      </e>
+     <e lm="la Magrana">
+        <i>la<b/>Magrana</i>
         <par n="ABC__np"/>
       </e>
       <e lm="Lletra">
@@ -122483,6 +122591,10 @@
         <i>des<b/></i>
         <par n="contde__pr"/>
       </e>
+     <e lm="d'ençà de" r="LR">
+        <i>d'ençà<b/></i>
+        <par n="contde__pr"/>
+      </e>
 
       <e lm="després que">
         <i>després<b/>que</i>
@@ -123507,6 +123619,30 @@
         <i>tot<b/>plegat</i>
         <par n="allò__prn"/>
       </e>
+      <e lm="tots plegats" r="LR">
+        <p>
+          <l>tots<b/>plegats</l>
+          <r>tots<b/>plegats<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e lm="totes plegades" r="LR">
+        <p>
+          <l>totes<b/>plegades</l>
+          <r>tots<b/>plegats<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+       <e lm="tots junts">
+        <p>
+          <l>tots<b/>junts</l>
+          <r>tots<b/>junts<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e lm="totes juntes">
+        <p>
+          <l>totes<b/>juntes</l>
+          <r>tots<b/>junts<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
       
       <e lm="tothom" r="LR">
         <i>tothom</i>
@@ -123695,6 +123831,15 @@
         <par n="haver__vbhaver"/>
       </e>
 
+      <e lm="haver prou">
+        <i></i>
+        <par n="haver__vblex"/>
+        <p>
+          <l><b/>prou</l>
+          <r><g><b/>prou</g></r>
+        </p>
+      </e>
+
       <e lm="haver" r="RL">
         <i></i>
         <par n="haver__vaux"/>
@@ -123704,6 +123849,16 @@
         <p>
           <l>hi<b/>ha</l>
           <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e lm="hi ha prou">
+        <p>
+          <l>hi<b/>ha</l>
+          <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+        <p>
+          <l><b/>prou</l>
+          <r><g><b/>prou</g></r>
         </p>
       </e>
       
@@ -134871,6 +135026,10 @@
   <i>Pròxim<b/>Orient</i>
   <par n="Afganistan__np"/>
 </e>
+<e lm="Orient Mitjà">
+  <i>Orient<b/>Mitjà</i>
+  <par n="Afganistan__np"/>
+</e>
 <e lm="el Marroc" r="LR" a="mginesti">
   <i>el<b/>Marroc</i>
   <par n="Afganistan__np"/>
@@ -135246,6 +135405,10 @@
 </e>
 <e lm="ni tan sols" a="gema">
   <i>ni<b/>tan<b/>sols</i>
+  <par n="ahir__adv"/>
+</e>
+<e lm="ni tan solament" r="LR">
+  <i>ni<b/>tan<b/>solament</i>
   <par n="ahir__adv"/>
 </e>
 <e lm="a favor" a="gema">
@@ -135763,11 +135926,17 @@
         <par n="admé/tre__vblex"/>
       </e>
 
-            <e lm="fa">
+            <e lm="fa" r="RL">
         <i>fa</i>
         <par n="campus__n"/>
       </e>
-
+    <e lm="un fa" r="LR">
+      <p>
+        <l>un<b/>fa</l>
+        <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><j/>fa<s n="m"/><s n="m"/><s n="sp"/></r>
+      </p>
+    </e>
+ 
       <e lm="executiu">
         <i>executi</i>
         <par n="abusi/u__adj"/>
@@ -138050,6 +138219,10 @@
 </e>
 <e lm="rarament" a=" alseoane@gmail.com">
   <i>rarament</i>
+  <par n="ahir__adv"/>
+</e>
+<e lm="en massa">
+  <i>en<b/>massa</i>
   <par n="ahir__adv"/>
 </e>
 <e lm="mica" a=" alseoane@gmail.com" r="LR">
@@ -163917,6 +164090,13 @@
      <p>
        <l>des<b/>d'</l>
        <r>des<b/>de</r>
+     </p>
+     <par n="a__pr"/>
+   </e>
+   <e lm="d'ençà de" r="LR">
+     <p>
+       <l>d'ençà<b/>d'</l>
+       <r>d'ençà<b/>de</r>
      </p>
      <par n="a__pr"/>
    </e>

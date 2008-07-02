@@ -403,6 +403,7 @@
 		<list-item v="planeta"/>
 		<list-item v="parlament"/>
 		<list-item v="casa"/>
+		<list-item v="tren"/>
 		<list-item v="universitat"/>
 		<list-item v="roba"/>
 		<list-item v="escola"/>
@@ -2940,6 +2941,47 @@ is not applicable because gender and number cannot be taken from previous rules 
      </action>
    </rule>
 
+   <rule> <!-- REGLA: NOM ADJECTIU ADJECTIU-->
+	   <pattern>
+		   <pattern-item n="nom"/>
+		   <pattern-item n="adjec"/>
+		   <pattern-item n="adjec"/>
+	   </pattern>
+	   <action>
+		   <call-macro n="f_concord3">
+			   <with-param pos="1"/>
+			   <with-param pos="2"/>
+			   <with-param pos="3"/>
+		   </call-macro>     
+		   <out>   
+			   <lu>
+				   <clip pos="1" side="tl" part="lemh"/>
+				   <clip pos="1" side="tl" part="a_nom"/>
+				   <clip pos="1" side="tl" part="gen"/>
+				   <clip pos="1" side="tl" part="nbr"/>
+				   <clip pos="1" side="tl" part="lemq"/>
+			   </lu>
+			   <b pos="1"/>
+			   <lu>
+				   <clip pos="2" side="tl" part="lemh"/>
+				   <clip pos="2" side="tl" part="a_adjec"/>
+				   <clip pos="2" side="tl" part="gen"/>
+				   <clip pos="2" side="tl" part="nbr"/>
+				   <clip pos="2" side="tl" part="lemq"/>
+			   </lu>
+			   <b pos="2"/>
+			   <lu>
+				   <clip pos="3" side="tl" part="lemh"/>
+				   <clip pos="3" side="tl" part="a_adjec"/>
+				   <clip pos="3" side="tl" part="gen"/>
+				   <clip pos="3" side="tl" part="nbr"/>
+				   <clip pos="3" side="tl" part="lemq"/>
+			   </lu>
+		   </out>
+		   
+	   </action>
+   </rule>
+   
 
 <rule> <!-- REGLA: ADJECTIU NOM -->
       <pattern>
@@ -4845,7 +4887,7 @@ is not applicable because gender and number cannot be taken from previous rules 
 
 <rule> <!--REGLA: VERB (per a multiparaules sense enclítics)-->
       <pattern>
-	<pattern-item n="verb_nohaber"/>
+	<pattern-item n="verb"/>
     </pattern>
     <action>
       <call-macro n="f_seleccioLex">

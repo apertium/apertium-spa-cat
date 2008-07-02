@@ -5569,6 +5569,69 @@
         </p>
       </e>
     </pardef>
+    <pardef n="h/aber__vblex">
+      <e>
+        <p>
+          <l>abría</l>
+          <r>aber<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+     <e>
+        <p>
+          <l>abrá</l>
+          <r>aber<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+     <e r="LR">
+        <p>
+          <l>ubiere</l>
+          <r>aber<s n="vblex"/><s n="fts"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+     <e>
+        <p>
+          <l>ubo</l>
+          <r>aber<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+       <e>
+        <p>
+          <l>aber</l>
+          <r>aber<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+       <e>
+        <p>
+          <l>abía</l>
+          <r>aber<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+    <e>
+        <p>
+          <l>ubiera</l>
+          <r>aber<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ubiese</l>
+          <r>aber<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+        <e>
+        <p>
+          <l>a</l>
+          <r>aber<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>aya</l>
+          <r>aber<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="h/aber__vbmod">
       <e>
         <p>
@@ -78632,6 +78695,10 @@
       <i>debajo</i>
       <par n="ahora__adv"/>
     </e>
+    <e lm="por debajo">
+      <i>por<b/>debajo</i>
+      <par n="ahora__adv"/>
+    </e>
     <e lm="debidamente">
       <i>debidamente</i>
       <par n="ahora__adv"/>
@@ -80477,6 +80544,10 @@
     </e>
     <e lm="BBC">
       <i>BBC</i>
+      <par n="BBC__n"/>
+    </e>
+    <e lm="COPE">
+      <i>COPE</i>
       <par n="BBC__n"/>
     </e>
      <e lm="Efe">
@@ -97781,6 +97852,10 @@
       <i>prim</i>
       <par n="abogad/o__n"/>
     </e>
+   <e lm="parado">
+      <i>parad</i>
+      <par n="abogad/o__n"/>
+    </e>
     <e lm="principio">
       <i>principio</i>
       <par n="abismo__n"/>
@@ -109989,6 +110064,26 @@
       <i>por<b/>supuesto</i>
       <par n="ahora__adv"/>
     </e>
+   <e lm="de repente">
+      <i>de<b/>repente</i>
+      <par n="ahora__adv"/>
+    </e>
+   <e lm="en masa">
+      <i>en<b/>masa</i>
+      <par n="ahora__adv"/>
+    </e>
+      <e lm="todos juntos">
+        <p>
+          <l>todos<b/>juntos</l>
+          <r>todos<b/>juntos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e lm="todas juntas">
+        <p>
+          <l>todas<b/>juntas</l>
+          <r>todos<b/>juntos<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
    <e lm="en bicicleta">
       <i>en<b/>bicicleta</i>
       <par n="ahora__adv"/>
@@ -110825,7 +110920,25 @@
       <i>h</i>
       <par n="h/aber__vbhaver"/>
     </e>
-    <e lm="hay">
+    <e lm="haber bastante">
+      <i>h</i>
+      <par n="h/aber__vblex"/>
+      <p>
+          <l><b/>bastante</l>
+          <r><g><b/>bastante</g></r>
+        </p>
+      </e>
+    <e lm="hay bastante">
+      <p>
+        <l>hay</l>
+        <r>hay<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+      </p>
+      <p>
+          <l><b/>bastante</l>
+          <r><g><b/>bastante</g></r>
+        </p>
+    </e>
+<e lm="hay">
       <p>
         <l>hay</l>
         <r>hay<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
@@ -131826,6 +131939,23 @@
       <i>Próximo<b/>Oriente</i>
       <par n="Afganistán__np"/>
     </e>
+    <e lm="Oriente Medio">
+      <i>Oriente<b/>Medio</i>
+      <par n="Afganistán__np"/>
+    </e>
+    <e lm="la Magrana">
+        <i>la<b/>Magrana</i>
+        <par n="ABC__np"/>
+      </e>
+      <e lm="TSJ">
+        <i>TSJ</i>
+        <par n="BBVA__n"/>
+      </e>
+     <e lm="TSJV">
+        <i>TSJV</i>
+        <par n="BBVA__n"/>
+      </e>
+ 
     <e lm="Marruecos" a="mginesti">
       <i>Marruecos</i>
       <par n="Afganistán__np"/>
@@ -153204,7 +153334,7 @@
 </e>
 <e lm="parón" a="prompsit2adn">
   <i>par</i>
-  <par n="acci/ón__n"/>
+  <par n="aluvi/ón__n"/>
 </e>
 <e lm="pole" a="prompsit2adn">
   <i>pole</i>

@@ -7454,6 +7454,12 @@
           <r>ja<b/>que<s n="cnjadv"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>puesto<b/>que<s n="cnjadv"/></l>
+          <r>car<s n="cnjadv"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>salvo<b/>que<s n="cnjadv"/></l>
@@ -24797,6 +24803,12 @@
           <r>des<b/>de<s n="pr"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>desde<s n="pr"/></l>
+          <r>d'ençà<b/>de<s n="pr"/></r>
+        </p>
+      </e>
       <e r="LR">
         <p>
           <l>tras<s n="pr"/></l>
@@ -25075,12 +25087,12 @@
           <r>malgrat<s n="pr"/></r>
         </p>
       </e>
-      <e r="RL">
+    <!--  <e r="RL">
         <p>
           <l>a<b/>pesar<b/>de<s n="pr"/></l>
           <r>tot<b/>i<s n="pr"/></r>
         </p>
-      </e>
+      </e>-->
       <e r="LR">
         <p>
           <l>apremio<b/>de<s n="pr"/></l>
@@ -25444,6 +25456,12 @@
         <p>
           <l>un<b/>poco<s n="adv"/></l>
           <r>una<b/>mica<s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>en<b/>masa<s n="adv"/></l>
+          <r>en<b/>massa<s n="adv"/></r>
         </p>
       </e>
       <e>
@@ -26041,6 +26059,18 @@
         <p>
           <l>todo<b/>ello<s n="prn"/></l>
           <r>tot<b/>plegat<s n="prn"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>todos<b/>juntos<s n="prn"/></l>
+          <r>tots<b/>plegats<s n="prn"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>todos<b/>juntos<s n="prn"/></l>
+          <r>tots<b/>junts<s n="prn"/></r>
         </p>
       </e>
       <e>
@@ -27898,6 +27928,9 @@
         <i>Grup62<s n="np"/></i>
       </e>
      <e>
+        <i>la<b/>Magrana<s n="np"/></i>
+      </e>
+     <e>
         <i>Divjak<s n="np"/></i>
       </e>
      <e>
@@ -27908,6 +27941,12 @@
       </e>
     <e>
         <i>Hardey<s n="np"/></i>
+      </e>
+   <e>
+        <i>TSJ<s n="n"/></i>
+      </e>
+   <e>
+        <i>TSJV<s n="n"/></i>
       </e>
     <e>
         <i>Hanes<s n="np"/></i>
@@ -31979,6 +32018,18 @@
         </p>
       </e>
       <e>
+        <p>
+          <l>hay<g><b/>bastante</g><s n="vblex"/></l>
+          <r>hi<b/>ha<g><b/>prou</g><s n="vblex"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>haber<g><b/>bastante</g><s n="vblex"/></l>
+          <r>haver<g><b/>prou</g><s n="vblex"/></r>
+        </p>
+      </e>
+      <e>
         <i>ser<s n="vbser"/></i>
       </e>
       <e>
@@ -35335,9 +35386,15 @@
       <e>
         <i>ATS<s n="n"/></i>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>desempleado<s n="n"/></l>
+          <r>aturat<s n="n"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>parado<s n="n"/></l>
           <r>aturat<s n="n"/></r>
         </p>
       </e>
@@ -36200,6 +36257,9 @@
       </e>
       <e>
         <i>BBC<s n="n"/></i>
+      </e>
+      <e>
+        <i>COPE<s n="n"/></i>
       </e>
       <e>
         <i>Efe<s n="n"/></i>
@@ -48085,7 +48145,7 @@
         </p>
       </e>
       <e>
-        <i>Generalitat<s n="np"/><s n="al"/></i>
+        <i>Generalitat<s n="np"/></i>
       </e>
       <e>
         <p>
@@ -63831,6 +63891,12 @@
         </p>
       </e>
       <e>
+        <p>
+          <l>por<b/>debajo<s n="adv"/></l>
+          <r>per<b/>sota<s n="adv"/></r>
+        </p>
+      </e>
+      <e>
         <i>sotana<s n="n"/></i>
       </e>
       <e r="LR">
@@ -67919,6 +67985,12 @@
     <r>Pròxim<b/>Orient<s n="np"/></r>
   </p>
 </e>
+<e>
+  <p>
+    <l>Oriente<b/>Medio<s n="np"/></l>
+    <r>Orient<b/>Mitjà<s n="np"/></r>
+  </p>
+</e>
 <e a="mginesti">
   <p>
     <l>Marruecos<s n="np"/></l>
@@ -69518,6 +69590,12 @@
   <p>
     <l>ni<b/>siquiera<s n="adv"/></l>
     <r>ni<b/>tan<b/>sols<s n="adv"/></r>
+  </p>
+</e>
+<e r="RL">
+  <p>
+    <l>ni<b/>siquiera<s n="adv"/></l>
+    <r>ni<b/>tan<b/>solament<s n="adv"/></r>
   </p>
 </e>
 <e a="gema">
@@ -91549,10 +91627,10 @@
     <r>recordista<s n="n"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e a="prompsit2adn" r="LR">
   <p>
-    <l>parón<s n="n"/></l>
-    <r>aturada<s n="n"/></r>
+    <l>parón<s n="n"/><s n="m"/></l>
+    <r>aturada<s n="n"/><s n="f"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -97464,7 +97542,7 @@
 <e a="prompsit"><p><l>telemáticamente<s n="adv"/></l><r>telemàticament<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>si<b/>así<b/>fuera<s n="adv"/></l><r>si<b/>fos<b/>així<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>todo<b/>junto<s n="adv"/></l><r>tot<b/>junt<s n="adv"/></r></p></e>
-<e a="prompsit"><p><l>todo<b/>seguido<s n="adv"/></l><r>tot<b/>seguit<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>todo<b/>seguido<s n="adv"/></l><r>tot<b/>seguit<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>todos<b/>juntos<s n="adv"/></l><r>tots<b/>junts<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>a<b/>continuación<s n="adv"/></l><r>a<b/>continuació<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>tan<b/>sólo<s n="adv"/></l><r>tan<b/>sols<s n="adv"/></r></p></e>
