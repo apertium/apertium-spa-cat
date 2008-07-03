@@ -3198,10 +3198,22 @@ is not applicable because gender and number cannot be taken from previous rules 
 	<choose>
 		<when>
 			<test>
-				<in caseless="yes">
-					<clip pos="3" side="sl" part="lem"/>
-					<list n="tiempo"/>
-				</in>
+				<and>
+					<in caseless="yes">
+						<clip pos="3" side="sl" part="lem"/>
+						<list n="tiempo"/>
+					</in>
+					<or>
+						<equal>
+							<clip pos="2" side="sl" part="lem"/>
+							<lit v="próximo"/>
+						</equal>
+						<equal>
+							<clip pos="2" side="sl" part="lem"/>
+							<lit v="pasado"/>
+						</equal>
+					</or>
+				</and>
 			</test>
 			<out>  
 				<lu>    

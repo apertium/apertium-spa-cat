@@ -400,6 +400,7 @@
 
 <section-def-vars>
 	<def-var n="valverb"/>
+	<def-var n="prepo"/>
 	<def-var n="hi"/>
 	<def-var n="tipusverb"/>
        <def-var n="uno"/>
@@ -721,45 +722,75 @@
 		<choose> 
 			<when>
 				<test>
-					<and>
-						<equal>
-							<clip pos="1" side="sl" part="lem"/>
-							<lit v="de"/>
-						</equal>
-						<equal>
-							<var n="tipusverb"/>
-							<lit v="vbde_per"/>
-						</equal>
-					</and>
+					<equal>
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="de"/>
+					</equal>
 				</test>
-				<let>
-					<clip pos="1" side="tl" part="lem"/>
-					<lit v="per"/>
-				</let>
+				<choose>
+					<when>
+						<test>
+							<equal>
+								<var n="tipusverb"/>
+								<lit v="vbde_per"/>
+							</equal>
+						</test>
+					
+						<let>
+							<clip pos="1" side="tl" part="lem"/>
+							<lit v="per"/>
+						</let>
+					</when>
+					<otherwise>
+						<let>
+							<var n="prepo"/>
+							<lit v="de"/>
+						</let>
+					</otherwise>
+				</choose>
+					
 			</when>
 			<when>
 				<test>
-					<and>
-						<equal>
-							<clip pos="1" side="sl" part="lem"/>
-							<lit v="a"/>
-						</equal>
-						<or>
-						<equal>
-							<var n="tipusverb"/>
-							<lit v="vba_en"/>
-						</equal>
-						<in caseless="yes">
-							<clip pos="2" side="sl" part="lem"/>
-							<list n="locatiu"/>
-						</in>
-						</or>
-					</and>
+					<equal>
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="a"/>
+					</equal>
 				</test>
+				<choose>
+					<when>
+						<test>
+							<or>
+								<equal>
+									<var n="tipusverb"/>
+									<lit v="vba_en"/>
+								</equal>
+								<and>
+									<in caseless="yes">
+										<clip pos="2" side="sl" part="lem"/>
+										<list n="locatiu"/>
+									</in>
+									<not>
+										<equal>
+											<var n="prepo"/>
+											<lit v="de"/>
+										</equal>
+									</not>
+								</and>
+							</or>
+							
+						</test>
+						<let>
+							<clip pos="1" side="tl" part="lem"/>
+							<lit v="en"/>
+						</let>
+					</when>
+				</choose>
 				<let>
-					<clip pos="1" side="tl" part="lem"/>
-					<lit v="en"/>
+					<var n="prepo"/>
+					<lit v=""/>
 				</let>
+				
 			</when>
 		</choose>
 		<out>
@@ -6573,6 +6604,10 @@ is not applicable because gender and number can not be taken from previous rules
 	</let>
 	<let>
 		<var n="hi"/>
+		<lit v=""/>
+	</let>
+	<let>
+		<var n="prepo"/>
 		<lit v=""/>
 	</let>
 	<out>
