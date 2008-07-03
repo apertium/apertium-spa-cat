@@ -600,6 +600,22 @@
 			<lit v=""/>
 		</let>
 	</def-macro>
+	<def-macro n="marca_no" npar="1">
+		<choose>
+			<when>
+				<test>
+					<equal caseless="yes">
+						<clip pos="1" side="sl" part="lem"/>
+						<lit v="no"/>
+					</equal>
+				</test>
+				<let>
+					<var n="no"/>
+					<lit v="yes"/>
+				</let>
+			</when>
+		</choose>
+	</def-macro>
 	<def-macro n="f_coma" npar="1">
 		<choose>
 			<when>
@@ -3026,29 +3042,67 @@
      </action>
    </rule>
 
+	<rule> <!-- REGLA: no -->
+		<pattern>
+			<pattern-item n="no"/>
+		</pattern>
+		<action>	
+			<out>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+			</out>
+			<let>
+				<var n="no"/>
+				<lit v="yes"/>
+			</let>
+		</action>
+ 	</rule>
 
 
    <rule> <!-- REGLA: NOM -->
       <pattern>
 	<pattern-item n="nom"/>
       </pattern>
-      <action>	
-	  <call-macro n="f_concord1">
-	    <with-param pos="1"/>
-	  </call-macro>     
-	  <call-macro n="f_enviaa">
-		  <with-param pos="1"/>
-	  </call-macro>     
-          <out>  
-	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_nom"/>
-	      <clip pos="1" side="tl" part="gen"/>
-	      <clip pos="1" side="tl" part="nbr"/>
-	      <clip pos="1" side="tl" part="lemq"/> 
-            </lu>
-         </out>
-     </action>
+      <action>
+	<choose>
+		<when>
+			<test>
+				<not>
+					<and>
+						<equal caseless="yes">
+							<clip pos="1" side="sl" part="lem"/>
+							<lit v="pas"/>
+						</equal>
+						<equal>
+							<clip pos="1" side="sl" part="nbr"/>
+							<lit-tag v="sg"/>
+						</equal>
+					</and>
+				</not>
+			</test>
+			<call-macro n="f_concord1">
+				<with-param pos="1"/>
+			</call-macro>     
+			<call-macro n="f_enviaa">
+				<with-param pos="1"/>
+			</call-macro>
+			<out>  
+				<lu>
+					<clip pos="1" side="tl" part="lemh"/>
+					<clip pos="1" side="tl" part="a_nom"/>
+					<clip pos="1" side="tl" part="gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+					<clip pos="1" side="tl" part="lemq"/> 
+				</lu>
+			</out>
+		</when>
+	</choose>
+	 <let>
+		 <var n="no"/>
+		 <lit v=""/>
+	 </let>
+      </action>
    </rule>
 
    <rule> <!-- REGLA: ADJECTIU -->
@@ -5772,6 +5826,9 @@ is not applicable because gender and number can not be taken from previous rules
 		<call-macro n="f_tipusverb">
 			<with-param pos="3"/>
 		</call-macro>
+		<call-macro n="marca_no">
+			<with-param pos="2"/>
+		</call-macro>
 		<out>
 			<lu>
 				<get-case-from pos="1">
@@ -5805,6 +5862,9 @@ is not applicable because gender and number can not be taken from previous rules
 		<call-macro n="f_tipusverb">
 			<with-param pos="3"/>
 		</call-macro>
+		<call-macro n="marca_no">
+			<with-param pos="2"/>
+		</call-macro>
 		<out>
 			<lu>
 				<get-case-from pos="1">
@@ -5836,6 +5896,9 @@ is not applicable because gender and number can not be taken from previous rules
 	<action>
 		<call-macro n="f_tipusverb">
 			<with-param pos="3"/>
+		</call-macro>
+		<call-macro n="marca_no">
+			<with-param pos="2"/>
 		</call-macro>
 		<out>
 			<lu>
@@ -6508,6 +6571,10 @@ is not applicable because gender and number can not be taken from previous rules
 	    <clip pos="4" side="tl" part="whole"/>
 	  </lu>
 	</out>
+	<let>
+		<var n="no"/>
+		<lit v="yes"/>
+	</let>
       </action>
 </rule>
 
@@ -6545,6 +6612,10 @@ is not applicable because gender and number can not be taken from previous rules
 	<with-param pos="4"/>
 	<with-param pos="5"/>
       </call-macro>
+      <let>
+	      <var n="no"/>
+	      <lit v="yes"/>
+      </let>
       </action>
 </rule>
 
@@ -6584,6 +6655,10 @@ is not applicable because gender and number can not be taken from previous rules
 	<with-param pos="5"/>
 	<with-param pos="6"/>
       </call-macro>
+      <let>
+	      <var n="no"/>
+	      <lit v="yes"/>
+      </let>
       </action>
 </rule>
 
@@ -6608,6 +6683,10 @@ is not applicable because gender and number can not be taken from previous rules
 	</let>
 	<let>
 		<var n="prepo"/>
+		<lit v=""/>
+	</let>
+	<let>
+		<var n="no"/>
 		<lit v=""/>
 	</let>
 	<out>
