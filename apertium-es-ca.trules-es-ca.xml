@@ -3792,9 +3792,21 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <pattern-item n="nom"/>
 	   </pattern>
 	   <action>
-		   <call-macro n="f_coma">
-			   <with-param pos="1"/>
-		   </call-macro>     
+		   <choose>
+			   <when>
+				   <test>
+					   <not>
+						   <equal>
+							   <clip pos="2" side="tl" part="a_nom"/>
+							   <lit-tag v="np.ant"/>
+						   </equal>
+					   </not>
+				   </test>
+				<call-macro n="f_coma">
+					<with-param pos="1"/>
+				</call-macro>     
+			</when>
+		</choose>
 		   <call-macro n="f_preps">
 			   <with-param pos="1"/>
 			   <with-param pos="2"/>

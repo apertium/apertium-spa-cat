@@ -2397,6 +2397,12 @@
           <r>áster<s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>ásteres</l>
+          <r>áster<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
       
       <e>
         <p>
@@ -76314,6 +76320,15 @@
       <i>principal</i>
       <par n="abdominal__adj"/>
     </e>
+      <e lm="Mallafré">
+        <i>Mallafré</i>
+        <par n="Abad__np"/>
+      </e>
+ 
+      <e lm="muestral">
+        <i>muestral</i>
+        <par n="abdominal__adj"/>
+      </e>
     <e lm="prioritario">
       <i>prioritari</i>
       <par n="absolut/o__adj"/>
@@ -76346,10 +76361,18 @@
       <i>productor</i>
       <par n="abrumador__adj"/>
     </e>
+    <e lm="elaborador">
+      <i>elaborador</i>
+      <par n="abrumador__adj"/>
+    </e>
     <e lm="profesional">
       <i>profesional</i>
       <par n="abdominal__adj"/>
     </e>
+      <e lm="Borràs">
+        <i>Borràs</i>
+        <par n="Abad__np"/>
+      </e>
     <e lm="profundo">
       <i>profund</i>
       <par n="abstract/o__adj"/>
@@ -77840,6 +77863,10 @@
       <i>universitari</i>
       <par n="absolut/o__adj"/>
     </e>
+    <e lm="interuniversitario">
+      <i>interuniversitari</i>
+      <par n="absolut/o__adj"/>
+    </e>
     <e lm="unánime">
       <i>unánime</i>
       <par n="abundante__adj"/>
@@ -77958,6 +77985,10 @@
     </e>
     <e lm="vencedor">
       <i>vencedor</i>
+      <par n="abrumador__adj"/>
+    </e>
+   <e lm="favorecedor">
+      <i>favorecedor</i>
       <par n="abrumador__adj"/>
     </e>
     <e lm="ventajoso">
@@ -79479,6 +79510,14 @@
       <i>un<b/>poco</i>
       <par n="ahora__adv"/>
     </e>
+   <e lm="un poquito">
+      <i>un<b/>poquito</i>
+      <par n="ahora__adv"/>
+    </e>
+<!--    <e lm="algo">
+      <i>algo</i>
+      <par n="ahora__adv"/>
+    </e>-->
     <e lm="poderosamente">
       <i>poderosamente</i>
       <par n="ahora__adv"/>
@@ -80610,7 +80649,11 @@
       <i>CV</i>
       <par n="campus__n"/>
     </e>
-    <e lm="DGT">
+     <e lm="atlas">
+      <i>atlas</i>
+      <par n="campus__n"/>
+    </e>
+   <e lm="DGT">
       <i>DGT</i>
       <par n="BBC__n"/>
     </e>
@@ -80738,6 +80781,10 @@
       <i>Sr</i>
       <par n="señor__n"/>
     </e>
+   <e lm="orador">
+      <i>orador</i>
+      <par n="señor__n"/>
+    </e>
      <e lm="prestador">
       <i>prestador</i>
       <par n="señor__n"/>
@@ -80854,12 +80901,24 @@
       <i>abrigo</i>
       <par n="abismo__n"/>
     </e>
+    <e lm="culturalismo">
+      <i>culturalismo</i>
+      <par n="abismo__n"/>
+    </e>
+     <e lm="intelectualismo">
+      <i>intelectualismo</i>
+      <par n="abismo__n"/>
+    </e>
     <e lm="respecto">
       <i>respecto</i>
       <par n="abismo__n"/>
     </e>
        <e lm="Lundberg">
         <i>Lundberg</i>
+        <par n="Abad__np"/>
+      </e>
+       <e lm="Ollé">
+        <i>Ollé</i>
         <par n="Abad__np"/>
       </e>
     <e lm="Hardey">
@@ -80876,6 +80935,10 @@
     </e>
      <e lm="Digithum">
         <i>Digithum</i>
+        <par n="ABC__np"/>
+      </e> 
+      <e lm="Artnodes">
+        <i>Artnodes</i>
         <par n="ABC__np"/>
       </e> 
        <e lm="WITSA">
@@ -80911,7 +80974,11 @@
       <i>absoluci</i>
       <par n="acci/ón__n"/>
     </e>
-    <e lm="abstención">
+    <e lm="fosilización">
+      <i>fosilizaci</i>
+      <par n="acci/ón__n"/>
+    </e>
+     <e lm="abstención">
       <i>abstenci</i>
       <par n="acci/ón__n"/>
     </e>
@@ -81062,6 +81129,10 @@
     </e>
     <e lm="acreedor">
       <i>acreedor</i>
+      <par n="señor__n"/>
+    </e>
+    <e lm="recolector">
+      <i>recolector</i>
       <par n="señor__n"/>
     </e>
     <e lm="acta">
@@ -81740,6 +81811,10 @@
       <i>amistad</i>
       <par n="accesibilidad__n"/>
     </e>
+    <e lm="textualidad">
+      <i>textualidad</i>
+      <par n="accesibilidad__n"/>
+    </e>
     <e lm="amo">
       <i>am</i>
       <par n="abogad/o__n"/>
@@ -81765,8 +81840,8 @@
       <i>interacci</i>
       <par n="acci/ón__n"/>
 	<p>
-		<l>hombreordenador</l>
-		<r><g>hombreordenador</g></r>
+		<l><b/>hombreordenador</l>
+		<r><g><b/>hombreordenador</g></r>
 	</p>
     </e>
      <e lm="interrelación">
@@ -85524,6 +85599,10 @@
       <i>componente</i>
       <par n="accionista__n"/>
     </e>
+    <e lm="conferenciante">
+      <i>conferenciante</i>
+      <par n="accionista__n"/>
+    </e>
     <e lm="comportamiento">
       <i>comportamiento</i>
       <par n="abismo__n"/>
@@ -86827,18 +86906,176 @@
       <i>cálculo</i>
       <par n="abismo__n"/>
     </e>
+<e lm="tabla periódica">
+	<i>tabla<b/>periódica</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="tabla periódica">
+	<p>
+		<l>tablas<b/>periódicas</l>
+		<r>tabla<b/>periódica</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
     <e lm="cámara">
       <i>cámara</i>
       <par n="accionista__n"/>
     </e>
 <e lm="cámara anecoica">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>anecoica</l>
-		<r><g><b/>anecoica</g></r>
-	</p>
+	<i>cámara<b/>anecoica</i>
+	<par n="cuaresma__n"/>
 </e>
+<e lm="cámara anecoica">
+	<p>
+		<l>cámaras<b/>anecoicas</l>
+		<r>cámara<b/>anecoica</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara frigorífica">
+	<i>cámara<b/>frigorífica</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara frigorífica">
+	<p>
+		<l>cámaras<b/>frigoríficas</l>
+		<r>cámara<b/>frigorífica</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara agrícola">
+	<i>cámara<b/>agrícola</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara agrícola">
+	<p>
+		<l>cámaras<b/>agrícolas</l>
+		<r>cámara<b/>agrícola</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara aerífera">
+	<i>cámara<b/>aerífera</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara aerífera">
+	<p>
+		<l>cámaras<b/>aeríferas</l>
+		<r>cámara<b/>aerífera</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara acuosa">
+	<i>cámara<b/>acuosa</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara acuosa">
+	<p>
+		<l>cámaras<b/>acuosas</l>
+		<r>cámara<b/>acuosa</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara incubadora">
+	<i>cámara<b/>incubadora</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara incubadora">
+	<p>
+		<l>cámaras<b/>incubadoras</l>
+		<r>cámara<b/>incubadora</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara vítrea">
+	<i>cámara<b/>vítrea</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara vítrea">
+	<p>
+		<l>cámaras<b/>vítreas</l>
+		<r>cámara<b/>vítrea</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara oscura">
+	<i>cámara<b/>oscura</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara oscura">
+	<p>
+		<l>cámaras<b/>oscuras</l>
+		<r>cámara<b/>oscura</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara alta">
+	<i>cámara<b/>alta</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara alta">
+	<p>
+		<l>cámaras<b/>altas</l>
+		<r>cámara<b/>alta</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara baja">
+	<i>cámara<b/>baja</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara baja">
+	<p>
+		<l>cámaras<b/>bajas</l>
+		<r>cámara<b/>baja</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara apostólica">
+	<i>cámara<b/>apostólica</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara apostólica">
+	<p>
+		<l>cámaras<b/>apostólicas</l>
+		<r>cámara<b/>apostólica</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara mortuoria">
+	<i>cámara<b/>mortuoria</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara mortuoria">
+	<p>
+		<l>cámaras<b/>mortuorias</l>
+		<r>cámara<b/>mortuoria</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara alta">
+	<i>cámara<b/>alta</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara alta">
+	<p>
+		<l>cámaras<b/>altas</l>
+		<r>cámara<b/>alta</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+<e lm="cámara legislativa">
+	<i>cámara<b/>legislativa</i>
+	<par n="cuaresma__n"/>
+</e>
+<e lm="cámara legislativa">
+	<p>
+		<l>cámaras<b/>legislativas</l>
+		<r>cámara<b/>legislativa</r>
+	</p>
+	<par n="afueras__n"/>
+</e>
+
 <e lm="cámara de ionizaciónn">
 	<i>cámara</i>
 	<par n="abeja__n"/>
@@ -86879,14 +87116,6 @@
 		<r><g><b/>de<b/>reverberación</g></r>
 	</p>
 </e>
-<e lm="cámara frigorífica">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>frigorífica</l>
-		<r><g><b/>frigorífica</g></r>
-	</p>
-</e>
 <e lm="cámara de diputados">
 	<i>cámara</i>
 	<par n="abeja__n"/>
@@ -86901,14 +87130,6 @@
 	<p>
 		<l><b/>de<b/>los<b/>diputados</l>
 		<r><g><b/>de<b/>los<b/>diputados</g></r>
-	</p>
-</e>
-<e lm="cámara agrícola">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>agrícola</l>
-		<r><g><b/>agrícola</g></r>
 	</p>
 </e>
 <e lm="cámara de comercio">
@@ -86951,22 +87172,6 @@
 		<r><g><b/>de<b/>compensación</g></r>
 	</p>
 </e>
-<e lm="cámara aerífera">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>aerífera</l>
-		<r><g><b/>aerífera</g></r>
-	</p>
-</e>
-<e lm="cámara acuosa">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>acuosa</l>
-		<r><g><b/>acuosa</g></r>
-	</p>
-</e>
 <e lm="cámara de aire">
 	<i>cámara</i>
 	<par n="abeja__n"/>
@@ -86983,61 +87188,12 @@
 		<r><g><b/>de<b/>vapor</g></r>
 	</p>
 </e>
-<e lm="cámara incubadora">
+<e lm="cámara de apelaciones">
 	<i>cámara</i>
 	<par n="abeja__n"/>
 	<p>
-		<l><b/>incubadora</l>
-		<r><g><b/>incubadora</g></r>
-	</p>
-</e>
-<e lm="cámara vítrea">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>vítrea</l>
-		<r><g><b/>vítrea</g></r>
-	</p>
-</e>
-<e lm="cámara oscura">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>oscura</l>
-		<r><g><b/>obscura</g></r>
-	</p>
-</e>
-<e lm="cámara alta">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>alta</l>
-		<r><g><b/>alta</g></r>
-	</p>
-</e>
-<e lm="cámara baja">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>baja</l>
-		<r><g><b/>baja</g></r>
-	</p>
-</e>
-
-<e lm="cámara apostólica">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>apostólica</l>
-		<r><g><b/>apostólica</g></r>
-	</p>
-</e>
-<e lm="cámara apelaciones">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>apelaciones</l>
-		<r><g><b/>apelaciones</g></r>
+		<l><b/>de<b/>apelaciones</l>
+		<r><g><b/>de<b/>apelaciones</g></r>
 	</p>
 </e>
 <e lm="cámara de Castilla">
@@ -87062,23 +87218,6 @@
 	<p>
 		<l><b/>de<b/>los<b/>comunes</l>
 		<r><g><b/>de<b/>los<b/>comunes</g></r>
-	</p>
-</e>
-<e lm="cámara mortuoria">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>mortuoria</l>
-		<r><g><b/>mortuoria</g></r>
-	</p>
-</e>
-
-<e lm="cámara alta">
-	<i>cámara</i>
-	<par n="abeja__n"/>
-	<p>
-		<l><b/>alta</l>
-		<r><g><b/>alta</g></r>
 	</p>
 </e>
 
@@ -89406,6 +89545,11 @@
       <i>especialidad</i>
       <par n="accesibilidad__n"/>
     </e>
+     <e lm="jugabilidad">
+        <i>jugabilidad</i>
+        <par n="accesibilidad__n"/>
+      </e>
+
     <e lm="especialista">
       <i>especialista</i>
       <par n="accionista__n"/>
@@ -92987,6 +93131,10 @@
       <i>jaque</i>
       <par n="atletismo__n"/>
     </e>
+    <e lm="jaque mate">
+      <i>jaque<b/>mate</i>
+      <par n="atletismo__n"/>
+    </e>
     <e lm="jardinero">
       <i>jardiner</i>
       <par n="abogad/o__n"/>
@@ -95034,6 +95182,19 @@
       <i>Mosso</i>
       <par n="ABC__np"/>
     </e>
+      <e lm="Scimago">
+        <i>Scimago</i>
+        <par n="ABC__np"/>
+      </e>
+     <e lm="PIMECAVA">
+        <i>PIMECAVA</i>
+        <par n="ABC__np"/>
+      </e>
+   <e lm="OLIBA">
+        <i>OLIBA</i>
+        <par n="ABC__np"/>
+      </e>
+
     <e lm="Mossos">
       <i>Mossos</i>
       <par n="ABC__np"/>
@@ -100056,6 +100217,10 @@
       <i>sello</i>
       <par n="abismo__n"/>
     </e>
+    <e lm="criminología">
+      <i>criminología</i>
+      <par n="abeja__n"/>
+    </e>
     <e lm="selva">
       <i>selva</i>
       <par n="abeja__n"/>
@@ -103352,7 +103517,29 @@
       <i>ABC</i>
       <par n="ABC__np"/>
     </e>
-    <e lm="Yaser">
+       <e lm="el Temps" r="RL">
+        <p>
+          <l><a/>el<b/>Temps</l>
+          <r>el<b/>Temps</r>
+        </p>
+        <par n="ABC__np"/>
+      </e>
+       <e lm="el Temps" r="LR">
+        <i>el<b/>Temps</i>
+        <par n="ABC__np"/>
+      </e>
+       <e lm="el Punt" r="RL">
+        <p>
+          <l><a/>el<b/>Punt</l>
+          <r>el<b/>Punt</r>
+        </p>
+        <par n="ABC__np"/>
+      </e>
+       <e lm="el Punt" r="LR">
+        <i>el<b/>Punt</i>
+        <par n="ABC__np"/>
+      </e>
+      <e lm="Yaser">
       <i>Yaser</i>
       <par n="Abad__np"/>
     </e>
@@ -103360,6 +103547,15 @@
       <i>Abad</i>
       <par n="Abad__np"/>
     </e>
+     <e lm="Molas">
+        <i>Molas</i>
+        <par n="Abad__np"/>
+      </e>
+      <e lm="Terricabras">
+        <i>Terricabras</i>
+        <par n="Abad__np"/>
+      </e>
+
     <e lm="Abascal">
       <i>Abascal</i>
       <par n="Abad__np"/>
@@ -103990,6 +104186,14 @@
     </e>
     <e lm="Barcelona">
       <i>Barcelona</i>
+      <par n="Afganistán__np"/>
+    </e>
+   <e lm="Catarroja">
+      <i>Catarroja</i>
+      <par n="Afganistán__np"/>
+    </e>
+     <e lm="Versailles">
+      <i>Versailles</i>
       <par n="Afganistán__np"/>
     </e>
     <e lm="Novelda">
@@ -109860,10 +110064,10 @@
       <i>con<b/>este<b/>fin</i>
       <par n="a__pr"/>
     </e>
-    <e lm="con fin">
+<!--    <e lm="con fin">
       <i>con<b/>fines</i>
       <par n="a__pr"/>
-    </e>
+    </e>-->
     <e lm="con exclusión de">
       <i>con<b/>exclusión<b/></i>
       <par n="contde__pr"/>
@@ -111512,6 +111716,17 @@
       </p>
       <par n="abandón/ar__vblex"/>
     </e>
+     <e lm="diseccionar">
+      <i>diseccion</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="diseccionar">
+      <p>
+        <l>disección</l>
+        <r>diseccion</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
     <e lm="aconsejar">
       <i>aconsej</i>
       <par n="abandon/ar__vblex"/>
@@ -112292,6 +112507,17 @@
       <p>
         <l>agrég</l>
         <r>agreg</r>
+      </p>
+      <par n="alég/ar__vblex"/>
+    </e>
+     <e lm="desagregar">
+      <i>desagreg</i>
+      <par n="aleg/ar__vblex"/>
+    </e>
+    <e lm="desagregar">
+      <p>
+        <l>desagrég</l>
+        <r>desagreg</r>
       </p>
       <par n="alég/ar__vblex"/>
     </e>
@@ -115829,6 +116055,26 @@
       <i>conclus</i>
       <par n="absolut/o__adj"/>
     </e>
+       <e lm="Ventós">
+        <i>Ventós</i>
+        <par n="Abad__np"/>
+      </e>
+      <e lm="UVic">
+        <i>UVic</i>
+        <par n="BBC__n"/>
+      </e>
+      <e lm="UdL">
+        <i>UdL</i>
+        <par n="BBC__n"/>
+      </e>
+       <e lm="UdG">
+        <i>UdG</i>
+        <par n="BBC__n"/>
+      </e>
+     <e lm="emérito">
+      <i>emérit</i>
+      <par n="absolut/o__adj"/>
+    </e>
      <e lm="ubicuo">
       <i>ubicu</i>
       <par n="absolut/o__adj"/>
@@ -116712,6 +116958,12 @@
         <r>cre</r>
       </p>
       <par n="vénd/er__vblex"/>
+    </e>
+    <e lm="creo que">
+      <p>
+        <l>creo<b/>que</l>
+        <r>creer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/><j/>que<s n="cnjsub"/></r>
+      </p>
     </e>
     <e lm="criar">
       <i>cri</i>
@@ -122629,6 +122881,14 @@
       <i>h</i>
       <par n="h/acer__vblex"/>
     </e>
+    <e lm="hacer frente">
+      <i>h</i>
+      <par n="h/acer__vblex"/>
+	<p>
+		<l><b/>frente</l>
+		<r><g><b/>frente</g></r>
+	</p>
+    </e>
     <e lm="hacinar">
       <i>hacin</i>
       <par n="abandon/ar__vblex"/>
@@ -126043,7 +126303,13 @@
       <i>p</i>
       <par n="p/ensar__vblex"/>
     </e>
-    <e lm="percibir">
+     <e lm="pienso que">
+      <p>
+        <l>pienso<b/>que</l>
+        <r>pensar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/><j/>que<s n="cnjsub"/></r>
+      </p>
+    </e>
+   <e lm="percibir">
       <i>percib</i>
       <par n="abat/ir__vblex"/>
     </e>
@@ -131827,6 +132093,14 @@
       <i>a<b/>través</i>
       <par n="ahora__adv"/>
     </e>
+    <e lm="por aquel entonces">
+      <i>por<b/>aquel<b/>entonces</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="a lo mejor" r="LR">
+      <i>a<b/>lo<b/>mejor</i>
+      <par n="ahora__adv"/>
+    </e>
      <e lm="al fin y al cabo">
       <i>al<b/>fin<b/>y<b/>al<b/>cabo</i>
       <par n="ahora__adv"/>
@@ -132114,6 +132388,18 @@
     </e>
     <e lm="por la tarde" a="mginesti">
       <i>por<b/>la<b/>tarde</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="por las noches">
+      <i>por<b/>las<b/>noches</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="por las mañanas">
+      <i>por<b/>las<b/>mañanas</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="por las tardes">
+      <i>por<b/>las<b/>tardes</i>
       <par n="ahora__adv"/>
     </e>
     <e lm="no mucho" a="mginesti">
@@ -135266,6 +135552,18 @@
       <i>Tubella</i>
       <par n="Abad__np"/>
     </e>
+<e lm="la Salle">
+  <i>la<b/>Salle</i>
+  <par n="ABC__np"/>
+</e>
+<e lm="Linguamón">
+  <i>Linguamón</i>
+  <par n="ABC__np"/>
+</e>
+      <e lm="Bellaterra">
+        <i>Bellaterra</i>
+        <par n="Afganistán__np"/>
+      </e>
 
 <e lm="extremidad" a=" alseoane@gmail.com">
   <i>extremidad</i>
@@ -149797,6 +150095,10 @@
 
      <e lm="soñador" a="prompsit2adn">
         <i>soñador</i>
+        <par n="abrumador__adj"/>
+      </e>
+     <e lm="recolector">
+        <i>recolector</i>
         <par n="abrumador__adj"/>
       </e>
 
