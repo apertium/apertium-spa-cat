@@ -75443,6 +75443,10 @@
         <i>content</i>
         <par n="alt__adj"/>
       </e>
+      <e lm="innat">
+        <i>innat</i>
+        <par n="alt__adj"/>
+      </e>
       <e lm="emèrit">
         <i>emèrit</i>
         <par n="alt__adj"/>
@@ -80433,6 +80437,11 @@
         <par n="abdominal__adj"/>
       </e>
       
+      <e lm="antinuclear">
+        <i>antinuclear</i>
+        <par n="abdominal__adj"/>
+      </e>
+      
       <e lm="nul">
         <i>nul</i>
         <par n="gal__adj"/>
@@ -83824,6 +83833,10 @@
         <i>tan<b/>sols</i>
         <par n="ahir__adv"/>
       </e>
+      <e lm="de bon grat">
+        <i>de<b/>buen<b/>grado</i>
+        <par n="ahir__adv"/>
+      </e>
       <e lm="per endavant">
         <i>per<b/>endavant</i>
         <par n="ahir__adv"/>
@@ -86970,6 +86983,10 @@
         <i>Ebre</i>
         <par n="atletisme__n"/>
       </e>
+      <e lm="mal geni">
+        <i>mal<b/>geni</i>
+        <par n="atletisme__n"/>
+      </e>
       <e lm="elearning">
         <i>elearning</i>
         <par n="atletisme__n"/>
@@ -87205,6 +87222,18 @@
         <i>abell</i>
         <par n="abell/a__n"/>
       </e>
+       <e lm="modèstia">
+        <i>modèsti</i>
+        <par n="abell/a__n"/>
+      </e>
+       <e lm="incongruència">
+        <i>incongruènci</i>
+        <par n="abell/a__n"/>
+      </e>
+       <e lm="eloqüència">
+        <i>eloqüènci</i>
+        <par n="abell/a__n"/>
+      </e>
       
       <e lm="abillament">
         <i>abillament</i>
@@ -87213,6 +87242,10 @@
       
       <e lm="abisme">
         <i>abisme</i>
+        <par n="abric__n"/>
+      </e>
+      <e lm="excentricisme">
+        <i>excentricisme</i>
         <par n="abric__n"/>
       </e>
       
@@ -87248,6 +87281,10 @@
       
       <e lm="abraçada">
         <i>abraçad</i>
+        <par n="abell/a__n"/>
+      </e>
+      <e lm="inventiva">
+        <i>inventiv</i>
         <par n="abell/a__n"/>
       </e>
       
@@ -88243,6 +88280,26 @@
       </e>
       <e lm="textualitat">
         <i>textualitat</i>
+        <par n="accessibilitat__n"/>
+      </e>
+      <e lm="vaguetat">
+        <i>vaguetat</i>
+        <par n="accessibilitat__n"/>
+      </e>
+      <e lm="lateralitat">
+        <i>lateralitat</i>
+        <par n="accessibilitat__n"/>
+      </e>
+      <e lm="bilateralitat">
+        <i>bilateralitat</i>
+        <par n="accessibilitat__n"/>
+      </e>
+      <e lm="multilateralitat">
+        <i>multilateralitat</i>
+        <par n="accessibilitat__n"/>
+      </e>
+      <e lm="insularitat">
+        <i>insularitat</i>
         <par n="accessibilitat__n"/>
       </e>
       
@@ -107641,7 +107698,14 @@
         <i>premi</i>
         <par n="abric__n"/>
       </e>
-      
+<!-- és més freqüent-->
+   <e lm="el premi" r="LR">
+      <p>
+        <l>el<b/>premi</l>
+        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/>premi<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+       
       <e lm="premissa">
         <i>premiss</i>
         <par n="abell/a__n"/>
@@ -122618,6 +122682,18 @@
 	<i>amb<b/>cura</i>
 	<par n="ahir__adv"/>
       </e>
+    <e lm="contra direcció">
+	<i>contra<b/>direcció</i>
+	<par n="ahir__adv"/>
+      </e>
+   <e lm="intel·lectualment">
+	<i>intel·lectualment</i>
+	<par n="ahir__adv"/>
+      </e>
+    <e lm="en contra direcció" r="LR">
+	<i>en<b/>contra<b/>direcció</i>
+	<par n="ahir__adv"/>
+      </e>
       <e lm="a primera pàgina">
 	<i>a<b/>primera<b/>pàgina</i>
 	<par n="ahir__adv"/>
@@ -129720,8 +129796,14 @@
 		<r><g><b/>front</g></r>
 	</p>
       </e>
-      
-      
+       <e lm="fer fora">
+        <i>f</i>
+        <par n="f/er__vblex"/>
+	<p>
+		<l><b/>fora</l>
+		<r><g><b/>fora</g></r>
+	</p>
+      </e>
        
       <e lm="ferir">
         <i>fer</i>
@@ -131988,6 +132070,16 @@
         <i>pos</i>
         <par n="abander/ar__vblex"/>
       </e>
+      
+      <e lm="anteposar">
+        <i>antepos</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+      <e lm="avantposar" r="LR">
+        <i>avantpos</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+      
       
       <e lm="posicionar">
         <i>posicion</i>
@@ -135671,6 +135763,11 @@
   <i>sant<b/>i<b/>senya</i>
   <par n="campus__n"/>
 </e>
+   <e lm="pasamontañas">
+      <i>pasamontañas</i>
+      <par n="campus__n"/>
+    </e>
+
 <e lm="d'aquesta manera" a="gema">
   <i>d'aquesta<b/>manera</i>
   <par n="ahir__adv"/>
@@ -136233,6 +136330,10 @@
         <i>executi</i>
         <par n="abusi/u__adj"/>
       </e>
+     <e lm="progressiu">
+        <i>progressi</i>
+        <par n="abusi/u__adj"/>
+      </e>
       <e lm="col·laboratiu">
         <i>col·laborati</i>
         <par n="abusi/u__adj"/>
@@ -136414,6 +136515,10 @@
 
             <e lm="humanitzar">
         <i>humanitz</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+            <e lm="solemnitzar">
+        <i>solemnitz</i>
         <par n="abander/ar__vblex"/>
       </e>
 
@@ -136748,6 +136853,14 @@
   <i>telemàti</i>
   <par n="acadèmi/c__adj"/>
 </e>
+<e lm="esotèric">
+  <i>esotèri</i>
+  <par n="acadèmi/c__adj"/>
+</e>
+<e lm="platònic">
+  <i>platòni</i>
+  <par n="acadèmi/c__adj"/>
+</e>
 <e lm="politècnic">
   <i>politècni</i>
   <par n="acadèmi/c__adj"/>
@@ -136770,6 +136883,10 @@
 </e>
 <e lm="validació">
   <i>validaci</i>
+  <par n="acci/ó__n"/>
+</e>
+<e lm="idealització">
+  <i>idealitzaci</i>
   <par n="acci/ó__n"/>
 </e>
 <e lm="regressió">
@@ -153549,6 +153666,10 @@
   <i>kale<b/>borroka</i>
   <par n="q__n"/>
 </e>
+<e lm="hora i mitja">
+  <i>hora<b/>i<b/>mitja</i>
+  <par n="q__n"/>
+</e>
 <e lm="tsunami" a="prompsit2adn">
   <i>tsunami</i>
   <par n="abric__n"/>
@@ -157072,6 +157193,7 @@
           <e lm="Xúquer" a="prompsit"><i>Xúquer</i><par n="Afganistan__np"/></e>
           <e lm="York" a="prompsit"><i>York</i><par n="Afganistan__np"/></e>
           <e lm="Zàmbia" a="prompsit"><i>Zàmbia</i><par n="Afganistan__np"/></e>
+<e lm="de tant en tant"><i>de<b/>tant<b/>en<b/>tant</i><par n="ahir__adv"/></e>
  
 <e a="prompsit" lm="dempeus"><i>dempeus</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="entremig"><i>entremig</i><par n="ahir__adv"/></e>

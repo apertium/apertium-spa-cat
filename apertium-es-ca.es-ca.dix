@@ -2744,7 +2744,13 @@
           <r>hàbil<s n="adj"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
+        <p>
+          <l>habilidoso<s n="adj"/></l>
+          <r>hàbil<s n="adj"/></r>
+        </p>
+      </e>
+       <e>
         <i>habitual<s n="adj"/></i>
       </e>
       <e>
@@ -3982,6 +3988,9 @@
       </e>
       <e>
         <i>nuclear<s n="adj"/></i>
+      </e>
+       <e>
+        <i>antinuclear<s n="adj"/></i>
       </e>
       <e>
         <p>
@@ -6061,6 +6070,42 @@
       </e>
       <e>
         <i>vulgar<s n="adj"/></i>
+      </e>
+      <e r="RL">
+        <p>
+          <l>en<b/>dirección<b/>contraria<s n="adv"/></l>
+          <r>en<b/>contra<b/>direcció<s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>en<b/>dirección<b/>contraria<s n="adv"/></l>
+          <r>contra<b/>direcció<s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>intelectualmente<s n="adv"/></l>
+          <r>intel·lectualment<s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>platónico<s n="adj"/></l>
+          <r>platònic<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>esotérico<s n="adj"/></l>
+          <r>esotèric<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>idealización<s n="n"/></l>
+          <r>idealització<s n="n"/></r>
+        </p>
       </e>
       <e slr="avall">
         <p>
@@ -30685,6 +30730,18 @@
           <r>posar<s n="vblex"/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l>anteponer<s n="vblex"/></l>
+          <r>anteposar<s n="vblex"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>anteponer<s n="vblex"/></l>
+          <r>avantposar<s n="vblex"/></r>
+        </p>
+      </e>
       <e r="LR">
         <i>portar<s n="vblex"/></i>
       </e>
@@ -30697,7 +30754,43 @@
           <r>posseir<s n="vblex"/></r>
         </p>
       </e>
+       <e>
+        <p>
+          <l>vaguedad<s n="n"/></l>
+          <r>vaguetat<s n="n"/></r>
+        </p>
+      </e>
+       <e>
+        <p>
+          <l>lateralidad<s n="n"/></l>
+          <r>lateralitat<s n="n"/></r>
+        </p>
+      </e>
       <e>
+        <p>
+          <l>multilateralidad<s n="n"/></l>
+          <r>multilateralitat<s n="n"/></r>
+        </p>
+      </e>
+     <e>
+        <p>
+          <l>bilateralidad<s n="n"/></l>
+          <r>bilateralitat<s n="n"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>insularidad<s n="n"/></l>
+          <r>insularitat<s n="n"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>progresivo<s n="adj"/></l>
+          <r>progressiu<s n="adj"/></r>
+        </p>
+      </e>
+     <e>
         <p>
           <l>preceder<s n="vblex"/></l>
           <r>precedir<s n="vblex"/></r>
@@ -40479,13 +40572,31 @@
       <e>
         <p>
           <l>Corea<b/>del<b/>Sur<s n="n"/></l>
-          <r>Core<b/>del<b/>Sud<s n="n"/></r>
+          <r>Corea<b/>del<b/>Sud<s n="n"/></r>
         </p>
       </e>
        <e>
         <p>
           <l>coreografía<s n="n"/></l>
           <r>coreografia<s n="n"/></r>
+        </p>
+      </e>
+       <e>
+        <p>
+          <l>pasamontañas<s n="n"/></l>
+          <r>passamuntanyes<s n="n"/></r>
+        </p>
+      </e>
+       <e>
+        <p>
+          <l>hora<b/>y<b/>media<s n="n"/></l>
+          <r>hora<b/>i<b/>mitja<s n="n"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>solemnizar<s n="vblex"/></l>
+          <r>solemnitzar<s n="vblex"/></r>
         </p>
       </e>
       <e>
@@ -97706,6 +97817,7 @@
 <e a="prompsit"><p><l>Júcar<s n="np"/></l><r>Xúquer<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>York<s n="np"/></l><r>York<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Zambia<s n="np"/></l><r>Zàmbia<s n="np"/></r></p></e>
+<e><p><l>de<b/>vez<b/>enb/>cuando<s n="adv"/></l><r>de<b/>tant<b/>en<b/>tant<s n="adv"/></r></p></e>
 
 <e a="prompsit"><p><l>de<b/>pie<s n="adv"/></l><r>dempeus<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>entremedias<s n="adv"/></l><r>entremig<s n="adv"/></r></p></e>
@@ -98507,6 +98619,14 @@
     <e a="prompsit"><p><l>escarabajo<s n="n"/></l><r>escarabat<s n="n"/></r></p></e>
     <e a="prompsit"><i>hemeroteca<s n="n"/></i></e>
     <e a="prompsit"><p><l>valencianismo<s n="n"/></l><r>valencianisme<s n="n"/></r></p></e>
+    <e><p><l>excentricismo<s n="n"/></l><r>excentricisme<s n="n"/></r></p></e>
+    <e><p><l>modestia<s n="n"/></l><r>modèstia<s n="n"/></r></p></e>
+    <e><p><l>elocuencia<s n="n"/></l><r>eloqüència<s n="n"/></r></p></e>
+    <e><p><l>incongruencia<s n="n"/></l><r>incongruència<s n="n"/></r></p></e>
+    <e><p><l>innato<s n="adj"/></l><r>innat<s n="adj"/></r></p></e>
+    <e><p><l>inventiva<s n="n"/></l><r>inventiva<s n="n"/></r></p></e>
+    <e><p><l>mal<b/>genio<s n="n"/></l><r>mal<b/>geni<s n="n"/></r></p></e>
+    <e><p><l>de<b/>bon<b/>grat<s n="adv"/></l><r>de<b/>bon<b/>grat<s n="adv"/></r></p></e>
     <e a="prompsit"><p><l>globalidad<s n="n"/></l><r>globalitat<s n="n"/></r></p></e>
     <e a="prompsit"><p><l>detergente<s n="n"/></l><r>detergent<s n="n"/></r></p></e>
     <e a="prompsit"><p><l>cangrejo<s n="n"/></l><r>cranc<s n="n"/></r></p></e>
@@ -103883,6 +104003,12 @@
   <p>
     <l>echar<s n="vblex"/></l>
     <r>foragitar<s n="vblex"/></r>
+  </p>
+</e>
+<e r="RL">
+  <p>
+    <l>echar<s n="vblex"/></l>
+    <r>fer<g><b/>fora</g><s n="vblex"/></r>
   </p>
 </e>
 

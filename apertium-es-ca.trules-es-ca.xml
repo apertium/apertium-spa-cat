@@ -386,6 +386,7 @@
 	</def-list>
 	<def-list n="locatiu">
 		<list-item v="món"/>
+		<list-item v="seu"/>
 		<list-item v="base"/>
 		<list-item v="ascensor"/>
 		<list-item v="carrer"/>
@@ -456,6 +457,7 @@
 		<list-item v="presupost"/>
 		<list-item v="hotel"/>
 		<list-item v="cinema"/>
+		<list-item v="apartament"/>
 	</def-list>
 	<def-list n="tiempo">
 		<list-item v="enero"/>
@@ -4221,27 +4223,74 @@ is not applicable because gender and number cannot be taken from previous rules 
 		   <call-macro n="f_lexicAdj">
 			   <with-param pos="3"/>
 		   </call-macro>
-		   <out>  
-			   <lu>    
-				   <clip pos="2" side="tl" part="whole"/>
-			   </lu>
-			   <b pos="2"/>
-			   <lu>
-				   <clip pos="3" side="tl" part="lemh"/>
-				   <clip pos="3" side="tl" part="a_adjec"/>
-				   <clip pos="3" side="tl" part="gen"/>
-				   <clip pos="3" side="tl" part="nbr"/>
-				   <clip pos="3" side="tl" part="lemq"/>
-			   </lu>
-			   <b pos="3"/>
-			   <lu>
-				   <clip pos="4" side="tl" part="lemh"/>
-				   <clip pos="4" side="tl" part="a_nom"/>
-				   <clip pos="4" side="tl" part="gen"/>
-				   <clip pos="4" side="tl" part="nbr"/>
-				   <clip pos="4" side="tl" part="lemq"/>
-			   </lu>
-		   </out>      
+		   <choose>
+			   <when>
+				   <test>
+					   <and>
+						   <in caseless="yes">
+							   <clip pos="4" side="sl" part="lem"/>
+							   <list n="tiempo"/>
+						   </in>
+						   <or>
+							   <equal>
+								   <clip pos="3" side="sl" part="lem"/>
+								   <lit v="próximo"/>
+							   </equal>
+							   <equal>
+								   <clip pos="3" side="sl" part="lem"/>
+								   <lit v="pasado"/>
+							   </equal>
+						   </or>
+					   </and>
+				   </test>
+				   <out>  
+					   <lu>    
+						   <clip pos="2" side="tl" part="whole"/>
+					   </lu>
+					   <b pos="2"/>
+					   <lu>
+						   <clip pos="4" side="tl" part="lemh"/>
+						   <clip pos="4" side="tl" part="a_nom"/>
+						   <clip pos="4" side="tl" part="gen"/>
+						   <clip pos="4" side="tl" part="nbr"/>
+						   <clip pos="4" side="tl" part="lemq"/>
+					   </lu>
+					   <b pos="3"/>
+					   <lu>
+						   <clip pos="3" side="tl" part="lemh"/>
+						   <clip pos="3" side="tl" part="a_adjec"/>
+						   <clip pos="3" side="tl" part="gen"/>
+						   <clip pos="3" side="tl" part="nbr"/>
+						   <clip pos="3" side="tl" part="lemq"/>
+					   </lu>
+				   </out>
+			   </when>
+			   <otherwise>
+				   <out>  
+					   <lu>    
+						   <clip pos="2" side="tl" part="whole"/>
+					   </lu>
+					   <b pos="2"/>
+					   <lu>
+						   <clip pos="3" side="tl" part="lemh"/>
+						   <clip pos="3" side="tl" part="a_adjec"/>
+						   <clip pos="3" side="tl" part="gen"/>
+						   <clip pos="3" side="tl" part="nbr"/>
+						   <clip pos="3" side="tl" part="lemq"/>
+					   </lu>
+					   <b pos="3"/>
+					   <lu>
+						   <clip pos="4" side="tl" part="lemh"/>
+						   <clip pos="4" side="tl" part="a_nom"/>
+						   <clip pos="4" side="tl" part="gen"/>
+						   <clip pos="4" side="tl" part="nbr"/>
+						   <clip pos="4" side="tl" part="lemq"/>
+					   </lu>
+				   </out>      	
+			   </otherwise>
+		   </choose>
+		
+		
 	   </action>
    </rule>
    
