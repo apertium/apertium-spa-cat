@@ -466,6 +466,10 @@
       <label-item label="VLEXIMP"/>
     </label-sequence>
     <label-sequence>
+      <label-item label="COMOPR"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+    <label-sequence>
       <label-item label="PREP"/>
       <label-item label="IMPLEXPRNENC"/>
     </label-sequence>
@@ -483,6 +487,10 @@
     </label-sequence>
     <label-sequence>
       <label-item label="PREP"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="COMOPR"/>
       <label-item label="VSERIMP"/>
     </label-sequence>
     <label-sequence>
@@ -515,6 +523,10 @@
     </label-sequence>
     <label-sequence>
       <label-item label="PREP"/>
+      <label-item label="VMODALIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="COMOPR"/>
       <label-item label="VMODALIMP"/>
     </label-sequence>
     <label-sequence>

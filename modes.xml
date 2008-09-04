@@ -44,6 +44,18 @@
   </mode>
 
 
+  <mode name="ca-es-pretransfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="ca-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="ca-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
   <mode name="ca-es-transfer">
     <pipeline>
       <program name="lt-proc">
@@ -126,6 +138,17 @@
   </mode>
 
 
+  <mode name="es-ca-pretransfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-ca.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="es-ca.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
   <mode name="es-ca-transfer">
     <pipeline>
       <program name="lt-proc">

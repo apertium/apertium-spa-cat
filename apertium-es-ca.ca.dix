@@ -85831,6 +85831,10 @@
         <i>tot<b/>just</i>
         <par n="ahir__adv"/>
       </e>
+      <e lm="amb prou feines" a="prompsit2uoc">
+        <i>amb<b/>prou<b/>feines</i>
+        <par n="ahir__adv"/>
+      </e>
       
       <e lm="totalment">
         <i>totalment</i>
@@ -86817,8 +86821,8 @@
         <i>UdG</i>
         <par n="BBC__n"/>
       </e>
-    <e lm="COPE">
-      <i>COPE</i>
+    <e lm="Cope">
+      <i>Cope</i>
       <par n="BBC__n"/>
     </e>
       
@@ -86912,7 +86916,7 @@
       </e>
        <e lm="Barça">
         <i>Barça</i>
-        <par n="BBVA__n"/>
+        <par n="ABC__np"/>
       </e>
       
       <e lm="CAM">
@@ -87022,8 +87026,8 @@
         <par n="BBVA__n"/>
       </e>
       
-      <e lm="INEM">
-        <i>INEM</i>
+      <e lm="Inem">
+        <i>Inem</i>
         <par n="BBVA__n"/>
       </e>
       
@@ -87046,8 +87050,8 @@
         <par n="BBVA__n"/>
       </e>
       
-      <e lm="LOGSE">
-        <i>LOGSE</i>
+      <e lm="Logse">
+        <i>Logse</i>
         <par n="BBC__n"/>
       </e>
       
@@ -87158,8 +87162,8 @@
         <par n="BBC__n"/>
       </e>
       
-      <e lm="UEFA">
-        <i>UEFA</i>
+      <e lm="Uefa">
+        <i>Uefa</i>
         <par n="BBC__n"/>
       </e>
       
@@ -122790,20 +122794,12 @@
         <par n="a__pr"/>
       </e>
 
-      <e lm="davant de" r="LR">
+      <e lm="davant de">
         <p>
-          <l>davant<b/>de</l>
-          <r>davant<b/>de</r>
+          <l>davant<b/></l>
+          <r>davant<b/></r>
         </p>
-        <par n="a__pr"/>
-      </e>
-
-      <e lm="davant de" r="RL">
-        <p>
-          <l>davant<b/><a/>de</l>
-          <r>davant<b/>de</r>
-        </p>
-        <par n="a__pr"/>
+        <par n="contde__pr"/>
       </e>
 
 
@@ -123299,10 +123295,6 @@
         <par n="a__pr"/>
       </e>
      
-      <e lm="tot un seguit de">
-        <i>tot<b/>un<b/>seguit<b/>de</i>
-        <par n="a__pr"/>
-      </e>
 
       <e lm="versus">
         <i>versus</i>
@@ -125007,7 +124999,7 @@
         <par n="abander/ar__vblex"/>
       </e>
       
-      <e lm="anomenar" r="LR">
+      <e lm="anomenar">
         <i>anomen</i>
         <par n="abander/ar__vblex"/>
       </e>
@@ -126401,8 +126393,8 @@
         <i>compt</i>
         <par n="abander/ar__vblex"/>
        <p>
-          <l>amb</l>
-          <r><g>amb</g></r>
+          <l><b/>amb</l>
+          <r><g><b/>amb</g></r>
         </p>
       </e>
       
@@ -126985,12 +126977,12 @@
         <par n="assé/ure__vblex"/>
       </e>
 
-      <e lm="creuen que" r="LR">
+      <e lm="creuen que" r="LR" c="Perquè no ho analitzi com a verb 'creuar'">
         <p>
-          <l>creuen que</l>
+          <l>creuen<b/>que</l>
           <r>creure<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/><j/>que<s n="cnjsub"/></r>
         </p>
-      </e><!--Perquè no ho analitzi com a verb "creuar" -->
+      </e>
       
       <e lm="criar">
         <i>cri</i>
@@ -129804,6 +129796,14 @@
 		<r><g><b/>fora</g></r>
 	</p>
       </e>
+      <e lm="fer escala" a="prompsit2uoc">
+        <i>f</i>
+        <par n="f/er__vblex"/>
+	<p>
+		<l><b/>escala</l>
+		<r><g><b/>escala</g></r>
+	</p>
+      </e>
        
       <e lm="ferir">
         <i>fer</i>
@@ -131428,6 +131428,36 @@
         </p>
         <par n="òb/rir__vblex"/>
       </e>
+
+      <e lm="m'obre">
+	<p>
+	  <l>m'obre</l>
+	  <r>em<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>obrir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+	</p>
+      </e>
+      
+      <e lm="t'obre">
+	<p>
+	  <l>t'obre</l>
+	  <r>et<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>obrir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+	</p>
+      </e>
+
+      <e lm="l'obre">
+	<p>
+	  <l>l'obre</l>
+	  <r>el<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/><j/>obrir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+	</p>
+      </e>
+	
+	
+      <e lm="s'obre">
+	<p>
+	  <l>s'obre</l>
+	  <r>es<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>obrir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+	</p>
+      </e>
+
       
       <e lm="obsequiar">
         <i>obsequi</i>
@@ -136369,8 +136399,8 @@
         <par n="abric__n"/>
       </e>
 
-            <e lm="UNESCO">
-        <i>UNESCO</i>
+            <e lm="Unesco">
+        <i>Unesco</i>
         <par n="BBC__n"/>
       </e>
 
@@ -136677,10 +136707,6 @@
         <par n="abric__n"/>
       </e>
 
-            <e lm="anomenar" r="LR">
-        <i>anomen</i>
-        <par n="abander/ar__vblex"/>
-      </e>
 
             <e lm="Àngel">
         <i>Àngel</i>
@@ -138694,10 +138720,6 @@
   <i>paracetamol</i>
   <par n="abric__n"/>
 </e>
-<e lm="Alzheimer" a="mikel">
-  <i>Alzheimer</i>
-  <par n="campus__n"/>
-</e>
 <e lm="Haemophilus influenzae" a="mikel">
   <i>Haemophilus<b/>influenzae</i>
   <par n="campus__n"/>
@@ -138919,11 +138941,6 @@
 			<i>anomena</i>
 			<par n="afortuna/t__adj"/>
 		</e>
-      
-      <e lm="anomenar" r="LR">
-        <i>anomen</i>
-        <par n="abander/ar__vblex"/>
-      </e>
       
       <e lm="aleshores">
         <i>aleshores</i>
@@ -150561,8 +150578,8 @@
         <par n="abric__n"/>
      </e>
 
-     <e lm="TEDAX" a="prompsit2adn">
-        <i>TEDAX</i>
+     <e lm="Tedax" a="prompsit2adn">
+        <i>Tedax</i>
         <par n="EUA__n"/>
      </e>
 
@@ -152018,8 +152035,8 @@
   <i>OIEA</i>
   <par n="BBC__n"/>
 </e>
-<e lm="FARC" a="prompsit2adn">
-  <i>FARC</i>
+<e lm="Farc" a="prompsit2adn">
+  <i>Farc</i>
   <par n="FARC__n"/>
 </e>
 
@@ -152400,8 +152417,8 @@
   <par n="BBC__n"/>
 </e>
  
-<e lm="ACNUR" a="prompsit2adn">
-  <i>ACNUR</i>
+<e lm="Acnur" a="prompsit2adn">
+  <i>Acnur</i>
   <par n="BBVA__n"/>
 </e>
  
@@ -152525,8 +152542,8 @@
   <par n="BBC__n"/>
 </e>
  
-<e lm="MACBA" a="prompsit2adn">
-  <i>MACBA</i>
+<e lm="Macba" a="prompsit2adn">
+  <i>Macba</i>
   <par n="BBVA__n"/>
 </e>
  
@@ -152742,8 +152759,8 @@
   <par n="BBC__n"/>
 </e>
  
-<e lm="UNICEF" a="prompsit2adn">
-  <i>UNICEF</i>
+<e lm="Unicef" a="prompsit2adn">
+  <i>Unicef</i>
   <par n="BBC__n"/>
 </e>
  
@@ -154648,10 +154665,6 @@
 <e lm="conciliador" a="prompsit2adn">
   <i>conciliador</i>
   <par n="absolut__adj"/>
-</e>
-<e lm="alzheimer" a="prompsit2adn">
-  <i>alzheimer</i>
-  <par n="atletisme__n"/>
 </e>
 <e lm="aprofundir" a="prompsit2adn">
   <i>aprofund</i>
@@ -161102,13 +161115,13 @@
   <par n="BBVA__n"/>
 </e>
 
-<e a="prompsit" lm="PIME">
-  <i>PIME</i>
+<e a="prompsit" lm="Pime">
+  <i>Pime</i>
   <par n="BBC__n"/>
 </e>
 
-<e a="prompsit" lm="ONCE">
-  <i>ONCE</i>
+<e a="prompsit" lm="Once">
+  <i>Once</i>
   <par n="BBC__n"/>
 </e>
 
@@ -162221,10 +162234,6 @@
   <par n="ahir__adv"/>
 </e>
 
-<e a="prompsit" lm="per endavant">
-  <i>per<b/>endavant</i>
-  <par n="ahir__adv"/>
-</e>
 
 <e a="prompsit" lm="fornir">
    <i>forn</i>
@@ -163950,6 +163959,300 @@
 	</e>
 
 
+     <e lm="tàcticament" a="prompsit2uoc">
+        <i>tàcticament</i>
+        <par n="ahir__adv"/>
+     </e>
+     <e lm="clínicament" a="prompsit2uoc">
+        <i>clínicament</i>
+        <par n="ahir__adv"/>
+     </e>
+
+     <e a="prompsit2uoc" lm="punteria">
+       <i>punteri</i>
+       <par n="abell/a__n"/>
+     </e>
+
+      <e lm="somàtic" a="prompsit2uoc">
+        <i>somàti</i>
+        <par n="acadèmi/c__adj"/>
+      </e>
+
+     <e lm="postvacances" a="prompsit2uoc">
+        <i>postvacances</i>
+        <par n="multimèdia__adj"/>
+     </e>
+
+    <e a="prompsit2uoc" lm="per primer cop">
+      <i>per<b/>primer<b/>cop</i>
+      <par n="ahir__adv"/>
+    </e>
+    <e a="prompsit2uoc" lm="per segon cop">
+      <i>per<b/>segon<b/>cop</i>
+      <par n="ahir__adv"/>
+    </e>
+    <e a="prompsit2uoc" lm="per tercer cop">
+      <i>per<b/>tercer<b/>cop</i>
+      <par n="ahir__adv"/>
+    </e>
+    <e a="prompsit2uoc" lm="fins fa poc">
+      <i>fins<b/>fa<b/>poc</i>
+      <par n="ahir__adv"/>
+    </e>
+    <e a="prompsit2uoc" lm="pot ser que" r="RL">
+      <i>pot<b/>ser<b/>que</i>
+      <par n="ahir__adv"/>
+    </e>
+    <e lm="TGV" a="prompsit2uoc">
+      <i>TGV</i>
+      <par n="BBVA__n"/>
+    </e>
+    <e lm="AVE" a="prompsit2uoc">
+      <i>AVE</i>
+      <par n="BBVA__n"/>
+    </e>
+
+      <e lm="ridiculitzar" a="prompsit2uoc">
+        <i>ridiculitz</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+    <e lm="naturòpata" a="prompsit2uoc">
+      <i>naturòpat</i>
+      <par n="accionist/a__n"/>
+    </e>
+    <e lm="extorsionador" a="prompsit2uoc">
+      <i>extorsionador</i>
+      <par n="senyor__n"/>
+    </e>
+    <e lm="Manlleu" a="prompsit2uoc">
+      <i>Manlleu</i>
+      <par n="Afganistan__np"/>
+    </e>
+    <e lm="Barajas" a="prompsit2uoc">
+      <i>Barajas</i>
+      <par n="Afganistan__np"/>
+    </e>
+     <e lm="adaptatiu" a="prompsit2uoc">
+       <i>adaptati</i>
+       <par n="abusi/u__adj"/>
+     </e>
+
+      <e lm="campal" a="prompsit2uoc">
+        <i>campal</i>
+        <par n="abdominal__adj"/>
+      </e>
+    <e lm="tumoral" a="prompsit2uoc">
+      <i>tumoral</i>
+      <par n="abdominal__adj"/>
+    </e>
+    <e lm="antitumoral" a="prompsit2uoc">
+      <i>antitumoral</i>
+      <par n="abdominal__adj"/>
+    </e>
+    <e lm="cancerós" a="prompsit2uoc">
+      <i>cancer</i>
+      <par n="aliment/ós__adj"/>
+    </e>
+    <e lm="anticancerós" a="prompsit2uoc">
+      <i>anticancer</i>
+      <par n="aliment/ós__adj"/>
+    </e>
+
+
+      <e lm="readaptar" a="prompsit2uoc">
+        <i>readapt</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+
+      <e lm="maldecap" a="prompsit2uoc">
+        <i>maldecap</i>
+        <par n="abric__n"/>
+      </e>
+
+      <e lm="mal de cap" a="prompsit2uoc">
+        <i>mal</i>
+        <par n="abric__n"/>
+	<p>
+	  <l><b/>de<b/>cap</l>
+	  <r><g><b/>de<b/>cap</g></r>
+	</p>
+      </e>
+      <e lm="mal de coll" a="prompsit2uoc">
+        <i>mal</i>
+        <par n="abric__n"/>
+	<p>
+	  <l><b/>de<b/>coll</l>
+	  <r><g><b/>de<b/>coll</g></r>
+	</p>
+      </e>
+
+      <e lm="Agustí" a="prompsit2uoc">
+        <i>Agustí</i>
+        <par n="Abad__np"/>
+      </e>
+      
+      <e lm="alzheimer" a="prompsit2adn">
+	<i>alzheimer</i>
+	<par n="atletisme__n"/>
+      </e>
+      <e lm="Alzheimer" a="prompsit2uoc">
+        <i>Alzheimer</i>
+        <par n="Abad__np"/>
+      </e>      
+
+      <e lm="llevat" a="prompsit2uoc">
+        <i>llevat</i>
+        <par n="abric__n"/>
+      </e>
+      
+      <e lm="decréixer" a="prompsit2uoc">
+        <p>
+          <l>decre</l>
+          <r>decré</r>
+        </p>
+        <par n="acre/ixer__vblex"/>
+      </e>
+      
+      <e lm="decréixer" a="prompsit2uoc">
+        <i>decré</i>
+        <par n="acré/ixer__vblex"/>
+      </e>
+
+      <e lm="encerclar" a="prompsit2uoc">
+        <i>encercl</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+      <e lm="alterable" a="prompsit2uoc">
+        <i>alterable</i>
+        <par n="abdominal__adj"/>
+      </e>
+      <e lm="immutable" a="prompsit2uoc">
+        <i>immutable</i>
+        <par n="abdominal__adj"/>
+      </e>
+
+
+<e a="prompsit2uoc" lm="immortalitat">
+  <i>immortalitat</i>
+  <par n="accessibilitat__n"/>
+</e>
+<e lm="ACUP" a="prompsit2uoc">
+  <i>ACUP</i>
+  <par n="BBC__n"/>
+</e>
+<e lm="IQUA" a="prompsit2uoc">
+  <i>IQUA</i>
+  <par n="BBC__n"/>
+</e>
+
+<e a="prompsit2uoc" lm="orientalisme">
+  <i>orientalisme</i>
+  <par n="abric__n"/>
+</e>
+<e a="prompsit2uoc" lm="culturalisme">
+  <i>culturalisme</i>
+  <par n="abric__n"/>
+</e>
+
+<e lm="eurocentrisme" a="prompsit2uoc"><i>eurocentrisme</i><par n="abric__n"/></e>
+
+     <e lm="colonitzar" a="prompsit2uoc">
+        <i>colonitz</i>
+        <par n="abander/ar__vblex"/>
+     </e>
+
+      <e lm="historiografia">
+        <i>historiografi</i>
+        <par n="abell/a__n"/>
+      </e>
+      <e lm="al·legoria">
+        <i>al·legori</i>
+        <par n="abell/a__n"/>
+      </e>
+      
+   <e lm="cabell blanc" r="RL">
+	<p>
+          <l>cabell<b/>blanc</l>
+          <r>cabell<b/>blanc<s n="n"/><s n="m"/><s n="sg"/></r>
+	</p>
+      </e>
+      <e lm="cabell blanc">
+	<p>
+          <l>cabells<b/>blancs</l>
+          <r>cabell<b/>blanc<s n="n"/><s n="m"/><s n="pl"/></r>
+	</p>
+      </e>
+
+      <e lm="vi negre">
+	<p>
+          <l>vi<b/>negre</l>
+          <r>vi<b/>negre<s n="n"/><s n="m"/><s n="sg"/></r>
+	</p>
+      </e>
+      <e lm="vi negre">
+	<p>
+          <l>vins<b/>negres</l>
+          <r>vi<b/>negre<s n="n"/><s n="m"/><s n="pl"/></r>
+	</p>
+      </e>
+
+
+      <e lm="tot un seguit de">
+        <i>tot<b/>un<b/>seguit<b/>de</i>
+        <par n="sengles__det"/>
+      </e>
+      <e lm="un seguit de">
+        <i>un<b/>seguit<b/>de</i>
+        <par n="sengles__det"/>
+      </e>
+      <e lm="calòric">
+        <i>calòri</i>
+        <par n="acadèmi/c__adj"/>
+      </e>
+      <e lm="subproducte">
+        <i>subproducte</i>
+        <par n="abric__n"/>
+      </e>
+      <e lm="taxatiu">
+        <i>taxati</i>
+        <par n="abusi/u__adj"/>
+      </e>   
+      <e lm="predisposar">
+        <i>predispos</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+
+      <e lm="demògraf">
+        <i>demògraf</i>
+        <par n="senyor__n"/>
+      </e>
+      
+      <e lm="quadragenari">
+        <i>quadragen</i>
+        <par n="adjudicat/ari__adj"/>
+      </e>
+      <e lm="quinquagenari">
+        <i>quinquagen</i>
+        <par n="adjudicat/ari__adj"/>
+      </e>
+      <e lm="sexagenari">
+        <i>sexagen</i>
+        <par n="adjudicat/ari__adj"/>
+      </e>
+      <e lm="septuagenari">
+        <i>septuagen</i>
+        <par n="adjudicat/ari__adj"/>
+      </e>
+      <e lm="octogenari">
+        <i>octogen</i>
+        <par n="adjudicat/ari__adj"/>
+      </e>
+      <e lm="nonagenari">
+        <i>nonagen</i>
+        <par n="adjudicat/ari__adj"/>
+      </e>
+
+
 
  </section>
  
@@ -164697,10 +165000,17 @@
        <l>tot<b/>un<b/>seguit<b/>d'</l>
        <r>tot<b/>un<b/>seguit<b/>de</r>
      </p>
-     <par n="a__pr"/>
+     <par n="sengles__det"/>
    </e>
    
    
+      <e lm="un seguit de" r="LR" a="prompsit2uoc">
+	<p>
+	  <l>un<b/>seguit<b/>d'</l>
+	  <r>un<b/>seguit<b/>de</r>
+	</p>
+	<par n="sengles__det"/>
+      </e>
    <e lm="únicament als efectes de" r="LR">
      <p>
        <l>únicament<b/>als<b/>efectes<b/>d'</l>
@@ -164709,7 +165019,7 @@
      <par n="a__pr"/>
    </e>
    
-
+      
  </section>
 
   <section id="final" type="inconditional">

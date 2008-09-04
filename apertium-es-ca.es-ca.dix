@@ -5522,10 +5522,16 @@
           <r>subtil<s n="adj"/></r>
         </p>
       </e>
+      <e a="prompsit2uoc">
+        <p>
+          <l>cortante<s n="adj"/></l>
+          <r>tallant<s n="adj"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>tajante<s n="adj"/></l>
-          <r>tallant<s n="adj"/></r>
+          <r>taxatiu<s n="adj"/></r>
         </p>
       </e>
       <e>
@@ -6279,10 +6285,16 @@
           <r>a<b/>part<s n="adv"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>apenas<s n="adv"/></l>
           <r>tot<b/>just<s n="adv"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>apenas<s n="adv"/></l>
+          <r>amb<b/>prou<b/>feines<s n="adv"/></r>
         </p>
       </e>
       <e r="RL">
@@ -23356,10 +23368,16 @@
           <r>vol<s n="n"/></r>
         </p>
       </e>
-      <e srl="vuelta D">
+      <e srl="vuelta D" slr="volta D">
         <p>
           <l>vuelta<s n="n"/></l>
           <r>volta<s n="n"/></r>
+        </p>
+      </e>
+      <e r="LR" slr="tornada">
+        <p>
+          <l>vuelta<s n="n"/></l>
+          <r>tornada<s n="n"/></r>
         </p>
       </e>
       <e>
@@ -25493,8 +25511,14 @@
       </e>
       <e>
         <p>
-          <l>toda<b/>una<b/>serie<b/>de<s n="pr"/></l>
-          <r>tot<b/>un<b/>seguit<b/>de<s n="pr"/></r>
+          <l>toda<b/>una<b/>serie<b/>de<s n="det"/></l>
+          <r>tot<b/>un<b/>seguit<b/>de<s n="det"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>una<b/>serie<b/>de<s n="det"/></l>
+          <r>un<b/>seguit<b/>de<s n="det"/></r>
         </p>
       </e>
       <e r="LR">
@@ -26184,7 +26208,7 @@
       <e>
         <p>
           <l>por<b/>todo<b/>el<b/>mundo<s n="adv"/></l>
-          <r>por<b/>tot<b/>el<b/>món<s n="adv"/></r>
+          <r>per<b/>tot<b/>el<b/>món<s n="adv"/></r>
         </p>
       </e>
       <e r="RL">
@@ -31419,6 +31443,12 @@
           <r>envoltar<s n="vblex"/></r>
         </p>
       </e>
+      <e r="RL" a="prompsit2uoc">
+        <p>
+          <l>rodear<s n="vblex"/></l>
+          <r>encerclar<s n="vblex"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>rogar<s n="vblex"/></l>
@@ -36240,7 +36270,7 @@
         <i>barca<s n="n"/></i>
       </e>
       <e>
-        <i>Barça<s n="n"/></i>
+        <i>Barça<s n="np"/></i>
       </e>
       <e>
         <i>Barcelona<s n="np"/></i>
@@ -36445,7 +36475,7 @@
         <i>BBC<s n="n"/></i>
       </e>
       <e>
-        <i>COPE<s n="n"/></i>
+        <i>Cope<s n="n"/></i>
       </e>
       <e>
         <i>Efe<s n="n"/></i>
@@ -38271,10 +38301,10 @@
           <r>catalitzador<s n="n"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <i>Catalunya<s n="np"/></i>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>Cataluña<s n="np"/></l>
           <r>Catalunya<s n="np"/></r>
@@ -43598,10 +43628,10 @@
           <r>eina<s n="n"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <i>Eivissa<s n="np"/></i>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>Ibiza<s n="np"/></l>
           <r>Eivissa<s n="np"/></r>
@@ -43727,13 +43757,13 @@
       <e>
         <i>Elvis<s n="np"/></i>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>Elche<s n="np"/></l>
           <r>Elx<s n="np"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <i>Elx<s n="np"/></i>
       </e>
       <e>
@@ -50684,7 +50714,7 @@
         </p>
       </e>
       <e>
-        <i>INEM<s n="n"/></i>
+        <i>Inem<s n="n"/></i>
       </e>
       <e>
         <i>INE<s n="np"/><s n="al"/></i>
@@ -53194,7 +53224,7 @@
         </p>
       </e>
       <e>
-        <i>LOGSE<s n="n"/></i>
+        <i>Logse<s n="n"/></i>
       </e>
       <e>
         <i>Lola<s n="np"/></i>
@@ -53517,13 +53547,13 @@
       <e>
         <i>Mahoma<s n="np"/></i>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>Mahón<s n="np"/></l>
           <r>Maó<s n="np"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>Maó<s n="np"/></l>
           <r>Maó<s n="np"/></r>
@@ -62771,10 +62801,10 @@
       <e>
         <i>Sagrera<s n="np"/><s n="loc"/></i>
       </e>
-      <e>
+      <e r="LR">
         <i>Sagunt<s n="np"/></i>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>Sagunto<s n="np"/></l>
           <r>Sagunt<s n="np"/></r>
@@ -66331,7 +66361,7 @@
         </p>
       </e>
       <e>
-        <i>UEFA<s n="n"/></i>
+        <i>Uefa<s n="n"/></i>
       </e>
       <e>
         <i>UE<s n="n"/></i>
@@ -66537,13 +66567,13 @@
       <e>
         <i>Valdés<s n="np"/></i>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>Valencia<s n="np"/></l>
           <r>València<s n="np"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <i>València<s n="np"/></i>
       </e>
       <e>
@@ -68357,13 +68387,13 @@
     <r>direcció<b/>general<s n="n"/></r>
   </p>
 </e>
-<e a="mginesti">
+<e r="LR" a="mginesti">
   <p>
     <l>Xixona<s n="np"/></l>
     <r>Xixona<s n="np"/></r>
   </p>
 </e>
-<e r="LR" a="mginesti">
+<e a="mginesti">
   <p>
     <l>Jijona<s n="np"/></l>
     <r>Xixona<s n="np"/></r>
@@ -69224,7 +69254,7 @@
       </e>
 
       <e>
-        <i>UNESCO<s n="n"/></i>
+        <i>Unesco<s n="n"/></i>
       </e>
 
       <e r="LR">
@@ -69604,12 +69634,6 @@
         <p>
           <l>ágape<s n="n"/><s n="m"/></l>
           <r>àgape<s n="n"/><s n="f"/></r>
-        </p>
-      </e>
-      <e r="RL">
-        <p>
-          <l>denominar<s n="vblex"/></l>
-          <r>anomenar<s n="vblex"/></r>
         </p>
       </e>
 
@@ -72825,8 +72849,8 @@
 </e>
 <e a="mikel">
   <p>
-    <l>Alzheimer<s n="n"/></l>
-    <r>Alzheimer<s n="n"/></r>
+    <l>Alzheimer<s n="np"/></l>
+    <r>Alzheimer<s n="np"/></r>
   </p>
 </e>  
 <e a="mikel">
@@ -73086,12 +73110,6 @@
 			</p>
 		</e>
 
-      <e r="RL">
-        <p>
-          <l>denominar<s n="vblex"/></l>
-          <r>anomenar<s n="vblex"/></r>
-        </p>
-      </e>
 
       <e r="RL">
         <p>
@@ -88290,7 +88308,7 @@
      </e>
 
      <e a="prompsit2adn">
-        <i>TEDAX<s n="n"/></i>
+        <i>Tedax<s n="n"/></i>
      </e>
 
      <e a="prompsit2adn">
@@ -90132,8 +90150,8 @@
 </e>
 <e a="prompsit2adn">
   <p>
-    <l>FARC<s n="n"/></l>
-    <r>FARC<s n="n"/></r>
+    <l>Farc<s n="n"/></l>
+    <r>Farc<s n="n"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -90605,8 +90623,8 @@
 </e>
 <e a="prompsit2adn">
   <p>
-    <l>ACNUR<s n="n"/></l>
-    <r>ACNUR<s n="n"/></r>
+    <l>Acnur<s n="n"/></l>
+    <r>Acnur<s n="n"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -90755,8 +90773,8 @@
 </e>
 <e a="prompsit2adn">
   <p>
-    <l>MACBA<s n="n"/></l>
-    <r>MACBA<s n="n"/></r>
+    <l>Macba<s n="n"/></l>
+    <r>Macba<s n="n"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -91034,8 +91052,8 @@
 </e>
 <e a="prompsit2adn">
   <p>
-    <l>UNICEF<s n="n"/></l>
-    <r>UNICEF<s n="n"/></r>
+    <l>Unicef<s n="n"/></l>
+    <r>Unicef<s n="n"/></r>
   </p>
 </e>
 <e a="prompsit2adn">
@@ -94303,6 +94321,12 @@
 <e a="prompsit2adn">
   <p>
     <l>alzheimer<s n="n"/></l>
+    <r>alzheimer<s n="n"/></r>
+  </p>
+</e>
+<e a="prompsit2uoc" r="LR">
+  <p>
+    <l>alzhéimer<s n="n"/></l>
     <r>alzheimer<s n="n"/></r>
   </p>
 </e>
@@ -97851,8 +97875,11 @@
 <e a="prompsit"><p><l>más<b/>bien<s n="adv"/></l><r>més<b/>aviat<s n="adv"/></r></p></e>
 <e a="prompsit" r="RL"><p><l>cada<b/>vez<s n="adv"/></l><r>cada<b/>vegada<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>por<b/>primera<b/>vez<s n="adv"/></l><r>per<b/>primera<b/>vegada<s n="adv"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>por<b/>primera<b/>vez<s n="adv"/></l><r>per<b/>primer<b/>cop<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>por<b/>segunda<b/>vez<s n="adv"/></l><r>per<b/>segona<b/>vegada<s n="adv"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>por<b/>segunda<b/>vez<s n="adv"/></l><r>per<b/>segon<b/>cop<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>por<b/>tercera<b/>vez<s n="adv"/></l><r>per<b/>tercera<b/>vegada<s n="adv"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>por<b/>tercera<b/>vez<s n="adv"/></l><r>per<b/>tercer<b/>cop<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>de<b/>sobra<s n="adv"/></l><r>de<b/>sobres<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>bien<b/>temprano<s n="adv"/></l><r>ben<b/>d'hora<s n="adv"/></r></p></e>
 <e a="prompsit" r="RL"><p><l>allá<s n="adv"/></l><r>enllà<s n="adv"/></r></p></e>
@@ -103553,15 +103580,15 @@
 
 <e a="prompsit">
           <p>
-            <l>PYME<s n="n"/></l>
-            <r>PIME<s n="n"/></r>
+            <l>Pyme<s n="n"/></l>
+            <r>Pime<s n="n"/></r>
           </p>
         </e>
 
 <e a="prompsit">
           <p>
-            <l>ONCE<s n="n"/></l>
-            <r>ONCE<s n="n"/></r>
+            <l>Once<s n="n"/></l>
+            <r>Once<s n="n"/></r>
           </p>
         </e>
 
@@ -104991,7 +105018,8 @@
 
 <e a="prompsit" r="RL"><p><l>de<b/>mutuo<b/>acuerdo<s n="adv"/></l><r>de<b/>comú<b/>acord<s n="adv"/></r></p></e>
 
-<e a="prompsit"><p><l>de<b/>antemano<s n="adv"/></l><r>a<b/>la<b/>bestreta<s n="adv"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>de<b/>antemano<s n="adv"/></l><r>a<b/>la<b/>bestreta<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>de<b/>antemano<s n="adv"/></l><r>per<b/>endavant<s n="adv"/></r></p></e>
 
 <e a="prompsit"><p><l>por<b/>adelantado<s n="adv"/></l><r>per<b/>endavant<s n="adv"/></r></p></e>
 
@@ -106316,6 +106344,327 @@
 		<r>tres<b/>quarts<b/>de<b/>dotze<s n="n"/></r>
 	</p>
 </e>
+
+<e a="prompsit2uoc">
+	<p>
+		<l>tácticamente<s n="adv"/></l>
+		<r>tàcticament<s n="adv"/></r>
+	</p>
+</e>
+<e a="prompsit2uoc">
+	<p>
+		<l>clínicamente<s n="adv"/></l>
+		<r>clínicament<s n="adv"/></r>
+	</p>
+</e>
+<e a="prompsit2uoc">
+	<p>
+		<l>hasta<b/>hace<b/>poco<s n="adv"/></l>
+		<r>fins<b/>fa<b/>poc<s n="adv"/></r>
+	</p>
+</e>
+<e a="prompsit2uoc" r="LR">
+	<p>
+		<l>puede<b/>que<s n="adv"/></l>
+		<r>pot<b/>ser<b/>que<s n="adv"/></r>
+	</p>
+</e>
+<e a="prompsit2uoc">
+	<p>
+		<l>puntería<s n="n"/></l>
+		<r>punteria<s n="n"/></r>
+	</p>
+</e>
+<e a="prompsit2uoc">
+	<p>
+		<l>inmortalidad<s n="n"/></l>
+		<r>immortalitat<s n="n"/></r>
+	</p>
+</e>
+
+
+
+       <e a="prompsit2uoc" r="LR">
+	 <p>
+	   <l>dolor<g><b/>de<b/>cabeza</g><s n="n"/><s n="m"/><s n="sg"/></l>
+	   <r>mal<g><b/>de<b/>cap</g><s n="n"/><s n="m"/><s n="sg"/></r>
+	 </p>
+       </e>
+
+       <e a="prompsit2uoc" r="LR">
+	 <p>
+	   <l>dolor<g><b/>de<b/>cabeza</g><s n="n"/><s n="m"/><s n="pl"/></l>
+	   <r>maldecap<s n="n"/><s n="m"/><s n="pl"/></r>
+	 </p>
+       </e>
+       
+       <e a="prompsit2uoc" r="RL">
+	 <p>
+	   <l>dolor<g><b/>de<b/>cabeza</g><s n="n"/></l>
+	   <r>mal<g><b/>de<b/>cap</g><s n="n"/></r>
+	 </p>
+       </e>
+
+       <e a="prompsit2uoc" r="RL">
+	 <p>
+	   <l>dolor<g><b/>de<b/>cabeza</g><s n="n"/></l>
+	   <r>maldecap<s n="n"/></r>
+	 </p>
+       </e>
+
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>dolor<g><b/>de<b/>garganta</g><s n="n"/></l>
+	   <r>mal<g><b/>de<b/>coll</g><s n="n"/></r>
+	 </p>
+       </e>
+
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>cana<s n="n"/><s n="f"/></l>
+	   <r>cabell<b/>blanc<s n="n"/><s n="m"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>decrecer<s n="vblex"/></l>
+	   <r>decréixer<s n="vblex"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc" r="RL">
+	 <p>
+	   <l>posvacacional<s n="adj"/><s n="mf"/><s n="ND"/></l>
+	   <r>postvacances<s n="adj"/><s n="mf"/><s n="sp"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc" r="LR">
+	 <p>
+	   <l>posvacacional<s n="adj"/><s n="mf"/><s n="sg"/></l>
+	   <r>postvacances<s n="adj"/><s n="mf"/><s n="sp"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc" r="LR">
+	 <p>
+	   <l>posvacacional<s n="adj"/><s n="mf"/><s n="pl"/></l>
+	   <r>postvacances<s n="adj"/><s n="mf"/><s n="sp"/></r>
+	 </p>
+       </e>
+
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>somático<s n="adj"/></l>
+	   <r>somàtic<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>adaptativo<s n="adj"/></l>
+	   <r>adaptatiu<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>tratable<s n="adj"/></l>
+	   <r>tractable<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>alterable<s n="adj"/></l>
+	   <r>alterable<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>inmutable<s n="adj"/></l>
+	   <r>immutable<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>quadragenari<s n="adj"/></l>
+	   <r>cuadragenario<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>quincuagenario<s n="adj"/></l>
+	   <r>quinquagenari<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>sexagenario<s n="adj"/></l>
+	   <r>sexagenari<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>septuagenario<s n="adj"/></l>
+	   <r>septuagenari<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>octogenario<s n="adj"/></l>
+	   <r>octogenari<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>nonagenario<s n="adj"/></l>
+	   <r>nonagenari<s n="adj"/></r>
+	 </p>
+       </e>
+
+       <e a="prompsit2uoc">
+        <p>
+          <l>hacer<g><b/>escala</g><s n="vblex"/></l>
+          <r>fer<g><b/>escala</g><s n="vblex"/></r>
+        </p>
+      </e>
+      <e a="prompsit2uoc">
+        <i>readaptar<s n="vblex"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>campal<s n="adj"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>tumoral<s n="adj"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>antitumoral<s n="adj"/></i>
+      </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>canceroso<s n="adj"/></l>
+	   <r>cancerós<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>anticanceroso<s n="adj"/></l>
+	   <r>anticancerós<s n="adj"/></r>
+	 </p>
+       </e>
+       <e a="prompsit2uoc">
+	 <p>
+	   <l>ridiculizar<s n="vblex"/></l>
+	   <r>ridiculitzar<s n="vblex"/></r>
+	 </p>
+       </e>
+      <e a="prompsit2uoc">
+        <i>ACUP<s n="n"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>IQUA<s n="n"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>Agustí<s n="np"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>Manlleu<s n="np"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>Barajas<s n="np"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>TGV<s n="n"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>AVE<s n="n"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>extorsionador<s n="n"/></i>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>naturópata<s n="n"/></l>
+	  <r>naturòpata<s n="n"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>demógrafo<s n="n"/></l>
+	  <r>demògraf<s n="n"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>levadura<s n="n"/><s n="f"/></l>
+	  <r>llevat<s n="n"/><s n="m"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>subproducto<s n="n"/></l>
+	  <r>subproducte<s n="n"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>orientalismo<s n="n"/></l>
+	  <r>orientalisme<s n="n"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>culturalismo<s n="n"/></l>
+	  <r>culturalisme<s n="n"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>historiografía<s n="n"/></l>
+	  <r>historiografia<s n="n"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>alegoría<s n="n"/></l>
+	  <r>al·legoria<s n="n"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>eurocentrismo<s n="n"/></l>
+	  <r>eurocentrisme<s n="n"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>vino<b/>tinto<s n="n"/></l>
+	  <r>vi<b/>negre<s n="n"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc" r="LR">
+	<p>
+	  <l>tinto<s n="adj"/></l>
+	  <r>negre<s n="adj"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>calórico<s n="adj"/></l>
+	  <r>calòric<s n="adj"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>predisponer<s n="vblex"/></l>
+	  <r>predisposar<s n="vblex"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
+	  <l>colonizar<s n="vblex"/></l>
+	  <r>colonitzar<s n="vblex"/></r>
+	</p>
+      </e>
+
+
+
+
 
 
 
