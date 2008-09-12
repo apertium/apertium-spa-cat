@@ -1386,6 +1386,28 @@
 	    <clip pos="2" side="sl" part="nbr"/> 
 	  </let>
 	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="2" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	      <equal>
+		<clip pos="2" side="tl" part="a_num"/>
+		<lit-tag v="num"/>
+	      </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
 	<otherwise>
 	  <let>
 	    <var n="numero"/>
@@ -2008,6 +2030,28 @@
 	  <let>
 	    <var n="numero"/>
 	    <clip pos="3" side="sl" part="nbr"/> 
+	  </let>
+	</when>
+	<when>
+	  <test>
+	    <and>
+	      <equal>
+		<clip pos="2" side="tl" part="nbr"/>
+		<lit-tag v="sp"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="nbr"/>
+		<lit-tag v="ND"/>
+	      </equal>
+	      <equal>
+		<clip pos="2" side="tl" part="a_num"/>
+		<lit-tag v="num"/>
+	      </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <var n="numero"/>
+	    <lit-tag v="pl"/>
 	  </let>
 	</when>
 	<otherwise>

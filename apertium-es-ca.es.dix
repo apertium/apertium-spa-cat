@@ -2314,36 +2314,8 @@
         </p>
       </e>
     </pardef>
-      <pardef n="t/oner__n">
+    
       
-      <e>
-        <p>
-          <l>oners</l>
-          <r>oner<s n="n"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e r="LR">
-        <p>
-          <l>óners</l>
-          <r>oner<s n="n"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>oner</l>
-          <r>oner<s n="n"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      
-      <e r="LR">
-        <p>
-          <l>óner</l>
-          <r>oner<s n="n"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
      <pardef n="record/man__n">
       
       <e>
@@ -2375,49 +2347,7 @@
       </e>
     </pardef>
 
-    
-    <pardef n="m/áster__n">
-      
-      <e>
-        <p>
-          <l>ásters</l>
-          <r>áster<s n="n"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e r="LR">
-        <p>
-          <l>asters</l>
-          <r>áster<s n="n"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>asteres</l>
-          <r>áster<s n="n"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>ásteres</l>
-          <r>áster<s n="n"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>áster</l>
-          <r>áster<s n="n"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      
-      <e r="LR">
-        <p>
-          <l>aster</l>
-          <r>áster<s n="n"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
+   
  
     <pardef n="at/ún__n">  
     <e>
@@ -4256,7 +4186,7 @@
       <e>
         <p>
           <l/>
-          <r><s n="num"/><s n="m"/><s n="sg"/></r>
+          <r><s n="num"/><s n="m"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -4278,11 +4208,11 @@
       <e>
         <p>
           <l/>
-          <r><s n="num"/><s n="mf"/><s n="sg"/></r>
+          <r><s n="num"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
-    <pardef n="multimedia__num">
+    <pardef n="nueve__num">
       <e>
         <p>
           <l/>
@@ -76100,6 +76030,10 @@
       <i>poc</i>
       <par n="absolut/o__adj"/>
     </e>
+    <e lm="muy poco" a="prompsit2uoc">
+      <i>muy<b/>poc</i>
+      <par n="absolut/o__adj"/>
+    </e>
     <e lm="poderoso">
       <i>poderos</i>
       <par n="abstract/o__adj"/>
@@ -86402,6 +86336,14 @@
       <i>coro</i>
       <par n="abismo__n"/>
     </e>
+    <e lm="coro de cámara">
+      <i>coro</i>
+      <par n="abismo__n"/>
+	<p>
+	  <l><b/>de<b/>cámara</l>
+	  <r><g><b/>de<b/>cámara</g></r>
+	</p>
+    </e>
     <e lm="corona">
       <i>corona</i>
       <par n="abeja__n"/>
@@ -86758,13 +86700,22 @@
       <i>cuarto</i>
       <par n="abismo__n"/>
     </e>
-    <e lm="cuarto de aseo" r="LR">
-      <i>cuarto<b/>de<b/>aseo</i>
-      <par n="atletismo__n"/>
+
+    <e lm="cuarto de aseo">
+      <i>cuarto</i>
+      <par n="abismo__n"/>
+      <p>
+	<l><b/>de<b/>aseo</l>
+	<r><g><b/>de<b/>aseo</g></r>
+      </p>
     </e>
-    <e lm="cuartos de aseo" r="LR">
-      <i>cuartos<b/>de<b/>aseo</i>
-      <par n="alrededores__n"/>
+    <e lm="cuarto de baño">
+      <i>cuarto</i>
+      <par n="abismo__n"/>
+      <p>
+	<l><b/>de<b/>baño</l>
+	<r><g><b/>de<b/>baño</g></r>
+      </p>
     </e>
     <e lm="cuatrimestre">
       <i>cuatrimestre</i>
@@ -98607,7 +98558,11 @@
     </e>
     <e lm="póster">
       <i>póster</i>
-      <par n="abismo__n"/>
+      <par n="club__n"/>
+    </e>
+    <e lm="clúster" a="prompsit2uoc">
+      <i>clúster</i>
+      <par n="club__n"/>
     </e>
     <e lm="público">
       <i>público</i>
@@ -105305,6 +105260,10 @@
       <i>EE.UU.</i>
       <par n="Afganistán__np"/>
     </e>
+    <e lm="EE UU">
+      <i>EE<b/>UU</i>
+      <par n="Afganistán__np"/>
+    </e>
     <e lm="Ecuador">
       <i>Ecuador</i>
       <par n="Afganistán__np"/>
@@ -109316,107 +109275,107 @@
     </e>
     <e lm="C">
       <i>C</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="D">
       <i>D</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="I">
       <i>I</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="II">
       <i>II</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="III">
       <i>III</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="IV">
       <i>IV</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="IX">
       <i>IX</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="L">
       <i>L</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="M">
       <i>M</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="V">
       <i>V</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="VI">
       <i>VI</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="VII">
       <i>VII</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="VIII">
       <i>VIII</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="X">
       <i>X</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XI">
       <i>XI</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XII">
       <i>XII</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XIII">
       <i>XIII</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XIV">
       <i>XIV</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XIX">
       <i>XIX</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XV">
       <i>XV</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XVI">
       <i>XVI</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XVII">
       <i>XVII</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XVIII">
       <i>XVIII</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XX">
       <i>XX</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="XXI">
       <i>XXI</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="catorce">
       <i>catorce</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cero">
       <i>cero</i>
@@ -109424,51 +109383,51 @@
     </e>
     <e lm="cien">
       <i>cien</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ciento" r="LR">
       <i>ciento</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cinco">
       <i>cinco</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta">
       <i>cincuenta</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta y cinco">
       <i>cincuenta<b/>y<b/>cinco</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta y cuatro">
       <i>cincuenta<b/>y<b/>cuatro</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta y dos">
       <i>cincuenta<b/>y<b/>dos</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta y nueve">
       <i>cincuenta<b/>y<b/>nueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta y ocho">
       <i>cincuenta<b/>y<b/>ocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta y seis">
       <i>cincuenta<b/>y<b/>seis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta y siete">
       <i>cincuenta<b/>y<b/>siete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta y tres">
       <i>cincuenta<b/>y<b/>tres</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cincuenta y uno">
       <i>cincuenta<b/>y<b/>uno</i>
@@ -109476,39 +109435,39 @@
     </e>
     <e lm="cuarenta">
       <i>cuarenta</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuarenta y cinco">
       <i>cuarenta<b/>y<b/>cinco</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuarenta y cuatro">
       <i>cuarenta<b/>y<b/>cuatro</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuarenta y dos">
       <i>cuarenta<b/>y<b/>dos</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuarenta y nueve">
       <i>cuarenta<b/>y<b/>nueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuarenta y ocho">
       <i>cuarenta<b/>y<b/>ocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuarenta y seis">
       <i>cuarenta<b/>y<b/>seis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuarenta y siete">
       <i>cuarenta<b/>y<b/>siete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuarenta y tres">
       <i>cuarenta<b/>y<b/>tres</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuarenta y uno">
       <i>cuarenta<b/>y<b/>uno</i>
@@ -109516,7 +109475,7 @@
     </e>
     <e lm="cuatro">
       <i>cuatro</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="cuatrocientos">
       <i>cuatrocient</i>
@@ -109524,31 +109483,31 @@
     </e>
     <e lm="diecinueve">
       <i>diecinueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="dieciocho">
       <i>dieciocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="diecisiete">
       <i>diecisiete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="dieciséis">
       <i>dieciséis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="diez">
       <i>diez</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="doce">
       <i>doce</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="dos">
       <i>dos</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="doscientos">
       <i>doscient</i>
@@ -109564,39 +109523,39 @@
     </e>
     <e lm="noventa">
       <i>noventa</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="noventa y cinco">
       <i>noventa<b/>y<b/>cinco</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="noventa y cuatro">
       <i>noventa<b/>y<b/>cuatro</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="noventa y dos">
       <i>noventa<b/>y<b/>dos</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="noventa y nueve">
       <i>noventa<b/>y<b/>nueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="noventa y ocho">
       <i>noventa<b/>y<b/>ocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="noventa y seis">
       <i>noventa<b/>y<b/>seis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="noventa y siete">
       <i>noventa<b/>y<b/>siete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="noventa y tres">
       <i>noventa<b/>y<b/>tres</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="noventa y uno">
       <i>noventa<b/>y<b/>uno</i>
@@ -109604,43 +109563,43 @@
     </e>
     <e lm="nueve">
       <i>nueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta">
       <i>ochenta</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta y cinco">
       <i>ochenta<b/>y<b/>cinco</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta y cuatro">
       <i>ochenta<b/>y<b/>cuatro</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta y dos">
       <i>ochenta<b/>y<b/>dos</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta y nueve">
       <i>ochenta<b/>y<b/>nueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta y ocho">
       <i>ochenta<b/>y<b/>ocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta y seis">
       <i>ochenta<b/>y<b/>seis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta y siete">
       <i>ochenta<b/>y<b/>siete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta y tres">
       <i>ochenta<b/>y<b/>tres</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochenta y uno">
       <i>ochenta<b/>y<b/>uno</i>
@@ -109648,7 +109607,7 @@
     </e>
     <e lm="ocho">
       <i>ocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="ochocientos">
       <i>ochocient</i>
@@ -109656,11 +109615,11 @@
     </e>
     <e lm="once">
       <i>once</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="quince">
       <i>quince</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="quinientos">
       <i>quinient</i>
@@ -109668,7 +109627,7 @@
     </e>
     <e lm="seis">
       <i>seis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="seiscientos">
       <i>seiscient</i>
@@ -109676,39 +109635,39 @@
     </e>
     <e lm="sesenta">
       <i>sesenta</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="sesenta y cinco">
       <i>sesenta<b/>y<b/>cinco</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="sesenta y cuatro">
       <i>sesenta<b/>y<b/>cuatro</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="sesenta y dos">
       <i>sesenta<b/>y<b/>dos</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="sesenta y nueve">
       <i>sesenta<b/>y<b/>nueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="sesenta y ocho">
       <i>sesenta<b/>y<b/>ocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="sesenta y seis">
       <i>sesenta<b/>y<b/>seis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="sesenta y siete">
       <i>sesenta<b/>y<b/>siete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="sesenta y tres">
       <i>sesenta<b/>y<b/>tres</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="sesenta y uno">
       <i>sesenta<b/>y<b/>uno</i>
@@ -109720,39 +109679,39 @@
     </e>
     <e lm="setenta">
       <i>setenta</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="setenta y cinco">
       <i>setenta<b/>y<b/>cinco</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="setenta y cuatro">
       <i>setenta<b/>y<b/>cuatro</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="setenta y dos">
       <i>setenta<b/>y<b/>dos</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="setenta y nueve">
       <i>setenta<b/>y<b/>nueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="setenta y ocho">
       <i>setenta<b/>y<b/>ocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="setenta y seis">
       <i>setenta<b/>y<b/>seis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="setenta y siete">
       <i>setenta<b/>y<b/>siete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="setenta y tres">
       <i>setenta<b/>y<b/>tres</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="setenta y uno">
       <i>setenta<b/>y<b/>uno</i>
@@ -109760,47 +109719,47 @@
     </e>
     <e lm="siete">
       <i>siete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="trece">
       <i>trece</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta">
       <i>treinta</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta y cinco">
       <i>treinta<b/>y<b/>cinco</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta y cuatro">
       <i>treinta<b/>y<b/>cuatro</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta y dos">
       <i>treinta<b/>y<b/>dos</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta y nueve">
       <i>treinta<b/>y<b/>nueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta y ocho">
       <i>treinta<b/>y<b/>ocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta y seis">
       <i>treinta<b/>y<b/>seis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta y siete">
       <i>treinta<b/>y<b/>siete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta y tres">
       <i>treinta<b/>y<b/>tres</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="treinta y uno">
       <i>treinta<b/>y<b/>uno</i>
@@ -109808,7 +109767,7 @@
     </e>
     <e lm="tres">
       <i>tres</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="trescientos">
       <i>trescient</i>
@@ -109820,39 +109779,39 @@
     </e>
     <e lm="veinte">
       <i>veinte</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="veinticinco">
       <i>veinticinco</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="veinticuatro">
       <i>veinticuatro</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="veintidós">
       <i>veintidós</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="veintinueve">
       <i>veintinueve</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="veintiocho">
       <i>veintiocho</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="veintisiete">
       <i>veintisiete</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="veintiséis">
       <i>veintiséis</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="veintitrés">
       <i>veintitrés</i>
-      <par n="multimedia__num"/>
+      <par n="nueve__num"/>
     </e>
     <e lm="veintiuno">
       <i>veinti</i>
@@ -110030,6 +109989,10 @@
     </e>
     <e lm="acerca de">
       <i>acerca<b/></i>
+      <par n="contde__pr"/>
+    </e>
+    <e lm="cerca de">
+      <i>cerca<b/></i>
       <par n="contde__pr"/>
     </e>
     <e lm="acorde con" r="LR">
@@ -132825,25 +132788,6 @@
       </p>
     </e>
     
-<e lm="llegar y besar el santo" a="cursestiu">
-  <i>lleg</i>
-  <par n="abandon/ar__vblex"/>
-  <p>
-    <l><b/>y<b/>besar<b/>el<b/>santo</l>
-    <r><g><b/>y<b/>besar<b/>el<b/>santo</g></r>
-  </p>
-</e>
-<e lm="llegar y besar el santo" a="cursestiu">
-  <p>
-    <l>llég</l>
-    <r>lleg</r>
-  </p>
-<par n="abandón/ar__vblex"/>
-  <p>
-    <l><b/>y<b/>besar<b/>el<b/>santo</l>
-    <r><g><b/>y<b/>besar<b/>el<b/>santo</g></r>
-  </p>
-</e>
 
             <e lm="Volkswagen">
         <i>Volkswagen</i>
@@ -134108,7 +134052,9 @@
   <i>asterisco</i>
   <par n="abismo__n"/>
 </e>
-<e lm="llegar y besar el santo">
+
+
+<e lm="llegar y besar el santo" a="cursestiu">
   <i>lleg</i>
   <par n="abandon/ar__vblex"/>
   <p>
@@ -134116,7 +134062,7 @@
     <r><g><b/>y<b/>besar<b/>el<b/>santo</g></r>
   </p>
 </e>
-<e lm="llegar y besar el santo">
+<e lm="llegar y besar el santo" a="cursestiu">
   <p>
     <l>llég</l>
     <r>lleg</r>
@@ -145468,11 +145414,15 @@
         <par n="anfitri/ón__n"/>
      </e>
 
-     <e lm="máster" a="prompsit2adn">
-        <i>m</i>
-        <par n="m/áster__n"/>
-     </e>
 
+     <e lm="máster" a="prompsit2adn">
+        <i>máster</i>
+        <par n="club__n"/>
+     </e>
+     <e lm="master" a="prompsit2uoc" r="LR">
+        <i>master</i>
+        <par n="club__n"/>
+     </e>
      <e lm="mástil" a="prompsit2adn">
         <i>mástil</i>
         <par n="abril__n"/>
@@ -151016,11 +150966,17 @@
         <par n="abeja__n"/>
      </e>
 
-     <e lm="toner" a="prompsit2adn">
-        <i>t</i>
-        <par n="t/oner__n"/>
+     <e lm="tóner" a="prompsit2uoc">
+        <i>tóner</i>
+        <par n="club__n"/>
      </e>
-
+     <e lm="toner" a="prompsit2uoc" r="LR">
+       <p>
+	 <l>toner</l>
+	 <r>tóner</r>
+       </p>
+        <par n="club__n"/>
+     </e>
      <e lm="topo" a="prompsit2adn">
         <i>topo</i>
         <par n="abismo__n"/>
@@ -157841,6 +157797,7 @@
 <e a="prompsit" lm="globalmente"><i>globalmente</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="ya no"><i>ya<b/>no</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="al día siguiente"><i>al<b/>día<b/>siguiente</i><par n="ahora__adv"/></e>
+<e r="RL" a="prompsit" lm="el día siguiente"><i>el<b/>día<b/>siguiente</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="lingüísticamente"><i>lingüísticamente</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="normativamente"><i>normativamente</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="oralmente"><i>oralmente</i><par n="ahora__adv"/></e>
@@ -161624,6 +161581,15 @@
   <par n="abandon/ar__vblex"/>
 </e>
 
+    <e lm="desvalorar">
+      <p>
+        <l>desvalór</l>
+        <r>desvalor</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
+
+
 <e a="prompsit" lm="reformular">
   <i>reformul</i>
   <par n="abandon/ar__vblex"/>
@@ -163816,6 +163782,10 @@
       <i>adaptativ</i>
       <par n="absolut/o__adj"/>
     </e>
+    <e lm="deliberativo" a="prompsit2uoc">
+      <i>deliberativ</i>
+      <par n="absolut/o__adj"/>
+    </e>
     <e lm="TGV" a="prompsit2uoc">
       <i>TGV</i>
       <par n="BBVA__n"/>
@@ -163958,6 +163928,14 @@
   <i>inmortalidad</i>
   <par n="accesibilidad__n"/>
 </e>
+<e a="prompsit2uoc" lm="potencialidad">
+  <i>potencialidad</i>
+  <par n="accesibilidad__n"/>
+</e>
+<e a="prompsit2uoc" lm="verificabilidad">
+  <i>verificabilidad</i>
+  <par n="accesibilidad__n"/>
+</e>
 
 <e lm="ACUP" a="prompsit2uoc">
   <i>ACUP</i>
@@ -164000,6 +163978,17 @@
       <p>
         <l>coloní</l>
         <r>coloni</r>
+      </p>
+      <par n="abalán/zar__vblex"/>
+    </e>
+    <e lm="maximizar" a="prompsit2uoc">
+      <i>maximi</i>
+      <par n="abalan/zar__vblex"/>
+    </e>
+    <e lm="maximizar" a="prompsit2uoc">
+      <p>
+        <l>maximí</l>
+        <r>maximi</r>
       </p>
       <par n="abalán/zar__vblex"/>
     </e>
@@ -164077,6 +164066,339 @@
     </e>
 
 
+
+    <e lm="minusvalorar" a="prompsit2uoc">
+      <i>minusvalor</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    
+    <e lm="minusvalorar" a="prompsit2uoc">
+      <p>
+        <l>minusvalór</l>
+        <r>minusvalor</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
+    <e lm="cajetín" a="prompsit2uoc">
+      <i>cajet</i>
+      <par n="bot/ín__n"/>
+    </e>
+            <e lm="interdisciplinario" a="prompsit2uoc">
+        <i>interdisciplinari</i>
+        <par n="absolut/o__adj"/>
+      </e>
+	    <e lm="interdisciplinar" a="prompsit2uoc">
+	      <i>interdisciplinar</i>
+	      <par n="abdominal__adj"/>
+	    </e>
+
+            <e lm="multidisciplinario" a="prompsit2uoc">
+        <i>multidisciplinari</i>
+        <par n="absolut/o__adj"/>
+      </e>
+    <e lm="cuántico" a="prompsit2uoc">
+      <i>cuántic</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="físico" a="prompsit2uoc">
+      <i>físic</i>
+      <par n="abogad/o__n"/>
+    </e>
+    <e lm="astrofísico" a="prompsit2uoc">
+      <i>astrofísic</i>
+      <par n="abogad/o__n"/>
+    </e>
+    <e lm="matemático" a="prompsit2uoc">
+      <i>matemátic</i>
+      <par n="abogad/o__n"/>
+    </e>
+
+      <e lm="Big Bang" a="prompsit2uoc">
+	<p>
+          <l>Big<b/>Bang</l>
+          <r>big<b/>bang</r>
+	</p>
+        <par n="atletismo__n"/>
+      </e>
+    <e lm="subatómico" a="prompsit2uoc">
+      <i>subatómic</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="dicotómico" a="prompsit2uoc">
+      <i>dicotómic</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="dicotomía" a="prompsit2uoc">
+      <i>dicotomía</i>
+      <par n="abeja__n"/>
+    </e>
+    <e lm="enzarzar" a="prompsit2uoc">
+      <i>enzar</i>
+      <par n="abalan/zar__vblex"/>
+    </e>
+    <e lm="enzarzar" a="prompsit2uoc">
+      <p>
+        <l>enzár</l>
+        <r>enzar</r>
+      </p>
+      <par n="abalán/zar__vblex"/>
+    </e>
+
+    <e lm="contrafuego" a="prompsit2uoc">
+      <i>contrafuego</i>
+      <par n="abismo__n"/>
+    </e>
+
+    <e lm="retén" a="prompsit2uoc">
+      <i>ret</i>
+      <par n="almac/én__n"/>
+    </e>
+    <e lm="remojar" a="prompsit2uoc">
+      <i>remoj</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="remojar" a="prompsit2uoc">
+      <p>
+        <l>remój</l>
+        <r>remoj</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
+    <e lm="voraz" a="prompsit2uoc">
+      <i>vora</i>
+      <par n="atro/z__adj"/>
+    </e>
+      <e lm="Tossa de Mar" a="prompsit2uoc"><i>Tossa<b/>de<b/>Mar</i><par n="Afganistán__np"/></e>
+      <e lm="Tossa" a="prompsit2uoc"><i>Tossa</i><par n="Afganistán__np"/></e>
+      <e lm="Vidreres" a="prompsit2uoc"><i>Tossa</i><par n="Afganistán__np"/></e>
+      <e lm="Palamós" a="prompsit2uoc"><i>Palamós</i><par n="Afganistán__np"/></e>
+      <e lm="Sant Celoni" a="prompsit2uoc"><i>Sant<b/>Celoni</i><par n="Afganistán__np"/></e>
+      <e lm="Sant Feliu de Guíxols" a="prompsit2uoc"><i>Sant<b/>Feliu<b/>de<b/>Guíxols</i><par n="Afganistán__np"/></e>
+      <e lm="Sant Feliu" a="prompsit2uoc"><i>Sant<b/>Feliu</i><par n="Afganistán__np"/></e>
+      <e lm="Llagostera" a="prompsit2uoc"><i>Llagostera</i><par n="Afganistán__np"/></e>
+
+     <e lm="frondoso" a="prompsit2uoc">
+      <i>frondos</i>
+      <par n="abstract/o__adj"/>
+    </e>
+    <e lm="pernoctar" a="prompsit2uoc">
+      <i>pernoct</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="pernoctar" a="prompsit2uoc">
+      <p>
+        <l>pernóct</l>
+        <r>pernoct</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
+
+    <e lm="piscícola" a="prompsit2uoc">
+      <i>piscícola</i>
+      <par n="abundante__adj"/>
+    </e>
+    <e lm="psíquicamente" a="prompsit2uoc">
+      <i>psíquicamente</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="disciplinariamente" a="prompsit2uoc">
+      <i>disciplinariamente</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="experimentalmente" a="prompsit2uoc">
+      <i>experimentalmente</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="abdicar" a="prompsit2uoc">
+        <i>abdi</i> 
+        <par n="ata/car__vblex"/> 
+    </e>
+
+    <e lm="abdicar" a="prompsit2uoc">
+      <p>
+        <l>abdí</l> 
+        <r>abdi</r> 
+      </p>
+        <par n="atá/car__vblex"/> 
+    </e>
+
+
+    <e lm="pág." a="prompsit2uoc"><i>pág.</i><par n="campus__n"/></e>
+    <e lm="prof." a="prompsit2uoc"><i>prof.</i><par n="campus__n"/></e>
+    <e lm="vol." a="prompsit2uoc"><i>vol.</i><par n="campus__n"/></e>
+    <e lm="fig." a="prompsit2uoc"><i>fig.</i><par n="campus__n"/></e>
+    <e lm="cf." a="prompsit2uoc"><i>cf.</i><par n="campus__n"/></e>
+    <e lm="ed." a="prompsit2uoc"><i>ed.</i><par n="campus__n"/></e>
+    <e lm="p. ej." a="prompsit2uoc"><i>p.<b/>ej.</i><par n="ahora__adv"/></e>
+
+
+
+<e a="prompsit2uoc" lm="nivelación">
+  <i>nivelaci</i>
+  <par n="acci/ón__n"/>
+</e>
+
+<e a="prompsit2uoc" lm="varianza">
+  <i>varianza</i>
+  <par n="abeja__n"/>
+</e>
+
+
+    <e lm="esgrima" a="prompsit2uoc">
+      <i>esgrima</i>
+      <par n="abeja__n"/>
+    </e>
+
+     <e lm="sociopolítico" a="prompsit2uoc">
+        <i>sociopolític</i>
+        <par n="absolut/o__adj"/>
+     </e>
+
+<e lm="sociolingüista" a="prompsit2uoc"><i>sociolingüista</i><par n="accionista__n"/></e>
+
+    <e lm="villano" a="prompsit2uoc">
+      <i>villan</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="subíndice" a="prompsit2uoc">
+      <i>subíndice</i>
+      <par n="abismo__n"/>
+    </e>
+    <e lm="compilador" a="prompsit2uoc">
+      <i>compilador</i>
+      <par n="abril__n"/>
+    </e>
+
+    <e lm="demiurgo" a="prompsit2uoc">
+      <i>demiurgo</i>
+      <par n="abismo__n"/>
+    </e>
+    <e lm="en la estacada" a="prompsit2uoc">
+      <i>en<b/>la<b/>estacada</i>
+      <par n="ahora__adv"/>
+    </e>
+
+    <e lm="estacada" a="prompsit2uoc">
+      <i>estacada</i>
+      <par n="abeja__n"/>
+    </e>
+
+    <e lm="soberanista" a="prompsit2uoc">
+      <i>soberanista</i>
+      <par n="abundante__adj"/>
+    </e>
+    <e lm="bivalvo" a="prompsit2uoc">
+      <i>bivalv</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="tallarín" a="prompsit2uoc">
+      <i>tallar</i>
+      <par n="bot/ín__n"/>
+    </e>
+    <e lm="coquina" a="prompsit2uoc">
+      <i>coquina</i>
+      <par n="abeja__n"/>
+    </e>
+    <e lm="ecotasa" a="prompsit2uoc">
+      <i>ecotasa</i>
+      <par n="abeja__n"/>
+    </e>
+
+    <e lm="focal" a="prompsit2uoc">
+      <i>focal</i>
+      <par n="abdominal__adj"/>
+    </e>
+
+
+    <e lm="llegar tarde" a="prompsit2uoc"  c="para que el tagger no coja 'tarde' como nombre ">
+      <i>lleg</i>
+      <par n="aleg/ar__vblex"/>
+      <p>
+	<l><b/>tarde</l>
+	<r><j/>tarde<s n="adv"/></r>
+      </p>
+    </e>
+    <e lm="llegar tarde">
+      <p>
+        <l>llég</l>
+        <r>lleg</r>
+      </p>
+      <par n="alég/ar__vblex"/>
+      <p>
+	<l><b/>tarde</l>
+	<r><j/>tarde<s n="adv"/></r>
+      </p>
+    </e>
+
+    <e lm="empezar tarde" a="prompsit2uoc">
+      <i>emp</i>
+      <par n="emp/ezar__vblex"/>
+      <p>
+	<l><b/>tarde</l>
+	<r><j/>tarde<s n="adv"/></r>
+      </p>
+    </e>
+
+
+    <e lm="acabar tarde" a="prompsit2uoc">
+      <i>acab</i>
+      <par n="abandon/ar__vblex"/>
+      <p>
+	<l><b/>tarde</l>
+	<r><j/>tarde<s n="adv"/></r>
+      </p>
+    </e>
+    <e lm="acabar tarde" a="prompsit2uoc">
+      <p>
+        <l>acáb</l>
+        <r>acab</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+      <p>
+	<l><b/>tarde</l>
+	<r><j/>tarde<s n="adv"/></r>
+      </p>
+    </e>
+
+    <e lm="terminar tarde" a="prompsit2uoc">
+      <i>termin</i>
+      <par n="abandon/ar__vblex"/>
+      <p>
+	<l><b/>tarde</l>
+	<r><j/>tarde<s n="adv"/></r>
+      </p>
+    </e>
+    <e lm="terminar tarde" a="prompsit2uoc">
+      <p>
+        <l>termín</l>
+        <r>termin</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+      <p>
+	<l><b/>tarde</l>
+	<r><j/>tarde<s n="adv"/></r>
+      </p>
+    </e>
+
+    <e lm="salir tarde" a="prompsit2uoc">
+      <i>sal</i>
+      <par n="sal/ir__vblex"/>
+      <p>
+	<l><b/>tarde</l>
+	<r><j/>tarde<s n="adv"/></r>
+      </p>
+    </e>
+    <e lm="salir tarde" a="prompsit2uoc">
+      <p>
+        <l>sál</l>
+        <r>sal</r>
+      </p>
+      <par n="sál/ir__vblex"/>
+      <p>
+	<l><b/>tarde</l>
+	<r><j/>tarde<s n="adv"/></r>
+      </p>
+    </e>
 </section>
 
 
