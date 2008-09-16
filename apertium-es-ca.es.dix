@@ -80545,7 +80545,7 @@
     </e>
      <e lm="Efe">
         <i>Efe</i>
-        <par n="BBC__n"/>
+        <par n="ABC__np"/>
       </e>
     <e lm="BBVA">
       <i>BBVA</i>
@@ -80795,7 +80795,7 @@
       <i>www</i>
       <par n="BBC__n"/>
     </e>
-    <e lm="Ws" r="LR">
+    <e lm="Ws">
       <i>Ws</i>
       <par n="alrededores__n"/>
     </e>
@@ -82754,6 +82754,10 @@
       <i>autob</i>
       <par n="autob/ús__n"/>
     </e>
+    <e lm="repelús" c="prompsit2uoc">
+      <i>repel</i>
+      <par n="autob/ús__n"/>
+    </e>
     <e lm="autocar">
       <i>autocar</i>
       <par n="abril__n"/>
@@ -84382,8 +84386,8 @@
       <i>toma</i>
       <par n="abeja__n"/>
         <p>
-          <l>de<b/>decisiones</l>
-          <r><g>de<b/>decisiones</g></r>
+          <l><b/>de<b/>decisiones</l>
+          <r><g><b/>de<b/>decisiones</g></r>
         </p>
     </e>
     <e lm="casal">
@@ -86696,10 +86700,6 @@
       <i>cuarteto</i>
       <par n="abismo__n"/>
     </e>
-    <e lm="cuarto">
-      <i>cuarto</i>
-      <par n="abismo__n"/>
-    </e>
 
     <e lm="cuarto de aseo">
       <i>cuarto</i>
@@ -87079,8 +87079,8 @@
 	<i>cámara</i>
 	<par n="abeja__n"/>
 	<p>
-		<l><b/>de<b/>ionizaciónn</l>
-		<r><g><b/>de<b/>ionizaciónn</g></r>
+		<l><b/>de<b/>ionización</l>
+		<r><g><b/>de<b/>ionización</g></r>
 	</p>
 </e>
 <e lm="cámara de burbujas">
@@ -109824,7 +109824,7 @@
     <e lm="la nada">
       <p>
         <l>la<b/>nada</l>
-        <r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><b/>nada<s n="n"/><s n="f"/><s n="sg"/></r>
+        <r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><j/>nada<s n="n"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
     <e lm="a que">
@@ -129793,8 +129793,8 @@
       <i>sal</i>
       <par n="sal/ir__vblex"/>
         <p>
-          <l>endavant</l>
-          <r><g>endavant</g></r>
+          <l><b/>adelante</l>
+          <r><g><b/>adelante</g></r>
         </p>
    </e>
     <e lm="salir adelante">
@@ -132015,6 +132015,17 @@
       <p>
         <l>yá</l>
         <r>ya</r>
+      </p>
+      <par n="agradé/cer__vblex"/>
+    </e>
+    <e lm="pacer">
+      <i>pa</i>
+      <par n="agrade/cer__vblex"/>
+    </e>
+    <e lm="pacer">
+      <p>
+        <l>pá</l>
+        <r>pa</r>
       </p>
       <par n="agradé/cer__vblex"/>
     </e>
@@ -134722,10 +134733,6 @@
   <i>nitrato</i>
   <par n="abismo__n"/>
 </e>
-<e lm="nitrato" a=" alseoane@gmail.com" c="primera palabra léxico específico">
-  <i>nitrato</i>
-  <par n="accionista__n"/>
-</e>
 <e lm="seta" a=" alseoane@gmail.com">
   <i>seta</i>
   <par n="abeja__n"/>
@@ -135940,7 +135947,7 @@
         <par n="Afganistán__np"/>
       </e>
       <e lm="Almoines">
-        <i>Amoines</i>
+        <i>Almoines</i>
         <par n="Afganistán__np"/>
       </e>
 
@@ -136015,8 +136022,8 @@
         <i>cuarto</i>
         <par n="abismo__n"/>
  	<p>
-		<l><b/>de<b/>final</l>
-		<r><g><b/>de<b/>final</g></r>
+	  <l><b/>de<b/>final</l>
+	  <r><g><b/>de<b/>final</g></r>
 	</p>
       </e>
 
@@ -142932,7 +142939,7 @@
         <par n="ahora__adv"/>
      </e>
     <e lm="de buen grado">
-        <i>de<b/>bon<b/>grat</i>
+        <i>de<b/>buen<b/>grado</i>
         <par n="ahora__adv"/>
      </e>
 
@@ -145417,10 +145424,6 @@
 
      <e lm="máster" a="prompsit2adn">
         <i>máster</i>
-        <par n="club__n"/>
-     </e>
-     <e lm="master" a="prompsit2uoc" r="LR">
-        <i>master</i>
         <par n="club__n"/>
      </e>
      <e lm="mástil" a="prompsit2adn">
@@ -157779,6 +157782,7 @@
 <e a="prompsit" lm="bien temprano"><i>bien<b/>temprano</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="en ninguna parte"><i>en<b/>ninguna<b/>parte</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="claro está"><i>claro<b/>está</i><par n="ahora__adv"/></e>
+<e a="prompsit" lm="está claro"><i>está<b/>claro</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="al capdavall"><i>al<b/>capdavall</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="tan pronto"><i>tan<b/>pronto</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="a la una"><i>a<b/>la<b/>una</i><par n="ahora__adv"/></e>
@@ -161120,11 +161124,6 @@
   <par n="señor__n"/>
 </e>
 
-<e a="prompsit" lm="psiquiatra">
-  <i>psiquiatra</i>
-  <par n="accionista__n"/>
-</e>
-
 <e a="prompsit" lm="tragicomedia">
   <i>tragicomedia</i>
   <par n="abeja__n"/>
@@ -163292,14 +163291,14 @@
 	</p>
 	<par n="alrededores__n"/>
 </e>
-<e lm="número transcendiente">
-	<i>número<b/>transcendiente</i>
+<e lm="número trascendente">
+	<i>número<b/>trascendente</i>
 	<par n="atletismo__n"/>
 </e>
-<e lm="números transcendientes">
+<e lm="números trascendentes">
 	<p>
-		<l>números<b/>transcendientes</l>
-		<r>número<b/>transcendiente</r>
+		<l>números<b/>trascendentes</l>
+		<r>número<b/>trascendente</r>
 	</p>
 	<par n="alrededores__n"/>
 </e>
@@ -164176,6 +164175,7 @@
       <e lm="Sant Feliu de Guíxols" a="prompsit2uoc"><i>Sant<b/>Feliu<b/>de<b/>Guíxols</i><par n="Afganistán__np"/></e>
       <e lm="Sant Feliu" a="prompsit2uoc"><i>Sant<b/>Feliu</i><par n="Afganistán__np"/></e>
       <e lm="Llagostera" a="prompsit2uoc"><i>Llagostera</i><par n="Afganistán__np"/></e>
+      <e lm="Santa Coloma de Farners" a="prompsit2uoc"><i>Santa<b/>Coloma<b/>de<b/>Farners</i><par n="Afganistán__np"/></e>
 
      <e lm="frondoso" a="prompsit2uoc">
       <i>frondos</i>
@@ -164399,6 +164399,33 @@
 	<r><j/>tarde<s n="adv"/></r>
       </p>
     </e>
+
+<e a="prompsit2uoc" lm="soporte publicitario">
+  <p>
+    <l>soporte<b/>publicitario</l>
+    <r>soporte<b/>publicitario<s n="n"/><s n="m"/><s n="sg"/></r>
+  </p>  
+</e>
+<e a="prompsit2uoc" lm="soporte publicitario">
+  <p>
+    <l>soportes<b/>publicitarios</l>
+    <r>soporte<b/>publicitario<s n="n"/><s n="m"/><s n="pl"/></r>
+  </p>  
+</e>
+<e a="prompsit2uoc" lm="soporte fijo">
+  <p>
+    <l>soporte<b/>fijo</l>
+    <r>soporte<b/>fijo<s n="n"/><s n="m"/><s n="sg"/></r>
+  </p>  
+</e>
+<e a="prompsit2uoc" lm="soporte publicitario">
+  <p>
+    <l>soportes<b/>fijos</l>
+    <r>soporte<b/>fijo<s n="n"/><s n="m"/><s n="pl"/></r>
+  </p>  
+</e>
+
+
 </section>
 
 

@@ -196,7 +196,6 @@
       <cat-item tags="sent"/>
     </def-cat>
 
-
   </section-def-cats>
 
   <section-def-attrs>
@@ -241,6 +240,7 @@
       <attr-item tags="adj.itg"/>
       <attr-item tags="adj.pos"/>
       <attr-item tags="adj"/>
+      <attr-item tags="vblex.pp"/>
     </def-attr>  
 
     <def-attr n="a_adv">
@@ -491,6 +491,8 @@
       <list-item v="siglo"/>
 
     </def-list>
+
+
   </section-def-lists>
   <section-def-macros>
     
@@ -2996,6 +2998,7 @@
     </rule>
 
 
+		
 
     <rule> <!-- REGLA: DETERMINANT NOM -->
       <pattern>
