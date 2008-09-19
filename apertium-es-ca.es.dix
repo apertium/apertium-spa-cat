@@ -1688,7 +1688,8 @@
         </p>
       </e>
     </pardef>
-    <pardef n="menud/o__adj">
+ 
+    <pardef n="absolut/o__adj" c="sin formas superlativas">
       <e>
         <p>
           <l>as</l>
@@ -1699,30 +1700,6 @@
         <p>
           <l>a</l>
           <r>o<s n="adj"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>as</l>
-          <r>o<s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>a</l>
-          <r>o<s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>os</l>
-          <r>o<s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>o</l>
-          <r>o<s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -1738,7 +1715,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="absolut/o__adj">
+     <pardef n="abstract/o__adj" c="igual que absolut/o pero con formas superlativas">
       <e>
         <p>
           <l>as</l>
@@ -1761,6 +1738,30 @@
         <p>
           <l>o</l>
           <r>o<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísimas</l>
+          <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísima</l>
+          <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísimos</l>
+          <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ísimo</l>
+          <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -6273,151 +6274,7 @@
       </e>
     </pardef>
  
-	 <pardef n="gran/izar__vblex">
-	 
-		 <e>
-			 <p>
-				 <l>izaría</l>
-				 <r>izar<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-	 
-		 <e>
-			 <p>
-				 <l>izará</l>
-				 <r>izar<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 
-		 <e r="LR">
-			 <p>
-				 <l>izare</l>
-				 <r>izar<s n="vblex"/><s n="fts"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izando</l>
-				 <r>izar<s n="vblex"/><s n="ger"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izándo</l>
-				 <r>izar<s n="vblex"/><s n="ger"/><j/></r>
-			 </p>
-			 <par n="S__cantándo"/>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izó</l>
-				 <r>izar<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>ice</l>
-				 <r>izar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 <e>
-			 <p>
-				 <l>íce</l>
-				 <r>izar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r>
-			 </p>
-			 <par n="S__cantándo"/>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izar</l>
-				 <r>izar<s n="vblex"/><s n="inf"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izar</l>
-				 <r>izar<s n="vblex"/><s n="inf"/><j/></r>
-			 </p>
-			 <par n="S__cantar"/>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izár</l>
-				 <r>izar<s n="vblex"/><s n="inf"/><j/></r>
-			 </p>
-			 <par n="S__cantár"/>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izaba</l>
-				 <r>izar<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izara</l>
-				 <r>izar<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 
-		 <e r="LR">
-			 <p>
-				 <l>izase</l>
-				 <r>izar<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izadas</l>
-				 <r>izar<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izada</l>
-				 <r>izar<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izados</l>
-				 <r>izar<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>izado</l>
-				 <r>izar<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>iza</l>
-				 <r>izar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-		 
-		 <e>
-			 <p>
-				 <l>ice</l>
-				 <r>izar<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
-			 </p>
-		 </e>
-	 </pardef>
+
 	 
 
     <pardef n="s/aber__vblex">
@@ -70080,7 +69937,7 @@
     </e>
     <e lm="afortunado">
       <i>afortunad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="africano">
       <i>african</i>
@@ -70120,7 +69977,7 @@
     </e>
     <e lm="agudo">
       <i>agud</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="ahorrador">
       <i>ahorrador</i>
@@ -70132,7 +69989,7 @@
     </e>
     <e lm="ajardinado">
       <i>ajardinad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="ajeno">
       <i>ajen</i>
@@ -70140,7 +69997,7 @@
     </e>
     <e lm="ajetreado">
       <i>ajetread</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="alarmante">
       <i>alarmante</i>
@@ -70336,7 +70193,7 @@
     </e>
     <e lm="anticuado">
       <i>anticuad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="antidroga">
       <i>antidroga</i>
@@ -70362,10 +70219,6 @@
     <e lm="antinatural">
       <i>antinatural</i>
       <par n="abdominal__adj"/>
-    </e>
-    <e lm="antiterrorista">
-      <i>antiterrorista</i>
-      <par n="abundante__adj"/>
     </e>
     <e lm="antivirus">
       <i>antivirus</i>
@@ -70697,7 +70550,7 @@
     </e>
     <e lm="bendito">
       <i>bendit</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="beneficiario">
       <i>beneficiari</i>
@@ -70717,7 +70570,7 @@
     </e>
     <e lm="bienvenido">
       <i>bienvenid</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="bilateral">
       <i>bilateral</i>
@@ -71021,7 +70874,7 @@
     </e>
     <e lm="cerrado">
       <i>cerrad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="certero">
       <i>certer</i>
@@ -71053,6 +70906,14 @@
     </e>
     <e lm="científico">
       <i>científic</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="neurocientífico" a="prompsit2uoc">
+      <i>neurocientífic</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="neurológico" a="prompsit2uoc">
+      <i>neurológic</i>
       <par n="absolut/o__adj"/>
     </e>
     <e lm="cierto">
@@ -71129,7 +70990,7 @@
     </e>
     <e lm="colegiado">
       <i>colegiad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="colegial">
       <i>colegial</i>
@@ -71149,7 +71010,7 @@
     </e>
     <e lm="colorido">
       <i>colorid</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="colosal">
       <i>colosal</i>
@@ -71429,7 +71290,7 @@
     </e>
     <e lm="coordinado">
       <i>coordinad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="coordinador">
       <i>coordinador</i>
@@ -71553,7 +71414,7 @@
     </e>
     <e lm="cualificado">
       <i>cualificad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="cuarentavo" r="LR">
       <i>cuarentav</i>
@@ -71569,7 +71430,7 @@
     </e>
     <e lm="cuerdo">
       <i>cuerd</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="culpable">
       <i>culpable</i>
@@ -71733,11 +71594,11 @@
     </e>
     <e lm="deliberado">
       <i>deliberad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="delicado">
       <i>delicad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="delicioso">
       <i>delicios</i>
@@ -71809,7 +71670,7 @@
     </e>
     <e lm="desamparado">
       <i>desamparad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="desastroso">
       <i>desastros</i>
@@ -71817,7 +71678,7 @@
     </e>
     <e lm="descabellado">
       <i>descabellad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="descampado">
       <i>descampad</i>
@@ -71825,7 +71686,7 @@
     </e>
     <e lm="descarado">
       <i>descarad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="descendente">
       <i>descendente</i>
@@ -71857,7 +71718,7 @@
     </e>
     <e lm="desequilibrado">
       <i>desequilibrad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="desfavorable">
       <i>desfavorable</i>
@@ -71865,7 +71726,7 @@
     </e>
     <e lm="desgraciado">
       <i>desgraciad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="desierto">
       <i>desiert</i>
@@ -71877,11 +71738,11 @@
     </e>
     <e lm="desilusionado">
       <i>desilusionad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="desinteresado">
       <i>desinteresad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="desleal">
       <i>desleal</i>
@@ -71897,7 +71758,7 @@
     </e>
     <e lm="desmesurado">
       <i>desmesurad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="desnudo">
       <i>desnud</i>
@@ -71909,11 +71770,11 @@
     </e>
     <e lm="desorbitado">
       <i>desorbitad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="desordenado">
       <i>desordenad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="despectivo">
       <i>despectiv</i>
@@ -71925,11 +71786,11 @@
     </e>
     <e lm="despistado">
       <i>despistad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="desprotegido">
       <i>desprotegid</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="destacable">
       <i>destacable</i>
@@ -71949,7 +71810,7 @@
     </e>
     <e lm="detallado">
       <i>detallad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="determinante">
       <i>determinante</i>
@@ -72025,7 +71886,7 @@
     </e>
     <e lm="dilatado">
       <i>dilatad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="diminuto">
       <i>diminut</i>
@@ -72045,7 +71906,7 @@
     </e>
     <e lm="discapacitado">
       <i>discapacitad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="discográfico">
       <i>discográfic</i>
@@ -72061,7 +71922,7 @@
     </e>
     <e lm="discriminado">
       <i>discriminad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="discriminatorio">
       <i>discriminatori</i>
@@ -72121,7 +71982,7 @@
     </e>
     <e lm="divorciado">
       <i>divorciad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="divulgativo">
       <i>divulgativ</i>
@@ -72201,7 +72062,7 @@
     </e>
     <e lm="duplicado">
       <i>duplicad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="duradero">
       <i>durader</i>
@@ -72373,7 +72234,7 @@
     </e>
     <e lm="encarecido">
       <i>encarecid</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="endémico">
       <i>endémic</i>
@@ -72397,7 +72258,7 @@
     </e>
     <e lm="enladrillado">
       <i>enladrillad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="enorme">
       <i>enorme</i>
@@ -72421,7 +72282,7 @@
     </e>
     <e lm="envasado">
       <i>envasad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="envidiable">
       <i>envidiable</i>
@@ -72461,7 +72322,7 @@
     </e>
     <e lm="escalonado">
       <i>escalonad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="escandaloso">
       <i>escandalos</i>
@@ -72485,7 +72346,7 @@
     </e>
     <e lm="escueto">
       <i>escuet</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="escultural">
       <i>escultural</i>
@@ -72509,7 +72370,7 @@
     </e>
     <e lm="esfumado">
       <i>esfumad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="espacial">
       <i>espacial</i>
@@ -72745,7 +72606,7 @@
     </e>
     <e lm="exitoso">
       <i>exitos</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="expansivo">
       <i>expansiv</i>
@@ -72781,7 +72642,7 @@
     </e>
     <e lm="exquisito">
       <i>exquisit</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="extensible">
       <i>extensible</i>
@@ -72861,7 +72722,7 @@
     </e>
     <e lm="fallido">
       <i>fallid</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="falso">
       <i>fals</i>
@@ -73113,7 +72974,7 @@
     </e>
     <e lm="frito">
       <i>frit</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="frívolo">
       <i>frívol</i>
@@ -73341,7 +73202,7 @@
     </e>
     <e lm="grueso">
       <i>grues</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="gráfico">
       <i>gráfic</i>
@@ -73509,7 +73370,7 @@
     </e>
     <e lm="húmedo">
       <i>húmed</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="húngaro">
       <i>húngar</i>
@@ -73565,7 +73426,7 @@
     </e>
     <e lm="ilimitado">
       <i>ilimitad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="iluso">
       <i>ilus</i>
@@ -73701,7 +73562,7 @@
     </e>
     <e lm="inacabado">
       <i>inacabad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="inaccesible">
       <i>inaccesible</i>
@@ -73713,7 +73574,7 @@
     </e>
     <e lm="inadecuado">
       <i>inadecuad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="inadmisible">
       <i>inadmisible</i>
@@ -73741,7 +73602,7 @@
     </e>
     <e lm="incapacitado">
       <i>incapacitad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="incapaz">
       <i>incapa</i>
@@ -73793,7 +73654,7 @@
     </e>
     <e lm="incontrolado">
       <i>incontrolad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="incorrecto">
       <i>incorrect</i>
@@ -73817,7 +73678,7 @@
     </e>
     <e lm="indebido">
       <i>indebid</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="indefenso">
       <i>indefens</i>
@@ -73825,7 +73686,7 @@
     </e>
     <e lm="indefinido">
       <i>indefinid</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="independiente">
       <i>independiente</i>
@@ -73857,7 +73718,7 @@
     </e>
     <e lm="indiscriminado">
       <i>indiscriminad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="indiscutible">
       <i>indiscutible</i>
@@ -73873,7 +73734,7 @@
     </e>
     <e lm="indocumentado">
       <i>indocumentad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="indonesio">
       <i>indonesi</i>
@@ -73889,7 +73750,7 @@
     </e>
     <e lm="industrializado">
       <i>industrializad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="indígena">
       <i>indígena</i>
@@ -73909,7 +73770,7 @@
     </e>
     <e lm="inesperado">
       <i>inesperad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="inestable">
       <i>inestable</i>
@@ -73969,7 +73830,7 @@
     </e>
     <e lm="informatizado">
       <i>informatizad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="informático">
       <i>informátic</i>
@@ -73985,7 +73846,7 @@
     </e>
     <e lm="infundado">
       <i>infundad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="ingenioso">
       <i>ingenios</i>
@@ -74029,7 +73890,7 @@
     </e>
     <e lm="injustificado">
       <i>injustificad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="injusto">
       <i>injust</i>
@@ -74153,7 +74014,7 @@
     </e>
     <e lm="insospechado">
       <i>insospechad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="insostenible">
       <i>insostenible</i>
@@ -74217,7 +74078,7 @@
     </e>
     <e lm="intencionado">
       <i>intencionad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="intensivo">
       <i>intensiv</i>
@@ -74601,7 +74462,7 @@
     </e>
     <e lm="listado">
       <i>listad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="listo">
       <i>list</i>
@@ -74753,7 +74614,7 @@
     </e>
     <e lm="maldito">
       <i>maldit</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="malicioso">
       <i>malicios</i>
@@ -74781,7 +74642,7 @@
     </e>
     <e lm="malvado">
       <i>malvad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="mamífero">
       <i>mamífero</i>
@@ -74805,7 +74666,7 @@
     </e>
     <e lm="marginado">
       <i>marginad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="marginal">
       <i>marginal</i>
@@ -74953,8 +74814,15 @@
     </e>
     <e lm="menudo">
       <i>menud</i>
-      <par n="menud/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
+    <e lm="menudo" r="LR">
+      <i>menud</i>
+      <par n="cuánt/o__adj"/>
+    </e>
+
+
+
     <e lm="a menudo">
       <i>a<b/>menudo</i>
       <par n="ahora__adv"/>
@@ -75111,7 +74979,7 @@
     </e>
     <e lm="mojado">
       <i>mojad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="molesto">
       <i>molest</i>
@@ -75167,7 +75035,7 @@
     </e>
     <e lm="mudo">
       <i>mud</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="multicultural">
       <i>multicultural</i>
@@ -75391,7 +75259,7 @@
     </e>
     <e lm="normalizado">
       <i>normalizad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="normativo">
       <i>normativ</i>
@@ -75808,7 +75676,7 @@
     </e>
     <e lm="peludo">
       <i>pelud</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="penal">
       <i>penal</i>
@@ -75976,7 +75844,7 @@
     </e>
     <e lm="plagado">
       <i>plagad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="planetario">
       <i>planetari</i>
@@ -76108,7 +75976,7 @@
     </e>
     <e lm="posicionado">
       <i>posicionad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="positivo">
       <i>positiv</i>
@@ -76148,7 +76016,7 @@
     </e>
     <e lm="preciado">
       <i>preciad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="precioso">
       <i>precios</i>
@@ -76164,7 +76032,7 @@
     </e>
     <e lm="predeterminado">
       <i>predeterminad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="predilecto">
       <i>predilect</i>
@@ -76385,7 +76253,7 @@
     </e>
     <e lm="provisto">
       <i>provist</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="provocador">
       <i>provocador</i>
@@ -76533,7 +76401,7 @@
     </e>
     <e lm="rapado">
       <i>rapad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="raquítico">
       <i>raquític</i>
@@ -76649,7 +76517,7 @@
     </e>
     <e lm="reiterado">
       <i>reiterad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="reivindicativo">
       <i>reivindicativ</i>
@@ -76681,7 +76549,7 @@
     </e>
     <e lm="remunerado">
       <i>remunerad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="renovable">
       <i>renovable</i>
@@ -76693,11 +76561,11 @@
     </e>
     <e lm="repatriado">
       <i>repatriad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="repentino">
       <i>repentin</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="repleto">
       <i>replet</i>
@@ -76901,11 +76769,11 @@
     </e>
     <e lm="sagrado">
       <i>sagrad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="salado">
       <i>salad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="salarial">
       <i>salarial</i>
@@ -76993,7 +76861,7 @@
     </e>
     <e lm="sellado">
       <i>sellad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="semanal">
       <i>semanal</i>
@@ -77017,7 +76885,7 @@
     </e>
     <e lm="sensato">
       <i>sensat</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="sensible">
       <i>sensible</i>
@@ -77050,6 +76918,10 @@
     <e lm="sepulto">
       <i>sepult</i>
       <par n="absolut/o__adj"/>
+    </e>
+    <e lm="sepultado">
+      <i>sepultad</i>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="sereno">
       <i>seren</i>
@@ -77137,7 +77009,7 @@
     </e>
     <e lm="siniestrado">
       <i>siniestrad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="siniestro">
       <i>siniestr</i>
@@ -77177,7 +77049,7 @@
     </e>
     <e lm="sobredimensionado">
       <i>sobredimensionad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="sobrenatural">
       <i>sobrenatural</i>
@@ -77305,7 +77177,7 @@
     </e>
     <e lm="subdesarrollado">
       <i>subdesarrollad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="subjetivo">
       <i>subjetiv</i>
@@ -77675,7 +77547,7 @@
     </e>
     <e lm="travieso">
       <i>travies</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="treinteavo" r="LR">
       <i>treinteav</i>
@@ -77851,7 +77723,7 @@
     </e>
     <e lm="vacunado">
       <i>vacunad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="vacío">
       <i>vací</i>
@@ -80821,6 +80693,10 @@
     </e>
     <e lm="abeja">
       <i>abeja</i>
+      <par n="abeja__n"/>
+    </e>
+    <e lm="siesta">
+      <i>siesta</i>
       <par n="abeja__n"/>
     </e>
     <e lm="abismo">
@@ -84962,6 +84838,10 @@
       <i>científic</i>
       <par n="abogad/o__n"/>
     </e>
+    <e lm="neurocientífico" a="prompsit2uoc">
+      <i>neurocientífic</i>
+      <par n="abogad/o__n"/>
+    </e>
     <e lm="cierre">
       <i>cierre</i>
       <par n="abismo__n"/>
@@ -86918,7 +86798,7 @@
 </e>
     <e lm="cámara">
       <i>cámara</i>
-      <par n="accionista__n"/>
+      <par n="abeja__n"/>
     </e>
 <e lm="cámara anecoica">
 	<i>cámara<b/>anecoica</i>
@@ -100383,7 +100263,7 @@
       <e lm="ser querido">
         <p>
           <l>seres<b/>queridos</l>
-          <r>ser<b/>querido<s n="n"/><s n="m"/><s n="sg"/></r>
+          <r>ser<b/>querido<s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
 <e lm="San Juan">
@@ -100485,7 +100365,7 @@
     </e>
     <e lm="señoría">
       <i>señoría</i>
-      <par n="accionista__n"/>
+      <par n="abeja__n"/>
     </e>
     <e lm="show">
       <i>show</i>
@@ -106900,7 +106780,7 @@
       <i>Maó</i>
       <par n="Afganistán__np"/>
     </e>
-    <e r="LR" lm="Mahón">
+    <e lm="Mahón">
       <i>Mahón</i>
       <par n="Afganistán__np"/>
     </e>
@@ -109825,6 +109705,12 @@
       <p>
         <l>la<b/>nada</l>
         <r>el<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><j/>nada<s n="n"/><s n="f"/><s n="sg"/></r>
+      </p>
+    </e>
+    <e lm="nada" r="RL" c="para traducir 'el no-res' ca-es, no está LR porque interfiere con otros 'nada'">
+      <p>
+        <l>nada</l>
+        <r>nada<s n="n"/><s n="f"/><s n="sg"/></r>
       </p>
     </e>
     <e lm="a que">
@@ -116099,7 +115985,7 @@
       </e>
      <e lm="emérito">
       <i>emérit</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
      <e lm="ubicuo">
       <i>ubicu</i>
@@ -132184,7 +132070,7 @@
     </e>
     <e lm="privado" a="mginesti">
       <i>privad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="Nueva York" a="mginesti">
       <i>Nueva<b/>York</i>
@@ -132367,7 +132253,7 @@
       <i>Xixona</i>
       <par n="Afganistán__np"/>
     </e>
-    <e lm="Jijona" r="LR" a="mginesti">
+    <e lm="Jijona" a="mginesti">
       <i>Jijona</i>
       <par n="Afganistán__np"/>
     </e>
@@ -132491,7 +132377,7 @@
 
 <e lm="elevado" a="mginesti">
   <i>elevad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e lm="de acuerdo" a="mginesti">
   <i>de<b/>acuerdo</i>
@@ -132756,6 +132642,16 @@
         <r><g><b/>sueño</g></r>
       </p>
     </e>
+
+    <e lm="dar igual" c="prompsit2uoc">
+      <i>d</i>
+      <par n="d/ar__vblex"/>
+      <p>
+        <l><b/>igual</l>
+        <r><g><b/>igual</g></r>
+      </p>
+    </e>
+
     <e lm="tener cuidado">
       <i>t</i>
       <par n="t/ener__vblex"/>
@@ -133166,11 +133062,11 @@
         <par n="abstract/o__adj"/>
       </e>
 
-      		<e lm="pasado">
-			<i>pasad</i>
-			<par n="absolut/o__adj"/>
-		</e>
-
+      	    <e lm="pasado">
+	      <i>pasad</i>
+	      <par n="abstract/o__adj"/>
+	    </e>
+	    
             <e lm="pasada">
         <i>pasada</i>
         <par n="abeja__n"/>
@@ -135317,10 +135213,6 @@
   <i>aplicador</i>
   <par n="abril__n"/>
 </e>
-<e lm="adecuado" a=" alseoane@gmail.com">
-  <i>adecuad</i>
-  <par n="absolut/o__adj"/>
-</e>
 <e lm="aditivo" a=" alseoane@gmail.com">
   <i>aditivo</i>
   <par n="abismo__n"/>
@@ -135615,11 +135507,11 @@
 </e>
 <e lm="desnatado" a=" alseoane@gmail.com">
   <i>desnatad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e lm="desapercibido" a=" alseoane@gmail.com">
   <i>desapercibid</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e lm="ardor" a=" alseoane@gmail.com">
   <i>ardor</i>
@@ -135741,7 +135633,7 @@
 </e>
 <e lm="fermentado" a=" alseoane@gmail.com">
   <i>fermentad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e lm="edema" a=" alseoane@gmail.com">
   <i>edema</i>
@@ -135899,7 +135791,7 @@
 
       <e lm="animado">
         <i>animad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
       </e>
 
       <e lm="asunto">
@@ -136322,7 +136214,7 @@
 
       <e lm="marcado">
         <i>marcad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
       </e>
 
       <e lm="Mar">
@@ -136393,7 +136285,7 @@
 
       <e lm="moderado">
         <i>moderad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
       </e>
 
       <e lm="Monzó">
@@ -136782,7 +136674,7 @@
 
       <e lm="seguido">
         <i>seguid</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
       </e>
 
       <e lm="Senado">
@@ -137019,7 +136911,7 @@
     </e>
     <e lm="puntiagudo">
       <i>puntiagud</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     <e lm="anárquico">
       <i>anárquic</i>
@@ -137669,7 +137561,7 @@
 
      <e lm="alocado" a="prompsit2adn">
         <i>alocad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="alpinista" a="prompsit2adn">
@@ -138556,7 +138448,7 @@
 
      <e lm="automatizado" a="prompsit2adn">
         <i>automatizad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="automatizar" a="prompsit2adn">
@@ -138599,7 +138491,7 @@
 
      <e lm="avispado" a="prompsit2adn">
         <i>avispad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="avistar" a="prompsit2adn">
@@ -140701,7 +140593,7 @@
 
      <e lm="desafortunado" a="prompsit2adn">
         <i>desafortunad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="desagraviar" a="prompsit2adn">
@@ -141173,7 +141065,7 @@
 
      <e lm="despiadado" a="prompsit2adn">
         <i>despiadad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="despreciable" a="prompsit2adn">
@@ -141528,7 +141420,7 @@
 
      <e lm="dolorido" a="prompsit2adn">
         <i>dolorid</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="doloso" a="prompsit2adn">
@@ -142143,7 +142035,7 @@
 
      <e lm="ensangrentado" a="prompsit2adn">
         <i>ensangrentad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="ensangrentar" a="prompsit2adn">
@@ -142744,7 +142636,7 @@
      </e>
      <e lm="innato">
         <i>innat</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
      <e lm="inventiva">
         <i>inventiva</i>
@@ -143054,7 +142946,7 @@
         <par n="absolut/o__adj"/>
      </e>
 
-     <e lm="habilidoso" r="LR">
+     <e lm="habilidoso">
         <i>habilidos</i>
         <par n="absolut/o__adj"/>
      </e>
@@ -143744,11 +143636,18 @@
         <i>granero</i>
         <par n="abismo__n"/>
      </e>
+    <e lm="granizar">
+      <i>grani</i>
+      <par n="abalan/zar__vblex"/>
+    </e>
+    <e lm="granizar">
+      <p>
+        <l>graní</l>
+        <r>grani</r>
+      </p>
+      <par n="abalán/zar__vblex"/>
+    </e>
 
-     <e lm="granizar" a="prompsit2adn">
-        <i>gran</i>
-        <par n="gran/izar__vblex"/>
-     </e>
 
      <e lm="granjear" a="prompsit2adn">
         <i>granje</i>
@@ -143882,7 +143781,7 @@
 
      <e lm="holgado" a="prompsit2adn">
         <i>holgad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="holgura" a="prompsit2adn">
@@ -144317,7 +144216,7 @@
 
      <e lm="indeterminado" a="prompsit2adn">
         <i>indeterminad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="indicativo" a="prompsit2adn">
@@ -144342,7 +144241,7 @@
 
      <e lm="individualizado" a="prompsit2adn">
         <i>individualizad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="individualizar" a="prompsit2adn">
@@ -144548,7 +144447,7 @@
 
      <e lm="inmovilizado" a="prompsit2adn">
         <i>inmovilizad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="inmovilizar" a="prompsit2adn">
@@ -145353,7 +145252,7 @@
 
      <e lm="malintencionado" a="prompsit2adn">
         <i>malintencionad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="malnutrición" a="prompsit2adn">
@@ -146408,7 +146307,7 @@
 
      <e lm="nuboso" r="LR" a="prompsit2adn">
         <i>nubos</i>
-        <par n="abstract/o__adj"/>
+        <par n="absolut/o__adj"/>
      </e> 
      
      <e lm="nublado" a="prompsit2adn">
@@ -146756,7 +146655,7 @@
 
      <e lm="ovalado" a="prompsit2adn">
         <i>ovalad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="óxido" a="prompsit2adn">
@@ -147630,12 +147529,12 @@
 
      <e lm="premeditado" a="prompsit2adn">
         <i>premeditad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="preñado" a="prompsit2adn">
         <i>preñad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="preñar" a="prompsit2adn">
@@ -149847,7 +149746,7 @@
 
      <e lm="sesgado" a="prompsit2adn">
         <i>sesgad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="sesgar" a="prompsit2adn">
@@ -150680,7 +150579,7 @@
 
      <e lm="tartamudo" a="prompsit2adn">
         <i>tartamud</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
       </e>
 
      <e lm="tartamudo" a="prompsit2adn">
@@ -151695,7 +151594,7 @@
 
      <e lm="viciado" a="prompsit2adn">
         <i>viciad</i>
-        <par n="absolut/o__adj"/>
+        <par n="abstract/o__adj"/>
      </e>
 
      <e lm="viciar" a="prompsit2adn">
@@ -152737,7 +152636,7 @@
   <par n="BBC__n"/>
 </e>
 <e lm="Acnur" a="prompsit2adn">
-  <i>ACNUR</i>
+  <i>Acnur</i>
   <par n="BBVA__n"/>
 </e>
 <e lm="YZR" a="prompsit2adn">
@@ -152837,7 +152736,7 @@
   <par n="BBC__n"/>
 </e>
 <e lm="Macba" a="prompsit2adn">
-  <i>MACBA</i>
+  <i>Macba</i>
   <par n="BBVA__n"/>
 </e>
 <e lm="JPL" a="prompsit2adn">
@@ -153451,7 +153350,7 @@
 
 <e lm="ex" a="prompsit2adn"><i>ex</i><par n="gilipollas__n"/></e>
 <e lm="recién casado" a="prompsit2adn"><i>recién<b/>casad</i><par n="absolut/o__adj"/></e>
-<e lm="recién llegado" a="prompsit2adn"><i>recién<b/>llegad</i><par n="absolut/o__adj"/></e>
+<e lm="recién llegado" a="prompsit2adn"><i>recién<b/>llegad</i><par n="abstract/o__adj"/></e>
 <e lm="recién" r="LR" a="prompsit2adn"><i>recién</i><par n="ahora__adv"/></e>
 <e lm="reelegir" a="prompsit2adn"><i>reel</i><par n="corr/egir__vblex"/></e>
 
@@ -153555,7 +153454,7 @@
   <i>cayuco</i>
   <par n="abismo__n"/>
 </e>
-<e lm="pelotón" a="prompsit2adn" r="LR">
+<e lm="pelotón" a="prompsit2adn">
   <i>pelot</i>
   <par n="aluvi/ón__n"/>
 </e>
@@ -155069,7 +154968,7 @@
 </e>
 <e lm="superdotado" a="prompsit2adn">
   <i>superdotad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e lm="superdotado" a="prompsit2adn">
   <i>superdotad</i>
@@ -155626,7 +155525,7 @@
 </e>
 <e lm="huracanado" a="prompsit2adn">
   <i>huracanad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e lm="insustancial" a="prompsit2adn">
   <i>insustancial</i>
@@ -156903,7 +156802,7 @@
 <e lm="anti-reformista" a="prompsit2adn"><i>anti-reformista</i><par n="abundante__adj"/></e>
 <e lm="antirracista" a="prompsit2adn"><i>antirracista</i><par n="abundante__adj"/></e>
 <e lm="anti-terrorista" a="prompsit2adn"><i>anti-terrorista</i><par n="abundante__adj"/></e>
-<e lm="antiterrrorista" a="prompsit2adn"><i>antiterrrorista</i><par n="abundante__adj"/></e>
+<e lm="antiterrorista" a="prompsit2adn"><i>antiterrorista</i><par n="abundante__adj"/></e>
 <e lm="aperturista" a="prompsit2adn"><i>aperturista</i><par n="abundante__adj"/></e>
 <e lm="armamentista" a="prompsit2adn"><i>armamentista</i><par n="abundante__adj"/></e>
 <e lm="atlantista" a="prompsit2adn"><i>atlantista</i><par n="abundante__adj"/></e>
@@ -157055,7 +156954,7 @@
 <e lm="anti-reformista" a="prompsit2adn"><i>anti-reformista</i><par n="accionista__n"/></e>
 <e lm="antirracista" a="prompsit2adn"><i>antirracista</i><par n="accionista__n"/></e>
 <e lm="anti-terrorista" a="prompsit2adn"><i>anti-terrorista</i><par n="accionista__n"/></e>
-<e lm="antiterrrorista" a="prompsit2adn"><i>antiterrrorista</i><par n="accionista__n"/></e>
+<e lm="antiterrorista" a="prompsit2adn"><i>antiterrorista</i><par n="accionista__n"/></e>
 <e lm="aperturista" a="prompsit2adn"><i>aperturista</i><par n="accionista__n"/></e>
 <e lm="armamentista" a="prompsit2adn"><i>armamentista</i><par n="accionista__n"/></e>
 <e lm="atlantista" a="prompsit2adn"><i>atlantista</i><par n="accionista__n"/></e>
@@ -158783,11 +158682,11 @@
 </e>
 <e a="prompsit" lm="adecuado">
   <i>adecuad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="roto">
   <i>rot</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="indigno">
   <i>indign</i>
@@ -158799,11 +158698,11 @@
 </e>
 <e a="prompsit" lm="apropiado">
   <i>apropiad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="querido">
   <i>querid</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="aranés">
   <i>aran</i>
@@ -158815,11 +158714,11 @@
 </e>
 <e a="prompsit" lm="articulado">
   <i>articulad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="logrado">
   <i>lograd</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="bajomedieval">
   <i>bajomedieval</i>
@@ -158855,7 +158754,7 @@
 </e>
 <e a="prompsit" lm="controlado">
   <i>controlad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="céltico">
   <i>céltic</i>
@@ -158891,7 +158790,7 @@
 </e>
 <e a="prompsit" lm="disputado">
   <i>disputad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="equino">
   <i>equin</i>
@@ -158899,7 +158798,7 @@
 </e>
 <e a="prompsit" lm="especializado">
   <i>especializad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="estamental">
   <i>estamental</i>
@@ -158979,7 +158878,7 @@
 </e>
 <e a="prompsit" lm="jubilado">
   <i>jubilad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="macizo">
   <i>maciz</i>
@@ -159023,7 +158922,7 @@
 </e>
 <e a="prompsit" lm="privilegiado">
   <i>privilegiad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="procedimental">
   <i>procedimental</i>
@@ -159041,9 +158940,9 @@
   <i>providencial</i>
   <par n="abdominal__adj"/>
 </e>
-<e a="prompsit" lm="quadrado">
-  <i>quadrad</i>
-  <par n="absolut/o__adj"/>
+<e a="prompsit" lm="cuadrado">
+  <i>cuadrad</i>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="quilométrico">
   <i>quilométric</i>
@@ -159155,7 +159054,7 @@
 </e>
 <e a="prompsit" lm="afeminado">
   <i>afeminad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="nupcial">
   <i>nupcial</i>
@@ -159163,7 +159062,7 @@
 </e>
 <e a="prompsit" lm="desmañado">
   <i>desmañad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="graso">
   <i>gras</i>
@@ -159179,7 +159078,7 @@
 </e>
 <e a="prompsit" lm="bendecido">
   <i>bendecid</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="lascivo">
   <i>lasciv</i>
@@ -159215,11 +159114,11 @@
 </e>
 <e a="prompsit" lm="averrugado">
   <i>averrugad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="abestiado">
   <i>abestiad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="abyecto">
   <i>abyect</i>
@@ -159231,7 +159130,7 @@
 </e>
 <e a="prompsit" lm="aficionado">
   <i>aficionad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="culminante">
   <i>culminante</i>
@@ -159267,7 +159166,7 @@
 </e>
 <e a="prompsit" lm="accidentado">
   <i>accidentad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="endogámico">
   <i>endogámic</i>
@@ -159275,7 +159174,7 @@
 </e>
 <e a="prompsit" lm="soleado">
   <i>solead</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="simpatizante">
   <i>simpatizante</i>
@@ -159311,7 +159210,7 @@
 </e>
 <e a="prompsit" lm="extremado">
   <i>extremad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="ineludible">
   <i>ineludible</i>
@@ -159343,7 +159242,7 @@
 </e>
 <e a="prompsit" lm="controvertido">
   <i>controvertid</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="aberrante">
   <i>aberrante</i>
@@ -159379,7 +159278,7 @@
 </e>
 <e a="prompsit" lm="desfavorecido">
   <i>desfavorecid</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="cándido">
   <i>cándid</i>
@@ -159391,7 +159290,7 @@
 </e>
 <e a="prompsit" lm="ilimitado">
   <i>ilimitad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="inestimable">
   <i>inestimable</i>
@@ -159423,7 +159322,7 @@
 </e>
 <e a="prompsit" lm="osado">
   <i>osad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="ilerdense">
   <i>ilerdense</i>
@@ -159443,7 +159342,7 @@
 </e>
 <e a="prompsit" lm="introvertido">
   <i>introvertid</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="nubloso">
   <i>nublos</i>
@@ -159507,7 +159406,7 @@
 </e>
 <e a="prompsit" lm="ahumado">
   <i>ahumad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="vinícola">
   <i>vinícola</i>
@@ -159523,7 +159422,7 @@
 </e>
 <e a="prompsit" lm="empinado" r="RL">
   <i>empinad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="trashumante">
   <i>trashumante</i>
@@ -159539,7 +159438,7 @@
 </e>
 <e a="prompsit" lm="ilusionado">
   <i>ilusionad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 <e a="prompsit" lm="psicopedagógico">
   <i>psicopedagógic</i>
@@ -161631,7 +161530,7 @@
 
 <e a="prompsit" lm="minorado">
   <i>minorad</i>
-  <par n="absolut/o__adj"/>
+  <par n="abstract/o__adj"/>
 </e>
 
 <e a="prompsit" lm="liquidable">
@@ -162923,7 +162822,7 @@
     
     <e a="prompsit2ecl" lm="globalizado">
       <i>globalizad</i>
-      <par n="absolut/o__adj"/>
+      <par n="abstract/o__adj"/>
     </e>
     
     <e a="prompsit2ecl" lm="colaborador">
@@ -163966,6 +163865,10 @@
   <i>culturalismo</i>
   <par n="abismo__n"/>
 </e>
+<e a="prompsit2uoc" lm="atavismo">
+  <i>atavismo</i>
+  <par n="abismo__n"/>
+</e>
 
 <e lm="eurocentrismo" a="prompsit2uoc"><i>eurocentrismo</i><par n="abismo__n"/></e>
 
@@ -164176,9 +164079,20 @@
       <e lm="Sant Feliu" a="prompsit2uoc"><i>Sant<b/>Feliu</i><par n="Afganistán__np"/></e>
       <e lm="Llagostera" a="prompsit2uoc"><i>Llagostera</i><par n="Afganistán__np"/></e>
       <e lm="Santa Coloma de Farners" a="prompsit2uoc"><i>Santa<b/>Coloma<b/>de<b/>Farners</i><par n="Afganistán__np"/></e>
+      <e lm="Zagreb" a="prompsit2uoc"><i>Zagreb</i><par n="Afganistán__np"/></e>
+      <e lm="Tajo" a="prompsit2uoc"><i>Tajo</i><par n="Afganistán__np"/></e>
+      <e lm="Duero" a="prompsit2uoc"><i>Duero</i><par n="Afganistán__np"/></e>
 
      <e lm="frondoso" a="prompsit2uoc">
       <i>frondos</i>
+      <par n="abstract/o__adj"/>
+    </e>
+     <e lm="desalmado" a="prompsit2uoc">
+      <i>desalmad</i>
+      <par n="abstract/o__adj"/>
+    </e>
+     <e lm="mezquino" a="prompsit2uoc">
+      <i>mezquin</i>
       <par n="abstract/o__adj"/>
     </e>
     <e lm="pernoctar" a="prompsit2uoc">
@@ -164238,6 +164152,10 @@
   <par n="acci/ón__n"/>
 </e>
 
+<e a="prompsit2uoc" lm="cromañón">
+  <i>cromañ</i>
+  <par n="aluvi/ón__n"/>
+</e>
 <e a="prompsit2uoc" lm="varianza">
   <i>varianza</i>
   <par n="abeja__n"/>
@@ -164273,8 +164191,24 @@
       <i>demiurgo</i>
       <par n="abismo__n"/>
     </e>
+    <e lm="galope" a="prompsit2uoc">
+      <i>galope</i>
+      <par n="abismo__n"/>
+    </e>
+    <e lm="carrete" a="prompsit2uoc">
+      <i>carrete</i>
+      <par n="abismo__n"/>
+    </e>
+    <e lm="tricornio" a="prompsit2uoc">
+      <i>tricornio</i>
+      <par n="abismo__n"/>
+    </e>
     <e lm="en la estacada" a="prompsit2uoc">
       <i>en<b/>la<b/>estacada</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="en un santiamén" a="prompsit2uoc">
+      <i>en<b/>un<b/>santiamén</i>
       <par n="ahora__adv"/>
     </e>
 
@@ -164318,7 +164252,7 @@
 	<r><j/>tarde<s n="adv"/></r>
       </p>
     </e>
-    <e lm="llegar tarde">
+    <e lm="llegar tarde" a="prompsit2uoc">
       <p>
         <l>llég</l>
         <r>lleg</r>
@@ -164400,6 +164334,14 @@
       </p>
     </e>
 
+    <e lm="salvo en" a="prompsit2uoc">
+      <i>salvo</i>
+      <par n="a__pr"/>
+      <p>
+	<l><b/>en</l>
+	<r><j/>en<s n="pr"/></r>
+      </p>
+    </e>
 <e a="prompsit2uoc" lm="soporte publicitario">
   <p>
     <l>soporte<b/>publicitario</l>
@@ -164425,6 +164367,287 @@
   </p>  
 </e>
 
+
+<e a="prompsit2uoc" lm="chivo expiatorio">
+  <p>
+    <l>chivo<b/>expiatorio</l>
+    <r>chivo<b/>expiatorio<s n="n"/><s n="m"/><s n="sg"/></r>
+  </p>  
+</e>
+<e a="prompsit2uoc" lm="chivo expiatorio">
+  <p>
+    <l>chivos<b/>expiatorios</l>
+    <r>chivo<b/>expiatorio<s n="n"/><s n="m"/><s n="pl"/></r>
+  </p>  
+</e>
+
+
+     <e lm="exhumar" a="prompsit2uoc">
+        <i>exhum</i>
+        <par n="abandon/ar__vblex"/>
+      </e>
+
+     <e lm="exhumar" a="prompsit2uoc">
+        <p>
+          <l>exhúm</l>
+          <r>exhum</r>
+        </p>
+        <par n="abandón/ar__vblex"/>
+     </e>
+
+    <e lm="pervivir" a="prompsit2uoc">
+      <i>perviv</i>
+      <par n="abat/ir__vblex"/>
+    </e>
+    <e lm="pervivir" a="prompsit2uoc">
+      <p>
+        <l>pervív</l>
+        <r>perviv</r>
+      </p>
+      <par n="abát/ir__vblex"/>
+    </e>
+
+
+    <e lm="ganso" a="prompsit2uoc">
+      <i>gans</i>
+      <par n="abogad/o__n"/>
+    </e>
+     <e lm="sacrosanto" a="prompsit2uoc">
+        <i>sacrosan</i>
+        <par n="san/to__adj"/>
+      </e>
+     <e lm="de tres al cuarto" a="prompsit2uoc">
+        <i>de<b/>tres<b/>al<b/>cuarto</i>
+        <par n="multimedia__adj"/>
+      </e>
+     <e lm="de pacotilla" a="prompsit2uoc">
+        <i>de<b/>pacotilla</i>
+        <par n="multimedia__adj"/>
+      </e>
+
+
+     <e a="prompsit2uoc" lm="bananero">
+       <i>bananer</i>
+       <par n="absolut/o__adj"/>
+     </e>
+     
+     <e lm="vandálico" a="prompsit2uoc">
+       <i>vandálic</i>
+       <par n="absolut/o__adj"/>
+     </e>
+
+    <e lm="antitaurino" a="prompsit2uoc">
+      <i>antitaurin</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="enardecer" a="prompsit2uoc">
+      <i>enarde</i>
+      <par n="agrade/cer__vblex"/>
+    </e>
+    <e lm="enardecer" a="prompsit2uoc">
+      <p>
+        <l>enardé</l>
+        <r>enarde</r>
+      </p>
+      <par n="agradé/cer__vblex"/>
+    </e>
+
+    <e lm="enfervorizar" a="prompsit2uoc">
+      <i>enfervori</i>
+      <par n="abalan/zar__vblex"/>
+    </e>
+    <e lm="enfervorizar" a="prompsit2uoc">
+      <p>
+        <l>enfervorí</l>
+        <r>enfervori</r>
+      </p>
+      <par n="abalán/zar__vblex"/>
+    </e>
+
+
+
+    <e lm="desfogar" a="prompsit2uoc">
+      <i>desfog</i>
+      <par n="aleg/ar__vblex"/>
+    </e>
+    <e lm="desfogar" a="prompsit2uoc">
+      <p>
+        <l>desfóg</l>
+        <r>desfog</r>
+      </p>
+      <par n="alég/ar__vblex"/>
+    </e>
+    <e lm="edificante" a="prompsit2uoc">
+      <i>edificante</i>
+      <par n="abundante__adj"/>
+    </e>
+    <e lm="bravura" a="prompsit2uoc">
+      <i>bravura</i>
+      <par n="abeja__n"/>
+    </e>
+    <e lm="aldeano" a="prompsit2uoc">
+      <i>aldean</i>
+      <par n="abogad/o__n"/>
+    </e>
+    <e lm="aldeano" a="prompsit2uoc">
+      <i>aldean</i>
+      <par n="absolut/o__adj"/>
+    </e>
+
+    <e lm="bisabuelo" a="prompsit2uoc">
+      <i>bisabuel</i>
+      <par n="abogad/o__n"/>
+    </e>
+      <e lm="metafóricamente" a="prompsit2uoc">
+	<i>metafóricamente</i>
+	<par n="ahora__adv"/>
+      </e>
+      <e lm="al galope" a="prompsit2uoc">
+	<i>al<b/>galope</i>
+	<par n="ahora__adv"/>
+      </e>
+    <e lm="dulcificar" a="prompsit2uoc">
+      <i>dulcifi</i>
+      <par n="ata/car__vblex"/>
+    </e>
+    <e lm="dulcificar" a="prompsit2uoc">
+      <p>
+        <l>dulcifí</l>
+        <r>dulcifi</r>
+      </p>
+      <par n="atá/car__vblex"/>
+    </e>
+    <e lm="purificar" a="prompsit2uoc">
+      <i>purifi</i>
+      <par n="ata/car__vblex"/>
+    </e>
+    <e lm="purificar" a="prompsit2uoc">
+      <p>
+        <l>purifí</l>
+        <r>purifi</r>
+      </p>
+      <par n="atá/car__vblex"/>
+    </e>
+
+    <e lm="etnografía" a="prompsit2uoc">
+      <i>etnografía</i>
+      <par n="abeja__n"/>
+    </e>
+    <e lm="judeocristiano" a="prompsit2uoc">
+      <i>judeocristian</i>
+      <par n="absolut/o__adj"/>
+    </e>
+
+    <e lm="desangrar" a="prompsit2uoc">
+      <i>desangr</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="desangrar" a="prompsit2uoc">
+      <p>
+        <l>desángr</l>
+        <r>desangr</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
+    <e lm="estresar" a="prompsit2uoc">
+      <i>estres</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="estresar" a="prompsit2uoc">
+      <p>
+        <l>estrés</l>
+        <r>estres</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
+    <e lm="descoyuntar" a="prompsit2uoc">
+      <i>descoyunt</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="descoyuntar" a="prompsit2uoc">
+      <p>
+        <l>descoyúnt</l>
+        <r>descoyunt</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
+    <e lm="decapitar" a="prompsit2uoc">
+      <i>decapit</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="decapitar" a="prompsit2uoc">
+      <p>
+        <l>decapít</l>
+        <r>decapit</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
+    <e lm="enarbolar" a="prompsit2uoc">
+      <i>enarbol</i>
+      <par n="abandon/ar__vblex"/>
+    </e>
+    <e lm="enarbolar" a="prompsit2uoc">
+      <p>
+        <l>enarból</l>
+        <r>enarbol</r>
+      </p>
+      <par n="abandón/ar__vblex"/>
+    </e>
+
+    <e lm="bovino" a="prompsit2uoc">
+      <i>bovin</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="porcino" a="prompsit2uoc">
+      <i>porcin</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="caprino" a="prompsit2uoc">
+      <i>caprin</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="cabruno" a="prompsit2uoc">
+      <i>cabrun</i>
+      <par n="absolut/o__adj"/>
+    </e>
+
+
+    <e lm="yema" a="prompsit2uoc">
+      <i>yema</i>
+      <par n="abeja__n"/>
+    </e>
+
+    <e lm="yema de huevo" a="prompsit2uoc">
+      <i>yema</i>
+      <par n="abeja__n"/>
+      <p>
+	<l><b/>de<b/>huevo</l>
+	<r><g><b/>de<b/>huevo</g></r>
+      </p>
+    </e>
+    <e lm="yema del huevo" a="prompsit2uoc">
+      <i>yema</i>
+      <par n="abeja__n"/>
+      <p>
+	<l><b/>del<b/>huevo</l>
+	<r><g><b/>del<b/>huevo</g></r>
+      </p>
+    </e>
+
+    <e lm="yema del dedo" a="prompsit2uoc">
+      <i>yema</i>
+      <par n="abeja__n"/>
+      <p>
+	<l><b/>del<b/>dedo</l>
+	<r><g><b/>del<b/>dedo</g></r>
+      </p>
+    </e>
+
+
+    <e lm="herrumbre" a="prompsit2uoc">
+      <i>herrumbre</i>
+      <par n="abeja__n"/>
+    </e>
 
 </section>
 

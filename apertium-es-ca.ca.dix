@@ -3884,36 +3884,7 @@
     </pardef>
 
 
-    <pardef n="triparti/t__adj">
-      
-      <e>
-        <p>
-          <l>des</l>
-          <r>t<s n="adj"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>da</l>
-          <r>t<s n="adj"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>ts</l>
-          <r>t<s n="adj"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>t</l>
-          <r>t<s n="adj"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
+  
 <pardef n="l/acti__adj">
       
       <e>
@@ -6445,7 +6416,8 @@
       </e>
     </pardef>
 
-    <pardef n="afortuna/t__adj">
+
+  <pardef n="triparti/t__adj" c="sense formes comparatives">
       
       <e>
         <p>
@@ -6474,6 +6446,66 @@
           <r>t<s n="adj"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
+    </pardef>
+
+    <pardef n="afortuna/t__adj" c="igual que 'triparti/t però amb formes comparatives">
+      
+      <e>
+        <p>
+          <l>des</l>
+          <r>t<s n="adj"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>da</l>
+          <r>t<s n="adj"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>ts</l>
+          <r>t<s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>t</l>
+          <r>t<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>díssimes</l>
+          <r>t<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>díssima</l>
+          <r>t<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>díssims</l>
+          <r>t<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>díssim</l>
+          <r>t<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+
+
+
+
     </pardef>
 
     <pardef n="ate/u__adj">
@@ -7022,36 +7054,7 @@
       </e>
     </pardef>
 
-    <pardef n="taur/í__adj">
-      
-      <e>
-        <p>
-          <l>es</l>
-          <r>í<s n="adj"/><s n="f"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>a</l>
-          <r>í<s n="adj"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>s</l>
-          <r>í<s n="adj"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>í</l>
-          <r>í<s n="adj"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
+  
 
     <pardef n="alacant/í__adj">
       
@@ -7080,6 +7083,64 @@
         <p>
           <l>í</l>
           <r>í<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+ <pardef n="mesqu/í__adj">
+      
+      <e>
+        <p>
+          <l>ines</l>
+          <r>í<s n="adj"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>ina</l>
+          <r>í<s n="adj"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>ins</l>
+          <r>í<s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>í</l>
+          <r>í<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>iníssimes</l>
+          <r>í<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>iníssima</l>
+          <r>í<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>iníssims</l>
+          <r>í<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>      
+      <e>
+        <p>
+          <l>iníssim</l>
+          <r>í<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -7429,7 +7490,7 @@
       </e>
     </pardef>
 
-    <pardef n="aliment/ós__adj">
+    <pardef n="aliment/ós__adj" c="com 'afectu/ós' però sense formes comparatives">
       
       <e>
         <p>
@@ -7460,7 +7521,7 @@
       </e>
     </pardef>
 
-    <pardef n="afectu/ós__adj">
+    <pardef n="afectu/ós__adj" c="com 'aliment/ós' però amb formes comparatives">
       
       <e>
         <p>
@@ -74143,11 +74204,6 @@
         <par n="afortuna/t__adj"/>
       </e>
       
-      <e lm="antiterrorista">
-        <i>antiterrorist</i>
-        <par n="agrícol/a__adj"/>
-      </e>
-      
       <e lm="antivirus">
         <i>antivirus</i>
         <par n="multimèdia__adj"/>
@@ -74992,7 +75048,15 @@
         <i>científi</i>
         <par n="acadèmi/c__adj"/>
       </e>
+      <e lm="neurocientífic" a="prompsit2uoc">
+        <i>neurocientífi</i>
+        <par n="acadèmi/c__adj"/>
+      </e>
       
+      <e lm="neurològic" a="prompsit2uoc">
+        <i>neurològi</i>
+        <par n="acadèmi/c__adj"/>
+      </e>
       <e lm="cinc-centè">
         <i>cinc-cent</i>
         <par n="ali/è__adj"/>
@@ -75768,7 +75832,7 @@
       
       <e lm="degut">
         <i>degu</i>
-        <par n="afortuna/t__adj"/>
+        <par n="triparti/t__adj"/>
       </e>
       
       <e lm="del darrere">
@@ -82774,7 +82838,7 @@
       
       <e lm="suprimit">
         <i>suprimi</i>
-        <par n="afortuna/t__adj"/>
+        <par n="triparti/t__adj"/>
       </e>
       
       <e lm="susceptible">
@@ -82849,7 +82913,7 @@
       
       <e lm="taurí">
         <i>taur</i>
-        <par n="taur/í__adj"/>
+        <par n="alacant/í__adj"/>
       </e>
       
       <e lm="teatral">
@@ -92173,6 +92237,11 @@
         <i>científi</i>
         <par n="asiàti/c__n"/>
       </e>
+      <e lm="neurocientífic" a="prompsit2uoc">
+        <i>neurocientífi</i>
+        <par n="asiàti/c__n"/>
+      </e>
+      
       
       <e lm="cigar">
         <i>cigar</i>
@@ -94417,7 +94486,7 @@
       
       <e lm="càmera">
         <i>càmer</i>
-        <par n="accionist/a__n"/>
+        <par n="abell/a__n"/>
       </e>
       
       <e lm="càncer">
@@ -99639,11 +99708,6 @@
         <par n="as__n"/>
       </e>
       
-      <e lm="gasoli">
-        <i>gasoli</i>
-        <par n="abric__n"/>
-      </e>
-      
       <e lm="gasolina">
         <i>gasolin</i>
         <par n="abell/a__n"/>
@@ -104273,9 +104337,9 @@
         <par n="abell/a__n"/>
       </e>
       
-      <e lm="morb">
-        <i>morb</i>
-        <par n="abric__n"/>
+      <e lm="morbositat">
+        <i>morbositat</i>
+        <par n="accessibilitat__n"/>
       </e>
       
       <e lm="moro">
@@ -110749,7 +110813,7 @@
       
       <e lm="senyoria">
         <i>senyori</i>
-        <par n="accionist/a__n"/>
+        <par n="abell/a__n"/>
       </e>
       
       <e lm="senzillesa">
@@ -122936,8 +123000,19 @@
     <e lm="el no-res">
       <p>
         <l>el<b/>no-res</l>
-        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><b/>no-res<s n="n"/><s n="m"/><s n="sg"/></r>
+        <r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/>no-res<s n="n"/><s n="m"/><s n="sg"/></r>
       </p>
+    </e>
+    <e lm="no-res">
+      <p>
+        <l>no-res</l>
+        <r>no-res<s n="n"/><s n="m"/><s n="sg"/></r>
+      </p>
+    </e>
+
+    <e lm="no res">
+      <i>no<b/>res</i>
+      <par n="allò__prn"/>
     </e>
 
       <e lm="en to de pau">
@@ -135242,13 +135317,9 @@
   <i>intel·lectualisme</i>
   <par n="abric__n"/>
 </e>
-<e lm="culturalisme">
-  <i>cultrualisme</i>
-  <par n="abric__n"/>
-</e>
 <e lm="privat" a="mginesti">
   <i>priva</i>
-  <par n="triparti/t__adj"/>
+  <par n="afortuna/t__adj"/>
 </e>
 <e lm="Nova York" a="mginesti">
   <i>Nova<b/>York</i>
@@ -135595,7 +135666,7 @@
 
 <e lm="elevat" a="mginesti">
   <i>eleva</i>
-  <par n="triparti/t__adj"/>
+  <par n="afortuna/t__adj"/>
 </e>
 <e lm="d'acord" a="mginesti">
   <i>d'acord</i>
@@ -135743,11 +135814,6 @@
   <i>sant<b/>i<b/>senya</i>
   <par n="campus__n"/>
 </e>
-   <e lm="pasamontañas">
-      <i>pasamontañas</i>
-      <par n="campus__n"/>
-    </e>
-
 <e lm="d'aquesta manera" a="gema">
   <i>d'aquesta<b/>manera</i>
   <par n="ahir__adv"/>
@@ -136302,7 +136368,7 @@
     <e lm="un fa" r="LR">
       <p>
         <l>un<b/>fa</l>
-        <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><j/>fa<s n="m"/><s n="m"/><s n="sp"/></r>
+        <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/><j/>fa<s n="n"/><s n="m"/><s n="sp"/></r>
       </p>
     </e>
  
@@ -136753,7 +136819,7 @@
 
             <e lm="tossut">
         <i>tossu</i>
-        <par n="afortuna/t__adj"/>
+        <par n="triparti/t__adj"/>
       </e>
 
             <e lm="titllar">
@@ -136793,7 +136859,7 @@
 
       <e lm="suposat">
         <i>suposa</i>
-        <par n="afortuna/t__adj"/>
+        <par n="triparti/t__adj"/>
       </e>
 
       <e lm="sobiranista">
@@ -138506,11 +138572,11 @@
 </e>
 <e lm="descremat" a=" alseoane@gmail.com">
   <i>descrema</i>
-  <par n="triparti/t__adj"/>
+  <par n="afortuna/t__adj"/>
 </e>
 <e lm="desapercebut" a=" alseoane@gmail.com">
   <i>desapercebu</i>
-  <par n="triparti/t__adj"/>
+  <par n="afortuna/t__adj"/>
 </e>
 <e lm="cremor" a=" alseoane@gmail.com">
   <i>cremor</i>
@@ -138627,7 +138693,7 @@
 </e>
 <e lm="fermentat" a=" alseoane@gmail.com">
   <i>fermenta</i>
-  <par n="triparti/t__adj"/>
+  <par n="afortuna/t__adj"/>
 </e>
 <e lm="edema" a=" alseoane@gmail.com">
   <i>edem</i>
@@ -138682,10 +138748,6 @@
   <par n="contde__pr"/>   
 </e>
 <e lm="nounat" a="mikel">
-  <i>nouna</i>
-  <par n="triparti/t__adj"/>
-</e>
-<e lm="nounat" a="mikel" r="RL">
   <i>nouna</i>
   <par n="triparti/t__adj"/>
 </e>
@@ -138881,11 +138943,11 @@
         <i>entre</i>
         <par n="a__pr"/>
       </e>
-		
-		<e lm="anomenat">
-			<i>anomena</i>
-			<par n="afortuna/t__adj"/>
-		</e>
+      
+      <e lm="anomenat">
+	<i>anomena</i>
+	<par n="triparti/t__adj"/>
+      </e>
       
       <e lm="aleshores">
         <i>aleshores</i>
@@ -140224,17 +140286,17 @@
 
      <e lm="eixelebrat" a="prompsit2adn">
         <i>eixelebra</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="destrellatat" r="LR" a="prompsit2adn">
         <i>destrellata</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="esbojarrat" r="LR" a="prompsit2adn">
         <i>esbojarra</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="alpinista" a="prompsit2adn">
@@ -140920,7 +140982,7 @@
 
      <e lm="automatitzat" a="prompsit2adn">
         <i>automatitza</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="automatitzar" a="prompsit2adn">
@@ -140955,7 +141017,7 @@
 
      <e lm="espavilat" a="prompsit2adn">
         <i>espavila</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="avivar" a="prompsit2adn">
@@ -142659,7 +142721,7 @@
 
      <e lm="desafortunat" a="prompsit2adn">
         <i>desafortuna</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="desagreujar" a="prompsit2adn">
@@ -142934,7 +142996,7 @@
 
      <e lm="despietat" a="prompsit2adn">
         <i>despieta</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="menyspreable" a="prompsit2adn">
@@ -143208,7 +143270,7 @@
 
      <e lm="adolorit" a="prompsit2adn">
         <i>adolori</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="dolós" a="prompsit2adn">
@@ -143596,7 +143658,7 @@
 
      <e lm="ensangonat" a="prompsit2adn">
         <i>ensangona</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="ensagnar" a="prompsit2adn">
@@ -144876,7 +144938,7 @@
 
      <e lm="folgat" a="prompsit2adn">
         <i>folga</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="folgança" a="prompsit2adn">
@@ -145240,7 +145302,7 @@
 
      <e lm="indeterminat" a="prompsit2adn">
         <i>indetermina</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="indicatiu" a="prompsit2adn">
@@ -145265,7 +145327,7 @@
 
      <e lm="individualitzat" a="prompsit2adn">
         <i>individualitza</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="individualitzar" a="prompsit2adn">
@@ -145392,11 +145454,6 @@
         <par n="abander/ar__vblex"/>
      </e>
 
-     <e lm="empeltat" a="prompsit2adn">
-        <i>empelta</i>
-        <par n="triparti/t__adj"/>
-     </e>
-
      <e lm="empelt" a="prompsit2adn">
         <i>empelt</i>
         <par n="abric__n"/>
@@ -145428,7 +145485,7 @@
 
      <e lm="immobilitzat" a="prompsit2adn">
         <i>immobilitza</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="immobilitzar" a="prompsit2adn">
@@ -146055,6 +146112,17 @@
         <i>vilatj</i>
         <par n="americ/à__n"/>
      </e>
+     <e lm="vilatà" a="prompsit2uoc">
+        <i>vilat</i>
+        <par n="americ/à__n"/>
+     </e>
+
+      <e lm="vilatà" a="prompsit2uoc">
+        <i>vilat</i>
+        <par n="afric/à__adj"/>
+      </e>
+
+
 
      <e lm="luxació" a="prompsit2adn">
         <i>luxaci</i>
@@ -146114,7 +146182,7 @@
 
      <e lm="malintencionat" a="prompsit2adn">
         <i>malintenciona</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="malnutrició" a="prompsit2adn">
@@ -147073,7 +147141,7 @@
 
      <e lm="nuvolós" a="prompsit2adn">
         <i>nuvol</i>
-        <par n="afectu/ós__adj"/>
+        <par n="aliment/ós__adj"/>
      </e>
 
      <e lm="nuclèol" a="prompsit2adn">
@@ -147376,7 +147444,7 @@
 
      <e lm="ovalat" a="prompsit2adn">
         <i>ovala</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="òxid" a="prompsit2adn">
@@ -148159,12 +148227,12 @@
 
      <e lm="premeditat" a="prompsit2adn">
         <i>premedita</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="prenyat" a="prompsit2adn">
         <i>prenya</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="prenyar" a="prompsit2adn">
@@ -149845,7 +149913,7 @@
 
      <e lm="esbiaixat" a="prompsit2adn">
         <i>esbiaixa</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="esbiaixar" a="prompsit2adn">
@@ -150490,7 +150558,7 @@
 
      <e lm="tartamut" a="prompsit2adn">
 	<i>tartamu</i>
-	<par n="triparti/t__adj"/>
+	<par n="afortuna/t__adj"/>
 		</e>
 
      <e lm="tartamut" a="prompsit2adn">
@@ -151296,7 +151364,7 @@
 
      <e lm="viciat" a="prompsit2adn">
         <i>vicia</i>
-        <par n="triparti/t__adj"/>
+        <par n="afortuna/t__adj"/>
      </e>
 
      <e lm="viciar" a="prompsit2adn">
@@ -156267,7 +156335,6 @@
 <e lm="antireformista" a="prompsit2adn"><i>antireformist</i><par n="agrícol/a__adj"/></e>
 <e lm="antiracista" a="prompsit2adn"><i>antiracist</i><par n="agrícol/a__adj"/></e>
 <e lm="antiterrorista" a="prompsit2adn"><i>antiterrorist</i><par n="agrícol/a__adj"/></e>
-<e lm="antiterrrorista" a="prompsit2adn"><i>antiterrrorist</i><par n="agrícol/a__adj"/></e>
 <e lm="aperturista" a="prompsit2adn"><i>aperturist</i><par n="agrícol/a__adj"/></e>
 <e lm="armamentista" a="prompsit2adn"><i>armamentist</i><par n="agrícol/a__adj"/></e>
 <e lm="atlantista" a="prompsit2adn"><i>atlantist</i><par n="agrícol/a__adj"/></e>
@@ -156426,7 +156493,6 @@
 <e lm="antireformista" a="prompsit2adn"><i>antireformist</i><par n="accionist/a__n"/></e>
 <e lm="antiracista" a="prompsit2adn"><i>antiracist</i><par n="accionist/a__n"/></e>
 <e lm="antiterrorista" a="prompsit2adn"><i>antiterrorist</i><par n="accionist/a__n"/></e>
-<e lm="antiterrrorista" a="prompsit2adn"><i>antiterrrorist</i><par n="accionist/a__n"/></e>
 <e lm="aperturista" a="prompsit2adn"><i>aperturist</i><par n="accionist/a__n"/></e>
 <e lm="armamentista" a="prompsit2adn"><i>armamentist</i><par n="accionist/a__n"/></e>
 <e lm="atlantista" a="prompsit2adn"><i>atlantist</i><par n="accionist/a__n"/></e>
@@ -161136,8 +161202,8 @@
 
 
 <e a="prompsit" lm="pontificar">
-  <i>pontific</i>
-  <par n="abander/ar__vblex"/>
+  <i>pontifi</i>
+  <par n="abo/car__vblex"/>
 </e>
 
 <e a="prompsit" lm="desunir">
@@ -161201,18 +161267,18 @@
 </e>
 
 <e a="prompsit" lm="desboscar">
-  <i>desbosc</i>
-  <par n="abander/ar__vblex"/>
+  <i>desbos</i>
+  <par n="abo/car__vblex"/>
 </e>
 
 <e a="prompsit" lm="matxucar">
-  <i>matxuc</i>
-  <par n="abander/ar__vblex"/>
+  <i>matxu</i>
+  <par n="abo/car__vblex"/>
 </e>
 
 <e a="prompsit" lm="mortificar">
-  <i>mortific</i>
-  <par n="abander/ar__vblex"/>
+  <i>mortifi</i>
+  <par n="abo/car__vblex"/>
 </e>
 
 <e a="prompsit" lm="sucar" r="LR">
@@ -161346,8 +161412,8 @@
 </e>
 
 <e a="prompsit" lm="blocar" r="LR">
-  <i>bloc</i>
-  <par n="abander/ar__vblex"/>
+  <i>blo</i>
+  <par n="abo/car__vblex"/>
 </e>
 
 <e a="prompsit" lm="enlairar" r="LR">
@@ -161908,7 +161974,7 @@
 
 <e a="prompsit" lm="assabentat i conforme">
       <i>assabenta</i>
-      <par n="afortuna/t__adj"/>
+      <par n="triparti/t__adj"/>
    <p>
      <l><b/>i<b/>conforme</l>
      <r><g><b/>i<b/>conforme</g></r>
@@ -162884,7 +162950,7 @@
     
     <e lm="assalariat" a="prompsit2adn">
        <i>assalaria</i>
-       <par n="afortuna/t__adj"/>
+       <par n="triparti/t__adj"/>
     </e>
     
     <e a="prompsit2ecl" lm="online">
@@ -163877,6 +163943,11 @@
         <par n="multimèdia__adj"/>
      </e>
 
+     <e lm="desangelat" a="prompsit2uoc">
+        <i>desangela</i>
+        <par n="afortuna/t__adj"/>
+     </e>
+
     <e a="prompsit2uoc" lm="per primer cop">
       <i>per<b/>primer<b/>cop</i>
       <par n="ahir__adv"/>
@@ -164063,6 +164134,10 @@
   <i>culturalisme</i>
   <par n="abric__n"/>
 </e>
+<e a="prompsit2uoc" lm="atavisme">
+  <i>atavisme</i>
+  <par n="abric__n"/>
+</e>
 
 <e lm="eurocentrisme" a="prompsit2uoc"><i>eurocentrisme</i><par n="abric__n"/></e>
 
@@ -164171,6 +164246,10 @@
         <i>menysvalor</i>
         <par n="abander/ar__vblex"/>
       </e>
+      <e lm="enarborar" a="prompsit2uoc">
+        <i>enarbor</i>
+        <par n="abander/ar__vblex"/>
+      </e>
       <e lm="caixetí" a="prompsit2uoc">
         <i>caixet</i>
         <par n="boc/í__n"/>
@@ -164193,6 +164272,10 @@
     </e>
     <e lm="matemàtic" a="prompsit2uoc">
       <i>matemàti</i>
+      <par n="asiàti/c__n"/>
+    </e>
+    <e lm="oc, oca" a="prompsit2uoc">
+      <i>o</i>
       <par n="asiàti/c__n"/>
     </e>
 
@@ -164249,6 +164332,9 @@
       <e lm="Sant Feliu" a="prompsit2uoc"><i>Sant<b/>Feliu</i><par n="Afganistan__np"/></e>
       <e lm="Llagostera" a="prompsit2uoc"><i>Llagostera</i><par n="Afganistan__np"/></e>
       <e lm="Santa Coloma de Farners" a="prompsit2uoc"><i>Santa<b/>Coloma<b/>de<b/>Farners</i><par n="Afganistan__np"/></e>
+      <e lm="Zagreb" a="prompsit2uoc"><i>Zagreb</i><par n="Afganistan__np"/></e>
+      <e lm="Tajo" a="prompsit2uoc"><i>Tajo</i><par n="Afganistan__np"/></e>
+      <e lm="Duero" a="prompsit2uoc"><i>Duero</i><par n="Afganistan__np"/></e>
 
       <e lm="frondós" a="prompsit2uoc">
         <i>frond</i>
@@ -164278,7 +164364,11 @@
 	<i>a<b/>l'estacada</i>
 	<par n="ahir__adv"/>
       </e>
-      <e lm="estacada">
+      <e lm="en un tres i no res" a="prompsit2uoc">
+	<i>en<b/>un<b/>tres<b/>i<b/>no<b/>res</i>
+	<par n="ahir__adv"/>
+      </e>
+      <e lm="estacada" a="prompsit2uoc">
         <i>estacad</i>
         <par n="abell/a__n"/>
       </e>
@@ -164307,6 +164397,10 @@
   <par n="acci/ó__n"/>
 </e>
 
+<e a="prompsit2uoc" lm="cromanyó">
+  <i>cromany</i>
+  <par n="aband/ó__n"/>
+</e>
 
 <e a="prompsit2uoc" lm="anivellament">
   <i>anivellament</i>
@@ -164356,9 +164450,9 @@
         <i>esgrim</i>
         <par n="abell/a__n"/>
       </e>
-      <e lm="tallerina" a="prompsit2uoc">
-        <i>tallerin</i>
-        <par n="abell/a__n"/>
+      <e lm="tallarina" a="prompsit2uoc">
+	<i>tallarin</i>
+	<par n="abell/a__n"/>
       </e>
       <e lm="ecotaxa" a="prompsit2uoc">
         <i>ecotax</i>
@@ -164373,7 +164467,27 @@
       <i>compilador</i>
       <par n="abric__n"/>
     </e>
+    <e lm="galop" a="prompsit2uoc">
+      <i>galop</i>
+      <par n="abric__n"/>
+    </e>
 
+    <e lm="tricorn" a="prompsit2uoc">
+      <i>tricorn</i>
+      <par n="abric__n"/>
+    </e>
+    <e lm="tricorni" a="prompsit2uoc">
+      <i>tricorni</i>
+      <par n="abric__n"/>
+    </e>
+    <e lm="rodet" a="prompsit2uoc">
+      <i>rodet</i>
+      <par n="abric__n"/>
+    </e>
+    <e lm="carret" a="prompsit2uoc">
+      <i>carret</i>
+      <par n="abric__n"/>
+    </e>
 <e a="prompsit2uoc" lm="suport publicitari">
   <p>
     <l>suport<b/>publicitari</l>
@@ -164398,11 +164512,202 @@
     <r>suport<b/>fix<s n="n"/><s n="m"/><s n="pl"/></r>
   </p>  
 </e>
-
-<e lm="tallarina" a="prompsit2uoc">
-  <i>tallarin</i>
-  <par n="abell/a__n"/>
+     
+<e lm="porcí" a="prompsit2uoc">
+  <i>porc</i>
+  <par n="alacant/í__adj"/>
 </e>
+     
+<e lm="caprí" a="prompsit2uoc">
+  <i>capr</i>
+  <par n="alacant/í__adj"/>
+</e>
+
+
+<e a="prompsit2uoc" lm="boc expiatori">
+  <p>
+    <l>boc<b/>expiatori</l>
+    <r>boc<b/>expiatori<s n="n"/><s n="m"/><s n="sg"/></r>
+  </p>  
+</e>
+<e a="prompsit2uoc" lm="boc expiatori">
+  <p>
+    <l>bocs<b/>expiatoris</l>
+    <r>boc<b/>expiatori<s n="n"/><s n="m"/><s n="pl"/></r>
+  </p>  
+</e>
+
+
+
+
+
+<e lm="de pacotilla" a="prompsit2uoc">
+  <i>de<b/>pacotilla</i>
+  <par n="multimèdia__adj"/>
+</e>
+
+     <e a="prompsit2uoc" lm="bananer">
+       <i>bananer</i>
+       <par n="absolut__adj"/>
+     </e>
+
+      <e lm="etnografia" a="prompsit2uoc">
+        <i>etnografi</i>
+        <par n="abell/a__n"/>
+      </e>
+      <e lm="judeocristià" a="prompsit2uoc">
+        <i>judeocristi</i>
+        <par n="afric/à__adj"/>
+      </e>
+      
+      <e lm="metafòricament" a="prompsit2uoc">
+	<i>metafòricament</i>
+	<par n="ahir__adv"/>
+      </e>
+      <e lm="al galop" a="prompsit2uoc">
+	<i>al<b/>galop</i>
+	<par n="ahir__adv"/>
+      </e>
+
+      <e lm="enfervorir" a="prompsit2uoc">
+        <i>enfervor</i>
+        <par n="abarat/ir__vblex"/>
+      </e>
+
+      <e lm="enardir" a="prompsit2uoc">
+        <i>enard</i>
+        <par n="abarat/ir__vblex"/>
+      </e>
+      <e lm="vandàlic" a="prompsit2uoc">
+	<i>vandàli</i>
+	<par n="acadèmi/c__adj"/>
+      </e>
+      
+      <e lm="antitaurí" a="prompsit2uoc">
+        <i>antitaur</i>
+        <par n="alacant/í__adj"/>
+      </e>
+      <e lm="desfogar" a="prompsit2uoc">
+        <i>desfog</i>
+        <par n="afalag/ar__vblex"/>
+      </e>
+      
+      <e lm="edificant" a="prompsit2uoc">
+        <i>edificant</i>
+        <par n="abdominal__adj"/>
+      </e>
+      
+      <e lm="bravesa" a="prompsit2uoc">
+        <i>braves</i>
+        <par n="abell/a__n"/>
+      </e>
+      <e lm="bravura" a="prompsit2uoc">
+        <i>bravur</i>
+        <par n="abell/a__n"/>
+      </e>
+      
+      <e lm="dulcificar" a="prompsit2uoc">
+        <i>dulcifi</i>
+        <par n="abo/car__vblex"/>
+      </e>
+      <e lm="purificar" a="prompsit2uoc">
+        <i>purifi</i>
+        <par n="abo/car__vblex"/>
+      </e>
+
+      <e lm="besavi" a="prompsit2uoc">
+        <i>bes</i>
+        <par n="/avi__n"/>
+      </e>
+      
+<e lm="ser igual" r="RL" a="prompsit2uoc">
+      <par n="/ser__vbser"/>
+      <p>
+	<l><b/>igual</l>
+	<r><g><b/>igual</g></r>
+      </p>
+    </e>
+
+      <e lm="dessagnar" a="prompsit2uoc">
+        <i>dessagn</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+ 
+      <e lm="dislocar" a="prompsit2uoc">
+        <i>dislo</i>
+        <par n="abo/car__vblex"/>
+      </e>
+      <e lm="decapitar" a="prompsit2uoc">
+        <i>decapit</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+      <e lm="exhumar" a="prompsit2uoc">
+        <i>exhum</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+
+      
+      <e lm="estressar" a="prompsit2uoc">
+        <i>estress</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+
+      <e lm="mesquí" a="prompsit2uoc">
+        <i>mesqu</i>
+        <par n="mesqu/í__adj"/>
+      </e>
+
+      
+      <e lm="perviure" a="prompsit2uoc">
+        <i>pervi</i>
+        <par n="convi/ure__vblex"/>
+      </e>
+
+      <e lm="sacrosant" a="prompsit2uoc">
+        <i>sacrosant</i>
+        <par n="alt__adj"/>
+      </e>
+
+    <e lm="rovell" a="prompsit2uoc">
+      <i>rovell</i>
+      <par n="abric__n"/>
+    </e>
+
+    <e lm="rovell d'ou" a="prompsit2uoc">
+      <i>rovell</i>
+      <par n="abric__n"/>
+      <p>
+	<l><b/>d'ou</l>
+	<r><g><b/>d'ou</g></r>
+      </p>
+    </e>
+    <e lm="rovell de l'ou" a="prompsit2uoc">
+      <i>rovell</i>
+      <par n="abric__n"/>
+      <p>
+	<l><b/>de<b/>l'ou</l>
+	<r><g><b/>de<b/>l'ou</g></r>
+      </p>
+    </e>
+
+    <e lm="gemma" a="prompsit2uoc">
+      <i>gemm</i>
+      <par n="abell/a__n"/>
+    </e>
+
+    <e lm="tou" r="RL" a="prompsit2uoc">
+      <i>tou</i>
+      <par n="abric__n"/>
+    </e>
+
+    <e lm="tou del dit" a="prompsit2uoc">
+      <i>tou</i>
+      <par n="abric__n"/>
+      <p>
+	<l><b/>del<b/>dit</l>
+	<r><g><b/>del<b/>dit</g></r>
+      </p>
+    </e>
  </section>
  
 
@@ -164526,10 +164831,10 @@
      </p>
      <par n="a__pr"/>
    </e>   
-   <e lm="pels vols de" r="LR">
+   <e lm="pels volts de" r="LR">
      <p>
-        <l>pels<b/>vols<b/>d'</l>
-	<r>pels<b/>vols<b/>de</r>
+        <l>pels<b/>volts<b/>d'</l>
+	<r>pels<b/>volts<b/>de</r>
      </p>
      <par n="a__pr"/>
    </e>   
