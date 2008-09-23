@@ -76,15 +76,6 @@
 
   <pardefs>
 
-<!--    <pardef n="internet">    
-      <e>
-        <re>(http://|ftp://|[a-zA-Z][a-zA-Z0-9.]*@)?([a-zA-Z][a-zA-Z0-9]*.)+[a-z][a-z]+</re>
-        <p>
-          <l/>
-          <r><s n="web"/></r>
-        </p>
-      </e>
-    </pardef> -->
 
     <pardef n="numeros">
     
@@ -256,13 +247,6 @@
           <r>hi<s n="prn"/><s n="enc"/><s n="adv"/></r>
         </p>
       </e>
-      
-<!--      <e>
-        <p>
-          <l>'hi</l>
-          <r>li<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e> -->
     </pardef>
 
     <pardef n="S__anant-m">
@@ -942,7 +926,7 @@
       </e>
     </pardef>
 
- <pardef n="S__aneu"><!--Imperatiu 2a pl (2 sg????) (no acabat en vocal forta), 1a pl -->
+ <pardef n="S__aneu" c=" Imperatiu 2a pl (2 sg????) (no acabat en vocal forta), 1a pl">
       
       <e>
         <p>
@@ -1055,29 +1039,6 @@
         </p>
         <par n="S__anant-nos"/>
       </e>
-      
-  <!--    <e>
-        <p>
-          <l>-se</l>
-          <r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>-s</l>
-          <r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r>
-        </p>
-        <par n="S__anant-m"/>
-      </e>
-      
-      <e>
-        <p>
-          <l>-se</l>
-          <r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r>
-        </p>
-        <par n="S__anant-se"/>
-      </e> -->
       
       <e>
         <p>
@@ -1207,7 +1168,7 @@
       
     </pardef>
 
- <pardef n="S__aclareix"><!--Imperatiu 2 sg (no acabat en vocal forta) -->
+ <pardef n="S__aclareix" c="Imperatiu 2 sg (no acabat en vocal forta)">
       
       <e>
         <p>
@@ -1321,28 +1282,6 @@
         <par n="S__anant-nos"/>
       </e>
       
-  <!--    <e>
-        <p>
-          <l>-se</l>
-          <r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>-s</l>
-          <r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r>
-        </p>
-        <par n="S__anant-m"/>
-      </e>
-      
-      <e>
-        <p>
-          <l>-se</l>
-          <r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r>
-        </p>
-        <par n="S__anant-se"/>
-      </e> -->
       
       <e>
         <p>
@@ -1454,21 +1393,6 @@
         </p>
         <par n="S__anant-los"/>
       </e>
-      
-   <!--   <e>
-        <p>
-          <l>-vos</l>
-          <r>us<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>-vos</l>
-          <r>us<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r>
-        </p>
-        <par n="S__anant-vos"/>
-      </e> -->
       
     </pardef>
 
@@ -1740,7 +1664,7 @@
       </e>
     </pardef>
 
- <pardef n="S__agafa"><!--imperatiu 2a singular (acabat en vocal forta) -->
+ <pardef n="S__agafa" c="imperatiu 2a singular (acabat en vocal forta)">
       
       <e>
         <p>
@@ -1854,28 +1778,6 @@
         <par n="S__anant-nos"/>
       </e>
       
-   <!--   <e>
-        <p>
-          <l>'s</l>
-          <r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>-s</l>
-          <r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r>
-        </p>
-        <par n="S__anant-m"/>
-      </e>
-      
-      <e>
-        <p>
-          <l>-se</l>
-          <r>es<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r>
-        </p>
-        <par n="S__anant-se"/>
-      </e> -->
       
       <e>
         <p>
@@ -1991,20 +1893,6 @@
         </p>
       </e>
       
-   <!--   <e>
-        <p>
-          <l>-us</l>
-          <r>us<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l>-us</l>
-          <r>us<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r>
-        </p>
-        <par n="S__anant-vos"/>
-      </e> -->
     </pardef>
 
     <pardef n="S__callant-los">
@@ -3180,7 +3068,7 @@
 
     </pardef>
 
-   <pardef n="S__treu"><!--per a "treu el cap", es menja pronoms -->
+   <pardef n="S__treu" c="per a 'treu el cap', es menja pronoms">
      
       <e r="RL">
         <p>
@@ -4807,7 +4695,7 @@
       </e>
     </pardef>
 
-    <pardef n="far/ingi__adj"> <!-- Mikel i Àngel 20070312 -->
+    <pardef n="far/ingi__adj" c="Mikel i Àngel 20070312">
       
       <e>
         <p>
@@ -4838,7 +4726,7 @@
       </e>
     </pardef>
 
-    <pardef n="inn/ocu__adj"> <!-- Mikel i Àngel 20070312 -->
+    <pardef n="inn/ocu__adj" c="Mikel i Àngel 20070312">
       
       <e>
         <p>
@@ -10042,7 +9930,7 @@
       </e>
     </pardef>
 
-    <pardef n="abd/omen__n"> <!-- Mikel i Ángel 20070312 -->
+    <pardef n="abd/omen__n" c="Mikel i Ángel 20070312">
       
       <e>
         <p>
@@ -12513,7 +12401,7 @@
     </pardef>
 
 
-    <pardef n="conta__pr"><!--Paradigma per a fer contracció amb preposicions acabades en a -->      
+    <pardef n="conta__pr" c="Paradigma per a fer contracció amb preposicions acabades en a">
      
        <e r="LR"> 
         <p>
@@ -12685,7 +12573,7 @@
  </pardef>
 
 
-<pardef n="contde__pr"><!--Paradigma per a fer contracció amb preposicions acabades en de -->      
+<pardef n="contde__pr" c="Paradigma per a fer contracció amb preposicions acabades en de">
       <e r="LR"> 
         <p>
           <l>de</l>
@@ -12855,7 +12743,7 @@
       </e>
  </pardef>
 
-<pardef n="contper__pr"><!--Paradigma per a fer contracció amb preposicions acabades en per -->      
+<pardef n="contper__pr" c="Paradigma per a fer contracció amb preposicions acabades en per">
       <e r="LR"> 
         <p>
           <l>per</l>
@@ -13882,12 +13770,12 @@
         </p>
       </e>
       
-   <!--   <e r="RL">
+          <e r="RL" i="yes">
         <p>
           <l>hi<b/>ha</l>
           <r>haver<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e>
 
       <e>
         <p>
@@ -32997,7 +32885,7 @@
       </e>
     </pardef>
 
-   <pardef n="tr/eure__vblex"><!--Per a "treure el cap", es menja els pronoms de "asomarse" -->
+   <pardef n="tr/eure__vblex" c="Per a 'treure el cap', es menja els pronoms de 'asomarse'">
       
       <e>
         <p>
@@ -34824,12 +34712,12 @@
         </p>
       </e>
       
-   <!--   <e r="LR">
+          <e r="LR" i="yes">
         <p>
           <l>ig</l>
           <r>gir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e>
         <p>
@@ -49259,12 +49147,12 @@
         </p>
       </e>
       
-  <!--    <e r="LR">
+          <e r="LR" i="yes">
         <p>
           <l>ny</l>
           <r>nyer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e>
         <p>
@@ -49823,12 +49711,12 @@
         </p>
       </e>
       
-   <!--   <e r="LR">
+          <e r="LR" i="yes">
         <p>
           <l>ny</l>
           <r>nyer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e>
       
       <e>
         <p>
@@ -51636,12 +51524,12 @@
         </p>
       </e>
       
-   <!--   <e r="LR">
+          <e r="LR" i="yes">
         <p>
           <l>ull</l>
           <r>ollir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e>
         <p>
@@ -52215,12 +52103,12 @@
         </p>
       </e>
       
-   <!--   <e r="LR">
+          <e r="LR" i="yes">
         <p>
           <l>up</l>
           <r>opir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e>
         <p>
@@ -52824,12 +52712,12 @@
         </p>
       </e>
       
-   <!--   <e r="LR">
+          <e r="LR" i="yes">
         <p>
           <l>or</l>
           <r>orir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e r="LR">
         <p>
@@ -53410,12 +53298,12 @@
         </p>
       </e>
       
-  <!--    <e r="LR">
+          <e r="LR" i="yes">
         <p>
           <l>urt</l>
           <r>ortir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e>
         <p>
@@ -53989,12 +53877,12 @@
         </p>
       </e>
       
-   <!--   <e r="LR">
+          <e r="LR" i="yes">
         <p>
           <l>us</l>
           <r>osir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e>
         <p>
@@ -59220,12 +59108,12 @@
         </p>
       </e>
       
-    <!--  <e r="LR">
+      <e r="LR" i="yes">
         <p>
           <l>ri</l>
           <r>rir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e>
         <p>
@@ -62420,12 +62308,12 @@
         </p>
       </e>
       
-  <!--    <e r="LR">
+      <e r="LR" i="yes">
         <p>
           <l>t</l>
           <r>tre<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e>
         <p>
@@ -68983,12 +68871,12 @@
         </p>
       </e>
       
-    <!--  <e r="LR">
+      <e r="LR" i="yes">
         <p>
           <l>y</l>
           <r>yer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
         </p>
-      </e> -->
+      </e> 
       
       <e>
         <p>
@@ -74607,12 +74495,12 @@
         <par n="abdominal__adj"/>
       </e>
       
-   <!--   <e lm="bastant de" r="LR">
+     <e lm="bastant de" r="LR" i="yes" c="MG: mirar si es pot fer alguna cosa: bastant de temps/passa bastant de mi">
         <p>
           <l>bastant<b/>de</l>
           <r>bastant<s n="adj"/><s n="m"/><s n="sg"/><j/>de<s n="pr"/></r>
         </p>
-      </e> --> <!--MG: mirar si es pot fer alguna cosa: bastant de temps/passa bastant de mi -->
+      </e> 
       
       <e lm="belga">
         <i>belg</i>
@@ -80025,12 +79913,12 @@
         <par n="alt__adj"/>
       </e>
       
-      <e lm="molt de" r="LR">
+      <e lm="molt de" r="LR" c="MG: veure comentari per a 'bastant de'">
         <p>
           <l>molt<b/>de</l>
           <r>molt<b/>de<s n="adj"/><s n="m"/><s n="sg"/></r>
         </p>
-      </e><!--MG: veure comentari per a "bastant de" -->
+      </e>
       
       <e lm="monetari">
         <i>monet</i>
@@ -86102,14 +85990,6 @@
         <i>amb<b/>la<b/>finalitat<b/>que</i>
         <par n="a_fe_que__cnjadv"/>
       </e>
-<!--      <e lm="amb finalitats">
-        <i>amb<b/>finalitats</i>
-        <par n="a__pr"/>
-      </e>-->
-  <!--    <e lm="tot i" r="LR">
-        <i>tot<b/>i</i>
-        <par n="a__pr"/>
-      </e>-->
       
       <e lm="ans" r="LR">
         <i>ans</i>
@@ -95985,10 +95865,10 @@
         <par n="pa__n"/>
       </e>
       
-      <e lm="do" r="RL">
+      <e lm="do" r="RL" c="la nota musical">
         <i>do</i>
         <par n="atletisme__n"/>
-      </e><!--la nota musical -->
+      </e>
       
       <e lm="docent">
         <i>docent</i>
@@ -104392,20 +104272,6 @@
         <par n="abric__n"/>
       </e>
       
-      <e lm="mosso">
-        <i>moss</i>
-        <par n="gitan/o__n"/>
-      </e>
-
-   <!--   <e lm="Mosso">
-        <i>Mosso</i>
-        <par n="abric__n"/>
-      </e> -->
-
-      <e lm="Mosso">
-        <i>Mosso</i>
-        <par n="ABC__np"/>
-      </e> 
       <e lm="Artnodes">
         <i>Artnodes</i>
         <par n="ABC__np"/>
@@ -104414,11 +104280,19 @@
         <i>Digithum</i>
         <par n="ABC__np"/>
       </e> 
+      <e lm="mosso">
+        <i>moss</i>
+        <par n="gitan/o__n"/>
+      </e>
+      <e lm="Mosso">
+        <i>Mosso</i>
+        <par n="ABC__np"/>
+      </e> 
 
-      <e lm="Mossos">
+      <e lm="Mossos" c="Quan el tagger estigui reentrenat hauria d'escollir aquest abans que el nom comú">
         <i>Mossos</i>
         <par n="ABC__np"/>
-      </e><!--Quan el tagger estigui reentrenat hauria d'escollir aquest abans que el nom comú -->
+      </e>
 
       <e lm="Mosso d'Esquadra">
         <i>Mosso<b/>d'Esquadra</i>
@@ -107719,8 +107593,8 @@
         <i>premi</i>
         <par n="abric__n"/>
       </e>
-<!-- és més freqüent-->
-   <e lm="el premi" r="LR">
+
+      <e lm="el premi" r="LR" c="és més freqüent">
       <p>
         <l>el<b/>premi</l>
         <r>el<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/>premi<s n="n"/><s n="m"/><s n="sg"/></r>
@@ -122664,10 +122538,6 @@
         <par n="a__pr"/>
       </e>
       
-<!--      <e lm="amb d'altres" r="LR">
-        <i>amb<b/>d'altres</i>
-        <par n="a__pr"/>
-      </e> --> <!-- No és prep i provoca errors -->
       
       <e lm="amb el risc de">
         <i>amb<b/>el<b/>risc<b/></i>
@@ -127851,16 +127721,14 @@
         <par n="abander/ar__vblex"/>
       </e>
 
-<!-- Deure com a verb lèxic, "em deus diners": -->
       
-      <e lm="deure">
+      <e lm="deure" c="Deure com a verb lèxic, 'em deus diners'">
         <i>de</i>
         <par n="be/ure__vblex"/>
       </e>
 
-<!-- Deure com a verb modal, "deuen ser les tres": -->
       
-      <e lm="deure">
+      <e lm="deure" c="Deure com a verb modal, 'deuen ser les tres'">
         <i>de</i>
         <par n="de/ure__vbmod"/>
       </e>
@@ -131204,14 +131072,15 @@
 	<i>mir</i>
         <par n="abander/ar__vblex"/>
       </e>
- <!--     <e lm="mirar de" r="LR">
+      
+      <e lm="mirar de" r="LR" i="yes">
 	<i>mir</i>
         <par n="abander/ar__vblex"/>
         <p>
           <l>de</l>
           <r><g>de</g></r>
         </p>
-      </e>-->
+      </e>
       
       <e lm="ves" r="LR">
         <p>
@@ -135260,7 +135129,7 @@
         <par n="~el/qual__rel"/>
       </e>
       
-<!--començament paraules formulari-->
+
 
 <e lm="més" a="mginesti">
   <i>més</i>
@@ -135919,7 +135788,7 @@
   <par n="abric__n"/>
 </e>
 
-<!-- fi paraules formulari-->
+
 
 
 <!--Multiparaules amb flexió intercalada -->
@@ -139848,7 +139717,6 @@
       <par n="abell/a__n"/>
     </e> 
    
-<!--secció adn-->
 
 
 
@@ -156703,9 +156571,6 @@
 
 <e lm="min." a="prompsit2adn"><i>min.</i><par n="campus__n"/></e>
 
-
-<!--fi secció adn-->   
-
   
           <e lm="Abidjan" a="prompsit"><i>Abidjan</i><par n="Afganistan__np"/></e>
           <e lm="Abuja" a="prompsit"><i>Abuja</i><par n="Afganistan__np"/></e>
@@ -157309,7 +157174,6 @@
 <e a="prompsit" lm="aquí sota"><i>aquí<b/>sota</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="allà dalt"><i>allà<b/>dalt</i><par n="ahir__adv"/></e>
 <e a="prompsit" lm="allà baix"><i>allà<b/>baix</i><par n="ahir__adv"/></e>
-<!--<e a="prompsit" lm="a casa"><i>a<b/>casa</i><par n="ahir__adv"/></e>-->
 		
           <e a="prompsit" lm="20 minutos"><i>20<b/>minutos</i><par n="ABC__np"/></e>
           <e a="prompsit" lm="3xl.net"><i>3xl.net</i><par n="ABC__np"/></e>
@@ -158083,9 +157947,6 @@
 <e lm="síl·laba" a="prompsit"><i>síl·lab</i><par n="abell/a__n"/></e>
 <e lm="ionització" a="prompsit"><i>ionitzaci</i><par n="acci/ó__n"/></e>
 <e lm="jeroglífic" a="prompsit"><i>jeroglífic</i><par n="abric__n"/></e>
-
-<!--subsecció webform-->
-
 
 
  <e a="prompsit" lm="educacional">
@@ -164714,14 +164575,14 @@
 
   
 <section id="apostrophes" type="postblank">
-   <!--   <e lm="mirar de" r="LR">
+          <e lm="mirar de" r="LR" i="yes">
 	<i>mir</i>
         <par n="abander/ar__vblex"/>
         <p>
           <l>d'</l>
           <r><g>de</g></r>
         </p>
-      </e>-->
+      </e>
     
     <e lm="haver de" r="LR">
         <i>h</i>
@@ -164781,12 +164642,12 @@
         </p>
       </e>
 
-   <!--   <e lm="molt de" r="LR">
+      <e lm="molt de" r="LR" i="yes" c="ignorat per 'molt d'acord', 'espero molt d'ell'">
         <p>
           <l>molt<b/>d'</l>
           <r>molt<b/>de<s n="adj"/><s n="m"/><s n="sg"/></r>
         </p>
-      </e> --> <!--MG: "molt d'acord", "espero molt d'ell" -->
+      </e> 
 
 <e lm="davant de" r="LR">
         <p>
@@ -165502,9 +165363,6 @@
       <e>
         <par n="separ"/>
       </e>
-   <!--   <e>
-	<par n="internet"/>
-      </e> -->
    <e>
       <par n="emails"/>
      </e>

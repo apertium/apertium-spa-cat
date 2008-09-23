@@ -18078,12 +18078,12 @@
           <r>Mosso<s n="np"/></r>
         </p>
       </e>
-      <e>
+      <e c="A veure si el tagger escull np abans que n">
         <p>
           <l>Mossos<s n="np"/></l>
           <r>Mossos<s n="np"/></r>
         </p>
-      </e><!--A veure si el tagger escull np abans que n -->
+      </e>
       <e>
         <p>
           <l>Mosso<b/>d'Esquadra<s n="n"/></l>
@@ -24681,12 +24681,6 @@
           <r>amb<s n="pr"/></r>
         </p>
       </e>
-<!--      <e r="RL">
-        <p>
-          <l>con<b/>otros<s n="pr"/></l>
-          <r>amb<b/>d'altres<s n="pr"/></r>
-        </p>
-      </e>  --> <!-- No és prep i provoca errors MLF 20070713 -->
       <e>
         <p>
           <l>con<b/>riesgo<b/>de<s n="pr"/></l>
@@ -25223,12 +25217,6 @@
           <r>malgrat<s n="pr"/></r>
         </p>
       </e>
-    <!--  <e r="RL">
-        <p>
-          <l>a<b/>pesar<b/>de<s n="pr"/></l>
-          <r>tot<b/>i<s n="pr"/></r>
-        </p>
-      </e>-->
       <e r="LR">
         <p>
           <l>apremio<b/>de<s n="pr"/></l>
@@ -25612,12 +25600,6 @@
           <r>una<b/>miqueta<s n="adv"/></r>
         </p>
       </e>
- <!--     <e r="LR">
-        <p>
-          <l>algo<s n="adv"/></l>
-          <r>una<b/>mica<s n="adv"/></r>
-        </p>
-      </e>-->
       <e>
         <p>
           <l>en<b/>masa<s n="adv"/></l>
@@ -26736,12 +26718,12 @@
           <r>acoblar<s n="vblex"/></r>
         </p>
       </e>
-      <e r="LR" slr="recordar">
+      <e r="LR" slr="recordar" c="Acordar algo = acordar alguna cosa; acordarse de algo = recordar-se!!">
         <p>
           <l>acordar<s n="vblex"/></l>
           <r>recordar<s n="vblex"/></r>
         </p>
-      </e> <!--Acordar algo = acordar alguna cosa; acordarse de algo = recordar-se!! -->
+      </e>
 
      <e slr="acordar D">
         <p>
@@ -29985,12 +29967,6 @@
       <e>
         <i>intentar<s n="vblex"/></i>
       </e>
-<!--      <e>
-        <p>
-          <l>intentar<s n="vblex"/></l>
-          <r>mirar<b/>de<s n="vblex"/></r>
-        </p>
-      </e>-->
       <e>
         <p>
           <l>intercambiar<s n="vblex"/></l>
@@ -47320,12 +47296,12 @@
           <r>fiança<s n="n"/></r>
         </p>
       </e>
-   <!--   <e>
+      <e i="yes" c="seria ficar-se al llit: multiparaula. MG">
         <p>
           <l>acostar<s n="vblex"/></l>
           <r>ficar<s n="vblex"/></r>
         </p>
-      </e> --> <!-- seria ficar-se al llit: multiparaula. MG -->
+      </e> 
       <e>
         <p>
           <l>fielmente<s n="adv"/></l>
@@ -55432,12 +55408,12 @@
           <r>Moskva<s n="np"/><s n="loc"/></r>
         </p>
       </e>
-      <e>
+      <e c="perquè no tradueixi malament els Mossos">
         <p>
           <l>bocado<s n="n"/><s n="m"/><s n="sg"/></l>
           <r>mos<s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
-      </e><!--perquè no tradueixi malament els Mossos -->
+      </e>
       <e>
         <p>
           <l>bocado<s n="n"/><s n="m"/><s n="pl"/></l>
@@ -72970,7 +72946,7 @@
 </e>  
 <e a="mikel" c="Ángel">
   <p>
-    <l>cubito<b/>de<b/>hielo<s n="n"/></l>
+    <l>cubito<g><b/>de<b/>hielo</g><s n="n"/></l>
     <r>glaçó<s n="n"/></r>
   </p>
 </e>  
@@ -74335,26 +74311,25 @@
       </e>
       <e>
           <i>cigala<s n="n"/></i>
-      </e> <!-- fem -->
+      </e>
       <e>
         <p> 
           <l>alubia<s n="n"/></l> 
           <r>mongeta<s n="n"/></r>
         </p>
-      </e> <!-- fem -->
+      </e>
       <e>
         <p> 
           <l>suburbio<s n="n"/></l>
           <r>suburbi<s n="n"/></r>
         </p>
-      </e> <!-- masc -->
+      </e> 
       <e>
         <p> 
           <l>tarificación<s n="n"/></l>
           <r>tarificació<s n="n"/></r>
         </p>
-      </e> <!-- fem -->
-
+      </e>
       <e r="LR">
         <p>
           <l>parabrisas<s n="n"/><s n="m"/><s n="sp"/></l>
@@ -74379,7 +74354,7 @@
           <l>transbordo<s n="n"/></l> 
           <r>transbord<s n="n"/></r> 
         </p> 
-      </e> <!-- fem -->
+      </e> 
       <e>
         <p>
           <l>astronómico<s n="adj"/></l>
@@ -74400,28 +74375,27 @@
       </e>
       <e>
           <i>sinagoga<s n="n"/></i>
-      </e> <!-- fem -->
+      </e> 
       <e>
         <p>
           <l>higo<s n="n"/><s n="m"/></l>
           <r>figa<s n="n"/><s n="f"/></r>
         </p> 
-      </e> <!-- fem -->
+      </e> 
       <e>
         <p>
           <l>migraña<s n="n"/></l>
           <r>migranya<s n="n"/></r>
         </p>
-      </e> <!-- fem --> 
+      </e>
       <e>
         <p>
           <l>guadaña<s n="n"/></l>
           <r>dalla<s n="n"/></r>
         </p>
-      </e> <!-- fem -->
+      </e> 
       
-      
-<!--secció adn-->
+   
 
 
 
@@ -97389,7 +97363,6 @@
 <e><p><l>suní<s n="adj"/></l><r>sunnita<s n="adj"/></r></p></e>
 <e><p><l>maillot<s n="n"/></l><r>mallot<s n="n"/></r></p></e>
 
-<!--fi secció adn-->
 
 <e a="prompsit"><p><l>Abiyán<s n="np"/></l><r>Abidjan<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Abuya<s n="np"/></l><r>Abuja<s n="np"/></r></p></e>
@@ -98004,7 +97977,6 @@
 <e a="prompsit"><p><l>aquí<b/>abajo<s n="adv"/></l><r>aquí<b/>sota<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>allí<b/>arriba<s n="adv"/></l><r>allà<b/>dalt<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>allí<b/>abajo<s n="adv"/></l><r>allà<b/>baix<s n="adv"/></r></p></e>
-<!--<e a="prompsit"><p><l>en<b/>casa<s n="adv"/></l><r>a<b/>casa<s n="adv"/></r></p></e>-->
 
 <e a="prompsit"><p><l>20<b/>minutos<s n="np"/></l><r>20<b/>minutos<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>3xl.net<s n="np"/></l><r>3xl.net<s n="np"/></r></p></e>
@@ -98798,7 +98770,7 @@
 <e a="prompsit"><p><l>ionización<s n="n"/></l><r>ionització<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>jeroglífico<s n="n"/></l><r>jeroglífic<s n="n"/></r></p></e>
 
-<!-- subsecció webform-->
+
 
 
     <e a="prompsit">
@@ -107557,11 +107529,6 @@
 	</p>
     </e>
 
-
-<!--    <e>
-      <re>(http://|ftp://|[a-zA-Z][a-zA-Z0-9.]*@)?([a-zA-Z][a-zA-Z0-9]*.)+[a-z][a-z]+</re>        
-      <i><s n="web"/></i>
-    </e> -->
 
   </section>
 

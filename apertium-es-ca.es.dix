@@ -71,15 +71,6 @@
     <sdef n="web"/>
   </sdefs>
   <pardefs>
-<!--   <pardef n="internet">    
-      <e>
-	<re>(http://|ftp://|[a-zA-Z][a-zA-Z0-9.]*@)?([a-zA-Z][a-zA-Z0-9]*.)+[a-z][a-z]+</re>
-	<p>
-	  <l/>
-          <r><s n="web"/></r>
-	</p>
-      </e>
-    </pardef> -->
     <pardef n="numeros">
       <e>
         <re>[0-9]+([.,][0-9]+)?</re>
@@ -165,32 +156,8 @@
      </e>
     </pardef>
 
-   <pardef n="S__cantándome">
-<!--2o pronombre tras me/nos -->
-<!-- <e>
-        <p>
-          <l>me</l>
-          <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e> -->
-<!--  <e>
-        <p>
-          <l>nos</l>
-          <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e> -->
-<!--  <e>
-        <p>
-          <l>te</l>
-          <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e> -->
-<!--   <e>
-        <p>
-          <l>os</l>
-          <r>os<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e> -->
+   <pardef n="S__cantándome" c="2o pronombre tras me/nos">
+
       <e>
         <p>
           <l>les</l>
@@ -233,15 +200,9 @@
           <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
         </p>
       </e>
-<!--    <e>
-        <p>
-          <l>se</l>
-          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e> -->
     </pardef>
-    <pardef n="S__cantándote">
-<!--2o pronombre tras te/os -->
+    <pardef n="S__cantándote" c="2o pronombre tras te/os">
+
       <e>
         <p>
           <l>me</l>
@@ -254,18 +215,6 @@
           <r>nos<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
-<!--  <e>
-        <p>
-          <l>te</l>
-          <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e> -->
-<!--   <e>
-        <p>
-          <l>os</l>
-          <r>os<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e> -->
       <e>
         <p>
           <l>les</l>
@@ -308,15 +257,9 @@
           <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
         </p>
       </e>
-<!--    <e>
-        <p>
-          <l>se</l>
-          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e> -->
     </pardef>
-    <pardef n="S__cantándose">
-<!--2o pronombre tras "se" reflexivo -->
+    <pardef n="S__cantándose" c="2o pronombre tras 'se' reflexivo">
+
       <e>
         <p>
           <l>me</l>
@@ -383,15 +326,9 @@
           <r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r>
         </p>
       </e>
-<!--    <e>
-        <p>
-          <l>se</l>
-          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e> -->
     </pardef>
-    <pardef n="S__cantárse">
-<!--segundo pronombre tras "se" 3a persona -->
+    <pardef n="S__cantárse" c="segundo pronombre tras 'se' 3a persona">
+
       <e>
         <p>
           <l>las</l>
@@ -423,8 +360,8 @@
         </p>
       </e>
     </pardef>
-    <pardef n="S__cantándo">
-<!--Para gerundios e imperativo 3a singular y plural (pueden llevar pronombre "se" reflexivo) -->
+    <pardef n="S__cantándo" c="Para gerundios e imperativo 3a singular y plural (pueden llevar pronombre 'se' reflexivo)">
+
       <e>
         <p>
           <l>me</l>
@@ -554,8 +491,8 @@
         <par n="S__cantándose"/>
       </e>
     </pardef>
-    <pardef n="S__cánta">
-<!--Para imperativo 2a singular (no puede llevar pronombre "se" reflexivo) -->
+    <pardef n="S__cánta" c="Para imperativo 2a singular (no puede llevar pronombre 'se' reflexivo)">
+
       <e>
         <p>
           <l>me</l>
@@ -659,8 +596,8 @@
         </p>
       </e>
     </pardef>
-    <pardef n="S__haz">
-<!--Para imperativo 2a singular verbo hacer 1 enclítico (no puede llevar pronombre "se" reflexivo) -->
+    <pardef n="S__haz" c="Para imperativo 2a singular verbo hacer 1 enclítico (no puede llevar pronombre 'se' reflexivo)">
+
       <e>
         <p>
           <l>me</l>
@@ -722,8 +659,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="S__ház">
-<!--Para imperativo 2a singular verbo hacer 2 enclíticos (no puede llevar pronombre "se" reflexivo) -->
+    <pardef n="S__ház" c="Para imperativo 2a singular verbo hacer 2 enclíticos (no puede llevar pronombre 'se' reflexivo)">
       <e>
         <p>
           <l>me</l>
@@ -947,19 +883,6 @@
         </p>
         <par n="S__cantárse"/>
       </e>
-<!--     <e>
-        <p>
-          <l>se</l>
-          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>se</l>
-          <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/></r>
-        </p>
-        <par n="S__cantándose"/>
-      </e> -->
     </pardef>
     <pardef n="S__cantémos">
       <e>
@@ -3528,7 +3451,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="abd/omen__n"> <!-- Mikel i Ángel 20070312 -->
+    <pardef n="abd/omen__n" c="Mikel i Ángel 20070312"> 
       <e>
         <p>
           <l>ómenes</l>
@@ -14519,7 +14442,7 @@
         <par n="S__cánta"/>
       </e>
     </pardef>
-    <pardef n="abandón/ar__vblex"><!-- MG:Cambiar també el té a "cámbi" -->
+    <pardef n="abandón/ar__vblex">
       <e>
         <p>
           <l>a</l>
@@ -79340,10 +79263,10 @@
       <i>un<b/>poquito</i>
       <par n="ahora__adv"/>
     </e>
-<!--    <e lm="algo">
+    <e lm="algo" i="yes">
       <i>algo</i>
       <par n="ahora__adv"/>
-    </e>-->
+    </e>
     <e lm="poderosamente">
       <i>poderosamente</i>
       <par n="ahora__adv"/>
@@ -109719,12 +109642,12 @@
         <r>a<b/>que<s n="cnjsub"/></r>
       </p>
     </e>
-<!--   <e lm="a que" r="LR">
+   <e lm="a que" r="LR" i="yes">
         <p>
           <l>a<b/>que</l>
           <r>a<s n="pr"/><j/>que<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r>
         </p>
-      </e> -->
+      </e> 
      <e lm="a base de">
       <i>a<b/>base<b/></i>
       <par n="contde__pr"/>
@@ -109965,10 +109888,10 @@
       <i>con<b/>este<b/>fin</i>
       <par n="a__pr"/>
     </e>
-<!--    <e lm="con fin">
+    <e lm="con fin" i="yes">
       <i>con<b/>fines</i>
       <par n="a__pr"/>
-    </e>-->
+    </e>
     <e lm="con exclusión de">
       <i>con<b/>exclusión<b/></i>
       <par n="contde__pr"/>
@@ -109989,10 +109912,6 @@
       <i>con<b/>ocasión<b/></i>
       <par n="contde__pr"/>
     </e>
-<!--    <e lm="con otros" r="RL">
-      <i>con<b/>otros</i>
-      <par n="a__pr"/> 
-    </e>--> <!-- no és prep i provoca errors; MLF 20070713 -->
     <e lm="con relación a">
       <i>con<b/>relación<b/></i>
       <par n="conta__pr"/>
@@ -110027,12 +109946,12 @@
         <r>de<b/>que<s n="cnjsub"/></r>
       </p>
     </e>
-<!--   <e lm="de que" r="LR">
+   <e lm="de que" r="LR" i="yes">
         <p>
           <l>de<b/>que</l>
           <r>de<s n="pr"/><j/>que<s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r>
         </p>
-      </e> -->
+      </e> 
     <e lm="de una a otra">
       <p>
         <l>de<b/>una<b/>a<b/>otra</l>
@@ -110153,10 +110072,6 @@
       <i>en<b/>consonancia<b/>con</i>
       <par n="a__pr"/>
     </e>
-   <!-- <e lm="en cualquier parte de">
-      <i>en<b/>cualquier<b/>parte<b/></i>
-      <par n="contde__pr"/>
-    </e>-->
     <e lm="en todo" r="RL">
       <i>en<b/>todo</i>
       <par n="a__pr"/>
@@ -110723,8 +110638,8 @@
       </p>
       <par n="~/le__prn"/>
     </e>
-<!--MG: revisar reflexiu a següents pronoms -->
-    <e lm="se la" r="LR">
+
+    <e lm="se la" r="LR" c="MG: revisar reflexiu a següents pronoms">
       <p>
         <l>se<b/>la</l>
         <r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r>
@@ -111705,10 +111620,6 @@
       </p>
       <par n="abandón/ar__vblex"/>
     </e>
-<!--   <e lm="acostar">
-        <i>ac</i>
-        <par n="ac/ostar__vblex"/>
-      </e> -->
     <e lm="acostumbrar">
       <i>acostumbr</i>
       <par n="abandon/ar__vblex"/>
@@ -131948,13 +131859,13 @@
       </p>
       <par n="abandón/ar__vblex"/>
     </e>
-<!-- "Deber" como verbo modal de obligación: -->
-    <e lm="deber" r="LR">
+
+    <e lm="deber" r="LR" c="'Deber' como verbo modal de obligación">
       <i>deb</i>
       <par n="deb/er__vbmod"/>
     </e>
-<!-- "Deber de" como verbo modal de probabilidad: -->
-    <e lm="deber de">
+
+    <e lm="deber de" c="'Deber de' como verbo modal de probabilidad">
       <i>deb</i>
       <par n="deb/er__vbmod"/>
       <p>
@@ -131962,8 +131873,8 @@
         <r><g><b/>de</g></r>
       </p>
     </e>
-<!-- "Deber" como verbo léxico, "me debes dinero" -->
-    <e lm="deber">
+
+    <e lm="deber" c="'Deber' como verbo léxico, 'me debes dinero'">
       <i>deb</i>
       <par n="deb/er__vblex"/>
     </e>
@@ -132014,7 +131925,7 @@
       <par n="~la__det"/>
     </e>
     
-<!-- comienzo palabras formulario -->    
+
     
     <e lm="más" a="mginesti">
       <i>más</i>
@@ -132523,7 +132434,7 @@
   <i>kéfir</i>
   <par n="abril__n"/>
 </e>
-<!--fin palabras formulario-->
+
 
 <!--Multipalabras con flexión intercalada -->
     <e lm="dar asco">
@@ -135694,17 +135605,6 @@
   <i>neonat</i>
   <par n="absolut/o__adj"/>
 </e>
-<e lm="cubito de hielo" a="mikel" c="Ángel + Carme">
-  <i>cubito<b/>de<b/>hielo</i>
-  <par n="atletismo__n"/>
-</e>
-<e lm="cubito de hielo" a="mikel" c="Ángel + Carme">
-  <p>
-    <l>cubitos<b/>de<b/>hielo</l>
-    <r>cubito<b/>de<b/>hielo</r>
-  </p>
-  <par n="alrededores__n"/>
-</e>
 <e lm="pie de rata purgante" a="mikel" c="Ángel">
   <i>pie<b/>de<b/>rata<b/>purgante</i>
   <par n="atletismo__n"/>
@@ -135716,7 +135616,7 @@
   </p>
   <par n="alrededores__n"/>
 </e>
-<!--
+
 <e lm="cubito de hielo" a="mikel">
   <i>cubito</i>
    <par n="abismo__n"/>
@@ -135724,7 +135624,7 @@
    <l><b/>de<b/>hielo</l>
    <r><g><b/>de<b/>hielo</g></r>
 	</p>
- </e>-->
+ </e>
 <e lm="caries" a="mikel" c="Ángel">
   <i>caries</i>
   <par n="Tm__n"/>
@@ -136884,27 +136784,27 @@
     <e lm="cigala">
       <i>cigala</i>
       <par n="abeja__n"/>
-    </e> <!-- fem -->
+    </e> 
     <e lm="alubia">
       <i>alubia</i>
       <par n="abeja__n"/>
-    </e> <!-- fem -->
+    </e> 
     <e lm="suburbio">
       <i>suburbio</i>
       <par n="abismo__n"/>
-    </e> <!-- masc -->
+    </e> 
     <e lm="tarificación">
       <i>tarificaci</i>
       <par n="acci/ón__n"/>
-    </e> <!-- fem -->
+    </e> 
     <e lm="parabrisas">
       <i>parabrisas</i>
       <par n="campus__n"/>
-    </e> <!-- masc -->
+    </e>
     <e lm="transbordo">
       <i>transbordo</i>
       <par n="abismo__n"/>
-    </e> <!-- masc -->
+    </e> 
     <e lm="astronómico">
       <i>astronómic</i>
       <par n="absolut/o__adj"/>
@@ -136920,22 +136820,19 @@
     <e lm="sinagoga">
       <i>sinagoga</i>
       <par n="abeja__n"/>
-    </e> <!-- fem -->
+    </e> 
     <e lm="higo">
       <i>higo</i>
       <par n="abismo__n"/>
-    </e> <!-- fem -->
+    </e> 
     <e lm="migraña">
       <i>migraña</i>
       <par n="abeja__n"/>
-    </e> <!-- fem -->
+    </e> 
     <e lm="guadaña">
       <i>guadaña</i>
       <par n="abeja__n"/>
-    </e> <!-- fem -->
-
-<!-- secció adn-->
-
+    </e> 
 
 
           <e lm="abaratamiento" a="prompsit2adn">
@@ -157152,7 +157049,7 @@
 <e lm="suní" a="prompsit2adn"><i>suní</i><par n="albañil__n"/></e>
 <e lm="suní" a="prompsit2adn"><i>suní</i><par n="abdominal__adj"/></e>
 <e lm="maillot" a="prompsit2adn"><i>maillot</i><par n="abismo__n"/></e>
-<!--fi secció adn-->
+
 
 <e a="prompsit" lm="Abiyán"><i>Abiyán</i><par n="Afganistán__np"/></e>
 <e a="prompsit" lm="Abuya"><i>Abuya</i><par n="Afganistán__np"/></e>
@@ -157747,7 +157644,6 @@
 <e a="prompsit" lm="aquí abajo"><i>aquí<b/>abajo</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="allí arriba"><i>allí<b/>arriba</i><par n="ahora__adv"/></e>
 <e a="prompsit" lm="allí abajo"><i>allí<b/>abajo</i><par n="ahora__adv"/></e>
-<!--<e a="prompsit" lm="en casa"><i>en<b/>casa</i><par n="ahora__adv"/></e>-->
 
           <e a="prompsit" lm="20 minutos"><i>20<b/>minutos</i><par n="ABC__np"/></e>
           <e a="prompsit" lm="3xl.net"><i>3xl.net</i><par n="ABC__np"/></e>
@@ -158624,8 +158520,6 @@
 <e lm="ionización" a="prompsit"><i>ionizaci</i><par n="acci/ón__n"/></e>
 <e lm="jeroglífico" a="prompsit"><i>jeroglífico</i><par n="abismo__n"/></e>
 <e lm="carnaval" r="RL" a="prompsit"><i>carnaval</i><par n="abril__n"/></e>
-
-<!-- subsecció webform-->
 
 
   <e a="prompsit" lm="educacional">
@@ -164672,9 +164566,6 @@
     <e>
       <par n="separ"/>
     </e>
-<!--    <e>
-        <par n="internet"/>
-      </e> -->
     <e>
       <par n="emails"/>
      </e>
