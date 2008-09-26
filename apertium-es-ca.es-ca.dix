@@ -7186,7 +7186,7 @@
       <e>
         <p>
           <l>por<b/>arte<b/>de<b/>magia<s n="adv"/></l>
-          <r>per<b/>art<b/>de<b/>magia<s n="adv"/></r>
+          <r>per<b/>art<b/>de<b/>màgia<s n="adv"/></r>
         </p>
       </e>
       <e>
@@ -67475,7 +67475,7 @@
         <i>viral<s n="adj"/></i>
       </e>
       <e>
-        <i>Virginia<s n="np"/></i>
+        <i>Virginia<s n="np"/><s n="ant"/></i>
       </e>
       <e>
         <p>
@@ -96811,7 +96811,6 @@
 <e a="prompsit2adn"><p><l>Atlántico<s n="np"/></l><r>Atlántico<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Cancún<s n="np"/></l><r>Cancún<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Parlament<s n="np"/></l><r>Parlament<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Yemen<s n="np"/></l><r>Yemen<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Nicaragua<s n="np"/></l><r>Nicaragua<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Islamabad<s n="np"/></l><r>Islamabad<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Stuttgart<s n="np"/></l><r>Stuttgart<s n="np"/></r></p></e>
@@ -99403,12 +99402,6 @@
           <p>
             <l>transnacional<s n="adj"/></l>
             <r>transnacional<s n="adj"/></r>
-          </p>
-        </e>
-	<e a="prompsit">
-          <p>
-            <l>trapezoidal<s n="adj"/></l>
-            <r>trapezoidal<s n="adj"/></r>
           </p>
         </e>
 	<e a="prompsit">
@@ -106942,6 +106935,12 @@
       </e>
       <e a="prompsit2uoc">
         <p>
+          <l>galope<s n="n"/></l>
+          <r>galop<s n="n"/></r>
+        </p>
+      </e>
+      <e a="prompsit2uoc">
+        <p>
           <l>psíquicamente<s n="adv"/></l>
           <r>psíquicament<s n="adv"/></r>
         </p>
@@ -107404,10 +107403,10 @@
           <r>carret<s n="n"/></r>
         </p>
       </e>
-      <e a="prompsit2uoc" r="LR">
+      <e a="prompsit2uoc">
         <p>
-          <l>en<b/>un<b/>santiamén<s n="adj"/></l>
-          <r>en<b/>un<b/>tres<b/>i<b/>no<b/>res<s n="adj"/></r>
+          <l>en<b/>un<b/>santiamén<s n="adv"/></l>
+          <r>en<b/>un<b/>tres<b/>i<b/>no<b/>res<s n="adv"/></r>
         </p>
       </e>
 
@@ -107429,7 +107428,7 @@
           <r>rovell<s n="n"/><s n="m"/></r>
         </p>
       </e>
-      <e a="prompsit2uoc" slr="rovell" srl="herrumbre D">
+      <e a="prompsit2uoc" srl="herrumbre D">
         <p>
           <l>herrumbre<s n="n"/><s n="f"/></l>
           <r>rovell<s n="n"/><s n="m"/></r>
@@ -107501,7 +107500,7 @@
 <e a="prompsit2uoc"><i>Harvard<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Leonard<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Madeira<s n="np"/></i></e>
-<e a="prompsit2uoc"><p><l>Virginia<s n="np"/></l><r>Virgínia<s n="np"/></r></p></e>
+<e a="prompsit2uoc"><p><l>Virginia<s n="np"/><s n="loc"/></l><r>Virgínia<s n="np"/><s n="loc"/></r></p></e>
 <e a="prompsit2uoc"><i>Massachusetts<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Michigan<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Oklahoma<s n="np"/></i></e>
@@ -107571,6 +107570,7 @@
 <e a="prompsit2uoc"><i>Siam<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Panjab<s n="np"/></i></e>
 <e a="prompsit2uoc"><p><l>Misisipí<s n="np"/></l><r>Mississipí<s n="np"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>Misisipi<s n="np"/></l><r>Mississipí<s n="np"/></r></p></e>
 <e a="prompsit2uoc"><i>Judit<s n="np"/></i></e>
 <e a="prompsit2uoc"><p><l>Reikiavik<s n="np"/></l><r>Reykjavík<s n="np"/></r></p></e>
 <e a="prompsit2uoc"><i>Humphrey<s n="np"/></i></e>
@@ -107718,6 +107718,390 @@
 <e a="prompsit2uoc"><i>Crestian<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Amice<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Alys<s n="np"/></i></e>
+
+<!--noves entrades adj -->
+
+
+<e a="prompsit2uoc"><p><l>rectangular<s n="adj"/></l><r>rectangular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vectorial<s n="adj"/></l><r>vectorial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espectral<s n="adj"/></l><r>espectral<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>orquestal<s n="adj"/></l><r>orquestral<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glacial<s n="adj"/></l><r>glacial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>marcial<s n="adj"/></l><r>marcial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mitocondrial<s n="adj"/></l><r>mitocondrial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rupestre<s n="adj"/></l><r>rupestre<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ornamental<s n="adj"/></l><r>ornamental<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>globular<s n="adj"/></l><r>globular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gravitacional<s n="adj"/></l><r>gravitacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>basal<s n="adj"/></l><r>basal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>molar<s n="adj"/></l><r>molar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>senatorial<s n="adj"/></l><r>senatorial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>longitudinal<s n="adj"/></l><r>longitudinal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>soluble<s n="adj"/></l><r>soluble<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vascular<s n="adj"/></l><r>vascular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>derivable<s n="adj"/></l><r>derivable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sénior<s n="adj"/></l><r>sènior<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hexagonal<s n="adj"/></l><r>hexagonal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sociable<s n="adj"/></l><r>sociable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>circundante<s n="adj"/></l><r>circumdant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuadrangular<s n="adj"/></l><r>quadrangular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tonal<s n="adj"/></l><r>tonal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espinal<s n="adj"/></l><r>espinal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>computacional<s n="adj"/></l><r>computacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tubular<s n="adj"/></l><r>tubular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>non<s n="adj"/></l><r>senar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>palatal<s n="adj"/></l><r>palatal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>observable<s n="adj"/></l><r>observable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>maxilar<s n="adj"/></l><r>maxil·lar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>divergente<s n="adj"/></l><r>divergent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pectoral<s n="adj"/></l><r>pectoral<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>piramidal<s n="adj"/></l><r>piramidal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ortogonal<s n="adj"/></l><r>ortogonal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>observacional<s n="adj"/></l><r>observacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gentil<s n="adj"/></l><r>gentil<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cantonal<s n="adj"/></l><r>cantonal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ojival<s n="adj"/></l><r>ogival<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>medible<s n="adj"/></l><r>mesurable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>insoluble<s n="adj"/></l><r>insoluble<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alveolar<s n="adj"/></l><r>alveolar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>relacional<s n="adj"/></l><r>relacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ovoide<s n="adj"/></l><r>ovoide<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diferenciable<s n="adj"/></l><r>diferenciable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>liberal<s n="adj"/></l><r>lliberal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aluvial<s n="adj"/></l><r>al·luvial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>penetrante<s n="adj"/></l><r>punyent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>operacional<s n="adj"/></l><r>operacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ferviente<s n="adj"/></l><r>fervent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuneiforme<s n="adj"/></l><r>cuneïforme<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>causal<s n="adj"/></l><r>causal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bipolar<s n="adj"/></l><r>bipolar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bicameral<s n="adj"/></l><r>bicameral<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>beligerante<s n="adj"/></l><r>bel·ligerant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>invariable<s n="adj"/></l><r>invariable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pentagonal<s n="adj"/></l><r>pentagonal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>integrable<s n="adj"/></l><r>integrable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>coaxial<s n="adj"/></l><r>coaxial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>equidistante<s n="adj"/></l><r>equidistant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>preeminente<s n="adj"/></l><r>preeminent<s n="adj"/></r></p></e>
+<e r="RL" a="prompsit2uoc"><p><l>innumerable<s n="adj"/></l><r>innumerable<s n="adj"/></r></p></e>
+<e r="LR" a="prompsit2uoc"><p><l>tiroideo<s n="adj"/><s n="m"/></l><r>tiroïdal<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR" a="prompsit2uoc"><p><l>tiroideo<s n="adj"/><s n="f"/></l><r>tiroïdal<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL" a="prompsit2uoc"><p><l>tiroideo<s n="adj"/><s n="GD"/></l><r>tiroïdal<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR" a="prompsit2uoc"><p><l>tiroides<s n="adj"/><s n="mf"/><s n="sp"/></l><r>tiroide<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e r="RL" a="prompsit2uoc"><p><l>tiroides<s n="adj"/><s n="mf"/><s n="sp"/></l><r>tiroide<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="RL" a="prompsit2uoc"><p><l>tiroides<s n="adj"/><s n="mf"/><s n="sp"/></l><r>tiroide<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc"><p><l>helicoidal<s n="adj"/></l><r>helicoïdal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trapezoidal<s n="adj"/></l><r>trapezoïdal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>direccional<s n="adj"/></l><r>direccional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>invertible<s n="adj"/></l><r>invertible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ejecutable<s n="adj"/></l><r>executable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cervical<s n="adj"/></l><r>cervical<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ordinal<s n="adj"/></l><r>ordinal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>labial<s n="adj"/></l><r>labial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>intercambiable<s n="adj"/></l><r>intercanviable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hexadecimal<s n="adj"/></l><r>hexadecimal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arrogante<s n="adj"/></l><r>arrogant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>suprarrenal<s n="adj"/></l><r>suprarenal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>numerable<s n="adj"/></l><r>numerable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>intercontinental<s n="adj"/></l><r>intercontinental<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>confederal<s n="adj"/></l><r>confederal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>haploide<s n="adj"/></l><r>haploide<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>medial<s n="adj"/></l><r>medial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>asexual<s n="adj"/></l><r>asexual<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sexagesimal<s n="adj"/></l><r>sexagesimal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>premolar<s n="adj"/></l><r>premolar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>parietal<s n="adj"/></l><r>parietal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>germinal<s n="adj"/></l><r>germinal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>separable<s n="adj"/></l><r>separable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gremial<s n="adj"/></l><r>gremial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diploide<s n="adj"/></l><r>diploide<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lacustre<s n="adj"/></l><r>lacustre<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dimensional<s n="adj"/></l><r>dimensional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dúctil<s n="adj"/></l><r>dúctil<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>audible<s n="adj"/></l><r>audible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bidireccional<s n="adj"/></l><r>bidireccional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reticular<s n="adj"/></l><r>reticular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>legible<s n="adj"/></l><r>llegible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>irreductible<s n="adj"/></l><r>irreductible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mandibular<s n="adj"/></l><r>mandibular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>factorial<s n="adj"/></l><r>factorial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sacramental<s n="adj"/></l><r>sacramental<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clerical<s n="adj"/></l><r>clerical<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>proverbial<s n="adj"/></l><r>proverbial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>posicional<s n="adj"/></l><r>posicional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inviolable<s n="adj"/></l><r>inviolable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cultivable<s n="adj"/></l><r>cultivable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inmaterial<s n="adj"/></l><r>immaterial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abisal<s n="adj"/></l><r>abissal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>demostrable<s n="adj"/></l><r>demostrable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>granular<s n="adj"/></l><r>granular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>elegible<s n="adj"/></l><r>elegible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vesical<s n="adj"/></l><r>vesical<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>preescolar<s n="adj"/></l><r>preescolar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acimutal<s n="adj"/></l><r>azimutal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>azimutal<s n="adj"/></l><r>azimutal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>termonuclear<s n="adj"/></l><r>termonuclear<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prudencial<s n="adj"/></l><r>prudencial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>preposicional<s n="adj"/></l><r>preposicional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incomparable<s n="adj"/></l><r>incomparable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tetragonal<s n="adj"/></l><r>tetragonal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>intrigante<s n="adj"/></l><r>intrigant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>intracelular<s n="adj"/></l><r>intracel·lular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>impersonal<s n="adj"/></l><r>impersonal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>disonante<s n="adj"/></l><r>dissonant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>utilizable<s n="adj"/></l><r>utilitzable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>traqueal<s n="adj"/></l><r>traqueal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tabular<s n="adj"/></l><r>tabular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sinusoidal<s n="adj"/></l><r>sinusoïdal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuestionable<s n="adj"/></l><r>qüestionable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>adverbial<s n="adj"/></l><r>adverbial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>programable<s n="adj"/></l><r>programable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>manejable<s n="adj"/></l><r>manejable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>axilar<s n="adj"/></l><r>axil·lar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vehemente<s n="adj"/></l><r>vehement<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>unidimensional<s n="adj"/></l><r>unidimensional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>proximal<s n="adj"/></l><r>proximal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>omnipotente<s n="adj"/></l><r>omnipotent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>imperceptible<s n="adj"/></l><r>imperceptible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>controlable<s n="adj"/></l><r>controlable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bronquial<s n="adj"/></l><r>bronquial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reutilizable<s n="adj"/></l><r>reutilitzable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inamovible<s n="adj"/></l><r>inamovible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>impenetrable<s n="adj"/></l><r>impenetrable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>covariante<s n="adj"/></l><r>covariant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ciliar<s n="adj"/></l><r>ciliar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>maleable<s n="adj"/></l><r>mal·leable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>labiodental<s n="adj"/></l><r>labiodental<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>interpersonal<s n="adj"/></l><r>interpersonal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fotosensible<s n="adj"/></l><r>fotosensible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>resoluble<s n="adj"/></l><r>resoluble<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ininteligible<s n="adj"/></l><r>inintel·ligible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>impaciente<s n="adj"/></l><r>impacient<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anticonstitucional<s n="adj"/></l><r>anticonstitucional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ortonormal<s n="adj"/></l><r>ortonormal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fraternal<s n="adj"/></l><r>fraternal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tangencial<s n="adj"/></l><r>tangencial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ovovivíparo<s n="adj"/></l><r>ovovivípar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>occipital<s n="adj"/></l><r>occipital<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neuromuscular<s n="adj"/></l><r>neuromuscular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inexorable<s n="adj"/></l><r>inexorable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>impracticable<s n="adj"/></l><r>impracticable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>virginal<s n="adj"/></l><r>virginal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>romboidal<s n="adj"/></l><r>romboïdal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ovíparo<s n="adj"/></l><r>ovípar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vivíparo<s n="adj"/></l><r>vivípar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>marital<s n="adj"/></l><r>marital<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inalienable<s n="adj"/></l><r>inalienable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prensil<s n="adj"/></l><r>prènsil<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>parental<s n="adj"/></l><r>parental<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anticlinal<s n="adj"/></l><r>anticlinal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vocacional<s n="adj"/></l><r>vocacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>proposicional<s n="adj"/></l><r>proposicional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pleural<s n="adj"/></l><r>pleural<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>modificable<s n="adj"/></l><r>modificable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lacrimal<s n="adj"/></l><r>lacrimal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>retráctil<s n="adj"/></l><r>retràctil<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>planar<s n="adj"/></l><r>planar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nilpotente<s n="adj"/></l><r>nilpotent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incremental<s n="adj"/></l><r>incremental<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desmontable<s n="adj"/></l><r>desmuntable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>contráctil<s n="adj"/></l><r>contràctil<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sibilante<s n="adj"/></l><r>sibilant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>piriforme<s n="adj"/></l><r>piriforme<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>intangible<s n="adj"/></l><r>intangible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>insolente<s n="adj"/></l><r>insolent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incurable<s n="adj"/></l><r>incurable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>explicable<s n="adj"/></l><r>explicable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>definible<s n="adj"/></l><r>definible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corpuscular<s n="adj"/></l><r>corpuscular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>salival<s n="adj"/></l><r>salival<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>irrotacional<s n="adj"/></l><r>irrotacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>duodenal<s n="adj"/></l><r>duodenal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>contextual<s n="adj"/></l><r>contextual<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ambivalente<s n="adj"/></l><r>ambivalent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>psicosocial<s n="adj"/></l><r>psicosocial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monocromo<s n="adj"/></l><r>monocrom<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>matrilineal<s n="adj"/></l><r>matrilineal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isótropo<s n="adj"/></l><r>isòtrop<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inconcebible<s n="adj"/></l><r>inconcebible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inapreciable<s n="adj"/></l><r>inapreciable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>uretral<s n="adj"/></l><r>uretral<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>transaccional<s n="adj"/></l><r>transaccional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>testicular<s n="adj"/></l><r>testicular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>patrilineal<s n="adj"/></l><r>patrilineal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fusible<s n="adj"/></l><r>fusible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>concomitante<s n="adj"/></l><r>concomitant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>altitudinal<s n="adj"/></l><r>altitudinal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>pánfilo<s n="adj"/></l><r>tòtil<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pánfilo<s n="adj"/></l><r>pàmfil<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>indulgente<s n="adj"/></l><r>indulgent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fragante<s n="adj"/></l><r>fragant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tibial<s n="adj"/></l><r>tibial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reciclable<s n="adj"/></l><r>reciclable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>irrefutable<s n="adj"/></l><r>irrefutable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acéfalo<s n="adj"/></l><r>acèfal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bicéfalo<s n="adj"/></l><r>bicèfal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vestibular<s n="adj"/></l><r>vestibular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>obtusángulo<s n="adj"/></l><r>obtusangle<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>miscible<s n="adj"/></l><r>miscible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mezclable<s n="adj"/></l><r>barrejable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>localizable<s n="adj"/></l><r>localitzable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>interdependiente<s n="adj"/></l><r>interdependent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>intencional<s n="adj"/></l><r>intencional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>evitable<s n="adj"/></l><r>evitable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>columnar<s n="adj"/></l><r>columnar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>intermolecular<s n="adj"/></l><r>intermolecular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>demente<s n="adj"/></l><r>dement<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biodegradable<s n="adj"/></l><r>biodegradable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>revocable<s n="adj"/></l><r>revocable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>permisible<s n="adj"/></l><r>permissible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>papilar<s n="adj"/></l><r>papil·lar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incongruente<s n="adj"/></l><r>incongruent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diligente<s n="adj"/></l><r>diligent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cubital<s n="adj"/></l><r>cubital<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>concebible<s n="adj"/></l><r>concebible<s n="adj"/></r></p></e>
+<e r="LR" a="prompsit2uoc"><p><l>perecedero<s n="adj"/><s n="m"/></l><r>perible<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR" a="prompsit2uoc"><p><l>perecedero<s n="adj"/><s n="f"/></l><r>perible<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL" a="prompsit2uoc"><p><l>perecedero<s n="adj"/><s n="GD"/></l><r>perible<s n="adj"/><s n="mf"/></r></p></e>
+<e a="prompsit2uoc"><p><l>irresoluble<s n="adj"/></l><r>irresoluble<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>interpretable<s n="adj"/></l><r>interpretable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hexástilo<s n="adj"/></l><r>hexàstil<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>equinoccial<s n="adj"/></l><r>equinoccial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aspectual<s n="adj"/></l><r>aspectual<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antropoide<s n="adj"/></l><r>antropoide<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acentual<s n="adj"/></l><r>accentual<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>seleccionable<s n="adj"/></l><r>seleccionable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>realizable<s n="adj"/></l><r>realitzable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuantificable<s n="adj"/></l><r>quantificable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pupilar<s n="adj"/></l><r>pupil·lar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prematrimonial<s n="adj"/></l><r>prematrimonial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pedante<s n="adj"/></l><r>pedant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lingual<s n="adj"/></l><r>lingual<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>irreprochable<s n="adj"/></l><r>irreprotxable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>irrecuperable<s n="adj"/></l><r>irrecuperable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inconmensurable<s n="adj"/></l><r>incommensurable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>heredable<s n="adj"/></l><r>heretable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esferoidal<s n="adj"/></l><r>esferoïdal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reductible<s n="adj"/></l><r>reductible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perineal<s n="adj"/></l><r>perineal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>insondable<s n="adj"/></l><r>insondable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>enumerable<s n="adj"/></l><r>enumerable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sinclinal<s n="adj"/></l><r>sinclinal<s n="adj"/></r></p></e>
+<e r="RL" a="prompsit2uoc"><p><l>predecible<s n="adj"/></l><r>predicible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>movible<s n="adj"/></l><r>movible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>iridiscente<s n="adj"/></l><r>iridescent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inutilizable<s n="adj"/></l><r>inutilitzable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>infinitesimal<s n="adj"/></l><r>infinitessimal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>indemostrable<s n="adj"/></l><r>indemostrable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inaplicable<s n="adj"/></l><r>inaplicable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>imprimible<s n="adj"/></l><r>imprimible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>idempotente<s n="adj"/></l><r>idempotent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>helicoide<s n="adj"/></l><r>helicoide<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>consumible<s n="adj"/></l><r>consumible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>condenable<s n="adj"/></l><r>condemnable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>categorial<s n="adj"/></l><r>categorial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>unipolar<s n="adj"/></l><r>unipolar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>termoestable<s n="adj"/></l><r>termostable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>situacional<s n="adj"/></l><r>situacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incognoscible<s n="adj"/></l><r>incognoscible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>expresable<s n="adj"/></l><r>expressable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>euforizante<s n="adj"/></l><r>euforitzant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>editable<s n="adj"/></l><r>editable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>duodecimal<s n="adj"/></l><r>duodecimal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>adjetival<s n="adj"/></l><r>adjectival<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>transformacional<s n="adj"/></l><r>transformacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>transformable<s n="adj"/></l><r>transformable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reparable<s n="adj"/></l><r>reparable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reembolsable<s n="adj"/></l><r>reemborsable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>poliploide<s n="adj"/></l><r>poliploide<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>periglacial<s n="adj"/></l><r>periglacial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>paleotropical<s n="adj"/></l><r>paleotropical<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oracional<s n="adj"/></l><r>oracional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neonatal<s n="adj"/></l><r>neonatal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inelegible<s n="adj"/></l><r>inelegible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>folicular<s n="adj"/></l><r>fol·licular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>etmoidal<s n="adj"/></l><r>etmoïdal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>coclear<s n="adj"/></l><r>coclear<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cambiable<s n="adj"/></l><r>canviable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>calculable<s n="adj"/></l><r>calculable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>asocial<s n="adj"/></l><r>asocial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>amistoso<s n="adj"/><s n="GD"/></l><r>amical<s n="adj"/><s n="mf"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zonular<s n="adj"/></l><r>zonular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vicariante<s n="adj"/></l><r>vicariant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trigonal<s n="adj"/></l><r>trigonal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trasladable<s n="adj"/></l><r>traslladable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>próstilo<s n="adj"/></l><r>pròstil<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>presentable<s n="adj"/></l><r>presentable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oponible<s n="adj"/></l><r>oposable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>motivacional<s n="adj"/></l><r>motivacional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mecanizable<s n="adj"/></l><r>mecanitzable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>indiscernible<s n="adj"/></l><r>indiscernible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incomunicable<s n="adj"/></l><r>incomunicable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>ilegible<s n="adj"/></l><r>illegible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>friccional<s n="adj"/></l><r>friccional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>friable<s n="adj"/></l><r>friable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>discrecional<s n="adj"/></l><r>discrecional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>determinable<s n="adj"/></l><r>determinable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>conjuntival<s n="adj"/></l><r>conjuntival<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>combinable<s n="adj"/></l><r>combinable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>binaural<s n="adj"/></l><r>binaural<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>intercambiable<s n="adj"/></l><r>bescanviable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tetravalente<s n="adj"/></l><r>tetravalent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>supranatural<s n="adj"/></l><r>supranatural<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>representable<s n="adj"/></l><r>representable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pusilánime<s n="adj"/></l><r>pusil·lànime<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>poiquilotermo<s n="adj"/></l><r>poiquiloterm<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inescrutable<s n="adj"/></l><r>inescrutable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>indigerible<s n="adj"/></l><r>indigerible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incumbente<s n="adj"/></l><r>incumbent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inclinable<s n="adj"/></l><r>inclinable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>impugnable<s n="adj"/></l><r>impugnable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>imprescriptible<s n="adj"/></l><r>imprescriptible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inmodificable<s n="adj"/></l><r>immodificable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>humoral<s n="adj"/></l><r>humoral<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>homopolar<s n="adj"/></l><r>homopolar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gingival<s n="adj"/></l><r>gingival<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>falible<s n="adj"/></l><r>fal·lible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>descriptible<s n="adj"/></l><r>descriptible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corregible<s n="adj"/></l><r>corregible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>coluvial<s n="adj"/></l><r>col·luvial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>broncopulmonar<s n="adj"/></l><r>broncopulmonar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biomolecular<s n="adj"/></l><r>biomolecular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apelable<s n="adj"/></l><r>apel·lable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>direccionable<s n="adj"/></l><r>adreçable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>actuarial<s n="adj"/></l><r>actuarial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>venial<s n="adj"/></l><r>venial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>unicelular<s n="adj"/></l><r>unicel·lular<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subcostal<s n="adj"/></l><r>subcostal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>predicable<s n="adj"/></l><r>predicable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polidimensional<s n="adj"/></l><r>polidimensional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>operable<s n="adj"/></l><r>operable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>obstruyente<s n="adj"/></l><r>obstruent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monoploide<s n="adj"/></l><r>monoploide<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>metaestable<s n="adj"/></l><r>metastable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>luminiscente<s n="adj"/></l><r>luminescent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isotermo<s n="adj"/></l><r>isoterm<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>insomne<s n="adj"/></l><r>insomne<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inoperable<s n="adj"/></l><r>inoperable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>infraorbital<s n="adj"/></l><r>infraorbital<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inflexional<s n="adj"/></l><r>inflexional<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>indefendible<s n="adj"/></l><r>indefensable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>invaluable<s n="adj"/></l><r>inavaluable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>impresionable<s n="adj"/></l><r>impressionable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gestionable<s n="adj"/></l><r>gestionable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fungible<s n="adj"/></l><r>fungible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>exangüe<s n="adj"/></l><r>exsangüe<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>agotable<s n="adj"/></l><r>exhaurible<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>borrable<s n="adj"/></l><r>esborrable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epicicloidal<s n="adj"/></l><r>epicicloïdal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>moldeable<s n="adj"/></l><r>emmotllable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diametral<s n="adj"/></l><r>diametral<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>conjugable<s n="adj"/></l><r>conjugable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>colonizable<s n="adj"/></l><r>colonitzable<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biaxial<s n="adj"/></l><r>biaxial<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>asegurable<s n="adj"/></l><r>assegurable<s n="adj"/></r></p></e>
+
+
 
 
 
