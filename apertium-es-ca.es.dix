@@ -117196,6 +117196,17 @@
       </p>
       <par n="abát/ir__vblex"/>
     </e>
+    <e lm="predefinir" a="prompsit2uoc">
+      <i>predefin</i>
+      <par n="abat/ir__vblex"/>
+    </e>
+    <e lm="predefinir" a="prompsit2uoc">
+      <p>
+        <l>predefín</l>
+        <r>predefin</r>
+      </p>
+      <par n="abát/ir__vblex"/>
+    </e>
     <e lm="defraudar">
       <i>defraud</i>
       <par n="abandon/ar__vblex"/>
@@ -162719,7 +162730,7 @@
       <par n="abrumador__adj"/>
     </e> 
      
-    <e a="prompsit2ecl" lm="colaborador">
+    <e a="prompsit2ecl" lm="inversor">
       <i>inversor</i>
       <par n="abrumador__adj"/>
     </e>
@@ -163732,8 +163743,16 @@
   <i>IQUA</i>
   <par n="BBC__n"/>
 </e>
+<e lm="I+D" a="prompsit2uoc">
+  <i>I+D</i>
+  <par n="BBC__n"/>
+</e>
+<e lm="I+D+I" a="prompsit2uoc">
+  <i>I+D+I</i>
+  <par n="BBC__n"/>
+</e>
 
-    <e lm="subproducto">
+    <e lm="subproducto" a="prompsit2uoc">
       <i>subproducto</i>
       <par n="abismo__n"/>
     </e>
@@ -164035,6 +164054,7 @@
     <e lm="p. ej." a="prompsit2uoc"><i>p.<b/>ej.</i><par n="ahora__adv"/></e>
 
 
+    <e lm="clímax" a="prompsit2uoc"><i>clímax</i><par n="campus__n"/></e>
 
 <e a="prompsit2uoc" lm="nivelación">
   <i>nivelaci</i>
@@ -164532,18 +164552,21 @@
       </p>
     </e>
 
-
     <e lm="herrumbre" a="prompsit2uoc">
       <i>herrumbre</i>
       <par n="abeja__n"/>
     </e>
 
-
-
     <e lm="tira y afloja" a="prompsit2uoc">
       <i>tira<b/>y<b/>afloja</i>
       <par n="campus__n"/>
     </e>
+
+    <e a="prompsit2uoc" lm="financiador">
+      <i>financiador</i>
+      <par n="abrumador__adj"/>
+    </e>
+
 <!--nous np -->
 
 <e lm="New Hampshire" a="prompsit2uoc"><i>New<b/>Hampshire</i><par n="Afganistán__np"/></e>
@@ -165160,6 +165183,320 @@
 <e lm="conjugable" a="prompsit2uoc"><i>conjugable</i><par n="abundante__adj"/></e>
 <e lm="colonizable" a="prompsit2uoc"><i>colonizable</i><par n="abundante__adj"/></e>
 <e lm="asegurable" a="prompsit2uoc"><i>asegurable</i><par n="abundante__adj"/></e>
+<e lm="comercializable" a="prompsit2uoc"><i>comercializable</i><par n="abundante__adj"/></e>
+
+
+
+    <e lm="afecto">
+      <i>afect</i>
+      <par n="abstract/o__adj"/>
+    </e>
+
+
+
+<e lm="germánico" a="prompsit2uoc"><i>germánic</i><par n="absolut/o__adj"/></e>
+<e lm="amarillento" a="prompsit2uoc"><i>amarillent</i><par n="absolut/o__adj"/></e>
+<e lm="ártico" a="prompsit2uoc"><i>ártic</i><par n="absolut/o__adj"/></e>
+<e lm="aristocrático" a="prompsit2uoc"><i>aristocrátic</i><par n="absolut/o__adj"/></e>
+<e lm="cónico" a="prompsit2uoc"><i>cónic</i><par n="absolut/o__adj"/></e>
+<e lm="rúnico" a="prompsit2uoc"><i>rúnic</i><par n="absolut/o__adj"/></e>
+<e lm="dinástico" a="prompsit2uoc"><i>dinástic</i><par n="absolut/o__adj"/></e>
+<e lm="pitagórico" a="prompsit2uoc"><i>pitagóric</i><par n="absolut/o__adj"/></e>
+<e lm="dórico" a="prompsit2uoc"><i>dóric</i><par n="absolut/o__adj"/></e>
+<e lm="hispánico" a="prompsit2uoc"><i>hispánic</i><par n="absolut/o__adj"/></e>
+<e lm="linfático" a="prompsit2uoc"><i>linfátic</i><par n="absolut/o__adj"/></e>
+<e lm="iónico" a="prompsit2uoc"><i>iónic</i><par n="absolut/o__adj"/></e>
+<e lm="cilíndrico" a="prompsit2uoc"><i>cilíndric</i><par n="absolut/o__adj"/></e>
+<e lm="arcaico" a="prompsit2uoc"><i>arcaic</i><par n="absolut/o__adj"/></e>
+<e lm="napoleónico" a="prompsit2uoc"><i>napoleónic</i><par n="absolut/o__adj"/></e>
+<e lm="termodinámico" a="prompsit2uoc"><i>termodinámic</i><par n="absolut/o__adj"/></e>
+<e lm="aromático" a="prompsit2uoc"><i>aromátic</i><par n="absolut/o__adj"/></e>
+<e lm="inorgánico" a="prompsit2uoc"><i>inorgánic</i><par n="absolut/o__adj"/></e>
+<e lm="oligárquico" a="prompsit2uoc"><i>oligárquic</i><par n="absolut/o__adj"/></e>
+<e lm="megalítico" a="prompsit2uoc"><i>megalític</i><par n="absolut/o__adj"/></e>
+<e lm="humorístico" a="prompsit2uoc"><i>humorístic</i><par n="absolut/o__adj"/></e>
+<e lm="sádico" a="prompsit2uoc"><i>sádic</i><par n="absolut/o__adj"/></e>
+<e lm="monoclínico" a="prompsit2uoc"><i>monoclínic</i><par n="absolut/o__adj"/></e>
+<e lm="rítmico" a="prompsit2uoc"><i>rítmic</i><par n="absolut/o__adj"/></e>
+<e lm="enzimático" a="prompsit2uoc"><i>enzimátic</i><par n="absolut/o__adj"/></e>
+<e lm="enciclopédico" a="prompsit2uoc"><i>enciclopédic</i><par n="absolut/o__adj"/></e>
+<e lm="silábico" a="prompsit2uoc"><i>silábic</i><par n="absolut/o__adj"/></e>
+<e lm="sulfúrico" a="prompsit2uoc"><i>sulfúric</i><par n="absolut/o__adj"/></e>
+<e lm="algebraico" a="prompsit2uoc"><i>algebraic</i><par n="absolut/o__adj"/></e>
+<e lm="intrínseco" a="prompsit2uoc"><i>intrínsec</i><par n="absolut/o__adj"/></e>
+<e lm="cromático" a="prompsit2uoc"><i>cromátic</i><par n="absolut/o__adj"/></e>
+<e lm="jerárquico" a="prompsit2uoc"><i>jerárquic</i><par n="absolut/o__adj"/></e>
+<e lm="metabólico" a="prompsit2uoc"><i>metabólic</i><par n="absolut/o__adj"/></e>
+<e lm="geodésico" a="prompsit2uoc"><i>geodésic</i><par n="absolut/o__adj"/></e>
+<e lm="esquemático" a="prompsit2uoc"><i>esquemátic</i><par n="absolut/o__adj"/></e>
+<e lm="inmunológico" a="prompsit2uoc"><i>inmunológic</i><par n="absolut/o__adj"/></e>
+<e lm="torácico" a="prompsit2uoc"><i>torácic</i><par n="absolut/o__adj"/></e>
+<e lm="topológico" a="prompsit2uoc"><i>topológic</i><par n="absolut/o__adj"/></e>
+<e lm="cálcico" a="prompsit2uoc"><i>cálcic</i><par n="absolut/o__adj"/></e>
+<e lm="anaeróbico" a="prompsit2uoc"><i>anaeróbic</i><par n="absolut/o__adj"/></e>
+<e lm="termoeléctrico" a="prompsit2uoc"><i>termoeléctric</i><par n="absolut/o__adj"/></e>
+<e lm="dieléctrico" a="prompsit2uoc"><i>dieléctric</i><par n="absolut/o__adj"/></e>
+<e lm="anatómico" a="prompsit2uoc"><i>anatómic</i><par n="absolut/o__adj"/></e>
+<e lm="metalúrgico" a="prompsit2uoc"><i>metalúrgic</i><par n="absolut/o__adj"/></e>
+<e lm="hegemónico" a="prompsit2uoc"><i>hegemónic</i><par n="absolut/o__adj"/></e>
+<e lm="polifónico" a="prompsit2uoc"><i>polifónic</i><par n="absolut/o__adj"/></e>
+<e lm="etiópico" a="prompsit2uoc"><i>etiópic</i><par n="absolut/o__adj"/></e>
+<e lm="gástrico" a="prompsit2uoc"><i>gástric</i><par n="absolut/o__adj"/></e>
+<e lm="salvadoreño" a="prompsit2uoc"><i>salvadoreñ</i><par n="absolut/o__adj"/></e>
+<e lm="helénico" a="prompsit2uoc"><i>helénic</i><par n="absolut/o__adj"/></e>
+<e lm="parabólico" a="prompsit2uoc"><i>parabólic</i><par n="absolut/o__adj"/></e>
+<e lm="monolítico" a="prompsit2uoc"><i>monolític</i><par n="absolut/o__adj"/></e>
+<e lm="estático" a="prompsit2uoc"><i>estátic</i><par n="absolut/o__adj"/></e>
+<e lm="diabólico" a="prompsit2uoc"><i>diabólic</i><par n="absolut/o__adj"/></e>
+<e lm="aeróbico" a="prompsit2uoc"><i>aeróbic</i><par n="absolut/o__adj"/></e>
+<e lm="toponímico" a="prompsit2uoc"><i>toponímic</i><par n="absolut/o__adj"/></e>
+<e lm="electrostático" a="prompsit2uoc"><i>electrostátic</i><par n="absolut/o__adj"/></e>
+<e lm="altaico" a="prompsit2uoc"><i>altaic</i><par n="absolut/o__adj"/></e>
+<e lm="cárstico" a="prompsit2uoc"><i>cárstic</i><par n="absolut/o__adj"/></e>
+<e lm="kárstico" a="prompsit2uoc"><i>kárstic</i><par n="absolut/o__adj"/></e>
+<e lm="fenólico" a="prompsit2uoc"><i>fenólic</i><par n="absolut/o__adj"/></e>
+<e lm="dogmático" a="prompsit2uoc"><i>dogmátic</i><par n="absolut/o__adj"/></e>
+<e lm="concéntrico" a="prompsit2uoc"><i>concéntric</i><par n="absolut/o__adj"/></e>
+<e lm="acético" a="prompsit2uoc"><i>acétic</i><par n="absolut/o__adj"/></e>
+<e lm="morganático" a="prompsit2uoc"><i>morganátic</i><par n="absolut/o__adj"/></e>
+<e lm="volumétrico" a="prompsit2uoc"><i>volumétric</i><par n="absolut/o__adj"/></e>
+<e lm="balístico" a="prompsit2uoc"><i>balístic</i><par n="absolut/o__adj"/></e>
+<e lm="polinómico" a="prompsit2uoc"><i>polinómic</i><par n="absolut/o__adj"/></e>
+<e lm="ontológico" a="prompsit2uoc"><i>ontológic</i><par n="absolut/o__adj"/></e>
+<e lm="gimnástico" a="prompsit2uoc"><i>gimnástic</i><par n="absolut/o__adj"/></e>
+<e lm="esquelético" a="prompsit2uoc"><i>esquelétic</i><par n="absolut/o__adj"/></e>
+<e lm="deontológico" a="prompsit2uoc"><i>deontológic</i><par n="absolut/o__adj"/></e>
+<e lm="electroquímico" a="prompsit2uoc"><i>electroquímic</i><par n="absolut/o__adj"/></e>
+<e lm="prostático" a="prompsit2uoc"><i>prostátic</i><par n="absolut/o__adj"/></e>
+<e lm="macroscópico" a="prompsit2uoc"><i>macroscópic</i><par n="absolut/o__adj"/></e>
+<e lm="bioclimático" a="prompsit2uoc"><i>bioclimátic</i><par n="absolut/o__adj"/></e>
+<e lm="elíptico" a="prompsit2uoc"><i>elíptic</i><par n="absolut/o__adj"/></e>
+<e lm="agnóstico" a="prompsit2uoc"><i>agnóstic</i><par n="absolut/o__adj"/></e>
+<e lm="checoslovaco" a="prompsit2uoc"><i>checoslovac</i><par n="absolut/o__adj"/></e>
+<e lm="humanístico" a="prompsit2uoc"><i>humanístic</i><par n="absolut/o__adj"/></e>
+<e lm="faraónico" a="prompsit2uoc"><i>faraónic</i><par n="absolut/o__adj"/></e>
+<e lm="tiránico" a="prompsit2uoc"><i>tiránic</i><par n="absolut/o__adj"/></e>
+<e lm="fluorhídrico" a="prompsit2uoc"><i>fluorhídric</i><par n="absolut/o__adj"/></e>
+<e lm="filológico" a="prompsit2uoc"><i>filológic</i><par n="absolut/o__adj"/></e>
+<e lm="alfanumérico" a="prompsit2uoc"><i>alfanuméric</i><par n="absolut/o__adj"/></e>
+<e lm="carboxílico" a="prompsit2uoc"><i>carboxílic</i><par n="absolut/o__adj"/></e>
+<e lm="triclínico" a="prompsit2uoc"><i>triclínic</i><par n="absolut/o__adj"/></e>
+<e lm="escolástico" a="prompsit2uoc"><i>escolástic</i><par n="absolut/o__adj"/></e>
+<e lm="aritmético" a="prompsit2uoc"><i>aritmétic</i><par n="absolut/o__adj"/></e>
+<e lm="sabático" a="prompsit2uoc"><i>sabátic</i><par n="absolut/o__adj"/></e>
+<e lm="higroscópico" a="prompsit2uoc"><i>higroscópic</i><par n="absolut/o__adj"/></e>
+<e lm="cefálico" a="prompsit2uoc"><i>cefálic</i><par n="absolut/o__adj"/></e>
+<e lm="autocrático" a="prompsit2uoc"><i>autocrátic</i><par n="absolut/o__adj"/></e>
+<e lm="ultrasónico" a="prompsit2uoc"><i>ultrasónic</i><par n="absolut/o__adj"/></e>
+<e lm="electromecánico" a="prompsit2uoc"><i>electromecánic</i><par n="absolut/o__adj"/></e>
+<e lm="telegráfico" a="prompsit2uoc"><i>telegráfic</i><par n="absolut/o__adj"/></e>
+<e lm="cuadrático" a="prompsit2uoc"><i>cuadrátic</i><par n="absolut/o__adj"/></e>
+<e lm="freático" a="prompsit2uoc"><i>freátic</i><par n="absolut/o__adj"/></e>
+<e lm="orográfico" a="prompsit2uoc"><i>orográfic</i><par n="absolut/o__adj"/></e>
+<e lm="epiléptico" a="prompsit2uoc"><i>epiléptic</i><par n="absolut/o__adj"/></e>
+<e lm="babilónico" a="prompsit2uoc"><i>babilónic</i><par n="absolut/o__adj"/></e>
+<e lm="afrodisíaco" a="prompsit2uoc"><i>afrodisíac</i><par n="absolut/o__adj"/></e>
+<e lm="cromosómico" a="prompsit2uoc"><i>cromosómic</i><par n="absolut/o__adj"/></e>
+<e lm="cinético" a="prompsit2uoc"><i>cinétic</i><par n="absolut/o__adj"/></e>
+<e lm="catalítico" a="prompsit2uoc"><i>catalític</i><par n="absolut/o__adj"/></e>
+<e lm="cartográfico" a="prompsit2uoc"><i>cartográfic</i><par n="absolut/o__adj"/></e>
+<e lm="hiperbólico" a="prompsit2uoc"><i>hiperbólic</i><par n="absolut/o__adj"/></e>
+<e lm="hemisférico" a="prompsit2uoc"><i>hemisféric</i><par n="absolut/o__adj"/></e>
+<e lm="axiomático" a="prompsit2uoc"><i>axiomátic</i><par n="absolut/o__adj"/></e>
+<e lm="lexicográfico" a="prompsit2uoc"><i>lexicográfic</i><par n="absolut/o__adj"/></e>
+<e lm="hipnótico" a="prompsit2uoc"><i>hipnótic</i><par n="absolut/o__adj"/></e>
+<e lm="fotométrico" a="prompsit2uoc"><i>fotométric</i><par n="absolut/o__adj"/></e>
+<e lm="escenográfico" a="prompsit2uoc"><i>escenográfic</i><par n="absolut/o__adj"/></e>
+<e lm="equívoco" a="prompsit2uoc"><i>equívoc</i><par n="absolut/o__adj"/></e>
+<e lm="demoníaco" a="prompsit2uoc"><i>demoníac</i><par n="absolut/o__adj"/></e>
+<e lm="teocrático" a="prompsit2uoc"><i>teocrátic</i><par n="absolut/o__adj"/></e>
+<e lm="pélvico" a="prompsit2uoc"><i>pélvic</i><par n="absolut/o__adj"/></e>
+<e lm="morfosintáctico" a="prompsit2uoc"><i>morfosintáctic</i><par n="absolut/o__adj"/></e>
+<e lm="monocromático" a="prompsit2uoc"><i>monocromátic</i><par n="absolut/o__adj"/></e>
+<e lm="hipocorístico" a="prompsit2uoc"><i>hipocorístic</i><par n="absolut/o__adj"/></e>
+<e lm="biótico" a="prompsit2uoc"><i>biótic</i><par n="absolut/o__adj"/></e>
+<e lm="artúrico" a="prompsit2uoc"><i>artúric</i><par n="absolut/o__adj"/></e>
+<e lm="cigomático" a="prompsit2uoc"><i>cigomátic</i><par n="absolut/o__adj"/></e>
+<e lm="piezoeléctrico" a="prompsit2uoc"><i>piezoeléctric</i><par n="absolut/o__adj"/></e>
+<e lm="geomagnético" a="prompsit2uoc"><i>geomagnétic</i><par n="absolut/o__adj"/></e>
+<e lm="férrico" a="prompsit2uoc"><i>férric</i><par n="absolut/o__adj"/></e>
+<e lm="estocástico" a="prompsit2uoc"><i>estocástic</i><par n="absolut/o__adj"/></e>
+<e lm="detrítico" a="prompsit2uoc"><i>detrític</i><par n="absolut/o__adj"/></e>
+<e lm="probabilístico" a="prompsit2uoc"><i>probabilístic</i><par n="absolut/o__adj"/></e>
+<e lm="pancreático" a="prompsit2uoc"><i>pancreátic</i><par n="absolut/o__adj"/></e>
+<e lm="fónico" a="prompsit2uoc"><i>fónic</i><par n="absolut/o__adj"/></e>
+<e lm="diacrónico" a="prompsit2uoc"><i>diacrónic</i><par n="absolut/o__adj"/></e>
+<e lm="aristotélico" a="prompsit2uoc"><i>aristotélic</i><par n="absolut/o__adj"/></e>
+<e lm="adiabático" a="prompsit2uoc"><i>adiabátic</i><par n="absolut/o__adj"/></e>
+<e lm="romboédrico" a="prompsit2uoc"><i>romboédric</i><par n="absolut/o__adj"/></e>
+<e lm="robótico" a="prompsit2uoc"><i>robótic</i><par n="absolut/o__adj"/></e>
+<e lm="hidrostático" a="prompsit2uoc"><i>hidrostátic</i><par n="absolut/o__adj"/></e>
+<e lm="heterocíclico" a="prompsit2uoc"><i>heterocíclic</i><par n="absolut/o__adj"/></e>
+<e lm="hagiográfico" a="prompsit2uoc"><i>hagiográfic</i><par n="absolut/o__adj"/></e>
+<e lm="cáustico" a="prompsit2uoc"><i>cáustic</i><par n="absolut/o__adj"/></e>
+<e lm="caduco" a="prompsit2uoc"><i>caduc</i><par n="absolut/o__adj"/></e>
+<e lm="terminológico" a="prompsit2uoc"><i>terminológic</i><par n="absolut/o__adj"/></e>
+<e lm="radiográfico" a="prompsit2uoc"><i>radiográfic</i><par n="absolut/o__adj"/></e>
+<e lm="eufórico" a="prompsit2uoc"><i>eufóric</i><par n="absolut/o__adj"/></e>
+<e lm="electrolítico" a="prompsit2uoc"><i>electrolític</i><par n="absolut/o__adj"/></e>
+<e lm="egocéntrico" a="prompsit2uoc"><i>egocéntric</i><par n="absolut/o__adj"/></e>
+<e lm="isométrico" a="prompsit2uoc"><i>isométric</i><par n="absolut/o__adj"/></e>
+<e lm="hidrofóbico" a="prompsit2uoc"><i>hidrofóbic</i><par n="absolut/o__adj"/></e>
+<e lm="citoplasmático" a="prompsit2uoc"><i>citoplasmátic</i><par n="absolut/o__adj"/></e>
+<e lm="apologético" a="prompsit2uoc"><i>apologétic</i><par n="absolut/o__adj"/></e>
+<e lm="tipológico" a="prompsit2uoc"><i>tipológic</i><par n="absolut/o__adj"/></e>
+<e lm="rómbico" a="prompsit2uoc"><i>rómbic</i><par n="absolut/o__adj"/></e>
+<e lm="púbico" a="prompsit2uoc"><i>púbic</i><par n="absolut/o__adj"/></e>
+<e lm="mesodérmico" a="prompsit2uoc"><i>mesodérmic</i><par n="absolut/o__adj"/></e>
+<e lm="litográfico" a="prompsit2uoc"><i>litográfic</i><par n="absolut/o__adj"/></e>
+<e lm="estequiométrico" a="prompsit2uoc"><i>estequiométric</i><par n="absolut/o__adj"/></e>
+<e lm="epistemológico" a="prompsit2uoc"><i>epistemológic</i><par n="absolut/o__adj"/></e>
+<e lm="categórico" a="prompsit2uoc"><i>categóric</i><par n="absolut/o__adj"/></e>
+<e lm="simbiótico" a="prompsit2uoc"><i>simbiótic</i><par n="absolut/o__adj"/></e>
+<e lm="petroquímico" a="prompsit2uoc"><i>petroquímic</i><par n="absolut/o__adj"/></e>
+<e lm="metamórfico" a="prompsit2uoc"><i>metamórfic</i><par n="absolut/o__adj"/></e>
+<e lm="enclítico" a="prompsit2uoc"><i>enclític</i><par n="absolut/o__adj"/></e>
+<e lm="criogénico" a="prompsit2uoc"><i>criogénic</i><par n="absolut/o__adj"/></e>
+<e lm="biofísico" a="prompsit2uoc"><i>biofísic</i><par n="absolut/o__adj"/></e>
+<e lm="aórtico" a="prompsit2uoc"><i>aórtic</i><par n="absolut/o__adj"/></e>
+<e lm="termoplástico" a="prompsit2uoc"><i>termoplástic</i><par n="absolut/o__adj"/></e>
+<e lm="perifrástico" a="prompsit2uoc"><i>perifrástic</i><par n="absolut/o__adj"/></e>
+<e lm="mnemotécnico" a="prompsit2uoc"><i>mnemotécnic</i><par n="absolut/o__adj"/></e>
+<e lm="hidrolítico" a="prompsit2uoc"><i>hidrolític</i><par n="absolut/o__adj"/></e>
+<e lm="hidrodinámico" a="prompsit2uoc"><i>hidrodinámic</i><par n="absolut/o__adj"/></e>
+<e lm="heurístico" a="prompsit2uoc"><i>heurístic</i><par n="absolut/o__adj"/></e>
+<e lm="fálico" a="prompsit2uoc"><i>fálic</i><par n="absolut/o__adj"/></e>
+<e lm="demagógico" a="prompsit2uoc"><i>demagógic</i><par n="absolut/o__adj"/></e>
+<e lm="coreográfico" a="prompsit2uoc"><i>coreográfic</i><par n="absolut/o__adj"/></e>
+<e lm="cinemático" a="prompsit2uoc"><i>cinemátic</i><par n="absolut/o__adj"/></e>
+<e lm="anacrónico" a="prompsit2uoc"><i>anacrónic</i><par n="absolut/o__adj"/></e>
+<e lm="tetraédrico" a="prompsit2uoc"><i>tetraédric</i><par n="absolut/o__adj"/></e>
+<e lm="policíclico" a="prompsit2uoc"><i>policíclic</i><par n="absolut/o__adj"/></e>
+<e lm="geomorfológico" a="prompsit2uoc"><i>geomorfológic</i><par n="absolut/o__adj"/></e>
+<e lm="ergonómico" a="prompsit2uoc"><i>ergonómic</i><par n="absolut/o__adj"/></e>
+<e lm="diafragmático" a="prompsit2uoc"><i>diafragmátic</i><par n="absolut/o__adj"/></e>
+<e lm="biogeoquímico" a="prompsit2uoc"><i>biogeoquímic</i><par n="absolut/o__adj"/></e>
+<e lm="apático" a="prompsit2uoc"><i>apátic</i><par n="absolut/o__adj"/></e>
+<e lm="seudocientífico" a="prompsit2uoc"><i>seudocientífic</i><par n="absolut/o__adj"/></e>
+<e lm="protohistórico" a="prompsit2uoc"><i>protohistóric</i><par n="absolut/o__adj"/></e>
+<e lm="polimórfico" a="prompsit2uoc"><i>polimórfic</i><par n="absolut/o__adj"/></e>
+<e lm="polimérico" a="prompsit2uoc"><i>poliméric</i><par n="absolut/o__adj"/></e>
+<e lm="onomatopéyico" a="prompsit2uoc"><i>onomatopéyic</i><par n="absolut/o__adj"/></e>
+<e lm="maquiavélico" a="prompsit2uoc"><i>maquiavélic</i><par n="absolut/o__adj"/></e>
+<e lm="isotópico" a="prompsit2uoc"><i>isotópic</i><par n="absolut/o__adj"/></e>
+<e lm="icónico" a="prompsit2uoc"><i>icónic</i><par n="absolut/o__adj"/></e>
+<e lm="geotérmico" a="prompsit2uoc"><i>geotérmic</i><par n="absolut/o__adj"/></e>
+<e lm="fotónico" a="prompsit2uoc"><i>fotónic</i><par n="absolut/o__adj"/></e>
+<e lm="epigráfico" a="prompsit2uoc"><i>epigráfic</i><par n="absolut/o__adj"/></e>
+<e lm="enarmónico" a="prompsit2uoc"><i>enarmónic</i><par n="absolut/o__adj"/></e>
+<e lm="ectodérmico" a="prompsit2uoc"><i>ectodérmic</i><par n="absolut/o__adj"/></e>
+<e lm="autárquico" a="prompsit2uoc"><i>autárquic</i><par n="absolut/o__adj"/></e>
+<e lm="poliédrico" a="prompsit2uoc"><i>poliédric</i><par n="absolut/o__adj"/></e>
+<e lm="ovárico" a="prompsit2uoc"><i>ováric</i><par n="absolut/o__adj"/></e>
+<e lm="isomórfico" a="prompsit2uoc"><i>isomórfic</i><par n="absolut/o__adj"/></e>
+<e lm="giroscópico" a="prompsit2uoc"><i>giroscópic</i><par n="absolut/o__adj"/></e>
+<e lm="génico" a="prompsit2uoc"><i>génic</i><par n="absolut/o__adj"/></e>
+<e lm="fotoquímico" a="prompsit2uoc"><i>fotoquímic</i><par n="absolut/o__adj"/></e>
+<e lm="estereofónico" a="prompsit2uoc"><i>estereofónic</i><par n="absolut/o__adj"/></e>
+<e lm="esquizofrénico" a="prompsit2uoc"><i>esquizofrénic</i><par n="absolut/o__adj"/></e>
+<e lm="enfático" a="prompsit2uoc"><i>enfátic</i><par n="absolut/o__adj"/></e>
+<e lm="crómico" a="prompsit2uoc"><i>crómic</i><par n="absolut/o__adj"/></e>
+<e lm="antipático" a="prompsit2uoc"><i>antipátic</i><par n="absolut/o__adj"/></e>
+<e lm="antieconómico" a="prompsit2uoc"><i>antieconómic</i><par n="absolut/o__adj"/></e>
+<e lm="algorítmico" a="prompsit2uoc"><i>algorítmic</i><par n="absolut/o__adj"/></e>
+<e lm="semiesférico" a="prompsit2uoc"><i>semiesféric</i><par n="absolut/o__adj"/></e>
+<e lm="octaédrico" a="prompsit2uoc"><i>octaédric</i><par n="absolut/o__adj"/></e>
+<e lm="meristemático" a="prompsit2uoc"><i>meristemátic</i><par n="absolut/o__adj"/></e>
+<e lm="húmico" a="prompsit2uoc"><i>húmic</i><par n="absolut/o__adj"/></e>
+<e lm="fonemático" a="prompsit2uoc"><i>fonemátic</i><par n="absolut/o__adj"/></e>
+<e lm="estigmático" a="prompsit2uoc"><i>estigmátic</i><par n="absolut/o__adj"/></e>
+<e lm="esplénico" a="prompsit2uoc"><i>esplénic</i><par n="absolut/o__adj"/></e>
+<e lm="endotérmico" a="prompsit2uoc"><i>endotérmic</i><par n="absolut/o__adj"/></e>
+<e lm="digástrico" a="prompsit2uoc"><i>digástric</i><par n="absolut/o__adj"/></e>
+<e lm="asintótico" a="prompsit2uoc"><i>asintótic</i><par n="absolut/o__adj"/></e>
+<e lm="semiótico" a="prompsit2uoc"><i>semiótic</i><par n="absolut/o__adj"/></e>
+<e lm="semiautomático" a="prompsit2uoc"><i>semiautomátic</i><par n="absolut/o__adj"/></e>
+<e lm="pictográfico" a="prompsit2uoc"><i>pictográfic</i><par n="absolut/o__adj"/></e>
+<e lm="monofónico" a="prompsit2uoc"><i>monofónic</i><par n="absolut/o__adj"/></e>
+<e lm="mitótico" a="prompsit2uoc"><i>mitótic</i><par n="absolut/o__adj"/></e>
+<e lm="judaico" a="prompsit2uoc"><i>judaic</i><par n="absolut/o__adj"/></e>
+<e lm="idiosincrático" a="prompsit2uoc"><i>idiosincrátic</i><par n="absolut/o__adj"/></e>
+<e lm="exotérmico" a="prompsit2uoc"><i>exotérmic</i><par n="absolut/o__adj"/></e>
+<e lm="cromatográfico" a="prompsit2uoc"><i>cromatográfic</i><par n="absolut/o__adj"/></e>
+<e lm="bacteriológico" a="prompsit2uoc"><i>bacteriológic</i><par n="absolut/o__adj"/></e>
+<e lm="antisimétrico" a="prompsit2uoc"><i>antisimétric</i><par n="absolut/o__adj"/></e>
+<e lm="anticiclónico" a="prompsit2uoc"><i>anticiclónic</i><par n="absolut/o__adj"/></e>
+<e lm="acromático" a="prompsit2uoc"><i>acromátic</i><par n="absolut/o__adj"/></e>
+<e lm="timpánico" a="prompsit2uoc"><i>timpánic</i><par n="absolut/o__adj"/></e>
+<e lm="termométrico" a="prompsit2uoc"><i>termométric</i><par n="absolut/o__adj"/></e>
+<e lm="termoiónico" a="prompsit2uoc"><i>termoiónic</i><par n="absolut/o__adj"/></e>
+<e lm="semivocálico" a="prompsit2uoc"><i>semivocálic</i><par n="absolut/o__adj"/></e>
+<e lm="planimétrico" a="prompsit2uoc"><i>planimétric</i><par n="absolut/o__adj"/></e>
+<e lm="monocíclico" a="prompsit2uoc"><i>monocíclic</i><par n="absolut/o__adj"/></e>
+<e lm="mnemónico" a="prompsit2uoc"><i>mnemónic</i><par n="absolut/o__adj"/></e>
+<e lm="microbiológico" a="prompsit2uoc"><i>microbiológic</i><par n="absolut/o__adj"/></e>
+<e lm="litológico" a="prompsit2uoc"><i>litológic</i><par n="absolut/o__adj"/></e>
+<e lm="inarmónico" a="prompsit2uoc"><i>inarmónic</i><par n="absolut/o__adj"/></e>
+<e lm="hipogástrico" a="prompsit2uoc"><i>hipogástric</i><par n="absolut/o__adj"/></e>
+<e lm="geomórfico" a="prompsit2uoc"><i>geomórfic</i><par n="absolut/o__adj"/></e>
+<e lm="galvánico" a="prompsit2uoc"><i>galvánic</i><par n="absolut/o__adj"/></e>
+<e lm="entusiástico" a="prompsit2uoc"><i>entusiástic</i><par n="absolut/o__adj"/></e>
+<e lm="edáfico" a="prompsit2uoc"><i>edáfic</i><par n="absolut/o__adj"/></e>
+<e lm="ciclotómico" a="prompsit2uoc"><i>ciclotómic</i><par n="absolut/o__adj"/></e>
+<e lm="ciclónico" a="prompsit2uoc"><i>ciclónic</i><par n="absolut/o__adj"/></e>
+<e lm="catártico" a="prompsit2uoc"><i>catártic</i><par n="absolut/o__adj"/></e>
+<e lm="catabático" a="prompsit2uoc"><i>catabátic</i><par n="absolut/o__adj"/></e>
+<e lm="asfáltico" a="prompsit2uoc"><i>asfáltic</i><par n="absolut/o__adj"/></e>
+<e lm="acídico" a="prompsit2uoc"><i>acídic</i><par n="absolut/o__adj"/></e>
+<e lm="protoplasmático" a="prompsit2uoc"><i>protoplasmátic</i><par n="absolut/o__adj"/></e>
+<e lm="polisémico" a="prompsit2uoc"><i>polisémic</i><par n="absolut/o__adj"/></e>
+<e lm="poligénico" a="prompsit2uoc"><i>poligénic</i><par n="absolut/o__adj"/></e>
+<e lm="polifásico" a="prompsit2uoc"><i>polifásic</i><par n="absolut/o__adj"/></e>
+<e lm="paleográfico" a="prompsit2uoc"><i>paleográfic</i><par n="absolut/o__adj"/></e>
+<e lm="morfogenético" a="prompsit2uoc"><i>morfogenétic</i><par n="absolut/o__adj"/></e>
+<e lm="lexicológico" a="prompsit2uoc"><i>lexicológic</i><par n="absolut/o__adj"/></e>
+<e lm="isotérmico" a="prompsit2uoc"><i>isotérmic</i><par n="absolut/o__adj"/></e>
+<e lm="hidroneumático" a="prompsit2uoc"><i>hidroneumátic</i><par n="absolut/o__adj"/></e>
+<e lm="eutrófico" a="prompsit2uoc"><i>eutrófic</i><par n="absolut/o__adj"/></e>
+<e lm="eufemístico" a="prompsit2uoc"><i>eufemístic</i><par n="absolut/o__adj"/></e>
+<e lm="archivístico" a="prompsit2uoc"><i>archivístic</i><par n="absolut/o__adj"/></e>
+<e lm="acíclico" a="prompsit2uoc"><i>acíclic</i><par n="absolut/o__adj"/></e>
+<e lm="psicofisiológico" a="prompsit2uoc"><i>psicofisiológic</i><par n="absolut/o__adj"/></e>
+<e lm="podsólico" a="prompsit2uoc"><i>podsólic</i><par n="absolut/o__adj"/></e>
+<e lm="parenquimatoso" a="prompsit2uoc"><i>parenquimatos</i><par n="absolut/o__adj"/></e>
+<e lm="paratáctico" a="prompsit2uoc"><i>paratáctic</i><par n="absolut/o__adj"/></e>
+<e lm="pancromático" a="prompsit2uoc"><i>pancromátic</i><par n="absolut/o__adj"/></e>
+<e lm="optoelectrónico" a="prompsit2uoc"><i>optoelectrónic</i><par n="absolut/o__adj"/></e>
+<e lm="óhmico" a="prompsit2uoc"><i>óhmic</i><par n="absolut/o__adj"/></e>
+<e lm="monosémico" a="prompsit2uoc"><i>monosémic</i><par n="absolut/o__adj"/></e>
+<e lm="microlítico" a="prompsit2uoc"><i>microlític</i><par n="absolut/o__adj"/></e>
+<e lm="metonímico" a="prompsit2uoc"><i>metonímic</i><par n="absolut/o__adj"/></e>
+<e lm="metalingüístico" a="prompsit2uoc"><i>metalingüístic</i><par n="absolut/o__adj"/></e>
+<e lm="metacromático" a="prompsit2uoc"><i>metacromátic</i><par n="absolut/o__adj"/></e>
+<e lm="mesentérico" a="prompsit2uoc"><i>mesentéric</i><par n="absolut/o__adj"/></e>
+<e lm="mesenquimatoso" a="prompsit2uoc"><i>mesenquimatos</i><par n="absolut/o__adj"/></e>
+<e lm="meiótico" a="prompsit2uoc"><i>meiótic</i><par n="absolut/o__adj"/></e>
+<e lm="isocrónico" a="prompsit2uoc"><i>isocrónic</i><par n="absolut/o__adj"/></e>
+<e lm="isobárico" a="prompsit2uoc"><i>isobáric</i><par n="absolut/o__adj"/></e>
+<e lm="ilógico" a="prompsit2uoc"><i>ilógic</i><par n="absolut/o__adj"/></e>
+<e lm="hipsográfico" a="prompsit2uoc"><i>hipsográfic</i><par n="absolut/o__adj"/></e>
+<e lm="fotolitográfico" a="prompsit2uoc"><i>fotolitográfic</i><par n="absolut/o__adj"/></e>
+<e lm="exocéntrico" a="prompsit2uoc"><i>exocéntric</i><par n="absolut/o__adj"/></e>
+<e lm="ergódico" a="prompsit2uoc"><i>ergódic</i><par n="absolut/o__adj"/></e>
+<e lm="epigástrico" a="prompsit2uoc"><i>epigástric</i><par n="absolut/o__adj"/></e>
+<e lm="empático" a="prompsit2uoc"><i>empátic</i><par n="absolut/o__adj"/></e>
+<e lm="electrodinámico" a="prompsit2uoc"><i>electrodinámic</i><par n="absolut/o__adj"/></e>
+<e lm="diádico" a="prompsit2uoc"><i>diádic</i><par n="absolut/o__adj"/></e>
+<e lm="colorimétrico" a="prompsit2uoc"><i>colorimétric</i><par n="absolut/o__adj"/></e>
+<e lm="citológico" a="prompsit2uoc"><i>citológic</i><par n="absolut/o__adj"/></e>
+<e lm="cacofónico" a="prompsit2uoc"><i>cacofónic</i><par n="absolut/o__adj"/></e>
+<e lm="bicuadrático" a="prompsit2uoc"><i>bicuadrátic</i><par n="absolut/o__adj"/></e>
+<e lm="barométrico" a="prompsit2uoc"><i>barométric</i><par n="absolut/o__adj"/></e>
+<e lm="axonométrico" a="prompsit2uoc"><i>axonométric</i><par n="absolut/o__adj"/></e>
+<e lm="antihiático" a="prompsit2uoc"><i>antihiátic</i><par n="absolut/o__adj"/></e>
+<e lm="antiestático" a="prompsit2uoc"><i>antiestátic</i><par n="absolut/o__adj"/></e>
+
+
 
 
 </section>

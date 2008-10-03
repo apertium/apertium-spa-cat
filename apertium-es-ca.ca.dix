@@ -85925,12 +85925,7 @@
         <i>a<b/>fi<b/>que</i>
         <par n="a_fe_que__cnjadv"/>
       </e>
-      
-      <e lm="a fi que" r="RL">
-        <i>a<b/>fi<b/>que</i>
-        <par n="a_fe_que__cnjadv"/>
-      </e>
-      
+            
       <e lm="a part que">
         <i>a<b/>part<b/>que</i>
         <par n="a_fe_que__cnjadv"/>
@@ -86195,6 +86190,10 @@
         <par n="a_fe_que__cnjadv"/>
       </e>
       
+      <e lm="per tal que" a="prompsit2uoc">
+        <i>per<b/>tal<b/>que</i>
+        <par n="a_fe_que__cnjadv"/>
+      </e>
       <e lm="per tant">
         <i>per<b/>tant</i>
         <par n="a_fe_que__cnjadv"/>
@@ -127076,6 +127075,10 @@
         <i>defin</i>
         <par n="abarat/ir__vblex"/>
       </e>
+      <e lm="predefinir" a="prompsit2uoc">
+        <i>predefin</i>
+        <par n="abarat/ir__vblex"/>
+      </e>
       
       <e lm="defraudar">
         <i>defraud</i>
@@ -137379,8 +137382,8 @@
   <i>consignaci</i>
   <par n="acci/ó__n"/>
 </e>
-<e lm="consequentment" a="gema">
-  <i>consequentment</i>
+<e lm="conseqüentment" a="gema">
+  <i>conseqüentment</i>
   <par n="ahir__adv"/>
 </e>
 <e lm="confidencial" a="gema">
@@ -163981,6 +163984,14 @@
   <i>IQUA</i>
   <par n="BBC__n"/>
 </e>
+<e lm="R+D" a="prompsit2uoc">
+  <i>R+D</i>
+  <par n="BBC__n"/>
+</e>
+<e lm="R+D+I" a="prompsit2uoc">
+  <i>R+D+I</i>
+  <par n="BBC__n"/>
+</e>
 
 <e a="prompsit2uoc" lm="orientalisme">
   <i>orientalisme</i>
@@ -164573,6 +164584,10 @@
       </p>
     </e>
 
+    <e lm="finançador" a="prompsit2uoc">
+      <i>finançador</i>
+      <par n="absolut__adj"/>
+    </e>
 
 
 <!--noves entrades np -->
@@ -165193,6 +165208,322 @@
 <e lm="colonitzable" a="prompsit2uoc"><i>colonitzable</i><par n="abdominal__adj"/></e>
 <e lm="biaxial" a="prompsit2uoc"><i>biaxial</i><par n="abdominal__adj"/></e>
 <e lm="assegurable" a="prompsit2uoc"><i>assegurable</i><par n="abdominal__adj"/></e>
+<e lm="comercialitzable" a="prompsit2uoc"><i>comercialitzable</i><par n="abdominal__adj"/></e>
+
+
+<e lm="afecte" a="prompsit2uoc"><i>afect</i><par n="abstract/e__adj"/></e>
+
+
+<e lm="clímax" a="prompsit2uoc"><i>clímax</i><par n="abric__n"/></e>
+
+
+
+
+
+<e lm="germànic" a="prompsit2uoc"><i>germàni</i><par n="acadèmi/c__adj"/></e>
+<e lm="groguenc" a="prompsit2uoc"><i>groguen</i><par n="acadèmi/c__adj"/></e>
+<e lm="àrtic" a="prompsit2uoc"><i>àrti</i><par n="acadèmi/c__adj"/></e>
+<e lm="aristocràtic" a="prompsit2uoc"><i>aristocràti</i><par n="acadèmi/c__adj"/></e>
+<e lm="cònic" a="prompsit2uoc"><i>còni</i><par n="acadèmi/c__adj"/></e>
+<e lm="rúnic" a="prompsit2uoc"><i>rúni</i><par n="acadèmi/c__adj"/></e>
+<e lm="dinàstic" a="prompsit2uoc"><i>dinàsti</i><par n="acadèmi/c__adj"/></e>
+<e lm="pitagòric" a="prompsit2uoc"><i>pitagòri</i><par n="acadèmi/c__adj"/></e>
+<e lm="dòric" a="prompsit2uoc"><i>dòri</i><par n="acadèmi/c__adj"/></e>
+<e lm="hispànic" a="prompsit2uoc"><i>hispàni</i><par n="acadèmi/c__adj"/></e>
+<e lm="limfàtic" a="prompsit2uoc"><i>limfàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="iònic" a="prompsit2uoc"><i>iòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="cilíndric" a="prompsit2uoc"><i>cilíndri</i><par n="acadèmi/c__adj"/></e>
+<e lm="arcaic" a="prompsit2uoc"><i>arcai</i><par n="acadèmi/c__adj"/></e>
+<e lm="napoleònic" a="prompsit2uoc"><i>napoleòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="termodinàmic" a="prompsit2uoc"><i>termodinàmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="aromàtic" a="prompsit2uoc"><i>aromàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="inorgànic" a="prompsit2uoc"><i>inorgàni</i><par n="acadèmi/c__adj"/></e>
+<e lm="oligàrquic" a="prompsit2uoc"><i>oligàrqui</i><par n="acadèmi/c__adj"/></e>
+<e lm="megalític" a="prompsit2uoc"><i>megalíti</i><par n="acadèmi/c__adj"/></e>
+<e lm="humorístic" a="prompsit2uoc"><i>humorísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="sàdic" a="prompsit2uoc"><i>sàdi</i><par n="acadèmi/c__adj"/></e>
+<e lm="monoclínic" a="prompsit2uoc"><i>monoclíni</i><par n="acadèmi/c__adj"/></e>
+<e lm="rítmic" a="prompsit2uoc"><i>rítmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="enzimàtic" a="prompsit2uoc"><i>enzimàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="enciclopèdic" a="prompsit2uoc"><i>enciclopèdi</i><par n="acadèmi/c__adj"/></e>
+<e lm="sil·làbic" a="prompsit2uoc"><i>sil·làbi</i><par n="acadèmi/c__adj"/></e>
+<e lm="sulfúric" a="prompsit2uoc"><i>sulfúri</i><par n="acadèmi/c__adj"/></e>
+<e lm="algebraic" a="prompsit2uoc"><i>algebrai</i><par n="acadèmi/c__adj"/></e>
+<e lm="intrínsec" a="prompsit2uoc"><i>intrínse</i><par n="acadèmi/c__adj"/></e>
+<e lm="cromàtic" a="prompsit2uoc"><i>cromàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="jeràrquic" a="prompsit2uoc"><i>jeràrqui</i><par n="acadèmi/c__adj"/></e>
+<e lm="metabòlic" a="prompsit2uoc"><i>metabòli</i><par n="acadèmi/c__adj"/></e>
+<e lm="geodèsic" a="prompsit2uoc"><i>geodèsi</i><par n="acadèmi/c__adj"/></e>
+<e lm="esquemàtic" a="prompsit2uoc"><i>esquemàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="immunològic" a="prompsit2uoc"><i>immunològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="toràcic" a="prompsit2uoc"><i>toràci</i><par n="acadèmi/c__adj"/></e>
+<e lm="topològic" a="prompsit2uoc"><i>topològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="càlcic" a="prompsit2uoc"><i>càlci</i><par n="acadèmi/c__adj"/></e>
+<e lm="anaeròbic" a="prompsit2uoc"><i>anaeròbi</i><par n="acadèmi/c__adj"/></e>
+<e lm="termoelèctric" a="prompsit2uoc"><i>termoelèctri</i><par n="acadèmi/c__adj"/></e>
+<e lm="dielèctric" a="prompsit2uoc"><i>dielèctri</i><par n="acadèmi/c__adj"/></e>
+<e lm="anatòmic" a="prompsit2uoc"><i>anatòmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="metal·lúrgic" a="prompsit2uoc"><i>metal·lúrgi</i><par n="acadèmi/c__adj"/></e>
+<e lm="hegemònic" a="prompsit2uoc"><i>hegemòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="polifònic" a="prompsit2uoc"><i>polifòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="etiòpic" a="prompsit2uoc"><i>etiòpi</i><par n="acadèmi/c__adj"/></e>
+<e lm="gàstric" a="prompsit2uoc"><i>gàstri</i><par n="acadèmi/c__adj"/></e>
+<e lm="salvadorenc" a="prompsit2uoc"><i>salvadoren</i><par n="acadèmi/c__adj"/></e>
+<e lm="hel·lènic" a="prompsit2uoc"><i>hel·lèni</i><par n="acadèmi/c__adj"/></e>
+<e lm="parabòlic" a="prompsit2uoc"><i>parabòli</i><par n="acadèmi/c__adj"/></e>
+<e lm="monolític" a="prompsit2uoc"><i>monolíti</i><par n="acadèmi/c__adj"/></e>
+<e lm="estàtic" a="prompsit2uoc"><i>estàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="diabòlic" a="prompsit2uoc"><i>diabòli</i><par n="acadèmi/c__adj"/></e>
+<e lm="aeròbic" a="prompsit2uoc"><i>aeròbi</i><par n="acadèmi/c__adj"/></e>
+<e lm="toponímic" a="prompsit2uoc"><i>toponími</i><par n="acadèmi/c__adj"/></e>
+<e lm="electrostàtic" a="prompsit2uoc"><i>electrostàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="altaic" a="prompsit2uoc"><i>altai</i><par n="acadèmi/c__adj"/></e>
+<e lm="càrstic" a="prompsit2uoc"><i>càrsti</i><par n="acadèmi/c__adj"/></e>
+<e lm="fenòlic" a="prompsit2uoc"><i>fenòli</i><par n="acadèmi/c__adj"/></e>
+<e lm="dogmàtic" a="prompsit2uoc"><i>dogmàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="concèntric" a="prompsit2uoc"><i>concèntri</i><par n="acadèmi/c__adj"/></e>
+<e lm="acètic" a="prompsit2uoc"><i>acèti</i><par n="acadèmi/c__adj"/></e>
+<e lm="morganàtic" a="prompsit2uoc"><i>morganàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="volumètric" a="prompsit2uoc"><i>volumètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="balístic" a="prompsit2uoc"><i>balísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="polinòmic" a="prompsit2uoc"><i>polinòmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="ontològic" a="prompsit2uoc"><i>ontològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="gimnàstic" a="prompsit2uoc"><i>gimnàsti</i><par n="acadèmi/c__adj"/></e>
+<e lm="esquelètic" a="prompsit2uoc"><i>esquelèti</i><par n="acadèmi/c__adj"/></e>
+<e lm="deontològic" a="prompsit2uoc"><i>deontològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="electroquímic" a="prompsit2uoc"><i>electroquími</i><par n="acadèmi/c__adj"/></e>
+<e lm="prostàtic" a="prompsit2uoc"><i>prostàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="macroscòpic" a="prompsit2uoc"><i>macroscòpi</i><par n="acadèmi/c__adj"/></e>
+<e lm="bioclimàtic" a="prompsit2uoc"><i>bioclimàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="el·líptic" a="prompsit2uoc"><i>el·lípti</i><par n="acadèmi/c__adj"/></e>
+<e lm="agnòstic" a="prompsit2uoc"><i>agnòsti</i><par n="acadèmi/c__adj"/></e>
+<e lm="txecoslovac" a="prompsit2uoc"><i>txecoslova</i><par n="acadèmi/c__adj"/></e>
+<e lm="humanístic" a="prompsit2uoc"><i>humanísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="faraònic" a="prompsit2uoc"><i>faraòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="tirànic" a="prompsit2uoc"><i>tiràni</i><par n="acadèmi/c__adj"/></e>
+<e lm="fluorhídric" a="prompsit2uoc"><i>fluorhídri</i><par n="acadèmi/c__adj"/></e>
+<e lm="filològic" a="prompsit2uoc"><i>filològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="alfanumèric" a="prompsit2uoc"><i>alfanumèri</i><par n="acadèmi/c__adj"/></e>
+<e lm="carboxílic" a="prompsit2uoc"><i>carboxíli</i><par n="acadèmi/c__adj"/></e>
+<e lm="triclínic" a="prompsit2uoc"><i>triclíni</i><par n="acadèmi/c__adj"/></e>
+<e lm="escolàstic" a="prompsit2uoc"><i>escolàsti</i><par n="acadèmi/c__adj"/></e>
+<e lm="aritmètic" a="prompsit2uoc"><i>aritmèti</i><par n="acadèmi/c__adj"/></e>
+<e lm="sabàtic" a="prompsit2uoc"><i>sabàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="higroscòpic" a="prompsit2uoc"><i>higroscòpi</i><par n="acadèmi/c__adj"/></e>
+<e lm="cefàlic" a="prompsit2uoc"><i>cefàli</i><par n="acadèmi/c__adj"/></e>
+<e lm="autocràtic" a="prompsit2uoc"><i>autocràti</i><par n="acadèmi/c__adj"/></e>
+<e lm="ultrasònic" a="prompsit2uoc"><i>ultrasòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="electromecànic" a="prompsit2uoc"><i>electromecàni</i><par n="acadèmi/c__adj"/></e>
+<e lm="telegràfic" a="prompsit2uoc"><i>telegràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="quadràtic" a="prompsit2uoc"><i>quadràti</i><par n="acadèmi/c__adj"/></e>
+<e lm="freàtic" a="prompsit2uoc"><i>freàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="orogràfic" a="prompsit2uoc"><i>orogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="epilèptic" a="prompsit2uoc"><i>epilèpti</i><par n="acadèmi/c__adj"/></e>
+<e lm="babilònic" a="prompsit2uoc"><i>babilòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="afrodisíac" a="prompsit2uoc"><i>afrodisía</i><par n="acadèmi/c__adj"/></e>
+<e lm="cromosòmic" a="prompsit2uoc"><i>cromosòmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="cinètic" a="prompsit2uoc"><i>cinèti</i><par n="acadèmi/c__adj"/></e>
+<e lm="catalític" a="prompsit2uoc"><i>catalíti</i><par n="acadèmi/c__adj"/></e>
+<e lm="cartogràfic" a="prompsit2uoc"><i>cartogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="hiperbòlic" a="prompsit2uoc"><i>hiperbòli</i><par n="acadèmi/c__adj"/></e>
+<e lm="hemisfèric" a="prompsit2uoc"><i>hemisfèri</i><par n="acadèmi/c__adj"/></e>
+<e lm="axiomàtic" a="prompsit2uoc"><i>axiomàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="lexicogràfic" a="prompsit2uoc"><i>lexicogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="hipnòtic" a="prompsit2uoc"><i>hipnòti</i><par n="acadèmi/c__adj"/></e>
+<e lm="fotomètric" a="prompsit2uoc"><i>fotomètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="escenogràfic" a="prompsit2uoc"><i>escenogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="equívoc" a="prompsit2uoc"><i>equívo</i><par n="acadèmi/c__adj"/></e>
+<e lm="demoníac" a="prompsit2uoc"><i>demonía</i><par n="acadèmi/c__adj"/></e>
+<e lm="teocràtic" a="prompsit2uoc"><i>teocràti</i><par n="acadèmi/c__adj"/></e>
+<e lm="pèlvic" a="prompsit2uoc"><i>pèlvi</i><par n="acadèmi/c__adj"/></e>
+<e lm="morfosintàctic" a="prompsit2uoc"><i>morfosintàcti</i><par n="acadèmi/c__adj"/></e>
+<e lm="monocromàtic" a="prompsit2uoc"><i>monocromàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="hipocorístic" a="prompsit2uoc"><i>hipocorísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="biòtic" a="prompsit2uoc"><i>biòti</i><par n="acadèmi/c__adj"/></e>
+<e lm="artúric" a="prompsit2uoc"><i>artúri</i><par n="acadèmi/c__adj"/></e>
+<e lm="zigomàtic" a="prompsit2uoc"><i>zigomàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="piezoelèctric" a="prompsit2uoc"><i>piezoelèctri</i><par n="acadèmi/c__adj"/></e>
+<e lm="geomagnètic" a="prompsit2uoc"><i>geomagnèti</i><par n="acadèmi/c__adj"/></e>
+<e lm="fèrric" a="prompsit2uoc"><i>fèrri</i><par n="acadèmi/c__adj"/></e>
+<e lm="estocàstic" a="prompsit2uoc"><i>estocàsti</i><par n="acadèmi/c__adj"/></e>
+<e lm="detrític" a="prompsit2uoc"><i>detríti</i><par n="acadèmi/c__adj"/></e>
+<e lm="probabilístic" a="prompsit2uoc"><i>probabilísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="pancreàtic" a="prompsit2uoc"><i>pancreàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="fònic" a="prompsit2uoc"><i>fòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="diacrònic" a="prompsit2uoc"><i>diacròni</i><par n="acadèmi/c__adj"/></e>
+<e lm="aristotèlic" a="prompsit2uoc"><i>aristotèli</i><par n="acadèmi/c__adj"/></e>
+<e lm="adiabàtic" a="prompsit2uoc"><i>adiabàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="romboèdric" a="prompsit2uoc"><i>romboèdri</i><par n="acadèmi/c__adj"/></e>
+<e lm="robòtic" a="prompsit2uoc"><i>robòti</i><par n="acadèmi/c__adj"/></e>
+<e lm="hidrostàtic" a="prompsit2uoc"><i>hidrostàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="heterocíclic" a="prompsit2uoc"><i>heterocícli</i><par n="acadèmi/c__adj"/></e>
+<e lm="hagiogràfic" a="prompsit2uoc"><i>hagiogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="càustic" a="prompsit2uoc"><i>càusti</i><par n="acadèmi/c__adj"/></e>
+<e lm="caduc" a="prompsit2uoc"><i>cadu</i><par n="acadèmi/c__adj"/></e>
+<e lm="terminològic" a="prompsit2uoc"><i>terminològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="radiogràfic" a="prompsit2uoc"><i>radiogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="eufòric" a="prompsit2uoc"><i>eufòri</i><par n="acadèmi/c__adj"/></e>
+<e lm="electrolític" a="prompsit2uoc"><i>electrolíti</i><par n="acadèmi/c__adj"/></e>
+<e lm="egocèntric" a="prompsit2uoc"><i>egocèntri</i><par n="acadèmi/c__adj"/></e>
+<e lm="isomètric" a="prompsit2uoc"><i>isomètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="hidrofòbic" a="prompsit2uoc"><i>hidrofòbi</i><par n="acadèmi/c__adj"/></e>
+<e lm="citoplasmàtic" a="prompsit2uoc"><i>citoplasmàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="apologètic" a="prompsit2uoc"><i>apologèti</i><par n="acadèmi/c__adj"/></e>
+<e lm="tipològic" a="prompsit2uoc"><i>tipològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="ròmbic" a="prompsit2uoc"><i>ròmbi</i><par n="acadèmi/c__adj"/></e>
+<e lm="púbic" a="prompsit2uoc"><i>púbi</i><par n="acadèmi/c__adj"/></e>
+<e lm="mesodèrmic" a="prompsit2uoc"><i>mesodèrmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="litogràfic" a="prompsit2uoc"><i>litogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="estequiomètric" a="prompsit2uoc"><i>estequiomètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="epistemològic" a="prompsit2uoc"><i>epistemològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="categòric" a="prompsit2uoc"><i>categòri</i><par n="acadèmi/c__adj"/></e>
+<e lm="simbiòtic" a="prompsit2uoc"><i>simbiòti</i><par n="acadèmi/c__adj"/></e>
+<e lm="petroquímic" a="prompsit2uoc"><i>petroquími</i><par n="acadèmi/c__adj"/></e>
+<e lm="metamòrfic" a="prompsit2uoc"><i>metamòrfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="enclític" a="prompsit2uoc"><i>enclíti</i><par n="acadèmi/c__adj"/></e>
+<e lm="criogènic" a="prompsit2uoc"><i>criogèni</i><par n="acadèmi/c__adj"/></e>
+<e lm="biofísic" a="prompsit2uoc"><i>biofísi</i><par n="acadèmi/c__adj"/></e>
+<e lm="aòrtic" a="prompsit2uoc"><i>aòrti</i><par n="acadèmi/c__adj"/></e>
+<e lm="termoplàstic" a="prompsit2uoc"><i>termoplàsti</i><par n="acadèmi/c__adj"/></e>
+<e lm="perifràstic" a="prompsit2uoc"><i>perifràsti</i><par n="acadèmi/c__adj"/></e>
+<e lm="mnemotècnic" a="prompsit2uoc"><i>mnemotècni</i><par n="acadèmi/c__adj"/></e>
+<e lm="hidrolític" a="prompsit2uoc"><i>hidrolíti</i><par n="acadèmi/c__adj"/></e>
+<e lm="hidrodinàmic" a="prompsit2uoc"><i>hidrodinàmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="heurístic" a="prompsit2uoc"><i>heurísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="fàl·lic" a="prompsit2uoc"><i>fàl·li</i><par n="acadèmi/c__adj"/></e>
+<e lm="demagògic" a="prompsit2uoc"><i>demagògi</i><par n="acadèmi/c__adj"/></e>
+<e lm="coreogràfic" a="prompsit2uoc"><i>coreogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="cinemàtic" a="prompsit2uoc"><i>cinemàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="anacrònic" a="prompsit2uoc"><i>anacròni</i><par n="acadèmi/c__adj"/></e>
+<e lm="tetraèdric" a="prompsit2uoc"><i>tetraèdri</i><par n="acadèmi/c__adj"/></e>
+<e lm="policíclic" a="prompsit2uoc"><i>policícli</i><par n="acadèmi/c__adj"/></e>
+<e lm="geomorfològic" a="prompsit2uoc"><i>geomorfològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="ergonòmic" a="prompsit2uoc"><i>ergonòmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="diafragmàtic" a="prompsit2uoc"><i>diafragmàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="biogeoquímic" a="prompsit2uoc"><i>biogeoquími</i><par n="acadèmi/c__adj"/></e>
+<e lm="apàtic" a="prompsit2uoc"><i>apàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="pseudocientífic" a="prompsit2uoc"><i>pseudocientífi</i><par n="acadèmi/c__adj"/></e>
+<e lm="protohistòric" a="prompsit2uoc"><i>protohistòri</i><par n="acadèmi/c__adj"/></e>
+<e lm="polimòrfic" a="prompsit2uoc"><i>polimòrfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="polimèric" a="prompsit2uoc"><i>polimèri</i><par n="acadèmi/c__adj"/></e>
+<e lm="onomatopeic" a="prompsit2uoc"><i>onomatopei</i><par n="acadèmi/c__adj"/></e>
+<e lm="maquiavèl·lic" a="prompsit2uoc"><i>maquiavèl·li</i><par n="acadèmi/c__adj"/></e>
+<e lm="isotòpic" a="prompsit2uoc"><i>isotòpi</i><par n="acadèmi/c__adj"/></e>
+<e lm="icònic" a="prompsit2uoc"><i>icòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="geotèrmic" a="prompsit2uoc"><i>geotèrmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="fotònic" a="prompsit2uoc"><i>fotòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="epigràfic" a="prompsit2uoc"><i>epigràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="enharmònic" a="prompsit2uoc"><i>enharmòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="ectodèrmic" a="prompsit2uoc"><i>ectodèrmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="autàrquic" a="prompsit2uoc"><i>autàrqui</i><par n="acadèmi/c__adj"/></e>
+<e lm="polièdric" a="prompsit2uoc"><i>polièdri</i><par n="acadèmi/c__adj"/></e>
+<e lm="ovàric" a="prompsit2uoc"><i>ovàri</i><par n="acadèmi/c__adj"/></e>
+<e lm="isomòrfic" a="prompsit2uoc"><i>isomòrfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="giroscòpic" a="prompsit2uoc"><i>giroscòpi</i><par n="acadèmi/c__adj"/></e>
+<e lm="gènic" a="prompsit2uoc"><i>gèni</i><par n="acadèmi/c__adj"/></e>
+<e lm="fotoquímic" a="prompsit2uoc"><i>fotoquími</i><par n="acadèmi/c__adj"/></e>
+<e lm="estereofònic" a="prompsit2uoc"><i>estereofòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="esquizofrènic" a="prompsit2uoc"><i>esquizofrèni</i><par n="acadèmi/c__adj"/></e>
+<e lm="emfàtic" a="prompsit2uoc"><i>emfàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="cròmic" a="prompsit2uoc"><i>cròmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="antipàtic" a="prompsit2uoc"><i>antipàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="antieconòmic" a="prompsit2uoc"><i>antieconòmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="algorítmic" a="prompsit2uoc"><i>algorítmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="semiesfèric" a="prompsit2uoc"><i>semiesfèri</i><par n="acadèmi/c__adj"/></e>
+<e lm="octaèdric" a="prompsit2uoc"><i>octaèdri</i><par n="acadèmi/c__adj"/></e>
+<e lm="meristemàtic" a="prompsit2uoc"><i>meristemàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="húmic" a="prompsit2uoc"><i>húmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="fonemàtic" a="prompsit2uoc"><i>fonemàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="estigmàtic" a="prompsit2uoc"><i>estigmàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="esplènic" a="prompsit2uoc"><i>esplèni</i><par n="acadèmi/c__adj"/></e>
+<e lm="endotèrmic" a="prompsit2uoc"><i>endotèrmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="digàstric" a="prompsit2uoc"><i>digàstri</i><par n="acadèmi/c__adj"/></e>
+<e lm="asimptòtic" a="prompsit2uoc"><i>asimptòti</i><par n="acadèmi/c__adj"/></e>
+<e lm="semiòtic" a="prompsit2uoc"><i>semiòti</i><par n="acadèmi/c__adj"/></e>
+<e lm="semiautomàtic" a="prompsit2uoc"><i>semiautomàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="pictogràfic" a="prompsit2uoc"><i>pictogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="monofònic" a="prompsit2uoc"><i>monofòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="mitòtic" a="prompsit2uoc"><i>mitòti</i><par n="acadèmi/c__adj"/></e>
+<e lm="judaic" a="prompsit2uoc"><i>judai</i><par n="acadèmi/c__adj"/></e>
+<e lm="idiosincràtic" a="prompsit2uoc"><i>idiosincràti</i><par n="acadèmi/c__adj"/></e>
+<e lm="exotèrmic" a="prompsit2uoc"><i>exotèrmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="cromatogràfic" a="prompsit2uoc"><i>cromatogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="bacteriològic" a="prompsit2uoc"><i>bacteriològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="antisimètric" a="prompsit2uoc"><i>antisimètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="anticiclònic" a="prompsit2uoc"><i>anticiclòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="acromàtic" a="prompsit2uoc"><i>acromàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="timpànic" a="prompsit2uoc"><i>timpàni</i><par n="acadèmi/c__adj"/></e>
+<e lm="termomètric" a="prompsit2uoc"><i>termomètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="termoiònic" a="prompsit2uoc"><i>termoiòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="semivocàlic" a="prompsit2uoc"><i>semivocàli</i><par n="acadèmi/c__adj"/></e>
+<e lm="planimètric" a="prompsit2uoc"><i>planimètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="monocíclic" a="prompsit2uoc"><i>monocícli</i><par n="acadèmi/c__adj"/></e>
+<e lm="mnemònic" a="prompsit2uoc"><i>mnemòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="microbiològic" a="prompsit2uoc"><i>microbiològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="litològic" a="prompsit2uoc"><i>litològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="inharmònic" a="prompsit2uoc"><i>inharmòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="hipogàstric" a="prompsit2uoc"><i>hipogàstri</i><par n="acadèmi/c__adj"/></e>
+<e lm="geomòrfic" a="prompsit2uoc"><i>geomòrfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="galvànic" a="prompsit2uoc"><i>galvàni</i><par n="acadèmi/c__adj"/></e>
+<e lm="entusiàstic" a="prompsit2uoc"><i>entusiàsti</i><par n="acadèmi/c__adj"/></e>
+<e lm="edàfic" a="prompsit2uoc"><i>edàfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="ciclotòmic" a="prompsit2uoc"><i>ciclotòmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="ciclònic" a="prompsit2uoc"><i>ciclòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="catàrtic" a="prompsit2uoc"><i>catàrti</i><par n="acadèmi/c__adj"/></e>
+<e lm="catabàtic" a="prompsit2uoc"><i>catabàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="asfàltic" a="prompsit2uoc"><i>asfàlti</i><par n="acadèmi/c__adj"/></e>
+<e lm="acídic" a="prompsit2uoc"><i>acídi</i><par n="acadèmi/c__adj"/></e>
+<e lm="protoplasmàtic" a="prompsit2uoc"><i>protoplasmàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="polisèmic" a="prompsit2uoc"><i>polisèmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="poligènic" a="prompsit2uoc"><i>poligèni</i><par n="acadèmi/c__adj"/></e>
+<e lm="polifàsic" a="prompsit2uoc"><i>polifàsi</i><par n="acadèmi/c__adj"/></e>
+<e lm="paleogràfic" a="prompsit2uoc"><i>paleogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="morfogenètic" a="prompsit2uoc"><i>morfogenèti</i><par n="acadèmi/c__adj"/></e>
+<e lm="lexicològic" a="prompsit2uoc"><i>lexicològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="isotèrmic" a="prompsit2uoc"><i>isotèrmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="hidropneumàtic" a="prompsit2uoc"><i>hidropneumàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="eutròfic" a="prompsit2uoc"><i>eutròfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="eufemístic" a="prompsit2uoc"><i>eufemísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="arxivístic" a="prompsit2uoc"><i>arxivísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="acíclic" a="prompsit2uoc"><i>acícli</i><par n="acadèmi/c__adj"/></e>
+<e lm="psicofisiològic" a="prompsit2uoc"><i>psicofisiològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="podzòlic" a="prompsit2uoc"><i>podzòli</i><par n="acadèmi/c__adj"/></e>
+<e lm="parenquimàtic" a="prompsit2uoc"><i>parenquimàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="paratàctic" a="prompsit2uoc"><i>paratàcti</i><par n="acadèmi/c__adj"/></e>
+<e lm="pancromàtic" a="prompsit2uoc"><i>pancromàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="optoelectrònic" a="prompsit2uoc"><i>optoelectròni</i><par n="acadèmi/c__adj"/></e>
+<e lm="òhmic" a="prompsit2uoc"><i>òhmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="monosèmic" a="prompsit2uoc"><i>monosèmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="microlític" a="prompsit2uoc"><i>microlíti</i><par n="acadèmi/c__adj"/></e>
+<e lm="metonímic" a="prompsit2uoc"><i>metoními</i><par n="acadèmi/c__adj"/></e>
+<e lm="metalingüístic" a="prompsit2uoc"><i>metalingüísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="metacromàtic" a="prompsit2uoc"><i>metacromàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="mesentèric" a="prompsit2uoc"><i>mesentèri</i><par n="acadèmi/c__adj"/></e>
+<e lm="mesenquimàtic" a="prompsit2uoc"><i>mesenquimàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="meiòtic" a="prompsit2uoc"><i>meiòti</i><par n="acadèmi/c__adj"/></e>
+<e lm="isocrònic" a="prompsit2uoc"><i>isocròni</i><par n="acadèmi/c__adj"/></e>
+<e lm="isobàric" a="prompsit2uoc"><i>isobàri</i><par n="acadèmi/c__adj"/></e>
+<e lm="il·lògic" a="prompsit2uoc"><i>il·lògi</i><par n="acadèmi/c__adj"/></e>
+<e lm="hipsogràfic" a="prompsit2uoc"><i>hipsogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="fotolitogràfic" a="prompsit2uoc"><i>fotolitogràfi</i><par n="acadèmi/c__adj"/></e>
+<e lm="exocèntric" a="prompsit2uoc"><i>exocèntri</i><par n="acadèmi/c__adj"/></e>
+<e lm="ergòdic" a="prompsit2uoc"><i>ergòdi</i><par n="acadèmi/c__adj"/></e>
+<e lm="epigàstric" a="prompsit2uoc"><i>epigàstri</i><par n="acadèmi/c__adj"/></e>
+<e lm="empàtic" a="prompsit2uoc"><i>empàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="electrodinàmic" a="prompsit2uoc"><i>electrodinàmi</i><par n="acadèmi/c__adj"/></e>
+<e lm="diàdic" a="prompsit2uoc"><i>diàdi</i><par n="acadèmi/c__adj"/></e>
+<e lm="colorimètric" a="prompsit2uoc"><i>colorimètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="citològic" a="prompsit2uoc"><i>citològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="cacofònic" a="prompsit2uoc"><i>cacofòni</i><par n="acadèmi/c__adj"/></e>
+<e lm="biquadràtic" a="prompsit2uoc"><i>biquadràti</i><par n="acadèmi/c__adj"/></e>
+<e lm="baromètric" a="prompsit2uoc"><i>baromètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="axonomètric" a="prompsit2uoc"><i>axonomètri</i><par n="acadèmi/c__adj"/></e>
+<e lm="antihiàtic" a="prompsit2uoc"><i>antihiàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="antiestàtic" a="prompsit2uoc"><i>antiestàti</i><par n="acadèmi/c__adj"/></e>
+
+
+
+
 
 
  </section>
