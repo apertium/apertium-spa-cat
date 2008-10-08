@@ -8910,7 +8910,7 @@
           <r>aliment<s n="n"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>alivio<s n="n"/></l>
           <r>alleugeriment<s n="n"/></r>
@@ -13257,19 +13257,19 @@
       <e>
         <p>
           <l>dinero<s n="n"/><s n="m"/><s n="sg"/></l>
-          <r>diners<s n="n"/><s n="m"/><s n="pl"/></r>
+          <r>diner<s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>dinero<s n="n"/><s n="m"/><s n="pl"/></l>
-          <r>diners<s n="n"/><s n="m"/><s n="pl"/></r>
+          <r>diner<s n="n"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
-          <l>dinosaurio<s n="n"/></l>
-          <r>dinosauri<s n="n"/></r>
+          <l>dinero<s n="n"/><s n="m"/><s n="sg"/></l>
+          <r>diner<s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -20479,8 +20479,8 @@
       </e>
       <e>
         <p>
-          <l>radio<s n="n"/></l>
-          <r>ràdio<s n="n"/></r>
+          <l>radio<s n="n"/><s n="f"/></l>
+          <r>ràdio<s n="n"/><s n="f"/></r>
         </p>
       </e>
       <e>
@@ -20531,7 +20531,7 @@
           <r>ratlla<s n="n"/><s n="f"/></r>
         </p>
       </e>
-      <e>
+      <e slr="raig D">
         <p>
           <l>rayo<s n="n"/></l>
           <r>raig<s n="n"/></r>
@@ -35917,9 +35917,9 @@
       <e>
         <i>aval<s n="n"/></i>
       </e>
-      <e>
+      <e r="RL">
         <p>
-          <l>alboroto<s n="n"/></l>
+          <l>disturbio<s n="n"/></l>
           <r>avalot<s n="n"/></r>
         </p>
       </e>
@@ -40602,7 +40602,10 @@
         <i>coral<s n="adj"/></i>
       </e>
       <e>
-        <i>coral<s n="n"/></i>
+        <i>coral<s n="n"/><s n="f"/></i>
+      </e>
+      <e>
+        <i>coral<s n="n"/><s n="m"/></i>
       </e>
       <e>
         <i>Corbera<s n="np"/></i>
@@ -41183,7 +41186,7 @@
           <r>curiosament<s n="adv"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>cuidadosamente<s n="adv"/></l>
           <r>curosament<s n="adv"/></r>
@@ -48578,8 +48581,38 @@
       </e>
       <e>
         <p>
-          <l>hermanastro<s n="n"/></l>
-          <r>germanastre<s n="n"/></r>
+          <l>hermanastro<s n="n"/><s n="m"/><s n="sg"/></l>
+          <r>germanastre<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hermanastro<s n="n"/><s n="f"/><s n="sg"/></l>
+          <r>germanastre<s n="n"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hermanastro<s n="n"/><s n="m"/><s n="pl"/></l>
+          <r>germanastre<s n="n"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hermanastro<s n="n"/><s n="f"/><s n="pl"/></l>
+          <r>germanastre<s n="n"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hermanastro<s n="n"/><s n="m"/><s n="pl"/></l>
+          <r>germanastre<s n="n"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>hermanastro<s n="n"/><s n="GD"/><s n="pl"/></l>
+          <r>germanastre<s n="n"/><s n="mf"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -70883,7 +70916,7 @@
 <e a="gema">
   <p>
     <l>inequívocamente<s n="adv"/></l>
-    <r>inequívocament<b/><s n="adv"/></r>
+    <r>inequívocament<s n="adv"/></r>
   </p>
 </e>
 <e a="gema">
@@ -82955,12 +82988,6 @@
         </p>
      </e>
 
-     <e a="prompsit2adn">
-        <p>
-          <l>metalúrgico<s n="adj"/></l>
-          <r>metalúrgic<s n="adj"/></r>
-        </p>
-     </e>
 
      <e a="prompsit2adn">
         <p>
@@ -102776,7 +102803,7 @@
           </p>
         </e>
 
-<e a="prompsit" r="RL">
+<e a="prompsit">
           <p>
             <l>alboroto<s n="n"/></l>
             <r>xivarri<s n="n"/></r>
@@ -108460,6 +108487,396 @@
 <e a="prompsit2uoc"><p><l>antiestático<s n="adj"/></l><r>antiestàtic<s n="adj"/></r></p></e>
 
 
+<e a="prompsit2uoc"><p><l>poblamiento<s n="n"/></l><r>poblament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desembarco<s n="n"/></l><r>desembarcament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sedimento<s n="n"/></l><r>sediment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pigmento<s n="n"/></l><r>pigment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>filamento<s n="n"/></l><r>filament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ornamento<s n="n"/></l><r>ornament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>destierro<s n="n"/></l><r>desterrament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>refinamiento<s n="n"/></l><r>refinament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>recubrimiento<s n="n"/></l><r>recobriment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alzamiento<s n="n"/></l><r>alçament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plegamiento<s n="n"/></l><r>plegament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>despoblamiento<s n="n"/></l><r>despoblament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>turmento<s n="n"/></l><r>turment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>repoblamiento<s n="n"/></l><r>repoblament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>afloramiento<s n="n"/></l><r>aflorament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desciframiento<s n="n"/></l><r>desxiframent<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>decaimiento<s n="n"/></l><r>decaïment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amento<s n="n"/></l><r>ament<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>aclaración<s n="n"/><s n="f"/></l><r>aclariment<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>debilitamiento<s n="n"/></l><r>debilitament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>decrecimiento<s n="n"/></l><r>decreixement<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fraccionamiento<s n="n"/></l><r>fraccionament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bastimento<s n="n"/></l><r>bastiment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>empobrecimiento<s n="n"/></l><r>empobriment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>relanzamiento<s n="n"/></l><r>rellançament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rodamiento<s n="n"/></l><r>rodament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aprovisionamiento<s n="n"/></l><r>aprovisionament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amotinamiento<s n="n"/></l><r>amotinament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>encabezamiento<s n="n"/></l><r>encapçalament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subdesarrollo<s n="n"/></l><r>subdesenvolupament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>enmascaramiento<s n="n"/></l><r>emmascarament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desacoplamiento<s n="n"/></l><r>desacoblament<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>curación<s n="n"/><s n="f"/></l><r>guariment<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acortamiento<s n="n"/></l><r>escurçament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>entrecruzamiento<s n="n"/></l><r>entrecreuament<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>transbordo<s n="n"/></l><r>transbordament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>encadenamiento<s n="n"/></l><r>encadenament<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>envenenamiento<s n="n"/></l><r>emmetzinament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cizallamiento<s n="n"/></l><r>cisallament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alivio<s n="n"/></l><r>alleujament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>exclave<s n="n"/></l><r>exclavament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>constreñimiento<s n="n"/></l><r>constrenyiment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>entroncamiento<s n="n"/></l><r>entroncament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>escarpadura<s n="n"/><s n="f"/></l><r>escarpament<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>envasado<s n="n"/></l><r>envasament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alistamiento<s n="n"/></l><r>allistament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>adornamiento<s n="n"/></l><r>adornament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>deslumbramiento<s n="n"/></l><r>enlluernament<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>pulimento<s n="n"/></l><r>poliment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pulido<s n="n"/></l><r>poliment<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>nutrimiento<s n="n"/></l><r>nodriment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nutrimento<s n="n"/></l><r>nodriment<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>abreviamiento<s n="n"/></l><r>abreujament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abreviación<s n="n"/><s n="f"/></l><r>abreujament<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>microfilamento<s n="n"/></l><r>microfilament<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>ánimo<s n="n"/></l><r>encoratjament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>encogimiento<s n="n"/></l><r>encongiment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>encaminamiento<s n="n"/></l><r>encaminament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>simiente<s n="n"/></l><r>sement<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>marchitamiento<s n="n"/></l><r>pansiment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ordeño<s n="n"/></l><r>munyiment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hinchamiento<s n="n"/></l><r>inflament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zambullimiento<s n="n"/></l><r>capbussament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>atrapamiento<s n="n"/></l><r>atrapament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>asentimiento<s n="n"/></l><r>assentiment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>protofilamento<s n="n"/></l><r>protofilament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>no<b/>alineamiento<s n="n"/></l><r>no-alineament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neurofilamento<s n="n"/></l><r>neurofilament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>miofilamento<s n="n"/></l><r>miofilament<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>marchitamiento<s n="n"/></l><r>marciment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ennegrecimiento<s n="n"/></l><r>ennegriment<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>embotellamiento<s n="n"/></l><r>embotellament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dimensionamiento<s n="n"/></l><r>dimensionament<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>desheredamiento<s n="n"/></l><r>desheretament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desheredación<s n="n"/></l><r>desheretament<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>accionamiento<s n="n"/></l><r>accionament<s n="n"/></r></p></e>
+
+
+
+<e a="prompsit2uoc"><p><l>discípulo<s n="n"/><s n="m"/><s n="sg"/></l><r>deixeble<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="prompsit2uoc"><p><l>discípulo<s n="n"/><s n="f"/><s n="sg"/></l><r>deixeble<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
+<e a="prompsit2uoc" r="LR"><p><l>discípulo<s n="n"/><s n="m"/><s n="pl"/></l><r>deixeble<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>discípulo<s n="n"/><s n="f"/><s n="pl"/></l><r>deixeble<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>discípulo<s n="n"/><s n="GD"/><s n="pl"/></l><r>deixeble<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+
+
+<e a="prompsit2uoc" srl="estrella D"><p><l>estrella<s n="n"/><s n="f"/></l><r>estel<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc" srl="cometa"><p><l>cometa<s n="n"/><s n="f"/></l><r>estel<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vasallo<s n="n"/></l><r>vassall<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>radio<s n="n"/><s n="m"/></l><r>radi<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monte<s n="n"/></l><r>mont<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zar<s n="n"/></l><r>tsar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zarina<s n="n"/></l><r>tsarina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dinosaurio<s n="n"/></l><r>dinosaure<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>emir<s n="n"/></l><r>emir<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>entero<s n="adj"/></l><r>enter<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plomo<s n="n"/></l><r>plom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polinomio<s n="n"/></l><r>polinomi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>procónsul<s n="n"/></l><r>procònsol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mariscal<s n="n"/></l><r>mariscal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>enzima<s n="n"/><s n="f"/></l><r>enzim<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vándalo<s n="n"/></l><r>vàndal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>asirio<s n="n"/></l><r>assiri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>canónigo<s n="n"/></l><r>canonge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>píxel<s n="n"/></l><r>píxel<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>pixel<s n="n"/></l><r>píxel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>crustáceo<s n="n"/></l><r>crustaci<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>marsupial<s n="n"/></l><r>marsupial<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>hospedaje<s n="n"/></l><r>hostatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>hostaje<s n="n"/></l><r>ostatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dado<s n="n"/></l><r>dau<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lóbulo<s n="n"/></l><r>lòbul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estambre<s n="n"/></l><r>estam<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>belio<s n="n"/></l><r>bel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>almirante<s n="n"/></l><r>almirall<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>judaísmo<s n="n"/></l><r>judaisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rectángulo<s n="n"/></l><r>rectangle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>byte<s n="n"/></l><r>byte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subconjunto<s n="n"/></l><r>subconjunt<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>papiro<s n="n"/></l><r>papir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pórtico<s n="n"/></l><r>pòrtic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oboe<s n="n"/></l><r>oboè<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sínodo<s n="n"/></l><r>sínode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magnesio<s n="n"/></l><r>magnesi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acre<s n="n"/></l><r>acre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cloruro<s n="n"/></l><r>clorur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cátaro<s n="adj"/></l><r>càtar<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" slr="llamp"><p><l>rayo<s n="n"/></l><r>llamp<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>dúo<s n="n"/></l><r>duet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carbonato<s n="n"/></l><r>carbonat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mamut<s n="n"/></l><r>mamut<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>artrópodo<s n="n"/></l><r>artròpode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>visir<s n="n"/></l><r>visir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oráculo<s n="n"/></l><r>oracle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esmalte<s n="n"/></l><r>esmalt<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>barítono<s n="n"/></l><r>baríton<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>coral<s n="n"/></l><r>corall<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rinoceronte<s n="n"/></l><r>rinoceront<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>presbiterio<s n="n"/></l><r>presbiteri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gradiente<s n="n"/></l><r>gradient<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cubo<s n="n"/></l><r>cub<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sépalo<s n="n"/></l><r>sèpal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fagot<s n="n"/></l><r>fagot<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>fagote<s n="n"/></l><r>fagot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alcaloide<s n="n"/></l><r>alcaloide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rococó<s n="n"/></l><r>rococó<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>motete<s n="n"/></l><r>motet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fosfato<s n="n"/></l><r>fosfat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>promontorio<s n="n"/></l><r>promontori<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>litio<s n="n"/></l><r>liti<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>brujo<s n="n"/></l><r>bruixot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estrato<s n="n"/></l><r>estrat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vasallaje<s n="n"/></l><r>vassallatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>conector<s n="n"/></l><r>connector<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diodo<s n="n"/></l><r>díode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nucleótido<s n="n"/></l><r>nucleòtid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>senescal<s n="n"/></l><r>senescal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quark<s n="n"/></l><r>quark<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>invertebrado<s n="n"/></l><r>invertebrat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acrónimo<s n="n"/></l><r>acrònim<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lípido<s n="n"/></l><r>lípid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>endemismo<s n="n"/></l><r>endemisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pecíolo<s n="n"/></l><r>pecíol<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>peciolo<s n="n"/></l><r>pecíol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cromo<s n="n"/></l><r>crom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>óvalo<s n="n"/></l><r>oval<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plumaje<s n="n"/></l><r>plomatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>infinitivo<s n="n"/></l><r>infinitiu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>níquel<s n="n"/></l><r>níquel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>káiser<s n="n"/></l><r>kàiser<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rape<s n="n"/></l><r>rap<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>soneto<s n="n"/></l><r>sonet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mitocondrio<s n="n"/></l><r>mitocondri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>suborden<s n="n"/></l><r>subordre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tensor<s n="n"/></l><r>tensor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dígrafo<s n="n"/></l><r>dígraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cocodrilo<s n="n"/></l><r>cocodril<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>saxófono<s n="n"/></l><r>saxòfon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pretorio<s n="n"/></l><r>pretori<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>porche<s n="n"/></l><r>porxo<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cardo<s n="n"/></l><r>card<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sacro<s n="n"/></l><r>sacre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>retiro<s n="n"/></l><r>retir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>chelín<s n="n"/></l><r>xíling<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>funicular<s n="n"/></l><r>funicular<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>herbívoro<s n="n"/></l><r>herbívor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>chamán<s n="n"/></l><r>xaman<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>tambor<s n="n"/></l><r>timbal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>priorato<s n="n"/></l><r>priorat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>casquete<s n="n"/></l><r>casquet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>republicanismo<s n="n"/></l><r>republicanisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>augur<s n="n"/></l><r>àugur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perianto<s n="n"/></l><r>periant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>feudalismo<s n="n"/></l><r>feudalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jet<s n="n"/></l><r>jet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>yodo<s n="n"/></l><r>iode<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>iodo<s n="n"/></l><r>iode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cefalópodo<s n="n"/></l><r>cefalòpode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plebiscito<s n="n"/></l><r>plebiscit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>patriarcado<s n="n"/></l><r>patriarcat<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>disturbio<s n="n"/><s n="m"/><s n="pl"/></l><r>aldarull<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>alboroto<s n="n"/><s n="m"/><s n="sg"/></l><r>aldarull<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="prompsit2uoc"><p><l>laúd<s n="n"/></l><r>llaüt<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>eunuco<s n="n"/></l><r>eunuc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>risco<s n="n"/></l><r>cingle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fiordo<s n="n"/></l><r>fiord<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>búho<s n="n"/></l><r>mussol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>titanio<s n="n"/></l><r>titani<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>guisante<s n="n"/></l><r>pèsol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>olmo<s n="n"/></l><r>om<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sestercio<s n="n"/></l><r>sesterci<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>patronaje<s n="n"/></l><r>patronatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cartílago<s n="n"/></l><r>cartílag<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lepidóptero<s n="n"/></l><r>lepidòpter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>genitivo<s n="n"/></l><r>genitiu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>genitivo<s n="adj"/></l><r>genitiu<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apache<s n="n"/></l><r>apatxe<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hexámetro<s n="n"/></l><r>hexàmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>coleóptero<s n="n"/></l><r>coleòpter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bardo<s n="n"/></l><r>bard<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>códice<s n="n"/></l><r>còdex<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cadmio<s n="n"/></l><r>cadmi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>barbarismo<s n="n"/></l><r>barbarisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>micrómetro<s n="n"/></l><r>micròmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>boom<s n="n"/></l><r>boom<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>ante<s n="n"/></l><r>ant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>triunvirato<s n="n"/></l><r>triumvirat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sacerdocio<s n="n"/></l><r>sacerdoci<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>orgánulo<s n="n"/></l><r>orgànul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>microtúbulo<s n="n"/></l><r>microtúbul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cobalto<s n="n"/></l><r>cobalt<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>koiné<s n="n"/></l><r>koiné<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>proyector<s n="n"/></l><r>projector<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pillaje<s n="n"/></l><r>pillatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hechizo<s n="n"/></l><r>encanteri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>baptisterio<s n="n"/></l><r>baptisteri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subdialecto<s n="n"/></l><r>subdialecte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sílex<s n="n"/></l><r>sílex<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>retículo<s n="n"/></l><r>reticle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>meteoro<s n="n"/></l><r>meteor<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>metéoro<s n="n"/></l><r>meteor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glúcido<s n="n"/></l><r>glúcid<s n="n"/></r></p></e>
+
+
+<e a="prompsit2uoc"><p><l>forte<s n="adv"/></l><r>forte<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>originariamente<s n="adv"/></l><r>originàriament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>usualmente<s n="adv"/></l><r>usualment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>geográficamente<s n="adv"/></l><r>geogràficament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>secretamente<s n="adv"/></l><r>secretament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>decisivamente<s n="adv"/></l><r>decisivament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>allegro<s n="adv"/></l><r>allegro<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>íntimamente<s n="adv"/></l><r>íntimament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>genéticamente<s n="adv"/></l><r>genèticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>horizontalmente<s n="adv"/></l><r>horitzontalment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>circa<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>afuera<s n="adv"/></l><r>enfora<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esporádicamente<s n="adv"/></l><r>esporàdicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>químicamente<s n="adv"/></l><r>químicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuidadosamente<s n="adv"/></l><r>acuradament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incorrectamente<s n="adv"/></l><r>incorrectament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>étnicamente<s n="adv"/></l><r>ètnicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>en<b/>todas<b/>partes<s n="adv"/></l><r>pertot<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>numéricamente<s n="adv"/></l><r>numèricament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>singularmente<s n="adv"/></l><r>singularment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tecnológicamente<s n="adv"/></l><r>tecnològicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>instantáneamente<s n="adv"/></l><r>instantàniament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>consecutivamente<s n="adv"/></l><r>consecutivament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rigurosamente<s n="adv"/></l><r>rigorosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>morfológicamente<s n="adv"/></l><r>morfològicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>notoriamente<s n="adv"/></l><r>notòriament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>generosamente<s n="adv"/></l><r>generosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>comparativamente<s n="adv"/></l><r>comparativament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>geométricamente<s n="adv"/></l><r>geomètricament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dinámicamente<s n="adv"/></l><r>dinàmicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>convencionalmente<s n="adv"/></l><r>convencionalment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fonéticamente<s n="adv"/></l><r>fonèticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inusualmente<s n="adv"/></l><r>inusualment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>indudablemente<s n="adv"/></l><r>indubtablement<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>discretamente<s n="adv"/></l><r>discretament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cruelmente<s n="adv"/></l><r>cruelment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ferozmente<s n="adv"/></l><r>ferotgement<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>invariablemente<s n="adv"/></l><r>invariablement<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>geológicamente<s n="adv"/></l><r>geològicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>íntegramente<s n="adv"/></l><r>íntegrament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>privadamente<s n="adv"/></l><r>privadament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anormalmente<s n="adv"/></l><r>anormalment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ostensiblemente<s n="adv"/></l><r>ostensiblement<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>consiguientemente<s n="adv"/></l><r>consegüentment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amistosamente<s n="adv"/></l><r>amistosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apasionadamente<s n="adv"/></l><r>apassionadament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ciegamente<s n="adv"/></l><r>cegament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>meticulosamente<s n="adv"/></l><r>meticulosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>demográficamente<s n="adv"/></l><r>demogràficament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abruptamente<s n="adv"/></l><r>abruptament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nacionalmente<s n="adv"/></l><r>nacionalment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magníficamente<s n="adv"/></l><r>magníficament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>impropiamente<s n="adv"/></l><r>impròpiament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diagonalmente<s n="adv"/></l><r>diagonalment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ordinariamente<s n="adv"/></l><r>ordinàriament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>idealmente<s n="adv"/></l><r>idealment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>elegantemente<s n="adv"/></l><r>elegantment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>in<b/>crescendo<s n="adv"/></l><r>in<b/>crescendo<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>innecesariamente<s n="adv"/></l><r>innecessàriament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desproporcionadamente<s n="adv"/></l><r>desproporcionadament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>parecidamente<s n="adv"/></l><r>semblantment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ecológicamente<s n="adv"/></l><r>ecològicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desigualmente<s n="adv"/></l><r>desigualment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>éticamente<s n="adv"/></l><r>èticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mágicamente<s n="adv"/></l><r>màgicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>honestamente<s n="adv"/></l><r>honestament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>farmacológicamente<s n="adv"/></l><r>farmacològicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>computacionalmente<s n="adv"/></l><r>computacionalment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>marginalmente<s n="adv"/></l><r>marginalment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipotéticamente<s n="adv"/></l><r>hipotèticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diplomáticamente<s n="adv"/></l><r>diplomàticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>silenciosamente<s n="adv"/></l><r>silenciosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>respetuosamente<s n="adv"/></l><r>respectuosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>en<b/>balde<s n="adv"/></l><r>endebades<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dolorosamente<s n="adv"/></l><r>dolorosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diligentemente<s n="adv"/></l><r>diligentment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ruidosamente<s n="adv"/></l><r>sorollosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>precariamente<s n="adv"/></l><r>precàriament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>orgullosamente<s n="adv"/></l><r>orgullosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inteligentemente<s n="adv"/></l><r>intel·ligentment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cordialmente<s n="adv"/></l><r>cordialment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>retrospectivamente<s n="adv"/></l><r>retrospectivament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>frenéticamente<s n="adv"/></l><r>frenèticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>filosóficamente<s n="adv"/></l><r>filosòficament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>extraoficialmente<s n="adv"/></l><r>extraoficialment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>coherentemente<s n="adv"/></l><r>coherentment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>agradablemente<s n="adv"/></l><r>agradablement<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tozudamente<s n="adv"/></l><r>tossudament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>médicamente<s n="adv"/></l><r>mèdicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ambientalmente<s n="adv"/></l><r>ambientalment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>allegretto<s n="adv"/></l><r>allegretto<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subsiguientemente<s n="adv"/></l><r>subsegüentment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>majestuosamente<s n="adv"/></l><r>majestuosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>imprudentemente<s n="adv"/></l><r>imprudentment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gustosamente<s n="adv"/></l><r>gustosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fraudulentamente<s n="adv"/></l><r>fraudulentament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>enfáticamente<s n="adv"/></l><r>emfàticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>destructivamente<s n="adv"/></l><r>destructivament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magnánimamente<s n="adv"/></l><r>magnànimament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>interactivamente<s n="adv"/></l><r>interactivament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inocentemente<s n="adv"/></l><r>innocentment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inaceptablemente<s n="adv"/></l><r>inacceptablement<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>imperceptiblemente<s n="adv"/></l><r>imperceptiblement<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gloriosamente<s n="adv"/></l><r>gloriosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>furiosamente<s n="adv"/></l><r>furiosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>febrilmente<s n="adv"/></l><r>febrilment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fantásticamente<s n="adv"/></l><r>fantàsticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>creativamente<s n="adv"/></l><r>creativament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cautelosamente<s n="adv"/></l><r>cautelosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>agitadamente<s n="adv"/></l><r>agitadament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ab<b/>intestato<s n="adv"/></l><r>abintestat<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sobriamente<s n="adv"/></l><r>sòbriament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>responsablemente<s n="adv"/></l><r>responsablement<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>productivamente<s n="adv"/></l><r>productivament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nerviosamente<s n="adv"/></l><r>nerviosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>larghetto<s n="adv"/></l><r>larghetto<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>laboriosamente<s n="adv"/></l><r>laboriosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ilícitamente<s n="adv"/></l><r>il·lícitament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ibídem<s n="adv"/></l><r>ibídem<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fanáticamente<s n="adv"/></l><r>fanàticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estúpidamente<s n="adv"/></l><r>estúpidament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>educativamente<s n="adv"/></l><r>educativament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desconcertantemente<s n="adv"/></l><r>desconcertantment<s n="adv"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>de<b/>vez<b/>en<b/>cuando<s n="adv"/></l><r>adesiara<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aceleradamente<s n="adv"/></l><r>acceleradament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>absurdamente<s n="adv"/></l><r>absurdament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>temerariamente<s n="adv"/></l><r>temeràriament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prestissimo<s n="adv"/></l><r>prestissimo<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>persuasivamente<s n="adv"/></l><r>persuasivament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>patéticamente<s n="adv"/></l><r>patèticament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neciamente<s n="adv"/></l><r>nèciament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monótonamente<s n="adv"/></l><r>monòtonament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>léxicamente<s n="adv"/></l><r>lèxicament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incompletamente<s n="adv"/></l><r>incompletament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>frívolamente<s n="adv"/></l><r>frívolament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desastrosamente<s n="adv"/></l><r>desastrosament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>airosamente<s n="adv"/></l><r>airosament<s n="adv"/></r></p></e>
+
+
+    </section>
+
+
+
+ <section id="final" type="standard">
+
 
 
       <e>
@@ -108504,9 +108921,6 @@
           <r><s n="rpar"/></r>
         </p>
       </e>    
-
-    </section>
- <section id="final" type="standard">
 
     <e>
       <re>[a-z.]+@[a-z.]+</re>
