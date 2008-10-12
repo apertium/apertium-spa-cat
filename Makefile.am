@@ -119,7 +119,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(LANG2).tsx $(BASENAME).trules-$(PREFIX1).xml \
            $(BASENAME).trules-$(PREFIX2).xml $(PREFIX1).prob $(PREFIX2).prob \
            modes.xml translate-to-default-equivalent.xsl alt.xsl \
-           $(PREFIX1)-latin1.prob $(PREFIX2)-latin1.prob
+           $(PREFIX1)-latin1.prob $(PREFIX2)-latin1.prob \
+           $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx
            
 apertium_es_cadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_es_modesdir=$(prefix)/share/apertium/modes/
