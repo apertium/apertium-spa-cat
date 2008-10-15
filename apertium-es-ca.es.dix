@@ -5013,6 +5013,14 @@
           <r>el<b/>que<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l>lo<b/>que</l>
+          <r>lo<b/>que<s n="rel"/><s n="an"/><s n="nt"/></r>
+        </p>
+      </e>
+
+
     </pardef>
     <pardef n="cuy/o__rel">
       <e>
@@ -91649,17 +91657,6 @@
       <i>hoja</i>
       <par n="abeja__n"/>
     </e>
-    <e lm="hoja de ruta">
-      <i>hoja<b/>de<b/>ruta</i>
-      <par n="cuaresma__n"/>
-    </e>
-    <e lm="hoja de ruta">
-      <p>
-        <l>hojas<b/>de<b/>ruta</l>
-        <r>hoja<b/>de<b/>ruta</r>
-      </p>
-      <par n="afueras__n"/>
-    </e>
     <e lm="holandés">
       <i>holand</i>
       <par n="aragon/és__n"/>
@@ -133829,7 +133826,7 @@
   <i>unt</i>
   <par n="abandon/ar__vblex"/>
 </e>
-<e lm="untar eo" a="gema">
+<e lm="untar" a="gema">
   <p>
     <l>únt</l>
     <r>unt</r>
@@ -166437,8 +166434,52 @@
 <e lm="acería" a="prompsit2uoc"><i>acería</i><par n="abeja__n"/></e>
 <e lm="absorciometría" a="prompsit2uoc"><i>absorciometría</i><par n="abeja__n"/></e>
 
+<!--noves 15 oct -->
 
 
+<e a="prompsit2uoc" lm="hoja de cálculo">
+      <i>hoja</i>
+      <par n="abeja__n"/>
+      <p>
+	<l><b/>de<b/>cálculo</l>
+	<r><g><b/>de<b/>cálculo</g></r>
+      </p>
+    </e>
+
+    <e a="prompsit2uoc" lm="hoja de ruta">
+      <i>hoja</i>
+      <par n="abeja__n"/>
+      <p>
+	<l><b/>de<b/>ruta</l>
+	<r><g><b/>de<b/>ruta</g></r>
+      </p>
+    </e>
+
+
+    <e a="prompsit2uoc" lm="ms">
+      <i>ms</i>
+      <par n="campus__n"/>
+    </e>
+
+    <e a="prompsit2uoc" lm="mg">
+      <i>mg</i>
+      <par n="campus__n"/>
+    </e>
+    <e a="prompsit2uoc" lm="ml">
+      <i>ml</i>
+      <par n="campus__n"/>
+    </e>
+
+<e lm="gráficamente" a="prompsit2uoc"><i>gráficamente</i><par n="ahora__adv"/></e>
+
+    <e a="prompsit2uoc" lm="radioeléctrico">
+      <i>radioeléctric</i>
+      <par n="absolut/o__adj"/>
+    </e>
+    <e lm="diagrama">
+      <i>diagrama</i>
+      <par n="abismo__n"/>
+    </e>
 </section>
 
 

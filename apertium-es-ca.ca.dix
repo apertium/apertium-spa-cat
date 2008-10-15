@@ -12987,15 +12987,27 @@
           <r>el<b/>que<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>els<b/>que</l>
           <r>el<b/>que<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
         </p>
       </e>
-      <e>
+      <e r="LR">
         <p>
           <l>el<b/>que</l>
+          <r>el<b/>que<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>els<b/>que</l>
+          <r>el<b/>que<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l><a/>el<b/>que</l>
           <r>el<b/>que<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
@@ -13046,6 +13058,20 @@
       <e r="LR">
         <p>
           <l>el<b/>qual</l>
+          <r>el<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e r="RL">
+        <p>
+          <l><a/>els<b/>quals</l>
+          <r>el<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e r="RL">
+        <p>
+          <l><a/>el<b/>qual</l>
           <r>el<b/>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
@@ -13223,23 +13249,7 @@
       </e>
     </pardef>
 
-    <pardef n="~el/qual__rel">
-      
-      <e>
-        <p>
-          <l>s<b/>quals</l>
-          <r>qual<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l><b/>qual</l>
-          <r>qual<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
-
+   
     <pardef n="va/ar__vaux">
       
       <e>
@@ -99286,17 +99296,6 @@
         <i>full</i>
         <par n="abric__n"/>
       </e>
-      <e lm="full de ruta">
-      <i>full<b/>de<b/>ruta</i>
-      <par n="atletisme__n"/>
-    </e>
-    <e lm="full de ruta">
-      <p>
-        <l>fulls<b/>de<b/>ruta</l>
-        <r>full<b/>de<b/>ruta</r>
-      </p>
-      <par n="afores__n"/>
-    </e>
       <e lm="fulla">
         <i>full</i>
         <par n="abell/a__n"/>
@@ -123949,7 +123948,6 @@
       <e lm="el que">
         <par n="/el_que__rel"/>
       </e>
-
       <e lm="qual">
 	      <i>qual</i>
         <par n="qual__rel"/>
@@ -135119,13 +135117,6 @@
         <par n="us__prn"/>
       </e>
       
-      <e lm="el qual" r="RL">
-        <p>
-          <l><a/>el</l>
-          <r>el<b/></r>
-        </p>
-        <par n="~el/qual__rel"/>
-      </e>
       
 
 
@@ -164572,7 +164563,6 @@
     </e>
 
 
-<!--noves entrades np -->
 
 
 <e lm="New Hampshire" a="prompsit2uoc"><i>New<b/>Hampshire</i><par n="Afganistan__np"/></e>
@@ -164817,7 +164807,6 @@
 
 
 
-<!--noves entrades adj -->
 
 <e lm="rectangular" a="prompsit2uoc"><i>rectangular</i><par n="abdominal__adj"/></e>
 <e lm="vectorial" a="prompsit2uoc"><i>vectorial</i><par n="abdominal__adj"/></e>
@@ -165577,8 +165566,6 @@
 <e lm="desheretament" a="prompsit2uoc"><i>desheretament</i><par n="abric__n"/></e>
 <e lm="accionament" a="prompsit2uoc"><i>accionament</i><par n="abric__n"/></e>
 
-
-<!--noves entrades mireia pingui -->
 
      
       <e lm="diner">
@@ -166456,6 +166443,54 @@
 <e lm="acereria" a="prompsit2uoc"><i>acereri</i><par n="abell/a__n"/></e>
 <e lm="absorciometria" a="prompsit2uoc"><i>absorciometri</i><par n="abell/a__n"/></e>
 
+
+<!--noves 15 oct -->
+
+<e a="prompsit2uoc" lm="full de càlcul">
+      <i>full</i>
+      <par n="abric__n"/>
+      <p>
+	<l><b/>de<b/>càlcul</l>
+	<r><g><b/>de<b/>càlcul</g></r>
+      </p>
+    </e>
+
+
+<e a="prompsit2uoc" lm="full de ruta">
+      <i>full</i>
+      <par n="abric__n"/>
+      <p>
+	<l><b/>de<b/>ruta</l>
+	<r><g><b/>de<b/>ruta</g></r>
+      </p>
+    </e>
+
+
+<e a="prompsit2uoc" lm="ms">
+        <i>ms</i>
+        <par n="campus__n"/>
+      </e>
+
+<e a="prompsit2uoc" lm="mg">
+        <i>mg</i>
+        <par n="campus__n"/>
+      </e>
+<e a="prompsit2uoc" lm="ml">
+        <i>ml</i>
+        <par n="campus__n"/>
+      </e>
+
+<e a="prompsit2uoc" lm="radioelèctric">
+  <i>radioelèctri</i>
+  <par n="acadèmi/c__adj"/>
+</e>
+
+<e lm="gràficament" a="prompsit2uoc"><i>gràficament</i><par n="ahir__adv"/></e>
+
+      <e lm="diagrama">
+        <i>diagram</i>
+        <par n="carism/a__n"/>
+      </e>
 
 
  </section>

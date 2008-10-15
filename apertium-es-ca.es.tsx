@@ -175,29 +175,41 @@
   </def-label>
   <def-label name="VLEXINF">
     <tags-item tags="vblex.inf"/>
+    <tags-item tags="vblex.v2.inf"/>
   </def-label>
   <def-label name="VLEXGER">
     <tags-item tags="vblex.ger"/>
+    <tags-item tags="vblex.v2.ger"/>
   </def-label>
   <def-label name="VLEXPARTPI">
     <tags-item tags="vblex.pp.*"/>
+    <tags-item tags="vblex.v2.pp.*"/>
   </def-label>
   <def-label name="VLEXPFCI">
     <tags-item tags="vblex.pri.*"/>
     <tags-item tags="vblex.fti.*"/>
     <tags-item tags="vblex.cni.*"/>
+    <tags-item tags="vblex.v2.pri.*"/>
+    <tags-item tags="vblex.v2.fti.*"/>
+    <tags-item tags="vblex.v2.cni.*"/>
   </def-label>
   <def-label name="VLEXIPI">
     <tags-item tags="vblex.pii.*"/>
     <tags-item tags="vblex.ifi.*"/>
+    <tags-item tags="vblex.v2.pii.*"/>
+    <tags-item tags="vblex.v2.ifi.*"/>
   </def-label>
   <def-label name="VLEXSUBJ">
     <tags-item tags="vblex.prs.*"/>
     <tags-item tags="vblex.pis.*"/>
     <tags-item tags="vblex.fts.*"/>
+    <tags-item tags="vblex.v2.prs.*"/>
+    <tags-item tags="vblex.v2.pis.*"/>
+    <tags-item tags="vblex.v2.fts.*"/>
   </def-label>
   <def-label name="VLEXIMP">
     <tags-item tags="vblex.imp.*"/>
+    <tags-item tags="vblex.v2.imp.*"/>
   </def-label>
   <def-label name="VHABERINF" closed="true">
     <tags-item tags="vbhaver.inf"/>
@@ -1883,6 +1895,34 @@
       <label-item label="VSERIMP"/>
     </label-sequence>
 
+    <label-sequence>
+      <label-item label="VMODALINF"/>
+      <label-item label="PREP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALGER"/>
+      <label-item label="PREP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PREP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALPFCI"/>
+      <label-item label="PREP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIPI"/>
+      <label-item label="PREP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALSUBJ"/>
+      <label-item label="PREP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIMP"/>
+      <label-item label="PREP"/>
+    </label-sequence>
   </forbid>
 
   <enforce-rules>

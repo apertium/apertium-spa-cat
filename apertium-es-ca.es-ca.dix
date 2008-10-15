@@ -1784,10 +1784,16 @@
           <r>distant<s n="adj"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>distinto<s n="adj"/></l>
           <r>distint<s n="adj"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>distinto<s n="adj"/></l>
+          <r>diferent<s n="adj"/></r>
         </p>
       </e>
       <e>
@@ -15619,12 +15625,6 @@
           <r>full<s n="n"/><s n="m"/></r>
         </p>
       </e>
-     <e>
-        <p>
-          <l>hoja<b/>de<b/>ruta<s n="n"/><s n="f"/></l>
-          <r>full<b/>de<b/>ruta<s n="n"/><s n="m"/></r>
-        </p>
-      </e>
       <e>
         <p>
           <l>holandés<s n="n"/></l>
@@ -18618,13 +18618,13 @@
           <r>nus<s n="n"/></r>
         </p>
       </e>
-      <e r="RL">
+      <e slr="nombre D">
         <p>
           <l>número<s n="n"/></l>
           <r>nombre<s n="n"/></r>
         </p>
       </e>
-      <e>
+      <e slr="número">
         <i>número<s n="n"/></i>
       </e>
       <e>
@@ -26491,6 +26491,12 @@
         <p>
           <l>lo<b/>cual<s n="rel"/></l>
           <r>la<b/>qual<b/>cosa<s n="rel"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>lo<b/>que<s n="rel"/><s n="an"/><s n="nt"/></l>
+          <r>el<b/>que<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e r="LR">
@@ -109436,7 +109442,45 @@
 <e a="prompsit2uoc"><p><l>absorciometría<s n="n"/></l><r>absorciometria<s n="n"/></r></p></e>
 
 
+<!--noves 15 oct -->
 
+
+<e a="prompsit2uoc"><p><l>gráficamente<s n="adv"/></l><r>gràficament<s n="adv"/></r></p></e>
+
+     <e a="prompsit2uoc">
+        <p>
+          <l>hoja<g><b/>de<b/>ruta</g><s n="n"/><s n="f"/></l>
+          <r>full<g><b/>de<b/>ruta</g><s n="n"/><s n="m"/></r>
+        </p>
+      </e>
+
+     <e a="prompsit2uoc">
+        <p>
+          <l>hoja<g><b/>de<b/>cálculo</g><s n="n"/><s n="f"/></l>
+          <r>full<g><b/>de<b/>càlcul</g><s n="n"/><s n="m"/></r>
+        </p>
+      </e>
+
+
+      <e a="prompsit2uoc">
+        <i>ms<s n="n"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>mg<s n="n"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>ml<s n="n"/></i>
+      </e>
+      <e a="prompsit2uoc">
+        <i>diagrama<s n="n"/></i>
+      </e>
+
+	<e a="prompsit2uoc">
+          <p>
+            <l>radioeléctrico<s n="adj"/></l>
+            <r>radioelèctric<s n="adj"/></r>
+          </p>
+        </e>
     </section>
 
 

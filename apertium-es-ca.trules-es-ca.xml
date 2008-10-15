@@ -192,6 +192,15 @@
     </def-cat>
 
     
+    <def-cat n="cm">
+      <cat-item tags="cm"/>
+    </def-cat>
+    <def-cat n="por">
+      <cat-item lemma="por" tags="pr"/>
+    </def-cat>
+    <def-cat n="lo_que">
+      <cat-item lemma="lo que" tags="rel.an.nt"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
@@ -400,7 +409,6 @@
       <list-item v="comarca"/>
       <list-item v="barri"/>
       <list-item v="ciutat"/>
-      <list-item v="comarca"/>
       <list-item v="província"/>
       <list-item v="illa"/>
       <list-item v="país"/>
@@ -7130,6 +7138,62 @@
       </action>
 
     </rule> 
+
+
+    <rule> <!-- REGLA: , lo que -> la cual cosa -->
+      <pattern>
+	<pattern-item n="cm"/>
+	<pattern-item n="lo_que"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <lit v="la qual cosa"/>
+	    <lit-tag v="rel.an.nt"/>
+	  </lu>
+	</out>
+      </action>
+</rule>
+
+	  
+    <rule> <!-- REGLA: , por lo que -> , per la cual cosa -->
+      <pattern>
+	<pattern-item n="cm"/>
+	<pattern-item n="por"/>
+	<pattern-item n="lo_que"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <lit v="la qual cosa"/>
+	    <lit-tag v="rel.an.nt"/>
+	  </lu>
+	</out>
+      </action>
+</rule>
+
+
+
+
+
+
+
+
+
+
+
 
 
     <rule> <!-- REGLA: reset variables-->
