@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <tagger name="spanish">
 <tagset>
-  <def-label name="PARAPR" closed="true">
+<!--  <def-label name="PARAPR" closed="true">
     <tags-item lemma="para" tags="pr"/>
-  </def-label>
+  </def-label> -->
   <def-label name="PARAVBPRI" closed="true">
     <tags-item lemma="parar" tags="vblex.pri.p3.sg"/>
   </def-label>
@@ -108,6 +108,9 @@
   <def-label name="NUM" closed="true">
     <tags-item tags="num.*"/>
     <tags-item tags="num"/>
+  </def-label>
+  <def-label name="WEB" closed="true">
+    <tags-item tags="web"/>
   </def-label>
   <def-label name="PREDETNT" closed="true">
     <tags-item tags="predet.nt.*"/>
@@ -1894,8 +1897,72 @@
       <label-item label="ADV"/>
       <label-item label="VSERIMP"/>
     </label-sequence>
-
     <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="VSERINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="VSERINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="VLEXINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="VLEXINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="VHABERINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="VHABERINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="VMODALINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="VMODALINF"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="INFLEXPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="INFLEXPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="INFSERPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="INFSERPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="INFHABERPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="INFHABERPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBPRI"/>
+      <label-item label="INFMODPRNENC"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="PARAVBIMP"/>
+      <label-item label="INFMODPRNENC"/>
+    </label-sequence>
+
+ <!--   <label-sequence>
       <label-item label="VMODALINF"/>
       <label-item label="PREP"/>
     </label-sequence>
@@ -1922,7 +1989,7 @@
     <label-sequence>
       <label-item label="VMODALIMP"/>
       <label-item label="PREP"/>
-    </label-sequence>
+    </label-sequence> -->
   </forbid>
 
   <enforce-rules>

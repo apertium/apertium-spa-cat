@@ -79767,6 +79767,14 @@
       <i>a<b/>fin<b/>de<b/>que</i>
       <par n="a_fe_que__cnjadv"/>
     </e>
+    <e lm="a causa de que">
+      <i>a<b/>causa<b/>de<b/>que</i>
+      <par n="a_fe_que__cnjadv"/>
+    </e>
+    <e lm="debido a que">
+      <i>debido<b/>a<b/>que</i>
+      <par n="a_fe_que__cnjadv"/>
+    </e>
     <e lm="a menos que" r="LR">
       <i>a<b/>menos<b/>que</i>
       <par n="a_fe_que__cnjadv"/>
@@ -131896,7 +131904,7 @@
       </p>
     </e>
 
-    <e lm="deber" c="'Deber' como verbo léxico, 'me debes dinero'">
+    <e lm="deber" c="'Deber' como verbo léxico, 'me debes dinero' o 'se debe a su carácter'">
       <i>deb</i>
       <par n="deb/er__vblex"/>
     </e>
@@ -131907,6 +131915,29 @@
       </p>
       <par n="déb/er__vblex"/>
     </e>
+
+
+ <!--   <e lm="deber a que" c="'se debe a que' - para que sólo exista la posibilidad de verbo léxico" r="LR">
+      <i>deb</i>
+      <par n="deb/er__vblex"/>
+      <p>
+        <l><b/>a<b/>que</l>
+        <r><j/>a<b/>que<s n="cnjsub"/></r>
+      </p>
+    </e>
+    <e lm="deber a que" c="'se debe a que' - para que sólo exista la posibilidad de verbo léxico" r="LR">
+      <p>
+        <l>déb</l>
+        <r>deb</r>
+      </p>
+      <par n="déb/er__vblex"/>
+      <p>
+        <l><b/>a<b/>que</l>
+        <r><j/>a<b/>que<s n="cnjsub"/></r>
+      </p>
+    </e> -->
+
+
     <e lm="haber que">
       <i>h</i>
       <par n="h/aber_que__vbmod"/>
