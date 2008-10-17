@@ -561,6 +561,8 @@
       <list-item v="hotel"/>
       <list-item v="cinema"/>
       <list-item v="apartament"/>
+      <list-item v="platja"/>
+      <list-item v="pàgina"/>
     </def-list>
 
     <def-list n="dies">
@@ -673,12 +675,26 @@
 	    <lit v="vba_en"/>
 	  </let>
 	</when>
+	<when>
+	  <test>
+	    <in caseless="yes">
+	      <clip pos="1" side="sl" part="lem"/>
+	      <list n="verbs_moviment"/>
+	    </in>
+	  </test>
+	  <let>
+	    <var n="tipusverb"/>
+	    <lit v="verbmov"/>
+	  </let>
+	</when>
       </choose>
       <call-macro n="f_serhi">
 	<with-param pos="1"/>
       </call-macro>
 
     </def-macro>
+
+
     <def-macro n="f_hi" npar="1">
       <choose>
 	<when>
@@ -738,7 +754,7 @@
       <choose> 
 	<when>
 	  <test>
-	    <equal>
+	    <equal caseless="yes">
 	      <clip pos="1" side="sl" part="lem"/>
 	      <lit v="de"/>
 	    </equal>
@@ -754,7 +770,9 @@
 	      
 	      <let>
 		<clip pos="1" side="tl" part="lem"/>
-		<lit v="per"/>
+		<get-case-from pos="1">
+		  <lit v="per"/>
+		</get-case-from>
 	      </let>
 	    </when>
 	    <otherwise>
@@ -768,7 +786,7 @@
 	</when>
 	<when>
 	  <test>
-	    <equal>
+	    <equal caseless="yes">
 	      <clip pos="1" side="sl" part="lem"/>
 	      <lit v="a"/>
 	    </equal>
@@ -792,13 +810,21 @@
 			<lit v="de"/>
 		      </equal>
 		    </not>
+		    <not>
+		      <equal>
+			<var n="tipusverb"/>
+			<lit v="verbmov"/>
+		      </equal>
+		    </not>
 		  </and>
 		</or>
 		
 	      </test>
 	      <let>
 		<clip pos="1" side="tl" part="lem"/>
-		<lit v="en"/>
+		<get-case-from pos="1">
+		  <lit v="en"/>
+		</get-case-from>
 	      </let>
 	    </when>
 	  </choose>
@@ -4336,7 +4362,7 @@
     </rule>
     
     
-    <rule> <!-- REGLA: PREP ADJECTIU NOM -->
+    <rule> <!-- REGLA: PREP ADJECTIU NOM mireia -->
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="adj"/>
@@ -7257,6 +7283,10 @@
 	</let>
 	<let>
 	  <var n="no"/>
+	  <lit v=""/>
+	</let>
+	<let>
+	  <var n="tipusverb"/>
 	  <lit v=""/>
 	</let>
 	<out>

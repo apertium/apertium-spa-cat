@@ -469,6 +469,8 @@
       <list-item v="hotel"/>
       <list-item v="cinema"/>
       <list-item v="apartament"/>
+      <list-item v="platja"/>
+      <list-item v="pàgina"/>
     </def-list>
     <def-list n="tiempo">
       <list-item v="enero"/>
@@ -579,14 +581,16 @@
       <choose>
 	<when>
 	  <test>
-	    <equal>
+	    <equal caseless="yes">
 	      <clip pos="1" side="sl" part="lem"/>
 	      <lit v="como"/>
 	    </equal>
 	  </test>
 	  <let>
 	    <clip pos="1" side="tl" part="lem"/>
-	    <lit v="com a"/>
+	    <get-case-from pos="1">
+	      <lit v="com a"/>
+	    </get-case-from>
 	  </let>
 	</when>
       </choose>
@@ -597,7 +601,7 @@
 	<when>
 	  <test>
 	    <and>
-	      <equal>
+	      <equal caseless="yes">
 		<clip pos="1" side="sl" part="lem"/>
 		<lit v="a"/>
 	      </equal>
@@ -616,7 +620,7 @@
 	    <when>
 	      <test>
 		<and>
-		  <equal>
+		  <equal caseless="yes">
 		    <clip pos="1" side="sl" part="lem"/>
 		    <lit v="de"/>
 		  </equal>
@@ -628,13 +632,15 @@
 	      </test>
 	      <let>
 		<clip pos="1" side="tl" part="lem"/>
-		<lit v="per"/>
+		<get-case-from pos="1">
+		  <lit v="per"/>
+		</get-case-from>
 	      </let>
 	    </when>
 	    <when>
 	      <test>
 		<and>
-		  <equal>
+		  <equal caseless="yes">
 		    <clip pos="1" side="sl" part="lem"/>
 		    <lit v="en"/>
 		  </equal>
@@ -646,19 +652,23 @@
 	      </test>
 	      <let>
 		<clip pos="1" side="tl" part="lem"/>
-		<lit v="a"/>
+		<get-case-from pos="1">
+		  <lit v="a"/>
+		</get-case-from>
 	      </let>
 	    </when>
 	    <when><!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
 	      <test>
-		<equal>
+		<equal caseless="yes">
 		  <clip pos="1" side="sl" part="lem"/>
 		  <lit v="para"/>
 		</equal>
 	      </test>
 	      <let>
 		<clip pos="1" side="tl" part="lem"/>
-		<lit v="per a"/>
+		<get-case-from pos="1">
+		  <lit v="per a"/>
+		</get-case-from>
 	      </let>
 	    </when>		  
 	  </choose>
