@@ -118,7 +118,7 @@
     <tags-item tags="prn.pro.*"/>
   </def-label>
   <def-label name="VA"><!--Afegit 10/11/05 MG -->
-    <tags-item lemma ="anar" tags="vblex.pri.*"/>
+    <tags-item lemma="anar" tags="vblex.pri.*"/>
   </def-label>
   <def-label name="VLEXINF">
     <tags-item tags="vblex.inf"/>
