@@ -137,7 +137,7 @@
    
    <pardef n="urls">
      <e>
-	<re>((www.)[a-z\-]+[.][a-z]+)</re>
+	<re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)</re>
 	<p>
 	  <l/>
 	  <r><s n="num"/></r>
@@ -88558,8 +88558,13 @@
     </e>
     <e lm="editorial">
       <i>editorial</i>
-      <par n="albañil__n"/>
+      <par n="abril__n"/>
     </e>
+    <e lm="editorial">
+      <i>editorial</i>
+      <par n="accesibilidad__n"/>
+    </e>
+
     <e lm="educación">
       <i>educaci</i>
       <par n="acci/ón__n"/>
@@ -106478,6 +106483,10 @@
       <i>Latinoamérica</i>
       <par n="Afganistán__np"/>
     </e>
+    <e lm="Hispanoamérica">
+      <i>Hispanoamérica</i>
+      <par n="Afganistán__np"/>
+    </e>
     <e lm="Latorre">
       <i>Latorre</i>
       <par n="Abad__np"/>
@@ -110479,6 +110488,10 @@
       <i>sobre</i>
       <par n="a__pr"/>
     </e>
+    <e lm="dentro de">
+      <i>dentro<b/></i>
+      <par n="contde__pr"/>
+    </e>
     <e lm="tras" r="LR">
       <i>tras</i>
       <par n="a__pr"/>
@@ -110533,6 +110546,10 @@
     </e>
     <e lm="muy">
       <i>muy</i>
+      <par n="bien__preadv"/>
+    </e>
+    <e lm="bastante">
+      <i>bastante</i>
       <par n="bien__preadv"/>
     </e>
     <e lm="tan">
@@ -131921,25 +131938,6 @@
     </e>
 
 
- <!--   <e lm="deber a que" c="'se debe a que' - para que sólo exista la posibilidad de verbo léxico" r="LR">
-      <i>deb</i>
-      <par n="deb/er__vblex"/>
-      <p>
-        <l><b/>a<b/>que</l>
-        <r><j/>a<b/>que<s n="cnjsub"/></r>
-      </p>
-    </e>
-    <e lm="deber a que" c="'se debe a que' - para que sólo exista la posibilidad de verbo léxico" r="LR">
-      <p>
-        <l>déb</l>
-        <r>deb</r>
-      </p>
-      <par n="déb/er__vblex"/>
-      <p>
-        <l><b/>a<b/>que</l>
-        <r><j/>a<b/>que<s n="cnjsub"/></r>
-      </p>
-    </e> -->
 
 
     <e lm="haber que">
@@ -148998,6 +148996,18 @@
         <par n="abalán/zar__vblex"/>
      </e>
 
+     <e lm="coorganizar" a="prompsit2uoc">
+        <i>coorgani</i>
+        <par n="abalan/zar__vblex"/>
+      </e>
+
+     <e lm="coorganizar" a="prompsit2uoc">
+        <p>
+          <l>coorganí</l>
+          <r>coorgani</r>
+        </p>
+        <par n="abalán/zar__vblex"/>
+     </e>
      <e lm="reorientación" a="prompsit2adn">
         <i>reorientaci</i>
         <par n="acci/ón__n"/>
@@ -157046,7 +157056,6 @@
 <e lm="criminalista" a="prompsit2adn"><i>criminalista</i><par n="accionista__n"/></e>
 <e lm="cuentista" a="prompsit2adn"><i>cuentista</i><par n="accionista__n"/></e>
 <e lm="dietista" a="prompsit2adn"><i>dietista</i><par n="accionista__n"/></e>
-<e lm="editorialista" a="prompsit2adn"><i>editorialista</i><par n="accionista__n"/></e>
 <e lm="equilibrista" a="prompsit2adn"><i>equilibrista</i><par n="accionista__n"/></e>
 <e lm="estadista" a="prompsit2adn"><i>estadista</i><par n="accionista__n"/></e>
 <e lm="esteticista" a="prompsit2adn"><i>esteticista</i><par n="accionista__n"/></e>
@@ -159965,6 +159974,10 @@
 
 <e a="prompsit" lm="examinando">
   <i>examinand</i>
+  <par n="abogad/o__n"/>
+</e>
+<e a="prompsit2uoc" lm="doctorando">
+  <i>doctorand</i>
   <par n="abogad/o__n"/>
 </e>
 
@@ -164857,6 +164870,9 @@
 <e lm="Crestian" a="prompsit2uoc"><i>Crestian</i><par n="Abad__np"/></e>
 <e lm="Amice" a="prompsit2uoc"><i>Amice</i><par n="Abad__np"/></e>
 <e lm="Alys" a="prompsit2uoc"><i>Alys</i><par n="Abad__np"/></e>
+<e lm="Vives" a="prompsit2uoc"><i>Vives</i><par n="Abad__np"/></e>
+<e lm="Isidor" a="prompsit2uoc"><i>Isidor</i><par n="Abad__np"/></e>
+<e lm="Marí" a="prompsit2uoc"><i>Marí</i><par n="Abad__np"/></e>
 
 
 <!--noves entrades adj -->
@@ -166471,6 +166487,7 @@
 
 <!--noves 15 oct -->
 
+<e lm="tutoría" a="prompsit2uoc"><i>tutoría</i><par n="abeja__n"/></e>
 
 <e a="prompsit2uoc" lm="hoja de cálculo">
       <i>hoja</i>
@@ -166506,15 +166523,145 @@
     </e>
 
 <e lm="gráficamente" a="prompsit2uoc"><i>gráficamente</i><par n="ahora__adv"/></e>
+<e lm="quincenalmente" a="prompsit2uoc"><i>quincenalmente</i><par n="ahora__adv"/></e>
 
     <e a="prompsit2uoc" lm="radioeléctrico">
       <i>radioeléctric</i>
       <par n="absolut/o__adj"/>
     </e>
-    <e lm="diagrama">
+
+<e lm="en marcha" a="prompsit2uoc"><i>en<b/>marcha</i><par n="multimedia__adj"/></e>
+
+<e lm="desde entonces" r="RL" a="prompsit2uoc"><i>desde<b/>entonces</i><par n="ahora__adv"/></e>
+
+    <e lm="diagrama" a="prompsit2uoc">
       <i>diagrama</i>
       <par n="abismo__n"/>
     </e>
+
+    <e lm="musicar" a="prompsit2uoc">
+      <i>musi</i>
+      <par n="ata/car__vblex"/>
+    </e>
+    <e lm="musicar" a="prompsit2uoc">
+      <p>
+        <l>musí</l>
+        <r>musi</r>
+      </p>
+      <par n="atá/car__vblex"/>
+    </e>
+
+<e lm="teorema" a="prompsit2uoc"><i>teorema</i><par n="abismo__n"/></e>
+<e lm="rizoma" a="prompsit2uoc"><i>rizoma</i><par n="abismo__n"/></e>
+<e lm="citoplasma" a="prompsit2uoc"><i>citoplasma</i><par n="abismo__n"/></e>
+<e lm="epigrama" a="prompsit2uoc"><i>epigrama</i><par n="abismo__n"/></e>
+<e lm="magma" a="prompsit2uoc"><i>magma</i><par n="abismo__n"/></e>
+<e lm="morfema" a="prompsit2uoc"><i>morfema</i><par n="abismo__n"/></e>
+<e lm="diadema" a="prompsit2uoc"><i>diadema</i><par n="abeja__n"/></e>
+<e lm="monograma" a="prompsit2uoc"><i>monograma</i><par n="abismo__n"/></e>
+<e lm="lexema" a="prompsit2uoc"><i>lexema</i><par n="abismo__n"/></e>
+<e lm="sintagma" a="prompsit2uoc"><i>sintagma</i><par n="abismo__n"/></e>
+<e lm="cladograma" a="prompsit2uoc"><i>cladograma</i><par n="abismo__n"/></e>
+<e lm="glaucoma" a="prompsit2uoc"><i>glaucoma</i><par n="abismo__n"/></e>
+<e lm="aneurisma" a="prompsit2uoc"><i>aneurisma</i><par n="abismo__n"/></e>
+<e lm="puma" a="prompsit2uoc"><i>puma</i><par n="abismo__n"/></e>
+<e lm="dracma" a="prompsit2uoc"><i>dracma</i><par n="abeja__n"/></e>
+<e lm="mesoderma" a="prompsit2uoc"><i>mesoderma</i><par n="abismo__n"/></e>
+<e lm="ribosoma" a="prompsit2uoc"><i>ribosoma</i><par n="abismo__n"/></e>
+<e lm="microclima" a="prompsit2uoc"><i>microclima</i><par n="abismo__n"/></e>
+<e lm="amalgama" a="prompsit2uoc"><i>amalgama</i><par n="abeja__n"/></e>
+<e lm="pantomima" a="prompsit2uoc"><i>pantomima</i><par n="abeja__n"/></e>
+<e lm="bioma" a="prompsit2uoc"><i>bioma</i><par n="abismo__n"/></e>
+<e lm="axioma" a="prompsit2uoc"><i>axioma</i><par n="abismo__n"/></e>
+<e lm="xilema" a="prompsit2uoc"><i>xilema</i><par n="abismo__n"/></e>
+<e lm="floema" a="prompsit2uoc"><i>floema</i><par n="abismo__n"/></e>
+<e lm="celoma" a="prompsit2uoc"><i>celoma</i><par n="abismo__n"/></e>
+<e lm="melanoma" a="prompsit2uoc"><i>melanoma</i><par n="abismo__n"/></e>
+<e lm="mesénquima" a="prompsit2uoc"><i>mesénquima</i><par n="abismo__n"/></e>
+<e lm="datagrama" a="prompsit2uoc"><i>datagrama</i><par n="abismo__n"/></e>
+<e lm="soma" a="prompsit2uoc"><i>soma</i><par n="abismo__n"/></e>
+<e lm="subsistema" a="prompsit2uoc"><i>subsistema</i><par n="abismo__n"/></e>
+<e lm="linfoma" a="prompsit2uoc"><i>linfoma</i><par n="abismo__n"/></e>
+<e lm="endosperma" a="prompsit2uoc"><i>endosperma</i><par n="abismo__n"/></e>
+<e lm="eczema" a="prompsit2uoc"><i>eczema</i><par n="abismo__n"/></e>
+<e lm="eccema" a="prompsit2uoc"><i>eccema</i><par n="abismo__n"/></e>
+<e lm="protoplasma" a="prompsit2uoc"><i>protoplasma</i><par n="abismo__n"/></e>
+<e lm="estroma" a="prompsit2uoc"><i>estroma</i><par n="abismo__n"/></e>
+<e lm="diastema" a="prompsit2uoc"><i>diastema</i><par n="abismo__n"/></e>
+<e lm="centrosoma" a="prompsit2uoc"><i>centrosoma</i><par n="abismo__n"/></e>
+<e lm="carcinoma" a="prompsit2uoc"><i>carcinoma</i><par n="abismo__n"/></e>
+<e lm="holograma" a="prompsit2uoc"><i>holograma</i><par n="abismo__n"/></e>
+<e lm="enfisema" a="prompsit2uoc"><i>enfisema</i><par n="abismo__n"/></e>
+<e lm="endoderma" a="prompsit2uoc"><i>endoderma</i><par n="abismo__n"/></e>
+<e lm="tracoma" a="prompsit2uoc"><i>tracoma</i><par n="abismo__n"/></e>
+<e lm="monotrema" a="prompsit2uoc"><i>monotrema</i><par n="abismo__n"/></e>
+<e lm="monema" a="prompsit2uoc"><i>monema</i><par n="abismo__n"/></e>
+<e lm="granuloma" a="prompsit2uoc"><i>granuloma</i><par n="abismo__n"/></e>
+<e lm="espectrograma" a="prompsit2uoc"><i>espectrograma</i><par n="abismo__n"/></e>
+<e lm="diorama" a="prompsit2uoc"><i>diorama</i><par n="abismo__n"/></e>
+<e lm="criptograma" a="prompsit2uoc"><i>criptograma</i><par n="abismo__n"/></e>
+<e lm="citostoma" a="prompsit2uoc"><i>citostoma</i><par n="abismo__n"/></e>
+<e lm="pictograma" a="prompsit2uoc"><i>pictograma</i><par n="abismo__n"/></e>
+<e lm="parénquima" a="prompsit2uoc"><i>parénquima</i><par n="abismo__n"/></e>
+<e lm="calima" a="prompsit2uoc"><i>calima</i><par n="abismo__n"/></e>
+<e lm="angiosperma" a="prompsit2uoc"><i>angiosperma</i><par n="abeja__n"/></e>
+<e lm="histograma" a="prompsit2uoc"><i>histograma</i><par n="abismo__n"/></e>
+<e lm="blastoderma" a="prompsit2uoc"><i>blastoderma</i><par n="abismo__n"/></e>
+<e lm="adenoma" a="prompsit2uoc"><i>adenoma</i><par n="abismo__n"/></e>
+<e lm="nucleoplasma" a="prompsit2uoc"><i>nucleoplasma</i><par n="abismo__n"/></e>
+<e lm="nomograma" a="prompsit2uoc"><i>nomograma</i><par n="abismo__n"/></e>
+<e lm="mieloma" a="prompsit2uoc"><i>mieloma</i><par n="abismo__n"/></e>
+<e lm="meristema" a="prompsit2uoc"><i>meristema</i><par n="abismo__n"/></e>
+<e lm="melisma" a="prompsit2uoc"><i>melisma</i><par n="abismo__n"/></e>
+<e lm="isoterma" a="prompsit2uoc"><i>isoterma</i><par n="abeja__n"/></e>
+<e lm="hialoplasma" a="prompsit2uoc"><i>hialoplasma</i><par n="abismo__n"/></e>
+<e lm="gimnosperma" a="prompsit2uoc"><i>gimnosperma</i><par n="abeja__n"/></e>
+<e lm="ectoderma" a="prompsit2uoc"><i>ectoderma</i><par n="abismo__n"/></e>
+<e lm="climograma" a="prompsit2uoc"><i>climograma</i><par n="abismo__n"/></e>
+<e lm="sofisma" a="prompsit2uoc"><i>sofisma</i><par n="abismo__n"/></e>
+<e lm="sarcoplasma" a="prompsit2uoc"><i>sarcoplasma</i><par n="abismo__n"/></e>
+<e lm="quiasma" a="prompsit2uoc"><i>quiasma</i><par n="abismo__n"/></e>
+<e lm="papiloma" a="prompsit2uoc"><i>papiloma</i><par n="abismo__n"/></e>
+<e lm="hibridoma" a="prompsit2uoc"><i>hibridoma</i><par n="abismo__n"/></e>
+<e lm="fonograma" a="prompsit2uoc"><i>fonograma</i><par n="abismo__n"/></e>
+<e lm="colénquima" a="prompsit2uoc"><i>colénquima</i><par n="abismo__n"/></e>
+<e lm="citosoma" a="prompsit2uoc"><i>citosoma</i><par n="abismo__n"/></e>
+<e lm="archifonema" a="prompsit2uoc"><i>archifonema</i><par n="abismo__n"/></e>
+<e lm="acrosoma" a="prompsit2uoc"><i>acrosoma</i><par n="abismo__n"/></e>
+<e lm="teratoma" a="prompsit2uoc"><i>teratoma</i><par n="abismo__n"/></e>
+<e lm="sonograma" a="prompsit2uoc"><i>sonograma</i><par n="abismo__n"/></e>
+<e lm="sismograma" a="prompsit2uoc"><i>sismograma</i><par n="abismo__n"/></e>
+<e lm="servosistema" a="prompsit2uoc"><i>servosistema</i><par n="abismo__n"/></e>
+<e lm="retinoblastoma" a="prompsit2uoc"><i>retinoblastoma</i><par n="abismo__n"/></e>
+<e lm="resma" a="prompsit2uoc"><i>resma</i><par n="abeja__n"/></e>
+<e lm="osteosarcoma" a="prompsit2uoc"><i>osteosarcoma</i><par n="abismo__n"/></e>
+<e lm="mixoma" a="prompsit2uoc"><i>mixoma</i><par n="abismo__n"/></e>
+<e lm="mixedema" a="prompsit2uoc"><i>mixedema</i><par n="abismo__n"/></e>
+<e lm="microsoma" a="prompsit2uoc"><i>microsoma</i><par n="abismo__n"/></e>
+<e lm="miasma" a="prompsit2uoc"><i>miasma</i><par n="abismo__n"/></e>
+<e lm="liposoma" a="prompsit2uoc"><i>liposoma</i><par n="abismo__n"/></e>
+<e lm="lipoma" a="prompsit2uoc"><i>lipoma</i><par n="abismo__n"/></e>
+<e lm="hemograma" a="prompsit2uoc"><i>hemograma</i><par n="abismo__n"/></e>
+<e lm="hemangioma" a="prompsit2uoc"><i>hemangioma</i><par n="abismo__n"/></e>
+<e lm="fibroma" a="prompsit2uoc"><i>fibroma</i><par n="abismo__n"/></e>
+<e lm="feocromocitoma" a="prompsit2uoc"><i>feocromocitoma</i><par n="abismo__n"/></e>
+<e lm="fanerógama" a="prompsit2uoc"><i>fanerógama</i><par n="abeja__n"/></e>
+<e lm="estoma" a="prompsit2uoc"><i>estoma</i><par n="abismo__n"/></e>
+<e lm="esclerénquima" a="prompsit2uoc"><i>esclerénquima</i><par n="abismo__n"/></e>
+<e lm="empiema" a="prompsit2uoc"><i>empiema</i><par n="abismo__n"/></e>
+<e lm="ectoplasma" a="prompsit2uoc"><i>ectoplasma</i><par n="abismo__n"/></e>
+<e lm="docudrama" a="prompsit2uoc"><i>docudrama</i><par n="abismo__n"/></e>
+<e lm="cromatograma" a="prompsit2uoc"><i>cromatograma</i><par n="abismo__n"/></e>
+<e lm="clorénquima" a="prompsit2uoc"><i>clorénquima</i><par n="abismo__n"/></e>
+<e lm="cablegrama" a="prompsit2uoc"><i>cablegrama</i><par n="abismo__n"/></e>
+<e lm="blastema" a="prompsit2uoc"><i>blastema</i><par n="abismo__n"/></e>
+<e lm="autosoma" a="prompsit2uoc"><i>autosoma</i><par n="abismo__n"/></e>
+<e lm="ateroma" a="prompsit2uoc"><i>ateroma</i><par n="abismo__n"/></e>
+<e lm="apotema" a="prompsit2uoc"><i>apotema</i><par n="abismo__n"/></e>
+<e lm="angioma" a="prompsit2uoc"><i>angioma</i><par n="abismo__n"/></e>
+
+
+
 </section>
 
 

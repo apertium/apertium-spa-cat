@@ -1962,34 +1962,37 @@
       <label-item label="INFMODPRNENC"/>
     </label-sequence>
 
- <!--   <label-sequence>
+
+    <label-sequence>
       <label-item label="VMODALINF"/>
-      <label-item label="PREP"/>
+      <label-item label="CNJSUBS"/><!--no incluye 'que' -->
     </label-sequence>
     <label-sequence>
       <label-item label="VMODALGER"/>
-      <label-item label="PREP"/>
+      <label-item label="CNJSUBS"/><!--no incluye 'que' -->
     </label-sequence>
     <label-sequence>
       <label-item label="VMODALPARTPI"/>
-      <label-item label="PREP"/>
+      <label-item label="CNJSUBS"/><!--no incluye 'que' -->
     </label-sequence>
     <label-sequence>
       <label-item label="VMODALPFCI"/>
-      <label-item label="PREP"/>
+      <label-item label="CNJSUBS"/><!--no incluye 'que' -->
     </label-sequence>
     <label-sequence>
       <label-item label="VMODALIPI"/>
-      <label-item label="PREP"/>
+      <label-item label="CNJSUBS"/><!--no incluye 'que' -->
     </label-sequence>
     <label-sequence>
       <label-item label="VMODALSUBJ"/>
-      <label-item label="PREP"/>
+      <label-item label="CNJSUBS"/><!--no incluye 'que' -->
     </label-sequence>
     <label-sequence>
       <label-item label="VMODALIMP"/>
-      <label-item label="PREP"/>
-    </label-sequence> -->
+      <label-item label="CNJSUBS"/><!--no incluye 'que' -->
+    </label-sequence>
+
+
   </forbid>
 
   <enforce-rules>

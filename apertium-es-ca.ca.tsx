@@ -429,7 +429,7 @@
       <label-item label="NOMMF"/>
       <label-item label="NOMMF"/>
     </label-sequence>
-    <label-sequence>
+  <!--  <label-sequence>
       <label-item label="NOMM"/>
       <label-item label="ACRONIMOM"/>
     </label-sequence>
@@ -464,7 +464,7 @@
     <label-sequence>
       <label-item label="NOMMF"/>
       <label-item label="ACRONIMOMF"/>
-    </label-sequence>
+    </label-sequence> -->
     <label-sequence>
       <label-item label="ACRONIMOM"/>
       <label-item label="NOMM"/>
@@ -1577,5 +1577,9 @@
    <prefer tags="vbser.pis.p3.sg"/>
    <prefer tags="vbhaver.pis.p3.sg"/>
    <prefer tags="vbmod.pis.p3.sg"/>
+   <prefer tags="vblex.pri.p3.sg"/>
+   <prefer tags="vbser.pri.p3.sg"/>
+   <prefer tags="vbhaver.pri.p3.sg"/>
+   <prefer tags="vbmod.pri.p3.sg"/>
   </preferences>
 </tagger>
