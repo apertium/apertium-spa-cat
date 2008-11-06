@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="iso-8859-1"?><!-- -*-nxml-*- -->
 <dictionary>
   <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
 
@@ -6114,6 +6114,37 @@
         <p>
           <l>obvi</l>
           <r>obvi<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+  <pardef n="anaer/obi__adj">
+      
+      <e>
+        <p>
+          <l>òbies</l>
+          <r>obi<s n="adj"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>òbia</l>
+          <r>obi<s n="adj"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>obis</l>
+          <r>obi<s n="adj"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>obi</l>
+          <r>obi<s n="adj"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -13807,6 +13838,12 @@
           <r>haver<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
+      <e r="LR">
+        <p>
+          <l>haguem</l>
+          <r>haver<s n="vbhaver"/><s n="prs"/><s n="p1"/><s n="pl"/></r>
+        </p>
+      </e>
       
       <e r="RL">
         <p>
@@ -13840,6 +13877,12 @@
       <e r="LR">
         <p>
           <l>hàgeu</l>
+          <r>haver<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>hagueu</l>
           <r>haver<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
@@ -107339,6 +107382,10 @@
         <i>porc</i>
         <par n="abric__n"/>
       </e>
+      <e lm="porca">
+        <i>por</i>
+        <par n="acústi/ca__n"/>
+      </e>
       
       <e lm="porcellana">
         <i>porcellan</i>
@@ -141438,6 +141485,10 @@
         <i>carnívor</i>
         <par n="senyor__n"/>
      </e>
+     <e lm="carnívor" a="prompsit2adn">
+        <i>carnívor</i>
+        <par n="absolut__adj"/>
+     </e>
 
      <e lm="cartografia" a="prompsit2adn">
         <i>cartografi</i>
@@ -150826,8 +150877,8 @@
         <par n="accessibilitat__n"/>
      </e>
 
-     <e lm="trepijoc" a="prompsit2adn">
-        <i>trepijoc</i>
+     <e lm="tripijoc" a="prompsit2adn">
+        <i>tripijoc</i>
         <par n="abric__n"/>
      </e>
 
@@ -153027,7 +153078,6 @@
 <e lm="gigantisme" a="prompsit2adn"><i>gigantisme</i><par n="abric__n"/></e>
 <e lm="grafisme" a="prompsit2adn"><i>grafisme</i><par n="abric__n"/></e>
 <e lm="hedonisme" a="prompsit2adn"><i>hedonisme</i><par n="abric__n"/></e>
-<e lm="helenisme" a="prompsit2adn"><i>helenisme</i><par n="abric__n"/></e>
 <e lm="hermetisme" a="prompsit2adn"><i>hermetisme</i><par n="abric__n"/></e>
 <e lm="hinduisme" a="prompsit2adn"><i>hinduisme</i><par n="abric__n"/></e>
 <e lm="hiperrealisme" a="prompsit2adn"><i>hiperrealisme</i><par n="abric__n"/></e>
@@ -157520,6 +157570,8 @@
           <e a="prompsit" lm="Lunnis"><i>Lunnis</i><par n="Abad__np"/></e>
           <e a="prompsit" lm="Luz"><i>Luz</i><par n="Abad__np"/></e>
           <e a="prompsit" lm="Mònica"><i>Mònica</i><par n="Abad__np"/></e>
+          <e a="prompsit2uoc" lm="Neus"><i>Neus</i><par n="Abad__np"/></e>
+          <e a="prompsit2uoc" lm="Nieves"><i>Nieves</i><par n="Abad__np"/></e>
           <e a="prompsit" lm="Maccabi"><i>Maccabi</i><par n="Abad__np"/></e>
           <e a="prompsit" lm="Maggie"><i>Maggie</i><par n="Abad__np"/></e>
           <e a="prompsit" lm="Mahfuz"><i>Mahfuz</i><par n="Abad__np"/></e>
@@ -164430,6 +164482,18 @@
 </e>
 
 
+<e a="prompsit2uoc" lm="porc espí">
+  <p>
+    <l>porc<b/>espí</l>
+    <r>porc<b/>espí<s n="n"/><s n="m"/><s n="sg"/></r>
+  </p>  
+</e>
+<e a="prompsit2uoc" lm="puerco espín">
+  <p>
+    <l>porcs<b/>espins</l>
+    <r>porc<b/>espí<s n="n"/><s n="m"/><s n="pl"/></r>
+  </p>  
+</e>
 
 
 
@@ -164870,6 +164934,7 @@
 <e lm="Vives" a="prompsit2uoc"><i>Vives</i><par n="Abad__np"/></e>
 <e lm="Isidor" a="prompsit2uoc"><i>Isidor</i><par n="Abad__np"/></e>
 <e lm="Marí" a="prompsit2uoc"><i>Marí</i><par n="Abad__np"/></e>
+<e lm="Celestina" a="prompsit2uoc"><i>Celestina</i><par n="Abad__np"/></e>
 
 
 
@@ -165750,6 +165815,8 @@
 <e lm="xíling" a="prompsit2uoc"><i>xíling</i><par n="abric__n"/></e>
 <e lm="funicular" a="prompsit2uoc"><i>funicular</i><par n="abric__n"/></e>
 <e lm="herbívor" a="prompsit2uoc"><i>herbívor</i><par n="abric__n"/></e>
+<e lm="herbívor" a="prompsit2uoc"><i>herbívor</i><par n="absolut__adj"/></e>
+
 <e lm="xaman" a="prompsit2uoc"><i>xaman</i><par n="abric__n"/></e>
 <e lm="timbal" a="prompsit2uoc"><i>timbal</i><par n="abric__n"/></e>
 <e lm="priorat" a="prompsit2uoc"><i>priorat</i><par n="abric__n"/></e>
@@ -166510,7 +166577,6 @@
 <e lm="absorciometria" a="prompsit2uoc"><i>absorciometri</i><par n="abell/a__n"/></e>
 
 
-<!--noves 15 oct -->
 
 <e a="prompsit2uoc" lm="full de càlcul">
       <i>full</i>
@@ -166678,6 +166744,1858 @@
 <e lm="ateroma" a="prompsit2uoc"><i>aterom</i><par n="carism/a__n"/></e>
 <e lm="apotema" a="prompsit2uoc"><i>apotem</i><par n="carism/a__n"/></e>
 <e lm="angioma" a="prompsit2uoc"><i>angiom</i><par n="carism/a__n"/></e>
+
+
+<e lm="coco" a="prompsit2uoc"><i>coco</i><par n="abric__n"/></e>
+<e lm="istme" a="prompsit2uoc"><i>istme</i><par n="abric__n"/></e>
+<e lm="bari" a="prompsit2uoc"><i>bari</i><par n="abric__n"/></e>
+<e lm="nap" a="prompsit2uoc"><i>nap</i><par n="abric__n"/></e>
+<e lm="heli" a="prompsit2uoc"><i>heli</i><par n="abric__n"/></e>
+<e lm="bor" a="prompsit2uoc"><i>bor</i><par n="abric__n"/></e>
+<e lm="silicat" a="prompsit2uoc"><i>silicat</i><par n="abric__n"/></e>
+<e lm="collage" a="prompsit2uoc"><i>collage</i><par n="abric__n"/></e>
+<e lm="superconductor" a="prompsit2uoc"><i>superconductor</i><par n="abric__n"/></e>
+<e lm="peduncle" a="prompsit2uoc"><i>peduncle</i><par n="abric__n"/></e>
+<e lm="neurotransmissor" a="prompsit2uoc"><i>neurotransmissor</i><par n="abric__n"/></e>
+<e lm="metanol" a="prompsit2uoc"><i>metanol</i><par n="abric__n"/></e>
+<e lm="flavonoide" a="prompsit2uoc"><i>flavonoide</i><par n="abric__n"/></e>
+<e lm="vanadi" a="prompsit2uoc"><i>vanadi</i><par n="abric__n"/></e>
+<e lm="oxidant" a="prompsit2uoc"><i>oxidant</i><par n="abric__n"/></e>
+<e lm="beril·li" a="prompsit2uoc"><i>beril·li</i><par n="abric__n"/></e>
+<e lm="zen" a="prompsit2uoc"><i>zen</i><par n="abric__n"/></e>
+<e lm="revolt" a="prompsit2uoc"><i>revolt</i><par n="abric__n"/></e>
+<e lm="salm" a="prompsit2uoc"><i>salm</i><par n="abric__n"/></e>
+<e lm="penic" a="prompsit2uoc"><i>penic</i><par n="abric__n"/></e>
+<e lm="catarisme" a="prompsit2uoc"><i>catarisme</i><par n="abric__n"/></e>
+<e lm="argent" a="prompsit2uoc"><i>argent</i><par n="abric__n"/></e>
+<e lm="ocre" a="prompsit2uoc"><i>ocre</i><par n="abric__n"/></e>
+<e lm="tubercle" a="prompsit2uoc"><i>tubercle</i><par n="abric__n"/></e>
+<e lm="solut" a="prompsit2uoc"><i>solut</i><par n="abric__n"/></e>
+<e lm="receptacle" a="prompsit2uoc"><i>receptacle</i><par n="abric__n"/></e>
+<e lm="fluor" a="prompsit2uoc"><i>fluor</i><par n="abric__n"/></e>
+<e lm="rifle" a="prompsit2uoc"><i>rifle</i><par n="abric__n"/></e>
+<e lm="neologisme" a="prompsit2uoc"><i>neologisme</i><par n="abric__n"/></e>
+<e lm="folíol" a="prompsit2uoc"><i>folíol</i><par n="abric__n"/></e>
+<e lm="quelícer" a="prompsit2uoc"><i>quelícer</i><par n="abric__n"/></e>
+<e lm="al·lel" a="prompsit2uoc"><i>al·lel</i><par n="abric__n"/></e>
+<e lm="càtode" a="prompsit2uoc"><i>càtode</i><par n="abric__n"/></e>
+<e lm="tumult" a="prompsit2uoc"><i>tumult</i><par n="abric__n"/></e>
+<e lm="madrigal" a="prompsit2uoc"><i>madrigal</i><par n="abric__n"/></e>
+<e lm="fillastre" a="prompsit2uoc"><i>fillastr</i><par n="addict/e__n"/></e>
+<e lm="fuet" a="prompsit2uoc"><i>fuet</i><par n="abric__n"/></e>
+<e lm="bol" a="prompsit2uoc"><i>bol</i><par n="abric__n"/></e>
+<e lm="trèvol" a="prompsit2uoc"><i>trèvol</i><par n="abric__n"/></e>
+<e lm="rai" r="LR" a="prompsit2uoc"><i>rai</i><par n="abric__n"/></e>
+<e lm="ordi" a="prompsit2uoc"><i>ordi</i><par n="abric__n"/></e>
+<e lm="fluorur" a="prompsit2uoc"><i>fluorur</i><par n="abric__n"/></e>
+<e lm="descriptor" a="prompsit2uoc"><i>descriptor</i><par n="abric__n"/></e>
+<e lm="concoide" a="prompsit2uoc"><i>concoide</i><par n="accessibilitat__n"/></e>
+<e lm="limfòcit" a="prompsit2uoc"><i>limfòcit</i><par n="abric__n"/></e>
+<e lm="teler" a="prompsit2uoc"><i>teler</i><par n="abric__n"/></e>
+<e lm="telefèric" a="prompsit2uoc"><i>telefèric</i><par n="abric__n"/></e>
+<e lm="seleni" a="prompsit2uoc"><i>seleni</i><par n="abric__n"/></e>
+<e lm="panegíric" a="prompsit2uoc"><i>panegíric</i><par n="abric__n"/></e>
+<e lm="fenotip" a="prompsit2uoc"><i>fenotip</i><par n="abric__n"/></e>
+<e lm="clavell" a="prompsit2uoc"><i>clavell</i><par n="abric__n"/></e>
+<e lm="nèctar" a="prompsit2uoc"><i>nèctar</i><par n="abric__n"/></e>
+<e lm="tàrtar" a="prompsit2uoc"><i>tàrtar</i><par n="abric__n"/></e>
+<e lm="iodur" a="prompsit2uoc"><i>iodur</i><par n="abric__n"/></e>
+<e lm="rotor" a="prompsit2uoc"><i>rotor</i><par n="abric__n"/></e>
+<e lm="rom" a="prompsit2uoc"><i>rom</i><par n="abric__n"/></e>
+<e lm="propulsor" a="prompsit2uoc"><i>propulsor</i><par n="abric__n"/></e>
+<e lm="pistil" a="prompsit2uoc"><i>pistil</i><par n="abric__n"/></e>
+<e lm="compressor" a="prompsit2uoc"><i>compressor</i><par n="abric__n"/></e>
+<e lm="àcar" a="prompsit2uoc"><i>àcar</i><par n="abric__n"/></e>
+<e lm="zodíac" a="prompsit2uoc"><i>zodíac</i><par n="abric__n"/></e>
+<e lm="spin" a="prompsit2uoc"><i>spin</i><par n="abric__n"/></e>
+<e lm="carbohidrat" a="prompsit2uoc"><i>carbohidrat</i><par n="abric__n"/></e>
+<e lm="manglar" a="prompsit2uoc"><i>manglar</i><par n="abric__n"/></e>
+<e lm="germani" a="prompsit2uoc"><i>germani</i><par n="abric__n"/></e>
+<e lm="pollancre" a="prompsit2uoc"><i>pollancre</i><par n="abric__n"/></e>
+<e lm="plutoni" a="prompsit2uoc"><i>plutoni</i><par n="abric__n"/></e>
+<e lm="leucòcit" a="prompsit2uoc"><i>leucòcit</i><par n="abric__n"/></e>
+<e lm="boc" a="prompsit2uoc"><i>boc</i><par n="abric__n"/></e>
+<e lm="binomi" a="prompsit2uoc"><i>binomi</i><par n="abric__n"/></e>
+<e lm="arabisme" a="prompsit2uoc"><i>arabisme</i><par n="abric__n"/></e>
+<e lm="protozou" a="prompsit2uoc"><i>protozou</i><par n="abric__n"/></e>
+<e lm="mill" a="prompsit2uoc"><i>mill</i><par n="abric__n"/></e>
+<e lm="dielèctric" a="prompsit2uoc"><i>dielèctric</i><par n="abric__n"/></e>
+<e lm="coulomb" a="prompsit2uoc"><i>coulomb</i><par n="abric__n"/></e>
+<e lm="basalt" a="prompsit2uoc"><i>basalt</i><par n="abric__n"/></e>
+<e lm="karate" a="prompsit2uoc"><i>karate</i><par n="abric__n"/></e>
+<e lm="antílop" a="prompsit2uoc"><i>antílop</i><par n="abric__n"/></e>
+<e lm="trineu" a="prompsit2uoc"><i>trineu</i><par n="abric__n"/></e>
+<e lm="tèrmit" a="prompsit2uoc"><i>tèrmit</i><par n="abric__n"/></e>
+<e lm="reflector" a="prompsit2uoc"><i>reflector</i><par n="abric__n"/></e>
+<e lm="minuet" a="prompsit2uoc"><i>minuet</i><par n="abric__n"/></e>
+<e lm="bismut" a="prompsit2uoc"><i>bismut</i><par n="abric__n"/></e>
+<e lm="amulet" a="prompsit2uoc"><i>amulet</i><par n="abric__n"/></e>
+<e lm="tori" a="prompsit2uoc"><i>tori</i><par n="abric__n"/></e>
+<e lm="plasmidi" a="prompsit2uoc"><i>plasmidi</i><par n="abric__n"/></e>
+<e lm="epitafi" a="prompsit2uoc"><i>epitafi</i><par n="abric__n"/></e>
+<e lm="dipol" a="prompsit2uoc"><i>dipol</i><par n="abric__n"/></e>
+<e lm="casset" a="prompsit2uoc"><i>casset</i><par n="abric__n"/></e>
+<e lm="autoretrat" a="prompsit2uoc"><i>autoretrat</i><par n="abric__n"/></e>
+<e lm="zirconi" a="prompsit2uoc"><i>zirconi</i><par n="abric__n"/></e>
+<e lm="pollet" a="prompsit2uoc"><i>pollet</i><par n="abric__n"/></e>
+<e lm="pòlip" a="prompsit2uoc"><i>pòlip</i><par n="abric__n"/></e>
+<e lm="monòmer" a="prompsit2uoc"><i>monòmer</i><par n="abric__n"/></e>
+<e lm="gingebre" a="prompsit2uoc"><i>gingebre</i><par n="abric__n"/></e>
+<e lm="gal·li" a="prompsit2uoc"><i>gal·li</i><par n="abric__n"/></e>
+<e lm="facsímil" a="prompsit2uoc"><i>facsímil</i><par n="abric__n"/></e>
+<e lm="estuc" a="prompsit2uoc"><i>estuc</i><par n="abric__n"/></e>
+<e lm="bromur" a="prompsit2uoc"><i>bromur</i><par n="abric__n"/></e>
+<e lm="aràcnid" a="prompsit2uoc"><i>aràcnid</i><par n="abric__n"/></e>
+<e lm="prec" a="prompsit2uoc"><i>prec</i><par n="abric__n"/></e>
+<e lm="monticle" a="prompsit2uoc"><i>monticle</i><par n="abric__n"/></e>
+<e lm="arcont" a="prompsit2uoc"><i>arcont</i><par n="abric__n"/></e>
+<e lm="rubidi" a="prompsit2uoc"><i>rubidi</i><par n="abric__n"/></e>
+<e lm="guionet" r="LR" a="prompsit2uoc"><i>guionet</i><par n="abric__n"/></e>
+<e lm="estuari" a="prompsit2uoc"><i>estuari</i><par n="abric__n"/></e>
+<e lm="erm" a="prompsit2uoc"><i>erm</i><par n="abric__n"/></e>
+<e lm="apòstrof" a="prompsit2uoc"><i>apòstrof</i><par n="abric__n"/></e>
+<e lm="amoníac" a="prompsit2uoc"><i>amoníac</i><par n="abric__n"/></e>
+<e lm="triglicèrid" a="prompsit2uoc"><i>triglicèrid</i><par n="abric__n"/></e>
+<e lm="remugant" a="prompsit2uoc"><i>remugant</i><par n="abric__n"/></e>
+<e lm="remugant" a="prompsit2uoc"><i>remugant</i><par n="abdominal__adj"/></e>
+<e lm="guiatge" a="prompsit2uoc"><i>guiatge</i><par n="abric__n"/></e>
+<e lm="eritròcit" a="prompsit2uoc"><i>eritròcit</i><par n="abric__n"/></e>
+<e lm="radioisòtop" a="prompsit2uoc"><i>radioisòtop</i><par n="abric__n"/></e>
+<e lm="julivert" a="prompsit2uoc"><i>julivert</i><par n="abric__n"/></e>
+<e lm="vori" r="LR" a="prompsit2uoc"><i>vori</i><par n="abric__n"/></e>
+<e lm="sàtir" a="prompsit2uoc"><i>sàtir</i><par n="senyor__n"/></e>
+<e lm="polisacàrid" a="prompsit2uoc"><i>polisacàrid</i><par n="abric__n"/></e>
+<e lm="ohm" a="prompsit2uoc"><i>ohm</i><par n="abric__n"/></e>
+<e lm="llim" a="prompsit2uoc"><i>llim</i><par n="abric__n"/></e>
+<e lm="grànul" a="prompsit2uoc"><i>grànul</i><par n="abric__n"/></e>
+<e lm="determinisme" a="prompsit2uoc"><i>determinisme</i><par n="abric__n"/></e>
+<e lm="cromatisme" a="prompsit2uoc"><i>cromatisme</i><par n="abric__n"/></e>
+<e lm="celibat" a="prompsit2uoc"><i>celibat</i><par n="abric__n"/></e>
+<e lm="castor" a="prompsit2uoc"><i>castor</i><par n="abric__n"/></e>
+<e lm="thriller" a="prompsit2uoc"><i>thriller</i><par n="abric__n"/></e>
+<e lm="prolapse" a="prompsit2uoc"><i>prolapse</i><par n="abric__n"/></e>
+<e lm="nòdul" a="prompsit2uoc"><i>nòdul</i><par n="abric__n"/></e>
+<e lm="garrot" a="prompsit2uoc"><i>garrot</i><par n="abric__n"/></e>
+<e lm="fonògraf" a="prompsit2uoc"><i>fonògraf</i><par n="abric__n"/></e>
+<e lm="deuteri" a="prompsit2uoc"><i>deuteri</i><par n="abric__n"/></e>
+<e lm="avet" a="prompsit2uoc"><i>avet</i><par n="abric__n"/></e>
+<e lm="armistici" a="prompsit2uoc"><i>armistici</i><par n="abric__n"/></e>
+<e lm="subjuntiu" a="prompsit2uoc"><i>subjuntiu</i><par n="abric__n"/></e>
+<e lm="sacrilegi" a="prompsit2uoc"><i>sacrilegi</i><par n="abric__n"/></e>
+<e lm="quadrilàter" a="prompsit2uoc"><i>quadrilàter</i><par n="abric__n"/></e>
+<e lm="insectívor" a="prompsit2uoc"><i>insectívor</i><par n="abric__n"/></e>
+<e lm="insectívor" a="prompsit2uoc"><i>insectívor</i><par n="absolut__adj"/></e>
+<e lm="faune" a="prompsit2uoc"><i>faune</i><par n="abric__n"/></e>
+<e lm="bonsai" a="prompsit2uoc"><i>bonsai</i><par n="abric__n"/></e>
+<e lm="arxiduc" a="prompsit2uoc"><i>arxiduc</i><par n="abric__n"/></e>
+<e lm="alberg" a="prompsit2uoc"><i>alberg</i><par n="abric__n"/></e>
+<e lm="ungulat" a="prompsit2uoc"><i>ungula</i><par n="triparti/t__adj"/></e>
+<e lm="tràiler" a="prompsit2uoc"><i>tràiler</i><par n="abric__n"/></e>
+<e lm="premolar" a="prompsit2uoc"><i>premolar</i><par n="abric__n"/></e>
+<e lm="positivisme" a="prompsit2uoc"><i>positivisme</i><par n="abric__n"/></e>
+<e lm="paral·lelogram" a="prompsit2uoc"><i>paral·lelogram</i><par n="abric__n"/></e>
+<e lm="monosacàrid" a="prompsit2uoc"><i>monosacàrid</i><par n="abric__n"/></e>
+<e lm="electroimant" a="prompsit2uoc"><i>electroimant</i><par n="abric__n"/></e>
+<e lm="dirigible" a="prompsit2uoc"><i>dirigible</i><par n="abric__n"/></e>
+<e lm="zigot" a="prompsit2uoc"><i>zigot</i><par n="abric__n"/></e>
+<e lm="sèsam" a="prompsit2uoc"><i>sèsam</i><par n="abric__n"/></e>
+<e lm="menhir" a="prompsit2uoc"><i>menhir</i><par n="abric__n"/></e>
+<e lm="plagi" a="prompsit2uoc"><i>plagi</i><par n="abric__n"/></e>
+<e lm="bulevard" a="prompsit2uoc"><i>bulevard</i><par n="abric__n"/></e>
+<e lm="baricentre" a="prompsit2uoc"><i>baricentre</i><par n="abric__n"/></e>
+<e lm="antídot" a="prompsit2uoc"><i>antídot</i><par n="abric__n"/></e>
+<e lm="àngstrom" a="prompsit2uoc"><i>àngstrom</i><par n="abric__n"/></e>
+<e lm="submarinisme" a="prompsit2uoc"><i>submarinisme</i><par n="abric__n"/></e>
+<e lm="joule" a="prompsit2uoc"><i>joule</i><par n="abric__n"/></e>
+<e lm="visor" a="prompsit2uoc"><i>visor</i><par n="abric__n"/></e>
+<e lm="sionisme" a="prompsit2uoc"><i>sionisme</i><par n="abric__n"/></e>
+<e lm="filat" a="prompsit2uoc"><i>filat</i><par n="abric__n"/></e>
+<e lm="esquer" a="prompsit2uoc"><i>esquer</i><par n="abric__n"/></e>
+<e lm="zoom" a="prompsit2uoc"><i>zoom</i><par n="abric__n"/></e>
+<e lm="zombi" a="prompsit2uoc"><i>zombi</i><par n="abric__n"/></e>
+<e lm="tèpal" a="prompsit2uoc"><i>tèpal</i><par n="abric__n"/></e>
+<e lm="sàcul" a="prompsit2uoc"><i>sàcul</i><par n="abric__n"/></e>
+<e lm="mul" a="prompsit2uoc"><i>mul</i><par n="senyor__n"/></e>
+<e lm="herald" a="prompsit2uoc"><i>herald</i><par n="abric__n"/></e>
+<e lm="genotip" a="prompsit2uoc"><i>genotip</i><par n="abric__n"/></e>
+<e lm="fonoll" a="prompsit2uoc"><i>fonoll</i><par n="abric__n"/></e>
+<e lm="electromagnetisme" a="prompsit2uoc"><i>electromagnetisme</i><par n="abric__n"/></e>
+<e lm="pòquer" a="prompsit2uoc"><i>pòquer</i><par n="abric__n"/></e>
+<e lm="miriàpode" a="prompsit2uoc"><i>miriàpode</i><par n="abric__n"/></e>
+<e lm="dípter" a="prompsit2uoc"><i>dípter</i><par n="abric__n"/></e>
+<e lm="batec" a="prompsit2uoc"><i>batec</i><par n="abric__n"/></e>
+<e lm="atri" a="prompsit2uoc"><i>atri</i><par n="abric__n"/></e>
+<e lm="arcàngel" a="prompsit2uoc"><i>arcàngel</i><par n="abric__n"/></e>
+<e lm="reumatisme" a="prompsit2uoc"><i>reumatisme</i><par n="abric__n"/></e>
+<e lm="rectorat" a="prompsit2uoc"><i>rectorat</i><par n="abric__n"/></e>
+<e lm="melic" a="prompsit2uoc"><i>melic</i><par n="abric__n"/></e>
+<e lm="malt" a="prompsit2uoc"><i>malt</i><par n="abric__n"/></e>
+<e lm="latifundi" a="prompsit2uoc"><i>latifundi</i><par n="abric__n"/></e>
+<e lm="gland" a="prompsit2uoc"><i>gland</i><par n="abric__n"/></e>
+<e lm="espot" a="prompsit2uoc"><i>espot</i><par n="abric__n"/></e>
+<e lm="anticoagulant" a="prompsit2uoc"><i>anticoagulant</i><par n="abric__n"/></e>
+<e lm="quàdruple" a="prompsit2uoc"><i>quàdruple</i><par n="abric__n"/></e>
+<e lm="nàrtex" a="prompsit2uoc"><i>nàrtex</i><par n="abric__n"/></e>
+<e lm="condomini" a="prompsit2uoc"><i>condomini</i><par n="abric__n"/></e>
+<e lm="cesi" a="prompsit2uoc"><i>cesi</i><par n="abric__n"/></e>
+<e lm="artiodàctil" a="prompsit2uoc"><i>artiodàctil</i><par n="abric__n"/></e>
+<e lm="rondó" a="prompsit2uoc"><i>rondó</i><par n="abric__n"/></e>
+<e lm="pinar" r="LR" a="prompsit2uoc"><i>pinar</i><par n="abric__n"/></e>
+<e lm="multiplexor" a="prompsit2uoc"><i>multiplexor</i><par n="abric__n"/></e>
+<e lm="locatiu" a="prompsit2uoc"><i>locatiu</i><par n="abric__n"/></e>
+<e lm="hipopòtam" a="prompsit2uoc"><i>hipopòtam</i><par n="abric__n"/></e>
+<e lm="hexàgon" a="prompsit2uoc"><i>hexàgon</i><par n="abric__n"/></e>
+<e lm="griu" r="LR" a="prompsit2uoc"><i>griu</i><par n="abric__n"/></e>
+<e lm="cerebel" a="prompsit2uoc"><i>cerebel</i><par n="abric__n"/></e>
+<e lm="alabastre" a="prompsit2uoc"><i>alabastre</i><par n="abric__n"/></e>
+<e lm="trapezi" a="prompsit2uoc"><i>trapezi</i><par n="abric__n"/></e>
+<e lm="tic" a="prompsit2uoc"><i>tic</i><par n="abric__n"/></e>
+<e lm="tell" a="prompsit2uoc"><i>tell</i><par n="abric__n"/></e>
+<e lm="sílice" a="prompsit2uoc"><i>sílice</i><par n="abric__n"/></e>
+<e lm="jaguar" a="prompsit2uoc"><i>jaguar</i><par n="abric__n"/></e>
+<e lm="fel" a="prompsit2uoc"><i>fel</i><par n="abric__n"/></e>
+<e lm="èter" a="prompsit2uoc"><i>èter</i><par n="abric__n"/></e>
+<e lm="epiteli" a="prompsit2uoc"><i>epiteli</i><par n="abric__n"/></e>
+<e lm="dualisme" a="prompsit2uoc"><i>dualisme</i><par n="abric__n"/></e>
+<e lm="dom" a="prompsit2uoc"><i>dom</i><par n="abric__n"/></e>
+<e lm="còlon" a="prompsit2uoc"><i>còlon</i><par n="abric__n"/></e>
+<e lm="artell" a="prompsit2uoc"><i>artell</i><par n="abric__n"/></e>
+<e lm="sil·logisme" a="prompsit2uoc"><i>sil·logisme</i><par n="abric__n"/></e>
+<e lm="micronucli" a="prompsit2uoc"><i>micronucli</i><par n="abric__n"/></e>
+<e lm="manillar" a="prompsit2uoc"><i>manillar</i><par n="abric__n"/></e>
+<e lm="himenòpter" a="prompsit2uoc"><i>himenòpter</i><par n="abric__n"/></e>
+<e lm="fullatge" a="prompsit2uoc"><i>fullatge</i><par n="abric__n"/></e>
+<e lm="deflector" a="prompsit2uoc"><i>deflector</i><par n="abric__n"/></e>
+<e lm="còlic" a="prompsit2uoc"><i>còlic</i><par n="abric__n"/></e>
+<e lm="caníbal" a="prompsit2uoc"><i>caníbal</i><par n="acompanyant__n"/></e>
+<e lm="búnquer" a="prompsit2uoc"><i>búnquer</i><par n="abric__n"/></e>
+<e lm="fosfolípid" a="prompsit2uoc"><i>fosfolípid</i><par n="abric__n"/></e>
+<e lm="cloroform" a="prompsit2uoc"><i>cloroform</i><par n="abric__n"/></e>
+<e lm="ciliat" a="prompsit2uoc"><i>ciliat</i><par n="abric__n"/></e>
+<e lm="sàbat" a="prompsit2uoc"><i>sàbat</i><par n="abric__n"/></e>
+<e lm="polimorfisme" a="prompsit2uoc"><i>polimorfisme</i><par n="abric__n"/></e>
+<e lm="criquet" a="prompsit2uoc"><i>criquet</i><par n="abric__n"/></e>
+<e lm="capoll" a="prompsit2uoc"><i>capoll</i><par n="abric__n"/></e>
+<e lm="almanac" a="prompsit2uoc"><i>almanac</i><par n="abric__n"/></e>
+<e lm="xamanisme" a="prompsit2uoc"><i>xamanisme</i><par n="abric__n"/></e>
+<e lm="sextet" a="prompsit2uoc"><i>sextet</i><par n="abric__n"/></e>
+<e lm="reni" a="prompsit2uoc"><i>reni</i><par n="abric__n"/></e>
+<e lm="niobi" a="prompsit2uoc"><i>niobi</i><par n="abric__n"/></e>
+<e lm="nematode" a="prompsit2uoc"><i>nematode</i><par n="abric__n"/></e>
+<e lm="monomi" a="prompsit2uoc"><i>monomi</i><par n="abric__n"/></e>
+<e lm="espín" r="LR" a="prompsit2uoc"><i>espín</i><par n="abric__n"/></e>
+<e lm="aldehid" a="prompsit2uoc"><i>aldehid</i><par n="abric__n"/></e>
+<e lm="albir" a="prompsit2uoc"><i>albir</i><par n="abric__n"/></e>
+<e lm="vulcanisme" a="prompsit2uoc"><i>vulcanisme</i><par n="abric__n"/></e>
+<e lm="turbant" a="prompsit2uoc"><i>turbant</i><par n="abric__n"/></e>
+<e lm="jade" a="prompsit2uoc"><i>jade</i><par n="abric__n"/></e>
+<e lm="interregne" a="prompsit2uoc"><i>interregne</i><par n="abric__n"/></e>
+<e lm="difosfat" a="prompsit2uoc"><i>difosfat</i><par n="abric__n"/></e>
+<e lm="canyar" a="prompsit2uoc"><i>canyar</i><par n="abric__n"/></e>
+<e lm="ambre" a="prompsit2uoc"><i>ambre</i><par n="abric__n"/></e>
+<e lm="sincretisme" a="prompsit2uoc"><i>sincretisme</i><par n="abric__n"/></e>
+<e lm="pedicel" a="prompsit2uoc"><i>pedicel</i><par n="abric__n"/></e>
+<e lm="nomadisme" a="prompsit2uoc"><i>nomadisme</i><par n="abric__n"/></e>
+<e lm="narcòtic" a="prompsit2uoc"><i>narcòtic</i><par n="abric__n"/></e>
+<e lm="hemorroide" a="prompsit2uoc"><i>hemorroide</i><par n="abric__n"/></e>
+<e lm="fol·licle" a="prompsit2uoc"><i>fol·licle</i><par n="abric__n"/></e>
+<e lm="espinac" a="prompsit2uoc"><i>espinac</i><par n="abric__n"/></e>
+<e lm="baladre" a="prompsit2uoc"><i>baladre</i><par n="abric__n"/></e>
+<e lm="api" a="prompsit2uoc"><i>api</i><par n="abric__n"/></e>
+<e lm="anèl·lid" a="prompsit2uoc"><i>anèl·lid</i><par n="abric__n"/></e>
+<e lm="tel·luri" a="prompsit2uoc"><i>tel·luri</i><par n="abric__n"/></e>
+<e lm="superhome" a="prompsit2uoc"><i>superhome</i><par n="abric__n"/></e>
+<e lm="placebo" a="prompsit2uoc"><i>placebo</i><par n="abric__n"/></e>
+<e lm="perissodàctil" a="prompsit2uoc"><i>perissodàctil</i><par n="abric__n"/></e>
+<e lm="paral·lelepípede" a="prompsit2uoc"><i>paral·lelepípede</i><par n="abric__n"/></e>
+<e lm="noticiari" a="prompsit2uoc"><i>noticiari</i><par n="abric__n"/></e>
+<e lm="newton" a="prompsit2uoc"><i>newton</i><par n="abric__n"/></e>
+<e lm="nabiu" a="prompsit2uoc"><i>nabiu</i><par n="abric__n"/></e>
+<e lm="isomorfisme" a="prompsit2uoc"><i>isomorfisme</i><par n="abric__n"/></e>
+<e lm="homomorfisme" a="prompsit2uoc"><i>homomorfisme</i><par n="abric__n"/></e>
+<e lm="gnom" a="prompsit2uoc"><i>gnom</i><par n="abric__n"/></e>
+<e lm="drift" a="prompsit2uoc"><i>drift</i><par n="abric__n"/></e>
+<e lm="còndil" a="prompsit2uoc"><i>còndil</i><par n="abric__n"/></e>
+<e lm="arrossar" a="prompsit2uoc"><i>arrossar</i><par n="abric__n"/></e>
+<e lm="turbocompressor" a="prompsit2uoc"><i>turbocompressor</i><par n="abric__n"/></e>
+<e lm="triti" a="prompsit2uoc"><i>triti</i><par n="abric__n"/></e>
+<e lm="quirat" a="prompsit2uoc"><i>quirat</i><par n="abric__n"/></e>
+<e lm="polipèptid" a="prompsit2uoc"><i>polipèptid</i><par n="abric__n"/></e>
+<e lm="cullerot" a="prompsit2uoc"><i>cullerot</i><par n="abric__n"/></e>
+<e lm="burg" a="prompsit2uoc"><i>burg</i><par n="abric__n"/></e>
+<e lm="avellaner" a="prompsit2uoc"><i>avellaner</i><par n="abric__n"/></e>
+<e lm="albedo" a="prompsit2uoc"><i>albedo</i><par n="abric__n"/></e>
+<e lm="sapròfit" a="prompsit2uoc"><i>sapròfit</i><par n="abric__n"/></e>
+<e lm="quàntum" a="prompsit2uoc"><i>quàntum</i><par n="abric__n"/></e>
+<e lm="paller" a="prompsit2uoc"><i>paller</i><par n="abric__n"/></e>
+<e lm="nariu" a="prompsit2uoc"><i>nariu</i><par n="abric__n"/></e>
+<e lm="mostratge" r="LR" a="prompsit2uoc"><i>mostratge</i><par n="abric__n"/></e>
+<e lm="mestral" a="prompsit2uoc"><i>mestral</i><par n="abric__n"/></e>
+<e lm="hipòdrom" a="prompsit2uoc"><i>hipòdrom</i><par n="abric__n"/></e>
+<e lm="harem" a="prompsit2uoc"><i>harem</i><par n="abric__n"/></e>
+<e lm="gallet" a="prompsit2uoc"><i>gallet</i><par n="abric__n"/></e>
+<e lm="fideu" a="prompsit2uoc"><i>fideu</i><par n="abric__n"/></e>
+<e lm="electròlit" a="prompsit2uoc"><i>electròlit</i><par n="abric__n"/></e>
+<e lm="eixam" a="prompsit2uoc"><i>eixam</i><par n="abric__n"/></e>
+<e lm="egiptòleg" a="prompsit2uoc"><i>egiptòl</i><par n="biòl/eg__n"/></e>
+<e lm="ceri" a="prompsit2uoc"><i>ceri</i><par n="abric__n"/></e>
+<e lm="campaner" a="prompsit2uoc"><i>campaner</i><par n="senyor__n"/></e>
+<e lm="vacúol" a="prompsit2uoc"><i>vacúol</i><par n="abric__n"/></e>
+<e lm="tornado" a="prompsit2uoc"><i>tornado</i><par n="abric__n"/></e>
+<e lm="termoparell" a="prompsit2uoc"><i>termoparell</i><par n="abric__n"/></e>
+<e lm="sextant" a="prompsit2uoc"><i>sextant</i><par n="abric__n"/></e>
+<e lm="pet" a="prompsit2uoc"><i>pet</i><par n="abric__n"/></e>
+<e lm="ogre" a="prompsit2uoc"><i>ogre</i><par n="abric__n"/></e>
+<e lm="luteci" a="prompsit2uoc"><i>luteci</i><par n="abric__n"/></e>
+<e lm="gramòfon" a="prompsit2uoc"><i>gramòfon</i><par n="abric__n"/></e>
+<e lm="gerundi" a="prompsit2uoc"><i>gerundi</i><par n="abric__n"/></e>
+<e lm="formaldehid" a="prompsit2uoc"><i>formaldehid</i><par n="abric__n"/></e>
+<e lm="esfínter" a="prompsit2uoc"><i>esfínter</i><par n="abric__n"/></e>
+<e lm="equinoderm" a="prompsit2uoc"><i>equinoderm</i><par n="abric__n"/></e>
+<e lm="epígon" a="prompsit2uoc"><i>epígon</i><par n="abric__n"/></e>
+<e lm="despit" a="prompsit2uoc"><i>despit</i><par n="abric__n"/></e>
+<e lm="decalatge" a="prompsit2uoc"><i>decalatge</i><par n="abric__n"/></e>
+<e lm="bronqui" a="prompsit2uoc"><i>bronqui</i><par n="abric__n"/></e>
+<e lm="àpex" a="prompsit2uoc"><i>àpex</i><par n="abric__n"/></e>
+<e lm="xarrup" a="prompsit2uoc"><i>xarrup</i><par n="abric__n"/></e>
+<e lm="septe" r="LR" a="prompsit2uoc"><i>septe</i><par n="abric__n"/></e>
+<e lm="matollar" r="LR" a="prompsit2uoc"><i>matollar</i><par n="abric__n"/></e>
+<e lm="fenol" a="prompsit2uoc"><i>fenol</i><par n="abric__n"/></e>
+<e lm="clavicordi" a="prompsit2uoc"><i>clavicordi</i><par n="abric__n"/></e>
+<e lm="asterisme" a="prompsit2uoc"><i>asterisme</i><par n="abric__n"/></e>
+<e lm="ànode" a="prompsit2uoc"><i>ànode</i><par n="abric__n"/></e>
+<e lm="ungüent" a="prompsit2uoc"><i>ungüent</i><par n="abric__n"/></e>
+<e lm="tàntal" a="prompsit2uoc"><i>tàntal</i><par n="abric__n"/></e>
+<e lm="superíndex" a="prompsit2uoc"><i>superíndex</i><par n="abric__n"/></e>
+<e lm="planell" a="prompsit2uoc"><i>planell</i><par n="abric__n"/></e>
+<e lm="pedipalp" a="prompsit2uoc"><i>pedipalp</i><par n="abric__n"/></e>
+<e lm="neoliberalisme" a="prompsit2uoc"><i>neoliberalisme</i><par n="abric__n"/></e>
+<e lm="farad" a="prompsit2uoc"><i>farad</i><par n="abric__n"/></e>
+<e lm="el·lipsoide" a="prompsit2uoc"><i>el·lipsoide</i><par n="abric__n"/></e>
+<e lm="carp" a="prompsit2uoc"><i>carp</i><par n="abric__n"/></e>
+<e lm="tercet" a="prompsit2uoc"><i>tercet</i><par n="abric__n"/></e>
+<e lm="salconduit" a="prompsit2uoc"><i>salconduit</i><par n="abric__n"/></e>
+<e lm="rescripte" a="prompsit2uoc"><i>rescripte</i><par n="abric__n"/></e>
+<e lm="rèquiem" a="prompsit2uoc"><i>rèquiem</i><par n="abric__n"/></e>
+<e lm="polígam" a="prompsit2uoc"><i>polígam</i><par n="abric__n"/></e>
+<e lm="pogrom" a="prompsit2uoc"><i>pogrom</i><par n="abric__n"/></e>
+<e lm="palp" r="LR" a="prompsit2uoc"><i>palp</i><par n="abric__n"/></e>
+<e lm="octet" a="prompsit2uoc"><i>octet</i><par n="abric__n"/></e>
+<e lm="nihilisme" a="prompsit2uoc"><i>nihilisme</i><par n="abric__n"/></e>
+<e lm="morse" a="prompsit2uoc"><i>morse</i><par n="abric__n"/></e>
+<e lm="mil·lisegon" a="prompsit2uoc"><i>mil·lisegon</i><par n="abric__n"/></e>
+<e lm="jacobinisme" a="prompsit2uoc"><i>jacobinisme</i><par n="abric__n"/></e>
+<e lm="ianqui" a="prompsit2uoc"><i>ianqui</i><par n="acompanyant__n"/></e>
+<e lm="fetitxisme" a="prompsit2uoc"><i>fetitxisme</i><par n="abric__n"/></e>
+<e lm="epítet" a="prompsit2uoc"><i>epítet</i><par n="abric__n"/></e>
+<e lm="coiot" a="prompsit2uoc"><i>coiot</i><par n="abric__n"/></e>
+<e lm="cadenat" a="prompsit2uoc"><i>cadenat</i><par n="abric__n"/></e>
+<e lm="arcaisme" a="prompsit2uoc"><i>arcaisme</i><par n="abric__n"/></e>
+<e lm="pilotatge" a="prompsit2uoc"><i>pilotatge</i><par n="abric__n"/></e>
+<e lm="pericarpi" a="prompsit2uoc"><i>pericarpi</i><par n="abric__n"/></e>
+<e lm="penell" a="prompsit2uoc"><i>penell</i><par n="abric__n"/></e>
+<e lm="orangutan" a="prompsit2uoc"><i>orangutan</i><par n="abric__n"/></e>
+<e lm="motel" a="prompsit2uoc"><i>motel</i><par n="abric__n"/></e>
+<e lm="hiat" a="prompsit2uoc"><i>hiat</i><par n="abric__n"/></e>
+<e lm="harmònium" a="prompsit2uoc"><i>harmònium</i><par n="abric__n"/></e>
+<e lm="fat" a="prompsit2uoc"><i>fat</i><par n="abric__n"/></e>
+<e lm="decasíl·lab" a="prompsit2uoc"><i>decasíl·lab</i><par n="abric__n"/></e>
+<e lm="catèter" a="prompsit2uoc"><i>catèter</i><par n="abric__n"/></e>
+<e lm="caqui" a="prompsit2uoc"><i>caqui</i><par n="abric__n"/></e>
+<e lm="amoni" a="prompsit2uoc"><i>amoni</i><par n="abric__n"/></e>
+<e lm="aforisme" a="prompsit2uoc"><i>aforisme</i><par n="abric__n"/></e>
+<e lm="vocatiu" a="prompsit2uoc"><i>vocatiu</i><par n="abric__n"/></e>
+<e lm="verat" a="prompsit2uoc"><i>verat</i><par n="abric__n"/></e>
+<e lm="safir" a="prompsit2uoc"><i>safir</i><par n="abric__n"/></e>
+<e lm="pal·ladi" a="prompsit2uoc"><i>pal·ladi</i><par n="abric__n"/></e>
+<e lm="màser" a="prompsit2uoc"><i>màser</i><par n="abric__n"/></e>
+<e lm="espectròmetre" a="prompsit2uoc"><i>espectròmetre</i><par n="abric__n"/></e>
+<e lm="díptic" a="prompsit2uoc"><i>díptic</i><par n="abric__n"/></e>
+<e lm="cigonyal" a="prompsit2uoc"><i>cigonyal</i><par n="abric__n"/></e>
+<e lm="catabolisme" a="prompsit2uoc"><i>catabolisme</i><par n="abric__n"/></e>
+<e lm="carreter" a="prompsit2uoc"><i>carreter</i><par n="abric__n"/></e>
+<e lm="caiac" a="prompsit2uoc"><i>caiac</i><par n="abric__n"/></e>
+<e lm="bobsleigh" a="prompsit2uoc"><i>bobsleigh</i><par n="abric__n"/></e>
+<e lm="biòtop" a="prompsit2uoc"><i>biòtop</i><par n="abric__n"/></e>
+<e lm="bable" a="prompsit2uoc"><i>bable</i><par n="abric__n"/></e>
+<e lm="apòcope" a="prompsit2uoc"><i>apòcope</i><par n="abric__n"/></e>
+<e lm="al·lòfon" a="prompsit2uoc"><i>al·lòfon</i><par n="abric__n"/></e>
+<e lm="xilòfon" a="prompsit2uoc"><i>xilòfon</i><par n="abric__n"/></e>
+<e lm="xacal" a="prompsit2uoc"><i>xacal</i><par n="abric__n"/></e>
+<e lm="trocànter" a="prompsit2uoc"><i>trocànter</i><par n="abric__n"/></e>
+<e lm="tòtem" a="prompsit2uoc"><i>tòtem</i><par n="abric__n"/></e>
+<e lm="sadomasoquisme" a="prompsit2uoc"><i>sadomasoquisme</i><par n="abric__n"/></e>
+<e lm="regicidi" a="prompsit2uoc"><i>regicidi</i><par n="abric__n"/></e>
+<e lm="politeisme" a="prompsit2uoc"><i>politeisme</i><par n="abric__n"/></e>
+<e lm="microsegon" a="prompsit2uoc"><i>microsegon</i><par n="abric__n"/></e>
+<e lm="lignit" a="prompsit2uoc"><i>lignit</i><par n="abric__n"/></e>
+<e lm="feltre" a="prompsit2uoc"><i>feltre</i><par n="abric__n"/></e>
+<e lm="endomorfisme" a="prompsit2uoc"><i>endomorfisme</i><par n="abric__n"/></e>
+<e lm="dímer" a="prompsit2uoc"><i>dímer</i><par n="abric__n"/></e>
+<e lm="cromàtide" a="prompsit2uoc"><i>cromàtide</i><par n="accessibilitat__n"/></e>
+<e lm="col·loide" a="prompsit2uoc"><i>col·loide</i><par n="abric__n"/></e>
+<e lm="calc" a="prompsit2uoc"><i>calc</i><par n="abric__n"/></e>
+<e lm="arseniat" a="prompsit2uoc"><i>arseniat</i><par n="abric__n"/></e>
+<e lm="sentimentalisme" a="prompsit2uoc"><i>sentimentalisme</i><par n="abric__n"/></e>
+<e lm="ruteni" a="prompsit2uoc"><i>ruteni</i><par n="abric__n"/></e>
+<e lm="revisionisme" a="prompsit2uoc"><i>revisionisme</i><par n="abric__n"/></e>
+<e lm="probòscide" a="prompsit2uoc"><i>probòscide</i><par n="abric__n"/></e>
+<e lm="políedre" a="prompsit2uoc"><i>políedre</i><par n="abric__n"/></e>
+<e lm="mutualisme" a="prompsit2uoc"><i>mutualisme</i><par n="abric__n"/></e>
+<e lm="metabòlit" a="prompsit2uoc"><i>metabòlit</i><par n="abric__n"/></e>
+<e lm="isòmer" a="prompsit2uoc"><i>isòmer</i><par n="abric__n"/></e>
+<e lm="granader" a="prompsit2uoc"><i>granader</i><par n="senyor__n"/></e>
+<e lm="funcionalisme" a="prompsit2uoc"><i>funcionalisme</i><par n="abric__n"/></e>
+<e lm="betum" a="prompsit2uoc"><i>betum</i><par n="abric__n"/></e>
+<e lm="atzucac" a="prompsit2uoc"><i>atzucac</i><par n="abric__n"/></e>
+<e lm="ablatiu" a="prompsit2uoc"><i>ablatiu</i><par n="abric__n"/></e>
+<e lm="usdefruit" a="prompsit2uoc"><i>usdefruit</i><par n="abric__n"/></e>
+<e lm="sotavent" a="prompsit2uoc"><i>sotavent</i><par n="abric__n"/></e>
+<e lm="saxofon" r="LR" a="prompsit2uoc"><i>saxofon</i><par n="abric__n"/></e>
+<e lm="repic" a="prompsit2uoc"><i>repic</i><par n="abric__n"/></e>
+<e lm="repel·lent" a="prompsit2uoc"><i>repel·lent</i><par n="abdominal__adj"/></e>
+<e lm="proconsolat" a="prompsit2uoc"><i>proconsolat</i><par n="abric__n"/></e>
+<e lm="potenciòmetre" a="prompsit2uoc"><i>potenciòmetre</i><par n="abric__n"/></e>
+<e lm="neguit" a="prompsit2uoc"><i>neguit</i><par n="abric__n"/></e>
+<e lm="monòcit" a="prompsit2uoc"><i>monòcit</i><par n="abric__n"/></e>
+<e lm="megabit" a="prompsit2uoc"><i>megabit</i><par n="abric__n"/></e>
+<e lm="lantànid" a="prompsit2uoc"><i>lantànid</i><par n="abric__n"/></e>
+<e lm="ili" a="prompsit2uoc"><i>ili</i><par n="abric__n"/></e>
+<e lm="guèiser" a="prompsit2uoc"><i>guèiser</i><par n="abric__n"/></e>
+<e lm="espiracle" a="prompsit2uoc"><i>espiracle</i><par n="abric__n"/></e>
+<e lm="condol" a="prompsit2uoc"><i>condol</i><par n="abric__n"/></e>
+<e lm="clamor" r="LR" a="prompsit2uoc"><i>clamor</i><par n="abric__n"/></e>
+<e lm="apartheid" a="prompsit2uoc"><i>apartheid</i><par n="abric__n"/></e>
+<e lm="antihistamínic" a="prompsit2uoc"><i>antihistamíni</i><par n="acadèmi/c__adj"/></e>
+<e lm="antidepressiu" a="prompsit2uoc"><i>antidepressi</i><par n="abusi/u__adj"/></e>
+<e lm="acetat" a="prompsit2uoc"><i>acetat</i><par n="abric__n"/></e>
+<e lm="xarleston" a="prompsit2uoc"><i>xarleston</i><par n="abric__n"/></e>
+<e lm="til·ler" a="prompsit2uoc"><i>til·ler</i><par n="abric__n"/></e>
+<e lm="sumand" a="prompsit2uoc"><i>sumand</i><par n="abric__n"/></e>
+<e lm="sincronisme" a="prompsit2uoc"><i>sincronisme</i><par n="abric__n"/></e>
+<e lm="sidecar" a="prompsit2uoc"><i>sidecar</i><par n="abric__n"/></e>
+<e lm="samari" a="prompsit2uoc"><i>samari</i><par n="abric__n"/></e>
+<e lm="plexe" a="prompsit2uoc"><i>plexe</i><par n="abric__n"/></e>
+<e lm="perjuri" a="prompsit2uoc"><i>perjuri</i><par n="abric__n"/></e>
+<e lm="llec" a="prompsit2uoc"><i>lle</i><par n="ce/c__adj"/></e>
+<e lm="kamikaze" a="prompsit2uoc"><i>kamikaze</i><par n="abric__n"/></e>
+<e lm="holmi" a="prompsit2uoc"><i>holmi</i><par n="abric__n"/></e>
+<e lm="hidrur" a="prompsit2uoc"><i>hidrur</i><par n="abric__n"/></e>
+<e lm="herbassar" a="prompsit2uoc"><i>herbassar</i><par n="abric__n"/></e>
+<e lm="gerani" a="prompsit2uoc"><i>gerani</i><par n="abric__n"/></e>
+<e lm="galiot" a="prompsit2uoc"><i>galiot</i><par n="abric__n"/></e>
+<e lm="estereoradiant" a="prompsit2uoc"><i>estereoradiant</i><par n="abric__n"/></e>
+<e lm="èlitre" a="prompsit2uoc"><i>èlitre</i><par n="abric__n"/></e>
+<e lm="descuit" a="prompsit2uoc"><i>descuit</i><par n="abric__n"/></e>
+<e lm="corc" a="prompsit2uoc"><i>corc</i><par n="abric__n"/></e>
+<e lm="carbur" a="prompsit2uoc"><i>carbur</i><par n="abric__n"/></e>
+<e lm="arquet" r="LR" a="prompsit2uoc"><i>arquet</i><par n="abric__n"/></e>
+<e lm="xurro" a="prompsit2uoc"><i>xurro</i><par n="abric__n"/></e>
+<e lm="xaloc" a="prompsit2uoc"><i>xaloc</i><par n="abric__n"/></e>
+<e lm="tàlem" a="prompsit2uoc"><i>tàlem</i><par n="abric__n"/></e>
+<e lm="talc" a="prompsit2uoc"><i>talc</i><par n="abric__n"/></e>
+<e lm="sotrac" a="prompsit2uoc"><i>sotrac</i><par n="abric__n"/></e>
+<e lm="plectre" a="prompsit2uoc"><i>plectre</i><par n="abric__n"/></e>
+<e lm="panteisme" a="prompsit2uoc"><i>panteisme</i><par n="abric__n"/></e>
+<e lm="nucleòsid" a="prompsit2uoc"><i>nucleòsid</i><par n="abric__n"/></e>
+<e lm="lesbianisme" a="prompsit2uoc"><i>lesbianisme</i><par n="abric__n"/></e>
+<e lm="fitoplàncton" a="prompsit2uoc"><i>fitoplàncton</i><par n="abric__n"/></e>
+<e lm="ferromagnetisme" a="prompsit2uoc"><i>ferromagnetisme</i><par n="abric__n"/></e>
+<e lm="fasor" a="prompsit2uoc"><i>fasor</i><par n="abric__n"/></e>
+<e lm="codony" a="prompsit2uoc"><i>codony</i><par n="abric__n"/></e>
+<e lm="blastocel" a="prompsit2uoc"><i>blastocel</i><par n="abric__n"/></e>
+<e lm="bisell" a="prompsit2uoc"><i>bisell</i><par n="abric__n"/></e>
+<e lm="balustre" a="prompsit2uoc"><i>balustre</i><par n="abric__n"/></e>
+<e lm="antònim" a="prompsit2uoc"><i>antònim</i><par n="abric__n"/></e>
+<e lm="udol" a="prompsit2uoc"><i>udol</i><par n="abric__n"/></e>
+<e lm="trot" a="prompsit2uoc"><i>trot</i><par n="abric__n"/></e>
+<e lm="trencall" r="LR" a="prompsit2uoc"><i>trencall</i><par n="abric__n"/></e>
+<e lm="saure" a="prompsit2uoc"><i>saure</i><par n="abric__n"/></e>
+<e lm="piquet" a="prompsit2uoc"><i>piquet</i><par n="acompanyant__n"/></e>
+<e lm="peroné" a="prompsit2uoc"><i>peroné</i><par n="abric__n"/></e>
+<e lm="panet" a="prompsit2uoc"><i>panet</i><par n="abric__n"/></e>
+<e lm="operand" a="prompsit2uoc"><i>operand</i><par n="abric__n"/></e>
+<e lm="molinet" a="prompsit2uoc"><i>molinet</i><par n="abric__n"/></e>
+<e lm="megàlit" a="prompsit2uoc"><i>megàlit</i><par n="abric__n"/></e>
+<e lm="kilobyte" a="prompsit2uoc"><i>kilobyte</i><par n="abric__n"/></e>
+<e lm="jaspi" a="prompsit2uoc"><i>jaspi</i><par n="abric__n"/></e>
+<e lm="húmer" a="prompsit2uoc"><i>húmer</i><par n="abric__n"/></e>
+<e lm="hospici" a="prompsit2uoc"><i>hospici</i><par n="abric__n"/></e>
+<e lm="hipogeu" a="prompsit2uoc"><i>hipogeu</i><par n="abric__n"/></e>
+<e lm="hemistiqui" a="prompsit2uoc"><i>hemistiqui</i><par n="abric__n"/></e>
+<e lm="hemicriptòfit" a="prompsit2uoc"><i>hemicriptòfit</i><par n="abric__n"/></e>
+<e lm="halur" a="prompsit2uoc"><i>halur</i><par n="abric__n"/></e>
+<e lm="hafni" a="prompsit2uoc"><i>hafni</i><par n="abric__n"/></e>
+<e lm="floret" a="prompsit2uoc"><i>floret</i><par n="abric__n"/></e>
+<e lm="fermi" a="prompsit2uoc"><i>fermi</i><par n="abric__n"/></e>
+<e lm="daltonisme" a="prompsit2uoc"><i>daltonisme</i><par n="abric__n"/></e>
+<e lm="circumcentre" a="prompsit2uoc"><i>circumcentre</i><par n="abric__n"/></e>
+<e lm="cicloide" a="prompsit2uoc"><i>cicloide</i><par n="abric__n"/></e>
+<e lm="cabirol" a="prompsit2uoc"><i>cabirol</i><par n="abric__n"/></e>
+<e lm="borat" a="prompsit2uoc"><i>borat</i><par n="abric__n"/></e>
+<e lm="blastòmer" a="prompsit2uoc"><i>blastòmer</i><par n="abric__n"/></e>
+<e lm="bassal" r="LR" a="prompsit2uoc"><i>bassal</i><par n="abric__n"/></e>
+<e lm="arsènic" a="prompsit2uoc"><i>arsènic</i><par n="abric__n"/></e>
+<e lm="acceptor" a="prompsit2uoc"><i>acceptor</i><par n="abric__n"/></e>
+<e lm="túbul" a="prompsit2uoc"><i>túbul</i><par n="abric__n"/></e>
+<e lm="solell" a="prompsit2uoc"><i>solell</i><par n="abric__n"/></e>
+<e lm="solana" a="prompsit2uoc"><i>solan</i><par n="abell/a__n"/></e>
+<e lm="sinusoide" a="prompsit2uoc"><i>sinusoide</i><par n="abric__n"/></e>
+<e lm="provincialisme" a="prompsit2uoc"><i>provincialisme</i><par n="abric__n"/></e>
+<e lm="poliedre" a="prompsit2uoc"><i>poliedre</i><par n="abric__n"/></e>
+<e lm="plastidi" a="prompsit2uoc"><i>plastidi</i><par n="abric__n"/></e>
+<e lm="periscopi" a="prompsit2uoc"><i>periscopi</i><par n="abric__n"/></e>
+<e lm="pascal" a="prompsit2uoc"><i>pascal</i><par n="abric__n"/></e>
+<e lm="ortòpter" a="prompsit2uoc"><i>ortòpter</i><par n="abric__n"/></e>
+<e lm="nominalisme" a="prompsit2uoc"><i>nominalisme</i><par n="abric__n"/></e>
+<e lm="nitril" a="prompsit2uoc"><i>nitril</i><par n="abric__n"/></e>
+<e lm="neodimi" a="prompsit2uoc"><i>neodimi</i><par n="abric__n"/></e>
+<e lm="nacre" a="prompsit2uoc"><i>nacre</i><par n="abric__n"/></e>
+<e lm="minotaure" a="prompsit2uoc"><i>minotaure</i><par n="abric__n"/></e>
+<e lm="magnetòmetre" a="prompsit2uoc"><i>magnetòmetre</i><par n="abric__n"/></e>
+<e lm="interferòmetre" a="prompsit2uoc"><i>interferòmetre</i><par n="abric__n"/></e>
+<e lm="interdicte" a="prompsit2uoc"><i>interdicte</i><par n="abric__n"/></e>
+<e lm="hangar" a="prompsit2uoc"><i>hangar</i><par n="abric__n"/></e>
+<e lm="giroscopi" a="prompsit2uoc"><i>giroscopi</i><par n="abric__n"/></e>
+<e lm="gasteròpode" a="prompsit2uoc"><i>gasteròpode</i><par n="abric__n"/></e>
+<e lm="gadolini" a="prompsit2uoc"><i>gadolini</i><par n="abric__n"/></e>
+<e lm="feldspat" a="prompsit2uoc"><i>feldspat</i><par n="abric__n"/></e>
+<e lm="ester" a="prompsit2uoc"><i>ester</i><par n="abric__n"/></e>
+<e lm="espígol" a="prompsit2uoc"><i>espígol</i><par n="abric__n"/></e>
+<e lm="embalatge" a="prompsit2uoc"><i>embalatge</i><par n="abric__n"/></e>
+<e lm="elixir" a="prompsit2uoc"><i>elixir</i><par n="abric__n"/></e>
+<e lm="criticisme" a="prompsit2uoc"><i>criticisme</i><par n="abric__n"/></e>
+<e lm="corimbe" a="prompsit2uoc"><i>corimbe</i><par n="abric__n"/></e>
+<e lm="contraexemple" a="prompsit2uoc"><i>contraexemple</i><par n="abric__n"/></e>
+<e lm="cariotip" a="prompsit2uoc"><i>cariotip</i><par n="abric__n"/></e>
+<e lm="capsigrany" a="prompsit2uoc"><i>capsigrany</i><par n="abric__n"/></e>
+<e lm="caiman" a="prompsit2uoc"><i>caiman</i><par n="abric__n"/></e>
+<e lm="bolxevisme" a="prompsit2uoc"><i>bolxevisme</i><par n="abric__n"/></e>
+<e lm="blauet" a="prompsit2uoc"><i>blauet</i><par n="abric__n"/></e>
+<e lm="arquitrau" a="prompsit2uoc"><i>arquitrau</i><par n="abric__n"/></e>
+<e lm="aracnoide" a="prompsit2uoc"><i>aracnoide</i><par n="abric__n"/></e>
+<e lm="adipòcit" a="prompsit2uoc"><i>adipòcit</i><par n="abric__n"/></e>
+<e lm="viratge" a="prompsit2uoc"><i>viratge</i><par n="abric__n"/></e>
+<e lm="subdomini" a="prompsit2uoc"><i>subdomini</i><par n="abric__n"/></e>
+<e lm="safari" a="prompsit2uoc"><i>safari</i><par n="abric__n"/></e>
+<e lm="puritanisme" a="prompsit2uoc"><i>puritanisme</i><par n="abric__n"/></e>
+<e lm="praseodimi" a="prompsit2uoc"><i>praseodimi</i><par n="abric__n"/></e>
+<e lm="parterre" a="prompsit2uoc"><i>parterre</i><par n="abric__n"/></e>
+<e lm="palíndrom" a="prompsit2uoc"><i>palíndrom</i><par n="abric__n"/></e>
+<e lm="oscil·loscopi" a="prompsit2uoc"><i>oscil·loscopi</i><par n="abric__n"/></e>
+<e lm="metal·loide" a="prompsit2uoc"><i>metal·loide</i><par n="abric__n"/></e>
+<e lm="melanòcit" a="prompsit2uoc"><i>melanòcit</i><par n="abric__n"/></e>
+<e lm="mastòcit" a="prompsit2uoc"><i>mastòcit</i><par n="abric__n"/></e>
+<e lm="magazín" a="prompsit2uoc"><i>magazín</i><par n="abric__n"/></e>
+<e lm="jeep" a="prompsit2uoc"><i>jeep</i><par n="abric__n"/></e>
+<e lm="jacint" a="prompsit2uoc"><i>jacint</i><par n="abric__n"/></e>
+<e lm="intel·lecte" a="prompsit2uoc"><i>intel·lecte</i><par n="abric__n"/></e>
+<e lm="hipèrbole" a="prompsit2uoc"><i>hipèrbole</i><par n="accessibilitat__n"/></e>
+<e lm="galvanòmetre" a="prompsit2uoc"><i>galvanòmetre</i><par n="abric__n"/></e>
+<e lm="fotodíode" a="prompsit2uoc"><i>fotodíode</i><par n="abric__n"/></e>
+<e lm="fenc" a="prompsit2uoc"><i>fenc</i><par n="abric__n"/></e>
+<e lm="esferoide" a="prompsit2uoc"><i>esferoide</i><par n="abric__n"/></e>
+<e lm="disacàrid" a="prompsit2uoc"><i>disacàrid</i><par n="abric__n"/></e>
+<e lm="coxal" a="prompsit2uoc"><i>coxal</i><par n="abric__n"/></e>
+<e lm="cinabri" a="prompsit2uoc"><i>cinabri</i><par n="abric__n"/></e>
+<e lm="centríol" a="prompsit2uoc"><i>centríol</i><par n="abric__n"/></e>
+<e lm="briòfit" a="prompsit2uoc"><i>briòfit</i><par n="abric__n"/></e>
+<e lm="born" a="prompsit2uoc"><i>born</i><par n="abric__n"/></e>
+<e lm="biquini" a="prompsit2uoc"><i>biquini</i><par n="abric__n"/></e>
+<e lm="automotor" a="prompsit2uoc"><i>automotor</i><par n="abric__n"/></e>
+<e lm="antimoni" a="prompsit2uoc"><i>antimoni</i><par n="abric__n"/></e>
+<e lm="actínid" a="prompsit2uoc"><i>actínid</i><par n="abric__n"/></e>
+<e lm="superfluid" a="prompsit2uoc"><i>superfluid</i><par n="abric__n"/></e>
+<e lm="refinatge" a="prompsit2uoc"><i>refinatge</i><par n="abric__n"/></e>
+<e lm="poni" a="prompsit2uoc"><i>poni</i><par n="abric__n"/></e>
+<e lm="patetisme" a="prompsit2uoc"><i>patetisme</i><par n="abric__n"/></e>
+<e lm="parricidi" a="prompsit2uoc"><i>parricidi</i><par n="abric__n"/></e>
+<e lm="marsupi" a="prompsit2uoc"><i>marsupi</i><par n="abric__n"/></e>
+<e lm="magnetòfon" a="prompsit2uoc"><i>magnetòfon</i><par n="abric__n"/></e>
+<e lm="hobby" a="prompsit2uoc"><i>hobby</i><par n="abric__n"/></e>
+<e lm="hàmster" a="prompsit2uoc"><i>hàmster</i><par n="abric__n"/></e>
+<e lm="gerd" a="prompsit2uoc"><i>gerd</i><par n="abric__n"/></e>
+<e lm="gametòfit" a="prompsit2uoc"><i>gametòfit</i><par n="abric__n"/></e>
+<e lm="denticle" a="prompsit2uoc"><i>denticle</i><par n="abric__n"/></e>
+<e lm="deganat" a="prompsit2uoc"><i>deganat</i><par n="abric__n"/></e>
+<e lm="croissant" a="prompsit2uoc"><i>croissant</i><par n="abric__n"/></e>
+<e lm="crisantem" a="prompsit2uoc"><i>crisantem</i><par n="abric__n"/></e>
+<e lm="cowboy" a="prompsit2uoc"><i>cowboy</i><par n="abric__n"/></e>
+<e lm="colorímetre" a="prompsit2uoc"><i>colorímetre</i><par n="abric__n"/></e>
+<e lm="col·lectivisme" a="prompsit2uoc"><i>col·lectivisme</i><par n="abric__n"/></e>
+<e lm="al·lucinogen" a="prompsit2uoc"><i>al·lucinogen</i><par n="abric__n"/></e>
+<e lm="trombe" a="prompsit2uoc"><i>trombe</i><par n="abric__n"/></e>
+<e lm="termistor" a="prompsit2uoc"><i>termistor</i><par n="abric__n"/></e>
+<e lm="subjectivisme" a="prompsit2uoc"><i>subjectivisme</i><par n="abric__n"/></e>
+<e lm="renec" r="LR" a="prompsit2uoc"><i>renec</i><par n="abric__n"/></e>
+<e lm="purisme" a="prompsit2uoc"><i>purisme</i><par n="abric__n"/></e>
+<e lm="puré" a="prompsit2uoc"><i>puré</i><par n="abric__n"/></e>
+<e lm="proti" a="prompsit2uoc"><i>proti</i><par n="abric__n"/></e>
+<e lm="polsim" a="prompsit2uoc"><i>polsim</i><par n="abric__n"/></e>
+<e lm="plasmodi" a="prompsit2uoc"><i>plasmodi</i><par n="abric__n"/></e>
+<e lm="peritoneu" a="prompsit2uoc"><i>peritoneu</i><par n="abric__n"/></e>
+<e lm="pendant" r="LR" a="prompsit2uoc"><i>pendant</i><par n="abric__n"/></e>
+<e lm="parasitisme" a="prompsit2uoc"><i>parasitisme</i><par n="abric__n"/></e>
+<e lm="modisme" a="prompsit2uoc"><i>modisme</i><par n="abric__n"/></e>
+<e lm="mesocarpi" a="prompsit2uoc"><i>mesocarpi</i><par n="abric__n"/></e>
+<e lm="matxet" a="prompsit2uoc"><i>matxet</i><par n="abric__n"/></e>
+<e lm="lèmur" a="prompsit2uoc"><i>lèmur</i><par n="abric__n"/></e>
+<e lm="homeomorfisme" a="prompsit2uoc"><i>homeomorfisme</i><par n="abric__n"/></e>
+<e lm="gregal" a="prompsit2uoc"><i>gregal</i><par n="abric__n"/></e>
+<e lm="falciot" a="prompsit2uoc"><i>falciot</i><par n="abric__n"/></e>
+<e lm="exosquelet" a="prompsit2uoc"><i>exosquelet</i><par n="abric__n"/></e>
+<e lm="estreptococ" a="prompsit2uoc"><i>estreptococ</i><par n="abric__n"/></e>
+<e lm="diamagnetisme" a="prompsit2uoc"><i>diamagnetisme</i><par n="abric__n"/></e>
+<e lm="cricoide" a="prompsit2uoc"><i>cricoide</i><par n="abric__n"/></e>
+<e lm="bàdminton" a="prompsit2uoc"><i>bàdminton</i><par n="abric__n"/></e>
+<e lm="ateisme" a="prompsit2uoc"><i>ateisme</i><par n="abric__n"/></e>
+<e lm="tuli" a="prompsit2uoc"><i>tuli</i><par n="abric__n"/></e>
+<e lm="tsarisme" a="prompsit2uoc"><i>tsarisme</i><par n="abric__n"/></e>
+<e lm="tetraedre" a="prompsit2uoc"><i>tetraedre</i><par n="abric__n"/></e>
+<e lm="tetràedre" a="prompsit2uoc"><i>tetràedre</i><par n="abric__n"/></e>
+<e lm="puput" a="prompsit2uoc"><i>puput</i><par n="accessibilitat__n"/></e>
+<e lm="prosceni" a="prompsit2uoc"><i>prosceni</i><par n="abric__n"/></e>
+<e lm="placer" r="LR" a="prompsit2uoc"><i>placer</i><par n="abric__n"/></e>
+<e lm="pílor" a="prompsit2uoc"><i>pílor</i><par n="abric__n"/></e>
+<e lm="pàmpol" a="prompsit2uoc"><i>pàmpol</i><par n="abric__n"/></e>
+<e lm="notocordi" a="prompsit2uoc"><i>notocordi</i><par n="abric__n"/></e>
+<e lm="morf" a="prompsit2uoc"><i>morf</i><par n="abric__n"/></e>
+<e lm="monopol" a="prompsit2uoc"><i>monopol</i><par n="abric__n"/></e>
+<e lm="icosàedre" a="prompsit2uoc"><i>icosàedre</i><par n="abric__n"/></e>
+<e lm="hiperònim" a="prompsit2uoc"><i>hiperònim</i><par n="abric__n"/></e>
+<e lm="fotoreceptor" a="prompsit2uoc"><i>fotoreceptor</i><par n="abric__n"/></e>
+<e lm="fajol" a="prompsit2uoc"><i>fajol</i><par n="abric__n"/></e>
+<e lm="estern" a="prompsit2uoc"><i>estern</i><par n="abric__n"/></e>
+<e lm="esprai" a="prompsit2uoc"><i>esprai</i><par n="abric__n"/></e>
+<e lm="endoll" a="prompsit2uoc"><i>endoll</i><par n="abric__n"/></e>
+<e lm="corol·lari" a="prompsit2uoc"><i>corol·lari</i><par n="abric__n"/></e>
+<e lm="colomar" a="prompsit2uoc"><i>colomar</i><par n="abric__n"/></e>
+<e lm="clorofluorocarbur" a="prompsit2uoc"><i>clorofluorocarbur</i><par n="abric__n"/></e>
+<e lm="clonatge" r="LR" a="prompsit2uoc"><i>clonatge</i><par n="abric__n"/></e>
+<e lm="capot" a="prompsit2uoc"><i>capot</i><par n="abric__n"/></e>
+<e lm="capó" a="prompsit2uoc"><i>cap</i><par n="aband/ó__n"/></e>
+<e lm="bumerang" a="prompsit2uoc"><i>bumerang</i><par n="abric__n"/></e>
+<e lm="anaerobi" a="prompsit2uoc"><i>anaer</i><par n="anaer/obi__adj"/></e>
+<e lm="acne" a="prompsit2uoc"><i>acne</i><par n="abric__n"/></e>
+<e lm="voltímetre" a="prompsit2uoc"><i>voltímetre</i><par n="abric__n"/></e>
+<e lm="utillatge" a="prompsit2uoc"><i>utillatge</i><par n="abric__n"/></e>
+<e lm="urèter" a="prompsit2uoc"><i>urèter</i><par n="abric__n"/></e>
+<e lm="tramat" a="prompsit2uoc"><i>tramat</i><par n="abric__n"/></e>
+<e lm="tonell" r="LR" a="prompsit2uoc"><i>tonell</i><par n="abric__n"/></e>
+<e lm="sutge" a="prompsit2uoc"><i>sutge</i><par n="abric__n"/></e>
+<e lm="supernumerari" a="prompsit2uoc"><i>supernumerari</i><par n="abric__n"/></e>
+<e lm="rapsode" a="prompsit2uoc"><i>rapsode</i><par n="abric__n"/></e>
+<e lm="propileu" a="prompsit2uoc"><i>propileu</i><par n="abric__n"/></e>
+<e lm="paroxisme" a="prompsit2uoc"><i>paroxisme</i><par n="abric__n"/></e>
+<e lm="neuròpter" a="prompsit2uoc"><i>neuròpter</i><par n="abric__n"/></e>
+<e lm="neptuni" a="prompsit2uoc"><i>neptuni</i><par n="abric__n"/></e>
+<e lm="nadir" a="prompsit2uoc"><i>nadir</i><par n="abric__n"/></e>
+<e lm="monosíl·lab" a="prompsit2uoc"><i>monosíl·lab</i><par n="absolut__adj"/></e>
+<e lm="mentol" a="prompsit2uoc"><i>mentol</i><par n="abric__n"/></e>
+<e lm="maoisme" a="prompsit2uoc"><i>maoisme</i><par n="abric__n"/></e>
+<e lm="manòmetre" a="prompsit2uoc"><i>manòmetre</i><par n="abric__n"/></e>
+<e lm="lingot" a="prompsit2uoc"><i>lingot</i><par n="abric__n"/></e>
+<e lm="hipònim" a="prompsit2uoc"><i>hipònim</i><par n="abric__n"/></e>
+<e lm="hepatòcit" a="prompsit2uoc"><i>hepatòcit</i><par n="abric__n"/></e>
+<e lm="goll" a="prompsit2uoc"><i>goll</i><par n="abric__n"/></e>
+<e lm="gnòmon" a="prompsit2uoc"><i>gnòmon</i><par n="abric__n"/></e>
+<e lm="garbell" a="prompsit2uoc"><i>garbell</i><par n="abric__n"/></e>
+<e lm="sedàs" a="prompsit2uoc"><i>sedàs</i><par n="capat/às__n"/></e>
+<e lm="fonendoscopi" a="prompsit2uoc"><i>fonendoscopi</i><par n="abric__n"/></e>
+<e lm="excursionisme" a="prompsit2uoc"><i>excursionisme</i><par n="abric__n"/></e>
+<e lm="eslàlom" a="prompsit2uoc"><i>eslàlom</i><par n="abric__n"/></e>
+<e lm="enreixat" a="prompsit2uoc"><i>enreixat</i><par n="abric__n"/></e>
+<e lm="empirisme" a="prompsit2uoc"><i>empirisme</i><par n="abric__n"/></e>
+<e lm="eclecticisme" a="prompsit2uoc"><i>eclecticisme</i><par n="abric__n"/></e>
+<e lm="dodecàedre" a="prompsit2uoc"><i>dodecàedre</i><par n="abric__n"/></e>
+<e lm="ditirambe" a="prompsit2uoc"><i>ditirambe</i><par n="abric__n"/></e>
+<e lm="depressor" a="prompsit2uoc"><i>depressor</i><par n="abric__n"/></e>
+<e lm="conductisme" a="prompsit2uoc"><i>conductisme</i><par n="abric__n"/></e>
+<e lm="californi" a="prompsit2uoc"><i>californi</i><par n="abric__n"/></e>
+<e lm="astigmatisme" a="prompsit2uoc"><i>astigmatisme</i><par n="abric__n"/></e>
+<e lm="anhídrid" a="prompsit2uoc"><i>anhídrid</i><par n="abric__n"/></e>
+<e lm="abrasiu" a="prompsit2uoc"><i>abrasi</i><par n="abusi/u__adj"/></e>
+<e lm="triacilglicèrid" a="prompsit2uoc"><i>triacilglicèrid</i><par n="abric__n"/></e>
+<e lm="tèlson" a="prompsit2uoc"><i>tèlson</i><par n="abric__n"/></e>
+<e lm="superstrat" a="prompsit2uoc"><i>superstrat</i><par n="abric__n"/></e>
+<e lm="sobrevent" a="prompsit2uoc"><i>sobrevent</i><par n="abric__n"/></e>
+<e lm="quòrum" a="prompsit2uoc"><i>quòrum</i><par n="abric__n"/></e>
+<e lm="quiròpter" a="prompsit2uoc"><i>quiròpter</i><par n="abric__n"/></e>
+<e lm="quall" a="prompsit2uoc"><i>quall</i><par n="abric__n"/></e>
+<e lm="pícnic" a="prompsit2uoc"><i>pícnic</i><par n="abric__n"/></e>
+<e lm="ortocentre" a="prompsit2uoc"><i>ortocentre</i><par n="abric__n"/></e>
+<e lm="ordit" a="prompsit2uoc"><i>ordit</i><par n="abric__n"/></e>
+<e lm="opercle" a="prompsit2uoc"><i>opercle</i><par n="abric__n"/></e>
+<e lm="offset" a="prompsit2uoc"><i>offset</i><par n="abric__n"/></e>
+<e lm="octògon" a="prompsit2uoc"><i>octògon</i><par n="abric__n"/></e>
+<e lm="octàgon" a="prompsit2uoc"><i>octàgon</i><par n="abric__n"/></e>
+<e lm="noli" a="prompsit2uoc"><i>noli</i><par n="abric__n"/></e>
+<e lm="mastodont" a="prompsit2uoc"><i>mastodont</i><par n="abric__n"/></e>
+<e lm="mapatge" a="prompsit2uoc"><i>mapatge</i><par n="abric__n"/></e>
+<e lm="llard" a="prompsit2uoc"><i>llard</i><par n="abric__n"/></e>
+<e lm="jòquer" a="prompsit2uoc"><i>jòquer</i><par n="abric__n"/></e>
+<e lm="hússar" a="prompsit2uoc"><i>hússar</i><par n="abric__n"/></e>
+<e lm="homozigot" a="prompsit2uoc"><i>homozigot</i><par n="abric__n"/></e>
+<e lm="hipocamp" a="prompsit2uoc"><i>hipocamp</i><par n="abric__n"/></e>
+<e lm="heterozigot" a="prompsit2uoc"><i>heterozigot</i><par n="abric__n"/></e>
+<e lm="heterònim" a="prompsit2uoc"><i>heterònim</i><par n="abric__n"/></e>
+<e lm="gal·licisme" a="prompsit2uoc"><i>gal·licisme</i><par n="abric__n"/></e>
+<e lm="esternut" a="prompsit2uoc"><i>esternut</i><par n="abric__n"/></e>
+<e lm="dònut" a="prompsit2uoc"><i>dònut</i><par n="abric__n"/></e>
+<e lm="curri" a="prompsit2uoc"><i>curri</i><par n="abric__n"/></e>
+<e lm="cubicatge" a="prompsit2uoc"><i>cubicatge</i><par n="abric__n"/></e>
+<e lm="copolímer" a="prompsit2uoc"><i>copolímer</i><par n="abric__n"/></e>
+<e lm="contraespionatge" a="prompsit2uoc"><i>contraespionatge</i><par n="abric__n"/></e>
+<e lm="bri" a="prompsit2uoc"><i>bri</i><par n="abric__n"/></e>
+<e lm="biocombustible" r="LR" a="prompsit2uoc"><i>biocombustible</i><par n="abric__n"/></e>
+<e lm="betacisme" a="prompsit2uoc"><i>betacisme</i><par n="abric__n"/></e>
+<e lm="berkeli" a="prompsit2uoc"><i>berkeli</i><par n="abric__n"/></e>
+<e lm="baud" a="prompsit2uoc"><i>baud</i><par n="abric__n"/></e>
+<e lm="automorfisme" a="prompsit2uoc"><i>automorfisme</i><par n="abric__n"/></e>
+<e lm="anur" a="prompsit2uoc"><i>anur</i><par n="abric__n"/></e>
+<e lm="animisme" a="prompsit2uoc"><i>animisme</i><par n="abric__n"/></e>
+<e lm="ampit" a="prompsit2uoc"><i>ampit</i><par n="abric__n"/></e>
+<e lm="academicisme" a="prompsit2uoc"><i>academicisme</i><par n="abric__n"/></e>
+<e lm="xovinisme" a="prompsit2uoc"><i>xovinisme</i><par n="abric__n"/></e>
+<e lm="xèrif" a="prompsit2uoc"><i>xèrif</i><par n="acompanyant__n"/></e>
+<e lm="trapezoide" a="prompsit2uoc"><i>trapezoide</i><par n="abric__n"/></e>
+<e lm="sístole" a="prompsit2uoc"><i>sístole</i><par n="accessibilitat__n"/></e>
+<e lm="semental" a="prompsit2uoc"><i>semental</i><par n="abdominal__adj"/></e>
+<e lm="refractor" a="prompsit2uoc"><i>refractor</i><par n="abric__n"/></e>
+<e lm="platonisme" a="prompsit2uoc"><i>platonisme</i><par n="abric__n"/></e>
+<e lm="octosíl·lab" a="prompsit2uoc"><i>octosíl·lab</i><par n="abric__n"/></e>
+<e lm="neurocrani" a="prompsit2uoc"><i>neurocrani</i><par n="abric__n"/></e>
+<e lm="matriarcat" a="prompsit2uoc"><i>matriarcat</i><par n="abric__n"/></e>
+<e lm="lladruc" a="prompsit2uoc"><i>lladruc</i><par n="abric__n"/></e>
+<e lm="homòfon" a="prompsit2uoc"><i>homòfon</i><par n="abric__n"/></e>
+<e lm="hioide" a="prompsit2uoc"><i>hioide</i><par n="abric__n"/></e>
+<e lm="hèlice" a="prompsit2uoc"><i>hèlice</i><par n="accessibilitat__n"/></e>
+<e lm="guanac" a="prompsit2uoc"><i>guanac</i><par n="abric__n"/></e>
+<e lm="franqueig" a="prompsit2uoc"><i>franqueig</i><par n="abric__n"/></e>
+<e lm="fondue" a="prompsit2uoc"><i>fondue</i><par n="accessibilitat__n"/></e>
+<e lm="estoïcisme" a="prompsit2uoc"><i>estoïcisme</i><par n="abric__n"/></e>
+<e lm="esporangi" a="prompsit2uoc"><i>esporangi</i><par n="abric__n"/></e>
+<e lm="eosinòfil" a="prompsit2uoc"><i>eosinòfil</i><par n="abric__n"/></e>
+<e lm="encofrat" a="prompsit2uoc"><i>encofrat</i><par n="abric__n"/></e>
+<e lm="electroscopi" a="prompsit2uoc"><i>electroscopi</i><par n="abric__n"/></e>
+<e lm="dialectalisme" a="prompsit2uoc"><i>dialectalisme</i><par n="abric__n"/></e>
+<e lm="dàctil" a="prompsit2uoc"><i>dàctil</i><par n="abric__n"/></e>
+<e lm="codicil" a="prompsit2uoc"><i>codicil</i><par n="abric__n"/></e>
+<e lm="cardioide" a="prompsit2uoc"><i>cardioide</i><par n="abric__n"/></e>
+<e lm="canoner" a="prompsit2uoc"><i>canoner</i><par n="abric__n"/></e>
+<e lm="brocat" a="prompsit2uoc"><i>brocat</i><par n="abric__n"/></e>
+<e lm="ascetisme" a="prompsit2uoc"><i>ascetisme</i><par n="abric__n"/></e>
+<e lm="amperímetre" a="prompsit2uoc"><i>amperímetre</i><par n="abric__n"/></e>
+<e lm="alvocat" a="prompsit2uoc"><i>alvocat</i><par n="abric__n"/></e>
+<e lm="abecedari" a="prompsit2uoc"><i>abecedari</i><par n="abric__n"/></e>
+<e lm="vocalisme" a="prompsit2uoc"><i>vocalisme</i><par n="abric__n"/></e>
+<e lm="tubèrcul" a="prompsit2uoc"><i>tubèrcul</i><par n="abric__n"/></e>
+<e lm="terbi" a="prompsit2uoc"><i>terbi</i><par n="abric__n"/></e>
+<e lm="solenoide" a="prompsit2uoc"><i>solenoide</i><par n="abric__n"/></e>
+<e lm="selector" a="prompsit2uoc"><i>selector</i><par n="abric__n"/></e>
+<e lm="sàndal" a="prompsit2uoc"><i>sàndal</i><par n="abric__n"/></e>
+<e lm="romboide" a="prompsit2uoc"><i>romboide</i><par n="abric__n"/></e>
+<e lm="renou" a="prompsit2uoc"><i>renou</i><par n="abric__n"/></e>
+<e lm="radiòmetre" a="prompsit2uoc"><i>radiòmetre</i><par n="abric__n"/></e>
+<e lm="pressupòsit" r="LR" a="prompsit2uoc"><i>pressupòsit</i><par n="abric__n"/></e>
+<e lm="plantígrad" a="prompsit2uoc"><i>plantígrad</i><par n="abric__n"/></e>
+<e lm="planisferi" a="prompsit2uoc"><i>planisferi</i><par n="abric__n"/></e>
+<e lm="percussor" a="prompsit2uoc"><i>percussor</i><par n="abric__n"/></e>
+<e lm="peralt" a="prompsit2uoc"><i>peralt</i><par n="abric__n"/></e>
+<e lm="paraboloide" a="prompsit2uoc"><i>paraboloide</i><par n="abric__n"/></e>
+<e lm="octàedre" a="prompsit2uoc"><i>octàedre</i><par n="abric__n"/></e>
+<e lm="monisme" a="prompsit2uoc"><i>monisme</i><par n="abric__n"/></e>
+<e lm="minuend" a="prompsit2uoc"><i>minuend</i><par n="abric__n"/></e>
+<e lm="llustre" a="prompsit2uoc"><i>llustre</i><par n="abric__n"/></e>
+<e lm="llenguado" a="prompsit2uoc"><i>llenguado</i><par n="abric__n"/></e>
+<e lm="llebrer" a="prompsit2uoc"><i>llebrer</i><par n="abric__n"/></e>
+<e lm="iridi" a="prompsit2uoc"><i>iridi</i><par n="abric__n"/></e>
+<e lm="hipotàlem" a="prompsit2uoc"><i>hipotàlem</i><par n="abric__n"/></e>
+<e lm="geoide" a="prompsit2uoc"><i>geoide</i><par n="abric__n"/></e>
+<e lm="fulcre" a="prompsit2uoc"><i>fulcre</i><par n="abric__n"/></e>
+<e lm="frontispici" a="prompsit2uoc"><i>frontispici</i><par n="abric__n"/></e>
+<e lm="fototransistor" a="prompsit2uoc"><i>fototransistor</i><par n="abric__n"/></e>
+<e lm="fotogravat" a="prompsit2uoc"><i>fotogravat</i><par n="abric__n"/></e>
+<e lm="estrabisme" a="prompsit2uoc"><i>estrabisme</i><par n="abric__n"/></e>
+<e lm="estatisme" a="prompsit2uoc"><i>estatisme</i><par n="abric__n"/></e>
+<e lm="esporòfit" a="prompsit2uoc"><i>esporòfit</i><par n="abric__n"/></e>
+<e lm="espectrògraf" a="prompsit2uoc"><i>espectrògraf</i><par n="abric__n"/></e>
+<e lm="dicromat" a="prompsit2uoc"><i>dicromat</i><par n="abric__n"/></e>
+<e lm="deltoide" a="prompsit2uoc"><i>deltoide</i><par n="abric__n"/></e>
+<e lm="cronògraf" a="prompsit2uoc"><i>cronògraf</i><par n="abric__n"/></e>
+<e lm="cribratge" r="LR" a="prompsit2uoc"><i>cribratge</i><par n="abric__n"/></e>
+<e lm="coltell" r="LR" a="prompsit2uoc"><i>coltell</i><par n="abric__n"/></e>
+<e lm="calorímetre" a="prompsit2uoc"><i>calorímetre</i><par n="abric__n"/></e>
+<e lm="badall" a="prompsit2uoc"><i>badall</i><par n="abric__n"/></e>
+<e lm="autoclau" a="prompsit2uoc"><i>autoclau</i><par n="accessibilitat__n"/></e>
+<e lm="antre" a="prompsit2uoc"><i>antre</i><par n="abric__n"/></e>
+<e lm="antimonopoli" a="prompsit2uoc"><i>antimonopoli</i><par n="multimèdia__adj"/></e>
+<e lm="anticongelant" a="prompsit2uoc"><i>anticongelant</i><par n="abdominal__adj"/></e>
+<e lm="almívar" a="prompsit2uoc"><i>almívar</i><par n="abric__n"/></e>
+<e lm="adagi" a="prompsit2uoc"><i>adagi</i><par n="abric__n"/></e>
+<e lm="teletip" a="prompsit2uoc"><i>teletip</i><par n="abric__n"/></e>
+<e lm="subdirectori" a="prompsit2uoc"><i>subdirectori</i><par n="abric__n"/></e>
+<e lm="septet" a="prompsit2uoc"><i>septet</i><par n="abric__n"/></e>
+<e lm="ruibarbre" a="prompsit2uoc"><i>ruibarbre</i><par n="abric__n"/></e>
+<e lm="playboy" a="prompsit2uoc"><i>playboy</i><par n="abric__n"/></e>
+<e lm="pastell" r="LR" a="prompsit2uoc"><i>pastell</i><par n="abric__n"/></e>
+<e lm="oòcit" a="prompsit2uoc"><i>oòcit</i><par n="abric__n"/></e>
+<e lm="ocultisme" a="prompsit2uoc"><i>ocultisme</i><par n="abric__n"/></e>
+<e lm="nitrur" a="prompsit2uoc"><i>nitrur</i><par n="abric__n"/></e>
+<e lm="minifundi" a="prompsit2uoc"><i>minifundi</i><par n="abric__n"/></e>
+<e lm="microestat" a="prompsit2uoc"><i>microestat</i><par n="abric__n"/></e>
+<e lm="metrònom" a="prompsit2uoc"><i>metrònom</i><par n="abric__n"/></e>
+<e lm="glucocorticoide" a="prompsit2uoc"><i>glucocorticoide</i><par n="abric__n"/></e>
+<e lm="generativisme" a="prompsit2uoc"><i>generativisme</i><par n="abric__n"/></e>
+<e lm="faneròfit" a="prompsit2uoc"><i>faneròfit</i><par n="abric__n"/></e>
+<e lm="exsudat" a="prompsit2uoc"><i>exsudat</i><par n="abric__n"/></e>
+<e lm="estronci" a="prompsit2uoc"><i>estronci</i><par n="abric__n"/></e>
+<e lm="envelat" a="prompsit2uoc"><i>envelat</i><par n="abric__n"/></e>
+<e lm="entreacte" a="prompsit2uoc"><i>entreacte</i><par n="abric__n"/></e>
+<e lm="embigat" a="prompsit2uoc"><i>embigat</i><par n="abric__n"/></e>
+<e lm="divan" a="prompsit2uoc"><i>divan</i><par n="abric__n"/></e>
+<e lm="didal" a="prompsit2uoc"><i>didal</i><par n="abric__n"/></e>
+<e lm="dessecant" a="prompsit2uoc"><i>dessecant</i><par n="abric__n"/></e>
+<e lm="desgovern" a="prompsit2uoc"><i>desgovern</i><par n="abric__n"/></e>
+<e lm="cotxet" a="prompsit2uoc"><i>cotxet</i><par n="abric__n"/></e>
+<e lm="coriandre" a="prompsit2uoc"><i>coriandre</i><par n="abric__n"/></e>
+<e lm="capsòmer" a="prompsit2uoc"><i>capsòmer</i><par n="abric__n"/></e>
+<e lm="càpside" a="prompsit2uoc"><i>càpside</i><par n="abric__n"/></e>
+<e lm="calcani" a="prompsit2uoc"><i>calcani</i><par n="abric__n"/></e>
+<e lm="bròquil" a="prompsit2uoc"><i>bròquil</i><par n="abric__n"/></e>
+<e lm="brocal" a="prompsit2uoc"><i>brocal</i><par n="abric__n"/></e>
+<e lm="bivac" a="prompsit2uoc"><i>bivac</i><par n="abric__n"/></e>
+<e lm="birret" a="prompsit2uoc"><i>birret</i><par n="abric__n"/></e>
+<e lm="acceleròmetre" a="prompsit2uoc"><i>acceleròmetre</i><par n="abric__n"/></e>
+<e lm="wagnerisme" a="prompsit2uoc"><i>wagnerisme</i><par n="abric__n"/></e>
+<e lm="vorell" a="prompsit2uoc"><i>vorell</i><par n="abric__n"/></e>
+<e lm="utilitarisme" a="prompsit2uoc"><i>utilitarisme</i><par n="abric__n"/></e>
+<e lm="trucatge" a="prompsit2uoc"><i>trucatge</i><par n="abric__n"/></e>
+<e lm="trinomi" a="prompsit2uoc"><i>trinomi</i><par n="abric__n"/></e>
+<e lm="termòstat" a="prompsit2uoc"><i>termòstat</i><par n="abric__n"/></e>
+<e lm="teisme" a="prompsit2uoc"><i>teisme</i><par n="abric__n"/></e>
+<e lm="sordmut" a="prompsit2uoc"><i>sordmut</i><par n="abric__n"/></e>
+<e lm="sorbet" a="prompsit2uoc"><i>sorbet</i><par n="abric__n"/></e>
+<e lm="sisal" a="prompsit2uoc"><i>sisal</i><par n="abric__n"/></e>
+<e lm="rútil" a="prompsit2uoc"><i>rútil</i><par n="abric__n"/></e>
+<e lm="rot" a="prompsit2uoc"><i>rot</i><par n="abric__n"/></e>
+<e lm="rompent" a="prompsit2uoc"><i>rompent</i><par n="abric__n"/></e>
+<e lm="rocafort" a="prompsit2uoc"><i>rocafort</i><par n="abric__n"/></e>
+<e lm="responsori" a="prompsit2uoc"><i>responsori</i><par n="abric__n"/></e>
+<e lm="rèmol" a="prompsit2uoc"><i>rèmol</i><par n="abric__n"/></e>
+<e lm="turbot" a="prompsit2uoc"><i>turbot</i><par n="abric__n"/></e>
+<e lm="reformatori" a="prompsit2uoc"><i>reformatori</i><par n="abric__n"/></e>
+<e lm="reconstituent" a="prompsit2uoc"><i>reconstituent</i><par n="abdominal__adj"/></e>
+<e lm="pseudopodi" a="prompsit2uoc"><i>pseudopodi</i><par n="abric__n"/></e>
+<e lm="portell" a="prompsit2uoc"><i>portell</i><par n="abric__n"/></e>
+<e lm="policarbonat" a="prompsit2uoc"><i>policarbonat</i><par n="abric__n"/></e>
+<e lm="pluviòmetre" a="prompsit2uoc"><i>pluviòmetre</i><par n="abric__n"/></e>
+<e lm="plusquamperfet" a="prompsit2uoc"><i>plusquamperfet</i><par n="abric__n"/></e>
+<e lm="pericardi" a="prompsit2uoc"><i>pericardi</i><par n="abric__n"/></e>
+<e lm="parònim" a="prompsit2uoc"><i>parònim</i><par n="abric__n"/></e>
+<e lm="oligopoli" a="prompsit2uoc"><i>oligopoli</i><par n="abric__n"/></e>
+<e lm="nitre" a="prompsit2uoc"><i>nitre</i><par n="abric__n"/></e>
+<e lm="metallenguatge" a="prompsit2uoc"><i>metallenguatge</i><par n="abric__n"/></e>
+<e lm="mannà" a="prompsit2uoc"><i>mannà</i><par n="abric__n"/></e>
+<e lm="legalisme" a="prompsit2uoc"><i>legalisme</i><par n="abric__n"/></e>
+<e lm="frac" a="prompsit2uoc"><i>frac</i><par n="abric__n"/></e>
+<e lm="estructuralisme" a="prompsit2uoc"><i>estructuralisme</i><par n="abric__n"/></e>
+<e lm="estofat" a="prompsit2uoc"><i>estofat</i><par n="abric__n"/></e>
+<e lm="endoteli" a="prompsit2uoc"><i>endoteli</i><par n="abric__n"/></e>
+<e lm="dring" a="prompsit2uoc"><i>dring</i><par n="abric__n"/></e>
+<e lm="diplococ" a="prompsit2uoc"><i>diplococ</i><par n="abric__n"/></e>
+<e lm="desfalc" a="prompsit2uoc"><i>desfalc</i><par n="abric__n"/></e>
+<e lm="corm" a="prompsit2uoc"><i>corm</i><par n="abric__n"/></e>
+<e lm="condròcit" a="prompsit2uoc"><i>condròcit</i><par n="abric__n"/></e>
+<e lm="citosquelet" a="prompsit2uoc"><i>citosquelet</i><par n="abric__n"/></e>
+<e lm="camembert" a="prompsit2uoc"><i>camembert</i><par n="abric__n"/></e>
+<e lm="butil" a="prompsit2uoc"><i>butil</i><par n="abric__n"/></e>
+<e lm="autocontrol" a="prompsit2uoc"><i>autocontrol</i><par n="abric__n"/></e>
+<e lm="audiòfon" a="prompsit2uoc"><i>audiòfon</i><par n="abric__n"/></e>
+<e lm="areng" a="prompsit2uoc"><i>areng</i><par n="abric__n"/></e>
+<e lm="anemone" a="prompsit2uoc"><i>anemone</i><par n="accessibilitat__n"/></e>
+<e lm="anemòmetre" a="prompsit2uoc"><i>anemòmetre</i><par n="abric__n"/></e>
+<e lm="alum" a="prompsit2uoc"><i>alum</i><par n="abric__n"/></e>
+<e lm="algutzir" a="prompsit2uoc"><i>algutzir</i><par n="abric__n"/></e>
+<e lm="agutzil" a="prompsit2uoc"><i>agutzil</i><par n="abric__n"/></e>
+<e lm="aglomerant" a="prompsit2uoc"><i>aglomerant</i><par n="abdominal__adj"/></e>
+<e lm="adsorbent" a="prompsit2uoc"><i>adsorbent</i><par n="abdominal__adj"/></e>
+<e lm="trivi" a="prompsit2uoc"><i>trivi</i><par n="abric__n"/></e>
+<e lm="trinat" a="prompsit2uoc"><i>trinat</i><par n="abric__n"/></e>
+<e lm="trímetre" a="prompsit2uoc"><i>trímetre</i><par n="abric__n"/></e>
+<e lm="totemisme" a="prompsit2uoc"><i>totemisme</i><par n="abric__n"/></e>
+<e lm="tallamar" a="prompsit2uoc"><i>tallamar</i><par n="abric__n"/></e>
+<e lm="subterfugi" a="prompsit2uoc"><i>subterfugi</i><par n="abric__n"/></e>
+<e lm="striptease" a="prompsit2uoc"><i>striptease</i><par n="abric__n"/></e>
+<e lm="resistor" a="prompsit2uoc"><i>resistor</i><par n="abric__n"/></e>
+<e lm="rasclet" r="LR" a="prompsit2uoc"><i>rasclet</i><par n="abric__n"/></e>
+<e lm="ràpel" a="prompsit2uoc"><i>ràpel</i><par n="abric__n"/></e>
+<e lm="psicròmetre" a="prompsit2uoc"><i>psicròmetre</i><par n="abric__n"/></e>
+<e lm="prognatisme" a="prompsit2uoc"><i>prognatisme</i><par n="abric__n"/></e>
+<e lm="proemi" a="prompsit2uoc"><i>proemi</i><par n="abric__n"/></e>
+<e lm="possibilisme" a="prompsit2uoc"><i>possibilisme</i><par n="abric__n"/></e>
+<e lm="pòsit" r="LR" a="prompsit2uoc"><i>pòsit</i><par n="abric__n"/></e>
+<e lm="plasmòcit" a="prompsit2uoc"><i>plasmòcit</i><par n="abric__n"/></e>
+<e lm="pedigrí" a="prompsit2uoc"><i>pedigrí</i><par n="abric__n"/></e>
+<e lm="paratiroide" a="prompsit2uoc"><i>paratiroide</i><par n="abric__n"/></e>
+<e lm="paramagnetisme" a="prompsit2uoc"><i>paramagnetisme</i><par n="abric__n"/></e>
+<e lm="paleomagnetisme" a="prompsit2uoc"><i>paleomagnetisme</i><par n="abric__n"/></e>
+<e lm="narcisisme" a="prompsit2uoc"><i>narcisisme</i><par n="abric__n"/></e>
+<e lm="napalm" a="prompsit2uoc"><i>napalm</i><par n="abric__n"/></e>
+<e lm="míldiu" a="prompsit2uoc"><i>míldiu</i><par n="abric__n"/></e>
+<e lm="metacarp" a="prompsit2uoc"><i>metacarp</i><par n="abric__n"/></e>
+<e lm="meconi" a="prompsit2uoc"><i>meconi</i><par n="abric__n"/></e>
+<e lm="manobre" r="LR" a="prompsit2uoc"><i>manobre</i><par n="abric__n"/></e>
+<e lm="mandril" a="prompsit2uoc"><i>mandril</i><par n="abric__n"/></e>
+<e lm="magneto" a="prompsit2uoc"><i>magneto</i><par n="accessibilitat__n"/></e>
+<e lm="macronucli" a="prompsit2uoc"><i>macronucli</i><par n="abric__n"/></e>
+<e lm="injector" a="prompsit2uoc"><i>injector</i><par n="abric__n"/></e>
+<e lm="homopolímer" a="prompsit2uoc"><i>homopolímer</i><par n="abric__n"/></e>
+<e lm="holotip" a="prompsit2uoc"><i>holotip</i><par n="abric__n"/></e>
+<e lm="hiperboloide" a="prompsit2uoc"><i>hiperboloide</i><par n="abric__n"/></e>
+<e lm="heptàgon" a="prompsit2uoc"><i>heptàgon</i><par n="abric__n"/></e>
+<e lm="helmint" a="prompsit2uoc"><i>helmint</i><par n="abric__n"/></e>
+<e lm="gourmet" a="prompsit2uoc"><i>gourmet</i><par n="abric__n"/></e>
+<e lm="glicolípid" a="prompsit2uoc"><i>glicolípid</i><par n="abric__n"/></e>
+<e lm="fiasco" a="prompsit2uoc"><i>fiasco</i><par n="abric__n"/></e>
+<e lm="estèrnum" a="prompsit2uoc"><i>estèrnum</i><par n="abric__n"/></e>
+<e lm="espiritisme" a="prompsit2uoc"><i>espiritisme</i><par n="abric__n"/></e>
+<e lm="espectroscopi" a="prompsit2uoc"><i>espectroscopi</i><par n="abric__n"/></e>
+<e lm="eslip" a="prompsit2uoc"><i>eslip</i><par n="abric__n"/></e>
+<e lm="esfenoide" a="prompsit2uoc"><i>esfenoide</i><par n="abric__n"/></e>
+<e lm="ermini" a="prompsit2uoc"><i>ermini</i><par n="abric__n"/></e>
+<e lm="efluent" a="prompsit2uoc"><i>efluent</i><par n="abric__n"/></e>
+<e lm="digitígrad" a="prompsit2uoc"><i>digitígrad</i><par n="abric__n"/></e>
+<e lm="diàstole" a="prompsit2uoc"><i>diàstole</i><par n="abric__n"/></e>
+<e lm="criptòfit" a="prompsit2uoc"><i>criptòfit</i><par n="abric__n"/></e>
+<e lm="criminòleg" a="prompsit2uoc"><i>criminòl</i><par n="biòl/eg__n"/></e>
+<e lm="col·liri" a="prompsit2uoc"><i>col·liri</i><par n="abric__n"/></e>
+<e lm="celenterat" a="prompsit2uoc"><i>celenterat</i><par n="abric__n"/></e>
+<e lm="carenat" a="prompsit2uoc"><i>carenat</i><par n="abric__n"/></e>
+<e lm="carcanyol" a="prompsit2uoc"><i>carcanyol</i><par n="abric__n"/></e>
+<e lm="anglicisme" a="prompsit2uoc"><i>anglicisme</i><par n="abric__n"/></e>
+<e lm="anèmone" a="prompsit2uoc"><i>anèmone</i><par n="accessibilitat__n"/></e>
+<e lm="amiloide" a="prompsit2uoc"><i>amiloide</i><par n="abric__n"/></e>
+<e lm="abordatge" a="prompsit2uoc"><i>abordatge</i><par n="abric__n"/></e>
+<e lm="verdum" a="prompsit2uoc"><i>verdum</i><par n="abric__n"/></e>
+<e lm="tropisme" a="prompsit2uoc"><i>tropisme</i><par n="abric__n"/></e>
+<e lm="trombòcit" a="prompsit2uoc"><i>trombòcit</i><par n="abric__n"/></e>
+<e lm="trímer" a="prompsit2uoc"><i>trímer</i><par n="abric__n"/></e>
+<e lm="transvestisme" a="prompsit2uoc"><i>transvestisme</i><par n="abric__n"/></e>
+<e lm="transceptor" a="prompsit2uoc"><i>transceptor</i><par n="abric__n"/></e>
+<e lm="trago" r="LR" a="prompsit2uoc"><i>trago</i><par n="abric__n"/></e>
+<e lm="tiberi" r="LR" a="prompsit2uoc"><i>tiberi</i><par n="abric__n"/></e>
+<e lm="taoisme" a="prompsit2uoc"><i>taoisme</i><par n="abric__n"/></e>
+<e lm="subprojecte" a="prompsit2uoc"><i>subprojecte</i><par n="abric__n"/></e>
+<e lm="submòdul" a="prompsit2uoc"><i>submòdul</i><par n="abric__n"/></e>
+<e lm="subcanal" a="prompsit2uoc"><i>subcanal</i><par n="abric__n"/></e>
+<e lm="somnambulisme" a="prompsit2uoc"><i>somnambulisme</i><par n="abric__n"/></e>
+<e lm="sismògraf" a="prompsit2uoc"><i>sismògraf</i><par n="abric__n"/></e>
+<e lm="sicòmor" a="prompsit2uoc"><i>sicòmor</i><par n="abric__n"/></e>
+<e lm="segregacionisme" a="prompsit2uoc"><i>segregacionisme</i><par n="abric__n"/></e>
+<e lm="saturnisme" a="prompsit2uoc"><i>saturnisme</i><par n="abric__n"/></e>
+<e lm="salmer" a="prompsit2uoc"><i>salmer</i><par n="abric__n"/></e>
+<e lm="reny" a="prompsit2uoc"><i>reny</i><par n="abric__n"/></e>
+<e lm="redescompte" a="prompsit2uoc"><i>redescompte</i><par n="abric__n"/></e>
+<e lm="quelat" a="prompsit2uoc"><i>quelat</i><par n="abric__n"/></e>
+<e lm="puf" a="prompsit2uoc"><i>puf</i><par n="abric__n"/></e>
+<e lm="pneumococ" a="prompsit2uoc"><i>pneumococ</i><par n="abric__n"/></e>
+<e lm="plugim" a="prompsit2uoc"><i>plugim</i><par n="abric__n"/></e>
+<e lm="pleonasme" a="prompsit2uoc"><i>pleonasme</i><par n="abric__n"/></e>
+<e lm="platet" r="LR" a="prompsit2uoc"><i>platet</i><par n="abric__n"/></e>
+<e lm="pitet" a="prompsit2uoc"><i>pitet</i><par n="abric__n"/></e>
+<e lm="peto" a="prompsit2uoc"><i>peto</i><par n="abric__n"/></e>
+<e lm="pericondri" a="prompsit2uoc"><i>pericondri</i><par n="abric__n"/></e>
+<e lm="pedrer" a="prompsit2uoc"><i>pedrer</i><par n="abric__n"/></e>
+<e lm="paperet" a="prompsit2uoc"><i>paperet</i><par n="abric__n"/></e>
+<e lm="oligosacàrid" a="prompsit2uoc"><i>oligosacàrid</i><par n="abric__n"/></e>
+<e lm="octant" a="prompsit2uoc"><i>octant</i><par n="abric__n"/></e>
+<e lm="monolingüisme" a="prompsit2uoc"><i>monolingüisme</i><par n="abric__n"/></e>
+<e lm="mil·lenarisme" a="prompsit2uoc"><i>mil·lenarisme</i><par n="abric__n"/></e>
+<e lm="microfilm" a="prompsit2uoc"><i>microfilm</i><par n="abric__n"/></e>
+<e lm="mesencèfal" a="prompsit2uoc"><i>mesencèfal</i><par n="abric__n"/></e>
+<e lm="megacariòcit" a="prompsit2uoc"><i>megacariòcit</i><par n="abric__n"/></e>
+<e lm="masseter" a="prompsit2uoc"><i>masseter</i><par n="abric__n"/></e>
+<e lm="marrec" r="LR" a="prompsit2uoc"><i>marrec</i><par n="abric__n"/></e>
+<e lm="làrix" a="prompsit2uoc"><i>làrix</i><par n="abric__n"/></e>
+<e lm="lamarckisme" a="prompsit2uoc"><i>lamarckisme</i><par n="abric__n"/></e>
+<e lm="jumbo" a="prompsit2uoc"><i>jumbo</i><par n="abric__n"/></e>
+<e lm="hològraf" a="prompsit2uoc"><i>hològraf</i><par n="absolut__adj"/></e>
+<e lm="granulòcit" a="prompsit2uoc"><i>granulòcit</i><par n="abric__n"/></e>
+<e lm="gatet" a="prompsit2uoc"><i>gatet</i><par n="senyor__n"/></e>
+<e lm="funicle" a="prompsit2uoc"><i>funicle</i><par n="abric__n"/></e>
+<e lm="fregall" a="prompsit2uoc"><i>fregall</i><par n="abric__n"/></e>
+<e lm="formulisme" a="prompsit2uoc"><i>formulisme</i><par n="abric__n"/></e>
+<e lm="existencialisme" a="prompsit2uoc"><i>existencialisme</i><par n="abric__n"/></e>
+<e lm="ètim" a="prompsit2uoc"><i>ètim</i><par n="abric__n"/></e>
+<e lm="estrip" a="prompsit2uoc"><i>estrip</i><par n="abric__n"/></e>
+<e lm="èster" a="prompsit2uoc"><i>èster</i><par n="abric__n"/></e>
+<e lm="espermatòfit" a="prompsit2uoc"><i>espermatòfit</i><par n="abric__n"/></e>
+<e lm="espermatòcit" a="prompsit2uoc"><i>espermatòcit</i><par n="abric__n"/></e>
+<e lm="erbi" a="prompsit2uoc"><i>erbi</i><par n="abric__n"/></e>
+<e lm="epicureisme" a="prompsit2uoc"><i>epicureisme</i><par n="abric__n"/></e>
+<e lm="encèfal" a="prompsit2uoc"><i>encèfal</i><par n="abric__n"/></e>
+<e lm="diencèfal" a="prompsit2uoc"><i>diencèfal</i><par n="abric__n"/></e>
+<e lm="cúter" a="prompsit2uoc"><i>cúter</i><par n="abric__n"/></e>
+<e lm="cori" a="prompsit2uoc"><i>cori</i><par n="abric__n"/></e>
+<e lm="cobrellit" a="prompsit2uoc"><i>cobrellit</i><par n="abric__n"/></e>
+<e lm="caixmir" a="prompsit2uoc"><i>caixmir</i><par n="abric__n"/></e>
+<e lm="bronquíol" a="prompsit2uoc"><i>bronquíol</i><par n="abric__n"/></e>
+<e lm="batall" a="prompsit2uoc"><i>batall</i><par n="abric__n"/></e>
+<e lm="assot" a="prompsit2uoc"><i>assot</i><par n="abric__n"/></e>
+<e lm="aragonesisme" a="prompsit2uoc"><i>aragonesisme</i><par n="abric__n"/></e>
+<e lm="ajustatge" r="LR" a="prompsit2uoc"><i>ajustatge</i><par n="abric__n"/></e>
+<e lm="aïllacionisme" a="prompsit2uoc"><i>aïllacionisme</i><par n="abric__n"/></e>
+<e lm="agnosticisme" a="prompsit2uoc"><i>agnosticisme</i><par n="abric__n"/></e>
+<e lm="xantre" a="prompsit2uoc"><i>xantre</i><par n="abric__n"/></e>
+<e lm="verbalisme" a="prompsit2uoc"><i>verbalisme</i><par n="abric__n"/></e>
+<e lm="velocímetre" a="prompsit2uoc"><i>velocímetre</i><par n="abric__n"/></e>
+<e lm="universalisme" a="prompsit2uoc"><i>universalisme</i><par n="abric__n"/></e>
+<e lm="tiristor" a="prompsit2uoc"><i>tiristor</i><par n="abric__n"/></e>
+<e lm="testatge" a="prompsit2uoc"><i>testatge</i><par n="abric__n"/></e>
+<e lm="teodolit" a="prompsit2uoc"><i>teodolit</i><par n="abric__n"/></e>
+<e lm="tacòmetre" a="prompsit2uoc"><i>tacòmetre</i><par n="abric__n"/></e>
+<e lm="subtrahend" a="prompsit2uoc"><i>subtrahend</i><par n="abric__n"/></e>
+<e lm="sobrepasturatge" a="prompsit2uoc"><i>sobrepasturatge</i><par n="abric__n"/></e>
+<e lm="setter" a="prompsit2uoc"><i>setter</i><par n="abric__n"/></e>
+<e lm="rift" a="prompsit2uoc"><i>rift</i><par n="abric__n"/></e>
+<e lm="recuit" a="prompsit2uoc"><i>recuit</i><par n="abric__n"/></e>
+<e lm="radionúclid" a="prompsit2uoc"><i>radionúclid</i><par n="abric__n"/></e>
+<e lm="radioemissor" a="prompsit2uoc"><i>radioemissor</i><par n="abric__n"/></e>
+<e lm="quiasme" a="prompsit2uoc"><i>quiasme</i><par n="abric__n"/></e>
+<e lm="pupitre" a="prompsit2uoc"><i>pupitre</i><par n="abric__n"/></e>
+<e lm="psiquisme" a="prompsit2uoc"><i>psiquisme</i><par n="abric__n"/></e>
+<e lm="perspectivisme" a="prompsit2uoc"><i>perspectivisme</i><par n="abric__n"/></e>
+<e lm="pergelisòl" a="prompsit2uoc"><i>pergelisòl</i><par n="abric__n"/></e>
+<e lm="pentàmetre" a="prompsit2uoc"><i>pentàmetre</i><par n="abric__n"/></e>
+<e lm="pantògraf" a="prompsit2uoc"><i>pantògraf</i><par n="abric__n"/></e>
+<e lm="ovòcit" a="prompsit2uoc"><i>ovòcit</i><par n="abric__n"/></e>
+<e lm="osteòcit" a="prompsit2uoc"><i>osteòcit</i><par n="abric__n"/></e>
+<e lm="osmi" a="prompsit2uoc"><i>osmi</i><par n="abric__n"/></e>
+<e lm="òpal" a="prompsit2uoc"><i>òpal</i><par n="abric__n"/></e>
+<e lm="nobeli" a="prompsit2uoc"><i>nobeli</i><par n="abric__n"/></e>
+<e lm="monetarisme" a="prompsit2uoc"><i>monetarisme</i><par n="abric__n"/></e>
+<e lm="mirtil" a="prompsit2uoc"><i>mirtil</i><par n="abric__n"/></e>
+<e lm="messianisme" a="prompsit2uoc"><i>messianisme</i><par n="abric__n"/></e>
+<e lm="masoquisme" a="prompsit2uoc"><i>masoquisme</i><par n="abric__n"/></e>
+<e lm="mangle" a="prompsit2uoc"><i>mangle</i><par n="abric__n"/></e>
+<e lm="maire" a="prompsit2uoc"><i>maire</i><par n="accessibilitat__n"/></e>
+<e lm="itri" a="prompsit2uoc"><i>itri</i><par n="abric__n"/></e>
+<e lm="idiolecte" a="prompsit2uoc"><i>idiolecte</i><par n="abric__n"/></e>
+<e lm="historiògraf" a="prompsit2uoc"><i>historiògraf</i><par n="abric__n"/></e>
+<e lm="higròmetre" a="prompsit2uoc"><i>higròmetre</i><par n="abric__n"/></e>
+<e lm="hel·lenisme" a="prompsit2uoc"><i>hel·lenisme</i><par n="abric__n"/></e>
+<e lm="granet" r="LR" a="prompsit2uoc"><i>granet</i><par n="abric__n"/></e>
+<e lm="gramatge" a="prompsit2uoc"><i>gramatge</i><par n="abric__n"/></e>
+<e lm="gobelet" a="prompsit2uoc"><i>gobelet</i><par n="abric__n"/></e>
+<e lm="geosinònim" a="prompsit2uoc"><i>geosinònim</i><par n="abric__n"/></e>
+<e lm="gametòcit" a="prompsit2uoc"><i>gametòcit</i><par n="abric__n"/></e>
+<e lm="flòcul" a="prompsit2uoc"><i>flòcul</i><par n="abric__n"/></e>
+<e lm="farcell" a="prompsit2uoc"><i>farcell</i><par n="abric__n"/></e>
+<e lm="europi" a="prompsit2uoc"><i>europi</i><par n="abric__n"/></e>
+<e lm="estereoscopi" a="prompsit2uoc"><i>estereoscopi</i><par n="abric__n"/></e>
+<e lm="estator" a="prompsit2uoc"><i>estator</i><par n="abric__n"/></e>
+<e lm="esnob" a="prompsit2uoc"><i>esnob</i><par n="abric__n"/></e>
+<e lm="escrot" a="prompsit2uoc"><i>escrot</i><par n="abric__n"/></e>
+<e lm="escorranc" r="LR" a="prompsit2uoc"><i>escorranc</i><par n="abric__n"/></e>
+<e lm="endocarpi" a="prompsit2uoc"><i>endocarpi</i><par n="abric__n"/></e>
+<e lm="encenall" a="prompsit2uoc"><i>encenall</i><par n="abric__n"/></e>
+<e lm="elitisme" a="prompsit2uoc"><i>elitisme</i><par n="abric__n"/></e>
+<e lm="efector" a="prompsit2uoc"><i>efector</i><par n="abric__n"/></e>
+<e lm="dosímetre" a="prompsit2uoc"><i>dosímetre</i><par n="abric__n"/></e>
+<e lm="difusionisme" a="prompsit2uoc"><i>difusionisme</i><par n="abric__n"/></e>
+<e lm="cupido" a="prompsit2uoc"><i>cupido</i><par n="abric__n"/></e>
+<e lm="coloret" a="prompsit2uoc"><i>coloret</i><par n="abric__n"/></e>
+<e lm="clíper" a="prompsit2uoc"><i>clíper</i><par n="abric__n"/></e>
+<e lm="cervatell" a="prompsit2uoc"><i>cervatell</i><par n="abric__n"/></e>
+<e lm="brotxatge" a="prompsit2uoc"><i>brotxatge</i><par n="abric__n"/></e>
+<e lm="bisturí" a="prompsit2uoc"><i>bisturí</i><par n="abric__n"/></e>
+<e lm="beixamel" a="prompsit2uoc"><i>beixamel</i><par n="accessibilitat__n"/></e>
+<e lm="azimut" a="prompsit2uoc"><i>azimut</i><par n="abric__n"/></e>
+<e lm="astròcit" a="prompsit2uoc"><i>astròcit</i><par n="abric__n"/></e>
+<e lm="aspersor" a="prompsit2uoc"><i>aspersor</i><par n="abric__n"/></e>
+<e lm="aquàrium" r="LR" a="prompsit2uoc"><i>aquàrium</i><par n="abric__n"/></e>
+<e lm="anafilaxi" a="prompsit2uoc"><i>anafilaxi</i><par n="accessibilitat__n"/></e>
+<e lm="amateurisme" a="prompsit2uoc"><i>amateurisme</i><par n="abric__n"/></e>
+<e lm="altruisme" a="prompsit2uoc"><i>altruisme</i><par n="abric__n"/></e>
+<e lm="aiguaneu" a="prompsit2uoc"><i>aiguaneu</i><par n="accessibilitat__n"/></e>
+<e lm="acònit" a="prompsit2uoc"><i>acònit</i><par n="abric__n"/></e>
+<e lm="acant" a="prompsit2uoc"><i>acant</i><par n="abric__n"/></e>
+<e lm="zàping" a="prompsit2uoc"><i>zàping</i><par n="abric__n"/></e>
+<e lm="xeròfit" a="prompsit2uoc"><i>xeròfit</i><par n="abric__n"/></e>
+<e lm="xancre" a="prompsit2uoc"><i>xancre</i><par n="abric__n"/></e>
+<e lm="walkie-talkie" a="prompsit2uoc"><i>walkie-talkie</i><par n="abric__n"/></e>
+<e lm="velocípede" a="prompsit2uoc"><i>velocípede</i><par n="abric__n"/></e>
+<e lm="unitarisme" a="prompsit2uoc"><i>unitarisme</i><par n="abric__n"/></e>
+<e lm="trofozoït" a="prompsit2uoc"><i>trofozoït</i><par n="abric__n"/></e>
+<e lm="tríode" a="prompsit2uoc"><i>tríode</i><par n="abric__n"/></e>
+<e lm="tornejat" a="prompsit2uoc"><i>tornejat</i><par n="abric__n"/></e>
+<e lm="tomisme" a="prompsit2uoc"><i>tomisme</i><par n="abric__n"/></e>
+<e lm="termògraf" a="prompsit2uoc"><i>termògraf</i><par n="abric__n"/></e>
+<e lm="statvolt" a="prompsit2uoc"><i>statvolt</i><par n="abric__n"/></e>
+<e lm="sauri" a="prompsit2uoc"><i>sauri</i><par n="abric__n"/></e>
+<e lm="saltiri" a="prompsit2uoc"><i>saltiri</i><par n="abric__n"/></e>
+<e lm="roleu" a="prompsit2uoc"><i>roleu</i><par n="abric__n"/></e>
+<e lm="resolvent" a="prompsit2uoc"><i>resolvent</i><par n="abdominal__adj"/></e>
+<e lm="regatge" a="prompsit2uoc"><i>regatge</i><par n="abric__n"/></e>
+<e lm="reactant" a="prompsit2uoc"><i>reactant</i><par n="abric__n"/></e>
+<e lm="ranuncle" a="prompsit2uoc"><i>ranuncle</i><par n="abric__n"/></e>
+<e lm="púding" a="prompsit2uoc"><i>púding</i><par n="abric__n"/></e>
+<e lm="prosencèfal" a="prompsit2uoc"><i>prosencèfal</i><par n="abric__n"/></e>
+<e lm="propè" a="prompsit2uoc"><i>propè</i><par n="abric__n"/></e>
+<e lm="premsatge" a="prompsit2uoc"><i>premsatge</i><par n="abric__n"/></e>
+<e lm="poti-poti" r="LR" a="prompsit2uoc"><i>poti-poti</i><par n="abric__n"/></e>
+<e lm="poliester" a="prompsit2uoc"><i>poliester</i><par n="abric__n"/></e>
+<e lm="pirenoide" a="prompsit2uoc"><i>pirenoide</i><par n="abric__n"/></e>
+<e lm="picofarad" a="prompsit2uoc"><i>picofarad</i><par n="abric__n"/></e>
+<e lm="pellaire" r="LR" a="prompsit2uoc"><i>pellaire</i><par n="abric__n"/></e>
+<e lm="pastoralisme" a="prompsit2uoc"><i>pastoralisme</i><par n="abric__n"/></e>
+<e lm="oxímoron" a="prompsit2uoc"><i>oxímoron</i><par n="abric__n"/></e>
+<e lm="oviducte" a="prompsit2uoc"><i>oviducte</i><par n="abric__n"/></e>
+<e lm="organicisme" a="prompsit2uoc"><i>organicisme</i><par n="abric__n"/></e>
+<e lm="odèon" a="prompsit2uoc"><i>odèon</i><par n="abric__n"/></e>
+<e lm="nivòmetre" a="prompsit2uoc"><i>nivòmetre</i><par n="abric__n"/></e>
+<e lm="neofeixisme" a="prompsit2uoc"><i>neofeixisme</i><par n="abric__n"/></e>
+<e lm="multímetre" a="prompsit2uoc"><i>multímetre</i><par n="abric__n"/></e>
+<e lm="monocarril" a="prompsit2uoc"><i>monocarril</i><par n="abric__n"/></e>
+<e lm="matricidi" a="prompsit2uoc"><i>matricidi</i><par n="abric__n"/></e>
+<e lm="maniguet" a="prompsit2uoc"><i>maniguet</i><par n="abric__n"/></e>
+<e lm="líber" a="prompsit2uoc"><i>líber</i><par n="abric__n"/></e>
+<e lm="interfluvi" a="prompsit2uoc"><i>interfluvi</i><par n="abric__n"/></e>
+<e lm="goniòmetre" a="prompsit2uoc"><i>goniòmetre</i><par n="abric__n"/></e>
+<e lm="germanisme" a="prompsit2uoc"><i>germanisme</i><par n="abric__n"/></e>
+<e lm="gasejat" a="prompsit2uoc"><i>gasejat</i><par n="abric__n"/></e>
+<e lm="fagòcit" a="prompsit2uoc"><i>fagòcit</i><par n="abric__n"/></e>
+<e lm="etnocentrisme" a="prompsit2uoc"><i>etnocentrisme</i><par n="abric__n"/></e>
+<e lm="estupre" a="prompsit2uoc"><i>estupre</i><par n="abric__n"/></e>
+<e lm="estetoscopi" a="prompsit2uoc"><i>estetoscopi</i><par n="abric__n"/></e>
+<e lm="esquizoide" a="prompsit2uoc"><i>esquizoide</i><par n="abdominal__adj"/></e>
+<e lm="espiritualisme" a="prompsit2uoc"><i>espiritualisme</i><par n="abric__n"/></e>
+<e lm="espectrofotòmetre" a="prompsit2uoc"><i>espectrofotòmetre</i><par n="abric__n"/></e>
+<e lm="epitalami" a="prompsit2uoc"><i>epitalami</i><par n="abric__n"/></e>
+<e lm="epimorfisme" a="prompsit2uoc"><i>epimorfisme</i><par n="abric__n"/></e>
+<e lm="empostissat" a="prompsit2uoc"><i>empostissat</i><par n="abric__n"/></e>
+<e lm="emplastre" a="prompsit2uoc"><i>emplastre</i><par n="abric__n"/></e>
+<e lm="electròmetre" a="prompsit2uoc"><i>electròmetre</i><par n="abric__n"/></e>
+<e lm="duròmetre" a="prompsit2uoc"><i>duròmetre</i><par n="abric__n"/></e>
+<e lm="dodecaedre" a="prompsit2uoc"><i>dodecaedre</i><par n="abric__n"/></e>
+<e lm="diverticle" a="prompsit2uoc"><i>diverticle</i><par n="abric__n"/></e>
+<e lm="dinamòmetre" a="prompsit2uoc"><i>dinamòmetre</i><par n="abric__n"/></e>
+<e lm="digestor" a="prompsit2uoc"><i>digestor</i><par n="abric__n"/></e>
+<e lm="descàrrec" a="prompsit2uoc"><i>descàrrec</i><par n="abric__n"/></e>
+<e lm="defoliant" a="prompsit2uoc"><i>defoliant</i><par n="abric__n"/></e>
+<e lm="dandi" a="prompsit2uoc"><i>dandi</i><par n="abric__n"/></e>
+<e lm="copet" a="prompsit2uoc"><i>copet</i><par n="abric__n"/></e>
+<e lm="copal" a="prompsit2uoc"><i>copal</i><par n="abric__n"/></e>
+<e lm="contraxapat" a="prompsit2uoc"><i>contraxapat</i><par n="abric__n"/></e>
+<e lm="contraplacat" r="LR" a="prompsit2uoc"><i>contraplacat</i><par n="abric__n"/></e>
+<e lm="còlquic" a="prompsit2uoc"><i>còlquic</i><par n="abric__n"/></e>
+<e lm="codolar" a="prompsit2uoc"><i>codolar</i><par n="abric__n"/></e>
+<e lm="clivellar" a="prompsit2uoc">        <i>clivell</i>        <par n="abander/ar__vblex"/>      </e>
+
+<e lm="clericalisme" a="prompsit2uoc"><i>clericalisme</i><par n="abric__n"/></e>
+<e lm="cladisme" a="prompsit2uoc"><i>cladisme</i><par n="abric__n"/></e>
+<e lm="centilitre" a="prompsit2uoc"><i>centilitre</i><par n="abric__n"/></e>
+<e lm="cabriolé" a="prompsit2uoc"><i>cabriolé</i><par n="abric__n"/></e>
+<e lm="buldòzer" a="prompsit2uoc"><i>buldòzer</i><par n="abric__n"/></e>
+<e lm="bioritme" a="prompsit2uoc"><i>bioritme</i><par n="abric__n"/></e>
+<e lm="biopolímer" a="prompsit2uoc"><i>biopolímer</i><par n="abric__n"/></e>
+<e lm="antropocentrisme" a="prompsit2uoc"><i>antropocentrisme</i><par n="abric__n"/></e>
+<e lm="altocúmul" a="prompsit2uoc"><i>altocúmul</i><par n="abric__n"/></e>
+<e lm="africanisme" a="prompsit2uoc"><i>africanisme</i><par n="abric__n"/></e>
+<e lm="aerògraf" a="prompsit2uoc"><i>aerògraf</i><par n="abric__n"/></e>
+<e lm="actini" a="prompsit2uoc"><i>actini</i><par n="abric__n"/></e>
+<e lm="acromi" a="prompsit2uoc"><i>acromi</i><par n="abric__n"/></e>
+<e lm="varactor" a="prompsit2uoc"><i>varactor</i><par n="abric__n"/></e>
+<e lm="trocoide" a="prompsit2uoc"><i>trocoide</i><par n="accessibilitat__n"/></e>
+<e lm="termohigròmetre" a="prompsit2uoc"><i>termohigròmetre</i><par n="abric__n"/></e>
+<e lm="tenesme" a="prompsit2uoc"><i>tenesme</i><par n="abric__n"/></e>
+<e lm="sociologisme" a="prompsit2uoc"><i>sociologisme</i><par n="abric__n"/></e>
+<e lm="sigmoide" a="prompsit2uoc"><i>sigmoide</i><par n="abdominal__adj"/></e>
+<e lm="servomecanisme" a="prompsit2uoc"><i>servomecanisme</i><par n="abric__n"/></e>
+<e lm="sensualisme" a="prompsit2uoc"><i>sensualisme</i><par n="abric__n"/></e>
+<e lm="sarcòmer" a="prompsit2uoc"><i>sarcòmer</i><par n="abric__n"/></e>
+<e lm="ruptor" a="prompsit2uoc"><i>ruptor</i><par n="abric__n"/></e>
+<e lm="rotacisme" a="prompsit2uoc"><i>rotacisme</i><par n="abric__n"/></e>
+<e lm="ritualisme" a="prompsit2uoc"><i>ritualisme</i><par n="abric__n"/></e>
+<e lm="reticulòcit" a="prompsit2uoc"><i>reticulòcit</i><par n="abric__n"/></e>
+<e lm="regalisme" a="prompsit2uoc"><i>regalisme</i><par n="abric__n"/></e>
+<e lm="rebobinatge" a="prompsit2uoc"><i>rebobinatge</i><par n="abric__n"/></e>
+<e lm="quilopond" a="prompsit2uoc"><i>quilopond</i><par n="abric__n"/></e>
+<e lm="queloide" a="prompsit2uoc"><i>queloide</i><par n="abric__n"/></e>
+<e lm="quadrangle" a="prompsit2uoc"><i>quadrangle</i><par n="abric__n"/></e>
+<e lm="polisíl·lab" a="prompsit2uoc"><i>polisíl·lab</i><par n="absolut__adj"/></e>
+<e lm="polarímetre" a="prompsit2uoc"><i>polarímetre</i><par n="abric__n"/></e>
+<e lm="piròmetre" a="prompsit2uoc"><i>piròmetre</i><par n="abric__n"/></e>
+<e lm="piranòmetre" a="prompsit2uoc"><i>piranòmetre</i><par n="abric__n"/></e>
+<e lm="perineuri" a="prompsit2uoc"><i>perineuri</i><par n="abric__n"/></e>
+<e lm="pericrani" a="prompsit2uoc"><i>pericrani</i><par n="abric__n"/></e>
+<e lm="ostíol" a="prompsit2uoc"><i>ostíol</i><par n="abric__n"/></e>
+<e lm="oftalmoscopi" a="prompsit2uoc"><i>oftalmoscopi</i><par n="abric__n"/></e>
+<e lm="mucílag" a="prompsit2uoc"><i>mucílag</i><par n="abric__n"/></e>
+<e lm="mononucleòtid" a="prompsit2uoc"><i>mononucleòtid</i><par n="abric__n"/></e>
+<e lm="monocle" a="prompsit2uoc"><i>monocle</i><par n="abric__n"/></e>
+<e lm="modíol" a="prompsit2uoc"><i>modíol</i><par n="abric__n"/></e>
+<e lm="moaré" a="prompsit2uoc"><i>moaré</i><par n="abric__n"/></e>
+<e lm="mielencèfal" a="prompsit2uoc"><i>mielencèfal</i><par n="abric__n"/></e>
+<e lm="marxandatge" a="prompsit2uoc"><i>marxandatge</i><par n="abric__n"/></e>
+<e lm="mendelevi" a="prompsit2uoc"><i>mendelevi</i><par n="abric__n"/></e>
+<e lm="maxwell" a="prompsit2uoc"><i>maxwell</i><par n="abric__n"/></e>
+<e lm="lobel" a="prompsit2uoc"><i>lobel</i><par n="abric__n"/></e>
+<e lm="linòleum" a="prompsit2uoc"><i>linòleum</i><par n="abric__n"/></e>
+<e lm="linier" a="prompsit2uoc"><i>linier</i><par n="abric__n"/></e>
+<e lm="lamel·libranqui" a="prompsit2uoc"><i>lamel·libranqui</i><par n="abric__n"/></e>
+<e lm="jaqué" a="prompsit2uoc"><i>jaqué</i><par n="abric__n"/></e>
+<e lm="isqui" a="prompsit2uoc"><i>isqui</i><par n="abric__n"/></e>
+<e lm="inòcul" a="prompsit2uoc"><i>inòcul</i><par n="abric__n"/></e>
+<e lm="infanticidi" a="prompsit2uoc"><i>infanticidi</i><par n="abric__n"/></e>
+<e lm="iambe" a="prompsit2uoc"><i>iambe</i><par n="abric__n"/></e>
+<e lm="histiòcit" a="prompsit2uoc"><i>histiòcit</i><par n="abric__n"/></e>
+<e lm="hisop" a="prompsit2uoc"><i>hisop</i><par n="abric__n"/></e>
+<e lm="haustori" a="prompsit2uoc"><i>haustori</i><par n="abric__n"/></e>
+<e lm="guarisme" a="prompsit2uoc"><i>guarisme</i><par n="abric__n"/></e>
+<e lm="goni" a="prompsit2uoc"><i>goni</i><par n="abric__n"/></e>
+<e lm="gnati" a="prompsit2uoc"><i>gnati</i><par n="abric__n"/></e>
+<e lm="glicol" a="prompsit2uoc"><i>glicol</i><par n="abric__n"/></e>
+<e lm="geòfit" a="prompsit2uoc"><i>geòfit</i><par n="abric__n"/></e>
+<e lm="galze" a="prompsit2uoc"><i>galze</i><par n="abric__n"/></e>
+<e lm="fratricidi" a="prompsit2uoc"><i>fratricidi</i><par n="abric__n"/></e>
+<e lm="franklin" a="prompsit2uoc"><i>franklin</i><par n="abric__n"/></e>
+<e lm="fotòmetre" a="prompsit2uoc"><i>fotòmetre</i><par n="abric__n"/></e>
+<e lm="finalisme" a="prompsit2uoc"><i>finalisme</i><par n="abric__n"/></e>
+<e lm="etil" a="prompsit2uoc"><i>etil</i><par n="abric__n"/></e>
+<e lm="esteticisme" a="prompsit2uoc"><i>esteticisme</i><par n="abric__n"/></e>
+<e lm="espiell" a="prompsit2uoc"><i>espiell</i><par n="abric__n"/></e>
+<e lm="espermatogoni" a="prompsit2uoc"><i>espermatogoni</i><par n="abric__n"/></e>
+<e lm="escombratge" a="prompsit2uoc"><i>escombratge</i><par n="abric__n"/></e>
+<e lm="epicicloide" a="prompsit2uoc"><i>epicicloide</i><par n="accessibilitat__n"/></e>
+<e lm="epicarpi" a="prompsit2uoc"><i>epicarpi</i><par n="abric__n"/></e>
+<e lm="enteròcit" a="prompsit2uoc"><i>enteròcit</i><par n="abric__n"/></e>
+<e lm="emmental" a="prompsit2uoc"><i>emmental</i><par n="abric__n"/></e>
+<e lm="elastòmer" a="prompsit2uoc"><i>elastòmer</i><par n="abric__n"/></e>
+<e lm="driblatge" r="LR" a="prompsit2uoc"><i>driblatge</i><par n="abric__n"/></e>
+<e lm="diluent" a="prompsit2uoc"><i>diluent</i><par n="abric__n"/></e>
+<e lm="desviacionisme" a="prompsit2uoc"><i>desviacionisme</i><par n="abric__n"/></e>
+<e lm="derrotisme" a="prompsit2uoc"><i>derrotisme</i><par n="abric__n"/></e>
+<e lm="decapant" a="prompsit2uoc"><i>decapant</i><par n="abric__n"/></e>
+<e lm="culet" a="prompsit2uoc"><i>culet</i><par n="abric__n"/></e>
+<e lm="cromatògraf" a="prompsit2uoc"><i>cromatògraf</i><par n="abric__n"/></e>
+<e lm="cosset" a="prompsit2uoc" r="RL"><i>cosset</i><par n="abric__n"/></e>
+<e lm="contraceptiu" a="prompsit2uoc"><i>contracepti</i><par n="abusi/u__adj"/></e>
+<e lm="consonantisme" a="prompsit2uoc"><i>consonantisme</i><par n="abric__n"/></e>
+<e lm="comercialisme" a="prompsit2uoc"><i>comercialisme</i><par n="abric__n"/></e>
+<e lm="citostàtic" a="prompsit2uoc"><i>citostàti</i><par n="acadèmi/c__adj"/></e>
+<e lm="catetòmetre" a="prompsit2uoc"><i>catetòmetre</i><par n="abric__n"/></e>
+<e lm="calostre" a="prompsit2uoc"><i>calostre</i><par n="abric__n"/></e>
+<e lm="cabestrell" a="prompsit2uoc"><i>cabestrell</i><par n="abric__n"/></e>
+<e lm="cabestre" a="prompsit2uoc"><i>cabestre</i><par n="abric__n"/></e>
+<e lm="bungalow" a="prompsit2uoc"><i>bungalow</i><par n="abric__n"/></e>
+<e lm="bonapartisme" a="prompsit2uoc"><i>bonapartisme</i><par n="abric__n"/></e>
+<e lm="biotip" a="prompsit2uoc"><i>biotip</i><par n="abric__n"/></e>
+<e lm="bicameralisme" a="prompsit2uoc"><i>bicameralisme</i><par n="abric__n"/></e>
+<e lm="besuc" a="prompsit2uoc"><i>besuc</i><par n="abric__n"/></e>
+<e lm="becquerel" a="prompsit2uoc"><i>becquerel</i><par n="abric__n"/></e>
+<e lm="barògraf" a="prompsit2uoc"><i>barògraf</i><par n="abric__n"/></e>
+<e lm="autoestop" a="prompsit2uoc"><i>autoestop</i><par n="abric__n"/></e>
+<e lm="atomisme" a="prompsit2uoc"><i>atomisme</i><par n="abric__n"/></e> 
+<e lm="assemblatge" a="prompsit2uoc"><i>assemblatge</i><par n="abric__n"/></e>
+<e lm="apriorisme" a="prompsit2uoc"><i>apriorisme</i><par n="abric__n"/></e>
+<e lm="apòsit" a="prompsit2uoc"><i>apòsit</i><par n="abric__n"/></e>
+<e lm="anemògraf" a="prompsit2uoc"><i>anemògraf</i><par n="abric__n"/></e>
+<e lm="ampere" a="prompsit2uoc"><i>ampere</i><par n="abric__n"/></e>
+<e lm="almesc" a="prompsit2uoc"><i>almesc</i><par n="abric__n"/></e>
+<e lm="alçaprem" r="LR" a="prompsit2uoc"><i>alçaprem</i><par n="abric__n"/></e>
+<e lm="aiguamel" a="prompsit2uoc"><i>aiguamel</i><par n="accessibilitat__n"/></e>
+<e lm="acme" a="prompsit2uoc"><i>acme</i><par n="abric__n"/></e>
+<e lm="acetàbul" a="prompsit2uoc"><i>acetàbul</i><par n="abric__n"/></e>
+
+
+<!-- noves abella-->
+
+<e lm="còpula" a="prompsit2uoc"><i>còpul</i><par n="abell/a__n"/></e>
+<e lm="sàtrapa" a="prompsit2uoc"><i>sàtrap</i><par n="abell/a__n"/></e>
+<e lm="pròstata" a="prompsit2uoc"><i>pròstat</i><par n="abell/a__n"/></e>
+<e lm="nebulosa" a="prompsit2uoc"><i>nebulos</i><par n="abell/a__n"/></e>
+<e lm="beta" a="prompsit2uoc"><i>bet</i><par n="abell/a__n"/></e>
+<e lm="alfa" a="prompsit2uoc"><i>alf</i><par n="abell/a__n"/></e>
+<e lm="sonata" a="prompsit2uoc"><i>sonat</i><par n="abell/a__n"/></e>
+<e lm="curvatura" a="prompsit2uoc"><i>curvatur</i><par n="abell/a__n"/></e>
+<e lm="cascada" a="prompsit2uoc"><i>cascad</i><par n="abell/a__n"/></e>
+<e lm="vil·la" a="prompsit2uoc"><i>vil·l</i><par n="abell/a__n"/></e>
+<e lm="magistratura" a="prompsit2uoc"><i>magistratur</i><par n="abell/a__n"/></e>
+<e lm="porpra" a="prompsit2uoc"><i>porpr</i><par n="abell/a__n"/></e>
+<e lm="cantata" a="prompsit2uoc"><i>cantat</i><par n="abell/a__n"/></e>
+<e lm="corol·la" a="prompsit2uoc"><i>corol·l</i><par n="abell/a__n"/></e>
+<e lm="ferradura" a="prompsit2uoc"><i>ferradur</i><par n="abell/a__n"/></e>
+<e lm="cripta" a="prompsit2uoc"><i>cript</i><par n="abell/a__n"/></e>
+<e lm="resclosa" a="prompsit2uoc"><i>resclos</i><par n="abell/a__n"/></e>
+<e lm="lava" a="prompsit2uoc"><i>lav</i><par n="abell/a__n"/></e>
+<e lm="negreta" a="prompsit2uoc"><i>negret</i><par n="abell/a__n"/></e>
+<e lm="tenda" a="prompsit2uoc"><i>tend</i><par n="abell/a__n"/></e>
+<e lm="balada" a="prompsit2uoc"><i>balad</i><par n="abell/a__n"/></e>
+<e lm="estrofa" a="prompsit2uoc"><i>estrof</i><par n="abell/a__n"/></e>
+<e lm="biosfera" a="prompsit2uoc"><i>biosfer</i><par n="abell/a__n"/></e>
+<e lm="bufeta" a="prompsit2uoc"><i>bufet</i><par n="abell/a__n"/></e>
+<e lm="tintura" a="prompsit2uoc"><i>tintur</i><par n="abell/a__n"/></e>
+<e lm="polpa" a="prompsit2uoc"><i>polp</i><par n="abell/a__n"/></e>
+<e lm="resina" a="prompsit2uoc"><i>resin</i><par n="abell/a__n"/></e>
+<e lm="dacsa" a="prompsit2uoc"><i>dacs</i><par n="abell/a__n"/></e>
+<e lm="contraofensiva" a="prompsit2uoc"><i>contraofensiv</i><par n="abell/a__n"/></e>
+<e lm="roseta" a="prompsit2uoc"><i>roset</i><par n="abell/a__n"/></e>
+<e lm="mitra" a="prompsit2uoc"><i>mitr</i><par n="abell/a__n"/></e>
+<e lm="llinda" a="prompsit2uoc"><i>llind</i><par n="abell/a__n"/></e>
+<e lm="cel·lulosa" a="prompsit2uoc"><i>cel·lulos</i><par n="abell/a__n"/></e>
+<e lm="cutícula" a="prompsit2uoc"><i>cutícul</i><par n="abell/a__n"/></e>
+<e lm="polimerasa" a="prompsit2uoc"><i>polimeras</i><par n="abell/a__n"/></e>
+<e lm="octava" a="prompsit2uoc"><i>octav</i><par n="abell/a__n"/></e>
+<e lm="pansa" a="prompsit2uoc"><i>pans</i><par n="abell/a__n"/></e>
+<e lm="púrpura" a="prompsit2uoc"><i>púrpur</i><par n="abell/a__n"/></e>
+<e lm="lactosa" a="prompsit2uoc"><i>lactos</i><par n="abell/a__n"/></e>
+<e lm="sabana" a="prompsit2uoc"><i>saban</i><par n="abell/a__n"/></e>
+<e lm="drupa" a="prompsit2uoc"><i>drup</i><par n="abell/a__n"/></e>
+<e lm="tundra" a="prompsit2uoc"><i>tundr</i><par n="abell/a__n"/></e>
+<e lm="carcassa" a="prompsit2uoc"><i>carcass</i><par n="abell/a__n"/></e>
+<e lm="tuba" a="prompsit2uoc"><i>tub</i><par n="abell/a__n"/></e>
+<e lm="soja" a="prompsit2uoc"><i>soj</i><par n="abell/a__n"/></e>
+<e lm="opereta" a="prompsit2uoc"><i>operet</i><par n="abell/a__n"/></e>
+<e lm="gavina" a="prompsit2uoc"><i>gavin</i><par n="abell/a__n"/></e>
+<e lm="soldadura" a="prompsit2uoc"><i>soldadur</i><par n="abell/a__n"/></e>
+<e lm="uretra" a="prompsit2uoc"><i>uretr</i><par n="abell/a__n"/></e>
+<e lm="eucariota" a="prompsit2uoc"><i>eucariot</i><par n="agrícol/a__adj"/></e>
+<e lm="cítara" a="prompsit2uoc"><i>cítar</i><par n="abell/a__n"/></e>
+<e lm="abreviatura" a="prompsit2uoc"><i>abreviatur</i><par n="abell/a__n"/></e>
+<e lm="merla" a="prompsit2uoc"><i>merl</i><par n="abell/a__n"/></e>
+<e lm="saba" a="prompsit2uoc"><i>sab</i><par n="abell/a__n"/></e>
+<e lm="clorofil·la" a="prompsit2uoc"><i>clorofil·l</i><par n="abell/a__n"/></e>
+<e lm="capçada" a="prompsit2uoc"><i>capçad</i><par n="abell/a__n"/></e>
+<e lm="petxina" a="prompsit2uoc"><i>petxin</i><par n="abell/a__n"/></e>
+<e lm="lepra" a="prompsit2uoc"><i>lepr</i><par n="abell/a__n"/></e>
+<e lm="embranzida" a="prompsit2uoc"><i>embranzid</i><par n="abell/a__n"/></e>
+<e lm="vèrtebra" a="prompsit2uoc"><i>vèrtebr</i><par n="abell/a__n"/></e>
+<e lm="serotonina" a="prompsit2uoc"><i>serotonin</i><par n="abell/a__n"/></e>
+<e lm="subcultura" a="prompsit2uoc"><i>subcultur</i><par n="abell/a__n"/></e>
+<e lm="manta" a="prompsit2uoc"><i>mant</i><par n="abell/a__n"/></e>
+<e lm="coda" a="prompsit2uoc"><i>cod</i><par n="abell/a__n"/></e>
+<e lm="troposfera" a="prompsit2uoc"><i>troposfer</i><par n="abell/a__n"/></e>
+<e lm="mandolina" a="prompsit2uoc"><i>mandolin</i><par n="abell/a__n"/></e>
+<e lm="estatura" a="prompsit2uoc"><i>estatur</i><par n="abell/a__n"/></e>
+<e lm="pupa" a="prompsit2uoc"><i>pup</i><par n="abell/a__n"/></e>
+<e lm="mielina" a="prompsit2uoc"><i>mielin</i><par n="abell/a__n"/></e>
+<e lm="molsa" a="prompsit2uoc"><i>mols</i><par n="abell/a__n"/></e>
+<e lm="gaita" a="prompsit2uoc"><i>gait</i><par n="abell/a__n"/></e>
+<e lm="litosfera" a="prompsit2uoc"><i>litosfer</i><par n="abell/a__n"/></e>
+<e lm="gorja" a="prompsit2uoc"><i>gorj</i><par n="abell/a__n"/></e>
+<e lm="làmpada" a="prompsit2uoc"><i>làmpad</i><par n="abell/a__n"/></e>
+<e lm="farigola" a="prompsit2uoc"><i>farigol</i><par n="abell/a__n"/></e>
+<e lm="falguera" a="prompsit2uoc"><i>falguer</i><par n="abell/a__n"/></e>
+<e lm="dopamina" a="prompsit2uoc"><i>dopamin</i><par n="abell/a__n"/></e>
+<e lm="pandereta" a="prompsit2uoc"><i>panderet</i><par n="abell/a__n"/></e>
+<e lm="maragda" a="prompsit2uoc"><i>maragd</i><par n="abell/a__n"/></e>
+<e lm="alternança" a="prompsit2uoc"><i>alternanç</i><par n="abell/a__n"/></e>
+<e lm="salina" a="prompsit2uoc"><i>salin</i><par n="abell/a__n"/></e>
+<e lm="panícula" a="prompsit2uoc"><i>panícul</i><par n="abell/a__n"/></e>
+<e lm="morfina" a="prompsit2uoc"><i>morfin</i><par n="abell/a__n"/></e>
+<e lm="mirra" a="prompsit2uoc"><i>mirr</i><par n="abell/a__n"/></e>
+<e lm="arcada" a="prompsit2uoc"><i>arcad</i><par n="abell/a__n"/></e>
+<e lm="vulva" a="prompsit2uoc"><i>vulv</i><par n="abell/a__n"/></e>
+<e lm="hipotenusa" a="prompsit2uoc"><i>hipotenus</i><par n="abell/a__n"/></e>
+<e lm="primogenitura" a="prompsit2uoc"><i>primogenitur</i><par n="abell/a__n"/></e>
+<e lm="ballesta" a="prompsit2uoc"><i>ballest</i><par n="abell/a__n"/></e>
+<e lm="sella" a="prompsit2uoc"><i>sell</i><par n="abell/a__n"/></e>
+<e lm="sacarosa" a="prompsit2uoc"><i>sacaros</i><par n="abell/a__n"/></e>
+<e lm="masmorra" a="prompsit2uoc"><i>masmorr</i><par n="abell/a__n"/></e>
+<e lm="epístola" a="prompsit2uoc"><i>epístol</i><par n="abell/a__n"/></e>
+<e lm="càpsida" a="prompsit2uoc"><i>càpsid</i><par n="abell/a__n"/></e>
+<e lm="interlingua" a="prompsit2uoc"><i>interlingu</i><par n="abell/a__n"/></e>
+<e lm="calcita" a="prompsit2uoc"><i>calcit</i><par n="abell/a__n"/></e>
+<e lm="bauxita" a="prompsit2uoc"><i>bauxit</i><par n="abell/a__n"/></e>
+<e lm="viticultura" a="prompsit2uoc"><i>viticultur</i><par n="abell/a__n"/></e>
+<e lm="avellana" a="prompsit2uoc"><i>avellan</i><par n="abell/a__n"/></e>
+<e lm="quitina" a="prompsit2uoc"><i>quitin</i><par n="abell/a__n"/></e>
+<e lm="magnetosfera" a="prompsit2uoc"><i>magnetosfer</i><par n="abell/a__n"/></e>
+<e lm="baioneta" a="prompsit2uoc"><i>baionet</i><par n="abell/a__n"/></e>
+<e lm="quinina" a="prompsit2uoc"><i>quinin</i><par n="abell/a__n"/></e>
+<e lm="nosa" a="prompsit2uoc"><i>nos</i><par n="abell/a__n"/></e>
+<e lm="magnetita" a="prompsit2uoc"><i>magnetit</i><par n="abell/a__n"/></e>
+<e lm="magenta" a="prompsit2uoc"><i>magent</i><par n="carism/a__n"/></e>
+<e lm="floridura" a="prompsit2uoc"><i>floridur</i><par n="abell/a__n"/></e>
+<e lm="serenata" a="prompsit2uoc"><i>serenat</i><par n="abell/a__n"/></e>
+<e lm="gangrena" a="prompsit2uoc"><i>gangren</i><par n="abell/a__n"/></e>
+<e lm="cisteïna" a="prompsit2uoc"><i>cisteïn</i><par n="abell/a__n"/></e>
+<e lm="guanina" a="prompsit2uoc"><i>guanin</i><par n="abell/a__n"/></e>
+<e lm="serpentina" a="prompsit2uoc"><i>serpentin</i><par n="abell/a__n"/></e>
+<e lm="malva" a="prompsit2uoc"><i>malv</i><par n="abell/a__n"/></e>
+<e lm="candela" a="prompsit2uoc"><i>candel</i><par n="abell/a__n"/></e>
+<e lm="camamilla" a="prompsit2uoc"><i>camamill</i><par n="abell/a__n"/></e>
+<e lm="rosella" a="prompsit2uoc"><i>rosell</i><par n="abell/a__n"/></e>
+<e lm="hipèrbola" a="prompsit2uoc"><i>hipèrbol</i><par n="abell/a__n"/></e>
+<e lm="berlina" a="prompsit2uoc"><i>berlin</i><par n="abell/a__n"/></e>
+<e lm="sauna" a="prompsit2uoc"><i>saun</i><par n="abell/a__n"/></e>
+<e lm="maneta" a="prompsit2uoc"><i>manet</i><par n="abell/a__n"/></e>
+<e lm="lambda" a="prompsit2uoc"><i>lambd</i><par n="abell/a__n"/></e>
+<e lm="tonada" a="prompsit2uoc"><i>tonad</i><par n="abell/a__n"/></e>
+<e lm="orla" a="prompsit2uoc"><i>orl</i><par n="abell/a__n"/></e>
+<e lm="glicina" a="prompsit2uoc"><i>glicin</i><par n="abell/a__n"/></e>
+<e lm="clavícula" a="prompsit2uoc"><i>clavícul</i><par n="abell/a__n"/></e>
+<e lm="procariota" a="prompsit2uoc"><i>procariot</i><par n="agrícol/a__adj"/></e>
+<e lm="pectina" a="prompsit2uoc"><i>pectin</i><par n="abell/a__n"/></e>
+<e lm="metionina" a="prompsit2uoc"><i>metionin</i><par n="abell/a__n"/></e>
+<e lm="columnata" a="prompsit2uoc"><i>columnat</i><par n="abell/a__n"/></e>
+<e lm="carronya" a="prompsit2uoc"><i>carrony</i><par n="abell/a__n"/></e>
+<e lm="braça" a="prompsit2uoc"><i>braç</i><par n="abell/a__n"/></e>
+<e lm="usura" a="prompsit2uoc"><i>usur</i><par n="abell/a__n"/></e>
+<e lm="tropopausa" a="prompsit2uoc"><i>tropopaus</i><par n="abell/a__n"/></e>
+<e lm="liana" a="prompsit2uoc"><i>lian</i><par n="abell/a__n"/></e>
+<e lm="girafa" a="prompsit2uoc"><i>giraf</i><par n="abell/a__n"/></e>
+<e lm="escarlata" a="prompsit2uoc"><i>escarlat</i><par n="agrícol/a__adj"/></e>
+<e lm="bancarrota" a="prompsit2uoc"><i>bancarrot</i><par n="abell/a__n"/></e>
+<e lm="aura" a="prompsit2uoc"><i>aur</i><par n="abell/a__n"/></e>
+<e lm="adenina" a="prompsit2uoc"><i>adenin</i><par n="abell/a__n"/></e>
+<e lm="termosfera" a="prompsit2uoc"><i>termosfer</i><par n="abell/a__n"/></e>
+<e lm="mesosfera" a="prompsit2uoc"><i>mesosfer</i><par n="abell/a__n"/></e>
+<e lm="gla" a="prompsit2uoc"><i>gl</i><par n="abell/a__n"/></e>
+<e lm="genciana" a="prompsit2uoc"><i>gencian</i><par n="abell/a__n"/></e>
+<e lm="cromatina" a="prompsit2uoc"><i>cromatin</i><par n="abell/a__n"/></e>
+<e lm="aorta" a="prompsit2uoc"><i>aort</i><par n="abell/a__n"/></e>
+<e lm="silvicultura" a="prompsit2uoc"><i>silvicultur</i><par n="abell/a__n"/></e>
+<e lm="mainadera" a="prompsit2uoc"><i>mainader</i><par n="senyor__n"/></e>
+<e lm="gelatina" a="prompsit2uoc"><i>gelatin</i><par n="abell/a__n"/></e>
+<e lm="citosina" a="prompsit2uoc"><i>citosin</i><par n="abell/a__n"/></e>
+<e lm="amazona" a="prompsit2uoc"><i>amazon</i><par n="abell/a__n"/></e>
+<e lm="ullada" a="prompsit2uoc"><i>ullad</i><par n="abell/a__n"/></e>
+<e lm="superestructura" a="prompsit2uoc"><i>superestructur</i><par n="abell/a__n"/></e>
+<e lm="herbicida" a="prompsit2uoc"><i>herbicid</i><par n="abell/a__n"/></e>
+<e lm="gasela" a="prompsit2uoc"><i>gasel</i><par n="abell/a__n"/></e>
+<e lm="estratosfera" a="prompsit2uoc"><i>estratosfer</i><par n="abell/a__n"/></e>
+<e lm="silicona" a="prompsit2uoc"><i>silicon</i><par n="abell/a__n"/></e>
+<e lm="ionosfera" a="prompsit2uoc"><i>ionosfer</i><par n="abell/a__n"/></e>
+<e lm="drecera" a="prompsit2uoc"><i>drecer</i><par n="abell/a__n"/></e>
+<e lm="tubulina" a="prompsit2uoc"><i>tubulin</i><par n="abell/a__n"/></e>
+<e lm="observança" a="prompsit2uoc"><i>observanç</i><par n="abell/a__n"/></e>
+<e lm="nitroglicerina" a="prompsit2uoc"><i>nitroglicerin</i><par n="abell/a__n"/></e>
+<e lm="imposta" a="prompsit2uoc"><i>impost</i><par n="abell/a__n"/></e>
+<e lm="gelera" a="prompsit2uoc"><i>geler</i><par n="abell/a__n"/></e>
+<e lm="filatura" a="prompsit2uoc"><i>filatur</i><par n="abell/a__n"/></e>
+<e lm="cetona" a="prompsit2uoc"><i>ceton</i><par n="abell/a__n"/></e>
+<e lm="amina" a="prompsit2uoc"><i>amin</i><par n="abell/a__n"/></e>
+<e lm="visera" a="prompsit2uoc"><i>viser</i><par n="abell/a__n"/></e>
+<e lm="prostaglandina" a="prompsit2uoc"><i>prostaglandin</i><par n="abell/a__n"/></e>
+<e lm="pleura" a="prompsit2uoc"><i>pleur</i><par n="abell/a__n"/></e>
+<e lm="gàmeta" a="prompsit2uoc"><i>gàmet</i><par n="carism/a__n"/></e>
+<e lm="dinasta" a="prompsit2uoc"><i>dinast</i><par n="carism/a__n"/></e>
+<e lm="catalasa" a="prompsit2uoc"><i>catalas</i><par n="abell/a__n"/></e>
+<e lm="bureta" a="prompsit2uoc"><i>buret</i><par n="abell/a__n"/></e>
+<e lm="arquivolta" a="prompsit2uoc"><i>arquivolt</i><par n="abell/a__n"/></e>
+<e lm="subrutina" a="prompsit2uoc"><i>subrutin</i><par n="abell/a__n"/></e>
+<e lm="queratina" a="prompsit2uoc"><i>queratin</i><par n="abell/a__n"/></e>
+<e lm="lignina" a="prompsit2uoc"><i>lignin</i><par n="abell/a__n"/></e>
+<e lm="ferrita" a="prompsit2uoc"><i>ferrit</i><par n="abell/a__n"/></e>
+<e lm="feromona" a="prompsit2uoc"><i>feromon</i><par n="abell/a__n"/></e>
+<e lm="corbeta" a="prompsit2uoc"><i>corbet</i><par n="abell/a__n"/></e>
+<e lm="còclea" a="prompsit2uoc"><i>còcle</i><par n="abell/a__n"/></e>
+<e lm="àgata" a="prompsit2uoc"><i>àgat</i><par n="abell/a__n"/></e>
+<e lm="podridura" a="prompsit2uoc"><i>podridur</i><par n="abell/a__n"/></e>
+<e lm="pana" a="prompsit2uoc"><i>pan</i><par n="abell/a__n"/></e>
+<e lm="móra" a="prompsit2uoc"><i>mór</i><par n="abell/a__n"/></e>
+<e lm="melassa" a="prompsit2uoc"><i>melass</i><par n="abell/a__n"/></e>
+<e lm="isoglossa" a="prompsit2uoc"><i>isogloss</i><par n="abell/a__n"/></e>
+<e lm="indisciplina" a="prompsit2uoc"><i>indisciplin</i><par n="abell/a__n"/></e>
+<e lm="horticultura" a="prompsit2uoc"><i>horticultur</i><par n="abell/a__n"/></e>
+<e lm="histamina" a="prompsit2uoc"><i>histamin</i><par n="abell/a__n"/></e>
+<e lm="flotilla" a="prompsit2uoc"><i>flotill</i><par n="abell/a__n"/></e>
+<e lm="estratopausa" a="prompsit2uoc"><i>estratopaus</i><par n="abell/a__n"/></e>
+<e lm="càmfora" a="prompsit2uoc"><i>càmfor</i><par n="abell/a__n"/></e>
+<e lm="apicultura" a="prompsit2uoc"><i>apicultur</i><par n="abell/a__n"/></e>
+<e lm="umbel·la" a="prompsit2uoc"><i>umbel·l</i><par n="abell/a__n"/></e>
+<e lm="reescriptura" a="prompsit2uoc"><i>reescriptur</i><par n="abell/a__n"/></e>
+<e lm="malaquita" a="prompsit2uoc"><i>malaquit</i><par n="abell/a__n"/></e>
+<e lm="inulina" a="prompsit2uoc"><i>inulin</i><par n="abell/a__n"/></e>
+<e lm="glutamina" a="prompsit2uoc"><i>glutamin</i><par n="abell/a__n"/></e>
+<e lm="fungicida" a="prompsit2uoc"><i>fungicid</i><par n="agrícol/a__adj"/></e>
+<e lm="fluorita" a="prompsit2uoc"><i>fluorit</i><par n="abell/a__n"/></e>
+<e lm="conífera" a="prompsit2uoc"><i>conífer</i><par n="abell/a__n"/></e>
+<e lm="cesura" a="prompsit2uoc"><i>cesur</i><par n="abell/a__n"/></e>
+<e lm="bràctea" a="prompsit2uoc"><i>bràcte</i><par n="abell/a__n"/></e>
+<e lm="bactericida" a="prompsit2uoc"><i>bactericid</i><par n="agrícol/a__adj"/></e>
+<e lm="taràntula" a="prompsit2uoc"><i>taràntul</i><par n="abell/a__n"/></e>
+<e lm="rada" a="prompsit2uoc"><i>rad</i><par n="abell/a__n"/></e>
+<e lm="maionesa" a="prompsit2uoc"><i>maiones</i><par n="abell/a__n"/></e>
+<e lm="fibrina" a="prompsit2uoc"><i>fibrin</i><par n="abell/a__n"/></e>
+<e lm="farmacopea" a="prompsit2uoc"><i>farmacope</i><par n="abell/a__n"/></e>
+<e lm="cornella" a="prompsit2uoc"><i>cornell</i><par n="abell/a__n"/></e>
+<e lm="voladura" a="prompsit2uoc"><i>voladur</i><par n="abell/a__n"/></e>
+<e lm="tesla" a="prompsit2uoc"><i>tesl</i><par n="abell/a__n"/></e>
+<e lm="mioglobina" a="prompsit2uoc"><i>mioglobin</i><par n="abell/a__n"/></e>
+<e lm="havanera" a="prompsit2uoc"><i>havaner</i><par n="abell/a__n"/></e>
+<e lm="corxera" a="prompsit2uoc"><i>corxer</i><par n="abell/a__n"/></e>
+<e lm="cloïssa" a="prompsit2uoc"><i>cloïss</i><par n="abell/a__n"/></e>
+<e lm="caoba" a="prompsit2uoc"><i>caob</i><par n="abell/a__n"/></e>
+<e lm="sàmara" a="prompsit2uoc"><i>sàmar</i><par n="abell/a__n"/></e>
+<e lm="oxitocina" a="prompsit2uoc"><i>oxitocin</i><par n="abell/a__n"/></e>
+<e lm="melanina" a="prompsit2uoc"><i>melanin</i><par n="abell/a__n"/></e>
+<e lm="fosfina" a="prompsit2uoc"><i>fosfin</i><par n="abell/a__n"/></e>
+<e lm="cavatina" a="prompsit2uoc"><i>cavatin</i><par n="abell/a__n"/></e>
+<e lm="bilirubina" a="prompsit2uoc"><i>bilirubin</i><par n="abell/a__n"/></e>
+<e lm="antera" a="prompsit2uoc"><i>anter</i><par n="abell/a__n"/></e>
+<e lm="àgora" a="prompsit2uoc"><i>àgor</i><par n="abell/a__n"/></e>
+<e lm="acetona" a="prompsit2uoc"><i>aceton</i><par n="abell/a__n"/></e>
+<e lm="abscissa" a="prompsit2uoc"><i>absciss</i><par n="abell/a__n"/></e>
+<e lm="ventosa" a="prompsit2uoc"><i>ventos</i><par n="abell/a__n"/></e>
+<e lm="tulipa" a="prompsit2uoc"><i>tulip</i><par n="abell/a__n"/></e>
+<e lm="superfluïdesa" a="prompsit2uoc"><i>superfluïdes</i><par n="abell/a__n"/></e>
+<e lm="seguidilla" a="prompsit2uoc"><i>seguidill</i><par n="abell/a__n"/></e>
+<e lm="ràdula" a="prompsit2uoc"><i>ràdul</i><par n="abell/a__n"/></e>
+<e lm="quarsita" a="prompsit2uoc"><i>quarsit</i><par n="abell/a__n"/></e>
+<e lm="protrombina" a="prompsit2uoc"><i>protrombin</i><par n="abell/a__n"/></e>
+<e lm="pilastra" a="prompsit2uoc"><i>pilastr</i><par n="abell/a__n"/></e>
+<e lm="libèl·lula" a="prompsit2uoc"><i>libèl·lul</i><par n="abell/a__n"/></e>
+<e lm="impuresa" a="prompsit2uoc"><i>impures</i><par n="abell/a__n"/></e>
+<e lm="iarda" a="prompsit2uoc"><i>iard</i><par n="abell/a__n"/></e>
+<e lm="histona" a="prompsit2uoc"><i>histon</i><par n="abell/a__n"/></e>
+<e lm="glabel·la" a="prompsit2uoc"><i>glabel·l</i><par n="abell/a__n"/></e>
+<e lm="floricultura" a="prompsit2uoc"><i>floricultur</i><par n="abell/a__n"/></e>
+<e lm="dispnea" a="prompsit2uoc"><i>dispne</i><par n="abell/a__n"/></e>
+<e lm="dismenorrea" a="prompsit2uoc"><i>dismenorre</i><par n="abell/a__n"/></e>
+<e lm="contracultura" a="prompsit2uoc"><i>contracultur</i><par n="abell/a__n"/></e>
+<e lm="conjuntiu" a="prompsit2uoc"><i>conjunti</i><par n="abusi/u__adj"/></e>
+<e lm="barita" a="prompsit2uoc"><i>barit</i><par n="abell/a__n"/></e>
+<e lm="parafina" a="prompsit2uoc"><i>parafin</i><par n="abell/a__n"/></e>
+<e lm="morsa" a="prompsit2uoc"><i>mors</i><par n="abell/a__n"/></e>
+<e lm="margarina" a="prompsit2uoc"><i>margarin</i><par n="abell/a__n"/></e>
+<e lm="hiena" a="prompsit2uoc"><i>hien</i><par n="abell/a__n"/></e>
+<e lm="hamburguesa" a="prompsit2uoc"><i>hamburgues</i><par n="abell/a__n"/></e>
+<e lm="gelea" a="prompsit2uoc"><i>gele</i><par n="abell/a__n"/></e>
+<e lm="estora" a="prompsit2uoc"><i>estor</i><par n="abell/a__n"/></e>
+<e lm="antífona" a="prompsit2uoc"><i>antífon</i><par n="abell/a__n"/></e>
+<e lm="tovera" a="prompsit2uoc"><i>tover</i><par n="abell/a__n"/></e>
+<e lm="semirecta" a="prompsit2uoc"><i>semirect</i><par n="abell/a__n"/></e>
+<e lm="platina" a="prompsit2uoc"><i>platin</i><par n="abell/a__n"/></e>
+<e lm="pisa" a="prompsit2uoc"><i>pis</i><par n="abell/a__n"/></e>
+<e lm="orxata" a="prompsit2uoc"><i>orxat</i><par n="abell/a__n"/></e>
+<e lm="obsidiana" a="prompsit2uoc"><i>obsidian</i><par n="abell/a__n"/></e>
+<e lm="nespra" a="prompsit2uoc"><i>nespr</i><par n="abell/a__n"/></e>
+<e lm="llimonada" a="prompsit2uoc"><i>llimonad</i><par n="abell/a__n"/></e>
+<e lm="limfa" a="prompsit2uoc"><i>limf</i><par n="abell/a__n"/></e>
+<e lm="fura" a="prompsit2uoc"><i>fur</i><par n="abell/a__n"/></e>
+<e lm="fluoresceïna" a="prompsit2uoc"><i>fluoresceïn</i><par n="abell/a__n"/></e>
+<e lm="cassiterita" a="prompsit2uoc"><i>cassiterit</i><par n="abell/a__n"/></e>
+<e lm="arqueta" a="prompsit2uoc"><i>arquet</i><par n="abell/a__n"/></e>
+<e lm="ametista" a="prompsit2uoc"><i>ametist</i><par n="abell/a__n"/></e>
+<e lm="zeolita" a="prompsit2uoc"><i>zeolit</i><par n="abell/a__n"/></e>
+<e lm="xicoira" a="prompsit2uoc"><i>xicoir</i><par n="abell/a__n"/></e>
+<e lm="voluta" a="prompsit2uoc"><i>volut</i><par n="abell/a__n"/></e>
+<e lm="trombina" a="prompsit2uoc"><i>trombin</i><par n="abell/a__n"/></e>
+<e lm="plaqueta" a="prompsit2uoc"><i>plaquet</i><par n="abell/a__n"/></e>
+<e lm="pampa" a="prompsit2uoc"><i>pamp</i><par n="abell/a__n"/></e>
+<e lm="lipasa" a="prompsit2uoc"><i>lipas</i><par n="abell/a__n"/></e>
+<e lm="leucina" a="prompsit2uoc"><i>leucin</i><par n="abell/a__n"/></e>
+<e lm="immunoglobulina" a="prompsit2uoc"><i>immunoglobulin</i><par n="abell/a__n"/></e>
+<e lm="hidrazina" a="prompsit2uoc"><i>hidrazin</i><par n="abell/a__n"/></e>
+<e lm="guatlla" a="prompsit2uoc"><i>guatll</i><par n="abell/a__n"/></e>
+<e lm="fístula" a="prompsit2uoc"><i>fístul</i><par n="abell/a__n"/></e>
+<e lm="fèrula" a="prompsit2uoc"><i>fèrul</i><par n="abell/a__n"/></e>
+<e lm="espardenya" a="prompsit2uoc"><i>espardeny</i><par n="abell/a__n"/></e>
+<e lm="diorita" a="prompsit2uoc"><i>diorit</i><par n="abell/a__n"/></e>
+<e lm="dentina" a="prompsit2uoc"><i>dentin</i><par n="abell/a__n"/></e>
+<e lm="boirina" a="prompsit2uoc"><i>boirin</i><par n="abell/a__n"/></e>
+<e lm="barbacoa" a="prompsit2uoc"><i>barbaco</i><par n="abell/a__n"/></e>
+<e lm="aurícula" a="prompsit2uoc"><i>aurícul</i><par n="abell/a__n"/></e>
+<e lm="variscita" a="prompsit2uoc"><i>variscit</i><par n="abell/a__n"/></e>
+<e lm="turmalina" a="prompsit2uoc"><i>turmalin</i><par n="abell/a__n"/></e>
+<e lm="trituradora" a="prompsit2uoc"><i>triturador</i><par n="abell/a__n"/></e>
+<e lm="tavella" a="prompsit2uoc"><i>tavell</i><par n="abell/a__n"/></e>
+<e lm="sopera" a="prompsit2uoc"><i>soper</i><par n="abell/a__n"/></e>
+<e lm="semifusa" a="prompsit2uoc"><i>semifus</i><par n="abell/a__n"/></e>
+<e lm="semicorxera" a="prompsit2uoc"><i>semicorxer</i><par n="abell/a__n"/></e>
+<e lm="pipeta" a="prompsit2uoc"><i>pipet</i><par n="abell/a__n"/></e>
+<e lm="pentosa" a="prompsit2uoc"><i>pentos</i><par n="abell/a__n"/></e>
+<e lm="nitrocel·lulosa" a="prompsit2uoc"><i>nitrocel·lulos</i><par n="abell/a__n"/></e>
+<e lm="mimosa" a="prompsit2uoc"><i>mimos</i><par n="abell/a__n"/></e>
+<e lm="grisalla" a="prompsit2uoc"><i>grisall</i><par n="abell/a__n"/></e>
+<e lm="fòvea" a="prompsit2uoc"><i>fòve</i><par n="abell/a__n"/></e>
+<e lm="escarola" a="prompsit2uoc"><i>escarol</i><par n="abell/a__n"/></e>
+<e lm="cromita" a="prompsit2uoc"><i>cromit</i><par n="abell/a__n"/></e>
+<e lm="biotita" a="prompsit2uoc"><i>biotit</i><par n="abell/a__n"/></e>
+<e lm="barcarola" a="prompsit2uoc"><i>barcarol</i><par n="abell/a__n"/></e>
+<e lm="àlgebra" a="prompsit2uoc"><i>àlgebr</i><par n="abell/a__n"/></e>
+<e lm="acupuntura" a="prompsit2uoc"><i>acupuntur</i><par n="abell/a__n"/></e>
+<e lm="vampiressa" a="prompsit2uoc"><i>vampiress</i><par n="abell/a__n"/></e>
+<e lm="tiroxina" a="prompsit2uoc"><i>tiroxin</i><par n="abell/a__n"/></e>
+<e lm="testera" a="prompsit2uoc"><i>tester</i><par n="abell/a__n"/></e>
+<e lm="separata" a="prompsit2uoc"><i>separat</i><par n="abell/a__n"/></e>
+<e lm="sacarina" a="prompsit2uoc"><i>sacarin</i><par n="abell/a__n"/></e>
+<e lm="poliamida" a="prompsit2uoc"><i>poliamid</i><par n="abell/a__n"/></e>
+<e lm="picota" a="prompsit2uoc"><i>picot</i><par n="abell/a__n"/></e>
+<e lm="pàtina" a="prompsit2uoc"><i>pàtin</i><par n="abell/a__n"/></e>
+<e lm="llanceta" a="prompsit2uoc"><i>llancet</i><par n="abell/a__n"/></e>
+<e lm="hexosa" a="prompsit2uoc"><i>hexos</i><par n="abell/a__n"/></e>
+<e lm="gònada" a="prompsit2uoc"><i>gònad</i><par n="abell/a__n"/></e>
+<e lm="glicoproteïna" a="prompsit2uoc"><i>glicoproteïn</i><par n="abell/a__n"/></e>
+<e lm="filigrana" a="prompsit2uoc"><i>filigran</i><par n="abell/a__n"/></e>
+<e lm="cullereta" a="prompsit2uoc"><i>culleret</i><par n="abell/a__n"/></e>
+<e lm="cortisona" a="prompsit2uoc"><i>cortison</i><par n="abell/a__n"/></e>
+<e lm="comissura" a="prompsit2uoc"><i>comissur</i><par n="abell/a__n"/></e>
+<e lm="cisalla" a="prompsit2uoc"><i>cisall</i><par n="abell/a__n"/></e>
+<e lm="brea" a="prompsit2uoc"><i>bre</i><par n="abell/a__n"/></e>
+<e lm="bengala" a="prompsit2uoc"><i>bengal</i><par n="abell/a__n"/></e>
+<e lm="bena" a="prompsit2uoc"><i>ben</i><par n="abell/a__n"/></e>
+<e lm="amenorrea" a="prompsit2uoc"><i>amenorre</i><par n="abell/a__n"/></e>
+<e lm="albúmina" a="prompsit2uoc"><i>albúmin</i><par n="abell/a__n"/></e>
+<e lm="adenosina" a="prompsit2uoc"><i>adenosin</i><par n="abell/a__n"/></e>
+<e lm="tombarella" a="prompsit2uoc"><i>tombarell</i><par n="abell/a__n"/></e>
+<e lm="selenita" a="prompsit2uoc"><i>selenit</i><par n="accionist/a__n"/></e>
+<e lm="pepsina" a="prompsit2uoc"><i>pepsin</i><par n="abell/a__n"/></e>
+<e lm="papil·la" a="prompsit2uoc"><i>papil·l</i><par n="abell/a__n"/></e>
+<e lm="oxidoreductasa" a="prompsit2uoc"><i>oxidoreductas</i><par n="abell/a__n"/></e>
+<e lm="miríada" a="prompsit2uoc"><i>miríad</i><par n="abell/a__n"/></e>
+<e lm="microestructura" a="prompsit2uoc"><i>microestructur</i><par n="abell/a__n"/></e>
+<e lm="màcula" a="prompsit2uoc"><i>màcul</i><par n="abell/a__n"/></e>
+<e lm="gàrgola" a="prompsit2uoc"><i>gàrgol</i><par n="abell/a__n"/></e>
+<e lm="gallarda" a="prompsit2uoc"><i>gallard</i><par n="abell/a__n"/></e>
+<e lm="fusa" a="prompsit2uoc"><i>fus</i><par n="abell/a__n"/></e>
+<e lm="esfalerita" a="prompsit2uoc"><i>esfalerit</i><par n="abell/a__n"/></e>
+<e lm="dolina" a="prompsit2uoc"><i>dolin</i><par n="abell/a__n"/></e>
+<e lm="didalera" a="prompsit2uoc"><i>didaler</i><par n="abell/a__n"/></e>
+<e lm="croqueta" a="prompsit2uoc"><i>croquet</i><par n="abell/a__n"/></e>
+<e lm="cementita" a="prompsit2uoc"><i>cementit</i><par n="abell/a__n"/></e>
+<e lm="blàstula" a="prompsit2uoc"><i>blàstul</i><par n="abell/a__n"/></e>
+<e lm="baquelita" a="prompsit2uoc"><i>baquelit</i><par n="abell/a__n"/></e>
+<e lm="aragonita" a="prompsit2uoc"><i>aragonit</i><par n="abell/a__n"/></e>
+<e lm="acetilcolina" a="prompsit2uoc"><i>acetilcolin</i><par n="abell/a__n"/></e>
+<e lm="tronera" a="prompsit2uoc"><i>troner</i><par n="abell/a__n"/></e>
+<e lm="subestructura" a="prompsit2uoc"><i>subestructur</i><par n="abell/a__n"/></e>
+<e lm="síliqua" a="prompsit2uoc"><i>síliqu</i><par n="abell/a__n"/></e>
+<e lm="serosa" a="prompsit2uoc"><i>seros</i><par n="abell/a__n"/></e>
+<e lm="scheelita" a="prompsit2uoc"><i>scheelit</i><par n="abell/a__n"/></e>
+<e lm="salmonel·la" a="prompsit2uoc"><i>salmonel·l</i><par n="abell/a__n"/></e>
+<e lm="lepidolita" a="prompsit2uoc"><i>lepidolit</i><par n="abell/a__n"/></e>
+<e lm="laterita" a="prompsit2uoc"><i>laterit</i><par n="abell/a__n"/></e>
+<e lm="jarosita" a="prompsit2uoc"><i>jarosit</i><par n="abell/a__n"/></e>
+<e lm="involuta" a="prompsit2uoc"><i>involut</i><par n="abell/a__n"/></e>
+<e lm="gàstrula" a="prompsit2uoc"><i>gàstrul</i><par n="abell/a__n"/></e>
+<e lm="ferritina" a="prompsit2uoc"><i>ferritin</i><par n="abell/a__n"/></e>
+<e lm="coixesa" a="prompsit2uoc"><i>coixes</i><par n="abell/a__n"/></e>
+<e lm="clavilla" a="prompsit2uoc"><i>clavill</i><par n="abell/a__n"/></e>
+<e lm="ceratina" a="prompsit2uoc"><i>ceratin</i><par n="abell/a__n"/></e>
+<e lm="catena" a="prompsit2uoc"><i>caten</i><par n="abell/a__n"/></e>
+<e lm="caseïna" a="prompsit2uoc"><i>caseïn</i><par n="abell/a__n"/></e>
+<e lm="braquistòcrona" a="prompsit2uoc"><i>braquistòcron</i><par n="abell/a__n"/></e>
+<e lm="boa" a="prompsit2uoc"><i>bo</i><par n="abell/a__n"/></e>
+<e lm="bentonita" a="prompsit2uoc"><i>bentonit</i><par n="abell/a__n"/></e>
+<e lm="atropina" a="prompsit2uoc"><i>atropin</i><par n="abell/a__n"/></e>
+<e lm="aspirina" a="prompsit2uoc"><i>aspirin</i><par n="abell/a__n"/></e>
+<e lm="arboricultura" a="prompsit2uoc"><i>arboricultur</i><par n="abell/a__n"/></e>
+<e lm="agrella" a="prompsit2uoc"><i>agrell</i><par n="abell/a__n"/></e>
+<e lm="vinagreta" a="prompsit2uoc"><i>vinagret</i><par n="abell/a__n"/></e>
+<e lm="til·lita" a="prompsit2uoc"><i>til·lit</i><par n="abell/a__n"/></e>
+<e lm="tecnoestructura" a="prompsit2uoc"><i>tecnoestructur</i><par n="abell/a__n"/></e>
+<e lm="sinalefa" a="prompsit2uoc"><i>sinalef</i><par n="abell/a__n"/></e>
+<e lm="seborrea" a="prompsit2uoc"><i>seborre</i><par n="abell/a__n"/></e>
+<e lm="riota" a="prompsit2uoc"><i>riot</i><par n="abell/a__n"/></e>
+<e lm="prednisona" a="prompsit2uoc"><i>prednison</i><par n="abell/a__n"/></e>
+<e lm="postdata" a="prompsit2uoc"><i>postdat</i><par n="abell/a__n"/></e>
+<e lm="pirueta" a="prompsit2uoc"><i>piruet</i><par n="abell/a__n"/></e>
+<e lm="perforadora" a="prompsit2uoc"><i>perforador</i><par n="abell/a__n"/></e>
+<e lm="nunciatura" a="prompsit2uoc"><i>nunciatur</i><par n="abell/a__n"/></e>
+<e lm="mucina" a="prompsit2uoc"><i>mucin</i><par n="abell/a__n"/></e>
+<e lm="mòrula" a="prompsit2uoc"><i>mòrul</i><par n="abell/a__n"/></e>
+<e lm="marcassita" a="prompsit2uoc"><i>marcassit</i><par n="abell/a__n"/></e>
+<e lm="magnesita" a="prompsit2uoc"><i>magnesit</i><par n="abell/a__n"/></e>
+<e lm="macromolècula" a="prompsit2uoc"><i>macromolècul</i><par n="abell/a__n"/></e>
+<e lm="lionesa" a="prompsit2uoc"><i>liones</i><par n="abell/a__n"/></e>
+<e lm="limusina" a="prompsit2uoc"><i>limusin</i><par n="abell/a__n"/></e>
+<e lm="latrina" a="prompsit2uoc"><i>latrin</i><par n="abell/a__n"/></e>
+<e lm="incompareixença" a="prompsit2uoc"><i>incompareixenç</i><par n="abell/a__n"/></e>
+<e lm="discordança" a="prompsit2uoc"><i>discordanç</i><par n="abell/a__n"/></e>
+<e lm="dioxina" a="prompsit2uoc"><i>dioxin</i><par n="abell/a__n"/></e>
+<e lm="cutina" a="prompsit2uoc"><i>cutin</i><par n="abell/a__n"/></e>
+<e lm="cornalina" a="prompsit2uoc"><i>cornalin</i><par n="abell/a__n"/></e>
+<e lm="cel·lofana" a="prompsit2uoc"><i>cel·lofan</i><par n="abell/a__n"/></e>
+<e lm="catacumba" a="prompsit2uoc"><i>catacumb</i><par n="abell/a__n"/></e>
+<e lm="camarilla" a="prompsit2uoc"><i>camarill</i><par n="abell/a__n"/></e>
+<e lm="brucita" a="prompsit2uoc"><i>brucit</i><par n="abell/a__n"/></e>
+<e lm="borla" a="prompsit2uoc"><i>borl</i><par n="abell/a__n"/></e>
+<e lm="blenda" a="prompsit2uoc"><i>blend</i><par n="abell/a__n"/></e>
+<e lm="arna" a="prompsit2uoc"><i>arn</i><par n="abell/a__n"/></e>
+<e lm="arieta" a="prompsit2uoc"><i>ariet</i><par n="abell/a__n"/></e>
+<e lm="amilasa" a="prompsit2uoc"><i>amilas</i><par n="abell/a__n"/></e>
+<e lm="amígdala" a="prompsit2uoc"><i>amígdal</i><par n="abell/a__n"/></e>
+<e lm="actina" a="prompsit2uoc"><i>actin</i><par n="abell/a__n"/></e>
+<e lm="siderita" a="prompsit2uoc"><i>siderit</i><par n="abell/a__n"/></e>
+<e lm="sèmola" a="prompsit2uoc"><i>sèmol</i><par n="abell/a__n"/></e>
+<e lm="retorta" a="prompsit2uoc"><i>retort</i><par n="abell/a__n"/></e>
+<e lm="radícula" a="prompsit2uoc"><i>radícul</i><par n="abell/a__n"/></e>
+<e lm="petalita" a="prompsit2uoc"><i>petalit</i><par n="abell/a__n"/></e>
+<e lm="ostra" a="prompsit2uoc"><i>ostr</i><par n="abell/a__n"/></e>
+<e lm="limonita" a="prompsit2uoc"><i>limonit</i><par n="abell/a__n"/></e>
+<e lm="lectina" a="prompsit2uoc"><i>lectin</i><par n="abell/a__n"/></e>
+<e lm="latzurita" a="prompsit2uoc"><i>latzurit</i><par n="abell/a__n"/></e>
+<e lm="kimberlita" a="prompsit2uoc"><i>kimberlit</i><par n="abell/a__n"/></e>
+<e lm="juntura" a="prompsit2uoc"><i>juntur</i><par n="abell/a__n"/></e>
+<e lm="jadeïta" a="prompsit2uoc"><i>jadeït</i><par n="abell/a__n"/></e>
+<e lm="isòbara" a="prompsit2uoc"><i>isòbar</i><par n="abell/a__n"/></e>
+<e lm="hornblenda" a="prompsit2uoc"><i>hornblend</i><par n="abell/a__n"/></e>
+<e lm="heparina" a="prompsit2uoc"><i>heparin</i><par n="abell/a__n"/></e>
+<e lm="halita" a="prompsit2uoc"><i>halit</i><par n="abell/a__n"/></e>
+<e lm="garça" a="prompsit2uoc"><i>garç</i><par n="abell/a__n"/></e>
+<e lm="estola" a="prompsit2uoc"><i>estol</i><par n="abell/a__n"/></e>
+<e lm="estalactita" a="prompsit2uoc"><i>estalactit</i><par n="abell/a__n"/></e>
+<e lm="espifiada" a="prompsit2uoc"><i>espifiad</i><par n="abell/a__n"/></e>
+<e lm="elastina" a="prompsit2uoc"><i>elastin</i><par n="abell/a__n"/></e>
+<e lm="diatriba" a="prompsit2uoc"><i>diatrib</i><par n="abell/a__n"/></e>
+<e lm="dextrosa" a="prompsit2uoc"><i>dextros</i><par n="abell/a__n"/></e>
+<e lm="compota" a="prompsit2uoc"><i>compot</i><par n="abell/a__n"/></e>
+<e lm="celestina" a="prompsit2uoc"><i>celestin</i><par n="abell/a__n"/></e>
+<e lm="carúncula" a="prompsit2uoc"><i>carúncul</i><par n="abell/a__n"/></e>
+<e lm="caolinita" a="prompsit2uoc"><i>caolinit</i><par n="abell/a__n"/></e>
+<e lm="calamarsada" a="prompsit2uoc"><i>calamarsad</i><par n="abell/a__n"/></e>
+<e lm="granissat" a="prompsit2uoc"><i>granissa</i><par n="afortuna/t__adj"/></e>
+<e lm="buna" a="prompsit2uoc"><i>bun</i><par n="abell/a__n"/></e>
+<e lm="bufonada" a="prompsit2uoc"><i>bufonad</i><par n="abell/a__n"/></e>
+<e lm="bornita" a="prompsit2uoc"><i>bornit</i><par n="abell/a__n"/></e>
+<e lm="bitlla" a="prompsit2uoc"><i>bitll</i><par n="abell/a__n"/></e>
+<e lm="bacitracina" a="prompsit2uoc"><i>bacitracin</i><par n="abell/a__n"/></e>
+<e lm="aranja" a="prompsit2uoc"><i>aranj</i><par n="abell/a__n"/></e>
+<e lm="ameba" a="prompsit2uoc"><i>ameb</i><par n="abell/a__n"/></e>
+<e lm="alúmina" a="prompsit2uoc"><i>alúmin</i><par n="abell/a__n"/></e>
+<e lm="zònula" a="prompsit2uoc"><i>zònul</i><par n="abell/a__n"/></e>
+<e lm="wulfenita" a="prompsit2uoc"><i>wulfenit</i><par n="abell/a__n"/></e>
+<e lm="veça" a="prompsit2uoc"><i>veç</i><par n="abell/a__n"/></e>
+<e lm="garrofa" a="prompsit2uoc"><i>garrof</i><par n="abell/a__n"/></e>
+<e lm="trabècula" a="prompsit2uoc"><i>trabècul</i><par n="abell/a__n"/></e>
+<e lm="torradora" a="prompsit2uoc"><i>torrador</i><par n="abell/a__n"/></e>
+<e lm="subcadena" a="prompsit2uoc"><i>subcaden</i><par n="abell/a__n"/></e>
+<e lm="saponita" a="prompsit2uoc"><i>saponit</i><par n="abell/a__n"/></e>
+<e lm="raticida" a="prompsit2uoc"><i>raticid</i><par n="abell/a__n"/></e>
+<e lm="pústula" a="prompsit2uoc"><i>pústul</i><par n="abell/a__n"/></e>
+<e lm="ptialina" a="prompsit2uoc"><i>ptialin</i><par n="abell/a__n"/></e>
+<e lm="premaxil·la" a="prompsit2uoc"><i>premaxil·l</i><par n="abell/a__n"/></e>
+<e lm="pol·lucita" a="prompsit2uoc"><i>pol·lucit</i><par n="abell/a__n"/></e>
+<e lm="peridotita" a="prompsit2uoc"><i>peridotit</i><par n="abell/a__n"/></e>
+<e lm="pel·lagra" a="prompsit2uoc"><i>pel·lagr</i><par n="abell/a__n"/></e>
+<e lm="parentela" a="prompsit2uoc"><i>parentel</i><par n="abell/a__n"/></e>
+<e lm="olefina" a="prompsit2uoc"><i>olefin</i><par n="abell/a__n"/></e>
+<e lm="ocarina" a="prompsit2uoc"><i>ocarin</i><par n="abell/a__n"/></e>
+<e lm="nefrita" a="prompsit2uoc"><i>nefrit</i><par n="abell/a__n"/></e>
+<e lm="micel·la" a="prompsit2uoc"><i>micel·l</i><par n="abell/a__n"/></e>
+<e lm="malvolença" a="prompsit2uoc"><i>malvolenç</i><par n="abell/a__n"/></e>
+<e lm="lúnula" a="prompsit2uoc"><i>lúnul</i><par n="abell/a__n"/></e>
+<e lm="lipoproteïna" a="prompsit2uoc"><i>lipoproteïn</i><par n="abell/a__n"/></e>
+<e lm="levodopa" a="prompsit2uoc"><i>levodop</i><par n="abell/a__n"/></e>
+<e lm="isohipsa" a="prompsit2uoc"><i>isohips</i><par n="abell/a__n"/></e>
+<e lm="hifa" a="prompsit2uoc"><i>hif</i><par n="abell/a__n"/></e>
+<e lm="henna" a="prompsit2uoc"><i>henn</i><par n="abell/a__n"/></e>
+<e lm="hemolimfa" a="prompsit2uoc"><i>hemolimf</i><par n="abell/a__n"/></e>
+<e lm="granodiorita" a="prompsit2uoc"><i>granodiorit</i><par n="abell/a__n"/></e>
+<e lm="gòndola" a="prompsit2uoc"><i>gòndol</i><par n="abell/a__n"/></e>
+<e lm="globulina" a="prompsit2uoc"><i>globulin</i><par n="abell/a__n"/></e>
+<e lm="gaseta" a="prompsit2uoc"><i>gaset</i><par n="abell/a__n"/></e>
+<e lm="exosfera" a="prompsit2uoc"><i>exosfer</i><par n="abell/a__n"/></e>
+<e lm="escàpula" a="prompsit2uoc"><i>escàpul</i><par n="abell/a__n"/></e>
+<e lm="epinefrina" a="prompsit2uoc"><i>epinefrin</i><par n="abell/a__n"/></e>
+<e lm="dimetilformamida" a="prompsit2uoc"><i>dimetilformamid</i><par n="abell/a__n"/></e>
+<e lm="decídua" a="prompsit2uoc"><i>decídu</i><par n="abell/a__n"/></e>
+<e lm="dauradura" a="prompsit2uoc"><i>dauradur</i><par n="abell/a__n"/></e>
+<e lm="cuprita" a="prompsit2uoc"><i>cuprit</i><par n="abell/a__n"/></e>
+<e lm="colemanita" a="prompsit2uoc"><i>colemanit</i><par n="abell/a__n"/></e>
+<e lm="bullabessa" a="prompsit2uoc"><i>bullabess</i><par n="abell/a__n"/></e>
+<e lm="broqueta" a="prompsit2uoc"><i>broquet</i><par n="abell/a__n"/></e>
+<e lm="batista" a="prompsit2uoc"><i>batist</i><par n="abell/a__n"/></e>
+<e lm="avantcambra" a="prompsit2uoc"><i>avantcambr</i><par n="abell/a__n"/></e>
+<e lm="astenosfera" a="prompsit2uoc"><i>astenosfer</i><par n="abell/a__n"/></e>
+<e lm="aqüicultura" a="prompsit2uoc"><i>aqüicultur</i><par n="abell/a__n"/></e>
+<e lm="apatita" a="prompsit2uoc"><i>apatit</i><par n="abell/a__n"/></e>
+<e lm="angula" a="prompsit2uoc"><i>angul</i><par n="abell/a__n"/></e>
+<e lm="ampicil·lina" a="prompsit2uoc"><i>ampicil·lin</i><par n="abell/a__n"/></e>
+<e lm="acaricida" a="prompsit2uoc"><i>acaricid</i><par n="agrícol/a__adj"/></e>
+<e lm="vincamina" a="prompsit2uoc"><i>vincamin</i><par n="abell/a__n"/></e>
+<e lm="úvula" a="prompsit2uoc"><i>úvul</i><par n="abell/a__n"/></e>
+<e lm="tremuja" a="prompsit2uoc"><i>tremuj</i><par n="abell/a__n"/></e>
+<e lm="tremolita" a="prompsit2uoc"><i>tremolit</i><par n="abell/a__n"/></e>
+<e lm="titina" a="prompsit2uoc"><i>titin</i><par n="abell/a__n"/></e>
+<e lm="titanita" a="prompsit2uoc"><i>titanit</i><par n="abell/a__n"/></e>
+<e lm="teodicea" a="prompsit2uoc"><i>teodice</i><par n="abell/a__n"/></e>
+<e lm="televenda" a="prompsit2uoc"><i>televend</i><par n="abell/a__n"/></e>
+<e lm="tàpera" a="prompsit2uoc"><i>tàper</i><par n="abell/a__n"/></e>
+<e lm="sulfanilamida" a="prompsit2uoc"><i>sulfanilamid</i><par n="abell/a__n"/></e>
+<e lm="subàrea" a="prompsit2uoc"><i>subàre</i><par n="abell/a__n"/></e>
+<e lm="rodera" a="prompsit2uoc"><i>roder</i><par n="abell/a__n"/></e>
+<e lm="rialleta" a="prompsit2uoc"><i>riallet</i><par n="abell/a__n"/></e>
+<e lm="ratlladora" a="prompsit2uoc"><i>ratllador</i><par n="abell/a__n"/></e>
+<e lm="ranera" a="prompsit2uoc"><i>raner</i><par n="abell/a__n"/></e>
+<e lm="quequesa" a="prompsit2uoc"><i>queques</i><par n="abell/a__n"/></e>
+<e lm="tartamudesa" a="prompsit2uoc"><i>tartamudes</i><par n="abell/a__n"/></e>
+<e lm="proustita" a="prompsit2uoc"><i>proustit</i><par n="abell/a__n"/></e>
+<e lm="prorrata" a="prompsit2uoc"><i>prorrat</i><par n="abell/a__n"/></e>
+<e lm="prímula" a="prompsit2uoc"><i>prímul</i><par n="abell/a__n"/></e>
+<e lm="piloteta" a="prompsit2uoc"><i>pilotet</i><par n="abell/a__n"/></e>
+<e lm="piconadora" a="prompsit2uoc"><i>piconador</i><par n="abell/a__n"/></e>
+<e lm="perilimfa" a="prompsit2uoc"><i>perilimf</i><par n="abell/a__n"/></e>
+<e lm="pegmatita" a="prompsit2uoc"><i>pegmatit</i><par n="abell/a__n"/></e>
+<e lm="pedicura" a="prompsit2uoc"><i>pedicur</i><par n="abell/a__n"/></e>
+<e lm="nontronita" a="prompsit2uoc"><i>nontronit</i><par n="abell/a__n"/></e>
+<e lm="mtorolita" a="prompsit2uoc"><i>mtorolit</i><par n="abell/a__n"/></e>
+<e lm="monocultura" a="prompsit2uoc"><i>monocultur</i><par n="abell/a__n"/></e>
+<e lm="mirabilita" a="prompsit2uoc"><i>mirabilit</i><par n="abell/a__n"/></e>
+<e lm="mètopa" a="prompsit2uoc"><i>mètop</i><par n="abell/a__n"/></e>
+<e lm="melamina" a="prompsit2uoc"><i>melamin</i><par n="abell/a__n"/></e>
+<e lm="martingala" a="prompsit2uoc"><i>martingal</i><par n="abell/a__n"/></e>
+<e lm="mantissa" a="prompsit2uoc"><i>mantiss</i><par n="abell/a__n"/></e>
+<e lm="maltosa" a="prompsit2uoc"><i>maltos</i><par n="abell/a__n"/></e>
+<e lm="maculatura" a="prompsit2uoc"><i>maculatur</i><par n="abell/a__n"/></e>
+<e lm="luteïna" a="prompsit2uoc"><i>luteïn</i><par n="abell/a__n"/></e>
+<e lm="ligroïna" a="prompsit2uoc"><i>ligroïn</i><par n="abell/a__n"/></e>
+<e lm="lepidocrocita" a="prompsit2uoc"><i>lepidocrocit</i><par n="abell/a__n"/></e>
+<e lm="isopleta" a="prompsit2uoc"><i>isoplet</i><par n="abell/a__n"/></e>
+<e lm="isohieta" a="prompsit2uoc"><i>isohiet</i><par n="abell/a__n"/></e>
+<e lm="isògona" a="prompsit2uoc"><i>isògon</i><par n="abell/a__n"/></e>
+<e lm="hialita" a="prompsit2uoc"><i>hialit</i><par n="abell/a__n"/></e>
+<e lm="hemimembrana" a="prompsit2uoc"><i>hemimembran</i><par n="abell/a__n"/></e>
+<e lm="goteta" a="prompsit2uoc"><i>gotet</i><par n="abell/a__n"/></e>
+<e lm="globina" a="prompsit2uoc"><i>globin</i><par n="abell/a__n"/></e>
+<e lm="genollera" a="prompsit2uoc"><i>genoller</i><par n="abell/a__n"/></e>
+<e lm="garjola" a="prompsit2uoc"><i>garjol</i><par n="abell/a__n"/></e>
+<e lm="frigidesa" a="prompsit2uoc"><i>frigides</i><par n="abell/a__n"/></e>
+<e lm="franel·la" a="prompsit2uoc"><i>franel·l</i><par n="abell/a__n"/></e>
+<e lm="fenilbutazona" a="prompsit2uoc"><i>fenilbutazon</i><par n="abell/a__n"/></e>
+<e lm="extrusora" a="prompsit2uoc"><i>extrusor</i><par n="abell/a__n"/></e>
+<e lm="exotoxina" a="prompsit2uoc"><i>exotoxin</i><par n="abell/a__n"/></e>
+<e lm="etilamina" a="prompsit2uoc"><i>etilamin</i><par n="abell/a__n"/></e>
+<e lm="esteatita" a="prompsit2uoc"><i>esteatit</i><par n="abell/a__n"/></e>
+<e lm="estalagmita" a="prompsit2uoc"><i>estalagmit</i><par n="abell/a__n"/></e>
+<e lm="establa" a="prompsit2uoc"><i>establ</i><par n="abell/a__n"/></e>
+<e lm="espineta" a="prompsit2uoc"><i>espinet</i><par n="abell/a__n"/></e>
+<e lm="espelta" a="prompsit2uoc"><i>espelt</i><par n="abell/a__n"/></e>
+<e lm="escumadora" a="prompsit2uoc"><i>escumador</i><par n="abell/a__n"/></e>
+<e lm="eosina" a="prompsit2uoc"><i>eosin</i><par n="abell/a__n"/></e>
+<e lm="endotoxina" a="prompsit2uoc"><i>endotoxin</i><par n="abell/a__n"/></e>
+<e lm="dringadissa" a="prompsit2uoc"><i>dringadiss</i><par n="abell/a__n"/></e>
+<e lm="ditada" a="prompsit2uoc"><i>ditad</i><par n="abell/a__n"/></e>
+<e lm="dacita" a="prompsit2uoc"><i>dacit</i><par n="abell/a__n"/></e>
+<e lm="crucífera" a="prompsit2uoc"><i>crucífer</i><par n="abell/a__n"/></e>
+<e lm="crisolita" a="prompsit2uoc"><i>crisolit</i><par n="abell/a__n"/></e>
+<e lm="contramarxa" a="prompsit2uoc"><i>contramarx</i><par n="abell/a__n"/></e>
+<e lm="clorita" a="prompsit2uoc"><i>clorit</i><par n="abell/a__n"/></e>
+<e lm="carnal·lita" a="prompsit2uoc"><i>carnal·lit</i><par n="abell/a__n"/></e>
+<e lm="cantonera" a="prompsit2uoc"><i>cantoner</i><par n="abell/a__n"/></e>
+<e lm="canera" a="prompsit2uoc"><i>caner</i><par n="abell/a__n"/></e>
+<e lm="gossera" a="prompsit2uoc"><i>gosser</i><par n="abell/a__n"/></e>
+<e lm="boracita" a="prompsit2uoc"><i>boracit</i><par n="abell/a__n"/></e>
+<e lm="azalea" a="prompsit2uoc"><i>azale</i><par n="abell/a__n"/></e>
+<e lm="austenita" a="prompsit2uoc"><i>austenit</i><par n="abell/a__n"/></e>
+<e lm="augita" a="prompsit2uoc"><i>augit</i><par n="abell/a__n"/></e>
+<e lm="atzurita" a="prompsit2uoc"><i>atzurit</i><par n="abell/a__n"/></e>
+<e lm="asímptota" a="prompsit2uoc"><i>asímptot</i><par n="abell/a__n"/></e>
+<e lm="antiderivada" a="prompsit2uoc"><i>antiderivad</i><par n="abell/a__n"/></e>
+<e lm="angora" a="prompsit2uoc"><i>angor</i><par n="abell/a__n"/></e>
+<e lm="andesita" a="prompsit2uoc"><i>andesit</i><par n="abell/a__n"/></e>
+<e lm="andesina" a="prompsit2uoc"><i>andesin</i><par n="abell/a__n"/></e>
+<e lm="anatoxina" a="prompsit2uoc"><i>anatoxin</i><par n="abell/a__n"/></e>
+<e lm="ampolleta" a="prompsit2uoc"><i>ampollet</i><par n="abell/a__n"/></e>
+<e lm="ampliadora" a="prompsit2uoc"><i>ampliador</i><par n="abell/a__n"/></e>
+<e lm="amazonita" a="prompsit2uoc"><i>amazonit</i><par n="abell/a__n"/></e>
+<e lm="albita" a="prompsit2uoc"><i>albit</i><par n="abell/a__n"/></e>
+<e lm="acetofenona" a="prompsit2uoc"><i>acetofenon</i><par n="abell/a__n"/></e>
 
 
  </section>
@@ -167455,6 +169373,27 @@
       
  </section>
 
+ <section id="regexp" type="standard">
+
+      <e>
+        <par n="numeros"/>
+      </e>
+
+   <e>
+      <par n="emails"/>
+     </e>
+    <e>
+      <par n="urls"/>
+    </e>  
+    <e>
+      <par n="ip"/>
+    </e>    
+
+ </section>
+
+
+
+
   <section id="final" type="inconditional">
      
       
@@ -167462,9 +169401,6 @@
         <par n="separa"/>
       </e>
       
-      <e>
-        <par n="numeros"/>
-      </e>
       
       <e>
         <par n="coma"/>
@@ -167481,15 +169417,6 @@
       <e>
         <par n="separ"/>
       </e>
-   <e>
-      <par n="emails"/>
-     </e>
-    <e>
-      <par n="urls"/>
-    </e>  
-    <e>
-      <par n="ip"/>
-    </e>    
   </section>
 
 

@@ -573,6 +573,7 @@
       <list-item v="UOC"/>
       <list-item v="xarxa"/>
       <list-item v="parc"/>
+      <list-item v="dutxa"/>
     </def-list>
 
     <def-list n="dies">
@@ -5903,7 +5904,9 @@
 	</call-macro>
 	<let>
 	  <clip pos="1" side="tl" part="lem"/>
-	  <lit v="haber que"/>
+	  <get-case-from pos="1">
+	    <lit v="haber que"/>
+	  </get-case-from>
 	</let>
 	<out> 
 	  <lu>
@@ -5932,7 +5935,9 @@
 	</call-macro>
 	<let>
 	  <clip pos="1" side="tl" part="lem"/>
-	  <lit v="haber que"/>
+	  <get-case-from pos="1">
+	    <lit v="haber que"/>
+	  </get-case-from>
 	</let>	
 	<out> 
 	  <lu>
@@ -5960,7 +5965,9 @@
 	</call-macro>
 	<let>
 	  <clip pos="1" side="tl" part="lem"/>
-	  <lit v="haber que"/>
+	  <get-case-from pos="1">
+	    <lit v="haber que"/>
+	  </get-case-from>
 	</let>	
 	<out> 
 	  <lu>

@@ -27,10 +27,10 @@ TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
 
 .deps/$(PREFVAR2)$(LANG2).dix: $(BASENAME).$(LANG2).dix
 	xsltproc --stringparam alt $(VAR2) alt.xsl $< >$@
-	
+
 .deps/common-$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix
 	xsltproc translate-to-default-equivalent.xsl $< >$@
-	
+
 .deps/$(PREFVAR1)$(PREFIX1).dix: .deps/common-$(PREFIX1).dix
 	xsltproc --stringparam alt $(VAR1) alt.xsl $< >$@
 
@@ -101,7 +101,7 @@ trules-$(PREFIX1).bin: $(BASENAME).trules-$(PREFIX1).xml
 	apertium-validate-transfer $(BASENAME).trules-$(PREFIX1).xml
 	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX1).xml \
 	                             trules-$(PREFIX1).bin
-	                             
+
 trules-$(PREFIX2).bin: $(BASENAME).trules-$(PREFIX2).xml
 	apertium-validate-transfer $(BASENAME).trules-$(PREFIX2).xml
 	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX2).xml \
@@ -121,7 +121,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            modes.xml translate-to-default-equivalent.xsl alt.xsl \
            $(PREFIX1)-latin1.prob $(PREFIX2)-latin1.prob \
            $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx
-           
+
+
 apertium_es_cadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_es_modesdir=$(prefix)/share/apertium/modes/
 
@@ -135,7 +136,7 @@ $(PREFIX2).mode: modes.xml
 
 modes: modes.xml
 	apertium-gen-modes modes.xml
-           
+
 apertium_es_ca_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).automorf.bin \
 	$(PREFVAR1)$(PREFIX1).autobil.bin $(PREFVAR1)$(PREFIX2).autobil.bin \
 	$(PREFVAR1)$(PREFIX1).autogen.bin $(PREFVAR1)$(PREFIX2).autogen.bin \

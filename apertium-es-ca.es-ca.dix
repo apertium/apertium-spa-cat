@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="iso-8859-1"?><!-- -*-nxml-*- -->
 <dictionary>
   <alphabet/>
   <sdefs>
@@ -11073,6 +11073,12 @@
           <r>porc<s n="n"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>cerda<s n="n"/></l>
+          <r>porca<s n="n"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>cerda<s n="n"/></l>
@@ -14320,10 +14326,22 @@
           <r>estàtua<s n="n"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>estatura<s n="n"/></l>
           <r>alçària<s n="n"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>estatura<s n="n"/></l>
+          <r>alçada<s n="n"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>altura<s n="n"/></l>
+          <r>alçada<s n="n"/></r>
         </p>
       </e>
       <e>
@@ -15181,7 +15199,7 @@
           <r>garantia<s n="n"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>garganta<s n="n"/></l>
           <r>gola<s n="n"/></r>
@@ -17357,7 +17375,7 @@
           <r>mansió<s n="n"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>manta<s n="n"/></l>
           <r>flassada<s n="n"/></r>
@@ -40064,7 +40082,7 @@
           <r>connivència<s n="n"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>concha<s n="n"/></l>
           <r>conquilla<s n="n"/></r>
@@ -42081,12 +42099,6 @@
       <e>
         <p>
           <l>desengaño<s n="n"/></l>
-          <r>desengany<s n="n"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>fiasco<s n="n"/></l>
           <r>desengany<s n="n"/></r>
         </p>
       </e>
@@ -53203,7 +53215,7 @@
       <e>
         <i>Llobregat<s n="np"/></i>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>ombligo<s n="n"/></l>
           <r>llombrígol<s n="n"/></r>
@@ -58845,7 +58857,7 @@
       <e r="LR">
         <p>
           <l>platillo<s n="n"/><s n="m"/><s n="sg"/></l>
-          <r>platerets<s n="n"/><s n="m"/><s n="pl"/></r>
+          <r>platet<s n="n"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -60951,7 +60963,7 @@
           <r>raspall<s n="n"/></r>
         </p>
       </e>
-      <e>
+      <e r="RL">
         <p>
           <l>rastrillo<s n="n"/></l>
           <r>rastell<s n="n"/></r>
@@ -69799,7 +69811,7 @@
         <i>analista<s n="n"/></i>
       </e>
 
-      <e>
+      <e r="LR">
         <p>
           <l>alzada<s n="n"/></l>
           <r>alçada<s n="n"/></r>
@@ -70143,6 +70155,12 @@
   <p>
     <l>almohada<s n="n"/><s n="f"/></l>
     <r>coixí<s n="n"/><s n="m"/></r>
+  </p>
+</e>
+<e r="LR">
+  <p>
+    <l>cojín<s n="n"/></l>
+    <r>coixí<s n="n"/></r>
   </p>
 </e>
 <e>
@@ -76780,6 +76798,12 @@
           <r>carnívor<s n="n"/></r>
         </p>
      </e>
+     <e a="prompsit2adn">
+        <p>
+          <l>carnívoro<s n="adj"/></l>
+          <r>carnívor<s n="adj"/></r>
+        </p>
+     </e>
 
      <e a="prompsit2adn">
         <p>
@@ -80581,7 +80605,7 @@
         </p>
      </e>
 
-     <e a="prompsit2adn">
+     <e a="prompsit2adn" r="RL">
         <p>
           <l>flete<s n="n"/></l>
           <r>nòlit<s n="n"/></r>
@@ -88897,7 +88921,7 @@
      <e a="prompsit2adn">
         <p>
           <l>trapicheo<s n="n"/></l>
-          <r>trepijoc<s n="n"/></r>
+          <r>tripijoc<s n="n"/></r>
         </p>
      </e>
 
@@ -91621,7 +91645,6 @@
 <e a="prompsit2adn"><p><l>gigantismo<s n="n"/></l><r>gigantisme<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>grafismo<s n="n"/></l><r>grafisme<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>hedonismo<s n="n"/></l><r>hedonisme<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>helenismo<s n="n"/></l><r>helenisme<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>hermetismo<s n="n"/></l><r>hermetisme<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>hinduismo<s n="n"/></l><r>hinduisme<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>hiperrealismo<s n="n"/></l><r>hiperrealisme<s n="n"/></r></p></e>
@@ -92125,7 +92148,7 @@
     <r>pole<s n="n"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e a="prompsit2adn" r="RL">
   <p>
     <l>biocombustible<s n="n"/></l>
     <r>biofuel<s n="n"/></r>
@@ -94055,14 +94078,14 @@
     <r>hel·lè<s n="n"/></r>
   </p>
 </e>
-<e a="prompsit2adn">
+<e  r="RL" a="prompsit2adn">
   <p>
     <l>kilovatio<s n="n"/></l>
     <r>kilowatt<s n="n"/></r>
   </p>
 </e>
 
-<e r="RL" a="prompsit2adn">
+<e a="prompsit2adn">
   <p>
     <l>kilovatio<s n="n"/></l>
     <r>quilowatt<s n="n"/></r>
@@ -98382,6 +98405,8 @@
 <e a="prompsit"><p><l>Lunnis<s n="np"/></l><r>Lunnis<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Luz<s n="np"/></l><r>Luz<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Mònica<s n="np"/></l><r>Mònica<s n="np"/></r></p></e>
+<e a="prompsit2uoc"><p><l>Neus<s n="np"/></l><r>Neus<s n="np"/></r></p></e>
+<e a="prompsit2uoc"><p><l>Nieves<s n="np"/></l><r>Nieves<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Maccabi<s n="np"/></l><r>Maccabi<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Maggie<s n="np"/></l><r>Maggie<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Mahfuz<s n="np"/></l><r>Mahfuz<s n="np"/></r></p></e>
@@ -107554,8 +107579,6 @@
       </e>
 
 
-<!--noves entrades np -->
-
 
 <e a="prompsit2uoc"><i>New<b/>Hampshire<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Colúmbia<s n="np"/></i></e>
@@ -107803,8 +107826,8 @@
 <e a="prompsit2uoc"><i>Vives<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Isidor<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Marí<s n="np"/></i></e>
+<e a="prompsit2uoc"><i>Celestina<s n="np"/></i></e>
 
-<!--noves entrades adj -->
 
 
 <e a="prompsit2uoc"><p><l>rectangular<s n="adj"/></l><r>rectangular<s n="adj"/></r></p></e>
@@ -108615,16 +108638,12 @@
 <e a="prompsit2uoc" r="LR"><p><l>desheredamiento<s n="n"/></l><r>desheretament<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>desheredación<s n="n"/></l><r>desheretament<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>accionamiento<s n="n"/></l><r>accionament<s n="n"/></r></p></e>
-
-
-
 <e a="prompsit2uoc"><p><l>discípulo<s n="n"/><s n="m"/><s n="sg"/></l><r>deixeble<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="prompsit2uoc"><p><l>discípulo<s n="n"/><s n="f"/><s n="sg"/></l><r>deixeble<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 
 <e a="prompsit2uoc" r="LR"><p><l>discípulo<s n="n"/><s n="m"/><s n="pl"/></l><r>deixeble<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e a="prompsit2uoc" r="LR"><p><l>discípulo<s n="n"/><s n="f"/><s n="pl"/></l><r>deixeble<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e a="prompsit2uoc" r="RL"><p><l>discípulo<s n="n"/><s n="GD"/><s n="pl"/></l><r>deixeble<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-
 
 <e a="prompsit2uoc" srl="estrella D"><p><l>estrella<s n="n"/><s n="f"/></l><r>estel<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit2uoc" srl="cometa"><p><l>cometa<s n="n"/><s n="f"/></l><r>estel<s n="n"/><s n="m"/></r></p></e>
@@ -108726,6 +108745,7 @@
 <e a="prompsit2uoc"><p><l>chelín<s n="n"/></l><r>xíling<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>funicular<s n="n"/></l><r>funicular<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>herbívoro<s n="n"/></l><r>herbívor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>herbívoro<s n="adj"/></l><r>herbívor<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>chamán<s n="n"/></l><r>xaman<s n="n"/></r></p></e>
 <e a="prompsit2uoc" r="RL"><p><l>tambor<s n="n"/></l><r>timbal<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>priorato<s n="n"/></l><r>priorat<s n="n"/></r></p></e>
@@ -109500,8 +109520,6 @@
 <e a="prompsit2uoc"><p><l>absorciometría<s n="n"/></l><r>absorciometria<s n="n"/></r></p></e>
 
 
-<!--noves 15 oct -->
-
 
 <e a="prompsit2uoc"><p><l>gráficamente<s n="adv"/></l><r>gràficament<s n="adv"/></r></p></e>
 <e a="prompsit2uoc"><p><l>quincenalmente<s n="adv"/></l><r>quinzenalment<s n="adv"/></r></p></e>
@@ -109688,6 +109706,1894 @@
 <e a="prompsit2uoc"><p><l>apotema<s n="n"/></l><r>apotema<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>angioma<s n="n"/></l><r>angioma<s n="n"/></r></p></e>
 
+
+<e a="prompsit2uoc"><p><l>coco<s n="n"/></l><r>coco<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>istmo<s n="n"/></l><r>istme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bario<s n="n"/></l><r>bari<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nabo<s n="n"/></l><r>nap<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>helio<s n="n"/></l><r>heli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>boro<s n="n"/></l><r>bor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>silicato<s n="n"/></l><r>silicat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>collage<s n="n"/></l><r>collage<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>superconductor<s n="n"/></l><r>superconductor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pedúnculo<s n="n"/></l><r>peduncle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neurotransmisor<s n="n"/></l><r>neurotransmissor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>metanol<s n="n"/></l><r>metanol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>flavonoide<s n="n"/></l><r>flavonoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vanadio<s n="n"/></l><r>vanadi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oxidante<s n="n"/></l><r>oxidant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>berilio<s n="n"/></l><r>beril·li<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zen<s n="n"/></l><r>zen<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>curva<s n="n"/><s n="f"/></l><r>revolt<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>salmo<s n="n"/></l><r>salm<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>penique<s n="n"/></l><r>penic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>catarismo<s n="n"/></l><r>catarisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>plata<s n="n"/><s n="f"/></l><r>argent<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ocre<s n="n"/></l><r>ocre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tubérculo<s n="n"/></l><r>tubercle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>soluto<s n="n"/></l><r>solut<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>receptáculo<s n="n"/></l><r>receptacle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>flúor<s n="n"/></l><r>fluor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rifle<s n="n"/></l><r>rifle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neologismo<s n="n"/></l><r>neologisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>folíolo<s n="n"/></l><r>folíol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quelícero<s n="n"/></l><r>quelícer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alelo<s n="n"/></l><r>al·lel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cátodo<s n="n"/></l><r>càtode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tumulto<s n="n"/></l><r>tumult<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>madrigal<s n="n"/></l><r>madrigal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hijastro<s n="n"/><s n="m"/><s n="sg"/></l><r>fillastre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hijastro<s n="n"/><s n="f"/><s n="sg"/></l><r>fillastre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>hijastro<s n="n"/><s n="m"/><s n="pl"/></l><r>fillastre<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>hijastro<s n="n"/><s n="f"/><s n="pl"/></l><r>fillastre<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>hijastro<s n="n"/><s n="GD"/><s n="pl"/></l><r>fillastre<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" srl="látigo"><p><l>látigo<s n="n"/></l><r>fuet<s n="n"/></r></p></e>
+<e a="prompsit2uoc" srl="fuet D"><p><l>fuet<s n="n"/></l><r>fuet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bol<s n="n"/></l><r>bol<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>cuenco<s n="n"/></l><r>bol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trébol<s n="n"/></l><r>trèvol<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>balsa<s n="n"/><s n="f"/></l><r>rai<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cebada<s n="n"/><s n="f"/></l><r>ordi<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fluoruro<s n="n"/></l><r>fluorur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>descriptor<s n="n"/></l><r>descriptor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>concoide<s n="n"/></l><r>concoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>linfocito<s n="n"/></l><r>limfòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>telar<s n="n"/></l><r>teler<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>teleférico<s n="n"/></l><r>telefèric<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>selenio<s n="n"/></l><r>seleni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>panegírico<s n="n"/></l><r>panegíric<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fenotipo<s n="n"/></l><r>fenotip<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clavel<s n="n"/></l><r>clavell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>néctar<s n="n"/></l><r>nèctar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tártaro<s n="n"/></l><r>tàrtar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>yoduro<s n="n"/></l><r>iodur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rotor<s n="n"/></l><r>rotor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ron<s n="n"/></l><r>rom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>propulsor<s n="n"/></l><r>propulsor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pistilo<s n="n"/></l><r>pistil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>compresor<s n="n"/></l><r>compressor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ácaro<s n="n"/></l><r>àcar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zodíaco<s n="n"/></l><r>zodíac<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>espín<s n="n"/></l><r>spin<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>puerco<b/>espín<s n="n"/></l><r>porc<b/>espí<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>puerco<s n="n"/></l><r>porc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carbohidrato<s n="n"/></l><r>carbohidrat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>manglar<s n="n"/></l><r>manglar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>germanio<s n="n"/></l><r>germani<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>chopo<s n="n"/></l><r>pollancre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plutonio<s n="n"/></l><r>plutoni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>leucocito<s n="n"/></l><r>leucòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>macho<b/>cabrío<s n="n"/></l><r>boc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>binomio<s n="n"/></l><r>binomi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arabismo<s n="n"/></l><r>arabisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>protozoo<s n="n"/></l><r>protozou<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mijo<s n="n"/></l><r>mill<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dieléctrico<s n="n"/></l><r>dielèctric<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>culombio<s n="n"/></l><r>coulomb<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>basalto<s n="n"/></l><r>basalt<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>kárate<s n="n"/></l><r>karate<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antílope<s n="n"/></l><r>antílop<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trineo<s n="n"/></l><r>trineu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>termita<s n="n"/><s n="f"/></l><r>tèrmit<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reflector<s n="n"/></l><r>reflector<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>minué<s n="n"/></l><r>minuet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bismuto<s n="n"/></l><r>bismut<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amuleto<s n="n"/></l><r>amulet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>torio<s n="n"/></l><r>tori<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plasmidio<s n="n"/></l><r>plasmidi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epitafio<s n="n"/></l><r>epitafi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dipolo<s n="n"/></l><r>dipol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>casete<s n="n"/><s n="f"/></l><r>casset<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>autorretrato<s n="n"/></l><r>autoretrat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>circonio<s n="n"/></l><r>zirconi<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>polluelo<s n="n"/></l><r>pollet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pollito<s n="n"/></l><r>pollet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pólipo<s n="n"/></l><r>pòlip<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monómero<s n="n"/></l><r>monòmer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jengibre<s n="n"/></l><r>gingebre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>galio<s n="n"/></l><r>gal·li<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>facsímil<s n="n"/></l><r>facsímil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estuco<s n="n"/></l><r>estuc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bromuro<s n="n"/></l><r>bromur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arácnido<s n="n"/></l><r>aràcnid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ruego<s n="n"/></l><r>prec<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>montículo<s n="n"/></l><r>monticle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arconte<s n="n"/></l><r>arcont<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rubidio<s n="n"/></l><r>rubidi<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>guión<s n="n"/></l><r>guionet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estuario<s n="n"/></l><r>estuari<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>páramo<s n="n"/></l><r>erm<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apóstrofo<s n="n"/></l><r>apòstrof<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amoníaco<s n="n"/></l><r>amoníac<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>triglicérido<s n="n"/></l><r>triglicèrid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rumiante<s n="n"/></l><r>remugant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rumiante<s n="adj"/></l><r>remugant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>guiaje<s n="n"/></l><r>guiatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>eritrocito<s n="n"/></l><r>eritròcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>radioisótopo<s n="n"/></l><r>radioisòtop<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perejil<s n="n"/></l><r>julivert<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>marfil<s n="n"/></l><r>vori<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sátiro<s n="n"/></l><r>sàtir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polisacárido<s n="n"/></l><r>polisacàrid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ohmio<s n="n"/></l><r>ohm<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>limo<s n="n"/></l><r>llim<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gránulo<s n="n"/></l><r>grànul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>determinismo<s n="n"/></l><r>determinisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cromatismo<s n="n"/></l><r>cromatisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>celibato<s n="n"/></l><r>celibat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>castor<s n="n"/></l><r>castor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>thriller<s n="n"/></l><r>thriller<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prolapso<s n="n"/></l><r>prolapse<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nódulo<s n="n"/></l><r>nòdul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>garrote<s n="n"/></l><r>garrot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fonógrafo<s n="n"/></l><r>fonògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>deuterio<s n="n"/></l><r>deuteri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abeto<s n="n"/></l><r>avet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>armisticio<s n="n"/></l><r>armistici<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subjuntivo<s n="n"/></l><r>subjuntiu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sacrilegio<s n="n"/></l><r>sacrilegi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuadrilátero<s n="n"/></l><r>quadrilàter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>insectívoro<s n="n"/></l><r>insectívor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>insectívoro<s n="adj"/></l><r>insectívor<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fauno<s n="n"/></l><r>faune<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bonsai<s n="n"/></l><r>bonsai<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>archiduque<s n="n"/></l><r>arxiduc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>albergue<s n="n"/></l><r>alberg<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ungulado<s n="adj"/></l><r>ungulat<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trailer<s n="n"/></l><r>tràiler<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>premolar<s n="n"/></l><r>premolar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>positivismo<s n="n"/></l><r>positivisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>paralelograma<s n="n"/></l><r>paral·lelogram<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monosacárido<s n="n"/></l><r>monosacàrid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>electroimán<s n="n"/></l><r>electroimant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dirigible<s n="n"/></l><r>dirigible<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cigoto<s n="n"/></l><r>zigot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sésamo<s n="n"/></l><r>sèsam<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>menhir<s n="n"/></l><r>menhir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plagio<s n="n"/></l><r>plagi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bulevar<s n="n"/></l><r>bulevard<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>baricentro<s n="n"/></l><r>baricentre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antídoto<s n="n"/></l><r>antídot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>angstrom<s n="n"/></l><r>àngstrom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>submarinismo<s n="n"/></l><r>submarinisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>joule<s n="n"/></l><r>joule<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>visor<s n="n"/></l><r>visor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sionismo<s n="n"/></l><r>sionisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alambrada<s n="n"/><s n="f"/></l><r>filat<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cebo<s n="n"/></l><r>esquer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zoom<s n="n"/></l><r>zoom<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>zum<s n="n"/></l><r>zoom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zombi<s n="n"/></l><r>zombi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tépalo<s n="n"/></l><r>tèpal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sáculo<s n="n"/></l><r>sàcul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mulo<s n="n"/></l><r>mul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>heraldo<s n="n"/></l><r>herald<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>genotipo<s n="n"/></l><r>genotip<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hinojo<s n="n"/></l><r>fonoll<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>electromagnetismo<s n="n"/></l><r>electromagnetisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>póquer<s n="n"/></l><r>pòquer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>miriápodo<s n="n"/></l><r>miriàpode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>díptero<s n="n"/></l><r>dípter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>latido<s n="n"/></l><r>batec<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>atrio<s n="n"/></l><r>atri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arcángel<s n="n"/></l><r>arcàngel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reumatismo<s n="n"/></l><r>reumatisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rectorado<s n="n"/></l><r>rectorat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ombligo<s n="n"/></l><r>melic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>malta<s n="n"/></l><r>malt<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>latifundio<s n="n"/></l><r>latifundi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glande<s n="n"/></l><r>gland<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>spot<s n="n"/></l><r>espot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anticoagulante<s n="n"/></l><r>anticoagulant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuádruplo<s n="n"/></l><r>quàdruple<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nártex<s n="n"/></l><r>nàrtex<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>condominio<s n="n"/></l><r>condomini<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cesio<s n="n"/></l><r>cesi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>artiodáctilo<s n="n"/></l><r>artiodàctil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rondó<s n="n"/></l><r>rondó<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>pinar<s n="n"/></l><r>pinar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>multiplexor<s n="n"/></l><r>multiplexor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>locativo<s n="n"/></l><r>locatiu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipopótamo<s n="n"/></l><r>hipopòtam<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hexágono<s n="n"/></l><r>hexàgon<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>grifo<s n="n"/></l><r>griu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cerebelo<s n="n"/></l><r>cerebel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alabastro<s n="n"/></l><r>alabastre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trapecio<s n="n"/></l><r>trapezi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tic<s n="n"/></l><r>tic<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>tilo<s n="n"/></l><r>tell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sílice<s n="n"/></l><r>sílice<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jaguar<s n="n"/></l><r>jaguar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hiel<s n="n"/></l><r>fel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>éter<s n="n"/></l><r>èter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epitelio<s n="n"/></l><r>epiteli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dualismo<s n="n"/></l><r>dualisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>domo<s n="n"/></l><r>dom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>colon<s n="n"/></l><r>còlon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nudillo<s n="n"/></l><r>artell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>silogismo<s n="n"/></l><r>sil·logisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>micronúcleo<s n="n"/></l><r>micronucli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>manillar<s n="n"/></l><r>manillar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>himenóptero<s n="n"/></l><r>himenòpter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>follaje<s n="n"/></l><r>fullatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>deflector<s n="n"/></l><r>deflector<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cólico<s n="n"/></l><r>còlic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>caníbal<s n="n"/></l><r>caníbal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bunker<s n="n"/></l><r>búnquer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fosfolípido<s n="n"/></l><r>fosfolípid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cloroformo<s n="n"/></l><r>cloroform<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ciliado<s n="n"/></l><r>ciliat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sabbath<s n="n"/></l><r>sàbat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polimorfismo<s n="n"/></l><r>polimorfisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>criquet<s n="n"/></l><r>criquet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>capullo<s n="n"/></l><r>capoll<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>almanaque<s n="n"/></l><r>almanac<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>chamanismo<s n="n"/></l><r>xamanisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sexteto<s n="n"/></l><r>sextet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>renio<s n="n"/></l><r>reni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>niobio<s n="n"/></l><r>niobi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nematodo<s n="n"/></l><r>nematode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monomio<s n="n"/></l><r>monomi<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>espín<s n="n"/></l><r>espín<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aldehído<s n="n"/></l><r>aldehid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>albedrío<s n="n"/></l><r>albir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vulcanismo<s n="n"/></l><r>vulcanisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>turbante<s n="n"/></l><r>turbant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jade<s n="n"/></l><r>jade<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>interregno<s n="n"/></l><r>interregne<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>difosfato<s n="n"/></l><r>difosfat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cañaveral<s n="n"/></l><r>canyar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ámbar<s n="n"/></l><r>ambre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sincretismo<s n="n"/></l><r>sincretisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pedicelo<s n="n"/></l><r>pedicel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nomadismo<s n="n"/></l><r>nomadisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>narcótico<s n="n"/></l><r>narcòtic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hemorroide<s n="n"/><s n="f"/></l><r>hemorroide<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>folículo<s n="n"/></l><r>fol·licle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espinaca<s n="n"/><s n="f"/></l><r>espinac<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>adelfa<s n="n"/><s n="f"/></l><r>baladre<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apio<s n="n"/></l><r>api<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anélido<s n="n"/></l><r>anèl·lid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>telurio<s n="n"/></l><r>tel·luri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>superhombre<s n="n"/></l><r>superhome<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>placebo<s n="n"/></l><r>placebo<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perisodáctilo<s n="n"/></l><r>perissodàctil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>paralelepípedo<s n="n"/></l><r>paral·lelepípede<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>noticiario<s n="n"/></l><r>noticiari<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>newton<s n="n"/></l><r>newton<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arándano<s n="n"/></l><r>nabiu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isomorfismo<s n="n"/></l><r>isomorfisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>homomorfismo<s n="n"/></l><r>homomorfisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gnomo<s n="n"/></l><r>gnom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>drift<s n="n"/></l><r>drift<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cóndilo<s n="n"/></l><r>còndil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arrozal<s n="n"/></l><r>arrossar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>turbocompresor<s n="n"/></l><r>turbocompressor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tritio<s n="n"/></l><r>triti<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quilate<s n="n"/></l><r>quirat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polipéptido<s n="n"/></l><r>polipèptid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cucharón<s n="n"/></l><r>cullerot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>burgo<s n="n"/></l><r>burg<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>avellano<s n="n"/></l><r>avellaner<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>albedo<s n="n"/></l><r>albedo<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>saprófito<s n="n"/></l><r>sapròfit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quantum<s n="n"/></l><r>quàntum<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>cuanto<s n="n"/></l><r>quàntum<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pajar<s n="n"/></l><r>paller<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>ollar<s n="n"/></l><r>nariu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>narina<s n="n"/><s n="f"/></l><r>nariu<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>muestreo<s n="n"/></l><r>mostratge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mistral<s n="n"/></l><r>mestral<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipódromo<s n="n"/></l><r>hipòdrom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>harén<s n="n"/></l><r>harem<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gatillo<s n="n"/></l><r>gallet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fideo<s n="n"/></l><r>fideu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>electrólito<s n="n"/></l><r>electròlit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>enjambre<s n="n"/></l><r>eixam<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>egiptólogo<s n="n"/></l><r>egiptòleg<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cerio<s n="n"/></l><r>ceri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>campanero<s n="n"/></l><r>campaner<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vacuola<s n="n"/><s n="f"/></l><r>vacúol<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tornado<s n="n"/></l><r>tornado<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>termopar<s n="n"/></l><r>termoparell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sextante<s n="n"/></l><r>sextant<s n="n"/></r></p></e>
+<e a="prompsit2uoc" srl="pedo D"><p><l>pedo<s n="n"/></l><r>pet<s n="n"/></r></p></e>
+<e a="prompsit2uoc" srl="estallido"><p><l>estallido<s n="n"/></l><r>pet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ogro<s n="n"/></l><r>ogre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lutecio<s n="n"/></l><r>luteci<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gramófono<s n="n"/></l><r>gramòfon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gerundio<s n="n"/></l><r>gerundi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>formaldehído<s n="n"/></l><r>formaldehid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esfínter<s n="n"/></l><r>esfínter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>equinodermo<s n="n"/></l><r>equinoderm<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epígono<s n="n"/></l><r>epígon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>despecho<s n="n"/></l><r>despit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>decalaje<s n="n"/></l><r>decalatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bronquio<s n="n"/></l><r>bronqui<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ápice<s n="n"/></l><r>àpex<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sorbo<s n="n"/></l><r>xarrup<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>tabique<s n="n"/></l><r>septe<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>matorral<s n="n"/></l><r>matollar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fenol<s n="n"/></l><r>fenol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clavicordio<s n="n"/></l><r>clavicordi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>asterismo<s n="n"/></l><r>asterisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ánodo<s n="n"/></l><r>ànode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ungüento<s n="n"/></l><r>ungüent<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tántalo<s n="n"/></l><r>tàntal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>superíndice<s n="n"/></l><r>superíndex<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>altiplanicie<s n="n"/><s n="f"/></l><r>planell<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pedipalpo<s n="n"/></l><r>pedipalp<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neoliberalismo<s n="n"/></l><r>neoliberalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>faradio<s n="n"/></l><r>farad<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>elipsoide<s n="n"/></l><r>el·lipsoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carpo<s n="n"/></l><r>carp<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>terceto<s n="n"/></l><r>tercet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>salvoconducto<s n="n"/></l><r>salconduit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rescripto<s n="n"/></l><r>rescripte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>réquiem<s n="n"/></l><r>rèquiem<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polígamo<s n="n"/></l><r>polígam<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pogromo<s n="n"/></l><r>pogrom<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>palpación<s n="n"/><s n="f"/></l><r>palp<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>octeto<s n="n"/></l><r>octet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nihilismo<s n="n"/></l><r>nihilisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>morse<s n="n"/></l><r>morse<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>milisegundo<s n="n"/></l><r>mil·lisegon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jacobinismo<s n="n"/></l><r>jacobinisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>yanqui<s n="n"/></l><r>ianqui<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fetichismo<s n="n"/></l><r>fetitxisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epíteto<s n="n"/></l><r>epítet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>coyote<s n="n"/></l><r>coiot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>candado<s n="n"/></l><r>cadenat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arcaísmo<s n="n"/></l><r>arcaisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pilotaje<s n="n"/></l><r>pilotatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pericarpio<s n="n"/></l><r>pericarpi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>veleta<s n="n"/><s n="f"/></l><r>penell<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>orangután<s n="n"/></l><r>orangutan<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>motel<s n="n"/></l><r>motel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hiato<s n="n"/></l><r>hiat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>armonio<s n="n"/></l><r>harmònium<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hado<s n="n"/></l><r>fat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>decasílabo<s n="n"/></l><r>decasíl·lab<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>catéter<s n="n"/></l><r>catèter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>caqui<s n="n"/></l><r>caqui<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amonio<s n="n"/></l><r>amoni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aforismo<s n="n"/></l><r>aforisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vocativo<s n="n"/></l><r>vocatiu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>caballa<s n="n"/><s n="f"/></l><r>verat<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zafiro<s n="n"/></l><r>safir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>paladio<s n="n"/></l><r>pal·ladi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>máser<s n="n"/></l><r>màser<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espectrómetro<s n="n"/></l><r>espectròmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>díptico<s n="n"/></l><r>díptic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cigüeñal<s n="n"/></l><r>cigonyal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>catabolismo<s n="n"/></l><r>catabolisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carretero<s n="n"/></l><r>carreter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>kayak<s n="n"/></l><r>caiac<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bobsleigh<s n="n"/></l><r>bobsleigh<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biotopo<s n="n"/></l><r>biòtop<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bable<s n="n"/></l><r>bable<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apócope<s n="n"/></l><r>apòcope<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alófono<s n="n"/></l><r>al·lòfon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>xilófono<s n="n"/></l><r>xilòfon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>chacal<s n="n"/></l><r>xacal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trocánter<s n="n"/></l><r>trocànter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tótem<s n="n"/></l><r>tòtem<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sadomasoquismo<s n="n"/></l><r>sadomasoquisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>regicidio<s n="n"/></l><r>regicidi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>politeísmo<s n="n"/></l><r>politeisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>microsegundo<s n="n"/></l><r>microsegon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lignito<s n="n"/></l><r>lignit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fieltro<s n="n"/></l><r>feltre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>endomorfismo<s n="n"/></l><r>endomorfisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dímero<s n="n"/></l><r>dímer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cromátida<s n="n"/></l><r>cromàtide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>coloide<s n="n"/></l><r>col·loide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>calco<s n="n"/></l><r>calc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arseniato<s n="n"/></l><r>arseniat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sentimentalismo<s n="n"/></l><r>sentimentalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rutenio<s n="n"/></l><r>ruteni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>revisionismo<s n="n"/></l><r>revisionisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>probóscide<s n="n"/></l><r>probòscide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>poliedro<s n="n"/></l><r>políedre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mutualismo<s n="n"/></l><r>mutualisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>metabolito<s n="n"/></l><r>metabòlit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isómero<s n="n"/></l><r>isòmer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>granadero<s n="n"/></l><r>granader<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>funcionalismo<s n="n"/></l><r>funcionalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>betún<s n="n"/></l><r>betum<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>callejón<g><b/>sin<b/>salida</g><s n="n"/></l><r>atzucac<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ablativo<s n="n"/></l><r>ablatiu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>usufructo<s n="n"/></l><r>usdefruit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sotavento<s n="n"/></l><r>sotavent<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>saxófono<s n="n"/></l><r>saxofon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>repique<s n="n"/></l><r>repic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>repelente<s n="adj"/></l><r>repel·lent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>proconsulado<s n="n"/></l><r>proconsolat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>potenciómetro<s n="n"/></l><r>potenciòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desazón<s n="n"/><s n="f"/></l><r>neguit<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monocito<s n="n"/></l><r>monòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>megabit<s n="n"/></l><r>megabit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lantánido<s n="n"/></l><r>lantànid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>íleon<s n="n"/></l><r>ili<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>geiser<s n="n"/></l><r>guèiser<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espiráculo<s n="n"/></l><r>espiracle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pésame<s n="n"/></l><r>condol<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>clamor<s n="n"/></l><r>clamor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apartheid<s n="n"/></l><r>apartheid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antihistamínico<s n="adj"/></l><r>antihistamínic<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antidepresivo<s n="adj"/></l><r>antidepressiu<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acetato<s n="n"/></l><r>acetat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>charlestón<s n="n"/></l><r>xarleston<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tilo<s n="n"/></l><r>til·ler<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sumando<s n="n"/></l><r>sumand<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sincronismo<s n="n"/></l><r>sincronisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sidecar<s n="n"/></l><r>sidecar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>samario<s n="n"/></l><r>samari<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plexo<s n="n"/></l><r>plexe<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perjurio<s n="n"/></l><r>perjuri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lego<s n="adj"/></l><r>llec<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>kamikaze<s n="n"/></l><r>kamikaze<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>holmio<s n="n"/></l><r>holmi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hidruro<s n="n"/></l><r>hidrur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>herbazal<s n="n"/></l><r>herbassar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>geranio<s n="n"/></l><r>gerani<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>galeote<s n="n"/></l><r>galiot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estereorradián<s n="n"/></l><r>estereoradiant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>élitro<s n="n"/></l><r>èlitre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>descuido<s n="n"/></l><r>descuit<s n="n"/></r></p></e>
+<e a="prompsit2uoc" srl="carcoma D"><p><l>carcoma<s n="n"/><s n="f"/></l><r>corc<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc" srl="gorgojo"><p><l>gorgojo<s n="n"/></l><r>corc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carburo<s n="n"/></l><r>carbur<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>horquilla<s n="n"/><s n="f"/></l><r>arquet<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>churro<s n="n"/></l><r>xurro<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>siroco<s n="n"/></l><r>xaloc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tálamo<s n="n"/></l><r>tàlem<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>talco<s n="n"/></l><r>talc<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>sacudida<s n="n"/><s n="f"/></l><r>sotrac<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plectro<s n="n"/></l><r>plectre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>panteísmo<s n="n"/></l><r>panteisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nucleósido<s n="n"/></l><r>nucleòsid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lesbianismo<s n="n"/></l><r>lesbianisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fitoplancton<s n="n"/></l><r>fitoplàncton<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ferromagnetismo<s n="n"/></l><r>ferromagnetisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fasor<s n="n"/></l><r>fasor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>membrillo<s n="n"/></l><r>codony<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>blastocelo<s n="n"/></l><r>blastocel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bisel<s n="n"/></l><r>bisell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>balaustre<s n="n"/></l><r>balustre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antónimo<s n="n"/></l><r>antònim<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aullido<s n="n"/></l><r>udol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trote<s n="n"/></l><r>trot<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>desvío<s n="n"/></l><r>trencall<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>saurio<s n="n"/></l><r>saure<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>piquete<s n="n"/></l><r>piquet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>peroné<s n="n"/></l><r>peroné<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>panecillo<s n="n"/></l><r>panet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>operando<s n="n"/></l><r>operand<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>molinillo<s n="n"/></l><r>molinet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>megalito<s n="n"/></l><r>megàlit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>kilobyte<s n="n"/></l><r>kilobyte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jaspe<s n="n"/></l><r>jaspi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>húmero<s n="n"/></l><r>húmer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hospicio<s n="n"/></l><r>hospici<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipogeo<s n="n"/></l><r>hipogeu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hemistiquio<s n="n"/></l><r>hemistiqui<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hemicriptófito<s n="n"/></l><r>hemicriptòfit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>haluro<s n="n"/></l><r>halur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hafnio<s n="n"/></l><r>hafni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>florete<s n="n"/></l><r>floret<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fermio<s n="n"/></l><r>fermi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>daltonismo<s n="n"/></l><r>daltonisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>circuncentro<s n="n"/></l><r>circumcentre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cicloide<s n="n"/></l><r>cicloide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corzo<s n="n"/></l><r>cabirol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>borato<s n="n"/></l><r>borat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>blastómero<s n="n"/></l><r>blastòmer<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>charco<s n="n"/></l><r>bassal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arsénico<s n="n"/></l><r>arsènic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aceptor<s n="n"/></l><r>acceptor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>túbulo<s n="n"/></l><r>túbul<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>solana<s n="n"/><s n="f"/></l><r>solell<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>solana<s n="n"/><s n="f"/></l><r>solana<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sinusoide<s n="n"/></l><r>sinusoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>provincialismo<s n="n"/></l><r>provincialisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>poliedro<s n="n"/></l><r>poliedre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plasto<s n="n"/></l><r>plastidi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>periscopio<s n="n"/></l><r>periscopi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pascal<s n="n"/></l><r>pascal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ortóptero<s n="n"/></l><r>ortòpter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nominalismo<s n="n"/></l><r>nominalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nitrilo<s n="n"/></l><r>nitril<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neodimio<s n="n"/></l><r>neodimi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nácar<s n="n"/></l><r>nacre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>minotauro<s n="n"/></l><r>minotaure<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magnetómetro<s n="n"/></l><r>magnetòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>interferómetro<s n="n"/></l><r>interferòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>interdicto<s n="n"/></l><r>interdicte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hangar<s n="n"/></l><r>hangar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>giroscopio<s n="n"/></l><r>giroscopi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gasterópodo<s n="n"/></l><r>gasteròpode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gadolinio<s n="n"/></l><r>gadolini<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>feldespato<s n="n"/></l><r>feldspat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>éster<s n="n"/></l><r>ester<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espliego<s n="n"/></l><r>espígol<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>alhucema<s n="n"/></l><r>espígol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>embalaje<s n="n"/></l><r>embalatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>elixir<s n="n"/></l><r>elixir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>criticismo<s n="n"/></l><r>criticisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corimbo<s n="n"/></l><r>corimbe<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>contraejemplo<s n="n"/></l><r>contraexemple<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cariotipo<s n="n"/></l><r>cariotip<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alcaudón<s n="n"/></l><r>capsigrany<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>caimán<s n="n"/></l><r>caiman<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bolchevismo<s n="n"/></l><r>bolxevisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>aciano<s n="n"/></l><r>blauet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>martín<b/>pescador<s n="n"/></l><r>blauet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arquitrabe<s n="n"/></l><r>arquitrau<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aracnoideo<s n="n"/></l><r>aracnoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>adipocito<s n="n"/></l><r>adipòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>viraje<s n="n"/></l><r>viratge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subdominio<s n="n"/></l><r>subdomini<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>safari<s n="n"/></l><r>safari<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>puritanismo<s n="n"/></l><r>puritanisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>praseodimio<s n="n"/></l><r>praseodimi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>parterre<s n="n"/></l><r>parterre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>palíndromo<s n="n"/></l><r>palíndrom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>osciloscopio<s n="n"/></l><r>oscil·loscopi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>metaloide<s n="n"/></l><r>metal·loide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>melanocito<s n="n"/></l><r>melanòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mastocito<s n="n"/></l><r>mastòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magacín<s n="n"/></l><r>magazín<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jeep<s n="n"/></l><r>jeep<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jacinto<s n="n"/></l><r>jacint<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>intelecto<s n="n"/></l><r>intel·lecte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipérbole<s n="n"/></l><r>hipèrbole<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>galvanómetro<s n="n"/></l><r>galvanòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fotodiodo<s n="n"/></l><r>fotodíode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>heno<s n="n"/></l><r>fenc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esferoide<s n="n"/></l><r>esferoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>disacárido<s n="n"/></l><r>disacàrid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>coxal<s n="n"/></l><r>coxal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cinabrio<s n="n"/></l><r>cinabri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>centriolo<s n="n"/></l><r>centríol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>briófito<s n="n"/></l><r>briòfit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>borne<s n="n"/></l><r>born<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biquini<s n="n"/></l><r>biquini<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>automotor<s n="n"/></l><r>automotor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antimonio<s n="n"/></l><r>antimoni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>actínido<s n="n"/></l><r>actínid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>superfluido<s n="n"/></l><r>superfluid<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>refinado<s n="n"/></l><r>refinatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>poney<s n="n"/></l><r>poni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>patetismo<s n="n"/></l><r>patetisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>parricidio<s n="n"/></l><r>parricidi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>marsupio<s n="n"/></l><r>marsupi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magnetófono<s n="n"/></l><r>magnetòfon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hobby<s n="n"/></l><r>hobby<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hámster<s n="n"/></l><r>hàmster<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>frambuesa<s n="n"/><s n="f"/></l><r>gerd<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gametofito<s n="n"/></l><r>gametòfit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dentículo<s n="n"/></l><r>denticle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>decanato<s n="n"/></l><r>deganat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cruasán<s n="n"/></l><r>croissant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>crisantemo<s n="n"/></l><r>crisantem<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cowboy<s n="n"/></l><r>cowboy<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>colorímetro<s n="n"/></l><r>colorímetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>colectivismo<s n="n"/></l><r>col·lectivisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alucinógeno<s n="n"/></l><r>al·lucinogen<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trombo<s n="n"/></l><r>trombe<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>termistor<s n="n"/></l><r>termistor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subjetivismo<s n="n"/></l><r>subjectivisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>taco<s n="n"/></l><r>renec<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>purismo<s n="n"/></l><r>purisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>puré<s n="n"/></l><r>puré<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>proti<s n="n"/></l><r>proti<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pizca<s n="n"/><s n="f"/></l><r>polsim<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plasmodio<s n="n"/></l><r>plasmodi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>peritoneo<s n="n"/></l><r>peritoneu<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>pendiente<s n="n"/></l><r>pendant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>parasitismo<s n="n"/></l><r>parasitisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>modismo<s n="n"/></l><r>modisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mesocarpio<s n="n"/></l><r>mesocarpi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>machete<s n="n"/></l><r>matxet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lémur<s n="n"/></l><r>lèmur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>homeomorfismo<s n="n"/></l><r>homeomorfisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gregal<s n="n"/></l><r>gregal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vencejo<s n="n"/></l><r>falciot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>exoesqueleto<s n="n"/></l><r>exosquelet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estreptococo<s n="n"/></l><r>estreptococ<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diamagnetismo<s n="n"/></l><r>diamagnetisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>cricoides<s n="n"/><s n="m"/><s n="sp"/></l><r>cricoide<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>cricoides<s n="n"/><s n="m"/><s n="sp"/></l><r>cricoide<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>cricoides<s n="n"/><s n="m"/><s n="sp"/></l><r>cricoide<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="prompsit2uoc"><p><l>badminton<s n="n"/></l><r>bàdminton<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ateísmo<s n="n"/></l><r>ateisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tulio<s n="n"/></l><r>tuli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zarismo<s n="n"/></l><r>tsarisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>tetraedro<s n="n"/></l><r>tetràedre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tetraedro<s n="n"/></l><r>tetraedre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abubilla<s n="n"/></l><r>puput<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>proscenio<s n="n"/></l><r>prosceni<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>placer<s n="n"/></l><r>placer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>píloro<s n="n"/></l><r>pílor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pámpano<s n="n"/></l><r>pàmpol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>notocordio<s n="n"/></l><r>notocordi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>morfo<s n="n"/></l><r>morf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monopolo<s n="n"/></l><r>monopol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>icosaedro<s n="n"/></l><r>icosàedre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hiperónimo<s n="n"/></l><r>hiperònim<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fotorreceptor<s n="n"/></l><r>fotoreceptor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alforfón<s n="n"/></l><r>fajol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esternón<s n="n"/></l><r>estern<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espray<s n="n"/></l><r>esprai<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>enchufe<s n="n"/></l><r>endoll<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corolario<s n="n"/></l><r>corol·lari<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>palomar<s n="n"/></l><r>colomar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clorofluorocarburo<s n="n"/></l><r>clorofluorocarbur<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>clonación<s n="n"/><s n="f"/></l><r>clonatge<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>capote<s n="n"/></l><r>capot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>capó<s n="n"/></l><r>capó<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>boomerang<s n="n"/></l><r>bumerang<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anaerobio<s n="adj"/></l><r>anaerobi<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acné<s n="n"/></l><r>acne<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>voltímetro<s n="n"/></l><r>voltímetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>utillaje<s n="n"/></l><r>utillatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>uréter<s n="n"/></l><r>urèter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tramado<s n="n"/></l><r>tramat<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>barril<s n="n"/></l><r>tonell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hollín<s n="n"/></l><r>sutge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>supernumerario<s n="n"/></l><r>supernumerari<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rapsoda<s n="n"/></l><r>rapsode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>propileo<s n="n"/></l><r>propileu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>paroxismo<s n="n"/></l><r>paroxisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neuróptero<s n="n"/></l><r>neuròpter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neptunio<s n="n"/></l><r>neptuni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nadir<s n="n"/></l><r>nadir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monosílabo<s n="adj"/></l><r>monosíl·lab<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mentol<s n="n"/></l><r>mentol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>maoísmo<s n="n"/></l><r>maoisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>manómetro<s n="n"/></l><r>manòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lingote<s n="n"/></l><r>lingot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipónimo<s n="n"/></l><r>hipònim<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hepatocito<s n="n"/></l><r>hepatòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bocio<s n="n"/></l><r>goll<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gnomon<s n="n"/></l><r>gnòmon<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>criba<s n="n"/><s n="f"/></l><r>garbell<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>criba<s n="n"/><s n="f"/></l><r>sedàs<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fonendoscopio<s n="n"/></l><r>fonendoscopi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>excursionismo<s n="n"/></l><r>excursionisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>slalom<s n="n"/></l><r>eslàlom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>enrejado<s n="n"/></l><r>enreixat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>empirismo<s n="n"/></l><r>empirisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>eclecticismo<s n="n"/></l><r>eclecticisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dodecaedro<s n="n"/></l><r>dodecàedre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ditirambo<s n="n"/></l><r>ditirambe<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>depresor<s n="n"/></l><r>depressor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>conductismo<s n="n"/></l><r>conductisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>californio<s n="n"/></l><r>californi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>astigmatismo<s n="n"/></l><r>astigmatisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anhídrido<s n="n"/></l><r>anhídrid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abrasivo<s n="adj"/></l><r>abrasiu<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>triacilglicérido<s n="n"/></l><r>triacilglicèrid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>telson<s n="n"/></l><r>tèlson<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>superestrato<s n="n"/></l><r>superstrat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>barlovento<s n="n"/></l><r>sobrevent<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quórum<s n="n"/></l><r>quòrum<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quiróptero<s n="n"/></l><r>quiròpter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuajo<s n="n"/></l><r>quall<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>picnic<s n="n"/></l><r>pícnic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ortocentro<s n="n"/></l><r>ortocentre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>urdimbre<s n="n"/></l><r>ordit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>opérculo<s n="n"/></l><r>opercle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>offset<s n="n"/></l><r>offset<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>octágono<s n="n"/></l><r>octògon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>octágono<s n="n"/></l><r>octàgon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>flete<s n="n"/></l><r>noli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mastodonte<s n="n"/></l><r>mastodont<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mapeo<s n="n"/></l><r>mapatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>manteca<s n="n"/><s n="f"/></l><r>llard<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>comodín<s n="n"/></l><r>jòquer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>húsar<s n="n"/></l><r>hússar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>homozigoto<s n="n"/></l><r>homozigot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipocampo<s n="n"/></l><r>hipocamp<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>heterozigoto<s n="n"/></l><r>heterozigot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>heterónimo<s n="n"/></l><r>heterònim<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>galicismo<s n="n"/></l><r>gal·licisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estornudo<s n="n"/></l><r>esternut<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>donut<s n="n"/></l><r>dònut<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>curry<s n="n"/></l><r>curri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cubicaje<s n="n"/></l><r>cubicatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>copolímero<s n="n"/></l><r>copolímer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>contraespionaje<s n="n"/></l><r>contraespionatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>brizna<s n="n"/><s n="f"/></l><r>bri<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>hebra<s n="n"/><s n="f"/></l><r>bri<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biocombustible<s n="n"/></l><r>biocombustible<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>betacismo<s n="n"/></l><r>betacisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>berquelio<s n="n"/></l><r>berkeli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>baudio<s n="n"/></l><r>baud<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>automorfismo<s n="n"/></l><r>automorfisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anuro<s n="n"/></l><r>anur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>animismo<s n="n"/></l><r>animisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alféizar<s n="n"/></l><r>ampit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>academicismo<s n="n"/></l><r>academicisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>chovinismo<s n="n"/></l><r>xovinisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sheriff<s n="n"/></l><r>xèrif<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trapezoide<s n="n"/></l><r>trapezoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sístole<s n="n"/></l><r>sístole<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>semental<s n="adj"/></l><r>semental<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>refractor<s n="n"/></l><r>refractor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>platonismo<s n="n"/></l><r>platonisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>octosílabo<s n="n"/></l><r>octosíl·lab<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neurocráneo<s n="n"/></l><r>neurocrani<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>matriarcado<s n="n"/></l><r>matriarcat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ladrido<s n="n"/></l><r>lladruc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>homófono<s n="n"/></l><r>homòfon<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>hioides<s n="n"/><s n="m"/><s n="sp"/></l><r>hioide<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>hioides<s n="n"/><s n="m"/><s n="sp"/></l><r>hioide<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>hioides<s n="n"/><s n="m"/><s n="sp"/></l><r>hioide<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hélice<s n="n"/></l><r>hèlice<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>guanaco<s n="n"/></l><r>guanac<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>franqueo<s n="n"/></l><r>franqueig<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fondue<s n="n"/></l><r>fondue<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estoicismo<s n="n"/></l><r>estoïcisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esporangio<s n="n"/></l><r>esporangi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>eosinófilo<s n="n"/></l><r>eosinòfil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>encofrado<s n="n"/></l><r>encofrat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>electroscopio<s n="n"/></l><r>electroscopi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dialectalismo<s n="n"/></l><r>dialectalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dáctilo<s n="n"/></l><r>dàctil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>codicilo<s n="n"/></l><r>codicil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cardioide<s n="n"/></l><r>cardioide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cañonero<s n="n"/></l><r>canoner<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>brocado<s n="n"/></l><r>brocat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ascetismo<s n="n"/></l><r>ascetisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amperímetro<s n="n"/></l><r>amperímetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aguacate<s n="n"/></l><r>alvocat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abecedario<s n="n"/></l><r>abecedari<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vocalismo<s n="n"/></l><r>vocalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tubérculo<s n="n"/></l><r>tubèrcul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>terbio<s n="n"/></l><r>terbi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>solenoide<s n="n"/></l><r>solenoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>selector<s n="n"/></l><r>selector<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sándalo<s n="n"/></l><r>sàndal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>romboide<s n="n"/></l><r>romboide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bullicio<s n="n"/></l><r>renou<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>radiómetro<s n="n"/></l><r>radiòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>presupuesto<s n="n"/></l><r>pressupòsit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plantígrado<s n="n"/></l><r>plantígrad<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>planisferio<s n="n"/></l><r>planisferi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>percusor<s n="n"/></l><r>percussor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>peralte<s n="n"/></l><r>peralt<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>paraboloide<s n="n"/></l><r>paraboloide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>octaedro<s n="n"/></l><r>octàedre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monismo<s n="n"/></l><r>monisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>minuendo<s n="n"/></l><r>minuend<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lustre<s n="n"/></l><r>llustre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lenguado<s n="n"/></l><r>llenguado<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>galgo<s n="n"/></l><r>llebrer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>iridio<s n="n"/></l><r>iridi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipotálamo<s n="n"/></l><r>hipotàlem<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>geoide<s n="n"/></l><r>geoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fulcro<s n="n"/></l><r>fulcre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>frontispicio<s n="n"/></l><r>frontispici<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fototransistor<s n="n"/></l><r>fototransistor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fotograbado<s n="n"/></l><r>fotogravat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estrabismo<s n="n"/></l><r>estrabisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estatismo<s n="n"/></l><r>estatisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esporofito<s n="n"/></l><r>esporòfit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espectrógrafo<s n="n"/></l><r>espectrògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dicromato<s n="n"/></l><r>dicromat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>deltoideo<s n="n"/></l><r>deltoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cronógrafo<s n="n"/></l><r>cronògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>criba<s n="n"/><s n="f"/></l><r>cribratge<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>cuchillo<s n="n"/></l><r>coltell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>calorímetro<s n="n"/></l><r>calorímetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bostezo<s n="n"/></l><r>badall<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>autoclave<s n="n"/></l><r>autoclau<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antro<s n="n"/></l><r>antre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antimonopolio<s n="adj"/></l><r>antimonopoli<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anticongelante<s n="adj"/></l><r>anticongelant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>almíbar<s n="n"/></l><r>almívar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>adagio<s n="n"/></l><r>adagi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>teletipo<s n="n"/></l><r>teletip<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subdirectorio<s n="n"/></l><r>subdirectori<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>septeto<s n="n"/></l><r>septet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ruibarbo<s n="n"/></l><r>ruibarbre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>playboy<s n="n"/></l><r>playboy<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>pastel<s n="n"/></l><r>pastell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oocito<s n="n"/></l><r>oòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ocultismo<s n="n"/></l><r>ocultisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nitruro<s n="n"/></l><r>nitrur<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>minifundio<s n="n"/></l><r>minifundi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>microestado<s n="n"/></l><r>microestat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>metrónomo<s n="n"/></l><r>metrònom<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glucocorticoide<s n="n"/></l><r>glucocorticoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>generativismo<s n="n"/></l><r>generativisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fanerófito<s n="n"/></l><r>faneròfit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>exudado<s n="n"/></l><r>exsudat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estroncio<s n="n"/></l><r>estronci<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>entoldado<s n="n"/></l><r>envelat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>entreacto<s n="n"/></l><r>entreacte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>envigado<s n="n"/></l><r>embigat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diván<s n="n"/></l><r>divan<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dedal<s n="n"/></l><r>didal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desecante<s n="n"/></l><r>dessecant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desgobierno<s n="n"/></l><r>desgovern<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cochecito<s n="n"/></l><r>cotxet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cilantro<s n="n"/></l><r>coriandre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>capsómero<s n="n"/></l><r>capsòmer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>capside<s n="n"/></l><r>càpside<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>calcáneo<s n="n"/></l><r>calcani<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>brécol<s n="n"/></l><r>bròquil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>brocal<s n="n"/></l><r>brocal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vivaque<s n="n"/></l><r>bivac<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>birrete<s n="n"/></l><r>birret<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acelerómetro<s n="n"/></l><r>acceleròmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>wagnerismo<s n="n"/></l><r>wagnerisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reborde<s n="n"/></l><r>vorell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>utilitarismo<s n="n"/></l><r>utilitarisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trucaje<s n="n"/></l><r>trucatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trinomio<s n="n"/></l><r>trinomi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>termostato<s n="n"/></l><r>termòstat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>teísmo<s n="n"/></l><r>teisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sordomudo<s n="n"/></l><r>sordmut<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sorbete<s n="n"/></l><r>sorbet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sisal<s n="n"/></l><r>sisal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rutilo<s n="n"/></l><r>rútil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>eructo<s n="n"/></l><r>rot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rompiente<s n="n"/></l><r>rompent<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>roquefort<s n="n"/></l><r>rocafort<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>responsorio<s n="n"/></l><r>responsori<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>rodaballo<s n="n"/></l><r>rèmol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rodaballo<s n="n"/></l><r>turbot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reformatorio<s n="n"/></l><r>reformatori<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reconstituyente<s n="adj"/></l><r>reconstituent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pseudopodio<s n="n"/></l><r>pseudopodi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>portillo<s n="n"/></l><r>portell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>policarbonato<s n="n"/></l><r>policarbonat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pluviómetro<s n="n"/></l><r>pluviòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pluscuamperfecto<s n="n"/></l><r>plusquamperfet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pericardio<s n="n"/></l><r>pericardi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>parónimo<s n="n"/></l><r>parònim<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oligopolio<s n="n"/></l><r>oligopoli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nitro<s n="n"/></l><r>nitre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>metalenguaje<s n="n"/></l><r>metallenguatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>maná<s n="n"/></l><r>mannà<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>legalismo<s n="n"/></l><r>legalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>frac<s n="n"/></l><r>frac<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estructuralismo<s n="n"/></l><r>estructuralisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estofado<s n="n"/></l><r>estofat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>endotelio<s n="n"/></l><r>endoteli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dring<s n="n"/></l><r>dring<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diplococo<s n="n"/></l><r>diplococ<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desfalco<s n="n"/></l><r>desfalc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cormo<s n="n"/></l><r>corm<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>condrocito<s n="n"/></l><r>condròcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>citoesqueleto<s n="n"/></l><r>citosquelet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>camembert<s n="n"/></l><r>camembert<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>butilo<s n="n"/></l><r>butil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>autocontrol<s n="n"/></l><r>autocontrol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>audífono<s n="n"/></l><r>audiòfon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arenque<s n="n"/></l><r>areng<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anémona<s n="n"/></l><r>anemone<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anemómetro<s n="n"/></l><r>anemòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alumbre<s n="n"/></l><r>alum<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>alguacil<s n="n"/></l><r>algutzir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alguacil<s n="n"/></l><r>agutzil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aglomerante<s n="adj"/></l><r>aglomerant<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>adsorbente<s n="adj"/></l><r>adsorbent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trivio<s n="n"/></l><r>trivi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trino<s n="n"/></l><r>trinat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trímetro<s n="n"/></l><r>trímetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>totemismo<s n="n"/></l><r>totemisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tajamar<s n="n"/></l><r>tallamar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subterfugio<s n="n"/></l><r>subterfugi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>striptease<s n="n"/></l><r>striptease<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>resistor<s n="n"/></l><r>resistor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rastrillo<s n="n"/></l><r>rasclet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rappel<s n="n"/></l><r>ràpel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>psicrómetro<s n="n"/></l><r>psicròmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prognatismo<s n="n"/></l><r>prognatisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>proemio<s n="n"/></l><r>proemi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>posibilismo<s n="n"/></l><r>possibilisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>poso<s n="n"/></l><r>pòsit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plasmacito<s n="n"/></l><r>plasmòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pedigrí<s n="n"/></l><r>pedigrí<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>paratiroides<s n="n"/></l><r>paratiroide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>paramagnetismo<s n="n"/></l><r>paramagnetisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>paleomagnetismo<s n="n"/></l><r>paleomagnetisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>narcisismo<s n="n"/></l><r>narcisisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>napalm<s n="n"/></l><r>napalm<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mildiu<s n="n"/></l><r>míldiu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>metacarpo<s n="n"/></l><r>metacarp<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>meconio<s n="n"/></l><r>meconi<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>peón<s n="n"/></l><r>manobre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mandril<s n="n"/></l><r>mandril<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magneto<s n="n"/></l><r>magneto<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>macronúcleo<s n="n"/></l><r>macronucli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inyector<s n="n"/></l><r>injector<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>homopolímero<s n="n"/></l><r>homopolímer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>holotipo<s n="n"/></l><r>holotip<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hiperboloide<s n="n"/></l><r>hiperboloide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>heptágono<s n="n"/></l><r>heptàgon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>helminto<s n="n"/></l><r>helmint<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gourmet<s n="n"/></l><r>gourmet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glicolípido<s n="n"/></l><r>glicolípid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fiasco<s n="n"/></l><r>fiasco<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esternón<s n="n"/></l><r>estèrnum<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espiritismo<s n="n"/></l><r>espiritisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espectroscopio<s n="n"/></l><r>espectroscopi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>slip<s n="n"/></l><r>eslip<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>esfenoides<s n="n"/><s n="m"/><s n="sp"/></l><r>esfenoide<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>esfenoides<s n="n"/><s n="m"/><s n="sp"/></l><r>esfenoide<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>esfenoides<s n="n"/><s n="m"/><s n="sp"/></l><r>esfenoide<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="prompsit2uoc"><p><l>armiño<s n="n"/></l><r>ermini<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>efluente<s n="n"/></l><r>efluent<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>digitígrado<s n="n"/></l><r>digitígrad<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diástole<s n="n"/></l><r>diàstole<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>criptófito<s n="n"/></l><r>criptòfit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>criminólogo<s n="n"/></l><r>criminòleg<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>colirio<s n="n"/></l><r>col·liri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>celentéreo<s n="n"/></l><r>celenterat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carenado<s n="n"/></l><r>carenat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>enjuta<s n="n"/><s n="f"/></l><r>carcanyol<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>ruido<s n="n"/></l><r>brogit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anglicismo<s n="n"/></l><r>anglicisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anémona<s n="n"/></l><r>anèmone<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amiloide<s n="n"/></l><r>amiloide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abordaje<s n="n"/></l><r>abordatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>verderón<s n="n"/></l><r>verdum<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tropismo<s n="n"/></l><r>tropisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trombocito<s n="n"/></l><r>trombòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trímero<s n="n"/></l><r>trímer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>transvestismo<s n="n"/></l><r>transvestisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>transceptor<s n="n"/></l><r>transceptor<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>trago<s n="n"/></l><r>trago<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>festín<s n="n"/></l><r>tiberi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>taoísmo<s n="n"/></l><r>taoisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subproyecto<s n="n"/></l><r>subprojecte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>submódulo<s n="n"/></l><r>submòdul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subcanal<s n="n"/></l><r>subcanal<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>somnambulismo<s n="n"/></l><r>somnambulisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sonambulismo<s n="n"/></l><r>somnambulisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sismógrafo<s n="n"/></l><r>sismògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sicomoro<s n="n"/></l><r>sicòmor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>segregacionismo<s n="n"/></l><r>segregacionisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>saturnismo<s n="n"/></l><r>saturnisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>salmer<s n="n"/></l><r>salmer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>regaño<s n="n"/></l><r>reny<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>redescuento<s n="n"/></l><r>redescompte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quelato<s n="n"/></l><r>quelat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>puf<s n="n"/></l><r>puf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neumococo<s n="n"/></l><r>pneumococ<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>llovizna<s n="n"/><s n="f"/></l><r>plugim<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pleonasmo<s n="n"/></l><r>pleonasme<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>platillo<s n="n"/></l><r>platet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>babero<s n="n"/></l><r>pitet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>peto<s n="n"/></l><r>peto<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pericondrio<s n="n"/></l><r>pericondri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pedrero<s n="n"/></l><r>pedrer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>papelito<s n="n"/></l><r>paperet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oligosacárido<s n="n"/></l><r>oligosacàrid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>octante<s n="n"/></l><r>octant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monolingüismo<s n="n"/></l><r>monolingüisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>milenarismo<s n="n"/></l><r>mil·lenarisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>microfilm<s n="n"/></l><r>microfilm<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mesencéfalo<s n="n"/></l><r>mesencèfal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>megacariocito<s n="n"/></l><r>megacariòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>masetero<s n="n"/></l><r>masseter<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>chiquillo<s n="n"/></l><r>marrec<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alerce<s n="n"/></l><r>làrix<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lamarckismo<s n="n"/></l><r>lamarckisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jumbo<s n="n"/></l><r>jumbo<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ológrafo<s n="adj"/></l><r>hològraf<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hológrafo<s n="adj"/></l><r>hològraf<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>granulocito<s n="n"/></l><r>granulòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gatito<s n="n"/></l><r>gatet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>funículo<s n="n"/></l><r>funicle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estropajo<s n="n"/></l><r>fregall<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>formulismo<s n="n"/></l><r>formulisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>existencialismo<s n="n"/></l><r>existencialisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>étimo<s n="n"/></l><r>ètim<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rasgón<s n="n"/></l><r>estrip<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>éster<s n="n"/></l><r>èster<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espermafita<s n="n"/><s n="f"/></l><r>espermatòfit<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espermatocito<s n="n"/></l><r>espermatòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>erbio<s n="n"/></l><r>erbi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epicureísmo<s n="n"/></l><r>epicureisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>encéfalo<s n="n"/></l><r>encèfal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diencéfalo<s n="n"/></l><r>diencèfal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cutter<s n="n"/></l><r>cúter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corion<s n="n"/></l><r>cori<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cubrecama<s n="n"/></l><r>cobrellit<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>cachemir<s n="n"/></l><r>caixmir<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cachemira<s n="n"/><s n="f"/></l><r>caixmir<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bronquiolo<s n="n"/></l><r>bronquíol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>badajo<s n="n"/></l><r>batall<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>azote<s n="n"/></l><r>assot<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aragonesismo<s n="n"/></l><r>aragonesisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>ajuste<s n="n"/></l><r>ajustatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aislacionismo<s n="n"/></l><r>aïllacionisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>agnosticismo<s n="n"/></l><r>agnosticisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>chantre<s n="n"/></l><r>xantre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>verbalismo<s n="n"/></l><r>verbalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>velocímetro<s n="n"/></l><r>velocímetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>universalismo<s n="n"/></l><r>universalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tiristor<s n="n"/></l><r>tiristor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>testaje<s n="n"/></l><r>testatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>teodolito<s n="n"/></l><r>teodolit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tacómetro<s n="n"/></l><r>tacòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sustraendo<s n="n"/></l><r>subtrahend<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sobrepasturaje<s n="n"/></l><r>sobrepasturatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>setter<s n="n"/></l><r>setter<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rift<s n="n"/></l><r>rift<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>requesón<s n="n"/></l><r>recuit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>radionúclido<s n="n"/></l><r>radionúclid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>radioemisor<s n="n"/></l><r>radioemissor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quiasmo<s n="n"/></l><r>quiasme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pupitre<s n="n"/></l><r>pupitre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>psiquismo<s n="n"/></l><r>psiquisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perspectivismo<s n="n"/></l><r>perspectivisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pergelisol<s n="n"/></l><r>pergelisòl<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pentámetro<s n="n"/></l><r>pentàmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pantógrafo<s n="n"/></l><r>pantògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ovocito<s n="n"/></l><r>ovòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>osteocito<s n="n"/></l><r>osteòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>osmio<s n="n"/></l><r>osmi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ópalo<s n="n"/></l><r>òpal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nobelio<s n="n"/></l><r>nobeli<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monetarismo<s n="n"/></l><r>monetarisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mirtilo<s n="n"/></l><r>mirtil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mesianismo<s n="n"/></l><r>messianisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>masoquismo<s n="n"/></l><r>masoquisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mangle<s n="n"/></l><r>mangle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bacaladilla<s n="n"/></l><r>maire<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>itrio<s n="n"/></l><r>itri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>idiolecto<s n="n"/></l><r>idiolecte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>historiógrafo<s n="n"/></l><r>historiògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>higrómetro<s n="n"/></l><r>higròmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>helenismo<s n="n"/></l><r>hel·lenisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>granito<s n="n"/></l><r>granet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gramaje<s n="n"/></l><r>gramatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cubilete<s n="n"/></l><r>gobelet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>geosinónimo<s n="n"/></l><r>geosinònim<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gametocito<s n="n"/></l><r>gametòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>flóculo<s n="n"/></l><r>flòcul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fardo<s n="n"/></l><r>farcell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>europio<s n="n"/></l><r>europi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estereoscopio<s n="n"/></l><r>estereoscopi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estator<s n="n"/></l><r>estator<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esnob<s n="n"/></l><r>esnob<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>escroto<s n="n"/></l><r>escrot<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>badén<s n="n"/></l><r>escorranc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>endocarpio<s n="n"/></l><r>endocarpi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>viruta<s n="n"/><s n="f"/></l><r>encenall<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>elitismo<s n="n"/></l><r>elitisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>efector<s n="n"/></l><r>efector<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dosímetro<s n="n"/></l><r>dosímetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>difusionismo<s n="n"/></l><r>difusionisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cupido<s n="n"/></l><r>cupido<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>colorete<s n="n"/></l><r>coloret<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clíper<s n="n"/></l><r>clíper<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cervato<s n="n"/></l><r>cervatell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>brochado<s n="n"/></l><r>brotxatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bisturí<s n="n"/></l><r>bisturí<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bechamel<s n="n"/></l><r>beixamel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acimut<s n="n"/></l><r>azimut<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>astrocito<s n="n"/></l><r>astròcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aspersor<s n="n"/></l><r>aspersor<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>acuario<s n="n"/></l><r>aquàrium<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>anafilaxis<s n="n"/><s n="f"/><s n="sp"/></l><r>anafilaxi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>anafilaxis<s n="n"/><s n="f"/><s n="sp"/></l><r>anafilaxi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>anafilaxis<s n="n"/><s n="f"/><s n="sp"/></l><r>anafilaxi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amateurismo<s n="n"/></l><r>amateurisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>altruismo<s n="n"/></l><r>altruisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aguanieve<s n="n"/></l><r>aiguaneu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acónito<s n="n"/></l><r>acònit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acanto<s n="n"/></l><r>acant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zapping<s n="n"/></l><r>zàping<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>xerófito<s n="n"/></l><r>xeròfit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>chancro<s n="n"/></l><r>xancre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>walkie-talkie<s n="n"/></l><r>walkie-talkie<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>velocípedo<s n="n"/></l><r>velocípede<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>unitarismo<s n="n"/></l><r>unitarisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trofozoíto<s n="n"/></l><r>trofozoït<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>triodo<s n="n"/></l><r>tríode<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>torneado<s n="n"/></l><r>tornejat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tomismo<s n="n"/></l><r>tomisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>termógrafo<s n="n"/></l><r>termògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>statvolt<s n="n"/></l><r>statvolt<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>saurio<s n="n"/></l><r>sauri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>salterio<s n="n"/></l><r>saltiri<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>rodillo<s n="n"/></l><r>roleu<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>resolvente<s n="adj"/></l><r>resolvent<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>riego<s n="n"/></l><r>regatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reactante<s n="n"/></l><r>reactant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ranúnculo<s n="n"/></l><r>ranuncle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>puding<s n="n"/></l><r>púding<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prosencéfalo<s n="n"/></l><r>prosencèfal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>propeno<s n="n"/></l><r>propè<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prensado<s n="n"/></l><r>premsatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>guirigay<s n="n"/></l><r>poti-poti<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>poliéster<s n="n"/></l><r>poliester<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pirenoide<s n="n"/></l><r>pirenoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>picofarad<s n="n"/></l><r>picofarad<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>peletero<s n="n"/></l><r>pellaire<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pastoralismo<s n="n"/></l><r>pastoralisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oxímoron<s n="n"/></l><r>oxímoron<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oviducto<s n="n"/></l><r>oviducte<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>organicismo<s n="n"/></l><r>organicisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>odeón<s n="n"/></l><r>odèon<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nivómetro<s n="n"/></l><r>nivòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neofascismo<s n="n"/></l><r>neofeixisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>multímetro<s n="n"/></l><r>multímetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monocarril<s n="n"/></l><r>monocarril<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>matricidio<s n="n"/></l><r>matricidi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>manguito<s n="n"/></l><r>maniguet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>líber<s n="n"/></l><r>líber<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>interfluvio<s n="n"/></l><r>interfluvi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>goniómetro<s n="n"/></l><r>goniòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>germanismo<s n="n"/></l><r>germanisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gaseado<s n="n"/></l><r>gasejat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fagocito<s n="n"/></l><r>fagòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>etnocentrismo<s n="n"/></l><r>etnocentrisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estupro<s n="n"/></l><r>estupre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estetoscopio<s n="n"/></l><r>estetoscopi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esquizoide<s n="adj"/></l><r>esquizoide<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espiritualismo<s n="n"/></l><r>espiritualisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espectrofotómetro<s n="n"/></l><r>espectrofotòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epitalamio<s n="n"/></l><r>epitalami<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epimorfismo<s n="n"/></l><r>epimorfisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>entablado<s n="n"/></l><r>empostissat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>emplaste<s n="n"/></l><r>emplastre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>electrómetro<s n="n"/></l><r>electròmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>durómetro<s n="n"/></l><r>duròmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dodecaedro<s n="n"/></l><r>dodecaedre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>divertículo<s n="n"/></l><r>diverticle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dinamómetro<s n="n"/></l><r>dinamòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>digestor<s n="n"/></l><r>digestor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>descargo<s n="n"/></l><r>descàrrec<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>defoliante<s n="n"/></l><r>defoliant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dandy<s n="n"/></l><r>dandi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>golpecito<s n="n"/></l><r>copet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>copal<s n="n"/></l><r>copal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>contrachapado<s n="n"/></l><r>contraxapat<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>contrachapado<s n="n"/></l><r>contraplacat<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cólquico<s n="n"/></l><r>còlquic<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>guijarral<s n="n"/></l><r>codolar<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>agrietar<s n="vblex"/></l><r>clivellar<s n="vblex"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clericalismo<s n="n"/></l><r>clericalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cladismo<s n="n"/></l><r>cladisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>centilitro<s n="n"/></l><r>centilitre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cabriolet<s n="n"/></l><r>cabriolé<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bulldozer<s n="n"/></l><r>buldòzer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biorritmo<s n="n"/></l><r>bioritme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biopolímero<s n="n"/></l><r>biopolímer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antropocentrismo<s n="n"/></l><r>antropocentrisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>altocúmulo<s n="n"/></l><r>altocúmul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>africanismo<s n="n"/></l><r>africanisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aerógrafo<s n="n"/></l><r>aerògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>actinio<s n="n"/></l><r>actini<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acromion<s n="n"/></l><r>acromi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>varactor<s n="n"/></l><r>varactor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trocoide<s n="n"/></l><r>trocoide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>termohigrómetro<s n="n"/></l><r>termohigròmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tenesmo<s n="n"/></l><r>tenesme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sociologismo<s n="n"/></l><r>sociologisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>sigmoideo<s n="adj"/><s n="GD"/></l><r>sigmoide<s n="adj"/><s n="mf"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>sigmoideo<s n="adj"/><s n="m"/></l><r>sigmoide<s n="adj"/><s n="mf"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>sigmoideo<s n="adj"/><s n="f"/></l><r>sigmoide<s n="adj"/><s n="mf"/></r></p></e>
+<e a="prompsit2uoc"><p><l>servomecanismo<s n="n"/></l><r>servomecanisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sensualismo<s n="n"/></l><r>sensualisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sarcómero<s n="n"/></l><r>sarcòmer<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ruptor<s n="n"/></l><r>ruptor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rotacismo<s n="n"/></l><r>rotacisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ritualismo<s n="n"/></l><r>ritualisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reticulocito<s n="n"/></l><r>reticulòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>regalismo<s n="n"/></l><r>regalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rebobinado<s n="n"/></l><r>rebobinatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>kilopondio<s n="n"/></l><r>quilopond<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>queloide<s n="n"/></l><r>queloide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuadrángulo<s n="n"/></l><r>quadrangle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polisílabo<s n="adj"/></l><r>polisíl·lab<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polarímetro<s n="n"/></l><r>polarímetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pirómetro<s n="n"/></l><r>piròmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>piranómetro<s n="n"/></l><r>piranòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perineuro<s n="n"/></l><r>perineuri<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pericráneo<s n="n"/></l><r>pericrani<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ostiolo<s n="n"/></l><r>ostíol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oftalmoscopio<s n="n"/></l><r>oftalmoscopi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mucílago<s n="n"/></l><r>mucílag<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mononucleótido<s n="n"/></l><r>mononucleòtid<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monóculo<s n="n"/></l><r>monocle<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>modiolo<s n="n"/></l><r>modíol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>muaré<s n="n"/></l><r>moaré<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mielencéfalo<s n="n"/></l><r>mielencèfal<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>merchandising<s n="n"/></l><r>marxandatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mendelevio<s n="n"/></l><r>mendelevi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>maxwell<s n="n"/></l><r>maxwell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lobulillo<s n="n"/></l><r>lobel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>linóleo<s n="n"/></l><r>linòleum<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>linier<s n="n"/></l><r>linier<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lamelibranquio<s n="n"/></l><r>lamel·libranqui<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>chaqué<s n="n"/></l><r>jaqué<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isquion<s n="n"/></l><r>isqui<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inóculo<s n="n"/></l><r>inòcul<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>infanticidio<s n="n"/></l><r>infanticidi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>yambo<s n="n"/></l><r>iambe<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>histiocito<s n="n"/></l><r>histiòcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hisopo<s n="n"/></l><r>hisop<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>haustorio<s n="n"/></l><r>haustori<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>guarismo<s n="n"/></l><r>guarisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gonión<s n="n"/></l><r>goni<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gnatión<s n="n"/></l><r>gnati<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glicol<s n="n"/></l><r>glicol<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>geófito<s n="n"/></l><r>geòfit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>renvalso<s n="n"/></l><r>galze<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fratricidio<s n="n"/></l><r>fratricidi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>franklin<s n="n"/></l><r>franklin<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fotómetro<s n="n"/></l><r>fotòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>finalismo<s n="n"/></l><r>finalisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>etilo<s n="n"/></l><r>etil<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esteticismo<s n="n"/></l><r>esteticisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mirilla<s n="n"/><s n="f"/></l><r>espiell<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espermatogonia<s n="n"/><s n="f"/></l><r>espermatogoni<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>barrido<s n="n"/></l><r>escombratge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epicicloide<s n="n"/></l><r>epicicloide<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epicarpio<s n="n"/></l><r>epicarpi<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>enterocito<s n="n"/></l><r>enteròcit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>emmental<s n="n"/></l><r>emmental<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>elastómero<s n="n"/></l><r>elastòmer<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>regate<s n="n"/></l><r>driblatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diluyente<s n="n"/></l><r>diluent<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>desviacionismo<s n="n"/></l><r>desviacionisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>derrotismo<s n="n"/></l><r>derrotisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>decapante<s n="n"/></l><r>decapant<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>culito<s n="n"/></l><r>culet<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cromatógrafo<s n="n"/></l><r>cromatògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>corpiño<s n="n"/></l><r>cosset<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>contraceptivo<s n="adj"/></l><r>contraceptiu<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>consonantismo<s n="n"/></l><r>consonantisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>comercialismo<s n="n"/></l><r>comercialisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>citostático<s n="adj"/></l><r>citostàtic<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>catetómetro<s n="n"/></l><r>catetòmetre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>calostro<s n="n"/></l><r>calostre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cabestrillo<s n="n"/></l><r>cabestrell<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cabestro<s n="n"/></l><r>cabestre<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bungalow<s n="n"/></l><r>bungalow<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bonapartismo<s n="n"/></l><r>bonapartisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biotipo<s n="n"/></l><r>biotip<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bicameralismo<s n="n"/></l><r>bicameralisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>besugo<s n="n"/></l><r>besuc<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>becquerel<s n="n"/></l><r>becquerel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>barógrafo<s n="n"/></l><r>barògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>autostop<s n="n"/></l><r>autoestop<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>atomismo<s n="n"/></l><r>atomisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ensamblaje<s n="n"/></l><r>assemblatge<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apriorismo<s n="n"/></l><r>apriorisme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apósito<s n="n"/></l><r>apòsit<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anemógrafo<s n="n"/></l><r>anemògraf<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amperio<s n="n"/></l><r>ampere<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>almizcle<s n="n"/></l><r>almesc<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>palanca<s n="n"/><s n="f"/></l><r>alçaprem<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aguamiel<s n="n"/></l><r>aiguamel<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acmé<s n="n"/></l><r>acme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acetábulo<s n="n"/></l><r>acetàbul<s n="n"/></r></p></e>
+
+
+<!-- noves abella-->
+
+
+
+<e a="prompsit2uoc"><p><l>cópula<s n="n"/></l><r>còpula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sátrapa<s n="n"/></l><r>sàtrapa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>próstata<s n="n"/></l><r>pròstata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nebulosa<s n="n"/></l><r>nebulosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>beta<s n="n"/></l><r>beta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alfa<s n="n"/></l><r>alfa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sonata<s n="n"/></l><r>sonata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>curvatura<s n="n"/></l><r>curvatura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cascada<s n="n"/></l><r>cascada<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>villa<s n="n"/></l><r>vil·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magistratura<s n="n"/></l><r>magistratura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>púrpura<s n="n"/></l><r>porpra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cantata<s n="n"/></l><r>cantata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corola<s n="n"/></l><r>corol·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>herradura<s n="n"/></l><r>ferradura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cripta<s n="n"/></l><r>cripta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esclusa<s n="n"/></l><r>resclosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lava<s n="n"/></l><r>lava<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>negrita<s n="n"/></l><r>negreta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tienda<s n="n"/></l><r>tenda<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>balada<s n="n"/></l><r>balada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estrofa<s n="n"/></l><r>estrofa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biosfera<s n="n"/></l><r>biosfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vejiga<s n="n"/></l><r>bufeta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tintura<s n="n"/></l><r>tintura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pulpa<s n="n"/></l><r>polpa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>resina<s n="n"/></l><r>resina<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>maíz<s n="n"/></l><r>dacsa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>contraofensiva<s n="n"/></l><r>contraofensiva<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>roseta<s n="n"/></l><r>roseta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mitra<s n="n"/></l><r>mitra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dintel<s n="n"/><s n="m"/></l><r>llinda<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>celulosa<s n="n"/></l><r>cel·lulosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cutícula<s n="n"/></l><r>cutícula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polimerasa<s n="n"/></l><r>polimerasa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>octava<s n="n"/></l><r>octava<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pasa<s n="n"/></l><r>pansa<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>púrpura<s n="n"/></l><r>púrpura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lactosa<s n="n"/></l><r>lactosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sabana<s n="n"/></l><r>sabana<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>drupa<s n="n"/></l><r>drupa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tundra<s n="n"/></l><r>tundra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carcasa<s n="n"/></l><r>carcassa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tuba<s n="n"/></l><r>tuba<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>soja<s n="n"/></l><r>soja<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>opereta<s n="n"/></l><r>opereta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gaviota<s n="n"/></l><r>gavina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>soldadura<s n="n"/></l><r>soldadura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>uretra<s n="n"/></l><r>uretra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>eucarionte<s n="adj"/></l><r>eucariota<s n="adj"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>eucariota<s n="adj"/></l><r>eucariota<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cítara<s n="n"/></l><r>cítara<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abreviatura<s n="n"/></l><r>abreviatura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mirlo<s n="n"/><s n="m"/></l><r>merla<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>savia<s n="n"/></l><r>saba<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clorofila<s n="n"/></l><r>clorofil·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>copa<s n="n"/></l><r>capçada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>concha<s n="n"/></l><r>petxina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lepra<s n="n"/></l><r>lepra<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>impulso<s n="n"/><s n="m"/></l><r>embranzida<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vértebra<s n="n"/></l><r>vèrtebra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>serotonina<s n="n"/></l><r>serotonina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subcultura<s n="n"/></l><r>subcultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>manta<s n="n"/></l><r>manta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>coda<s n="n"/></l><r>coda<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>troposfera<s n="n"/></l><r>troposfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mandolina<s n="n"/></l><r>mandolina<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>estatura<s n="n"/></l><r>estatura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pupa<s n="n"/></l><r>pupa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mielina<s n="n"/></l><r>mielina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>musgo<s n="n"/><s n="m"/></l><r>molsa<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gaita<s n="n"/></l><r>gaita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>litosfera<s n="n"/></l><r>litosfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>garganta<s n="n"/></l><r>gorja<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>lámpara<s n="n"/></l><r>làmpada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tomillo<s n="n"/><s n="m"/></l><r>farigola<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>helecho<s n="n"/><s n="m"/></l><r>falguera<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dopamina<s n="n"/></l><r>dopamina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pandereta<s n="n"/></l><r>pandereta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esmeralda<s n="n"/></l><r>maragda<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alternancia<s n="n"/></l><r>alternança<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>salina<s n="n"/></l><r>salina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>panícula<s n="n"/></l><r>panícula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>morfina<s n="n"/></l><r>morfina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mirra<s n="n"/></l><r>mirra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arcada<s n="n"/></l><r>arcada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vulva<s n="n"/></l><r>vulva<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipotenusa<s n="n"/></l><r>hipotenusa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>primogenitura<s n="n"/></l><r>primogenitura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ballesta<s n="n"/></l><r>ballesta<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>silla<s n="n"/></l><r>sella<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sacarosa<s n="n"/></l><r>sacarosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mazmorra<s n="n"/></l><r>masmorra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epístola<s n="n"/></l><r>epístola<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cápsida<s n="n"/></l><r>càpsida<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>interlingua<s n="n"/></l><r>interlingua<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>calcita<s n="n"/></l><r>calcita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bauxita<s n="n"/></l><r>bauxita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>viticultura<s n="n"/></l><r>viticultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>avellana<s n="n"/></l><r>avellana<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quitina<s n="n"/></l><r>quitina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magnetosfera<s n="n"/></l><r>magnetosfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bayoneta<s n="n"/></l><r>baioneta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>quinina<s n="n"/></l><r>quinina<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>estorbo<s n="n"/><s n="m"/></l><r>nosa<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>estorbo<s n="n"/><s n="m"/></l><r>molèstia<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magnetita<s n="n"/></l><r>magnetita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magenta<s n="n"/></l><r>magenta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>moho<s n="n"/><s n="m"/></l><r>floridura<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>serenata<s n="n"/></l><r>serenata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gangrena<s n="n"/></l><r>gangrena<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cisteína<s n="n"/></l><r>cisteïna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>guanina<s n="n"/></l><r>guanina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>serpentina<s n="n"/></l><r>serpentina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>malva<s n="n"/></l><r>malva<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>candela<s n="n"/></l><r>candela<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>manzanilla<s n="n"/></l><r>camamilla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amapola<s n="n"/></l><r>rosella<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hipérbole<s n="n"/></l><r>hipèrbola<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>berlina<s n="n"/></l><r>berlina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sauna<s n="n"/></l><r>sauna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>manecilla<s n="n"/></l><r>maneta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lambda<s n="n"/></l><r>lambda<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tonada<s n="n"/></l><r>tonada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>orla<s n="n"/></l><r>orla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glicina<s n="n"/></l><r>glicina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clavícula<s n="n"/></l><r>clavícula<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>procariota<s n="adj"/></l><r>procariota<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>procarionte<s n="adj"/></l><r>procariota<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pectina<s n="n"/></l><r>pectina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>metionina<s n="n"/></l><r>metionina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>columnata<s n="n"/></l><r>columnata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carroña<s n="n"/></l><r>carronya<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>braza<s n="n"/></l><r>braça<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>usura<s n="n"/></l><r>usura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tropopausa<s n="n"/></l><r>tropopausa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>liana<s n="n"/></l><r>liana<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jirafa<s n="n"/></l><r>girafa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>escarlata<s n="adj"/></l><r>escarlata<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bancarrota<s n="n"/></l><r>bancarrota<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aura<s n="n"/></l><r>aura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>adenina<s n="n"/></l><r>adenina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>termosfera<s n="n"/></l><r>termosfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mesosfera<s n="n"/></l><r>mesosfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bellota<s n="n"/></l><r>gla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>genciana<s n="n"/></l><r>genciana<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cromatina<s n="n"/></l><r>cromatina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aorta<s n="n"/></l><r>aorta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>silvicultura<s n="n"/></l><r>silvicultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>niñero<s n="n"/></l><r>mainader<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gelatina<s n="n"/></l><r>gelatina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>citosina<s n="n"/></l><r>citosina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amazona<s n="n"/></l><r>amazona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ojeada<s n="n"/></l><r>ullada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>superestructura<s n="n"/></l><r>superestructura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>herbicida<s n="n"/></l><r>herbicida<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gacela<s n="n"/></l><r>gasela<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estratosfera<s n="n"/></l><r>estratosfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>silicona<s n="n"/></l><r>silicona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ionosfera<s n="n"/></l><r>ionosfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>atajo<s n="n"/></l><r>drecera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tubulina<s n="n"/></l><r>tubulina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>observancia<s n="n"/></l><r>observança<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nitroglicerina<s n="n"/></l><r>nitroglicerina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>imposta<s n="n"/></l><r>imposta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>helero<s n="n"/><s n="m"/></l><r>gelera<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hiladura<s n="n"/></l><r>filatura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cetona<s n="n"/></l><r>cetona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amina<s n="n"/></l><r>amina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>visera<s n="n"/></l><r>visera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prostaglandina<s n="n"/></l><r>prostaglandina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pleura<s n="n"/></l><r>pleura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gameto<s n="n"/></l><r>gàmeta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dinasta<s n="n"/></l><r>dinasta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>catalasa<s n="n"/></l><r>catalasa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bureta<s n="n"/></l><r>bureta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arquivolta<s n="n"/></l><r>arquivolta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subrutina<s n="n"/></l><r>subrutina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>queratina<s n="n"/></l><r>queratina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lignina<s n="n"/></l><r>lignina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ferrita<s n="n"/></l><r>ferrita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>feromona<s n="n"/></l><r>feromona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corbeta<s n="n"/></l><r>corbeta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cóclea<s n="n"/></l><r>còclea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ágata<s n="n"/></l><r>àgata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>podredumbre<s n="n"/></l><r>podridura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pana<s n="n"/></l><r>pana<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>mora<s n="n"/></l><r>móra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>melaza<s n="n"/></l><r>melassa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isoglosa<s n="n"/></l><r>isoglossa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>indisciplina<s n="n"/></l><r>indisciplina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>horticultura<s n="n"/></l><r>horticultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>histamina<s n="n"/></l><r>histamina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>flotilla<s n="n"/></l><r>flotilla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estratopausa<s n="n"/></l><r>estratopausa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alcanfor<s n="n"/><s n="m"/></l><r>càmfora<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apicultura<s n="n"/></l><r>apicultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>umbela<s n="n"/></l><r>umbel·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>reescritura<s n="n"/></l><r>reescriptura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>malaquita<s n="n"/></l><r>malaquita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inulina<s n="n"/></l><r>inulina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glutamina<s n="n"/></l><r>glutamina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fungicida<s n="adj"/></l><r>fungicida<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fluorita<s n="n"/></l><r>fluorita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>conífera<s n="n"/></l><r>conífera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cesura<s n="n"/></l><r>cesura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bráctea<s n="n"/></l><r>bràctea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bactericida<s n="adj"/></l><r>bactericida<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tarántula<s n="n"/></l><r>taràntula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rada<s n="n"/></l><r>rada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mayonesa<s n="n"/></l><r>maionesa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fibrina<s n="n"/></l><r>fibrina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>farmacopea<s n="n"/></l><r>farmacopea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corneja<s n="n"/></l><r>cornella<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>voladura<s n="n"/></l><r>voladura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tesla<s n="n"/></l><r>tesla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mioglobina<s n="n"/></l><r>mioglobina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>habanera<s n="n"/></l><r>havanera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>corchea<s n="n"/></l><r>corxera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>almeja<s n="n"/></l><r>cloïssa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>caoba<s n="n"/></l><r>caoba<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sámara<s n="n"/></l><r>sàmara<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oxitocina<s n="n"/></l><r>oxitocina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>melanina<s n="n"/></l><r>melanina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fosfina<s n="n"/></l><r>fosfina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cavatina<s n="n"/></l><r>cavatina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bilirrubina<s n="n"/></l><r>bilirubina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antera<s n="n"/></l><r>antera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ágora<s n="n"/></l><r>àgora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acetona<s n="n"/></l><r>acetona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>abscisa<s n="n"/></l><r>abscissa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ventosa<s n="n"/></l><r>ventosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tulipán<s n="n"/><s n="m"/></l><r>tulipa<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>superfluidez<s n="n"/></l><r>superfluïdesa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>seguidilla<s n="n"/></l><r>seguidilla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rádula<s n="n"/></l><r>ràdula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuarcita<s n="n"/></l><r>quarsita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>protrombina<s n="n"/></l><r>protrombina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pilastra<s n="n"/></l><r>pilastra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>libélula<s n="n"/></l><r>libèl·lula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>impureza<s n="n"/></l><r>impuresa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>yarda<s n="n"/></l><r>iarda<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>histona<s n="n"/></l><r>histona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glabela<s n="n"/></l><r>glabel·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>floricultura<s n="n"/></l><r>floricultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>disnea<s n="n"/></l><r>dispnea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dismenorrea<s n="n"/></l><r>dismenorrea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>contracultura<s n="n"/></l><r>contracultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>conjuntivo<s n="adj"/></l><r>conjuntiu<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>barita<s n="n"/></l><r>barita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>parafina<s n="n"/></l><r>parafina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>morsa<s n="n"/></l><r>morsa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>margarina<s n="n"/></l><r>margarina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hiena<s n="n"/></l><r>hiena<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hamburguesa<s n="n"/></l><r>hamburguesa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jalea<s n="n"/></l><r>gelea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estera<s n="n"/></l><r>estora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antífona<s n="n"/></l><r>antífona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tobera<s n="n"/></l><r>tovera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>semirrecta<s n="n"/></l><r>semirecta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>platina<s n="n"/></l><r>platina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>loza<s n="n"/></l><r>pisa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>horchata<s n="n"/></l><r>orxata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>obsidiana<s n="n"/></l><r>obsidiana<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>níspero<s n="n"/><s n="m"/></l><r>nespra<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>limonada<s n="n"/></l><r>llimonada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>linfa<s n="n"/></l><r>limfa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hurón<s n="n"/><s n="m"/></l><r>fura<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fluoresceína<s n="n"/></l><r>fluoresceïna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>casiterita<s n="n"/></l><r>cassiterita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arqueta<s n="n"/></l><r>arqueta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amatista<s n="n"/></l><r>ametista<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zeolita<s n="n"/></l><r>zeolita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>achicoria<s n="n"/></l><r>xicoira<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>chicoria<s n="n"/></l><r>xicoira<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>voluta<s n="n"/></l><r>voluta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trombina<s n="n"/></l><r>trombina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>plaqueta<s n="n"/></l><r>plaqueta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pampa<s n="n"/></l><r>pampa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lipasa<s n="n"/></l><r>lipasa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>leucina<s n="n"/></l><r>leucina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>inmunoglobulina<s n="n"/></l><r>immunoglobulina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hidrazina<s n="n"/></l><r>hidrazina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>codorniz<s n="n"/></l><r>guatlla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fístula<s n="n"/></l><r>fístula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>férula<s n="n"/></l><r>fèrula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alpargata<s n="n"/></l><r>espardenya<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diorita<s n="n"/></l><r>diorita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dentina<s n="n"/></l><r>dentina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>neblina<s n="n"/></l><r>boirina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>barbacoa<s n="n"/></l><r>barbacoa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aurícula<s n="n"/></l><r>aurícula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>variscita<s n="n"/></l><r>variscita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>turmalina<s n="n"/></l><r>turmalina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trituradora<s n="n"/></l><r>trituradora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vaina<s n="n"/></l><r>tavella<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sopera<s n="n"/></l><r>sopera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>semifusa<s n="n"/></l><r>semifusa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>semicorchea<s n="n"/></l><r>semicorxera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pipeta<s n="n"/></l><r>pipeta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pentosa<s n="n"/></l><r>pentosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nitrocelulosa<s n="n"/></l><r>nitrocel·lulosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mimosa<s n="n"/></l><r>mimosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>grisalla<s n="n"/></l><r>grisalla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fóvea<s n="n"/></l><r>fòvea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>escarola<s n="n"/></l><r>escarola<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cromita<s n="n"/></l><r>cromita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>biotita<s n="n"/></l><r>biotita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>barcarola<s n="n"/></l><r>barcarola<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>álgebra<s n="n"/></l><r>àlgebra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acupuntura<s n="n"/></l><r>acupuntura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vampiresa<s n="n"/></l><r>vampiressa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tiroxina<s n="n"/></l><r>tiroxina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>testero<s n="n"/></l><r>testera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>separata<s n="n"/></l><r>separata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sacarina<s n="n"/></l><r>sacarina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>poliamida<s n="n"/></l><r>poliamida<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>picota<s n="n"/></l><r>picota<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pátina<s n="n"/></l><r>pàtina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lanceta<s n="n"/></l><r>llanceta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hexosa<s n="n"/></l><r>hexosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gónada<s n="n"/></l><r>gònada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>glicoproteína<s n="n"/></l><r>glicoproteïna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>filigrana<s n="n"/></l><r>filigrana<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cucharilla<s n="n"/></l><r>cullereta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cortisona<s n="n"/></l><r>cortisona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>comisura<s n="n"/></l><r>comissura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cizalla<s n="n"/></l><r>cisalla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>brea<s n="n"/></l><r>brea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bengala<s n="n"/></l><r>bengala<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>venda<s n="n"/></l><r>bena<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amenorrea<s n="n"/></l><r>amenorrea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>albúmina<s n="n"/></l><r>albúmina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>adenosina<s n="n"/></l><r>adenosina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>voltereta<s n="n"/></l><r>tombarella<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>selenita<s n="n"/></l><r>selenita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pepsina<s n="n"/></l><r>pepsina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>papila<s n="n"/></l><r>papil·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>oxidoreductasa<s n="n"/></l><r>oxidoreductasa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>miríada<s n="n"/></l><r>miríada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>microestructura<s n="n"/></l><r>microestructura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mácula<s n="n"/></l><r>màcula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gárgola<s n="n"/></l><r>gàrgola<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gallarda<s n="n"/></l><r>gallarda<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fusa<s n="n"/></l><r>fusa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esfalerita<s n="n"/></l><r>esfalerita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dolina<s n="n"/></l><r>dolina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dedalera<s n="n"/></l><r>didalera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>croqueta<s n="n"/></l><r>croqueta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cementita<s n="n"/></l><r>cementita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>blástula<s n="n"/></l><r>blàstula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>baquelita<s n="n"/></l><r>baquelita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aragonita<s n="n"/></l><r>aragonita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acetilcolina<s n="n"/></l><r>acetilcolina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tronera<s n="n"/></l><r>tronera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subestructura<s n="n"/></l><r>subestructura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>silicua<s n="n"/></l><r>síliqua<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>serosa<s n="n"/></l><r>serosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>scheelita<s n="n"/></l><r>scheelita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>salmonela<s n="n"/></l><r>salmonel·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lepidolita<s n="n"/></l><r>lepidolita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>laterita<s n="n"/></l><r>laterita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jarosita<s n="n"/></l><r>jarosita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>involuta<s n="n"/></l><r>involuta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gástrula<s n="n"/></l><r>gàstrula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ferritina<s n="n"/></l><r>ferritina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cojera<s n="n"/></l><r>coixesa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clavija<s n="n"/></l><r>clavilla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ceratina<s n="n"/></l><r>ceratina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>catena<s n="n"/></l><r>catena<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>caseína<s n="n"/></l><r>caseïna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>braquistócrona<s n="n"/></l><r>braquistòcrona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>boa<s n="n"/></l><r>boa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bentonita<s n="n"/></l><r>bentonita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>atropina<s n="n"/></l><r>atropina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>aspirina<s n="n"/></l><r>aspirina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arboricultura<s n="n"/></l><r>arboricultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acedera<s n="n"/></l><r>agrella<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vinagreta<s n="n"/></l><r>vinagreta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tilita<s n="n"/></l><r>til·lita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tecnoestructura<s n="n"/></l><r>tecnoestructura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sinalefa<s n="n"/></l><r>sinalefa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>seborrea<s n="n"/></l><r>seborrea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hazmerreír<s n="n"/></l><r>riota<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prednisona<s n="n"/></l><r>prednisona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>posdata<s n="n"/></l><r>postdata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pirueta<s n="n"/></l><r>pirueta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perforadora<s n="n"/></l><r>perforadora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nunciatura<s n="n"/></l><r>nunciatura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mucina<s n="n"/></l><r>mucina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mórula<s n="n"/></l><r>mòrula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>marcasita<s n="n"/></l><r>marcassita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magnesita<s n="n"/></l><r>magnesita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>macromolécula<s n="n"/></l><r>macromolècula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lionesa<s n="n"/></l><r>lionesa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>limusina<s n="n"/></l><r>limusina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>letrina<s n="n"/></l><r>latrina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>incomparecencia<s n="n"/></l><r>incompareixença<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>discordancia<s n="n"/></l><r>discordança<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dioxina<s n="n"/></l><r>dioxina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cutina<s n="n"/></l><r>cutina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cornalina<s n="n"/></l><r>cornalina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>celofán<s n="n"/><s n="m"/></l><r>cel·lofana<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>catacumba<s n="n"/></l><r>catacumba<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>camarilla<s n="n"/></l><r>camarilla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>brucita<s n="n"/></l><r>brucita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>borla<s n="n"/></l><r>borla<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>blenda<s n="n"/></l><r>blenda<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polilla<s n="n"/></l><r>arna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>arieta<s n="n"/></l><r>arieta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amilasa<s n="n"/></l><r>amilasa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amígdala<s n="n"/></l><r>amígdala<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>actina<s n="n"/></l><r>actina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>siderita<s n="n"/></l><r>siderita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sémola<s n="n"/></l><r>sèmola<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>retorta<s n="n"/></l><r>retorta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>radícula<s n="n"/></l><r>radícula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>petalita<s n="n"/></l><r>petalita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ostra<s n="n"/></l><r>ostra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>limonita<s n="n"/></l><r>limonita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lectina<s n="n"/></l><r>lectina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lazurita<s n="n"/></l><r>latzurita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>kimberlita<s n="n"/></l><r>kimberlita<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>junta<s n="n"/></l><r>juntura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>jadeíta<s n="n"/></l><r>jadeïta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isóbara<s n="n"/></l><r>isòbara<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>isobara<s n="n"/></l><r>isòbara<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hornblenda<s n="n"/></l><r>hornblenda<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>heparina<s n="n"/></l><r>heparina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>halita<s n="n"/></l><r>halita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estola<s n="n"/></l><r>estola<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estalactita<s n="n"/></l><r>estalactita<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>pifia<s n="n"/></l><r>espifiada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>elastina<s n="n"/></l><r>elastina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>diatriba<s n="n"/></l><r>diatriba<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dextrosa<s n="n"/></l><r>dextrosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>compota<s n="n"/></l><r>compota<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>celestina<s n="n"/></l><r>celestina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carúncula<s n="n"/></l><r>carúncula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>caolinita<s n="n"/></l><r>caolinita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>granizada<s n="n"/></l><r>calamarsada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>granizado<s n="adj"/></l><r>granissat<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>buna<s n="n"/></l><r>buna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bufonada<s n="n"/></l><r>bufonada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bornita<s n="n"/></l><r>bornita<s n="n"/></r></p></e>
+<e a="prompsit2uoc" slr="bitlla D"><p><l>bolo<s n="n"/><s n="m"/></l><r>bitlla<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc" slr="bolo"><p><l>bolo<s n="n"/></l><r>bolo<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bacitracina<s n="n"/></l><r>bacitracina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pomelo<s n="n"/><s n="m"/></l><r>aranja<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ameba<s n="n"/></l><r>ameba<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alúmina<s n="n"/></l><r>alúmina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>zónula<s n="n"/></l><r>zònula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>wulfenita<s n="n"/></l><r>wulfenita<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>algarroba<s n="n"/></l><r>veça<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>algarroba<s n="n"/></l><r>garrofa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>trabécula<s n="n"/></l><r>trabècula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tostadora<s n="n"/></l><r>torradora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subcadena<s n="n"/></l><r>subcadena<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>saponita<s n="n"/></l><r>saponita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>raticida<s n="n"/></l><r>raticida<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pústula<s n="n"/></l><r>pústula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ptialina<s n="n"/></l><r>ptialina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>premaxila<s n="n"/></l><r>premaxil·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>polucita<s n="n"/></l><r>pol·lucita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>peridotita<s n="n"/></l><r>peridotita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pelagra<s n="n"/></l><r>pel·lagra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>parentela<s n="n"/></l><r>parentela<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>olefina<s n="n"/></l><r>olefina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ocarina<s n="n"/></l><r>ocarina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nefrita<s n="n"/></l><r>nefrita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>micela<s n="n"/></l><r>micel·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>malevolencia<s n="n"/></l><r>malvolença<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lúnula<s n="n"/></l><r>lúnula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lipoproteína<s n="n"/></l><r>lipoproteïna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>levodopa<s n="n"/></l><r>levodopa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isohipsa<s n="n"/></l><r>isohipsa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hifa<s n="n"/></l><r>hifa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>henna<s n="n"/></l><r>henna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hemolinfa<s n="n"/></l><r>hemolimfa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>granodiorita<s n="n"/></l><r>granodiorita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>góndola<s n="n"/></l><r>gòndola<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>globulina<s n="n"/></l><r>globulina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gaceta<s n="n"/></l><r>gaseta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>exosfera<s n="n"/></l><r>exosfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>escápula<s n="n"/></l><r>escàpula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>epinefrina<s n="n"/></l><r>epinefrina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dimetilformamida<s n="n"/></l><r>dimetilformamida<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>decidua<s n="n"/></l><r>decídua<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>doradura<s n="n"/></l><r>dauradura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cuprita<s n="n"/></l><r>cuprita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>colemanita<s n="n"/></l><r>colemanita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>bullabesa<s n="n"/></l><r>bullabessa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>brocheta<s n="n"/></l><r>broqueta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>batista<s n="n"/></l><r>batista<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antecámara<s n="n"/></l><r>avantcambra<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>astenosfera<s n="n"/></l><r>astenosfera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acuicultura<s n="n"/></l><r>aqüicultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apatito<s n="n"/><s n="m"/></l><r>apatita<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>angula<s n="n"/></l><r>angula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ampicilina<s n="n"/></l><r>ampicil·lina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acaricida<s n="adj"/></l><r>acaricida<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>vincamina<s n="n"/></l><r>vincamina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>úvula<s n="n"/></l><r>úvula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tolva<s n="n"/></l><r>tremuja<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tremolita<s n="n"/></l><r>tremolita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>titina<s n="n"/></l><r>titina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>titanita<s n="n"/></l><r>titanita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>teodicea<s n="n"/></l><r>teodicea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>televenta<s n="n"/></l><r>televenda<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>alcaparra<s n="n"/></l><r>tàpera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>sulfanilamida<s n="n"/></l><r>sulfanilamida<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>subárea<s n="n"/></l><r>subàrea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rodera<s n="n"/></l><r>rodera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>risita<s n="n"/></l><r>rialleta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rallador<s n="n"/><s n="m"/></l><r>ratlladora<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estertor<s n="n"/><s n="m"/></l><r>ranera<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tartamudez<s n="n"/></l><r>quequesa<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>tartamudez<s n="n"/></l><r>tartamudesa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>proustita<s n="n"/></l><r>proustita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prorrata<s n="n"/></l><r>prorrata<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>prímula<s n="n"/></l><r>prímula<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pelotita<s n="n"/></l><r>piloteta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apisonadora<s n="n"/></l><r>piconadora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perilinfa<s n="n"/></l><r>perilimfa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pegmatita<s n="n"/></l><r>pegmatita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>pedicura<s n="n"/></l><r>pedicura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>nontronita<s n="n"/></l><r>nontronita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mtorolita<s n="n"/></l><r>mtorolita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>monocultura<s n="n"/></l><r>monocultura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mirabilita<s n="n"/></l><r>mirabilita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>metopa<s n="n"/></l><r>mètopa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>melamina<s n="n"/></l><r>melamina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>martingala<s n="n"/></l><r>martingala<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>mantisa<s n="n"/></l><r>mantissa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>maltosa<s n="n"/></l><r>maltosa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>maculatura<s n="n"/></l><r>maculatura<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>luteína<s n="n"/></l><r>luteïna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ligroína<s n="n"/></l><r>ligroïna<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>lepidocrocita<s n="n"/></l><r>lepidocrocita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isopleta<s n="n"/></l><r>isopleta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isohieta<s n="n"/></l><r>isohieta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>isógona<s n="n"/></l><r>isògona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hialita<s n="n"/></l><r>hialita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>hemimembrana<s n="n"/></l><r>hemimembrana<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gotita<s n="n"/></l><r>goteta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>globina<s n="n"/></l><r>globina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>rodillera<s n="n"/></l><r>genollera<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>prisión<s n="n"/></l><r>garjola<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>frigidez<s n="n"/></l><r>frigidesa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>franela<s n="n"/></l><r>franel·la<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>fenilbutazona<s n="n"/></l><r>fenilbutazona<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>extrusora<s n="n"/></l><r>extrusora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>exotoxina<s n="n"/></l><r>exotoxina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>etilamina<s n="n"/></l><r>etilamina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>esteatita<s n="n"/></l><r>esteatita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>estalagmita<s n="n"/></l><r>estalagmita<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>establo<s n="n"/></l><r>establa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espineta<s n="n"/></l><r>espineta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espelta<s n="n"/></l><r>espelta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>espumadera<s n="n"/></l><r>escumadora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>eosina<s n="n"/></l><r>eosina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>endotoxina<s n="n"/></l><r>endotoxina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>tintineo<s n="n"/><s n="m"/></l><r>dringadissa<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>dedo<s n="n"/></l><r>ditada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>dacita<s n="n"/></l><r>dacita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>crucífera<s n="n"/></l><r>crucífera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>crisolita<s n="n"/></l><r>crisolita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>contramarcha<s n="n"/></l><r>contramarxa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>clorita<s n="n"/></l><r>clorita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>carnalita<s n="n"/></l><r>carnal·lita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>cantonera<s n="n"/></l><r>cantonera<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>perrera<s n="n"/></l><r>canera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>perrera<s n="n"/></l><r>gossera<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>boracita<s n="n"/></l><r>boracita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>azalea<s n="n"/></l><r>azalea<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>austenita<s n="n"/></l><r>austenita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>augita<s n="n"/></l><r>augita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>azurita<s n="n"/></l><r>atzurita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>asíntota<s n="n"/></l><r>asímptota<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>antiderivada<s n="n"/></l><r>antiderivada<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>angora<s n="n"/></l><r>angora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>andesita<s n="n"/></l><r>andesita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>andesina<s n="n"/></l><r>andesina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>anatoxina<s n="n"/></l><r>anatoxina<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>botellita<s n="n"/></l><r>ampolleta<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>ampliadora<s n="n"/></l><r>ampliadora<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>amazonita<s n="n"/></l><r>amazonita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>albita<s n="n"/></l><r>albita<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acetofenona<s n="n"/></l><r>acetofenona<s n="n"/></r></p></e>
 
 
     </section>
