@@ -3601,6 +3601,20 @@
         </p>
       </e>
     </pardef>
+    <pardef n="maí/z__n">
+      <e>
+        <p>
+          <l>ces</l>
+          <r>z<s n="n"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>z</l>
+          <r>z<s n="n"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="andalu/z__n">
       <e>
         <p>
@@ -82793,7 +82807,7 @@
       <i>bacteria</i>
       <par n="abeja__n"/>
     </e>
-    <e lm="badén" r="LR">
+    <e lm="badén">
       <i>bad</i>
       <par n="almac/én__n"/>
     </e>
@@ -90970,6 +90984,10 @@
       <i>gasolinera</i>
       <par n="abeja__n"/>
     </e>
+    <e lm="cantonera" a="prompsit2uoc">
+      <i>cantonera</i>
+      <par n="abeja__n"/>
+    </e>
     <e lm="gasto">
       <i>gasto</i>
       <par n="abismo__n"/>
@@ -97344,7 +97362,7 @@
     </e>
     <e lm="platillo">
       <i>platillo</i>
-      <par n="atletismo__n"/>
+      <par n="abismo__n"/>
     </e>
     <e lm="platino">
       <i>platino</i>
@@ -137898,6 +137916,10 @@
         <i>aprehensi</i>
         <par n="acci/ón__n"/>
      </e>
+     <e lm="prensión" a="prompsit2adn">
+        <i>prensi</i>
+        <par n="acci/ón__n"/>
+     </e>
 
      <e lm="apropiación" a="prompsit2adn">
         <i>apropiaci</i>
@@ -150648,15 +150670,15 @@
         <par n="abstract/o__adj"/>
      </e>
 
-     <e lm="tenedor" a="prompsit2adn">
+     <e lm="tenedor" a="prompsit2adn" alt="eco">
         <i>tenedor</i>
-        <par n="señor__n"/>
+	<par n="señor__n"/>
       </e>
 
-     <e lm="tenedor" a="prompsit2adn">
-			<i>tenedor</i>
-			<par n="abril__n"/>
-		</e>
+      <e lm="tenedor" a="prompsit2adn" alt="std">
+	<i>tenedor</i>
+	<par n="abril__n"/>
+      </e>
 
 
 
@@ -166745,15 +166767,15 @@
 <e lm="ácaro" a="prompsit2uoc"><i>ácaro</i><par n="abismo__n"/></e>
 <e lm="zodíaco" a="prompsit2uoc"><i>zodíaco</i><par n="abismo__n"/></e>
 <e lm="espín" a="prompsit2uoc"><i>esp</i><par n="bot/ín__n"/></e>
-<e lm="puerco" a="prompsit2uoc"><i>puerc</i><par n="abogad/o__n"/></e>
+<e lm="puerco" a="prompsit2uoc"><i>puerco</i><par n="abismo__n"/></e>
 <e lm="carbohidrato" a="prompsit2uoc"><i>carbohidrato</i><par n="abismo__n"/></e>
 <e lm="manglar" a="prompsit2uoc"><i>manglar</i><par n="abril__n"/></e>
 <e lm="germanio" a="prompsit2uoc"><i>germanio</i><par n="abismo__n"/></e>
 <e lm="chopo" a="prompsit2uoc"><i>chopo</i><par n="abismo__n"/></e>
 <e lm="plutonio" a="prompsit2uoc"><i>plutonio</i><par n="abismo__n"/></e>
 <e lm="leucocito" a="prompsit2uoc"><i>leucocito</i><par n="abismo__n"/></e>
-<e lm="macho cabrío" a="prompsit2uoc"><i>macho<b/>cabrio</i><par n="atletismo__n"/></e>
-<e lm="macho cabrío" a="prompsit2uoc"><p><l>machos<b/>cabrios</l><r>macho<b/>cabrío</r></p><par n="alrededores__n"/></e>
+<e lm="macho cabrío" a="prompsit2uoc"><i>macho<b/>cabrío</i><par n="atletismo__n"/></e>
+<e lm="macho cabrío" a="prompsit2uoc"><p><l>machos<b/>cabríos</l><r>macho<b/>cabrío</r></p><par n="alrededores__n"/></e>
 <e lm="binomio" a="prompsit2uoc"><i>binomio</i><par n="abismo__n"/></e>
 <e lm="arabismo" a="prompsit2uoc"><i>arabismo</i><par n="abismo__n"/></e>
 <e lm="protozoo" a="prompsit2uoc"><i>protozoo</i><par n="abismo__n"/></e>
@@ -167077,7 +167099,7 @@
 <e lm="mutualismo" a="prompsit2uoc"><i>mutualismo</i><par n="abismo__n"/></e>
 <e lm="metabolito" a="prompsit2uoc"><i>metabolito</i><par n="abismo__n"/></e>
 <e lm="isómero" a="prompsit2uoc"><i>isómero</i><par n="abismo__n"/></e>
-<e lm="granadero" a="prompsit2uoc"><i>granadero</i><par n="abogad/o__n"/></e>
+<e lm="granadero" a="prompsit2uoc"><i>granader</i><par n="abogad/o__n"/></e>
 <e lm="funcionalismo" a="prompsit2uoc"><i>funcionalismo</i><par n="abismo__n"/></e>
 <e lm="betún" a="prompsit2uoc"><i>betún</i><par n="abril__n"/></e>
 <e lm="callejón sin salida" a="prompsit2uoc"><i>callej</i><par n="aluvi/ón__n"/><p><l><b/>sin<b/>salida</l><r><g><b/>sin<b/>salida</g></r></p></e>
@@ -167170,7 +167192,6 @@
 <e lm="solana" a="prompsit2uoc"><i>solana</i><par n="abeja__n"/></e>
 <e lm="sinusoide" a="prompsit2uoc"><i>sinusoide</i><par n="abismo__n"/></e>
 <e lm="provincialismo" a="prompsit2uoc"><i>provincialismo</i><par n="abismo__n"/></e>
-<e lm="poliedro" a="prompsit2uoc"><i>poliedro</i><par n="abismo__n"/></e>
 <e lm="plasto" a="prompsit2uoc"><i>plasto</i><par n="abismo__n"/></e>
 <e lm="periscopio" a="prompsit2uoc"><i>periscopio</i><par n="abismo__n"/></e>
 <e lm="pascal" a="prompsit2uoc"><i>pascal</i><par n="abril__n"/></e>
@@ -167292,7 +167313,6 @@
 <e lm="hiperónimo" a="prompsit2uoc"><i>hiperónimo</i><par n="abismo__n"/></e>
 <e lm="fotorreceptor" a="prompsit2uoc"><i>fotorreceptor</i><par n="abismo__n"/></e>
 <e lm="alforfón" a="prompsit2uoc"><i>alforfón</i><par n="abismo__n"/></e>
-<e lm="esternón" a="prompsit2uoc"><i>esternón</i><par n="abismo__n"/></e>
 <e lm="espray" a="prompsit2uoc"><i>espray</i><par n="abismo__n"/></e>
 <e lm="enchufe" a="prompsit2uoc"><i>enchufe</i><par n="abismo__n"/></e>
 <e lm="corolario" a="prompsit2uoc"><i>corolario</i><par n="abismo__n"/></e>
@@ -167537,7 +167557,7 @@
 <e lm="alguacil" a="prompsit2uoc"><i>alguacil</i><par n="abril__n"/></e>
 <e lm="aglomerante" a="prompsit2uoc"><i>aglomerante</i><par n="abundante__adj"/></e>
 <e lm="adsorbente" a="prompsit2uoc"><i>adsorbente</i><par n="abundante__adj"/></e>
-<e lm="trivino" a="prompsit2uoc"><i>trivino</i><par n="abismo__n"/></e>
+<e lm="trivio" a="prompsit2uoc"><i>trivio</i><par n="abismo__n"/></e>
 <e lm="trino" a="prompsit2uoc"><i>trino</i><par n="abismo__n"/></e>
 <e lm="trímetro" a="prompsit2uoc"><i>trímetro</i><par n="abismo__n"/></e>
 <e lm="totemismo" a="prompsit2uoc"><i>totemismo</i><par n="abismo__n"/></e>
@@ -167583,6 +167603,7 @@
 <e lm="diástole" a="prompsit2uoc"><i>diástole</i><par n="abismo__n"/></e>
 <e lm="criptófito" a="prompsit2uoc"><i>criptófito</i><par n="abismo__n"/></e>
 <e lm="criminólogo" a="prompsit2uoc"><i>criminólog</i><par n="abogad/o__n"/></e>
+<e lm="peletero" a="prompsit2uoc"><i>peleter</i><par n="abogad/o__n"/></e>
 <e lm="colirio" a="prompsit2uoc"><i>colirio</i><par n="abismo__n"/></e>
 <e lm="celentéreo" a="prompsit2uoc"><i>celentéreo</i><par n="abismo__n"/></e>
 <e lm="carenado" a="prompsit2uoc"><i>carenado</i><par n="abismo__n"/></e>
@@ -167634,7 +167655,7 @@
 <e lm="ológrafo" a="prompsit2uoc"><i>ológraf</i><par n="absolut/o__adj"/></e>
 <e lm="hológrafo" a="prompsit2uoc"><i>hológraf</i><par n="absolut/o__adj"/></e>
 <e lm="granulocito" a="prompsit2uoc"><i>granulocito</i><par n="abismo__n"/></e>
-<e lm="gatito" a="prompsit2uoc"><i>gatito</i><par n="abogad/o__n"/></e>
+<e lm="gatito" a="prompsit2uoc"><i>gatit</i><par n="abogad/o__n"/></e>
 <e lm="funículo" a="prompsit2uoc"><i>funículo</i><par n="abismo__n"/></e>
 <e lm="estropajo" a="prompsit2uoc"><i>estropajo</i><par n="abismo__n"/></e>
 <e lm="formulismo" a="prompsit2uoc"><i>formulismo</i><par n="abismo__n"/></e>
@@ -167741,7 +167762,6 @@
 <e lm="tomismo" a="prompsit2uoc"><i>tomismo</i><par n="abismo__n"/></e>
 <e lm="termógrafo" a="prompsit2uoc"><i>termógrafo</i><par n="abismo__n"/></e>
 <e lm="statvolt" a="prompsit2uoc"><i>statvolt</i><par n="abismo__n"/></e>
-<e lm="saurio" a="prompsit2uoc"><i>saurio</i><par n="abismo__n"/></e>
 <e lm="salterio" a="prompsit2uoc"><i>salterio</i><par n="abismo__n"/></e>
 <e lm="resolvente" a="prompsit2uoc"><i>resolvente</i><par n="abundante__adj"/></e>
 <e lm="reactante" a="prompsit2uoc"><i>reactante</i><par n="abismo__n"/></e>
@@ -167938,6 +167958,7 @@
 <e lm="tintura" a="prompsit2uoc"><i>tintura</i><par n="abeja__n"/></e>
 <e lm="pulpa" a="prompsit2uoc"><i>pulpa</i><par n="abeja__n"/></e>
 <e lm="resina" a="prompsit2uoc"><i>resina</i><par n="abeja__n"/></e>
+<e lm="maíz" a="prompsit2uoc"><i>maí</i><par n="maí/z__n"/></e>
 <e lm="contraofensiva" a="prompsit2uoc"><i>contraofensiva</i><par n="abeja__n"/></e>
 <e lm="roseta" a="prompsit2uoc"><i>roseta</i><par n="abeja__n"/></e>
 <e lm="mitra" a="prompsit2uoc"><i>mitra</i><par n="abeja__n"/></e>
@@ -167972,7 +167993,6 @@
 <e lm="eucariota" a="prompsit2uoc"><i>eucariota</i><par n="abundante__adj"/></e>
 <e lm="eucarionte" a="prompsit2uoc"><i>eucarionte</i><par n="abundante__adj"/></e>
 <e lm="cítara" a="prompsit2uoc"><i>cítara</i><par n="abeja__n"/></e>
-<e lm="abreviatura" a="prompsit2uoc"><i>abreviatura</i><par n="abeja__n"/></e>
 <e lm="mirlo" a="prompsit2uoc"><i>mirlo</i><par n="abismo__n"/></e>
 <e lm="savia" a="prompsit2uoc"><i>savia</i><par n="abeja__n"/></e>
 <e lm="clorofila" a="prompsit2uoc"><i>clorofila</i><par n="abeja__n"/></e>
@@ -168032,7 +168052,7 @@
 <e lm="candela" a="prompsit2uoc"><i>candela</i><par n="abeja__n"/></e>
 <e lm="manzanilla" a="prompsit2uoc"><i>manzanilla</i><par n="abeja__n"/></e>
 <e lm="amapola" a="prompsit2uoc"><i>amapola</i><par n="abeja__n"/></e>
-<e lm="hipérbole" a="prompsit2uoc"><i>hipérbole</i><par n="abeja__n"/></e>
+<e lm="hipérbola" a="prompsit2uoc"><i>hipérbola</i><par n="abeja__n"/></e>
 <e lm="berlina" a="prompsit2uoc"><i>berlina</i><par n="abeja__n"/></e>
 <e lm="sauna" a="prompsit2uoc"><i>sauna</i><par n="abeja__n"/></e>
 <e lm="manecilla" a="prompsit2uoc"><i>manecilla</i><par n="abeja__n"/></e>
@@ -168146,8 +168166,8 @@
 <e lm="acetona" a="prompsit2uoc"><i>acetona</i><par n="abeja__n"/></e>
 <e lm="abscisa" a="prompsit2uoc"><i>abscisa</i><par n="abeja__n"/></e>
 <e lm="ventosa" a="prompsit2uoc"><i>ventosa</i><par n="abeja__n"/></e>
-<e lm="tulipa" a="prompsit2uoc"><i>tulipa</i><par n="abeja__n"/></e>
-<e lm="superfluidez" a="prompsit2uoc"><i>superfluidez</i><par n="actri/z__n"/></e>
+<e lm="tulipán" a="prompsit2uoc"><i>tulip</i><par n="adem/án__n"/></e>
+<e lm="superfluidez" a="prompsit2uoc"><i>superfluide</i><par n="actri/z__n"/></e>
 <e lm="seguidilla" a="prompsit2uoc"><i>seguidilla</i><par n="abeja__n"/></e>
 <e lm="rádula" a="prompsit2uoc"><i>rádula</i><par n="abeja__n"/></e>
 <e lm="cuarcita" a="prompsit2uoc"><i>cuarcita</i><par n="abeja__n"/></e>
@@ -168173,7 +168193,7 @@
 <e lm="estera" a="prompsit2uoc"><i>estera</i><par n="abeja__n"/></e>
 <e lm="antífona" a="prompsit2uoc"><i>antífona</i><par n="abeja__n"/></e>
 <e lm="tobera" a="prompsit2uoc"><i>tobera</i><par n="abeja__n"/></e>
-<e lm="semirecta" a="prompsit2uoc"><i>semirecta</i><par n="abeja__n"/></e>
+<e lm="semirrecta" a="prompsit2uoc"><i>semirrecta</i><par n="abeja__n"/></e>
 <e lm="platina" a="prompsit2uoc"><i>platina</i><par n="abeja__n"/></e>
 <e lm="loza" a="prompsit2uoc"><i>loza</i><par n="abeja__n"/></e>
 <e lm="horchata" a="prompsit2uoc"><i>horchata</i><par n="abeja__n"/></e>
@@ -168183,7 +168203,7 @@
 <e lm="linfa" a="prompsit2uoc"><i>linfa</i><par n="abeja__n"/></e>
 <e lm="hurón" a="prompsit2uoc"><i>hur</i><par n="aluvi/ón__n"/></e>
 <e lm="fluoresceína" a="prompsit2uoc"><i>fluoresceína</i><par n="abeja__n"/></e>
-<e lm="casiterita" a="prompsit2uoc"><i>cassiterita</i><par n="abeja__n"/></e>
+<e lm="casiterita" a="prompsit2uoc"><i>casiterita</i><par n="abeja__n"/></e>
 <e lm="arqueta" a="prompsit2uoc"><i>arqueta</i><par n="abeja__n"/></e>
 <e lm="amatista" a="prompsit2uoc"><i>amatista</i><par n="abeja__n"/></e>
 <e lm="zeolita" a="prompsit2uoc"><i>zeolita</i><par n="abeja__n"/></e>
@@ -168240,7 +168260,7 @@
 <e lm="filigrana" a="prompsit2uoc"><i>filigrana</i><par n="abeja__n"/></e>
 <e lm="cucharilla" a="prompsit2uoc"><i>cucharilla</i><par n="abeja__n"/></e>
 <e lm="cortisona" a="prompsit2uoc"><i>cortisona</i><par n="abeja__n"/></e>
-<e lm="comisura" a="prompsit2uoc"><i>comissura</i><par n="abeja__n"/></e>
+<e lm="comisura" a="prompsit2uoc"><i>comisura</i><par n="abeja__n"/></e>
 <e lm="cizalla" a="prompsit2uoc"><i>cizalla</i><par n="abeja__n"/></e>
 <e lm="brea" a="prompsit2uoc"><i>brea</i><par n="abeja__n"/></e>
 <e lm="bengala" a="prompsit2uoc"><i>bengala</i><par n="abeja__n"/></e>
@@ -168305,7 +168325,7 @@
 <e lm="nunciatura" a="prompsit2uoc"><i>nunciatura</i><par n="abeja__n"/></e>
 <e lm="mucina" a="prompsit2uoc"><i>mucina</i><par n="abeja__n"/></e>
 <e lm="mórula" a="prompsit2uoc"><i>mórula</i><par n="abeja__n"/></e>
-<e lm="marcassita" a="prompsit2uoc"><i>marcassita</i><par n="abeja__n"/></e>
+<e lm="marcasita" a="prompsit2uoc"><i>marcasita</i><par n="abeja__n"/></e>
 <e lm="magnesita" a="prompsit2uoc"><i>magnesita</i><par n="abeja__n"/></e>
 <e lm="macromolécula" a="prompsit2uoc"><i>macromolécula</i><par n="abeja__n"/></e>
 <e lm="lionesa" a="prompsit2uoc"><i>lionesa</i><par n="abeja__n"/></e>
@@ -168426,7 +168446,7 @@
 <e lm="risita" a="prompsit2uoc"><i>risita</i><par n="abeja__n"/></e>
 <e lm="rallador" a="prompsit2uoc"><i>rallador</i><par n="abril__n"/></e>
 <e lm="estertor" a="prompsit2uoc"><i>estertor</i><par n="abril__n"/></e>
-<e lm="tartamudez" a="prompsit2uoc"><i>tartamudez</i><par n="actri/z__n"/></e>
+<e lm="tartamudez" a="prompsit2uoc"><i>tartamude</i><par n="actri/z__n"/></e>
 <e lm="proustita" a="prompsit2uoc"><i>proustita</i><par n="abeja__n"/></e>
 <e lm="prorrata" a="prompsit2uoc"><i>prorrata</i><par n="abeja__n"/></e>
 <e lm="prímula" a="prompsit2uoc"><i>prímula</i><par n="abeja__n"/></e>
@@ -168477,7 +168497,6 @@
 <e lm="clorita" a="prompsit2uoc"><i>clorita</i><par n="abeja__n"/></e>
 <e lm="carnalita" a="prompsit2uoc"><i>carnalita</i><par n="abeja__n"/></e>
 <e lm="perrera" a="prompsit2uoc"><i>perrera</i><par n="abeja__n"/></e>
-<e lm="canera" a="prompsit2uoc"><i>canera</i><par n="abeja__n"/></e>
 <e lm="boracita" a="prompsit2uoc"><i>boracita</i><par n="abeja__n"/></e>
 <e lm="azalea" a="prompsit2uoc"><i>azalea</i><par n="abeja__n"/></e>
 <e lm="austenita" a="prompsit2uoc"><i>austenita</i><par n="abeja__n"/></e>
@@ -168698,6 +168717,7 @@
 <e lm="simbolización" a="prompsit2uoc"><i>simbolizaci</i><par n="acci/ón__n"/></e>
 <e lm="repudiación" a="prompsit2uoc"><i>repudiaci</i><par n="acci/ón__n"/></e>
 <e lm="reificación" a="prompsit2uoc"><i>reificaci</i><par n="acci/ón__n"/></e>
+<e lm="cosificación" a="prompsit2uoc"><i>cosificaci</i><par n="acci/ón__n"/></e>
 <e lm="introversión" a="prompsit2uoc"><i>introversi</i><par n="acci/ón__n"/></e>
 <e lm="gramaticalización" a="prompsit2uoc"><i>gramaticalizaci</i><par n="acci/ón__n"/></e>
 <e lm="gasificación" a="prompsit2uoc"><i>gasificaci</i><par n="acci/ón__n"/></e>
@@ -168745,7 +168765,6 @@
 <e lm="reprensión" a="prompsit2uoc"><i>reprensi</i><par n="acci/ón__n"/></e>
 <e lm="reconfiguración" a="prompsit2uoc"><i>reconfiguraci</i><par n="acci/ón__n"/></e>
 <e lm="recirculación" a="prompsit2uoc"><i>recirculaci</i><par n="acci/ón__n"/></e>
-<e lm="postración" a="prompsit2uoc"><i>postración</i><par n="acci/ón__n"/></e>
 <e lm="invalidación" a="prompsit2uoc"><i>invalidaci</i><par n="acci/ón__n"/></e>
 <e lm="intercalación" a="prompsit2uoc"><i>intercalaci</i><par n="acci/ón__n"/></e>
 <e lm="inicialización" a="prompsit2uoc"><i>inicializaci</i><par n="acci/ón__n"/></e>
@@ -168827,7 +168846,7 @@
 <e lm="percolación" a="prompsit2uoc"><i>percolaci</i><par n="acci/ón__n"/></e>
 <e lm="pasivación" a="prompsit2uoc"><i>pasivaci</i><par n="acci/ón__n"/></e>
 <e lm="objetivación" a="prompsit2uoc"><i>objetivaci</i><par n="acci/ón__n"/></e>
-<e lm="microinjección" a="prompsit2uoc"><i>microinjecci</i><par n="acci/ón__n"/></e>
+<e lm="microinyección" a="prompsit2uoc"><i>microinyecci</i><par n="acci/ón__n"/></e>
 <e lm="intubación" a="prompsit2uoc"><i>intubaci</i><par n="acci/ón__n"/></e>
 <e lm="inmunosupresión" a="prompsit2uoc"><i>inmunosupresi</i><par n="acci/ón__n"/></e>
 <e lm="imantación" a="prompsit2uoc"><i>imantaci</i><par n="acci/ón__n"/></e>
@@ -168841,12 +168860,10 @@
 <e lm="ejemplificación" a="prompsit2uoc"><i>ejemplificaci</i><par n="acci/ón__n"/></e>
 <e lm="eutrofización" a="prompsit2uoc"><i>eutrofizaci</i><par n="acci/ón__n"/></e>
 <e lm="estipulación" a="prompsit2uoc"><i>estipulaci</i><par n="acci/ón__n"/></e>
-<e lm="estigmatización" a="prompsit2uoc"><i>estigmatizaci</i><par n="acci/ón__n"/></e>
 <e lm="espiritualización" a="prompsit2uoc"><i>espiritualizaci</i><par n="acci/ón__n"/></e>
 <e lm="escarificación" a="prompsit2uoc"><i>escarificaci</i><par n="acci/ón__n"/></e>
 <e lm="enunciación" a="prompsit2uoc"><i>enunciaci</i><par n="acci/ón__n"/></e>
 <e lm="electroerosión" a="prompsit2uoc"><i>electroerosi</i><par n="acci/ón__n"/></e>
-<e lm="disuasión" a="prompsit2uoc"><i>disuasi</i><par n="acci/ón__n"/></e>
 <e lm="desulfuración" a="prompsit2uoc"><i>desulfuraci</i><par n="acci/ón__n"/></e>
 <e lm="desionización" a="prompsit2uoc"><i>desionizaci</i><par n="acci/ón__n"/></e>
 <e lm="descalcificación" a="prompsit2uoc"><i>descalcificaci</i><par n="acci/ón__n"/></e>
@@ -168864,7 +168881,7 @@
 <e lm="conceptualmente" a="prompsit2uoc"><i>conceptualmente</i><par n="ahora__adv"/></e>
 <e lm="críticamente" a="prompsit2uoc"><i>críticamente</i><par n="ahora__adv"/></e>
 <e lm="epistémicamente" a="prompsit2uoc"><i>epistémicamente</i><par n="ahora__adv"/></e>
-<e lm="metodológicamente," a="prompsit2uoc"><i>metodológicamente,</i><par n="ahora__adv"/></e>
+<e lm="metodológicamente" a="prompsit2uoc"><i>metodológicamente</i><par n="ahora__adv"/></e>
 <e lm="injustificadamente" a="prompsit2uoc"><i>injustificadamente</i><par n="ahora__adv"/></e>
 <e lm="primariamente" a="prompsit2uoc"><i>primariamente</i><par n="ahora__adv"/></e>
 <e lm="comunamente" a="prompsit2uoc"><i>comunamente</i><par n="ahora__adv"/></e>
