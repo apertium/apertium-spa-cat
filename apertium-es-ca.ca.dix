@@ -8854,23 +8854,7 @@
       </e>
     </pardef>
 
-    <pardef n="ascendent__n">
-      
-      <e>
-        <p>
-          <l>s</l>
-          <r><s n="n"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-      
-      <e>
-        <p>
-          <l/>
-          <r><s n="n"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
-
+   
     <pardef n="afores__n">
       
       <e>
@@ -88945,7 +88929,7 @@
       
       <e lm="ascendent">
         <i>ascendent</i>
-        <par n="ascendent__n"/>
+        <par n="acompanyant__n"/>
       </e>
       
       <e lm="ascens">
@@ -97824,7 +97808,7 @@
       
       <e lm="estudiant">
         <i>estudiant</i>
-        <par n="ascendent__n"/>
+        <par n="acompanyant__n"/>
       </e>
       <e lm="estudianta">
         <i>estudiant</i>
@@ -100283,7 +100267,7 @@
       
       <e lm="hacker">
 	<i>hacker</i>
-	<par n="ascendent__n"/>
+	<par n="acompanyant__n"/>
       </e>
     
       <e lm="haixix">
@@ -107346,11 +107330,11 @@
       
       <e lm="ponent">
         <i>ponent</i>
-        <par n="ascendent__n"/>
+        <par n="acompanyant__n"/>
       </e>
       <e lm="conferenciant">
         <i>conferenciant</i>
-        <par n="ascendent__n"/>
+        <par n="acompanyant__n"/>
       </e>
       
       <e lm="pont">
@@ -111145,7 +111129,7 @@
       
       <e lm="soldat">
         <i>soldat</i>
-        <par n="ascendent__n"/>
+        <par n="acompanyant__n"/>
       </e>
       
       <e lm="solfeig">
@@ -136229,7 +136213,7 @@
 
             <e lm="capital">
         <i>capital</i>
-        <par n="ascendent__n"/>
+        <par n="acompanyant__n"/>
       </e>
 
             <e lm="alcaldia" r="LR">
@@ -136268,7 +136252,7 @@
 
             <e lm="menor">
         <i>menor</i>
-        <par n="ascendent__n"/>
+        <par n="acompanyant__n"/>
       </e>
 
             <e lm="Maria">
@@ -136422,7 +136406,7 @@
 
             <e lm="principal">
         <i>principal</i>
-        <par n="ascendent__n"/>
+        <par n="acompanyant__n"/>
       </e>
 
             <e lm="previst">
@@ -136595,7 +136579,7 @@
 
             <e lm="delinqüent">
         <i>delinqüent</i>
-        <par n="ascendent__n"/>
+        <par n="acompanyant__n"/>
       </e>
 
             <e lm="defugir">
@@ -136948,7 +136932,7 @@
 </e>
 <e lm="comptable" a="gema">
   <i>comptable</i>
-  <par n="ascendent__n"/>
+  <par n="acompanyant__n"/>
 </e>
 <e lm="comptable" a="gema">
   <i>comptable</i>
@@ -137112,7 +137096,7 @@
 </e>
 <e lm="compareixent">
   <i>compareixent</i>
-  <par n="ascendent__n"/>
+  <par n="acompanyant__n"/>
 </e>
 <e lm="recíproc">
   <i>recípro</i>
@@ -137192,7 +137176,7 @@
 </e>
 <e lm="intervinent">
   <i>intervinent</i>
-  <par n="ascendent__n"/>
+  <par n="acompanyant__n"/>
 </e>
 <e lm="espontàniament" a="gema">
   <i>espontàniament</i>
@@ -137264,7 +137248,7 @@
 </e>
 <e lm="oferent" a="gema">
   <i>oferent</i>
-  <par n="ascendent__n"/>
+  <par n="acompanyant__n"/>
 </e>
 <e lm="obligadament" a="gema">
   <i>obligadament</i>
@@ -137408,7 +137392,7 @@
 </e>
 <e lm="drethavent" a="gema">
   <i>drethavent</i>
-  <par n="ascendent__n"/>
+  <par n="acompanyant__n"/>
 </e>
 <e lm="delimitació" a="gema">
   <i>delimitaci</i>
@@ -137580,7 +137564,7 @@
 </e>
 <e lm="parlant" a="mikel">
   <i>parlant</i>
-  <par n="ascendent__n"/>
+  <par n="acompanyant__n"/>
 </e>
 <e lm="intel·ligible" a="mikel">
   <i>intel·ligible</i>
@@ -151553,6 +151537,7 @@
 <e lm="desfeminització" a="prompsit2adn"><i>desfeminitzaci</i><par n="acci/ó__n"/></e>
 <e lm="desglaciació" a="prompsit2adn"><i>desglaciaci</i><par n="acci/ó__n"/></e>
 <e lm="desgravació" a="prompsit2adn"><i>desgravaci</i><par n="acci/ó__n"/></e>
+<e lm="gravació" a="prompsit2uoc"><i>gravaci</i><par n="acci/ó__n"/></e>
 <e lm="deshumanització" a="prompsit2adn"><i>deshumanitzaci</i><par n="acci/ó__n"/></e>
 <e lm="desinstal·lació" a="prompsit2adn"><i>desinstal·laci</i><par n="acci/ó__n"/></e>
 <e lm="desintoxicació" a="prompsit2adn"><i>desintoxicaci</i><par n="acci/ó__n"/></e>
@@ -167836,7 +167821,7 @@
 <e lm="poliester" a="prompsit2uoc"><i>poliester</i><par n="abric__n"/></e>
 <e lm="pirenoide" a="prompsit2uoc"><i>pirenoide</i><par n="abric__n"/></e>
 <e lm="picofarad" a="prompsit2uoc"><i>picofarad</i><par n="abric__n"/></e>
-<e lm="pellaire" a="prompsit2uoc"><i>pellaire</i><par n="ascendent__n"/></e>
+<e lm="pellaire" a="prompsit2uoc"><i>pellaire</i><par n="acompanyant__n"/></e>
 <e lm="pelleter" a="prompsit2uoc"><i>pelleter</i><par n="senyor__n"/></e>
 <e lm="pastoralisme" a="prompsit2uoc"><i>pastoralisme</i><par n="abric__n"/></e>
 <e lm="oxímoron" a="prompsit2uoc"><i>oxímoron</i><par n="abric__n"/></e>
