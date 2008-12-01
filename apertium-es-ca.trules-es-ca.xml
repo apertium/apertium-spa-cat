@@ -3340,17 +3340,44 @@
 		  <list n="tiempo"/>
 		</in>
 		<or>
-		  <equal>
-		    <clip pos="2" side="sl" part="lem"/>
-		    <lit v="próximo"/>
-		  </equal>
-		  <equal>
+		  <and>
+		    <equal caseless="yes">
+		      <clip pos="2" side="sl" part="lem"/>
+		      <lit v="próximo"/>
+		    </equal>
+		    <equal>
+		      <clip pos="2" side="sl" part="nbr"/>
+		      <lit-tag v="sg"/>
+		    </equal>
+		  </and>
+		  <equal caseless="yes">
 		    <clip pos="2" side="sl" part="lem"/>
 		    <lit v="pasado"/>
 		  </equal>
-		</or>
+		</or>		
 	      </and>
 	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <equal caseless="yes">
+		    <clip pos="2" side="sl" part="lem"/>
+		    <lit v="próximo"/>
+		  </equal>
+		</test>
+		<let>
+		    <clip pos="2" side="tl" part="lem"/>
+		    <get-case-from pos="2">
+		      <lit v="vinent"/>
+		    </get-case-from>
+		</let>
+		<let>
+		  <clip pos="2" side="tl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</let>
+	      </when>
+	    </choose>
+		    
 	    <out>  
 	      <lu>    
 		<clip pos="1" side="tl" part="whole"/>
@@ -4439,17 +4466,43 @@
 		  <list n="tiempo"/>
 		</in>
 		<or>
-		  <equal>
-		    <clip pos="3" side="sl" part="lem"/>
-		    <lit v="próximo"/>
-		  </equal>
-		  <equal>
+		  <and>
+		    <equal caseless="yes">
+		      <clip pos="3" side="sl" part="lem"/>
+		      <lit v="próximo"/>
+		    </equal>
+		    <equal>
+		      <clip pos="3" side="sl" part="nbr"/>
+		      <lit-tag v="sg"/>
+		    </equal>
+		  </and>
+		  <equal caseless="yes">
 		    <clip pos="3" side="sl" part="lem"/>
 		    <lit v="pasado"/>
 		  </equal>
-		</or>
+		</or>		
 	      </and>
 	    </test>
+	    <choose>
+	      <when>
+		<test>
+		  <equal caseless="yes">
+		    <clip pos="3" side="sl" part="lem"/>
+		    <lit v="próximo"/>
+		  </equal>
+		</test>
+		<let>
+		    <clip pos="3" side="tl" part="lem"/>
+		    <get-case-from pos="3">
+		      <lit v="vinent"/>
+		    </get-case-from>
+		</let>
+		<let>
+		  <clip pos="3" side="tl" part="gen"/>
+		  <lit-tag v="mf"/>
+		</let>
+	      </when>
+	    </choose>
 	    <out>  
 	      <lu>    
 		<clip pos="2" side="tl" part="whole"/>
@@ -5515,6 +5568,46 @@
 	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
+	</call-macro>
+
+      </action>
+    </rule>
+
+ <rule> <!--REGLA: prep "al" + haber_inf + pp (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver"). Se hace esta regla porque sino, entra por la regla anterior y traduce (en haver-hi fet)-->
+      <pattern>
+	<pattern-item n="a"/>
+	<pattern-item n="el"/>
+	<pattern-item n="haber3p"/>
+	<pattern-item n="pp_nohaber"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <get-case-from pos="1">
+	      <lit v="en"/>
+	    </get-case-from>
+	    <clip pos="1" side="tl" part="a_prep"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>   
+	    <clip pos="3" side="tl" part="lem"/>
+	    <lit-tag v="vaux"/>
+	    <clip pos="3" side="tl" part="temps"/>
+	    <clip pos="3" side="tl" part="persona"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	  </lu>  
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="lemh"/>
+	    <clip pos="4" side="tl" part="a_verb"/>
+	    <clip pos="4" side="tl" part="temps"/>
+	    <clip pos="4" side="tl" part="gen"/>
+	    <clip pos="4" side="tl" part="nbr"/>
+	    <clip pos="4" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+	<call-macro n="f_bcond">
+	  <with-param pos="3"/>
 	</call-macro>
 
       </action>

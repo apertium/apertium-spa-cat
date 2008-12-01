@@ -134,7 +134,7 @@
 	</p>
      </e>
    </pardef>
-   
+   <!--
    <pardef n="urls">
      <e>
 	<re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)</re>
@@ -143,9 +143,33 @@
 	  <r><s n="num"/></r>
 	</p>
      </e>
-    </pardef>
+    </pardef> -->
 
+   <pardef n="urls">
+     <e>
+	<re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re>
+	<p>
+	  <l/>
+	  <r><s n="num"/></r>
+	</p>
+     </e>
+    </pardef> 
+
+<!--
     
+<pardef n="urls">
+     <e>
+	<re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)[^ ,.:]*</re>
+	<p>
+	  <l/>
+	  <r><s n="num"/></r>
+	</p>
+     </e>
+    </pardef> -->
+
+
+
+
    <pardef n="ip">
      <e>
 	<re>(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9])(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))</re>
@@ -1327,7 +1351,9 @@
         </p>
       </e>
     </pardef>
-    <pardef n="abundante__adj">
+
+
+    <pardef n="abundante__adj" c="igual que 'pobr/e__adj' pero sin formas superlativas">
       <e>
         <p>
           <l>s</l>
@@ -1341,7 +1367,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="pobr/e__adj">
+    <pardef n="pobr/e__adj" c="igual que 'abundante__adj' pero con formas superlativas">
       <e>
         <p>
           <l>es</l>
@@ -69957,8 +69983,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="alegre">
-      <i>alegre</i>
-      <par n="abundante__adj"/>
+      <i>alegr</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="alemán">
       <i>alem</i>
@@ -70226,8 +70252,8 @@
       <par n="abdominal__adj"/>
     </e>
     <e lm="ardiente">
-      <i>ardiente</i>
-      <par n="abundante__adj"/>
+      <i>ardient</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="arduo">
       <i>ardu</i>
@@ -70378,8 +70404,8 @@
       <par n="abdominal__adj"/>
     </e>
     <e lm="ausente">
-      <i>ausente</i>
-      <par n="abundante__adj"/>
+      <i>ausent</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="australiano">
       <i>australian</i>
@@ -70578,12 +70604,12 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="breve">
-      <i>breve</i>
-      <par n="abundante__adj"/>
+      <i>brev</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="brillante">
-      <i>brillante</i>
-      <par n="abundante__adj"/>
+      <i>brillant</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="británico">
       <i>británic</i>
@@ -71747,7 +71773,7 @@
     </e>
     <e lm="destinatario">
       <i>destinatari</i>
-      <par n="absolut/o__adj"/>
+      <par n="abogad/o__n"/>
     </e>
     <e lm="destructivo">
       <i>destructiv</i>
@@ -72002,8 +72028,8 @@
       <par n="abstract/o__adj"/>
     </e>
     <e lm="dulce">
-      <i>dulce</i>
-      <par n="abundante__adj"/>
+      <i>dulc</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="duodécimo">
       <i>duodécim</i>
@@ -72114,8 +72140,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="elegante">
-      <i>elegante</i>
-      <par n="abundante__adj"/>
+      <i>elegant</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="elemental">
       <i>elemental</i>
@@ -72158,8 +72184,8 @@
       <par n="abdominal__adj"/>
     </e>
     <e lm="emocionante">
-      <i>emocionante</i>
-      <par n="abundante__adj"/>
+      <i>emocionant</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="emotivo">
       <i>emotiv</i>
@@ -72474,8 +72500,8 @@
       <par n="abdominal__adj"/>
     </e>
     <e lm="evidente">
-      <i>evidente</i>
-      <par n="abundante__adj"/>
+      <i>evident</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="evocador">
       <i>evocador</i>
@@ -72806,8 +72832,8 @@
       <par n="abstract/o__adj"/>
     </e>
     <e lm="firme">
-      <i>firme</i>
-      <par n="abundante__adj"/>
+      <i>firm</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="fiscal">
       <i>fiscal</i>
@@ -72815,7 +72841,11 @@
     </e>
     <e lm="fisioterapeuta">
       <i>fisioterapeuta</i>
-      <par n="abundante__adj"/>
+      <par n="accionista__n"/>
+    </e>
+    <e lm="terapeuta">
+      <i>terapeuta</i>
+      <par n="accionista__n"/>
     </e>
     <e lm="flaco">
       <i>fla</i>
@@ -72894,8 +72924,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="frecuente">
-      <i>frecuente</i>
-      <par n="abundante__adj"/>
+      <i>frecuent</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="frenético">
       <i>frenétic</i>
@@ -73110,8 +73140,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="grande">
-      <i>grande</i>
-      <par n="abundante__adj"/>
+      <i>grand</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="grandioso">
       <i>grandios</i>
@@ -73386,8 +73416,8 @@
       <par n="abrumador__adj"/>
     </e>
     <e lm="ilustre">
-      <i>ilustre</i>
-      <par n="abundante__adj"/>
+      <i>ilustr</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="ilícito">
       <i>ilícit</i>
@@ -73442,8 +73472,8 @@
       <par n="abdominal__adj"/>
     </e>
     <e lm="importante">
-      <i>importante</i>
-      <par n="abundante__adj"/>
+      <i>important</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="imposible">
       <i>imposible</i>
@@ -74046,8 +74076,8 @@
       <par n="abdominal__adj"/>
     </e>
     <e lm="interesante">
-      <i>interesante</i>
-      <par n="abundante__adj"/>
+      <i>interesant</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="interino">
       <i>interin</i>
@@ -74362,8 +74392,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="leve">
-      <i>leve</i>
-      <par n="abundante__adj"/>
+      <i>lev</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="libanés">
       <i>liban</i>
@@ -75463,10 +75493,6 @@
       <i>oyente</i>
       <par n="abundante__adj"/>
     </e>
-    <e lm="oyente" r="RL">
-      <i>oyente</i>
-      <par n="abundante__adj"/>
-    </e>
     <e lm="pacifista">
       <i>pacifista</i>
       <par n="abundante__adj"/>
@@ -75952,8 +75978,8 @@
       <par n="abdominal__adj"/>
     </e>
     <e lm="potente">
-      <i>potente</i>
-      <par n="abundante__adj"/>
+      <i>potent</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="poético">
       <i>poétic</i>
@@ -76213,8 +76239,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="prudente">
-      <i>prudente</i>
-      <par n="abundante__adj"/>
+      <i>prudent</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="práctico">
       <i>práctic</i>
@@ -76732,10 +76758,6 @@
       <i>saludable</i>
       <par n="abundante__adj"/>
     </e>
-    <e lm="saludable" r="RL">
-      <i>saludable</i>
-      <par n="abundante__adj"/>
-    </e>
     <e lm="salvaje">
       <i>salvaje</i>
       <par n="abundante__adj"/>
@@ -76933,8 +76955,8 @@
       <par n="abdominal__adj"/>
     </e>
     <e lm="simple">
-      <i>simple</i>
-      <par n="abundante__adj"/>
+      <i>simpl</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="simpático">
       <i>simpátic</i>
@@ -77037,8 +77059,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="solemne">
-      <i>solemne</i>
-      <par n="abundante__adj"/>
+      <i>solemn</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="solicitante">
       <i>solicitante</i>
@@ -77117,8 +77139,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="suave">
-      <i>suave</i>
-      <par n="abundante__adj"/>
+      <i>suav</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="suavizante">
       <i>suavizante</i>
@@ -77447,8 +77469,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="torpe">
-      <i>torpe</i>
-      <par n="abundante__adj"/>
+      <i>torp</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="torrencial">
       <i>torrencial</i>
@@ -77531,8 +77553,8 @@
       <par n="abundante__adj"/>
     </e>
     <e lm="triste">
-      <i>triste</i>
-      <par n="abundante__adj"/>
+      <i>trist</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="triunfador">
       <i>triunfador</i>
@@ -77659,8 +77681,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="urgente">
-      <i>urgente</i>
-      <par n="abundante__adj"/>
+      <i>urgent</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="urinario">
       <i>urinari</i>
@@ -77779,8 +77801,8 @@
       <par n="absolut/o__adj"/>
     </e>
     <e lm="verde">
-      <i>verde</i>
-      <par n="abundante__adj"/>
+      <i>verd</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="vergonzante">
       <i>vergonzante</i>
@@ -77843,8 +77865,8 @@
       <par n="abstract/o__adj"/>
     </e>
     <e lm="vigente">
-      <i>vigente</i>
-      <par n="abundante__adj"/>
+      <i>vigent</i>
+      <par n="pobr/e__adj"/>
     </e>
     <e lm="vigésimo">
       <i>vigésim</i>
@@ -79335,6 +79357,10 @@
     </e>
     <e lm="por otro lado">
       <i>por<b/>otro<b/>lado</i>
+      <par n="ahora__adv"/>
+    </e>
+    <e lm="por otra parte">
+      <i>por<b/>otra<b/>parte</i>
       <par n="ahora__adv"/>
     </e>
     <e lm="por sistema">
@@ -81961,6 +81987,10 @@
     </e>
     <e lm="apertura">
       <i>apertura</i>
+      <par n="abeja__n"/>
+    </e>
+    <e lm="abertura" c="prompsit2uoc">
+      <i>abertura</i>
       <par n="abeja__n"/>
     </e>
     <e lm="apetito">
@@ -132435,8 +132465,8 @@
   <par n="señor__n"/>
 </e>
 <e lm="paciente" a="mginesti">
-  <i>paciente</i>
-  <par n="abundante__adj"/>
+  <i>pacient</i>
+  <par n="pobr/e__adj"/>
 </e>
 <e lm="vacuno" a="mginesti">
   <i>vacun</i>
@@ -151355,6 +151385,18 @@
         <par n="abdominal__adj"/>
      </e>
 
+     <e lm="concatenar" a="prompsit2uoc">
+        <i>concaten</i>
+        <par n="abandon/ar__vblex"/>
+      </e>
+
+     <e lm="concatenar" a="prompsit2uoc">
+        <p>
+          <l>concatén</l>
+          <r>concaten</r>
+        </p>
+        <par n="abandón/ar__vblex"/>
+     </e>
      <e lm="vagabundo" a="prompsit2adn">
         <i>vagabund</i>
         <par n="absolut/o__adj"/>
@@ -158676,6 +158718,10 @@
   <i>indign</i>
   <par n="absolut/o__adj"/>
 </e>
+<e a="prompsit2uoc" lm="fidedigno">
+  <i>fidedign</i>
+  <par n="absolut/o__adj"/>
+</e>
 <e a="prompsit" lm="antidemocrático">
   <i>antidemocrátic</i>
   <par n="absolut/o__adj"/>
@@ -163890,6 +163936,18 @@
       </p>
       <par n="abalán/zar__vblex"/>
     </e>
+
+    <e lm="estandarizar" a="prompsit2uoc">
+      <i>estandari</i>
+      <par n="abalan/zar__vblex"/>
+    </e>
+    <e lm="estandarizar" a="prompsit2uoc">
+      <p>
+        <l>estandarí</l>
+        <r>estandari</r>
+      </p>
+      <par n="abalán/zar__vblex"/>
+    </e>
     <e lm="historiografía" a="prompsit2uoc">
       <i>historiografía</i>
       <par n="abeja__n"/>
@@ -168875,6 +168933,7 @@
 <e lm="aserción" a="prompsit2uoc"><i>aserci</i><par n="acci/ón__n"/></e>
 <e lm="afijación" a="prompsit2uoc"><i>afijaci</i><par n="acci/ón__n"/></e>
 <e lm="acidificación" a="prompsit2uoc"><i>acidificaci</i><par n="acci/ón__n"/></e>
+<e lm="autenticación" a="prompsit2uoc"><i>autenticaci</i><par n="acci/ón__n"/></e>
 
 
 
@@ -168893,9 +168952,10 @@
 
 <e lm="estafeta" a="prompsit2cdl"><i>estafeta</i><par n="abeja__n"/></e>
 <e lm="preventa" a="prompsit2cdl"><i>preventa</i><par n="abeja__n"/></e>
-<e lm="dd/mm/aaaa" a="prompsit2cdl"><i>dd/mm/aaaa</i><par n="cuaresma__n"/></e>
+<e lm="dd/mm/aaaa" a="prompsit2cdl"><i>dd/mm/aaaa</i><par n="atletismo__n"/></e>
+<e lm="dd/mm/aa" a="prompsit2cdl"><i>dd/mm/aa</i><par n="atletismo__n"/></e>
 <e lm="link" a="prompsit2cdl"><i>link</i><par n="abismo__n"/></e>
-<e lm="bestseller" a="prompsit2cdl"><i>bestseller</i><par n="abismo__n"/></e>
+<e lm="best seller" a="prompsit2cdl"><i>best<b/>seller</i><par n="abismo__n"/></e>
 <e lm="website" a="prompsit2cdl"><i>website</i><par n="abismo__n"/></e>
 <e lm="email" a="prompsit2cdl"><i>email</i><par n="abismo__n"/></e>
 <e lm="librero" a="prompsit2cdl"><i>librer</i><par n="abogad/o__n"/></e>

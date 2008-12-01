@@ -2485,6 +2485,12 @@
         </p>
       </e>
       <e>
+        <p>
+          <l>firme<s n="adj"/><s n="sup"/></l>
+          <r>ferm<s n="adj"/><s n="sup"/></r>
+        </p>
+      </e>
+      <e>
         <i>fiscal<s n="adj"/></i>
       </e>
       <e>
@@ -4424,8 +4430,8 @@
       </e>
       <e>
         <p>
-          <l>pobre<s n="adj"/></l>
-          <r>pobre<s n="adj"/></r>
+          <l>pobre<s n="adj"/><s n="sup"/></l>
+          <r>pobre<s n="adj"/><s n="sup"/></r>
         </p>
       </e>
       <e>
@@ -5779,6 +5785,12 @@
         <p>
           <l>torpe<s n="adj"/><s n="mf"/><s n="pl"/></l>
           <r>maldestre<s n="adj"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>torpe<s n="adj"/><s n="sup"/></l>
+          <r>maldestre<s n="adj"/><s n="sup"/></r>
         </p>
       </e>
       <e>
@@ -7229,6 +7241,12 @@
       <e>
         <p>
           <l>por<b/>otro<b/>lado<s n="adv"/></l>
+          <r>d'altra<b/>banda<s n="adv"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>por<b/>otra<b/>parte<s n="adv"/></l>
           <r>d'altra<b/>banda<s n="adv"/></r>
         </p>
       </e>
@@ -9318,6 +9336,12 @@
       <e>
         <p>
           <l>apertura<s n="n"/></l>
+          <r>obertura<s n="n"/></r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>abertura<s n="n"/></l>
           <r>obertura<s n="n"/></r>
         </p>
       </e>
@@ -33646,7 +33670,7 @@
           <r>ajornament<s n="n"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>alcaldía<s n="n"/></l>
           <r>alcaldia<s n="n"/></r>
@@ -33654,8 +33678,8 @@
       </e>
       <e>
         <p>
-          <l>ayuntamiento<s n="n"/><s n="m"/></l>
-          <r>ajuntament<s n="n"/><s n="m"/></r>
+          <l>ayuntamiento<s n="n"/></l>
+          <r>ajuntament<s n="n"/></r>
         </p>
       </e>
       <e>
@@ -42467,8 +42491,8 @@
       </e>
       <e>
         <p>
-          <l>destinatario<s n="adj"/></l>
-          <r>destinatari<s n="adj"/></r>
+          <l>destinatario<s n="n"/></l>
+          <r>destinatari<s n="n"/></r>
         </p>
       </e>
       <e>
@@ -47577,7 +47601,10 @@
         </p>
       </e>
       <e>
-        <i>fisioterapeuta<s n="adj"/></i>
+        <i>fisioterapeuta<s n="n"/></i>
+      </e>
+      <e>
+        <i>terapeuta<s n="n"/></i>
       </e>
       <e>
         <p>
@@ -67135,6 +67162,18 @@
           <r>veritablement<s n="adv"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l>verdaderamente<s n="adv"/></l>
+          <r>verdaderament<s n="adv"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>verdaderamente<s n="adv"/></l>
+          <r>vertaderament<s n="adv"/></r>
+        </p>
+      </e>
       <e>
         <i>Verónica<s n="np"/></i>
       </e>
@@ -69316,12 +69355,6 @@
         <i>capital<s n="n"/></i>
       </e>
 
-      <e r="RL">
-        <p>
-          <l>alcaldía<s n="n"/></l>
-          <r>alcaldia<s n="n"/></r>
-        </p>
-      </e>
 
       <e>
         <i>Alcalá<s n="np"/></i>
@@ -99003,6 +99036,37 @@
             <r>indigne<s n="adj"/><s n="mf"/><s n="pl"/></r>
           </p>
         </e>
+
+	<e a="prompsit2uoc">
+          <p>
+            <l>fidedigno<s n="adj"/><s n="m"/><s n="sg"/></l>
+            <r>fidedigne<s n="adj"/><s n="m"/><s n="sg"/></r>
+          </p>
+        </e>
+	<e a="prompsit2uoc">
+          <p>
+            <l>fidedigno<s n="adj"/><s n="f"/><s n="sg"/></l>
+            <r>fidedigne<s n="adj"/><s n="f"/><s n="sg"/></r>
+          </p>
+        </e>
+	<e a="prompsit2uoc" r="LR">
+          <p>
+            <l>fidedigno<s n="adj"/><s n="m"/><s n="pl"/></l>
+            <r>fidedigne<s n="adj"/><s n="mf"/><s n="pl"/></r>
+          </p>
+        </e>
+	<e a="prompsit2uoc" r="LR">
+          <p>
+            <l>fidedigno<s n="adj"/><s n="f"/><s n="pl"/></l>
+            <r>fidedigne<s n="adj"/><s n="mf"/><s n="pl"/></r>
+          </p>
+        </e>
+	<e a="prompsit2uoc" r="RL">
+          <p>
+            <l>fidedigno<s n="adj"/><s n="GD"/><s n="pl"/></l>
+            <r>fidedigne<s n="adj"/><s n="mf"/><s n="pl"/></r>
+          </p>
+        </e>
 	<e a="prompsit">
           <p>
             <l>antidemocrático<s n="adj"/></l>
@@ -106856,6 +106920,12 @@
       </e>
       <e a="prompsit2uoc">
 	<p>
+	  <l>estandarizar<s n="vblex"/></l>
+	  <r>estandarditzar<s n="vblex"/></r>
+	</p>
+      </e>
+      <e a="prompsit2uoc">
+	<p>
 	  <l>abdicar<s n="vblex"/></l>
 	  <r>abdicar<s n="vblex"/></r>
 	</p>
@@ -109572,6 +109642,12 @@
         </e>
 	<e a="prompsit2uoc">
           <p>
+            <l>concatenar<s n="vblex"/></l>
+            <r>concatenar<s n="vblex"/></r>
+          </p>
+        </e>
+	<e a="prompsit2uoc">
+          <p>
             <l>doctorando<s n="n"/></l>
             <r>doctorand<s n="n"/></r>
           </p>
@@ -111964,6 +112040,7 @@
 <e a="prompsit2uoc"><p><l>aserción<s n="n"/></l><r>asserció<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>afijación<s n="n"/></l><r>afixació<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>acidificación<s n="n"/></l><r>acidificació<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>autenticación<s n="n"/></l><r>autenticació<s n="n"/></r></p></e>
 
 
 <e a="prompsit2uoc"><p><l>conceptualmente<s n="adv"/></l><r>conceptualment<s n="adv"/></r></p></e>
@@ -111983,8 +112060,9 @@
 <e a="prompsit2cdl"><p><l>estafeta<s n="n"/></l><r>estafeta<s n="n"/></r></p></e>
 <e a="prompsit2cdl"><p><l>preventa<s n="n"/></l><r>prevenda<s n="n"/></r></p></e>
 <e a="prompsit2cdl"><p><l>dd/mm/aaaa<s n="n"/></l><r>dd/mm/aaaa<s n="n"/></r></p></e>
+<e a="prompsit2cdl"><p><l>dd/mm/aa<s n="n"/></l><r>dd/mm/aa<s n="n"/></r></p></e>
 <e a="prompsit2cdl"><p><l>link<s n="n"/></l><r>link<s n="n"/></r></p></e>
-<e a="prompsit2cdl"><p><l>bestseller<s n="n"/></l><r>bestseller<s n="n"/></r></p></e>
+<e a="prompsit2cdl"><p><l>best<b/>seller<s n="n"/></l><r>best<b/>seller<s n="n"/></r></p></e>
 <e a="prompsit2cdl"><p><l>website<s n="n"/></l><r>website<s n="n"/></r></p></e>
 <e a="prompsit2cdl"><p><l>email<s n="n"/></l><r>email<s n="n"/></r></p></e>
 <e a="prompsit2cdl"><p><l>librero<s n="n"/></l><r>llibreter<s n="n"/></r></p></e>
@@ -112114,7 +112192,7 @@
 	</p>
     </e>
     <e>
-      <re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)</re>
+      <re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re>
 	<p>
 	  <l><s n="num"/></l>
 	  <r><s n="num"/></r>

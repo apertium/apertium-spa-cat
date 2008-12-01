@@ -141,6 +141,19 @@
 	</p>
      </e>
    </pardef>
+
+
+   <pardef n="urls">
+     <e>
+	<re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re>
+	<p>
+	  <l/>
+	  <r><s n="num"/></r>
+	</p>
+     </e>
+    </pardef> 
+
+<!--
    <pardef n="urls">
      <e>
 	<re>(((www.)|(http://))[a-z\-]+([.][a-z]+)+)</re>
@@ -149,7 +162,7 @@
 	  <r><s n="num"/></r>
 	</p>
      </e>
-    </pardef>
+    </pardef> -->
 
     <pardef n="pardret">
     
@@ -3888,6 +3901,33 @@
           <r><s n="adj"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
+      <e>
+        <p>
+          <l>íssimes</l>
+          <r><s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssima</l>
+          <r><s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssims</l>
+          <r><s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssim</l>
+          <r><s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
     </pardef>
     
      <pardef n="vaiv/é__n">
@@ -4475,6 +4515,187 @@
         <p>
           <l/>
           <r><s n="adj"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+<pardef n="important__adj" c="igual que abdominal però amb formes superlatives">
+      
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="adj"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>íssimes</l>
+          <r><s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssima</l>
+          <r><s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssims</l>
+          <r><s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssim</l>
+          <r><s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+    <pardef n="alegr/e__adj" c="com 'abdominal__adj' però amb formes superlatives en què la -e desapareix">
+      
+      <e>
+        <p>
+          <l>es</l>
+          <r>e<s n="adj"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>e</l>
+          <r>e<s n="adj"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssimes</l>
+          <r>e<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssima</l>
+          <r>e<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssims</l>
+          <r>e<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>íssim</l>
+          <r>e<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+
+    <pardef n="bre/u__adj" c="com 'abdominal__adj' però amb formes superlatives en què la -u passa a -v">
+      
+      <e>
+        <p>
+          <l>us</l>
+          <r>u<s n="adj"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>u</l>
+          <r>u<s n="adj"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>víssimes</l>
+          <r>u<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>víssima</l>
+          <r>u<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>víssims</l>
+          <r>u<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>víssim</l>
+          <r>u<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+    </pardef>
+
+
+<pardef n="gran__adj" c="igual que abdominal però amb formes superlatives, s'afegeix una -d">
+      
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="adj"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l/>
+          <r><s n="adj"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>díssimes</l>
+          <r><s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>díssima</l>
+          <r><s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>díssims</l>
+          <r><s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>díssim</l>
+          <r><s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -5181,7 +5402,7 @@
 
     </pardef>
    
-    <pardef n="abstract/e__adj">
+    <pardef n="abstract/e__adj" c="amb formes superlatives">
       
       <e>
         <p>
@@ -6831,6 +7052,34 @@
         <p>
           <l>ç</l>
           <r>ç<s n="adj"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l>císsimes</l>
+          <r>ç<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>císsima</l>
+          <r>ç<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>císsims</l>
+          <r>ç<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      
+      <e>
+        <p>
+          <l>císsim</l>
+          <r>ç<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
     </pardef>
@@ -73612,7 +73861,7 @@
       
       <e lm="absent">
         <i>absent</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="absolut">
@@ -73880,8 +74129,8 @@
       </e>
       
       <e lm="alegre">
-        <i>alegre</i>
-        <par n="abdominal__adj"/>
+        <i>alegr</i>
+        <par n="alegr/e__adj"/>
       </e>
       
       <e lm="alemany">
@@ -74201,7 +74450,7 @@
       
       <e lm="ardent">
         <i>ardent</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="ardu">
@@ -74665,13 +74914,13 @@
       </e>
       
       <e lm="breu">
-        <i>breu</i>
-        <par n="abdominal__adj"/>
+        <i>bre</i>
+        <par n="bre/u__adj"/>
       </e>
       
       <e lm="brillant">
         <i>brillant</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="britànic">
@@ -75982,7 +76231,7 @@
       
       <e lm="destinatari">
         <i>destinat</i>
-        <par n="adjudicat/ari__adj"/>
+        <par n="adjudicat/ari__n"/>
       </e>
       
       <e lm="destre">
@@ -76447,7 +76696,7 @@
       
       <e lm="elegant">
         <i>elegant</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="elemental">
@@ -76507,7 +76756,7 @@
       
       <e lm="emocionant">
         <i>emocionant</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="emotiu">
@@ -76966,7 +77215,7 @@
       
       <e lm="evident">
         <i>evident</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="evocador">
@@ -77321,7 +77570,7 @@
       
       <e lm="ferm">
         <i>ferm</i>
-        <par n="absolut__adj"/>
+        <par n="alt__adj"/>
       </e>
       
       <e lm="feroç">
@@ -77401,7 +77650,11 @@
       
       <e lm="fisioterapeuta">
         <i>fisioterapeut</i>
-        <par n="agrícol/a__adj"/>
+        <par n="accionist/a__n"/>
+      </e>
+      <e lm="terapeuta">
+        <i>terapeut</i>
+        <par n="accionist/a__n"/>
       </e>
       
       <e lm="fix">
@@ -77541,7 +77794,7 @@
       
       <e lm="freqüent">
         <i>freqüent</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="fresc">
@@ -77771,7 +78024,7 @@
       
       <e lm="gran">
         <i>gran</i>
-        <par n="abdominal__adj"/>
+        <par n="gran__adj"/>
       </e>
       
       <e lm="granadí">
@@ -77808,6 +78061,7 @@
         <i>greu</i>
         <par n="abdominal__adj"/>
       </e>
+
       
       <e lm="gris">
         <i>gris</i>
@@ -78090,8 +78344,8 @@
       </e>
       
       <e lm="il·lustre">
-        <i>il·lustre</i>
-        <par n="abdominal__adj"/>
+        <i>il·lustr</i>
+        <par n="abstract/e__adj"/>
       </e>
       
       <e lm="il·lès">
@@ -78221,7 +78475,7 @@
       
       <e lm="important">
         <i>important</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="impossible">
@@ -78909,7 +79163,7 @@
       
       <e lm="interessant">
         <i>interessant</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="interior">
@@ -79336,8 +79590,8 @@
       </e>
       
       <e lm="lleu">
-        <i>lleu</i>
-        <par n="abdominal__adj"/>
+        <i>lle</i>
+        <par n="bre/u__adj"/>
       </e>
       
       <e lm="lleuger">
@@ -79542,7 +79796,7 @@
       
       <e lm="maldestre">
         <i>maldestr</i>
-        <par n="adept/e__adj"/>
+        <par n="abstract/e__adj"/>
       </e>
       
       <e lm="malenconiós">
@@ -81175,7 +81429,7 @@
       
       <e lm="potent">
         <i>potent</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="poètic">
@@ -81489,7 +81743,7 @@
       
       <e lm="prudent">
         <i>prudent</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="pràctic">
@@ -82392,8 +82646,8 @@
       </e>
       
       <e lm="simple">
-        <i>simple</i>
-        <par n="abdominal__adj"/>
+        <i>simpl</i>
+        <par n="alegr/e__adj"/>
       </e>
       
       <e lm="simpàtic">
@@ -82522,8 +82776,8 @@
       </e>
       
       <e lm="solemne">
-        <i>solemne</i>
-        <par n="abdominal__adj"/>
+        <i>solemn</i>
+        <par n="alegr/e__adj"/>
       </e>
       
       <e lm="solidari">
@@ -82602,8 +82856,8 @@
       </e>
       
       <e lm="suau">
-        <i>suau</i>
-        <par n="abdominal__adj"/>
+        <i>sua</i>
+        <par n="bre/u__adj"/>
       </e>
       
       <e lm="suavitzant">
@@ -83232,7 +83486,7 @@
       
       <e lm="urgent">
         <i>urgent</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="urinari">
@@ -83356,7 +83610,7 @@
       
       <e lm="verd">
         <i>verd</i>
-        <par n="absolut__adj"/>
+        <par n="alt__adj"/>
       </e>
       
       <e lm="verdader" r="LR">
@@ -83471,7 +83725,7 @@
       
       <e lm="vigent">
         <i>vigent</i>
-        <par n="abdominal__adj"/>
+        <par n="important__adj"/>
       </e>
       
       <e lm="vil">
@@ -83484,7 +83738,7 @@
         <par n="abdominal__adj"/>
       </e>
       
-      <e lm="vinent" r="LR">
+      <e lm="vinent">
         <i>vinent</i>
         <par n="abdominal__adj"/>
       </e>
@@ -85849,6 +86103,14 @@
       
       <e lm="veritablement">
         <i>veritablement</i>
+        <par n="ahir__adv"/>
+      </e>
+      <e lm="verdaderament">
+        <i>verdaderament</i>
+        <par n="ahir__adv"/>
+      </e>
+      <e lm="vertaderament">
+        <i>vertaderament</i>
         <par n="ahir__adv"/>
       </e>
       
@@ -134195,7 +134457,7 @@
         <par n="abander/ar__vblex"/>
       </e>
       
-      <e lm="tardar" r="LR">
+      <e lm="tardar">
         <i>tard</i>
         <par n="abander/ar__vblex"/>
       </e>
@@ -135663,7 +135925,7 @@
 </e>
 <e lm="pacient" a="mginesti">
   <i>pacient</i>
-  <par n="abdominal__adj"/>
+  <par n="important__adj"/>
 </e>
 <e lm="boví" a="mginesti">
   <i>bov</i>
@@ -136324,12 +136586,6 @@
         <i>afer</i>
         <par n="abric__n"/>
       </e>
-
-            <e lm="vinent" r="LR">
-        <i>vinent</i>
-        <par n="multimèdia__adj"/>
-      </e>
-
             <e lm="vespre">
         <i>vespre</i>
         <par n="abric__n"/>
@@ -147309,7 +147565,7 @@
 
      <e lm="ortodox" a="prompsit2adn">
         <i>ortodox</i>
-        <par n="trist__adj"/>
+        <par n="annex__adj"/>
       </e>
 
      <e lm="ortodox" a="prompsit2adn">
@@ -153518,14 +153774,6 @@
   <i>rugbi</i>
   <par n="atletisme__n"/>
 </e>
-<e lm="basc" a="prompsit2adn">
-  <i>bas</i>
-  <par n="bas/c__n"/>
-</e>
-<e lm="basc" a="prompsit2adn">
-  <i>bas</i>
-  <par n="bas/c__adj"/>
-</e>
 <e lm="gadità" a="prompsit2adn">
   <i>gadit</i>
   <par n="afric/à__adj"/>
@@ -158047,6 +158295,10 @@
 </e>
 <e a="prompsit" lm="indigne">
   <i>indign</i>
+  <par n="adept/e__adj"/>
+</e>
+<e a="prompsit2uoc" lm="fidedigne">
+  <i>fidedign</i>
   <par n="adept/e__adj"/>
 </e>
 <e a="prompsit" lm="antidemocràtic">
@@ -163874,6 +164126,9 @@
       <par n="BBVA__n"/>
     </e>
 
+
+<e lm="concatenar" a="prompsit2uoc"><i>concaten</i><par n="abander/ar__vblex"/></e>
+
       <e lm="ridiculitzar" a="prompsit2uoc">
         <i>ridiculitz</i>
         <par n="abander/ar__vblex"/>
@@ -164052,6 +164307,10 @@
      </e>
      <e lm="maximitzar" a="prompsit2uoc">
         <i>maximitz</i>
+        <par n="abander/ar__vblex"/>
+     </e>
+     <e lm="estandarditzar" a="prompsit2uoc">
+        <i>estandarditz</i>
         <par n="abander/ar__vblex"/>
      </e>
 
@@ -168940,6 +169199,7 @@
 <e lm="asserció" a="prompsit2uoc"><i>asserci</i><par n="acci/ó__n"/></e>
 <e lm="afixació" a="prompsit2uoc"><i>afixaci</i><par n="acci/ó__n"/></e>
 <e lm="acidificació" a="prompsit2uoc"><i>acidificaci</i><par n="acci/ó__n"/></e>
+<e lm="autenticació" a="prompsit2uoc"><i>autenticaci</i><par n="acci/ó__n"/></e>
 
 
 
@@ -168959,9 +169219,10 @@
 
 <e lm="estafeta" a="prompsit2cdl"><i>estafet</i><par n="abell/a__n"/></e>
 <e lm="prevenda" a="prompsit2cdl"><i>prevend</i><par n="abell/a__n"/></e>
-<e lm="dd/mm/aaaa" a="prompsit2cdl"><i>dd/mm/aaaa</i><par n="q__n"/></e>
+<e lm="dd/mm/aaaa" a="prompsit2cdl"><i>dd/mm/aaaa</i><par n="atletisme__n"/></e>
+<e lm="dd/mm/aa" a="prompsit2cdl"><i>dd/mm/aa</i><par n="atletisme__n"/></e>
 <e lm="link" a="prompsit2cdl"><i>link</i><par n="abric__n"/></e>
-<e lm="bestseller" a="prompsit2cdl"><i>bestseller</i><par n="abric__n"/></e>
+<e lm="best seller" a="prompsit2cdl"><i>best<b/>seller</i><par n="abric__n"/></e>
 <e lm="website" a="prompsit2cdl"><i>website</i><par n="abric__n"/></e>
 <e lm="email" a="prompsit2cdl"><i>email</i><par n="abric__n"/></e>
 <e lm="llibreter" a="prompsit2cdl"><i>llibreter</i><par n="senyor__n"/></e>
