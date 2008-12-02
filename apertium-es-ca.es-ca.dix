@@ -1879,6 +1879,12 @@
       </e>
       <e>
         <p>
+          <l>dulce<s n="adj"/><s n="sup"/></l>
+          <r>dolç<s n="adj"/><s n="sup"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
           <l>duodécimo<s n="adj"/></l>
           <r>dotzè<s n="adj"/></r>
         </p>
@@ -5887,6 +5893,12 @@
         </p>
       </e>
       <e>
+        <p>
+          <l>triste<s n="adj"/><s n="sup"/></l>
+          <r>trist<s n="adj"/><s n="sup"/></r>
+        </p>
+      </e>
+      <e>
         <i>trivial<s n="adj"/></i>
       </e>
       <e>
@@ -6106,6 +6118,12 @@
         <p>
           <l>verde<s n="adj"/><s n="mf"/></l>
           <r>verd<s n="adj"/><s n="m"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>verde<s n="adj"/><s n="sup"/></l>
+          <r>verd<s n="adj"/><s n="sup"/></r>
         </p>
       </e>
       <e>
@@ -89790,7 +89808,8 @@
 <e a="prompsit2adn"><p><l>armonización<s n="n"/></l><r>harmonització<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>atenuación<s n="n"/></l><r>atenuació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>atomización<s n="n"/></l><r>atomització<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>autentificación<s n="n"/></l><r>autenticació<s n="n"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>autentificación<s n="n"/></l><r>autenticació<s n="n"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>autenticación<s n="n"/></l><r>autentificació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>autodestrucción<s n="n"/></l><r>autodestrucció<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>automedicación<s n="n"/></l><r>automedicació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>autoorganización<s n="n"/></l><r>autoorganització<s n="n"/></r></p></e>
@@ -105470,12 +105489,16 @@
             <l>indexación<s n="n"/></l>
             <r>indexació<s n="n"/></r>
           </p>
-        </e><e a="webform">
+        </e>
+
+<e a="webform">
   <p>
     <l>indexar<s n="vblex"/></l>
     <r>indexar<s n="vblex"/></r>
   </p>
-</e><e a="webform">
+</e>
+
+<e a="webform">
   <p>
     <l>exhaustivamente<s n="adv"/></l>
     <r>exhaustivament<s n="adv"/></r>
