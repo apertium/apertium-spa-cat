@@ -3627,20 +3627,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="maí/z__n">
-      <e>
-        <p>
-          <l>ces</l>
-          <r>z<s n="n"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>z</l>
-          <r>z<s n="n"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-    </pardef>
+   
     <pardef n="andalu/z__n">
       <e>
         <p>
@@ -93780,6 +93767,10 @@
       <i>lombri</i>
       <par n="actri/z__n"/>
     </e>
+    <e lm="tamiz">
+      <i>tami</i>
+      <par n="ajedre/z__n"/>
+    </e>
     <e lm="lomo">
       <i>lomo</i>
       <par n="abismo__n"/>
@@ -160947,9 +160938,9 @@
   <par n="acci/ón__n"/>
 </e>
 
-<e a="prompsit" lm="melodrama">
+<e lm="melodrama">
   <i>melodrama</i>
-  <par n="abeja__n"/>
+  <par n="abismo__n"/>
 </e>
 
 <e a="prompsit" lm="anagrama">
@@ -165694,7 +165685,7 @@
 <e lm="encabezamiento" a="prompsit2uoc"><i>encabezamiento</i><par n="abismo__n"/></e>
 <e lm="subdesarrollo" a="prompsit2uoc"><i>subdesarrollo</i><par n="abismo__n"/></e>
 <e lm="enmascaramiento" a="prompsit2uoc"><i>enmascaramiento</i><par n="abismo__n"/></e>
-<e lm="desacoblamiento" a="prompsit2uoc"><i>desacoplamiento</i><par n="abismo__n"/></e>
+<e lm="desacoplamiento" a="prompsit2uoc"><i>desacoplamiento</i><par n="abismo__n"/></e>
 <e lm="acortamiento" a="prompsit2uoc"><i>acortamiento</i><par n="abismo__n"/></e>
 <e lm="entrecruzamiento" a="prompsit2uoc"><i>entrecruzamiento</i><par n="abismo__n"/></e>
 <e lm="encadenamiento" a="prompsit2uoc"><i>encadenamiento</i><par n="abismo__n"/></e>
@@ -166706,7 +166697,7 @@
 <e lm="citostoma" a="prompsit2uoc"><i>citostoma</i><par n="abismo__n"/></e>
 <e lm="pictograma" a="prompsit2uoc"><i>pictograma</i><par n="abismo__n"/></e>
 <e lm="parénquima" a="prompsit2uoc"><i>parénquima</i><par n="abismo__n"/></e>
-<e lm="calima" a="prompsit2uoc"><i>calima</i><par n="abismo__n"/></e>
+<e lm="calima" a="prompsit2uoc"><i>calima</i><par n="abeja__n"/></e>
 <e lm="angiosperma" a="prompsit2uoc"><i>angiosperma</i><par n="abeja__n"/></e>
 <e lm="histograma" a="prompsit2uoc"><i>histograma</i><par n="abismo__n"/></e>
 <e lm="blastoderma" a="prompsit2uoc"><i>blastoderma</i><par n="abismo__n"/></e>
@@ -167221,7 +167212,7 @@
 <e lm="trote" a="prompsit2uoc"><i>trote</i><par n="abismo__n"/></e>
 <e lm="desvío" a="prompsit2uoc"><i>desvío</i><par n="abismo__n"/></e>
 <e lm="saurio" a="prompsit2uoc"><i>saurio</i><par n="abismo__n"/></e>
-<e lm="piquete" a="prompsit2uoc"><i>piquete</i><par n="accionista__n"/></e>
+<e lm="piquete" a="prompsit2uoc"><i>piquete</i><par n="abismo__n"/></e>
 <e lm="peroné" a="prompsit2uoc"><i>peroné</i><par n="abismo__n"/></e>
 <e lm="panecillo" a="prompsit2uoc"><i>panecillo</i><par n="abismo__n"/></e>
 <e lm="operando" a="prompsit2uoc"><i>operando</i><par n="abismo__n"/></e>
@@ -168016,7 +168007,7 @@
 <e lm="tintura" a="prompsit2uoc"><i>tintura</i><par n="abeja__n"/></e>
 <e lm="pulpa" a="prompsit2uoc"><i>pulpa</i><par n="abeja__n"/></e>
 <e lm="resina" a="prompsit2uoc"><i>resina</i><par n="abeja__n"/></e>
-<e lm="maíz" a="prompsit2uoc"><i>maí</i><par n="maí/z__n"/></e>
+<e lm="maíz" a="prompsit2uoc"><i>maí</i><par n="ajedre/z__n"/></e>
 <e lm="contraofensiva" a="prompsit2uoc"><i>contraofensiva</i><par n="abeja__n"/></e>
 <e lm="roseta" a="prompsit2uoc"><i>roseta</i><par n="abeja__n"/></e>
 <e lm="mitra" a="prompsit2uoc"><i>mitra</i><par n="abeja__n"/></e>
@@ -168986,6 +168977,7 @@
 <e lm="offline" a="prompsit2cdl"><i>offline</i><par n="multimedia__adj"/></e>
 <e lm="veraz" a="prompsit2cdl"><i>vera</i><par n="atro/z__adj"/></e>
 
+
 <e lm="Espasa" a="prompsit2cdl"><i>Espasa</i><par n="ABC__np"/></e>
 <e lm="Espasa Calpe" a="prompsit2cdl"><i>Espasa<b/>Calpe</i><par n="ABC__np"/></e>
 <e lm="Planeta" a="prompsit2cdl"><i>Planeta</i><par n="ABC__np"/></e>
@@ -169022,6 +169014,34 @@
 <e lm="encriptar" a="prompsit2cdl"><i>encrípt</i><par n="abandón/ar__vblex"/></e>
 <e lm="maquinar" a="prompsit2cdl"><i>maquin</i><par n="abandon/ar__vblex"/></e>
 <e lm="maquinar" a="prompsit2cdl"><i>maquín</i><par n="abandón/ar__vblex"/></e>
+
+    <e lm="pellizcar">
+      <i>pelliz</i>
+      <par n="ata/car__vblex"/>
+    </e>
+    <e lm="pellizcar">
+      <p>
+        <l>pellíz</l>
+        <r>pelliz</r>
+      </p>
+      <par n="atá/car__vblex"/>
+    </e>
+<e lm="mate">
+  <i>mate</i> 
+  <par n="abundante__adj"/> 
+</e>
+<e lm="mate">
+  <i>mate</i> 
+  <par n="abismo__n"/> 
+</e>
+<e lm="obtuso"><i>obtus</i><par n="absolut/o__adj"/></e>
+<e lm="fluido"><i>fluid</i><par n="absolut/o__adj"/></e>
+
+<e lm="fluyente">
+  <i>fluyente</i> 
+  <par n="abundante__adj"/> 
+</e>
+
 
 
 </section>

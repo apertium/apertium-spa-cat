@@ -75511,6 +75511,11 @@
         <par n="andal/ús__adj"/>
       </e>
       
+      <e lm="obtús">
+        <i>obt</i>
+        <par n="andal/ús__adj"/>
+      </e>
+      
       <e lm="congolès">
         <i>congol</i>
         <par n="afgan/ès__adj"/>
@@ -79919,6 +79924,9 @@
         <par n="abusi/u__adj"/>
       </e>
       
+      <e lm="mat"><i>mat</i><par n="abdominal__adj"/></e>
+      <e lm="mat"><i>mat</i><par n="abric__n"/></e>
+
       <e lm="mateix">
         <i>mateix</i>
         <par n="annex__adj"/>
@@ -94221,6 +94229,11 @@
         <i>corret</i>
         <par n="barre/ja__n"/>
       </e>
+      <e lm="calitja">
+        <i>calit</i>
+        <par n="barre/ja__n"/>
+      </e>
+      
       
       <e lm="correu">
         <i>correu</i>
@@ -139870,10 +139883,18 @@
         <i>influent</i>
         <par n="abdominal__adj"/>
       </e>
-  	<e lm="ICV">
-			<i>ICV</i>
-			<par n="BBC__n"/>
-		</e>
+      <e lm="fluent">
+        <i>fluent</i>
+        <par n="abdominal__adj"/>
+      </e>
+      <e lm="fluid">
+        <i>fluid</i>
+        <par n="absolut__adj"/>
+      </e>
+      <e lm="ICV">
+	<i>ICV</i>
+	<par n="BBC__n"/>
+      </e>
       
       <e lm="humà">
         <i>hum</i>
@@ -158106,6 +158127,7 @@
 <e lm="abrigar" a="prompsit"><i>abrig</i><par n="afalag/ar__vblex"/></e>
 <e lm="desllorigar" a="prompsit"><i>desllorig</i><par n="afalag/ar__vblex"/></e>
 <e lm="desabrigar" a="prompsit"><i>desabrig</i><par n="afalag/ar__vblex"/></e>
+<e lm="pessigar"><i>pessig</i><par n="afalag/ar__vblex"/></e>
 <e lm="amanyagar" a="prompsit"><i>amanyag</i><par n="afalag/ar__vblex"/></e>
 <e lm="desmobilitzar" a="prompsit"><i>desmobilitz</i><par n="abander/ar__vblex"/></e>
 <e lm="negligir" a="prompsit"><i>neglig</i><par n="abarat/ir__vblex"/></e>
@@ -160836,7 +160858,7 @@
 
 <e a="prompsit" lm="melodrama">
   <i>melodram</i>
-  <par n="abell/a__n"/>
+  <par n="carism/a__n"/>
 </e>
 
 <e a="prompsit" lm="anagrama">
@@ -166928,7 +166950,7 @@
 <e lm="citostoma" a="prompsit2uoc"><i>citostom</i><par n="carism/a__n"/></e>
 <e lm="pictograma" a="prompsit2uoc"><i>pictogram</i><par n="carism/a__n"/></e>
 <e lm="parènquima" a="prompsit2uoc"><i>parènquim</i><par n="carism/a__n"/></e>
-<e lm="calima" a="prompsit2uoc"><i>calim</i><par n="carism/a__n"/></e>
+<e lm="calima" a="prompsit2uoc"><i>calim</i><par n="abell/a__n"/></e>
 <e lm="angiosperma" a="prompsit2uoc"><i>angiosperm</i><par n="abell/a__n"/></e>
 <e lm="histograma" a="prompsit2uoc"><i>histogram</i><par n="carism/a__n"/></e>
 <e lm="blastoderma" a="prompsit2uoc"><i>blastoderm</i><par n="carism/a__n"/></e>
@@ -167237,7 +167259,7 @@
 <e lm="pedicel" a="prompsit2uoc"><i>pedicel</i><par n="abric__n"/></e>
 <e lm="nomadisme" a="prompsit2uoc"><i>nomadisme</i><par n="abric__n"/></e>
 <e lm="narcòtic" a="prompsit2uoc"><i>narcòtic</i><par n="abric__n"/></e>
-<e lm="hemorroide" a="prompsit2uoc"><i>hemorroide</i><par n="abric__n"/></e>
+<e lm="hemorroide" a="prompsit2uoc"><i>hemorroide</i><par n="accessibilitat__n"/></e>
 <e lm="fol·licle" a="prompsit2uoc"><i>fol·licle</i><par n="abric__n"/></e>
 <e lm="espinac" a="prompsit2uoc"><i>espinac</i><par n="abric__n"/></e>
 <e lm="baladre" a="prompsit2uoc"><i>baladre</i><par n="abric__n"/></e>
@@ -167451,7 +167473,7 @@
 <e lm="trot" a="prompsit2uoc"><i>trot</i><par n="abric__n"/></e>
 <e lm="trencall" a="prompsit2uoc"><i>trencall</i><par n="abric__n"/></e>
 <e lm="saure" a="prompsit2uoc"><i>saure</i><par n="abric__n"/></e>
-<e lm="piquet" a="prompsit2uoc"><i>piquet</i><par n="acompanyant__n"/></e>
+<e lm="piquet" a="prompsit2uoc"><i>piquet</i><par n="abric__n"/></e>
 <e lm="peroné" a="prompsit2uoc"><i>peroné</i><par n="abric__n"/></e>
 <e lm="panet" a="prompsit2uoc"><i>panet</i><par n="abric__n"/></e>
 <e lm="operand" a="prompsit2uoc"><i>operand</i><par n="abric__n"/></e>
