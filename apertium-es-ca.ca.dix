@@ -14170,13 +14170,8 @@
         </p>
       </e>
     </pardef>
+
 <pardef n="haver__vblex">
-     <e>
-        <p>
-          <l>hi<b/>hauria</l>
-          <r>haver<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r>
-        </p>
-      </e>
       <e>
         <p>
           <l>hi<b/>hauria</l>
@@ -14189,14 +14184,8 @@
           <r>haver<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
-      <e>
-        <p>
-          <l>hi<b/>hagués</l>
-          <r>haver<s n="vblex"/><s n="fts"/><s n="p1"/><s n="sg"/></r>
-        </p>
-      </e>
       
-      <e>
+      <e r="RL">
         <p>
           <l>hi<b/>hagués</l>
           <r>haver<s n="vblex"/><s n="fts"/><s n="p3"/><s n="sg"/></r>
@@ -14220,12 +14209,6 @@
           <r>haver<s n="vblex"/><s n="inf"/></r>
         </p>
       </e>
-      <e>
-        <p>
-          <l>hi<b/>havia</l>
-          <r>haver<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r>
-        </p>
-      </e>
      <e>
         <p>
           <l>hi<b/>havia</l>
@@ -14235,20 +14218,13 @@
       <e>
         <p>
           <l>hi<b/>hagués</l>
-          <r>haver<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r>
-        </p>
-      </e>
-
-      <e>
-        <p>
-          <l>hi<b/>hagués</l>
           <r>haver<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
      <e>
         <p>
           <l>hi<b/>hagi</l>
-          <r>haver<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r>
+          <r>haver<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
 
@@ -73731,6 +73707,24 @@
         </p>
       </e>
       
+      <e r="RL">
+        <p>
+          <l>estada</l>
+          <r>ser<s n="vbser"/><s n="pp"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>estats</l>
+          <r>ser<s n="vbser"/><s n="pp"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l>estades</l>
+          <r>ser<s n="vbser"/><s n="pp"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
       <e>
         <p>
           <l>som</l>
@@ -128025,6 +128019,10 @@
       
       <e lm="detallar">
         <i>detall</i>
+        <par n="abander/ar__vblex"/>
+      </e>
+      <e lm="badallar">
+        <i>badall</i>
         <par n="abander/ar__vblex"/>
       </e>
       

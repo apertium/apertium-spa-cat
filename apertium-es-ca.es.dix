@@ -5505,6 +5505,12 @@
       </e>
        <e>
         <p>
+          <l>abiendo</l>
+          <r>aber<s n="vblex"/><s n="ger"/></r>
+        </p>
+      </e>
+       <e>
+        <p>
           <l>abía</l>
           <r>aber<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r>
         </p>
@@ -5519,12 +5525,6 @@
         <p>
           <l>ubiese</l>
           <r>aber<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r>
-        </p>
-      </e>
-        <e>
-        <p>
-          <l>a</l>
-          <r>aber<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
@@ -80061,7 +80061,20 @@
       <i>pues</i>
       <par n="a_fe_que__cnjadv"/>
     </e>
-    <e lm="puesto que">
+    <e lm="puesto que" r="LR" c="sólo se coje cuando va en mayúsculas (principio de frase)">
+      <p>
+	<l>Puesto<b/>que</l>
+	<r>puesto<b/>que</r>
+      </p>
+      <par n="a_fe_que__cnjadv"/>
+    </e>
+    <e lm="puesto que" r="LR">
+      <p>
+	<l>,<b/>puesto<b/>que</l>
+	<r>,<s n="cm"/><j/>puesto<b/>que<s n="cnjadv"/></r>
+      </p>
+    </e>
+    <e lm="puesto que" r="RL">
       <i>puesto<b/>que</i>
       <par n="a_fe_que__cnjadv"/>
     </e>
@@ -111033,7 +111046,7 @@
           <r><g><b/>bastante</g></r>
         </p>
     </e>
-<e lm="hay">
+    <e lm="hay">
       <p>
         <l>hay</l>
         <r>hay<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
@@ -119789,6 +119802,17 @@
       <p>
         <l>encabé</l>
         <r>encabe</r>
+      </p>
+      <par n="abalán/zar__vblex"/>
+    </e>
+    <e lm="bostezar">
+      <i>boste</i>
+      <par n="abalan/zar__vblex"/>
+    </e>
+    <e lm="bostezar">
+      <p>
+        <l>bosté</l>
+        <r>boste</r>
       </p>
       <par n="abalán/zar__vblex"/>
     </e>

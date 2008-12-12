@@ -38,7 +38,7 @@ xsltproc translate-to-default-equivalent.xsl $PREFIX.$LANG1-$LANG2.dix > $$.dix
 echo " fet."
 echo -n "Expandint diccionari bilingüe... "
 if [ $1-$2 = $LANG1-$LANG2 ]
-then lt-expand $$.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$(NF-1))}' | grep -v "REGEXP" > $$.expand
+then lt-expand $$.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$1)}' | grep -v "REGEXP" > $$.expand
 else lt-expand $$.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' | grep -v "REGEXP" > $$.expand
 fi
 echo " fet."
