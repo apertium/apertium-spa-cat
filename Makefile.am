@@ -11,10 +11,51 @@ PREFVAR1=#dejar en blanco
 PREFVAR2=eco-
 TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
      $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
-     $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin modes
+     $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin modes \
+     $(PREFIX1).lextormono.bin $(PREFIX2).lextormono.bin \
+     $(PREFIX1).lextorbil.bin $(PREFIX2).lextorbil.bin \
+     $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
+     $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
+
 
 TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
           trules-$(PREFIX1).xml trules-$(PREFIX2).xml
+
+.deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix
+	xsltproc --stringparam alt $(VAR1) alt.xsl $< >$@
+
+$(BASENAME).$(LANG1)-lextor.dix: .deps/commonbil.dix
+	apertium-validate-dictionary .deps/commonbil.dix
+	apertium-gen-lextormono rl .deps/commonbil.dix $@
+
+$(BASENAME).$(LANG2)-lextor.dix: .deps/commonbil.dix
+	apertium-validate-dictionary .deps/commonbil.dix
+	apertium-gen-lextormono lr .deps/commonbil.dix $@
+
+$(BASENAME).$(PREFIX1)-lextor.dix: .deps/commonbil.dix
+	apertium-validate-dictionary .deps/commonbil.dix
+	apertium-gen-lextorbil rl .deps/commonbil.dix $@
+
+$(BASENAME).$(PREFIX2)-lextor.dix: .deps/commonbil.dix
+	apertium-validate-dictionary .deps/commonbil.dix
+	apertium-gen-lextorbil lr .deps/commonbil.dix $@
+
+$(PREFIX1).lextormono.bin: $(BASENAME).$(LANG1)-lextor.dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@
+
+$(PREFIX2).lextormono.bin: $(BASENAME).$(LANG2)-lextor.dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@
+
+$(PREFIX1).lextorbil.bin: $(BASENAME).$(PREFIX1)-lextor.dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@
+
+$(PREFIX2).lextorbil.bin: $(BASENAME).$(PREFIX2)-lextor.dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@
+
 
 .deps/$(PREFVAR1)$(LANG1).dix: $(BASENAME).$(LANG1).dix
 	xsltproc --stringparam alt $(VAR1) alt.xsl $< >$@
@@ -143,12 +184,18 @@ apertium_es_ca_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).aut
 	$(PREFVAR2)$(PREFIX1).automorf.bin $(PREFVAR2)$(PREFIX2).automorf.bin \
 	$(PREFVAR2)$(PREFIX1).autobil.bin $(PREFVAR2)$(PREFIX2).autobil.bin \
 	$(PREFVAR2)$(PREFIX1).autogen.bin $(PREFVAR2)$(PREFIX2).autogen.bin \
+	$(PREFVAR1)$(PREFIX1).lextorbil.bin $(PREFVAR1)$(PREFIX2).lextorbil.bin \
+	$(PREFVAR1)$(PREFIX1).lextormono.bin $(PREFVAR1)$(PREFIX2).lextormono.bin \
 	$(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
 	$(PREFIX1).prob $(PREFIX2).prob trules-$(PREFIX1).xml \
 	trules-$(PREFIX2).xml trules-$(PREFIX1).bin \
 	trules-$(PREFIX2).bin \
 	$(PREFVAR1)$(PREFIX1).mode $(PREFVAR1)$(PREFIX2).mode \
-	$(PREFVAR2)$(PREFIX1).mode $(PREFVAR2)$(PREFIX2).mode	
+	$(PREFVAR2)$(PREFIX1).mode $(PREFVAR2)$(PREFIX2).mode \
+	$(PREFVAR1)$(PREFIX1)-multi.mode $(PREFVAR1)$(PREFIX2)-multi.mode \
+	$(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
+	$(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
+
 
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
@@ -156,6 +203,8 @@ install-data-local:
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2).mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFVAR2)$(PREFIX1).mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFVAR2)$(PREFIX2).mode $(apertium_es_modesdir)
+	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX1)-multi.mode $(apertium_es_modesdir)
+	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2)-multi.mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(BASENAME).trules-$(PREFIX2).xml $(BASENAME).trules-$(PREFIX1).xml $(apertium_es_cadir)
 
 CLEANFILES = -rf $(TARGETS) modes
