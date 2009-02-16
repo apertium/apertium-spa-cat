@@ -199,6 +199,7 @@ apertium_es_ca_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).aut
 
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
+	cp *.mode modes/
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX1).mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2).mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFVAR2)$(PREFIX1).mode $(apertium_es_modesdir)
