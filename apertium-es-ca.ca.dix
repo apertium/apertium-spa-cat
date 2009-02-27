@@ -102741,8 +102741,6 @@
 
 <e lm="sinergia" a="prompsit2adn"><i>sinergi</i><par n="abell/a__n"/></e>
 
-<e r="RL" lm="sens fi" a="prompsit2adn"><i>sens<b/>fi</i><par n="atletisme__n"/></e>
-
 <e lm="simfonia" a="prompsit2adn"><i>simfoni</i><par n="abell/a__n"/></e>
 
 <e lm="singularitat" a="prompsit2adn"><i>singularitat</i><par n="accessibilitat__n"/></e>
@@ -109033,9 +109031,9 @@
 
 <e lm="per compte d'altri" a="prompsit"><i>per<b/>compte<b/>d'altri</i><par n="multimèdia__adj"/></e>
 
-<e a="això sí"><i>això<b/>sí</i><par n="ahir__adv"/></e>
-<e a="tot seguit"><i>tot<b/>seguit</i><par n="ahir__adv"/></e>
-<e a="per contra"><i>per<b/>contra</i><par n="ahir__adv"/></e>
+<e lm="això sí"><i>això<b/>sí</i><par n="ahir__adv"/></e>
+<e lm="tot seguit"><i>tot<b/>seguit</i><par n="ahir__adv"/></e>
+<e lm="per contra"><i>per<b/>contra</i><par n="ahir__adv"/></e>
 <e lm="si escau" a="prompsit"><i>si<b/>escau</i><par n="ahir__adv"/></e>
 
 <e lm="si el cas així ho requereix" a="prompsit"><i>si<b/>el<b/>cas<b/>així<b/>ho<b/>requereix</i><par n="ahir__adv"/></e>
@@ -113918,6 +113916,9 @@
 <e lm="comunament" a="prompsit2uoc"><i>comunament</i><par n="ahir__adv"/></e>
 <e lm="pragmàticament" a="prompsit2uoc"><i>pragmàticament</i><par n="ahir__adv"/></e>
 <e lm="intrínsecament" a="prompsit2uoc"><i>intrínsecament</i><par n="ahir__adv"/></e>
+<e lm="fora mida"><i>fora<b/>mida</i><par n="ahir__adv"/></e>
+<e lm="fora mida"><i>fora<b/>mida</i><par n="multimèdia__adj"/></e>
+
 
 <!--secció especial llibreries-->
 
@@ -113984,6 +113985,13 @@
 <e lm="descatalogar" a="prompsit2cdl"><i>descatalog</i><par n="afalag/ar__vblex"/></e>
 <e lm="encriptar" a="prompsit2cdl"><i>encript</i><par n="abander/ar__vblex"/></e>
 <e lm="maquinar" a="prompsit2cdl"><i>maquin</i><par n="abander/ar__vblex"/></e>
+<e lm="feiner"><i>feiner</i><par n="absolut__adj"/></e>
+
+<e lm="sa i estalvi"><p><l>sa<b/>i<b/>estalvi</l><r>sa<b/>i<b/>estalvi<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="sa i estalvi"><p><l>sana<b/>i<b/>estàlvia</l><r>sa<b/>i<b/>estalvi<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="sa i estalvi"><p><l>sans<b/>i<b/>estalvis</l><r>sa<b/>i<b/>estalvi<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="sa i estalvi"><p><l>sanes<b/>i<b/>estàlvies</l><r>sa<b/>i<b/>estalvi<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+
   </section>
   <section  id="apostrophes" type="postblank">
 <e r="LR" lm="mirar de" i="yes"><i>mir</i><par n="abander/ar__vblex"/><p><l>d'</l><r><g>de</g></r></p></e>
