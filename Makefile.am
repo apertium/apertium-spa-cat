@@ -208,4 +208,6 @@ install-data-local:
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2)-multi.mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(BASENAME).trules-$(PREFIX2).xml $(BASENAME).trules-$(PREFIX1).xml $(apertium_es_cadir)
 
-CLEANFILES = -rf $(TARGETS) modes
+CLEANFILES = -rf $(TARGETS) modes .deps/ $(PREFVAR2)$(PREFIX1).automorf.bin $(PREFVAR2)$(PREFIX1).autobil.bin \
+		$(PREFVAR2)$(PREFIX2).automorf.bin $(PREFVAR2)$(PREFIX2).autobil.bin \
+		$(PREFVAR2)$(PREFIX2).autogen.bin $(PREFVAR2)$(PREFIX1).autogen.bin
