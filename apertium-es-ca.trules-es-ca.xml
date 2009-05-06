@@ -181,7 +181,8 @@
       <cat-item lemma="caer" tags="vblex.*"/>
       <cat-item lemma="reír" tags="vblex.*"/>
       <cat-item lemma="callar" tags="vblex.*"/>
-      <cat-item lemma="asomarse" tags="vblex.*"/> 
+      <cat-item lemma="asomarse" tags="vblex.*"/>
+      <cat-item lemma="asomar" tags="vblex.*"/> 
     </def-cat>
 
     <def-cat n="verbospron_pp">
@@ -878,7 +879,7 @@
 	  <test>
 	    <and>
 	      <equal>
-		<clip pos="1" side="sl" part="lemh"/>
+		<clip pos="1" side="sl" part="lem"/>
 		<lit v="sentar"/>
 	      </equal>
 	      <equal>
@@ -888,7 +889,7 @@
 	    </and>
 	  </test>
 	  <let>
-	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="lem"/>
 	    <lit v="sentir"/>
 	  </let>
 	</when>
@@ -896,7 +897,7 @@
 	  <test>
 	    <and>
 	      <equal>
-		<clip pos="1" side="sl" part="lemh"/>
+		<clip pos="1" side="sl" part="lem"/>
 		<lit v="sentar"/>
 	      </equal>
 	      <equal>
@@ -906,7 +907,7 @@
 	    </and>
 	  </test>
 	  <let>
-	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="lem"/>
 	    <lit v="sentir"/>
 	  </let>
 	  <let>
@@ -918,7 +919,7 @@
 	  <test>
 	    <and>
 	      <equal>
-		<clip pos="1" side="sl" part="lemh"/>
+		<clip pos="1" side="sl" part="lem"/>
 		<lit v="sentar"/>
 	      </equal>
 	      <equal>
@@ -928,7 +929,7 @@
 	    </and>
 	  </test>
 	  <let>
-	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="lem"/>
 	    <lit v="sentir"/>
 	  </let>
 	  <let>
@@ -940,7 +941,7 @@
 	  <test>
 	    <and>
 	      <equal>
-		<clip pos="1" side="sl" part="lemh"/>
+		<clip pos="1" side="sl" part="lem"/>
 		<lit v="sentar"/>
 	      </equal>
 	      <equal>
@@ -950,7 +951,7 @@
 	    </and>
 	  </test>
 	  <let>
-	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="lem"/>
 	    <lit v="sentir"/>
 	  </let>
 	  <let>

@@ -340,4 +340,55 @@
   </mode>
 
 
+
+
+  <mode name="val-ca-es" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="val-ca-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2 ">
+        <file name="ca-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-ca.trules-ca-es.xml"/>
+        <file name="trules-ca-es.bin"/>
+        <file name="val-ca-es.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="val-ca-es.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="ca-es.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+  <mode name="val-es-ca" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="val-es-ca.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-ca.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-es-ca.trules-es-ca.xml"/>
+        <file name="trules-es-ca.bin"/>
+        <file name="val-es-ca.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="val-es-ca.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="es-ca.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+
 </modes>
