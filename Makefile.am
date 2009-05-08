@@ -17,22 +17,22 @@ TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
           trules-$(PREFIX1).xml trules-$(PREFIX2).xml
 
 .deps/$(PREFVAR1)$(LANG1).dix: $(BASENAME).$(LANG1).dix
-	xsltproc translate-to-default-equivalent.xsl $< | ./filter.sh cat left $< >$@
+	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang cat --stringparam side left filter.xsl - >$@
 
 .deps/$(PREFVAR2)$(LANG1).dix: $(BASENAME).$(LANG1).dix
-	xsltproc translate-to-default-equivalent.xsl $< | ./filter.sh val left $< >$@
+	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang val --stringparam side left filter.xsl - >$@
 
 .deps/$(PREFVAR1)$(LANG2).dix: $(BASENAME).$(LANG2).dix
-	xsltproc translate-to-default-equivalent.xsl $< | ./filter.sh cat left $< >$@
+	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang cat --stringparam side left filter.xsl - >$@
 
 .deps/$(PREFVAR2)$(LANG2).dix: $(BASENAME).$(LANG2).dix
-	xsltproc translate-to-default-equivalent.xsl $< | ./filter.sh val left $< >$@
-	
+	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang val --stringparam side left filter.xsl - >$@
+
 .deps/$(PREFVAR1)$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix
-	xsltproc translate-to-default-equivalent.xsl $< | ./filter.sh cat right $< >$@
+	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang cat --stringparam side right filter.xsl - >$@
 
 .deps/$(PREFVAR2)$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix
-	xsltproc translate-to-default-equivalent.xsl $< | ./filter.sh val right $< >$@
+	xsltproc translate-to-default-equivalent.xsl $< | xsltproc --stringparam lang val --stringparam side right filter.xsl - >$@
 
 $(PREFVAR1)$(PREFIX1).automorf.bin: .deps/$(PREFVAR1)$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-acx $(BASENAME).$(LANG1).acx
