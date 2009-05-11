@@ -6613,7 +6613,7 @@
     </e>
 
     </pardef>
-    <pardef n="abusi/u__adj">
+    <pardef n="abusi/u__adj" c="com to/u__adj però sense formes superlatives">
     <e>
       <p>
         <l>ves</l> 
@@ -6639,6 +6639,66 @@
       <p>
         <l>u</l> 
         <r>u<s n="adj"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    </pardef>
+
+
+
+    <pardef n="to/u__adj" c="com abusi/u__adj però amb formes superlatives">
+    <e>
+      <p>
+        <l>ves</l> 
+        <r>u<s n="adj"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>va</l> 
+        <r>u<s n="adj"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>us</l> 
+        <r>u<s n="adj"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>u</l> 
+        <r>u<s n="adj"/><s n="m"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e>
+      <p>
+        <l>víssimes</l> 
+        <r>u<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>víssima</l> 
+        <r>u<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>víssims</l> 
+        <r>u<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e>
+      <p>
+        <l>víssim</l> 
+        <r>u<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
 
@@ -77986,7 +78046,7 @@
       
 <e lm="totalitari"><i>totalit</i><par n="adjudicat/ari__adj"/></e>
       
-<e lm="tou"><i>to</i><par n="abusi/u__adj"/></e>
+<e lm="tou"><i>to</i><par n="to/u__adj"/></e>
       
 <e lm="toxicòman"><i>toxicòman</i><par n="absolut__adj"/></e>
       
@@ -92606,7 +92666,7 @@
       
 <e lm="Prat"><i>Prat</i><par n="Afganistan__np"/></e>
       
-<e lm="El Prat"><i>El<b/>Prat</i><par n="Afganistan__np"/></e>
+<e lm="el Prat" r="LR"><i>el<b/>Prat</i><par n="Afganistan__np"/></e>
       
 <e lm="Prats"><i>Prats</i><par n="Afganistan__np"/></e>
       
@@ -98397,7 +98457,7 @@
 <e lm="Castella-Lleó" a="mginesti"><i>Castella-Lleó</i><par n="Afganistan__np"/></e>
 <e lm="Granada" a="mginesti"><i>Granada</i><par n="Afganistan__np"/></e>
 <e lm="Las Palmas" a="mginesti"><i>Las<b/>Palmas</i><par n="Afganistan__np"/></e>
-<e lm="La Corunya" a="mginesti"><i>La<b/>Corunya</i><par n="Afganistan__np"/></e>
+<e lm="la Corunya" a="mginesti"><i>la<b/>Corunya</i><par n="Afganistan__np"/></e>
 <e lm="Nova Zelanda" a="mginesti"><i>Nova<b/>Zelanda</i><par n="Afganistan__np"/></e>
 <e lm="Santiago de Compostel·la" a="mginesti"><i>Santiago<b/>de<b/>Compostel·la</i><par n="Afganistan__np"/></e>
 
@@ -98737,7 +98797,7 @@
 
 <e lm="Eulàlia"><i>Eulàlia</i><par n="Abad__np"/></e>
 
-<e lm="EUA"><i>EUA</i><par n="EUA__n"/></e>
+<!--="EUA"><i>EUA</i><par n="EUA__n"/></e>-->
 
 <e r="LR" lm="endur"><i>end</i><par n="end/ur__vblex"/></e>
 
@@ -106719,7 +106779,6 @@
 <e lm="New Orleans" a="prompsit2adn"><i>New<b/>Orleans</i><par n="Afganistan__np"/></e>
 <e lm="Heinze" a="prompsit2adn"><i>Heinze</i><par n="Afganistan__np"/></e>
 <e lm="Cannes" a="prompsit2adn"><i>Cannes</i><par n="Afganistan__np"/></e>
-<e lm="Argel" a="prompsit2adn"><i>Argel</i><par n="Afganistan__np"/></e>
 <e lm="Ankara" a="prompsit2adn"><i>Ankara</i><par n="Afganistan__np"/></e>
 <e lm="Escorial" a="prompsit2adn"><i>Escorial</i><par n="Afganistan__np"/></e>
 <e lm="Delhi" a="prompsit2adn"><i>Delhi</i><par n="Afganistan__np"/></e>
@@ -107419,7 +107478,6 @@
 <e lm="Alòs" a="prompsit"><i>Alòs</i><par n="Afganistan__np"/></e>
 <e lm="Alos" a="prompsit"><i>Alos</i><par n="Afganistan__np"/></e>
 <e lm="Albània" a="prompsit"><i>Albània</i><par n="Afganistan__np"/></e>
-<e lm="Almeria" a="prompsit"><i>Almeria</i><par n="Afganistan__np"/></e>
 <e lm="Alsàcia" a="prompsit"><i>Alsàcia</i><par n="Afganistan__np"/></e>
 <e lm="Òlt" a="prompsit"><i>Òlt</i><par n="Afganistan__np"/></e>
 <e lm="Alvèrnia" a="prompsit"><i>Alvèrnia</i><par n="Afganistan__np"/></e>
@@ -108290,7 +108348,6 @@
 <e lm="Verdaguer" a="prompsit"><i>Verdaguer</i><par n="Abad__np"/></e>
 <e lm="Vergés" a="prompsit"><i>Vergés</i><par n="Abad__np"/></e>
 <e lm="Victoria" a="prompsit"><i>Victoria</i><par n="Abad__np"/></e>
-<e lm="vilaweb" a="prompsit"><i>vilaweb</i><par n="ABC__np"/></e>
 <e lm="Villada" a="prompsit"><i>Villada</i><par n="Abad__np"/></e>
 <e lm="Vince" a="prompsit"><i>Vince</i><par n="Abad__np"/></e>
 <e lm="Vincent" a="prompsit"><i>Vincent</i><par n="Abad__np"/></e>
@@ -109890,8 +109947,7 @@
 <e lm="de fin" a="prompsit"><i>de<b/>finalització</i><par n="multimèdia__adj"/></e>
 
 
-<e lm="mestressa de casa" a="prompsit"><i>mestressa<b/>de<b/>casa</i><par n="q__n"/></e>
-
+<e lm="mestressa de casa"><i>mestressa</i><par n="abell/a__n"/><p><l><b/>de<b/>casa</l><r><g><b/>de<b/>casa</g></r></p></e>
 
 <e r="LR" lm="per causa de" a="prompsit"><i>per<b/>causa<b/></i><par n="contde__pr"/></e>
 
@@ -121649,7 +121705,6 @@
 <e r="LR" lm="camamil·la"><i>camamil·l</i><par n="abell/a__n"/></e>
 <e lm="camarlenc"><i>camarlenc</i><par n="abric__n"/></e>
 <e lm="camell"><i>camell</i><par n="senyor__n"/></e>
-<e lm="camp enrere"><i>camp<b/>enrere</i><par n="atletisme__n"/></e>
 <e lm="campaneta"><i>campanet</i><par n="abell/a__n"/></e>
 <e lm="camuflament"><i>camuflament</i><par n="abric__n"/></e>
 <e lm="camí ral"><p><l>camí<b/>ral</l><r>camí<b/>ral<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -122741,7 +122796,7 @@
 <e lm="gnosticisme"><i>gnosticisme</i><par n="abric__n"/></e>
 <e lm="gns."><i>gns.</i><par n="afores__n"/></e>
 <e lm="gorrer"><i>gorrer</i><par n="senyor__n"/></e>
-<e r="LR" lm="gos_d'atura"><i>gos</i><par n="gos__n"/><p><l><b/>d'atura</l><r><g><b/>d'atura</g></r></p></e>
+<e r="LR" lm="gos d'atura"><i>gos</i><par n="cos__n"/><p><l><b/>d'atura</l><r><g><b/>d'atura</g></r></p></e>
 <e lm="gossada"><i>gossad</i><par n="abell/a__n"/></e>
 <e lm="goteró"><i>goter</i><par n="aband/ó__n"/></e>
 <e lm="gov."><i>gov.</i><par n="atletisme__n"/></e>
@@ -122969,7 +123024,7 @@
 <e lm="la Unió Europea"><i>la<b/>Unió<b/>Europea</i><par n="q__n"/></e>
 <e lm="la cançó de l'enfadós"><i>la<b/>cançó<b/>de<b/>l'enfadós</i><par n="q__n"/></e>
 <e r="RL" lm="la falsedat"><i>la<b/>falsedat</i><par n="q__n"/></e>
-<e lm="la feina de casa"><i>la<b/>feina<b/>de<b/>casa</i><par n="q__n"/></e>
+<e lm="la feina de casa" r="RL"><i>la<b/>feina<b/>de<b/>casa</i><par n="q__n"/></e>
 <e r="RL" lm="la veritat"><i>la<b/>veritat</i><par n="q__n"/></e>
 <e lm="laborisme"><i>laborisme</i><par n="abric__n"/></e>
 <e lm="lactant"><i>lactant</i><par n="acompanyant__n"/></e>
@@ -123014,7 +123069,7 @@
 <e lm="llança"><i>llan</i><par n="adre/ça__n"/></e>
 <e lm="llançaflames"><i>llançaflames</i><par n="campus__n"/></e>
 <e lm="llaor"><i>llaor</i><par n="accessibilitat__n"/></e>
-<e r="LR" lm="llapis de plom"><i>llapis<b/>de<b/>plom</i><par n="campus__n"/></e>
+<e lm="llapis de plom"><i>llapis<b/>de<b/>plom</i><par n="campus__n"/></e>
 <e lm="llatinada"><i>llatinad</i><par n="abell/a__n"/></e>
 <e lm="llaurador"><i>llaurador</i><par n="senyor__n"/></e>
 <e lm="llavadora" v="val"><p><l>llavador</l>    <r>llavador</r></p><par n="abell/a__n"/></e>
@@ -123614,7 +123669,7 @@
 <e r="LR" lm="pésol"><i>pésol</i><par n="abric__n"/></e>
 <e lm="pòrfir"><i>pòrfir</i><par n="abric__n"/></e>
 <e lm="quadrat"><i>quadrat</i><par n="abric__n"/></e>
-<e lm="quadre de comandament"><i>quadre</i><par n="abric__n"/><p><l><b/>de<b/>comandament</l><r><g><b/>de<b/>comandament</g></r></p></e>
+<e lm="quadre de comandament" r="RL"><i>quadre</i><par n="abric__n"/><p><l><b/>de<b/>comandament</l><r><g><b/>de<b/>comandament</g></r></p></e>
 <e lm="quadrienni"><i>quadrienni</i><par n="abric__n"/></e>
 <e lm="quadrícula"><i>quadrícul</i><par n="abell/a__n"/></e>
 <e lm="qualificador"><i>qualificador</i><par n="senyor__n"/></e>
@@ -124122,7 +124177,7 @@
 <e r="LR" lm="tungsté"><i>tungsté</i><par n="atletisme__n"/></e>
 <e lm="tupè"><i>tupè</i><par n="abric__n"/></e>
 <e r="LR" lm="tupé"><i>tupé</i><par n="abric__n"/></e>
-<e lm="turbocompresor"><i>turbocompresor</i><par n="senyor__n"/></e>
+<e lm="turbocompressor"><i>turbocompressor</i><par n="senyor__n"/></e>
 <e lm="tust"><i>tust</i><par n="abric__n"/></e>
 <e lm="tutejament"><i>tutejament</i><par n="abric__n"/></e>
 <e lm="tutorial"><i>tutorial</i><par n="abric__n"/></e>
@@ -124137,7 +124192,6 @@
 <e lm="tóner"><i>tóner</i><par n="abric__n"/></e>
 <e lm="tótum revolútum"><i>tótum<b/>revolútum</i><par n="atletisme__n"/></e>
 <e lm="ufana" r="RL"><i>ufan</i><par n="abell/a__n"/></e>
-<e lm="ullera de llarga vista"><i>uller</i><par n="abell/a__n"/><p><l><b/>de<b/>llarga<b/>vista</l><r><g><b/>de<b/>llarga<b/>vista</g></r></p></e>
 <e lm="ulls ametllats" v="cat"><p><l>ulls<b/>ametllats</l><r>ulls<b/>ametllats</r></p><par n="afores__n"/></e>
 <e lm="ulls ametlats" v="val"><p><l>ulls<b/>ametlats</l><r>ulls<b/>ametlats</r></p><par n="afores__n"/></e>
 <e lm="ultima ratio"><i>ultima<b/>ratio</i><par n="q__n"/></e>
@@ -126109,7 +126163,6 @@
 <e lm="Kàtmandu"><i>Kàtmandu</i><par n="Afganistan__np"/></e>
 <e lm="La Razón"><i>La<b/>Razón</i><par n="ABC__np"/></e>
 <e lm="La Rioja"><i>La<b/>Rioja</i><par n="Afganistan__np"/></e>
-<e lm="La Salle"><i>La<b/>Salle</i><par n="ABC__np"/></e>
 <e lm="La Valletta"><i>La<b/>Valletta</i><par n="Afganistan__np"/></e>
 <e lm="Laborda"><i>Laborda</i><par n="Abad__np"/></e>
 <e lm="Lacadives"><i>Lacadives</i><par n="Afganistan__np"/></e>
@@ -126920,8 +126973,8 @@
 <e lm="Ragón"><i>Ragón</i><par n="Abad__np"/></e>
 <e lm="Ram Al·lah"><i>Ram<b/>Al·lah</i><par n="Afganistan__np"/></e>
 <e lm="Rama"><i>Rama</i><par n="Abad__np"/></e>
-<e r="LR" lm="Ramal·la"><i>Ramal·la</i><par n="Afganistan__np"/></e>
-<e r="LR" lm="Ramal·là"><i>Ramal·là</i><par n="Afganistan__np"/></e>
+<e lm="Ramal·la"><i>Ramal·la</i><par n="Afganistan__np"/></e>
+<e lm="Ramallah"><i>Ramallah</i><par n="Afganistan__np"/></e>
 <e lm="Ramazzotti"><i>Ramazzotti</i><par n="Abad__np"/></e>
 <e lm="Ramil"><i>Ramil</i><par n="Abad__np"/></e>
 <e lm="Rangun"><i>Rangun</i><par n="Afganistan__np"/></e>
@@ -126959,7 +127012,6 @@
 <e lm="Rent"><i>Rent</i><par n="Abad__np"/></e>
 <e lm="Renteria"><i>Renteria</i><par n="Afganistan__np"/></e>
 <e lm="Rentero"><i>Rentero</i><par n="Abad__np"/></e>
-<e lm="República Centroafricana"><i>República<b/>Centroafricana</i><par n="Afganistan__np"/></e>
 <e lm="República Democràtica Popular de Corea"><i>República<b/>Democràtica<b/>Popular<b/>de<b/>Corea</i><par n="Afganistan__np"/></e>
 <e lm="República Democràtica del Congo"><i>República<b/>Democràtica<b/>del<b/>Congo</i><par n="Afganistan__np"/></e>
 <e lm="República Malgaixa"><i>República<b/>Malgaixa</i><par n="Afganistan__np"/></e>
@@ -127668,7 +127720,7 @@
 <e lm="Vicedo"><i>Vicedo</i><par n="Abad__np"/></e>
 <e lm="Vico"><i>Vico</i><par n="Abad__np"/></e>
 <e lm="Victoriano"><i>Victoriano</i><par n="Abad__np"/></e>
-<e lm="Victòria"><i>Victòria</i><par n="Afganistan__np"/></e>
+<e lm="Victòria"><i>Victòria</i><par n="Abad__np"/></e>
 <e lm="Vidrà"><i>Vidrà</i><par n="Afganistan__np"/></e>
 <e lm="Viedma"><i>Viedma</i><par n="Abad__np"/></e>
 <e lm="Vielha e Mijaran"><i>Vielha<b/>e<b/>Mijaran</i><par n="Afganistan__np"/></e>
