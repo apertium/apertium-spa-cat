@@ -48,7 +48,11 @@
   </pardef>
 </xsl:template>
 
-<xsl:template match="e">
+<xsl:template match="e[not(@v)]">
+  <xsl:copy-of select="."/>
+</xsl:template>
+
+<xsl:template match="e[@v]">
   <xsl:choose>
     <xsl:when test="./@v=$lang">
       <xsl:choose>
@@ -154,7 +158,6 @@
   <xsl:apply-templates/>
 </dictionary>
 </xsl:template>
-
 
 
 </xsl:stylesheet>
