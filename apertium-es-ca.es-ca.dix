@@ -98,6 +98,7 @@
 <e>       <i>admirable<s n="adj"/></i></e>
 <e>       <p><l>africano<s n="adj"/></l>          <r>africà<s n="adj"/></r></p></e>
 <e>       <p><l>a<b/>domicilio<s n="adv"/></l>    <r>a<b/>domicili<s n="adv"/></r></p></e>
+<e>       <p><l>al<b/>cubo<s n="adv"/></l>    <r>al<b/>cub<s n="adv"/></r></p></e>
 <e a="termcat">       <p><l>a<b/>quemarropa<s n="adv"/></l><r>a<b/>frec<b/>de<b/>roba<s n="adv"/></r></p></e>
 <e r="RL" a="termcat"><p><l>a<b/>quemarropa<s n="adv"/></l><r>a<b/>crema-roba<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>quema<b/>ropa<s n="adv"/></l><r>a<b/>frec<b/>de<b/>roba<s n="adv"/></r></p></e>
@@ -746,6 +747,7 @@
 
 <e r="LR"><p><l>menudo<s n="adj"/><s n="f"/></l>            <r>menut<s n="adj"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>menudo<s n="adj"/><s n="m"/></l>            <r>menut<s n="adj"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>menudo<s n="adj"/><s n="sup"/></l>            <r>menut<s n="adj"/><s n="sup"/></r></p></e>
       
 <e v="val"><p><l>pequeño<s n="adj"/></l>        <r>menut<s n="adj"/></r></p></e>
 <e r="LR"><p><l>menudo<s n="adj"/><s n="itg"/></l><r>quin<s n="adj"/><s n="itg"/></r></p></e>
@@ -4150,7 +4152,6 @@
 <e v="cat" slr="botiga"><p><l>tienda<s n="n"/></l>        <r>botiga<s n="n"/></r></p></e>
 <e v="cat" slr="tenda D"><p><l>tienda<s n="n"/></l>        <r>tenda<s n="n"/></r></p></e>
 <e v="val"><p><l>tienda<s n="n"/></l>           <r>tenda<s n="n"/></r></p></e>
-<e v="val"><p><l>tienda<s n="n"/></l><r>tenda<s n="n"/></r></p></e>
 <e>       <p><l>tierra<s n="n"/></l>              <r>terra<s n="n"/></r></p></e>
 <e>       <p><l>tiniebla<s n="n"/></l>            <r>tenebra<s n="n"/></r></p></e>
 <e>       <p><l>tío<s n="n"/></l>                 <r>oncle<s n="n"/></r></p></e>
@@ -4716,7 +4717,7 @@
 <e>       <i>tan<s n="preadv"/></i></e>
 <e>       <p><l>todo<s n="predet"/></l>           <r>tot<s n="predet"/></r></p></e>
 <e r="LR" v="cat"><p><l>ello<s n="prn"/></l>              <r>això<s n="prn"/></r></p></e>
-<e r="LR" v="cat"><p><l>ello<s n="prn"/></l>              <r>açò<s n="prn"/></r></p></e>
+<e r="LR" v="val"><p><l>ello<s n="prn"/></l>              <r>açò<s n="prn"/></r></p></e>
 <e v="cat" r="LR"><p><l>eso<s n="prn"/></l>               <r>això<s n="prn"/></r></p></e>
 <e r="LR" v="val"><p><l>eso<s n="prn"/></l>     <r>açò<s n="prn"/></r></p></e>
 <e v="cat">       <p><l>esto<s n="prn"/></l>              <r>això<s n="prn"/></r></p></e>
@@ -9305,7 +9306,7 @@
 <e>       <i>Galindo<s n="np"/></i></e>
 <e>       <i>Gallardón<s n="np"/></i></e>
 <e>       <i>Gallardo<s n="np"/></i></e>
-<e v="cat">       <p><l>cubo<s n="n"/><s n="m"/></l>      <r>galleda<s n="n"/><s n="f"/></r></p></e>
+<e v="cat" slr="galleda D">       <p><l>cubo<s n="n"/><s n="m"/></l>      <r>galleda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Gales<s n="np"/></l>              <r>Gal·les<s n="np"/></r></p></e>
 <e>       <p><l>galo<s n="n"/></l>                <r>gal<s n="n"/></r></p></e>
 <e>       <i>Galván<s n="np"/></i></e>
@@ -12509,7 +12510,8 @@
 <e>       <p><l>sobreponer<s n="vblex"/></l>      <r>sobreposar<s n="vblex"/></r></p></e>
 <e>       <p><l>sobreseimiento<s n="n"/></l>      <r>sobreseïment<s n="n"/></r></p></e>
 <e>       <p><l>sobreseer<s n="vblex"/></l>       <r>sobreseure<s n="vblex"/></r></p></e>
-<e>       <p><l>sobresalir<s n="vblex"/></l>      <r>sobresortir<s n="vblex"/></r></p></e>
+<e v="cat">       <p><l>sobresalir<s n="vblex"/></l>      <r>sobresortir<s n="vblex"/></r></p></e>
+<e v="val">       <p><l>sobresalir<s n="vblex"/></l>      <r>sobreeixir<s n="vblex"/></r></p></e>
 <e>       <p><l>sobremesa<s n="n"/></l>           <r>sobretaula<s n="n"/></r></p></e>
 <e>       <p><l>sobrio<s n="adj"/></l>            <r>sobri<s n="adj"/></r></p></e>
 <e>       <p><l>sobriedad<s n="n"/></l>           <r>sobrietat<s n="n"/></r></p></e>
@@ -23515,7 +23517,7 @@
 <e a="prompsit2uoc"><p><l>rinoceronte<s n="n"/></l><r>rinoceront<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>presbiterio<s n="n"/></l><r>presbiteri<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>gradiente<s n="n"/></l> <r>gradient<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>cubo<s n="n"/></l>      <r>cub<s n="n"/></r></p></e>
+<e a="prompsit2uoc" slr="cub"><p><l>cubo<s n="n"/></l>      <r>cub<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>sépalo<s n="n"/></l>    <r>sèpal<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>fagot<s n="n"/></l>     <r>fagot<s n="n"/></r></p></e>
 <e r="LR" a="prompsit2uoc"><p><l>fagote<s n="n"/></l><r>fagot<s n="n"/></r></p></e>
@@ -35600,7 +35602,7 @@
 <e>       <p><l>monopolización<s n="n"/></l>      <r>monopolització<s n="n"/></r></p></e>
 <e>       <p><l>monstruosidad<s n="n"/></l>       <r>monstruositat<s n="n"/></r></p></e>
 <e>       <p><l>montador<s n="n"/></l>            <r>muntador<s n="n"/></r></p></e>
-<e>       <p><l>monte<s n="n"/><s n="m"/></l>     <r>forest<s n="n"/><s n="f"/></r></p></e>
+<e r="RL">       <p><l>monte<s n="n"/><s n="m"/></l>     <r>forest<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>moquillo<s n="n"/></l>            <r>borm<s n="n"/></r></p></e>
 <e>       <p><l>morada<s n="n"/><s n="f"/></l>    <r>estatge<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>moralismo<s n="n"/></l>           <r>moralisme<s n="n"/></r></p></e>
@@ -37243,7 +37245,7 @@
 <e v="val"><p><l>chaleco<s n="n"/></l>          <r>jupetí<s n="n"/></r></p></e>
 <e v="val"><p><l>charla<s n="n"/></l>           <r>xarrada<s n="n"/></r></p></e>
 <e v="val"><p><l>contramoldura<s n="n"/></l>    <r>contramotlura<s n="n"/></r></p></e>
-<e v="val"><p><l>cubo<s n="n"/></l>             <r>poal<s n="n"/></r></p></e>
+<e v="val" slr="poal D"><p><l>cubo<s n="n"/></l>             <r>poal<s n="n"/></r></p></e>
 <e v="val"><p><l>escayolista<s n="n"/></l>      <r>algepsaire<s n="n"/></r></p></e>
 <e v="val"><p><l>escoba<s n="n"/></l>           <r>granera<s n="n"/></r></p></e>
 <e v="val"><p><l>espaldera<s n="n"/></l>        <r>espatlera<s n="n"/></r></p></e>
