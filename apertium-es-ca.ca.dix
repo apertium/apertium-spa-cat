@@ -8229,7 +8229,7 @@
       </p>
     </e>
 
-    <e v="cat">
+    <e v="val">
       <p>
         <l>les<b/>meues</l> 
         <r>el<b/>meu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
@@ -8243,7 +8243,7 @@
       </p>
     </e>
 
-    <e v="cat">
+    <e v="val">
       <p>
         <l>la<b/>meua</l> 
         <r>el<b/>meu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
@@ -8303,7 +8303,7 @@
       </p>
     </e>
 
-    <e v="cat">
+    <e v="val">
       <p>
         <l>les<b/>seues</l> 
         <r>el<b/>seu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
@@ -8317,7 +8317,7 @@
       </p>
     </e>
 
-    <e v="cat">
+    <e v="val">
       <p>
         <l>la<b/>seua</l> 
         <r>el<b/>seu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
@@ -8347,7 +8347,7 @@
       </p>
     </e>
 
-    <e v="cat">
+    <e v="val">
       <p>
         <l>les<b/>teues</l> 
         <r>el<b/>teu<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r> 
@@ -8361,7 +8361,7 @@
       </p>
     </e>
 
-    <e v="cat">
+    <e v="val">
       <p>
         <l>la<b/>teua</l> 
         <r>el<b/>teu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r> 
@@ -61851,15 +61851,15 @@
     </e> 
     <e r="LR">
       <p>
-        <l>obriguem</l> 
-        <r>obrir<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r> 
+        <l>riguem</l> 
+        <r>rir<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e r="LR">
       <p>
-        <l>obriguem</l> 
-        <r>obrir<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r> 
+        <l>riguem</l> 
+        <r>rir<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r> 
       </p>
         <par n="S__aneu"/> 
     </e>
@@ -79639,7 +79639,6 @@
 <e lm="candidat"><i>candidat</i><par n="senyor__n"/></e>
 <e lm="candidatura"><i>candidatur</i><par n="abell/a__n"/></e>
 <e lm="canell"><i>canell</i><par n="abric__n"/></e>
-<e lm="canga"><i>cang</i><par n="alg/a__n"/></e>
 <e lm="cangur"><i>cangur</i><par n="acompanyant__n"/></e>
 <e lm="canonada"><i>canonad</i><par n="abell/a__n"/></e>
 <e lm="cansament"><i>cansament</i><par n="abric__n"/></e>
@@ -80071,7 +80070,6 @@
 <e lm="construcció"><i>construcci</i><par n="acci/ó__n"/></e>
 <e lm="constructor"><i>constructor</i><par n="senyor__n"/></e>
 <e lm="constància"><i>constànci</i><par n="abell/a__n"/></e>
-<e lm="consulat"><i>consulat</i><par n="abric__n"/></e>
 <e lm="consulta"><i>consult</i><par n="abell/a__n"/></e>
 <e lm="consultor"><i>consultor</i><par n="senyor__n"/></e>
 <e lm="consultori"><i>consultori</i><par n="abric__n"/></e>
@@ -80852,7 +80850,8 @@
 <e lm="espai"><i>espai</i><par n="abric__n"/></e>
 <e lm="espanyol"><i>espanyol</i><par n="senyor__n"/></e>
 <e lm="espasa"><i>espas</i><par n="abell/a__n"/></e>
-<e lm="espatlla"><i>espatll</i><par n="abell/a__n"/></e>
+<e v="cat" lm="espatlla"><i>espatll</i><par n="abell/a__n"/></e>
+<e v="val" lm="espatla"><i>espatl</i><par n="abell/a__n"/></e>
 <e lm="especialista"><i>especialist</i><par n="accionist/a__n"/></e>
 <e lm="especialitat"><i>especialitat</i><par n="accessibilitat__n"/></e>
 <e lm="jugabilitat"><i>jugabilitat</i><par n="accessibilitat__n"/></e>
@@ -81056,7 +81055,7 @@
 <e lm="falta"><i>falt</i><par n="abell/a__n"/></e>
 <e lm="fal·làcia"><i>fal·làci</i><par n="abell/a__n"/></e>
 <e v="val" lm="fam"><i>fam</i><par n="accessibilitat__n"/></e>
-<e r="RL" lm="fam"><i>fam</i><par n="accessibilitat__n"/></e>
+<e r="RL" v="cat" lm="fam"><i>fam</i><par n="accessibilitat__n"/></e>
 <e lm="fama"><i>fam</i><par n="abell/a__n"/></e>
 <e lm="família"><i>famíli</i><par n="abell/a__n"/></e>
 <e lm="fanal"><i>fanal</i><par n="abric__n"/></e>
@@ -81155,7 +81154,6 @@
 <e lm="fiscalitat"><i>fiscalitat</i><par n="accessibilitat__n"/></e>
 <e lm="fisioteràpia"><i>fisioteràpi</i><par n="abell/a__n"/></e>
 <e lm="fisonomia"><i>fisonomi</i><par n="abell/a__n"/></e>
-<e lm="fisura"><i>fisur</i><par n="abell/a__n"/></e>
 <e lm="fita"><i>fit</i><par n="abell/a__n"/></e>
 <e lm="fitxa"><i>fitx</i><par n="abell/a__n"/></e>
 <e lm="fitxatge"><i>fitxatge</i><par n="abric__n"/></e>
@@ -82564,7 +82562,6 @@
 <e lm="papereta"><i>paperet</i><par n="abell/a__n"/></e>
 <e lm="papà"><i>papà</i><par n="abric__n"/></e>
 <e lm="paquet"><i>paquet</i><par n="abric__n"/></e>
-<e lm="paracaidisme"><i>paracaidisme</i><par n="abric__n"/></e>
 <e lm="paracaigudes"><i>paracaigudes</i><par n="campus__n"/></e>
 <e lm="parada"><i>parad</i><par n="abell/a__n"/></e>
 <e lm="paradigma"><i>paradigm</i><par n="carism/a__n"/></e>
@@ -91688,7 +91685,6 @@
 <e lm="depilació" a="prompsit2adn"><i>depilaci</i><par n="acci/ó__n"/></e>
 <e lm="desadaptació" a="prompsit2adn"><i>desadaptaci</i><par n="acci/ó__n"/></e>
 <e lm="desafecció" a="prompsit2adn"><i>desafecci</i><par n="acci/ó__n"/></e>
-<e lm="eixalada" a="prompsit2adn"><i>eixalad</i><par n="abell/a__n"/></e>
 <e lm="dessalinització" a="prompsit2adn"><i>dessalinitzaci</i><par n="acci/ó__n"/></e>
 <e lm="desaprovació" a="prompsit2adn"><i>desaprovaci</i><par n="acci/ó__n"/></e>
 <e lm="desatenció" a="prompsit2adn"><i>desatenci</i><par n="acci/ó__n"/></e>
@@ -91975,7 +91971,6 @@
 <e lm="religiositat" a="prompsit2adn"><i>religiositat</i><par n="accessibilitat__n"/></e>
 <e lm="severitat" a="prompsit2adn"><i>severitat</i><par n="accessibilitat__n"/></e>
 <e lm="sismicitat" a="prompsit2adn"><i>sismicitat</i><par n="accessibilitat__n"/></e>
-<e lm="sistematicidad" a="prompsit2adn"><i>sistematicidad</i><par n="accessibilitat__n"/></e>
 <e lm="sobreintensitat" a="prompsit2adn"><i>sobreintensitat</i><par n="accessibilitat__n"/></e>
 <e lm="solemnitat" a="prompsit2adn"><i>solemnitat</i><par n="accessibilitat__n"/></e>
 <e lm="subsidiarietat" a="prompsit2adn"><i>subsidiarietat</i><par n="accessibilitat__n"/></e>
@@ -95571,7 +95566,6 @@
 <e lm="etnològic" a="prompsit"><i>etnològi</i><par n="acadèmi/c__adj"/></e>
 <e lm="federatiu" a="prompsit"><i>federati</i><par n="abusi/u__adj"/></e>
 <e lm="feudal" a="prompsit"><i>feudal</i><par n="abdominal__adj"/></e>
-<e lm="folclòric" a="prompsit"><i>folclòri</i><par n="acadèmi/c__adj"/></e>
 <e lm="fonètic" a="prompsit"><i>fonèti</i><par n="acadèmi/c__adj"/></e>
 <e lm="gaèlic" a="prompsit"><i>gaèli</i><par n="acadèmi/c__adj"/></e>
 <e lm="gascó" a="prompsit"><i>gasc</i><par n="amfitri/ó__adj"/></e>
@@ -101850,7 +101844,6 @@
 <e lm="ingràvid"><i>ingràvid</i><par n="absolut__adj"/></e>
 <e lm="iniciable"><i>iniciable</i><par n="abdominal__adj"/></e>
 <e lm="iniciàtic"><i>iniciàti</i><par n="acadèmi/c__adj"/></e>
-<e lm="ininteligible"><i>ininteligible</i><par n="abdominal__adj"/></e>
 <e lm="injectable"><i>injectable</i><par n="abdominal__adj"/></e>
 <e lm="injectiu"><i>injecti</i><par n="abusi/u__adj"/></e>
 <e lm="injuriat"><i>injuria</i><par n="afortuna/t__adj"/></e>
@@ -101955,7 +101948,6 @@
 <e lm="lluït"><i>lluï</i><par n="afortuna/t__adj"/></e>
 <e lm="localista"><i>localist</i><par n="agrícol/a__adj"/></e>
 <e lm="loxodròmic"><i>loxodròmi</i><par n="acadèmi/c__adj"/></e>
-<e lm="luminiscent"><i>luminiscent</i><par n="abdominal__adj"/></e>
 <e lm="luminotècnic"><i>luminotècni</i><par n="acadèmi/c__adj"/></e>
 <e lm="lumínic"><i>lumíni</i><par n="acadèmi/c__adj"/></e>
 <e lm="lustral"><i>lustral</i><par n="abdominal__adj"/></e>
@@ -101990,7 +101982,6 @@
 <e lm="mesopotàmic"><i>mesopotàmi</i><par n="acadèmi/c__adj"/></e>
 <e lm="mesozònic"><i>mesozòni</i><par n="acadèmi/c__adj"/></e>
 <e lm="metaliterari"><i>metaliter</i><par n="adjudicat/ari__adj"/></e>
-<e lm="metalúrgic"><i>metalúrgi</i><par n="acadèmi/c__adj"/></e>
 <e lm="meticulós"><i>meticul</i><par n="afectu/ós__adj"/></e>
 <e lm="microbià"><i>microbi</i><par n="afric/à__adj"/></e>
 <e lm="microeconòmic"><i>microeconòmi</i><par n="acadèmi/c__adj"/></e>
@@ -101999,7 +101990,6 @@
 <e lm="miocè"><i>mioc</i><par n="ali/è__adj"/></e>
 <e r="LR" lm="miocènic"><i>miocèni</i><par n="acadèmi/c__adj"/></e>
 <e lm="misericordiós"><i>misericordi</i><par n="aliment/ós__adj"/></e>
-<e lm="mobible"><i>mobible</i><par n="abdominal__adj"/></e>
 <e lm="modificador"><i>modificador</i><par n="absolut__adj"/></e>
 <e lm="modificatiu"><i>modificati</i><par n="abusi/u__adj"/></e>
 <e lm="mogut"><i>mogu</i><par n="afortuna/t__adj"/></e>
@@ -104474,7 +104464,7 @@
 <e lm="inhòspitament"><i>inhòspitament</i><par n="ahir__adv"/></e>
 <e lm="iniciàticament"><i>iniciàticament</i><par n="ahir__adv"/></e>
 <e lm="inimaginablement"><i>inimaginablement</i><par n="ahir__adv"/></e>
-<e lm="ininteligiblement"><i>ininteligiblement</i><par n="ahir__adv"/></e>
+<e lm="inintel·ligiblement"><i>inintel·ligiblement</i><par n="ahir__adv"/></e>
 <e lm="injectablement"><i>injectablement</i><par n="ahir__adv"/></e>
 <e lm="injectivament"><i>injectivament</i><par n="ahir__adv"/></e>
 <e lm="injuriadament"><i>injuriadament</i><par n="ahir__adv"/></e>
@@ -104702,7 +104692,7 @@
 <e lm="loxodròmicament"><i>loxodròmicament</i><par n="ahir__adv"/></e>
 <e lm="lubrificantment"><i>lubrificantment</i><par n="ahir__adv"/></e>
 <e lm="lucrativament"><i>lucrativament</i><par n="ahir__adv"/></e>
-<e lm="luminiscentment"><i>luminiscentment</i><par n="ahir__adv"/></e>
+<e lm="luminescentment"><i>luminescentment</i><par n="ahir__adv"/></e>
 <e lm="luminotècnicament"><i>luminotècnicament</i><par n="ahir__adv"/></e>
 <e lm="luxosament"><i>luxosament</i><par n="ahir__adv"/></e>
 <e lm="lèsbicament"><i>lèsbicament</i><par n="ahir__adv"/></e>
@@ -104779,7 +104769,7 @@
 <e lm="mesurablement"><i>mesurablement</i><par n="ahir__adv"/></e>
 <e lm="metafísicament"><i>metafísicament</i><par n="ahir__adv"/></e>
 <e lm="metaliteràriament"><i>metaliteràriament</i><par n="ahir__adv"/></e>
-<e lm="metalúrgicament"><i>metalúrgicament</i><par n="ahir__adv"/></e>
+<e lm="metal·lúrgicament"><i>metal·lúrgicament</i><par n="ahir__adv"/></e>
 <e lm="meteorològicament"><i>meteorològicament</i><par n="ahir__adv"/></e>
 <e lm="meteòricament"><i>meteòricament</i><par n="ahir__adv"/></e>
 <e lm="metàl·licament"><i>metàl·licament</i><par n="ahir__adv"/></e>
@@ -106573,7 +106563,7 @@
 <e lm="esmussar"><i>esmuss</i><par n="abander/ar__vblex"/></e>
 <e lm="espanyolitzar"><i>espanyolitz</i><par n="abander/ar__vblex"/></e>
 <e lm="espargir"><i>esparg</i><par n="abarat/ir__vblex"/></e>
-<e r="LR" lm="espatlar"><i>espatl</i><par n="abander/ar__vblex"/></e>
+<e r="LR" v="val" lm="espatlar"><i>espatl</i><par n="abander/ar__vblex"/></e>
 <e lm="espessir"><i>espess</i><par n="abarat/ir__vblex"/></e>
 <e lm="espetegar"><i>espeteg</i><par n="afalag/ar__vblex"/></e>
 <e lm="espirar"><i>espir</i><par n="abander/ar__vblex"/></e>
@@ -108253,7 +108243,6 @@
 <e lm="diner efectiu"><i>diner<b/>efectiu</i><par n="atletisme__n"/></e>
 <e lm="diner negre"><i>diner<b/>negre</i><par n="atletisme__n"/></e>
 <e lm="dinerada"><i>dinerad</i><par n="abell/a__n"/></e>
-<e lm="diners"><i>diners</i><par n="afores__n"/></e>
 <e lm="diners comptants"><i>diners<b/>comptants</i><par n="afores__n"/></e>
 <e lm="diploma"><i>diplom</i><par n="abell/a__n"/></e>
 <e lm="diplomàtic"><i>diplomàti</i><par n="asiàti/c__n"/></e>
@@ -108640,7 +108629,6 @@
 <e lm="evangeli"><i>evangeli</i><par n="abric__n"/></e>
 <e lm="evaporador"><i>evaporador</i><par n="abric__n"/></e>
 <e lm="evaporita"><i>evaporit</i><par n="abell/a__n"/></e>
-<e lm="evaquació">        <i>evaquaci</i>        <par n="acci/ó__n"/>      </e>
 <e lm="evasiva"><i>evasiv</i><par n="abell/a__n"/></e>
 <e lm="ex."><i>ex.</i><par n="atletisme__n"/></e>
 <e lm="excussió"><i>excussi</i><par n="acci/ó__n"/></e>
@@ -108842,7 +108830,6 @@
 <e lm="garlopí"><i>garlop</i><par n="boc/í__n"/></e>
 <e lm="garrotxa"><i>garrotx</i><par n="abell/a__n"/></e>
 <e lm="garrí"><i>garr</i><par n="boc/í__n"/></e>
-<e lm="gasoli"><i>gasoli</i><par n="abric__n"/></e>
 <e lm="gaspatxo"><i>gaspatxo</i><par n="abric__n"/></e>
 <e lm="gatzara"><i>gatzar</i><par n="abell/a__n"/></e>
 <e lm="gaubança"><i>gauban</i><par n="adre/ça__n"/></e>
@@ -108899,7 +108886,6 @@
 <e lm="grèvol"><i>grèvol</i><par n="abric__n"/></e>
 <e lm="guantera"><i>guanter</i><par n="abell/a__n"/></e>
 <e lm="guarda-roba"><i>guarda-rob</i><par n="carism/a__n"/></e>
-<e lm="guardaespatles" v="cat"><p><l>guardaespatles</l><r>guardaespatles</r></p><par n="guardaespatlles__n"/></e>
 <e lm="guardaespatles" v="val"><p><l>guardaespatles</l><r>guardaespatles</r></p><par n="guardaespatlles__n"/></e>
 <e lm="guardamobles"><i>guardamobles</i><par n="campus__n"/></e>
 <e r="LR" lm="vidriola"><i>vidriol</i><par n="abell/a__n"/></e>
@@ -109009,7 +108995,6 @@
 <e lm="indeterminisme"><i>indeterminisme</i><par n="abric__n"/></e>
 <e lm="indirecta"><i>indirect</i><par n="abell/a__n"/></e>
 <e lm="indisputabilitat"><i>indisputabilitat</i><par n="accessibilitat__n"/></e>
-<e lm="individualizació"><i>individualizaci</i><par n="acci/ó__n"/></e>
 <e lm="indolència"><i>indolènci</i><par n="abell/a__n"/></e>
 <e lm="indoxinès"><i>indoxin</i><par n="angl/ès__n"/></e>
 <e lm="industrial"><i>industrial</i><par n="acompanyant__n"/></e>
@@ -109044,7 +109029,6 @@
 <e r="LR" lm="subinspector"><i>subinspector</i><par n="senyor__n"/></e>
 <e lm="preinstal·lació"><i>preinstal·laci</i><par n="acci/ó__n"/></e>
 <e lm="institutor"><i>institut</i><par n="emperad/or__n"/></e>
-<e lm="instrumentalizació"><i>instrumentalizaci</i><par n="acci/ó__n"/></e>
 <e lm="insubmissió"><i>insubmissi</i><par n="acci/ó__n"/></e>
 <e lm="insídia"><i>insídi</i><par n="abell/a__n"/></e>
 <e lm="integrabilitat"><i>integrabilitat</i><par n="accessibilitat__n"/></e>
@@ -109670,7 +109654,6 @@
 <e lm="postgraduat"><i>postgradua</i><par n="advoca/t__n"/></e>
 <e lm="postvenda"><i>postvend</i><par n="abell/a__n"/></e>
 <e lm="potabilitat"><i>potabilitat</i><par n="accessibilitat__n"/></e>
-<e lm="potasi"><i>potasi</i><par n="abric__n"/></e>
 <e lm="potencial"><i>potencial</i><par n="abric__n"/></e>
 <e lm="praxi"><i>praxi</i><par n="accessibilitat__n"/></e>
 <e lm="preavís"><i>preav</i><par n="av/ís__n"/></e>

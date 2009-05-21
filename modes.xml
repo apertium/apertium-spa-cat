@@ -364,6 +364,13 @@
       </program>
     </pipeline>
   </mode>
+  <mode name="val-ca-es-anmor" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="val-ca-es.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
   
   <mode name="val-es-ca" install="yes">
     <pipeline>
