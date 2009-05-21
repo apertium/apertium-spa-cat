@@ -12778,6 +12778,12 @@
 
     </pardef>
     <pardef n="allò__prn">
+      <e r="RL">
+      <p>
+        <l></l> 
+        <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l></l> 
@@ -13974,6 +13980,19 @@
       </p>
     </e>
 
+    <e v="val">
+      <p>
+        <l>les<b/>seues</l> 
+        <r>el<b/>seu<s n="rel"/><s n="aa"/><s n="f"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e v="val">
+      <p>
+        <l>la<b/>seua</l> 
+        <r>el<b/>seu<s n="rel"/><s n="aa"/><s n="f"/><s n="sg"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>els<b/>seus</l> 
@@ -28005,6 +28024,91 @@
       </p>
     </e>
 
+
+    <e v="val" r="RL">
+      <p>
+        <l>isquérem</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e v="cat" r="RL">
+      <p>
+        <l>eixíssim</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e v="val" r="RL">
+      <p>
+        <l>isquera</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e v="cat" r="RL">
+      <p>
+        <l>eixís</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e v="val" r="RL">
+      <p>
+        <l>isquéreu</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e v="cat" r="RL">
+      <p>
+        <l>eixíssiu</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e v="val" r="RL">
+      <p>
+        <l>isqueres</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e v="cat" r="RL">
+      <p>
+        <l>eixissis</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e v="val" r="RL">
+      <p>
+        <l>isqueren</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+
+    <e v="cat" r="RL">
+      <p>
+        <l>eixissin</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e v="val" r="RL">
+      <p>
+        <l>isquera</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
+    <e v="cat" r="RL">
+      <p>
+        <l>eixís</l> 
+        <r>eixir<s n="vblex"/><s n="fts"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+
     <e>
       <p>
         <l>eixint</l> 
@@ -28055,7 +28159,7 @@
       </p>
     </e>
 
-    <e v="LR">
+    <e r="LR">
       <p>
         <l>isquéreu</l> 
         <r>eixir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r> 
@@ -28069,7 +28173,7 @@
       </p>
     </e>
 
-    <e v="LR">
+    <e r="LR">
       <p>
         <l>isqueres</l> 
         <r>eixir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r> 
@@ -28083,7 +28187,7 @@
       </p>
     </e>
 
-    <e v="LR">
+    <e r="LR">
       <p>
         <l>isqueren</l> 
         <r>eixir<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r> 
@@ -28097,7 +28201,7 @@
       </p>
     </e>
 
-    <e v="LR">
+    <e r="LR">
       <p>
         <l>isqué</l> 
         <r>eixir<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r> 
@@ -28268,6 +28372,12 @@
 
     <e v="val">
       <p>
+        <l>isquérem</l> 
+        <r>eixir<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
         <l>eixírem</l> 
         <r>eixir<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r> 
       </p>
@@ -28281,6 +28391,12 @@
     </e>
 
     <e v="val">
+      <p>
+        <l>isquera</l> 
+        <r>eixir<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="LR">
       <p>
         <l>eixira</l> 
         <r>eixir<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r> 
@@ -28296,6 +28412,12 @@
 
     <e v="val">
       <p>
+        <l>isquéreu</l> 
+        <r>eixir<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
+      </p>
+    </e>
+    <e r="LR">
+      <p>
         <l>eixíreu</l> 
         <r>eixir<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r> 
       </p>
@@ -28309,6 +28431,12 @@
     </e>
 
     <e v="val">
+      <p>
+        <l>isqueres</l> 
+        <r>eixir<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="LR">
       <p>
         <l>eixires</l> 
         <r>eixir<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r> 
@@ -28324,6 +28452,13 @@
 
     <e v="val">
       <p>
+        <l>isqueren</l> 
+        <r>eixir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
+
+    <e r="LR">
+      <p>
         <l>eixiren</l> 
         <r>eixir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r> 
       </p>
@@ -28337,6 +28472,12 @@
     </e>
 
     <e v="val">
+      <p>
+        <l>isquera</l> 
+        <r>eixir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
+    <e r="LR">
       <p>
         <l>eixira</l> 
         <r>eixir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r> 
@@ -29975,14 +30116,14 @@
     <e v="val">
       <p>
         <l>facen</l> 
-        <r>fer<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r> 
+        <r>er<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r> 
       </p>
     </e>
 
     <e v="val">
       <p>
         <l>facen</l> 
-        <r>fer<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r> 
+        <r>er<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r> 
       </p>
         <par n="S__anant"/> 
     </e>
@@ -55633,6 +55774,12 @@
         <r>orir<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
       </p>
     </e>
+    <e v="val">
+      <p>
+        <l>uira</l> 
+        <r>orir<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
 
     <e>
       <p>
@@ -55655,6 +55802,12 @@
       </p>
     </e>
 
+    <e v="val">
+      <p>
+        <l>uires</l> 
+        <r>orir<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
+      </p>
+    </e>
     <e v="cat">
       <p>
         <l>orin</l> 
@@ -55669,6 +55822,12 @@
       </p>
     </e>
 
+    <e v="val">
+      <p>
+        <l>uiren</l> 
+        <r>orir<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
+      </p>
+    </e>
     <e v="cat">
       <p>
         <l>ori</l> 
@@ -55683,6 +55842,12 @@
       </p>
     </e>
 
+    <e v="val">
+      <p>
+        <l>uira</l> 
+        <r>orir<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
+      </p>
+    </e>
     </pardef>
     <pardef n="sobres/ortir__vblex">
     <e>
@@ -60560,6 +60725,12 @@
       </p>
     </e>
 
+    <e v="val">
+      <p>
+        <l></l> 
+        <r>re<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
+      </p>
+    </e>
     <e>
       <p>
         <l>eu</l> 
@@ -76118,7 +76289,7 @@
 <e lm="bohemi"><i>boh</i><par n="boh/emi__adj"/></e>
 <e lm="boig"><i>bo</i><par n="bo/ig__adj"/></e>
 <e lm="bon"><i>bon</i><par n="alt__adj"/></e>
-<e lm="bonic"><i>boni</i><par n="acadèmi/c__adj"/></e>
+<e lm="bonic"><i>boni</i><par n="blan/c__adj"/></e>
 <e lm="borsari"><i>bors</i><par n="adjudicat/ari__adj"/></e>
 <e lm="botànic"><i>botàni</i><par n="acadèmi/c__adj"/></e>
 <e lm="brasiler"><i>brasiler</i><par n="absolut__adj"/></e>
@@ -78531,6 +78702,7 @@
 <e lm="eh"><i>eh</i><par n="a_reveure__ij"/></e>
 <e r="RL" lm="fins ara"><i>fins<b/>ara</i><par n="a_reveure__ij"/></e>
 <e v="cat" lm="fins aviat"><i>fins<b/>aviat</i><par n="a_reveure__ij"/></e>
+<e v="val" lm="fins prompte"><i>fins<b/>prompte</i><par n="a_reveure__ij"/></e>
 <e lm="fotre"><i>fotre</i><par n="a_reveure__ij"/></e>
 <e lm="hola"><i>hola</i><par n="a_reveure__ij"/></e>
 <e lm="hòstia"><i>hòstia</i><par n="a_reveure__ij"/></e>
@@ -81126,6 +81298,7 @@
 <e lm="gamba"><i>gamb</i><par n="abell/a__n"/></e>
 <e lm="gamma"><i>gamm</i><par n="abell/a__n"/></e>
 <e v="cat" lm="gana"><i>gan</i><par n="abell/a__n"/></e>
+<e v="val" lm="gana"><i>gan</i><par n="abell/a__n"/></e>
 <e lm="ganivet"><i>ganivet</i><par n="abric__n"/></e>
 <e lm="ganxo"><i>ganxo</i><par n="abric__n"/></e>
 <e lm="ganyota"><i>ganyot</i><par n="abell/a__n"/></e>
@@ -81676,7 +81849,7 @@
 <e lm="llama"><i>llam</i><par n="abell/a__n"/></e>
 <e lm="llaminadura"><i>llaminadur</i><par n="abell/a__n"/></e>
 <e lm="llana"><i>llan</i><par n="abell/a__n"/></e>
-<e r="RL" lm="llanda"><i>lland</i><par n="abell/a__n"/></e>
+<e lm="llanda"><i>lland</i><par n="abell/a__n"/></e>
 <e lm="llanterna"><i>llantern</i><par n="abell/a__n"/></e>
 <e lm="llançador"><i>llançador</i><par n="senyor__n"/></e>
 <e lm="llançadora"><i>llançador</i><par n="abell/a__n"/></e>
@@ -95890,7 +96063,7 @@
 <e lm="missal" a="prompsit"><i>missal</i><par n="abric__n"/></e>
 <e lm="moltó" a="prompsit"><i>molt</i><par n="aband/ó__n"/></e>
 <e lm="papamosques" a="prompsit"><i>papamosques</i><par n="campus__n"/></e>
-<e lm="pardal" a="prompsit"><i>pardal</i><par n="senyor__n"/></e>
+<e lm="pardal" a="prompsit"><i>pardal</i><par n="abric__n"/></e>
 <e lm="perdigó" a="prompsit"><i>perdig</i><par n="aband/ó__n"/></e>
 <e lm="plomall" a="prompsit"><i>plomall</i><par n="abric__n"/></e>
 <e lm="poltre" a="prompsit"><i>poltre</i><par n="abric__n"/></e>
@@ -107872,9 +108045,7 @@
 <e lm="cop d'ull" v="cat"><p><l>cop</l> <r>cop</r></p><par n="abric__n"/><p><l><b/>d'ull</l><r><g><b/>d'ull</g></r></p></e>
 <e lm="cop de fuet"><p><l>cop</l> <r>cop</r></p><par n="abric__n"/><p><l><b/>de<b/>fuet</l><r><g><b/>de<b/>fuet</g></r></p></e>
 <e lm="cop de porta" v="cat"><p><l>cop</l> <r>cop</r></p><par n="abric__n"/><p><l><b/>de<b/>porta</l><r><g><b/>de<b/>porta</g></r></p></e>
-<e lm="colp de porta" v="val"><p><l>colp</l> <r>colp</r></p><par n="abric__n"/><p><l><b/>de<b/>porta</l><r><g><b/>de<b/>porta</g></r></p></e>
 <e lm="cop de puny" v="cat"><p><l>cop</l> <r>cop</r></p><par n="abric__n"/><p><l><b/>de<b/>puny</l><r><g><b/>de<b/>puny</g></r></p></e>
-<e lm="colp de puny" v="val"><p><l>colp</l> <r>colp</r></p><par n="abric__n"/><p><l><b/>de<b/>puny</l><r><g><b/>de<b/>puny</g></r></p></e>
 <e lm="colp" v="val"><p><l>colp</l>  <r>colp</r></p><par n="abric__n"/></e>
 <e lm="copejament"><i>copejament</i><par n="abric__n"/></e>
 <e lm="copiador"><i>copiador</i><par n="senyor__n"/></e>
