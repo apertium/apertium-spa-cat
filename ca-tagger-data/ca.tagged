@@ -458,8 +458,7 @@
  ^la/el<det><def><f><sg>$
  ^festivitat/festivitat<n><f><sg>$
  ^de/de<pr>$
-   ^Sant/Sant<n><m><sg>$
-  ^Antoni/Antoni<np><ant>$
+   ^Sant Antoni/Sant Antoni<np><loc>$
  ^./.<sent>$
  
 ^Foto/Foto<n><f><sg>$
@@ -499,8 +498,7 @@
  ^Tres/Tres<num><mf><sp>$
  ^Tombs/Tomb<n><m><pl>$
  ^de/de<pr>$
-   ^Sant/Sant<n><m><sg>$
-  ^Antoni/Antoni<np><ant>$
+   ^Sant Antoni/Sant Antoni<np><loc>$
  ^,/,<cm>$
  ^que/que<rel><an><mf><sp>$
  ^van/anar<vblex><pri><p3><pl>$
@@ -631,8 +629,7 @@
  ^deixarà/deixar<vblex><fti><p3><sg>$
  ^de/de<pr>$
  ^ser/ser<vbser><inf>$
- ^de/de<pr>$
-  ^franc/franc<adj><m><sg>$
+ ^de franc/de franc<adv>$
  ^als/a<pr>+el<det><def><m><pl>$
  ^migdies/migdia<n><m><pl>$
  ^(/(<lpar>$
@@ -754,8 +751,7 @@
  ^que/que<rel><an><mf><sp>$
  ^actualment/actualment<adv>$
  ^són/ser<vbser><pri><p3><pl>$
- ^de/de<pr>$
-  ^franc/franc<adj><m><sg>$
+ ^de franc/de franc<adv>$
  ^en/en<pr>$
  ^zones/zona<n><f><pl>$
  ^verdes/verd<adj><f><pl>$
@@ -886,8 +882,7 @@
  ^la/el<det><def><f><sg>$
  ^zona/zona<n><f><sg>$
  ^blava/blau<adj><f><sg>$
-  ^al/a<pr>+el<det><def><m><sg>$
-  ^migdia/migdia<n><m><sg>$
+  ^al migdia/al migdia<adv>$
  ^s'/es<prn><pro><ref><p3><mf><sp>$
  ^aplicarà/aplicar<vblex><fti><p3><sg>$
  ^amb/amb<pr>$
@@ -926,9 +921,7 @@
  ^dos/dos<num><m><sp>$
  ^torns/torn<n><m><pl>$
  ^(/(<lpar>$
- ^matí/matí<n><m><sg>$
- ^i/i<cnjcoo>$
- ^tarda/tarda<n><f><sg>$
+ ^matí i tarda/matí i tarda<adv>$
  ^)/)<rpar>$
  ^i/i<cnjcoo>$
  ^es/es<prn><pro><ref><p3><mf><sp>$
@@ -1034,8 +1027,7 @@
  ^nombre/nombre<n><m><sg>$
  ^de/de<pr>$
  ^morts/mort<n><m><pl>$
- ^al/a<pr>+el<det><def><m><sg>$
- ^món/món<n><m><sg>$
+ ^al món/al món<adv>$
  ^per/per<pr>$
  ^efecte/efecte<n><m><sg>$
  ^de/de<pr>$
@@ -1379,9 +1371,7 @@
  
 ^La/El<det><def><f><sg>$
  ^contractació/contractació<n><f><sg>$
-  ^a/a<pr>$
-  ^temps/temps<n><m><sp>$
-  ^parcial/parcial<adj><mf><sg>$
+ ^a temps parcial/a temps parcial<adv>$ 
  ^s'/es<prn><pro><ref><p3><mf><sp>$
  ^ha/haver<vbhaver><pri><p3><sg>$
  ^disparat/disparar<vblex><pp><m><sg>$
@@ -1498,8 +1488,7 @@
  ^dones/dona<n><f><pl>$
  ^que/que<rel><an><mf><sp>$
  ^decideixen/decidir<vblex><pri><p3><pl>$
-  ^reinserir/*reinserir$
--^se/es<prn><pro><ref><p3><mf><sp>$
+  ^reinserir-se/reinserir<vblex><inf>+es<prn><enc><ref><p3><mf><sp>$
  ^al/a<pr>+el<det><def><m><sg>$
  ^mercat/mercat<n><m><sg>$
  ^laboral/laboral<adj><mf><sg>$
@@ -1634,10 +1623,7 @@
  ^dones/dona<n><f><pl>$
  ^./.<sent>$
  
-^Santa/Sant<n><f><sg>$
-  ^Coloma/Colom<n><f><sg>/Coloma<np><ant>$
-  ^de/de<pr>$
-  ^Gramenet/*Gramenet$
+^Santa Coloma de Gramenet/Santa Coloma de Gramenet<np><loc>$
  ^,/,<cm>$
  ^amb/amb<pr>$
  ^una/un<det><ind><f><sg>$
@@ -1654,10 +1640,7 @@
  ^poblacions/població<n><f><pl>$
  ^,/,<cm>$
  ^com/com<pr>$
- ^Sant/Sant<n><m><sg>$
-  ^Adrià/Adrià<np><ant>$
-  ^de/de<pr>$
-  ^Besòs/Besòs<np><loc>$
+ ^Sant Adrià de Besòs/Sant Adrià de Besòs<np><loc>$
  ^,/,<cm>$
  ^que/que<rel><an><mf><sp>$
  ^té/tenir<vblex><pri><p3><sg>$
@@ -1876,9 +1859,7 @@
  
 ^Usuaris/Usuari<n><m><pl>$
  ^dels/de<pr>+el<det><def><m><pl>$
- ^trens/tren<n><m><pl>$
- ^de/de<pr>$
- ^Rodalies/Rodalia<n><f><pl>$
+ ^trens de Rodalies/tren<n><m><pl># de rodalies$
  ^de/de<pr>$
  ^Renfe/Renfe<np><al>$
  ^han/haver<vbhaver><pri><p3><pl>$
@@ -1969,10 +1950,7 @@
  ^un/un<det><ind><m><sg>$
  ^usuari/usuari<n><m><sg>$
  ^de/de<pr>$
- ^Sant/Sant<n><m><sg>$
-  ^Cebrià/*Cebrià$
-  ^de/de<pr>$
-  ^Vallalta/*Vallalta$
+ ^Sant Cebrià de Vallalta/Sant Cebrià de Vallalta<np><loc>$
  ^(/(<lpar>$
  ^Maresme/Maresme<np><loc>$
  ^)/)<rpar>$
@@ -3256,8 +3234,7 @@
  ^h/h<n><f><sp>$
  ^./.<sent>$
  
-^La/El<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+^La Generalitat/La Generalitat<np><al>$
  ^donarà/donar<vblex><fti><p3><sg>$
  ^un/un<det><ind><m><sg>$
  ^màxim/màxim<n><m><sg>$
@@ -3544,9 +3521,7 @@
  ^anunciar/anunciar<vblex><inf>$
  ^ahir/ahir<adv>$
  ^a/a<pr>$
- ^Mollet/*Mollet$
-  ^del/de<pr>+el<det><def><m><sg>$
-  ^Vallès/*Vallès$
+ ^Mollet del Vallès/Mollet del Vallès<np><loc>$
  ^,/,<cm>$
  ^després/després<adv>$
   ^d'/de<pr>$
@@ -3918,10 +3893,7 @@
  ^Perramon/Perramon<np><ant>$
  ^./.<sent>$
  
-^Sant/Sant<n><m><sg>$
-  ^Cebrià/*Cebrià$
-  ^de/de<pr>$
-  ^Vallalta/*Vallalta$
+^Sant Cebrià de Vallalta/Sant Cebrià de Vallalta<np><loc>$
  ^./.<sent>$
  
 ^20.01/20.01<num>$
@@ -4102,10 +4074,7 @@
  ^Perramon/Perramon<np><ant>$
  ^./.<sent>$
  
-^Sant/Sant<n><m><sg>$
-  ^Cebrià/*Cebrià$
-  ^de/de<pr>$
-  ^Vallalta/*Vallalta$
+^Sant Cebrià de Vallalta/Sant Cebrià de Vallalta<np><loc>$
  ^./.<sent>$
  
 ^El/El<det><def><m><sg>$
@@ -4120,9 +4089,7 @@
  ^González/González<np><ant>$
  ^./.<sent>$
  
-^Vilafranca/Vilafranca<np><loc>$
-  ^del/de<pr>+el<det><def><m><sg>$
-  ^Penedès/Penedès<np><loc>$
+^Vilafranca del Penedès/Vilafranca del Penedès<np><loc>$
  ^./.<sent>$
  
 ^20.01/20.01<num>$
@@ -4320,9 +4287,7 @@
  ^González/González<np><ant>$
  ^./.<sent>$
  
-^Vilafranca/Vilafranca<np><loc>$
-  ^del/de<pr>+el<det><def><m><sg>$
-  ^Penedès/Penedès<np><loc>$
+^Vilafranca del Penedès/Vilafranca del Penedès<np><loc>$
  ^./.<sent>$
  
 ^Preferències/Preferència<n><f><pl>$
@@ -4680,9 +4645,7 @@
  ^les/el<det><def><f><pl>$
  ^tarifes/tarifa<n><f><pl>$
  ^dels/de<pr>+el<det><def><m><pl>$
- ^trens/tren<n><m><pl>$
- ^de/de<pr>$
- ^Rodalies/Rodalia<n><f><pl>$
+ ^trens de Rodalies/tren<n><m><pl># de rodalies$
  ^de/de<pr>$
  ^Renfe/Renfe<np><al>$
  ^no/no<adv>$
@@ -4740,9 +4703,7 @@
  ^afectarà/afectar<vblex><fti><p3><sg>$
  ^tant/tant<adv>$
  ^els/el<det><def><m><pl>$
- ^trens/tren<n><m><pl>$
- ^de/de<pr>$
- ^Rodalies/Rodalia<n><f><pl>$
+ ^trens de Rodalies/tren<n><m><pl># de rodalies$
  ^com/com<pr>$
  ^les/el<det><def><f><pl>$
  ^línies/línia<n><f><pl>$
@@ -4836,8 +4797,8 @@
  ^l'/el<det><def><mf><sg>$
  ^IPC/IPC<n><acr><m><sg>$
  ^acumulat/acumular<vblex><pp><m><sg>$
- ^l'/el<det><def><mf><sg>$
- ^any/any<n><m><sg>$
+ ^l'/el<det><def><mf><sg>$  
+ ^any/any<n><m><sg>$ 
  ^passat/passar<vblex><pp><m><sg>$
  ^,/,<cm>$
  ^que/que<rel><an><mf><sp>$
@@ -4906,9 +4867,7 @@
  ^viatjar/viatjar<vblex><inf>$
  ^en/en<pr>$
  ^els/el<det><def><m><pl>$
- ^trens/tren<n><m><pl>$
- ^de/de<pr>$
- ^Rodalies/Rodalia<n><f><pl>$
+ ^trens de Rodalies/tren<n><m><pl># de rodalies$
  ^costa/costar<vblex><pri><p3><sg>$
  ^actualment/actualment<adv>$
  ^1,10/1,10<num>$
@@ -5056,8 +5015,7 @@
  ^Obres/Obra<n><f><pl>$
  ^Públiques/Públic<adj><f><pl>$
  ^de/de<pr>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^./.<sent>$
  
 ^L'/El<det><def><mf><sg>$
@@ -5101,8 +5059,7 @@
  ^del/de<pr>+el<det><def><m><sg>$
  ^Ferrocarrils/Ferrocarril<n><m><pl>$
  ^de/de<pr>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^de/de<pr>$
  ^Catalunya/Catalunya<np><loc>$
  ^i/i<cnjcoo>$
@@ -5125,8 +5082,7 @@
   ^aquest/aquest<det><dem><m><sg>$
   ^motiu/motiu<n><m><sg>$
  ^,/,<cm>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^ha/haver<vbhaver><pri><p3><sg>$
  ^decidit/decidir<vblex><pp><m><sg>$
  ^canviar/canviar<vblex><inf>$
@@ -5341,9 +5297,7 @@
  ^persones/persona<n><f><pl>$
  ^van/anar<vblex><pri><p3><pl>$
  ^assistir/assistir<vblex><inf>$
- ^de/de<pr>$
-  ^bon/bon<adj><m><sg>$
-  ^matí/matí<n><m><sg>$
+ ^de bon matí/de bon matí<adv>$
  ^al/a<pr>+el<det><def><m><sg>$
  ^poliesportiu/poliesportiu<n><m><sg>$
  ^municipal/municipal<adj><mf><sg>$
@@ -5595,9 +5549,7 @@
  ^Joan/Joan<np><ant>$
  ^Montes/Montes<np><ant>$
  ^,/,<cm>$
- ^a/a<pr>$
-  ^l'/el<det><def><mf><sg>$
-  ^espera/espera<n><f><sg>$
+ ^a l'espera/a l'espera<adv>$
  ^de/de<pr>$
  ^la/el<det><def><f><sg>$
  ^incorporació/incorporació<n><f><sg>$
@@ -6524,9 +6476,7 @@
  ^es/es<prn><pro><ref><p3><mf><sp>$
  ^podria/poder<vbmod><cni><p3><sg>$
  ^fer/fer<vblex><inf>$
- ^d'/de<pr>$
-  ^una altra/un altre<prn><tn><f><sg>/un altre<det><ind><f><sg>$
-  ^manera/manera<n><f><sg>$
+ ^d'una altra manera/d'una altra manera<adv>$
  ^,/,<cm>$
  ^per/per<pr>$
  ^afegir-hi/afegir<vblex><inf>+hi<prn><enc><adv>$
@@ -6779,8 +6729,7 @@
  ^joves/jove<n><mf><pl>$
  ^que/que<rel><an><mf><sp>$
  ^vulguin/voler<vbmod><prs><p3><pl>$
- ^formar/formar<vblex><inf>$
- ^part/part<n><f><sg>$
+ ^formar part/formar<vblex><inf># part$
  ^d'/de<pr>$
  ^aquest/aquest<det><dem><m><sg>$
  ^moviment/moviment<n><m><sg>$
@@ -7398,8 +7347,7 @@
 ^Penso/Pensar<vblex><pri><p1><sg>$
  ^que/que<cnjsub>$
  ^cal/caldre<vbmod><pri><p3><sg>$
- ^retre/*retre$
-  ^homenatge/homenatge<n><m><sg>$
+ ^retre homenatge/retre<vblex><inf># homenatge$
  ^a/a<pr>$
  ^la/el<det><def><f><sg>$
  ^mestra/mestre<n><f><sg>$
@@ -7635,10 +7583,7 @@
  ^anys/any<n><m><pl>$
  ^./.<sent>$
  
-^Sant/Sant<n><m><sg>$
-  ^Cebrià/*Cebrià$
-  ^de/de<pr>$
-  ^Vallalta/*Vallalta$
+^Sant Cebrià de Vallalta/Sant Cebrià de Vallalta<np><loc>$
  ^./.<sent>$
  
 ^La/El<det><def><f><sg>$
@@ -7774,8 +7719,7 @@
  ^crec/creure<vblex><pri><p1><sg>$
  ^que/que<cnjsub>$
  ^està/estar<vblex><pri><p3><sg>$
- ^molt/molt<preadv>$
- ^bé/bé<adv>$
+ ^molt bé/molt bé<adv>$
  ^que/que<cnjsub>$
  ^el/el<det><def><m><sg>$
  ^professorat/professorat<n><m><sg>$
@@ -8002,10 +7946,7 @@
  ^,/,<cm>$
  ^podem/poder<vbmod><pri><p1><pl>$
  ^seguir/seguir<vblex><inf>$
- ^de/de<pr>$
-  ^la/el<det><def><f><sg>$
-  ^mateixa/mateix<adj><f><sg>$
-  ^manera/manera<n><f><sg>$
+ ^de la mateixa manera/de la mateixa manera<adv>$
  ^com ara/com ara<adv>$
  ^,/,<cm>$
  ^però/però<cnjcoo>$
@@ -8016,8 +7957,7 @@
  ^què/què<rel><an><mf><sp>$
  ^disposo/disposar<vblex><pri><p1><sg>$
  ^,/,<cm>$
- ^a part/a_part<adv>$
- ^dels/de<pr>+el<det><def><m><pl>$
+ ^a part dels/a part de<pr>+el<det><def><m><pl>$
  ^possibles/possible<adj><mf><pl>$
  ^testimonis/testimoni<n><mf><pl>$
  ^que/que<rel><an><mf><sp>$
@@ -8607,9 +8547,7 @@
 ^Els/El<det><def><m><pl>$
  ^ferits/ferit<n><m><pl>$
  ^són/ser<vbser><pri><p3><pl>$
- ^fora/fora<adv>$
- ^de/de<pr>$
- ^perill/perill<n><m><sg>$
+ ^fora de perill/fora de perill<adv>$
  ^a/a<pr>$
  ^l'/el<det><def><mf><sg>$
  ^Hospital/Hospital<n><m><sg>$
@@ -8958,8 +8896,7 @@
  ^la/el<det><def><f><sg>$
  ^línia/línia<n><f><sg>$
  ^del/de<pr>+el<det><def><m><sg>$
- ^Baix/Baix<adv>/Baix<adj><m><sg>$
- ^Llobregat/Llobregat<np><loc>$
+ ^Baix Llobregat/Baix Llobregat<np><loc>$
  ^,/,<cm>$
  ^que/que<cnjsub>$
  ^el/el<det><def><m><sg>$
@@ -9120,10 +9057,8 @@
  ^a/a<pr>$
  ^l'/el<det><def><mf><sg>$
  ^entrada/entrada<n><f><sg>$
- ^de/de<pr>$
- ^Sant Feliu/Sant Feliu<np><loc>$
-  ^de/de<pr>$
-  ^LLobregat/Llobregat<np><loc>$
+ ^de/de<pr>$ 
+ ^Sant Feliu de LLobregat/Sant Feliu de Llobregat<np><loc>$
  ^,/,<cm>$
  ^i/i<cnjcoo>$
  ^la/el<det><def><f><sg>$
@@ -9424,8 +9359,7 @@
  ^es/es<prn><pro><ref><p3><mf><sp>$
  ^disposa/disposar<vblex><pri><p3><sg>$
  ^a/a<pr>$
- ^retre/*retre$
-  ^homenatge/homenatge<n><m><sg>$
+ ^retre homenatge/retre<vblex><inf># homenatge$
  ^als/a<pr>+el<det><def><m><pl>$
  ^homosexuals/homosexual<n><mf><pl>$
  ^perseguits/perseguir<vblex><pp><m><pl>$
@@ -9813,8 +9747,7 @@
  ^./.<sent>$
  
 ^El/El<det><def><m><sg>$
- ^diumenge/diumenge<n><m><sg>$
- ^passat/passat<n><m><sg>/passar<vblex><pp><m><sg>$
+ ^diumenge passat/diumenge passat<adv>$
  ^,/,<cm>$
  ^juntament amb/juntament_amb<pr>$
  ^el/el<det><def><m><sg>$
@@ -9885,8 +9818,7 @@
  ^en/en<pr>$
  ^un/un<det><ind><m><sg>$
  ^any/any<n><m><sg>$
- ^i/i<cnjcoo>$
-  ^escaig/*escaig$
+ ^i escaig/i escaig<adv>$
  ^de/de<pr>$
  ^govern/govern<n><m><sg>$
  ^han/haver<vbhaver><pri><p3><pl>$
@@ -10144,8 +10076,7 @@
  ^tindrà/tenir<vblex><fti><p3><sg>$
  ^aquí/aquí<adv>$
  ^,/,<cm>$
- ^al/a<pr>+el<det><def><m><sg>$
- ^món/món<n><m><sg>$
+ ^al món/al món<adv>$
  ^real/real<adj><mf><sg>$
  ^./.<sent>$
  
@@ -10175,8 +10106,7 @@
  ^les/el<det><def><f><pl>$
  ^ajudes/ajuda<n><f><pl>$
  ^que/que<rel><an><mf><sp>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^dóna/donar<vblex><pri><p3><sg>$
  ^als/a<pr>+el<det><def><m><pl>$
  ^ciutadans/ciutadà<n><m><pl>$
@@ -10242,8 +10172,7 @@
  ^les/el<det><def><f><pl>$
  ^agències/agència<n><f><pl>$
  ^de/de<pr>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^,/,<cm>$
  ^com/com<pr>$
  ^Adigsa/Adigsa<np><al>$
@@ -10274,8 +10203,7 @@
  ^?/?<sent>$
  
 ^Perquè/Perquè<cnjadv>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^es/es<prn><pro><ref><p3><mf><sp>$
  ^retroalimenta/retroalimentar<vblex><pri><p3><sg>$
  ^a/a<pr>$
@@ -13577,8 +13505,7 @@
  ^de/de<pr>$
  ^Catalunya/Catalunya<np><loc>$
  ^(/(<lpar>$
- ^pl/*pl$
- ^./.<sent>$
+ ^pl./pl.<n><f><sg>$
  ^de/de<pr>$
  ^les/el<det><def><f><pl>$
  ^Arts/Art<n><mf><pl>$
@@ -13644,8 +13571,7 @@
  ^al/a<pr>+el<det><def><m><sg>$
  ^Lliure/Lliure<np><loc>$
  ^(/(<lpar>$
-  ^pl/*pl$
- ^./.<sent>$
+  ^pl./pl.<n><f><sg>$
  ^Margarida/Margarida<n><f><sg>$
  ^Xirgu/Xirgu<np><ant>$
  ^,/,<cm>$
@@ -13744,8 +13670,7 @@
  ^?/?<sent>$
  
 ^Així com/Així_com<cnjadv>$
-^volen/voler<vbmod><pri><p3><pl>$
- ^que/que<cnjsub>$
+^volen que/voler<vblex><pri><p3><pl># que$
  ^defensem/defensar<vblex><pri><p1><pl>$
  ^la/el<det><def><f><sg>$
  ^Seguretat/Seguretat<n><f><sg>$
@@ -13820,8 +13745,7 @@
  ^salut/salut<n><f><sg>$
  ^i/i<cnjcoo>$
  ^,/,<cm>$
- ^de/de<pr>$
-  ^passada/passar<vblex><pp><f><sg>$
+ ^de passada/de passada<adv>$
  ^,/,<cm>$
  ^reduir/reduir<vblex><inf>$
  ^el/el<det><def><m><sg>$
@@ -13881,8 +13805,7 @@
  ^no/no<adv>$
  ^ens/ens<prn><pro><p1><mf><pl>$
  ^aturem/aturar<vblex><pri><p1><pl>$
- ^per/per<pr>$
- ^res/res<prn><tn><nt>$
+ ^per res/per res<adv>$
  ^./.<sent>$
  
 ^Patrick/Patrick<np><ant>$
@@ -13902,8 +13825,7 @@
 ^Te/Te<n><m><sg>$
  ^n'hi/en<prn><pro><adv>+hi<prn><pro><adv>$
  ^vas/anar<vblex><pri><p2><sg>$
- ^tot/tot<predet><m><sg>$
-  ^sol/sol<adj><m><sg>$
+ ^tot sol/tot sol<adv>$
  ^?/?<sent>$
  
 ^No/No<adv>$
@@ -13950,8 +13872,7 @@
  ^què/què<prn><itg><mf><sg>$
  ^s'/es<prn><pro><ref><p3><mf><sp>$
  ^amaga/amagar<vblex><pri><p3><sg>$
- ^al/a<pr>+el<det><def><m><sg>$
- ^món/món<n><m><sg>$
+ ^al món/al món<adv>$
  ^oriental/oriental<adj><mf><sg>$
  ^i/i<cnjcoo>$
  ^fer-ho/fer<vblex><inf>+ho<prn><enc><p3><nt>$
@@ -13982,9 +13903,7 @@
  ^polítics/polític<adj><m><pl>$
  ^o/o<cnjcoo>$
  ^els/el<det><def><m><pl>$
-^mitjans/mitjà<n><m><pl>$
-  ^de/de<pr>$
-  ^comunicació/comunicació<n><f><sg>$
+^mitjans de comunicació/mitjà<n><m><pl># de comunicació$
  ^,/,<cm>$
  ^que/que<rel><an><mf><sp>$
  ^,/,<cm>$
@@ -14027,8 +13946,7 @@
  ^,/,<cm>$
  ^sense/sense<pr>$
  ^aturar-nos/aturar<vblex><inf>+ens<prn><enc><p1><mf><pl>$
- ^per/per<pr>$
- ^res/res<prn><tn><nt>$
+ ^per res/per res<adv>$
  ^./.<sent>$
  
 ^Per/Per<pr>$
@@ -14259,9 +14177,7 @@
 ^Amb/Amb<pr>$
  ^una/un<det><ind><f><sg>$
  ^petita/petit<adj><f><sg>$
- ^bossa/bossa<n><f><sg>$
- ^de/de<pr>$
- ^mà/mà<n><f><sg>$
+ ^bossa de mà/bossa de mà<n><f><sg>$
  ^i/i<cnjcoo>$
  ^el/el<det><def><m><sg>$
  ^gat/gat<n><m><sg>$
@@ -14275,10 +14191,8 @@
  ^Romero/Romero<np><ant>$
  ^sortia/sortir<vblex><pii><p3><sg>$
  ^ahir/ahir<adv>$
-  ^al/a<pr>+el<det><def><m><sg>$
-  ^migdia/migdia<n><m><sg>$
- ^a/a<pr>$
-  ^corre/córrer<vblex><imp><p2><sg>$-^cuita/coure<vblex><pp><f><sg>$
+  ^al migdia/al migdia<adv>$
+ ^a corre-cuita/a corre-cuita<adv>$
  ^del/de<pr>+el<det><def><m><sg>$
  ^barri/barri<n><m><sg>$
  ^./.<sent>$
@@ -14326,9 +14240,7 @@
  ^no/no<adv>$
  ^es/es<prn><pro><ref><p3><mf><sp>$
  ^podia/poder<vbmod><pii><p3><sg>$
- ^fer/fer<vblex><inf>$
-  ^marxa/marxa<n><f><sg>$
-  ^enrere/*enrere$
+ ^fer marxa enrere/fer<vblex><inf># marxa enrere$
  ^./.<sent>$
  
 ^Ho/Ho<prn><pro><p3><nt>$
@@ -14970,10 +14882,7 @@
  ^de/de<pr>$
  ^l'/el<det><def><mf><sg>$
  ^infant/infant<n><m><sg>$
-  ^a/a<pr>$
-  ^l'/el<det><def><mf><sg>$
-  ^aire/aire<n><m><sg>$
-  ^lliure/lliure<adj><mf><sg>$
+ ^a l'aire lliure/a l'aire lliure<adv>$
  ^,/,<cm>$
  ^ja/ja<adv>$
  ^fos/ser<vbser><pis><p3><sg>$
@@ -15101,9 +15010,7 @@
  ^que/que<cnjsub>$
  ^una/un<det><ind><f><sg>$
  ^Escola/Escola<n><f><sg>$
- ^a/a<pr>$
-  ^ple/ple<adj><m><sg>$
-  ^aire/aire<n><m><sg>$
+ ^a ple aire/a ple aire<adv>$
  ^emplaçada/emplaçar<vblex><pp><f><sg>$
  ^a/a<pr>$
  ^la/el<det><def><f><sg>$
@@ -15202,9 +15109,7 @@
 ^Amb/Amb<pr>$
  ^una/un<det><ind><f><sg>$
  ^petita/petit<adj><f><sg>$
- ^bossa/bossa<n><f><sg>$
- ^de/de<pr>$
- ^mà/mà<n><f><sg>$
+ ^bossa de mà/bossa de mà<n><f><sg>$
  ^i/i<cnjcoo>$
  ^el/el<det><def><m><sg>$
  ^gat/gat<n><m><sg>$
@@ -15218,10 +15123,8 @@
  ^Romero/Romero<np><ant>$
  ^sortia/sortir<vblex><pii><p3><sg>$
  ^ahir/ahir<adv>$
-  ^al/a<pr>+el<det><def><m><sg>$
-  ^migdia/migdia<n><m><sg>$
- ^a/a<pr>$
-  ^corre/córrer<vblex><imp><p2><sg>$-^cuita/coure<vblex><pp><f><sg>$
+  ^al migdia/al migdia<adv>$ 
+ ^a corre-cuita/a corre-cuita<adv>$
  ^del/de<pr>+el<det><def><m><sg>$
  ^barri/barri<n><m><sg>$
  ^./.<sent>$
@@ -15269,9 +15172,7 @@
  ^no/no<adv>$
  ^es/es<prn><pro><ref><p3><mf><sp>$
  ^podia/poder<vbmod><pii><p3><sg>$
- ^fer/fer<vblex><inf>$
-  ^marxa/marxa<n><f><sg>$
-  ^enrere/*enrere$
+ ^fer marxa enrere/fer<vblex><inf># marxa enrere$
  ^./.<sent>$
  
 ^Ho/Ho<prn><pro><p3><nt>$
@@ -15694,7 +15595,7 @@
  ^fer/fer<vblex><inf>$
  ^en/en<pr>$
  ^els/el<det><def><m><pl>$
- ^trens/tren<n><m><pl>$
+ ^trens/tren<n><m><pl>$ 
  ^Rodalies/Rodalia<n><f><pl>$
  ^de/de<pr>$
  ^Renfe/Renfe<np><al>$
@@ -15846,8 +15747,7 @@
  ^./.<sent>$
  
 ^Renfe/Renfe<np><al>$
- ^vol/voler<vbmod><pri><p3><sg>$
- ^que/que<cnjsub>$
+ ^vol que/voler<vblex><pri><p3><sg># que$
  ^la/el<det><def><f><sg>$
  ^T/T<n><f><sg>$
  ^10/10<num>$
@@ -16143,10 +16043,7 @@
  ^de/de<pr>$
  ^l'/el<det><def><mf><sg>$
  ^infant/infant<n><m><sg>$
-  ^a/a<pr>$
-  ^l'/el<det><def><mf><sg>$
-  ^aire/aire<n><m><sg>$
-  ^lliure/lliure<adj><mf><sg>$
+  ^a l'aire lliure/a l'aire lliure<adv>$
  ^,/,<cm>$
  ^ja/ja<adv>$
  ^fos/ser<vbser><pis><p3><sg>$
@@ -16272,9 +16169,7 @@
  ^que/que<cnjsub>$
  ^una/un<det><ind><f><sg>$
  ^Escola/Escola<n><f><sg>$
- ^a/a<pr>$
-  ^ple/ple<adj><m><sg>$
-  ^aire/aire<n><m><sg>$
+ ^a ple aire/a ple aire<adv>$
  ^emplaçada/emplaçar<vblex><pp><f><sg>$
  ^a/a<pr>$
  ^la/el<det><def><f><sg>$
@@ -16586,8 +16481,7 @@
  ^1.054/1.054<num>$
  ^veïns/veí<n><m><pl>$
  ^desallotjats/desallotjar<vblex><pp><m><pl>$
- ^dijous/dijous<n><m><sp>$
-  ^passat/passar<vblex><pp><m><sg>$
+ ^dijous passat/dijous passat<adv>$
  ^al/a<pr>+el<det><def><m><sg>$
  ^barri/barri<n><m><sg>$
  ^del/de<pr>+el<det><def><m><sg>$
@@ -16697,8 +16591,7 @@
  ^l'/el<prn><pro><p3><mf><sg>$
  ^habitaven/habitar<vblex><pii><p3><pl>$
  ^arribarà/arribar<vblex><fti><p3><sg>$
- ^més/més<adv>$
-  ^tard/tard<adv>$
+ ^més tard/més tard<adv>$
  ^que/que<cnjsub>$
  ^per a/per_a<pr>$
  ^la/el<det><def><f><sg>$
@@ -16755,8 +16648,7 @@
  ^indemnitzacions/indemnització<n><f><pl>$
  ^./.<sent>$
  
-^La/El<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+^La Generalitat/La Generalitat<np><al>$
  ^ha/haver<vbhaver><pri><p3><sg>$
  ^assegurat/assegurar<vblex><pp><m><sg>$
  ^que/que<cnjsub>$
@@ -16889,8 +16781,7 @@
  ^setmana/setmana<n><f><sg>$
  ^,/,<cm>$
  ^segons/segons<pr>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^./.<sent>$
  
 ^Es/Es<prn><pro><ref><p3><mf><sp>$
@@ -17030,10 +16921,7 @@
  ^del/de<pr>+el<det><def><m><sg>$
  ^Pasteral/Pasteral<np><loc>$
  ^de/de<pr>$
- ^la/el<det><def><f><sg>/el<prn><pro><p3><f><sg>$
-  ^Cellera/*Cellera$
-  ^de/de<pr>$
-  ^Ter/*Ter$
+ ^la Cellera de Ter/la Cellera de Ter<np><loc>$
  ^./.<sent>$
  
 ^Dos/Dos<num><m><sp>$
@@ -17104,8 +16992,7 @@
  ^de/de<pr>$
  ^l'/el<det><def><mf><sg>$
  ^aigua/aigua<n><f><sg>$
- ^a/a<pr>$
-  ^temps/temps<n><m><sp>$
+ ^a temps/a temps<adv>$
  ^,/,<cm>$
  ^i/i<cnjcoo>$
  ^van/anar<vblex><pri><p3><pl>$
@@ -17159,9 +17046,7 @@
  ^deixar/deixar<vblex><inf>$
  ^en/en<pr>$
  ^llibertat/llibertat<n><f><sg>$
- ^a/a<pr>$
-  ^l'/el<det><def><mf><sg>$
-  ^espera/espera<n><f><sg>$
+ ^a l'espera/a l'espera<adv>$
  ^del/de<pr>+el<det><def><m><sg>$
  ^judici/judici<n><m><sg>$
  ^./.<sent>$
@@ -17186,9 +17071,7 @@
  ^hores/hora<n><f><pl>$
  ^,/,<cm>$
  ^a/a<pr>$
- ^Fogars/*Fogars$
-  ^de/de<pr>$
-  ^Tordera/*Tordera$
+ ^Fogars de Tordera/Fogars de Tordera<np><loc>$
  ^,/,<cm>$
  ^un altre/un_altre<prn><tn><m><sg>$
  ^cotxe/cotxe<n><m><sg>$
@@ -17319,8 +17202,7 @@
  ^de/de<pr>$
  ^només/només<adv>$
  ^cent/cent<num><mf><sp>$
- ^i/i<cnjcoo>$
-  ^escaig/*escaig$
+ ^i escaig/i escaig<adv>$
  ^anys/any<n><m><pl>$
  ^./.<sent>$
  
@@ -17359,8 +17241,7 @@
  ^,/,<cm>$
  ^diuen/dir<vblex><pri><p3><pl>$
  ^que/que<cnjsub>$
- ^endormiscant/*endormiscant$
- -^se/es<prn><pro><ref><p3><mf><sp>$ 
+ ^endormiscant-se/endormiscar<vblex><ger>+es<prn><enc><ref><p3><mf><sp>$
  ^,/,<cm>$
  ^el/el<det><def><m><sg>$
  ^sacseig/sacseig<n><m><sg>$
@@ -17664,8 +17545,7 @@
  ^ser/ser<vbser><inf>$
  ^heterosexual/heterosexual<n><mf><sg>$
  ^està/estar<vblex><pri><p3><sg>$
- ^molt/molt<preadv>$
- ^bé/bé<adv>$
+ ^molt bé/molt bé<adv>$
  ^i/i<cnjcoo>$
  ^és/ser<vbser><pri><p3><sg>$
  ^el/el<detnt>$
@@ -17684,8 +17564,7 @@
  ^ja/ja<adv>$
  ^ens/ens<prn><pro><p1><mf><pl>$
  ^toca/tocar<vblex><pri><p3><sg>$
- ^formar/formar<vblex><inf>$
- ^part/part<n><f><sg>$
+ ^formar part/formar<vblex><inf># part$
  ^del/de<pr>+el<det><def><m><sg>$
  ^món/món<n><m><sg>$
  ^,/,<cm>$
@@ -18082,9 +17961,7 @@
  ^està/estar<vblex><pri><p3><sg>$
  ^beneït/beneït<adj><m><sg>$
  ^a/a<pr>$
- ^la/el<det><def><f><sg>$
- ^Unió/Unió<n><f><sg>$
- ^Europea/Europeu<adj><f><sg>$
+ ^la Unió Europea/la Unió Europea<n><f><sg>$
  ^,/,<cm>$
  ^un/un<det><ind><m><sg>$
  ^referèndum/referèndum<n><m><sg>$
@@ -18166,8 +18043,7 @@ _^contra/contra<n><f><sg>$
  ^actual/actual<adj><mf><sg>$
  ^president/president<n><m><sg>$
  ^de/de<pr>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^,/,<cm>$
  ^no/no<adv>$
  ^trobeu/trobar<vblex><pri><p2><pl>$
@@ -18191,8 +18067,7 @@ _^contra/contra<n><f><sg>$
  ^encara/encara<adv>$
  ^hi/hi<prn><pro><adv>$
  ^som/ser<vbser><pri><p1><pl>$
- ^a/a<pr>$
-  ^temps/temps<n><m><sp>$
+ ^a temps/a temps<adv>$
  ^,/,<cm>$
  ^exigeixo/exigir<vblex><pri><p1><sg>$
  ^als nostres/a<pr>+el_nostre<det><pos><m><pl>$
@@ -18430,8 +18305,7 @@ _^contra/contra<n><f><sg>$
  ^dijous/dijous<n><m><sp>$
  ^./.<sent>$
  
-^La/El<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+^La Generalitat/La Generalitat<np><al>$
  ^confia/confiar<vblex><pri><p3><sg>$
  ^que/que<cnjsub>$
  ^no/no<adv>$
@@ -18445,8 +18319,7 @@ _^contra/contra<n><f><sg>$
  ^continuen/continuar<vblex><pri><p3><pl>$
  ^sense/sense<pr>$
  ^data/data<n><f><sg>$
- ^de/de<pr>$
-  ^tornada/tornada<n><f><sg>$
+ ^de tornada/de tornada<adv>$
  ^./.<sent>$
  
 ^Una/Un<det><ind><f><sg>$
@@ -18556,8 +18429,7 @@ _^contra/contra<n><f><sg>$
  ^./.<sent>$
  
 ^Com/Com<adv><itg>$
- ^vol/voler<vbmod><pri><p3><sg>$
- ^que/que<cnjsub>$
+ ^vol que/voler<vblex><pri><p3><sg># que$
  ^no/no<adv>$
  ^estiguem/estar<vblex><prs><p1><pl>$
  ^preocupats/preocupar<vblex><pp><m><pl>$
@@ -18655,9 +18527,7 @@ _^contra/contra<n><f><sg>$
 ^Volem/Voler<vbmod><pri><p1><pl>$
  ^creure/creure<vblex><inf>$
  ^que/que<cnjsub>$
- ^de/de<pr>$
-  ^cap/cap<det><ind><mf><sg>$
-  ^manera/manera<n><f><sg>$
+ ^de cap manera/de cap manera<adv>$
  ^aquest/aquest<det><dem><m><sg>$
  ^enderrocament/enderrocament<n><m><sg>$
  ^afectarà/afectar<vblex><fti><p3><sg>$
@@ -18770,8 +18640,7 @@ _^contra/contra<n><f><sg>$
  ^només/només<adv>$
  ^tenen/tenir<vblex><pri><p3><pl>$
  ^data/data<n><f><sg>$
- ^de/de<pr>$
-  ^tornada/tornada<n><f><sg>$
+ ^de tornada/de tornada<adv>$
  ^unes/un<det><ind><f><pl>$
  ^300/300<num>$
  ^de/de<pr>$
@@ -18794,8 +18663,7 @@ _^contra/contra<n><f><sg>$
  ^els/el<det><def><m><pl>$
  ^impresos/imprès<n><m><pl>$
  ^que/que<rel><an><mf><sp>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^va/anar<vblex><pri><p3><sg>$
  ^repartir/repartir<vblex><inf>$
  ^a fi de/a_fi_de<pr>$
@@ -18817,8 +18685,7 @@ _^contra/contra<n><f><sg>$
  ^barri/barri<n><m><sg>$
  ^van/anar<vblex><pri><p3><pl>$
  ^poder/poder<vbmod><inf>$
- ^fer/fer<vblex><inf>$
-  ^classe/classe<n><f><sg>$
+ ^fer classe/fer<vblex><inf># classe$
  ^ahir/ahir<adv>$
  ^a/a<pr>$
  ^centres/centre<n><m><pl>$
@@ -18853,8 +18720,7 @@ _^contra/contra<n><f><sg>$
  ^del/de<pr>+el<det><def><m><sg>$
  ^Carmel/Carmel<np><loc>$
  ^,/,<cm>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^també/també<adv>$
  ^ho/ho<prn><pro><p3><nt>$
  ^farà/fer<vblex><fti><p3><sg>$
@@ -19378,8 +19244,7 @@ _^contra/contra<n><f><sg>$
  ^el seu/el_seu<det><pos><m><sg>$
  ^dret/dret<n><m><sg>$
  ^a/a<pr>$
- ^fer/fer<vblex><inf>$
-  ^vaga/vaga<n><f><sg>$
+ ^fer vaga/fer<vblex><inf># vaga$
  ^./.<sent>$
  
 ^A/A<pr>$
@@ -19488,8 +19353,7 @@ _^contra/contra<n><f><sg>$
  ^Reina/Rei<n><f><sg>$
  ^Maria/Maria<np><ant>$
  ^Cristina/Cristina<np><ant>$
- ^fera/fer<vbser><pis><p3><sg>$
- ^malbé/malbé<adj><mf><sp>$
+ ^fera malbé/fer<vblex><pis><p3><sg># malbé/fer<vblex><pis><p1><sg># malbé$
  ^la seva/el_seu<det><pos><f><sg>$
  ^oficina/oficina<n><f><sg>$
  ^:/:<sent>$
@@ -19691,8 +19555,7 @@ _^contra/contra<n><f><sg>$
  ^aprendre/aprendre<vblex><inf>$
  ^català/català<n><m><sg>$
  ^i/i<cnjcoo>$
-^familiaritzar/*familiaritzar$
- -^se/es<prn><pro><ref><p3><mf><sp>$
+ ^familiaritzar-se/familiaritzar<vblex><inf>+es<prn><enc><ref><p3><mf><sp>$
  ^amb/amb<pr>$
  ^la seva/el_seu<det><pos><f><sg>$
  ^nova/nou<adj><f><sg>$
@@ -19728,9 +19591,7 @@ _^contra/contra<n><f><sg>$
  ^reconèixer/reconèixer<vblex><inf>$
  ^que/que<cnjsub>$
  ^estan/estar<vblex><pri><p3><pl>$
- ^a/a<pr>$
- ^l'/el<det><def><mf><sg>$
- ^espera/espera<n><f><sg>$
+ ^a l'espera/a l'espera<adv>$
  ^de/de<pr>$
  ^la/el<det><def><f><sg>$
  ^nova/nou<adj><f><sg>$
@@ -19813,8 +19674,7 @@ _^contra/contra<n><f><sg>$
  ^coses/cosa<n><f><pl>$
  ^impensables/impensable<adj><mf><pl>$
  ^com/com<pr>$
- ^el/el<det><def><m><sg>$
-  ^Vaticà/Vaticà<np><loc>$
+ ^el Vaticà/el Vaticà<np><loc>$
  ^posicionant-se/posicionar<vblex><ger>+es<prn><enc><ref><p3><mf><sp>$
  ^contra/contra<pr>$
  ^el/el<det><def><m><sg>$
@@ -20062,8 +19922,7 @@ _^contra/contra<n><f><sg>$
  ^de/de<pr>$
  ^mans/mà<n><f><pl>$
  ^de/de<pr>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^com a/com_a<pr>$
  ^complement/complement<n><m><sg>$
  ^de/de<pr>$
@@ -20189,8 +20048,7 @@ _^contra/contra<n><f><sg>$
  ^un/un<det><ind><m><sg>$
  ^complement/complement<n><m><sg>$
  ^de/de<pr>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^de/de<pr>$
  ^25/25<num>$
  ^euros/euro<n><m><pl>$
@@ -20217,10 +20075,8 @@ _^contra/contra<n><f><sg>$
  ^prestació/prestació<n><f><sg>$
  ^./.<sent>$
  
-^La/El<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$ 
- ^vol/voler<vbmod><pri><p3><sg>$
- ^que/que<cnjsub>$
+^La Generalitat/La Generalitat<np><al>$ 
+ ^vol que/voler<vblex><pri><p3><sg># que$
   ^al/a<pr>+el<det><def><m><sg>$
  ^2007/2007<num>$
  ^els/el<det><def><m><pl>$
@@ -20341,8 +20197,7 @@ _^contra/contra<n><f><sg>$
 ^Veïns/Veí<n><m><pl>$
  ^de/de<pr>$
  ^l'/el<det><def><mf><sg>$
- ^Av/*Av$
- ^./.<sent>$
+ ^Av./Av.<n><f><sg>$
   ^Meridiana/Meridiana<np><loc>$
  ^./.<sent>$
  
@@ -20998,8 +20853,7 @@ _^contra/contra<n><f><sg>$
  ^runes/runa<n><f><pl>$
  ^./.<sent>$
  
-^La/El<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+^La Generalitat/La Generalitat<np><al>$
  ^crea/crear<vblex><pri><p3><sg>$
  ^un/un<det><ind><m><sg>$
  ^fons/fons<n><m><sp>$
@@ -21036,8 +20890,7 @@ _^contra/contra<n><f><sg>$
  ^han/haver<vbhaver><pri><p3><pl>$
  ^portat/portar<vblex><pp><m><sg>$
  ^a/a<pr>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^a/a<pr>$
  ^anunciar/anunciar<vblex><inf>$
  ^que/que<cnjsub>$
@@ -21271,8 +21124,7 @@ _^contra/contra<n><f><sg>$
  ^consells/consell<n><m><pl>$
  ^./.<sent>$
  
-^La/El<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+^La Generalitat/La Generalitat<np><al>$
  ^va/anar<vblex><pri><p3><sg>$
  ^decidir/decidir<vblex><inf>$
  ^ahir/ahir<adv>$
@@ -21376,8 +21228,7 @@ _^contra/contra<n><f><sg>$
  ^no/no<adv>$
  ^tenen/tenir<vblex><pri><p3><pl>$
  ^data/data<n><f><sg>$
- ^de/de<pr>$
-  ^tornada/tornada<n><f><sg>$
+ ^de tornada/de tornada<adv>$
  ^./.<sent>$
  
 ^D'altra banda/D'altra banda<adv>$
@@ -22392,9 +22243,7 @@ _^contra/contra<n><f><sg>$
  ^mal/mal<adj><m><sg>$
  ^temps/temps<n><m><sp>$
  ^no/no<adv>$
- ^tenia/tenir<vblex><pii><p3><sg>$
-  ^a/a<pr>$
-  ^veure/veure<vblex><inf>$
+ ^tenia a veure/tenir<vblex><pii><p3><sg># a veure$
  ^amb/amb<pr>$
  ^la/el<det><def><f><sg>$
  ^sequera/sequera<n><f><sg>$
@@ -22413,9 +22262,7 @@ _^contra/contra<n><f><sg>$
  ^sinó/sinó<cnjcoo>$
  ^amb/amb<pr>$
  ^que/que<cnjsub>$
- ^a/a<pr>$
-  ^l'/el<det><def><mf><sg>$
-  ^estiu/estiu<n><m><sg>$
+ ^a l'estiu/a l'estiu<adv>$
  ^s'/es<prn><pro><ref><p3><mf><sp>$
  ^omplissin/omplir<vblex><pis><p3><pl>$
  ^els/el<det><def><m><pl>$
@@ -22424,9 +22271,7 @@ _^contra/contra<n><f><sg>$
  ^la/el<det><def><f><sg>$
  ^costa/costa<n><f><sg>$
  ^i/i<cnjcoo>$
- ^a/a<pr>$
-  ^l'/el<det><def><mf><sg>$
-  ^hivern/hivern<n><m><sg>$
+ ^a l'hivern/a l'hivern<adv>$
  ^els/el<det><def><m><pl>$
  ^de/de<pr>$
  ^muntanya/muntanya<n><f><sg>$
@@ -22436,9 +22281,7 @@ _^contra/contra<n><f><sg>$
  ^pessetes/pesseta<n><f><pl>$
  ^a/a<pr>$
  ^la/el<det><def><f><sg>$
- ^tauleta/*tauleta$
-  ^de/de<pr>$
-  ^nit/nit<n><f><sg>$
+ ^tauleta de nit/tauleta<n><f><sg># de nit$
  ^./.<sent>$
  
 ^E/*E$
@@ -22584,9 +22427,7 @@ _^contra/contra<n><f><sg>$
  ^calaix/calaix<n><m><sg>$
  ^d'/de<pr>$
  ^una/un<det><ind><f><sg>$
- ^tauleta/*tauleta$
-  ^de/de<pr>$
-  ^nit/nit<n><f><sg>$
+ ^tauleta de nit/tauleta<n><f><sg># de nit$
  ^va/anar<vblex><pri><p3><sg>$
  ^descobrir/descobrir<vblex><inf>$
  ^sis/sis<num><mf><sp>$
@@ -23564,8 +23405,7 @@ _^contra/contra<n><f><sg>$
  ^buscar/buscar<vblex><inf>$
  ^el/el<det><def><m><sg>$
  ^cànnabis/cànnabis<n><m><sp>$
- ^d'/de<pr>$
-  ^amagat/amagar<vblex><pp><m><sg>$
+ ^d'amagat/d'amagat<adv>$
  ^?/?<sent>$
  
 ^Segur/Segur<adv>$
@@ -23916,8 +23756,7 @@ _^contra/contra<n><f><sg>$
  ^./.<sent>$
  
 ^Trobo/Trobar<vblex><pri><p1><sg>$
- ^molt/molt<preadv>$
- ^bé/bé<adv>$
+ ^molt bé/molt bé<adv>$
  ^que/que<cnjsub>$
  ^es/es<prn><pro><ref><p3><mf><sp>$
  ^prohibeixi/prohibir<vblex><prs><p3><sg>$
@@ -24496,9 +24335,7 @@ _^contra/contra<n><f><sg>$
  ^plaça/plaça<n><f><sg>$
  ^assegurada/assegurar<vblex><pp><f><sg>$
  ^,/,<cm>$
- ^a/a<pr>$
-  ^l'/el<det><def><mf><sg>$
-  ^espera/espera<n><f><sg>$
+ ^a l'espera/a l'espera<adv>$
  ^que/que<cnjsub>$
  ^des de/des_de<pr>$
  ^Madrid/Madrid<np><loc>$
@@ -24741,8 +24578,7 @@ _^contra/contra<n><f><sg>$
  ^no/no<adv>$
  ^haver/haver<vbhaver><inf>$
  ^anat/anar<vblex><pp><m><sg>$
- ^a/a<pr>$
-  ^temps/temps<n><m><sp>$
+ ^a temps/a temps<adv>$
  ^a/a<pr>$
  ^veure/veure<vblex><inf>$
  ^els/el<det><def><m><pl>$
@@ -24830,8 +24666,7 @@ _^contra/contra<n><f><sg>$
  ^de/de<pr>$
  ^partit/partit<n><m><sg>$
  ^a/a<pr>$
- ^la/el<det><def><f><sg>$
-  ^Generalitat/Generalitat<np><al>$
+ ^la Generalitat/la Generalitat<np><al>$
  ^./.<sent>$
  
 ^I/I<cnjcoo>$
@@ -24921,8 +24756,7 @@ _^contra/contra<n><f><sg>$
  ^del/de<pr>+el<det><def><m><sg>$
  ^barri/barri<n><m><sg>$
  ^de/de<pr>$
- ^Sant/Sant<n><m><sg>$
- ^Pere/Pere<np><ant>$
+ ^Sant Pere/Sant Pere<np><ant>$
  ^i/i<cnjcoo>$
  ^Santa/Sant<n><f><sg>$
  ^Caterina/Caterina<np><ant>$
@@ -24950,8 +24784,7 @@ _^contra/contra<n><f><sg>$
  ^74/74<num>$
  ^del/de<pr>+el<det><def><m><sg>$
  ^carrer/carrer<n><m><sg>$
- ^Sant/Sant<n><m><sg>$
- ^Pere/Pere<np><ant>$
+ ^Sant Pere/Sant Pere<np><ant>$
  ^i/i<cnjcoo>$
  ^han/haver<vbhaver><pri><p3><pl>$
  ^muntat/muntar<vblex><pp><m><sg>$
@@ -24999,8 +24832,7 @@ _^contra/contra<n><f><sg>$
  ^objectiu/objectiu<n><m><sg>$
  ^./.<sent>$
 
-^Volen/Voler<vbmod><pri><p3><pl>$
- ^que/que<cnjsub>$
+^Volen que/Voler<vblex><pri><p3><pl># que$
  ^l'/el<det><def><mf><sg>$
  ^Estat/Estat<n><m><sg>$
  ^faci/fer<vblex><prs><p3><sg>$
@@ -25025,8 +24857,7 @@ _^contra/contra<n><f><sg>$
  ^terratrèmol/terratrèmol<n><m><sg>$
 ^./.<sent>$
 
-^Volen/Voler<vbmod><pri><p3><pl>$
- ^que/que<cnjsub>$
+^Volen que/Voler<vblex><pri><p3><pl># que$
  ^l'/el<det><def><mf><sg>$
  ^Estat/Estat<n><m><sg>$
  ^faci/fer<vblex><prs><p3><sg>$
@@ -25155,8 +24986,7 @@ _^contra/contra<n><f><sg>$
 ^I/I<cnjcoo>$
  ^poden/poder<vbmod><pri><p3><pl>$
  ^explicar/explicar<vblex><inf>$
- ^molt/molt<preadv>$
- ^bé/bé<adv>$
+ ^molt bé/molt bé<adv>$ 
  ^la/el<det><def><f><sg>$
  ^història/història<n><f><sg>$
 ^./.<sent>$
@@ -25180,8 +25010,7 @@ _^contra/contra<n><f><sg>$
 ^?/?<sent>$
  ^Va/Anar<vblex><pri><p3><sg>$
  ^tot/tot<prn><tn><m><sg>$
- ^molt/molt<preadv>$
- ^bé/bé<adv>$
+ ^molt bé/molt bé<adv>$
 ^,/,<cm>$
  ^gràcies/gràcia<n><f><pl>$
 ^./.<sent>$

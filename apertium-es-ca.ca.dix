@@ -78269,8 +78269,8 @@
 <e v="val" lm="despús-ahir"><i>despús-ahir</i><par n="ahir__adv"/></e>
 <e lm="difícilment"><i>difícilment</i><par n="ahir__adv"/></e>
 <e lm="dignament"><i>dignament</i><par n="ahir__adv"/></e>
-<e v="val" lm="dins"><i>dins</i><par n="ahir__adv"/></e>
-<e v="cat" lm="dintre"><i>dintre</i><par n="ahir__adv"/></e>
+<e lm="dins"><i>dins</i><par n="ahir__adv"/></e>
+<e lm="dintre"><i>dintre</i><par n="ahir__adv"/></e>
 <e lm="directament"><i>directament</i><par n="ahir__adv"/></e>
 <e lm="diàriament"><i>diàriament</i><par n="ahir__adv"/></e>
 <e lm="dolçament"><i>dolçament</i><par n="ahir__adv"/></e>
@@ -89088,7 +89088,6 @@
 <e lm="Verdi"><i>Verdi</i><par n="Abad__np"/></e>
 <e lm="Renoir"><i>Renoir</i><par n="Abad__np"/></e>
 <e lm="entorn"><i>entorn</i><par n="ahir__adv"/></e>
-<e lm="voler"><i>v</i><par n="v/oler__vblex"/></e>
 <e lm="detingut"><i>detingu</i><par n="advoca/t__n"/></e>
 <e lm="XIX"><i>XIX</i><par n="multimèdia__adj"/></e>
 <e lm="Senat"><i>Senat</i><par n="Afganistan__np"/></e>
@@ -101090,7 +101089,7 @@
 <e lm="abr." a="prompsit2cdl"><i>abr.</i><par n="atletisme__n"/></e>
 <e lm="jul." a="prompsit2cdl"><i>jul.</i><par n="atletisme__n"/></e>
 <e lm="ag." a="prompsit2cdl"><i>ag.</i><par n="atletisme__n"/></e>
-<e lm="set." a="prompsit2cdl"><i>set.</i><par n="atletisme__n"/></e>
+<e lm="set." a="prompsit2cdl" r="RL" c="RL per ara per problemes d'anàlisi del punt"><i>set.</i><par n="atletisme__n"/></e>
 <e lm="oct." a="prompsit2cdl"><i>oct.</i><par n="atletisme__n"/></e>
 <e lm="nov." a="prompsit2cdl"><i>nov.</i><par n="atletisme__n"/></e>
 <e lm="des." a="prompsit2cdl"><i>des.</i><par n="atletisme__n"/></e>
@@ -101216,7 +101215,6 @@
 <e lm="antònim"><i>antònim</i><par n="absolut__adj"/></e>
 <e lm="anul·lable"><i>anul·lable</i><par n="abdominal__adj"/></e>
 <e lm="anyal"><i>anyal</i><par n="abdominal__adj"/></e>
-<e lm="apel·lant"><i>apel·lant</i><par n="abdominal__adj"/></e>
 <e lm="apilable"><i>apilable</i><par n="abdominal__adj"/></e>
 <e lm="aplicat"><i>aplica</i><par n="afortuna/t__adj"/></e>
 <e lm="apolític"><i>apolíti</i><par n="acadèmi/c__adj"/></e>
@@ -101598,7 +101596,7 @@
 <e lm="escriptural"><i>escriptural</i><par n="abdominal__adj"/></e>
 <e lm="escruixidor"><i>escruixidor</i><par n="absolut__adj"/></e>
 <e lm="esdrúixol"><i>esdrúixol</i><par n="absolut__adj"/></e>
-<e lm="esglaiador"><i>esglaiador</i><par n="absolut__adj"/></e>
+<e lm="colpidor"><i>colpidor</i><par n="absolut__adj"/></e>
 <e r="LR" lm="esmaperdut"><i>esmaperdu</i><par n="afortuna/t__adj"/></e>
 <e lm="esmenable"><i>esmenable</i><par n="abdominal__adj"/></e>
 <e lm="esmeril"><i>esmeril</i><par n="abdominal__adj"/></e>
@@ -102378,6 +102376,7 @@
 <e lm="univariable"><i>univariable</i><par n="abdominal__adj"/></e>
 <e lm="universalista"><i>universalist</i><par n="agrícol/a__adj"/></e>
 <e lm="urbícola"><i>urbícol</i><par n="agrícol/a__adj"/></e>
+<e lm="urbanita"><i>urbanit</i><par n="agrícol/a__adj"/></e>
 <e lm="urticant"><i>urticant</i><par n="abdominal__adj"/></e>
 <e lm="usable"><i>usable</i><par n="abdominal__adj"/></e>
 <e lm="usuari"><i>usu</i><par n="adjudicat/ari__adj"/></e>
@@ -102468,7 +102467,6 @@
 
 
 <e lm="Deo gratias"><i>Deo<b/>gratias</i><par n="ahir__adv"/></e>
-<e lm="al món"><i>al<b/>món</i><par n="ahir__adv"/></e>
 <e lm="malintencionadament"><i>malintencionadament</i><par n="ahir__adv"/></e>
 <e lm="inflablement"><i>inflablement</i><par n="ahir__adv"/></e>
 <e lm="d'aquí a uns minuts"><i>d'aquí<b/>a<b/>uns<b/>minuts</i><par n="ahir__adv"/></e>
@@ -102565,9 +102563,7 @@
 <e lm="a l'hivern"><i>a<b/>l'hivern</i><par n="ahir__adv"/></e>
 <e r="LR" lm="a l'hora baixa"><i>a<b/>l'hora<b/>baixa</i><par n="ahir__adv"/></e>
 <e r="LR" lm="a l'horabaixa"><i>a<b/>l'horabaixa</i><par n="ahir__adv"/></e>
-<e lm="a l'inici"><i>a<b/>l'inici</i><par n="ahir__adv"/></e>
 <e lm="a l'inici de l'any"><i>a<b/>l'inici<b/>de<b/>l'any</i><par n="ahir__adv"/></e>
-<e lm="a l'instant"><i>a<b/>l'instant</i><par n="ahir__adv"/></e>
 <e lm="a l'origen"><i>a<b/>l'origen</i><par n="ahir__adv"/></e>
 <e lm="a l'una"><i>a<b/>l'una</i><par n="ahir__adv"/></e>
 <e lm="a l'uníson"><i>a<b/>l'uníson</i><par n="ahir__adv"/></e>
@@ -102625,7 +102621,6 @@
 <e lm="a orri"><i>a<b/>orri</i><par n="ahir__adv"/></e>
 <e lm="a palades"><i>a<b/>palades</i><par n="ahir__adv"/></e>
 <e lm="a palau"><i>a<b/>palau</i><par n="ahir__adv"/></e>
-<e lm="a parts iguals"><i>a<b/>parts<b/>iguals</i><par n="ahir__adv"/></e>
 <e lm="a patolls"><i>a<b/>patolls</i><par n="ahir__adv"/></e>
 <e lm="a petició meva" v="cat"><p><l>a<b/>petició<b/>meva</l><r>a<b/>petició<b/>meva</r></p><par n="ahir__adv"/></e>
 <e lm="a petició seva" v="cat"><p><l>a<b/>petició<b/>seva</l><r>a<b/>petició<b/>seva</r></p><par n="ahir__adv"/></e>
@@ -102845,7 +102840,7 @@
 <e lm="amb globus"><i>amb<b/>globus</i><par n="ahir__adv"/></e>
 <e lm="amb la condició que"><i>amb<b/>la<b/>condició<b/>que</i><par n="a_fe_que__cnjadv"/></e>
 <e lm="amb llanxa"><i>amb<b/>llanxa</i><par n="ahir__adv"/></e>
-<e lm="amb magnificència"><i>amb<b/>magnificència</i><par n="ahir__adv"/></e>
+<e lm="amb magnificència" r="RL"><i>amb<b/>magnificència</i><par n="ahir__adv"/></e>
 <e lm="amb metro"><i>amb<b/>metro</i><par n="ahir__adv"/></e>
 <e r="RL" lm="amb molt de gust"><i>amb<b/>molt<b/>de<b/>gust</i><par n="ahir__adv"/></e>
 <e lm="amb molta honra"><i>amb<b/>molta<b/>honra</i><par n="ahir__adv"/></e>
@@ -103081,7 +103076,7 @@
 <e lm="cada matí"><i>cada<b/>matí</i><par n="ahir__adv"/></e>
 <e lm="cada ocell al seu niu"><i>cada<b/>ocell<b/>al<b/>seu<b/>niu</i><par n="ahir__adv"/></e>
 <e lm="cadastralment"><i>cadastralment</i><par n="ahir__adv"/></e>
-<e lm="caigui qui caigui"><i>caigui<b/>qui<b/>caigui</i><par n="ahir__adv"/></e>
+<e lm="caigui qui caigui" r="RL"><i>caigui<b/>qui<b/>caigui</i><par n="ahir__adv"/></e>
 <e lm="calculablement"><i>calculablement</i><par n="ahir__adv"/></e>
 <e lm="calculadorament"><i>calculadorament</i><par n="ahir__adv"/></e>
 <e lm="calcàriament"><i>calcàriament</i><par n="ahir__adv"/></e>
@@ -103181,7 +103176,6 @@
 <e lm="col·loquialment"><i>col·loquialment</i><par n="ahir__adv"/></e>
 <e lm="colèricament"><i>colèricament</i><par n="ahir__adv"/></e>
 <e lm="com Déu mana"><i>com<b/>Déu<b/>mana</i><par n="ahir__adv"/></e>
-<e lm="com a conseqüència"><i>com<b/>a<b/>conseqüència</i><par n="ahir__adv"/></e>
 <e lm="com a molt"><i>com<b/>a<b/>molt</i><par n="ahir__adv"/></e>
 <e lm="com a més tard"><i>com<b/>a<b/>més<b/>tard</i><par n="ahir__adv"/></e>
 <e lm="de gran importància"><i>de<b/>gran<b/>importància</i><par n="ahir__adv"/></e>
@@ -103447,7 +103441,7 @@
 <e lm="de meravella"><i>de<b/>meravella</i><par n="ahir__adv"/></e>
 <e lm="de mica en mica"><i>de<b/>mica<b/>en<b/>mica</i><par n="ahir__adv"/></e>
 <e lm="de mig a mig"><i>de<b/>mig<b/>a<b/>mig</i><par n="ahir__adv"/></e>
-<e lm="de mitjana"><i>de<b/>mitjana</i><par n="ahir__adv"/></e>
+<e lm="de mitjana" r="RL"><i>de<b/>mitjana</i><par n="ahir__adv"/></e>
 <e lm="de molt jovenet"><i>de<b/>molt<b/>jovenet</i><par n="ahir__adv"/></e>
 <e lm="de naixença"><i>de<b/>naixença</i><par n="ahir__adv"/></e>
 <e r="LR" lm="de nit"><i>de<b/>nit</i><par n="ahir__adv"/></e>
@@ -103573,7 +103567,6 @@
 <e lm="desprevingudament"><i>desprevingudament</i><par n="ahir__adv"/></e>
 <e lm="desprotegidament"><i>desprotegidament</i><par n="ahir__adv"/></e>
 <e lm="desproveïdament"><i>desproveïdament</i><par n="ahir__adv"/></e>
-<e lm="després d'això" r="RL"><i>després<b/>d'això</i><par n="ahir__adv"/></e>
 <e lm="despòticament"><i>despòticament</i><par n="ahir__adv"/></e>
 <e lm="despús-anit" v="val"><i>despús-anit</i><par n="ahir__adv"/></e>
 <e lm="despús-demà" v="val"><p><l>despús-demà</l><r>despús-demà</r></p><par n="ahir__adv"/></e>
@@ -103778,7 +103771,6 @@
 <e lm="en peus"><i>en<b/>peus</i><par n="ahir__adv"/></e>
 <e lm="en remull"><i>en<b/>remull</i><par n="ahir__adv"/></e>
 <e lm="en revenja"><i>en<b/>revenja</i><par n="ahir__adv"/></e>
-<e lm="en si"><i>en<b/>si</i><par n="ahir__adv"/></e>
 <e lm="en somni"><i>en<b/>somni</i><par n="ahir__adv"/></e>
 <e lm="en suspens" r="RL"><i>en<b/>suspens</i><par n="ahir__adv"/></e>
 <e lm="en tant que sigui possible"><i>en<b/>tant<b/>que<b/>sigui<b/>possible</i><par n="ahir__adv"/></e>
@@ -105055,7 +105047,6 @@
 <e lm="pensativament"><i>pensativament</i><par n="ahir__adv"/></e>
 <e lm="penúltimament"><i>penúltimament</i><par n="ahir__adv"/></e>
 <e r="RL" lm="per a la qual cosa"><i>per<b/>a<b/>la<b/>qual<b/>cosa</i><par n="ahir__adv"/></e>
-<e lm="per a menjar" r="RL"><i>per<b/>a<b/>menjar</i><par n="ahir__adv"/></e>
 <e lm="per a postres"><i>per<b/>a<b/>postres</i><par n="ahir__adv"/></e>
 <e lm="per a sopar"><i>per<b/>a<b/>sopar</i><par n="ahir__adv"/></e>
 <e lm="per a tota la vida" r="RL"><i>per<b/>a<b/>tota<b/>la<b/>vida</i><par n="ahir__adv"/></e>
@@ -105481,7 +105472,7 @@
 <e lm="sedimentàriament"><i>sedimentàriament</i><par n="ahir__adv"/></e>
 <e lm="seductorament"><i>seductorament</i><par n="ahir__adv"/></e>
 <e lm="segons el costum"><i>segons<b/>el<b/>costum</i><par n="ahir__adv"/></e>
-<e lm="segons sembla"><i>segons<b/>sembla</i><par n="ahir__adv"/></e>
+<e lm="segons sembla" r="RL"><i>segons<b/>sembla</i><par n="ahir__adv"/></e>
 <e lm="segrestadorament"><i>segrestadorament</i><par n="ahir__adv"/></e>
 <e lm="seleccionablement"><i>seleccionablement</i><par n="ahir__adv"/></e>
 <e lm="selectament"><i>selectament</i><par n="ahir__adv"/></e>
@@ -107451,7 +107442,7 @@
 <e lm="aparellador"><i>aparellador</i><par n="senyor__n"/></e>
 <e lm="apariat"><i>apariat</i><par n="abric__n"/></e>
 <e lm="apassionament"><i>apassionament</i><par n="abric__n"/></e>
-<e lm="apel·lant"><i>apel·lant</i><par n="acompanyant__n"/></e>
+<e lm="apel·lant" r="RL"><i>apel·lant</i><par n="acompanyant__n"/></e>
 <e lm="apendicitis"><i>apendicitis</i><par n="càries__n"/></e>
 <e lm="apetència"><i>apetènci</i><par n="abell/a__n"/></e>
 <e lm="aplegapilotes"><i>aplegapilotes</i><par n="guardaespatlles__n"/></e>
@@ -110254,6 +110245,7 @@
 <e lm="urb."><i>urb.</i><par n="càries__n"/></e>
 <e lm="urbà"><i>urb</i><par n="americ/à__n"/></e>
 <e lm="urbícola"><i>urbícol</i><par n="accionist/a__n"/></e>
+<e lm="urbanita"><i>urbanit</i><par n="accionist/a__n"/></e>
 <e r="LR" lm="urpa"><i>urp</i><par n="abell/a__n"/></e>
 <e r="RL" lm="urpa"><p><l><a/>urp</l>             <r>urp</r></p><par n="abell/a__n"/></e>
 <e lm="uròleg"><i>uròl</i><par n="biòl/eg__n"/></e>
