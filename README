@@ -9,6 +9,23 @@ make install
 
 inside of this directory.
 
+Spanish--Catalan with economy vocabulary
+
+To compile using the economy vocabulary (entries with "eco" tag in the dictionaries), type:
+cp Makefile.am.eco Makefile.am
+./autogen.sh
+make 
+sudo make install
+
+If you had the standard linguistic data already installed, or if some error occurs in compilation, you should type:
+
+cp Makefile.am.eco Makefile.am
+sudo make distclean
+./autogen.sh
+make 
+sudo make install
+
+
 TAGGER 
 
 To use this language-pair package with apertium YOU DO NOT NEED TO

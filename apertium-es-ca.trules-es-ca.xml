@@ -99,11 +99,22 @@
       <cat-item tags="vbmod.inf"/>
     </def-cat>
 
+    <def-cat n="ger">
+      <cat-item tags="vblex.ger"/>
+      <cat-item tags="vbser.ger"/>
+      <cat-item tags="vbhaver.ger"/>
+      <cat-item tags="vbmod.ger"/>
+    </def-cat>
+
     <def-cat n="pretind">
       <cat-item tags="vblex.ifi.*"/>
       <cat-item tags="vbser.ifi.*"/>
       <cat-item tags="vbmod.ifi.*"/>
     </def-cat>    
+
+    <def-cat n="venir">
+      <cat-item lemma="venir" tags="vblex.*"/>
+    </def-cat>
 
     <def-cat n="lquest">
       <cat-item tags="lquest"/>
@@ -112,9 +123,18 @@
     <def-cat n="num">
       <cat-item tags="num.*"/>
     </def-cat>
+    <def-cat n="xifra">
+      <cat-item tags="num"/>
+    </def-cat>
+    <def-cat n="número">
+      <cat-item lemma="número" tags="n.m.sg"/>
+    </def-cat>
     
     <def-cat n="en">
       <cat-item lemma="en" tags="pr"/>
+    </def-cat>
+    <def-cat n="para">
+      <cat-item lemma="para" tags="pr"/>
     </def-cat>
     
     <def-cat n="a">
@@ -183,6 +203,7 @@
       <cat-item lemma="callar" tags="vblex.*"/>
       <cat-item lemma="asomarse" tags="vblex.*"/>
       <cat-item lemma="asomar" tags="vblex.*"/> 
+      <cat-item lemma="afanar# en" tags="vblex.*"/> 
     </def-cat>
 
     <def-cat n="verbospron_pp">
@@ -190,6 +211,7 @@
       <cat-item lemma="reír" tags="vblex.pp.*"/>
       <cat-item lemma="callar" tags="vblex.pp.*"/>
       <cat-item lemma="asomarse" tags="vblex.pp.*"/>
+      <cat-item lemma="afanar# en" tags="vblex.pp.*"/> 
     </def-cat>
 
     
@@ -511,6 +533,15 @@
 
     </def-list>
 
+    <def-list n="perif_venir">
+      <list-item v="ser"/>
+      <list-item v="decir"/>
+      <list-item v="contar"/>
+      <list-item v="celebrar"/>
+      <list-item v="experimentar"/>
+      <list-item v="realizar"/>
+      <list-item v="trabajar"/>
+    </def-list>
 
   </section-def-lists>
   <section-def-macros>
@@ -625,7 +656,7 @@
 	  </call-macro>
 	</when>
 	<otherwise>
-	  <choose> 
+	  <choose>
 	    <when>
 	      <test>
 		<and>
@@ -657,6 +688,125 @@
 		    <clip pos="2" side="tl" part="lem"/>
 		    <list n="locatiu"/>
 		  </in>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="1" side="tl" part="lem"/>
+		<get-case-from pos="1">
+		  <lit v="a"/>
+		</get-case-from>
+	      </let>
+	    </when>
+	    <when><!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
+	      <test>
+		<equal caseless="yes">
+		  <clip pos="1" side="sl" part="lem"/>
+		  <lit v="para"/>
+		</equal>
+	      </test>
+	      <let>
+		<clip pos="1" side="tl" part="lem"/>
+		<get-case-from pos="1">
+		  <lit v="per a"/>
+		</get-case-from>
+	      </let>
+	    </when>		  
+	  </choose>
+	  <out>
+	    <lu>
+	      <clip pos="1" side="tl" part="whole"/>
+	    </lu>
+	    <b pos="1"/>
+	  </out>
+	</otherwise>
+      </choose>
+      <let>
+	<var n="valverb"/>
+	<lit v=""/>
+      </let>
+      <let>
+	<var n="tipusverb"/>
+	<lit v=""/>
+      </let>
+
+    </def-macro>
+
+    <def-macro n="f_preps_det" npar="3"><!--parámetro 3 = determinante. El único cambio respecto de f_preps es que, si el determinante es 'aquest', la preposición 'en' no cambia a 'a'. -->
+      <choose> 
+	<when>
+	  <test>
+	    <and>
+	      <equal caseless="yes">
+		<clip pos="1" side="sl" part="lem"/>
+		<lit v="a"/>
+	      </equal>
+	      <equal>
+		<var n="valverb"/>
+		<lit v="2"/>
+	      </equal>
+	    </and>
+	  </test>
+	  <call-macro n="f_bcond">
+	    <with-param pos="1"/>
+	  </call-macro>
+	</when>
+	<otherwise>
+	  <choose>
+	    <when>
+	      <test>
+		<and>
+		  <equal caseless="yes">
+		    <clip pos="1" side="sl" part="lem"/>
+		    <lit v="de"/>
+		  </equal>
+		  <equal>
+		    <var n="tipusverb"/>
+		    <lit v="vbde_per"/>
+		  </equal>
+		</and>
+	      </test>
+	      <let>
+		<clip pos="1" side="tl" part="lem"/>
+		<get-case-from pos="1">
+		  <lit v="per"/>
+		</get-case-from>
+	      </let>
+	    </when>
+	    <when>
+	      <test>
+		<and>
+		  <equal caseless="yes">
+		    <clip pos="1" side="sl" part="lem"/>
+		    <lit v="en"/>
+		  </equal>
+		  <in caseless="yes">
+		    <clip pos="2" side="tl" part="lem"/>
+		    <list n="locatiu"/>
+		  </in>
+		  <not>
+		    <or>
+		      <equal caseless="yes">
+			<clip pos="3" side="tl" part="lem"/>
+			<lit v="aquest"/>
+		      </equal>
+		      <equal caseless="yes">
+			<clip pos="3" side="tl" part="lem"/>
+			<lit v="aquell"/>
+		      </equal>
+		      <equal caseless="yes">
+			<clip pos="3" side="tl" part="lem"/>
+			<lit v="un"/>
+		      </equal>
+		      <equal caseless="yes">
+			<clip pos="3" side="tl" part="lem"/>
+			<lit v="algun"/>
+		      </equal>
+		      <equal caseless="yes">
+			<clip pos="3" side="tl" part="lem"/>
+			<lit v="altre"/>
+		      </equal>
+		    </or>
+		  </not>
 		</and>
 	      </test>
 	      <let>
@@ -4049,6 +4199,8 @@
       </action>
     </rule>
 
+
+
     
     <rule> <!-- REGLA: PREP ADJECTIU -->
       <pattern>
@@ -4169,10 +4321,11 @@
 	<call-macro n="f_lexicDet">
 	  <with-param pos="2"/>
 	</call-macro>
-	<call-macro n="f_preps">
+	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
-	</call-macro>     
+	  <with-param pos="2"/>
+	</call-macro>   
 	<call-macro n="f_concord2">
 	  <with-param pos="3"/>
 	  <with-param pos="2"/>
@@ -4290,9 +4443,10 @@
 	<call-macro n="f_lexicDet">
 	  <with-param pos="2"/>
 	</call-macro>
-	<call-macro n="f_preps">
+	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
+	  <with-param pos="2"/>
 	</call-macro>
 	<call-macro n="f_concord3">
 	  <with-param pos="3"/>
@@ -4339,9 +4493,10 @@
 	<call-macro n="f_lexicDet">
 	  <with-param pos="2"/>
 	</call-macro>
-	<call-macro n="f_preps">
+	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
+	  <with-param pos="2"/>
 	</call-macro>     
 	
 	<call-macro n="f_concord4">
@@ -4443,9 +4598,10 @@
 	<call-macro n="f_lexicDet">
 	  <with-param pos="2"/>
 	</call-macro>
-	<call-macro n="f_preps">
+	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
 	  <with-param pos="4"/>
+	  <with-param pos="2"/>
 	</call-macro>
 	<call-macro n="f_concord3">
 	  <with-param pos="4"/>
@@ -4664,9 +4820,10 @@
 	<call-macro n="f_lexicDet">
 	  <with-param pos="2"/>
 	</call-macro>
-	<call-macro n="f_preps">
+	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
+	  <with-param pos="2"/>
 	</call-macro>
 	<call-macro n="f_concord2">
 	  <with-param pos="3"/>
@@ -4760,9 +4917,10 @@
 	<call-macro n="f_lexicDet">
 	  <with-param pos="2"/>
 	</call-macro>
-	<call-macro n="f_preps">
+	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
 	  <with-param pos="4"/>
+	  <with-param pos="2"/>
 	</call-macro>
 	<call-macro n="f_concord4">
 	  <with-param pos="4"/>
@@ -4873,9 +5031,10 @@
 	<call-macro n="f_lexicDet">
 	  <with-param pos="2"/>
 	</call-macro>
-	<call-macro n="f_preps">
+	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
+	  <with-param pos="2"/>
 	</call-macro>
 	<call-macro n="f_concord3">
 	  <with-param pos="3"/>
@@ -4929,9 +5088,10 @@
 	<call-macro n="f_lexicDet">
 	  <with-param pos="3"/>
 	</call-macro>
-	<call-macro n="f_preps">
+	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
 	  <with-param pos="4"/>
+	  <with-param pos="2"/>
 	</call-macro>     
 	
 	<call-macro n="f_concord2">
@@ -5190,9 +5350,10 @@
 	<call-macro n="f_lexicDet">
 	  <with-param pos="2"/>
 	</call-macro>
-	<call-macro n="f_preps">
+	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
 	  <with-param pos="4"/>
+	  <with-param pos="2"/>
 	</call-macro>
 	<call-macro n="f_concord3">
 	  <with-param pos="4"/>
@@ -5716,13 +5877,32 @@
 	  </lu>
 	  <b pos="1"/>
 	  <lu>
-	    <clip pos="2" side="tl" part="lem"/>
-	    <clip pos="2" side="tl" part="a_nploc"/>
+	    <clip pos="2" side="tl" part="whole"/>
 	  </lu>  
 	</out>
       </action>
     </rule>
     
+     <rule> <!-- REGLA: PREP NOM (para Barcelona - per a Barcelona-->
+      <pattern>
+	<pattern-item n="para"/>
+	<pattern-item n="nploc"/>
+      </pattern>
+      <action> 
+	<out>
+	  <lu>
+	    <get-case-from pos="1">            
+	      <lit v="per a"/>
+	    </get-case-from>
+	    <lit-tag v="pr"/>
+	  </lu>
+	  <b pos="1"/>  
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
     
     <rule> <!--REGLA: cuyo + nom = det nom del qual -->
       <pattern>
@@ -7252,6 +7432,52 @@
     </rule> 
 
 
+  <rule> <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+      <pattern>
+	<pattern-item n="venir"/>
+	<pattern-item n="ger"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="sl" part="lemh"/>
+		<list n="perif_venir"/>
+	      </in>
+	    </test>
+	    <let>
+		<clip pos="1" side="tl" part="lem"/>
+		<clip pos="2" side="tl" part="lem"/>
+	    </let>
+	    <let>
+		<clip pos="1" side="tl" part="a_verb"/>
+		<clip pos="2" side="tl" part="a_verb"/>
+	    </let>
+	    <call-macro n="f_pretind">
+	      <with-param pos="1"/>
+	    </call-macro> 
+	  </when>
+	  <otherwise>
+	    <call-macro n="f_pretind">
+	      <with-param pos="1"/>
+	    </call-macro> 
+	    <out>             
+	      <b pos="1"/>
+	      <lu>
+		<clip pos="2" side="tl" part="lemh"/>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<clip pos="2" side="tl" part="temps"/>
+		<clip pos="2" side="tl" part="lemq"/> 
+	      </lu>		
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+  </rule>
+
+
+
     <rule> <!-- REGLA: , lo que -> la cual cosa -->
       <pattern>
 	<pattern-item n="cm"/>
@@ -7297,16 +7523,90 @@
 </rule>
 
 
+<rule> <!-- REGLA: número + cifra -> número + xifra (en comptes de 'nombre') -->
+  <pattern>
+    <pattern-item n="número"/>
+    <pattern-item n="xifra"/>
+  </pattern>
+  <action>
+    <let>
+      <clip pos="1" side="tl" part="lem"/>
+      <lit v="número"/>
+    </let>
+    <out>
+      <lu>
+	<clip pos="1" side="tl" part="whole"/>
+      </lu>
+      <b pos="1"/>
+      <lu>
+	<clip pos="2" side="tl" part="whole"/>
+      </lu>
+    </out>
+  </action>
+</rule>
 
 
+ <rule> <!-- REGLA: DETERMINANT NOM -->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="número"/>
+	<pattern-item n="xifra"/>
+      </pattern>
+      <action>
+	<let>
+	  <clip pos="2" side="tl" part="lem"/>
+	  <lit v="número"/>
+	</let>  
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>	  
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>	  
+	</out>	
+      </action>
+    </rule>
 
 
-
-
-
-
-
-
+ <rule> <!-- REGLA: PREP DETERMINANT NOM -->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="número"/>
+	<pattern-item n="xifra"/>
+      </pattern>
+      <action>	
+	<let>
+	  <clip pos="3" side="tl" part="lem"/>
+	  <lit v="número"/>
+	</let>  
+	<call-macro n="f_preps_det">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>    
+	<out>     
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/> 
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>	  
+	  <b pos="3"/> 
+	  <lu>
+	    <clip pos="4" side="tl" part="whole"/>
+	  </lu>	 
+	</out>
+	
+      </action>
+    </rule>
 
     <rule> <!-- REGLA: reset variables-->
       <pattern>
@@ -7327,6 +7627,14 @@
 	</let>
 	<let>
 	  <var n="varporque"/>
+	  <lit v=""/>
+	</let>
+	<let>
+	  <var n="valverb"/>
+	  <lit v=""/>
+	</let>
+	<let>
+	  <var n="tipusverb"/>
 	  <lit v=""/>
 	</let>
 	<out>
