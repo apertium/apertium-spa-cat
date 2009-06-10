@@ -1,4 +1,4 @@
-Spanish--Catalan
+**************Spanish--Catalan******************
 
 You need apertium-3.0 and lttoolbox-3.0 to use this translator.  To compile
 the linguistic data simply do:
@@ -9,7 +9,14 @@ make install
 
 inside of this directory.
 
-Spanish--Catalan with economy vocabulary
+To use the translator, use the commands:
+
+apertium es-ca  (to translate from Spanish to Catalan)
+apertium ca-es  (to translate from Catalan to Spanish)
+
+Type the suitable command in the terminal, press Enter, type the text and press Ctrl+D to get the translation.
+
+**************Spanish--Catalan with economy vocabulary**********************
 
 To compile using the economy vocabulary (entries with "eco" tag in the dictionaries), type:
 cp Makefile.am.eco Makefile.am
@@ -25,8 +32,10 @@ sudo make distclean
 make 
 sudo make install
 
+After compiling, to use Apertium with the economy vocabulary, use the same commands presented above (apertium es-ca ; apertium ca-es)
 
-TAGGER 
+
+**************TAGGER *****************************
 
 To use this language-pair package with apertium YOU DO NOT NEED TO
 RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
