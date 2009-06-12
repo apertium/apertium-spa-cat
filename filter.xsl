@@ -68,7 +68,7 @@
         </xsl:otherwise>
       </xsl:choose>    
     </xsl:when>
-    <xsl:when test="not(count(./@v)=0) and not(./@v=$lang) and (./@r=string('RL'))">
+    <xsl:when test="($side=string('right')) and not(count(./@v)=0) and not(./@v=$lang) and (./@r=string('RL'))">
     </xsl:when>
     <xsl:when test="not(count(./@v)=0) and not(./@v=$lang)">
       <xsl:choose>
