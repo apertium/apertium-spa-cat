@@ -21,7 +21,7 @@ TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
           trules-$(PREFIX1).xml trules-$(PREFIX2).xml
 
 .deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix
-	xsltproc --stringparam lang cat --stringparam side left filter.xsl $< | xsltproc --stringparam alt std alt.xsl - >$@
+	xsltproc --stringparam lang cat --stringparam side right filter.xsl $< | xsltproc --stringparam alt std alt.xsl - >$@
 
 $(BASENAME).$(LANG1)-lextor.dix: .deps/commonbil.dix
 	apertium-validate-dictionary .deps/commonbil.dix
