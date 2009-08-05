@@ -487,7 +487,6 @@
       <list-item v="govern"/>
       <list-item v="capital"/>
       <list-item v="segle"/>
-      <list-item v="estat"/>
       <list-item v="pressupost"/>
       <list-item v="hotel"/>
       <list-item v="cinema"/>
@@ -677,7 +676,8 @@
 		</get-case-from>
 	      </let>
 	    </when>
-	    <when>
+	   <!-- <when alt="cat">-->
+	  <!-- <when>
 	      <test>
 		<and>
 		  <equal caseless="yes">
@@ -696,7 +696,7 @@
 		  <lit v="a"/>
 		</get-case-from>
 	      </let>
-	    </when>
+	    </when> -->
 	    <when><!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
 	      <test>
 		<equal caseless="yes">
@@ -731,7 +731,7 @@
 
     </def-macro>
 
-    <def-macro n="f_preps_det" npar="3"><!--parámetro 3 = determinante. El único cambio respecto de f_preps es que, si el determinante es 'aquest', la preposición 'en' no cambia a 'a'. -->
+    <def-macro n="f_preps_det" npar="3"><!--parámetro 3 = determinante. El único cambio respecto de f_preps es que (sólo para catalán, no para valenciano) se cambia la preposición 'en' por 'a' delante de det + nombre, excepto si el determinante es  'aquest/aquell/un/algun/altre'. La preposición 'en' no se cambia por 'a' en el resto de sintagmas nominales.-->
       <choose> 
 	<when>
 	  <test>
@@ -772,7 +772,8 @@
 		</get-case-from>
 	      </let>
 	    </when>
-	    <when>
+	  <when alt="cat">
+	  <!--<when>-->
 	      <test>
 		<and>
 		  <equal caseless="yes">
