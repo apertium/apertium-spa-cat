@@ -146,10 +146,10 @@ trules-$(PREFVAR1)$(PREFIX2).bin: trules-$(PREFVAR1)$(PREFIX2).xml
 	apertium-preprocess-transfer $< $@
 
 trules-$(PREFVAR1)$(PREFIX1).xml: $(BASENAME).trules-$(PREFIX1).xml
-	xsltproc --stringparam alt std alt.xsl $< >$@
+	xsltproc --stringparam alt cat alt.xsl $< >$@
 	
 trules-$(PREFVAR1)$(PREFIX2).xml: $(BASENAME).trules-$(PREFIX2).xml
-	xsltproc --stringparam alt std alt.xsl $< >$@
+	xsltproc --stringparam alt cat alt.xsl $< >$@
 
 trules-$(PREFVAR2)$(PREFIX1).bin: trules-$(PREFVAR2)$(PREFIX1).xml
 	apertium-validate-transfer $< 

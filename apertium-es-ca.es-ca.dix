@@ -1100,7 +1100,7 @@
 <e>       <p><l>tecnológico<s n="adj"/></l>       <r>tecnològic<s n="adj"/></r></p></e>
 <e>       <p><l>telefónico<s n="adj"/></l>        <r>telefònic<s n="adj"/></r></p></e>
 <e>       <p><l>televisivo<s n="adj"/></l>        <r>televisiu<s n="adj"/></r></p></e>
-<e>       <p><l>temeroso<s n="adj"/></l>          <r>temerós<s n="adj"/></r></p></e>
+<e>       <p><l>temeroso<s n="adj"/></l>          <r>temorós<s n="adj"/></r></p></e>
 <e>       <i>temible<s n="adj"/></i></e>
 <e>       <i>temporal<s n="adj"/></i></e>
 <e r="LR"><p><l>tenso<s n="adj"/><s n="f"/></l>   <r>tibant<s n="adj"/><s n="mf"/></r></p></e>
@@ -13933,7 +13933,7 @@
 <e a="gema"><p><l>arqueo<s n="n"/></l>            <r>arqueig<s n="n"/></r></p></e>
 <e a="gema"><p><l>aduana<s n="n"/></l>            <r>duana<s n="n"/></r></p></e>
 <e a="gema"><p><l>adenda<s n="n"/></l>            <r>addenda<s n="n"/></r></p></e>
-<e a="gema"><p><l>aclaración<s n="n"/></l>        <r>aclaració<s n="n"/></r></p></e>
+<e a="gema"><p><l>aclaración<s n="n"/><s n="f"/></l>        <r>aclariment<s n="n"/><s n="m"/></r></p></e>
 <e a="gema"><p><l>numérico<s n="adj"/></l>        <r>numèric<s n="adj"/></r></p></e>
 <e a="gema"><p><l>medio<b/>ambiente<s n="n"/></l> <r>medi<b/>ambient<s n="n"/></r></p></e>
 <e a="gema"><p><l>indistinto<s n="adj"/></l>      <r>indistint<s n="adj"/></r></p></e>
@@ -14526,7 +14526,8 @@
 <e a="prompsit2adn"><p><l>adiestramiento<s n="n"/></l><r>ensinistrament<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>adiestrar<s n="vblex"/></l><r>ensinistrar<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><i>adobar<s n="vblex"/></i></e>
-<e a="prompsit2adn"><p><l>adobe<s n="n"/></l>     <r>atovó<s n="n"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>adobe<s n="n"/></l>     <r>atovó<s n="n"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>adobe<s n="n"/><s n="m"/></l>     <r>tova<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2adn"><p><l>adoctrinamiento<s n="n"/></l><r>adoctrinament<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>adscripción<s n="n"/></l><r>adscripció<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>aduanero<s n="adj"/></l><r>duaner<s n="adj"/></r></p></e>
@@ -15506,7 +15507,7 @@
 <e a="prompsit2adn"><p><l>glosar<s n="vblex"/></l><r>glossar<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>gobernabilidad<s n="n"/></l><r>governabilitat<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>golpista<s n="n"/></l>  <r>colpista<s n="n"/></r></p></e>
-<e a="prompsit2adn"><i>grabador<s n="n"/></i></e>
+<e a="prompsit2adn"><p><l>grabador<s n="n"/></l>  <r>gravador<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>gradualmente<s n="adv"/></l><r>gradualment<s n="adv"/></r></p></e>
 <e a="prompsit2adn"><p><l>gramática<s n="n"/></l> <r>gramàtica<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>gramático<s n="n"/></l> <r>gramàtic<s n="n"/></r></p></e>
@@ -20165,6 +20166,7 @@
 <e a="prompsit"><p><l>de<b/>pie<s n="adv"/></l>   <r>dempeus<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>entremedias<s n="adv"/></l> <r>entremig<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>hasta<b/>ahora<s n="adv"/></l><r>fins<b/>ara<s n="adv"/></r></p></e>
+<e><p><l>hasta<b/>entonces<s n="adv"/></l><r>fins<b/>llavors<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>en<b/>cambio<s n="adv"/></l><r>en<b/>canvi<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>hacia<b/>adentro<s n="adv"/></l><r>cap<b/>a<b/>dintre<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>hacia<b/>donde<s n="adv"/></l><r>cap<b/>a<b/>on<s n="adv"/></r></p></e>
@@ -20863,7 +20865,6 @@
 <e a="prompsit"><i>servir<s n="vblex"/></i></e>
 <e a="prompsit"><p><l>pudrir<s n="vblex"/></l>    <r>podrir<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>desmenuzar<s n="vblex"/></l><r>esmicolar<s n="vblex"/></r></p></e>
-<e a="prompsit"><i>venir<s n="vblex"/></i></e>
 <e a="prompsit"><p><l>travestir<s n="vblex"/></l> <r>transvestir<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>desarraigar<s n="vblex"/></l><r>desarrelar<s n="vblex"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>fregar<s n="vblex"/></l><r>escurar<s n="vblex"/></r></p></e>
@@ -23479,7 +23480,6 @@
 <e a="prompsit2uoc"><p><l>desciframiento<s n="n"/></l><r>desxiframent<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>decaimiento<s n="n"/></l><r>decaïment<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>amento<s n="n"/></l>    <r>ament<s n="n"/></r></p></e>
-<e r="RL" a="prompsit2uoc"><p><l>aclaración<s n="n"/><s n="f"/></l><r>aclariment<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit2uoc"><p><l>debilitamiento<s n="n"/></l><r>debilitament<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>decrecimiento<s n="n"/></l><r>decreixement<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>fraccionamiento<s n="n"/></l><r>fraccionament<s n="n"/></r></p></e>
@@ -40592,6 +40592,13 @@
 <e>       <i>Zubizarreta<s n="np"/></i></e>
 <e>       <i>Zuriaga<s n="np"/></i></e>
 <e>       <i>Zurriaga<s n="np"/></i></e>
+<e>       <i>Josefina<b/>Bueno<s n="np"/></i></e>
+<e>       <i>Adobe<b/>Photoshop<s n="np"/></i></e>
+<e>       <i>Adobe<b/>Reader<s n="np"/></i></e>
+<e>       <i>Adobe<b/>Flash<b/>Player<s n="np"/></i></e>
+<e>       <i>Adobe<b/>Flash<s n="np"/></i></e>
+<e>       <i>Adobe<b/>Systems<s n="np"/></i></e>
+<e>       <i>Adobe<b/>Illustrator<s n="np"/></i></e>
 <e>       <p><l>Westfalia<s n="np"/></l>             <r>Westfàlia<s n="np"/></r></p></e>
 <e>       <p><l>Lisipo<s n="np"/></l>             <r>Lisip<s n="np"/></r></p></e>
 <e>       <p><l>Nerón<s n="np"/></l>             <r>Neró<s n="np"/></r></p></e>
