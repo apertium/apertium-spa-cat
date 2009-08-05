@@ -17,8 +17,11 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
      $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
 
-TARGETS = $(TARGETS_COMMON) trules-$(PREFIX1).bin trules-$(PREFIX2).bin \
-          trules-$(PREFIX1).xml trules-$(PREFIX2).xml
+TARGETS = $(TARGETS_COMMON) trules-$(PREFVAR1)$(PREFIX1).bin \ 
+          trules-$(PREFVAR2)$(PREFIX1).bin trules-$(PREFVAR1)$(PREFIX2).bin \
+          trules-$(PREFVAR2)$(PREFIX2).bin \
+          trules-$(PREFVAR1)$(PREFIX1).xml trules-$(PREFVAR1)$(PREFIX2).xml \
+          trules-$(PREFVAR2)$(PREFIX1).xml trules-$(PREFVAR2)$(PREFIX2).xml
 
 .deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix
 	xsltproc --stringparam lang cat --stringparam side right filter.xsl $< | xsltproc --stringparam alt std alt.xsl - >$@
@@ -134,21 +137,33 @@ $(PREFVAR2)$(PREFIX2).autogen.bin: .deps/$(PREFVAR2)$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
-trules-$(PREFIX1).bin: $(BASENAME).trules-$(PREFIX1).xml
-	apertium-validate-transfer $(BASENAME).trules-$(PREFIX1).xml
-	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX1).xml \
-	                             trules-$(PREFIX1).bin
+trules-$(PREFVAR1)$(PREFIX1).bin: trules-$(PREFVAR1)$(PREFIX1).xml
+	apertium-validate-transfer $< 
+	apertium-preprocess-transfer $< $@
 	                             
-trules-$(PREFIX2).bin: $(BASENAME).trules-$(PREFIX2).xml
-	apertium-validate-transfer $(BASENAME).trules-$(PREFIX2).xml
-	apertium-preprocess-transfer $(BASENAME).trules-$(PREFIX2).xml \
-	                             trules-$(PREFIX2).bin
+trules-$(PREFVAR1)$(PREFIX2).bin: trules-$(PREFVAR1)$(PREFIX2).xml
+	apertium-validate-transfer $< 
+	apertium-preprocess-transfer $< $@
 
-trules-$(PREFIX1).xml: $(BASENAME).trules-$(PREFIX1).xml
-	ln -s $(BASENAME).trules-$(PREFIX1).xml trules-$(PREFIX1).xml
+trules-$(PREFVAR1)$(PREFIX1).xml: $(BASENAME).trules-$(PREFIX1).xml
+	xsltproc --stringparam alt std alt.xsl $< >$@
+	
+trules-$(PREFVAR1)$(PREFIX2).xml: $(BASENAME).trules-$(PREFIX2).xml
+	xsltproc --stringparam alt std alt.xsl $< >$@
 
-trules-$(PREFIX2).xml: $(BASENAME).trules-$(PREFIX2).xml
-	ln -s $(BASENAME).trules-$(PREFIX2).xml trules-$(PREFIX2).xml
+trules-$(PREFVAR2)$(PREFIX1).bin: trules-$(PREFVAR2)$(PREFIX1).xml
+	apertium-validate-transfer $< 
+	apertium-preprocess-transfer $< $@
+	                             
+trules-$(PREFVAR2)$(PREFIX2).bin: trules-$(PREFVAR2)$(PREFIX2).xml
+	apertium-validate-transfer $< 
+	apertium-preprocess-transfer $< $@
+
+trules-$(PREFVAR2)$(PREFIX1).xml: $(BASENAME).trules-$(PREFIX1).xml
+	xsltproc --stringparam alt val alt.xsl $< >$@
+	
+trules-$(PREFVAR2)$(PREFIX2).xml: $(BASENAME).trules-$(PREFIX2).xml
+	xsltproc --stringparam alt val alt.xsl $< >$@
 
 EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix $(BASENAME).post-$(LANG2).dix \
@@ -182,9 +197,11 @@ apertium_es_ca_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).aut
 	$(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
 	$(PREFVAR1)$(PREFIX1).lextorbil.bin $(PREFVAR1)$(PREFIX2).lextorbil.bin \
 	$(PREFVAR1)$(PREFIX1).lextormono.bin $(PREFVAR1)$(PREFIX2).lextormono.bin \
-	$(PREFIX1).prob $(PREFIX2).prob trules-$(PREFIX1).xml \
-	trules-$(PREFIX2).xml trules-$(PREFIX1).bin \
-	trules-$(PREFIX2).bin \
+	$(PREFIX1).prob $(PREFIX2).prob \
+	trules-$(PREFVAR1)$(PREFIX1).xml trules-$(PREFVAR1)$(PREFIX2).xml \
+	trules-$(PREFVAR1)$(PREFIX1).bin trules-$(PREFVAR1)$(PREFIX2).bin \
+	trules-$(PREFVAR2)$(PREFIX1).xml trules-$(PREFVAR2)$(PREFIX2).xml \
+	trules-$(PREFVAR2)$(PREFIX1).bin trules-$(PREFVAR2)$(PREFIX2).bin \
 	$(PREFVAR1)$(PREFIX1).mode $(PREFVAR1)$(PREFIX2).mode \
 	$(PREFVAR2)$(PREFIX1).mode $(PREFVAR2)$(PREFIX2).mode \
 	$(PREFVAR1)$(PREFIX1)-multi.mode $(PREFVAR1)$(PREFIX2)-multi.mode \
@@ -198,6 +215,7 @@ install-data-local:
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2).mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFVAR2)$(PREFIX1).mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFVAR2)$(PREFIX2).mode $(apertium_es_modesdir)
+	$(INSTALL_DATA) es-ca_valencia.mode $(apertium_es_modesdir)	
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX1)-multi.mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2)-multi.mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(BASENAME).trules-$(PREFIX2).xml $(BASENAME).trules-$(PREFIX1).xml $(apertium_es_cadir)
