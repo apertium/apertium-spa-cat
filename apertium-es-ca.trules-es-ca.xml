@@ -125,6 +125,7 @@
     </def-cat>
     <def-cat n="xifra">
       <cat-item tags="num"/>
+      <cat-item tags="num.*"/>
     </def-cat>
     <def-cat n="número">
       <cat-item lemma="número" tags="n.m.sg"/>
@@ -514,21 +515,9 @@
       <list-item v="septiembre"/>
       <list-item v="noviembre"/>
       <list-item v="diciembre"/>
-      <list-item v="lunes"/>
-      <list-item v="martes"/>
-      <list-item v="miércoles"/>
-      <list-item v="jueves"/>
-      <list-item v="viernes"/>
-      <list-item v="sábado"/>
-      <list-item v="domingo"/>
-      <list-item v="día"/>
       <list-item v="semana"/>
       <list-item v="fin de semana"/>
-      <list-item v="mes"/>
-      <list-item v="año"/>
       <list-item v="lustro"/>
-      <list-item v="década"/>
-      <list-item v="siglo"/>
 
     </def-list>
 

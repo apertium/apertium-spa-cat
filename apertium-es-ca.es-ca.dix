@@ -284,6 +284,7 @@
 <e r="LR"><p><l>común<s n="adj"/><s n="mf"/></l>  <r>comú<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>común<s n="adj"/><s n="mf"/></l>  <r>comú<s n="adj"/><s n="m"/></r></p></e>
 <e>       <i>comunista<s n="adj"/></i></e>
+<e>       <i>comunitarista<s n="adj"/></i></e>
 <e>       <p><l>comunitario<s n="adj"/></l>       <r>comunitari<s n="adj"/></r></p></e>
 <e>       <i>conceptual<s n="adj"/></i></e>
 <e>       <p><l>concreto<s n="adj"/></l>          <r>concret<s n="adj"/></r></p></e>
@@ -926,9 +927,8 @@
 <e>       <p><l>propicio<s n="adj"/></l>          <r>propici<s n="adj"/></r></p></e>
 <e>       <p><l>propio<s n="adj"/></l>            <r>propi<s n="adj"/></r></p></e>
 <e r="RL"><p><l>próximo<s n="adj"/><s n="GD"/></l><r>vinent<s n="adj"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>próximo<s n="adj"/><s n="GD"/><s n="ND"/></l><r>vinent<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e r="RL" srl="próximo"><p><l>próximo<s n="adj"/></l><r>proper<s n="adj"/></r></p></e>
-<e>       <p><l>próximo<s n="adj"/></l>           <r>pròxim<s n="adj"/></r></p></e>
+<e srl="próximo"><p><l>próximo<s n="adj"/></l><r>proper<s n="adj"/></r></p></e>
+<e r="RL">       <p><l>próximo<s n="adj"/></l>           <r>pròxim<s n="adj"/></r></p></e>
 <e>       <p><l>prudente<s n="adj"/></l>          <r>prudent<s n="adj"/></r></p></e>
 <e>       <p><l>psicológico<s n="adj"/></l>       <r>psicològic<s n="adj"/></r></p></e>
 <e>       <p><l>psíquico<s n="adj"/></l>          <r>psíquic<s n="adj"/></r></p></e>
@@ -1762,6 +1762,7 @@
 <e>       <p><l>aplauso<s n="n"/></l>             <r>aplaudiment<s n="n"/></r></p></e>
 <e>       <p><l>aplicación<s n="n"/></l>          <r>aplicació<s n="n"/></r></p></e>
 <e>       <p><l>aportación<s n="n"/></l>          <r>aportació<s n="n"/></r></p></e>
+<e r="LR">       <p><l>aporte<s n="n"/><s n="m"/></l>          <r>aportació<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>apóstol<s n="n"/></l>             <r>apòstol<s n="n"/></r></p></e>
 <e srl="apoyo D"><p><l>apoyo<s n="n"/></l>        <r>suport<s n="n"/></r></p></e>
 <e>       <p><l>aprendizaje<s n="n"/></l>         <r>aprenentatge<s n="n"/></r></p></e>
@@ -6145,6 +6146,8 @@
 <e>       <p><l>hay<s n="vblex"/></l>             <r>hi<b/>ha<s n="vblex"/></r></p></e>
 <e>       <p><l>hay<g><b/>bastante</g><s n="vblex"/></l><r>hi<b/>ha<g><b/>prou</g><s n="vblex"/></r></p></e>
 <e>       <p><l>haber<g><b/>bastante</g><s n="vblex"/></l><r>haver<g><b/>prou</g><s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>véase<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></l> <r>vegeu<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+<e r="RL">       <p><l>ver<s n="vblex"/><s n="v2"/><s n="inf"/></l>             <r>vegeu<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
 <e>       <i>ser<s n="vbser"/></i></e>
 <e>       <i>Abad<s n="np"/></i></e>
 <e>       <i>Molas<s n="np"/></i></e>
@@ -11310,7 +11313,8 @@
 <e>       <i>patrullar<s n="vblex"/></i></e>
 <e>       <i>Patxi<s n="np"/></i></e>
 <e>       <i>Paula<s n="np"/></i></e>
-<e r="LR">       <p><l>paulatino<s n="adj"/></l>         <r>gradual<s n="adj"/></r></p></e>
+<e r="LR">       <p><l>paulatino<s n="adj"/><s n="m"/></l>         <r>gradual<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR">       <p><l>paulatino<s n="adj"/><s n="f"/></l>         <r>gradual<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>paulatinamente<s n="adv"/></l>    <r>paulatinament<s n="adv"/></r></p></e>
 <e>       <i>Paul<s n="np"/></i></e>
 <e>       <i>Pau<s n="np"/><s n="ant"/></i></e>
@@ -11603,7 +11607,6 @@
 <e>       <p><l>poseedor<s n="n"/></l>            <r>posseïdor<s n="n"/></r></p></e>
 <e>       <p><l>posesivo<s n="adj"/></l>          <r>possessiu<s n="adj"/></r></p></e>
 <e>       <p><l>posibilitar<s n="vblex"/></l>     <r>possibilitar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>de<b/>ser<b/>posible<s n="adv"/></l><r>possiblement<s n="adv"/></r></p></e>
 <e>       <p><l>posiblemente<s n="adv"/></l>      <r>possiblement<s n="adv"/></r></p></e>
 <e>       <i>postal<s n="adj"/></i></e>
 <e>       <i>postal<s n="n"/></i></e>
@@ -13644,7 +13647,6 @@
 <e>       <p><l>coágulo<s n="n"/></l>             <r>coàgul<s n="n"/></r></p></e>
 <e>       <p><l>vareo<s n="n"/><s n="m"/></l>     <r>batuda<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>asunto<s n="n"/></l>              <r>afer<s n="n"/></r></p></e>
-<e r="RL"><p><l>próximo<s n="adj"/><s n="GD"/><s n="ND"/></l><r>vinent<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>anochecer<s n="n"/></l>           <r>vespre<s n="n"/></r></p></e>
 <e>       <i>Unesco<s n="n"/></i></e>
 <e r="LR"><p><l>trombosis<s n="n"/><s n="f"/><s n="sp"/></l><r>trombosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
@@ -17906,6 +17908,7 @@
 <e r="RL"><p><l>archidiócesis<s n="n"/><s n="f"/><s n="sp"/></l><r>arxidiòcesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="prompsit2adn"><p><l>bonzo<s n="n"/></l>     <r>bonze<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>historieta<s n="n"/></l><r>historieta<s n="n"/></r></p></e>
+<e><p><l>historieta<g><b/>manga</g><s n="n"/></l><r>historieta<g><b/>manga</g><s n="n"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>catarí<s n="n"/><s n="mf"/><s n="sg"/></l><r>de<b/>Qatar<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>catarí<s n="n"/><s n="mf"/><s n="pl"/></l><r>de<b/>Qatar<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="RL" a="prompsit2adn"><p><l>catarí<s n="n"/><s n="mf"/><s n="ND"/></l><r>de<b/>Qatar<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -22105,6 +22108,7 @@
 <e a="prompsit"><p><l>hoja<g><b/>de<b/>reintegro</g><s n="n"/><s n="f"/></l><r>full<g><b/>de<b/>reintegrament</g><s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit"><p><l>número<g><b/>de<b/>clave</g><s n="n"/></l><r>número<g><b/>de<b/>clau</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>número<g><b/>de<b/>cuenta</g><s n="n"/></l><r>número<g><b/>de<b/>compte</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>número<g><b/>de<b/>teléfono</g><s n="n"/></l><r>número<g><b/>de<b/>telèfon</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>número<g><b/>de<b/>operaciones</g><s n="n"/></l><r>nombre<g><b/>d'operacions</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>medio<g><b/>de<b/>pago</g><s n="n"/></l><r>mitjà<g><b/>de<b/>pagament</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>Monte<b/>de<b/>Piedad<s n="np"/></l><r>Mont<b/>de<b/>Pietat<s n="np"/></r></p></e>
@@ -29430,6 +29434,8 @@
 <e>       <p><l>denegatoriamente<s n="adv"/></l>  <r>denegatòriament<s n="adv"/></r></p></e>
 <e>       <p><l>denominablemente<s n="adv"/></l>  <r>denominablement<s n="adv"/></r></p></e>
 <e>       <p><l>dentro<b/>de<b/>lo<b/>posible<s n="adv"/></l><r>en<b/>la<b/>mesura<b/>del<b/>possible<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>en<b/>tanto<b/>sea<b/>posible<s n="adv"/></l><r>en<b/>la<b/>mesura<b/>que<b/>sigui<b/>possible<s n="adv"/></r></p></e>
+<e v="val">       <p><l>en<b/>tanto<b/>sea<b/>posible<s n="adv"/></l><r>en<b/>la<b/>mesura<b/>que<b/>siga<b/>possible<s n="adv"/></r></p></e>
 <e>       <p><l>dentro<b/>de<b/>nada<s n="adv"/></l><r>d'ací<b/>a<b/>no<b/>res<s n="adv"/></r></p></e>
 <e r="RL">       <p><l>dentro<b/>de<b/>poco<s n="adv"/></l><r>abans<b/>de<b/>gaire<s n="adv"/></r></p></e>
 <e>       <p><l>dentro<b/>de<b/>unas<b/>décadas<s n="adv"/></l><r>d'aquí<b/>a<b/>unes<b/>dècades<s n="adv"/></r></p></e>
@@ -29442,6 +29448,7 @@
 <e>       <p><l>dentro<b/>de<b/>unos<b/>meses<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>mesos<s n="adv"/></r></p></e>
 <e>       <p><l>dentro<b/>de<b/>unos<b/>minutos<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>minuts<s n="adv"/></r></p></e>
 <e>       <p><l>dentro<b/>de<b/>unos<b/>siglos<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>segles<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>partir<b/>del<b/>día<b/>siguiente<b/>de<b/>su<b/>publicación<s n="adv"/></l><r>a<b/>partir<b/>de<b/>l'endemà<b/>de<b/>publicar-se<s n="adv"/></r></p></e>
 <e>       <p><l>dependientemente<s n="adv"/></l>  <r>depenentment<s n="adv"/></r></p></e>
 <e>       <p><l>deplorablemente<s n="adv"/></l>   <r>deplorablement<s n="adv"/></r></p></e>
 <e>       <p><l>deportivamente<s n="adv"/></l>    <r>esportivament<s n="adv"/></r></p></e>
@@ -32638,6 +32645,7 @@
 <e>       <p><l>contornear<s n="vblex"/></l>      <r>contornejar<s n="vblex"/></r></p></e>
 <e>       <p><l>coquetear<s n="vblex"/></l>       <r>coquetejar<s n="vblex"/></r></p></e>
 <e>       <p><l>correr<g><b/>como<b/>un<b/>galgo</g><s n="vblex"/></l><r>córrer<g><b/>com<b/>una<b/>daina</g><s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>correr<g><b/>a<b/>cargo</g><s n="vblex"/></l><r>ser<g><b/>a<b/>càrrec</g><s n="vbser"/></r></p></e>
 <e>       <p><l>corroer<s n="vblex"/></l>         <r>corroir<s n="vblex"/></r></p></e>
 <e>       <p><l>corromper<s n="vblex"/></l>       <r>corrompre<s n="vblex"/></r></p></e>
 <e>       <p><l>cortar<g><b/>por<b/>lo<b/>sano</g><s n="vblex"/></l><r>tallar<g><b/>en<b/>sec</g><s n="vblex"/></r></p></e>

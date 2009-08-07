@@ -1874,6 +1874,32 @@
     <pardef n="a">
       <e>
         <p>
+          <l><b/><a/>el<b/>fada<b/></l>
+          <r>a<b/>la<b/>fada<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>el<b/>fada</l>
+          <r>a<b/>la<b/>fada</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>el<b/>parla<b/></l>
+          <r>a<b/>la<b/>parla<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>el<b/>parla</l>
+          <r>a<b/>la<b/>parla</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/>e</l>
           <r>a</r>
         </p>
@@ -1902,7 +1928,33 @@
       </e>
     </pardef>
 
-    <pardef n="de">
+    <pardef n="de"> 
+      <e>
+        <p>
+          <l><b/><a/>el<b/>fada<b/></l>
+          <r>de<b/>la<b/>fada<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>el<b/>fada</l>
+          <r>de<b/>la<b/>fada</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>el<b/>parla<b/></l>
+          <r>de<b/>la<b/>parla<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>el<b/>parla</l>
+          <r>de<b/>la<b/>parla</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
       <e>
         <p>
           <l><b/><a/>e</l>
@@ -1957,6 +2009,32 @@
     <pardef n="per">
       <e>
         <p>
+          <l><b/><a/>el<b/>fada<b/></l>
+          <r>per<b/>la<b/>fada<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>el<b/>fada</l>
+          <r>per<b/>la<b/>fada</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>el<b/>parla<b/></l>
+          <r>per<b/>la<b/>parla<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>el<b/>parla</l>
+          <r>per<b/>la<b/>parla</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/>e</l>
           <r>pe</r>
         </p>
@@ -1993,6 +2071,32 @@
     </pardef>
 
     <pardef n="el">
+      <e>
+        <p>
+          <l><b/>fada<b/></l>
+          <r>la<b/>fada<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>fada</l>
+          <r>la<b/>fada</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>parla<b/></l>
+          <r>la<b/>parla<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>parla</l>
+          <r>la<b/>parla</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
       <e>
         <p>
           <l><b/><a/></l>
@@ -2587,10 +2691,35 @@
         </p>
         <par n="vocal_general"/>
       </e>
-      <e>
+      <e alt="cat">
         <p>
           <l><b/><a/>el<b/></l>
           <r>l'hi<b/></r>
+        </p>
+      </e>
+      <e alt="val">
+        <p>
+          <l><b/><a/>el<b/></l>
+          <r>li'l<b/></r>
+        </p>
+      </e>
+      <e alt="val">
+        <p>
+          <l><b/><a/>el<b/></l>
+          <r>li<b/>l'</r>
+        </p>
+        <par n="vocal_general"/>
+      </e>
+      <e alt="cat">
+        <p>
+          <l><b/><a/>els<b/></l>
+          <r>els<b/>hi<b/></r>
+        </p>
+      </e>
+      <e alt="val">
+        <p>
+          <l><b/><a/>els<b/></l>
+          <r>li'ls<b/></r>
         </p>
       </e>
       <e>
@@ -2599,16 +2728,29 @@
           <r>els<b/>hi<b/></r>
         </p>
       </e>
-      <e>
+      <e alt="cat">
         <p>
           <l><b/><a/>la<b/></l>
           <r>la<b/>hi<b/></r>
         </p>
       </e>
-      <e>
+      <e alt="val">
+        <p>
+          <l><b/><a/>la<b/></l>
+          <r>li<b/>l'</r>
+        </p>
+        <par n="vocal_general"/>
+      </e>
+      <e alt="cat">
         <p>
           <l><b/><a/>les<b/></l>
           <r>les<b/>hi<b/></r>
+        </p>
+      </e>
+      <e alt="val">
+        <p>
+          <l><b/><a/>les<b/></l>
+          <r>li<b/>les<b/></r>
         </p>
       </e>
       <e>
