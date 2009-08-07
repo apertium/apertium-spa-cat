@@ -10,7 +10,8 @@ VAR2=val-
 PREFVAR1=#dejar en blanco
 PREFVAR2=val-
 TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
-     $(PREFIX1).autopgen.bin $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
+     $(PREFVAR1)$(PREFIX1).autopgen.bin $(PREFVAR2)$(PREFIX1).autopgen.bin \
+     $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
      $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin modes \
      $(PREFIX1).lextormono.bin $(PREFIX2).lextormono.bin \
      $(PREFIX1).lextorbil.bin $(PREFIX2).lextorbil.bin \
@@ -25,6 +26,12 @@ TARGETS = $(TARGETS_COMMON) trules-$(PREFVAR1)$(PREFIX1).bin \
 
 .deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix
 	xsltproc --stringparam lang cat --stringparam side right filter.xsl $< | xsltproc --stringparam alt std alt.xsl - >$@
+
+.deps/pgen-ca.dix: $(BASENAME).post-ca.dix
+	xsltproc --stringparam alt cat alt.xsl $< >$@ 
+
+.deps/pgen-ca_valencia.dix: $(BASENAME).post-ca.dix
+	xsltproc --stringparam alt val alt.xsl $< >$@ 
 
 $(BASENAME).$(LANG1)-lextor.dix: .deps/commonbil.dix
 	apertium-validate-dictionary .deps/commonbil.dix
@@ -90,9 +97,14 @@ $(PREFVAR1)$(PREFIX1).autogen.bin: .deps/$(PREFVAR1)$(LANG2).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
-$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
+$(PREFVAR1)$(PREFIX1).autopgen.bin: .deps/pgen-ca.dix
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@
+
+$(PREFVAR2)$(PREFIX1).autopgen.bin: .deps/pgen-ca_valencia.dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@
+
 
 $(PREFVAR1)$(PREFIX2).automorf.bin: .deps/$(PREFVAR1)$(LANG2).dix $(BASENAME).$(LANG2).acx
 	apertium-validate-acx $(BASENAME).$(LANG2).acx
@@ -194,7 +206,8 @@ apertium_es_ca_DATA=$(PREFVAR1)$(PREFIX1).automorf.bin $(PREFVAR1)$(PREFIX2).aut
 	$(PREFVAR2)$(PREFIX1).automorf.bin $(PREFVAR2)$(PREFIX2).automorf.bin \
 	$(PREFVAR2)$(PREFIX1).autobil.bin $(PREFVAR2)$(PREFIX2).autobil.bin \
 	$(PREFVAR2)$(PREFIX1).autogen.bin $(PREFVAR2)$(PREFIX2).autogen.bin \
-	$(PREFIX1).autopgen.bin $(PREFIX2).autopgen.bin \
+	$(PREFVAR1)$(PREFIX1).autopgen.bin $(PREFVAR2)$(PREFIX1).autopgen.bin \
+        $(PREFIX2).autopgen.bin \
 	$(PREFVAR1)$(PREFIX1).lextorbil.bin $(PREFVAR1)$(PREFIX2).lextorbil.bin \
 	$(PREFVAR1)$(PREFIX1).lextormono.bin $(PREFVAR1)$(PREFIX2).lextormono.bin \
 	$(PREFIX1).prob $(PREFIX2).prob \
