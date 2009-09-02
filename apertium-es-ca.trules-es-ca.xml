@@ -134,8 +134,14 @@
     <def-cat n="en">
       <cat-item lemma="en" tags="pr"/>
     </def-cat>
+    <def-cat n="con">
+      <cat-item lemma="con" tags="pr"/>
+    </def-cat>
     <def-cat n="para">
       <cat-item lemma="para" tags="pr"/>
+    </def-cat>
+    <def-cat n="de">
+      <cat-item lemma="de" tags="pr"/>
     </def-cat>
     
     <def-cat n="a">
@@ -5416,6 +5422,42 @@
 	</choose>
       </action>
     </rule>
+   
+ 
+
+  <rule> <!-- REGLA: CON + QUE -->
+      <pattern>
+	<pattern-item n="con"/>
+	<pattern-item n="que"/>
+      </pattern>
+      <action>
+	<choose><!-- aquí no eliminem la prep 'amb' con en la regla anterior, pq pot portar a més errors i no està massa clar ; es pot canviar en un futur si el tagger funciona bé -->
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" side="sl" part="a_que"/>
+		<lit-tag v="rel.an.mf.sp"/>
+	      </equal>
+	    </test>
+	    <let>
+		<clip pos="2" side="tl" part="lem"/>
+		<lit v="què"/>
+	    </let>
+	  </when>
+	</choose>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos ="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule> 
+
+
 
     <rule> <!-- prep + el que -> prep el qual -->
       <pattern>
@@ -5533,25 +5575,72 @@
 	<call-macro n="f_tipusverb">
 	  <with-param pos="1"/>
 	</call-macro>   
-	<out>
-	  <mlu>
-	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/>
-	      <clip pos="1" side="tl" part="a_verb"/>
-	      <clip pos="1" side="tl" part="temps"/>
+	<choose><!-- véase : vegeu -->
+	  <when>
+	    <test>
+	      <and>
+		<equal caseless="yes">
+		  <clip pos="1" side="sl" part="lem"/>
+		  <lit v="ver"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="temps"/>
+		  <lit-tag v="imp"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="persona"/>
+		  <lit-tag v="p3"/>
+		</equal>
+		<equal>
+		  <clip pos="1" side="sl" part="nbr"/>
+		  <lit-tag v="sg"/>
+		</equal>
+		<equal caseless="yes">
+		  <clip pos="2" side="sl" part="lem"/>
+		  <lit v="se"/>
+		</equal>
+	      </and>
+	    </test>
+	    <let>
 	      <clip pos="1" side="tl" part="persona"/>
+	      <lit-tag v="p2"/>
+	    </let>
+	    <let>	      
 	      <clip pos="1" side="tl" part="nbr"/>
-	    </lu>
-	    <lu>
-	      <clip pos="2" side="tl" part="lem"/>
-	      <clip pos="2" side="tl" part="a_prnenc"/>
-	      <clip pos="2" side="tl" part="persona"/>
-	      <clip pos="2" side="tl" part="gen"/>
-	      <clip pos="2" side="tl" part="nbr"/>
-	      <clip pos="1" side="tl" part="lemq"/>
-	    </lu>  
-	  </mlu>
-	</out>
+	      <lit-tag v="pl"/>
+	    </let>
+	    <out>
+	      <lu>
+		<clip pos="1" side="tl" part="lem"/>
+		<clip pos="1" side="tl" part="a_verb"/>
+		<clip pos="1" side="tl" part="temps"/>
+		<clip pos="1" side="tl" part="persona"/>
+		<clip pos="1" side="tl" part="nbr"/>
+	      </lu>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="lemh"/>
+		  <clip pos="1" side="tl" part="a_verb"/>
+		  <clip pos="1" side="tl" part="temps"/>
+		  <clip pos="1" side="tl" part="persona"/>
+		  <clip pos="1" side="tl" part="nbr"/>
+		</lu>
+		<lu>
+		  <clip pos="2" side="tl" part="lem"/>
+		  <clip pos="2" side="tl" part="a_prnenc"/>
+		  <clip pos="2" side="tl" part="persona"/>
+		  <clip pos="2" side="tl" part="gen"/>
+		  <clip pos="2" side="tl" part="nbr"/>
+		  <clip pos="1" side="tl" part="lemq"/>
+		</lu>  
+	      </mlu>
+	    </out>
+	  </otherwise>
+	</choose>
       </action>
     </rule>
 
@@ -7522,6 +7611,20 @@
       <clip pos="1" side="tl" part="lem"/>
       <lit v="número"/>
     </let>
+    <choose>
+      <when>
+	<test>
+	  <equal>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <lit-tag v="GD"/>
+	  </equal>
+	</test>
+	<let>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <lit-tag v="m"/>
+	</let>
+      </when>
+    </choose>	    
     <out>
       <lu>
 	<clip pos="1" side="tl" part="whole"/>
@@ -7546,6 +7649,20 @@
 	  <clip pos="2" side="tl" part="lem"/>
 	  <lit v="número"/>
 	</let>  
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="3" side="tl" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="3" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+	</choose>
 	<out>     
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
@@ -7579,7 +7696,21 @@
 	  <with-param pos="1"/>
 	  <with-param pos="3"/>
 	  <with-param pos="2"/>
-	</call-macro>    
+	</call-macro> 
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="4" side="tl" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="4" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </let>
+	  </when>
+    </choose>   
 	<out>     
 	  <lu>
 	    <clip pos="2" side="tl" part="whole"/>

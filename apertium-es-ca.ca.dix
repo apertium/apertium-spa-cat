@@ -19338,7 +19338,7 @@
     </e>
 
     </pardef>
-      <pardef n="obr/ar__vblex" c="igual que 'abander/ar' però s'han eliminat (ignorat) les formes que coincidien amb 'obrir', perquè és més freqüent la interpretació com a 'obrir' que com a 'obrar'">
+      <pardef n="obr/ar__vblex" c="igual que 'abander/ar' però s'han eliminat (posat com a RL, sols generació) les formes que coincidien amb 'obrir', perquè és més freqüent la interpretació com a 'obrir' que com a 'obrar'">
     <e>
       <p>
         <l>aríem</l> 
@@ -19487,7 +19487,7 @@
       </p>
     </e>
 
-    <e r="LR" i="yes">
+    <e r="RL">
       <p>
         <l>í</l> 
         <r>ar<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r> 
@@ -19582,21 +19582,21 @@
         <par n="S__agafa"/> 
     </e>
 
-    <e v="cat" i="yes">
+    <e v="cat" r="RL">
       <p>
         <l>in</l> 
         <r>ar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e v="val" i="yes">
+    <e v="val" r="RL">
       <p>
         <l>en</l> 
         <r>ar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e v="cat" i="yes">
+    <e v="cat" r="RL">
       <p>
         <l>in</l> 
         <r>ar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r> 
@@ -19604,7 +19604,7 @@
         <par n="S__anant"/> 
     </e>
 
-    <e v="val" i="yes">
+    <e v="val" r="RL">
       <p>
         <l>en</l> 
         <r>ar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/><j/></r> 
@@ -19612,21 +19612,21 @@
         <par n="S__anant"/> 
     </e>
 
-    <e v="cat" i="yes">
+    <e v="cat" r="RL">
       <p>
         <l>i</l> 
         <r>ar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e v="val" i="yes">
+    <e v="val" r="RL">
       <p>
         <l>e</l> 
         <r>ar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e v="cat" i="yes">
+    <e v="cat" r="RL">
       <p>
         <l>i</l> 
         <r>ar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r> 
@@ -19634,7 +19634,7 @@
         <par n="S__vagi"/> 
     </e>
 
-    <e v="val" i="yes">
+    <e v="val" r="RL">
       <p>
         <l>e</l> 
         <r>ar<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/><j/></r> 
@@ -19867,14 +19867,14 @@
       </p>
     </e>
 
-    <e v="cat" i="yes">
+    <e v="cat" r="RL">
       <p>
         <l>o</l> 
         <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e v="val" i="yes">
+    <e v="val" r="RL">
       <p>
         <l>e</l> 
         <r>ar<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
@@ -19895,14 +19895,14 @@
       </p>
     </e>
 
-    <e i="yes">
+    <e r="RL">
       <p>
         <l>es</l> 
         <r>ar<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e i="yes">
+    <e r="RL">
       <p>
         <l>en</l> 
         <r>ar<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r> 
@@ -19923,14 +19923,14 @@
       </p>
     </e>
 
-    <e v="cat" i="yes">
+    <e v="cat" r="RL">
       <p>
         <l>i</l> 
         <r>ar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e v="val" i="yes">
+    <e v="val" r="RL">
       <p>
         <l>e</l> 
         <r>ar<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r> 
@@ -19944,42 +19944,42 @@
       </p>
     </e>
 
-    <e v="cat" i="yes">
+    <e v="cat" r="RL">
       <p>
         <l>is</l> 
         <r>ar<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e v="val" i="yes">
+    <e v="val" r="RL">
       <p>
         <l>es</l> 
         <r>ar<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e v="cat" i="yes">
+    <e v="cat" r="RL">
       <p>
         <l>in</l> 
         <r>ar<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e v="val" i="yes">
+    <e v="val" r="RL">
       <p>
         <l>en</l> 
         <r>ar<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e v="cat" i="yes">
+    <e v="cat" r="RL">
       <p>
         <l>i</l> 
         <r>ar<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e v="val" i="yes">
+    <e v="val" r="RL">
       <p>
         <l>e</l> 
         <r>ar<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r> 
@@ -87399,7 +87399,6 @@
 <e lm="hi ha"><p><l>hi<b/>ha</l>                  <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e lm="hi ha prou"><p><l>hi<b/>ha</l>             <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p><p><l><b/>prou</l><r><g><b/>prou</g></r></p></e>
 <e r="LR" lm="n'hi ha"><p><l>n'hi<b/>ha</l>       <r>hi<b/>ha<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-<e lm="vegeu"><p><l>vegeu</l><r>vegeu<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
 <e lm="abalançar"><i>abalan</i><par n="abalan/çar__vblex"/></e>
 <e lm="abanderar"><i>abander</i><par n="abander/ar__vblex"/></e>
 <e lm="abandonar"><i>abandon</i><par n="abander/ar__vblex"/></e>
@@ -97454,7 +97453,6 @@
 <e lm="biomedicina" a="prompsit"><i>biomedicin</i><par n="abell/a__n"/></e>
 <e lm="telemedicina" a="prompsit"><i>telemedicin</i><par n="abell/a__n"/></e>
 <e lm="telecentre" a="prompsit"><i>telecentre</i><par n="abric__n"/></e>
-<e a="respecte"><i>respecte</i><par n="abric__n"/></e>
 <e lm="penicil·lina" a="prompsit"><i>penicil·lin</i><par n="abell/a__n"/></e>
 <e lm="penicil·lina" r="LR"><p><l>peniciŀlin</l><r>penicil·lin</r></p><par n="abell/a__n"/></e>
 <e lm="replegament" a="prompsit"><i>replegament</i><par n="abric__n"/></e>
@@ -97715,7 +97713,7 @@
 <e lm="a l'engròs" a="prompsit"><i>a<b/>l'engròs</i><par n="ahir__adv"/></e>
 <e lm="al detall" a="prompsit"><i>al<b/>detall</i><par n="ahir__adv"/></e>
 <e r="RL" lm="a la menuda" a="prompsit"><i>a<b/>la<b/>menuda</i><par n="ahir__adv"/></e>
-<e lm="al respecte" a="prompsit"><i>al<b/>respecte</i><par n="ahir__adv"/></e>
+<e lm="sobre aquest tema" r="RL"><i>sobre<b/>aquest<b/>tema</i><par n="ahir__adv"/></e>
 <e lm="a correu seguit" a="prompsit"><i>a<b/>correu<b/>seguit</i><par n="ahir__adv"/></e>
 <e lm="segons allò que s'ha fixat" a="prompsit"><i>segons<b/>allò<b/>que<b/>s'ha<b/>fixat</i><par n="ahir__adv"/></e>
 <e r="LR" lm="atès el que ha estat establert" a="prompsit"><i>atès<b/>el<b/>que<b/>ha<b/>estat<b/>establert</i><par n="ahir__adv"/></e>
@@ -111983,6 +111981,8 @@
 <e lm="ènema"><i>ènem</i><par n="carism/a__n"/></e>
 <e lm="ésser viu"><p><l>ésser<b/>viu</l><r>ésser<b/>viu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="ésser viu"><p><l>éssers<b/>vius</l><r>ésser<b/>viu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="ésser humà"><p><l>ésser<b/>humà</l><r>ésser<b/>humà<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="ésser humà"><p><l>éssers<b/>humans</l><r>ésser<b/>humà<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="ítem"><i>ítem</i><par n="abric__n"/></e>
 <e lm="òliba" v="cat"><p><l>òlib</l>            <r>òlib</r></p><par n="abell/a__n"/></e>
 <e lm="òbila" v="val"><p><l>òbil</l>            <r>òbil</r></p><par n="abell/a__n"/></e>

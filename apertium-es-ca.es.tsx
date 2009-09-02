@@ -1961,6 +1961,10 @@
       <label-item label="PARAVBIMP"/>
       <label-item label="INFMODPRNENC"/>
     </label-sequence>
+    <label-sequence>
+      <label-item label="INFMODPRNENC"/><!--deberse a -->
+      <label-item label="PREP"/>
+    </label-sequence>
 
 
     <label-sequence>
@@ -1990,6 +1994,14 @@
     <label-sequence>
       <label-item label="VMODALIMP"/>
       <label-item label="CNJSUBS"/><!--no incluye 'que' -->
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXINF"/><!--mantener viva -->
+      <label-item label="VLEXSUBJ"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXINF"/><!--mantener viva -->
+      <label-item label="VLEXIMP"/>
     </label-sequence>
 
 

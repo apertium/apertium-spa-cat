@@ -1438,6 +1438,7 @@
 <e r="RL"><p><l>más<b/>bien<s n="cnjadv"/></l>    <r>ans<s n="cnjadv"/></r></p></e>
 <e>       <p><l>mientras<s n="cnjadv"/></l>       <r>mentre<s n="cnjadv"/></r></p></e>
 <e>       <p><l>colaborativo<s n="adj"/></l>      <r>col·laboratiu<s n="adj"/></r></p></e>
+<e r="LR">       <p><l>no<b/>obstante2<s n="cnjadv"/></l> <r>no<b/>obstant<b/>això<s n="cnjadv"/></r></p></e>
 <e>       <p><l>no<b/>obstante<s n="cnjadv"/></l> <r>no<b/>obstant<s n="cnjadv"/></r></p></e>
 <e>       <p><l>para<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>a<b/>això<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>para<b/>que<s n="cnjadv"/></l>    <r>perquè<s n="cnjadv"/></r></p></e>
@@ -6146,8 +6147,6 @@
 <e>       <p><l>hay<s n="vblex"/></l>             <r>hi<b/>ha<s n="vblex"/></r></p></e>
 <e>       <p><l>hay<g><b/>bastante</g><s n="vblex"/></l><r>hi<b/>ha<g><b/>prou</g><s n="vblex"/></r></p></e>
 <e>       <p><l>haber<g><b/>bastante</g><s n="vblex"/></l><r>haver<g><b/>prou</g><s n="vblex"/></r></p></e>
-<e r="LR">       <p><l>véase<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></l> <r>vegeu<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-<e r="RL">       <p><l>ver<s n="vblex"/><s n="v2"/><s n="inf"/></l>             <r>vegeu<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
 <e>       <i>ser<s n="vbser"/></i></e>
 <e>       <i>Abad<s n="np"/></i></e>
 <e>       <i>Molas<s n="np"/></i></e>
@@ -22020,7 +22019,7 @@
 <e r="RL" a="prompsit"><p><l>a<b/>propuesta<b/>de<s n="pr"/></l><r>a<b/>proposició<b/>de<s n="pr"/></r></p></e>
 <e a="prompsit"><p><l>al<b/>por<b/>mayor<s n="adv"/></l><r>a<b/>l'engròs<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>al<b/>por<b/>menor<s n="adv"/></l><r>al<b/>detall<s n="adv"/></r></p></e>
-<e a="prompsit"><p><l>al<b/>respecto<s n="adv"/></l><r>al<b/>respecte<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>al<b/>respecto<s n="adv"/></l><r>sobre<b/>aquest<b/>tema<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>a<b/>vuelta<b/>de<b/>correo<s n="adv"/></l><r>a<b/>correu<b/>seguit<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>a<b/>tenor<b/>de<b/>lo<b/>establecido<s n="adv"/></l><r>segons<b/>allò<b/>que<b/>s'ha<b/>fixat<s n="adv"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>a<b/>tenor<b/>de<b/>lo<b/>establecido<s n="adv"/></l><r>atès<b/>el<b/>que<b/>ha<b/>estat<b/>establert<s n="adv"/></r></p></e>
@@ -36211,6 +36210,7 @@
 <e>       <p><l>sepulcro<s n="n"/></l>            <r>sepulcre<s n="n"/></r></p></e>
 <e>       <p><l>serafín<s n="n"/></l>             <r>serafí<s n="n"/></r></p></e>
 <e>       <p><l>ser<b/>vivo<s n="n"/></l>         <r>ésser<b/>viu<s n="n"/></r></p></e>
+<e>       <p><l>ser<b/>humano<s n="n"/></l>         <r>ésser<b/>humà<s n="n"/></r></p></e>
 <e>       <p><l>serigrafía<s n="n"/></l>          <r>serigrafia<s n="n"/></r></p></e>
 <e>       <p><l>seriosidad<s n="n"/></l>          <r>seriositat<s n="n"/></r></p></e>
 <e>       <p><l>sermón<s n="n"/></l>              <r>sermó<s n="n"/></r></p></e>
