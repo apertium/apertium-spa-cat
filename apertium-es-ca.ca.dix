@@ -36717,14 +36717,14 @@
       </p>
     </e>
 
-    <e v="cat">
+    <e>
       <p>
         <l>eiem</l> 
         <r>eure<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e v="val">
+    <e r="LR">
       <p>
         <l>eem</l> 
         <r>eure<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r> 
@@ -36738,14 +36738,14 @@
       </p>
     </e>
 
-    <e v="cat">
+    <e>
       <p>
         <l>eieu</l> 
         <r>eure<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e v="val">
+    <e r="LR">
       <p>
         <l>eeu</l> 
         <r>eure<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r> 
@@ -46544,27 +46544,27 @@
       </p>
     </e>
 
-    <e v="cat">
+    <e>
       <p>
         <l>eixen</l>
         <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r> 
       </p>
     </e>
-    <e v="val">
+    <e r="LR">
       <p>
         <l>ïxen</l> 
         <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r> 
       </p>
     </e>
 
-    <e v="cat">
+    <e>
       <p>
         <l>eix</l> 
         <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e v="val">
+    <e r="LR">
       <p>
         <l>ïx</l> 
         <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r> 
@@ -75658,14 +75658,14 @@
       </p>
     </e>
 
-    <e>
+    <e v="cat">
       <p>
         <l>aig</l> 
         <r>aver<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
       </p>
     </e>
 
-    <e r="LR">
+    <e v="val">
       <p>
         <l>e</l> 
         <r>aver<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r> 
@@ -78670,7 +78670,7 @@
 <e lm="peruà"><i>peru</i><par n="afric/à__adj"/></e>
 <e lm="pervers"><i>pervers</i><par n="complex__adj"/></e>
 <e lm="pesquer"><i>pesquer</i><par n="absolut__adj"/></e>
-<e v="cat" lm="petit"><i>petit</i><par n="alt__adj"/></e>
+<e lm="petit"><i>petit</i><par n="alt__adj"/></e>
 <e lm="petoner"><i>petoner</i><par n="absolut__adj"/></e>
 <e lm="picaresc"><i>picares</i><par n="acadèmi/c__adj"/></e>
 <e lm="pictòric"><i>pictòri</i><par n="acadèmi/c__adj"/></e>
@@ -79991,6 +79991,8 @@
 <e lm="accessibilitat"><i>accessibilitat</i><par n="accessibilitat__n"/></e>
 <e lm="accessori"><i>accessori</i><par n="abric__n"/></e>
 <e lm="accident"><i>accident</i><par n="abric__n"/></e>
+<e lm="accident de trànsit"><i>accident</i><par n="abric__n"/><p><l><b/>de<b/>trànsit</l><r><g><b/>de<b/>trànsit</g></r></p></e>
+<e lm="restricció de trànsit"><i>restricci</i><par n="acci/ó__n"/><p><l><b/>de<b/>trànsit</l><r><g><b/>de<b/>trànsit</g></r></p></e>
 <e lm="accionista"><i>accionist</i><par n="accionist/a__n"/></e>
 <e lm="acció"><i>acci</i><par n="acci/ó__n"/></e>
 <e lm="accés"><i>acc</i><par n="acc/és__n"/></e>
@@ -81195,6 +81197,7 @@
 <e lm="confusió"><i>confusi</i><par n="acci/ó__n"/></e>
 <e lm="congelació"><i>congelaci</i><par n="acci/ó__n"/></e>
 <e lm="congestió"><i>congesti</i><par n="acci/ó__n"/></e>
+<e lm="descongestió"><i>descongesti</i><par n="acci/ó__n"/></e>
 <e lm="conglomerat"><i>conglomerat</i><par n="abric__n"/></e>
 <e lm="congolès"><i>congol</i><par n="angl/ès__n"/></e>
 <e lm="congrés"><i>congr</i><par n="acc/és__n"/></e>
@@ -81473,7 +81476,7 @@
 <e lm="defecte"><i>defecte</i><par n="abric__n"/></e>
 <!--<e lm="defensa"><i>defens</i><par n="accionist/a__n"/></e> -->
 <e lm="defensa"><i>defens</i><par n="abell/a__n"/></e>
-<!--<e lm="defensa"><i>defens</i><par n="carism/a__n"/></e> -->
+<e lm="defensa"><i>defens</i><par n="carism/a__n"/></e>
 <e lm="defensor"><i>defensor</i><par n="senyor__n"/></e>
 <e lm="deferència"><i>deferènci</i><par n="abell/a__n"/></e>
 <e lm="deficient"><i>deficient</i><par n="acompanyant__n"/></e>
@@ -85194,6 +85197,7 @@
 <e lm="tràmit"><i>tràmit</i><par n="abric__n"/></e>
 <e lm="tràngol"><i>tràngol</i><par n="abric__n"/></e>
 <e lm="trànsit"><i>trànsit</i><par n="abric__n"/></e>
+<e lm="trànsit de vehicles"><i>trànsit</i><par n="abric__n"/><p><l><b/>de<b/>vehicles</l><r><g><b/>de<b/>vehicles</g></r></p></e>
 <e lm="tub"><i>tub</i><par n="abric__n"/></e>
 <e lm="tumor"><i>tumor</i><par n="abric__n"/></e>
 <e lm="turbo"><i>turbo</i><par n="abric__n"/></e>
@@ -87601,6 +87605,7 @@
 <e lm="apressar"><i>apress</i><par n="abander/ar__vblex"/></e>
 <e lm="aprimar"><i>aprim</i><par n="abander/ar__vblex"/></e>
 <e lm="aprofitar"><i>aprofit</i><par n="abander/ar__vblex"/></e>
+<e lm="esguitar" v="val"><i>esguit</i><par n="abander/ar__vblex"/></e>
 <e lm="aprofundir"><i>aprofund</i><par n="abarat/ir__vblex"/></e>
 <e v="cat" lm="apropar"><i>aprop</i><par n="abander/ar__vblex"/></e>
 <e lm="apropiar"><i>apropi</i><par n="acarici/ar__vblex"/></e>
@@ -87704,6 +87709,7 @@
 <e lm="bascular"><i>bascul</i><par n="abander/ar__vblex"/></e>
 <e lm="bastar"><i>bast</i><par n="abander/ar__vblex"/></e>
 <e lm="batallar"><i>batall</i><par n="abander/ar__vblex"/></e>
+<e lm="emmurallar"><i>emmurall</i><par n="abander/ar__vblex"/></e>
 <e lm="bategar"><i>bateg</i><par n="afalag/ar__vblex"/></e>
 <e lm="batejar"><i>bate</i><par n="agreu/jar__vblex"/></e>
 <e lm="batre"><i>bat</i><par n="abat/re__vblex"/></e>
@@ -88703,6 +88709,7 @@
 <e lm="llegir"><i>ll</i><par n="ll/egir__vblex"/></e>
 <e lm="llençar"><i>llen</i><par n="abalan/çar__vblex"/></e>
 <e lm="llevar"><i>llev</i><par n="abander/ar__vblex"/></e>
+<e lm="llavar" v="val"><i>llav</i><par n="abander/ar__vblex"/></e>
 <e lm="llicenciar"><i>llicenci</i><par n="acarici/ar__vblex"/></e>
 <e lm="lligar"><i>llig</i><par n="afalag/ar__vblex"/></e>
 <e lm="llimar"><i>llim</i><par n="abander/ar__vblex"/></e>
@@ -88979,6 +88986,7 @@
 <e lm="prioritzar"><i>prioritz</i><par n="abander/ar__vblex"/></e>
 <e lm="privar"><i>priv</i><par n="abander/ar__vblex"/></e>
 <e lm="privatitzar"><i>privatitz</i><par n="abander/ar__vblex"/></e>
+<e lm="robotitzar"><i>robotitz</i><par n="abander/ar__vblex"/></e>
 <e lm="privilegiar"><i>privilegi</i><par n="acarici/ar__vblex"/></e>
 <e lm="procedir"><i>proced</i><par n="abarat/ir__vblex"/></e>
 <e lm="processar"><i>process</i><par n="abander/ar__vblex"/></e>
@@ -89140,7 +89148,7 @@
 <e lm="rendir"><i>rend</i><par n="abarat/ir__vblex"/></e>
 <e lm="renegar"><i>reneg</i><par n="afalag/ar__vblex"/></e>
 <e lm="renovar"><i>renov</i><par n="abander/ar__vblex"/></e>
-<e lm="rentar"><i>rent</i><par n="abander/ar__vblex"/></e>
+<e lm="rentar" v="cat"><i>rent</i><par n="abander/ar__vblex"/></e>
 <e lm="renunciar"><i>renunci</i><par n="acarici/ar__vblex"/></e>
 <e lm="renyir"><i>reny</i><par n="abarat/ir__vblex"/></e>
 <e lm="reobrir"><i>reob</i><par n="ob/rir__vblex"/></e>
@@ -89413,6 +89421,7 @@
 <e lm="ultimar"><i>ultim</i><par n="abander/ar__vblex"/></e>
 <e r="LR" lm="unflar"><i>unfl</i><par n="abander/ar__vblex"/></e>
 <e lm="unificar"><i>unifi</i><par n="abo/car__vblex"/></e>
+<e lm="tecnificar"><i>tecnifi</i><par n="abo/car__vblex"/></e>
 <e lm="uniformar"><i>uniform</i><par n="abander/ar__vblex"/></e>
 <e lm="unir"><i>un</i><par n="abarat/ir__vblex"/></e>
 <e lm="urbanitzar"><i>urbanitz</i><par n="abander/ar__vblex"/></e>
@@ -89575,6 +89584,13 @@
 <e lm="Santiago de Compostel·la" r="LR"><p><l>Santiago<b/>de<b/>Composteŀla</l><r>Santiago de Compostel·la</r></p><par n="Afganistan__np"/></e>
 <e lm="direcció general" a="mginesti"><p><l>direcció<b/>general</l><r>direcció<b/>general<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="direcció general" a="mginesti"><p><l>direccions<b/>generals</l><r>direcció<b/>general<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="direcció general de trànsit" a="mginesti"><p><l>direcció<b/>general<b/>de<b/>trànsit</l><r>direcció<b/>general<b/>de<b/>trànsit<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="direcció general de trànsit" a="mginesti"><p><l>direccions<b/>generals<b/>de<b/>trànsit</l><r>direcció<b/>general<b/>de<b/>trànsit<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+<e lm="director general de trànsit" a="mginesti"><p><l>director<b/>general<b/>de<b/>trànsit</l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="director general de trànsit" a="mginesti"><p><l>directora<b/>general<b/>de<b/>trànsit</l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="director general de trànsit" a="mginesti"><p><l>directors<b/>generals<b/>de<b/>trànsit</l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="director general de trànsit" a="mginesti"><p><l>directores<b/>generals<b/>de<b/>trànsit</l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="Xixona" a="mginesti"><i>Xixona</i><par n="Afganistan__np"/></e>
 <e v="cat" lm="per la seva banda" a="mginesti"><i>per<b/>la<b/>seva<b/>banda</i><par n="ahir__adv"/></e>
 <e lm="a favor seu" a="mginesti"><i>a<b/>favor<b/>seu</i><par n="ahir__adv"/></e>
@@ -91372,6 +91388,7 @@
 <e lm="espectacularment" a="prompsit2adn"><i>espectacularment</i><par n="ahir__adv"/></e>
 <e lm="espeleòleg" a="prompsit2adn"><i>espeleòl</i><par n="biòl/eg__n"/></e>
 <e lm="esperançador" a="prompsit2adn"><i>esperançador</i><par n="absolut__adj"/></e>
+<e lm="desesperançador"><i>desesperançador</i><par n="absolut__adj"/></e>
 <e lm="esperançar" a="prompsit2adn"><i>esperan</i><par n="abalan/çar__vblex"/></e>
 <e lm="esperma" a="prompsit2adn"><i>esperm</i><par n="carism/a__n"/></e>
 <e lm="espiral" a="prompsit2adn"><i>espiral</i><par n="abdominal__adj"/></e>
@@ -92325,6 +92342,7 @@
 <e lm="quirúrgicament" a="prompsit2adn"><i>quirúrgicament</i><par n="ahir__adv"/></e>
 <e lm="penjoll" a="prompsit2adn"><i>penjoll</i><par n="abric__n"/></e>
 <e lm="racionalització" a="prompsit2adn"><i>racionalitzaci</i><par n="acci/ó__n"/></e>
+<e lm="orientalització"><i>orientalitzaci</i><par n="acci/ó__n"/></e>
 <e lm="racionalitzar" a="prompsit2adn"><i>racionalitz</i><par n="abander/ar__vblex"/></e>
 <e lm="racionament" a="prompsit2adn"><i>racionament</i><par n="abric__n"/></e>
 <e lm="radioactivitat" a="prompsit2adn"><i>radioactivitat</i><par n="accessibilitat__n"/></e>
@@ -97744,6 +97762,7 @@
 <e lm="fer fallida" a="prompsit" alt="eco"><i>f</i><par n="f/er__vblex"/><p><l><b/>fallida</l><r><g><b/>fallida</g></r></p></e>
 <e lm="fer fallida" a="prompsit" alt="std"><i>f</i><par n="f/er__vblex"/><p><l><b/>fallida</l><r><g><b/>fallida</g></r></p></e>
 <e lm="ser conforme" a="prompsit"><par n="/ser__vbser"/><p><l><b/>conforme</l><r><g><b/>conforme</g></r></p></e>
+<e lm="ser aplicable" r="RL"><par n="/ser__vbser"/><p><l><b/>aplicable</l><r><g><b/>aplicable</g></r></p></e>
 <e lm="ser a punt" a="prompsit"><par n="/ser__vbser"/><p><l><b/>a<b/>punt</l><r><g><b/>a<b/>punt</g></r></p></e>
 <e lm="ser a càrrec" r="RL"><par n="/ser__vbser"/><p><l><b/>a<b/>càrrec</l><r><g><b/>a<b/>càrrec</g></r></p></e>
 <e lm="tenir els efectes oportuns" a="prompsit"><par n="abs/tenir__vblex"/><p><l><b/>els<b/>efectes<b/>oportuns</l><r><g><b/>els<b/>efectes<b/>oportuns</g></r></p></e>
@@ -99009,6 +99028,8 @@
 <e lm="egocèntric" a="prompsit2uoc"><i>egocèntri</i><par n="acadèmi/c__adj"/></e>
 <e lm="isomètric" a="prompsit2uoc"><i>isomètri</i><par n="acadèmi/c__adj"/></e>
 <e lm="hidrofòbic" a="prompsit2uoc"><i>hidrofòbi</i><par n="acadèmi/c__adj"/></e>
+<e lm="claustrofòbic"><i>claustrofòbi</i><par n="acadèmi/c__adj"/></e>
+<e lm="fòbic"><i>fòbi</i><par n="acadèmi/c__adj"/></e>
 <e lm="citoplasmàtic" a="prompsit2uoc"><i>citoplasmàti</i><par n="acadèmi/c__adj"/></e>
 <e lm="apologètic" a="prompsit2uoc"><i>apologèti</i><par n="acadèmi/c__adj"/></e>
 <e lm="tipològic" a="prompsit2uoc"><i>tipològi</i><par n="acadèmi/c__adj"/></e>
@@ -103889,6 +103910,7 @@
 <e lm="rabassut"><i>rabassu</i><par n="afortuna/t__adj"/></e>
 <e lm="encuriosit"><i>encuriosi</i><par n="afortuna/t__adj"/></e>
 <e lm="baleàric"><i>baleàri</i><par n="acadèmi/c__adj"/></e>
+<e lm="apocalíptic"><i>apocalípti</i><par n="acadèmi/c__adj"/></e>
 <e lm="eslovac"><i>eslova</i><par n="acadèmi/c__adj"/></e>
 <e lm="bocabadat"><i>bocabada</i><par n="afortuna/t__adj"/></e>
 <e lm="immoblista"><i>immobilist</i><par n="agrícol/a__adj"/></e>
@@ -103915,6 +103937,10 @@
 <e lm="imbatible"><i>imbatible</i><par n="abdominal__adj"/></e>
 <e lm="empipador"><i>empipador</i><par n="absolut__adj"/></e>
 <e lm="danyós"><i>dany</i><par n="aliment/ós__adj"/></e>
+<e lm="centellejant"><i>centellejant</i><par n="abdominal__adj"/></e>
+<e lm="volador"><i>volador</i><par n="absolut__adj"/></e>
+<e lm="penjant"><i>penjant</i><par n="abdominal__adj"/></e>
+<e lm="parlant" r="RL"><i>parlant</i><par n="abdominal__adj"/></e>
 
 
 <!-- adverbis-->
@@ -108359,6 +108385,7 @@
 <e lm="perfumar"><i>perfum</i><par n="abander/ar__vblex"/></e>
 <e lm="pervertir"><i>pervert</i><par n="abarat/ir__vblex"/></e>
 <e lm="pessigollejar"><i>pessigolle</i><par n="agreu/jar__vblex"/></e>
+<e lm="centellejar"><i>centelle</i><par n="agreu/jar__vblex"/></e>
 <e lm="petonejar"><i>petone</i><par n="agreu/jar__vblex"/></e>
 <e lm="petrificar"><i>petrifi</i><par n="abo/car__vblex"/></e>
 <e lm="piconar"><i>picon</i><par n="abander/ar__vblex"/></e>
@@ -112157,6 +112184,7 @@
 <e lm="mariconera"><i>mariconer</i><par n="abell/a__n"/></e>
 <e lm="escocell"><i>escocell</i><par n="abric__n"/></e>
 <e lm="parenostre"><i>parenostre</i><par n="abric__n"/></e>
+<e lm="hamburgueseria"><i>hamburgueseri</i><par n="abell/a__n"/></e>
 
 
 <!--noms propis -->
@@ -115974,6 +116002,7 @@
 <e lm="Ecclestone"><i>Ecclestone</i><par n="Abad__np"/></e>
 <e lm="Jobs"><i>Jobs</i><par n="Abad__np"/></e>
 <e lm="Trueta"><i>Trueta</i><par n="Abad__np"/></e>
+<e lm="Brossa"><i>Brossa</i><par n="Abad__np"/></e>
 <e lm="El Jueves"><i>El<b/>Jueves</i><par n="ABC__np"/></e>
 <e lm="segó"><p><l>segó</l><r>segó<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="Etxarri"><i>Etxarri</i><par n="Afganistan__np"/></e>

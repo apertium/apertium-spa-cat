@@ -15,14 +15,14 @@
     </def-cat>
     
     <def-cat n="det">          
-      <cat-item tags="det.*"/>
+      <cat-item tags="det.*"/> 
       <cat-item tags="predet.*"/>
     </def-cat>
     
     <def-cat n="predet">
       <cat-item tags="predet.*"/>
     </def-cat>
-    
+
     <def-cat n="adjec">          
       <cat-item tags="adj.*"/>
       <cat-item tags="vblex.pp.*"/>
@@ -161,6 +161,9 @@
     <def-cat n="porque">
       <cat-item lemma="porque" tags="cnjadv"/>
     </def-cat>
+    <def-cat n="noobstante">
+      <cat-item lemma="no obstante2" tags="cnjadv"/>
+    </def-cat>
 
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
@@ -194,10 +197,13 @@
     </def-cat>
     
     
-    <def-cat n="llamar">
+    <def-cat n="vbref_sign"><!--verbos que cambian de significado si son reflexivos -->
       <cat-item lemma="llamar" tags="vblex.pri.*"/>
       <cat-item lemma="llamar" tags="vblex.pii.*"/>
       <cat-item lemma="llamar" tags="vblex.fti.*"/>
+      <cat-item lemma="parecer" tags="vblex.pri.*"/>
+      <cat-item lemma="parecer" tags="vblex.pii.*"/>
+      <cat-item lemma="parecer" tags="vblex.fti.*"/>
     </def-cat>
 
     <def-cat n="caer">
@@ -222,6 +228,9 @@
     </def-cat>
 
     
+    <def-cat n="ser_de_aplicación">
+      <cat-item lemma="ser# de aplicación" tags="vbser.*"/>
+    </def-cat>
     <def-cat n="cm">
       <cat-item tags="cm"/>
     </def-cat>
@@ -957,6 +966,20 @@
 	    <clip pos="1" side ="tl" part="lem"/>
 	    <get-case-from pos="1">
 	      <lit v="mig"/>
+	    </get-case-from>
+	  </let>
+	</when>
+	<when alt="val">
+	  <test>
+	    <equal caseless="yes">
+	      <clip pos="1" side ="sl" part="lem"/>
+	      <lit v="pequeño"/>
+	    </equal>	  
+	  </test>
+	  <let>
+	    <clip pos="1" side ="tl" part="lem"/>
+	    <get-case-from pos="1">
+	      <lit v="petit"/>
 	    </get-case-from>
 	  </let>
 	</when>
@@ -5497,6 +5520,8 @@
       </action>
     </rule>
 
+
+
     <!-- Para traducir "dije" por "vaig dir" -->
     <!-- REGLA: PERIF -->
     <!-- <rule> 
@@ -7278,7 +7303,7 @@
     <rule> <!-- llamarse -> dir-se-->
       <pattern>
 	<pattern-item n="prnproref"/>
-	<pattern-item n="llamar"/>
+	<pattern-item n="vbref_sign"/>
       </pattern>
       <action>
 	<choose>
@@ -7301,11 +7326,36 @@
 		</and>
 	      </or>
 	    </test>
-	    <let>
-	      <clip pos="2" side="tl" part="lem"/>
-	      <lit v="dir"/>
-	    </let>
+	    <choose>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="2" side="sl" part="lem"/>
+		    <lit v="llamar"/>
+		  </equal>
+		</test>		    
+		<let>
+		  <clip pos="2" side="tl" part="lem"/>
+		  <lit v="dir"/>
+		</let>
+	      </when>
+	      <when>
+		<test>
+		  <equal>
+		    <clip pos="2" side="sl" part="lem"/>
+		    <lit v="parecer"/>
+		  </equal>
+		</test>		    
+		<let>
+		  <clip pos="2" side="tl" part="lem"/>
+		  <lit v="assemblar"/>
+		</let>
+	      </when>
+	    </choose>
 	  </when>
+
+
+
 	</choose>
 	<out>
 	  <lu>
@@ -7727,6 +7777,56 @@
 	
       </action>
     </rule>
+
+
+ <rule> <!-- REGLA: ser de aplicación + ADJ (perquè els del servei ling volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-->
+      <pattern>
+	<pattern-item n="ser_de_aplicación"/>
+	<pattern-item n="adjec"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <equal>
+		<clip pos="2" side="tl" part="gen"/>
+		<lit-tag v="GD"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </let>
+	  </when>
+	</choose>	      
+	<let>
+	  <clip pos="1" side="tl" part="lem"/>
+	  <lit v="ser"/>
+	</let>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b/>
+	  <lu>
+	    <lit v="de"/>
+	    <lit-tag v="pr"/>
+	  </lu>
+	  <b/>
+	  <lu>
+	    <lit v="aplicació"/>
+	    <lit-tag v="n.f.sg"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+</rule>
+	  
+
+
 
     <rule> <!-- REGLA: reset variables-->
       <pattern>
