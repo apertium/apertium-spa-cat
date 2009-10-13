@@ -77157,7 +77157,6 @@
   </pardefs>
 
   <section  id="main" type="standard">
-      
 <e lm="abdominal"><i>abdominal</i><par n="abdominal__adj"/></e>
 <e lm="absent"><i>absent</i><par n="important__adj"/></e>
 <e lm="absolut"><i>absolut</i><par n="absolut__adj"/></e>
@@ -79633,6 +79632,8 @@
 <e lm="sobretot"><i>sobretot</i><par n="ahir__adv"/></e>
 <e lm="socialment"><i>socialment</i><par n="ahir__adv"/></e>
 <e lm="solament"><i>solament</i><par n="ahir__adv"/></e>
+<e lm="no solament" r="RL"><i>no<b/>solament</i><par n="ahir__adv"/></e>
+<e lm="no només" r="RL"><i>no<b/>només</i><par n="ahir__adv"/></e>
 <e r="LR" lm="sols"><i>sols</i><par n="ahir__adv"/></e>
 <e lm="sorprenentment"><i>sorprenentment</i><par n="ahir__adv"/></e>
 <e lm="sota"><i>sota</i><par n="ahir__adv"/></e>
@@ -79993,6 +79994,8 @@
 <e lm="accident"><i>accident</i><par n="abric__n"/></e>
 <e lm="accident de trànsit"><i>accident</i><par n="abric__n"/><p><l><b/>de<b/>trànsit</l><r><g><b/>de<b/>trànsit</g></r></p></e>
 <e lm="restricció de trànsit"><i>restricci</i><par n="acci/ó__n"/><p><l><b/>de<b/>trànsit</l><r><g><b/>de<b/>trànsit</g></r></p></e>
+<e lm="multa de trànsit"><i>mult</i><par n="abell/a__n"/><p><l><b/>de<b/>trànsit</l><r><g><b/>de<b/>trànsit</g></r></p></e>
+<e lm="denúncia de trànsit"><i>denúnci</i><par n="abell/a__n"/><p><l><b/>de<b/>trànsit</l><r><g><b/>de<b/>trànsit</g></r></p></e>
 <e lm="accionista"><i>accionist</i><par n="accionist/a__n"/></e>
 <e lm="acció"><i>acci</i><par n="acci/ó__n"/></e>
 <e lm="accés"><i>acc</i><par n="acc/és__n"/></e>
@@ -85198,6 +85201,8 @@
 <e lm="tràngol"><i>tràngol</i><par n="abric__n"/></e>
 <e lm="trànsit"><i>trànsit</i><par n="abric__n"/></e>
 <e lm="trànsit de vehicles"><i>trànsit</i><par n="abric__n"/><p><l><b/>de<b/>vehicles</l><r><g><b/>de<b/>vehicles</g></r></p></e>
+<e lm="trànsit dens"><p><l>trànsit<b/>dens</l><r>trànsit<b/>dens<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="trànsit fluid"><p><l>trànsit<b/>fluid</l><r>trànsit<b/>fluid<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="tub"><i>tub</i><par n="abric__n"/></e>
 <e lm="tumor"><i>tumor</i><par n="abric__n"/></e>
 <e lm="turbo"><i>turbo</i><par n="abric__n"/></e>
@@ -86164,9 +86169,11 @@
 <e lm="Hèctor"><i>Hèctor</i><par n="Abad__np"/></e>
 <e lm="Hèlsinki"><i>Hèlsinki</i><par n="Afganistan__np"/></e>
 <e lm="Hèrcules"><i>Hèrcules</i><par n="Abad__np"/></e>
-<e lm="IES"><i>IES</i><par n="ABC__np"/></e>
+<e lm="IES" r="LR"><i>IES</i><par n="ABC__np"/></e>
+<e lm="IES" r="RL"><p><l><a/>IES</l><r>IES</r></p><par n="ABC__np"/></e>
 <e lm="INE"><i>INE</i><par n="ABC__np"/></e>
-<e lm="IU"><i>IU</i><par n="ABC__np"/></e>
+<e lm="IU" r="LR"><i>IU</i><par n="ABC__np"/></e>
+<e lm="IU" r="RL"><p><l><a/>IU</l><r>IU</r></p><par n="ABC__np"/></e>
 <e lm="Ibarretxe"><i>Ibarretxe</i><par n="Abad__np"/></e>
 <e lm="Iberdrola"><i>Iberdrola</i><par n="ABC__np"/></e>
 <e lm="Iberia"><i>Iberia</i><par n="ABC__np"/></e>
@@ -89591,6 +89598,13 @@
 <e lm="director general de trànsit" a="mginesti"><p><l>directora<b/>general<b/>de<b/>trànsit</l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="director general de trànsit" a="mginesti"><p><l>directors<b/>generals<b/>de<b/>trànsit</l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="director general de trànsit" a="mginesti"><p><l>directores<b/>generals<b/>de<b/>trànsit</l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+
+<e lm="prefectura provincial de trànsit"><p><l>prefectura<b/>provincial<b/>de<b/>trànsit</l><r>prefectura<b/>provincial<b/>de<b/>trànsit<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="prefectura provincial de trànsit"><p><l>prefectures<b/>provincials<b/>de<b/>trànsit</l><r>prefectura<b/>provincial<b/>de<b/>trànsit<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="centre de control de trànsit"><p><l>centre<b/>de<b/>control<b/>de<b/>trànsit</l><r>centre<b/>de<b/>control<b/>de<b/>trànsit<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="centre de control de trànsit"><p><l>centres<b/>de<b/>control<b/>de<b/>trànsit</l><r>centre<b/>de<b/>control<b/>de<b/>trànsit<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
 <e lm="Xixona" a="mginesti"><i>Xixona</i><par n="Afganistan__np"/></e>
 <e v="cat" lm="per la seva banda" a="mginesti"><i>per<b/>la<b/>seva<b/>banda</i><par n="ahir__adv"/></e>
 <e lm="a favor seu" a="mginesti"><i>a<b/>favor<b/>seu</i><par n="ahir__adv"/></e>
@@ -97530,8 +97544,10 @@
 <e lm="SNCF" a="prompsit"><i>SNCF</i><par n="BBC__n"/></e>
 <e lm="centreequerra" a="prompsit"><i>centreequerr</i><par n="abell/a__n"/></e>
 <e lm="centredreta" a="prompsit"><i>centredret</i><par n="abell/a__n"/></e>
-<e lm="IEO" a="prompsit"><i>IEO</i><par n="BBVA__n"/></e>
-<e lm="IEC" a="prompsit"><i>IEC</i><par n="BBVA__n"/></e>
+<e lm="IEO" a="prompsit" r="LR"><i>IEO</i><par n="BBVA__n"/></e>
+<e lm="IEO" a="prompsit" r="RL"><p><l><a/>IEO</l><r>IEO</r></p><par n="BBVA__n"/></e>
+<e lm="IEC" r="LR"><i>IEC</i><par n="BBVA__n"/></e>
+<e lm="IEC" r="RL"><p><l><a/>IEC</l><r><a/>IEC</r></p><par n="BBVA__n"/></e>
 <e lm="Pime" a="prompsit"><i>Pime</i><par n="BBC__n"/></e>
 <e lm="Once" a="prompsit"><i>Once</i><par n="BBC__n"/></e>
 <e lm="immaduresa" a="prompsit"><i>immadures</i><par n="abell/a__n"/></e>
@@ -108743,7 +108759,6 @@
 
 <!-- noms -->
 
-
 <e lm="ensopiment"><i>ensopiment</i><par n="abric__n"/></e>
 <e lm="pesca litoral"><p><l>pesca<b/>litoral</l><r>pesca<b/>litoral<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="pesca litoral"><p><l>pesques<b/>litorals</l><r>pesca<b/>litoral<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -111984,7 +111999,7 @@
 <e lm="xiscle"><i>xiscle</i><par n="abric__n"/></e>
 <e lm="xiuxiueig"><i>xiuxiue</i><par n="assa/ig__n"/></e>
 <e lm="xuclada"><i>xuclad</i><par n="abell/a__n"/></e>
-<e r="LR" lm="xufa"><i>xuf</i><par n="abell/a__n"/></e>
+<e lm="xufa"><i>xuf</i><par n="abell/a__n"/></e>
 <e lm="xufla"><i>xufl</i><par n="abell/a__n"/></e>
 <e r="LR" lm="xulla"><i>xull</i><par n="abell/a__n"/></e>
 <e lm="xumet"><i>xumet</i><par n="abric__n"/></e>
@@ -115977,7 +115992,6 @@
 <e r="RL" lm="es Migjorn Gran"><p><l><a/>es<b/>Migjorn<b/>Gran</l><r>es<b/>Migjorn<b/>Gran</r></p><par n="Afganistan__np"/></e>
 <e lm="Gorvatxov"><i>Gorvatxov</i><par n="Abad__np"/></e>
 <e lm="Egunkaria"><i>Egunkaria</i><par n="ABC__np"/></e>
-<e lm="IEC"><i>IEC</i><par n="ABC__np"/></e>
 <e lm="Sabaté"><i>Sabaté</i><par n="Abad__np"/></e>
 <e lm="Sant Cugat"><i>Sant<b/>Cugat</i><par n="Afganistan__np"/></e>
 <e lm="Chaos"><i>Chaos</i><par n="Abad__np"/></e>

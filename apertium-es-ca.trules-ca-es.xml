@@ -5,6 +5,15 @@
       <cat-item tags="n.*"/>
     </def-cat>
 
+   <!-- <def-cat n="qualsevol">
+      <cat-item tags="*"/>
+    </def-cat>
+    <def-cat n="descon">
+      <cat-item lemma="*" tags=""/>
+    </def-cat>
+    <def-cat n="descbil">
+      <cat-item lemma="@*" tags="n.*"/>
+    </def-cat> -->
     <def-cat n="npant">
       <cat-item tags="np.ant"/>
     </def-cat>
@@ -422,6 +431,7 @@
   <section-def-lists>
     <def-list n="huma">
       <list-item v="chico"/>
+      <list-item v="niño"/>
     </def-list>
     <def-list n="verbs_moviment">
       <list-item v="anar"/>
@@ -3104,7 +3114,7 @@
   </section-def-macros>
 
   <section-rules>
-    
+
 
     <rule> <!--REGLA: HI HA + PP (para evitar traducciones de tipo "hi ha anat: hay habido"-->
       <pattern>
@@ -3163,7 +3173,7 @@
 
 
 
-
+ 
 
     <rule> <!-- REGLA: DETERMINANT -->
       <pattern>
@@ -5036,7 +5046,10 @@
       <action>
 	<call-macro n="f_lexicAdv">
 	  <with-param pos="1"/>
-	</call-macro>     
+	</call-macro>   
+	<call-macro n="f_concord1">
+	  <with-param pos="2"/>
+	</call-macro>   
 	<out>   
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>

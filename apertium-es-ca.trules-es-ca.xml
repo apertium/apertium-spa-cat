@@ -231,6 +231,26 @@
     <def-cat n="ser_de_aplicación">
       <cat-item lemma="ser# de aplicación" tags="vbser.*"/>
     </def-cat>
+    <def-cat n="poder">
+      <cat-item lemma="poder" tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="deber">
+      <cat-item lemma="deber" tags="vbmod.*"/>
+      <cat-item lemma="deber" tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="dies">
+      <cat-item lemma="lunes" tags="n.m.sp"/>
+      <cat-item lemma="martes" tags="n.m.sp"/>
+      <cat-item lemma="miércoles" tags="n.m.sp"/>
+      <cat-item lemma="jueves" tags="n.m.sp"/>
+      <cat-item lemma="viernes" tags="n.m.sp"/>
+      <cat-item lemma="sábado" tags="n.m.sg"/>
+      <cat-item lemma="domingo" tags="n.m.sg"/>
+    </def-cat>
+    <def-cat n="matitarda">
+      <cat-item lemma="mañana" tags="n.f.sg"/>
+      <cat-item lemma="tarde" tags="n.f.sg"/>
+    </def-cat>
     <def-cat n="cm">
       <cat-item tags="cm"/>
     </def-cat>
@@ -7779,7 +7799,7 @@
     </rule>
 
 
- <rule> <!-- REGLA: ser de aplicación + ADJ (perquè els del servei ling volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-->
+ <rule> <!-- REGLA: ser de aplicación + ADJ (perquè els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-->
       <pattern>
 	<pattern-item n="ser_de_aplicación"/>
 	<pattern-item n="adjec"/>
@@ -7826,6 +7846,56 @@
 </rule>
 	  
 
+ <rule alt="val"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'podían y debían' per 'podien i devien' en comptes de 'podien i havien de'-->
+      <pattern>
+	<pattern-item n="poder"/>
+	<pattern-item n="cnjcoo"/>
+	<pattern-item n="deber"/>
+      </pattern>
+      <action>
+	<let>
+	  <clip pos="3" side="tl" part="lem"/>
+	  <lit v="deure"/>
+	</let>
+	<call-macro n="f_pretind">
+	  <with-param pos="1"/>
+	</call-macro> 
+	<out>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	</out>
+	<call-macro n="f_pretind">
+	  <with-param pos="3"/>
+	</call-macro> 
+      </action>
+</rule>
+	  
+<rule alt="val"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'dilluns + de + matí'-->
+      <pattern>
+	<pattern-item n="dies"/>
+	<pattern-item n="matitarda"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <lit v="de"/>
+	    <lit-tag v="pr"/>
+	  </lu>
+	  <b/>
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+</rule>
+	  
 
 
     <rule> <!-- REGLA: reset variables-->

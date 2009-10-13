@@ -927,8 +927,8 @@
 <e>       <p><l>propicio<s n="adj"/></l>          <r>propici<s n="adj"/></r></p></e>
 <e>       <p><l>propio<s n="adj"/></l>            <r>propi<s n="adj"/></r></p></e>
 <e r="RL"><p><l>próximo<s n="adj"/><s n="GD"/></l><r>vinent<s n="adj"/><s n="mf"/></r></p></e>
-<e srl="próximo"><p><l>próximo<s n="adj"/></l><r>proper<s n="adj"/></r></p></e>
-<e r="RL">       <p><l>próximo<s n="adj"/></l>           <r>pròxim<s n="adj"/></r></p></e>
+<e srl="próximo" v="cat"><p><l>próximo<s n="adj"/></l><r>proper<s n="adj"/></r></p></e>
+<e v="val">       <p><l>próximo<s n="adj"/></l>           <r>pròxim<s n="adj"/></r></p></e>
 <e>       <p><l>prudente<s n="adj"/></l>          <r>prudent<s n="adj"/></r></p></e>
 <e>       <p><l>psicológico<s n="adj"/></l>       <r>psicològic<s n="adj"/></r></p></e>
 <e>       <p><l>psíquico<s n="adj"/></l>          <r>psíquic<s n="adj"/></r></p></e>
@@ -1321,6 +1321,8 @@
 <e>       <p><l>sobre<b/>todo<s n="adv"/></l>     <r>sobretot<s n="adv"/></r></p></e>
 <e>       <p><l>sólo<s n="adv"/></l>              <r>només<s n="adv"/></r></p></e>
 <e>       <p><l>tan<b/>sólo<s n="adv"/></l>       <r>tan<b/>sols<s n="adv"/></r></p></e>
+<e v="val">       <p><l>no<b/>sólo<s n="adv"/></l>       <r>no<b/>solament<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>no<b/>sólo<s n="adv"/></l>       <r>no<b/>només<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>adelantado<s n="adv"/></l> <r>per<b/>endavant<s n="adv"/></r></p></e>
 <e r="LR"><p><l>solo<s n="adv"/></l>              <r>solament<s n="adv"/></r></p></e>
 <e>       <p><l>solamente<s n="adv"/></l>         <r>solament<s n="adv"/></r></p></e>
@@ -1622,7 +1624,11 @@
 <e>       <p><l>accidente<s n="n"/></l>           <r>accident<s n="n"/></r></p></e>
 <e>       <p><l>accidente<g><b/>de<b/>tráfico</g><s n="n"/></l>           <r>accident<g><b/>de<b/>trànsit</g><s n="n"/></r></p></e>
 <e>       <p><l>restricción<g><b/>de<b/>tráfico</g><s n="n"/></l>           <r>restricció<g><b/>de<b/>trànsit</g><s n="n"/></r></p></e>
+<e>       <p><l>multa<g><b/>de<b/>tráfico</g><s n="n"/></l>           <r>multa<g><b/>de<b/>trànsit</g><s n="n"/></r></p></e>
+<e>       <p><l>denuncia<g><b/>de<b/>tráfico</g><s n="n"/></l>           <r>denúncia<g><b/>de<b/>trànsit</g><s n="n"/></r></p></e>
 <e>       <p><l>tráfico<g><b/>de<b/>vehículos</g><s n="n"/></l>           <r>trànsit<g><b/>de<b/>vehicles</g><s n="n"/></r></p></e>
+<e>       <p><l>tráfico<b/>denso<s n="n"/></l>           <r>trànsit<b/>dens<s n="n"/></r></p></e>
+<e>       <p><l>tráfico<b/>fluido<s n="n"/></l>           <r>trànsit<b/>fluid<s n="n"/></r></p></e>
 <e>       <p><l>acción<s n="n"/></l>              <r>acció<s n="n"/></r></p></e>
 <e srl="aceite D"><p><l>aceite<s n="n"/></l>      <r>oli<s n="n"/></r></p></e>
 <e>       <p><l>acento<s n="n"/></l>              <r>accent<s n="n"/></r></p></e>
@@ -13505,6 +13511,8 @@
 <e a="mginesti"><p><l>dirección<b/>general<s n="n"/></l><r>direcció<b/>general<s n="n"/></r></p></e>
 <e a="mginesti"><p><l>dirección<b/>general<b/>de<b/>tráfico<s n="n"/></l><r>direcció<b/>general<b/>de<b/>trànsit<s n="n"/></r></p></e>
 <e a="mginesti"><p><l>director<b/>general<b/>de<b/>tráfico<s n="n"/></l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/></r></p></e>
+<e><p><l>jefatura<b/>provincial<b/>de<b/>tráfico<s n="n"/></l><r>prefectura<b/>provincial<b/>de<b/>trànsit<s n="n"/></r></p></e>
+<e><p><l>centro<b/>de<b/>control<b/>de<b/>tráfico<s n="n"/></l><r>centre<b/>de<b/>control<b/>de<b/>trànsit<s n="n"/></r></p></e>
 <e r="LR" a="mginesti"><p><l>Xixona<s n="np"/></l><r>Xixona<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Jijona<s n="np"/></l>       <r>Xixona<s n="np"/></r></p></e>
 <e v="cat" a="mginesti"><p><l>por<b/>su<b/>parte<s n="adv"/></l><r>per<b/>la<b/>seva<b/>banda<s n="adv"/></r></p></e>
@@ -34569,7 +34577,7 @@
 <e>       <p><l>chivo<b/>expiatorio<s n="n"/></l> <r>boc<b/>expiatori<s n="n"/></r></p></e>
 <e>       <p><l>chollo<s n="n"/><s n="m"/></l>    <r>ganga<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>chorro<b/>de<b/>tinta<s n="n"/></l><r>raig<b/>de<b/>tinta<s n="n"/></r></p></e>
-<e>       <p><l>chufa<s n="n"/></l>               <r>xufla<s n="n"/></r></p></e>
+<e v="cat">       <p><l>chufa<s n="n"/></l>               <r>xufla<s n="n"/></r></p></e>
 <e>       <p><l>chupete<s n="n"/></l>             <r>xumet<s n="n"/></r></p></e>
 <e>       <p><l>chupetón<s n="n"/><s n="m"/></l>  <r>xuclada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>chupito<s n="n"/></l>             <r>xopet<s n="n"/></r></p></e>
@@ -37040,7 +37048,7 @@
 <e r="RL"><p><l>cerrajero<s n="n"/></l>           <r>serraller<s n="n"/></r></p></e>
 <e r="RL"><p><l>chapuzón<s n="n"/></l>            <r>cabussó<s n="n"/></r></p></e>
 <e r="RL"><p><l>chapuzón<s n="n"/></l>            <r>escabussó<s n="n"/></r></p></e>
-<e r="RL"><p><l>chufa<s n="n"/></l>               <r>xufa<s n="n"/></r></p></e>
+<e v="val"><p><l>chufa<s n="n"/></l>               <r>xufa<s n="n"/></r></p></e>
 <e r="RL"><p><l>chuleta<s n="n"/></l>             <r>llonza<s n="n"/></r></p></e>
 <e r="RL"><p><l>chuleta<s n="n"/></l>             <r>xulla<s n="n"/></r></p></e>
 <e r="RL"><p><l>cifosis<s n="n"/><s n="f"/><s n="sp"/></l><r>cifosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
