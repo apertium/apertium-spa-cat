@@ -1,4 +1,4 @@
-VERSION=1.1.0
+VERSION=1.2.0
 LANG1=es
 LANG2=ca
 PREFIX1=$(LANG1)-$(LANG2)
@@ -18,13 +18,16 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
      $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
      $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix
 
-TARGETS = $(TARGETS_COMMON) trules-$(PREFVAR1)$(PREFIX1).bin \ 
+TARGETS = $(TARGETS_COMMON) trules-$(PREFVAR1)$(PREFIX1).bin \
           trules-$(PREFVAR2)$(PREFIX1).bin trules-$(PREFVAR1)$(PREFIX2).bin \
           trules-$(PREFVAR2)$(PREFIX2).bin \
           trules-$(PREFVAR1)$(PREFIX1).xml trules-$(PREFVAR1)$(PREFIX2).xml \
           trules-$(PREFVAR2)$(PREFIX1).xml trules-$(PREFVAR2)$(PREFIX2).xml
 
-.deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix
+.deps/: 
+	mkdir .deps
+
+.deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix .deps
 	xsltproc --stringparam lang cat --stringparam side right filter.xsl $< | xsltproc --stringparam alt std alt.xsl - >$@
 
 .deps/pgen-ca.dix: $(BASENAME).post-ca.dix
@@ -184,7 +187,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).trules-$(PREFIX2).xml $(PREFIX1).prob $(PREFIX2).prob \
            modes.xml translate-to-default-equivalent.xsl alt.xsl \
            $(PREFIX1)-latin1.prob $(PREFIX2)-latin1.prob \
-           $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx
+           $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx \
+	   filter.xsl filter.sh
            
 apertium_es_cadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_es_modesdir=$(prefix)/share/apertium/modes/
@@ -194,6 +198,10 @@ $(PREFIX1).mode: modes.xml
 	cp *.mode modes/
 
 $(PREFIX2).mode: modes.xml 
+	apertium-gen-modes modes.xml
+	cp *.mode modes/
+
+$(PREFVAR2)$(PREFIX1).mode: modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 
