@@ -24,10 +24,7 @@ TARGETS = $(TARGETS_COMMON) trules-$(PREFVAR1)$(PREFIX1).bin \
           trules-$(PREFVAR1)$(PREFIX1).xml trules-$(PREFVAR1)$(PREFIX2).xml \
           trules-$(PREFVAR2)$(PREFIX1).xml trules-$(PREFVAR2)$(PREFIX2).xml
 
-.deps/: 
-	mkdir .deps
-
-.deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix .deps
+.deps/commonbil.dix: $(BASENAME).$(PREFIX1).dix
 	xsltproc --stringparam lang cat --stringparam side right filter.xsl $< | xsltproc --stringparam alt std alt.xsl - >$@
 
 .deps/pgen-ca.dix: $(BASENAME).post-ca.dix
@@ -188,7 +185,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
            modes.xml translate-to-default-equivalent.xsl alt.xsl \
            $(PREFIX1)-latin1.prob $(PREFIX2)-latin1.prob \
            $(BASENAME).$(LANG1).acx $(BASENAME).$(LANG2).acx \
-	   filter.xsl filter.sh
+	   filter.xsl filter.sh .deps
            
 apertium_es_cadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_es_modesdir=$(prefix)/share/apertium/modes/
@@ -241,6 +238,9 @@ install-data-local:
 	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2)-multi.mode $(apertium_es_modesdir)
 	$(INSTALL_DATA) $(BASENAME).trules-$(PREFIX2).xml $(BASENAME).trules-$(PREFIX1).xml $(apertium_es_cadir)
 
-CLEANFILES = -rf $(TARGETS) modes .deps/ $(PREFVAR2)$(PREFIX1).automorf.bin $(PREFVAR2)$(PREFIX1).autobil.bin \
+CLEANFILES = -rf $(TARGETS) modes $(PREFVAR2)$(PREFIX1).automorf.bin $(PREFVAR2)$(PREFIX1).autobil.bin \
 		$(PREFVAR2)$(PREFIX2).automorf.bin $(PREFVAR2)$(PREFIX2).autobil.bin \
-		$(PREFVAR2)$(PREFIX2).autogen.bin $(PREFVAR2)$(PREFIX1).autogen.bin
+		$(PREFVAR2)$(PREFIX2).autogen.bin $(PREFVAR2)$(PREFIX1).autogen.bin \
+		.dep/ca.dix .dep/commonbil.dix .dep/es-ca.dix .dep/es.dix .dep/pgen-ca.dix \
+		.dep/pgen-ca_valencia.dix .dep/val-ca.dix .dep/val-es-ca.dix .dep/val-es.dix 
+
