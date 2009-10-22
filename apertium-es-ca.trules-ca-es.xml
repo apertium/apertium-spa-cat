@@ -20,7 +20,11 @@
 
     <def-cat n="nploc">
       <cat-item tags="np.loc"/>
-    </def-cat>        
+    </def-cat>    
+    <def-cat n="nom_loc">
+      <cat-item tags="n.*"/>
+      <cat-item tags="np.loc"/>
+    </def-cat>    
 
     <def-cat n="det">          
       <cat-item tags="det.*"/>
@@ -222,6 +226,7 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
+      <attr-item tags="np.loc"/>
     </def-attr>
 
     <def-attr n="a_npant">
@@ -265,6 +270,7 @@
       <attr-item tags="adj.pos"/>
       <attr-item tags="adj"/>
       <attr-item tags="vblex.pp"/>
+      <attr-item tags="vblex.v2.pp"/>
     </def-attr>
 
     <def-attr n="a_adv">
@@ -320,6 +326,7 @@
 
     <def-attr n="a_inf">
       <attr-item tags="vblex.inf"/>
+      <attr-item tags="vblex.v2.inf"/>
       <attr-item tags="vbser.inf"/>
       <attr-item tags="vbhaver.inf"/>
       <attr-item tags="vbmod.inf"/>
@@ -327,6 +334,7 @@
 
     <def-attr n="a_infnm">
       <attr-item tags="vblex.inf"/>
+      <attr-item tags="vblex.v2.inf"/>
       <attr-item tags="vbser.inf"/>
       <attr-item tags="vbhaver.inf"/>
     </def-attr>
@@ -452,7 +460,6 @@
       <list-item v="apropar"/>
       <list-item v="córrer"/>
       <list-item v="portar"/>
-      <list-item v="passar"/>
       <list-item v="tornar"/>
       <list-item v="regressar"/>
       <list-item v="arribar"/>
@@ -2997,6 +3004,12 @@
 		<clip pos="1" side="tl" part="nbr"/>
 		<lit-tag v="sg"/>
 	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="a_adj"/>
+		  <lit-tag v="adj.sup"/>
+		</equal>
+	      </not>		
 	    </and>
 	  </test>
 	  <let>
@@ -3045,6 +3058,12 @@
 		<clip pos="1" side="tl" part="nbr"/>
 		<lit-tag v="sg"/>
 	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="a_adj"/>
+		  <lit-tag v="adj.sup"/>
+		</equal>
+	      </not>	
 	    </and>
 	  </test>
 	  <let>
@@ -3080,10 +3099,18 @@
 	</when>
 	<when>
 	  <test>
+	    <and>
 	      <equal caseless="yes" >
 		<clip pos="1" side="tl" part="lem"/>
 		<lit v="lleno"/>
 	      </equal>
+	      <not>
+		<equal>
+		  <clip pos="1" side="tl" part="a_adj"/>
+		  <lit-tag v="adj.sup"/>
+		</equal>
+	      </not>
+	    </and>
 	  </test>
 	  <let>
 	    <clip pos="1" side="tl" part="lem"/>
@@ -3363,24 +3390,24 @@
 	<call-macro n="f_concord2">
 	  <with-param pos="1"/>
 	  <with-param pos="2"/>
-	</call-macro>     
-	<out>   
-	  <lu>
-	    <clip pos="1" side="tl" part="lemh"/>
-	    <clip pos="1" side="tl" part="a_nom"/>
-	    <clip pos="1" side="tl" part="gen"/>
-	    <clip pos="1" side="tl" part="nbr"/>
-	    <clip pos="1" side="tl" part="lemq"/> 
-	  </lu>
-	  <b pos="1"/>
-	  <lu>
-	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="a_adjec"/>
-	    <clip pos="2" side="tl" part="gen"/>
-	    <clip pos="2" side="tl" part="nbr"/>
-	    <clip pos="2" side="tl" part="lemq"/>
-	  </lu>	    
-	</out>
+	</call-macro> 
+	    <out>   
+	      <lu>
+		<clip pos="1" side="tl" part="lemh"/>
+		<clip pos="1" side="tl" part="a_nom"/>
+		<clip pos="1" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="1" side="tl" part="lemq"/> 
+	      </lu>
+	      <b pos="1"/>
+	      <lu>
+		<clip pos="2" side="tl" part="lemh"/>
+		<clip pos="2" side="tl" part="a_adjec"/>
+		<clip pos="2" side="tl" part="gen"/>
+		<clip pos="2" side="tl" part="nbr"/>
+		<clip pos="2" side="tl" part="lemq"/>
+	      </lu>	    
+	    </out>
       </action>
     </rule>
 
@@ -5056,7 +5083,9 @@
 	  </lu>
 	  <b pos="1"/>
 	  <lu>
-	    <clip pos="2" side="tl" part="whole"/>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="tags"/>
+	    <clip pos="2" side="tl" part="lemq"/>
 	  </lu>
 	</out>	
       </action>
@@ -6305,7 +6334,7 @@
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="a"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="nom_loc"/>
       </pattern>
       <action>
 	<choose>
@@ -6322,8 +6351,6 @@
 		</equal>
 	      </or>
 	    </test>
-
-
 	    <choose>
 	      <when>
 		<test>
@@ -6338,6 +6365,10 @@
 		      <equal>  
 			<clip pos="1" side="tl" part="a_verb"/>
 			<lit-tag v="vblex"/>
+		      </equal>
+		      <equal>  
+			<clip pos="1" side="tl" part="a_verb"/>
+			<lit-tag v="vblex.v2"/>
 		      </equal>  
 		      <equal>  
 			<clip pos="1" side="tl" part="a_verb"/>
@@ -6470,7 +6501,7 @@
 	<pattern-item n="anar"/>
 	<pattern-item n="inf"/>
 	<pattern-item n="a"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="nom_loc"/>
       </pattern>
       <action>  
 	<choose>
@@ -6501,7 +6532,11 @@
 		      <equal>  
 			<clip pos="2" side="tl" part="a_verb"/>
 			<lit-tag v="vblex"/>
-		      </equal>  
+		      </equal> 
+		      <equal>  
+			<clip pos="2" side="tl" part="a_verb"/>
+			<lit-tag v="vblex.v2"/>
+		      </equal> 
 		      <equal>  
 			<clip pos="2" side="tl" part="a_verb"/>
 			<lit-tag v="vbmod"/>  
@@ -6654,7 +6689,7 @@
 	<pattern-item n="verb"/>
 	<pattern-item n="a"/>
 	<pattern-item n="det"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="nom_loc"/>
       </pattern>
       <action>
 	<call-macro n="f_concord2">
@@ -6689,6 +6724,10 @@
 		      <equal>  
 			<clip pos="1" side="tl" part="a_verb"/>
 			<lit-tag v="vblex"/>
+		      </equal>  
+		      <equal>  
+			<clip pos="1" side="tl" part="a_verb"/>
+			<lit-tag v="vblex.v2"/>
 		      </equal>  
 		      <equal>  
 			<clip pos="1" side="tl" part="a_verb"/>
@@ -6838,7 +6877,7 @@
 	<pattern-item n="inf"/>
 	<pattern-item n="a"/>
 	<pattern-item n="det"/>
-	<pattern-item n="nom"/>
+	<pattern-item n="nom_loc"/>
       </pattern>
       <action> 
 	<call-macro n="f_concord2">
@@ -6873,6 +6912,10 @@
 		      <equal>  
 			<clip pos="2" side="tl" part="a_verb"/>
 			<lit-tag v="vblex"/>
+		      </equal>  
+		      <equal>  
+			<clip pos="2" side="tl" part="a_verb"/>
+			<lit-tag v="vblex.v2"/>
 		      </equal>  
 		      <equal>  
 			<clip pos="2" side="tl" part="a_verb"/>
@@ -7243,7 +7286,9 @@
 	<out>
 	  <b pos="2"/>
 	  <lu>
-	    <clip pos="3" side="tl" part="whole"/>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="tags"/>
+	    <clip pos="3" side="tl" part="lemq"/>
 	  </lu>
 	</out>
       </action>

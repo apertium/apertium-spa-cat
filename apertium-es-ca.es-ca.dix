@@ -10211,7 +10211,7 @@
 <e>       <p><l>curdo<s n="n"/></l>               <r>kurd<s n="n"/></r></p></e>
 <e r="LR"><p><l>kurdo<s n="n"/></l>               <r>kurd<s n="n"/></r></p></e>
 <e>       <i>laborable<s n="adj"/></i></e>
-<e r="RL">       <p><l>laborable<s n="adj"/><s n="mf"/></l>         <r>feiner<s n="adj"/></r></p></e>
+<e r="RL" srl="laborable D">       <p><l>laborable<s n="adj"/><s n="mf"/></l>         <r>feiner<s n="adj"/><s n="m"/></r></p></e>
 <e>       <p><l>laborioso<s n="adj"/></l>         <r>laboriós<s n="adj"/></r></p></e>
 <e>       <p><l>lacrimógeno<s n="adj"/></l>       <r>lacrimògen<s n="adj"/></r></p></e>
 <e>       <i>Lacruz<s n="np"/></i></e>
@@ -28432,7 +28432,8 @@
 <e r="LR"><p><l>tenaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>tenaç<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>tenaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>tenaç<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>tenaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>tenaç<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>trabajador<s n="adj"/></l>        <r>feiner<s n="adj"/></r></p></e>
+<e r="RL" srl="trabajador"><p><l>trabajador<s n="adj"/><s n="m"/></l>        <r>feiner<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL">       <p><l>trabajador<s n="adj"/><s n="f"/></l>         <r>feiner<s n="adj"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>ultravioleta<s n="adj"/><s n="mf"/></l><r>ultraviolat<s n="adj"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>ultravioleta<s n="adj"/><s n="mf"/></l><r>ultraviolat<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>verdoso<s n="adj"/></l>           <r>verdosenc<s n="adj"/></r></p></e>
