@@ -90,6 +90,10 @@
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbmod.*"/>
     </def-cat>
+    <def-cat n="ser_estar">
+      <cat-item tags="vbser.*"/>
+      <cat-item lemma="estar" tags="vblex.*"/>
+    </def-cat>
 
 
     <def-cat n="inf">
@@ -537,6 +541,9 @@
       <list-item v="parc"/>
       <list-item v="dutxa"/>
       <list-item v="regió"/>
+      <list-item v="catàleg"/> <!-- a="mireiafarrus" -->
+      <list-item v="biblioteca"/> <!-- a="mireiafarrus" -->
+
     </def-list>
     <def-list n="tiempo">
       <list-item v="enero"/>
@@ -3278,6 +3285,87 @@
 	
       </action>
     </rule>
+    
+     <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: La nube es roja - El núvol és vermell-->
+       <pattern>
+ 	<pattern-item n="det"/>
+ 	<pattern-item n="nom"/>
+ 	<pattern-item n="ser_estar"/>
+ 	<pattern-item n="adjec"/>
+       </pattern>
+       <action>
+ 	<call-macro n="f_concord3">
+ 	  <with-param pos="2"/>
+ 	  <with-param pos="4"/>
+ 	  <with-param pos="1"/>
+ 	</call-macro>     
+	<call-macro n="f_lexicDet">
+ 	  <with-param pos="1"/>
+ 	</call-macro>    
+ 	<call-macro n="f_llamado">
+ 	  <with-param pos="4"/>
+ 	</call-macro> 
+	<choose>
+	  <when>
+	    <test>
+	      <and>
+		<not>
+		  <equal>
+		    <clip pos="2" side="sl" part="nbr"/>
+		    <clip pos="2" side="tl" part="nbr"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="2" side="sl" part="nbr"/>
+		    <lit-tag v="sp"/>
+		  </equal>
+		</not>
+		<not>
+		  <equal>
+		    <clip pos="2" side="tl" part="nbr"/>
+		    <lit-tag v="sp"/>
+		  </equal>
+		</not>
+	      </and>
+	    </test>
+	    <let><!--el dinero es - els diners són -->
+	      <clip pos="3" side="tl" part="nbr"/>
+	      <clip pos="2" side="tl" part="nbr"/>
+	    </let>
+	  </when>
+	</choose>      
+		
+ 	<out>    
+ 	  <lu>  
+ 	    <clip pos="1" side="tl" part="whole"/>
+ 	  </lu> 
+ 	  <b pos="1"/>
+ 	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+ 	    <clip pos="2" side="tl" part="a_nom"/>
+ 	    <clip pos="2" side="tl" part="gen"/>
+ 	    <clip pos="2" side="tl" part="nbr"/>
+ 	    <clip pos="2" side="tl" part="lemq"/>
+ 	  </lu>
+ 	  <b pos="2"/>
+	</out>  
+	<call-macro n="f_pretind">
+	  <with-param pos="3"/>
+	</call-macro>  
+	<out>
+ 	  <b pos="3"/>
+ 	  <lu>
+ 	    <clip pos="4" side="tl" part="lemh"/>
+ 	    <clip pos="4" side="tl" part="a_adjec"/>
+ 	    <clip pos="4" side="tl" part="gen"/>
+ 	    <clip pos="4" side="tl" part="nbr"/>
+ 	    <clip pos="4" side="tl" part="lemq"/>
+ 	  </lu>
+ 	</out>
+       </action>
+     </rule>
+ 
 
     <rule> <!-- REGLA: NOM ADJECTIU ADJECTIU-->
       <pattern>

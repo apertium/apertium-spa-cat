@@ -1439,8 +1439,9 @@
 <e r="RL"><p><l>más<b/>bien<s n="cnjadv"/></l>    <r>ans<s n="cnjadv"/></r></p></e>
 <e>       <p><l>mientras<s n="cnjadv"/></l>       <r>mentre<s n="cnjadv"/></r></p></e>
 <e>       <p><l>colaborativo<s n="adj"/></l>      <r>col·laboratiu<s n="adj"/></r></p></e>
-<e r="LR">       <p><l>no<b/>obstante2<s n="cnjadv"/></l> <r>no<b/>obstant<b/>això<s n="cnjadv"/></r></p></e>
+<e r="LR">       <p><l>no<b/>obstante2<s n="cnjadv"/></l> <r>no<b/>obstant<b/>això<s n="cnjadv"/></r></p></e> <!-- "mireiafarrus" què significa el 2? -->
 <e>       <p><l>no<b/>obstante<s n="cnjadv"/></l> <r>no<b/>obstant<s n="cnjadv"/></r></p></e>
+<e r="RL" a="mireiafarrus">       <p><l>no<b/>obstante<s n="cnjadv"/></l> <r>això<b/>no<b/>obstant<s n="cnjadv"/></r></p></e> 
 <e>       <p><l>para<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>a<b/>això<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>para<b/>que<s n="cnjadv"/></l>    <r>perquè<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>para<b/>que<s n="cnjadv"/></l>    <r>per<b/>tal<b/>que<s n="cnjadv"/></r></p></e>
@@ -4686,7 +4687,9 @@
 <e>       <p><l>mediante<s n="pr"/></l>           <r>mitjançant<s n="pr"/></r></p></e>
 <e>       <p><l>basta<b/>con<s n="pr"/></l>       <r>n'hi<b/>ha<b/>prou<b/>amb<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>lo<b/>concerniente<b/>a<s n="pr"/></l><r>pel<b/>que<b/>concerneix<s n="pr"/></r></p></e>
-<e>       <p><l>con<b/>respecto<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
+<e r="LR">       <p><l>con<b/>respecto<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e> 
+<e r="RL" a="mireiafarrus">       <p><l>en<b/>cuanto<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
+<e a="mireiafarrus" >       <p><l>en<b/>cuanto<b/>a<s n="pr"/></l>  <r>quant<b/>a<s n="pr"/></r></p></e> <!-- modificat perquè s'ha afegit "pel que fa a / en cuanto a" -->
 <e r="LR"><p><l>en<b/>lo<b/>que<b/>respecta<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
 <e r="LR"><p><l>en<b/>lo<b/>que<b/>se<b/>refiere<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
 <e r="LR"><p><l>por<b/>lo<b/>que<b/>respecta<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
@@ -4702,7 +4705,6 @@
 <e>       <p><l>por<b/>encima<b/>de<s n="pr"/></l><r>per<b/>sobre<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>a<b/>poco<b/>de<s n="pr"/></l>    <r>poc<b/>després<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>al<b/>poco<b/>de<s n="pr"/></l>   <r>poc<b/>després<b/>de<s n="pr"/></r></p></e>
-<e>       <p><l>en<b/>cuanto<b/>a<s n="pr"/></l>  <r>quant<b/>a<s n="pr"/></r></p></e>
 <e r="LR"><p><l>en<b/>lo<b/>relativo<b/>a<s n="pr"/></l><r>quant<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>ras<b/>de<s n="pr"/></l>     <r>ran<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>al<b/>respecto<b/>de<s n="pr"/></l><r>referent<b/>a<s n="pr"/></r></p></e>
@@ -6204,6 +6206,8 @@
 <e>       <p><l>ineficiencia<s n="n"/></l>        <r>ineficiència<s n="n"/></r></p></e>
 <e>       <p><l>abad<s n="n"/></l>                <r>abat<s n="n"/></r></p></e>
 <e>       <i>ABC<s n="np"/></i></e>
+<e>       <i>Facebook<s n="np"/></i></e>
+<e>       <i>The<b/>New<b/>York<b/>Times<s n="np"/></i></e>
 <e>       <i>abdominal<s n="adj"/></i></e>
 <e>       <p><l>abeja<s n="n"/></l>               <r>abella<s n="n"/></r></p></e>
 <e>       <i>Abellán<s n="np"/></i></e>
@@ -7415,7 +7419,6 @@
 <e r="LR"><i>Catalunya<s n="np"/></i></e>
 <e>       <p><l>Cataluña<s n="np"/></l>           <r>Catalunya<s n="np"/></r></p></e>
 <e>       <p><l>catamarán<s n="n"/></l>           <r>catamarà<s n="n"/></r></p></e>
-<e>       <i>cata<s n="n"/></i></e>
 <e>       <p><l>catarata<s n="n"/></l>            <r>cataracta<s n="n"/></r></p></e>
 <e>       <i>catar<s n="vblex"/></i></e>
 <e>       <p><l>catastrófico<s n="adj"/></l>      <r>catastròfic<s n="adj"/></r></p></e>
@@ -9470,6 +9473,7 @@
 <e>       <i>girasol<s n="n"/></i></e>
 <e>       <p><l>giratorio<s n="adj"/></l>         <r>giratori<s n="adj"/></r></p></e>
 <e r="LR"><p><l>Gerona<s n="np"/></l>             <r>Girona<s n="np"/></r></p></e>
+<e>	  <p><l>@teneo<s n="np"/></l>             <r>@teneu<s n="np"/></r></p></e>
 <e>       <i>Girona<s n="np"/></i></e>
 <e>       <p><l>glaciar<s n="n"/><s n="m"/></l>   <r>glacera<s n="n"/><s n="f"/></r></p></e>
 <e>       <i>global<s n="adj"/></i></e>
@@ -13376,7 +13380,7 @@
 <e>       <i>waterpolo<s n="n"/></i></e>
 <e>       <p><l>vatio<s n="n"/></l>               <r>watt<s n="n"/></r></p></e>
 <e r="LR"><i>watt<s n="n"/></i></e>
-<e>       <p><l>web<s n="n"/><s n="f"/></l>       <r>web<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>web<s n="n"/><s n="mf"/></l>       <r>web<s n="n"/><s n="mf"/></r></p></e>
 <e>       <i>Wilde<s n="np"/></i></e>
 <e>       <i>Windows<s n="np"/></i></e>
 <e>       <i>w<s n="n"/></i></e>
@@ -19381,11 +19385,14 @@
 <e a="prompsit2adn"><p><l>españolista<s n="adj"/></l><r>espanyolista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>estalinista<s n="adj"/></l><r>estalinista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>evangelista<s n="adj"/></l><r>evangelista<s n="adj"/></r></p></e>
-<e a="prompsit2adn"><p><l>ex-barcelonista<s n="adj"/></l><r>exbarcelonista<s n="adj"/></r></p></e>
+<!--<e a="prompsit2adn"><p><l>ex-barcelonista<s n="adj"/></l><r>exbarcelonista<s n="adj"/></r></p></e>-->
+<e a="mireiafarrus"><p><l>ex<b/>barcelonista<s n="adj"/></l><r>exbarcelonista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>exclusivista<s n="adj"/></l><r>exclusivista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>existencialista<s n="adj"/></l><r>existencialista<s n="adj"/></r></p></e>
-<e a="prompsit2adn"><p><l>ex-madridista<s n="adj"/></l><r>exmadridista<s n="adj"/></r></p></e>
-<e a="prompsit2adn"><p><l>ex-mallorquinista<s n="adj"/></l><r>exmallorquinista<s n="adj"/></r></p></e>
+<!--<e a="prompsit2adn"><p><l>ex-madridista<s n="adj"/></l><r>exmadridista<s n="adj"/></r></p></e>-->
+<e a="mireiafarrus"><p><l>ex<b/>madridista<s n="adj"/></l><r>exmadridista<s n="adj"/></r></p></e>
+<!--<e a="prompsit2adn"><p><l>ex-mallorquinista<s n="adj"/></l><r>exmallorquinista<s n="adj"/></r></p></e>-->
+<e a="mireiafarrus"><p><l>ex<b/>mallorquinista<s n="adj"/></l><r>exmallorquinista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>falangista<s n="adj"/></l><r>falangista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>florista<s n="adj"/></l><r>florista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>fujimorista<s n="adj"/></l><r>fujimorista<s n="adj"/></r></p></e>
@@ -19592,11 +19599,14 @@
 <e a="prompsit2adn"><p><l>españolista<s n="n"/></l><r>espanyolista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>estalinista<s n="n"/></l><r>estalinista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>evangelista<s n="n"/></l><r>evangelista<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>ex-barcelonista<s n="n"/></l><r>exbarcelonista<s n="n"/></r></p></e>
+<!--<e a="prompsit2adn"><p><l>ex-barcelonista<s n="n"/></l><r>exbarcelonista<s n="n"/></r></p></e>-->
+<e a="mireiafarrus"><p><l>ex<b/>barcelonista<s n="n"/></l><r>exbarcelonista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>exclusivista<s n="n"/></l><r>exclusivista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>existencialista<s n="n"/></l><r>existencialista<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>ex-madridista<s n="n"/></l><r>exmadridista<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>ex-mallorquinista<s n="n"/></l><r>exmallorquinista<s n="n"/></r></p></e>
+<!--<e a="prompsit2adn"><p><l>ex-madridista<s n="n"/></l><r>exmadridista<s n="n"/></r></p></e>-->
+<e a="mireiafarrus"><p><l>ex<b/>madridista<s n="n"/></l><r>exmadridista<s n="n"/></r></p></e>
+<!-- <e a="prompsit2adn"><p><l>ex-mallorquinista<s n="n"/></l><r>exmallorquinista<s n="n"/></r></p></e> -->
+<e a="mireiafarrus"><p><l>ex<b/>mallorquinista<s n="n"/></l><r>exmallorquinista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>falangista<s n="n"/></l><r>falangista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>florista<s n="n"/></l>  <r>florista<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>fujimorista<s n="n"/></l><r>fujimorista<s n="n"/></r></p></e>
@@ -21810,14 +21820,17 @@
 <e a="prompsit"><p><l>derrumbe<s n="n"/></l>      <r>ensorrament<s n="n"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>sugerencia<s n="n"/></l><r>suggerència<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>cristianodemócrata<s n="n"/></l><r>cristianodemòcrata<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>exconsejero<s n="n"/></l>   <r>exconseller<s n="n"/></r></p></e>
+<!--<e a="prompsit"><p><l>exconsejero<s n="n"/></l>   <r>exconseller<s n="n"/></r></p></e>-->
+<e a="mireiafarrus"><p><l>ex<b/>consejero<s n="n"/></l>   <r>exconseller<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>busto<s n="n"/></l>         <r>bust<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>delator<s n="n"/></l>       <r>delator<s n="n"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>montón<s n="n"/></l> <r>amàs<s n="n"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>kilómetro<s n="n"/></l><r>kilòmetre<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>cancionero<s n="n"/></l>    <r>cancioner<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>ex-mujer<s n="n"/></l>      <r>ex-dona<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>ex-espía<s n="n"/></l>      <r>ex-espia<s n="n"/></r></p></e>
+<!--<e a="prompsit"><p><l>ex-mujer<s n="n"/></l>      <r>ex-dona<s n="n"/></r></p></e>-->
+<e a="mireiafarrus"><p><l>ex<b/>mujer<s n="n"/></l>      <r>exdona<s n="n"/></r></p></e>
+<!--<e a="prompsit"><p><l>ex-espía<s n="n"/></l>      <r>ex-espia<s n="n"/></r></p></e>-->
+<e a="mireiafarrus"><p><l>ex<b/>espía<s n="n"/></l>      <r>exespia<s n="n"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>reino<s n="n"/></l>  <r>reialme<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>homonimia<s n="n"/></l>     <r>homonímia<s n="n"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>taxón<s n="n"/></l>  <r>tàxon<s n="n"/></r></p></e>
@@ -26818,6 +26831,9 @@
 <e a="prompsit2uoc"><p><l>comúnmente<s n="adv"/></l><r>comunament<s n="adv"/></r></p></e>
 <e a="prompsit2uoc"><p><l>pragmáticamente<s n="adv"/></l><r>pragmàticament<s n="adv"/></r></p></e>
 <e a="prompsit2uoc"><p><l>intrínsecamente<s n="adv"/></l><r>intrínsecament<s n="adv"/></r></p></e>
+
+<e a="mireiafarrus"><p><l>efeméride<s n="n"/></l><r>efemèride<s n="n"/></r></p></e>
+<e a="mireiafarrus"><p><l>semiautomatizado<s n="adj"/></l><r>semiautomatitzat<s n="adj"/></r></p></e>
 
 
 <!--secció especial llibreries-->
@@ -41484,6 +41500,71 @@
 <e><p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ramallah<s n="np"/><s n="loc"/></r></p></e>
 <e r="RL"><p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ramal·là<s n="np"/><s n="loc"/></r></p></e>
 <e r="RL"><p><l>Suazilandia<s n="np"/></l>        <r>Swaziland<s n="np"/></r></p></e>
+
+
+<!-- noves UOC mireia -->
+
+<!-- noms -->
+<e a="mireiafarrus">   <p><l>widget<s n="n"/></l>  <r>giny<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>ex<b/>vocal<s n="n"/></l>   <r>exvocal<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <i>copista<s n="n"/></i></e>
+<e a="mireiafarrus">   <p><l>autocontención<s n="n"/></l><r>autocontenció<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>cata<s n="n"/><s n="f"/></l>  <r>tast<s n="n"/><s n="m"/></r></p></e>
+
+
+<!-- adjectius -->
+<e a="mireifarrus">    <p><l>interbibliotecario<s n="adj"/></l>     <r>interbibliotecari<s n="adj"/></r></p></e>
+<e a="mireiafarrus">   <p><l>proactivo<s n="adj"/></l>            <r>proactiu<s n="adj"/></r></p></e>
+
+<!-- verbs -->
+<e a="mireiafarrus">       <i>repensar<s n="vblex"/></i></e>
+
+
+
+<!-- multiparaules -->
+<e a="mireiafarrus"><p><l>tecla<g><b/>de<b/>retorno</g><s n="n"/></l><r>tecla<g><b/>de<b/>retorn</g><s n="n"/></r></p></e>
+
+<!-- noms propis -->
+
+<!-- np variables -->
+
+<e a="mireiafarrus">	<p><l>EcoUniversidad<s n="np"/></l>         <r>EcoUniversitat<s n="np"/></r></p></e>
+<e a="mireiafarrus">	<p><l>Universidades<b/>e<b/>Investigación<s n="np"/></l>         <r>Universitats<b/>i<b/>Recerca<s n="np"/></r></p></e>
+<e a="mireiafarrus">	<p><l>Campus<b/>por<b/>la<b/>Paz<s n="np"/></l>         <r>Campus<b/>per<b/>la<b/>Pau<s n="np"/></r></p></e>
+<e a="mireiafarrus">	<p><l>Universidad<b/>Virtual<b/>de<b/>Verano<s n="np"/></l>         <r>Universitat<b/>Oberta<b/>d'Estiu<s n="np"/></r></p></e>
+
+
+<!-- np invariables -->
+
+<e a="mireiafarrus">	<i>SOD<s n="np"/></i></e>
+<e a="mireiafarrus">	<i>CCUC<s n="np"/></i></e>
+<e a="mireiafarrus">	<i>CBUC<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Enciclopèdia<b/>Catalana<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Planas<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Vinyals<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Vilarasau<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Satish<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Kumar<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Triodos<b/>Bank<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>av.<b/>Marquès<b/>de<b/>Comillas<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>CIDUI<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Sangrà<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Montse<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Guitert<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Guàrdia<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Serrallonga<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>eLearn<b/>Center<s n="np"/></i></e>
+
+
+<!-- conjuncions adverbials -->
+
+<e a="mireiafarrus">    <p><l>por<b/>eso<s n="cnjadv"/></l><r>per<b/>això<s n="cnjadv"/></r></p></e>
+
+
+
+<!-- locucions -->
+<e a="mireiafarrus">       <p><l>impartir<g><b/>una<b/>charla</g><s n="vblex"/></l><r>fer<g><b/>una<b/>xerrada</g><s n="vblex"/></r></p></e>
+
 </section>
 
   <section  id="final" type="standard">

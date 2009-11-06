@@ -9424,8 +9424,8 @@
         <r><s n="n"/><s n="m"/><s n="sg"/></r> 
       </p>
     </e>
-
     </pardef>
+
     <pardef n="abast__n">
     <e>
       <p>
@@ -12527,7 +12527,6 @@
     </e>
 
     </pardef>
-
     <pardef n="ABC__np">
     <e>
       <p>
@@ -12576,8 +12575,8 @@
         <r><s n="np"/><s n="loc"/></r> 
       </p>
     </e>
-
     </pardef>
+
     <pardef n="Afganistan__np">
     <e>
       <p>
@@ -12585,8 +12584,8 @@
         <r><s n="np"/><s n="loc"/></r> 
       </p>
     </e>
-
     </pardef>
+
     <pardef n="vint-i-un__num">
     <e>
       <p>
@@ -77157,6 +77156,9 @@
   </pardefs>
 
   <section  id="main" type="standard">
+ <e lm="@teneu"><i>@teneu</i><par n="ABC__np"/></e>
+ <e lm="Facebook"><i>Facebook</i><par n="ABC__np"/></e>
+
 <e lm="abdominal"><i>abdominal</i><par n="abdominal__adj"/></e>
 <e lm="absent"><i>absent</i><par n="important__adj"/></e>
 <e lm="absolut"><i>absolut</i><par n="absolut__adj"/></e>
@@ -80013,8 +80015,9 @@
 <e lm="activació"><i>activaci</i><par n="acci/ó__n"/></e>
 <e lm="activista"><i>activist</i><par n="accionist/a__n"/></e>
 <e lm="activitat"><i>activitat</i><par n="accessibilitat__n"/></e>
-<e lm="actor"><i>actor</i><par n="abric__n"/></e>
-<e lm="actriu"><i>actriu</i><par n="accessibilitat__n"/></e>
+<e lm="actor"><i>act</i><par n="emperad/or__n"/></e>
+<!--<e lm="actor"><i>actor</i><par n="abric__n"/></e> -->
+<!--<e lm="actriu"><i>actriu</i><par n="accessibilitat__n"/></e> -->
 <e lm="actuació"><i>actuaci</i><par n="acci/ó__n"/></e>
 <e lm="actualitat"><i>actualitat</i><par n="accessibilitat__n"/></e>
 <e lm="actualització"><i>actualitzaci</i><par n="acci/ó__n"/></e>
@@ -80891,7 +80894,6 @@
 <e lm="castellà"><i>castell</i><par n="americ/à__n"/></e>
 <e lm="castració"><i>castraci</i><par n="acci/ó__n"/></e>
 <e lm="casualitat"><i>casualitat</i><par n="accessibilitat__n"/></e>
-<e lm="cata"><i>cat</i><par n="abell/a__n"/></e>
 <e lm="cataclisme"><i>cataclisme</i><par n="abric__n"/></e>
 <e lm="catalitzador"><i>catalitzador</i><par n="abric__n"/></e>
 <e lm="català"><i>catal</i><par n="americ/à__n"/></e>
@@ -89544,6 +89546,7 @@
 <e lm="intel·lectualisme" r="LR"><p><l>inteŀlectualisme</l><r>intel·lectualisme</r></p><par n="abric__n"/></e>
 <e lm="privat" a="mginesti"><i>priva</i><par n="afortuna/t__adj"/></e>
 <e lm="Nova York" a="mginesti"><i>Nova<b/>York</i><par n="Afganistan__np"/></e>
+<e lm="The New York Times" a="mireiafarrus"><i>The<b/>New<b/>York<b/>Times</i><par n="ABC__np"/></e>
 <e lm="la Llotja"><i>la<b/>Llotja</i><par n="Afganistan__np"/></e>
 <e lm="La Costera"><i>La<b/>Costera</i><par n="Afganistan__np"/></e>
 <e lm="la Fura dels Baus"><i>la<b/>Fura<b/>dels<b/>Baus</i><par n="ABC__np"/></e>
@@ -97529,8 +97532,10 @@
 <e lm="amàs" a="prompsit"><i>am</i><par n="capat/às__n"/></e>
 <e lm="kilòmetre" a="prompsit"><i>kilòmetre</i><par n="abric__n"/></e>
 <e lm="cancioner" a="prompsit"><i>cancioner</i><par n="abric__n"/></e>
-<e lm="ex-dona" a="prompsit"><i>ex-don</i><par n="abell/a__n"/></e>
-<e lm="ex-espia" a="prompsit"><i>ex-espi</i><par n="accionist/a__n"/></e>
+<!--<e lm="ex-dona" a="prompsit"><i>ex-don</i><par n="abell/a__n"/></e>-->
+<e lm="exdona" a="mireiafarrus"><i>exdon</i><par n="abell/a__n"/></e>
+<!--<e lm="ex-espia" a="prompsit"><i>ex-espi</i><par n="accionist/a__n"/></e>-->
+<e lm="exespia" a="mireiafarrus"><i>exespi</i><par n="accionist/a__n"/></e>
 <e lm="reialme" a="prompsit"><i>reialme</i><par n="abric__n"/></e>
 <e lm="homonímia" a="prompsit"><i>homoními</i><par n="abell/a__n"/></e>
 <e r="RL" lm="tàxon" a="prompsit"><i>tàxon</i><par n="abric__n"/></e>
@@ -103958,6 +103963,9 @@
 <e lm="volador"><i>volador</i><par n="absolut__adj"/></e>
 <e lm="penjant"><i>penjant</i><par n="abdominal__adj"/></e>
 <e lm="parlant" r="RL"><i>parlant</i><par n="abdominal__adj"/></e>
+
+<e lm="efemèride" a="mireiafarrus"><i>efemèride</i><par n="accessibilitat__n"/></e>
+<e lm="semiautomatitzat" a="mireiafarrus"><i>semiautomatitza</i><par n="afortuna/t__adj"/></e>
 
 
 <!-- adverbis-->
@@ -116031,6 +116039,69 @@
 <e lm="Adobe Flash"><i>Adobe<b/>Flash</i><par n="ABC__np"/></e>
 <e lm="Adobe Systems"><i>Adobe<b/>Systems</i><par n="ABC__np"/></e>
 <e lm="Adobe Illustrator"><i>Adobe<b/>Illustrator</i><par n="ABC__np"/></e>
+
+
+<!-- noves UOC mireia -->
+
+<!-- noms -->
+<e lm="giny" a="mireiafarrus"><i>giny</i><par n="abric__n"/></e>
+<e lm="exvocal" a="mireiafarrus"><i>exvocal</i><par n="accessibilitat__n"/></e>
+<e lm="copista" a="mireiafarrus"><i>copist</i><par n="accionist/a__n"/></e>
+<e lm="autocontenció" a="mireiafarrus"><i>autocontenci</i><par n="acci/ó__n"/></e>
+<e lm="tast" a="mireiafarrus"><i>tast</i><par n="abast__n"/></e>
+
+
+<!-- adjectius -->
+<e lm="interbibliotecari" a="mireiafarrus"><i>interbibliotec</i><par n="adjudicat/ari__adj"/></e>
+<e lm="proactiu" a="mireiafarrus"><i>proacti</i><par n="abusi/u__adj"/></e>
+
+
+<!-- verbs -->
+<e lm="repensar" a="mireiafarrus"><i>repens</i><par n="abander/ar__vblex"/></e>
+
+
+<!-- multiparaules -->
+<e lm="tecla de retorn" a="mireiafarrus"><i>tecl</i><par n="abell/a__n"/><p><l><b/>de<b/>retorn</l><r><g><b/>de<b/>retorn</g></r></p></e>
+
+
+<!-- noms propis -->
+<!-- np variables -->
+<e lm="EcoUniversitat" a="mireiafarrus"><i>EcoUniversitat</i><par n="ABC__np"/></e>
+<e lm="Campus per la Pau" a="mireiafarrus"><i>Campus<b/>per<b/>la<b/>Pau</i><par n="ABC__np"/></e>
+<e lm="Universitats i Recerca" a="mireiafarrus"><i>Universitats<b/>i<b/>Recerca</i><par n="ABC__np"/></e>
+<e lm="Universitat Oberta d'Estiu" a="mireiafarrus"><i>Universitat<b/>Oberta<b/>d'Estiu</i><par n="ABC__np"/></e>
+
+
+<!-- np invariables -->
+<e lm="SOD" a="mireiafarrus"><i>SOD</i><par n="ABC__np"/></e>
+<e lm="CCUC" a="mireiafarrus"><i>CCUC</i><par n="ABC__np"/></e>
+<e lm="CBUC" a="mireiafarrus"><i>CBUC</i><par n="ABC__np"/></e>
+<e lm="Enciclopèdia Catalana" a="mireiafarrus"><i>Enciclopèdia<b/>Catalana</i><par n="ABC__np"/></e>
+<e lm="Planas" a="mireiafarrus"><i>Planas</i><par n="Abad__np"/></e>
+<e lm="Vinyals" a="mireiafarrus"><i>Vinyals</i><par n="Abad__np"/></e>
+<e lm="Vilarasau" a="mireiafarrus"><i>Vilarasau</i><par n="Abad__np"/></e>
+<e lm="Satish" a="mireiafarrus"><i>Satish</i><par n="Abad__np"/></e>
+<e lm="Kumar" a="mireiafarrus"><i>Kumar</i><par n="Abad__np"/></e>
+<e lm="Triodos Bank" a="mireiafarrus"><i>Triodos<b/>Bank</i><par n="ABC__np"/></e>
+<e lm="av. Marquès de Comillas" a="mireiafarrus"><i>av.<b/>Marquès<b/>de<b/>Comillas</i><par n="Afganistan__np"/></e>
+<e lm="CIDUI" a="mireiafarrus"><i>CIDUI</i><par n="ABC__np"/></e>
+<e lm="Sangrà" a="mireiafarrus"><i>Sangrà</i><par n="Abad__np"/></e>
+<e lm="Montse" a="mireiafarrus"><i>Montse</i><par n="Abad__np"/></e>
+<e lm="Guitert" a="mireiafarrus"><i>Guitert</i><par n="Abad__np"/></e>
+<e lm="Guàrdia" a="mireiafarrus"><i>Guàrdia</i><par n="Abad__np"/></e>
+<e lm="Serrallonga" a="mireiafarrus"><i>Serrallonga</i><par n="Abad__np"/></e>
+<e lm="eLearn Center" a="mireiafarrus"><i>eLearn<b/>Center</i><par n="ABC__np"/></e>
+
+
+<!-- conjuncions adverbials -->
+<e lm="per això" a="mireiafarrus"><i>per<b/>això</i><par n="a_fe_que__cnjadv"/></e>
+
+
+<!-- locucions -->
+<e lm="fer una xerrada" a="mireiafarrus"><i>f</i><par n="f/er__vblex"/><p><l><b/>una<b/>xerrada</l><r><g><b/>una<b/>xerrada</g></r></p></e>
+<e lm="això no obstant" a="mireiafarrus"><i>això<b/>no<b/>obstant</i><par n="a_fe_que__cnjadv"/></e>
+
+
 
   </section>
   <section  id="apostrophes" type="postblank">
