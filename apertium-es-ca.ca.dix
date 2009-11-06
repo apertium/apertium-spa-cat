@@ -170,6 +170,20 @@
     </e>
 
     </pardef>
+    <pardef n="ex">
+      <e>
+        <p>
+          <l>ex</l>
+          <r>ex</r>
+        </p>
+      </e>
+      <e r="LR">
+        <p>
+          <l>ex-</l>
+          <r>ex</r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="S__anant-les">
     <e>
       <p>
@@ -97532,10 +97546,8 @@
 <e lm="amàs" a="prompsit"><i>am</i><par n="capat/às__n"/></e>
 <e lm="kilòmetre" a="prompsit"><i>kilòmetre</i><par n="abric__n"/></e>
 <e lm="cancioner" a="prompsit"><i>cancioner</i><par n="abric__n"/></e>
-<!--<e lm="ex-dona" a="prompsit"><i>ex-don</i><par n="abell/a__n"/></e>-->
-<e lm="exdona" a="mireiafarrus"><i>exdon</i><par n="abell/a__n"/></e>
-<!--<e lm="ex-espia" a="prompsit"><i>ex-espi</i><par n="accionist/a__n"/></e>-->
-<e lm="exespia" a="mireiafarrus"><i>exespi</i><par n="accionist/a__n"/></e>
+<e lm="exdona" a="mireiafarrus"><par n="ex"/><i>don</i><par n="abell/a__n"/></e>
+<e lm="exespia" a="mireiafarrus"><par n="ex"/><i>espi</i><par n="accionist/a__n"/></e>
 <e lm="reialme" a="prompsit"><i>reialme</i><par n="abric__n"/></e>
 <e lm="homonímia" a="prompsit"><i>homoními</i><par n="abell/a__n"/></e>
 <e r="RL" lm="tàxon" a="prompsit"><i>tàxon</i><par n="abric__n"/></e>
