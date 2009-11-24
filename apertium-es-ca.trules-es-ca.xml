@@ -120,6 +120,10 @@
       <cat-item lemma="venir" tags="vblex.*"/>
     </def-cat>
 
+    <def-cat n="caber">
+      <cat-item lemma="caber" tags="vblex.*"/>
+    </def-cat>
+
     <def-cat n="lquest">
       <cat-item tags="lquest"/>
     </def-cat>    
@@ -161,6 +165,9 @@
     </def-cat>
     <def-cat n="el_que">
       <cat-item lemma="el que" tags="rel.an.*"/>
+    </def-cat>
+    <def-cat n="uno_prn">
+      <cat-item lemma="uno" tags="prn.tn.*"/>
     </def-cat>
     <def-cat n="porque">
       <cat-item lemma="porque" tags="cnjadv"/>
@@ -341,6 +348,11 @@
       <attr-item tags="prn.tn.ref.p3"/>	 
       <attr-item tags="prn.tn.pos"/>	     
       <attr-item tags="prn.itg"/>	 	
+    </def-attr>
+
+    <def-attr n="a_encpro">   	  	  
+      <attr-item tags="enc"/> 	  	  
+      <attr-item tags="pro"/>
     </def-attr>
 
     <def-attr n="a_verb">
@@ -7693,6 +7705,9 @@
 	    <call-macro n="f_pretind">
 	      <with-param pos="1"/>
 	    </call-macro> 
+	    <call-macro n="f_bcond">
+	      <with-param pos="1"/>
+	    </call-macro>
 	  </when>
 	  <otherwise>
 	    <call-macro n="f_pretind">
@@ -7712,7 +7727,255 @@
       </action>
   </rule>
 
+    <rule> <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+      <pattern>
+	<pattern-item n="venir"/>
+	<pattern-item n="ger"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="sl" part="lemh"/>
+		<list n="perif_venir"/>
+	      </in>
+	    </test>
+	    <let>
+		<clip pos="1" side="tl" part="lem"/>
+		<clip pos="2" side="tl" part="lem"/>
+	    </let>
+	    <let>
+		<clip pos="1" side="tl" part="a_verb"/>
+		<clip pos="2" side="tl" part="a_verb"/>
+	    </let>
+	    <let>
+	      <clip pos="3" side="tl" part="a_encpro"/>
+	      <lit-tag v="pro"/>
+	    </let>
+	    <out>
+	      <lu>
+		<clip pos="3" side="tl" part="whole"/>
+	      </lu>
+	      <b pos="1"/>
+	    </out>    	      
+	    <call-macro n="f_pretind">
+	      <with-param pos="1"/>
+	    </call-macro> 
+	  </when>
+	  <otherwise>
+	    <call-macro n="f_pretind">
+	      <with-param pos="1"/>
+	    </call-macro> 
+	    <out>             
+	      <b pos="1"/>
+	      <mlu>
+		<lu>
+		  <clip pos="2" side="tl" part="lemh"/>
+		  <clip pos="2" side="tl" part="a_verb"/>
+		  <clip pos="2" side="tl" part="temps"/>
+		</lu>	
+		<lu>  
+		  <clip pos="3" side="tl" part="lem"/>
+		  <clip pos="3" side="tl" part="a_prnenc"/>
+		  <clip pos="3" side="tl" part="persona"/>
+		  <clip pos="3" side="tl" part="gen"/>
+		  <clip pos="3" side="tl" part="nbr"/>
+		  <clip pos="2" side="tl" part="lemq"/>
+		</lu>  
+	      </mlu>	
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+  </rule>
 
+
+  <rule> <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+      <pattern>
+	<pattern-item n="venir"/>
+	<pattern-item n="ger"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="sl" part="lemh"/>
+		<list n="perif_venir"/>
+	      </in>
+	    </test>
+	    <let>
+		<clip pos="1" side="tl" part="lem"/>
+		<clip pos="2" side="tl" part="lem"/>
+	    </let>
+	    <let>
+		<clip pos="1" side="tl" part="a_verb"/>
+		<clip pos="2" side="tl" part="a_verb"/>
+	    </let>
+	    <let>
+	      <clip pos="3" side="tl" part="a_encpro"/>
+	      <lit-tag v="pro"/>
+	    </let>
+	    <let>
+	      <clip pos="4" side="tl" part="a_encpro"/>
+	      <lit-tag v="pro"/>
+	    </let>
+	    <out>
+	      <lu>
+		<clip pos="3" side="tl" part="whole"/>
+	      </lu>
+	      <b pos="1"/>
+	      <lu>
+		<clip pos="4" side="tl" part="whole"/>
+	      </lu>
+	      <b/>
+	    </out>    	      
+	    <call-macro n="f_pretind">
+	      <with-param pos="1"/>
+	    </call-macro> 
+	  </when>
+	  <otherwise>
+	    <call-macro n="f_pretind">
+	      <with-param pos="1"/>
+	    </call-macro> 
+	    <out>             
+	      <b pos="1"/>
+	      <mlu>
+		<lu>
+		  <clip pos="2" side="tl" part="lemh"/>
+		  <clip pos="2" side="tl" part="a_verb"/>
+		  <clip pos="2" side="tl" part="temps"/>
+		</lu>	
+		<lu>  
+		  <clip pos="3" side="tl" part="lem"/>
+		  <clip pos="3" side="tl" part="a_prnenc"/>
+		  <clip pos="3" side="tl" part="persona"/>
+		  <clip pos="3" side="tl" part="gen"/>
+		  <clip pos="3" side="tl" part="nbr"/>
+		</lu> 
+		<lu>
+		  <clip pos="4" side="tl" part="lem"/>
+		  <clip pos="4" side="tl" part="a_prnenc"/>
+		  <clip pos="4" side="tl" part="persona"/>
+		  <clip pos="4" side="tl" part="gen"/>
+		  <clip pos="4" side="tl" part="nbr"/>
+		  <clip pos="2" side="tl" part="lemq"/>
+		</lu>   
+	      </mlu>	
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+  </rule>
+
+ <rule> <!--REGLA: CABER + INF -> CALDRE + INF-->
+      <pattern>
+	<pattern-item n="caber"/>
+	<pattern-item n="inf"/>
+      </pattern>
+      <action>
+	<let>
+	  <clip pos="1" side="tl" part="lem"/> 
+	  <lit v="caldre"/>
+	</let>
+	<let>
+	  <clip pos="1" side="tl" part="a_verb"/> 
+	  <lit-tag v="vbmod"/>
+	</let>
+	<call-macro n="f_pretind">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>             
+	  <b pos="1"/>
+	      <lu>
+		<clip pos="2" side="tl" part="lemh"/>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<clip pos="2" side="tl" part="temps"/>
+		<clip pos="2" side="tl" part="lemq"/> 
+	      </lu>		
+	    </out>
+      </action>
+</rule>
+
+ <rule> <!--REGLA: CABER + INF -> CALDRE + INF-->
+      <pattern>
+	<pattern-item n="caber"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<let>
+	  <clip pos="1" side="tl" part="lem"/> 
+	  <lit v="caldre"/>
+	</let>
+	<let>
+	  <clip pos="1" side="tl" part="a_verb"/> 
+	  <lit-tag v="vbmod"/>
+	</let>
+	<call-macro n="f_pretind">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>             
+	  <b pos="1"/>
+	  <mlu>
+	      <lu>
+		<clip pos="2" side="tl" part="lemh"/>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<clip pos="2" side="tl" part="temps"/>
+		<clip pos="2" side="tl" part="lemq"/> 
+	      </lu>
+	      <lu>
+		<clip pos="3" side="tl" part="whole"/>
+		<clip pos="2" side="tl" part="lemq"/> 
+	      </lu>
+	  </mlu>
+	</out>
+      </action>
+</rule>
+
+<rule> <!--REGLA: CABER + INF -> CALDRE + INF-->
+      <pattern>
+	<pattern-item n="caber"/>
+	<pattern-item n="inf"/>
+	<pattern-item n="prnenc"/>
+	<pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+	<let>
+	  <clip pos="1" side="tl" part="lem"/> 
+	  <lit v="caldre"/>
+	</let>
+	<let>
+	  <clip pos="1" side="tl" part="a_verb"/> 
+	  <lit-tag v="vbmod"/>
+	</let>
+	<call-macro n="f_pretind">
+	  <with-param pos="1"/>
+	</call-macro>
+	<out>             
+	  <b pos="1"/>
+	  <mlu>
+	      <lu>
+		<clip pos="2" side="tl" part="lemh"/>
+		<clip pos="2" side="tl" part="a_verb"/>
+		<clip pos="2" side="tl" part="temps"/>
+		<clip pos="2" side="tl" part="lemq"/> 
+	      </lu>
+	      <lu>
+		<clip pos="3" side="tl" part="whole"/>
+	      </lu>
+	      <lu>
+		<clip pos="4" side="tl" part="whole"/>
+		<clip pos="2" side="tl" part="lemq"/> 
+	      </lu>
+	  </mlu>
+	</out>
+      </action>
+</rule>
 
     <rule> <!-- REGLA: , lo que -> la cual cosa -->
       <pattern>
@@ -7984,6 +8247,34 @@
       </action>
 </rule>
 	  
+    <rule> <!-- REGLA: uno similar - un de similar -->
+      <pattern>
+	<pattern-item n="uno_prn"/>
+	<pattern-item n="adj"/>
+      </pattern>
+      <action>
+	<out>
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <lit v="de"/>
+	    <lit-tag v="pr"/>
+	  </lu>
+	  <b/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="tags"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	</out>
+      </action>
+</rule>
+	  
+
+
+
 
 
     <rule> <!-- REGLA: reset variables-->
