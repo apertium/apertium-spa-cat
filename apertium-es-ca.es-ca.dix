@@ -3141,7 +3141,8 @@
 <e r="LR"><p><l>lámpara<s n="n"/><s n="f"/></l>   <r>llum<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>luz<s n="n"/><s n="f"/></l>       <r>llum<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>luz<s n="n"/><s n="f"/></l>       <r>llum<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>candil<s n="n"/></l>       <r>llum<g><b/>d'oli</g><s n="n"/></r></p></e>
+<e v="cat">       <p><l>candil<s n="n"/></l>       <r>llum<g><b/>d'oli</g><s n="n"/></r></p></e>
+<e v="val">       <p><l>candil<s n="n"/></l>       <r>cresol<s n="n"/></r></p></e>
 <e>       <p><l>lana<s n="n"/></l>                <r>llana<s n="n"/></r></p></e>
 <e>       <p><l>lanzamiento<s n="n"/></l>         <r>llançament<s n="n"/></r></p></e>
 <e>       <p><l>láser<s n="n"/></l>               <r>làser<s n="n"/></r></p></e>
@@ -15085,8 +15086,8 @@
 <e a="prompsit2adn"><i>cresta<s n="n"/></i></e>
 <e a="prompsit2adn"><p><l>cribar<s n="vblex"/></l><r>garbellar<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>criminalidad<s n="n"/></l><r>criminalitat<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>crisol<s n="n"/></l>    <r>gresol<s n="n"/></r></p></e>
-<e a="prompsit2adn" r="RL"><p><l>crisol<s n="n"/></l>    <r>cresol<s n="n"/></r></p></e>
+<e a="prompsit2adn" v="cat"><p><l>crisol<s n="n"/></l><r>gresol<s n="n"/></r></p></e>
+<e a="prompsit2adn" v="val" r="LR"><p><l>crisol<s n="n"/></l><r>cresol<s n="n"/></r></p></e>
 <e a="prompsit2adn"><i>crispar<s n="vblex"/></i></e>
 <e a="prompsit2adn"><p><l>cristianismo<s n="n"/></l><r>cristianisme<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>cronológicamente<s n="adv"/></l><r>cronològicament<s n="adv"/></r></p></e>
