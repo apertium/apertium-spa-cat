@@ -3764,7 +3764,7 @@
 <e>       <p><l>presidente<s n="n"/></l>          <r>president<s n="n"/></r></p></e>
 <e>       <p><l>presión<s n="n"/></l>             <r>pressió<s n="n"/></r></p></e>
 <e>       <p><l>prestigio<s n="n"/></l>           <r>prestigi<s n="n"/></r></p></e>
-<e>       <p><l>presupuesto<s n="n"/></l>         <r>pressupost<s n="n"/></r></p></e>
+<e slr="pressupost D" a="mireiafarrus">       <p><l>presupuesto<s n="n"/></l>         <r>pressupost<s n="n"/></r></p></e>
 <e r="LR"><p><l>presupuestación<s n="n"/><s n="f"/></l><r>pressupost<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pretensión<s n="n"/></l>          <r>pretensió<s n="n"/></r></p></e>
 <e>       <p><l>pretexto<s n="n"/></l>            <r>pretext<s n="n"/></r></p></e>
@@ -25410,7 +25410,9 @@
 <e a="prompsit2uoc"><p><l>romboide<s n="n"/></l>  <r>romboide<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>bullicio<s n="n"/></l>  <r>renou<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>radiómetro<s n="n"/></l><r>radiòmetre<s n="n"/></r></p></e>
-<e r="RL" a="prompsit2uoc"><p><l>presupuesto<s n="n"/></l><r>pressupòsit<s n="n"/></r></p></e>
+<!--<e r="RL" a="prompsit2uoc"><p><l>presupuesto<s n="n"/></l><r>pressupòsit<s n="n"/></r></p></e>-->
+<e slr="pressupòsit" a="mireiafarrus"><p><l>presupuesto<s n="n"/></l><r>pressupòsit<s n="n"/></r></p></e>
+
 <e a="prompsit2uoc"><p><l>plantígrado<s n="n"/></l><r>plantígrad<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>planisferio<s n="n"/></l><r>planisferi<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>percusor<s n="n"/></l>  <r>percussor<s n="n"/></r></p></e>
@@ -41622,16 +41624,26 @@
 <!-- noves UOC mireia -->
 
 <!-- noms -->
-<e a="mireiafarrus">   <p><l>widget<s n="n"/></l>  <r>giny<s n="n"/></r></p></e>
-<e a="mireiafarrus">   <p><l>ex<b/>vocal<s n="n"/></l>   <r>exvocal<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>widget<s n="n"/></l>            <r>giny<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>ex<b/>vocal<s n="n"/></l>       <r>exvocal<s n="n"/></r></p></e>
 <e a="mireiafarrus">   <i>copista<s n="n"/></i></e>
-<e a="mireiafarrus">   <p><l>autocontención<s n="n"/></l><r>autocontenció<s n="n"/></r></p></e>
-<e a="mireiafarrus">   <p><l>cata<s n="n"/><s n="f"/></l>  <r>tast<s n="n"/><s n="m"/></r></p></e>
+<e a="mireiafarrus">   <p><l>autocontención<s n="n"/></l>    <r>autocontenció<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>cata<s n="n"/><s n="f"/></l>    <r>tast<s n="n"/><s n="m"/></r></p></e>
+<e a="mireiafarrus">   <p><l>autocategorización<s n="n"/></l><r>autocategorització<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>fotoblog<s n="n"/></l>              <r>fotoblog<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <i>extraescolar<s n="adj"/></i></e>
+<!-- <e a="mireiafarrus">   <p><l>autodidacta<s n="n"/></l><r>autodidacte<s n="n"/></r></p></e> -->
 
 
 <!-- adjectius -->
-<e a="mireifarrus">    <p><l>interbibliotecario<s n="adj"/></l>     <r>interbibliotecari<s n="adj"/></r></p></e>
+<e a="mireifarrus">    <p><l>interbibliotecario<s n="adj"/></l>   <r>interbibliotecari<s n="adj"/></r></p></e>
 <e a="mireiafarrus">   <p><l>proactivo<s n="adj"/></l>            <r>proactiu<s n="adj"/></r></p></e>
+<e a="mireiafarrus">       <p><l>autodidacto<s n="adj"/><s n="m"/><s n="sg"/></l><r>autodidacte<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="mireiafarrus">       <p><l>autodidacto<s n="adj"/><s n="f"/><s n="sg"/></l><r>autodidacte<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR" a="mireiafarrus"><p><l>autodidacto<s n="adj"/><s n="m"/><s n="pl"/></l><r>autodidacte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR" a="mireiafarrus"><p><l>autodidacto<s n="adj"/><s n="f"/><s n="pl"/></l><r>autodidacte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL" a="mireiafarrus"><p><l>autodidacto<s n="adj"/><s n="GD"/><s n="pl"/></l><r>autodidacte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+
 
 <!-- verbs -->
 <e a="mireiafarrus">       <i>repensar<s n="vblex"/></i></e>
@@ -41640,6 +41652,8 @@
 
 <!-- multiparaules -->
 <e a="mireiafarrus"><p><l>tecla<g><b/>de<b/>retorno</g><s n="n"/></l><r>tecla<g><b/>de<b/>retorn</g><s n="n"/></r></p></e>
+<e a="mireiafarrus"><p><l>vacaciones<g><b/>de<b/>Navidad</g><s n="n"/></l><r>vacances<g><b/>de<b/>Nadal</g><s n="n"/></r></p></e>
+
 
 <!-- noms propis -->
 
@@ -41672,6 +41686,25 @@
 <e a="mireiafarrus">    <i>Guàrdia<s n="np"/></i></e>
 <e a="mireiafarrus">    <i>Serrallonga<s n="np"/></i></e>
 <e a="mireiafarrus">    <i>eLearn<b/>Center<s n="np"/></i></e>
+
+<e a="mireiafarrus">    <i>Rudolf<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Sinkovics<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Strubell<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>EUNoM<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>SCOP<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Frits<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Pannekoek<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Fundació<b/>Catalana<b/>de<b/>l'Esplai<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Avanza<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Tabernero<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Messenger<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Tuenti<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Fotolog<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Montalegre<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>CIO<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>IIP<s n="np"/></i></e>
+
+
 
 
 <!-- conjuncions adverbials -->
