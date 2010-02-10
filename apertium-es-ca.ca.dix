@@ -103473,7 +103473,7 @@
 <e lm="integratiu"><i>integrati</i><par n="abusi/u__adj"/></e>
 <e lm="integèrrim"><i>integèrrim</i><par n="absolut__adj"/></e>
 <e lm="interadministratiu"><i>interadministrati</i><par n="abusi/u__adj"/></e>
-<e lm="interdisciplinar"><i>interdisciplinar</i><par n="abdominal__adj"/></e>
+<!-- <e lm="interdisciplinar"><i>interdisciplinar</i><par n="abdominal__adj"/></e> no és correcte a="mireiafarrus"-->
 <e lm="interessat"><i>interessa</i><par n="afortuna/t__adj"/></e>
 <e lm="interestel·lar"><i>interestel·lar</i><par n="abdominal__adj"/></e>
 <e lm="interestel·lar" r="LR"><p><l>interesteŀlar</l><r>interestel·lar</r></p><par n="abdominal__adj"/></e>
@@ -116209,7 +116209,13 @@
 <e lm="autocategorització" a="mireiafarrus"><i>autocategoritzaci</i><par n="acci/ó__n"/></e>
 <e lm="fotoblog" a="mireiafarrus"><i>fotoblog</i><par n="abric__n"/></e>
 <!--<e lm="autodidacte" a="mireiafarrus"><i>autodidact</i><par n="addict/e__n"/></e>-->
-
+<e lm="feedback" a="mireiafarrus"><i>feedback</i><par n="abric__n"/></e>
+<e lm="diagonalització" a="mireiafarrus"><i>diagonalitzaci</i><par n="acci/ó__n"/></e>
+<e lm="hiperrepertori" a="mireiafarrus"><i>hiperrepertori</i><par n="abric__n"/></e>
+<e lm="mediana" a="mireiafarrus"><i>median</i><par n="abell/a__n"/></e>
+<e lm="tecnicisme" a="mireiafarrus"><i>tecnicisme</i><par n="abric__n"/></e>
+<e lm="solucionari" a="mireiafarrus"><i>solucionari</i><par n="abric__n"/></e>
+<e lm="casuisme" a="mireiafarrus"><i>casuisme</i><par n="abric__n"/></e>
 
 
 <!-- adjectius -->
@@ -116217,6 +116223,14 @@
 <e lm="proactiu" a="mireiafarrus"><i>proacti</i><par n="abusi/u__adj"/></e>
 <e lm="extraescolar" a="mireiafarrus"><i>extraescolar</i><par n="abdominal__adj"/></e>
 <e lm="autodidacte" a="mireiafarrus"><i>autodidact</i><par n="abstract/e__adj"/></e>
+<e lm="pautat" a="mireiafarrus"><i>pauta</i><par n="afortuna/t__adj"/></e>
+<e lm="inadvertit" a="mireiafarrus"><i>inadverti</i><par n="afortuna/t__adj"/></e>
+<e lm="propedèutic" a="mireiafarrus"><i>propedèuti</i><par n="acadèmi/c__adj"/></e>
+<e lm="casuístic" a="mireiafarrus"><i>casuísti</i><par n="acadèmi/c__adj"/></e>
+<e lm="preclàssic" a="mireiafarrus"><i>preclàssi</i><par n="acadèmi/c__adj"/></e>
+<e lm="postclàssic" a="mireiafarrus"><i>postclàssi</i><par n="acadèmi/c__adj"/></e>
+<e lm="justinianeu" a="mireiafarrus"><i>justiniane</i><par n="ate/u__adj"/></e>
+<e lm="romanístic"><i>romanísti</i><par n="acadèmi/c__adj"/></e>
 
 
 <!-- verbs -->
@@ -116236,6 +116250,8 @@
 <e lm="Universitats i Recerca" a="mireiafarrus"><i>Universitats<b/>i<b/>Recerca</i><par n="ABC__np"/></e>
 <e lm="Universitat Oberta d'Estiu" a="mireiafarrus"><i>Universitat<b/>Oberta<b/>d'Estiu</i><par n="ABC__np"/></e>
 <e lm="PAC" a="mireiafarrus"><i>PAC</i><par n="ABC__np"/></e>
+<e lm="Matemàtiques I" a="mireiafarrus"><i>Matemàtiques<b/>I</i><par n="ABC__np"/></e>
+
 
 
 <!-- np invariables -->
@@ -116274,6 +116290,9 @@
 <e lm="Montalegre" a="mireiafarrus"><i>Montalegre</i><par n="Abad__np"/></e>
 <e lm="CIO" a="mireiafarrus"><i>CIO</i><par n="ABC__np"/></e>
 <e lm="IIP" a="mireiafarrus"><i>IIP</i><par n="ABC__np"/></e>
+<e lm="Estadística I" a="mireiafarrus"><i>Estadística<b/>I</i><par n="ABC__np"/></e>
+<e lm="Gnuplot" a="mireiafarrus"><i>Gnuplot</i><par n="ABC__np"/></e>
+<e lm="Excel" a="mireiafarrus"><i>Excel</i><par n="ABC__np"/></e>
 
 
 <!-- conjuncions adverbials -->
@@ -116283,6 +116302,9 @@
 <!-- locucions -->
 <e lm="fer una xerrada" a="mireiafarrus"><i>f</i><par n="f/er__vblex"/><p><l><b/>una<b/>xerrada</l><r><g><b/>una<b/>xerrada</g></r></p></e>
 <e lm="això no obstant" a="mireiafarrus"><i>això<b/>no<b/>obstant</i><par n="a_fe_que__cnjadv"/></e>
+
+<!-- abreviatures -->
+<e lm="qualif." a="mireiafarrus"><i>qualif.</i><par n="q__n"/></e>
 
 
 

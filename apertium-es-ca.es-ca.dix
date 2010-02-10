@@ -27134,7 +27134,7 @@
 <e>       <i>insaciable<s n="adj"/></i></e>
 <e>       <i>inspirador<s n="adj"/></i></e>
 <e>       <i>integracionista<s n="adj"/></i></e>
-<e>       <i>interdisciplinar<s n="adj"/></i></e>
+<!-- <e>       <i>interdisciplinar<s n="adj"/></i></e> en català és interdisciplinari a="mireiafarrus"-->
 <e>       <i>interfederal<s n="adj"/></i></e>
 <e>       <i>intergrupal<s n="adj"/></i></e>
 <e>       <i>interinstitucional<s n="adj"/></i></e>
@@ -41633,6 +41633,13 @@
 <e a="mireiafarrus">   <p><l>fotoblog<s n="n"/></l>              <r>fotoblog<s n="n"/></r></p></e>
 <e a="mireiafarrus">   <i>extraescolar<s n="adj"/></i></e>
 <!-- <e a="mireiafarrus">   <p><l>autodidacta<s n="n"/></l><r>autodidacte<s n="n"/></r></p></e> -->
+<e a="mireiafarrus">   <p><l>feedback<s n="n"/></l>              <r>feedback<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>diagonalización<s n="n"/></l>    <r>diagonalització<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>hiperrepertorio<s n="n"/></l>          <r>hiperrepertori<s n="n"/></r></p></e>
+<e r="RL" a="mireiafarrus"><p><l>mediana<s n="n"/></l>             <r>mediana<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>tecnicismo<s n="n"/></l>          <r>tecnicisme<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>solucionario<s n="n"/></l>          <r>solucionari<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>casuismo<s n="n"/></l>          <r>casuisme<s n="n"/></r></p></e>
 
 
 <!-- adjectius -->
@@ -41643,11 +41650,18 @@
 <e r="LR" a="mireiafarrus"><p><l>autodidacto<s n="adj"/><s n="m"/><s n="pl"/></l><r>autodidacte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR" a="mireiafarrus"><p><l>autodidacto<s n="adj"/><s n="f"/><s n="pl"/></l><r>autodidacte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL" a="mireiafarrus"><p><l>autodidacto<s n="adj"/><s n="GD"/><s n="pl"/></l><r>autodidacte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e a="mireiafarrus">   <p><l>pautado<s n="adj"/></l>            <r>pautat<s n="adj"/></r></p></e>
+<e a="mireiafarrus">   <p><l>inadvertido<s n="adj"/></l>            <r>inadvertit<s n="adj"/></r></p></e>
+<e a="mireiafarrus">   <p><l>propedéutico<s n="adj"/></l>         <r>propedèutic<s n="adj"/></r></p></e>
+<e a="mireiafarrus">   <p><l>casuístico<s n="adj"/></l>         <r>casuístic<s n="adj"/></r></p></e>
+<e a="mireiafarrus">   <p><l>preclásico<s n="adj"/></l>         <r>preclàssic<s n="adj"/></r></p></e>
+<e a="mireiafarrus">   <p><l>postclásico<s n="adj"/></l>         <r>postclàssic<s n="adj"/></r></p></e>
+<e a="mireiafarrus">   <p><l>justinianeo<s n="adj"/></l>         <r>justinianeu<s n="adj"/></r></p></e>
+<e a="mireiafarrus">   <p><l>romanístico<s n="adj"/></l>         <r>romanístic<s n="adj"/></r></p></e>
 
 
 <!-- verbs -->
-<e a="mireiafarrus">       <i>repensar<s n="vblex"/></i></e>
-
+<e a="mireiafarrus">   <i>repensar<s n="vblex"/></i></e>
 
 
 <!-- multiparaules -->
@@ -41664,6 +41678,7 @@
 <e a="mireiafarrus">	<p><l>Campus<b/>por<b/>la<b/>Paz<s n="np"/></l>         <r>Campus<b/>per<b/>la<b/>Pau<s n="np"/></r></p></e>
 <e a="mireiafarrus">	<p><l>Universidad<b/>Virtual<b/>de<b/>Verano<s n="np"/></l>         <r>Universitat<b/>Oberta<b/>d'Estiu<s n="np"/></r></p></e>
 <e a="mireiafarrus">	<p><l>PEC<s n="np"/></l>         <r>PAC<s n="np"/></r></p></e>
+<e a="mireiafarrus">	<p><l>Matemáticas<b/>I<s n="np"/></l>         <r>Matemàtiques<b/>I<s n="np"/></r></p></e>
 
 
 <!-- np invariables -->
@@ -41703,8 +41718,9 @@
 <e a="mireiafarrus">    <i>Montalegre<s n="np"/></i></e>
 <e a="mireiafarrus">    <i>CIO<s n="np"/></i></e>
 <e a="mireiafarrus">    <i>IIP<s n="np"/></i></e>
-
-
+<e a="mireiafarrus">    <i>Estadística<b/>I<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Gnuplot<s n="np"/></i></e>
+<e a="mireiafarrus">    <i>Excel<s n="np"/></i></e>
 
 
 <!-- conjuncions adverbials -->
@@ -41712,9 +41728,12 @@
 <e a="mireiafarrus">    <p><l>por<b/>eso<s n="cnjadv"/></l><r>per<b/>això<s n="cnjadv"/></r></p></e>
 
 
-
 <!-- locucions -->
 <e a="mireiafarrus">       <p><l>impartir<g><b/>una<b/>charla</g><s n="vblex"/></l><r>fer<g><b/>una<b/>xerrada</g><s n="vblex"/></r></p></e>
+
+<!-- abreviatures -->
+<e a="mireiafarrus">   <p><l>calif.<s n="n"/></l>            <r>qualif.<s n="n"/></r></p></e>
+
 
 </section>
 
