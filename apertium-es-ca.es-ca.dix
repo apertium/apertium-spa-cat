@@ -4792,7 +4792,7 @@
 <e>       <p><l>contigo<s n="prn"/></l>           <r>amb<b/>tu<s n="prn"/></r></p></e>
 <e r="LR"><p><l>para<b/>contigo<s n="prn"/></l>   <r>amb<b/>tu<s n="prn"/></r></p></e>
 <e>       <p><l>ambas<s n="prn"/></l>             <r>ambdues<s n="prn"/></r></p></e>
-<e>       <p><l>ambos<s n="prn"/></l>             <r>ambdós<s n="prn"/></r></p></e>
+<e r="RL"><p><l>ambos<s n="prn"/></l>             <r>ambdós<s n="prn"/></r></p></e>
 <e v="val"><p><l>ese<s n="prn"/></l>               <r>aqueix<s n="prn"/></r></p></e>
 <e>       <p><l>aquel<s n="prn"/></l>             <r>aquell<s n="prn"/></r></p></e>
 <e r="LR"><p><l>aquél<s n="prn"/></l>             <r>aquell<s n="prn"/></r></p></e>
@@ -4875,6 +4875,7 @@
 <e>       <p><l>en<b/>todo<b/>el<b/>mundo<s n="adv"/></l><r>a<b/>tot<b/>el<b/>món<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>todo<b/>el<b/>mundo<s n="adv"/></l><r>per<b/>tot<b/>el<b/>món<s n="adv"/></r></p></e>
 <e r="RL"><p><l>los<b/>dos<s n="prn"/></l>        <r>tots<b/>dos<s n="prn"/></r></p></e>
+<e r="LR" a="mireiafarrus"><p><l>ambos<s n="prn"/></l>        <r>tots<b/>dos<s n="prn"/></r></p></e>
 <e r="LR"><p><l>ti<s n="prn"/></l>                <r>tu<s n="prn"/></r></p></e>
 <e>       <p><l>tú<s n="prn"/></l>                <r>tu<s n="prn"/></r></p></e>
 <e>       <p><l>uno<s n="prn"/></l>               <r>un<s n="prn"/></r></p></e>
@@ -22184,7 +22185,8 @@
 <e a="prompsit"><p><l>si<b/>procede<s n="adv"/></l><r>si<b/>escau<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>si<b/>el<b/>caso<b/>así<b/>lo<b/>requiere<s n="adv"/></l><r>si<b/>el<b/>cas<b/>així<b/>ho<b/>requereix<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>según<b/>proceda<s n="adv"/></l><r>segons<b/>com<b/>pertocarà<s n="adv"/></r></p></e>
-<e a="prompsit"><p><l>según<b/>lo<b/>dispuesto<s n="adv"/></l><r>segons<b/>el<b/>que<b/>es<b/>disposa<s n="adv"/></r></p></e>
+<!--<e a="prompsit"><p><l>según<b/>lo<b/>dispuesto<s n="adv"/></l><r>segons<b/>el<b/>que<b/>es<b/>disposa<s n="adv"/></r></p></e> "ja queda inclòs en el següent-->
+<!--<e a="mireiafarrus"><p><l>lo<b/>dispuesto<s n="adv"/></l><r>el<b/>que<b/>es<b/>disposa<s n="adv"/></r></p></e>-->
 <e a="prompsit"><p><l>saldo<g><b/>medio</g><s n="n"/></l><r>saldo<g><b/>mitjà</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>proceso<g><b/>de<b/>datos</g><s n="n"/></l><r>procesament<g><b/>de<b/>dades</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>periodo<g><b/>de<b/>carencia</g><s n="n"/></l><r>període<g><b/>de<b/>carència</g><s n="n"/></r></p></e>
@@ -41746,9 +41748,55 @@
 <!-- locucions -->
 <e a="mireiafarrus">       <p><l>impartir<g><b/>una<b/>charla</g><s n="vblex"/></l><r>fer<g><b/>una<b/>xerrada</g><s n="vblex"/></r></p></e>
 <e a="mireiafarrus">       <p><l>estar<g><b/>a<b/>tiempo</g><s n="vblex"/></l><r>ser<g><b/>a<b/>temps</g><s n="vbser"/></r></p></e>
+<e a="mireiafarrus">       <p><l>tener<g><b/>lugar</g><s n="vblex"/></l><r>tenir<g><b/>lloc</g><s n="vblex"/></r></p></e>
+<e a="mireiafarrus">       <p><l>poner<g><b/>a<b/>prueba</g><s n="vblex"/></l><r>posar<g><b/>a<b/>prova</g><s n="vblex"/></r></p></e>
+
+
 
 <!-- abreviatures -->
 <e a="mireiafarrus">   <p><l>calif.<s n="n"/></l>            <r>qualif.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>1.º<s n="n"/></l>            <r>1r.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>2.º<s n="n"/></l>            <r>2n.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>3.º<s n="n"/></l>            <r>3r.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>4.º<s n="n"/></l>            <r>4t.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>5.º<s n="n"/></l>            <r>5è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>6.º<s n="n"/></l>            <r>6è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>7.º<s n="n"/></l>            <r>7è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>8.º<s n="n"/></l>            <r>8è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>9.º<s n="n"/></l>            <r>9è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>10.º<s n="n"/></l>            <r>10è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>11.º<s n="n"/></l>            <r>11è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>12.º<s n="n"/></l>            <r>12è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>13.º<s n="n"/></l>            <r>13è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>14.º<s n="n"/></l>            <r>14è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>15.º<s n="n"/></l>            <r>15è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>16.º<s n="n"/></l>            <r>16è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>17.º<s n="n"/></l>            <r>17è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>18.º<s n="n"/></l>            <r>18è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>19.º<s n="n"/></l>            <r>19è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>20.º<s n="n"/></l>            <r>20è.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>1.ª<s n="n"/></l>            <r>1a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>2.ª<s n="n"/></l>            <r>2a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>3.ª<s n="n"/></l>            <r>3a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>4.ª<s n="n"/></l>            <r>4a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>5.ª<s n="n"/></l>            <r>5a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>6.ª<s n="n"/></l>            <r>6a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>7.ª<s n="n"/></l>            <r>7a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>8.ª<s n="n"/></l>            <r>8a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>9.ª<s n="n"/></l>            <r>9a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>10.ª<s n="n"/></l>            <r>10a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>11.ª<s n="n"/></l>            <r>11a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>12.ª<s n="n"/></l>            <r>12a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>13.ª<s n="n"/></l>            <r>13a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>14.ª<s n="n"/></l>            <r>14a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>15.ª<s n="n"/></l>            <r>15a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>16.ª<s n="n"/></l>            <r>16a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>17.ª<s n="n"/></l>            <r>17a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>18.ª<s n="n"/></l>            <r>18a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>19.ª<s n="n"/></l>            <r>19a.<s n="n"/></r></p></e>
+<e a="mireiafarrus">   <p><l>20.ª<s n="n"/></l>            <r>20a.<s n="n"/></r></p></e>
+
+
 
 
 </section>
