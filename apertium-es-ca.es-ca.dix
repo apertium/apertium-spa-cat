@@ -3651,8 +3651,8 @@
 <e>       <i>perla<s n="n"/></i></e>
 <e>       <p><l>permiso<s n="n"/></l>             <r>permís<s n="n"/></r></p></e>
 <e>       <p><l>perro<s n="n"/></l>               <r>gos<s n="n"/></r></p></e>
-<e>       <p><l>perro<b/>guía<s n="n"/></l>       <r>gos<b/>pigall<b/><s n="n"/></r></p></e>
-<e>       <p><l>pavo<b/>real<s n="n"/></l>        <r>paó<b/><s n="n"/></r></p></e>
+<e>       <p><l>perro<b/>guía<s n="n"/></l>       <r>gos<b/>pigall<s n="n"/></r></p></e>
+<e>       <p><l>pavo<b/>real<s n="n"/></l>        <r>paó<s n="n"/></r></p></e>
 <e>       <p><l>persecución<s n="n"/></l>         <r>persecució<s n="n"/></r></p></e>
 <e>       <p><l>personaje<s n="n"/></l>           <r>personatge<s n="n"/></r></p></e>
 <e>       <p><l>personalidad<s n="n"/></l>        <r>personalitat<s n="n"/></r></p></e>
@@ -5639,8 +5639,8 @@
 <e>       <p><l>heredar<s n="vblex"/></l>         <r>heretar<s n="vblex"/></r></p></e>
 <e>       <p><l>herir<s n="vblex"/></l>           <r>ferir<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>hincar<s n="vblex"/></l>          <r>clavar<s n="vblex"/></r></p></e>
-<e>       <p><l>hinchar<s n="vblex"/></l>         <r>inflar<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>hinchar<s n="vblex"/></l>         <r>unflar<s n="vblex"/></r></p></e>
+<e v="cat"><p><l>hinchar<s n="vblex"/></l>         <r>inflar<s n="vblex"/></r></p></e>
+<e v="val"><p><l>hinchar<s n="vblex"/></l>         <r>unflar<s n="vblex"/></r></p></e>
 <e>       <i>honrar<s n="vblex"/></i></e>
 <e>       <p><l>horrorizar<s n="vblex"/></l>      <r>horroritzar<s n="vblex"/></r></p></e>
 <e>       <p><l>huir<s n="vblex"/></l>            <r>fugir<s n="vblex"/></r></p></e>
@@ -8378,7 +8378,7 @@
 <e>       <p><l>distorsión<s n="n"/></l>          <r>distorsió<s n="n"/></r></p></e>
 <e r="LR"><p><l>despiste<s n="n"/><s n="m"/></l>  <r>distracció<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>distracción<s n="n"/><s n="f"/></l><r>distracció<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>inadvertido<s n="adj"/></l>       <r>distret<s n="adj"/></r></p></e>
+<e>       <p><l>distraído<s n="adj"/></l>       <r>distret<s n="adj"/></r></p></e>
 <e>       <p><l>distraer<s n="vblex"/></l>        <r>distreure<s n="vblex"/></r></p></e>
 <e>       <p><l>distribuidor<s n="adj"/></l>      <r>distribuïdor<s n="adj"/></r></p></e>
 <e>       <p><l>distribuidor<s n="n"/></l>        <r>distribuïdor<s n="n"/></r></p></e>
@@ -41797,6 +41797,203 @@
 <e a="mireiafarrus">   <p><l>20.ª<s n="n"/></l>            <r>20a.<s n="n"/></r></p></e>
 
 
+
+<e a="prompsit2ua"><p><l>abiótico<s n="adj"/></l><r>abiòtic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>acomodativo<s n="adj"/></l><r>acomodatiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>actuario<s n="adj"/></l><r>actuari<s n="adj"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>afamado<s n="adj"/></l><r>famós<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>bivariado<s n="adj"/></l><r>bivariat<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>multivariado<s n="adj"/></l><r>multivariat<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>altivo<s n="adj"/></l><r>altiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>analizable<s n="adj"/></l><r>analitzable<s n="adj"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>anamnesis<s n="n"/><s n="f"/><s n="sp"/></l><r>anamnesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>anamnesis<s n="n"/><s n="f"/><s n="sp"/></l><r>anamnesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>anamnesis<s n="n"/><s n="f"/><s n="sp"/></l><r>anamnesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="prompsit2ua"><p><l>anguloso<s n="adj"/></l><r>angulós<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>anonimización<s n="n"/></l><r>anonimització<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>antichoque<s n="adj"/></l><r>antixoc<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>antrópico<s n="adj"/></l><r>antròpic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>aqueménida<s n="n"/></l><r>aquemènida<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>aristotelismo<s n="n"/></l><r>aristotelisme<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>asertividad<s n="n"/></l><r>assertivitat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>asistemático<s n="adj"/></l><r>asistemàtic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>atentatorio<s n="adj"/></l><r>atemptatori<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>atomizar<s n="vblex"/></l><r>atomitzar<s n="vblex"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanàlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanàlisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>autoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>autoanàlisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="prompsit2ua"><p><l>automotivación<s n="n"/></l><r>automotivació<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>baqueta<s n="n"/></l><r>baqueta<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>bioindicador<s n="n"/></l><r>bioindicador<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>biomatemática<s n="n"/></l><r>biomatemàtica<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>bricolaje<s n="n"/></l><r>bricolatge<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>bromatología<s n="n"/></l><r>bromatologia<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>caballera<s n="adj"/></l><r>cavallera<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>calzapié<s n="n"/></l><r>calçapeu<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>cancelable<s n="adj"/></l><r>cancel·lable<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>carboncillo<s n="n"/></l><r>carbonet<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>cartelería<s n="n"/></l><r>cartelleria<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>cautivador<s n="adj"/></l><r>captivador<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>centroasiático<s n="adj"/></l><r>centreasiàtic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>ceñidor<s n="n"/></l><r>cenyidor<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>cofrade<s n="n"/></l><r>confrare<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>coletilla<s n="n"/><s n="f"/></l><r>afegitó<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2ua"><p><l>compositivo<s n="adj"/></l><r>compositiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>conserjería<s n="n"/></l><r>consergeria<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>contactología<s n="n"/></l><r>contactologia<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>contrastivo<s n="adj"/></l><r>contrastiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>crematístico<s n="adj"/></l><r>crematístic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>cronicidad<s n="n"/></l><r>cronicitat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>cubertería<s n="n"/></l><r>coberteria<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>dadaísta<s n="adj"/></l><r>dadaista<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>desértico<s n="adj"/></l><r>desèrtic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>deshuesador<s n="adj"/></l><r>espinyolador<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>dibujístico<s n="adj"/></l><r>dibuixístic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>dietoterapia<s n="n"/></l><r>dietoteràpia<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>difamatorio<s n="adj"/></l><r>difamatori<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>difumino<s n="n"/></l><r>esfumí<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>diofántico<s n="adj"/></l><r>diofàntic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>dramatización<s n="n"/></l><r>dramatització<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>econométrico<s n="adj"/></l><r>economètric<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>egresado<s n="n"/></l><r>egressat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>egresar<s n="vblex"/></l><r>egressar<s n="vblex"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanàlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanàlisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>electroanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>electroanàlisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="prompsit2ua"><p><l>empleador<s n="n"/></l><r>ocupador<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>encharcamiento<s n="n"/><s n="m"/></l><r>embassada<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2ua"><p><l>ensoñación<s n="n"/><s n="f"/></l><r>ensomni<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2ua"><p><l>entrópico<s n="adj"/></l><r>entròpic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>epidemiológico<s n="adj"/></l><r>epidemiològic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>epigenético<s n="adj"/></l><r>epigenètic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>esgrafiado<s n="n"/></l><r>esgrafiat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>espectroscópico<s n="adj"/></l><r>espectroscòpic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>estaticidad<s n="n"/></l><r>estaticitat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>exaedro<s n="n"/></l><r>hexaedre<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>exotismo<s n="n"/></l><r>exotisme<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>extemporáneo<s n="adj"/></l><r>extemporani<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>extraíble<s n="adj"/></l><r>extraïble<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>famélico<s n="adj"/></l><r>famèlic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>fitopatógeno<s n="adj"/></l><r>fitopatogen<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>fitoplasma<s n="n"/></l><r>fitoplasma<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>fitoterapia<s n="n"/></l><r>fitoteràpia<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>fosforescente<s n="adj"/></l><r>fosforescent<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>fractal<s n="n"/></l><r>fractal<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>fragmentario<s n="adj"/></l><r>fragmentari<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>franco-arcillo-limoso<s n="adj"/></l><r>francoargil·lollimós<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>franco-arcilloso<s n="adj"/></l><r>francoargilós<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>franco-arenoso<s n="adj"/></l><r>francoarenós<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>fúngico<s n="adj"/></l><r>fúngic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>galerada<s n="n"/></l><r>galerada<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>generalizador<s n="adj"/></l><r>generalitzador<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>generativo<s n="adj"/></l><r>generatiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>geólogo<s n="n"/></l><r>geòleg<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>geómetra<s n="n"/></l><r>geòmetra<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>geometrizante<s n="adj"/></l><r>geometritzant<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>geriátrico<s n="n"/></l><r>geriàtric<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>gestualidad<s n="n"/></l><r>gestualitat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>glamour<s n="n"/></l><r>glamur<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>grácil<s n="adj"/></l><r>gràcil<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>harapo<s n="n"/></l><r>parrac<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>herbario<s n="n"/></l><r>herbari<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>hispania<s n="n"/></l><r>hispània<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>huevera<s n="n"/></l><r>ouera<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>humedecimiento<s n="n"/></l><r>humitejament<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>idiosincrásico<s n="adj"/></l><r>idiosincràtic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>inabarcable<s n="adj"/></l><r>inabastable<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>inclasificable<s n="adj"/></l><r>inclassificable<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>infértil<s n="adj"/></l><r>infèrtil<s n="adj"/></r></p></e>
+<e v="val" a="prompsit2ua" r="LR"><p><l>inflar<s n="vblex"/></l><r>unflar<s n="vblex"/></r></p></e>
+<e v="cat" a="prompsit2ua" r="LR"><p><l>inflar<s n="vblex"/></l><r>inflar<s n="vblex"/></r></p></e>
+<e a="prompsit2ua"><p><l>informalista<s n="adj"/></l><r>informalista<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>ingravidez<s n="n"/></l><r>ingravitació<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>interculturalidad<s n="n"/></l><r>interculturalitat<s n="n"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>interdisciplinaridad<s n="n"/></l><r>interdisciplinaritat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>interdisciplinariedad<s n="n"/></l><r>interdisciplinaritat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>intergeneracional<s n="adj"/></l><r>intergeneracional<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>intuicionismo<s n="n"/></l><r>intuïcionisme<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>invasivo<s n="adj"/></l><r>invasiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>jazzístico<s n="adj"/></l><r>jazzístic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>lánguido<s n="adj"/></l><r>lànguid<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>lectoescritura<s n="n"/></l><r>lectoescriptura<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>librepensador<s n="n"/></l><r>lliurepensador<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>licenciamiento<s n="n"/></l><r>llicenciament<s n="n"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>licenciante<s n="adj"/><s n="mf"/></l><r>llicenciador<s n="adj"/><s n="GD"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>licenciante<s n="adj"/><s n="mf"/></l><r>llicenciador<s n="adj"/><s n="m"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>licenciante<s n="adj"/><s n="mf"/></l><r>llicenciador<s n="adj"/><s n="f"/></r></p></e>
+<e a="prompsit2ua"><p><l>licuadora<s n="n"/></l><r>liquadora<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>lisiado<s n="adj"/></l><r>lesionat<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>matérico<s n="adj"/></l><r>matèric<s n="adj"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>medievo<s n="np"/></l><r>edat<b/>mitjana<s n="np"/></r></p></e>
+<e a="prompsit2ua"><p><l>mesiánico<s n="adj"/></l><r>messiànic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>meticulosidad<s n="n"/></l><r>meticulositat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>metilmercurio<s n="n"/></l><r>metilmercuri<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>micénico<s n="adj"/></l><r>micènic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>monotipo<s n="n"/></l><r>monotip<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>multiculturalidad<s n="n"/></l><r>multiculturalitat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>museólogo<s n="n"/></l><r>museòleg<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>nanofotónico<s n="adj"/></l><r>nanofotònic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>neoplasticismo<s n="n"/></l><r>neoplasticisme<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>neurofisiología<s n="n"/></l><r>neurofisiologia<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>novísimo<s n="adj"/></l><r>novíssim<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>obscenidad<s n="n"/></l><r>obscenitat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>oceanógrafo<s n="n"/></l><r>oceanògraf<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>optatividad<s n="n"/></l><r>optativitat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>optométrico<s n="adj"/></l><r>optomètric<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>palpitante<s n="adj"/></l><r>palpitant<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>parapente<s n="n"/></l><r>parapent<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>parasitología<s n="n"/></l><r>parasitologia<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>pavoroso<s n="adj"/></l><r>paorós<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>perceptivamente<s n="adv"/></l><r>perceptivament<s n="adv"/></r></p></e>
+<e a="prompsit2ua"><p><l>perceptivo<s n="adj"/></l><r>perceptiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>periodización<s n="n"/></l><r>periodització<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>peritaje<s n="n"/></l><r>peritatge<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>plóter<s n="n"/></l><r>plòter<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>postmedieval<s n="adj"/></l><r>postmedieval<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>preprofesional<s n="adj"/></l><r>preprofessional<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>presbicia<s n="n"/></l><r>presbícia<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>presencialidad<s n="n"/></l><r>presencialitat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>pretensado<s n="adj"/></l><r>pretesat<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>proletario<s n="adj"/></l><r>proletari<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>proletario<s n="n"/></l><r>proletari<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>prospectivo<s n="adj"/></l><r>prospectiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>proyectivo<s n="adj"/></l><r>projectiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>psicoevolutivo<s n="adj"/></l><r>psicoevolutiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>psicomotor<s n="adj"/></l><r>psicomotor<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>radiofarmacia<s n="n"/></l><r>radiofarmàcia<s n="n"/></r></p></e>
+<e a="prompsit2ua" v="val" r="LR"><p><l>reblandecer<s n="vblex"/></l><r>ablanir<s n="vblex"/></r></p></e>
+<e a="prompsit2ua" v="cat" r="LR"><p><l>reblandecer<s n="vblex"/></l><r>estovar<s n="vblex"/></r></p></e>
+<e a="prompsit2ua"><p><l>recaudatorio<s n="adj"/></l><r>recaptatori<s n="adj"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>reflectante<s n="adj"/><s n="mf"/></l><r>reflector<s n="adj"/><s n="GD"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>reflectante<s n="adj"/><s n="mf"/></l><r>reflector<s n="adj"/><s n="m"/></r></p></e>
+<e a="prompsit2ua" r="RL"><p><l>reflectante<s n="adj"/><s n="mf"/></l><r>reflector<s n="adj"/><s n="f"/></r></p></e>
+<e a="prompsit2ua"><p><l>refractivo<s n="adj"/></l><r>refractiu<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>rememoración<s n="n"/></l><r>rememoració<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>repujado<s n="n"/></l><r>repujat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>reticulado<s n="n"/></l><r>reticulat<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>rugoso<s n="adj"/></l><r>rugós<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>sandwichera<s n="n"/></l><r>sandvitxera<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>sasánida<s n="n"/></l><r>sassànida<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>semidesértico<s n="adj"/></l><r>semidesèrtic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>silbato<s n="n"/></l><r>xiulet<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>sinérgico<s n="adj"/></l><r>sinèrgic<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>sinrazón<s n="n"/></l><r>desraó<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>sumativo<s n="adj"/></l><r>sumatori<s n="adj"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>sunita<s n="adj"/></l><r>sunnita<s n="adj"/></r></p></e>
+<e a="prompsit2ua" r="LR"><p><l>tarjetón<s n="n"/><s n="m"/></l><r>targeta<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2ua"><p><l>tauromaquia<s n="n"/></l><r>tauromàquia<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>tecnólogo<s n="n"/></l><r>tecnòleg<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>tensiómetro<s n="n"/></l><r>tensiòmetre<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>tercería<s n="n"/></l><r>terceria<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>terminólogo<s n="n"/></l><r>terminòleg<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>termitero<s n="n"/></l><r>termiter<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>ternario<s n="n"/></l><r>ternari<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>ternario<s n="adj"/></l><r>ternari<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>tisular<s n="adj"/></l><r>tissular<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>tostador<s n="n"/></l><r>torrador<s n="n"/></r></p></e>
+<e a="prompsit2ua"><p><l>tostador<s n="adj"/></l><r>torrador<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>transdisciplinar<s n="adj"/></l><r>transdisciplinar<s n="adj"/></r></p></e>
+<e a="prompsit2ua"><p><l>veladura<s n="n"/></l><r>veladura<s n="n"/></r></p></e>
 
 
 </section>
