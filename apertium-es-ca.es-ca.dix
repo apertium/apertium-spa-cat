@@ -11368,7 +11368,7 @@
 <e>       <i>Paula<s n="np"/></i></e>
 <e r="LR">       <p><l>paulatino<s n="adj"/><s n="m"/></l>         <r>gradual<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR">       <p><l>paulatino<s n="adj"/><s n="f"/></l>         <r>gradual<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>paulatinamente<s n="adv"/></l>    <r>paulatinament<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>paulatinamente<s n="adv"/></l>    <r>gradualment<s n="adv"/></r></p></e>
 <e>       <i>Paul<s n="np"/></i></e>
 <e>       <i>Pau<s n="np"/><s n="ant"/></i></e>
 <e>       <i>Pau<s n="np"/><s n="loc"/></i></e>
@@ -11536,6 +11536,9 @@
 <e>       <p><l>pingüino<s n="n"/></l>            <r>pingüí<s n="n"/></r></p></e>
 <e>       <i>Pinilla<s n="np"/></i></e>
 <e>       <i>Pinochet<s n="np"/></i></e>
+<e a="prompsit2ua">       <p><l>Pinocho<s n="np"/></l>              <r>Pinotxo<s n="np"/></r></p></e>
+<e a="prompsit2ua">       <p><l>Pepito<b/>Grillo<s n="np"/></l>              <r>Pep<b/>Consciències<s n="np"/></r></p></e>
+<e a="prompsit2ua">       <p><l>Durero<s n="np"/></l>              <r>Dürer<s n="np"/></r></p></e>
 <e>       <p><l>pienso<s n="n"/></l>              <r>pinso<s n="n"/></r></p></e>
 <e>       <p><l>pincelada<s n="n"/></l>           <r>pinzellada<s n="n"/></r></p></e>
 <e>       <p><l>pincelar<s n="vblex"/></l>        <r>pinzellar<s n="vblex"/></r></p></e>
@@ -13577,8 +13580,10 @@
 <e>       <p><l>por<b/>las<b/>noches<s n="adv"/></l><r>a<b/>les<b/>nits<s n="adv"/></r></p></e>
 <e a="mginesti"><p><l>por<b/>la<b/>mañana<s n="adv"/></l><r>al<b/>matí<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>las<b/>mañanas<s n="adv"/></l><r>als<b/>matins<s n="adv"/></r></p></e>
-<e a="mginesti"><p><l>por<b/>la<b/>tarde<s n="adv"/></l><r>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
-<e>       <p><l>por<b/>las<b/>tardes<s n="adv"/></l><r>a<b/>les<b/>tardes<s n="adv"/></r></p></e>
+<e a="mginesti" v="cat"><p><l>por<b/>la<b/>tarde<s n="adv"/></l><r>a<b/>la<b/>tarda<s n="adv"/></r></p></e>
+<e a="prompsit2ua" v="val"><p><l>por<b/>la<b/>tarde<s n="adv"/></l><r>a<b/>la<b/>vesprada<s n="adv"/></r></p></e>
+<e a="mginesti" v="cat"><p><l>por<b/>las<b/>tardes<s n="adv"/></l><r>a<b/>les<b/>tardes<s n="adv"/></r></p></e>
+<e a="prompsit2ua" v="val"><p><l>por<b/>las<b/>tardes<s n="adv"/></l><r>a<b/>les<b/>vesprades<s n="adv"/></r></p></e>
 <e a="mginesti"><p><l>no<b/>mucho<s n="adv"/></l> <r>no<b/>gaire<s n="adv"/></r></p></e>
 <e a="mginesti"><p><l>no<b/>muy<s n="preadv"/></l><r>no<b/>gaire<s n="preadv"/></r></p></e>
 <e a="mginesti"><p><l>Piqué<s n="np"/></l>        <r>Piqué<s n="np"/></r></p></e>
@@ -16144,8 +16149,8 @@
 <e r="LR" a="prompsit2adn"><p><l>pasmar<s n="vblex"/></l><r>esbalair<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>pasodoble<s n="n"/></l> <r>pasdoble<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>pastelería<s n="n"/></l><r>pastisseria<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>pastizal<s n="n"/></l>  <r>pasturatge<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>pastoreo<s n="n"/></l>  <r>pastoratge<s n="n"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>pastizal<s n="n"/></l>  <r>pasturatge<s n="n"/></r></p></e>
+<e a="prompsit2adn"><p><l>pastoreo<s n="n"/></l>  <r>pasturatge<s n="n"/></r></p></e>
 <e a="prompsit2adn"><i>paternal<s n="adj"/></i></e>
 <e a="prompsit2adn"><i>patriarcal<s n="adj"/></i></e>
 <e a="prompsit2adn"><i>patriota<s n="n"/></i></e>
@@ -17029,7 +17034,7 @@
 <e a="prompsit2adn"><p><l>decapitación<s n="n"/></l><r>decapitació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>declamación<s n="n"/></l><r>declamació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>deflagración<s n="n"/></l><r>deflagració<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>deforestación<s n="n"/></l><r>deforestació<s n="n"/></r></p></e>
+<e a="prompsit2adn"><p><l>deforestación<s n="n"/></l><r>desforestació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>deformación<s n="n"/></l><r>deformació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>degeneración<s n="n"/></l><r>degeneració<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>dejación<s n="n"/><s n="f"/></l><r>desistiment<s n="n"/><s n="m"/></r></p></e>
@@ -25770,7 +25775,7 @@
 <e a="prompsit2uoc"><p><l>polipropileno<s n="n"/></l>   <r>polipropilè<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>prensado<s n="n"/></l>  <r>premsatge<s n="n"/></r></p></e>
 <e r="RL" a="prompsit2uoc"><p><l>guirigay<s n="n"/></l><r>poti-poti<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>poliéster<s n="n"/></l> <r>poliester<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>poliéster<s n="n"/></l> <r>polièster<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>pirenoide<s n="n"/></l> <r>pirenoide<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>picofarad<s n="n"/></l> <r>picofarad<s n="n"/></r></p></e>
 <e r="RL" a="prompsit2uoc"><p><l>peletero<s n="n"/><s n="GD"/></l><r>pellaire<s n="n"/><s n="mf"/></r></p></e>
@@ -26629,7 +26634,6 @@
 <e a="prompsit2uoc"><p><l>polinización<s n="n"/></l><r>pol·linització<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>predicación<s n="n"/></l><r>predicació<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>fosforilación<s n="n"/></l><r>fosforilació<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>desforestación<s n="n"/></l><r>desforestació<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>colectivización<s n="n"/></l><r>col·lectivització<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>evaporación<s n="n"/></l><r>evaporació<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>anexión<s n="n"/></l>   <r>annexió<s n="n"/></r></p></e>
@@ -28689,7 +28693,8 @@
 <e>       <p><l>a<b/>hurtadillas<s n="adv"/></l>  <r>d'amagatotis<s n="adv"/></r></p></e>
 <e>       <p><l>abisalmente<s n="adv"/></l>       <r>abissalment<s n="adv"/></r></p></e>
 <e>       <p><l>abismalmente<s n="adv"/></l>      <r>abismalment<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>la<b/>caída<b/>de<b/>la<b/>tarde<s n="adv"/></l><r>al<b/>caient<b/>de<b/>la<b/>tarda<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>a<b/>la<b/>caída<b/>de<b/>la<b/>tarde<s n="adv"/></l><r>al<b/>caient<b/>de<b/>la<b/>tarda<s n="adv"/></r></p></e>
+<e a="prompsit2ua" v="val">       <p><l>a<b/>la<b/>caída<b/>de<b/>la<b/>tarde<s n="adv"/></l><r>al<b/>caient<b/>de<b/>la<b/>vesprada<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>la<b/>espera<s n="adv"/></l> <r>a<b/>l'espera<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>la<b/>fuerza<s n="adv"/></l> <r>per<b/>força<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>la<b/>inversa<s n="adv"/></l><r>al<b/>revés<s n="adv"/></r></p></e>
@@ -28713,7 +28718,8 @@
 <e>       <p><l>a<b/>más<b/>tardar<s n="adv"/></l><r>a<b/>tot<b/>tardar<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>media<b/>luz<s n="adv"/></l> <r>a<b/>mitja<b/>llum<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>media<b/>mañana<s n="adv"/></l><r>a<b/>mitjan<b/>matí<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>media<b/>tarde<s n="adv"/></l><r>a<b/>mitjan<b/>tarda<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>a<b/>media<b/>tarde<s n="adv"/></l><r>a<b/>mitjan<b/>tarda<s n="adv"/></r></p></e>
+<e v="val">       <p><l>a<b/>media<b/>tarde<s n="adv"/></l><r>a<b/>mitjan<b/>vesprada<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>medias<s n="adv"/></l>       <r>a<b/>mig<b/>fer<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>medio<b/>camino<s n="adv"/></l><r>a<b/>mig<b/>camí<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>mediodía<s n="adv"/></l>     <r>al<b/>migdia<s n="adv"/></r></p></e>
@@ -30744,8 +30750,10 @@
 <e>       <p><l>manos<b/>a<b/>la<b/>obra<s n="adv"/></l><r>som-hi<s n="adv"/></r></p></e>
 <e>       <p><l>mansamente<s n="adv"/></l>        <r>mansament<s n="adv"/></r></p></e>
 <e>       <p><l>manuscritamente<s n="adv"/></l>   <r>manuscritament<s n="adv"/></r></p></e>
-<e>       <p><l>mañana<b/>tarde<b/>y<b/>noche<s n="adv"/></l><r>matí<b/>tarda<b/>i<b/>nit<s n="adv"/></r></p></e>
-<e>       <p><l>mañana<b/>y<b/>tarde<s n="adv"/></l><r>matí<b/>i<b/>tarda<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>mañana<b/>tarde<b/>y<b/>noche<s n="adv"/></l><r>matí<b/>tarda<b/>i<b/>nit<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>mañana<b/>y<b/>tarde<s n="adv"/></l><r>matí<b/>i<b/>tarda<s n="adv"/></r></p></e>
+<e v="val" a="prompsit2ua">       <p><l>mañana<b/>tarde<b/>y<b/>noche<s n="adv"/></l><r>matí<b/>vesprada<b/>i<b/>nit<s n="adv"/></r></p></e>
+<e v="val" a="prompsit2ua">       <p><l>mañana<b/>y<b/>tarde<s n="adv"/></l><r>matí<b/>i<b/>vesprada<s n="adv"/></r></p></e>
 <e>       <p><l>marchitamente<s n="adv"/></l>     <r>marcidament<s n="adv"/></r></p></e>
 <e>       <p><l>marcianamente<s n="adv"/></l>     <r>marcianament<s n="adv"/></r></p></e>
 <e>       <p><l>marginadamente<s n="adv"/></l>    <r>marginadament<s n="adv"/></r></p></e>
@@ -32672,7 +32680,7 @@
 <e>       <p><l>africanizar<s n="vblex"/></l>     <r>africanitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>agasajar<s n="vblex"/></l>        <r>complimentar<s n="vblex"/></r></p></e>
 <e>       <p><l>agazapar<s n="vblex"/></l>        <r>agotnar<s n="vblex"/></r></p></e>
-<e>       <p><l>aguar<s n="vblex"/></l>           <r>aigualir<s n="vblex"/></r></p></e>
+<!--<e>       <p><l>aguar<s n="vblex"/></l>           <r>aigualir<s n="vblex"/></r></p></e>-->
 <e>       <p><l>aguijonear<s n="vblex"/></l>      <r>agullonar<s n="vblex"/></r></p></e>
 <e>       <p><l>aguzar<s n="vblex"/></l>          <r>agusar<s n="vblex"/></r></p></e>
 <e>       <p><l>ahormar<s n="vblex"/></l>         <r>enformar<s n="vblex"/></r></p></e>
@@ -41030,7 +41038,7 @@
 <e>       <p><l>La<b/>Haya<s n="np"/><s n="loc"/></l><r>l'Haia<b/><s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>la<b/>Llacuna<s n="np"/></l>      <r>la<b/>Llancuna<s n="np"/></r></p></e>
 <e>       <p><l>la<b/>Mancha<s n="np"/><s n="loc"/></l><r>la<b/>Manxa<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>la<b/>Mata<s n="np"/></l>         <r>la<b/>Mata<b/>de<b/>Morella<s n="np"/></r></p></e>
+<e r="RL">       <p><l>la<b/>Mata<s n="np"/></l>         <r>la<b/>Mata<b/>de<b/>Morella<s n="np"/></r></p></e>
 <e>       <p><l>La<b/>Romana<s n="np"/></l>       <r>la<b/>Romana<s n="np"/></r></p></e>
 <e>       <p><l>la<b/>Torre<b/>de<b/>Cabdella<s n="np"/></l><r>la<b/>Torre<b/>de<b/>Cabella<s n="np"/></r></p></e>
 <e>       <p><l>La<b/>Yesa<s n="np"/></l>         <r>la<b/>Yesa<s n="np"/></r></p></e>
@@ -41995,6 +42003,13 @@
 <e a="prompsit2ua"><p><l>transdisciplinar<s n="adj"/></l><r>transdisciplinar<s n="adj"/></r></p></e>
 <e a="prompsit2ua"><p><l>veladura<s n="n"/></l><r>veladura<s n="n"/></r></p></e>
 
+
+<e a="prompsit2ua"><p><l>Escuela<b/>de<b/>Bellas<b/>Artes<b/>de<b/>San<b/>Carlos<s n="np"/></l><r>Escola<b/>de<b/>Belles<b/>Arts<b/>de<b/>Sant<b/>Carles<s n="np"/></r></p></e>
+<e a="prompsit2ua"><p><l>Sant<b/>Albert<b/>Magne<s n="np"/></l><r>Sant<b/>Albert<b/>Magne<s n="np"/></r></p></e>
+<e a="prompsit2ua"><p><l>Toulouse-Lautrec<s n="np"/></l><r>Toulouse-Lautrec<s n="np"/></r></p></e>
+
+<e a="prompsit2ua" r="LR"><p><l>fruto<b/>seco<s n="n"/><s n="m"/><s n="sg"/></l><r>fruita<b/>seca<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="prompsit2ua"><p><l>fruto<b/>seco<s n="n"/><s n="m"/><s n="pl"/></l><r>fruita<b/>seca<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 
 </section>
 
