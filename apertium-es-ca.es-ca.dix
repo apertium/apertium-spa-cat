@@ -1415,6 +1415,7 @@
 <e>       <p><l>basta<b/>de<s n="pr"/></l>        <r>n'hi<b/>ha<b/>prou<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>comoquiera<b/>que<s n="cnjadv"/></l><r>per<b/>tal<b/>com<s n="cnjadv"/></r></p></e>
 <e>       <p><l>con<b/>el<b/>fin<b/>de<b/>que<s n="cnjadv"/></l><r>amb<b/>la<b/>finalitat<b/>que<s n="cnjadv"/></r></p></e>
+<e>       <p><l>bien<b/>es<b/>verdad<b/>que<s n="cnjadv"/></l><r>la<b/>veritat<b/>és<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>con<b/>sólo<b/>que<s n="cnjadv"/></l><r>només<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>dada<b/>cuenta<b/>que<s n="cnjadv"/></l><r>havent<b/>donat<b/>compte<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>tener<g><b/>en<b/>cuenta</g><s n="vblex"/></l><r>tenir<g><b/>en<b/>compte</g><s n="vblex"/></r></p></e>
@@ -4578,6 +4579,9 @@
 <e>       <p><l>a<b/>manos<b/>de<s n="pr"/></l>   <r>a<b/>les<b/>mans<b/>de<s n="pr"/></r></p></e>
 <e r="RL"><p><l>a<b/>principios<b/>de<s n="pr"/></l><r>a<b/>les<b/>primeries<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>mediados<b/>de<s n="pr"/></l><r>a<b/>mitjan<s n="pr"/></r></p></e>
+<e>       <p><l>hacia<b/>mediados<b/>de<s n="pr"/></l><r>cap<b/>a<b/>mitjan<s n="pr"/></r></p></e>
+<e>       <p><l>desde<b/>mediados<b/>de<s n="pr"/></l><r>des<b/>de<b/>mitjan<s n="pr"/></r></p></e>
+<e>       <p><l>hasta<b/>mediados<b/>de<s n="pr"/></l><r>fins<b/>a<b/>mitjan<s n="pr"/></r></p></e>
 <e r="RL"><p><l>a<b/>mediados<b/>de<s n="pr"/></l><r>a<b/>mitjan<b/>de<s n="pr"/></r></p></e>
 <e r="RL"><p><l>a<b/>mediados<b/>de<s n="pr"/></l><r>a<b/>mitjans<b/>de<s n="pr"/></r></p></e>
 <e r="RL"><p><l>una<b/>gran<b/>cantidad<b/>de<s n="pr"/></l><r>a<b/>muntó<b/>de<s n="pr"/></r></p></e>
@@ -10431,7 +10435,8 @@
 <e r="LR"><p><l>reluciente<s n="adj"/><s n="mf"/></l><r>lluent<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>reluciente<s n="adj"/><s n="mf"/></l><r>lluent<s n="adj"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>reluciente<s n="adj"/><s n="mf"/></l><r>lluent<s n="adj"/><s n="m"/></r></p></e>
-<e>       <p><l>pulimentar<s n="vblex"/></l>      <r>lluentar<s n="vblex"/></r></p></e>
+<e v="cat">       <p><l>pulimentar<s n="vblex"/></l>      <r>lluentar<s n="vblex"/></r></p></e>
+<e v="val" r="LR">       <p><l>pulimentar<s n="vblex"/></l>      <r>polir<s n="vblex"/></r></p></e>
 <e>       <p><l>lentejuela<s n="n"/><s n="f"/></l><r>lluentó<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>Lluís<s n="np"/></i></e>
 <e>       <p><l>luchador<s n="adj"/></l>          <r>lluitador<s n="adj"/></r></p></e>
@@ -26906,6 +26911,7 @@
 <e a="prompsit2uoc"><p><l>primariamente<s n="adv"/></l><r>primàriament<s n="adv"/></r></p></e>
 <e r="LR" a="prompsit2uoc"><p><l>comunamente<s n="adv"/></l><r>comunament<s n="adv"/></r></p></e>
 <e a="prompsit2uoc"><p><l>comúnmente<s n="adv"/></l><r>comunament<s n="adv"/></r></p></e>
+<e a="prompsit2uoc"><p><l>en<b/>común<s n="adv"/></l><r>en<b/>comú<s n="adv"/></r></p></e>
 <e a="prompsit2uoc"><p><l>pragmáticamente<s n="adv"/></l><r>pragmàticament<s n="adv"/></r></p></e>
 <e a="prompsit2uoc"><p><l>intrínsecamente<s n="adv"/></l><r>intrínsecament<s n="adv"/></r></p></e>
 
@@ -32067,9 +32073,8 @@
 <e r="RL"><p><l>a<b/>la<b/>vista<s n="adv"/></l>  <r>a<b/>les<b/>envistes<s n="adv"/></r></p></e>
 <e r="RL"><p><l>a<b/>media<b/>altura<s n="adv"/></l><r>a<b/>mig<b/>aire<s n="adv"/></r></p></e>
 <e r="RL"><p><l>a<b/>media<b/>mañana<s n="adv"/></l><r>a<b/>mig<b/>matí<s n="adv"/></r></p></e>
-<e r="RL"><p><l>a<b/>media<b/>tarde<s n="adv"/></l><r>a<b/>mig<b/>tarda<s n="adv"/></r></p></e>
-<e r="RL"><p><l>a<b/>media<b/>tarde<s n="adv"/></l><r>a<b/>mig<b/>vesprada<s n="adv"/></r></p></e>
-<e r="RL"><p><l>a<b/>media<b/>tarde<s n="adv"/></l><r>a<b/>mitjan<b/>vesprada<s n="adv"/></r></p></e>
+<e r="RL" v="cat"><p><l>a<b/>media<b/>tarde<s n="adv"/></l><r>a<b/>mig<b/>tarda<s n="adv"/></r></p></e>
+<e r="RL" v="val"><p><l>a<b/>media<b/>tarde<s n="adv"/></l><r>a<b/>mig<b/>vesprada<s n="adv"/></r></p></e>
 <e r="RL"><p><l>a<b/>menudo<s n="adv"/></l>       <r>tot<b/>sovint<s n="adv"/></r></p></e>
 <e r="RL"><p><l>a<b/>oscuras<s n="adv"/></l>      <r>a<b/>fosques<s n="adv"/></r></p></e>
 <e r="RL"><p><l>a<b/>patadas<s n="adv"/></l>      <r>a<b/>puntades<b/>de<b/>peu<s n="adv"/></r></p></e>
@@ -32147,8 +32152,6 @@
 <e r="RL"><p><l>larguiruchamente<s n="adv"/></l>  <r>llarguerudament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>libremente<s n="adv"/></l>        <r>a<b/>lloure<s n="adv"/></r></p></e>
 <e r="RL"><p><l>lo<b/>más<b/>mínimo<s n="adv"/></l><r>gens<b/>ni<b/>miqueta<s n="adv"/></r></p></e>
-<e r="RL"><p><l>mañana<b/>tarde<b/>y<b/>noche<s n="adv"/></l><r>matí<b/>vesprada<b/>i<b/>nit<s n="adv"/></r></p></e>
-<e r="RL"><p><l>mañana<b/>y<b/>tarde<s n="adv"/></l><r>matí<b/>i<b/>vesprada<s n="adv"/></r></p></e>
 <e r="RL"><p><l>más<b/>bien<s n="adv"/></l>       <r>més<b/>aïna<s n="adv"/></r></p></e>
 <e r="RL"><p><l>más<b/>bien<s n="adv"/></l>       <r>més<b/>aïnes<s n="adv"/></r></p></e>
 <e r="RL"><p><l>más<b/>bien<s n="adv"/></l>       <r>més<b/>tost<s n="adv"/></r></p></e>
@@ -32165,8 +32168,8 @@
 <e r="RL"><p><l>poco<b/>a<b/>poco<s n="adv"/></l> <r>de<b/>mica<b/>en<b/>mica<s n="adv"/></r></p></e>
 <e r="RL"><p><l>por<b/>la<b/>mañana<s n="adv"/></l><r>de<b/>matí<s n="adv"/></r></p></e>
 <e r="RL"><p><l>por<b/>la<b/>noche<s n="adv"/></l><r>de<b/>nit<s n="adv"/></r></p></e>
-<e r="RL"><p><l>por<b/>la<b/>tarde<s n="adv"/></l><r>a<b/>la<b/>vesprada<s n="adv"/></r></p></e>
-<e r="RL"><p><l>por<b/>la<b/>tarde<s n="adv"/></l><r>de<b/>vesprada<s n="adv"/></r></p></e>
+<e r="RL" v="val"><p><l>por<b/>la<b/>tarde<s n="adv"/></l><r>de<b/>vesprada<s n="adv"/></r></p></e>
+<e r="RL" v="cat"><p><l>por<b/>la<b/>tarde<s n="adv"/></l><r>de<b/>tarda<s n="adv"/></r></p></e>
 <e r="RL"><p><l>por<b/>otro<b/>lado<s n="adv"/></l><r>d'una<b/>altra<b/>banda<s n="adv"/></r></p></e>
 <e r="RL"><p><l>por<b/>primera<b/>vez<s n="adv"/></l><r>per<b/>primer<b/>colp<s n="adv"/></r></p></e>
 <e r="RL"><p><l>realmente<s n="adv"/></l>         <r>reialment<s n="adv"/></r></p></e>
@@ -41678,7 +41681,7 @@
 
 <!-- adverbis -->
 <e a="mireiafarrus">   <p><l>de<b/>todo<b/>el<b/>mundo<s n="adv"/></l><r>de<b/>tot<b/>el<b/>món<s n="adv"/></r></p></e>
-<e a="mireiafarrus">   <p><l>hasta<b/>la<b/>fecha<s n="adv"/></l><r>fins<b/>avui<s n="adv"/></r></p></e>
+<e a="mireiafarrus" r="LR">   <p><l>hasta<b/>la<b/>fecha<s n="adv"/></l><r>fins<b/>avui<s n="adv"/></r></p></e>
 <e a="mireiafarrus">   <p><l>en<b/>el<b/>año<s n="adv"/></l><r>l'any<s n="adv"/></r></p></e> <!-- ALERTA: "l'any" no es traduïrà sempre com a "en el año". Analitzar millor aquesta entrada -->
 
 
@@ -42007,6 +42010,8 @@
 <e a="prompsit2ua"><p><l>Escuela<b/>de<b/>Bellas<b/>Artes<b/>de<b/>San<b/>Carlos<s n="np"/></l><r>Escola<b/>de<b/>Belles<b/>Arts<b/>de<b/>Sant<b/>Carles<s n="np"/></r></p></e>
 <e a="prompsit2ua"><p><l>Sant<b/>Albert<b/>Magne<s n="np"/></l><r>Sant<b/>Albert<b/>Magne<s n="np"/></r></p></e>
 <e a="prompsit2ua"><p><l>Toulouse-Lautrec<s n="np"/></l><r>Toulouse-Lautrec<s n="np"/></r></p></e>
+
+<e a="prompsit2ua"><p><l>hasta<b/>hoy<s n="adv"/></l><r>fins<b/>avui<s n="adv"/></r></p></e>
 
 <e a="prompsit2ua" r="LR"><p><l>fruto<b/>seco<s n="n"/><s n="m"/><s n="sg"/></l><r>fruita<b/>seca<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="prompsit2ua"><p><l>fruto<b/>seco<s n="n"/><s n="m"/><s n="pl"/></l><r>fruita<b/>seca<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
