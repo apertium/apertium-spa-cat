@@ -2004,6 +2004,69 @@
       <label-item label="VLEXIMP"/>
     </label-sequence>
 
+    <label-sequence>
+      <label-item label="DETF"/><!-- la uso-->
+      <label-item label="NOMM"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="VSERPFCI"/><!-- es menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERINF"/><!-- ser menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERGER"/><!-- siendo menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERPARTPI"/><!-- sido menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERSUBJ"/><!-- sea menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIMP"/><!-- sed menudos-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIPI"/><!-- fueron menudos-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+
+
+    <label-sequence>
+      <label-item label="VLEXPFCI"/><!-- nace menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXINF"/><!-- nacer menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXGER"/><!-- naciendo menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPARTPI"/><!-- nacido menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXSUBJ"/><!-- nazca menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIMP"/><!-- naced menudos-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIPI"/><!-- nació menudo-->
+      <label-item label="ADJINT"/>
+    </label-sequence>
 
   </forbid>
 
