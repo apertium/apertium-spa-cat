@@ -1407,7 +1407,8 @@
 <e r="LR"><p><l>debido<b/>a<b/>que<s n="cnjadv"/></l><r>a<b/>causa<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>aun<b/>así<s n="cnjadv"/></l>     <r>així<b/>i<b/>tot<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>aún<b/>así<s n="cnjadv"/></l>     <r>tot<b/>i<b/>així<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>aún<b/>así<s n="cnjadv"/></l>     <r>tot<b/>i<b/>això<s n="cnjadv"/></r></p></e>
+<e r="RL" v="cat"><p><l>aún<b/>así<s n="cnjadv"/></l>     <r>tot<b/>i<b/>això<s n="cnjadv"/></r></p></e>
+<e r="RL" v="val"><p><l>aún<b/>así<s n="cnjadv"/></l>     <r>tot<b/>i<b/>açò<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>aun<b/>cuando<s n="cnjadv"/></l>  <r>tot<b/>i<b/>que<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>a<b/>pesar<b/>de<b/>que<s n="cnjadv"/></l><r>tot<b/>i<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>aunque<s n="cnjadv"/></l>         <r>encara<b/>que<s n="cnjadv"/></r></p></e>
@@ -1442,10 +1443,13 @@
 <e r="RL"><p><l>más<b/>bien<s n="cnjadv"/></l>    <r>ans<s n="cnjadv"/></r></p></e>
 <e>       <p><l>mientras<s n="cnjadv"/></l>       <r>mentre<s n="cnjadv"/></r></p></e>
 <e>       <p><l>colaborativo<s n="adj"/></l>      <r>col·laboratiu<s n="adj"/></r></p></e>
-<e r="LR">       <p><l>no<b/>obstante2<s n="cnjadv"/></l> <r>no<b/>obstant<b/>això<s n="cnjadv"/></r></p></e> <!-- "mireiafarrus" què significa el 2? -->
+<e r="LR" v="cat">       <p><l>no<b/>obstante2<s n="cnjadv"/></l> <r>no<b/>obstant<b/>això<s n="cnjadv"/></r></p></e> <!-- "mireiafarrus" què significa el 2? -->
+<e r="LR" v="val">       <p><l>no<b/>obstante2<s n="cnjadv"/></l> <r>no<b/>obstant<b/>açò<s n="cnjadv"/></r></p></e> <!-- "mireiafarrus" què significa el 2? -->
 <e>       <p><l>no<b/>obstante<s n="cnjadv"/></l> <r>no<b/>obstant<s n="cnjadv"/></r></p></e>
-<e r="RL" a="mireiafarrus">       <p><l>no<b/>obstante<s n="cnjadv"/></l> <r>això<b/>no<b/>obstant<s n="cnjadv"/></r></p></e> 
-<e>       <p><l>para<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>a<b/>això<s n="cnjadv"/></r></p></e>
+<e r="RL" a="mireiafarrus" v="cat">       <p><l>no<b/>obstante<s n="cnjadv"/></l> <r>això<b/>no<b/>obstant<s n="cnjadv"/></r></p></e> 
+<e r="RL" a="mireiafarrus" v="val">       <p><l>no<b/>obstante<s n="cnjadv"/></l> <r>açò<b/>no<b/>obstant<s n="cnjadv"/></r></p></e> 
+<e v="cat">       <p><l>para<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>a<b/>això<s n="cnjadv"/></r></p></e>
+<e v="val">       <p><l>para<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>a<b/>açò<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>para<b/>que<s n="cnjadv"/></l>    <r>perquè<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>para<b/>que<s n="cnjadv"/></l>    <r>per<b/>tal<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>por<b/>cuanto<s n="cnjadv"/></l>  <r>puix<b/>que<s n="cnjadv"/></r></p></e>
@@ -1462,14 +1466,17 @@
 <e r="RL"><p><l>si<b/>bien<s n="cnjadv"/></l>     <r>per<b/>bé<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <i>si<s n="cnjadv"/></i></e>
 <e r="LR"><p><l>siempre<b/>y<b/>cuando<s n="cnjadv"/></l><r>sempre<b/>que<s n="cnjadv"/></r></p></e>
-<e>       <p><l>sin<b/>embargo<s n="cnjadv"/></l> <r>no<b/>obstant<b/>això<s n="cnjadv"/></r></p></e>
+<e v="cat">       <p><l>sin<b/>embargo<s n="cnjadv"/></l> <r>no<b/>obstant<b/>això<s n="cnjadv"/></r></p></e>
+<e v="val">       <p><l>sin<b/>embargo<s n="cnjadv"/></l> <r>no<b/>obstant<b/>açò<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>sin<b/>embargo<s n="cnjadv"/></l> <r>tot<b/>amb<b/>tot<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>sin<b/>embargo<s n="cnjadv"/></l> <r>nogensmenys<s n="cnjadv"/></r></p></e>
 <e>       <p><l>tanto<b/>más<b/>cuanto<s n="cnjadv"/></l><r>molt<b/>més<b/>com<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>toda<b/>vez<b/>que<s n="cnjadv"/></l><r>atès<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>todo<b/>lo<b/>bien<b/>que<s n="cnjadv"/></l><r>tan<b/>bé<b/>com<s n="cnjadv"/></r></p></e>
-<e r="LR"><p><l>por<b/>eso<b/>es<b/>por<b/>lo<b/>que<s n="cnjadv"/></l><r>és<b/>per<b/>això<b/>que<s n="cnjadv"/></r></p></e>
-<e>       <p><l>es<b/>por<b/>eso<b/>que<s n="cnjadv"/></l><r>és<b/>per<b/>això<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" v="cat"><p><l>por<b/>eso<b/>es<b/>por<b/>lo<b/>que<s n="cnjadv"/></l><r>és<b/>per<b/>això<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" v="val"><p><l>por<b/>eso<b/>es<b/>por<b/>lo<b/>que<s n="cnjadv"/></l><r>és<b/>per<b/>açò<b/>que<s n="cnjadv"/></r></p></e>
+<e v="cat">       <p><l>es<b/>por<b/>eso<b/>que<s n="cnjadv"/></l><r>és<b/>per<b/>això<b/>que<s n="cnjadv"/></r></p></e>
+<e v="val">       <p><l>es<b/>por<b/>eso<b/>que<s n="cnjadv"/></l><r>és<b/>per<b/>açò<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>a<b/>fin<b/>de<b/>que<s n="cnjadv"/></l><r>a<b/>fi<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>a<b/>poco<b/>que<s n="cnjadv"/></l><r>per<b/>poc<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>excepto<b/>que<s n="cnjadv"/></l> <r>excepte<b/>que<s n="cnjadv"/></r></p></e>
@@ -4555,7 +4562,8 @@
 <e>       <p><l>hasta<b/>después<b/>de<s n="pr"/></l><r>fins<b/>al<b/>cap<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>condición<b/>de<b/>que<s n="cnjadv"/></l><r>a<b/>condició<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>debido<b/>a<s n="pr"/></l>        <r>a<b/>causa<b/>de<s n="pr"/></r></p></e>
-<e>       <p><l>debido<b/>a<b/>ello<s n="cnjadv"/></l><r>a<b/>causa<b/>d'això<s n="cnjadv"/></r></p></e>
+<e v="cat">       <p><l>debido<b/>a<b/>ello<s n="cnjadv"/></l><r>a<b/>causa<b/>d'això<s n="cnjadv"/></r></p></e>
+<e v="val">       <p><l>debido<b/>a<b/>ello<s n="cnjadv"/></l><r>a<b/>causa<b/>d'açò<s n="cnjadv"/></r></p></e>
 <e>       <p><l>a<b/>expensas<b/>de<s n="pr"/></l><r>a<b/>costa<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>el<b/>seno<b/>de<s n="pr"/></l><r>en<b/>el<b/>si<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>al<b/>cuidado<b/>de<s n="pr"/></l><r>a<b/>cura<b/>de<s n="pr"/></r></p></e>
@@ -22173,7 +22181,8 @@
 <e a="prompsit" alt="eco"><p><l>quebrar<s n="vblex"/></l><r>fer<g><b/>fallida</g><s n="vblex"/></r></p></e>
 <e r="RL" a="prompsit" alt="std"><p><l>quebrar<s n="vblex"/></l><r>fer<g><b/>fallida</g><s n="vblex"/></r></p></e>
 <e>       <p><l>estar<g><b/>a<b/>punto</g><s n="vblex"/></l><r>ser<g><b/>a<b/>punt</g><s n="vbser"/></r></p></e>
-<e>       <p><l>eso<b/>sí<s n="adv"/></l>         <r>això<b/>sí<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>eso<b/>sí<s n="adv"/></l>         <r>això<b/>sí<s n="adv"/></r></p></e>
+<e v="val">       <p><l>eso<b/>sí<s n="adv"/></l>         <r>açò<b/>sí<s n="adv"/></r></p></e>
 <e r="LR" a="prompsit"><p><l>ser<g><b/>acorde</g><s n="vbser"/></l><r>ser<g><b/>conforme</g><s n="vbser"/></r></p></e>
 <e a="prompsit"><p><l>ser<g><b/>conforme</g><s n="vbser"/></l><r>ser<g><b/>conforme</g><s n="vbser"/></r></p></e>
 <e r="LR"><p><l>ser<g><b/>de<b/>aplicación</g><s n="vbser"/></l><r>ser<g><b/>aplicable</g><s n="vbser"/></r></p></e>
@@ -28926,7 +28935,8 @@
 <e>       <p><l>alfanuméricamente<s n="adv"/></l> <r>alfanumèricament<s n="adv"/></r></p></e>
 <e>       <p><l>algebraicamente<s n="adv"/></l>   <r>algebraicament<s n="adv"/></r></p></e>
 <e>       <p><l>álgidamente<s n="adv"/></l>       <r>àlgidament<s n="adv"/></r></p></e>
-<e>       <p><l>algo<b/>es<b/>algo<s n="adv"/></l><r>val<b/>més<b/>això<b/>que<b/>res<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>algo<b/>es<b/>algo<s n="adv"/></l><r>val<b/>més<b/>això<b/>que<b/>res<s n="adv"/></r></p></e>
+<e v="val">       <p><l>algo<b/>es<b/>algo<s n="adv"/></l><r>val<b/>més<b/>açò<b/>que<b/>res<s n="adv"/></r></p></e>
 <e>       <p><l>algo<b/>más<s n="adv"/></l>       <r>una<b/>mica<b/>més<s n="adv"/></r></p></e>
 <e>       <p><l>algo<b/>mejor<s n="adv"/></l>     <r>una<b/>mica<b/>millor<s n="adv"/></r></p></e>
 <e>       <p><l>algo<b/>menos<s n="adv"/></l>     <r>una<b/>mica<b/>menys<s n="adv"/></r></p></e>
@@ -29877,11 +29887,13 @@
 <e>       <p><l>en<b/>palacio<s n="adv"/></l>     <r>a<b/>palau<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>pie<s n="adv"/></l>         <r>en<b/>peus<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>resumidas<b/>cuentas<s n="adv"/></l><r>comptat<b/>i<b/>debatut<s n="adv"/></r></p></e>
-<e>       <p><l>en<b/>su<b/>defecto<s n="adv"/></l><r>en<b/>defecte<b/>d'això<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>en<b/>su<b/>defecto<s n="adv"/></l><r>en<b/>defecte<b/>d'això<s n="adv"/></r></p></e>
+<e v="val">       <p><l>en<b/>su<b/>defecto<s n="adv"/></l><r>en<b/>defecte<b/>d'açò<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>su<b/>día<s n="adv"/></l>   <r>en<b/>el<b/>seu<b/>moment<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>su<b/>origen<s n="adv"/></l><r>a<b/>l'origen<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>su<b/>punto<s n="adv"/></l> <r>al<b/>punt<s n="adv"/></r></p></e>
-<e>       <p><l>en<b/>su<b/>virtud<s n="adv"/></l><r>en<b/>virtut<b/>d'això<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>en<b/>su<b/>virtud<s n="adv"/></l><r>en<b/>virtut<b/>d'això<s n="adv"/></r></p></e>
+<e v="val">       <p><l>en<b/>su<b/>virtud<s n="adv"/></l><r>en<b/>virtut<b/>d'açò<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>sueños<s n="adv"/></l>      <r>en<b/>somni<s n="adv"/></r></p></e>
 <e r="LR">       <p><l>en<b/>trance<s n="adv"/></l>      <r>en<b/>trànsit<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>tranvía<s n="adv"/></l>     <r>amb<b/>tramvia<s n="adv"/></r></p></e>
@@ -31163,7 +31175,8 @@
 <e>       <p><l>por<b/>ahora<s n="adv"/></l>      <r>ara<b/>com<b/>ara<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>anticipado<s n="adv"/></l> <r>a<b/>compte<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>añadidura<s n="adv"/></l>  <r>per<b/>afegiment<s n="adv"/></r></p></e>
-<e>       <p><l>por<b/>cuya<b/>causa<s n="adv"/></l><r>a<b/>causa<b/>d'això<s n="adv"/></r></p></e>
+<e v="cat">       <p><l>por<b/>cuya<b/>causa<s n="adv"/></l><r>a<b/>causa<b/>d'això<s n="adv"/></r></p></e>
+<e v="val">       <p><l>por<b/>cuya<b/>causa<s n="adv"/></l><r>a<b/>causa<b/>d'açò<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>descuido<s n="adv"/></l>   <r>per<b/>distracció<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>docenas<s n="adv"/></l>    <r>a<b/>dotzenes<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>el<b/>contrario<s n="adv"/></l><r>per<b/>contra<s n="adv"/></r></p></e>
@@ -31859,7 +31872,8 @@
 <e r="LR"><p><l>a<b/>cientos<s n="adv"/></l>      <r>a<b/>centenars<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>cuyo<b/>objeto<s n="adv"/></l><r>per<b/>a<b/>la<b/>qual<b/>cosa<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>donde<s n="adv"/></l>        <r>on<s n="adv"/></r></p></e>
-<e r="LR"><p><l>a<b/>este<b/>respecto<s n="adv"/></l><r>referent<b/>a<b/>això<s n="adv"/></r></p></e>
+<e r="LR" v="cat"><p><l>a<b/>este<b/>respecto<s n="adv"/></l><r>referent<b/>a<b/>això<s n="adv"/></r></p></e>
+<e r="LR" v="val"><p><l>a<b/>este<b/>respecto<s n="adv"/></l><r>referent<b/>a<b/>açò<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>grito<b/>herido<s n="adv"/></l><r>a<b/>plena<b/>veu<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>hombros<s n="adv"/></l>      <r>a<b/>coll<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>horcajadas<s n="adv"/></l>   <r>a<b/>cavall<s n="adv"/></r></p></e>
@@ -41761,7 +41775,8 @@
 
 <!-- conjuncions adverbials -->
 
-<e a="mireiafarrus">    <p><l>por<b/>eso<s n="cnjadv"/></l><r>per<b/>això<s n="cnjadv"/></r></p></e>
+<e a="mireiafarrus" v="cat">    <p><l>por<b/>eso<s n="cnjadv"/></l><r>per<b/>això<s n="cnjadv"/></r></p></e>
+<e a="mireiafarrus" v="val">    <p><l>por<b/>eso<s n="cnjadv"/></l><r>per<b/>açò<s n="cnjadv"/></r></p></e>
 
 
 <!-- locucions -->
