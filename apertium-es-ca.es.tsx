@@ -1018,6 +1018,10 @@
       <label-item label="VSERIMP"/>
     </label-sequence>
     <label-sequence>
+      <label-item label="VLEXIMP"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
       <label-item label="VSERIMP"/>
       <label-item label="IMPSERPRNENC"/>
     </label-sequence>
@@ -2066,6 +2070,10 @@
     <label-sequence>
       <label-item label="VLEXIPI"/><!-- nació menudo-->
       <label-item label="ADJINT"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXPFCI"/><!-- provoca sed-->
+      <label-item label="VSERIMP"/>
     </label-sequence>
 
   </forbid>
