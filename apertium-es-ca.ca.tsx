@@ -1520,8 +1520,14 @@
       <label-item label="VMODALPARTPI"/>
       <label-item label="PREP"/>
     </label-sequence>
-
-
+    <label-sequence>
+      <label-item label="VLEXPFCI"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIMP"/>
+      <label-item label="VSERIMP"/>
+    </label-sequence>
 
   
   </forbid>
