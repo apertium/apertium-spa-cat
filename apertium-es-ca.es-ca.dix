@@ -114,7 +114,7 @@
 <e r="RL"><p><l>agrio<s n="adj"/><s n="GD"/><s n="pl"/></l><r>agre<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e>       <p><l>agrio<s n="adj"/></l>             <r>agre<s n="adj"/></r></p></e>
 <e>       <p><l>agudo<s n="adj"/></l>             <r>agut<s n="adj"/></r></p></e>
-<e>       <p><l>ajeno<s n="adj"/></l>             <r>aliè<s n="adj"/></r></p></e>
+<e v="cat">       <p><l>ajeno<s n="adj"/></l>             <r>aliè<s n="adj"/></r></p></e>
 <e>       <p><l>alarmante<s n="adj"/></l>         <r>alarmant<s n="adj"/></r></p></e>
 <e>       <i>alegre<s n="adj"/></i></e>
 <e>       <p><l>alemán<s n="adj"/></l>            <r>alemany<s n="adj"/></r></p></e>
@@ -6422,7 +6422,7 @@
 <e>       <p><l>favorecer<s n="vblex"/></l>       <r>afavorir<s n="vblex"/></r></p></e>
 <e>       <p><l>afección<s n="n"/></l>            <r>afecció<s n="n"/></r></p></e>
 <e>       <p><l>afectivo<s n="adj"/></l>          <r>afectiu<s n="adj"/></r></p></e>
-<e>       <p><l>afgano<s n="adj"/></l>            <r>afganès<s n="adj"/></r></p></e>
+<e v="cat">       <p><l>afgano<s n="adj"/></l>            <r>afganès<s n="adj"/></r></p></e>
 <e>       <p><l>Afganistán<s n="np"/></l>         <r>Afganistan<s n="np"/></r></p></e>
 <e>       <p><l>afín<s n="adj"/></l>              <r>afí<s n="adj"/></r></p></e>
 <e r="LR">       <p><l>allegado<s n="adj"/><s n="m"/></l>              <r>afí<s n="adj"/><s n="mf"/></r></p></e>
@@ -6603,7 +6603,7 @@
 <e>       <p><l>ambulancia<s n="n"/></l>          <r>ambulància<s n="n"/></r></p></e>
 <e>       <p><l>ambulante<s n="adj"/></l>         <r>ambulant<s n="adj"/></r></p></e>
 <e>       <p><l>ambulatorio<s n="n"/></l>         <r>ambulatori<s n="n"/></r></p></e>
-<e>       <p><l>ameno<s n="adj"/></l>             <r>amè<s n="adj"/></r></p></e>
+<e v="cat">       <p><l>ameno<s n="adj"/></l>             <r>amè<s n="adj"/></r></p></e>
 <e>       <i>Amenábar<s n="np"/><s n="ant"/></i></e>
 <e>       <i>amén<s n="n"/></i></e>
 <e>       <p><l>América<s n="np"/></l>            <r>Amèrica<s n="np"/></r></p></e>
@@ -23014,7 +23014,7 @@
 <e a="prompsit2uoc"><p><l>bidireccional<s n="adj"/></l><r>bidireccional<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>reticular<s n="adj"/></l><r>reticular<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>legible<s n="adj"/></l> <r>llegible<s n="adj"/></r></p></e>
-<e a="prompsit2uoc"><p><l>irreductible<s n="adj"/></l><r>irreductible<s n="adj"/></r></p></e>
+<e r="LR" a="prompsit2uoc0eleka"><p><l>irreductible<s n="adj"/></l><r>irreductible<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>mandibular<s n="adj"/></l><r>mandibular<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>factorial<s n="adj"/></l><r>factorial<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>sacramental<s n="adj"/></l><r>sacramental<s n="adj"/></r></p></e>
@@ -34178,7 +34178,6 @@
 <e>       <p><l>acomodo<s n="n"/></l>             <r>acomodament<s n="n"/></r></p></e>
 <e>       <p><l>acorazado<s n="n"/></l>           <r>cuirassat<s n="n"/></r></p></e>
 <e>       <p><l>acordeón<s n="n"/></l>            <r>acordió<s n="n"/></r></p></e>
-<e>       <p><l>acotación<s n="n"/><s n="f"/></l> <r>acotament<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>acrecentamiento<s n="n"/></l>     <r>acreixement<s n="n"/></r></p></e>
 <e>       <p><l>acrocefalia<s n="n"/></l>         <r>acrocefàlia<s n="n"/></r></p></e>
 <e>       <p><l>acróstico<s n="n"/></l>           <r>acròstic<s n="n"/></r></p></e>
@@ -34861,7 +34860,7 @@
 <e>       <p><l>coraza<s n="n"/></l>              <r>cuirassa<s n="n"/></r></p></e>
 <e>       <p><l>corchete<s n="n"/></l>            <r>claudàtor<s n="n"/></r></p></e>
 <e>       <p><l>corcho<s n="n"/></l>              <r>suro<s n="n"/></r></p></e>
-<e>       <p><l>cordel<s n="n"/></l>              <r>cordell<s n="n"/></r></p></e>
+<e r="RL">       <p><l>cordel<s n="n"/></l>              <r>cordell<s n="n"/></r></p></e>
 <e>       <p><l>corintio<s n="n"/></l>            <r>corinti<s n="n"/></r></p></e>
 <e>       <p><l>cornucopia<s n="n"/></l>          <r>cornucòpia<s n="n"/></r></p></e>
 <e>       <p><l>corpulencia<s n="n"/></l>         <r>corpulència<s n="n"/></r></p></e>
@@ -35148,7 +35147,7 @@
 <e>       <p><l>embeleso<s n="n"/></l>            <r>embadaliment<s n="n"/></r></p></e>
 <e>       <p><l>embestida<s n="n"/></l>           <r>envestida<s n="n"/></r></p></e>
 <e>       <p><l>émbolo<s n="n"/></l>              <r>èmbol<s n="n"/></r></p></e>
-<e>       <p><l>embrague<s n="n"/></l>            <r>embragament<s n="n"/></r></p></e>
+<e r="RL" >       <p><l>embrague<s n="n"/></l>            <r>embragament<s n="n"/></r></p></e>
 <e>       <p><l>embrollo<s n="n"/></l>            <r>garbull<s n="n"/></r></p></e>
 <e>       <p><l>embrujo<s n="n"/></l>             <r>embruixament<s n="n"/></r></p></e>
 <e>       <p><l>embrutecimiento<s n="n"/></l>     <r>embrutiment<s n="n"/></r></p></e>
@@ -35997,7 +35996,7 @@
 <e>       <p><l>paleta<g><b/>de<b/>colores</g><s n="n"/></l><r>paleta<g><b/>de<b/>colors</g><s n="n"/></r></p></e>
 <e>       <p><l>paleta<g><b/>de<b/>pintor</g><s n="n"/></l><r>paleta<g><b/>de<b/>pintor</g><s n="n"/></r></p></e>
 <e>       <p><l>palidez<s n="n"/></l>             <r>pal·lidesa<s n="n"/></r></p></e>
-<e>       <p><l>palmada<s n="n"/></l>             <r>palmellada<s n="n"/></r></p></e>
+<e r="RL">       <p><l>palmada<s n="n"/></l>             <r>palmellada<s n="n"/></r></p></e>
 <e>       <p><l>palmeral<s n="n"/></l>            <r>palmerar<s n="n"/></r></p></e>
 <e r="RL">       <p><l>palomar<s n="n"/></l>             <r>colomer<s n="n"/></r></p></e>
 <e>       <p><l>palpitación<s n="n"/></l>         <r>palpitació<s n="n"/></r></p></e>
@@ -40933,7 +40932,7 @@
 <e>       <p><l>Casas<b/>Bajas<s n="np"/></l>     <r>Cases<b/>Baixes<s n="np"/></r></p></e>
 <e>       <p><l>Castillo<b/>de<b/>Vilamalefa<s n="np"/><s n="loc"/></l><r>Castell<b/>de<b/>Vilamalefa<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Catellbisbal<s n="np"/></l>       <r>Castellbisbal<s n="np"/></r></p></e>
-<e>       <p><l>Cenicienta<s n="np"/></l>         <r>Cendrellosa<s n="np"/></r></p></e>
+<e r="RL">       <p><l>Cenicienta<s n="np"/></l>         <r>Cendrellosa<s n="np"/></r></p></e>
 <e>       <p><l>centroamérica<s n="np"/></l>      <r>centreamèrica<s n="np"/></r></p></e>
 <e>       <p><l>Cerbero<s n="np"/></l>            <r>Cèrber<s n="np"/></r></p></e>
 <e>       <p><l>Cervera<b/>del<b/>Maestre<s n="np"/></l><r>Cervera<b/>del<b/>Maestrat<s n="np"/></r></p></e>
@@ -41024,7 +41023,6 @@
 <e>       <p><l>Germán<b/>Bernácer<s n="np"/></l> <r>Germà<b/>Bernàcer<s n="np"/></r></p></e>
 <e>       <p><l>Gestalgar<s n="np"/></l>          <r>Xestalgar<s n="np"/></r></p></e>
 <e>       <p><l>Giza<s n="np"/><s n="loc"/></l>   <r>Gizeh<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Gorvatxov<s n="np"/></l>          <r>Gorvatxov<s n="np"/></r></p></e>
 <e>       <p><l>Granadinas<s n="np"/><s n="loc"/></l><r>Grenadines<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Granja<b/>de<b/>Rocamora<s n="np"/></l><r>la<b/>Granja<b/>de<b/>Rocamora<s n="np"/></r></p></e>
 <e>       <p><l>Guadalest<s n="np"/></l>          <r>el<b/>Castell<b/>de<b/>Guadalest<s n="np"/></r></p></e>
@@ -41153,8 +41151,8 @@
 <e>       <p><l>Navajas<s n="np"/></l>            <r>Navaixes<s n="np"/></r></p></e>
 <e>       <p><l>Nguane<s n="np"/><s n="loc"/></l> <r>Ngwane<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Niágara<s n="np"/><s n="loc"/></l><r>Niàgara<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Noreste<s n="np"/></l>            <r>Nord-est<s n="np"/></r></p></e>
-<e>       <p><l>Noroeste<s n="np"/></l>           <r>Nord-oest<s n="np"/></r></p></e>
+<e>       <p><l>Noreste<s n="np"/><s n="loc"/></l>            <r>Nord-est<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Noroeste<s n="np"/><s n="loc"/></l>           <r>Nord-oest<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Norteamérica<s n="np"/><s n="loc"/></l><r>Amèrica<b/>del<b/>Nord<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Novelé<s n="np"/></l>             <r>Novetlè<s n="np"/></r></p></e>
 <e>       <p><l>Nueva<b/>Delhi<s n="np"/><s n="loc"/></l><r>Nova<b/>Delhi<s n="np"/><s n="loc"/></r></p></e>
@@ -42055,6 +42053,739 @@
 
 <e a="prompsit2ua" r="LR"><p><l>fruto<b/>seco<s n="n"/><s n="m"/><s n="sg"/></l><r>fruita<b/>seca<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="prompsit2ua"><p><l>fruto<b/>seco<s n="n"/><s n="m"/><s n="pl"/></l><r>fruita<b/>seca<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
+<e a="eleka">   <p><l>endocrino<s n="adj"/></l>            <r>endocrí<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>pluricelular<s n="adj"/></l>            <r>pluricel·lular<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>excretor<s n="adj"/></l>            <r>excretor<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>plasmático<s n="adj"/></l>            <r>plasmàtic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>encefálico<s n="adj"/></l>            <r>encefàlic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>tricúspide<s n="adj"/></l>            <r>tricúspide<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>mitral<s n="adj"/></l>            <r>mitral<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>mitocondria<s n="n"/></l>            <r>mitòcondria<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>mol<s n="n"/></l>            <r>mol<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>ion<s n="n"/></l>            <r>ió<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Edebé<s n="np"/></l>            <r>Edebé<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>másico<s n="adj"/></l>            <r>màssic<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>cinc<s n="n"/></l>            <r>zinc<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>clorato<s n="n"/></l>            <r>clorat<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>ohm<s n="n"/></l>            <r>ohm<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>molaridad<s n="n"/></l>            <r>molaritat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>limadura<s n="n"/></l>            <r>llimadura<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>orbital<s n="adj"/></l>            <r>orbital<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>etílico<s n="adj"/></l>            <r>etílic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>electrización<s n="n"/></l>            <r>electrització<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fotocopiable<s n="adj"/></l>            <r>fotocopiable<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>inanimado<s n="adj"/></l>            <r>inanimat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>trigonométrico<s n="adj"/></l>            <r>trigonomètric<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>inecuación<s n="n"/></l>            <r>inequació<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Pearson<s n="np"/></l>            <r>Pearson<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>discontinuidad<s n="n"/></l>            <r>discontinuïtat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>semiplano<s n="n"/></l>            <r>semiplà<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Pitágoras<s n="np"/></l>            <r>Pitàgores<s n="np"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>secante<s n="adj"/></l>            <r>secant<s n="adj"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>radián<s n="n"/></l>            <r>radian<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>radián<s n="n"/></l>            <r>radiant<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>inyectividad<s n="n"/></l>            <r>injectivitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Gauss<s n="np"/></l>            <r>Gauss<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>antiimagen<s n="n"/></l>            <r>antiimatge<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>interpolador<s n="adj"/></l>            <r>interpolador<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>incomplejo<s n="adj"/></l>            <r>incomplex<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>cajita<s n="n"/></l>            <r>capseta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>binómico<s n="adj"/></l>            <r>binòmic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Laplace<s n="np"/></l>            <r>Laplace<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>acotamiento<s n="n"/></l> <r>acotament<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>acotación<s n="n"/></l> <r>acotació<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>leasing<s n="n"/></l> <r>lísing<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>irreducible<s n="adj"/></l>            <r>irreductible<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>equiprobable<s n="adj"/></l>            <r>equiprobable<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>rozamiento<s n="n"/></l> <r>fregament<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>electronegativo<s n="adj"/></l>            <r>electronegatiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>molalidad<s n="n"/></l> <r>molalitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>termoquímico<s n="adj"/></l>            <r>termoquímic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Newton<s n="np"/></l>            <r>Newton<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>conservativo<s n="adj"/></l>            <r>conservatiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>catódico<s n="adj"/></l>            <r>catòdic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>sustituyente<s n="n"/></l> <r>substituent<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>resistividad<s n="n"/></l> <r>resistivitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>molal<s n="adj"/></l>            <r>molal<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>limitante<s n="adj"/></l>            <r>limitant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>entreguerras<s n="adj"/></l>            <r>entreguerres<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>de<b/>entreguerras<s n="adj"/></l>            <r>d'entreguerres<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Prusia<s n="np"/></l>            <r>Prússia<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>absolutista<s n="adj"/></l>            <r>absolutista<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>carlista<s n="adj"/></l>            <r>carlista<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>sufragismo<s n="n"/></l> <r>sufragisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Jruschov<s n="np"/></l>            <r>Khrusxov<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Copérnico<s n="np"/></l>            <r>Copèrnic<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>oxoácido<s n="n"/></l> <r>oxoàcid<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>geocéntrico<s n="adj"/></l>            <r>geocèntric<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>trófico<s n="adj"/></l>            <r>tròfic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>estratigráfico<s n="adj"/></l>            <r>estratigràfic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>sapiens<s n="adj"/></l>            <r>sapiens<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>homo<b/>sapiens<s n="adj"/></l>            <r>homo<b/>sapiens<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>citocinesis<s n="n"/><s n="f"/><s n="sp"/></l> <r>citocinesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>citocinesis<s n="n"/><s n="f"/><s n="sp"/></l> <r>citocinesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>citocinesis<s n="n"/><s n="f"/><s n="sp"/></l> <r>citocinesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>centríolo<s n="n"/></l> <r>centríol<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>biomolécula<s n="n"/></l> <r>biomolècula<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>magmático<s n="adj"/></l>            <r>magmàtic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>extracelular<s n="adj"/></l>            <r>extracel·lular<s n="adj"/></r></p></e>
+
+
+<e r="LR" a="eleka">   <p><l>sinapsis<s n="n"/><s n="f"/><s n="sp"/></l> <r>sinapsi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+
+<e r="RL" a="eleka">   <p><l>sinapsis<s n="n"/><s n="f"/><s n="sp"/></l> <r>sinapsi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
+<e r="RL" a="eleka">   <p><l>sinapsis<s n="n"/><s n="f"/><s n="sp"/></l> <r>sinapsi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+
+<e a="eleka">   <p><l>lipídico<s n="adj"/></l>            <r>lipídic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>oxidativo<s n="adj"/></l>            <r>oxidatiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>hercínico<s n="adj"/></l>            <r>hercínic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>glucógeno<s n="n"/></l> <r>glucògen<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>escorrentía<s n="n"/></l> <r>escorrentia<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>epidermis<s n="n"/></l> <r>epidermis<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>auxina<s n="n"/></l> <r>auxina<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>glucemia<s n="n"/></l> <r>glucèmia<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>mester<s n="n"/></l> <r>mester<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>asonante<s n="adj"/></l>            <r>assonant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>subgénero<s n="n"/></l> <r>subgènere<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>juglar<s n="adj"/></l>            <r>joglar<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>clerecía<s n="n"/></l> <r>clerecía<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>predicativo<s n="adj"/></l>            <r>predicatiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>complemento<b/>predicativo<s n="n"/></l>            <r>complement<b/>predicatiu<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>juglaría<s n="n"/></l> <r>joglaria<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>comendador<s n="n"/></l> <r>comendador<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>ágora<s n="n"/></l> <r>àgora<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>Carlomagno<s n="np"/></l> <r>Carlemany<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>pastoril<s n="adj"/></l>            <r>pastoril<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>hermosura<s n="n"/></l> <r>bellesa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bolchevique<s n="n"/></l> <r>bolxevic<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bolchevique<s n="adj"/></l> <r>bolxevic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>perestroika<s n="n"/></l> <r>perestroika<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>sóviet<s n="n"/></l> <r>soviet<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>descolonizador<s n="adj"/></l> <r>descolonitzador<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Sócrates<s n="np"/></l> <r>Sòcrates<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>tecnociencia<s n="n"/></l> <r>tecnociència<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>hominización<s n="n"/></l> <r>hominització<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>sublunar<s n="adj"/></l> <r>sublunar<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>intersubjetividad<s n="n"/></l> <r>intersubjectivitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>dentado<s n="adj"/></l> <r>dentat<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>volframio<s n="n"/></l> <r>wolframi<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>wolframio<s n="n"/></l> <r>wolframi<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>laminación<s n="n"/></l> <r>laminació<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>filete<s n="n"/></l> <r>filet<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cojinete<s n="n"/></l> <r>coixinet<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>leva<s n="n"/></l> <r>lleva<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>afino<s n="n"/></l> <r>afinament<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>embrague<s n="n"/></l> <r>embragatge<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>arrabio<s n="n"/></l> <r>arrabio<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>hulla<s n="n"/></l> <r>hulla<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>biela<s n="n"/></l> <r>biela<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>portaherramientas<s n="n"/></l> <r>portaeines<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>oxiacetilénico<s n="adj"/></l> <r>oxiacetilènic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>chaveta<s n="n"/></l> <r>xaveta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>coque<s n="n"/></l> <r>coc<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>aleante<s n="adj"/></l> <r>aliant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>trefilado<s n="n"/></l> <r>trefilatge<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>torsor<s n="n"/></l> <r>torsor<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>mareomotriz<s n="adj"/></l> <r>mareomotriu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>fresado<s n="n"/></l> <r>fresat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>rodadura<s n="n"/></l> <r>rodadura<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>roblonado<s n="n"/></l> <r>reblat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cuba<s n="n"/></l> <r>cuba<s n="n"/></r></p></e>
+
+<e a="eleka">   <p><l>piñón<b/>cremallera<s n="n"/></l>            <r>pinyó<b/>cremallera<s n="n"/></r></p></e>
+
+<e a="eleka">   <p><l>piñón-cremallera<s n="n"/></l>            <r>pinyó-cremallera<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>capacitivo<s n="adj"/></l> <r>capacitiu<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>mena<s n="n"/></l>            <r>mena<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>laminador<s n="n"/></l>            <r>laminador<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>laminador<s n="adj"/></l> <r>laminador<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>desbaste<s n="n"/></l>            <r>desbastament<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>antirretorno<s n="adj"/></l> <r>antiretorn<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>anódico<s n="adj"/></l> <r>anòdic<s n="adj"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>aleado<s n="adj"/><s n="GD"/></l> <r>aliat<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>aleado<s n="adj"/><s n="m"/></l> <r>aliat<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>aleado<s n="adj"/><s n="f"/></l> <r>aliat<s n="adj"/><s n="mf"/></r></p></e>
+<e a="eleka">   <p><l>clínquer<s n="n"/></l>            <r>clínker<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>clinker<s n="n"/></l>            <r>clínker<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cizallado<s n="n"/></l>            <r>cisallat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>plastilina<s n="n"/></l>            <r>plastilina<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>belén<s n="n"/></l>            <r>pessebre<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>ratita<s n="n"/></l>            <r>rateta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>óculo-manual<s n="n"/></l>            <r>ócul-manual<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>patito<s n="n"/></l>            <r>aneguet<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>patito<b/>feo<s n="n"/></l>            <r>aneguet<b/>lleig<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>charol<s n="n"/></l>            <r>xarol<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>secuenciado<s n="adj"/></l>            <r>seqüenciat<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>colage<s n="n"/></l>            <r>collage<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>collage<s n="n"/></l>            <r>collage<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>caracolito<s n="n"/></l>            <r>cargolet<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>pandero<s n="n"/></l>            <r>pandero<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>sortija<s n="n"/><s n="f"/></l>            <r>anell<s n="n"/><s n="m"/></r></p></e>
+<e a="eleka">   <p><l>osito<s n="n"/></l>            <r>osset<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>macedonia<s n="n"/></l>            <r>macedònia<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>casita<s n="n"/></l>            <r>caseta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Cenicienta<s n="np"/></l>            <r>Ventafocs<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>cabrita<s n="n"/></l>            <r>cabreta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>palmada<s n="n"/></l>            <r>palmada<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>gallinita<s n="n"/></l>            <r>gallineta<s n="n"/></r></p></e>
+
+<e r="RL" a="eleka">   <p><l>sastrecillo<s n="n"/><s n="GD"/></l>            <r>sastret<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>sastrecillo<s n="n"/><s n="f"/></l>            <r>sastret<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>sastrecillo<s n="n"/><s n="m"/></l>            <r>sastret<s n="n"/><s n="m"/></r></p></e>
+
+<e a="eleka">   <p><l>cordel<s n="n"/></l>            <r>cordill<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>autocorrección<s n="n"/></l>            <r>autocorreció<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>omnívoro<s n="adj"/></l>            <r>omnívor<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>homotecia<s n="n"/></l>            <r>homotècia<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bisector<s n="adj"/></l>            <r>bisector<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>croquizado<s n="adj"/></l>            <r>croquitzat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>señalador<s n="n"/></l>            <r>assenyalador<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>semirrecta<s n="n"/></l>            <r>semirecta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>trirrectángulo<s n="n"/></l>            <r>trirectangle<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>proyectante<s n="adj"/></l>            <r>proyectant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Gorbachov<s n="np"/></l>            <r>Gorbatxov<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>axón<s n="n"/></l>            <r>axó<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>superconductividad<s n="n"/></l>            <r>superconductivitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>subintervalo<s n="n"/></l>            <r>subinterval<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>grafo<s n="n"/></l>            <r>graf<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>equipolente<s n="adj"/></l>            <r>equipolent<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>coplanario<s n="adj"/></l>            <r>coplanari<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>electrolito<s n="n"/></l>            <r>electròlit<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>voltaico<s n="adj"/></l>            <r>voltaic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>semirreacción<s n="n"/></l>            <r>semireacció<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>apantallamiento<s n="n"/></l>            <r>apantallament<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>enlazante<s n="adj"/></l>            <r>enllaçant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>oxigenado<s n="adj"/></l>            <r>oxigenat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>agua<b/>oxigenada<s n="n"/></l>            <r>aigua<b/>oxigenada<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>inercial<s n="adj"/></l>            <r>inercial<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>ciclotrón<s n="n"/></l>            <r>ciclotró<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>recuperador<s n="adj"/></l>            <r>recuperador<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>semidesintegración<s n="n"/></l>            <r>semidesintegració<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>vibratorio<s n="adj"/></l>            <r>vibratori<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>cubeta<s n="n"/></l>            <r>cubeta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>refractado<s n="adj"/></l>            <r>refractat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>desapareado<s n="adj"/></l>            <r>desaparellat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>dipolar<s n="adj"/></l>            <r>dipolar<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>piruvato<s n="n"/></l>            <r>piruvat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>citosol<s n="n"/></l>            <r>citosol<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>triacilglicerol<s n="n"/></l>            <r>triacilglicerol<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>hidroxilo<s n="n"/></l>            <r>hidroxil<s n="n"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>hidroxilo<s n="n"/></l>            <r>hidròxil<s n="n"/></r></p></e>
+
+<e r="LR" a="eleka">   <p><l>glucólisis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>glucòlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>glucólisis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>glucòlisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>glucólisis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>glucòlisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+<e a="eleka">   <p><l>palmítico<s n="adj"/></l>            <r>palmític<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>subunidad<s n="n"/></l>            <r>subunitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>linfoide<s n="adj"/></l>            <r>limfoide<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>fosfórico<s n="adj"/></l>            <r>fosfòric<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>deshidrogenasa<s n="n"/></l>            <r>deshidrogenasa<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>plásmido<s n="n"/></l>            <r>plasmidi<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>lisosoma<s n="n"/></l>            <r>lisosoma<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>apoptosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>apoptosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>apoptosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>apoptosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>apoptosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>apoptosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>hospedador<s n="n"/></l>            <r>hoste<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cromatina<s n="n"/></l>            <r>cromatina<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>carboxilo<s n="n"/></l>            <r>carboxil<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>gluconeogénesis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>gluconeogènesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>gluconeogénesis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>gluconeogènesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>gluconeogénesis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>gluconeogènesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="eleka">   <p><l>catabólico<s n="adj"/></l>            <r>catabòlic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>anabólico<s n="adj"/></l>            <r>anabòlic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>anabólico<s n="n"/></l>            <r>anabòlic<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>amino<s n="n"/></l>            <r>amino<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fotosistema<s n="n"/></l>            <r>fotosistema<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>centrómero<s n="n"/></l>            <r>centròmer<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>codón<s n="n"/></l>            <r>codó<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>sintasa<s n="n"/></l>            <r>sintasa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>ribonucleótido<s n="n"/></l>            <r>ribonucleòtid<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>instaurado<s n="adj"/></l>            <r>instaurat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>insaturado<s n="adj"/></l>            <r>insaturat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>cruzamiento<s n="n"/></l>            <r>creuament<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>carboxilasa<s n="n"/></l>            <r>carboxilasa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bicapa<s n="n"/></l>            <r>bicapa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>prión<s n="n"/></l>            <r>prió<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>portaobjetos<s n="n"/></l>            <r>portaobjectes<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>operón<s n="n"/></l>            <r>operó<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fotorrespiración<s n="n"/></l>            <r>fotorespiració<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>uracilo<s n="n"/></l>            <r>uracil<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>timina<s n="n"/></l>            <r>timina<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>tiamina<s n="n"/></l>            <r>tiamina<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>glucoproteína<s n="n"/></l>            <r>glucoproteïna<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>tilacoidal<s n="adj"/></l>            <r>tilacoidal<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>glucolípido<s n="n"/></l>            <r>glucolípid<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fosfodiéster<s n="n"/></l>            <r>fosfodièster<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>anafase<s n="n"/></l>            <r>anafase<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>retardado<s n="adj"/></l>            <r>retardat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>neutrófilo<s n="n"/></l>            <r>neutròfil<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>inespecífico<s n="adj"/></l>            <r>inespecífic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>fructosa<s n="n"/></l>            <r>fructosa<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>exocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>exocitosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>exocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>exocitosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>exocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>exocitosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+<e a="eleka">   <p><l>desoxirribonucleótido<s n="n"/></l>            <r>desoxirribonucleòtid<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>desoxirribonucleico<s n="adj"/></l>            <r>desoxiribonucleic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>anabolismo<s n="n"/></l>            <r>anabolisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>turgencia<s n="n"/></l>            <r>turgència<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>treonina<s n="n"/></l>            <r>treonina<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>polipeptídico<s n="adj"/></l>            <r>polipeptídic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>malato<s n="n"/></l>            <r>malat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>intermembrana<s n="n"/></l>            <r>intermembrana<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cofactor<s n="n"/></l>            <r>cofactor<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>coencima<s n="n"/><s n="f"/></l>            <r>coenzim<s n="n"/><s n="m"/></r></p></e>
+<e a="eleka">   <p><l>coenzima<s n="n"/><s n="f"/></l>            <r>coenzim<s n="n"/><s n="m"/></r></p></e>
+<e a="eleka">   <p><l>citocromo<s n="n"/></l>            <r>citocrom<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>citocina<s n="n"/></l>            <r>citocina<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>catalizado<s n="adj"/></l>            <r>catalitzat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>orlado<s n="adj"/></l>            <r>orlat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>adjetivo<s n="adj"/></l>            <r>adjectiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>subordinante<s n="adj"/></l>            <r>subordinant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>subordinante<s n="n"/></l>            <r>subordinant<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>interrogativo<s n="adj"/></l>            <r>interrogatiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>metafase<s n="n"/></l>            <r>metafase<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>profase<s n="n"/></l>            <r>profase<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>nucléolo<s n="n"/></l>            <r>nuclèol<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>telofase<s n="n"/></l>            <r>telofase<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>geosfera<s n="n"/></l>            <r>geosfera<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>anticiclón<s n="n"/></l>            <r>anticicló<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>autodepuración<s n="n"/></l>            <r>autodepuració<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>purín<s n="n"/></l>            <r>purí<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>descomponedor<s n="adj"/></l>            <r>descomponedor<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>insolación<s n="n"/></l>            <r>insolació<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>humus<s n="n"/></l>            <r>humus<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>alisio<s n="adj"/></l>            <r>alisi<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>polis<s n="n"/></l>            <r>polis<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>viento<b/>alisio<s n="n"/></l>            <r>vent<b/>alisi<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Epicuro<s n="np"/></l>            <r>Epicuro<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Séneca<s n="np"/></l>            <r>Sèneca<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Ptolomeo<s n="np"/></l>            <r>Ptolomeu<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>pensante<s n="adj"/></l>            <r>pensant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Heráclito<s n="np"/></l>            <r>Heràclit<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Parménides<s n="np"/></l>            <r>Parmènides<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Maquiavelo<s n="np"/></l>            <r>Maquiavel<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>heliocentrismo<s n="n"/></l>            <r>heliocentrisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Diógenes<s n="np"/></l>            <r>Diògenes<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Lutero<s n="np"/></l>            <r>Luter<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Aristarco<s n="np"/></l>            <r>Aristarc<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Plotino<s n="np"/></l>            <r>Plotí<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>neopositivista<s n="adj"/></l>            <r>neopositivista<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>macedonio<s n="adj"/></l>            <r>macedoni<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>macedonio<s n="n"/></l>            <r>macedoni<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>mónada<s n="n"/></l>            <r>mònada<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>pinzón<s n="n"/></l>            <r>pinsà<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Mileto<s n="np"/></l>            <r>Milet<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Zenón<s n="np"/></l>            <r>Zenó<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Protágoras<s n="np"/></l>            <r>Protàgores<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>hegeliano<s n="adj"/></l>            <r>hegelià<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>frankfurtiano<s n="adj"/></l>            <r>frankfurtià<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>falsacionismo<s n="n"/></l>            <r>falsacionisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>falsabilidad<s n="n"/></l>            <r>falsabilitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>falsación<s n="n"/></l>            <r>falsació<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Erasmo<s n="np"/></l>            <r>Erasme<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>epicúreo<s n="adj"/></l>            <r>epicuri<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Demócrito<s n="np"/></l>            <r>Demòcrit<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Aristipo<s n="np"/></l>            <r>Aristip<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Arístipo<s n="np"/></l>            <r>Arístip<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Antístenes<s n="np"/></l>            <r>Antístenes<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>neoplatonismo<s n="n"/></l>            <r>neoplatonisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Filipo<s n="np"/></l>            <r>Filip<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Epicteto<s n="np"/></l>            <r>Epictet<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Zaratustra<s n="np"/></l>            <r>Zaratustra<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Seleuco<s n="np"/></l>            <r>Seleuc<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Lucrecio<s n="np"/></l>            <r>Lucreci<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Eratóstenes<s n="np"/></l>            <r>Eratòstenes<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Antígono<s n="np"/></l>            <r>Antígon<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>califato<s n="n"/></l>            <r>califat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>censatario<s n="adj"/></l>            <r>censatari<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>censitario<s n="adj"/></l>            <r>censatari<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>blues<s n="n"/></l>            <r>blues<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>solvatación<s n="n"/></l>            <r>solvatació<s n="n"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>espín<s n="n"/></l>            <r>espí<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>ión-electrón<s n="n"/></l>            <r>ió-electró<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Hispania<s n="np"/></l>            <r>Hispània<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Falange<s n="np"/></l>            <r>Falange<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>tecnócrata<s n="n"/></l>            <r>tecnòcrata<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>tecnócrata<s n="adj"/></l>            <r>tecnòcrata<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>amniótico<s n="adj"/></l>            <r>amniòtic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>subproblema<s n="n"/></l>            <r>subproblema<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>goniométrico<s n="adj"/></l>            <r>goniomètric<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>alcano<s n="n"/></l>            <r>alcà<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Ohm<s n="np"/></l>            <r>Ohm<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>ley<g><b/>de<b/>Ohm</g><s n="n"/></l>            <r>llei<g><b/>d'Ohm</g><s n="n"/></r></p></e>
+<e a="eleka">   <p><l>kelvin<s n="n"/></l>            <r>kelvin<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>urea<s n="n"/></l>            <r>urea<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>neurosecretor<s n="adj"/></l>            <r>neurosecretor<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>clorofílico<s n="adj"/></l>            <r>clorofíl·lic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>cantiga<s n="n"/></l>            <r>cantiga<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>tecnoética<s n="n"/></l>            <r>tecnoètica<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>supralunar<s n="adj"/></l>            <r>supralunar<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>roscado<s n="n"/></l>            <r>roscat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>desoxidante<s n="adj"/></l>            <r>desoxidant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>trocito<s n="n"/></l>            <r>trosset<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>ricito<s n="n"/></l>            <r>rinxolet<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>marmota<s n="n"/></l>            <r>marmota<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>primaveral<s n="adj"/></l>            <r>primaveral<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Vitruvio<s n="np"/></l>            <r>Vitruvi<s n="np"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>Vitrubio<s n="np"/></l>            <r>Vitruvi<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>erosivo<s n="adj"/></l>            <r>erosiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>derivabilidad<s n="n"/></l>            <r>derivabilitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>poliatómico<s n="adj"/></l>            <r>poliatòmic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>oxidado<s n="adj"/></l>            <r>oxidat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>oxidar<s n="vblex"/></l>            <r>oxidar<s n="vblex"/></r></p></e>
+<e a="eleka">   <p><l>mecanocuántico<s n="adj"/></l>            <r>mecano-quàntic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Austrias<s n="np"/></l>            <r>Àustrias<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Casa<b/>de<b/>Austria<s n="np"/></l>            <r>Casa<b/>d'Àustria<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>ligasa<s n="n"/></l>            <r>ligasa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>lactasa<s n="n"/></l>            <r>lactasa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>hipersensibilidad<s n="n"/></l>            <r>hipersensibilitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>glicerofosfolípido<s n="n"/></l>            <r>glicerofosfolípid<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>deshidratasa<s n="n"/></l>            <r>deshidratasa<s n="n"/></r></p></e>
+
+<e r="RL" a="eleka">   <p><l>alérgeno<s n="n"/></l>            <r>al·lergen<s n="n"/></r></p></e>
+
+<e a="eleka">   <p><l>alérgeno<s n="n"/></l>            <r>al·lergogen<s n="n"/></r></p></e>
+
+<e r="RL" a="eleka">   <p><l>alérgeno<s n="adj"/></l>            <r>al·lergen<s n="adj"/></r></p></e>
+
+<e a="eleka">   <p><l>alérgeno<s n="adj"/></l>            <r>al·lergogen<s n="adj"/></r></p></e>
+
+<e r="LR" a="eleka">   <p><l>Guernica<s n="np"/></l>            <r>Guernica<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Gernika<s n="np"/></l>            <r>Guernica<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Lumo<s n="np"/></l>            <r>Lumo<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>árbol<g><b/>de<b/>Gernika</g><s n="n"/></l>            <r>arbre<g><b/>de<b/>Guernica</g><s n="n"/></r></p></e>
+
+<e r="LR" a="eleka">   <p><l>árbol<g><b/>de<b/>Guernica</g><s n="n"/></l>            <r>arbre<g><b/>de<b/>Guernica</g><s n="n"/></r></p></e>
+
+<e a="eleka">   <p><l>bombardeo<g><b/>de<b/>Gernika</g><s n="n"/></l>            <r>bombardeig<g><b/>de<b/>Guernica</g><s n="n"/></r></p></e>
+
+<e r="LR" a="eleka">   <p><l>bombardeo<g><b/>de<b/>Guernica</g><s n="n"/></l>            <r>bombardeig<g><b/>de<b/>Guernica</g><s n="n"/></r></p></e>
+<e a="eleka">   <p><l>turnismo<s n="n"/></l>            <r>turnisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>transmembranoso<s n="adj"/></l>            <r>transmembranós<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>transcriptasa<s n="n"/></l>            <r>transcriptasa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>retrovirus<s n="n"/></l>            <r>retrovirus<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>endocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>endocitosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>endocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>endocitosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>endocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>endocitosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="eleka">   <p><l>mena<s n="n"/></l>            <r>mena<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>manglar<s n="n"/></l>            <r>manglar<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>tomista<s n="adj"/></l>            <r>tomista<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>raciovitalismo<s n="n"/></l>            <r>raciovitalisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>psicoanalítico<s n="adj"/></l>            <r>psicoanalític<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>patrística<s n="n"/></l>            <r>patrística<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>patrístico<s n="adj"/></l>            <r>patrístic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>dianoético<s n="adj"/></l>            <r>dianoètic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>copernicano<s n="adj"/></l>            <r>copernicà<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>nacionalcatolicismo<s n="n"/></l>            <r>nacionalcatolicisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>magnetofónico<s n="adj"/></l>            <r>magnetofònic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Orfeo<s n="np"/></l>            <r>Orfeu<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>preimpresión<s n="n"/></l>            <r>preimpressió<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Euclides<s n="np"/></l>            <r>Euclides<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>bolita<s n="n"/></l>            <r>boleta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>heliocéntrico<s n="adj"/></l>            <r>heliocèntric<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>gamma<s n="n"/></l>            <r>gamma<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>entente<s n="n"/></l>            <r>entesa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>adiposo<s n="adj"/></l>            <r>adipós<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>semicircular<s n="adj"/></l>            <r>semicircular<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>litosférico<s n="adj"/></l>            <r>litosfèric<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>discriminante<s n="adj"/></l>            <r>discriminant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>bioelemento<s n="n"/></l>            <r>bioelement<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>trióxido<s n="n"/></l>            <r>triòxid<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>sulfito<s n="n"/></l>            <r>sulfit<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>nitroso<s n="adj"/></l>            <r>nitrós<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>mímica<s n="n"/></l>            <r>mímica<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>mímico<s n="adj"/></l>            <r>mímic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>metilo<s n="n"/></l>            <r>metil<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bicarbonato<s n="n"/></l>            <r>bicarbonat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fijador<s n="n"/></l>            <r>fixador<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fijador<s n="adj"/></l>            <r>fixador<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>bromotimol<s n="n"/></l>            <r>bromotimol<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>anticlericalismo<s n="n"/></l>            <r>anticlericalisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>romancero<s n="n"/></l>            <r>romancer<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>regleta<s n="n"/></l>            <r>regleta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>heterótrofo<s n="adj"/></l>            <r>heteròtrof<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>grafomotricidad<s n="n"/></l>            <r>grafomotricitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cuantizado<s n="adj"/></l>            <r>quantitzat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>conectivo<s n="adj"/></l>            <r>connectiu<s n="adj"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>serrín<s n="n"/><s n="m"/><s n="ND"/></l>            <r>serradures<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>serrín<s n="n"/><s n="m"/><s n="sg"/></l>            <r>serradures<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>serrín<s n="n"/><s n="m"/><s n="pl"/></l>            <r>serradures<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="eleka">   <p><l>repulsivo<s n="adj"/></l>            <r>repulsiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>poliestireno<s n="n"/></l>            <r>poliestirè<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>metileno<s n="n"/></l>            <r>metilè<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cretácico<s n="adj"/></l>            <r>cretàcic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>bicuadrado<s n="adj"/></l>            <r>biquadrat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>tilacoide<s n="n"/></l>            <r>tilacoide<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>tetracloruro<s n="n"/></l>            <r>tetraclorur<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>semicircunferencia<s n="n"/></l>            <r>semicircumferència<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>macarrón<s n="n"/></l>            <r>macarró<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>hidrogenocarbonato<s n="n"/></l>            <r>hidrogenocarbonat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fotosintético<s n="adj"/></l>            <r>fotosintètic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>autótrofo<s n="adj"/></l>            <r>autòtrof<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>peptídico<s n="adj"/></l>            <r>peptídic<s n="adj"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>microcosmo<s n="n"/><s n="m"/><s n="ND"/></l>            <r>microcosmos<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>microcosmo<s n="n"/><s n="m"/><s n="sg"/></l>            <r>microcosmos<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>microcosmo<s n="n"/><s n="m"/><s n="pl"/></l>            <r>microcosmos<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e a="eleka">   <p><l>fijista<s n="adj"/></l>            <r>fixista<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>claxon<s n="n"/></l>            <r>clàxon<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>reemplazamiento<s n="n"/></l>            <r>reemplaçament<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>newtoniano<s n="adj"/></l>            <r>newtonià<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Mesopotamia<s n="np"/></l>            <r>Mesopotàmia<s n="np"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>lavanda<s n="n"/><s n="f"/></l>            <r>espígol<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>huesecillo<s n="n"/><s n="m"/></l>            <r>osset<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>huesecillo<s n="n"/><s n="m"/></l>            <r>osset<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>huesecillo<s n="n"/><s n="m"/></l>            <r>osset<s n="n"/><s n="m"/></r></p></e>
+<e a="eleka">   <p><l>Habsburgo<s n="np"/></l>            <r>Habsburg<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>empaquetamiento<s n="n"/></l>            <r>empaquetament<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bosón<s n="n"/></l>            <r>bosó<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bipedismo<s n="n"/></l>            <r>bipedisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>antipartícula<s n="n"/></l>            <r>antipartícula<s n="n"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>alámbrico<s n="adj"/><s n="GD"/><s n="ND"/></l>            <r>amb<b/>filferro<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>alámbrico<s n="adj"/><s n="m"/><s n="sg"/></l>            <r>amb<b/>filferro<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>alámbrico<s n="adj"/><s n="m"/><s n="pl"/></l>            <r>amb<b/>filferro<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>alámbrico<s n="adj"/><s n="f"/><s n="pl"/></l>            <r>amb<b/>filferro<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>alámbrico<s n="adj"/><s n="f"/><s n="sg"/></l>            <r>amb<b/>filferro<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="eleka">   <p><l>plateado<s n="adj"/></l>            <r>platejat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>plateado<s n="n"/></l>            <r>platejat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Perséfone<s n="np"/></l>            <r>Persèfone<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>péptido<s n="n"/></l>            <r>pèptid<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>palanquilla<s n="n"/></l>            <r>palanqueta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>nefrón<s n="n"/></l>            <r>nefró<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Himalaya<s n="np"/></l>            <r>Himàlaia<s n="np"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>Himalaya<s n="np"/></l>            <r>Himalaia<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>galena<s n="n"/></l>            <r>galena<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>estomacal<s n="adj"/></l>            <r>estomacal<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>espiración<s n="n"/></l>            <r>espiració<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>desnaturalización<s n="n"/></l>            <r>desnaturalització<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cartilaginoso<s n="adj"/></l>            <r>cartilaginós<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>bulbo<s n="n"/></l>            <r>bulb<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>biogás<s n="n"/></l>            <r>biogàs<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>arenisca<s n="n"/></l>            <r>arenisca<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>andrógeno<s n="n"/></l>            <r>andrògen<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>andrógeno<s n="adj"/></l>            <r>andrògen<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>amniótico<s n="adj"/></l>            <r>amniòtic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>purpurina<s n="n"/></l>            <r>purpurina<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>postsináptico<s n="adj"/></l>            <r>postsinàptic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Pérmico<s n="np"/></l>            <r>Permià<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>micra<s n="n"/></l>            <r>micra<s n="n"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>macrocosmo<s n="n"/><s n="m"/><s n="ND"/></l>            <r>macrocosmos<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>macrocosmo<s n="n"/><s n="m"/><s n="sg"/></l>            <r>macrocosmos<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>macrocosmo<s n="n"/><s n="m"/><s n="pl"/></l>            <r>macrocosmos<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e a="eleka">   <p><l>informalismo<s n="n"/></l>            <r>informalisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>indoeuropeo<s n="adj"/></l>            <r>indoeuropeu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>heptasílabo<s n="adj"/></l>            <r>heptasíl·lab<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>heptasílabo<s n="n"/></l>            <r>heptasíl·lab<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>glucagón<s n="n"/></l>            <r>glucagó<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>glicocáliz<s n="n"/></l>            <r>glicocàlix<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>glicocálix<s n="n"/></l>            <r>glicocàlix<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>glucocáliz<s n="n"/></l>            <r>glicocàlix<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>gliceraldehído<s n="n"/></l>            <r>gliceraldehid<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fotoelectrón<s n="n"/></l>            <r>fotoelectró<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fenolftaleína<s n="n"/></l>            <r>fenolftaleïna<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>dadaísmo<s n="n"/></l>            <r>dadaisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cinetocórico<s n="adj"/></l>            <r>cinetocòric<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>bajamar<s n="n"/></l>            <r>baixamar<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>amorfo<s n="adj"/></l>            <r>amorf<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>aforado<s n="adj"/></l>            <r>aforat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>presináptico<s n="adj"/></l>            <r>presinàptic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>novecentismo<s n="n"/></l>            <r>noucentisme<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>noreste<s n="n"/></l>            <r>nord-est<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>mutágeno<s n="n"/></l>            <r>mutagen<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>mutágeno<s n="adj"/></l>            <r>mutagen<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>microfotografía<s n="n"/></l>            <r>microfotografia<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>micosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>micosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>micosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>micosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>micosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>micosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="eleka">   <p><l>mercantilismo<s n="n"/></l>            <r>mercantilisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>maraca<s n="n"/></l>            <r>maraca<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>maquis<s n="n"/><s n="mf"/><s n="sp"/></l>            <r>maqui<s n="n"/><s n="mf"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>maquis<s n="n"/><s n="mf"/><s n="sp"/></l>            <r>maqui<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>maquis<s n="n"/><s n="mf"/><s n="sp"/></l>            <r>maqui<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e a="eleka">   <p><l>manipulativo<s n="adj"/></l>            <r>manipulatiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>ludita<s n="n"/></l>            <r>ludita<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>lactato<s n="n"/></l>            <r>lactat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>intercostal<s n="adj"/></l>            <r>intercostal<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>lactasa<s n="n"/></l>            <r>lactasa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>hipocentro<s n="n"/></l>            <r>hipocentre<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>halogenado<s n="adj"/></l>            <r>halogenat<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>gulo<b/>gulo<s n="n"/></l>            <r>golut<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>ganga<s n="n"/></l>            <r>ganga<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fotoletra<s n="n"/></l>            <r>fotolletra<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>fitohormona<s n="n"/></l>            <r>fitohormona<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>fagocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>fagocitosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>fagocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>fagocitosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>fagocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>fagocitosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="eleka">   <p><l>endosimbiótico<s n="adj"/></l>            <r>endosimbiòtic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>cromato<s n="n"/></l>            <r>cromat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cristalizador<s n="n"/></l>            <r>cristalitzador<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cardán<s n="n"/></l>            <r>cardan<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>arlequín<s n="n"/></l>            <r>arlequí<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>anticlerical<s n="adj"/></l>            <r>anticlerical<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>alanina<s n="n"/></l>            <r>alanina<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>aireación<s n="n"/></l>            <r>ventilació<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>zigzag<s n="n"/><s n="m"/></l>            <r>ziga-zaga<s n="n"/><s n="f"/></r></p></e>
+<e a="eleka">   <p><l>en<b/>zigzag<s n="cnjadv"/></l>            <r>en<b/>ziga-zaga<s n="cnjadv"/></r></p></e>
+<e a="eleka">   <p><l>vulcanizado<s n="adj"/></l>            <r>vulcanitzat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>seudópodo<s n="n"/></l>            <r>pseudòpode<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>seminífero<s n="adj"/></l>            <r>seminífer<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>semidistancia<s n="n"/></l>            <r>semidistància<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>seleniuro<s n="n"/></l>            <r>seleniur<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>ribosómico<s n="adj"/></l>            <r>ribosòmic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>regeneracionista<s n="n"/></l>            <r>regeneracionista<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>prostético<s n="adj"/></l>            <r>prostètic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>poliuretano<s n="n"/></l>            <r>poliuretà<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>perclorato<s n="n"/></l>            <r>perclorat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>omnisciente<s n="adj"/></l>            <r>omniscient<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>glucosídico<s n="adj"/></l>            <r>glucosídic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>glicosídico<s n="adj"/></l>            <r>glicosídic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>neurohormona<s n="n"/></l>            <r>neurohormona<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>neopositivismo<s n="n"/></l>            <r>neopositivismo<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>natilla<s n="n"/></l>            <r>natilla<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>monoatómico<s n="adj"/></l>            <r>monoatòmic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>menguante<s n="adj"/></l>            <r>minvant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>menguante<s n="n"/><s n="mf"/></l>            <r>minvant<s n="n"/><s n="m"/></r></p></e>
+<e a="eleka">   <p><l>mecanicista<s n="n"/></l>            <r>mecanicista<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>maleabilidad<s n="n"/></l>            <r>maleabilitat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>litificación<s n="n"/></l>            <r>litificació<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>leñoso<s n="adj"/></l>            <r>llenyós<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>lamnilla<s n="n"/></l>            <r>lamineta<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>isomerasa<s n="n"/></l>            <r>isomerasa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>isomerasa<s n="adj"/></l>            <r>isomerasa<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>ionizante<s n="adj"/></l>            <r>ionitzant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>historicista<s n="adj"/></l>            <r>historicista<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>galactosa<s n="n"/></l>            <r>galactosa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>estromatolito<s n="n"/></l>            <r>estromatòlit<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>estraperlo<s n="n"/></l>            <r>estraperlo<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>determinativo<s n="adj"/></l>            <r>determinatiu<s n="adj"/></r></p></e>
+
+<e a="eleka">   <p><l>contraelectromotriz<s n="adj"/></l>            <r>contraelectromotriu<s n="adj"/></r></p></e>
+
+<e r="LR" a="eleka">   <p><l>contra-electromotriz<s n="adj"/></l>            <r>contraelectromotriu<s n="adj"/></r></p></e>
+
+<e a="eleka">   <p><l>chorizo<s n="n"/></l>            <r>xoriço<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>autoionización<s n="n"/></l>            <r>autoionització<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>asturleonés<s n="adj"/></l>            <r>asturlleonès<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>anticodón<s n="n"/></l>            <r>anticodó<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>anarcosindicalista<s n="adj"/></l>            <r>anarcosindicalista<s n="adj"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>abuelito<s n="n"/><s n="GD"/></l>            <r>avieta<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>abuelito<s n="n"/><s n="m"/></l>            <r>avieta<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>abuelito<s n="n"/><s n="f"/></l>            <r>avieta<s n="n"/><s n="f"/></r></p></e>
+<e a="eleka">   <p><l>tostación<s n="n"/><s n="f"/></l>            <r>torrat<s n="n"/><s n="m"/></r></p></e>
+<e a="eleka">   <p><l>Tetis<s n="np"/></l>            <r>Tetis<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>supernova<s n="n"/></l>            <r>supernova<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>semiocupado<s n="adj"/></l>            <r>semiocupat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>prusiano<s n="adj"/></l>            <r>prussià<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>perdición<s n="n"/></l>            <r>perdició<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>peptidoglicano<s n="n"/></l>            <r>peptidoglicà<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>peptidoglucano<s n="n"/></l>            <r>peptidoglicà<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>pelaje<s n="n"/></l>            <r>pelatge<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>pelamen<s n="n"/></l>            <r>pelatge<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>paleontológico<s n="adj"/></l>            <r>paleontològic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>nicromo<s n="n"/></l>            <r>nicrom<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>nichromo<s n="n"/></l>            <r>nicrom<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>acetilglucosamina<s n="n"/></l>            <r>acetilglucosamina<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>microvellosidad<s n="n"/><s n="f"/></l>            <r>microvellositat<s n="n"/><s n="m"/></r></p></e>
+<e a="eleka">   <p><l>mesófilo<s n="adj"/></l>            <r>mesòfil<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>mecanicismo<s n="n"/></l>            <r>mecanicisme<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>maremotriz<s n="adj"/></l>            <r>mareomotriu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>librecambista<s n="n"/></l>            <r>lliurecanvista<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>isabelino<s n="adj"/></l>            <r>isabelí<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>iris<s n="n"/></l>            <r>iris<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>ferromagnético<s n="adj"/></l>            <r>ferromagnètic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>exosomático<s n="adj"/></l>            <r>exosomàtic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>estragón<s n="n"/></l>            <r>estragó<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>epoxídico<s n="adj"/></l>            <r>epoxídic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>épico<s n="adj"/></l>            <r>èpic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>endometrial<s n="adj"/></l>            <r>endometrial<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>emotivismo<s n="n"/></l>            <r>emotivisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>ejercitación<s n="n"/></l>            <r>exercització<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>dualista<s n="n"/></l>            <r>dualista<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>dermatitis<s n="n"/></l>            <r>dermatitis<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>degenerativo<s n="adj"/></l>            <r>degeneratiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Cronos<s n="np"/></l>            <r>Cronos<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>criptón<s n="n"/></l>            <r>criptó<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>kriptón<s n="n"/></l>            <r>criptó<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cortisol<s n="n"/></l>            <r>cortisol<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cooperativismo<s n="n"/></l>            <r>cooperativisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>contrarreforma<s n="n"/></l>            <r>contrareforma<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cinetocoro<s n="n"/></l>            <r>cinetocor<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cebador<s n="n"/></l>            <r>cebador<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>carbonilo<s n="n"/></l>            <r>carbonil<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>branquial<s n="adj"/></l>            <r>branquial<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>bancal<s n="n"/></l>            <r>bancal<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bacteriófago<s n="adj"/></l>            <r>bacteriòfag<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>aplanado<s n="adj"/></l>            <r>aplanat<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>anfipático<s n="adj"/></l>            <r>amfipàtic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>adversativo<s n="adj"/></l>            <r>adversatiu<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>vítreo<s n="adj"/></l>            <r>vitri<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>váter<s n="n"/></l>            <r>vàter<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>tricloruro<s n="n"/></l>            <r>triclorur<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>tráquea<s n="n"/></l>            <r>tràquea<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>transmembrana<s n="n"/></l>            <r>transmembrana<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>subtema<s n="n"/></l>            <r>subtema<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>submúltiplo<s n="n"/></l>            <r>submúltiple<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>sinsentido<s n="n"/></l>            <r>contrasentit<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>saponificación<s n="n"/></l>            <r>saponificació<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>resiliencia<s n="n"/></l>            <r>resiliència<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>repolarización<s n="n"/></l>            <r>repolarització<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>quimiorreceptor<s n="n"/></l>            <r>quimioreceptor<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>Petrogrado<s n="np"/></l>            <r>Petrograd<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>pentano<s n="n"/></l>            <r>pentà<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>pelvis<s n="n"/></l>            <r>pelvis<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>oxosal<s n="n"/></l>            <r>oxosal<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>oxoanión<s n="n"/></l>            <r>oxoanió<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>oxalacetato<s n="n"/></l>            <r>oxolacetat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>neopreno<s n="n"/></l>            <r>neoprè<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>necrosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>necrosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>necrosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>necrosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>necrosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>necrosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="eleka">   <p><l>nebular<s n="adj"/></l>            <r>nebular<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Leucipo<s n="np"/></l>            <r>Leucip<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>hispanovisigodo<s n="adj"/></l>            <r>hispanovisigot<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>hipotónico<s n="adj"/></l>            <r>hipotònic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>Hesíodo<s n="np"/></l>            <r>Hesíode<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Gorgias<s n="np"/></l>            <r>Gòrgies<s n="np"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>Georgias<s n="np"/></l>            <r>Gòrgies<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>Gondwana<s n="np"/></l>            <r>Gondwana<s n="np"/></r></p></e>
+<e a="eleka">   <p><l>gomaespuma<s n="n"/></l>            <r>goma-escuma<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>geocentrismo<s n="n"/></l>            <r>geocentrisme<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>gema<s n="n"/></l>            <r>gemma<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>florido<s n="adj"/></l>            <r>florit<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>exonucleasa<s n="n"/></l>            <r>exonucleasa<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>epiciclo<s n="n"/></l>            <r>epicicle<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>dictiosoma<s n="n"/></l>            <r>dictiosoma<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>diatómico<s n="adj"/></l>            <r>diatòmic<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>cortesano<s n="n"/></l>            <r>cortesà<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>coordinante<s n="adj"/></l>            <r>coordinant<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>clembuterol<s n="n"/></l>            <r>clembuterol<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>citrato<s n="n"/></l>            <r>citrat<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cascanueces<s n="n"/></l>            <r>trencanous<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cartismo<s n="n"/></l>            <r>cartisme<s n="n"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>carrito<s n="n"/></l>            <r>carret<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>caolín<s n="n"/></l>            <r>caolí<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>caolinita<s n="n"/></l>            <r>caolinita<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>cantonalismo<s n="n"/></l>            <r>cantonalisme<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>caducifolio<s n="adj"/></l>            <r>caducifoli<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>bebedero<s n="n"/></l>            <r>abeurador<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bebedero<s n="adj"/></l>            <r>abeurador<s n="adj"/></r></p></e>
+<e a="eleka">   <p><l>andino<s n="adj"/></l>            <r>andí<s n="adj"/></r></p></e>
+<e r="LR" a="eleka">   <p><l>andalusí<s n="adj"/><s n="mf"/></l>            <r>andalusí<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>andalusí<s n="adj"/><s n="mf"/></l>            <r>andalusí<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL" a="eleka">   <p><l>andalusí<s n="adj"/><s n="mf"/></l>            <r>andalusí<s n="adj"/><s n="f"/></r></p></e>
+<e a="eleka">   <p><l>agrimensura<s n="n"/></l>            <r>agrimensura<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>bisfosfato<s n="n"/></l>            <r>bisfosfat<s n="n"/></r></p></e>
+<e v="val" a="eleka">       <p><l>afgano<s n="adj"/></l>            <r>afganés<s n="adj"/></r></p></e>
+<e v="val" a="eleka">       <p><l>ajeno<s n="adj"/></l>            <r>alié<s n="adj"/></r></p></e>
+<e v="val" a="eleka">       <p><l>ameno<s n="adj"/></l>            <r>amé<s n="adj"/></r></p></e>
+
+
+
+
 
 </section>
 
