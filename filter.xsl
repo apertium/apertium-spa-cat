@@ -58,11 +58,17 @@
       <xsl:choose>
         <xsl:when test="count(./@r)=0">
           <e>
+            <xsl:if test="@lm">
+              <xsl:attribute name="lm"><xsl:value-of select="@lm" /></xsl:attribute>
+            </xsl:if>
   	    <xsl:apply-templates/>
           </e>
         </xsl:when>
         <xsl:otherwise>
           <e r="{./@r}">
+            <xsl:if test="@lm">
+              <xsl:attribute name="lm"><xsl:value-of select="@lm" /></xsl:attribute>
+            </xsl:if>
   	    <xsl:apply-templates/>
           </e>
         </xsl:otherwise>
@@ -74,12 +80,18 @@
       <xsl:choose>
 	<xsl:when test="$side=string('left')">
 	  <e r="LR">
+            <xsl:if test="@lm">
+              <xsl:attribute name="lm"><xsl:value-of select="@lm" /></xsl:attribute>
+            </xsl:if>
 	    <xsl:apply-templates/>
 	  </e>
 	</xsl:when>
 	<xsl:otherwise>
   	  <xsl:if test="not(./@r=string('LR'))">
             <e r="RL">
+              <xsl:if test="@lm">
+                <xsl:attribute name="lm"><xsl:value-of select="@lm" /></xsl:attribute>
+              </xsl:if>
  	      <xsl:apply-templates/>
 	    </e>
           </xsl:if>
@@ -90,11 +102,17 @@
       <xsl:choose>
 	<xsl:when test="not(count(./@r))=0">
 	  <e r="{./@r}">
+            <xsl:if test="@lm">
+              <xsl:attribute name="lm"><xsl:value-of select="@lm" /></xsl:attribute>
+            </xsl:if>
 	    <xsl:apply-templates/>
 	  </e>
 	</xsl:when>
 	<xsl:otherwise>
 	  <e>
+            <xsl:if test="@lm">
+              <xsl:attribute name="lm"><xsl:value-of select="@lm" /></xsl:attribute>
+            </xsl:if>
 	    <xsl:apply-templates/>
 	  </e>
 	</xsl:otherwise>
