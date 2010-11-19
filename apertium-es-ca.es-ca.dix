@@ -1173,7 +1173,6 @@
 <e r="LR"><p><l>valiente<s n="adj"/><s n="mf"/></l><r>valent<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>valiente<s n="adj"/><s n="mf"/></l><r>valent<s n="adj"/><s n="m"/></r></p></e>
 <e>       <p><l>valioso<s n="adj"/></l>           <r>valuós<s n="adj"/></r></p></e>
-<e>       <p><l>vano<s n="adj"/></l>              <r>va<s n="adj"/></r></p></e>
 <e>       <p><l>vario<s n="adj"/></l>             <r>vari<s n="adj"/></r></p></e>
 <e>       <p><l>vasco<s n="adj"/></l>             <r>basc<s n="adj"/></r></p></e>
 <e>       <p><l>vasto<s n="adj"/></l>             <r>vast<s n="adj"/></r></p></e>
@@ -3411,8 +3410,9 @@
 <e>       <p><l>movimiento<s n="n"/></l>          <r>moviment<s n="n"/></r></p></e>
 <e>       <p><l>Mosso<s n="np"/></l>              <r>Mosso<s n="np"/></r></p></e>
 <e c="A veure si el tagger escull np abans que n"><p><l>Mossos<s n="np"/></l><r>Mossos<s n="np"/></r></p></e>
-<e>       <p><l>mosso<g><b/>d'esquadra</g><s n="n"/></l> <r>mosso<g><b/>d'esquadra</g><s n="n"/></r></p></e>
-<!--<e>       <p><l>Mossos<b/>d'Esquadra<s n="n"/></l><r>Mossos<b/>d'Esquadra<s n="n"/></r></p></e>-->
+<!--<e>       <p><l>mosso<g><b/>d'esquadra</g><s n="n"/></l> <r>mosso<g><b/>d'esquadra</g><s n="n"/></r></p></e>-->
+<e>       <p><l>Mossos<b/>d'Esquadra<s n="n"/></l><r>Mossos<b/>d'Esquadra<s n="n"/></r></p></e>
+<e>       <p><l>Mosso<b/>d'Esquadra<s n="n"/></l><r>Mosso<b/>d'Esquadra<s n="n"/></r></p></e>
 <e r="RL"><p><l>muchacho<s n="n"/></l>            <r>al·lot<s n="n"/></r></p></e>
 <e v="cat" r="LR"><p><l>muchacho<s n="n"/></l>            <r>noi<s n="n"/></r></p></e>
 <e v="val" r="LR"><p><l>muchacho<s n="n"/></l>            <r>xic<s n="n"/></r></p></e>
@@ -4968,7 +4968,6 @@
 <e>       <p><l>acelerar<s n="vblex"/></l>        <r>accelerar<s n="vblex"/></r></p></e>
 <e>       <p><l>acentuar<s n="vblex"/></l>        <r>accentuar<s n="vblex"/></r></p></e>
 <e>       <p><l>aceptar<s n="vblex"/></l>         <r>acceptar<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>acercar<s n="vblex"/></l>         <r>acostar<s n="vblex"/></r></p></e>
 <e v="cat">       <p><l>acercar<s n="vblex"/></l>         <r>apropar<s n="vblex"/></r></p></e>
 <e v="val">       <p><l>acercar<s n="vblex"/></l>         <r>acostar<s n="vblex"/></r></p></e>
 <e>       <p><l>acertar<s n="vblex"/></l>         <r>encertar<s n="vblex"/></r></p></e>
@@ -9238,7 +9237,6 @@
 <e>       <i>fiable<s n="adj"/></i></e>
 <e>       <p><l>fino<s n="adj"/></l>              <r>fi<s n="adj"/></r></p></e>
 <e>       <p><l>fianza<s n="n"/></l>              <r>fiança<s n="n"/></r></p></e>
-<e c="seria ficar-se al llit: multiparaula. MG" i="yes"><p><l>acostar<s n="vblex"/></l><r>ficar<s n="vblex"/></r></p></e>
 <e>       <p><l>fielmente<s n="adv"/></l>         <r>fidelment<s n="adv"/></r></p></e>
 <e>       <i>Fidel<s n="np"/></i></e>
 <e>       <i>FIFA<s n="n"/></i></e>
@@ -14120,7 +14118,6 @@
 <e a=" alseoane@gmail.com"><p><l>mucosa<s n="n"/></l><r>mucosa<s n="n"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>medusa<s n="n"/></l><r>medusa<s n="n"/></r></p></e>
 <e r="RL" a=" alseoane@gmail.com"><p><l>medio<s n="n"/></l><r>medi<s n="n"/></r></p></e>
-<e v="cat" a=" alseoane@gmail.com"><p><l>atrás<s n="adv"/></l><r>enrere<s n="adv"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>escozor<s n="n"/><s n="m"/></l><r>coïssor<s n="n"/><s n="f"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>cabelludo<s n="adj"/></l><r>cabellut<s n="adj"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>lácteo<s n="adj"/></l><r>làctic<s n="adj"/></r></p></e>
@@ -37112,6 +37109,7 @@
 <e r="LR"><p><l>vagabundo<s n="n"/><s n="f"/></l> <r>rodamón<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>vagabundo<s n="n"/><s n="m"/></l> <r>rodamón<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>vano<s n="n"/><s n="m"/></l>      <r>obertura<s n="n"/><s n="f"/></r></p></e>
+<!--<e><p><l>vano<s n="adj"/></l>      <r>va<s n="adj"/></r></p></e>-->
 <e r="LR"><p><l>variancia<s n="n"/></l>           <r>variància<s n="n"/></r></p></e>
 <e r="LR"><p><l>vascuence<s n="n"/><s n="mf"/></l><r>basc<s n="n"/><s n="GD"/></r></p></e>
 <e r="LR"><p><l>vd.<s n="n"/></l>                 <r>vè.<s n="n"/></r></p></e>

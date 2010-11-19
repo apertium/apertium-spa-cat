@@ -1574,6 +1574,10 @@
    <prefer tags="vbser.pii.p3.sg"/>
    <prefer tags="vbhaver.pii.p3.sg"/>
    <prefer tags="vbmod.pii.p3.sg"/>
+   <prefer tags="vblex.ifi.p3.sg"/>
+   <prefer tags="vbser.ifi.p3.sg"/>
+   <prefer tags="vbhaver.ifi.p3.sg"/>
+   <prefer tags="vbmod.ifi.p3.sg"/>
    <prefer tags="vblex.prs.p3.sg"/>
    <prefer tags="vbser.prs.p3.sg"/>
    <prefer tags="vbhaver.prs.p3.sg"/>
