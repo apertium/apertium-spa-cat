@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> <!-- -*- nxml -*- -->
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <transfer>
   <section-def-cats>
     <def-cat n="nom">
@@ -92,8 +92,8 @@
       <cat-item lemma="el" tags="prn.pro.p3.mf.sg"/>
     </def-cat>
     
-    <def-cat n="perquè">   	  	  
-      <cat-item lemma="perquè" tags="cnjadv"/>
+    <def-cat n="perquÃ¨">   	  	  
+      <cat-item lemma="perquÃ¨" tags="cnjadv"/>
     </def-cat>
     
     <def-cat n="nosaltres">
@@ -174,6 +174,7 @@
 
     <def-cat n="num">
       <cat-item tags="num.*"/>
+      <cat-item tags="num"/>
     </def-cat>
 
     <def-cat n="multiHiha">
@@ -397,7 +398,7 @@
       <attr-item tags="p2.mf.pl"/>
       <attr-item tags="p3.mf.sg"/>
       <attr-item tags="p3.mf.pl"/>
-      <attr-item tags="p3.mf.sp"/> <!--incorrecte, tradueix "li<prn><enc><p3><mf><sp>" per "se", cal canviar diccionari ja que és li-ho<sg> i los-ho<pl> (dárselo)-->
+      <attr-item tags="p3.mf.sp"/> <!--incorrecte, tradueix "li<prn><enc><p3><mf><sp>" per "se", cal canviar diccionari ja que Ã©s li-ho<sg> i los-ho<pl> (dÃ¡rselo)-->
       <attr-item tags="p3.m.sg"/>
       <attr-item tags="p3.m.pl"/>
       <attr-item tags="p3.f.sg"/>
@@ -443,7 +444,7 @@
   <section-def-lists>
     <def-list n="huma">
       <list-item v="chico"/>
-      <list-item v="niño"/>
+      <list-item v="niÃ±o"/>
     </def-list>
     <def-list n="verbs_moviment">
       <list-item v="anar"/>
@@ -462,7 +463,7 @@
       <list-item v="caminar"/>
       <list-item v="dirigir"/>
       <list-item v="apropar"/>
-      <list-item v="córrer"/>
+      <list-item v="cÃ³rrer"/>
       <list-item v="portar"/>
       <list-item v="tornar"/>
       <list-item v="regressar"/>
@@ -480,7 +481,7 @@
       <list-item v="celebrar"/>
       <list-item v="centralitzar"/>
       <list-item v="cercar"/>
-      <list-item v="col·locar"/>
+      <list-item v="colÂ·locar"/>
       <list-item v="concentrar"/>
       <list-item v="desembocar"/>
       <list-item v="endinsar"/>
@@ -496,7 +497,7 @@
       <list-item v="indagar"/>
       <list-item v="ingressar"/>
       <list-item v="inserir"/>
-      <list-item v="instal·lar"/>
+      <list-item v="instalÂ·lar"/>
       <list-item v="introduir"/>
       <list-item v="irrompre"/>
       <list-item v="penetrar"/>
@@ -514,21 +515,21 @@
       <list-item v="lalala"/>
     </def-list>
     <def-list n="locatiu">
-      <list-item v="món"/>
+      <list-item v="mÃ³n"/>
       <list-item v="seu"/>
       <list-item v="base"/>
       <list-item v="ascensor"/>
       <list-item v="carrer"/>
-      <list-item v="plaça"/>
+      <list-item v="plaÃ§a"/>
       <list-item v="mercat"/>
       <list-item v="zona"/>
-      <list-item v="àrea"/>
+      <list-item v="Ã rea"/>
       <list-item v="comarca"/>
       <list-item v="barri"/>
       <list-item v="ciutat"/>
-      <list-item v="província"/>
+      <list-item v="provÃ­ncia"/>
       <list-item v="illa"/>
-      <list-item v="país"/>
+      <list-item v="paÃ­s"/>
       <list-item v="planeta"/>
       <list-item v="parlament"/>
       <list-item v="casa"/>
@@ -536,26 +537,26 @@
       <list-item v="universitat"/>
       <list-item v="roba"/>
       <list-item v="escola"/>
-      <list-item v="congrés"/>
+      <list-item v="congrÃ©s"/>
       <list-item v="domicili"/>
-      <list-item v="urbanització"/>
-      <list-item v="presó"/>
-      <list-item v="fàbrica"/>
+      <list-item v="urbanitzaciÃ³"/>
+      <list-item v="presÃ³"/>
+      <list-item v="fÃ brica"/>
       <list-item v="muntanya"/>
       <list-item v="cambra"/>
-      <list-item v="habitació"/>
+      <list-item v="habitaciÃ³"/>
       <list-item v="vall"/>
       <list-item v="frontera"/>
       <list-item v="castell"/>
       <list-item v="sala"/>
-      <list-item v="declaració"/>
-      <list-item v="església"/>
+      <list-item v="declaraciÃ³"/>
+      <list-item v="esglÃ©sia"/>
       <list-item v="festa"/>
       <list-item v="esplanada"/>
       <list-item v="mercat"/>
       <list-item v="internet"/>
       <list-item v="ajuntament"/>
-      <list-item v="polígon"/>
+      <list-item v="polÃ­gon"/>
       <list-item v="auditori"/>
       <list-item v="estranger"/>
       <list-item v="poble"/>
@@ -564,7 +565,7 @@
       <list-item v="terra"/>
       <list-item v="torre"/>
       <list-item v="pati"/>
-      <list-item v="programació"/>
+      <list-item v="programaciÃ³"/>
       <list-item v="programa"/>
       <list-item v="aula"/>
       <list-item v="edifici"/>
@@ -587,16 +588,16 @@
       <list-item v="cinema"/>
       <list-item v="apartament"/>
       <list-item v="platja"/>
-      <list-item v="pàgina"/>
-      <list-item v="mà"/>
+      <list-item v="pÃ gina"/>
+      <list-item v="mÃ "/>
       <list-item v="campus"/>
       <list-item v="territori"/>
       <list-item v="UOC"/>
       <list-item v="xarxa"/>
       <list-item v="parc"/>
       <list-item v="dutxa"/>
-      <list-item v="regió"/>
-      <list-item v="catàleg"/> <!-- a="mireiafarrus" -->
+      <list-item v="regiÃ³"/>
+      <list-item v="catÃ leg"/> <!-- a="mireiafarrus" -->
       <list-item v="biblioteca"/> <!-- a="mireiafarrus" -->
       <list-item v="centre"/> <!-- a="mireiafarrus" per solucionar "al centre de suport">"*al centro de apoyo" -->
     </def-list>
@@ -609,6 +610,21 @@
       <list-item v="divendres"/>
       <list-item v="dissabte"/>
       <list-item v="diumenge"/>
+    </def-list>
+    
+    <def-list n="mesos">
+      <list-item v="gener"/>
+      <list-item v="febrer"/>
+      <list-item v="marÃ§"/>
+      <list-item v="abril"/>
+      <list-item v="maig"/>
+      <list-item v="juny"/>
+      <list-item v="juliol"/>
+      <list-item v="agost"/>
+      <list-item v="setembre"/>
+      <list-item v="octubre"/>
+      <list-item v="novembre"/>
+      <list-item v="desembre"/>
     </def-list>
 
 
@@ -881,7 +897,7 @@
       
     </def-macro>
 
-    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
+    <def-macro n="f_bcond" npar="1"><!--Per mirar si el blanc contÃ© o no format. Cal posar aquesta funciÃ³ en les regles en quÃ¨ desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si contÃ© format cal conservar-la, si no en contÃ© cal eliminar-la perquÃ¨ no apareguin dos espais seguits. -->
       <choose>
 	<when>
 	  <test>
@@ -899,7 +915,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="f_outverb2" npar="2"><!--Comprueba si hay pronombres que se traducen por nada de catalán a español según el diccionario ("hi" y "en") y envía el verbo con o sin pronombres de acuerdo con esta comprobación. Esta función es para el caso de verbo + 1 enclítico. Función necesaria para el correcto colocamiento de la cola en multipalabras con flexión intercalada. -->
+    <def-macro n="f_outverb2" npar="2"><!--Comprueba si hay pronombres que se traducen por nada de catalÃ¡n a espaÃ±ol segÃºn el diccionario ("hi" y "en") y envÃ­a el verbo con o sin pronombres de acuerdo con esta comprobaciÃ³n. Esta funciÃ³n es para el caso de verbo + 1 enclÃ­tico. FunciÃ³n necesaria para el correcto colocamiento de la cola en multipalabras con flexiÃ³n intercalada. -->
       <choose>
 	<when>
 	  <test>
@@ -951,7 +967,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="f_outverb3" npar="3"><!--Comprueba si hay pronombres que se traducen por nada de catalán a español según el diccionario ("hi" y "en") y envía el verbo con o sin pronombres de acuerdo con esta comprobación. Esta función es para el caso de verbo + 2 enclíticos.-->
+    <def-macro n="f_outverb3" npar="3"><!--Comprueba si hay pronombres que se traducen por nada de catalÃ¡n a espaÃ±ol segÃºn el diccionario ("hi" y "en") y envÃ­a el verbo con o sin pronombres de acuerdo con esta comprobaciÃ³n. Esta funciÃ³n es para el caso de verbo + 2 enclÃ­ticos.-->
       <choose>
 	<when>
 	  <test>
@@ -3133,7 +3149,7 @@
 	  <let>
 	    <clip pos="1" side="tl" part="lem"/>
 	    <get-case-from pos="1">
-	      <lit v="próximo"/>
+	      <lit v="prÃ³ximo"/>
 	    </get-case-from>
 	  </let>
 	</when>
@@ -3182,7 +3198,7 @@
 	      </lu>
 	    </out>
 	  </when>
-	  <otherwise><!--si el pp és plural (hi ha resoltes...), cal traduir per 'hay' -->
+	  <otherwise><!--si el pp Ã©s plural (hi ha resoltes...), cal traduir per 'hay' -->
 	    <out>
 	      <lu>
 		<clip pos="1" side="tl" part="whole"/>
@@ -3363,6 +3379,26 @@
 	  <with-param pos="2"/>
 	  <with-param pos="1"/>
 	</call-macro>     
+	<choose>
+	  <when>
+	    <test>	    
+	      <in caseless="yes">
+	        <clip pos="3" side="sl" part="lem"/>
+	        <list n="mesos"/>
+	      </in> 
+	    </test>
+	  <out>    <!-- excepciÃ³ noms de mesos sense article , el marÃ§ :
+	    marzo-->
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/>
+	  </lu>
+	  </out>
+	  </when>
+	  <otherwise>     
 	<out>     
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
@@ -3376,11 +3412,13 @@
 	    <clip pos="2" side="tl" part="lemq"/> 
 	  </lu>  
 	</out>
+	</otherwise>
+       </choose>
       </action>
     </rule>
 
 
-    <rule> <!-- REGLA NOVA 4: NOM ADJECTIU(vinent) setmana vinent > próxima semana "mireiafarrus"-->
+    <rule> <!-- REGLA NOVA 4: NOM ADJECTIU(vinent) setmana vinent > prÃ³xima semana "mireiafarrus"-->
       <pattern>
 	<pattern-item n="nom"/>
 	<pattern-item n="adjec"/>
@@ -3598,7 +3636,7 @@
     </rule> -->
 
 
-    <rule> <!-- REGLA NOVA 5: DET NOM ADJECTIU(vinent) La primavera vinent > La próxima primavera "mireiafarrus"-->
+    <rule> <!-- REGLA NOVA 5: DET NOM ADJECTIU(vinent) La primavera vinent > La prÃ³xima primavera "mireiafarrus"-->
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -3721,7 +3759,7 @@
       </action>
     </rule>
 
-    <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: El núvol és vermell - La nube es roja (suposo que serveix per a qualsevol verb) "mireiafarrus"-->
+    <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: El nÃºvol Ã©s vermell - La nube es roja (suposo que serveix per a qualsevol verb) "mireiafarrus"-->
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nom"/>
@@ -4559,7 +4597,6 @@
 	    <clip pos="1" side="tl" part="whole"/>
 	  </lu>
 	  <b pos="1"/>
-	  
 	  <lu>
 	    <clip pos="2" side="tl" part="whole"/>
 	  </lu>  
@@ -4572,6 +4609,71 @@
 	    <clip pos="3" side="tl" part="lemq"/> 
 	  </lu>
 	</out>
+      </action>
+    </rule>
+    
+    
+    <rule> <!-- REGLA: DET NOM NUMERAL-->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="num"/>
+      </pattern>
+      <action>
+	<call-macro n="f_enviaa">
+	  <with-param pos="2"/>
+	</call-macro>     
+
+	<call-macro n="f_concord3">
+	  <with-param pos="2"/>
+	  <with-param pos="3"/>
+	  <with-param pos="1"/>
+	</call-macro>  
+	<choose>
+	  <when>
+	    <test>
+	    <and>
+	      <equal caseless="yes">
+		<clip pos="2" side="sl" part="lem"/>
+		<lit v="any"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="tl" part="lem"/>
+		<lit v="el"/>
+	      </equal>
+	    </and>
+	    </test>
+ 	  <out>     
+	  <lu>
+	    <lit v="en"/>
+	    <lit-tag v="pr"/>
+	  </lu>  
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>
+	  </out>
+	</when>
+	<otherwise>
+	  <out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="2" side="tl" part="lemh"/>
+	    <clip pos="2" side="tl" part="a_nom"/>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="2" side="tl" part="lemq"/> 
+	  </lu> 
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="whole"/>
+	  </lu>
+	</out>
+	</otherwise>
+	</choose>
       </action>
     </rule>
     
@@ -4829,7 +4931,27 @@
 	  <with-param pos="3"/>
 	  <with-param pos="2"/>
 	</call-macro>     
-	<out>    
+	<choose>
+	  <when>
+	    <test>	    
+	      <in caseless="yes">
+	        <clip pos="3" side="sl" part="lem"/>
+	        <list n="mesos"/>
+	      </in> 
+	    </test>
+	  <out>    <!-- excepciÃ³ noms de mesos sense article fins el marÃ§ :
+	    hasta marzo-->
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>
+	  </out>
+	  </when>
+	  <otherwise>  
+	  <out>    
 	  <lu>  
 	    <clip pos="2" side="tl" part="whole"/>
 	  </lu> 
@@ -4842,7 +4964,8 @@
 	    <clip pos="3" side="tl" part="lemq"/>
 	  </lu>
 	</out>
-	
+	</otherwise>
+        </choose>
       </action>
     </rule>
     
@@ -5593,6 +5716,115 @@
 	
       </action>
     </rule>
+
+    
+    <rule> <!-- REGLA: PREP DET NOM NUMERAL-->
+      <pattern>
+	<pattern-item n="prep"/>
+	<pattern-item n="det"/>
+	<pattern-item n="nom"/>
+	<pattern-item n="num"/>
+      </pattern>
+      <action>		   
+	<call-macro n="f_concord3">
+	  <with-param pos="3"/>
+	  <with-param pos="4"/>
+	  <with-param pos="2"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	    <and>
+	      <equal caseless="yes">
+		<clip pos="3" side="sl" part="lem"/>
+		<lit v="any"/>
+	      </equal>
+	      <equal>
+		<clip pos="1" side="sl" part="lem"/>
+		<lit v="a"/>
+	      </equal>		
+	      <equal>
+		<clip pos="2" side="sl" part="lem"/>
+		<lit v="el"/>
+	      </equal>
+	    </and>
+	    </test>
+ 	  <out>     
+	  <lu>
+	    <lit v="en"/>
+	    <lit-tag v="pr"/>
+	  </lu>  
+	  <b pos="1"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="whole"/>
+	  </lu>
+	  </out>
+	</when>
+	<otherwise>	
+	<call-macro n="f_preps">
+	  <with-param pos="1"/>
+	  <with-param pos="3"/>
+	</call-macro>
+	<choose>
+	  <when>
+	    <test>
+	      <equal caseless="yes">
+		<clip pos="2" side="sl" part="lem"/>
+		<lit v="tot"/>
+	      </equal>
+	    </test>
+	    <let>
+	      <clip pos="2" side="tl" part="lem"/>
+	      <get-case-from pos="1">
+		<lit v="el"/>
+	      </get-case-from>
+	    </let>
+	    <let>
+	      <clip pos="2" side="tl" part="a_det"/>
+	      <lit-tag v="det.def"/>
+	    </let>
+	<out>     
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>	    
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="whole"/>
+	  </lu>
+	</out>	
+	</when>
+	<otherwise>
+	<out>        
+	  <lu>
+	    <clip pos="2" side="tl" part="whole"/>
+	  </lu>
+	  <b pos="2"/>
+	  <lu>
+	    <clip pos="3" side="tl" part="lemh"/>
+	    <clip pos="3" side="tl" part="a_nom"/>
+	    <clip pos="3" side="tl" part="gen"/>
+	    <clip pos="3" side="tl" part="nbr"/>
+	    <clip pos="3" side="tl" part="lemq"/>
+	  </lu>	    
+	  <b pos="3"/>
+	  <lu>
+	    <clip pos="4" side="tl" part="whole"/>
+	  </lu>
+	</out>	
+	</otherwise>
+	</choose>
+	</otherwise>
+	</choose>
+      </action>
+    </rule>
     
 
 
@@ -5682,7 +5914,7 @@
     </rule>
 
 
-   <rule> <!--REGLA: DETDEF + NOM PROPI (antropònim)-->
+   <rule> <!--REGLA: DETDEF + NOM PROPI (antropÃ²nim)-->
       <pattern>
 	<pattern-item n="detdef"/>
 	<pattern-item n="npant"/>
@@ -5704,7 +5936,7 @@
       </action>
     </rule>
 
-    <rule> <!-- REGLA: RELAT --> <!-- revisar què fa aquesta regla!!!! : qui <ND>?-->
+    <rule> <!-- REGLA: RELAT --> <!-- revisar quÃ¨ fa aquesta regla!!!! : qui <ND>?-->
       <pattern>
 	<pattern-item n="relat"/>
       </pattern>
@@ -5760,7 +5992,7 @@
 
 
 
-    <rule> <!-- REGLA: PRETÈRIT INDEFINIT --><!-- Para traducir "vaig fer" por "hice" -->
+    <rule> <!-- REGLA: PRETÃˆRIT INDEFINIT --><!-- Para traducir "vaig fer" por "hice" -->
       <pattern>
 	<pattern-item n="anar"/>
 	<pattern-item n="inf"/>
@@ -5789,7 +6021,7 @@
 
 
 
-    <rule> <!-- REGLA: PRETÈRIT INDEFINIT + ENCLÍTIC --><!-- Para traducir "van acabar-se" por "se acabaron" -->
+    <rule> <!-- REGLA: PRETÃˆRIT INDEFINIT + ENCLÃTIC --><!-- Para traducir "van acabar-se" por "se acabaron" -->
       <pattern>
 	<pattern-item n="anar"/>
 	<pattern-item n="inf"/>
@@ -5828,7 +6060,7 @@
 	      </lu> 
 	    </out>
 	  </when>
-	  <otherwise><!--En caso de que el pronombre no se traduzca, envía sólo el verbo -->
+	  <otherwise><!--En caso de que el pronombre no se traduzca, envÃ­a sÃ³lo el verbo -->
 	    <out>
 	      <lu>
 		<get-case-from pos="1">            
@@ -5850,7 +6082,7 @@
     </rule>
 
 
-    <rule> <!-- REGLA: PRETÈRIT INDEFINIT + ENCLÍTIC + ENCLÍTIC --><!-- Para traducir "van acabar-se'ls" por "se los acabaron" -->
+    <rule> <!-- REGLA: PRETÃˆRIT INDEFINIT + ENCLÃTIC + ENCLÃTIC --><!-- Para traducir "van acabar-se'ls" por "se los acabaron" -->
       <pattern>
 	<pattern-item n="anar"/>
 	<pattern-item n="inf"/>
@@ -5863,7 +6095,7 @@
 	</call-macro>
 	<choose>
 	  <when>
-	    <test> <!--si el primer pronom no desapareix (traducció buida, p. ex: "hi", "en"), envia'l i assigna-li les majúscules -->
+	    <test> <!--si el primer pronom no desapareix (traducciÃ³ buida, p. ex: "hi", "en"), envia'l i assigna-li les majÃºscules -->
 	      <not>
 		<equal>
 		  <clip pos="3" side="tl" part="whole"/>
@@ -5883,7 +6115,7 @@
 	    </out>
 	    <choose>
 	      <when>
-		<test><!-- Si el segon pronom no desapareix, envia'l també (si desapareix el 2n, ja no s'envia) -->
+		<test><!-- Si el segon pronom no desapareix, envia'l tambÃ© (si desapareix el 2n, ja no s'envia) -->
 		  <not>
 		    <equal>
 		      <clip pos="4" side="tl" part="whole"/> 
@@ -5912,7 +6144,7 @@
 	      </lu> 
 	    </out>
 	  </when>
-	  <when> <!--Si el primer pronom desapareix...el segon també... (mai no es dóna el cas que desapareix el primer i el segon no) -->
+	  <when> <!--Si el primer pronom desapareix...el segon tambÃ©... (mai no es dÃ³na el cas que desapareix el primer i el segon no) -->
 	    <test>
 	      <equal>
 		<clip pos="3" side="tl" part="whole"/>
@@ -5939,7 +6171,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB (per a multiparaules sense enclítics)-->
+    <rule> <!--REGLA: VERB (per a multiparaules sense enclÃ­tics)-->
       <pattern>
 	<pattern-item n="verb"/>
       </pattern>
@@ -6009,7 +6241,7 @@
     </rule>
 
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC-->
+    <rule> <!--REGLA: VERB + ENCLÃTIC-->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -6025,7 +6257,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: tot + VERB + ENCLÍTIC-->
+    <rule> <!--REGLA: tot + VERB + ENCLÃTIC-->
       <pattern>
 	<pattern-item n="tot"/>
 	<pattern-item n="verb"/>
@@ -6066,7 +6298,7 @@
     </rule>
 
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC + ENCLÍTIC-->
+    <rule> <!--REGLA: VERB + ENCLÃTIC + ENCLÃTIC-->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -6084,7 +6316,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: tot + VERB + ENCLÍTIC + ENCLÍTIC-->
+    <rule> <!--REGLA: tot + VERB + ENCLÃTIC + ENCLÃTIC-->
       <pattern>
 	<pattern-item n="tot"/>
 	<pattern-item n="verb"/>
@@ -6159,7 +6391,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: EN + INF + ENCLÍTIC-->
+    <rule> <!--REGLA: EN + INF + ENCLÃTIC-->
       <pattern>
 	<pattern-item n="en"/>
 	<pattern-item n="infnm"/>
@@ -6190,7 +6422,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: EN + INF + ENCLÍTIC + ENCLÍTIC-->
+    <rule> <!--REGLA: EN + INF + ENCLÃTIC + ENCLÃTIC-->
       <pattern>
 	<pattern-item n="en"/>
 	<pattern-item n="infnm"/>
@@ -6254,7 +6486,7 @@
     </rule>
 
 
-    <rule> <!--REGLA: caldre + INF + ENCLÍTIC -> haber que + INF + ENCLÍTIC-->
+    <rule> <!--REGLA: caldre + INF + ENCLÃTIC -> haber que + INF + ENCLÃTIC-->
       <pattern>
 	<pattern-item n="caldre"/>
 	<pattern-item n="inf"/>
@@ -6283,7 +6515,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: caldre + INF + ENCLÍTIC + ENCLÍTIC  -> haber que + INF + ENCLÍTIC + ENCLÍTIC-->
+    <rule> <!--REGLA: caldre + INF + ENCLÃTIC + ENCLÃTIC  -> haber que + INF + ENCLÃTIC + ENCLÃTIC-->
       <pattern>
 	<pattern-item n="caldre"/>
 	<pattern-item n="inf"/>
@@ -6345,7 +6577,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: PER + infinitiu + enclític= per trobar-se -> para encontrarse-->
+    <rule> <!--REGLA: PER + infinitiu + enclÃ­tic= per trobar-se -> para encontrarse-->
       <pattern>
 	<pattern-item n="per"/>
 	<pattern-item n="infnh"/>
@@ -6371,7 +6603,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: PER + infinitiu + enclític + enclític = per explicar-los-ho -> para explicárselo-->
+    <rule> <!--REGLA: PER + infinitiu + enclÃ­tic + enclÃ­tic = per explicar-los-ho -> para explicÃ¡rselo-->
       <pattern>
 	<pattern-item n="per"/>
 	<pattern-item n="infnh"/>
@@ -6434,7 +6666,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: PER + adv + infinitiu + enclític= per no trobar-se -> para no encontrarse-->
+    <rule> <!--REGLA: PER + adv + infinitiu + enclÃ­tic= per no trobar-se -> para no encontrarse-->
       <pattern>
 	<pattern-item n="per"/>
 	<pattern-item n="adv"/>
@@ -6468,7 +6700,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: PER + adv + infinitiu + enclític + enclític = per no explicar-los-ho -> para no explicárselo-->
+    <rule> <!--REGLA: PER + adv + infinitiu + enclÃ­tic + enclÃ­tic = per no explicar-los-ho -> para no explicÃ¡rselo-->
       <pattern>
 	<pattern-item n="per"/>
 	<pattern-item n="adv"/>
@@ -6529,7 +6761,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA NOVA 6: a + DET + nploc = al Segrià -> en el Segrià "mireiafarrus"-->
+    <rule> <!--REGLA NOVA 6: a + DET + nploc = al SegriÃ  -> en el SegriÃ  "mireiafarrus"-->
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="det"/>
@@ -6544,7 +6776,7 @@
 		<lit-tag v="GD"/>
 	      </equal>
 	    </test>
-	    <let><!--hauríem de mirar d'assignar gènere d'una altra manera (l'Amèrica llatina / l'Europa Occiental / l'Amazones) -->
+	    <let><!--haurÃ­em de mirar d'assignar gÃ¨nere d'una altra manera (l'AmÃ¨rica llatina / l'Europa Occiental / l'Amazones) -->
 		<clip pos="2" side="tl" part="gen"/>
 		<lit-tag v="f"/>
 	    </let>
@@ -6588,7 +6820,7 @@
 	</test>
 	<let>
 	<clip pos="2" side="tl" part="lem"/>
-	<get-case-from pos="2"> <!-#-Atenció: mai no traduirà EN sinó només En o en !!  -#->
+	<get-case-from pos="2"> <!-#-AtenciÃ³: mai no traduirÃ  EN sinÃ³ nomÃ©s En o en !!  -#->
 	<lit v="en"/>
 	</get-case-from>
 	</let>
@@ -6612,7 +6844,7 @@
 	</action>
 	</rule> 
 
-<rule> <!-#- REGLA: "anar" + inf + prep: Vaig viure a la ciutat - Viví en la ciudad (igual que l'anterior però amb forma perifràstica)-#->
+<rule> <!-#- REGLA: "anar" + inf + prep: Vaig viure a la ciutat - VivÃ­ en la ciudad (igual que l'anterior perÃ² amb forma perifrÃ stica)-#->
 <pattern>
 <pattern-item n="anar"/>
 <pattern-item n="inf"/>
@@ -6629,7 +6861,7 @@
 </test>
 <let>
 <clip pos="3" side="tl" part="lem"/>
-<get-case-from pos="3"> <!-#-Atenció: mai no traduirà EN sinó només En o en !!  -#->
+<get-case-from pos="3"> <!-#-AtenciÃ³: mai no traduirÃ  EN sinÃ³ nomÃ©s En o en !!  -#->
 <lit v="en"/>
 </get-case-from>
 </let>
@@ -6661,7 +6893,7 @@
 
 
 
-    <rule> <!--REGLA: verb + prep + nploc/noms_locatius: Estudio a Madrid  - Estudio en Madrid. Sóc a Sabadell - Estoy en Sabadell. Sóc a casa - Estoy en casa (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si és un nom de la llista "locatiu". Molts canvis de prep ja es tracten amb la macro f_preps, però no permet fer el canvi de 'ser' a 'estar', cosa que sí que es fa amb aquesta regla i les 3 posteriors) -->
+    <rule> <!--REGLA: verb + prep + nploc/noms_locatius: Estudio a Madrid  - Estudio en Madrid. SÃ³c a Sabadell - Estoy en Sabadell. SÃ³c a casa - Estoy en casa (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si Ã©s un nom de la llista "locatiu". Molts canvis de prep ja es tracten amb la macro f_preps, perÃ² no permet fer el canvi de 'ser' a 'estar', cosa que sÃ­ que es fa amb aquesta regla i les 3 posteriors) -->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="a"/>
@@ -6827,7 +7059,7 @@
     </rule>   
 
 
-    <rule> <!--REGLA: "anar" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. Sóc a Sabadell - Estoy en Sabadell (igual que l'anterior però amb verb en forma perifràstica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si és un nom de la llista "locatiu")-->
+    <rule> <!--REGLA: "anar" + inf + prep + nploc: Estudio a Madrid - Estudio en Madrid. SÃ³c a Sabadell - Estoy en Sabadell (igual que l'anterior perÃ² amb verb en forma perifrÃ stica (modificada 3-09-2008 MG: de "nploc" ha passat a detectar tots els "nom", per poder mirar si Ã©s un nom de la llista "locatiu")-->
       <pattern>
 	<pattern-item n="anar"/>
 	<pattern-item n="inf"/>
@@ -7202,7 +7434,7 @@
     </rule>   
 
 
-    <rule> <!--REGLA: "anar" + inf + prep + nploc: va treballar al poble - trabajó en el pueblo (igual que l'anterior però amb verb en forma perifràstica) -->
+    <rule> <!--REGLA: "anar" + inf + prep + nploc: va treballar al poble - trabajÃ³ en el pueblo (igual que l'anterior perÃ² amb verb en forma perifrÃ stica) -->
       <pattern>
 	<pattern-item n="anar"/>
 	<pattern-item n="inf"/>
@@ -7490,7 +7722,7 @@
 	    <test>
 	      <not>
 		<equal>
-		  <clip pos="1" side="tl" part="whole"/><!--Comprueba que el pronombre no tenga traducción vacía (pronombres "hi" y "en" -->
+		  <clip pos="1" side="tl" part="whole"/><!--Comprueba que el pronombre no tenga traducciÃ³n vacÃ­a (pronombres "hi" y "en" -->
 		  <lit v=""/>
 		</equal>
 	      </not>
@@ -7509,7 +7741,7 @@
 	      </lu>
 	    </out>
 	  </when>
-	  <otherwise><!--En caso de que el pronombre no se traduzca, envía sólo el verbo -->
+	  <otherwise><!--En caso de que el pronombre no se traduzca, envÃ­a sÃ³lo el verbo -->
 	    <out>
 	      <lu>
 		<get-case-from pos="1">            
@@ -7541,7 +7773,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: haver-enc participi (femení sg i pl, masculí pl) -> haver-enc participi-masc-sg-->
+    <rule> <!--REGLA: haver-enc participi (femenÃ­ sg i pl, masculÃ­ pl) -> haver-enc participi-masc-sg-->
       <pattern>
 	<pattern-item n="haver"/>
 	<pattern-item n="prnenc"/>
@@ -7566,7 +7798,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: haver-enc-enc participi (femení sg i pl, masculí pl) -> haver-enc-enc participi-masc-sg-->
+    <rule> <!--REGLA: haver-enc-enc participi (femenÃ­ sg i pl, masculÃ­ pl) -> haver-enc-enc participi-masc-sg-->
       <pattern>
 	<pattern-item n="haver"/>
 	<pattern-item n="prnenc"/>
@@ -7625,7 +7857,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: tot i + inf + enclític (tot i veure'l) -> a pesar de + inf + enclític -->
+    <rule> <!--REGLA: tot i + inf + enclÃ­tic (tot i veure'l) -> a pesar de + inf + enclÃ­tic -->
       <pattern>
 	<pattern-item n="tot"/>
 	<pattern-item n="i"/>
@@ -7655,7 +7887,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: tot i + inf + enclític + enclític (tot i veure-l'hi) -> a pesar de + inf + enclític + enclític-->
+    <rule> <!--REGLA: tot i + inf + enclÃ­tic + enclÃ­tic (tot i veure-l'hi) -> a pesar de + inf + enclÃ­tic + enclÃ­tic-->
       <pattern>
 	<pattern-item n="tot"/>
 	<pattern-item n="i"/>
@@ -7726,7 +7958,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: tot i + inf + enclític (tot i veure'l) -> a pesar de + inf + enclític -->
+    <rule> <!--REGLA: tot i + inf + enclÃ­tic (tot i veure'l) -> a pesar de + inf + enclÃ­tic -->
       <pattern>
 	<pattern-item n="tot"/>
 	<pattern-item n="i"/>
@@ -7767,7 +7999,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: tot i + inf + enclític + enclític (tot i veure-l'hi) -> a pesar de + inf + enclític + enclític-->
+    <rule> <!--REGLA: tot i + inf + enclÃ­tic + enclÃ­tic (tot i veure-l'hi) -> a pesar de + inf + enclÃ­tic + enclÃ­tic-->
       <pattern>
 	<pattern-item n="tot"/>
 	<pattern-item n="i"/>
