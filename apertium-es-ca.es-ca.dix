@@ -192,6 +192,7 @@
 <e>       <p><l>bajito<s n="adj"/></l>            <r>baixet<s n="adj"/></r></p></e>
 <e>       <p><l>bajo<s n="adj"/></l>              <r>baix<s n="adj"/></r></p></e>
 <e>       <p><l>bancario<s n="adj"/></l>          <r>bancari<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>sicario<s n="n"/></l>          <r>sicari<s n="n"/></r></p></e>
 <e>       <p><l>barato<s n="adj"/></l>            <r>barat<s n="adj"/></r></p></e>
 <e>       <p><l>bárbaro<s n="adj"/></l>           <r>bàrbar<s n="adj"/></r></p></e>
 <e>       <p><l>básico<s n="adj"/></l>            <r>bàsic<s n="adj"/></r></p></e>
@@ -2910,7 +2911,7 @@
 <e>       <p><l>gramo<s n="n"/></l>               <r>gram<s n="n"/></r></p></e>
 <e>       <p><l>granada<s n="n"/></l>             <r>magrana<s n="n"/></r></p></e>
 <e>       <p><l>grandeza<s n="n"/></l>            <r>grandesa<s n="n"/></r></p></e>
-<e>       <p><l>grano<s n="n"/></l>               <r>gra<s n="n"/></r></p></e>
+<e r="LR">       <p><l>grano<s n="n"/></l>               <r>gra<s n="n"/></r></p></e>
 <e>       <p><l>grasa<s n="n"/><s n="f"/></l>     <r>greix<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>gravedad<s n="n"/></l>            <r>gravetat<s n="n"/></r></p></e>
 <e>       <p><l>gripe<s n="n"/></l>               <r>grip<s n="n"/></r></p></e>
@@ -3641,6 +3642,7 @@
 <e>       <p><l>peculiaridad<s n="n"/></l>        <r>peculiaritat<s n="n"/></r></p></e>
 <e r="RL"><p><l>pedazo<s n="n"/></l>              <r>bocí<s n="n"/></r></p></e>
 <e r="LR"><p><l>pedazo<s n="n"/></l>              <r>tros<s n="n"/></r></p></e>
+<e r="RL"><p><l>parche<s n="n"/></l>              <r>pedaç<s n="n"/></r></p></e>
 <e>       <p><l>película<s n="n"/></l>            <r>pel·lícula<s n="n"/></r></p></e>
 <e>       <p><l>peligro<s n="n"/></l>             <r>perill<s n="n"/></r></p></e>
 <e>       <p><l>pelo<s n="n"/></l>                <r>pèl<s n="n"/></r></p></e>
@@ -3905,8 +3907,8 @@
 <e>       <p><l>reivindicación<s n="n"/></l>      <r>reivindicació<s n="n"/></r></p></e>
 <e>       <p><l>relación<s n="n"/></l>            <r>relació<s n="n"/></r></p></e>
 <e>       <p><l>relato<s n="n"/></l>              <r>relat<s n="n"/></r></p></e>
-<e srl="relevo"><p><l>relevo<s n="n"/></l>        <r>relleu<s n="n"/></r></p></e>
-<e srl="relieve D"><p><l>relieve<s n="n"/></l>    <r>relleu<s n="n"/></r></p></e>
+<e srl="relevo D"><p><l>relevo<s n="n"/></l>        <r>relleu<s n="n"/></r></p></e>
+<e srl="relieve"><p><l>relieve<s n="n"/></l>    <r>relleu<s n="n"/></r></p></e>
 <e>       <p><l>religión<s n="n"/></l>            <r>religió<s n="n"/></r></p></e>
 <e>       <p><l>reliquia<s n="n"/></l>            <r>relíquia<s n="n"/></r></p></e>
 <e>       <p><l>reloj<s n="n"/></l>               <r>rellotge<s n="n"/></r></p></e>
@@ -4485,6 +4487,9 @@
 <e>       <p><l>cuarenta<b/>y<b/>ocho<s n="num"/></l><r>quaranta-vuit<s n="num"/></r></p></e>
 <e>       <p><l>cuarto<s n="num"/></l>            <r>quart<s n="num"/></r></p></e>
 <e>       <p><l>cuarto<g><b/>de<b/>final</g><s n="n"/></l><r>quart<g><b/>de<b/>final</g><s n="n"/></r></p></e>
+<e>       <p><l>padre<g><b/>fundador</g><s n="n"/></l><r>pare<g><b/>fundador</g><s n="n"/></r></p></e>
+<e>       <p><l>beneficio<g><b/>neto</g><s n="n"/></l><r>benefici<g><b/>net</g><s n="n"/></r></p></e>
+<e>       <p><l>dotación<g><b/>neta</g><s n="n"/></l><r>dotació<g><b/>neta</g><s n="n"/></r></p></e>
 <e>       <p><l>cuatro<s n="num"/></l>            <r>quatre<s n="num"/></r></p></e>
 <e>       <p><l>cuatrocientos<s n="num"/></l>     <r>quatre-cents<s n="num"/></r></p></e>
 <e>       <p><l>quince<s n="num"/></l>            <r>quinze<s n="num"/></r></p></e>
@@ -6064,8 +6069,12 @@
 <e>       <i>salvar<s n="vblex"/></i></e>
 <e>       <p><l>satisfacer<s n="vblex"/></l>      <r>satisfer<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>convencer<s n="vblex"/></l>       <r>fer<g><b/>el<b/>pes</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>dar<g><b/>el<b/>paso</g><s n="vblex"/></l><r>fer<g><b/>el<b/>pas</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>escocer<g><b/>los<b/>ojos</g><s n="vblex"/></l><r>coure<g><b/>els<b/>ulls</g><s n="vblex"/></r></p></e>
+
 <e>       <p><l>secar<s n="vblex"/></l>           <r>assecar<s n="vblex"/></r></p></e>
-<e>       <p><l>secuestrar<s n="vblex"/></l>      <r>segrestar<s n="vblex"/></r></p></e>
+<e r="RL">       <p><l>secuestrar<s n="vblex"/><s n="v2"/></l>      <r>segrestar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>secuestrar<s n="vblex"/></l>      <r>segrestar<s n="vblex"/></r></p></e>
 <e>       <p><l>seducir<s n="vblex"/></l>         <r>seduir<s n="vblex"/></r></p></e>
 <e>       <i>seguir<s n="vblex"/></i></e>
 <e>       <i>seleccionar<s n="vblex"/></i></e>
@@ -6102,7 +6111,8 @@
 <e r="RL"><p><l>subir<s n="vblex"/></l>           <r>apujar<s n="vblex"/></r></p></e>
 <e>       <p><l>subir<s n="vblex"/></l>           <r>pujar<s n="vblex"/></r></p></e>
 <e>       <p><l>subrayar<s n="vblex"/></l>        <r>subratllar<s n="vblex"/></r></p></e>
-<e>       <p><l>suceder<s n="vblex"/></l>         <r>succeir<s n="vblex"/></r></p></e>
+<e r="RL">       <p><l>suceder<s n="vblex"/><s n="v2"/></l>         <r>succeir<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>suceder<s n="vblex"/></l>         <r>succeir<s n="vblex"/></r></p></e>
 <e>       <p><l>sudar<s n="vblex"/></l>           <r>suar<s n="vblex"/></r></p></e>
 <e v="cat">       <p><l>sufrir<s n="vblex"/></l>          <r>sofrir<s n="vblex"/></r></p></e>
 <e v="val"><p><l>sufrir<s n="vblex"/></l>       <r>patir<s n="vblex"/></r></p></e>
@@ -6179,7 +6189,8 @@
 <e>       <p><l>vengar<s n="vblex"/></l>          <r>venjar<s n="vblex"/></r></p></e>
 <e>       <i>venir<s n="vblex"/></i></e>
 <e>       <i>versar<s n="vblex"/></i></e>
-<e>       <p><l>ver<s n="vblex"/><s n="v2"/></l>  <r>veure<s n="vblex"/></r></p></e>
+<e r="RL">       <p><l>ver<s n="vblex"/><s n="v2"/></l>  <r>veure<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>ver<s n="vblex"/></l>  <r>veure<s n="vblex"/></r></p></e>
 <e>       <i>vestir<s n="vblex"/></i></e>
 <e>       <i>vetar<s n="vblex"/></i></e>
 <e>       <p><l>viajar<s n="vblex"/></l>          <r>viatjar<s n="vblex"/></r></p></e>
@@ -6258,6 +6269,7 @@
 <e>       <i>The<b/>New<b/>York<b/>Times<s n="np"/></i></e>
 <e>       <i>abdominal<s n="adj"/></i></e>
 <e>       <p><l>abeja<s n="n"/></l>               <r>abella<s n="n"/></r></p></e>
+<e>       <p><l>diario<b/>Avui<s n="np"/></l>               <r>diari<b/>Avui<s n="np"/></r></p></e>
 <e>       <i>Abellán<s n="np"/></i></e>
 <e>       <i>Suanzes<s n="np"/></i></e>
 <e>       <i>Aparicio<s n="np"/></i></e>
@@ -6330,7 +6342,8 @@
 <e>       <p><l>acondicionamiento<s n="n"/></l>   <r>condicionament<s n="n"/></r></p></e>
 <e>       <p><l>aconfesional<s n="adj"/></l>      <r>aconfessional<s n="adj"/></r></p></e>
 <e>       <p><l>aconsejable<s n="adj"/></l>       <r>aconsellable<s n="adj"/></r></p></e>
-<e>       <p><l>contentar<s n="vblex"/></l>       <r>acontentar<s n="vblex"/></r></p></e>
+<e r="RL">       <p><l>contentar<s n="vblex"/><s n="v2"/></l>       <r>acontentar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>contentar<s n="vblex"/></l>       <r>acontentar<s n="vblex"/></r></p></e>
 <e>       <p><l>acercamiento<s n="n"/></l>        <r>acostament<s n="n"/></r></p></e>
 <e>       <i>Acosta<s n="np"/></i></e>
 <e r="LR"><p><l>achicar<s n="vblex"/></l>         <r>acovardir<s n="vblex"/></r></p></e>
@@ -6459,7 +6472,8 @@
 <e>       <i>agrícola<s n="adj"/></i></e>
 <e>       <i>agricultor<s n="n"/></i></e>
 <e>       <p><l>agrupación<s n="n"/></l>          <r>agrupació<s n="n"/></r></p></e>
-<e>       <i>agrupar<s n="vblex"/></i></e>
+<e r="RL">       <p><l>agrupar<s n="vblex"/><s n="v2"/></l>         <r>agrupar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>agrupar<s n="vblex"/></l>         <r>agrupar<s n="vblex"/></r></p></e>
 <e>       <i>Aguado<s n="np"/></i></e>
 <e>       <i>Aguilar<s n="np"/></i></e>
 <e>       <i>Aguilera<s n="np"/></i></e>
@@ -9378,8 +9392,8 @@
 <e>       <p><l>fríamente<s n="adv"/></l>         <r>fredament<s n="adv"/></r></p></e>
 <e>       <p><l>frialdad<s n="n"/></l>            <r>fredor<s n="n"/></r></p></e>
 <e r="LR"><i>fregar<s n="vblex"/></i></e>
-<e srl="frotar D"><p><l>frotar<s n="vblex"/></l>  <r>fregar<s n="vblex"/></r></p></e>
-<e srl="rozar"><p><l>rozar<s n="vblex"/></l>      <r>fregar<s n="vblex"/></r></p></e>
+<e srl="frotar"><p><l>frotar<s n="vblex"/></l>  <r>fregar<s n="vblex"/></r></p></e>
+<e srl="rozar D"><p><l>rozar<s n="vblex"/></l>      <r>fregar<s n="vblex"/></r></p></e>
 <e>       <i>Freire<s n="np"/></i></e>
 <e>       <p><l>frenético<s n="adj"/></l>         <r>frenètic<s n="adj"/></r></p></e>
 <e>       <p><l>frecuentemente<s n="adv"/></l>    <r>freqüentment<s n="adv"/></r></p></e>
@@ -10195,6 +10209,7 @@
 <e>       <p><l>jardinero<s n="n"/></l>           <r>jardiner<s n="n"/></r></p></e>
 <e>       <i>Jarque<s n="np"/></i></e>
 <e>       <i>Jaume<s n="np"/></i></e>
+<e>       <i>Jaume<b/>I<s n="np"/></i></e>
 <e>       <i>Jáuregui<s n="np"/></i></e>
 <e>       <i>Javier<s n="np"/></i></e>
 <e>       <i>Jean<s n="np"/></i></e>
@@ -11847,7 +11862,8 @@
 <e>       <i>promocionar<s n="vblex"/></i></e>
 <e>       <i>promotor<s n="adj"/></i></e>
 <e>       <i>promotor<s n="n"/></i></e>
-<e>       <p><l>promover<s n="vblex"/></l>        <r>promoure<s n="vblex"/></r></p></e>
+<e r="RL">       <p><l>promover<s n="vblex"/><s n="v2"/></l>        <r>promoure<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>promover<s n="vblex"/></l>        <r>promoure<s n="vblex"/></r></p></e>
 <e>       <i>pro<s n="n"/></i></e>
 <e>       <p><l>pronombre<s n="n"/></l>           <r>pronom<s n="n"/></r></p></e>
 <e v="cat">       <p><l>pronto<s n="adv"/></l>            <r>aviat<s n="adv"/></r></p></e>
@@ -12336,7 +12352,9 @@
 <e>       <p><l>reojo<s n="n"/></l>               <r>reüll<s n="n"/></r></p></e>
 <e>       <p><l>reo<s n="n"/></l>                 <r>reu<s n="n"/></r></p></e>
 <e r="LR"><p><l>allegar<s n="vblex"/></l>         <r>reunir<s n="vblex"/></r></p></e>
-<e>       <i>reunir<s n="vblex"/></i></e>
+<e r="RL"><p><l>reunir<s n="vblex"/><s n="v2"/></l>         <r>reunir<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>reunir<s n="vblex"/></l>         <r>reunir<s n="vblex"/></r></p></e>
+
 <e>       <p><l>reurbanización<s n="n"/></l>      <r>reurbanització<s n="n"/></r></p></e>
 <e>       <i>Reus<s n="np"/></i></e>
 <e>       <p><l>reutilizar<s n="vblex"/></l>      <r>reutilitzar<s n="vblex"/></r></p></e>
@@ -12513,7 +12531,8 @@
 <e>       <i>Santiago<s n="np"/></i></e>
 <e>       <p><l>santuario<s n="n"/></l>           <r>santuari<s n="n"/></r></p></e>
 <e>       <i>Sanz<s n="np"/></i></e>
-<e>       <p><l>saquear<s n="vblex"/></l>         <r>saquejar<s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>saquear<s n="vblex"/></l>         <r>saquejar<s n="vblex"/></r></p></e>
+<e>       <p><l>sanear<s n="vblex"/></l>         <r>sanejar<s n="vblex"/></r></p></e>
 <e>       <p><l>zaragozano<s n="adj"/></l>        <r>saragossà<s n="adj"/></r></p></e>
 <e>       <i>Sarajevo<s n="np"/></i></e>
 <e>       <i>Sara<s n="np"/></i></e>
@@ -32858,7 +32877,7 @@
 <e>       <p><l>dar<g><b/>un<b/>paseo</g><s n="vblex"/></l><r>fer<g><b/>una<b/>passejada</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>un<b/>rodeo</g><s n="vblex"/></l><r>fer<g><b/>marrada</g><s n="vblex"/></r></p></e>
 <e v="cat">       <p><l>dar<g><b/>un<b/>vistazo</g><s n="vblex"/></l><r>fer<g><b/>un<b/>cop<b/>d'ull</g><s n="vblex"/></r></p></e>
-<e v="cat">       <p><l>dar<g><b/>un<b/>vistazo</g><s n="vblex"/></l><r>fer<g><b/>una<b/>ullada</g><s n="vblex"/></r></p></e>
+<e v="val">       <p><l>dar<g><b/>un<b/>vistazo</g><s n="vblex"/></l><r>fer<g><b/>una<b/>ullada</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>vergüenza</g><s n="vblex"/></l><r>fer<g><b/>vergonya</g><s n="vblex"/></r></p></e>
 <e>       <p><l>decaer<g><b/>en<b/>su<b/>derecho</g><s n="vblex"/></l><r>perdre<g><b/>el<b/>dret</g><s n="vblex"/></r></p></e>
 <e>       <p><l>decir<g><b/>ni<b/>jota</g><s n="vblex"/></l><r>dir<g><b/>ni<b/>pruna</g><s n="vblex"/></r></p></e>
@@ -32894,7 +32913,9 @@
 <e>       <p><l>desasosegar<s n="vblex"/></l>     <r>desassossegar<s n="vblex"/></r></p></e>
 <e>       <p><l>desatinar<s n="vblex"/></l>       <r>destarotar<s n="vblex"/></r></p></e>
 <e>       <p><l>desatragantar<s n="vblex"/></l>   <r>desennuegar<s n="vblex"/></r></p></e>
-<e>       <p><l>desautorizar<s n="vblex"/></l>    <r>desautoritzar<s n="vblex"/></r></p></e>
+<e r="RL">       <p><l>desautorizar<s n="vblex"/><s n="v2"/></l>    <r>desautoritzar<s n="vblex"/></r></p></e>
+<e r="LR">       <p><l>desautorizar<s n="vblex"/></l>    <r>desautoritzar<s n="vblex"/></r></p></e>
+
 <e>       <p><l>desbarajustar<s n="vblex"/></l>   <r>esgavellar<s n="vblex"/></r></p></e>
 <e>       <p><l>desbastar<s n="vblex"/></l>       <r>escalabornar<s n="vblex"/></r></p></e>
 <e>       <p><l>desbravar<s n="vblex"/></l>       <r>esbravar<s n="vblex"/></r></p></e>
@@ -32977,7 +32998,7 @@
 <e>       <p><l>echar<g><b/>a<b/>perder</g><s n="vblex"/></l><r>fer<g><b/>malbé</g><s n="vblex"/></r></p></e>
 <e>       <p><l>echar<g><b/>de<b/>menos</g><s n="vblex"/></l><r>trobar<g><b/>a<b/>faltar</g><s n="vblex"/></r></p></e>
 <e>       <p><l>echar<g><b/>el<b/>muerto</g><s n="vblex"/></l><r>carregar<g><b/>el<b/>mort</g><s n="vblex"/></r></p></e>
-<e v="cat">       <p><l>echar<g><b/>una<b/>ojeada</g><s n="vblex"/></l><r>fer<g><b/>una<b/>ullada</g><s n="vblex"/></r></p></e>
+<e v="cat" r="LR">       <p><l>echar<g><b/>una<b/>ojeada</g><s n="vblex"/></l><r>fer<g><b/>un<b/>cop<b/>d'ull</g><s n="vblex"/></r></p></e>
 <e v="val" r="LR">       <p><l>echar<g><b/>una<b/>ojeada</g><s n="vblex"/></l><r>fer<g><b/>una<b/>ullada</g><s n="vblex"/></r></p></e>
 <e>       <p><l>economizar<s n="vblex"/></l>      <r>economitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>ecualizar<s n="vblex"/></l>       <r>equalitzar<s n="vblex"/></r></p></e>
@@ -33324,6 +33345,7 @@
 <e>       <p><l>patentizar<s n="vblex"/></l>      <r>palesar<s n="vblex"/></r></p></e>
 <e>       <p><l>patronear<s n="vblex"/></l>       <r>patronejar<s n="vblex"/></r></p></e>
 <e>       <p><l>pedir<g><b/>peras<b/>al<b/>olmo</g><s n="vblex"/></l><r>demanar<g><b/>la<b/>lluna<b/>en<b/>un<b/>cove</g><s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>pedir<g><b/>lo<b/>contrario</g><s n="vblex"/></l><r>demanar<g><b/>el<b/>contrari</g><s n="vblex"/></r></p></e>
 <e>       <p><l>perder<g><b/>el<b/>sueño</g><s n="vblex"/></l><r>perdre<g><b/>el<b/>son</g><s n="vblex"/></r></p></e>
 <e>       <p><l>perder<g><b/>el<b/>tino</g><s n="vblex"/></l><r>perdre<g><b/>el<b/>senderi</g><s n="vblex"/></r></p></e>
 <e>       <p><l>poner<g><b/>al<b/>fresco</g><s n="vblex"/></l><r>posar<g><b/>a<b/>la<b/>fresca</g><s n="vblex"/></r></p></e>
@@ -33394,6 +33416,7 @@
 <e r="LR">       <p><l>sacar<g><b/>tajada</g><s n="vblex"/></l><r>treure<g><b/>profit</g><s n="vblex"/></r></p></e>
 <e>       <p><l>sacramentar<s n="vblex"/></l>     <r>sagramentar<s n="vblex"/></r></p></e>
 <e>       <p><l>salir<g><b/>adelante</g><s n="vblex"/></l><r>tirar<g><b/>endavant</g><s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>recurrir<g><b/>al<b/>victimismo</g><s n="vblex"/></l><r>tirar<g><b/>de<b/>victimisme</g><s n="vblex"/></r></p></e>
 <e>       <p><l>salpimentar<s n="vblex"/></l>     <r>salpebrar<s n="vblex"/></r></p></e>
 <e>       <p><l>saltar<g><b/>en<b/>pedazos</g><s n="vblex"/></l><r>botar<g><b/>a<b/>trossos</g><s n="vblex"/></r></p></e>
 <e>       <p><l>satanizar<s n="vblex"/></l>       <r>demonitzar<s n="vblex"/></r></p></e>
@@ -33453,6 +33476,8 @@
 <e>       <p><l>ver<g><b/>en<b/>apuros</g><s n="vblex"/></l><r>veure<g><b/>en<b/>un<b/>compromís</g><s n="vblex"/></r></p></e>
 <e>       <p><l>vitalizar<s n="vblex"/></l>       <r>vitalitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>voltear<s n="vblex"/></l>         <r>voltejar<s n="vblex"/></r></p></e>
+<e>       <p><l>devolver<g><b/>el<b/>favor</g><s n="vblex"/></l><r>tornar<g><b/>el<b/>favor</g><s n="vblex"/></r></p></e>
+<e>       <p><l>devolver<g><b/>los<b/>favores</g><s n="vblex"/></l><r>tornar<g><b/>els<b/>favors</g><s n="vblex"/></r></p></e>
 <e>       <p><l>volver<g><b/>a<b/>las<b/>andadas</g><s n="vblex"/></l><r>tornar<g><b/>a<b/>ballar-la</g><s n="vblex"/></r></p></e>
 <e>       <p><l>zambullir<s n="vblex"/></l>       <r>capbussar<s n="vblex"/></r></p></e>
 <e>       <p><l>zurrar<s n="vblex"/></l>          <r>atonyinar<s n="vblex"/></r></p></e>
@@ -33638,6 +33663,7 @@
 <e r="RL"><p><l>estropear<s n="vblex"/></l>       <r>esguerrar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>estropear<s n="vblex"/></l>       <r>espatlar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>flaquear<s n="vblex"/></l>        <r>fer<g><b/>figa</g><s n="vblex"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>apoyar<s n="vblex"/></l>        <r>fer<g><b/>costat</g><s n="vblex"/></r></p></e>
 <e r="RL"><p><l>gemir<s n="vblex"/></l>           <r>gemecar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>hervir<s n="vblex"/></l>          <r>bollir<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>intercambiar<s n="vblex"/></l>    <r>bescanviar<s n="vblex"/></r></p></e>
@@ -39795,6 +39821,7 @@
 <e>       <i>Palao<s n="np"/></i></e>
 <e>       <i>Palasí<s n="np"/></i></e>
 <e>       <i>Palau<b/>de<b/>la<b/>Generalitat<s n="np"/><s n="al"/></i></e>
+<e a="prompsit">       <i>Palau<b/>de<b/>la<b/>Música<s n="np"/><s n="al"/></i></e>
 <e>       <i>Palau<b/>de<b/>Noguera<s n="np"/></i></e>
 <e>       <i>Palau<b/>de<b/>Plegamans<s n="np"/></i></e>
 <e>       <i>Palau<b/>de<b/>Santa<b/>Eulàlia<s n="np"/></i></e>
@@ -42779,7 +42806,313 @@
 <e v="val" a="eleka">       <p><l>ajeno<s n="adj"/></l>            <r>alié<s n="adj"/></r></p></e>
 <e v="val" a="eleka">       <p><l>ameno<s n="adj"/></l>            <r>amé<s n="adj"/></r></p></e>
 
+<e a="prompsit"><p><l>catalanoaragonés<s n="adj"/></l><r>catalanoaragonès<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>semipúblico<s n="adj"/></l><r>semipúblic<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>lobby<s n="n"/></l><r>lobby<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>transaccionar<s n="vblex"/></l><r>transaccionar<s n="vblex"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>sublevación<s n="n"/></l><r>sublevació<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>segador<s n="n"/></l><r>segador<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>roquista<s n="adj"/></l><r>roquista<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>putativo<s n="adj"/></l><r>putatiu<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>inasumible<s n="adj"/></l><r>inassumible<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>concuñado<s n="n"/></l><r>concunyat<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>aquelarre<s n="n"/></l><r>aquelarre<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>anticrisis<s n="adj"/></l><r>anticrisi<s n="adj"/></r></p></e>
 
+<e a="prompsit"><p><l>Godó<s n="np"/></l><r>Godó<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Godó<s n="np"/></l><r>Godó<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Guipuzcoano<s n="np"/></l><r>Guipuzcoano<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Banco<b/>Guipuzcoano<s n="np"/></l><r>Banco<b/>Guipuzcoano<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Spanair<s n="np"/></l><r>Spanair<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Oliu<s n="np"/></l><r>Oliu<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>CEIM<s n="np"/></l><r>CEIM<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Valeriano<s n="np"/></l><r>Valeriano<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Szücs<s n="np"/></l><r>Szücs<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ferrovial<s n="np"/></l><r>Ferrovial<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Suqué<s n="np"/></l><r>Suqué<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cimalsa<s n="np"/></l><r>Cimalsa<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Caminal<s n="np"/></l><r>Caminal<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ametic<s n="np"/></l><r>Ametic<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Volcat<s n="np"/></l><r>Volcat<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Banco<b/>Urquijo<s n="np"/></l><r>Banco<b/>Urquijo<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Urquijo<s n="np"/></l><r>Urquijo<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Lonely<b/>Planet<s n="np"/></l><r>Lonely<b/>Planet<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>SAS<s n="np"/></l><r>SAS<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Lufthansa<s n="np"/></l><r>Lufthansa<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>TVmanía<s n="np"/></l><r>TVmanía<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Tomeu<s n="np"/></l><r>Tomeu<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>TNC<s n="np"/></l><r>TNC<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Solaz<s n="np"/></l><r>Solaz<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>QuèFem<s n="np"/></l><r>QuèFem<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Guifré<b/>el<b/>Pilós<s n="np"/></l><r>Guifré<b/>el<b/>Pilós<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Peronella<s n="np"/></l><r>Peronella<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Osàcar<s n="np"/></l><r>Osàcar<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Millet<s n="np"/></l><r>Millet<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Montull<s n="np"/></l><r>Montull<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>ICF<s n="np"/></l><r>ICF<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Hommen<s n="np"/></l><r>Hommen<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Femcat<s n="np"/></l><r>Femcat<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Fainé<s n="np"/></l><r>Fainé<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Enrech<s n="np"/></l><r>Enrech<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Éamon<s n="np"/></l><r>Éamon<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>CEA<s n="np"/></l><r>CEA<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Carulla<s n="np"/></l><r>Carulla<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cantonigrós<s n="np"/></l><r>Cantonigrós<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Caja<b/>Madrid<s n="np"/></l><r>Caja<b/>Madrid<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Banegas<s n="np"/></l><r>Banegas<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Bondia<s n="np"/></l><r>Bondia<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>CISA<s n="np"/></l><r>CISA<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Faro<s n="np"/></l><r>Faro<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Twitter<s n="np"/></l><r>Twitter<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Sardà<s n="np"/></l><r>Sardà<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Massana<s n="np"/></l><r>Massana<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Bolaño<s n="np"/></l><r>Bolaño<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Barrapunto<s n="np"/></l><r>Barrapunto<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Halloween<s n="np"/></l><r>Halloween<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Boixareu<s n="np"/></l><r>Boixareu<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Boadella<s n="np"/></l><r>Boadella<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>MySpace<s n="np"/></l><r>MySpace<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Amigó<s n="np"/></l><r>Amigó<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>JERC<s n="np"/></l><r>JERC<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Yvan<s n="np"/></l><r>Yvan<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Rascagneres<s n="np"/></l><r>Rascagneres<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Malló<s n="np"/></l><r>Malló<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cataluñas<s n="np"/></l><r>Catalunyes<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>ArtFutura<s n="np"/></l><r>ArtFutura<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Riberaygua<s n="np"/></l><r>Riberaygua<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Bonaventura<s n="np"/></l><r>Bonaventura<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Fibanc<s n="np"/></l><r>Fibanc<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Technorati<s n="np"/></l><r>Technorati<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Gavernera<s n="np"/></l><r>Gavernera<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Engordany<s n="np"/></l><r>Engordany<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Casagran<s n="np"/></l><r>Casagran<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>JSC<s n="np"/></l><r>JSC<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Bartumeu<s n="np"/></l><r>Bartumeu<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Mairena<s n="np"/></l><r>Mairena<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Barack<s n="np"/></l><r>Barack<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Obama<s n="np"/></l><r>Obama<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Trinidad<s n="np"/></l><r>Trinidad<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Maiol<s n="np"/></l><r>Maiol<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Àxel<s n="np"/></l><r>Àxel<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cativistes<s n="np"/></l><r>Cativistes<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Catalunya<b/>Caixa<s n="np"/></l><r>Catalunya<b/>Caixa<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Lapiedra<s n="np"/></l><r>Lapiedra<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Arinsal<s n="np"/></l><r>Arinsal<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Joanot<s n="np"/></l><r>Joanot<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>McDonald<s n="np"/></l><r>McDonald<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Croft<s n="np"/></l><r>Croft<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Junquera<s n="np"/></l><r>Junquera<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Alejo<s n="np"/></l><r>Alejo<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Kung<b/>Fu<s n="np"/></l><r>Kung<b/>Fu<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Rull<s n="np"/></l><r>Rull<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>El<b/>Aaiún<s n="np"/></l><r>Al-Aaiun<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Comella<s n="np"/></l><r>Comella<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ordino<s n="np"/></l><r>Ordino<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Chucho<s n="np"/></l><r>Chucho<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Wikileaks<s n="np"/></l><r>Wikileaks<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Anyós<s n="np"/></l><r>Anyós<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Encamp<s n="np"/></l><r>Encamp<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Wifredo<s n="np"/></l><r>Wifredo<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Carulla<s n="np"/></l><r>Carulla<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Sagardi<s n="np"/></l><r>Sagardi<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Rahola<s n="np"/></l><r>Rahola<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>MCAN<s n="np"/></l><r>MCAN<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>MINNC<s n="np"/></l><r>MINNC<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Andic<s n="np"/></l><r>Andic<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Medal<s n="np"/></l><r>Medal<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Joomla<s n="np"/></l><r>Joomla<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Gold<s n="np"/></l><r>Gold<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Massagué<s n="np"/></l><r>Massagué<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cordon<s n="np"/></l><r>Cordon<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Baselga<s n="np"/></l><r>Baselga<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Boixet<s n="np"/></l><r>Boixet<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Tresserras<s n="np"/></l><r>Tresserras<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>FTSEurofirst<s n="np"/></l><r>FTSEurofirst<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ferret<s n="np"/></l><r>Ferret<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Calafat<s n="np"/></l><r>Calafat<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Bergued<s n="np"/></l><r>Bergued<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Sarri<s n="np"/></l><r>Sarri<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Saül<s n="np"/></l><r>Saül<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Murkowski<s n="np"/></l><r>Murkowski<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Rubiralta<s n="np"/></l><r>Rubiralta<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Adecco<s n="np"/></l><r>Adecco<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Saadouki<s n="np"/></l><r>Saadouki<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Lòria<s n="np"/></l><r>Lòria<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>iPad<s n="np"/></l><r>iPad<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ondas<s n="np"/></l><r>Ondas<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Macias<s n="np"/></l><r>Macias<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Solson<s n="np"/></l><r>Solson<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Wyoming<s n="np"/></l><r>Wyoming<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Donec<s n="np"/></l><r>Donec<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cussà<s n="np"/></l><r>Cussà<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Canturri<s n="np"/></l><r>Canturri<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Premandsa<s n="np"/></l><r>Premandsa<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Fainé<s n="np"/></l><r>Fainé<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Celsa<s n="np"/></l><r>Celsa<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Barbastre<s n="np"/></l><r>Barbastre<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Forcarnera<s n="np"/></l><r>Forcarnera<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Fecinema<s n="np"/></l><r>Fecinema<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Boabdil<s n="np"/></l><r>Boabdil<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ramoneda<s n="np"/></l><r>Ramoneda<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Builles<s n="np"/></l><r>Builles<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Lakers<s n="np"/></l><r>Lakers<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Peñarroya<s n="np"/></l><r>Peñarroya<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Pidasa<s n="np"/></l><r>Pidasa<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Laietana<s n="np"/></l><r>Laietana<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Medes<s n="np"/></l><r>Medes<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Casamajor<s n="np"/></l><r>Casamajor<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Primal<s n="np"/></l><r>Primal<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Bourquin<s n="np"/></l><r>Bourquin<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cameron<s n="np"/></l><r>Cameron<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Costas<s n="np"/></l><r>Costas<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Peri<s n="np"/></l><r>Peri<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Marimón<s n="np"/></l><r>Marimón<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Benedet<s n="np"/></l><r>Benedet<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ponzi<s n="np"/></l><r>Ponzi<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Euroliga<s n="np"/></l><r>Euroliga<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Eurocup<s n="np"/></l><r>Eurocup<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Irestal<s n="np"/></l><r>Irestal<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Estartit<s n="np"/></l><r>Estartit<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Alcatel<s n="np"/></l><r>Alcatel<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Abengoa<s n="np"/></l><r>Abengoa<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Vettel<s n="np"/></l><r>Vettel<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Arag<s n="np"/></l><r>Arag<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cospedal<s n="np"/></l><r>Cospedal<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Braille<s n="np"/></l><r>Braille<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Papandreu<s n="np"/></l><r>Papandreu<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Francino<s n="np"/></l><r>Francino<s n="np"/></r></p></e>
+
+<e a="prompsit"><p><l>Medeiros<s n="np"/></l><r>Medeiros<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Saramago<s n="np"/></l><r>Saramago<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Gonçalves<s n="np"/></l><r>Gonçalves<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Binoche<s n="np"/></l><r>Binoche<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Tobin<s n="np"/></l><r>Tobin<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Gaga<s n="np"/></l><r>Gaga<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Pamela<s n="np"/></l><r>Pamela<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Miley<b/>Cyrus<s n="np"/></l><r>Miley<b/>Cyrus<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Jackass<s n="np"/></l><r>Jackass<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Carla<s n="np"/></l><r>Carla<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Fonseca<s n="np"/></l><r>Fonseca<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cardozo<s n="np"/></l><r>Cardozo<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Shakira<s n="np"/></l><r>Shakira<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Beyoncé<s n="np"/></l><r>Beyoncé<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Fergunson<s n="np"/></l><r>Fergunson<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Scolari<s n="np"/></l><r>Scolari<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Willis<s n="np"/></l><r>Willis<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Freeman<s n="np"/></l><r>Freeman<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Furtado<s n="np"/></l><r>Furtado<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Palin<s n="np"/></l><r>Palin<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Longoria<s n="np"/></l><r>Longoria<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Camila<s n="np"/></l><r>Camila<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Araújo<s n="np"/></l><r>Araújo<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Caetano<s n="np"/></l><r>Caetano<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Queiroz<s n="np"/></l><r>Queiroz<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Freitas<s n="np"/></l><r>Freitas<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Souza<s n="np"/></l><r>Souza<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Nunes<s n="np"/></l><r>Nunes<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Malkovich<s n="np"/></l><r>Malkovich<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cristiano<s n="np"/></l><r>Cristiano<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Kournikova<s n="np"/></l><r>Kournikova<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Koehler<s n="np"/></l><r>Koehler<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Irina<s n="np"/></l><r>Irina<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Carmargo<s n="np"/></l><r>Carmargo<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Saldanha<s n="np"/></l><r>Saldanha<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Jamie<s n="np"/></l><r>Jamie<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Britney<s n="np"/></l><r>Britney<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Antunes<s n="np"/></l><r>Antunes<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Farrell<s n="np"/></l><r>Farrell<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Dilma<s n="np"/></l><r>Dilma<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Mafalda<s n="np"/></l><r>Mafalda<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Spielberg<s n="np"/></l><r>Spielberg<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Albuquerque<s n="np"/></l><r>Albuquerque<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Lincoln<s n="np"/></l><r>Lincoln<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Abreu<s n="np"/></l><r>Abreu<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Socrates<s n="np"/></l><r>Socrates<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Couto<s n="np"/></l><r>Couto<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Herman<s n="np"/></l><r>Herman<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Veloso<s n="np"/></l><r>Veloso<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Simpsons<s n="np"/></l><r>Simpsons<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Whitney<s n="np"/></l><r>Whitney<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Meredith<s n="np"/></l><r>Meredith<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Madoff<s n="np"/></l><r>Madoff<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Wally<s n="np"/></l><r>Wally<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Carina<s n="np"/></l><r>Carina<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Linda<s n="np"/></l><r>Linda<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Strauss<s n="np"/></l><r>Strauss<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Barreiro<s n="np"/></l><r>Barreiro<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Henriques<s n="np"/></l><r>Henriques<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Mendonça<s n="np"/></l><r>Mendonça<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Kahn<s n="np"/></l><r>Kahn<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Maddie<s n="np"/></l><r>Maddie<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Rousseff<s n="np"/></l><r>Rousseff<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Funchal<s n="np"/></l><r>Funchal<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Hero<s n="np"/></l><r>Hero<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cascais<s n="np"/></l><r>Cascais<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Sintra<s n="np"/></l><r>Sintra<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Almada<s n="np"/></l><r>Almada<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Estoril<s n="np"/></l><r>Estoril<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ulrich<s n="np"/></l><r>Ulrich<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>MBA<s n="np"/></l><r>MBA<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Globo<s n="np"/></l><r>Globo<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>PSP <s n="np"/></l><r>PSP <s n="np"/></r></p></e>
+<e a="prompsit"><p><l>SGPS<s n="np"/></l><r>SGPS<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>EDP<s n="np"/></l><r>EDP<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>SportTV<s n="np"/></l><r>SportTV<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Soccer<s n="np"/></l><r>Soccer<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Controlinveste<s n="np"/></l><r>Controlinveste<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Euronext<s n="np"/></l><r>Euronext<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Presslivre<s n="np"/></l><r>Presslivre<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Hangseng<s n="np"/></l><r>Hangseng<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Galp<s n="np"/></l><r>Galp<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Bovespa<s n="np"/></l><r>Bovespa<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Millennium<s n="np"/></l><r>Millennium<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Moses<s n="np"/></l><r>Moses<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ferguson<s n="np"/></l><r>Ferguson<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Edisport<s n="np"/></l><r>Edisport<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ibersol<s n="np"/></l><r>Ibersol<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>BPN<s n="np"/></l><r>BPN<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cartoon<s n="np"/></l><r>Cartoon<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Autoeuropa<s n="np"/></l><r>Autoeuropa<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Orkut<s n="np"/></l><r>Orkut<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>AIP<s n="np"/></l><r>AIP<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>BPP<s n="np"/></l><r>BPP<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Tommy Hilfiger<s n="np"/></l><r>Tommy Hilfiger<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Boss<s n="np"/></l><r>Boss<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>VIP<s n="np"/></l><r>VIP<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>PPR<s n="np"/></l><r>PPR<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>PGR<s n="np"/></l><r>PGR<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>BdP<s n="np"/></l><r>BdP<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Anacom<s n="np"/></l><r>Anacom<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Protec<s n="np"/></l><r>Protec<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Masters<s n="np"/></l><r>Masters<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Saraiva<s n="np"/></l><r>Saraiva<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Cartoon<s n="np"/></l><r>Cartoon<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Compal<s n="np"/></l><r>Compal<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Atrium<s n="np"/></l><r>Atrium<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Juncker<s n="np"/></l><r>Juncker<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Rolls Royce<s n="np"/></l><r>Rolls Royce<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Bettencourt<s n="np"/></l><r>Bettencourt<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Freeport<s n="np"/></l><r>Freeport<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Champions<s n="np"/></l><r>Champions<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ecofin<s n="np"/></l><r>Ecofin<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Gekko<s n="np"/></l><r>Gekko<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Finibanco<s n="np"/></l><r>Finibanco<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Hezbollah<s n="np"/></l><r>Hezbollah<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>RAI<s n="np"/></l><r>RAI<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Audi<s n="np"/></l><r>Audi<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Primus<s n="np"/></l><r>Primus<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Lloyds<s n="np"/></l><r>Lloyds<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Ryder<s n="np"/></l><r>Ryder<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Panathinaikos<s n="np"/></l><r>Panathinaikos<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Louren<s n="np"/></l><r>Louren<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Westwood<s n="np"/></l><r>Westwood<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>PlayStation<s n="np"/></l><r>PlayStation<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>DAX<s n="np"/></l><r>DAX<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Wikipedia<s n="np"/></l><r>Wikipedia<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>PrivatBank<s n="np"/></l><r>PrivatBank<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Lindstrom<s n="np"/></l><r>Lindstrom<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Autom<s n="np"/></l><r>Autom<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Forbes<s n="np"/></l><r>Forbes<s n="np"/></r></p></e>
 
 
 

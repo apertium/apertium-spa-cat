@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> <!-- -*- nxml -*- -->
+<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
 <transfer>
   <section-def-cats>
     <def-cat n="nom">
@@ -131,12 +131,14 @@
     <def-cat n="num">
       <cat-item tags="num.*"/>
     </def-cat>
+
     <def-cat n="xifra">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
     </def-cat>
-    <def-cat n="número">
-      <cat-item lemma="número" tags="n.m.sg"/>
+
+    <def-cat n="nnumero">
+      <cat-item lemma="nÃºmero" tags="n.m.sg"/>
     </def-cat>
     
     <def-cat n="en">
@@ -223,7 +225,7 @@
 
     <def-cat n="verbospron">
       <cat-item lemma="caer" tags="vblex.*"/>
-      <cat-item lemma="reír" tags="vblex.*"/>
+      <cat-item lemma="reÃ­r" tags="vblex.*"/>
       <cat-item lemma="callar" tags="vblex.*"/>
       <cat-item lemma="asomarse" tags="vblex.*"/>
       <cat-item lemma="asomar" tags="vblex.*"/> 
@@ -232,15 +234,14 @@
 
     <def-cat n="verbospron_pp">
       <cat-item lemma="caer" tags="vblex.pp.*"/>
-      <cat-item lemma="reír" tags="vblex.pp.*"/>
+      <cat-item lemma="reÃ­r" tags="vblex.pp.*"/>
       <cat-item lemma="callar" tags="vblex.pp.*"/>
       <cat-item lemma="asomarse" tags="vblex.pp.*"/>
       <cat-item lemma="afanar# en" tags="vblex.pp.*"/> 
     </def-cat>
 
-    
-    <def-cat n="ser_de_aplicación">
-      <cat-item lemma="ser# de aplicación" tags="vbser.*"/>
+        <def-cat n="ser_de_aplicacion">
+      <cat-item lemma="ser# de aplicaciÃ³n" tags="vbser.*"/>
     </def-cat>
     <def-cat n="poder">
       <cat-item lemma="poder" tags="vbmod.*"/>
@@ -252,14 +253,14 @@
     <def-cat n="dies">
       <cat-item lemma="lunes" tags="n.m.sp"/>
       <cat-item lemma="martes" tags="n.m.sp"/>
-      <cat-item lemma="miércoles" tags="n.m.sp"/>
+      <cat-item lemma="miÃ©rcoles" tags="n.m.sp"/>
       <cat-item lemma="jueves" tags="n.m.sp"/>
       <cat-item lemma="viernes" tags="n.m.sp"/>
-      <cat-item lemma="sábado" tags="n.m.sg"/>
+      <cat-item lemma="sÃ¡bado" tags="n.m.sg"/>
       <cat-item lemma="domingo" tags="n.m.sg"/>
     </def-cat>
     <def-cat n="matitarda">
-      <cat-item lemma="mañana" tags="n.f.sg"/>
+      <cat-item lemma="maÃ±ana" tags="n.f.sg"/>
       <cat-item lemma="tarde" tags="n.f.sg"/>
     </def-cat>
     <def-cat n="cm">
@@ -472,21 +473,21 @@
       <list-item v="lalala"/>
     </def-list>
     <def-list n="locatiu">
-      <list-item v="món"/>
+      <list-item v="mÃ³n"/>
       <list-item v="seu"/>
       <list-item v="base"/>
       <list-item v="ascensor"/>
       <list-item v="carrer"/>
-      <list-item v="plaça"/>
+      <list-item v="plaÃ§a"/>
       <list-item v="mercat"/>
       <list-item v="zona"/>
-      <list-item v="àrea"/>
+      <list-item v="Ã rea"/>
       <list-item v="comarca"/>
       <list-item v="barri"/>
       <list-item v="ciutat"/>
-      <list-item v="província"/>
+      <list-item v="provÃ­ncia"/>
       <list-item v="illa"/>
-      <list-item v="país"/>
+      <list-item v="paÃ­s"/>
       <list-item v="planeta"/>
       <list-item v="parlament"/>
       <list-item v="casa"/>
@@ -494,26 +495,26 @@
       <list-item v="universitat"/>
       <list-item v="roba"/>
       <list-item v="escola"/>
-      <list-item v="congrés"/>
+      <list-item v="congrÃ©s"/>
       <list-item v="domicili"/>
-      <list-item v="urbanització"/>
-      <list-item v="presó"/>
-      <list-item v="fàbrica"/>
+      <list-item v="urbanitzaciÃ³"/>
+      <list-item v="presÃ³"/>
+      <list-item v="fÃ brica"/>
       <list-item v="muntanya"/>
       <list-item v="cambra"/>
-      <list-item v="habitació"/>
+      <list-item v="habitaciÃ³"/>
       <list-item v="vall"/>
       <list-item v="frontera"/>
       <list-item v="castell"/>
       <list-item v="sala"/>
-      <list-item v="declaració"/>
-      <list-item v="església"/>
+      <list-item v="declaraciÃ³"/>
+      <list-item v="esglÃ©sia"/>
       <list-item v="festa"/>
       <list-item v="esplanada"/>
       <list-item v="mercat"/>
       <list-item v="internet"/>
       <list-item v="ajuntament"/>
-      <list-item v="polígon"/>
+      <list-item v="polÃ­gon"/>
       <list-item v="auditori"/>
       <list-item v="estranger"/>
       <list-item v="poble"/>
@@ -522,7 +523,7 @@
       <list-item v="terra"/>
       <list-item v="torre"/>
       <list-item v="pati"/>
-      <list-item v="programació"/>
+      <list-item v="programaciÃ³"/>
       <list-item v="programa"/>
       <list-item v="aula"/>
       <list-item v="edifici"/>
@@ -544,16 +545,16 @@
       <list-item v="cinema"/>
       <list-item v="apartament"/>
       <list-item v="platja"/>
-      <list-item v="pàgina"/>
-      <list-item v="mà"/>
+      <list-item v="pÃ gina"/>
+      <list-item v="mÃ "/>
       <list-item v="campus"/>
       <list-item v="territori"/>
       <list-item v="UOC"/>
       <list-item v="xarxa"/>
       <list-item v="parc"/>
       <list-item v="dutxa"/>
-      <list-item v="regió"/>
-      <list-item v="catàleg"/> <!-- a="mireiafarrus" -->
+      <list-item v="regiÃ³"/>
+      <list-item v="catÃ leg"/> <!-- a="mireiafarrus" -->
       <list-item v="biblioteca"/> <!-- a="mireiafarrus" -->
 
     </def-list>
@@ -740,7 +741,7 @@
 		</get-case-from>
 	      </let>
 	    </when> -->
-	    <when><!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
+	    <when><!--en els sintagmes nominals, la preposiciÃ³ 'para' es tradueix sempre com a 'per a' -->
 	      <test>
 		<equal caseless="yes">
 		  <clip pos="1" side="sl" part="lem"/>
@@ -774,7 +775,7 @@
 
     </def-macro>
 
-    <def-macro n="f_preps_det" npar="3"><!--parámetro 3 = determinante. El único cambio respecto de f_preps es que (sólo para catalán, no para valenciano) se cambia la preposición 'en' por 'a' delante de det + nombre, excepto si el determinante es  'aquest/aquell/un/algun/altre'. La preposición 'en' no se cambia por 'a' en el resto de sintagmas nominales.-->
+    <def-macro n="f_preps_det" npar="3"><!--parÃ¡metro 3 = determinante. El Ãºnico cambio respecto de f_preps es que (sÃ³lo para catalÃ¡n, no para valenciano) se cambia la preposiciÃ³n 'en' por 'a' delante de det + nombre, excepto si el determinante es  'aquest/aquell/un/algun/altre'. La preposiciÃ³n 'en' no se cambia por 'a' en el resto de sintagmas nominales.-->
       <choose> 
 	<when>
 	  <test>
@@ -859,7 +860,7 @@
 		</get-case-from>
 	      </let>
 	    </when>
-	    <when><!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
+	    <when><!--en els sintagmes nominals, la preposiciÃ³ 'para' es tradueix sempre com a 'per a' -->
 	      <test>
 		<equal caseless="yes">
 		  <clip pos="1" side="sl" part="lem"/>
@@ -893,7 +894,7 @@
 
     </def-macro>
 
-    <def-macro n="f_bcond" npar="1"><!--Para mirar si el blanco contiene o no formato. Hay que poner esta función en las reglas en que desaparezca alguna palabra, con tal de decidir si el blanco de la palabra eliminada debe eliminarse también o conservarse. Si contiene formato hay que conservarla, si no contiene formato hay que eliminarla para que no aparezcan dos espacios seguidos. -->
+    <def-macro n="f_bcond" npar="1"><!--Para mirar si el blanco contiene o no formato. Hay que poner esta funciÃ³n en las reglas en que desaparezca alguna palabra, con tal de decidir si el blanco de la palabra eliminada debe eliminarse tambiÃ©n o conservarse. Si contiene formato hay que conservarla, si no contiene formato hay que eliminarla para que no aparezcan dos espacios seguidos. -->
       <choose>
 	<when>
 	  <test>
@@ -913,7 +914,7 @@
 
 
 
-    <def-macro n="f_pretind" npar="1"><!--Para traducir el pretérito indefinido por la forma perifrástica (dije - vaig dir) y enviar el verbo. Debe ponerse en todas las reglas en las que aparezca un verbo vblex, vbmod o vbser -->
+    <def-macro n="f_pretind" npar="1"><!--Para traducir el pretÃ©rito indefinido por la forma perifrÃ¡stica (dije - vaig dir) y enviar el verbo. Debe ponerse en todas las reglas en las que aparezca un verbo vblex, vbmod o vbser -->
       <call-macro n="f_tipusverb">
 	<with-param pos="1"/>
       </call-macro>
@@ -998,7 +999,7 @@
 	  <test>
 	    <equal caseless="yes">
 	      <clip pos="1" side ="tl" part="lem"/>
-	      <lit v="mitjà"/>
+	      <lit v="mitjÃ "/>
 	    </equal>	  
 	  </test>
 	  <let>
@@ -1012,7 +1013,7 @@
 	  <test>
 	    <equal caseless="yes">
 	      <clip pos="1" side ="sl" part="lem"/>
-	      <lit v="pequeño"/>
+	      <lit v="pequeÃ±o"/>
 	    </equal>	  
 	  </test>
 	  <let>
@@ -1026,7 +1027,7 @@
     </def-macro>
 
 
-    <def-macro n="f_llamado" npar="1"><!--'una molécula llamada' - el tagger debería escoger el adj, pero si escoge vblex.pp (llamar), entonces hay que cambiar la traducción para que diga 'anomenada' -->
+    <def-macro n="f_llamado" npar="1"><!--'una molÃ©cula llamada' - el tagger deberÃ­a escoger el adj, pero si escoge vblex.pp (llamar), entonces hay que cambiar la traducciÃ³n para que diga 'anomenada' -->
       <choose>
 	<when>
 	  <test>
@@ -3298,7 +3299,7 @@
       </action>
     </rule>
     
-     <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: La nube es roja - El núvol és vermell-->
+     <rule> <!-- REGLA NOVA 2: DET NOM VERB ADJECTIU: La nube es roja - El nÃºvol Ã©s vermell-->
        <pattern>
  	<pattern-item n="det"/>
  	<pattern-item n="nom"/>
@@ -3341,7 +3342,7 @@
 		</not>
 	      </and>
 	    </test>
-	    <let><!--el dinero es - els diners són -->
+	    <let><!--el dinero es - els diners sÃ³n -->
 	      <clip pos="3" side="tl" part="nbr"/>
 	      <clip pos="2" side="tl" part="nbr"/>
 	    </let>
@@ -3632,7 +3633,7 @@
 		  <and>
 		    <equal caseless="yes">
 		      <clip pos="2" side="sl" part="lem"/>
-		      <lit v="próximo"/>
+		      <lit v="prÃ³ximo"/>
 		    </equal>
 		    <equal>
 		      <clip pos="2" side="sl" part="nbr"/>
@@ -3651,7 +3652,7 @@
 		<test>
 		  <equal caseless="yes">
 		    <clip pos="2" side="sl" part="lem"/>
-		    <lit v="próximo"/>
+		    <lit v="prÃ³ximo"/>
 		  </equal>
 		</test>
 		<let>
@@ -4764,7 +4765,7 @@
 		  <and>
 		    <equal caseless="yes">
 		      <clip pos="3" side="sl" part="lem"/>
-		      <lit v="próximo"/>
+		      <lit v="prÃ³ximo"/>
 		    </equal>
 		    <equal>
 		      <clip pos="3" side="sl" part="nbr"/>
@@ -4783,7 +4784,7 @@
 		<test>
 		  <equal caseless="yes">
 		    <clip pos="3" side="sl" part="lem"/>
-		    <lit v="próximo"/>
+		    <lit v="prÃ³ximo"/>
 		  </equal>
 		</test>
 		<let>
@@ -5557,7 +5558,7 @@
 	      </lu>
 	      <b pos ="1"/>
 	      <lu>
-		<lit v="què"/>
+		<lit v="quÃ¨"/>
 		<clip pos="2" side="sl" part="a_que"/>
 	      </lu>
 	    </out>
@@ -5574,7 +5575,7 @@
 	<pattern-item n="que"/>
       </pattern>
       <action>
-	<choose><!-- aquí no eliminem la prep 'amb' con en la regla anterior, pq pot portar a més errors i no està massa clar ; es pot canviar en un futur si el tagger funciona bé -->
+	<choose><!-- aquÃ­ no eliminem la prep 'amb' con en la regla anterior, pq pot portar a mÃ©s errors i no estÃ  massa clar ; es pot canviar en un futur si el tagger funciona bÃ© -->
 	  <when>
 	    <test>
 	      <equal>
@@ -5584,7 +5585,7 @@
 	    </test>
 	    <let>
 		<clip pos="2" side="tl" part="lem"/>
-		<lit v="què"/>
+		<lit v="quÃ¨"/>
 	    </let>
 	  </when>
 	</choose>
@@ -5686,7 +5687,7 @@
 	 </rule> -->
     
 
-    <rule> <!--REGLA: VERB (per a multiparaules sense enclítics)-->
+    <rule> <!--REGLA: VERB (per a multiparaules sense enclÃ­tics)-->
       <pattern>
 	<pattern-item n="verb"/>
       </pattern>
@@ -5711,7 +5712,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC -->
+    <rule> <!--REGLA: VERB + ENCLÃTIC -->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5720,7 +5721,7 @@
 	<call-macro n="f_tipusverb">
 	  <with-param pos="1"/>
 	</call-macro>   
-	<choose><!-- véase : vegeu -->
+	<choose><!-- vÃ©ase : vegeu -->
 	  <when>
 	    <test>
 	      <and>
@@ -5790,7 +5791,7 @@
     </rule>
 
 
-    <rule> <!--REGLA: VERB + ENCLÍTIC + ENCLÍTIC-->
+    <rule> <!--REGLA: VERB + ENCLÃTIC + ENCLÃTIC-->
       <pattern>
 	<pattern-item n="verb"/>
 	<pattern-item n="prnenc"/>
@@ -5958,7 +5959,7 @@
       </action>
     </rule>
 
- <rule> <!--REGLA: prep "al" + haber_inf + pp (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver"). Se hace esta regla porque sino, entra por la regla anterior y traduce (en haver-hi fet)-->
+ <rule> <!--REGLA: prep "al" + haber_inf + pp (para cambiar la traducciÃ³n de la 3Âª persona ("haver-hi") por la traducciÃ³n del verbo "haver" en forma auxiliar ("haver"). Se hace esta regla porque sino, entra por la regla anterior y traduce (en haver-hi fet)-->
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="el"/>
@@ -7381,7 +7382,7 @@
       </action>
     </rule>
     
-    <rule> <!--REGLA: elimina el signo de apertura ¿ y ¡ -->
+    <rule> <!--REGLA: elimina el signo de apertura Â¿ y Â¡ -->
       <pattern>
 	<pattern-item n="lquest"/>
       </pattern>
@@ -7393,7 +7394,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: HABER 3ª persona + PP (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver")-->
+    <rule> <!--REGLA: HABER 3Âª persona + PP (para cambiar la traducciÃ³n de la 3Âª persona ("haver-hi") por la traducciÃ³n del verbo "haver" en forma auxiliar ("haver")-->
       <pattern>
 	<pattern-item n="haber3p"/>
 	<pattern-item n="pp_nohaber"/>
@@ -7436,7 +7437,7 @@
 		  <clip pos="2" side="sl" part="persona"/>
 		</equal>
 		<and>
-		  <equal><!--Trampeta: perquè de vegades el tagger s'equivoca amb el gènere de "llamaba" (p1 o p3) -->
+		  <equal><!--Trampeta: perquÃ¨ de vegades el tagger s'equivoca amb el gÃ¨nere de "llamaba" (p1 o p3) -->
 		    <clip pos="1" side="sl" part="persona"/>
 		    <lit-tag v="p3"/>
 		  </equal>
@@ -7492,13 +7493,13 @@
     </rule> 
 
 
-    <rule> <!-- Verbos pronominales en español y no pronominales en catalán. Los pronombres enclíticos (pospuestos) se eliminan a través del diccionario catalán -->
+    <rule> <!-- Verbos pronominales en espaÃ±ol y no pronominales en catalÃ¡n. Los pronombres enclÃ­ticos (pospuestos) se eliminan a travÃ©s del diccionario catalÃ¡n -->
       <pattern>
 	<pattern-item n="prnproref"/>
 	<pattern-item n="verbospron"/>
       </pattern>
       <action>
-	<choose><!--Si la persona del pronombre y el verbo concuerdan, no envíes el pronombre -->
+	<choose><!--Si la persona del pronombre y el verbo concuerdan, no envÃ­es el pronombre -->
 	  <when>
 	    <test>
 	      <or>
@@ -7507,7 +7508,7 @@
 		  <clip pos="2" side="sl" part="persona"/>
 		</equal>
 		<and>
-		  <equal><!--Trampeta: perquè de vegades el tagger s'equivoca amb la persona de "caía" (p1 o p3) -->
+		  <equal><!--Trampeta: perquÃ¨ de vegades el tagger s'equivoca amb la persona de "caÃ­a" (p1 o p3) -->
 		    <clip pos="1" side="sl" part="persona"/>
 		    <lit-tag v="p3"/>
 		  </equal>
@@ -7518,14 +7519,14 @@
 		</and>
 	      </or>
 	    </test>
-	    <call-macro n="f_bcond"><!--Envía el blanco sólo si tiene formato -->
+	    <call-macro n="f_bcond"><!--EnvÃ­a el blanco sÃ³lo si tiene formato -->
 	      <with-param pos="1"/>
 	    </call-macro>   
-	    <call-macro n="f_pretind"><!--Traduce el pretérito indefinido si es el caso y envía el verbo -->
+	    <call-macro n="f_pretind"><!--Traduce el pretÃ©rito indefinido si es el caso y envÃ­a el verbo -->
 	      <with-param pos="2"/>
 	    </call-macro> 
 	  </when>
-	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envíalo todo -->
+	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envÃ­alo todo -->
 	    <out>
 	      <lu>
 		<clip pos="1" side="tl" part="whole"/>
@@ -7540,7 +7541,7 @@
       </action>
     </rule> 
 
-    <rule> <!-- Verbos pronominales en español y no pronominales en catalán--><!--los pronombres enclíticos (pospuestos) se eliminan a través del diccionario catalán -->
+    <rule> <!-- Verbos pronominales en espaÃ±ol y no pronominales en catalÃ¡n--><!--los pronombres enclÃ­ticos (pospuestos) se eliminan a travÃ©s del diccionario catalÃ¡n -->
       <pattern>
 	<pattern-item n="prnproref"/>
 	<pattern-item n="haber"/>
@@ -7548,7 +7549,7 @@
       </pattern>
       <action>
 	<choose>
-	  <when><!--Si la persona del pronombre y el verbo concuerdan, no envíes el pronombre -->
+	  <when><!--Si la persona del pronombre y el verbo concuerdan, no envÃ­es el pronombre -->
 	    <test>
 	      <or>
 		<equal>
@@ -7556,7 +7557,7 @@
 		  <clip pos="2" side="sl" part="persona"/>
 		</equal>
 		<and>
-		  <equal><!--Trampeta: perquè de vegades el tagger s'equivoca amb el gènere de "había" (p1 o p3) -->
+		  <equal><!--Trampeta: perquÃ¨ de vegades el tagger s'equivoca amb el gÃ¨nere de "habÃ­a" (p1 o p3) -->
 		    <clip pos="1" side="sl" part="persona"/>
 		    <lit-tag v="p3"/>
 		  </equal>
@@ -7574,7 +7575,7 @@
 	    <out>	 
 	      <lu>    
 		<clip pos="2" side="tl" part="lem"/>
-		<lit-tag v="vaux"/><!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+		<lit-tag v="vaux"/><!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3Âª persona -->
 		<clip pos="2" side="tl" part="temps"/>
 		<clip pos="2" side="tl" part="persona"/>
 		<clip pos="2" side="tl" part="nbr"/>
@@ -7590,7 +7591,7 @@
 	      </lu>
 	    </out>
 	  </when>
-	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envíalo todo -->
+	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envÃ­alo todo -->
 	    <out>
 	      <lu>
 		<clip pos="1" side="tl" part="whole"/>
@@ -7621,7 +7622,7 @@
       </action>
     </rule> 
 
-    <rule> <!-- Verbos pronominales en español y no pronominales en catalán--><!--los pronombres enclíticos (pospuestos) se eliminan a través del diccionario catalán -->
+    <rule> <!-- Verbos pronominales en espaÃ±ol y no pronominales en catalÃ¡n--><!--los pronombres enclÃ­ticos (pospuestos) se eliminan a travÃ©s del diccionario catalÃ¡n -->
       <pattern>
 	<pattern-item n="prnproref3"/>
 	<pattern-item n="prnproobj"/>
@@ -7643,7 +7644,7 @@
       </action>
     </rule> 
 
-    <rule> <!-- Verbos pronominales en español y no pronominales en catalán--><!--los pronombres enclíticos (pospuestos) se eliminan a través del diccionario catalán -->
+    <rule> <!-- Verbos pronominales en espaÃ±ol y no pronominales en catalÃ¡n--><!--los pronombres enclÃ­ticos (pospuestos) se eliminan a travÃ©s del diccionario catalÃ¡n -->
       <pattern>
 	<pattern-item n="prnproref3"/>
 	<pattern-item n="prnproobj"/>
@@ -7681,7 +7682,7 @@
     </rule> 
 
 
-  <rule> <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+  <rule> <!--REGLA: perÃ­frasis verbales: VENIR + GER (ser)-->
       <pattern>
 	<pattern-item n="venir"/>
 	<pattern-item n="ger"/>
@@ -7728,7 +7729,7 @@
       </action>
   </rule>
 
-    <rule> <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+    <rule> <!--REGLA: perÃ­frasis verbales: VENIR + GER (ser)-->
       <pattern>
 	<pattern-item n="venir"/>
 	<pattern-item n="ger"/>
@@ -7793,7 +7794,7 @@
   </rule>
 
 
-  <rule> <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+  <rule> <!--REGLA: perÃ­frasis verbales: VENIR + GER (ser)-->
       <pattern>
 	<pattern-item n="venir"/>
 	<pattern-item n="ger"/>
@@ -8023,15 +8024,15 @@
 </rule>
 
 
-<rule> <!-- REGLA: número + cifra -> número + xifra (en comptes de 'nombre') -->
+<rule> <!-- REGLA: nÃºmero + cifra -> nÃºmero + xifra (en comptes de 'nombre') -->
   <pattern>
-    <pattern-item n="número"/>
+    <pattern-item n="nnumero"/>
     <pattern-item n="xifra"/>
   </pattern>
   <action>
     <let>
       <clip pos="1" side="tl" part="lem"/>
-      <lit v="número"/>
+      <lit v="nÃºmero"/>
     </let>
     <choose>
       <when>
@@ -8063,13 +8064,13 @@
  <rule> <!-- REGLA: DETERMINANT NOM -->
       <pattern>
 	<pattern-item n="det"/>
-	<pattern-item n="número"/>
+	<pattern-item n="nnumero"/>
 	<pattern-item n="xifra"/>
       </pattern>
       <action>
 	<let>
 	  <clip pos="2" side="tl" part="lem"/>
-	  <lit v="número"/>
+	  <lit v="nÃºmero"/>
 	</let>  
 	<choose>
 	  <when>
@@ -8106,13 +8107,13 @@
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
-	<pattern-item n="número"/>
+	<pattern-item n="nnumero"/>
 	<pattern-item n="xifra"/>
       </pattern>
       <action>	
 	<let>
 	  <clip pos="3" side="tl" part="lem"/>
-	  <lit v="número"/>
+	  <lit v="nÃºmero"/>
 	</let>  
 	<call-macro n="f_preps_det">
 	  <with-param pos="1"/>
@@ -8151,9 +8152,9 @@
     </rule>
 
 
- <rule> <!-- REGLA: ser de aplicación + ADJ (perquè els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-->
+ <rule> <!-- REGLA: ser de aplicaciÃ³n + ADJ (perquÃ¨ els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-->
       <pattern>
-	<pattern-item n="ser_de_aplicación"/>
+	<pattern-item n="ser_de_aplicacion"/>
 	<pattern-item n="adjec"/>
       </pattern>
       <action>
@@ -8186,7 +8187,7 @@
 	  </lu>
 	  <b/>
 	  <lu>
-	    <lit v="aplicació"/>
+	    <lit v="aplicaciÃ³"/>
 	    <lit-tag v="n.f.sg"/>
 	  </lu>
 	  <b pos="1"/>
@@ -8198,7 +8199,7 @@
 </rule>
 	  
 
- <rule alt="val"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'podían y debían' per 'podien i devien' en comptes de 'podien i havien de'-->
+ <rule alt="val"> <!-- REGLA: els del servei lingÃ¼Ã­stic UA volen que tradueixi 'podÃ­an y debÃ­an' per 'podien i devien' en comptes de 'podien i havien de'-->
       <pattern>
 	<pattern-item n="poder"/>
 	<pattern-item n="cnjcoo"/>
@@ -8225,7 +8226,7 @@
       </action>
 </rule>
 	  
-<rule alt="val"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'dilluns + de + matí'-->
+<rule alt="val"> <!-- REGLA: els del servei lingÃ¼Ã­stic UA volen que tradueixi 'dilluns + de + matÃ­'-->
       <pattern>
 	<pattern-item n="dies"/>
 	<pattern-item n="matitarda"/>

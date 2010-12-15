@@ -319,7 +319,7 @@
 
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
-      <attr-item tags="vblex.v2"/>
+     <!-- <attr-item tags="vblex.v2"/>-->
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
       <attr-item tags="vbmod"/>
@@ -331,7 +331,7 @@
 
     <def-attr n="a_inf">
       <attr-item tags="vblex.inf"/>
-      <attr-item tags="vblex.v2.inf"/>
+<!--      <attr-item tags="vblex.v2.inf"/>-->
       <attr-item tags="vbser.inf"/>
       <attr-item tags="vbhaver.inf"/>
       <attr-item tags="vbmod.inf"/>
@@ -339,21 +339,21 @@
 
     <def-attr n="a_infnm">
       <attr-item tags="vblex.inf"/>
-      <attr-item tags="vblex.v2.inf"/>
+<!--      <attr-item tags="vblex.v2.inf"/>-->
       <attr-item tags="vbser.inf"/>
       <attr-item tags="vbhaver.inf"/>
     </def-attr>
 
     <def-attr n="a_infnh">
       <attr-item tags="vblex.inf"/>
-      <attr-item tags="vblex.v2.inf"/>
+<!--      <attr-item tags="vblex.v2.inf"/>-->
       <attr-item tags="vbser.inf"/>
       <attr-item tags="vbmod.inf"/>
     </def-attr>
 
     <def-attr n="a_pp">
       <attr-item tags="vblex.pp"/>
-      <attr-item tags="vblex.v2.pp"/>
+<!--      <attr-item tags="vblex.v2.pp"/>-->
       <attr-item tags="vbser.pp"/>
       <attr-item tags="vbhaver.pp"/>
       <attr-item tags="vbmod.pp"/>
@@ -445,6 +445,9 @@
     <def-list n="huma">
       <list-item v="chico"/>
       <list-item v="niño"/>
+      <list-item v="menor"/>      
+      <list-item v="administración"/>
+      <list-item v="empresa"/>
     </def-list>
     <def-list n="verbs_moviment">
       <list-item v="anar"/>
@@ -469,6 +472,8 @@
       <list-item v="regressar"/>
       <list-item v="arribar"/>
       <list-item v="marxar"/>
+      <list-item v="enviar"/>
+      <list-item v="fer #costat"/>
     </def-list>
     
     <def-list n="verbs_estat">
@@ -521,7 +526,7 @@
       <list-item v="ascensor"/>
       <list-item v="carrer"/>
       <list-item v="plaça"/>
-      <list-item v="mercat"/>
+ <!--     <list-item v="mercat"/>-->
       <list-item v="zona"/>
       <list-item v="àrea"/>
       <list-item v="comarca"/>
@@ -553,7 +558,6 @@
       <list-item v="església"/>
       <list-item v="festa"/>
       <list-item v="esplanada"/>
-      <list-item v="mercat"/>
       <list-item v="internet"/>
       <list-item v="ajuntament"/>
       <list-item v="polígon"/>
@@ -808,6 +812,8 @@
 	      <lit v="de"/>
 	    </equal>
 	  </test>
+	 
+	 
 	  <choose>
 	    <when>
 	      <test>
@@ -830,9 +836,9 @@
 		<lit v="de"/>
 	      </let>
 	    </otherwise>
-	  </choose>
-	  
+	  </choose>	  
 	</when>
+
 	<when>
 	  <test>
 	    <equal caseless="yes">
@@ -866,8 +872,7 @@
 		      </equal>
 		    </not>
 		  </and>
-		</or>
-		
+		</or>		
 	      </test>
 	      <let>
 		<clip pos="1" side="tl" part="lem"/>
@@ -6179,7 +6184,7 @@
 	<call-macro n="f_tipusverb">
 	  <with-param pos="1"/>
 	</call-macro>
-	<out>                
+	<out>        
 	  <lu>
 	    <clip pos="1" side="tl" part="lemh"/>
 	    <clip pos="1" side="tl" part="a_verb"/>
@@ -6478,7 +6483,8 @@
 	  <b pos="1"/>	   
 	  <lu>
 	    <clip pos="2" side="tl" part="lemh"/>
-	    <clip pos="2" side="tl" part="tags"/>
+            <clip pos="2" side="tl" part="a_verb"/>            
+            <clip pos="2" side="tl" part="temps"/>
 	    <clip pos="2" side="tl" part="lemq"/>
 	  </lu>
 	</out>

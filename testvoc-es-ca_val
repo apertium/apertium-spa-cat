@@ -5,9 +5,9 @@ FILTERTAG="<prn><enc>"
 
 # FASE 1
 echo "=======================";
-echo "Comprovació superficial";
+echo "ComprovaciÃ³ superficial";
 echo "=======================";
-echo -n "Calculant expansió inicial...";
+echo -n "Calculant expansiÃ³ inicial...";
 # if [ -e $PREFIX.$1.metadix ];
 #then xsltproc buscaPar.xsl $PREFIX.$1.metadix | uniq > tmp1gen.xsl 	 
 #     xsltproc tmp1gen.xsl $PREFIX.$1.metadix >$PREFIX.$1.dixtmp1 
@@ -18,7 +18,7 @@ echo -n "Calculant expansió inicial...";
 lt-expand .deps/val-$1.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' |apertium-pretransfer | grep -v "REGEXP" > comp-$1-$2.expand
 # fi
 echo " fet.";
-echo -n "Calculant expansió filtrada...";
+echo -n "Calculant expansiÃ³ filtrada...";
 grep -v "$FILTERTAG" comp-$1-$2.expand >comp-$1-$2.filtered
 echo " fet.";
 echo -n "Executant el traductor..."
@@ -32,12 +32,12 @@ paste comp-$1-$2.filtered comp-$1-$2.trans > comprovacio-val-$1-$2
 egrep "(@|/|. #)" comprovacio-val-$1-$2 > errors-val-$1-$2.superficial
 echo " fet."
 echo "==========================" >> errors-val-$1-$2.superficial
-echo "ALTRES ERRADES DE BILINGÜE" >> errors-val-$1-$2.superficial
+echo "ALTRES ERRADES DE BILINGÃœE" >> errors-val-$1-$2.superficial
 echo "==========================" >> errors-val-$1-$2.superficial
-echo -n "Convertint diccionari bilingüe... "
+echo -n "Convertint diccionari bilingÃ¼e... "
 xsltproc translate-to-default-equivalent.xsl .deps/val-$LANG1-$LANG2.dix > $$.dix
 echo " fet."
-echo -n "Expandint diccionari bilingüe... "
+echo -n "Expandint diccionari bilingÃ¼e... "
 if [ $1-$2 = $LANG1-$LANG2 ]
 then lt-expand $$.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$1)}' | grep -v "REGEXP" > $$.expand
 else lt-expand $$.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' | grep -v "REGEXP" > $$.expand
@@ -56,16 +56,16 @@ echo " fet."a
 rm $$.bin
 rm $$.expand
 echo "";
-echo "Comprovació superficial finalitzada. Mireu en 'errors-val-$1-$2.superficial'"
+echo "ComprovaciÃ³ superficial finalitzada. Mireu en 'errors-val-$1-$2.superficial'"
 
 echo ""
 echo "===================="
-echo "Comprovació completa"
+echo "ComprovaciÃ³ completa"
 echo "===================="
 
 # FASE 2
-echo "Continuant comprovació completa, ^C per a cancelar"
-echo -n "Calculant expansió filtrada..."
+echo "Continuant comprovaciÃ³ completa, ^C per a cancelar"
+echo -n "Calculant expansiÃ³ filtrada..."
 grep "$FILTERTAG" comp-$1-$2.expand >comp-$1-$2.filtered
 echo " fet."
 echo -n "Executant el traductor..."
