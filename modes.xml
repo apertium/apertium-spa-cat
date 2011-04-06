@@ -10,8 +10,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-ca-es.xml"/>
-        <file name="trules-ca-es.bin"/>
+        <file name="ca-es.t1x"/>
+        <file name="ca-es.t1x.bin"/>
         <file name="ca-es.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -66,8 +66,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-ca-es.xml"/>
-        <file name="trules-ca-es.bin"/>
+        <file name="ca-es.t1x"/>
+        <file name="ca-es.t1x.bin"/>
         <file name="ca-es.autobil.bin"/>
       </program>
     </pipeline>
@@ -83,8 +83,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-ca-es.xml"/>
-        <file name="trules-ca-es.bin"/>
+        <file name="ca-es.t1x"/>
+        <file name="ca-es.t1x.bin"/>
         <file name="ca-es.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -103,8 +103,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-es-ca.xml"/>
-        <file name="trules-es-ca.bin"/>
+        <file name="es-ca.t1x"/>
+        <file name="es-ca.t1x.bin"/>
         <file name="es-ca.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -159,8 +159,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-es-ca.xml"/>
-        <file name="trules-es-ca.bin"/>
+        <file name="es-ca.t1x"/>
+        <file name="es-ca.t1x.bin"/>
         <file name="es-ca.autobil.bin"/>
       </program>
     </pipeline>
@@ -177,8 +177,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-es-ca.xml"/>
-        <file name="trules-es-ca.bin"/>
+        <file name="es-ca.t1x"/>
+        <file name="es-ca.t1x.bin"/>
         <file name="es-ca.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -197,8 +197,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-ca-es.xml"/>
-        <file name="trules-ca-es.bin"/>
+        <file name="ca-es.t1x"/>
+        <file name="ca-es.t1x.bin"/>
         <file name="ca-es.autobil.bin"/>
       </program>
       <program name="lt-proc -n">
@@ -220,8 +220,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-es-ca.xml"/>
-        <file name="trules-es-ca.bin"/>
+        <file name="es-ca.t1x"/>
+        <file name="es-ca.t1x.bin"/>
         <file name="es-ca.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -246,12 +246,12 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-multiple-translations">
-        <file name="trules-es-ca.bin"/>
+        <file name="es-ca.t1x.bin"/>
         <file name="es-ca.lextormono.bin"/>
       </program>
       <program name="apertium-transfer">
-        <file name="trules-es-ca.xml"/>
-        <file name="trules-es-ca.bin"/>
+        <file name="es-ca.t1x"/>
+        <file name="es-ca.t1x.bin"/>
         <file name="es-ca.lextorbil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -273,13 +273,13 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-multiple-translations">
-        <file name="trules-ca-es.bin"/>
+        <file name="ca-es.t1x.bin"/>
         <file name="ca-es.lextormono.bin"/>
       </program>
 
       <program name="apertium-transfer">
-        <file name="trules-ca-es.xml"/>
-        <file name="trules-ca-es.bin"/>
+        <file name="ca-es.t1x"/>
+        <file name="ca-es.t1x.bin"/>
         <file name="ca-es.lextorbil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -304,8 +304,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-ca-es.xml"/>
-        <file name="trules-ca-es.bin"/>
+        <file name="ca-es.t1x"/>
+        <file name="ca-es.t1x.bin"/>
         <file name="val-ca-es.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -334,8 +334,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-val-es-ca.xml"/>
-        <file name="trules-val-es-ca.bin"/>
+        <file name="val-es-ca.t1x"/>
+        <file name="val-es-ca.t1x.bin"/>
         <file name="val-es-ca.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -358,8 +358,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-ca-es.xml"/>
-        <file name="trules-ca-es.bin"/>
+        <file name="ca-es.t1x"/>
+        <file name="ca-es.t1x.bin"/>
         <file name="val-ca-es.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -388,8 +388,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-val-es-ca.xml"/>
-        <file name="trules-val-es-ca.bin"/>
+        <file name="val-es-ca.t1x"/>
+        <file name="val-es-ca.t1x.bin"/>
         <file name="val-es-ca.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
@@ -411,8 +411,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-val-es-ca.xml"/>
-        <file name="trules-val-es-ca.bin"/>
+        <file name="val-es-ca.t1x"/>
+        <file name="val-es-ca.t1x.bin"/>
         <file name="val-es-ca.autobil.bin"/>
       </program>
     </pipeline>
@@ -428,8 +428,8 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="trules-val-es-ca.xml"/>
-        <file name="trules-val-es-ca.bin"/>
+        <file name="val-es-ca.t1x"/>
+        <file name="val-es-ca.t1x.bin"/>
         <file name="val-es-ca.autobil.bin"/>
       </program>
       <program name="lt-proc $1">
