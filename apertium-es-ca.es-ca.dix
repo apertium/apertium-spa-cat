@@ -1281,6 +1281,7 @@
 <e r="RL"><p><l>encima<s n="adv"/></l>            <r>a<b/>sobre<s n="adv"/></r></p></e>
 <e>       <p><l>encima<s n="adv"/></l>            <r>damunt<s n="adv"/></r></p></e>
 <e r="LR"><p><l>enfrente<s n="adv"/></l>          <r>davant<s n="adv"/></r></p></e>
+<e r="RL" a="prompsit2uoc"><p><l>enfrente<s n="adv"/></l>          <r>enfront<s n="adv"/></r></p></e>
 <e>       <p><l>enseguida<s n="adv"/></l>         <r>de<b/>seguida<s n="adv"/></r></p></e>
 <e>       <p><l>entonces<s n="adv"/></l>          <r>llavors<s n="adv"/></r></p></e>
 <e r="RL"><p><l>fuera<s n="adv"/></l>             <r>al<b/>defora<s n="adv"/></r></p></e>
@@ -2763,6 +2764,7 @@
 <e>       <p><l>fábrica<s n="n"/></l>             <r>fàbrica<s n="n"/></r></p></e>
 <e>       <p><l>facción<s n="n"/></l>             <r>facció<s n="n"/></r></p></e>
 <e>       <p><l>fachada<s n="n"/></l>             <r>façana<s n="n"/></r></p></e>
+<e r="RL" a="prompsit2uoc">       <p><l>fachada<s n="n"/><s n="f"/></l>             <r>enfront<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>facilidad<s n="n"/></l>           <r>facilitat<s n="n"/></r></p></e>
 <e>       <i>factor<s n="n"/></i></e>
 <e>       <i>factura<s n="n"/></i></e>
@@ -7956,6 +7958,8 @@
 <e>       <i>Corominas<s n="np"/></i></e>
 <e>       <p><l>corporación<s n="n"/></l>         <r>corporació<s n="n"/></r></p></e>
 <e>       <p><l>corpúsculo<s n="n"/></l>          <r>corpuscle<s n="n"/></r></p></e>
+<e r="LR" a="prompsit2uoc"><p><l>forúnculo<s n="n"/></l>             <r>botó<s n="n"/></r></p></e>
+<e r="LR" a="prompsit2uoc"><p><l>bollón<s n="n"/></l>             <r>botó<s n="n"/></r></p></e>
 <e>       <i>Correcaminos<s n="np"/></i></e>
 <e>       <p><l>corrección<s n="n"/></l>          <r>correcció<s n="n"/></r></p></e>
 <e>       <p><l>correctamente<s n="adv"/></l>     <r>correctament<s n="adv"/></r></p></e>
@@ -13625,6 +13629,7 @@
 <e v="cat" a="mginesti"><p><l>por<b/>su<b/>parte<s n="adv"/></l><r>per<b/>la<b/>seva<b/>banda<s n="adv"/></r></p></e>
 <e a="mginesti"><p><l>en<b/>su<b/>favor<s n="adv"/></l><r>a<b/>favor<b/>seu<s n="adv"/></r></p></e>
 <e slr="cimera" a="mginesti"><p><l>cumbre<s n="n"/></l><r>cimera<s n="n"/></r></p></e>
+<e r="LR" a="prompsit2uoc"><p><l>cimera<s n="n"/></l><r>cimera<s n="n"/></r></p></e>
 <e a="mginesti"><p><l>tal<b/>como<s n="cnjadv"/></l><r>tal<b/>com<s n="cnjadv"/></r></p></e>
 <e r="LR" a="mginesti"><p><l>tal<b/>y<b/>como<s n="cnjadv"/></l><r>tal<b/>com<s n="cnjadv"/></r></p></e>
 <e a="mginesti"><p><l>Franco<s n="np"/></l>       <r>Franco<s n="np"/></r></p></e>
@@ -14342,7 +14347,7 @@
 <e>       <p><l>ETS<s n="n"/></l>                 <r>MTS<s n="n"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>verruga<s n="n"/></l><r>berruga<s n="n"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>raramente<s n="adv"/></l><r>rarament<s n="adv"/></r></p></e>
-<e r="RL" a=" alseoane@gmail.com"><p><l>poco<s n="n"/><s n="m"/></l><r>mica<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>mica<s n="n"/></l><r>mica<s n="n"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>mamar<s n="vblex"/></l><r>mamar<s n="vblex"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>amamantar<s n="vblex"/></l><r>alletar<s n="vblex"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>precocinado<s n="adj"/></l><r>precuinat<s n="adj"/></r></p></e>
@@ -22073,7 +22078,7 @@
 <e a="prompsit"><p><l>cédula<s n="n"/></l>        <r>cèdula<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>contravalor<s n="n"/></l>   <r>contravalor<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>convertible<s n="adj"/></l> <r>convertible<s n="adj"/></r></p></e>
-<e a="prompsit"><p><l>correduría<s n="n"/></l>    <r>corredoria<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>emprendeduría<s n="n"/></l>    <r>emprenedoria<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>corretaje<s n="n"/></l>     <r>corretatge<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>cotitular<s n="n"/></l>     <r>cotitular<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>custodia<s n="n"/></l>      <r>custòdia<s n="n"/></r></p></e>
@@ -22098,6 +22103,7 @@
 <e a="prompsit"><p><l>convertible<s n="adj"/></l> <r>convertible<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>ordenante<s n="n"/></l>     <r>ordenant<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>perceptor<s n="n"/></l>     <r>perceptor<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>septo<s n="n"/></l>     <r>septe<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>permutar<s n="vblex"/></l>  <r>permutar<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>peticionario<s n="n"/></l>  <r>peticionari<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>peticionario<s n="adj"/></l><r>peticionari<s n="adj"/></r></p></e>
@@ -36246,6 +36252,7 @@
 <e>       <p><l>puesta<g><b/>de<b/>sol</g><s n="n"/></l> <r>posta<g><b/>de<b/>sol</g><s n="n"/></r></p></e>
 <e>       <p><l>puesta<g><b/>del<b/>sol</g><s n="n"/></l><r>posta<g><b/>del<b/>sol</g><s n="n"/></r></p></e>
 <e>       <p><l>puesta<s n="n"/></l>              <r>posada<s n="n"/></r></p></e>
+<e r="LR">       <p><l>posada<s n="n"/></l>              <r>posada<s n="n"/></r></p></e>
 <e>       <p><l>puesto<g><b/>de<b/>trabajo</g><s n="n"/></l><r>lloc<g><b/>de<b/>treball</g><s n="n"/></r></p></e>
 <e>       <p><l>pulcritud<s n="n"/></l>           <r>netedat<s n="n"/></r></p></e>
 <e>       <p><l>pulgón<s n="n"/></l>              <r>pugó<s n="n"/></r></p></e>
@@ -42511,7 +42518,6 @@
 <e r="LR" a="eleka">   <p><l>endocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>endocitosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="RL" a="eleka">   <p><l>endocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>endocitosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL" a="eleka">   <p><l>endocitosis<s n="n"/><s n="f"/><s n="sp"/></l>            <r>endocitosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-<e a="eleka">   <p><l>mena<s n="n"/></l>            <r>mena<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>manglar<s n="n"/></l>            <r>manglar<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>tomista<s n="adj"/></l>            <r>tomista<s n="adj"/></r></p></e>
 <e a="eleka">   <p><l>raciovitalismo<s n="n"/></l>            <r>raciovitalisme<s n="n"/></r></p></e>
