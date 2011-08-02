@@ -1982,8 +1982,9 @@
 <e>       <i>burla<s n="n"/></i></e>
 <e>       <p><l>burro<s n="n"/></l>               <r>ruc<s n="n"/></r></p></e>
 <e>       <p><l>busca<s n="n"/></l>               <r>cerca<s n="n"/></r></p></e>
-<e srl="búsqueda D"><p><l>búsqueda<s n="n"/></l>  <r>recerca<s n="n"/></r></p></e>
-<e srl="investigació"><p><l>investigació<s n="n"/></l><r>recerca<s n="n"/></r></p></e>
+<!-- a="mireiafarrus" Corregeixo error: "investigació" passa a "investigación" (paraula en castellà). A més a més "recerca->búsqueda" passa a "cerca->búsqueda". Així ara "recerca" es traduirà per "investigación" i no per "búsqueda". Petició del Servei Lingüístic UOC-->
+<e srl="búsqueda D"><p><l>búsqueda<s n="n"/></l>  <r>cerca<s n="n"/></r></p></e>
+<e srl="investigación D"><p><l>investigación<s n="n"/></l><r>recerca<s n="n"/></r></p></e>
 <e>       <i>butaca<s n="n"/><s n="f"/></i></e>
 <e>       <p><l>caballería<s n="n"/></l>          <r>cavalleria<s n="n"/></r></p></e>
 <e>       <p><l>caballero<s n="n"/></l>           <r>cavaller<s n="n"/></r></p></e>
