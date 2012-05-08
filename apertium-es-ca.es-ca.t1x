@@ -711,6 +711,7 @@
 	  </test>
 	  <call-macro n="f_bcond">
 	    <with-param pos="1"/>
+            <with-param pos="2"/>
 	  </call-macro>
 	</when>
 	<otherwise>
@@ -807,6 +808,7 @@
 	  </test>
 	  <call-macro n="f_bcond">
 	    <with-param pos="1"/>
+            <with-param pos="2"/>
 	  </call-macro>
 	</when>
 	<otherwise>
@@ -909,7 +911,7 @@
 
     </def-macro>
 
-    <def-macro n="f_bcond" npar="1"><!--Para mirar si el blanco contiene o no formato. Hay que poner esta función en las reglas en que desaparezca alguna palabra, con tal de decidir si el blanco de la palabra eliminada debe eliminarse también o conservarse. Si contiene formato hay que conservarla, si no contiene formato hay que eliminarla para que no aparezcan dos espacios seguidos. -->
+    <def-macro n="f_bcond" npar="2"><!--Para mirar si el blanco contiene o no formato. Hay que poner esta función en las reglas en que desaparezca alguna palabra, con tal de decidir si el blanco de la palabra eliminada debe eliminarse también o conservarse. Si contiene formato hay que conservarla, si no contiene formato hay que eliminarla para que no aparezcan dos espacios seguidos. -->
       <choose>
 	<when>
 	  <test>
@@ -5969,6 +5971,7 @@
 	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
+          <with-param pos="3"/>
 	</call-macro>
 
       </action>
@@ -6009,6 +6012,7 @@
 	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="3"/>
+          <with-param pos="4"/>
 	</call-macro>
 
       </action>
@@ -6047,6 +6051,7 @@
 	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
+          <with-param pos="3"/>
 	</call-macro>
 
       </action>
@@ -6096,6 +6101,7 @@
 	</out>
 	<call-macro n="f_bcond">
 	  <with-param pos="2"/>
+          <with-param pos="3"/>
 	</call-macro>
 
       </action>
@@ -7536,9 +7542,11 @@
 	    </test>
 	    <call-macro n="f_bcond"><!--Envía el blanco sólo si tiene formato -->
 	      <with-param pos="1"/>
+              <with-param pos="2"/>
 	    </call-macro>   
 	    <call-macro n="f_pretind"><!--Traduce el pretérito indefinido si es el caso y envía el verbo -->
 	      <with-param pos="2"/>
+              <with-param pos="3"/>
 	    </call-macro> 
 	  </when>
 	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envíalo todo -->
@@ -7585,6 +7593,7 @@
 	    </test>
 	    <call-macro n="f_bcond">
 	      <with-param pos="1"/>
+              <with-param pos="2"/>
 	    </call-macro>
 	    
 	    <out>	 
@@ -7646,6 +7655,7 @@
       <action>
 	<call-macro n="f_bcond">
 	  <with-param pos="1"/>
+          <with-param pos="2"/>
 	</call-macro>
 	<out>
 	  <lu>
@@ -7669,6 +7679,7 @@
       <action>
 	<call-macro n="f_bcond">
 	  <with-param pos="1"/>
+          <with-param pos="2"/>
 	</call-macro>
 	<out>
 	  <lu>
@@ -7724,6 +7735,7 @@
 	    </call-macro> 
 	    <call-macro n="f_bcond">
 	      <with-param pos="1"/>
+              <with-param pos="2"/>
 	    </call-macro>
 	  </when>
 	  <otherwise>
