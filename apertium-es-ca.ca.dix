@@ -1818,6 +1818,16 @@
   <e>       <p><l>esi</l>       <r>esi<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 
 </pardef>
+<pardef n="tart/essi__adj">
+  <e>       <p><l>èssies</l>     <r>essi<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>èssia</l>      <r>essi<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+
+  <e>       <p><l>essis</l>      <r>essi<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>essi</l>       <r>essi<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+
+</pardef>
 <pardef n="perp/etu__adj">
   <e>       <p><l>ètues</l>     <r>etu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 
@@ -26985,7 +26995,7 @@
 <e lm="degà">            <i>deg</i><par n="americ/à__n"/></e>
 <e lm="deixadesa">       <i>deixades</i><par n="abell/a__n"/></e>
 <e lm="deixalla">        <i>deixall</i><par n="abell/a__n"/></e>
-<e lm="desferra" a="softcatala"><i>desferr</i><par n="abell/a__n"/></e>
+<e lm="desferra" a="softcatala" r="LR"><i>desferr</i><par n="abell/a__n"/></e>
 <e lm="deixant">         <i>deixant</i><par n="abric__n"/></e>
 <e lm="delegació">       <i>delegaci</i><par n="acci/ó__n"/></e>
 <e lm="delegat">         <i>delega</i><par n="advoca/t__n"/></e>
@@ -35904,7 +35914,7 @@
 <e lm="berruga" a=" alseoane@gmail.com"><i>berrug</i><par n="alg/a__n"/></e>
 <e lm="rarament" a=" alseoane@gmail.com"><i>rarament</i><par n="ahir__adv"/></e>
 <e lm="en massa">        <i>en<b/>massa</i><par n="ahir__adv"/></e>
-<e r="LR" lm="mica" a=" alseoane@gmail.com"><i>mi</i><par n="acústi/ca__n"/></e>
+<e r="RL" lm="mica" a=" alseoane@gmail.com"><i>mi</i><par n="acústi/ca__n"/></e>
 <e lm="mamar" a=" alseoane@gmail.com"><i>mam</i><par n="abander/ar__vblex"/></e>
 <e lm="alletar" a=" alseoane@gmail.com"><i>allet</i><par n="abander/ar__vblex"/></e>
 <e lm="precuinat" a=" alseoane@gmail.com"><i>precuina</i><par n="triparti/t__adj"/></e>
@@ -39275,7 +39285,6 @@
 <e lm="separatisme" a="prompsit2adn"><i>separatisme</i><par n="abric__n"/></e>
 <e lm="servilisme" a="prompsit2adn"><i>servilisme</i><par n="abric__n"/></e>
 <e lm="sindicalisme" a="prompsit2adn"><i>sindicalisme</i><par n="abric__n"/></e>
-<e lm="socorrisme" a="prompsit2adn"><i>socorrisme</i><par n="abric__n"/></e>
 <e lm="sufisme" a="prompsit2adn"><i>sufisme</i><par n="abric__n"/></e>
 <e lm="tenebrisme" a="prompsit2adn"><i>tenebrisme</i><par n="abric__n"/></e>
 <e lm="tradicionalisme" a="prompsit2adn"><i>tradicionalisme</i><par n="abric__n"/></e>
@@ -56745,7 +56754,6 @@
 <e lm="parceria">        <i>parceri</i><par n="abell/a__n"/></e>
 <e lm="paredassa">       <i>paredass</i><par n="abell/a__n"/></e>
 <e lm="parells i senars"><i>parells<b/>i<b/>senars</i><par n="afores__n"/></e>
-<e lm="parpalleig">      <i>parpalle</i><par n="assa/ig__n"/></e>
 <e lm="parpelleig">      <i>parpelle</i><par n="assa/ig__n"/></e>
 <e lm="parquedat">       <i>parquedat</i><par n="accessibilitat__n"/></e>
 <e lm="parrac">          <i>parrac</i><par n="abric__n"/></e>
@@ -62952,7 +62960,7 @@
 <e lm="Hero" a="prompsit"><i>Hero</i><par n="ABC__np"/></e>
 <e lm="MBA" a="prompsit"><i>MBA</i><par n="ABC__np"/></e>
 <e lm="Globo" a="prompsit"><i>Globo</i><par n="ABC__np"/></e>
-<e lm="PSP " a="prompsit"><i>PSP</i><par n="ABC__np"/></e>
+<e lm="PSP" a="prompsit"><i>PSP</i><par n="ABC__np"/></e>
 <e lm="SGPS" a="prompsit"><i>SGPS</i><par n="ABC__np"/></e>
 <e lm="EDP" a="prompsit"><i>EDP</i><par n="ABC__np"/></e>
 <e lm="SportTV" a="prompsit"><i>SportTV</i><par n="ABC__np"/></e>
@@ -63012,13 +63020,102 @@
 <e lm="Autom" a="prompsit"><i>Autom</i><par n="ABC__np"/></e>
 <e lm="Forbes" a="prompsit"><i>Forbes</i><par n="ABC__np"/></e>
 
+<!-- Ajuntament de Crevillent -->
 
-    <e r="LR" lm="el Fondo" a="prompsit"><i>el<b/>Fondo</i><par n="Afganistan__np"/></e>
-    <e r="RL" lm="el Fondo"><p><l><a/>el<b/>Fondo</l><r>el<b/>Fondo</r></p><par n="Afganistan__np"/></e>
-    <e lm="Parc Natural del Fondo" a="prompsit"><i>Parc<b/>Natural<b/>del<b/>Fondo</i><par n="Afganistan__np"/></e>
+<e r="LR" lm="el Fondo" a="prompsit"><i>el<b/>Fondo</i><par n="Afganistan__np"/></e>
+<e r="RL" lm="el Fondo"><p><l><a/>el<b/>Fondo</l><r>el<b/>Fondo</r></p><par n="Afganistan__np"/></e>
+<e lm="Parc Natural del Fondo" a="prompsit"><i>Parc<b/>Natural<b/>del<b/>Fondo</i><par n="Afganistan__np"/></e>
+<e lm="llacuna del Fondo" a="prompsit"><i>llacuna<b/>del<b/>Fondo</i><par n="Afganistan__np"/></e>
+<e lm="catifer" a="prompsit"><i>catifer</i><par n="absolut__adj"/></e>
+<e lm="enrevessat" a="prompsit"><i>enrevessa</i><par n="afortuna/t__adj"/></e>
+<e lm="mondongo" a="prompsit"><i>mondongo</i><par n="abric__n"/></e>
+<e lm="ADL" a="prompsit"><i>ADL</i><par n="BBC__n"/></e>
+<e lm="GVA" a="prompsit"><i>GVA</i><par n="BBC__n"/></e>
+<e lm="OMIC" a="prompsit"><i>OMIC</i><par n="BBC__n"/></e>
+<e lm="AMPAS" a="prompsit"><i>AMPAS</i><par n="FARC__n"/></e>
+<e lm="DOCV" a="prompsit"><i>DOCV</i><par n="BBVA__n"/></e>
+<e lm="IVAJ" a="prompsit"><i>IVAJ</i><par n="BBVA__n"/></e>
+<e lm="PIP" a="prompsit"><i>PIP</i><par n="BBVA__n"/></e>
+<e lm="PGMO" a="prompsit"><i>PGMO</i><par n="BBVA__n"/></e>
+<e lm="IMSERSO" a="prompsit"><i>IMSERSO</i><par n="BBVA__n"/></e>
+<e lm="reclamant" a="prompsit"><i>reclamant</i><par n="abdominal__adj"/></e>
+<e lm="quaresmal" a="prompsit"><i>quaresmal</i><par n="abdominal__adj"/></e>
+<e lm="desratització" a="prompsit"><i>desratitzaci</i><par n="acci/ó__n"/></e>
+<e lm="desinsectació" a="prompsit"><i>desinsectaci</i><par n="acci/ó__n"/></e>
+<e lm="caní" a="prompsit"><i>can</i><par n="alacant/í__adj"/></e>
+<e lm="antirràbic" a="prompsit"><i>antirràbi</i><par n="acadèmi/c__adj"/></e>
+<e lm="subbétic" a="prompsit"><i>subbéti</i><par n="acadèmi/c__adj"/></e>
+<e lm="Sant Juri" a="prompsit"><i>Sant<b/>Juri</i><par n="Afganistan__np"/></e>
+<e lm="La Vella" a="prompsit"><i>La<b/>Vella</i><par n="Afganistan__np"/></e>
+<e lm="El Puntal" a="prompsit"><i>El<b/>Puntal</i><par n="Afganistan__np"/></e>
+<e lm="Fondons" a="prompsit"><i>Fondons</i><par n="Afganistan__np"/></e>
+<e lm="La Ratlla del Bubo" a="prompsit"><i>La<b/>Ratlla<b/>del<b/>Bubo</i><par n="Afganistan__np"/></e>
+<e lm="calcolític" a="prompsit"><i>calcolíti</i><par n="acadèmi/c__adj"/></e>
+<e lm="Les Moreres" a="prompsit"><i>Les<b/>Moreres</i><par n="Afganistan__np"/></e>
+<e lm="Penya Negra" a="prompsit"><i>Penya<b/>Negra</i><par n="Afganistan__np"/></e>
+<e lm="tartessi" a="prompsit"><i>tart</i><par n="tart/essi__adj"/></e>
+<e lm="Cogotas" a="prompsit"><i>Cogotas</i><par n="Afganistan__np"/></e>
+<e lm="florent" a="prompsit"><i>florent</i><par n="abdominal__adj"/></e>
+<e lm="absidiat" a="prompsit"><i>absidia</i><par n="triparti/t__adj"/></e>
+<e lm="nassarita" a="prompsit"><i>nassarit</i><par n="agrícol/a__adj"/></e>
+<e lm="nobiliari" a="prompsit"><i>nobili</i><par n="adjudicat/ari__adj"/></e>
+<e lm="casa-cova" a="prompsit"><i>cas</i><par n="abell/a__n"/><p><l>-cova</l><r><g>-cova</g></r></p></e>
+<e lm="reixeria" a="prompsit"><i>reixeri</i><par n="abell/a__n"/></e>
+<e lm="tortuós" a="prompsit"><i>tortu</i><par n="afectu/ós__adj"/></e>
+<e lm="eqüestre" a="prompsit"><i>eqüestre</i><par n="abdominal__adj"/></e>
 
-    <e lm="Laguna del Fondo" a="prompsit"><i>Laguna<b/>del<b/>Fondo</i><par n="Afganistan__np"/></e>
+<e lm="mercat" a="prompsit"><i>mercat</i><par n="atletisme__n"/><p><l>ambulant</l><r><g><b/>ambulant</g></r></p></e>
 
+<e lm="mercat" a="prompsit"><p><l>mercats</l><r>mercat</r></p><par n="afores__n"/><p><l>ambulants</l><r><g><b/>ambulant</g></r></p></e>
+<e lm="rodalies" a="prompsit"><i>rodalies</i><par n="guardaespatlles__n"/></e>
+<e lm="parafarmàcia" a="prompsit"><i>parafarmàci</i><par n="abell/a__n"/></e>
+<e lm="gatxamiga" a="prompsit"><i>gatxamig</i><par n="alg/a__n"/></e>
+<e lm="tonya" a="prompsit"><i>tony</i><par n="abell/a__n"/></e>
+<e lm="congret" a="prompsit"><i>congret</i><par n="abric__n"/></e>
+<e lm="llesca amb ou" a="prompsit"><i>lles</i><par n="acústi/ca__n"/><p><l><b/>amb<b/>ou</l><r><g><b/>amb<b/>ou</g></r></p></e>
+<e lm="àstur" a="prompsit"><i>àstur</i><par n="abric__n"/></e>
+<e lm="beduí" a="prompsit"><i>bedu</i><par n="ve/í__n"/></e>
+<e lm="benimerí" a="prompsit"><i>benimer</i><par n="alacant/í__n"/></e>
+<e lm="septenari" a="prompsit"><i>septen</i><par n="adjudicat/ari__adj"/></e>
+<e lm="passional" a="prompsit"><i>passional</i><par n="abdominal__adj"/></e>
+<e lm="Stm." a="prompsit"><i>Stm.</i><par n="atletisme__n"/></e>
+<e lm="cistercenc" a="prompsit"><i>cistercen</i><par n="acadèmi/c__adj"/></e>
+<e lm="corneta" a="prompsit"><i>cornet</i><par n="abell/a__n"/></e>
+<e lm="tamborí" a="prompsit"><i>tambor</i><par n="boc/í__n"/></e>
+<e lm="bandereta" a="prompsit"><i>banderet</i><par n="abell/a__n"/></e>
+<e lm="processionar" a="prompsit"><i>procession</i><par n="abander/ar__vblex"/></e>
+<e lm="processional" a="prompsit"><i>processional</i><par n="abdominal__adj"/></e>
+<e lm="balconada" a="prompsit"><i>balconad</i><par n="abell/a__n"/></e>
+<e lm="imaginer" a="prompsit"><i>imatger</i><par n="senyor__n"/></e>
+<e lm="neocasticista" a="prompsit"><i>neocasticist</i><par n="agrícol/a__adj"/></e>
+<e lm="lotus" a="prompsit"><i>lotus</i><par n="campus__n"/></e>
+<e lm="aquarel·lista" a="prompsit"><i>aquarel·list</i><par n="accionist/a__n"/></e>
+<e lm="moreria" a="prompsit"><i>moreri</i><par n="abell/a__n"/></e>
+<e lm="Fontenay-Le Comte" a="prompsit"><i>Fontenay-Le<b/>Comte</i><par n="Afganistan__np"/></e>
+<e lm="ametla" a="prompsit"><i>ametla</i><par n="afortuna/t__adj"/></e>
+<e lm="ametla" a="prompsit"><i>ametlat</i><par n="abric__n"/></e>
+<e lm="ornitològic" a="prompsit"><i>ornitològi</i><par n="acadèmi/c__adj"/></e>
+<e lm="Matola" a="prompsit"><i>Matola</i><par n="Afganistan__np"/></e>
+<e lm="Sender de Sendres" a="prompsit"><i>Sender<b/>de<b/>Sendres</i><par n="Afganistan__np"/></e>
+<e lm="Sant Felip (Neri)" a="prompsit"><i>Sant<b/>Felip<b/>(Neri)</i><par n="Afganistan__np"/></e>
+<e lm="canyís" a="prompsit"><i>cany</i><par n="av/ís__n"/></e>
+<e lm="avifauna" a="prompsit"><i>avifaun</i><par n="abell/a__n"/></e>
+<e lm="íctic" a="prompsit"><i>ícti</i><par n="acadèmi/c__adj"/></e>
+<e lm="mújol" a="prompsit"><i>mújol</i><par n="abric__n"/></e>
+<e lm="fartet" a="prompsit"><i>fartet</i><par n="abric__n"/></e>
+<e lm="ciprinodòntid" a="prompsit"><i>ciprinodòntid</i><par n="abric__n"/></e>
+<e lm="cua-roja" a="prompsit"><i>cua-roja</i><par n="multimèdia__adj"/></e>
+<e lm="xarxet marbrenc" a="prompsit"><i>xarxet</i><par n="atletisme__n"/><p><l><b/>marbrenc</l><r><g><b/>marbrenc</g></r></p></e>
+<e lm="xarxet marbrenc" a="prompsit"><p><l>xarxets</l><r>xarxet</r></p><par n="afores__n"/><p><l><b/>marbrencs</l><r><g><b/>marbrenc</g></r></p></e>
+<e lm="malvesia" a="prompsit"><i>malvesi</i><par n="abell/a__n"/></e>
+<e lm="ànec capblanc" a="prompsit"><i>ànec</i><par n="atletisme__n"/><p><l>capblanc</l><r><g><b/>capblanc</g></r></p></e>
+<e lm="ànec capblanc" a="prompsit"><p><l>ànecs</l><r>ànec</r></p><par n="afores__n"/><p><l>capblancs</l><r><g><b/>capblanc</g></r></p></e>
+<e lm="nidificació" a="prompsit"><i>nidificaci</i><par n="acci/ó__n"/></e>
+<e lm="martinet de nit" a="prompsit"><i>martinet</i><par n="abric__n"/><p><l><b/>de<b/>nit</l><r><g><b/>de<b/>nit</g></r></p></e>
+<e lm="martinet ros" a="prompsit"><i>martinet</i><par n="abric__n"/><p><l><b/>ros</l><r><g><b/>ros</g></r></p></e>
+<e lm="berenador" a="prompsit"><i>berenador</i><par n="abric__n"/></e>
+<e lm="assecadora" a="prompsit"><i>assecador</i><par n="abell/a__n"/></e>
+<!-- Ajuntament de Crevillent -->
 
 <e r="LR" lm="vidret" a="imaxinsoftware"><i>vidret</i><par n="abric__n"/></e>
 
