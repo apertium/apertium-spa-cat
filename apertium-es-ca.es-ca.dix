@@ -2872,9 +2872,9 @@
 <e>       <p><l>ganado<s n="n"/></l>              <r>bestiar<s n="n"/></r></p></e>
 <e r="LR"><i>gana<s n="n"/><s n="f"/><s n="sg"/></i></e>
 <e>       <i>gana<s n="n"/><s n="f"/><s n="pl"/></i></e>
-<e v="cat">       <p><l>hambre<s n="n"/><s n="m"/><s n="sg"/></l><r>gana<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e v="cat" r="LR"><p><l>hambre<s n="n"/><s n="m"/><s n="pl"/></l><r>gana<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-<e v="val"><p><l>hambre<s n="n"/><s n="m"/></l>    <r>fam<s n="n"/><s n="f"/></r></p></e>
+<e v="cat">       <p><l>hambre<s n="n"/><s n="f"/><s n="sg"/></l><r>gana<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e v="cat" r="LR"><p><l>hambre<s n="n"/><s n="f"/><s n="pl"/></l><r>gana<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e v="val"><p><l>hambre<s n="n"/></l>    <r>fam<s n="n"/></r></p></e>
 <e>       <p><l>garantía<s n="n"/></l>            <r>garantia<s n="n"/></r></p></e>
 <e><p><l>garganta<s n="n"/></l>            <r>gola<s n="n"/></r></p></e>
 <e>       <i>gas<s n="n"/></i></e>
@@ -12063,10 +12063,8 @@
         </p>
       </e> -->
 
-
-<e>       <p><l>baldosa<s n="n"/><s n="f"/></l>   <r>rajola<s n="n"/><s n="f"/></r></p></e>
-<e v="cat"><p><l>ladrillo<s n="n"/></l>         <r>maó<s n="n"/></r></p></e>
-		
+<e><p><l>baldosa<s n="n"/><s n="f"/></l><r>rajola<s n="n"/><s n="f"/></r></p></e>
+<e v="cat"><p><l>ladrillo<s n="n"/></l><r>maó<s n="n"/></r></p></e>
 <e r="LR" v="val"><p><l>ladrillo<s n="n"/><s n="m"/></l><r>rajola<s n="n"/><s n="f"/></r></p></e>
 
 <e>       <i>Rajoy<s n="np"/></i></e>
