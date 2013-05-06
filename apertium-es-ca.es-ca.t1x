@@ -7546,7 +7546,6 @@
 	    </call-macro>   
 	    <call-macro n="f_pretind"><!--Traduce el pretérito indefinido si es el caso y envía el verbo -->
 	      <with-param pos="2"/>
-              <with-param pos="3"/>
 	    </call-macro> 
 	  </when>
 	  <otherwise><!--Si no concuerdan el pronombre y el verbo, envíalo todo -->

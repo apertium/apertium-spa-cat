@@ -94,6 +94,30 @@
       </e>
     </pardef>
 
+    <pardef n="EL">
+   <!--   <e>
+        <p>
+          <l><a/>EL<b/></l> 
+          <r>L<b/></r>
+        </p>
+      </e> -->
+      <e>
+        <p>
+          <l>EL<b/></l>
+          <r>L<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>EL</l>
+          <r>L</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+    </pardef>
+
+
+
    
     <pardef n="pr">
       <e>
@@ -184,6 +208,24 @@
         </p>
         <par n="el"/>
       </e>      
+
+      <e>
+        <p>
+          <l><a/>A<b/></l>
+          <r>A</r>
+        </p>
+        <par n="EL"/>
+      </e>
+      <e>
+        <p>
+          <l><a/>A</l>
+          <r>A</r>
+        </p>
+        <par n="EL"/>
+      </e>      
+
+
+
       <e>
         <p>
           <l><a/>y<b/>i</l>
