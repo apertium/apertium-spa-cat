@@ -5963,7 +5963,13 @@
 <e>       <i>provocar<s n="vblex"/></i></e>
 <e>       <p><l>proyectar<s n="vblex"/></l>       <r>projectar<s n="vblex"/></r></p></e>
 <e>       <i>publicar<s n="vblex"/></i></e>
-<e r="LR" alt="std"><p><l>quebrar<s n="vblex"/></l><r>fallir<s n="vblex"/></r></p></e>
+
+<!--<e r="LR" alt="std"><p><l>quebrar<s n="vblex"/></l><r>fallir<s n="vblex"/></r></p></e>-->
+<!--<e a="prompsit" alt="eco"><p><l>quebrar<s n="vblex"/></l><r>fer<g><b/>fallida</g><s n="vblex"/></r></p></e>-->
+
+<e r="RL"><p><l>quebrar<s n="vblex"/></l><r>fallir<s n="vblex"/></r></p></e>
+<e><p><l>quebrar<s n="vblex"/></l><r>fer<g><b/>fallida</g><s n="vblex"/></r></p></e>
+
 <e>       <i>quedar<s n="vblex"/></i></e>
 <e>       <p><l>quejar<s n="vblex"/></l>          <r>queixar<s n="vblex"/></r></p></e>
 <e slr="voler D"><p><l>querer<s n="vblex"/></l>   <r>voler<s n="vblex"/></r></p></e>
@@ -21026,7 +21032,6 @@
 <e a="prompsit"><p><l>plantear<s n="vblex"/></l>  <r>plantejar<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>desposeer<s n="vblex"/></l> <r>desposseir<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>desproveer<s n="vblex"/></l><r>desproveir<s n="vblex"/></r></p></e>
-<e a="prompsit"><p><l>parecer<s n="vblex"/></l>   <r>semblar<s n="vblex"/></r></p></e>
 <e r="LR" a="prompsit"><p><l>engullir<s n="vblex"/></l><r>engolir<s n="vblex"/></r></p></e>
 <e v="val" a="prompsit"><p><l>tragar<s n="vblex"/></l><r>engolir<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>aligerar<s n="vblex"/></l>  <r>alleugerir<s n="vblex"/></r></p></e>
@@ -22235,7 +22240,6 @@
 <e a="prompsit"><p><l>dar<g><b/>el<b/>visto<b/>bueno</g><s n="vblex"/></l><r>donar<g><b/>el<b/>vistiplau</g><s n="vblex"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>dar<g><b/>el<b/>visto<b/>bueno</g><s n="vblex"/></l><r>donar<g><b/>la<b/>conformitat</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>debitar<s n="vblex"/></l>   <r>carregar<g><b/>en<b/>compte</g><s n="vblex"/></r></p></e>
-<e a="prompsit" alt="eco"><p><l>quebrar<s n="vblex"/></l><r>fer<g><b/>fallida</g><s n="vblex"/></r></p></e>
 <e r="RL" a="prompsit" alt="std"><p><l>quebrar<s n="vblex"/></l><r>fer<g><b/>fallida</g><s n="vblex"/></r></p></e>
 <e>       <p><l>estar<g><b/>a<b/>punto</g><s n="vblex"/></l><r>ser<g><b/>a<b/>punt</g><s n="vbser"/></r></p></e>
 <e v="cat">       <p><l>eso<b/>sí<s n="adv"/></l>         <r>això<b/>sí<s n="adv"/></r></p></e>

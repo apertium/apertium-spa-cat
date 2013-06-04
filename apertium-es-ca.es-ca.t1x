@@ -214,9 +214,15 @@
       <cat-item lemma="llamar" tags="vblex.pri.*"/>
       <cat-item lemma="llamar" tags="vblex.pii.*"/>
       <cat-item lemma="llamar" tags="vblex.fti.*"/>
+      <cat-item lemma="llamar" tags="vblex.ifi.*"/>
       <cat-item lemma="parecer" tags="vblex.pri.*"/>
       <cat-item lemma="parecer" tags="vblex.pii.*"/>
       <cat-item lemma="parecer" tags="vblex.fti.*"/>
+      <cat-item lemma="parecer" tags="vblex.ifi.*"/>
+      <cat-item lemma="quebrar" tags="vblex.pri.*"/>
+      <cat-item lemma="quebrar" tags="vblex.pii.*"/>
+      <cat-item lemma="quebrar" tags="vblex.fti.*"/>      
+      <cat-item lemma="quebrar" tags="vblex.ifi.*"/>
     </def-cat>
 
     <def-cat n="caer">
@@ -7494,23 +7500,31 @@
 		  <lit v="assemblar"/>
 		</let>
 	      </when>
-	    </choose>
-	  </when>
-
-
-
-	</choose>
+    	      <when>
+		<test>
+		  <equal>
+		    <clip pos="2" side="sl" part="lem"/>
+		    <lit v="quebrar"/>
+		  </equal>
+		</test>		    
+		<let>
+		  <clip pos="2" side="tl" part="lem"/>
+		  <lit v="trencar"/>
+		</let>
+	      </when>
+           </choose>
+	      </when>
+            </choose>
 	<out>
 	  <lu>
 	    <clip pos="1" side="tl" part="whole"/>
 	  </lu>
 	  <b pos="1"/>
-	  <lu>
-	    <clip pos="2" side="tl" part="whole"/>
-	  </lu>
 	</out>
+	<call-macro n="f_pretind">
+	  <with-param pos="2"/>
+	</call-macro> 
       </action>
-
     </rule> 
 
 
