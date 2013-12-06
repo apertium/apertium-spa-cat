@@ -500,9 +500,12 @@
 <e>       <i>familiar<s n="adj"/></i></e>
 <e>       <p><l>famoso<s n="adj"/></l>            <r>famós<s n="adj"/></r></p></e>
 <e>       <p><l>fanático<s n="adj"/></l>          <r>fanàtic<s n="adj"/></r></p></e>
+<e>       <p><l>fantasmagórico<s n="adj"/></l>    <r>fantasmagòric<s n="adj"/></r></p></e>
 <e>       <p><l>lunático<s n="adj"/></l>          <r>llunàtic<s n="adj"/></r></p></e>
 <e>       <p><l>fantástico<s n="adj"/></l>        <r>fantàstic<s n="adj"/></r></p></e>
 <e>       <p><l>fascinante<s n="adj"/></l>        <r>fascinant<s n="adj"/></r></p></e>
+<e>       <p><l>fasciculado<s n="adj"/></l>       <r>fasciculat<s n="adj"/></r></p></e>
+<e r="RL"><p><l>fasciculado<s n="adj"/><s n="GD"/></l>       <r>fascicular<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <i>fatal<s n="adj"/></i></e>
 <e>       <i>favorable<s n="adj"/></i></e>
 <e>       <p><l>favorito<s n="adj"/></l>          <r>favorit<s n="adj"/></r></p></e>
@@ -2048,6 +2051,7 @@
 <e>       <p><l>cañón<s n="n"/></l>               <r>canó<s n="n"/></r></p></e>
 <e>       <p><l>capacidad<s n="n"/></l>           <r>capacitat<s n="n"/></r></p></e>
 <e>       <i>capa<s n="n"/></i></e>
+<e>       <p><l>capacímetro<s n="n"/></l>         <r>capacímetre<s n="n"/></r></p></e>
 <e r="LR"><p><l>capellán<s n="n"/><s n="m"/></l>  <r>capellà<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>capilla<s n="n"/></l>             <r>capella<s n="n"/></r></p></e>
 <e>       <i>capital<s n="n"/><s n="m"/></i></e>
@@ -2428,7 +2432,7 @@
 <e>       <p><l>metadato<s n="n"/><s n="m"/></l>      <r>metadada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>debate<s n="n"/></l>              <r>debat<s n="n"/></r></p></e>
 <e>       <p><l>deber<s n="n"/></l>               <r>deure<s n="n"/></r></p></e>
-<e>       <p><l>debilidad<s n="n"/></l>           <r>debilitat<s n="n"/></r></p></e>
+<e r="RL"><p><l>debilidad<s n="n"/></l>           <r>debilitat<s n="n"/></r></p></e>
 <e>       <p><l>década<s n="n"/></l>              <r>dècada<s n="n"/></r></p></e>
 <e>       <p><l>decadencia<s n="n"/></l>          <r>decadència<s n="n"/></r></p></e>
 <e>       <p><l>decena<s n="n"/></l>              <r>desena<s n="n"/></r></p></e>
@@ -2780,6 +2784,9 @@
 <e>       <p><l>familia<s n="n"/></l>             <r>família<s n="n"/></r></p></e>
 <e>       <p><l>fantasía<s n="n"/></l>            <r>fantasia<s n="n"/></r></p></e>
 <e>       <i>fantasma<s n="n"/></i></e>
+<e>       <p><l>faradio<s n="n"/></l>             <r>farad<s n="n"/></r></p></e>
+<e r="LR"><i>farad<s n="n"/></i></e>
+<e>       <p><l>faradímetro<s n="n"/></l>         <r>faradímetre<s n="n"/></r></p></e>
 <e>       <i>fase<s n="n"/></i></e>
 <e>       <i>favor<s n="n"/></i></e>
 <e>       <p><l>faz<s n="n"/></l>                 <r>faç<s n="n"/></r></p></e>
@@ -2854,6 +2861,7 @@
 <e r="RL"><p><l>bastante<s n="preadv"/></l>       <r>força<s n="preadv"/></r></p></e>
 <e>       <p><l>bastante<s n="preadv"/></l>       <r>bastant<s n="preadv"/></r></p></e>
 <e>       <p><l>fuga<s n="n"/></l>                <r>fugida<s n="n"/></r></p></e>
+<e r="RL"><p><l>fuga<s n="n"/></l>                <r>fuga<s n="n"/></r></p></e>
 <e>       <i>fulgor<s n="n"/></i></e>
 <e>       <p><l>funcionamiento<s n="n"/></l>      <r>funcionament<s n="n"/></r></p></e>
 <e>       <p><l>funcionario<s n="n"/></l>         <r>funcionari<s n="n"/></r></p></e>
@@ -3611,6 +3619,8 @@
 <e>       <i>papa<s n="n"/></i></e>
 <e>       <p><l>papá<s n="n"/></l>                <r>papà<s n="n"/></r></p></e>
 <e>       <p><l>papel<s n="n"/></l>               <r>paper<s n="n"/></r></p></e>
+<e>       <p><l>papilla<s n="n"/><s n="f"/><s n="sg"/></l><r>farineta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>papilla<s n="n"/><s n="f"/><s n="sg"/></l>             <r>farineta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <i>parada<s n="n"/></i></e>
 <e>       <p><l>paraíso<s n="n"/></l>             <r>paradís<s n="n"/></r></p></e>
 <e>       <p><l>parecer<s n="n"/></l>             <r>parer<s n="n"/></r></p></e>
@@ -3859,6 +3869,7 @@
 <e>       <p><l>quehacer<s n="n"/></l>            <r>quefer<s n="n"/></r></p></e>
 <e>       <p><l>queja<s n="n"/></l>               <r>queixa<s n="n"/></r></p></e>
 <e>       <p><l>queso<s n="n"/></l>               <r>formatge<s n="n"/></r></p></e>
+<e>       <p><l>quesería<s n="n"/></l>            <r>formatgeria<s n="n"/></r></p></e>
 <e>       <p><l>rabia<s n="n"/></l>               <r>ràbia<s n="n"/></r></p></e>
 <e>       <p><l>ración<s n="n"/></l>              <r>ració<s n="n"/></r></p></e>
 <e>       <i>radar<s n="n"/></i></e>
@@ -6887,6 +6898,7 @@
 <e>       <p><l>asistencial<s n="adj"/></l>       <r>assistencial<s n="adj"/></r></p></e>
 <e>       <p><l>surtido<s n="n"/></l>             <r>assortiment<s n="n"/></r></p></e>
 <e>       <p><l>azotar<s n="vblex"/></l>          <r>assotar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>azotar<s n="vblex"/></l>          <r>fuetejar<s n="vblex"/></r></p></e>
 <e>       <p><l>asumible<s n="adj"/></l>          <r>assumible<s n="adj"/></r></p></e>
 <e>       <i>asta<s n="n"/></i></e>
 <e>       <p><l>astro<s n="n"/></l>               <r>astre<s n="n"/></r></p></e>
@@ -8086,6 +8098,7 @@
 <e>       <i>datar<s n="vblex"/></i></e>
 <e r="LR"><p><l>fechar<s n="vblex"/></l>          <r>datar<s n="vblex"/></r></p></e>
 <e>       <i>David<s n="np"/></i></e>
+<e>       <p><l>debilidad<s n="n"/></l>           <r>feblesa<s n="n"/></r></p></e>
 <e>       <p><l>débito<s n="n"/></l>              <r>dèbit<s n="n"/></r></p></e>
 <e>       <p><l>debutante<s n="adj"/></l>         <r>debutant<s n="adj"/></r></p></e>
 <e>       <p><l>debutante<s n="n"/></l>           <r>debutant<s n="n"/></r></p></e>
@@ -9198,6 +9211,8 @@
 <e>       <p><l>farmacéutico<s n="n"/></l>        <r>farmacèutic<s n="n"/></r></p></e>
 <e>       <p><l>farmacia<s n="n"/></l>            <r>farmàcia<s n="n"/></r></p></e>
 <e>       <p><l>fármaco<s n="n"/></l>             <r>fàrmac<s n="n"/></r></p></e>
+<e>       <p><l>farmacólogo<s n="adj"/></l>       <r>farmacòleg<s n="adj"/></r></p></e>
+<e>       <p><l>farmacólogo<s n="n"/></l>         <r>farmacòleg<s n="n"/></r></p></e>
 <e>       <p><l>faro<s n="n"/></l>                <r>far<s n="n"/></r></p></e>
 <e>       <i>farsa<s n="n"/></i></e>
 <e>       <p><l>asqueroso<s n="adj"/></l>         <r>fastigós<s n="adj"/></r></p></e>
@@ -9211,12 +9226,17 @@
 <e r="LR"><p><l>pijo<s n="adj"/><s n="m"/></l>    <r>fatxenda<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <i>fauna<s n="n"/></i></e>
 <e>       <p><l>haba<s n="n"/></l>                <r>fava<s n="n"/></r></p></e>
+<e>       <p><l>fabada<s n="n"/></l>              <r>favada<s n="n"/></r></p></e>
 <e>       <p><l>favorablemente<s n="adv"/></l>    <r>favorablement<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>primera<b/>plana<s n="adv"/></l><r>a<b/>primera<b/>pàgina<s n="adv"/></r></p></e>
 <e>       <i>fax<s n="n"/></i></e>
 <e>       <i>FBI<s n="n"/></i></e>
 <e>       <i>FC<s n="n"/></i></e>
+<e>       <i>febrícula<s n="n"/></i></e>
+<e r="RL"><p><l>locura<s n="n"/></l>              <r>febrada<s n="n"/></r></p></e>
 <e>       <p><l>fecundidad<s n="n"/></l>          <r>fecunditat<s n="n"/></r></p></e>
+<e>       <i>fecundable<s n="adj"/></i></e>
+<e>       <p><l>fécula<s n="n"/></l>              <r>fècula<s n="n"/></r></p></e>
 <e>       <p><l>federación<s n="n"/></l>          <r>federació<s n="n"/></r></p></e>
 <e>       <i>federal<s n="adj"/></i></e>
 <e>       <i>federar<s n="vblex"/></i></e>
@@ -9224,6 +9244,7 @@
 <e>       <p><l>fehacientemente<s n="adv"/></l>   <r>fefaentment<s n="adv"/></r></p></e>
 <e>       <p><l>fascista<s n="adj"/></l>          <r>feixista<s n="adj"/></r></p></e>
 <e>       <p><l>fascista<s n="n"/></l>            <r>feixista<s n="n"/></r></p></e>
+<e>       <p><l>trabajazo<s n="n"/><s n="m"/></l> <r>feinada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>felicitación<s n="n"/></l>        <r>felicitació<s n="n"/></r></p></e>
 <e>       <p><l>felizmente<s n="adv"/></l>        <r>feliçment<s n="adv"/></r></p></e>
 <e>       <p><l>feligrés<s n="n"/></l>            <r>feligrès<s n="n"/></r></p></e>
@@ -9231,10 +9252,13 @@
 <e>       <i>Felip<s n="np"/></i></e>
 <e>       <i>Feliu<s n="np"/></i></e>
 <e>       <i>Félix<s n="np"/></i></e>
+<e r="RL"><p><l>trabajador<s n="adj"/></l>        <r>feinador<s n="adj"/></r></p></e>
+<e r="RL"><p><l>trabajador<s n="n"/></l>          <r>feinador<s n="n"/></r></p></e>
 <e>       <i>feminista<s n="adj"/></i></e>
 <e>       <i>feminista<s n="n"/></i></e>
 <e r="RL"><p><l>excremento<s n="n"/><s n="m"/></l><r>femta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>heces<s n="n"/><s n="f"/><s n="pl"/></l><r>femta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>fénix<s n="n"/></l>               <r>fènix<s n="n"/></r></p></e>
 <e>       <i>fenomenal<s n="adj"/></i></e>
 <e>       <p><l>fiero<s n="adj"/></l>             <r>fer<s n="adj"/></r></p></e>
 <e>       <p><l>broche<s n="n"/></l>              <r>fermall<s n="n"/></r></p></e>
@@ -9257,6 +9281,9 @@
 <e>       <i>Ferrer<s n="np"/></i></e>
 <e>       <i>Ferrero<s n="np"/></i></e>
 <e>       <p><l>férreo<s n="adj"/></l>            <r>ferri<s n="adj"/></r></p></e>
+<e>       <p><l>ferroso<s n="adj"/></l>           <r>ferrós<s n="adj"/></r></p></e>
+<e>       <p><l>ferretero<s n="adj"/></l>         <r>ferreter<s n="adj"/></r></p></e>
+<e>       <p><l>ferretero<s n="n"/></l>           <r>ferreter<s n="n"/></r></p></e>
 <e>       <p><l>ferry<s n="n"/></l>               <r>ferri<s n="n"/></r></p></e>
 <e>       <p><l>ferroviario<s n="adj"/></l>       <r>ferroviari<s n="adj"/></r></p></e>
 <e>       <p><l>fertilidad<s n="n"/></l>          <r>fertilitat<s n="n"/></r></p></e>
@@ -9280,22 +9307,32 @@
 <e>       <p><l>fianza<s n="n"/></l>              <r>fiança<s n="n"/></r></p></e>
 <e>       <p><l>fielmente<s n="adv"/></l>         <r>fidelment<s n="adv"/></r></p></e>
 <e>       <i>Fidel<s n="np"/></i></e>
+<e>       <p><l>fiduciario<s n="adj"/></l>          <r>fiduciari<s n="adj"/></r></p></e>
 <e>       <i>FIFA<s n="n"/></i></e>
 <e r="LR"><p><l>Figueras<s n="np"/><s n="loc"/></l><r>Figueres<s n="np"/><s n="loc"/></r></p></e>
 <e>       <i>Figueres<s n="np"/><s n="loc"/></i></e>
 <e>       <i>Figueroa<s n="np"/></i></e>
+<e>       <p><l>higueral<s n="n"/></l>            <r>figueral<s n="n"/></r></p></e>
+<e r="RL"><p><l>higueral<s n="n"/></l>            <r>figuerar<s n="n"/></r></p></e>
 <e>       <p><l>figuración<s n="n"/></l>          <r>figuració<s n="n"/></r></p></e>
 <e>       <p><l>figurativo<s n="adj"/></l>        <r>figuratiu<s n="adj"/></r></p></e>
+<e>       <p><l>filatelia<s n="n"/></l>           <r>filatèlia<s n="n"/></r></p></e>
+<e>       <i>filatelista<s n="adj"/></i></e>
+<e>       <p><l>filántropo<s n="n"/></l>          <r>filantrop<s n="n"/></r></p></e>
 <e>       <i>filial<s n="adj"/></i></e>
 <e>       <i>filial<s n="n"/></i></e>
 <e>       <p><l>filipino<s n="n"/></l>            <r>filipí<s n="n"/></r></p></e>
 <e>       <p><l>Filipinas<s n="np"/></l>          <r>Filipines<s n="np"/></r></p></e>
 <e>       <p><l>filmación<s n="n"/></l>           <r>filmació<s n="n"/></r></p></e>
+<e>       <i>filmable<s n="adj"/></i></e>
+<e>       <i>filmador<s n="adj"/></i></e>
 <e>       <i>film<s n="n"/></i></e>
 <e r="LR"><p><l>filo<s n="n"/></l>                <r>tall<s n="n"/></r></p></e>
 <e>       <p><l>hilo<s n="n"/></l>                <r>fil<s n="n"/></r></p></e>
 <e>       <p><l>filología<s n="n"/></l>           <r>filologia<s n="n"/></r></p></e>
 <e>       <p><l>filtración<s n="n"/></l>          <r>filtració<s n="n"/></r></p></e>
+<e>       <p><l>filtraje<s n="n"/></l>            <r>filtratge<s n="n"/></r></p></e>
+<e>       <i>filtrador<s n="adj"/></i></e>
 <e>       <i>filtrar<s n="vblex"/></i></e>
 <e r="LR"><p><l>boquilla<s n="n"/><s n="f"/></l>  <r>filtre<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>filtro<s n="n"/><s n="m"/></l>    <r>filtre<s n="n"/><s n="m"/></r></p></e>
@@ -9372,14 +9409,19 @@
 <e>       <i>forestal<s n="adj"/></i></e>
 <e>       <i>forestal<s n="n"/></i></e>
 <e>       <i>formador<s n="n"/></i></e>
+<e>       <p><l>quesero<s n="adj"/></l>           <r>formatger<s n="adj"/></r></p></e>
+<e>       <p><l>quesero<s n="n"/></l>             <r>formatger<s n="n"/></r></p></e>
 <e>       <p><l>formalizar<s n="vblex"/></l>      <r>formalitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>formalmente<s n="adv"/></l>       <r>formalment<s n="adv"/></r></p></e>
 <e>       <p><l>formativo<s n="adj"/></l>         <r>formatiu<s n="adj"/></r></p></e>
 <e>       <p><l>formato<s n="n"/></l>             <r>format<s n="n"/></r></p></e>
+<e>       <p><l>formol<s n="n"/></l>              <r>formol<s n="n"/></r></p></e>
 <e>       <i>formidable<s n="adj"/></i></e>
 <e>       <p><l>hormigón<s n="n"/></l>            <r>formigó<s n="n"/></r></p></e>
 <e r="LR"><p><l>hervidero<s n="n"/></l>           <r>formiguer<s n="n"/></r></p></e>
 <e>       <p><l>hormiguero<s n="n"/></l>          <r>formiguer<s n="n"/></r></p></e>
+<e>       <p><l>hormigueo<s n="n"/></l>           <r>formigueig<s n="n"/></r></p></e>
+<e>       <p><l>hormigonera<s n="n"/></l>         <r>formigonera<s n="n"/></r></p></e>
 <e>       <p><l>formulario<s n="n"/></l>          <r>formulari<s n="n"/></r></p></e>
 <e r="LR"><p><l>hornero<s n="n"/></l>             <r>forner<s n="n"/></r></p></e>
 <e>       <p><l>panadero<s n="n"/></l>            <r>forner<s n="n"/></r></p></e>
@@ -9394,6 +9436,9 @@
 <e>       <p><l>anochecer<s n="vblex"/></l>       <r>fosquejar<s n="vblex"/></r></p></e>
 <e>       <p><l>fósil<s n="n"/></l>               <r>fòssil<s n="n"/></r></p></e>
 <e>       <p><l>fotocopia<s n="n"/></l>           <r>fotocòpia<s n="n"/></r></p></e>
+<e>       <p><l>fotofobia<s n="n"/></l>           <r>fotofòbia<s n="n"/></r></p></e>
+<e>       <p><l>fotorresistencia<s n="n"/></l>     <r>fotoresistència<s n="n"/></r></p></e>
+<e>       <i>fotografiable<s n="adj"/></i></e>
 <e>       <i>fotocopiar<s n="vblex"/></i></e>
 <e>       <i>fotograma<s n="n"/></i></e>
 <e>       <i>FP<s n="np"/><s n="al"/></i></e>
@@ -9438,12 +9483,15 @@
 <e>       <p><l>latigazo<s n="n"/><s n="m"/></l>  <r>fuetada<s n="n"/><s n="f"/></r></p></e
 >
 <e r="LR"><p><l>cuchilla<s n="n"/></l>            <r>fulla<s n="n"/></r></p></e>
+<e>       <p><l>fucsia<s n="n"/></l>              <r>fúcsia<s n="n"/></r></p></e>
+<e>       <p><l>fular<s n="n"/></l>               <r>fulard<s n="n"/></r></p></e>
 <e>       <p><l>folleto<s n="n"/></l>             <r>fullet<s n="n"/></r></p></e>
 <e>       <p><l>fulminante<s n="adj"/></l>        <r>fulminant<s n="adj"/></r></p></e>
 <e>       <i>fulminar<s n="vblex"/></i></e>
 <e>       <i>fumador<s n="adj"/></i></e>
 <e r="LR"><p><l>fumadero<s n="n"/></l>            <r>fumador<s n="n"/></r></p></e>
 <e>       <i>fumador<s n="n"/></i></e>
+<e>       <i>fumarada<s n="n"/></i></e>
 <e>       <i>funcional<s n="adj"/></i></e>
 <e>       <p><l>funcionalidad<s n="n"/></l>       <r>funcionalitat<s n="n"/></r></p></e>
 <e>       <p><l>monofuncionalidad<s n="n"/></l>       <r>monofuncionalitat<s n="n"/></r></p></e>
@@ -11572,6 +11620,7 @@
 <e>       <p><l>perversión<s n="n"/></l>          <r>perversió<s n="n"/></r></p></e>
 <e>       <p><l>pértiga<s n="n"/></l>             <r>perxa<s n="n"/></r></p></e>
 <e r="LR"><p><l>faenar<s n="vblex"/></l>          <r>pescar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>faenar<s n="vblex"/></l>          <r>feinejar<s n="vblex"/></r></p></e>
 <e>       <i>pescar<s n="vblex"/></i></e>
 <e>       <p><l>pesquero<s n="adj"/></l>          <r>pesquer<s n="adj"/></r></p></e>
 <e>       <p><l>pesquero<s n="n"/></l>            <r>pesquer<s n="n"/></r></p></e>
@@ -13523,6 +13572,7 @@
 <e>       <p><l>champán<s n="n"/></l>             <r>xampany<s n="n"/></r></p></e>
 <e>       <p><l>chándal<s n="n"/></l>             <r>xandall<s n="n"/></r></p></e>
 <e>       <p><l>chapa<s n="n"/></l>               <r>xapa<s n="n"/></r></p></e>
+<e r="RL"><p><l>chapa<s n="n"/></l>               <r>fullola<s n="n"/></r></p></e>
 <e>       <p><l>chabacano<s n="adj"/></l>         <r>xaró<s n="adj"/></r></p></e>
 <e>       <p><l>chasis<s n="n"/></l>              <r>xassís<s n="n"/></r></p></e>
 <e r="LR"><p><l>Játiva<s n="np"/></l>             <r>Xàtiva<s n="np"/></r></p></e>
@@ -14689,6 +14739,7 @@
 <e r="LR" a="prompsit2adn"><p><l>afectuoso<s n="adj"/></l><r>afectuós<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>afelpar<s n="vblex"/></l><r>apelfar<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>afianzar<s n="vblex"/></l><r>afermar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>afianzar<s n="vblex"/></l><r>fiançar<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>afiliación<s n="n"/></l><r>afiliació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>afluente<s n="n"/></l>  <r>afluent<s n="n"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>afrentar<s n="vblex"/></l><r>afrontar<s n="vblex"/></r></p></e>
@@ -34551,6 +34602,7 @@
 <e>       <p><l>barniz<s n="n"/></l>              <r>vernís<s n="n"/></r></p></e>
 <e>       <p><l>barquillo<s n="n"/><s n="m"/></l> <r>neula<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>barrizal<s n="n"/></l>            <r>fanguer<s n="n"/></r></p></e>
+<e r="RL"><p><l>barrizal<s n="n"/><s n="m"/></l><r>fanguera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Barroco<s n="n"/></l>             <r>Barroc<s n="n"/></r></p></e>
 <e>       <p><l>barullo<s n="n"/><s n="m"/></l>   <r>aldarull<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>base<g><b/>de<b/>datos</g><s n="n"/></l> <r>base<g><b/>de<b/>dades</g><s n="n"/></r></p></e>
@@ -34569,7 +34621,7 @@
 <e>       <p><l>belicismo<s n="n"/></l>           <r>belicisme<s n="n"/></r></p></e>
 <e>       <p><l>benceno<s n="n"/></l>             <r>benzè<s n="n"/></r></p></e>
 <e>       <p><l>beneficencia<s n="n"/></l>        <r>beneficència<s n="n"/></r></p></e>
-<e r="RL">       <p><l>berberecho<s n="n"/><s n="m"/></l><r>escopinya<g><b/>de<b/>gallet</g><s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>berberecho<s n="n"/><s n="m"/></l><r>escopinya<g><b/>de<b/>gallet</g><s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>berberecho<s n="n"/><s n="m"/></l><r>escopinya<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bereber<s n="n"/></l>             <r>berber<s n="n"/></r></p></e>
 <e>       <p><l>bestiario<s n="n"/></l>           <r>bestiari<s n="n"/></r></p></e>
@@ -34626,10 +34678,11 @@
 <e>       <p><l>bóvido<s n="n"/></l>              <r>bòvid<s n="n"/></r></p></e>
 <e>       <p><l>boya<s n="n"/></l>                <r>boia<s n="n"/></r></p></e>
 <e>       <p><l>boy<b/>escout<s n="n"/></l>       <r>escolta<s n="n"/></r></p></e>
-<e r="LR">       <p><l>boy<b/>scout<s n="n"/></l>       <r>escolta<s n="n"/></r></p></e>
+<e r="LR"><p><l>boy<b/>scout<s n="n"/></l>       <r>escolta<s n="n"/></r></p></e>
 <e>       <p><l>bramido<s n="n"/></l>             <r>bramit<s n="n"/></r></p></e>
 <e>       <p><l>brasileño<s n="n"/></l>           <r>brasiler<s n="n"/></r></p></e>
 <e>       <p><l>breva<s n="n"/></l>               <r>bacora<s n="n"/></r></p></e>
+<e r="RL"><p><l>breva<s n="n"/></l>               <r>figaflor<s n="n"/></r></p></e>
 <e>       <p><l>brezal<s n="n"/></l>              <r>bruguerar<s n="n"/></r></p></e>
 <e>       <p><l>británico<s n="n"/></l>           <r>britànic<s n="n"/></r></p></e>
 <e>       <p><l>brocha<s n="n"/></l>              <r>brotxa<s n="n"/></r></p></e>
@@ -35805,6 +35858,7 @@
 <e>       <p><l>lo<b/>mejor<b/>de<b/>lo<b/>mejor<s n="n"/></l><r>el<b/>bo<b/>i<b/>millor<s n="n"/></r></p></e>
 <e>       <p><l>lo<b/>único<s n="n"/><s n="m"/></l><r>l'única<b/>cosa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>locatario<s n="n"/></l>           <r>llogater<s n="n"/></r></p></e>
+<e>       <p><l>lodazal<s n="n"/></l>             <r>fangar<s n="n"/></r></p></e>
 <e>       <p><l>logaritmo<s n="n"/></l>           <r>logaritme<s n="n"/></r></p></e>
 <e>       <p><l>logia<s n="n"/></l>               <r>lògia<s n="n"/></r></p></e>
 <e>       <p><l>logopedia<s n="n"/></l>           <r>logopèdia<s n="n"/></r></p></e>
