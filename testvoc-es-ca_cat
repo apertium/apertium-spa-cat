@@ -8,55 +8,55 @@ echo "=======================";
 echo "Comprovació superficial";
 echo "=======================";
 echo -n "Calculant expansió inicial...";
-# if [ -e $PREFIX.$LANG1.metadix ];
-#then xsltproc buscaPar.xsl $PREFIX.$LANG1.metadix | uniq > tmp1gen.xsl 	 
-#     xsltproc tmp1gen.xsl $PREFIX.$LANG1.metadix >$PREFIX.$LANG1.dixtmp1 
+# if [ -e $PREFIX.$1.metadix ];
+#then xsltproc buscaPar.xsl $PREFIX.$1.metadix | uniq > tmp1gen.xsl 	 
+#     xsltproc tmp1gen.xsl $PREFIX.$1.metadix >$PREFIX.$1.dixtmp1 
 #     rm tmp1gen.xsl
-#     lt-expand $PREFIX.$LANG1.dixtmp1 | awk 'BEGIN{FS=":"}{if($LANG2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' |apertium-pretransfer | grep -v "REGEXP" > comp-$LANG1-$LANG2.expand
-#     rm $PREFIX.$LANG1.dixtmp1
+#     lt-expand $PREFIX.$1.dixtmp1 | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' |apertium-pretransfer | grep -v "REGEXP" > comp-$1-$2.expand
+#     rm $PREFIX.$1.dixtmp1
 # else 
-lt-expand .deps/$LANG1.dix | awk 'BEGIN{FS=":"}{if($LANG2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' |apertium-pretransfer | grep -v "REGEXP"  > comp-$LANG1-$LANG2.expand
+lt-expand .deps/$1.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' |apertium-pretransfer | grep -v "REGEXP"  > comp-$1-$2.expand
 # fi
 echo " fet.";
 echo -n "Calculant expansió filtrada...";
-grep -v "$FILTERTAG" comp-$LANG1-$LANG2.expand >comp-$LANG1-$LANG2.filtered
+grep -v "$FILTERTAG" comp-$1-$2.expand >comp-$1-$2.filtered
 echo " fet.";
 echo -n "Executant el traductor..."
-apertium-transfer $PREFIX-trules-$LANG1-$LANG2.xml $PREFIX-trules-$LANG1-$LANG2.bin $LANG1-$LANG2.autobil.bin < comp-$LANG1-$LANG2.filtered | \
-# apertium-interchunk $PREFIX.$LANG1-$LANG2.t2x $LANG1-$LANG2.t2x.bin | \
-# apertium-postchunk $PREFIX.$LANG1-$LANG2.t3x $LANG1-$LANG2.t3x.bin | \
-lt-proc -d $LANG1-$LANG2.autogen.bin > comp-$LANG1-$LANG2.trans
+apertium-transfer trules-$1-$2.xml trules-$1-$2.bin $1-$2.autobil.bin < comp-$1-$2.filtered | \
+# apertium-interchunk $PREFIX.$1-$2.t2x $1-$2.t2x.bin | \
+# apertium-postchunk $PREFIX.$1-$2.t3x $1-$2.t3x.bin | \
+lt-proc -d $1-$2.autogen.bin > comp-$1-$2.trans
 echo " fet.";
-echo -n "Detectant errades i guardant-les en errors-$LANG1-$LANG2.superficial..."
-paste comp-$LANG1-$LANG2.filtered comp-$LANG1-$LANG2.trans > comprovacio-$LANG1-$LANG2
-egrep "(@|/|. #)" comprovacio-$LANG1-$LANG2 > errors-$LANG1-$LANG2.superficial
+echo -n "Detectant errades i guardant-les en errors-$1-$2.superficial..."
+paste comp-$1-$2.filtered comp-$1-$2.trans > comprovacio-$1-$2
+egrep "(@|/|. #)" comprovacio-$1-$2 > errors-$1-$2.superficial
 echo " fet."
-echo "==========================" >> errors-$LANG1-$LANG2.superficial
-echo "ALTRES ERRADES DE BILINGÜE" >> errors-$LANG1-$LANG2.superficial
-echo "==========================" >> errors-$LANG1-$LANG2.superficial
+echo "==========================" >> errors-$1-$2.superficial
+echo "ALTRES ERRADES DE BILINGÜE" >> errors-$1-$2.superficial
+echo "==========================" >> errors-$1-$2.superficial
 echo -n "Convertint diccionari bilingüe... "
 xsltproc translate-to-default-equivalent.xsl .deps/$LANG1-$LANG2.dix > $$.dix
 echo " fet."
 echo -n "Expandint diccionari bilingüe... "
-if [ $LANG1-$LANG2 = $LANG1-$LANG2 ]
-then lt-expand $$.dix | awk 'BEGIN{FS=":"}{if($LANG2!="<") printf("^.<sent>$ ^%s$\n",$LANG1)}' | grep -v "REGEXP" > $$.expand
-else lt-expand $$.dix | awk 'BEGIN{FS=":"}{if($LANG2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' | grep -v "REGEXP" > $$.expand
+if [ $1-$2 = $LANG1-$LANG2 ]
+then lt-expand $$.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$1)}' | grep -v "REGEXP" > $$.expand
+else lt-expand $$.dix | awk 'BEGIN{FS=":"}{if($2!="<") printf("^.<sent>$ ^%s$\n",$NF)}' | grep -v "REGEXP" > $$.expand
 fi
 echo " fet."
 echo -n "Compilant diccionari convertit... "
-if [ $LANG1-$LANG2 = $LANG1-$LANG2 ]
+if [ $1-$2 = $LANG1-$LANG2 ]
 then lt-comp lr $$.dix $$.bin >/dev/null
 else lt-comp rl $$.dix $$.bin >/dev/null
 fi
 echo " fet."
 rm $$.dix
-echo -n "Detectant errades i guardant-les en errors-$LANG1-$LANG2.superficial..."
-awk 'BEGIN{FS=":";}{if($LANG2 == ">") print "^" $LANG1 "$"; else if($LANG2=="<"); else print "^" $LANG1 "$";}' <$$.expand|lt-proc -d $$.bin |grep "/" >>errors-$LANG1-$LANG2.superficial
+echo -n "Detectant errades i guardant-les en errors-$1-$2.superficial..."
+awk 'BEGIN{FS=":";}{if($2 == ">") print "^" $1 "$"; else if($2=="<"); else print "^" $1 "$";}' <$$.expand|lt-proc -d $$.bin |grep "/" >>errors-$1-$2.superficial
 echo " fet."a
 rm $$.bin
 rm $$.expand
 echo "";
-echo "Comprovació superficial finalitzada. Mireu en 'errors-$LANG1-$LANG2.superficial'"
+echo "Comprovació superficial finalitzada. Mireu en 'errors-$1-$2.superficial'"
 
 echo ""
 echo "===================="
@@ -66,12 +66,12 @@ echo "===================="
 # FASE 2
 echo "Continuant comprovació completa, ^C per a cancelar"
 echo -n "Calculant expansió filtrada..."
-grep "$FILTERTAG" comp-$LANG1-$LANG2.expand >comp-$LANG1-$LANG2.filtered
+grep "$FILTERTAG" comp-$1-$2.expand >comp-$1-$2.filtered
 echo " fet."
 echo -n "Executant el traductor..."
-apertium-transfer $PREFIX-trules-$LANG1-$LANG2.xml $PREFIX-trules-$LANG1-$LANG2.bin $LANG1-$LANG2.autobil.bin < comp-$LANG1-$LANG2.filtered | lt-proc -d $LANG1-$LANG2.autogen.bin > comp-$LANG1-$LANG2.trans
+apertium-transfer trules-$1-$2.xml trules-$1-$2.bin $1-$2.autobil.bin < comp-$1-$2.filtered | lt-proc -d $1-$2.autogen.bin > comp-$1-$2.trans
 echo " fet."
-echo -n "Detectant errades i guardant-les en errors-$LANG1-$LANG2"
-paste comp-$LANG1-$LANG2.filtered comp-$LANG1-$LANG2.trans > comprovacio-$LANG1-$LANG2
-egrep "(@|/|. #)" comprovacio-$LANG1-$LANG2 > errors-$LANG1-$LANG2
+echo -n "Detectant errades i guardant-les en errors-$1-$2"
+paste comp-$1-$2.filtered comp-$1-$2.trans > comprovacio-$1-$2
+egrep "(@|/|. #)" comprovacio-$1-$2 > errors-$1-$2
 echo " fet."
