@@ -6647,7 +6647,7 @@
 <e>       <p><l>ambulancia<s n="n"/></l>          <r>ambulància<s n="n"/></r></p></e>
 <e>       <p><l>ambulante<s n="adj"/></l>         <r>ambulant<s n="adj"/></r></p></e>
 <e>       <p><l>ambulatorio<s n="n"/></l>         <r>ambulatori<s n="n"/></r></p></e>
-<e v="cat">       <p><l>ameno<s n="adj"/></l>             <r>amè<s n="adj"/></r></p></e>
+<e>       <p><l>ameno<s n="adj"/></l>             <r>amè<s n="adj"/></r></p></e>
 <e>       <i>Amenábar<s n="np"/><s n="ant"/></i></e>
 <e>       <i>amén<s n="n"/></i></e>
 <e>       <p><l>América<s n="np"/></l>            <r>Amèrica<s n="np"/></r></p></e>
@@ -13682,6 +13682,7 @@
 <e a="mginesti"><p><l>Castilla-León<s n="np"/></l><r>Castella-Lleó<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Granada<s n="np"/></l>      <r>Granada<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Las<b/>Palmas<s n="np"/></l><r>Las<b/>Palmas<s n="np"/></r></p></e>
+<e a="prompsit2upv"><p><l>las<b/>Palmas<b/>de<b/>Gran<b/>Canaria<s n="np"/></l><r>Las<b/>Palmas<b/>de<b/>Gran<b/>Canaria<s n="np"/></r></p></e>
 <e r="LR" a="mginesti"><p><l>A<b/>Coruña<s n="np"/></l><r>la<b/>Corunya<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>la<b/>Coruña<s n="np"/></l> <r>la<b/>Corunya<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Nueva<b/>Zelanda<s n="np"/></l><r>Nova<b/>Zelanda<s n="np"/></r></p></e>
@@ -18267,6 +18268,8 @@
 <e r="RL" a="prompsit2adn"><p><l>onubense<s n="n"/><s n="mf"/><s n="ND"/></l><r>de<b/>Huelva<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>onubense<s n="n"/><s n="mf"/><s n="sg"/></l><r>de<b/>Huelva<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>onubense<s n="n"/><s n="mf"/><s n="pl"/></l><r>de<b/>Huelva<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" a="prompsit2adn"><p><l>de<b/>Huelva<s n="adj"/><s n="mf"/><s n="sp"/></l><r>de<b/>Huelva<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+
 <e a="prompsit2adn"><p><l>mostaza<s n="n"/></l>   <r>mostassa<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>mapamundi<s n="n"/></l> <r>mapamundi<s n="n"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>maño<s n="n"/></l><r>aragonès<s n="n"/></r></p></e>
@@ -18281,7 +18284,7 @@
 <e a="prompsit2adn"><p><l>heleno<s n="n"/></l>    <r>hel·lè<s n="n"/></r></p></e>
 <e r="RL" a="prompsit2adn"><p><l>kilovatio<s n="n"/></l><r>kilowatt<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>kilovatio<s n="n"/></l> <r>quilowatt<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>grafiti<s n="n"/></l>   <r>grafiti<s n="n"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>grafiti<s n="n"/></l>   <r>grafit<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>grafito<s n="n"/></l>   <r>grafit<s n="n"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>graffiti<s n="n"/></l><r>grafiti<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>batacazo<s n="n"/><s n="m"/></l><r>patacada<s n="n"/><s n="f"/></r></p></e>
@@ -20393,6 +20396,10 @@
 <e a="prompsit"><p><l>en<b/>cambio<s n="adv"/></l><r>en<b/>canvi<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>hacia<b/>adentro<s n="adv"/></l><r>cap<b/>a<b/>dintre<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>hacia<b/>donde<s n="adv"/></l><r>cap<b/>a<b/>on<s n="adv"/></r></p></e>
+<e v="val" a="prompsit"><p><l>hacia<b/>aquí<s n="adv"/></l><r>cap<b/>ací<s n="adv"/></r></p></e>
+<e v="cat" a="prompsit"><p><l>hacia<b/>aquí<s n="adv"/></l><r>cap<b/>aquí<s n="adv"/></r></p></e>
+
+
 <e r="RL" a="prompsit"><p><l>adentro<s n="adv"/></l><r>a<b/>dintre<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>a<b/>regañadientes<s n="adv"/></l><r>a<b/>contracor<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>antes<b/>de<b/>tiempo<s n="adv"/></l><r>abans<b/>d'hora<s n="adv"/></r></p></e>
@@ -23288,7 +23295,7 @@
 <e a="prompsit2uoc"><p><l>movible<s n="adj"/></l> <r>movible<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>iridiscente<s n="adj"/></l><r>iridescent<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>inutilizable<s n="adj"/></l><r>inutilitzable<s n="adj"/></r></p></e>
-<e a="prompsit2uoc"><p><l>infinitesimal<s n="adj"/></l><r>infinitessimal<s n="adj"/></r></p></e>
+<e a="prompsit2uoc"><p><l>infinitesimal<s n="adj"/></l><r>infinitesimal<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>indemostrable<s n="adj"/></l><r>indemostrable<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>inaplicable<s n="adj"/></l><r>inaplicable<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>imprimible<s n="adj"/></l><r>imprimible<s n="adj"/></r></p></e>
@@ -37145,7 +37152,7 @@
 <e r="LR"><p><l>pp.<s n="n"/><s n="f"/><s n="pl"/></l><r>pàg.<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>praxis<s n="n"/><s n="f"/><s n="sp"/></l><r>praxi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>primor<s n="n"/><s n="m"/></l>    <r>meravella<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>psicoanálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>psicoanàlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="LR"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanàlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>pte.<s n="n"/></l>                <r>pres.<s n="n"/></r></p></e>
 <e r="LR"><p><l>pts.<s n="n"/></l>                <r>ptes.<s n="n"/></r></p></e>
 <e r="LR"><p><l>pza.<s n="n"/></l>                <r>pl.<s n="n"/></r></p></e>
@@ -37527,8 +37534,8 @@
 <e r="RL"><p><l>praxis<s n="n"/><s n="f"/><s n="sp"/></l><r>praxi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>préstamo<s n="n"/></l>            <r>manlleu<s n="n"/></r></p></e>
 <e r="RL"><p><l>prototipo<s n="n"/><s n="m"/><s n="ND"/></l><r>prototipus<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>psicoanálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>psicoanàlisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>psicoanálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>psicoanàlisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanàlisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>psicoanálisis<s n="n"/><s n="m"/><s n="sp"/></l><r>psicoanàlisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>puntapié<s n="n"/></l>            <r>puntelló<s n="n"/></r></p></e>
 <e r="RL"><p><l>putero<s n="n"/></l>              <r>bagasser<s n="n"/></r></p></e>
 <e r="RL"><p><l>putero<s n="n"/></l>              <r>putaner<s n="n"/></r></p></e>
@@ -42293,7 +42300,7 @@
 <e a="eleka">   <p><l>lipídico<s n="adj"/></l>            <r>lipídic<s n="adj"/></r></p></e>
 <e a="eleka">   <p><l>oxidativo<s n="adj"/></l>            <r>oxidatiu<s n="adj"/></r></p></e>
 <e a="eleka">   <p><l>hercínico<s n="adj"/></l>            <r>hercínic<s n="adj"/></r></p></e>
-<e a="eleka">   <p><l>glucógeno<s n="n"/></l> <r>glucògen<s n="n"/></r></p></e>
+<e a="eleka">   <p><l>glucógeno<s n="n"/></l> <r>glucogen<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>escorrentía<s n="n"/></l> <r>escorrentia<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>epidermis<s n="n"/></l> <r>epidermis<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>auxina<s n="n"/></l> <r>auxina<s n="n"/></r></p></e>
@@ -42929,8 +42936,6 @@
 <e r="RL" a="eleka">   <p><l>andalusí<s n="adj"/><s n="mf"/></l>            <r>andalusí<s n="adj"/><s n="f"/></r></p></e>
 <e a="eleka">   <p><l>agrimensura<s n="n"/></l>            <r>agrimensura<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>bisfosfato<s n="n"/></l>            <r>bisfosfat<s n="n"/></r></p></e>
-<e v="val" a="eleka">       <p><l>ajeno<s n="adj"/></l>            <r>alié<s n="adj"/></r></p></e>
-<e v="val" a="eleka">       <p><l>ameno<s n="adj"/></l>            <r>amé<s n="adj"/></r></p></e>
 
 <e a="prompsit"><p><l>catalanoaragonés<s n="adj"/></l><r>catalanoaragonès<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>semipúblico<s n="adj"/></l><r>semipúblic<s n="adj"/></r></p></e>
@@ -43398,7 +43403,7 @@
 <!-- Ajuntament de Crevillent -->
 
 
-<!-- UPV, UOC, UA -->
+<!-- UPV, UA -->
 
 <e a="prompsit"><p><l>escalar<s n="adj"/></l><r>escalar<s n="adj"/></r></p></e>	
 <e a="prompsit"><p><l>copia<g><b/>de<b/>seguridad</g><s n="n"/></l><r>còpia<g><b/>de<b/>seguretat</g><s n="n"/></r></p></e>
@@ -43412,6 +43417,15 @@
 <e a="prompsit"><p><l>sitio<g><b/>web</g><s n="n"/></l><r>lloc<g><b/>web</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>marco<g><b/>legal</g><s n="n"/></l><r>marc<g><b/>legal</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>coligativo<s n="adj"/></l><r>col·ligatiu<s n="adj"/></r></p></e>	
+<e a="prompsit"><p><l>enjugar<s n="vblex"/></l><r>eixugar<s n="vblex"/></r></p></e>	
+<e a="prompsit"><p><l>bajo<b/>mínimos<s n="adv"/></l> <r>sota<b/>mínims<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>bajo<b/>la<b/>dirección<s n="adv"/></l> <r>sota<b/>la<b/>direcció<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>prima<g><b/>de<b/>riesgo</g><s n="n"/></l><r>prima<g><b/>de<b/>risc</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>prima<g><b/>de<b/>seguro</g><s n="n"/></l><r>prima<g><b/>d'assegurança</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>cuarteto<g><b/>de<b/>cuerda</g><s n="n"/></l><r>quartet<g><b/>de<b/>corda</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>saco<g><b/>embrionario</g><s n="n"/></l><r>sac<g><b/>embrionari</g><s n="n"/></r></p></e>
+
+
 
 <!-- Softcatalà -->
 <e><p><l>Hume<s n="np"/></l><r>Hume<s n="np"/></r></p></e>
