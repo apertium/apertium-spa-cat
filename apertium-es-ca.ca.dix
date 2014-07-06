@@ -3041,6 +3041,12 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
 </pardef>
+<pardef n="trib/ú__n">
+  <e>       <p><l>uns</l>         <r>ú<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
+  <e>       <p><l>ú</l>          <r>ú<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+
+</pardef>
 <pardef n="cos__n">
   <e>       <p><l>sos</l>       <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
@@ -30679,6 +30685,7 @@
 <e lm="treva">           <i>trev</i><par n="abell/a__n"/></e>
 <e lm="triangle">        <i>triangle</i><par n="abric__n"/></e>
 <e lm="tribu">           <i>tribu</i><par n="accessibilitat__n"/></e>
+<e lm="tribú de la plebs" a="softcatalà"><i>trib</i><par n="trib/ú__n" /><p><l><b/>de<b/>la<b/>plebs</l><r><g><b/>de<b/>la<b/>plebs</g></r></p></e>
 <e lm="tribuna">         <i>tribun</i><par n="abell/a__n"/></e>
 <e lm="tribunal">        <i>tribunal</i><par n="abric__n"/></e>
 <e lm="tribut">          <i>tribut</i><par n="abric__n"/></e>
