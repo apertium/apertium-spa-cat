@@ -14,16 +14,6 @@ m4_define([required_apertium_version], [3.2.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
                           
 
-if test $APERTIUM_VER = 10;
-then MODES="";
-else MODES="modes";
-fi
-
 AC_SUBST(MODES)
 
-if test -d .deps
-then echo "";
-else mkdir .deps
-fi
-  
 AC_OUTPUT([Makefile])
