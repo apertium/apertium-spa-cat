@@ -223,11 +223,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix $(BASENAME).$(PREFIX1).dix \
 apertium_es_cadir=$(prefix)/share/apertium/$(BASENAME)/
 
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
-apertium_es_ca_DATA=$(TARGETS_COMMON) \
-	$(PREFVAR1)$(PREFIX1).t1x \
-	$(PREFVAR1)$(PREFIX2).t1x \
-	$(PREFVAR2)$(PREFIX1).t1x \
-	$(PREFVAR2)$(PREFIX2).t1x
+apertium_es_ca_DATA=$(TARGETS_COMMON)
 
 
 apertium_modesdir=$(prefix)/share/apertium/modes/
