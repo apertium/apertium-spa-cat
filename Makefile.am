@@ -16,11 +16,6 @@ PREFVAR2=val-
 TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
      $(PREFVAR1)$(PREFIX1).autopgen.bin \
      $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
-     $(PREFIX2).autogen.bin $(PREFIX2).autopgen.bin \
-     $(PREFIX1).lextormono.bin $(PREFIX2).lextormono.bin \
-     $(PREFIX1).lextorbil.bin $(PREFIX2).lextorbil.bin \
-     $(BASENAME).$(LANG1)-lextor.dix $(BASENAME).$(LANG2)-lextor.dix \
-     $(BASENAME).$(PREFIX1)-lextor.dix $(BASENAME).$(PREFIX2)-lextor.dix \
      $(PREFVAR1)$(PREFIX1).t1x.bin \
      $(PREFVAR1)$(PREFIX2).t1x.bin \
      $(PREFVAR1)$(PREFIX1).t1x \
@@ -56,38 +51,6 @@ TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autog
 
 .deps/pgen-ca_valencia.dix: $(BASENAME).post-ca.dix .deps/.d
 	xsltproc --stringparam alt val alt.xsl $< >$@
-
-$(BASENAME).$(LANG1)-lextor.dix: .deps/commonbil.dix
-	apertium-validate-dictionary .deps/commonbil.dix
-	apertium-gen-lextormono rl .deps/commonbil.dix $@
-
-$(BASENAME).$(LANG2)-lextor.dix: .deps/commonbil.dix
-	apertium-validate-dictionary .deps/commonbil.dix
-	apertium-gen-lextormono lr .deps/commonbil.dix $@
-
-$(BASENAME).$(PREFIX1)-lextor.dix: .deps/commonbil.dix
-	apertium-validate-dictionary .deps/commonbil.dix
-	apertium-gen-lextorbil rl .deps/commonbil.dix $@
-
-$(BASENAME).$(PREFIX2)-lextor.dix: .deps/commonbil.dix
-	apertium-validate-dictionary .deps/commonbil.dix
-	apertium-gen-lextorbil lr .deps/commonbil.dix $@
-
-$(PREFIX1).lextormono.bin: $(BASENAME).$(LANG1)-lextor.dix
-	apertium-validate-dictionary $<
-	lt-comp lr $< $@
-
-$(PREFIX2).lextormono.bin: $(BASENAME).$(LANG2)-lextor.dix
-	apertium-validate-dictionary $<
-	lt-comp lr $< $@
-
-$(PREFIX1).lextorbil.bin: $(BASENAME).$(PREFIX1)-lextor.dix
-	apertium-validate-dictionary $<
-	lt-comp lr $< $@
-
-$(PREFIX2).lextorbil.bin: $(BASENAME).$(PREFIX2)-lextor.dix
-	apertium-validate-dictionary $<
-	lt-comp lr $< $@
 
 
 .deps/$(PREFVAR1)$(LANG1).dix: $(BASENAME).$(LANG1).dix .deps/.d
