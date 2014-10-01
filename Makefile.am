@@ -14,6 +14,7 @@ VAR2=val-
 PREFVAR1=#dejar en blanco
 PREFVAR2=val-
 TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
+     $(PREFVAR1)$(PREFIX2).autopgen.bin \
      $(PREFVAR1)$(PREFIX1).autopgen.bin \
      $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin \
      $(PREFVAR1)$(PREFIX1).t1x.bin \
