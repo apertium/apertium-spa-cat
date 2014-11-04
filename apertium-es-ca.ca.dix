@@ -2711,10 +2711,12 @@
   <e v="cat"><p><l>la<b/>meva</l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 
   <e v="val"><p><l>la<b/>meua</l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e v="LR"><p><l>ma</l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 
   <e r="LR"><p><l>els<b/>meus</l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
 
   <e r="LR"><p><l>el<b/>meu</l> <r>el<b/>meu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e v="LR"><p><l>mon</l><r>el<b/>meu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 
 </pardef>
 <pardef n="/el_nostre__det">
@@ -2735,10 +2737,14 @@
   <e v="cat"><p><l>la<b/>seva</l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 
   <e v="val"><p><l>la<b/>seua</l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  
+  <e v="LR"><p><l>sa</l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 
   <e r="LR"><p><l>els<b/>seus</l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
 
   <e r="LR"><p><l>el<b/>seu</l> <r>el<b/>seu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  
+  <e v="LR"><p><l>son</l><r>el<b/>seu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 
 </pardef>
 <pardef n="/el_teu__det">
@@ -2749,10 +2755,12 @@
   <e v="cat"><p><l>la<b/>teva</l><r>el<b/>teu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 
   <e v="val"><p><l>la<b/>teua</l><r>el<b/>teu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e v="LR"><p><l>ta</l><r>el<b/>teu<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 
   <e r="LR"><p><l>els<b/>teus</l><r>el<b/>teu<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
 
   <e r="LR"><p><l>el<b/>teu</l> <r>el<b/>teu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ton</l> <r>el<b/>teu<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 
 </pardef>
 <pardef n="/el_vostre__det">
@@ -63245,6 +63253,13 @@
 <e lm="salubre">         <i>salubre</i><par n="abdominal__adj"/></e>
 <e lm="insalubre">       <i>insalubre</i><par n="abdominal__adj"/></e>
 <e lm="antesi">          <i>antesi</i><par n="accessibilitat__n"/></e>
+<e lm="Blancaneus">      <i>Blancaneus</i><par n="Abad__np"/></e>
+<e lm="Caputxeta">       <i>Caputxeta</i><par n="Abad__np"/></e>
+<e lm="EUPV">            <i>EUPV</i><par n="BBC__n"/></e>
+<e lm="Compromís">       <i>Compromís</i><par n="ABC__np"/></e>
+<e lm="Podemos">         <i>Podemos</i><par n="ABC__np"/></e>
+<e lm="tasseta">         <i>tasset</i><par n="abell/a__n"/></e>
+
 
   </section>
   <section id="apostrophes" type="postblank">
