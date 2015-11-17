@@ -1032,20 +1032,6 @@
 	    </get-case-from>
 	  </let>
 	</when>
-	<when alt="val">
-	  <test>
-	    <equal caseless="yes">
-	      <clip pos="1" side ="sl" part="lem"/>
-	      <lit v="pequeño"/>
-	    </equal>	  
-	  </test>
-	  <let>
-	    <clip pos="1" side ="tl" part="lem"/>
-	    <get-case-from pos="1">
-	      <lit v="petit"/>
-	    </get-case-from>
-	  </let>
-	</when>
       </choose>
     </def-macro>
 
