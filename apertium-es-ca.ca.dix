@@ -2,10 +2,10 @@
 <!--
 	Dictionary:
 	Sections: 4
-	Entries: 40352
+	Entries: 40613
 	Sdefs: 69
-	Paradigms: 557
-	Last processed by: apertium-dixtools equiv-paradigms apertium-es-ca.ca.dix apertium-es-ca.ca.dix2
+	Paradigms: 558
+	Last processed by: apertium-dixtools enhance apertium-es-ca.ca.dix apertium-es-ca.ca.ndix
 
 -->
 <dictionary>
@@ -54518,7 +54518,7 @@
 <e lm="abraçadora">      <i>abraçador</i><par n="abell/a__n"/></e>
 <e lm="abscés">          <i>absc</i><par n="acc/és__n"/></e>
 <e lm="abundament">      <i>abundament</i><par n="abric__n"/></e>
-<e lm="embús" v="cat">   <p><l>emb</l>       <r>emb</r></p><par n="ab/ús__n"/></e>
+<e lm="embús" v="cat">   <p><l>emb</l>       <r>emb</r></p><par n="ban/ús__n"/></e>
 <e lm="acabat">          <i>acabat</i><par n="abric__n"/></e>
 <e lm="acalàsia">        <i>acalàsi</i><par n="abell/a__n"/></e>
 <e lm="acantonament">    <i>acantonament</i><par n="abric__n"/></e>
@@ -63196,26 +63196,11 @@
 <e r="LR" lm="vidret" a="imaxinsoftware"><i>vidret</i><par n="abric__n"/></e>
 
 
-  <e lm="proindivisió">
-    <i>proindivisi</i>
-    <par n="acci/ó__n"/>
-  </e>
-  <e lm="reparcel·lació">
-    <i>reparcel·laci</i>
-    <par n="acci/ó__n"/>
-  </e>
-  <e lm="substanciació">
-    <i>substanciaci</i>
-    <par n="acci/ó__n"/>
-  </e>
-  <e lm="projectista">
-    <i>projectist</i>
-    <par n="accionist/a__n"/>
-  </e>
-  <e lm="reparcel·lable">
-    <i>reparcel·lable</i>
-    <par n="abdominal__adj"/>
-  </e>
+<e lm="proindivisió">    <i>proindivisi</i><par n="acci/ó__n"/></e>
+<e lm="reparcel·lació">  <i>reparcel·laci</i><par n="acci/ó__n"/></e>
+<e lm="substanciació">   <i>substanciaci</i><par n="acci/ó__n"/></e>
+<e lm="projectista">     <i>projectist</i><par n="accionist/a__n"/></e>
+<e lm="reparcel·lable">  <i>reparcel·lable</i><par n="abdominal__adj"/></e>
 
 <!-- UPV, UA -->
 
