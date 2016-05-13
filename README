@@ -1,20 +1,26 @@
-**************Spanish--Catalan******************
+Spanish and Catalan
 
-You need apertium-3.0 and lttoolbox-3.0 to use this translator.  To compile
-the linguistic data simply do:
+                            apertium-spa-cat
+===============================================================================
 
-./configure
-make
-make install
+This is an Apertium language pair for translating between Spanish and
+Catalan. Currently supported is translation from both Catalan and Valencian variants
+to Spanish. What you can use this language package for:
 
-inside of this directory.
+For information on the latter two points, see subheading "For more
+information" below
 
-To use the translator, use the commands:
+Requirements
+===============================================================================
 
-apertium es-ca  (to translate from Spanish to Catalan)
-apertium ca-es  (to translate from Catalan to Spanish)
+You will need the following software installed:
 
-Type the suitable command in the terminal, press Enter, type the text and press Ctrl+D to get the translation.
+* lttoolbox (>= 3.3.0)
+* apertium (>= 3.3.0)
+* apertium-spa
+* apertium-cat
+
+If this does not make any sense, we recommend you look at: www.apertium.org
 
 **************Spanish--Catalan with economy vocabulary**********************
 
@@ -23,6 +29,10 @@ cp Makefile.am.eco Makefile.am
 ./autogen.sh
 make 
 sudo make install
+
+You can use ./autogen.sh instead of ./configure you're compiling from
+SVN. If you installed any prerequisite language packages using a --prefix
+to ./configure, make sure to give the same --prefix to ./configure here.
 
 If you had the standard linguistic data already installed, or if some error occurs in compilation, you should type:
 
@@ -39,7 +49,7 @@ After compiling, to use Apertium with the economy vocabulary, use the same comma
 
 To use this language-pair package with apertium YOU DO NOT NEED TO
 RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
-both the ca-es and the es-ca translation directions which should be
+both the cat-spa and the spa-cat translation directions which should be
 acceptable for most applications, and should work even if you change
 the dictionaries in a reasonably way.
 
@@ -49,8 +59,6 @@ creating new lexical categories), please see the documentation
 on our Wiki:
  
   http://wiki.apertium.org/wiki/Tagger_training
-
-
 
 ===================================================================
 
