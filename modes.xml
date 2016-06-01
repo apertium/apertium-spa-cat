@@ -1,441 +1,257 @@
-<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="ca-es" install="yes">
+
+  <!-- spa → cat -->
+  <mode name="spa-cat" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="ca-es.automorf.bin"/>
+        <file name="spa-cat.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ca-es.prob"/>
+        <file name="spa-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="ca-es.t1x"/>
-        <file name="ca-es.t1x.bin"/>
-        <file name="ca-es.autobil.bin"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="spa-cat.t1x"/>
+        <file name="spa-cat.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="ca-es.autogen.bin"/>
+        <file name="spa-cat.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="ca-es.autopgen.bin"/>
+        <file name="spa-cat.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-
-  <mode name="ca-es-anmor">
+  <mode name="spa-cat_valencia" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="ca-es.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-<mode name="ca-es-tagger">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="ca-es.automorf.bin"/>
+        <file name="spa-cat.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ca-es.prob"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <mode name="ca-es-pretransfer">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="ca-es.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="ca-es.prob"/>
+        <file name="spa-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="ca-es-transfer">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="ca-es.automorf.bin"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat.autobil.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="ca-es.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="ca-es.t1x"/>
-        <file name="ca-es.t1x.bin"/>
-        <file name="ca-es.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-<mode name="ca-es-gen">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="ca-es.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="ca-es.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="ca-es.t1x"/>
-        <file name="ca-es.t1x.bin"/>
-        <file name="ca-es.autobil.bin"/>
+      <program name="apertium-transfer -b">
+        <file name="spa-cat_valencia.t1x"/>
+        <file name="spa-cat_valencia.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="ca-es.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="es-ca" install="yes">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="es-ca.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="es-ca.t1x"/>
-        <file name="es-ca.t1x.bin"/>
-        <file name="es-ca.autobil.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="es-ca.autogen.bin"/>
+        <file name="spa-cat.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="es-ca.autopgen.bin"/>
+        <file name="spa-cat.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
 
-  <mode name="es-ca-anmor">
+  <mode name="spa-cat-dgen" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ca.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <mode name="es-ca-tagger">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="es-ca.automorf.bin"/>
+        <file name="spa-cat.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
+        <file name="spa-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="spa-cat.t1x"/>
+        <file name="spa-cat.t1x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="spa-cat.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-
-  <mode name="es-ca-pretransfer">
+  <mode name="spa-cat-morph" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ca.automorf.bin"/>
+        <file name="spa-cat.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-cat-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-cat.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
+        <file name="spa-cat.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-cat-pretransfer" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-cat.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
-  <mode name="es-ca-transfer">
+
+  <mode name="spa-cat-biltrans" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ca.automorf.bin"/>
+        <file name="spa-cat.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
+        <file name="spa-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="es-ca.t1x"/>
-        <file name="es-ca.t1x.bin"/>
-        <file name="es-ca.autobil.bin"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
-
-  <mode name="es-ca-gen">
+  <mode name="spa-cat-transfer" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ca.automorf.bin"/>
+        <file name="spa-cat.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
+        <file name="spa-cat.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="es-ca.t1x"/>
-        <file name="es-ca.t1x.bin"/>
-        <file name="es-ca.autobil.bin"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b -t">
+        <file name="spa-cat.t1x"/>
+        <file name="spa-cat.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- cat → spa -->
+  <mode name="cat-spa" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="cat-spa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="cat-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="cat-spa.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-spa-cat.cat-spa.t1x"/>
+        <file name="cat-spa.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="es-ca.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="ca-es-latin1" install="yes">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="ca-es.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="ca-es-latin1.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="ca-es.t1x"/>
-        <file name="ca-es.t1x.bin"/>
-        <file name="ca-es.autobil.bin"/>
-      </program>
-      <program name="lt-proc -n">
-        <file name="ca-es.autogen.bin"/>
+        <file name="cat-spa.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="ca-es.autopgen.bin"/>
+        <file name="cat-spa.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
-  
-  <mode name="es-ca-latin1" install="yes">
+
+  <mode name="cat-spa-dgen" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ca.automorf.bin"/>
+        <file name="cat-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ca-latin1.prob"/>
+        <file name="cat-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="es-ca.t1x"/>
-        <file name="es-ca.t1x.bin"/>
-        <file name="es-ca.autobil.bin"/>
+      <program name="lt-proc -b">
+        <file name="cat-spa.autobil.bin"/>
       </program>
-      <program name="lt-proc $1">
-        <file name="es-ca.autogen.bin"/>
+      <program name="apertium-transfer -b">
+        <file name="apertium-spa-cat.cat-spa.t1x"/>
+        <file name="cat-spa.t1x.bin"/>
       </program>
-      <program name="lt-proc -p">
-        <file name="es-ca.autopgen.bin"/>
+      <program name="lt-proc -d">
+        <file name="cat-spa.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-
-  <!-- multi -->
-  
-    <mode name="es-ca-multi" install="yes">
+  <mode name="cat-spa-morph" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-ca.automorf.bin"/>
+        <file name="cat-spa.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="cat-spa-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="cat-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-multiple-translations">
-        <file name="es-ca.t1x.bin"/>
-        <file name="es-ca.lextormono.bin"/>
-      </program>
-      <program name="apertium-transfer">
-        <file name="es-ca.t1x"/>
-        <file name="es-ca.t1x.bin"/>
-        <file name="es-ca.lextorbil.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="es-ca.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="es-ca.autopgen.bin"/>
+        <file name="cat-spa.prob"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="ca-es-multi" install="yes">
+  <mode name="cat-spa-pretransfer" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="ca-es.automorf.bin"/>
+        <file name="cat-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="ca-es.prob"/>
+        <file name="cat-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-multiple-translations">
-        <file name="ca-es.t1x.bin"/>
-        <file name="ca-es.lextormono.bin"/>
-      </program>
-
-      <program name="apertium-transfer">
-        <file name="ca-es.t1x"/>
-        <file name="ca-es.t1x.bin"/>
-        <file name="ca-es.lextorbil.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="ca-es.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="ca-es.autopgen.bin"/>
-      </program>
     </pipeline>
   </mode>
 
-
-
-
-  <mode name="val-ca-es" install="yes">
+  <mode name="cat-spa-biltrans" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="val-ca-es.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2 ">
-        <file name="ca-es.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="ca-es.t1x"/>
-        <file name="ca-es.t1x.bin"/>
-        <file name="val-ca-es.autobil.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="val-ca-es.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="ca-es.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  <mode name="val-ca-es-anmor" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="val-ca-es.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="val-es-ca" install="yes">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="val-es-ca.automorf.bin"/>
+        <file name="cat-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
+        <file name="cat-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="val-es-ca.t1x"/>
-        <file name="val-es-ca.t1x.bin"/>
-        <file name="val-es-ca.autobil.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="val-es-ca.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="val-es-ca.autopgen.bin"/>
+      <program name="lt-proc -b">
+        <file name="cat-spa.autobil.bin"/>
       </program>
     </pipeline>
   </mode>
 
-
-  <mode name="ca_valencia-es" install="no">
+  <mode name="cat-spa-transfer" install="no">
     <pipeline>
       <program name="lt-proc">
-        <file name="val-ca-es.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2 ">
-        <file name="ca-es.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="ca-es.t1x"/>
-        <file name="ca-es.t1x.bin"/>
-        <file name="val-ca-es.autobil.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="val-ca-es.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="ca-es.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  <mode name="ca_valencia-es-anmor" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="val-ca-es.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="es-ca_valencia" install="yes">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="val-es-ca.automorf.bin"/>
+        <file name="cat-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
+        <file name="cat-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="val-es-ca.t1x"/>
-        <file name="val-es-ca.t1x.bin"/>
-        <file name="val-es-ca.autobil.bin"/>
+      <program name="lt-proc -b">
+        <file name="cat-spa.autobil.bin"/>
       </program>
-      <program name="lt-proc $1">
-        <file name="val-es-ca.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="val-es-ca.autopgen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-<mode name="es-ca_valencia-transfer" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="val-es-ca.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="val-es-ca.t1x"/>
-        <file name="val-es-ca.t1x.bin"/>
-        <file name="val-es-ca.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
- <mode name="es-ca_valencia-gen" install="no">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="val-es-ca.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="es-ca.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="val-es-ca.t1x"/>
-        <file name="val-es-ca.t1x.bin"/>
-        <file name="val-es-ca.autobil.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="val-es-ca.autogen.bin"/>
+      <program name="apertium-transfer -b -t">
+        <file name="apertium-spa-cat.cat-spa.t1x"/>
+        <file name="cat-spa.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
 
 </modes>
+
