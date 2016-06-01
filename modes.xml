@@ -37,17 +37,17 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="spa-cat.autobil.bin"/>
+        <file name="spa-cat_valencia.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="spa-cat_valencia.t1x"/>
         <file name="spa-cat_valencia.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="spa-cat.autogen.bin"/>
+        <file name="spa-cat_valencia.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="spa-cat.autopgen.bin"/>
+        <file name="spa-cat_valencia.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
