@@ -125,11 +125,11 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ## Structural transfer rules
 ###############################################################################
 
-$(PREFIX1C).t1x.bin: .deps/$(PREFIX1C).t1x
+$(PREFIX1C).t1x.bin: $(PREFIX1C).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX1V).t1x.bin: .deps/$(PREFIX1V).t1x
+$(PREFIX1V).t1x.bin: $(PREFIX1V).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
