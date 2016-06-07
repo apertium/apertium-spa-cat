@@ -108,11 +108,14 @@ $(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 ## Bilingual dictionaries
 ###############################################################################
 
-$(PREFIX1C).autobil.bin: $(BASENAME).$(PREFIX1).dix
+.deps/$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
+	xsltproc translate-to-default-equivalent.xsl $< > $@
+
+$(PREFIX1C).autobil.bin: .deps/$(PREFIX1).dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=cat lr $< $@
 
-$(PREFIX1V).autobil.bin: $(BASENAME).$(PREFIX1).dix
+$(PREFIX1V).autobil.bin: .deps/$(PREFIX1).dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=val lr $< $@
 
