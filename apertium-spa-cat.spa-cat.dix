@@ -4252,7 +4252,8 @@
 <e vr="val"><p><l>tienda<s n="n"/></l>           <r>tenda<s n="n"/></r></p></e>
 <e>       <p><l>tierra<s n="n"/></l>              <r>terra<s n="n"/></r></p></e>
 <e>       <p><l>tiniebla<s n="n"/></l>            <r>tenebra<s n="n"/></r></p></e>
-<e>       <p><l>tío<s n="n"/></l>                 <r>oncle<s n="n"/></r></p></e>
+<e>       <p><l>tío<s n="n"/><s n="m"/></l>                 <r>oncle<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>tío<s n="n"/><s n="f"/></l>                 <r>tia<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>tipo<s n="n"/><s n="m"/><s n="ND"/></l><r>tipus<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>tipo<s n="n"/><s n="m"/><s n="pl"/></l><r>tipus<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>tipo<s n="n"/><s n="m"/><s n="sg"/></l><r>tipus<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -6627,7 +6628,7 @@
 <e>       <p><l>alpino<s n="adj"/></l>            <r>alpí<s n="adj"/></r></p></e>
 <e>       <i>alquimista<s n="n"/></i></e>
 <e>       <p><l>altamente<s n="adv"/></l>         <r>altament<s n="adv"/></r></p></e>
-<e>       <i>Altea<s n="np"/></i></e>
+<e>       <i>Altea<s n="np"/><s n="loc"/></i></e>
 <e>       <p><l>altercado<s n="n"/></l>           <r>altercat<s n="n"/></r></p></e>
 <e>       <p><l>alterno<s n="adj"/></l>           <r>altern<s n="adj"/></r></p></e>
 <e>       <i>altitud<s n="n"/></i></e>
@@ -6883,7 +6884,7 @@
 <e>       <i>Asepeyo<s n="np"/></i></e>
 <e>       <i>asfaltar<s n="vblex"/></i></e>
 <e>       <i>asfixiar<s n="vblex"/></i></e>
-<e>       <p><l>Asia<s n="np"/></l>               <r>Àsia<s n="np"/></r></p></e>
+<e>       <p><l>Asia<s n="np"/><s n="loc"/></l>   <r>Àsia<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>asiático<s n="adj"/></l>          <r>asiàtic<s n="adj"/></r></p></e>
 <e>       <p><l>asiático<s n="n"/></l>            <r>asiàtic<s n="n"/></r></p></e>
 <e>       <p><l>asimétrico<s n="adj"/></l>        <r>asimètric<s n="adj"/></r></p></e>
@@ -7205,7 +7206,7 @@
 <e>       <i>Biel<s n="np"/></i></e>
 <e>       <p><l>viga<s n="n"/></l>                <r>biga<s n="n"/></r></p></e>
 <e>       <i>bilateral<s n="adj"/></i></e>
-<e>       <i>Bilbao<s n="np"/></i></e>
+<e>       <i>Bilbao<s n="np"/><s n="loc"/></i></e>
 <e>       <i>bilingüe<s n="adj"/></i></e>
 <e>       <i>billar<s n="n"/></i></e>
 <e>       <i>Bill<s n="np"/></i></e>
@@ -8595,7 +8596,7 @@
 <e>       <p><l>Ibiza<s n="np"/></l>              <r>Eivissa<s n="np"/></r></p></e>
 <e>       <i>Eizaguirre<s n="np"/></i></e>
 <e>       <p><l>elástico<s n="adj"/></l>          <r>elàstic<s n="adj"/></r></p></e>
-<e>       <i>Elda<s n="np"/></i></e>
+<e>       <i>Elda<s n="np"/><s n="loc"/></i></e>
 <e>       <i>elector<s n="adj"/></i></e>
 <e>       <p><l>electorado<s n="n"/></l>          <r>electorat<s n="n"/></r></p></e>
 <e>       <i>elector<s n="n"/></i></e>
@@ -9597,7 +9598,7 @@
 <e>       <p><l>geológico<s n="adj"/></l>         <r>geològic<s n="adj"/></r></p></e>
 <e>       <p><l>geométrico<s n="adj"/></l>        <r>geomètric<s n="adj"/></r></p></e>
 <e>       <i>George<s n="np"/></i></e>
-<e>       <p><l>Georgia<s n="np"/></l>            <r>Geòrgia<s n="np"/></r></p></e>
+<e>       <p><l>Georgia<s n="np"/><s n="loc"/></l>            <r>Geòrgia<s n="np"/><s n="loc" /></r></p></e>
 <e>       <i>Gerard<s n="np"/></i></e>
 <e>       <i>Gerardo<s n="np"/></i></e>
 <e>       <p><l>gerencia<s n="n"/></l>            <r>gerència<s n="n"/></r></p></e>
@@ -11262,7 +11263,7 @@
 <e srl="óleo"><p><l>óleo<s n="n"/></l>            <r>oli<s n="n"/></r></p></e>
 <e r="LR"><p><l>aceituna<s n="n"/></l>            <r>oliva<s n="n"/></r></p></e>
 <e>       <i>oliva<s n="n"/></i></e>
-<e>       <i>Oliva<s n="np"/></i></e>
+<e>       <i>Oliva<s n="np"/><s n="loc"/></i></e>
 <e>       <i>Olivares<s n="np"/></i></e>
 <e>       <i>Oliveira<s n="np"/></i></e>
 <e>       <p><l>olivo<s n="n"/><s n="m"/></l>     <r>olivera<s n="n"/><s n="f"/></r></p></e>
@@ -11647,7 +11648,7 @@
 <e>       <p><l>pestilencia<s n="n"/></l>         <r>pestilència<s n="n"/></r></p></e>
 <e>       <p><l>petardo<s n="n"/></l>             <r>petard<s n="n"/></r></p></e>
 <e>       <p><l>besucón<s n="adj"/></l>           <r>petoner<s n="adj"/></r></p></e>
-<e>       <i>Petra<s n="np"/></i></e>
+<e>       <i>Petra<s n="np"/><s n="loc"/></i></e>
 <e>       <p><l>petrolera<s n="n"/></l>           <r>petroliera<s n="n"/></r></p></e>
 <e a="softvalencià">	  <p><l>piar<s n="vblex"/></l><r>piular<s n="vblex"/></r></p></e>
 <e>       <i>pianista<s n="n"/></i></e>
@@ -12764,7 +12765,7 @@
 <e>       <p><l>sinuoso<s n="adj"/></l>           <r>sinuós<s n="adj"/></r></p></e>
 <e r="LR"><p><l>jibia<s n="n"/></l>               <r>sípia<s n="n"/></r></p></e>
 <e r="RL"><p><l>sepia<s n="n"/></l>               <r>sípia<s n="n"/></r></p></e>
-<e>       <p><l>Siria<s n="np"/></l>              <r>Síria<s n="np"/></r></p></e>
+<e>       <p><l>Siria<s n="np"/><s n="loc"/></l>  <r>Síria<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>seísmo<s n="n"/></l>              <r>sisme<s n="n"/></r></p></e>
 <e r="LR"><p><l>por<b/>sistema<s n="adv"/></l>    <r>sistemàticament<s n="adv"/></r></p></e>
 <e>       <p><l>sistemáticamente<s n="adv"/></l>  <r>sistemàticament<s n="adv"/></r></p></e>
@@ -13335,7 +13336,7 @@
 <e>       <p><l>vagón<s n="n"/></l>               <r>vagó<s n="n"/></r></p></e>
 <e>       <p><l>vajilla<s n="n"/></l>             <r>vaixella<s n="n"/></r></p></e>
 <e>       <i>Valdés<s n="np"/></i></e>
-<e>       <p><l>Valencia<s n="np"/></l>           <r>València<s n="np"/></r></p></e>
+<e>       <p><l>Valencia<s n="np"/><s n="loc"/></l><r>València<s n="np"/><s n="loc"/></r></p></e>
 <e r="LR"><i>València<s n="np"/></i></e>
 <e>       <p><l>valentía<s n="n"/></l>            <r>valentia<s n="n"/></r></p></e>
 <e>       <i>Valentín<s n="np"/></i></e>
@@ -13476,7 +13477,7 @@
 <e>       <p><l>viudo<s n="adj"/></l>             <r>vidu<s n="adj"/></r></p></e>
 <e>       <p><l>viudedad<s n="n"/></l>            <r>viduïtat<s n="n"/></r></p></e>
 <e>       <p><l>viudo<s n="n"/></l>               <r>vidu<s n="n"/></r></p></e>
-<e>       <i>Viena<s n="np"/></i></e>
+<e>       <i>Viena<s n="np"/><s n="loc"/></i></e>
 <e>       <i>Vietnam<s n="np"/></i></e>
 <e>       <p><l>vigente<s n="adj"/></l>           <r>vigent<s n="adj"/></r></p></e>
 <e>       <p><l>vigilante<s n="n"/></l>           <r>vigilant<s n="n"/></r></p></e>
@@ -13614,7 +13615,7 @@
 <e>       <p><l>chileno<s n="n"/></l>             <r>xilè<s n="n"/></r></p></e>
 <e>       <p><l>Chile<s n="np"/></l>              <r>Xile<s n="np"/></r></p></e>
 <e>       <p><l>tontería<s n="n"/></l>            <r>ximpleria<s n="n"/></r></p></e>
-<e>       <p><l>China<s n="np"/></l>              <r>Xina<s n="np"/></r></p></e>
+<e>       <p><l>China<s n="np"/><s n="loc"/></l>  <r>Xina<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>chip<s n="n"/></l>                <r>xip<s n="n"/></r></p></e>
 <e>       <p><l>ciprés<s n="n"/></l>              <r>xiprer<s n="n"/></r></p></e>
 <e r="LR"><p><l>Chirivella<s n="np"/></l>         <r>Xirivella<s n="np"/></r></p></e>
@@ -13683,7 +13684,7 @@
 <e a="mginesti"><p><l>Lima<s n="np"/></l>         <r>Lima<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Próximo<b/>Oriente<s n="np"/></l><r>Pròxim<b/>Orient<s n="np"/></r></p></e>
 <e>       <p><l>Oriente<b/>Medio<s n="np"/></l>   <r>Orient<b/>Mitjà<s n="np"/></r></p></e>
-<e a="mginesti"><p><l>Marruecos<s n="np"/></l>    <r>el<b/>Marroc<s n="np"/></r></p></e>
+<e a="mginesti"><p><l>Marruecos<s n="np"/><s n="loc"/></l>    <r>el<b/>Marroc<s n="np"/><s n="loc"/></r></p></e>
 <e r="RL" a="mginesti"><p><l>Marruecos<s n="np"/></l><r>Marroc<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Frankfurt<s n="np"/></l>    <r>Frankfurt<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Navarra<s n="np"/></l>      <r>Navarra<s n="np"/></r></p></e>
@@ -13856,7 +13857,6 @@
 <e>       <p><l>policía<s n="adj"/></l>           <r>policia<s n="adj"/></r></p></e>
 <e>       <p><l>orden<s n="n"/><s n="m"/></l>     <r>ordre<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>menor<s n="n"/></i></e>
-<e>       <i>Maria<s n="np"/></i></e>
 <e>       <p><l>malograr<s n="vblex"/></l>        <r>malmetre<s n="vblex"/></r></p></e>
 <e>       <i>fa<s n="n"/></i></e>
 <e>       <p><l>ejecutivo<s n="adj"/></l>         <r>executiu<s n="adj"/></r></p></e>
@@ -19271,7 +19271,7 @@
 <e a="prompsit2adn"><p><l>Nafarroa<b/>Bai<s n="np"/></l><r>Nafarroa<b/>Bai<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>NaBai<s n="np"/></l>    <r>NaBai<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Fecsa-Endesa<s n="np"/></l><r>Fecsa-Endesa<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Apple<s n="np"/></l>    <r>Apple<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Apple<s n="np"/><s n="al"/></l>    <r>Apple<s n="np"/><s n="al"/></r></p></e>
 <e a="prompsit2adn"><p><l>Espanyol<s n="np"/></l> <r>Espanyol<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Nobel<s n="np"/></l>    <r>Nobel<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>iPhone<s n="np"/></l>   <r>iPhone<s n="np"/></r></p></e>
@@ -19407,7 +19407,7 @@
 <e a="prompsit2adn"><p><l>Boston<s n="np"/></l>   <r>Boston<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Scotland<s n="np"/></l> <r>Scotland<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Rangún<s n="np"/></l>   <r>Yangon<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Marbella<s n="np"/></l> <r>Marbella<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Marbella<s n="np"/><s n="loc"/></l> <r>Marbella<s n="np"/><s n="loc"/></r></p></e>
 <e a="prompsit2adn"><p><l>Huesca<s n="np"/></l>   <r>Osca<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Peloponeso<s n="np"/></l><r>Peloponeso<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Talmacsi<s n="np"/></l> <r>Talmacsi<s n="np"/></r></p></e>
@@ -19445,7 +19445,7 @@
 <e a="prompsit2adn"><p><l>Sumatra<s n="np"/></l>  <r>Sumatra<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Kandahar<s n="np"/></l> <r>Kandahar<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Birmingham<s n="np"/></l><r>Birmingham<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Atocha<s n="np"/></l>   <r>Atocha<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Atocha<s n="np"/><s n="loc"/></l>   <r>Atocha<s n="np"/><s n="loc"/></r></p></e>
 <e a="prompsit2adn"><p><l>Módena<s n="np"/></l>   <r>Mòdena<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Leganés<s n="np"/></l>  <r>Leganés<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Barak<s n="np"/></l>    <r>Barak<s n="np"/></r></p></e>
@@ -20325,7 +20325,7 @@
 <e a="prompsit"><p><l>Neptuno<s n="np"/></l>      <r>Neptú<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Nièvre<s n="np"/></l>       <r>Nièvre<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Nueva<b/>Caledonia<s n="np"/></l><r>Nova<b/>Caledònia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Numancia<s n="np"/></l>     <r>Numància<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Numancia<s n="np"/><s n="loc"/></l><r>Numància<s n="np"/><s n="loc"/></r></p></e>
 <e a="prompsit"><p><l>Occitania<s n="np"/></l>    <r>Occitània<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Olesa<s n="np"/></l>        <r>Olesa<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>País<b/>Vasco<s n="np"/></l><r>País<b/>Basc<s n="np"/></r></p></e>
@@ -26114,7 +26114,8 @@
 <e a="prompsit2uoc"><p><l>próstata<s n="n"/></l>  <r>pròstata<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>nebulosa<s n="n"/></l>  <r>nebulosa<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>beta<s n="n"/></l>      <r>beta<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>alfa<s n="n"/></l>      <r>alfa<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>gamma<s n="n"/></l>      <r>gamma<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>delta<s n="n"/></l>      <r>delta<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>sonata<s n="n"/></l>    <r>sonata<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>curvatura<s n="n"/></l> <r>curvatura<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>cascada<s n="n"/></l>   <r>cascada<s n="n"/></r></p></e>
