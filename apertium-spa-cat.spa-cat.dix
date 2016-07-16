@@ -2790,7 +2790,7 @@
 <e>       <i>fama<s n="n"/></i></e>
 <e>       <p><l>familia<s n="n"/></l>             <r>família<s n="n"/></r></p></e>
 <e>       <p><l>fantasía<s n="n"/></l>            <r>fantasia<s n="n"/></r></p></e>
-<e>       <i>fantasma<s n="n"/></i></e>
+<e>       <p><l>fantasma<s n="n"/><s n="m"/></l>  <r>fantasma<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>faradio<s n="n"/></l>             <r>farad<s n="n"/></r></p></e>
 <e r="LR"><i>farad<s n="n"/></i></e>
 <e>       <p><l>faradímetro<s n="n"/></l>         <r>faradímetre<s n="n"/></r></p></e>
@@ -9068,7 +9068,7 @@
 <e>       <p><l>estupefaciente<s n="n"/></l>      <r>estupefaent<s n="n"/></r></p></e>
 <e>       <p><l>estupendamente<s n="adv"/></l>    <r>estupendament<s n="adv"/></r></p></e>
 <e>       <p><l>estupidez<s n="n"/></l>           <r>estupidesa<s n="n"/></r></p></e>
-<e>       <i>estupor<s n="n"/></i></e>
+<e>       <p><l>estupor<s n="n"/><s n="m"/></l>	  <r>estupor<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>desvanecimiento<s n="n"/></l>     <r>esvaïment<s n="n"/></r></p></e>
 <e>       <p><l>desvanecer<s n="vblex"/></l>      <r>esvair<s n="vblex"/></r></p></e>
 <e>       <i>ETA<s n="n"/></i></e>
@@ -15589,7 +15589,9 @@
 <e a="prompsit2adn"><p><l>estructuralmente<s n="adv"/></l><r>estructuralment<s n="adv"/></r></p></e>
 <e a="prompsit2adn"><p><l>estudioso<s n="adj"/></l><r>estudiós<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>etrusco<s n="adj"/></l> <r>etrusc<s n="adj"/></r></p></e>
-<e a="prompsit2adn"><p><l>euribor<s n="n"/></l>   <r>euribor<s n="n"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>euribor<s n="n"/><s n="m"/><s n="sp"/></l>   <r>euribor<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>euribor<s n="n"/><s n="m"/><s n="sp"/></l>   <r>euribor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>euribor<s n="n"/><s n="m"/><s n="sp"/></l>   <r>euribor<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e a="prompsit2adn"><p><l>euríbor<s n="n"/></l>   <r>euríbor<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>eurodiputado<s n="n"/></l><r>eurodiputat<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>evangélico<s n="adj"/></l><r>evangèlic<s n="adj"/></r></p></e>
@@ -36893,7 +36895,7 @@
 <e>       <p><l>voz<b/>queda<s n="n"/></l>        <r>veu<b/>baixa<s n="n"/></r></p></e>
 <e>       <p><l>vuelco<s n="n"/><s n="m"/></l>    <r>bolcada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>vulgarismo<s n="n"/></l>          <r>vulgarisme<s n="n"/></r></p></e>
-<e>       <p><l>W<s n="n"/><s n="m"/><s n="sg"/></l><r>W<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>W<s n="n"/><s n="m"/><s n="sp"/></l><r>W<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>yeísmo<s n="n"/></l>              <r>ieisme<s n="n"/></r></p></e>
 <e>       <p><l>yeyuno<s n="n"/></l>              <r>jejú<s n="n"/></r></p></e>
 <e>       <p><l>yudo<s n="n"/></l>                <r>judo<s n="n"/></r></p></e>
