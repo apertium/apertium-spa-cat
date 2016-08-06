@@ -7,6 +7,9 @@
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
       </program>
+	  <program name="lrx-proc $2">
+        <file name="spa.lrx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="spa-cat.prob"/>
       </program>
@@ -31,6 +34,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
+      </program>
+	  <program name="lrx-proc $2">
+        <file name="spa.lrx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="spa-cat.prob"/>
@@ -57,6 +63,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
+      </program>
+	  <program name="lrx-proc $2">
+        <file name="spa.lrx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="spa-cat.prob"/>
@@ -88,8 +97,22 @@
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
       </program>
+	  <program name="lrx-proc $2">
+        <file name="spa.lrx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="spa-cat.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-cat-disamb" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-cat.automorf.bin"/>
+      </program>
+	  <program name="lrx-proc $2">
+        <file name="spa.lrx.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -98,6 +121,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
+      </program>
+	  <program name="lrx-proc $2">
+        <file name="spa.lrx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="spa-cat.prob"/>
@@ -110,6 +136,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
+      </program>
+	  <program name="lrx-proc $2">
+        <file name="spa.lrx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="spa-cat.prob"/>
@@ -125,6 +154,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
+      </program>
+	  <program name="lrx-proc $2">
+        <file name="spa.lrx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="spa-cat.prob"/>

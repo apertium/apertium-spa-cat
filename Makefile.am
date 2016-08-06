@@ -22,9 +22,10 @@ PREFIX2V=$(LANG2V)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
-TARGETS_COMMON =				\
+TARGETS_COMMON =			\
 	$(PREFIX1).automorf.bin 	\
-	$(PREFIX1).prob			 	\
+	$(LANG1).lrx.bin	 	\
+	$(PREFIX1).prob		 	\
 	$(PREFIX1C).autobil.bin 	\
 	$(PREFIX1V).autobil.bin 	\
 	$(PREFIX1C).autogen.bin 	\
@@ -32,12 +33,12 @@ TARGETS_COMMON =				\
 	$(PREFIX1C).autopgen.bin 	\
 	$(PREFIX1V).autopgen.bin 	\
 	$(PREFIX2).automorf.bin		\
-	$(PREFIX2).prob				\
+	$(PREFIX2).prob			\
 	$(PREFIX2).autobil.bin		\
-	$(PREFIX2).autogen.bin 	\
+	$(PREFIX2).autogen.bin 		\
 	$(PREFIX2).autopgen.bin 	\
-	$(PREFIX1C).t1x.bin \
-	$(PREFIX1V).t1x.bin \
+	$(PREFIX1C).t1x.bin 		\
+	$(PREFIX1V).t1x.bin 		\
 	$(PREFIX2).t1x.bin
 	
 
@@ -98,6 +99,9 @@ $(PREFIX1V).autopgen.bin: $(AP_SRC2)/$(LANG2V).autopgen.bin
 ###############################################################################
 
 $(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
+	cp $< $@
+
+$(LANG1).lrx.bin: $(AP_SRC1)/$(LANG1).lrx.bin
 	cp $< $@
 
 $(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
