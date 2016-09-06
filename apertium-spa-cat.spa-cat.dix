@@ -11761,7 +11761,7 @@
 <e>       <p><l>neumático<s n="n"/></l>           <r>pneumàtic<s n="n"/></r></p></e>
 <e>       <p><l>neumonía<s n="n"/></l>            <r>pneumònia<s n="n"/></r></p></e>
 <e>       <i>poblacional<s n="adj"/></i></e>
-<e r="LR"><p><l>poquito<s n="adj"/></l>           <r>poc<s n="adj"/></r></p></e>
+<e>       <p><l>poquito<s n="adj"/></l>           <r>poquet<s n="adj"/></r></p></e>
 <e>       <p><l>poco<s n="adj"/><s n="ind"/></l>  <r>poc<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>muy<b/>poco<s n="adj"/><s n="ind"/></l><r>molt<b/>poc<s n="adj"/></r></p></e>
 <e>       <p><l>sinvergüenza<s n="n"/></l>        <r>pocavergonya<s n="n"/></r></p></e>
@@ -13315,7 +13315,9 @@
 <e>       <i>UHF<s n="n"/></i></e>
 <e>       <p><l>gafas<s n="n"/></l>               <r>ulleres<s n="n"/></r></p></e>
 <e>       <p><l>últimamente<s n="adv"/></l>       <r>últimament<s n="adv"/></r></p></e>
-<e>       <i>ultra<s n="adj"/></i></e>
+<e r="LR"><p><l>ultra<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ultra<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>ultra<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ultra<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>ultra<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ultra<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <i>umbilical<s n="adj"/></i></e>
 <e>       <p><l>unanimidad<s n="n"/></l>          <r>unanimitat<s n="n"/></r></p></e>
 <e>       <p><l>únicamente<s n="adv"/></l>        <r>únicament<s n="adv"/></r></p></e>
@@ -28622,7 +28624,11 @@
 <e r="LR"><p><l>tarraconense<s n="adj"/><s n="mf"/></l><r>tarragoní<s n="adj"/><s n="GD"/></r></p></e>
 <e r="LR"><p><l>transcendental<s n="adj"/></l>    <r>transcendental<s n="adj"/></r></p></e>
 <e r="LR"><p><l>ultraviolado<s n="adj"/></l>      <r>ultraviolat<s n="adj"/></r></p></e>
-<e r="LR"><p><l>ultravioleta<s n="adj"/><s n="mf"/></l><r>ultraviolat<s n="adj"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>ultravioleta<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ultraviolat<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>ultravioleta<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ultraviolat<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>ultravioleta<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ultraviolat<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>ultravioleta<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ultraviolat<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>ultravioleta<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ultraviolat<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>urbanícola<s n="adj"/></l>        <r>urbícola<s n="adj"/></r></p></e>
 <e><p><l>urbanita<s n="adj"/></l>          <r>urbanita<s n="adj"/></r></p></e>
 <e r="LR"><p><l>vivales<s n="adj"/><s n="mf"/><s n="sp"/></l><r>fresc<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -28728,8 +28734,6 @@
 <e r="RL"><p><l>tenaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>tenaç<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL" srl="trabajador"><p><l>trabajador<s n="adj"/><s n="m"/></l>        <r>feiner<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL">       <p><l>trabajador<s n="adj"/><s n="f"/></l>         <r>feiner<s n="adj"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>ultravioleta<s n="adj"/><s n="mf"/></l><r>ultraviolat<s n="adj"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>ultravioleta<s n="adj"/><s n="mf"/></l><r>ultraviolat<s n="adj"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>verdoso<s n="adj"/></l>           <r>verdosenc<s n="adj"/></r></p></e>
 <e>       <p><l>vivaz<s n="adj"/><s n="mf"/><s n="sg"/></l><r>vivaç<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>vivaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>vivaç<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
