@@ -1239,6 +1239,7 @@
 <e>       <p><l>antes<s n="adv"/></l>             <r>abans<s n="adv"/></r></p></e>
 <e r="RL"><p><l>antes<s n="adv"/></l>             <r>ans<s n="adv"/></r></p></e>
 <e r="RL"><p><l>aparte<s n="adv"/></l>            <r>a<b/>banda<s n="adv"/></r></p></e>
+<e r="LR"><p><l>aparte<s n="n"/><s n="m"/><s n="sg"/></l><r>a<b/>banda<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>fondo<s n="adv"/></l>        <r>a<b/>fons<s n="adv"/></r></p></e>
 <e>       <p><l>aparte<s n="adv"/></l>            <r>a<b/>part<s n="adv"/></r></p></e>
 <e r="RL"><p><l>apenas<s n="adv"/></l>            <r>tot<b/>just<s n="adv"/></r></p></e>
@@ -3144,7 +3145,7 @@
 <e r="LR"><p><l>júbilo<s n="n"/></l>              <r>goig<s n="n"/></r></p></e>
 <e>       <p><l>juego<s n="n"/></l>               <r>joc<s n="n"/></r></p></e>
 <e>       <p><l>jueves<s n="n"/></l>              <r>dijous<s n="n"/></r></p></e>
-<e>       <p><l>juez<s n="n"/></l>                <r>jutge<s n="n"/></r></p></e>
+<e>       <p><l>juez<s n="n"/><s n="m"/></l>      <r>jutge<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>jugada<s n="n"/></i></e>
 <e>       <i>jugador<s n="n"/></i></e>
 <e srl="jugo"><p><l>jugo<s n="n"/></l>            <r>suc<s n="n"/></r></p></e>
@@ -8560,6 +8561,7 @@
 <e>       <i>Durán<s n="np"/></i></e>
 <e>       <p><l>ducha<s n="n"/></l>               <r>dutxa<s n="n"/></r></p></e>
 <e>       <p><l>duchar<s n="vblex"/></l>          <r>dutxar<s n="vblex"/></r></p></e>
+<e>       <i>DVD<s n="n"/></i></e>
 <e>       <i>dvd<s n="n"/></i></e>
 <e>       <p><l>Ebro<s n="n"/></l>                <r>Ebre<s n="n"/></r></p></e>
 <e>       <p><l>ecléctico<s n="adj"/></l>         <r>eclèctic<s n="adj"/></r></p></e>
@@ -10216,7 +10218,6 @@
 <e>       <p><l>internacionalmente<s n="adv"/></l><r>internacionalment<s n="adv"/></r></p></e>
 <e>       <i>internauta<s n="n"/></i></e>
 <e r="LR"><p><l>internet<s n="n"/><s n="m"/></l>  <r>internet<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>internet<s n="n"/><s n="f"/></l>  <r>internet<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>interpretativo<s n="adj"/></l>    <r>interpretatiu<s n="adj"/></r></p></e>
 <e>       <p><l>interprofesional<s n="adj"/></l>  <r>interprofessional<s n="adj"/></r></p></e>
 <e>       <p><l>interrogante<s n="n"/></l>        <r>interrogant<s n="n"/></r></p></e>
@@ -10382,7 +10383,7 @@
 <e>       <i>justificar<s n="vblex"/></i></e>
 <e>       <i>Just<s n="np"/></i></e>
 <e>       <p><l>yute<s n="n"/></l>                <r>jute<s n="n"/></r></p></e>
-<e>       <p><l>jueza<s n="n"/></l>               <r>jutgessa<s n="n"/></r></p></e>
+<e>       <p><l>juez<s n="n"/><s n="f"/></l>               <r>jutgessa<s n="n"/><s n="f"/></r></p></e>
 <e>       <i>Karen<s n="np"/></i></e>
 <e>       <i>Karina<s n="np"/></i></e>
 <e>       <i>Karl<s n="np"/></i></e>
@@ -11762,7 +11763,7 @@
 <e>       <p><l>neumonía<s n="n"/></l>            <r>pneumònia<s n="n"/></r></p></e>
 <e>       <i>poblacional<s n="adj"/></i></e>
 <e>       <p><l>poquito<s n="adj"/></l>           <r>poquet<s n="adj"/></r></p></e>
-<e>       <p><l>poco<s n="adj"/><s n="ind"/></l>  <r>poc<s n="adj"/></r></p></e>
+<e>       <p><l>poco<s n="adj"/></l>  <r>poc<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>muy<b/>poco<s n="adj"/><s n="ind"/></l><r>molt<b/>poc<s n="adj"/></r></p></e>
 <e>       <p><l>sinvergüenza<s n="n"/></l>        <r>pocavergonya<s n="n"/></r></p></e>
 <e>       <p><l>poderosamente<s n="adv"/></l>     <r>poderosament<s n="adv"/></r></p></e>
@@ -11960,7 +11961,8 @@
 <e>       <p><l>profundamente<s n="adv"/></l>     <r>profundament<s n="adv"/></r></p></e>
 <e>       <i>progenitor<s n="n"/></i></e>
 <e>       <p><l>programación<s n="n"/></l>        <r>programació<s n="n"/></r></p></e>
-<e>       <p><l>software<s n="n"/></l>            <r>programari<s n="n"/></r></p></e>
+<e>       <p><l>software<s n="n"/><s n="m" /><s n="sp" /></l><r>programari<s n="n"/><s n="m" /><s n="sg" /></r></p></e>
+<e r="RL"><p><l>software<s n="n"/><s n="m" /><s n="sp" /></l><r>programari<s n="n"/><s n="m" /><s n="pl" /></r></p></e>
 <e>       <p><l>progresión<s n="n"/></l>          <r>progressió<s n="n"/></r></p></e>
 <e>       <p><l>progresismo<s n="n"/></l>         <r>progressisme<s n="n"/></r></p></e>
 <e>       <p><l>progresivamente<s n="adv"/></l>   <r>progressivament<s n="adv"/></r></p></e>
@@ -34479,7 +34481,7 @@
 <e>       <p><l>ancestro<s n="n"/></l>            <r>ancestre<s n="n"/></r></p></e>
 <e>       <p><l>anclaje<s n="n"/></l>             <r>ancoratge<s n="n"/></r></p></e>
 <e>       <p><l>anfíbraco<s n="n"/></l>           <r>amfíbrac<s n="n"/></r></p></e>
-<e>       <p><l>ánfora<s n="n"/></l>              <r>àmfora<s n="n"/></r></p></e>
+<e>       <p><l>ánfora<s n="n"/><s n="m"/></l>    <r>àmfora<s n="n"/><s n="f" /></r></p></e>
 <e>       <p><l>angoleño<s n="n"/></l>            <r>angolès<s n="n"/></r></p></e>
 <e>       <p><l>anilla<s n="n"/></l>              <r>anella<s n="n"/></r></p></e>
 <e>       <p><l>animadversión<s n="n"/></l>       <r>animadversió<s n="n"/></r></p></e>
