@@ -1239,7 +1239,7 @@
 <e>       <p><l>antes<s n="adv"/></l>             <r>abans<s n="adv"/></r></p></e>
 <e r="RL"><p><l>antes<s n="adv"/></l>             <r>ans<s n="adv"/></r></p></e>
 <e r="RL"><p><l>aparte<s n="adv"/></l>            <r>a<b/>banda<s n="adv"/></r></p></e>
-<e r="LR"><p><l>aparte<s n="n"/><s n="m"/><s n="sg"/></l><r>a<b/>banda<s n="adv"/></r></p></e>
+<e>		  <p><l>aparte<s n="n"/></l>			  <r>apart<s n="n"/></r></p></e>
 <e>       <p><l>a<b/>fondo<s n="adv"/></l>        <r>a<b/>fons<s n="adv"/></r></p></e>
 <e>       <p><l>aparte<s n="adv"/></l>            <r>a<b/>part<s n="adv"/></r></p></e>
 <e r="RL"><p><l>apenas<s n="adv"/></l>            <r>tot<b/>just<s n="adv"/></r></p></e>
@@ -2883,7 +2883,6 @@
 <e>       <i>futbolista<s n="n"/></i></e>
 <e>       <p><l>fútbol<s n="n"/></l>              <r>futbol<s n="n"/></r></p></e>
 <e>       <p><l>futuro<s n="n"/></l>              <r>futur<s n="n"/></r></p></e>
-<e>       <i>gala<s n="n"/></i></e>
 <e>       <p><l>galaxia<s n="n"/></l>             <r>galàxia<s n="n"/></r></p></e>
 <e>       <p><l>galería<s n="n"/></l>             <r>galeria<s n="n"/></r></p></e>
 <e>       <p><l>gallego<s n="n"/></l>             <r>gallec<s n="n"/></r></p></e>
@@ -4422,7 +4421,6 @@
 <e>       <i>vitrina<s n="n"/></i></e>
 <e>       <p><l>vivienda<s n="n"/><s n="f"/></l>  <r>habitatge<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>vivienda<s n="n"/><s n="f"/></l>  <r>vivenda<s n="n"/><s n="f"/></r></p></e>
-<e>       <i>v<s n="n"/></i></e>
 <e>       <p><l>vocación<s n="n"/></l>            <r>vocació<s n="n"/></r></p></e>
 <e>       <p><l>volante<s n="n"/></l>             <r>volant<s n="n"/></r></p></e>
 <e>       <p><l>volumen<s n="n"/></l>             <r>volum<s n="n"/></r></p></e>
@@ -9562,7 +9560,11 @@
 <e>       <i>Gallardo<s n="np"/></i></e>
 <e vr="cat" c="eliminat slr=galleda D">       <p><l>cubo<s n="n"/><s n="m"/></l>      <r>galleda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Gales<s n="np"/></l>              <r>Gal·les<s n="np"/></r></p></e>
-<e>       <p><l>galo<s n="n"/></l>                <r>gal<s n="n"/></r></p></e>
+
+<e r="RL"><p><l>galo<s n="n"/><s n="f"/></l>      <r>gal<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>galo<s n="n"/><s n="f"/></l>      <r>gala<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>galo<s n="n"/><s n="m"/></l>      <r>gal<s n="n"/><s n="m"/></r></p></e>
+
 <e>       <i>Galván<s n="np"/></i></e>
 <e>       <i>Gálvez<s n="np"/></i></e>
 <e>       <i>gamba<s n="n"/></i></e>
@@ -9693,7 +9695,8 @@
 <e>       <p><l>graduado<s n="n"/></l>            <r>graduat<s n="n"/></r></p></e>
 <e>       <p><l>parrilla<s n="n"/></l>            <r>graella<s n="n"/></r></p></e>
 <e>       <p><l>gráfico<s n="adj"/></l>           <r>gràfic<s n="adj"/></r></p></e>
-<e>       <p><l>gráfico<s n="n"/></l>             <r>gràfic<s n="n"/></r></p></e>
+<e>       <p><l>gráfico<s n="n"/><s n="m"/></l>   <r>gràfic<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>gráfica<s n="n"/><s n="f"/></l>   <r>gràfic<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>granadino<s n="adj"/></l>         <r>granadí<s n="adj"/></r></p></e>
 <e>       <p><l>grandioso<s n="adj"/></l>         <r>grandiós<s n="adj"/></r></p></e>
 <e>       <i>Granell<s n="np"/></i></e>
@@ -11339,7 +11342,8 @@
 <e>       <p><l>orquesta<s n="n"/></l>            <r>orquestra<s n="n"/></r></p></e>
 <e>       <p><l>orquesta<g><b/>de<b/>cámara</g><s n="n"/></l><r>orquestra<g><b/>de<b/>cambra</g><s n="n"/></r></p></e>
 <e>       <p><l>música<g><b/>de<b/>cámara</g><s n="n"/></l><r>música<g><b/>de<b/>cambra</g><s n="n"/></r></p></e>
-<e>       <p><l>ropa<g><b/>de<b/>cámara</g><s n="n"/></l><r>roba<g><b/>de<b/>cambra</g><s n="n"/></r></p></e>
+<e r="RL"><p><l>ropa<g><b/>de<b/>cama</g><s n="n"/></l><r>roba<g><b/>de<b/>cambra</g><s n="n"/></r></p></e>
+<e r="LR"><p><l>ropa<g><b/>de<b/>cama</g><s n="n"/></l><r>roba<g><b/>de<b/>llit</g><s n="n"/></r></p></e>
 <e>       <p><l>orquestar<s n="vblex"/></l>       <r>orquestrar<s n="vblex"/></r></p></e>
 <e>       <i>Ortega<s n="np"/></i></e>
 <e>       <i>Ortiz<s n="np"/></i></e>
@@ -35982,8 +35986,8 @@
 <e>       <p><l>mayoridad<s n="n"/></l>           <r>majoritat<s n="n"/></r></p></e>
 <e>       <p><l>maza<s n="n"/></l>                <r>maça<s n="n"/></r></p></e>
 <e>       <p><l>mazorca<s n="n"/></l>             <r>panotxa<s n="n"/></r></p></e>
-<e>       <p><l>mecánica<s n="n"/></l>            <r>mecànica<s n="n"/></r></p></e>
-<e>       <p><l>mecánico<s n="n"/></l>            <r>mecànic<s n="n"/></r></p></e>
+<e>       <p><l>mecánica<s n="n"/><s n="f"/></l>  <r>mecànic<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mecánico<s n="n"/><s n="m"/></l>  <r>mecànic<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mecanografía<s n="n"/></l>        <r>mecanografia<s n="n"/></r></p></e>
 <e>       <p><l>mecanógrafo<s n="n"/></l>         <r>mecanògraf<s n="n"/></r></p></e>
 <e>       <p><l>mecedora<s n="n"/><s n="f"/></l>  <r>balancí<s n="n"/><s n="m"/></r></p></e>
