@@ -3820,6 +3820,7 @@
 <e>       <i>primavera<s n="n"/></i></e>
 <e>       <p><l>primo<s n="n"/></l>               <r>cosí<s n="n"/></r></p></e>
 <e>       <p><l>príncipe<s n="n"/></l>            <r>príncep<s n="n"/></r></p></e>
+<e>       <p><l>principito<s n="n"/></l>		  <r>petit<b/>príncep<s n="n"/></r></p></e>
 <e>       <p><l>principio<s n="n"/></l>           <r>principi<s n="n"/></r></p></e>
 <e>       <p><l>prisa<s n="n"/></l>               <r>pressa<s n="n"/></r></p></e>
 <e>       <p><l>prisionero<s n="n"/></l>          <r>presoner<s n="n"/></r></p></e>
@@ -4464,8 +4465,9 @@
 <e>       <i>XXI<s n="num"/></i></e>
 <e>       <p><l>catorce<s n="num"/></l>           <r>catorze<s n="num"/></r></p></e>
 <e>       <p><l>cien<s n="num"/></l>              <r>cent<s n="num"/></r></p></e>
-<e r="LR"><p><l>ciento<s n="num"/><s n="m"/><s n="sp"/></l><r>cent<s n="num"/></r></p></e>
-<e r="RL"><p><l>ciento<s n="num"/><s n="m"/><s n="pl"/></l><r>centenar<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
+<e>		  <p><l>ciento<s n="num"/><s n="m"/><s n="sp"/></l><r>cent<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>ciento<s n="num"/><s n="m"/><s n="pl"/></l><r>centenar<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
+<e>		  <p><l>centenar<s n="num"/><s n="mf"/></l><r>centenar<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>cinco<s n="num"/></l>             <r>cinc<s n="num"/></r></p></e>
 <e>       <p><l>quinientos<s n="num"/></l>        <r>cinc-cents<s n="num"/></r></p></e>
 <e>       <p><l>cincuenta<s n="num"/></l>         <r>cinquanta<s n="num"/></r></p></e>
@@ -7585,7 +7587,6 @@
 <e>       <i>Centelles<s n="np"/></i></e>
 <e>       <p><l>centenario<s n="adj"/></l>        <r>centenari<s n="adj"/></r></p></e>
 <e>       <p><l>centenario<s n="n"/></l>          <r>centenari<s n="n"/></r></p></e>
-<e>       <i>centenar<s n="n"/></i></e>
 <e>       <p><l>centígrado<s n="adj"/></l>        <r>centígrad<s n="adj"/></r></p></e>
 <e>       <p><l>céntimo<s n="n"/></l>             <r>cèntim<s n="n"/></r></p></e>
 <e>       <p><l>centralita<s n="n"/></l>          <r>centraleta<s n="n"/></r></p></e>
@@ -12182,6 +12183,8 @@
 <e>       <i>Ramírez<s n="np"/></i></e>
 <e>       <i>Ramiro<s n="np"/></i></e>
 <e>       <p><l>ramo<s n="n"/><s n="m"/></l>      <r>ram<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ramo<s n="n"/><s n="m"/></l>      <r>ramell<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ramo<s n="n"/><s n="m"/></l>      <r>toia<s n="n"/><s n="f"/></r></p></e>
 <e>       <i>Ramona<s n="np"/></i></e>
 <e>       <i>Ramon<s n="np"/></i></e>
 <e>       <i>Ramón<s n="np"/></i></e>
@@ -41403,6 +41406,7 @@
 <e>       <p><l>Praxiteles<s n="np"/></l>         <r>Praxíteles<s n="np"/></r></p></e>
 <e>       <p><l>Príamo<s n="np"/></l>             <r>Príam<s n="np"/></r></p></e>
 <e>       <p><l>Principito<s n="np"/></l>         <r>Petit<b/>Príncep<s n="np"/></r></p></e>
+<e>       <p><l>el<b/>Principito<s n="np"/></l>   <r>el<b/>Petit<b/>Príncep<s n="np"/></r></p></e>
 <e>       <p><l>Prometeo<s n="np"/></l>           <r>Prometeu<s n="np"/></r></p></e>
 <e>       <p><l>Puebla<b/>de<b/>Arenoso<s n="np"/></l><r>la<b/>Pobla<b/>d'Arenós<s n="np"/></r></p></e>
 <e>       <p><l>Puebla<b/>de<b/>San<b/>Miguel<s n="np"/></l><r>la<b/>Pobla<b/>de<b/>Sant<b/>Miquel<s n="np"/></r></p></e>
@@ -43485,7 +43489,8 @@
 <e a="prompsit"><p><l>sitio<g><b/>web</g><s n="n"/></l><r>lloc<g><b/>web</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>marco<g><b/>legal</g><s n="n"/></l><r>marc<g><b/>legal</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>coligativo<s n="adj"/></l><r>col·ligatiu<s n="adj"/></r></p></e>	
-<e a="prompsit"><p><l>enjuagar<s n="vblex"/></l><r>eixugar<s n="vblex"/></r></p></e>	
+<e><p><l>enjuagar<s n="vblex"/></l><r>esbandir<s n="vblex"/></r></p></e>	
+<e><p><l>enjugar<s n="vblex"/></l><r>eixugar<s n="vblex"/></r></p></e>	
 <e a="prompsit"><p><l>bajo<b/>mínimos<s n="adv"/></l> <r>sota<b/>mínims<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>bajo<b/>la<b/>dirección<s n="adv"/></l> <r>sota<b/>la<b/>direcció<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>prima<g><b/>de<b/>riesgo</g><s n="n"/></l><r>prima<g><b/>de<b/>risc</g><s n="n"/></r></p></e>
