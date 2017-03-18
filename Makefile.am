@@ -28,6 +28,7 @@ TARGETS_COMMON =			\
 	$(PREFIX1).prob		 	\
 	$(PREFIX1C).autobil.bin 	\
 	$(PREFIX1V).autobil.bin 	\
+	$(PREFIX1).autolex.bin  \
 	$(PREFIX1C).autogen.bin 	\
 	$(PREFIX1V).autogen.bin 	\
 	$(PREFIX1C).autopgen.bin 	\
@@ -129,6 +130,17 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 
 
 ###############################################################################
+## Lexical selection rules
+###############################################################################
+
+$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	lrx-comp $< $@
+
+# $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+# 	lrx-comp $< $@
+
+
+###############################################################################
 ## Structural transfer rules
 ###############################################################################
 
@@ -155,7 +167,10 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 ###############################################################################
 
 EXTRA_DIST=								\
+		$(BASENAME).$(PREFIX1).lrx      \
+		$(BASENAME).$(PREFIX2).lrx      \
 		$(BASENAME).$(PREFIX1).dix 		\
+		$(BASENAME).$(PREFIX2).dix 		\
 		$(BASENAME).$(PREFIX1).t1x 		\
 		$(BASENAME).$(PREFIX1C).t1x 	\
 		$(BASENAME).$(PREFIX1V).t1x 	\
