@@ -1,0 +1,41 @@
+<rules>
+  <rule weight="1.0">
+    <or>
+      <match lemma="*" tags="det.def.m.*"/>
+      <match lemma="*" tags="det.dem.m.*"/>
+      <match lemma="*" tags="det.pos.m.*"/>
+      <match lemma="*" tags="det.ind.m.*"/>
+    </or>
+    <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+  </rule>
+  <rule weight="1.0"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+    <match lemma="*" tags="adj.m.*"/>
+  </rule>
+  <rule weight="1.0"> 
+    <or>
+      <match lemma="*" tags="det.def.f.*"/>
+      <match lemma="*" tags="det.dem.f.*"/>
+      <match lemma="*" tags="det.pos.f.*"/>
+      <match lemma="*" tags="det.ind.f.*"/>
+    </or>
+    <match lemma="corte" tags="n.*">
+        <select lemma="cort" />
+    </match>
+  </rule>
+  <rule weight="1.0"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="cort" />
+    </match>
+    <match lemma="*" tags="adj.f.*"/>
+  </rule>
+  <rule weight="0.1"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="cort" />
+    </match>
+  </rule>
+</rules>
