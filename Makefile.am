@@ -194,7 +194,6 @@ apertium_spa_catdir=$(prefix)/share/apertium/$(BASENAME)/
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
 apertium_spa_cat_DATA=				\
 	$(TARGETS_COMMON)				\
-	$(BASENAME).$(PREFIX1).t1x		\
 	$(PREFIX1C).t1x					\
 	$(PREFIX1V).t1x					\
 	$(BASENAME).$(PREFIX1).t1x		\
