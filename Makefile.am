@@ -24,8 +24,9 @@ BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON =			\
 	$(PREFIX1).automorf.bin 	\
-	$(LANG1).lrx.bin	 	\
+	$(LANG1).lrx.bin		\
 	$(PREFIX1).rlx.bin	\
+	$(PREFIX2).rlx.bin	\
 	$(PREFIX1).prob		 	\
 	$(PREFIX1C).autobil.bin 	\
 	$(PREFIX1V).autobil.bin 	\
@@ -111,6 +112,9 @@ $(LANG1).lrx.bin: $(AP_SRC1)/$(LANG1).lrx.bin
 
 $(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 	cp $< $@
+	
+$(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
+	cg-comp $< $@
 
 
 ###############################################################################
