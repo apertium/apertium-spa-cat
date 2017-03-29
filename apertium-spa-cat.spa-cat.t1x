@@ -77,6 +77,15 @@
     </def-cat>
 
 
+    <def-cat n="prnpro">   	  	  
+      <cat-item lemma="lo" tags="prn.pro.p3.m.sg"/>
+      <cat-item lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <cat-item lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <cat-item lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </def-cat>
+
+
+
     <def-cat n="verb">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
@@ -174,10 +183,6 @@
     <def-cat n="porque">
       <cat-item lemma="porque" tags="cnjadv"/>
     </def-cat>
-    <def-cat n="noobstante">
-      <cat-item lemma="no obstante2" tags="cnjadv"/>
-    </def-cat>
-
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo"/>
     </def-cat>
@@ -8225,7 +8230,7 @@
 </rule>
 	  
 
- <rule alt="val"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'podían y debían' per 'podien i devien' en comptes de 'podien i havien de'-->
+ <rule alt="val_uni val_gva"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'podían y debían' per 'podien i devien' en comptes de 'podien i havien de'-->
       <pattern>
 	<pattern-item n="poder"/>
 	<pattern-item n="cnjcoo"/>
@@ -8252,7 +8257,7 @@
       </action>
 </rule>
 	  
-<rule alt="val"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'dilluns + de + matí'-->
+<rule alt="val_gva val_uni"> <!-- REGLA: els del servei lingüístic UA volen que tradueixi 'dilluns + de + matí'-->
       <pattern>
 	<pattern-item n="dies"/>
 	<pattern-item n="matitarda"/>
@@ -8301,6 +8306,36 @@
 </rule>
 	  
 
+
+    <rule alt="val_gva"> <!-- pronom + haver + participi concordats: las ha comprado = les ha comprades-->
+      <pattern>
+	<pattern-item n="prnpro"/>
+	<pattern-item n="haber"/>
+	<pattern-item n="pp_nohaber"/>
+      </pattern>
+      <action>
+	    <out>
+	      <lu>
+		<clip pos="1" side="tl" part="whole"/>
+	      </lu>
+	      <b pos="1"/>
+
+	      <lu>
+		<clip pos="2" side="tl" part="whole"/>
+	      </lu>
+
+	      <b pos="2"/>
+	      <lu>
+		<clip pos="3" side="tl" part="lemh"/>
+		<clip pos="3" side="tl" part="a_verb"/>
+		<clip pos="3" side="tl" part="temps"/>
+		<clip pos="1" side="tl" part="gen"/>
+		<clip pos="1" side="tl" part="nbr"/>
+		<clip pos="3" side="tl" part="lemq"/>
+	      </lu>
+	    </out>
+      </action>
+    </rule> 
 
 
 

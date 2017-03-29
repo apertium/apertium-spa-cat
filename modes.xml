@@ -46,20 +46,48 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="spa-cat_valencia.autobil.bin"/>
+        <file name="spa-cat_valencia_gva.autobil.bin"/>
       </program>
       <program name="lrx-proc $2">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="spa-cat_valencia.t1x"/>
-        <file name="spa-cat_valencia.t1x.bin"/>
+        <file name="spa-cat_valencia_gva.t1x"/>
+        <file name="spa-cat_valencia_gva.t1x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="spa-cat_valencia.autogen.bin"/>
+        <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="spa-cat_valencia.autopgen.bin"/>
+        <file name="spa-cat_valencia_gva.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-cat_valencia_uni" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-cat.automorf.bin"/>
+      </program>
+	  <program name="lrx-proc $2">
+        <file name="spa.lrx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat_valencia_uni.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="spa-cat_valencia_uni.t1x"/>
+        <file name="spa-cat_valencia_uni.t1x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="spa-cat_valencia_uni.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="spa-cat_valencia_uni.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
