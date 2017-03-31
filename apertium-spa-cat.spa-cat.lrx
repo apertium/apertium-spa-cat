@@ -28,4 +28,15 @@
         <select lemma="cort" />
     </match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="número"/>
+    <match lemma="uno" tags="num.*">
+        <select lemma="u" />
+    </match>
+  </rule>
+  <rule weight="0.1"> 
+    <match lemma="uno" tags="num.*">
+        <select lemma="un" />
+    </match>
+  </rule>
 </rules>

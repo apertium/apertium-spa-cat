@@ -129,7 +129,7 @@
     </pipeline>
   </mode>
 
-  <mode name="spa-cat-tagger" install="no">
+  <mode name="spa-cat-disamb" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
@@ -137,13 +137,10 @@
       <program name="cg-proc -w">
         <file name="spa-cat.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="spa-cat.prob"/>
-      </program>
     </pipeline>
   </mode>
-
-  <mode name="spa-cat-disamb" install="no">
+  
+  <mode name="spa-cat-tagger" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
