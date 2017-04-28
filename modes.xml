@@ -4,7 +4,7 @@
   <!-- spa → cat -->
   <mode name="spa-cat" install="yes">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -c">
         <file name="spa-cat.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
