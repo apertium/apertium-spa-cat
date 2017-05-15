@@ -1959,16 +1959,15 @@
 <e>       <p><l>barrio<s n="n"/></l>              <r>barri<s n="n"/></r></p></e>
 <e>       <p><l>barro<s n="n"/></l>               <r>fang<s n="n"/></r></p></e>
 <e>       <p><l>bastón<s n="n"/></l>              <r>bastó<s n="n"/></r></p></e>
+
 <e vr="cat">       <p><l>basura<s n="n"/><s n="f"/><s n="sg"/></l><r>escombraries<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="LR" vr="cat"><p><l>basura<s n="n"/><s n="f"/><s n="pl"/></l><r>escombraries<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
-<e vr="val_gva val_uni" r="RL"><p><l>basura<s n="n"/></l><r>brossa<s n="n"/></r></p></e>
+<e r="RL"><p><l>basura<s n="n"/></l><r>brossa<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>basura<s n="n"/><s n="f"/></l><r>fem<s n="n"/><s n="m"/></r></p></e>
 
 <e vr="cat"><p><l>estiércol<s n="n"/></l><r>fem<s n="n"/></r></p></e>
 <e vr="val_gva val_uni" r="LR"><p><l>estiércol<s n="n"/></l><r>fem<s n="n"/></r></p></e>
-
-
 
 <e>       <i>batalla<s n="n"/></i></e>
 <e>       <p><l>batería<s n="n"/></l>             <r>bateria<s n="n"/></r></p></e>
@@ -1977,8 +1976,8 @@
 <e>       <p><l>bendición<s n="n"/></l>           <r>benedicció<s n="n"/></r></p></e>
 <e>       <p><l>beneficio<s n="n"/></l>           <r>benefici<s n="n"/></r></p></e>
 <e vr="cat" >       <p><l>beso<s n="n"/></l>                <r>petó<s n="n"/></r></p></e>
-<e vr="val_uni" a="softvalencià">       <p><l>beso<s n="n"/><s n="m"/></l>                <r>besada<s n="n"/><s n="f"/></r></p></e>
-<e vr="val_gva">       <p><l>beso<s n="n"/></l>                <r>bes<s n="n"/></r></p></e>
+<e r="RL" a="softvalencià">       <p><l>beso<s n="n"/><s n="m"/></l>                <r>besada<s n="n"/><s n="f"/></r></p></e>
+<e vr="val_gva val_uni">       <p><l>beso<s n="n"/></l>                <r>bes<s n="n"/></r></p></e>
 <e vr="cat" a="softvalencià">       <p><l>besito<s n="n"/></l>                <r>petonet<s n="n"/></r></p></e>
 <e vr="val_gva val_uni" a="softvalencià">       <p><l>besito<s n="n"/></l>                <r>beset<s n="n"/></r></p></e>
 <e>       <p><l>bestia<s n="n"/></l>              <r>bèstia<s n="n"/></r></p></e>
@@ -2375,7 +2374,7 @@
 <e>       <i>corbata<s n="n"/></i></e>
 <e r="RL"><p><l>cordero<s n="n"/><s n="m"/></l>   <r>anyell<s n="n"/><s n="m"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>cordero<s n="n"/><s n="m"/></l>   <r>corder<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>cordero<s n="n"/><s n="m"/></l>   <r>xai<s n="n"/><s n="m"/></r></p></e>
+<e vr="cat"><p><l>cordero<s n="n"/><s n="m"/></l>   <r>xai<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>corona<s n="n"/></i></e>
 <e>       <i>coronel<s n="n"/></i></e>
 <e>       <i>corral<s n="n"/></i></e>
@@ -7240,7 +7239,7 @@
 <e>       <i>Belmonte<s n="np"/></i></e>
 <e>       <i>Beltrán<s n="np"/></i></e>
 <e>       <i>be<s n="n"/><s n="f"/></i></e>
-<e vr="cat">       <p><l>cordero<s n="n"/><s n="m"/></l>   <r>be<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">       <p><l>cordero<s n="n"/><s n="m"/></l>   <r>be<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>Benavent<s n="np"/></i></e>
 <e>       <p><l>bemol<s n="n"/></l>             <r>bemoll<s n="n"/></r></p></e>
 <e>       <p><l>benéfico<s n="adj"/></l>          <r>benèfic<s n="adj"/></r></p></e>
@@ -10811,8 +10810,7 @@
 <e>       <p><l>pereza<s n="n"/></l>              <r>mandra<s n="n"/></r></p></e>
 <e>       <p><l>perezoso<s n="adj"/></l>          <r>mandrós<s n="adj"/></r></p></e>
 <e>       <p><l>mango<s n="n"/></l>               <r>mànec<s n="n"/></r></p></e>
-<e r="LR" vr="cat">       <p><l>manguera<s n="n"/></l>            <r>mànega<s n="n"/></r></p></e>
-<e r="LR" vr="val_gva val_uni">       <p><l>manguera<s n="n"/></l>            <r>mànega<s n="n"/></r></p></e>
+<e r="LR"><p><l>manguera<s n="n"/></l>            <r>mànega<s n="n"/></r></p></e>
 <e>       <p><l>manejo<s n="n"/></l>              <r>maneig<s n="n"/></r></p></e>
 <e>       <i>Manel<s n="np"/></i></e>
 <e>       <i>Manero<s n="np"/></i></e>
@@ -13811,8 +13809,8 @@
 <e r="RL" a="mginesti"><p><l>usar<s n="vblex"/></l><r>fer<g><b/>servir</g><s n="vblex"/></r></p></e>
 <e a="mginesti"><p><l>tener<g><b/>cuidado</g><s n="vblex"/></l><r>anar<g><b/>amb<b/>compte</g><s n="vblex"/></r></p></e>
 <e r="LR" a="mginesti"><p><l>ir<g><b/>con<b/>cuidado</g><s n="vblex"/></l><r>anar<g><b/>amb<b/>compte</g><s n="vblex"/></r></p></e>
-<e a="mginesti"><p><l>dirección<b/>general<s n="n"/></l><r>direcció<b/>general<s n="n"/></r></p></e>
-<e a="mginesti"><p><l>dirección<b/>general<b/>de<b/>tráfico<s n="n"/></l><r>direcció<b/>general<b/>de<b/>trànsit<s n="n"/></r></p></e>
+<e a="mginesti"><p><l>Dirección<b/>General<s n="n"/></l><r>Direcció<b/>General<s n="n"/></r></p></e>
+<e a="mginesti"><p><l>Dirección<b/>General<b/>de<b/>Tráfico<s n="n"/></l><r>Direcció<b/>General<b/>de<b/>Trànsit<s n="n"/></r></p></e>
 <e a="mginesti"><p><l>director<b/>general<b/>de<b/>tráfico<s n="n"/></l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/></r></p></e>
 <e><p><l>jefatura<b/>provincial<b/>de<b/>tráfico<s n="n"/></l><r>prefectura<b/>provincial<b/>de<b/>trànsit<s n="n"/></r></p></e>
 <e><p><l>centro<b/>de<b/>control<b/>de<b/>tráfico<s n="n"/></l><r>centre<b/>de<b/>control<b/>de<b/>trànsit<s n="n"/></r></p></e>
@@ -39276,6 +39274,7 @@
 <e>       <i>Gila<s n="np"/></i></e>
 <e>       <i>Gilet<s n="np"/></i></e>
 <e>       <i>Gimenells<s n="np"/></i></e>
+<e>       <i>Ginebra<s n="np"/></i></e>
 <e>       <i>Ginestar<b/>d'Ebre<s n="np"/></i></e>
 <e>       <i>Ginestar<s n="np"/></i></e>
 <e>       <i>Giraldós<s n="np"/></i></e>
