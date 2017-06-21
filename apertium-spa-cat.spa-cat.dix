@@ -1959,11 +1959,10 @@
 <e>       <p><l>barrio<s n="n"/></l>              <r>barri<s n="n"/></r></p></e>
 <e>       <p><l>barro<s n="n"/></l>               <r>fang<s n="n"/></r></p></e>
 <e>       <p><l>bastón<s n="n"/></l>              <r>bastó<s n="n"/></r></p></e>
-
 <e vr="cat">       <p><l>basura<s n="n"/><s n="f"/><s n="sg"/></l><r>escombraries<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="LR" vr="cat"><p><l>basura<s n="n"/><s n="f"/><s n="pl"/></l><r>escombraries<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
-<e r="RL"><p><l>basura<s n="n"/></l><r>brossa<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" r="RL"><p><l>basura<s n="n"/></l><r>brossa<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>basura<s n="n"/><s n="f"/></l><r>fem<s n="n"/><s n="m"/></r></p></e>
 
 <e vr="cat"><p><l>estiércol<s n="n"/></l><r>fem<s n="n"/></r></p></e>
@@ -2317,6 +2316,7 @@
 <e>       <p><l>condición<s n="n"/></l>           <r>condició<s n="n"/></r></p></e>
 <e>       <i>conductor<s n="n"/></i></e>
 <e>       <p><l>conejo<s n="n"/></l>              <r>conill<s n="n"/></r></p></e>
+<e>       <p><l>conejito<s n="n"/></l>            <r>conillet<s n="n"/></r></p></e>
 <e>       <p><l>conexión<s n="n"/></l>            <r>connexió<s n="n"/></r></p></e>
 <e>       <p><l>conferencia<s n="n"/></l>         <r>conferència<s n="n"/></r></p></e>
 <e>       <p><l>confesión<s n="n"/></l>           <r>confessió<s n="n"/></r></p></e>
@@ -10021,7 +10021,9 @@
 <e>       <i>imparable<s n="adj"/></i></e>
 <e>       <i>imparcial<s n="adj"/></i></e>
 <e>       <p><l>imparcialidad<s n="n"/></l>       <r>imparcialitat<s n="n"/></r></p></e>
-<e>       <p><l>impar<s n="adj"/></l>             <r>imparell<s n="adj"/></r></p></e>
+<e r="RL"><p><l>impar<s n="adj"/><s n="mf"/></l>  <r>imparell<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>impar<s n="adj"/><s n="mf"/></l>  <r>imparell<s n="adj"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>impar<s n="adj"/><s n="mf"/></l>  <r>imparell<s n="adj"/><s n="GD"/></r></p></e>
 <e>       <p><l>impar<s n="n"/></l>               <r>imparell<s n="n"/></r></p></e>
 <e>       <i>impartir<s n="vblex"/></i></e>
 <e>       <i>impecable<s n="adj"/></i></e>
@@ -13809,8 +13811,8 @@
 <e r="RL" a="mginesti"><p><l>usar<s n="vblex"/></l><r>fer<g><b/>servir</g><s n="vblex"/></r></p></e>
 <e a="mginesti"><p><l>tener<g><b/>cuidado</g><s n="vblex"/></l><r>anar<g><b/>amb<b/>compte</g><s n="vblex"/></r></p></e>
 <e r="LR" a="mginesti"><p><l>ir<g><b/>con<b/>cuidado</g><s n="vblex"/></l><r>anar<g><b/>amb<b/>compte</g><s n="vblex"/></r></p></e>
-<e a="mginesti"><p><l>Dirección<b/>General<s n="n"/></l><r>Direcció<b/>General<s n="n"/></r></p></e>
-<e a="mginesti"><p><l>Dirección<b/>General<b/>de<b/>Tráfico<s n="n"/></l><r>Direcció<b/>General<b/>de<b/>Trànsit<s n="n"/></r></p></e>
+<e a="mginesti"><p><l>dirección<b/>general<s n="n"/></l><r>direcció<b/>general<s n="n"/></r></p></e>
+<e a="mginesti"><p><l>dirección<b/>general<b/>de<b/>tráfico<s n="n"/></l><r>direcció<b/>general<b/>de<b/>trànsit<s n="n"/></r></p></e>
 <e a="mginesti"><p><l>director<b/>general<b/>de<b/>tráfico<s n="n"/></l><r>director<b/>general<b/>de<b/>trànsit<s n="n"/></r></p></e>
 <e><p><l>jefatura<b/>provincial<b/>de<b/>tráfico<s n="n"/></l><r>prefectura<b/>provincial<b/>de<b/>trànsit<s n="n"/></r></p></e>
 <e><p><l>centro<b/>de<b/>control<b/>de<b/>tráfico<s n="n"/></l><r>centre<b/>de<b/>control<b/>de<b/>trànsit<s n="n"/></r></p></e>
@@ -16481,6 +16483,7 @@
 <e a="prompsit2adn"><p><l>politizar<s n="vblex"/></l><r>polititzar<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>politólogo<s n="adj"/></l><r>politòleg<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>polución<s n="n"/></l>  <r>pol·lució<s n="n"/></r></p></e>
+<e r="LR">          <p><l>polucionar<s n="vblex"/></l>  <r>contaminar<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>polvareda<s n="n"/></l> <r>polseguera<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>polvorín<s n="n"/></l>  <r>polvorí<s n="n"/></r></p></e>
 <e a="prompsit2adn"><i>pompa<s n="n"/></i></e>
@@ -18117,7 +18120,7 @@
 <e a="prompsit2adn"><p><l>patrullero<s n="adj"/></l><r>patruller<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>panameño<s n="adj"/></l><r>panameny<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>panameño<s n="n"/></l>  <r>panameny<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>electrógeno<s n="adj"/></l><r>electrògen<s n="adj"/></r></p></e>
+<e a="prompsit2adn"><p><l>electrógeno<s n="adj"/></l><r>electrogen<s n="adj"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>guardameta<s n="n"/></l><r>porter<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>malagueño<s n="n"/></l> <r>malagueny<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>malagueño<s n="adj"/></l><r>malagueny<s n="adj"/></r></p></e>
@@ -19475,6 +19478,7 @@
 <e a="prompsit2adn"><p><l>Suzuki<s n="np"/></l>   <r>Suzuki<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Nike<s n="np"/></l>     <r>Nike<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Le<b/>Monde<s n="np"/></l><r>Le<b/>Monde<s n="np"/></r></p></e>
+<e>                 <p><l>Le<b/>Pen<s n="np"/></l><r>Le<b/>Pen<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Lazio<s n="np"/></l>    <r>Lazio<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Interpol<s n="np"/></l> <r>Interpol<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Bloomberg<s n="np"/></l><r>Bloomberg<s n="np"/></r></p></e>
@@ -19560,7 +19564,7 @@
 <e a="prompsit2adn"><p><l>Hebron<s n="np"/></l>   <r>Hebron<s n="np"/></r></p></e>
 <e r="RL" a="prompsit2adn"><p><l>Montreal<s n="np"/></l><r>Montreal<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Memphis<s n="np"/></l>  <r>Memphis<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Delphi<s n="np"/></l>   <r>Delphi<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Delphi<s n="np"/><s n="loc"/></l>   <r>Delphi<s n="np"/><s n="loc"/></r></p></e>
 <e a="prompsit2adn"><p><l>Berlín<s n="np"/></l>   <r>Berlín<s n="np"/></r></p></e>
 <e a="prompsit2adn" r="RL"><p><l>Ramala<s n="np"/></l>   <r>Ramala<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Myanmar<s n="np"/></l>  <r>Myanmar<s n="np"/></r></p></e>
@@ -38803,7 +38807,8 @@
 <e>       <i>Confrides<s n="np"/></i></e>
 <e>       <i>Congost<s n="np"/></i></e>
 <e>       <i>Conques<s n="np"/></i></e>
-<e>       <i>Constantí<s n="np"/></i></e>
+<e>       <i>Constantí<s n="np"/><s n="loc"/></i></e>
+<e>       <i>Constantí<s n="np"/><s n="ant"/></i></e>
 <e>       <i>Consuelo<s n="np"/></i></e>
 <e>       <i>Contell<s n="np"/></i></e>
 <e>       <i>Copons<s n="np"/></i></e>
@@ -39274,7 +39279,6 @@
 <e>       <i>Gila<s n="np"/></i></e>
 <e>       <i>Gilet<s n="np"/></i></e>
 <e>       <i>Gimenells<s n="np"/></i></e>
-<e>       <i>Ginebra<s n="np"/></i></e>
 <e>       <i>Ginestar<b/>d'Ebre<s n="np"/></i></e>
 <e>       <i>Ginestar<s n="np"/></i></e>
 <e>       <i>Giraldós<s n="np"/></i></e>
@@ -42917,8 +42921,8 @@
 <e a="eleka">   <p><l>bulbo<s n="n"/></l>            <r>bulb<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>biogás<s n="n"/></l>            <r>biogàs<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>arenisca<s n="n"/></l>            <r>arenisca<s n="n"/></r></p></e>
-<e a="eleka">   <p><l>andrógeno<s n="n"/></l>            <r>andrògen<s n="n"/></r></p></e>
-<e a="eleka">   <p><l>andrógeno<s n="adj"/></l>            <r>andrògen<s n="adj"/></r></p></e>
+<e>			    <p><l>andrógeno<s n="n"/></l>            <r>androgen<s n="n"/></r></p></e>
+<e>		        <p><l>andrógeno<s n="adj"/></l>            <r>androgen<s n="adj"/></r></p></e>
 <e a="eleka">   <p><l>amniótico<s n="adj"/></l>            <r>amniòtic<s n="adj"/></r></p></e>
 <e a="eleka">   <p><l>purpurina<s n="n"/></l>            <r>purpurina<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>postsináptico<s n="adj"/></l>            <r>postsinàptic<s n="adj"/></r></p></e>
