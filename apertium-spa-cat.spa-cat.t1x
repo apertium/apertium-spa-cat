@@ -286,6 +286,30 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    
+    <def-cat n="recién">
+		<cat-item lemma="recién" tags="adv" />
+    </def-cat>
+    
+    <def-cat n="divulgado">
+		<cat-item lemma="divulgar" tags="vblex.pp.*" />
+    </def-cat>
+    
+    <def-cat n="recién_participi">
+		<cat-item tags="vblex.pp.*" />
+		<!-- 
+			<cat-item lemma="pintar" tags="vblex.pp.*" />
+			<cat-item lemma="hacer" tags="vblex.pp.*" />
+			<cat-item lemma="estrenar" tags="vblex.pp.*" />
+			<cat-item lemma="comprar" tags="vblex.pp.*" />
+			<cat-item lemma="lavar" tags="vblex.pp.*" />
+			<cat-item lemma="planchar" tags="vblex.pp.*" />
+			<cat-item lemma="prensar" tags="vblex.pp.*" /> 
+			<cat-item lemma="cocinar" tags="vblex.pp.*" /> 
+			<cat-item lemma="preparar" tags="vblex.pp.*" /> 
+			<cat-item lemma="tender" tags="vblex.pp.*" /> 
+		-->
+    </def-cat>
 
   </section-def-cats>
 
@@ -8336,7 +8360,58 @@
 	    </out>
       </action>
     </rule> 
+    
+    <rule> <!-- REGLA: recién divulgado -> divulgat recentment -->
+		<pattern>
+			<pattern-item n="recién" />
+			<pattern-item n="divulgado" />
+		</pattern>
+		<action>
+			<out>
+				<lu>
+					<clip pos="2" side="tl" part="lemh"/>
+					<clip pos="2" side="tl" part="a_verb"/>
+					<clip pos="2" side="tl" part="temps"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="2" side="tl" part="nbr"/>
+					<clip pos="2" side="tl" part="lemq"/>
+				</lu>
+				<b pos="1"/>
+				<lu>
+					<clip pos="1" side="tl" part="lem"/>
+					<clip pos="1" side="tl" part="a_adv"/>
+				</lu>
+			</out>
+		</action>
+	</rule>	
 
+	<rule> <!-- REGLA: recién lavado/comprado/hecho -> acabat de llavar/comprar/fer -->
+		<pattern>
+			<pattern-item n="recién" />
+			<pattern-item n="recién_participi" />
+		</pattern>
+		<action>
+			<out>
+				<lu>
+					<lit v="acabat" />
+					<lit-tag v="adj"/>
+					<clip pos="2" side="tl" part="gen"/>
+					<clip pos="2" side="tl" part="nbr"/>
+				</lu>
+				<b/>
+				<lu>
+					<lit v="de" />
+					<lit-tag v="pr" />
+				</lu>
+				<b pos="1"/>
+				<lu>
+					<clip pos="2" side="tl" part="lemh"/>
+					<lit-tag v="vblex.inf" />
+				</lu>
+			</out>
+		</action>
+	</rule>	
+	
 
 
 
