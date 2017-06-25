@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Spanish-Catalan], [2.0.0], [xavi.ivars@gmail.com], [apertium-spa-cat], [http://wiki.apertium.org/wiki/Apertium-spa-cat])
+AC_INIT([Apertium Spanish-Catalan], [2.1.0], [xavi.ivars@gmail.com], [apertium-spa-cat], [http://wiki.apertium.org/wiki/Apertium-spa-cat])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
