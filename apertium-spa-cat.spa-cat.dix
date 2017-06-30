@@ -1131,7 +1131,6 @@
 <e r="LR"><p><l>sumo<s n="adj"/><s n="m"/><s n="pl"/></l><r>summe<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>sumo<s n="adj"/><s n="f"/><s n="pl"/></l><r>summe<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>sumo<s n="adj"/><s n="GD"/><s n="pl"/></l><r>summe<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e>       <p><l>sumo<s n="adj"/></l>              <r>summe<s n="adj"/></r></p></e>
 <e>       <i>superficial<s n="adj"/></i></e>
 <e>       <i>superior<s n="adj"/></i></e>
 <e>       <p><l>supremo<s n="adj"/></l>           <r>suprem<s n="adj"/></r></p></e>
@@ -2771,6 +2770,7 @@
 <e r="RL"><p><l>estómago<s n="n"/></l>            <r>estómec<s n="n"/></r></p></e>
 <e>       <p><l>estrategia<s n="n"/></l>          <r>estratègia<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>estrella<s n="n"/></l>            <r>estrela<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit2uoc" vr="cat"><p><l>estrella<s n="n"/><s n="f"/></l><r>estel<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>estrella<s n="n"/></l>            <r>estela<s n="n"/></r></p></e>
 <e r="RL"><p><l>estrella<s n="n"/></l>            <r>estrella<s n="n"/></r></p></e>
 <e>       <i>estructura<s n="n"/></i></e>
@@ -23947,8 +23947,11 @@
 <e r="LR" a="prompsit2uoc"><p><l>discípulo<s n="n"/><s n="m"/><s n="pl"/></l><r>deixeble<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR" a="prompsit2uoc"><p><l>discípulo<s n="n"/><s n="f"/><s n="pl"/></l><r>deixeble<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL" a="prompsit2uoc"><p><l>discípulo<s n="n"/><s n="GD"/><s n="pl"/></l><r>deixeble<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<!--
+no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les variants
 <e srl="estrella D" a="prompsit2uoc" vr="cat"><p><l>estrella<s n="n"/><s n="f"/></l><r>estel<s n="n"/><s n="m"/></r></p></e>
 <e srl="cometa" a="prompsit2uoc"><p><l>cometa<s n="n"/><s n="f"/></l><r>estel<s n="n"/><s n="m"/></r></p></e>
+-->
 <e a="prompsit2uoc"><p><l>vasallo<s n="n"/></l>   <r>vassall<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>radio<s n="n"/><s n="m"/></l><r>radi<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit2uoc"><p><l>monte<s n="n"/></l>     <r>mont<s n="n"/></r></p></e>
