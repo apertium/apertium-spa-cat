@@ -90,7 +90,9 @@
       <cat-item lemma="lo" tags="prn.pro.p3.f.pl"/>
     </def-cat>
 
-
+    <def-cat n="prnpro_todos">           
+      <cat-item tags="prn.pro.*"/>
+    </def-cat>
 
     <def-cat n="verb">
       <cat-item tags="vblex.*"/>
@@ -98,7 +100,6 @@
       <cat-item tags="vbhaver.*"/>
       <cat-item tags="vbmod.*"/>
     </def-cat>
-
 
     <def-cat n="verb_nohaber">
       <cat-item tags="vblex.*"/>
@@ -332,6 +333,10 @@
 
     <def-cat n="cuál">
       <cat-item lemma="cuál" tags="prn.itg.*"/>
+    </def-cat>
+
+    <def-cat n="hasta">
+      <cat-item lemma="hasta" tags="pr"/>
     </def-cat>
 
   </section-def-cats>
@@ -8497,6 +8502,47 @@
     </action>
   </rule>
 
+  <rule> <!-- hasta + verb/prn => "fins" / no "fins a" -->
+    <pattern>
+       <pattern-item n="hasta"/>
+       <pattern-item n="verb"/>
+    </pattern>
+    <action>
+      <out>
+        <lu>
+            <get-case-from pos="1">
+               <lit v="fins"/>
+            </get-case-from>
+            <lit-tag v="pr"/>
+        </lu>
+        <b/>
+      </out>
+      <call-macro n="f_pretind">
+         <with-param pos="2"/>
+      </call-macro> 
+    </action>
+  </rule>
+
+  <rule>
+    <pattern>
+       <pattern-item n="hasta"/>
+       <pattern-item n="prnpro_todos"/>
+    </pattern>
+    <action>
+      <out>
+        <lu>
+            <get-case-from pos="1">
+               <lit v="fins"/>
+            </get-case-from>
+            <lit-tag v="pr"/>
+        </lu>
+        <b/>
+        <lu>
+          <clip part="whole" pos="2" side="tl"/>
+        </lu>
+      </out>
+    </action>
+  </rule>
 
     <rule> <!-- REGLA: reset variables-->
       <pattern>
