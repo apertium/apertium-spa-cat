@@ -18,6 +18,12 @@
       <cat-item tags="det.*"/> 
       <cat-item tags="predet.*"/>
     </def-cat>
+
+    <def-cat n="det_rel">          
+      <cat-item tags="det.*"/> 
+      <cat-item tags="predet.*"/>
+      <cat-item tags="rel.an.*"/>
+    </def-cat>
     
     <def-cat n="predet">
       <cat-item tags="predet.*"/>
@@ -99,11 +105,16 @@
       <cat-item tags="vbser.*"/>
       <cat-item tags="vbmod.*"/>
     </def-cat>
+
     <def-cat n="ser_estar">
       <cat-item tags="vbser.*"/>
       <cat-item lemma="estar" tags="vblex.*"/>
     </def-cat>
 
+    <def-cat n="ser_parecer">
+      <cat-item tags="vbser.*"/>
+      <cat-item lemma="parecer" tags="vblex.*"/>
+    </def-cat>
 
     <def-cat n="inf">
       <cat-item tags="vblex.inf"/>
@@ -8446,6 +8457,37 @@
       <b/>
         <lu>
           <clip part="whole" pos="2" side="tl"/>
+        </lu>
+      </out>
+    </action>
+  </rule>
+
+  <rule> <!-- cuáles son las -> quines són les -->
+    <pattern>
+       <pattern-item n="cuál"/>
+       <pattern-item n="ser_parecer"/>
+       <pattern-item n="det_rel"/>
+    </pattern>
+    <action>
+      <out>
+        <lu>
+            <get-case-from pos="1">
+               <lit v="quin"/>
+            </get-case-from>
+            <lit-tag v="prn"/>
+            <lit-tag v="itg"/>
+            <clip part="gen" pos="3" side="tl"/>
+            <clip part="nbr" pos="3" side="tl"/>
+        </lu>
+        <b/>
+      </out>
+      <call-macro n="f_pretind">
+         <with-param pos="2"/>
+      </call-macro> 
+      <out>
+      <b/>
+        <lu>
+          <clip part="whole" pos="3" side="tl"/>
         </lu>
       </out>
     </action>
