@@ -311,6 +311,14 @@
 		-->
     </def-cat>
 
+    <def-cat n="barajar">
+      <cat-item lemma="barajar" tags="vblex.*"/>
+    </def-cat>
+    
+    <def-cat n="seguir">
+      <cat-item lemma="seguir" tags="vblex.*"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -999,7 +1007,9 @@
 	<otherwise>
 	  <out>
 	    <lu>
-	      <clip pos="1" side="tl" part="lemh"/>
+	      <get-case-from pos="1">
+          <clip part="lemh" pos="1" side="tl"/>
+        </get-case-from>
 	      <clip pos="1" side="tl" part="a_verb"/>
 	      <clip pos="1" side="tl" part="temps"/>
 	      <clip pos="1" side="tl" part="persona"/>
@@ -8395,7 +8405,51 @@
 		</action>
 	</rule>	
 	
-
+  <rule> <!-- barajar + infintiu (spa) => considerar + infinitiu (cat) -->
+    <pattern>
+       <pattern-item n="barajar"/>
+       <pattern-item n="inf"/>
+    </pattern>
+    <action>
+      <let>
+        <clip part="lem" pos="1" side="tl"/>
+        <lit v="considerar"/>
+      </let>
+      <call-macro n="f_pretind">
+         <with-param pos="1"/>
+      </call-macro> 
+      <out>
+      <b/>
+        <lu>
+          <clip part="whole" pos="2" side="tl"/>
+        </lu>
+      </out>
+    </action>
+  </rule>
+  
+  <!-- seguir + gerundi (spa) => continuar + gerundi (cat).
+  'Seguir' no és incorrecte, però és menys genuí i se n'abusa molt.-->
+  <rule> 
+    <pattern>
+       <pattern-item n="seguir"/>
+       <pattern-item n="ger"/>
+    </pattern>
+    <action>
+      <let>
+        <clip part="lem" pos="1" side="tl"/>
+        <lit v="continuar"/>
+      </let>
+      <call-macro n="f_pretind">
+         <with-param pos="1"/>
+      </call-macro> 
+      <out>
+      <b/>
+        <lu>
+          <clip part="whole" pos="2" side="tl"/>
+        </lu>
+      </out>
+    </action>
+  </rule>
 
 
     <rule> <!-- REGLA: reset variables-->
