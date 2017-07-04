@@ -9051,7 +9051,7 @@
 <e>       <i>espermatozoide<s n="n"/></i></e>
 <e vr="cat"><p><l>espesor<s n="n"/></l>           <r>gruix<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>espesor<s n="n"/><s n="m"/></l> <r>grossària<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>espesura<s n="n"/><s n="f"/></l>  <r>espessor<s n="n"/></r></p></e>
+<e>       <p><l>espesura<s n="n"/><s n="f"/></l>  <r>espessor<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>espía<s n="n"/></l>               <r>espia<s n="n"/></r></p></e>
 <e>       <i>espiar<s n="vblex"/></i></e>
 <e>       <i>espina<s n="n"/></i></e>
@@ -9751,7 +9751,9 @@
 <e>       <p><l>globalización<s n="n"/></l>       <r>globalització<s n="n"/></r></p></e>
 <e>       <p><l>glóbulo<s n="n"/></l>             <r>glòbul<s n="n"/></r></p></e>
 <e>       <i>glorieta<s n="n"/></i></e>
-<e>       <i>gluten<s n="n"/></i></e>
+<e r="RL">       <p><l>gluten<s n="n"/><s n="m"/><s n="sp"/></l>   <r>gluten<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL">       <p><l>gluten<s n="n"/><s n="m"/><s n="sp"/></l>   <r>gluten<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR">       <p><l>gluten<s n="n"/><s n="m"/><s n="sp"/></l>   <r>gluten<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
 <e>       <i>g<s n="n"/></i></e>
 <e>       <i>Godella<s n="np"/></i></e>
 <e>       <i>Godoy<s n="np"/></i></e>
@@ -12015,7 +12017,10 @@
 <e>       <p><l>presumiblemente<s n="adv"/></l>   <r>presumiblement<s n="adv"/></r></p></e>
 <e>       <p><l>presunción<s n="n"/></l>          <r>presumpció<s n="n"/></r></p></e>
 <e>       <p><l>presuntamente<s n="adv"/></l>     <r>presumptament<s n="adv"/></r></p></e>
-<e>       <p><l>pretendiente<s n="n"/></l>        <r>pretendent<s n="n"/></r></p></e>
+<e r="LR">       <p><l>pretendiente<s n="n"/><s n="mf"/></l>        <r>pretendent<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL">       <p><l>pretendiente<s n="n"/><s n="mf"/></l>        <r>pretendent<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">       <p><l>pretendiente<s n="n"/><s n="mf"/></l>        <r>pretendent<s n="n"/><s n="f"/></r></p></e>
+
 <e>       <p><l>preciado<s n="adj"/></l>          <r>preuat<s n="adj"/></r></p></e>
 <e>       <p><l>prevalecer<s n="vblex"/></l>      <r>prevaler<s n="vblex"/></r></p></e>
 <e r="LR"><i>prevaler<s n="vblex"/></i></e>
@@ -14448,7 +14453,7 @@
 <e a=" alseoane@gmail.com"><p><l>dosificador<s n="adj"/></l><r>dosificador<s n="adj"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>difteria<s n="n"/></l><r>diftèria<s n="n"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>contraindicación<s n="n"/></l><r>contraindicació<s n="n"/></r></p></e>
-<e a=" alseoane@gmail.com"><p><l>condiloma<s n="n"/></l><r>condiloma<s n="n"/></r></p></e>
+<e a=" alseoane@gmail.com"><p><l>condiloma<s n="n"/><s n="f"/></l><r>condiloma<s n="n"/><s n="m"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>comestible<s n="adj"/></l><r>comestible<s n="adj"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>coital<s n="adj"/></l><r>coital<s n="adj"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>coito<s n="n"/></l><r>coit<s n="n"/></r></p></e>
@@ -15700,7 +15705,9 @@
 <e a="prompsit2adn"><p><l>estimulante<s n="adj"/></l><r>estimulant<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>estirpe<s n="n"/></l>   <r>estirp<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>estrangular<s n="vblex"/></l><r>escanyar<s n="vblex"/></r></p></e>
-<e a="prompsit2adn"><p><l>estratega<s n="n"/></l> <r>estrateg<s n="n"/></r></p></e>
+<e a="prompsit2adn" r="LR"><p><l>estratega<s n="n"/><s n="mf"/></l> <r>estrateg<s n="n"/><s n="GD"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>estratega<s n="n"/><s n="mf"/></l> <r>estrateg<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>estratega<s n="n"/><s n="mf"/></l> <r>estrateg<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2adn"><p><l>estratégicamente<s n="adv"/></l><r>estratègicament<s n="adv"/></r></p></e>
 <e a="prompsit2adn"><p><l>estrechamiento<s n="n"/></l><r>estrenyiment<s n="n"/></r></p></e>
 <e r="RL" a="prompsit2adn"><p><l>estrechamiento<s n="n"/></l><r>estretall<s n="n"/></r></p></e>
@@ -21574,9 +21581,9 @@
 <e a="prompsit"><p><l>nupcial<s n="adj"/></l>     <r>nupcial<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>desmañado<s n="adj"/></l>   <r>desmanyotat<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>graso<s n="adj"/></l>       <r>gras<s n="adj"/></r></p></e>
-<e r="LR" a="prompsit"><p><l>trotamundos<s n="adj"/><s n="mf"/><s n="sp"/></l><r>rodamón<s n="adj"/><s n="mf"/><s n="ND"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>trotamundos<s n="adj"/><s n="mf"/><s n="sp"/></l><r>rodamón<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>trotamundos<s n="adj"/><s n="mf"/><s n="sp"/></l><r>rodamón<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR" a="prompsit"><p><l>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></l><r>rodamón<s n="n"/><s n="mf"/><s n="ND"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></l><r>rodamón<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>trotamundos<s n="n"/><s n="mf"/><s n="sp"/></l><r>rodamón<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e a="prompsit"><p><l>quadrúpedo<s n="adj"/><s n="m"/><s n="sg"/></l><r>quadrúpede<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="prompsit"><p><l>quadrúpedo<s n="adj"/><s n="f"/><s n="sg"/></l><r>quadrúpede<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" a="prompsit"><p><l>quadrúpedo<s n="adj"/><s n="m"/><s n="pl"/></l><r>quadrúpede<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -25107,7 +25114,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>albergue<s n="n"/></l>  <r>alberg<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>ungulado<s n="adj"/></l><r>ungulat<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>trailer<s n="n"/></l>   <r>tràiler<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>premolar<s n="n"/></l>  <r>premolar<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>premolar<s n="n"/><s n="m"/></l>  <r>premolar<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2uoc"><p><l>positivismo<s n="n"/></l><r>positivisme<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>monosacárido<s n="n"/></l><r>monosacàrid<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>electroimán<s n="n"/></l><r>electroimant<s n="n"/></r></p></e>
@@ -25337,7 +25344,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>bobsleigh<s n="n"/></l> <r>bobsleigh<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>biotopo<s n="n"/></l>   <r>biòtop<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>bable<s n="n"/></l>     <r>bable<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>apócope<s n="n"/></l>   <r>apòcope<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>apócope<s n="n"/><s n="m"/></l>   <r>apòcope<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2uoc"><p><l>alófono<s n="n"/></l>   <r>al·lòfon<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>xilófono<s n="n"/></l>  <r>xilòfon<s n="n"/></r></p></e>
 <e a="softcatalà"><p><l>metalófono<s n="n"/></l>  <r>metal·lòfon<s n="n"/></r></p></e>
@@ -25599,7 +25606,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>notocordio<s n="n"/></l><r>notocordi<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>morfo<s n="n"/></l>     <r>morf<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>monopolo<s n="n"/></l>  <r>monopol<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>icosaedro<s n="n"/></l> <r>icosàedre<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>icosaedro<s n="n"/></l> <r>icosàedre<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>hiperónimo<s n="n"/></l><r>hiperònim<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>fotorreceptor<s n="n"/></l><r>fotoreceptor<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>alforfón<s n="n"/></l>  <r>fajol<s n="n"/></r></p></e>
@@ -25614,7 +25621,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>capó<s n="n"/></l>      <r>capó<s n="n"/></r></p></e>
 <e a="prompsit2uoc" r="LR"><p><l>boomerang<s n="n"/></l> <r>bumerang<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>anaerobio<s n="adj"/></l><r>anaerobi<s n="adj"/></r></p></e>
-<e a="prompsit2uoc"><p><l>acné<s n="n"/></l>      <r>acne<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acné<s n="n"/><s n="m"/></l>      <r>acne<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2uoc"><p><l>voltímetro<s n="n"/></l><r>voltímetre<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>parquímetro<s n="n"/></l><r>parquímetre<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>utillaje<s n="n"/></l>  <r>utillatge<s n="n"/></r></p></e>
@@ -25883,7 +25890,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>poso<s n="n"/></l>      <r>pòsit<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>plasmacito<s n="n"/></l><r>plasmòcit<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>pedigrí<s n="n"/></l>   <r>pedigrí<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>paratiroides<s n="n"/></l><r>paratiroide<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>paratiroides<s n="n"/><s n="f"/><s n="sp"/></l><r>paratiroide<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="prompsit2uoc" r="RL"><p><l>paratiroides<s n="n"/><s n="f"/><s n="sp"/></l><r>paratiroide<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>paratiroides<s n="n"/><s n="f"/><s n="sp"/></l><r>paratiroide<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e a="prompsit2uoc"><p><l>paramagnetismo<s n="n"/></l><r>paramagnetisme<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>paleomagnetismo<s n="n"/></l><r>paleomagnetisme<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>narcisismo<s n="n"/></l><r>narcisisme<s n="n"/></r></p></e>
@@ -26262,7 +26271,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>almizcle<s n="n"/></l>  <r>almesc<s n="n"/></r></p></e>
 <e r="RL" a="prompsit2uoc"><p><l>palanca<s n="n"/><s n="f"/></l><r>alçaprem<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit2uoc"><p><l>aguamiel<s n="n"/></l>  <r>aiguamel<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>acmé<s n="n"/></l>      <r>acme<s n="n"/></r></p></e>
+<e a="prompsit2uoc"><p><l>acmé<s n="n"/><s n="m"/></l>      <r>acme<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2uoc"><p><l>acetábulo<s n="n"/></l> <r>acetàbul<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>cópula<s n="n"/></l>    <r>còpula<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>sátrapa<s n="n"/></l>   <r>sàtrapa<s n="n"/></r></p></e>
@@ -41237,7 +41246,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Asdrúbal<s n="np"/></l>           <r>Àsdrubal<s n="np"/></r></p></e>
 <e>       <p><l>Ashjabad<s n="np"/></l>           <r>Aixkhabad<s n="np"/></r></p></e>
 <e>       <p><l>Aspe<s n="np"/></l>               <r>Asp<s n="np"/></r></p></e>
-<e>       <p><l>Asuán<s n="np"/><s n="loc"/></l>  <r>Asuan<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Asuán<s n="np"/><s n="loc"/></l>  <r>Assuan<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Atila<s n="np"/></l>              <r>Àtila<s n="np"/></r></p></e>
 <e>       <p><l>Aviñón<s n="np"/></l>             <r>Avinyó<s n="np"/></r></p></e>
 <e>       <p><l>AVV<s n="np"/><s n="al"/></l>     <r>AV<s n="np"/><s n="al"/></r></p></e>
@@ -41292,6 +41301,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Calíope<s n="np"/></l>            <r>Cal·líope<s n="np"/></r></p></e>
 <e>       <p><l>Calldetenes<s n="np"/></l>        <r>Caldetenes<s n="np"/></r></p></e>
 <e>       <p><l>Cañada<s n="np"/></l>             <r>la<b/>Canyada<s n="np"/></r></p></e>
+<e r="LR">       <p><l>la<b/>Cañada<s n="np"/></l>             <r>la<b/>Canyada<s n="np"/></r></p></e>
 <e>       <p><l>Caronte<s n="np"/></l>            <r>Caront<s n="np"/></r></p></e>
 <e>       <p><l>Cárpatos<s n="np"/><s n="loc"/></l><r>Carpats<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Casas<b/>Altas<s n="np"/></l>     <r>Cases<b/>Altes<s n="np"/></r></p></e>
@@ -41456,7 +41466,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Laquedivas<s n="np"/><s n="loc"/></l><r>Lacadives<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Larache<s n="np"/></l>            <r>Larraix<s n="np"/></r></p></e>
 <e>       <p><l>Las<b/>Landas<s n="np"/><s n="loc"/></l><r>les<b/>Landes<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Le<b/>Havre<s n="np"/><s n="loc"/></l><r>l'Havre<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Le<b/>Havre<s n="np"/><s n="loc"/></l><r>Le<b/>Havre<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Lemosín<s n="np"/><s n="loc"/></l><r>Llemosí<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>Leningrado<s n="np"/></l>         <r>Leningrad<s n="np"/></r></p></e>
 <e>       <p><l>les<b/>Llosses<s n="np"/></l>     <r>les<b/>Lloses<s n="np"/></r></p></e>
@@ -41928,7 +41938,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>el<b/>Ampurdán<s n="np"/><s n="loc"/></l><r>l'Empordà<s n="np"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>el<b/>Castell<b/>de<b/>Vilamalefa<s n="np"/></l><r>Castillo<b/>de<b/>Villamalefa<s n="np"/></r></p></e>
 <e r="LR"><p><l>el<b/>Castell<s n="np"/></l>      <r>es<b/>Castell<s n="np"/></r></p></e>
-<e r="LR"><p><l>el<b/>Havre<s n="np"/><s n="loc"/></l><r>l'Havre<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>el<b/>Havre<s n="np"/><s n="loc"/></l><r>Le<b/>Havre<s n="np"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>el<b/>Irak<s n="np"/><s n="loc"/></l><r>l'Iraq<s n="np"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>el<b/>Iraq<s n="np"/><s n="loc"/></l><r>l'Iraq<s n="np"/><s n="loc"/></r></p></e>
 <e r="LR"><p><l>el<b/>Mercadal<s n="np"/></l>     <r>es<b/>Mercadal<s n="np"/></r></p></e>
@@ -44152,6 +44162,269 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e><p><l>RTVM<s n="n"/></l><r>RTVM<s n="n"/></r></p></e>
 <e><p><l>RTVV<s n="n"/></l><r>RTVV<s n="n"/></r></p></e>
 <e><p><l>SD<s n="n"/></l><r>SD<s n="n"/></r></p></e>
+
+<e r="LR" a="GVA"><p><l>acampamento<s n="n"/></l><r>acampament<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>ahogamiento<s n="n"/></l><r>ofegament<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ahoyadora<s n="n"/></l><r>aclotadora<s n="n"/></r></p></e>
+<e r="LR" vr="val_gva" a="GVA"><p><l>aloe<s n="n"/></l><r>àloe<s n="n"/></r></p></e>
+<e a="GVA"><p><l>aminoglucósido<s n="n"/></l><r>aminoglucòsid<s n="n"/></r></p></e>
+<e a="GVA"><p><l>amperimétrico<s n="adj"/></l><r>amperimètric<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>anacrusa<s n="n"/></l><r>anacrusi<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>anacrusis<s n="n"/><s n="f"/><s n="sp"/></l><r>anacrusi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="GVA"><p><l>antimanchas<s n="adj"/></l><r>antitaques<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>apoyabrazos<s n="n"/></l><r>reposabraços<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>aterosclerosis<s n="n"/><s n="f"/><s n="sp"/></l><r>aterosclerosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>aterosclerosis<s n="n"/><s n="f"/><s n="sp"/></l><r>aterosclerosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="GVA"><p><l>aterosclerosis<s n="n"/><s n="f"/><s n="sp"/></l><r>aterosclerosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="GVA"><p><l>autoinfligir<s n="vblex"/></l><r>autoinfligir<s n="vblex"/></r></p></e>
+<e r="LR" a="GVA"><p><l>balsámico<s n="adj"/></l><r>balsàmic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>biofumigación<s n="n"/></l><r>biofumigació<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>bufet<s n="n"/></l><r>bufet<s n="n"/></r></p></e>
+<e a="GVA"><p><l>bulgur<s n="n"/></l><r>búrgul<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>chía<s n="n"/></l><r>xia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>chocolatina<s n="n"/></l><r>xocolatina<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>cirrosis<s n="n"/><s n="f"/><s n="sp"/></l><r>cirrosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>cirrosis<s n="n"/><s n="f"/><s n="sp"/></l><r>cirrosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="GVA"><p><l>cirrosis<s n="n"/><s n="f"/><s n="sp"/></l><r>cirrosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="GVA"><p><l>citotoxicidad<s n="n"/></l><r>citotoxicitat<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>colestasis<s n="n"/><s n="f"/><s n="sp"/></l><r>colèstasi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>colestasis<s n="n"/><s n="f"/><s n="sp"/></l><r>colèstasi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="GVA"><p><l>colestasis<s n="n"/><s n="f"/><s n="sp"/></l><r>colèstasi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="GVA"><p><l>colitis<s n="n"/></l><r>colitis<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cordófono<s n="adj"/></l><r>cordòfon<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>cordófono<s n="n"/></l><r>cordòfon<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cuscús<s n="n"/></l><r>cuscús<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cuboctaedro<s n="n"/></l><r>cubooctaedre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>degradabilidad<s n="n"/></l><r>degradabilitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>desbroce<s n="n"/></l><r>desbrossament<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>dodecafonía<s n="n"/><s n="f"/></l><r>dodecafonisme<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>dodecafonismo<s n="n"/></l><r>dodecafonisme<s n="n"/></r></p></e>
+<e vr="cat val_uni" a="GVA"><p><l>duodeno<s n="adj"/></l><r>duodè<s n="adj"/></r></p></e>
+<e vr="cat val_uni" a="GVA"><p><l>duodeno<s n="n"/></l><r>duodè<s n="n"/></r></p></e>
+<e vr="val_gva" a="GVA"><p><l>duodeno<s n="adj"/></l><r>duodé<s n="adj"/></r></p></e>
+<e vr="val_gva" a="GVA"><p><l>duodeno<s n="n"/></l><r>duodé<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ecotono<s n="n"/></l><r>ecotò<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ecotoxicidad<s n="n"/></l><r>ecotoxicitat<s n="n"/></r></p></e>
+<e r="LR" vr="val_gva" a="GVA"><p><l>empanadilla<s n="n"/><s n="f"/></l><r>pastisset<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>enmalle<s n="n"/></l><r>art<g><b/>de fons</g><s n="n"/></r></p></e>
+<e a="GVA"><p><l>enteritis<s n="n"/></l><r>enteritis<s n="n"/></r></p></e>
+<e a="GVA"><p><l>espolvoreador<s n="n"/></l><r>empolsador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>espolvoreadora<s n="n"/></l><r>empolsadora<s n="n"/></r></p></e>
+<e a="GVA"><p><l>estroboscópico<s n="adj"/></l><r>estroboscòpic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>expendeduría<s n="n"/></l><r>expenedoria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>explosímetro<s n="n"/></l><r>explosímetre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>extrafino<s n="adj"/></l><r>extrafí<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>ventiloconvector<s n="n"/></l><r>ventiloconvector<s n="n"/></r></p></e>
+<e a="GVA"><p><l>fitotoxicidad<s n="n"/></l><r>fitotoxicitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>fluorar<s n="vblex"/></l><r>fluorar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>frenómetro<s n="n"/></l><r>frenòmetre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>genitourinario<s n="adj"/></l><r>genitourinari<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>hematopoyético<s n="adj"/></l><r>hematopoètic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>hipoalergénico<s n="adj"/></l><r>hipoal·lergogen<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>hipoalérgeno<s n="adj"/></l><r>hipoal·lergogen<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>icosaedro<s n="n"/></l><r>icosaedre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>icosidodecaedro<s n="n"/></l><r>icosidodecaedre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>influenza<s n="n"/></l><r>influença<s n="n"/></r></p></e>
+<e a="GVA"><p><l>infotenimiento<s n="n"/></l><r>entreteniment<b/>informatiu<s n="n"/></r></p></e>
+<e a="GVA"><p><l>inmótica<s n="n"/></l><r>immòtica<s n="n"/></r></p></e>
+<e a="GVA"><p><l>interdental<s n="adj"/></l><r>interdental<s n="adj"/></r></p></e>
+<e r="RL" a="GVA"><p><l>laminado<s n="n"/></l><r>laminatge<s n="n"/></r></p></e>
+<e a="GVA"><p><l>magnetotérmico<s n="adj"/></l><r>magnetotèrmic<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>maquinilla<s n="n"/></l><r>maquineta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>monoboya<s n="n"/></l><r>monoboia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>morcón<s n="n"/></l><r>morcón<s n="n"/></r></p></e>
+<e a="GVA"><p><l>muesli<s n="n"/></l><r>musli<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mufin<s n="n"/></l><r>muffin<s n="n"/></r></p></e>
+<e a="GVA"><p><l>murete<s n="n"/></l><r>muret<s n="n"/></r></p></e>
+<e a="GVA"><p><l>nogalina<s n="n"/></l><r>noguerina<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>ortesis<s n="n"/><s n="f"/><s n="sp"/></l><r>ortesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>ortesis<s n="n"/><s n="f"/><s n="sp"/></l><r>ortesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="GVA"><p><l>ortesis<s n="n"/><s n="f"/><s n="sp"/></l><r>ortesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="GVA"><p><l>oxicorte<s n="n"/></l><r>oxitall<s n="n"/></r></p></e>
+<e a="GVA"><p><l>parasitario<s n="adj"/></l><r>parasitari<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>parasitoide<s n="adj"/></l><r>parasitoide<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>pasterizado<s n="adj"/></l><r>pasteuritzat<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>pasterizador<s n="n"/></l><r>pasteuritzador<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>pasterizar<s n="vblex"/></l><r>pasteuritzar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>pasteurizador<s n="n"/></l><r>pasteuritzador<s n="n"/></r></p></e>
+<e vr="val_gva" a="GVA"><p><l>pequeñito<s n="adj"/></l><r>xicotet<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>platabanda<s n="n"/></l><r>platabanda<s n="n"/></r></p></e>
+<e a="GVA"><p><l>portaelectrodos<s n="n"/></l><r>portaelèctrodes<s n="n"/></r></p></e>
+<e a="GVA"><p><l>precocido<s n="n"/></l><r>precuit<s n="n"/></r></p></e>
+<e a="GVA"><p><l>presenil<s n="adj"/></l><r>presenil<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>pretensor<s n="n"/></l><r>pretensor<s n="n"/></r></p></e>
+<e a="GVA"><p><l>psicofármaco<s n="n"/></l><r>psicofàrmac<s n="n"/></r></p></e>
+<e a="GVA"><p><l>queloide<s n="adj"/></l><r>queloïdal<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>queroseno<s n="n"/></l><r>querosé<s n="n"/></r></p></e>
+<e a="GVA"><p><l>quinoa<s n="n"/></l><r>quinoa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>rectosigmoide<s n="n"/></l><r>rectosigmoide<s n="n"/></r></p></e>
+<e a="GVA"><p><l>regruesadora<s n="n"/></l><r>regruixadora<s n="n"/></r></p></e>
+<e a="GVA"><p><l>reposabrazos<s n="n"/></l><r>reposabraços<s n="n"/></r></p></e>
+<e a="GVA"><p><l>reposamuñecas<s n="n"/><s n="f"/></l><r>reposacanells<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>reumático<s n="adj"/></l><r>reumàtic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>reumatoide<s n="n"/></l><r>reumatoide<s n="n"/></r></p></e>
+<e a="GVA"><p><l>riñonada<s n="n"/></l><r>renyonada<s n="n"/></r></p></e>
+<e a="GVA"><p><l>scratch<s n="n"/></l><r>escratx<s n="n"/></r></p></e>
+<e a="GVA"><p><l>semicurado<s n="adj"/></l><r>semicurat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>señalética<s n="n"/></l><r>senyalística<s n="n"/></r></p></e>
+<e a="GVA"><p><l>senilidad<s n="n"/></l><r>senilitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>seroma<s n="n"/></l><r>seroma<s n="n"/></r></p></e>
+<e a="GVA"><p><l>sincrotrón<s n="n"/></l><r>sincrotró<s n="n"/></r></p></e>
+<e a="GVA"><p><l>sumersión<s n="n"/></l><r>submersió<s n="n"/></r></p></e>
+<e a="GVA"><p><l>sumiller<s n="n"/></l><r>sommelier<s n="n"/></r></p></e>
+<e a="GVA"><p><l>sumillería<s n="n"/></l><r>sommelieria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ténder<s n="n"/></l><r>tènder<s n="n"/></r></p></e>
+<e a="GVA"><p><l>tetraédrico<s n="adj"/></l><r>tetraèdric<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>ventiloconvector<s n="n"/></l><r>ventiloconvector<s n="n"/></r></p></e>
+<e a="GVA"><p><l>verbalizar<s n="vblex"/></l><r>verbalitzar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>verismo<s n="n"/></l><r>verisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>aglutinina<s n="n"/></l><r>aglutinina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>agranulocítico<s n="adj"/></l><r>agranulocític<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>aldolasa<s n="n"/></l><r>aldolasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>aminotransferasa<s n="n"/></l><r>aminotransferasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>anastomótico<s n="adj"/></l><r>anastomòtic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>aneuploidia<s n="n"/></l><r>aneuploïdia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>antieritrocitario<s n="adj"/></l><r>antieritrocitari<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>antifosfolípido<s n="n"/></l><r>antifosfolípid<s n="n"/></r></p></e>
+<e a="GVA"><p><l>antiglobulina<s n="n"/></l><r>antiglobulina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>antiplasmina<s n="n"/></l><r>antiplasmina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>antitrombina<s n="n"/></l><r>antitrombina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>apolipoproteína<s n="n"/></l><r>apolipoproteïna<s n="n"/></r></p></e>
+<e a="GVA"><p><l>autoabsorción<s n="n"/></l><r>autoabsorció<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>autohemólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>autohemòlisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>autohemólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>autohemòlisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="GVA"><p><l>autohemólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>autohemòlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="GVA"><p><l>botulínico<s n="adj"/></l><r>botulínic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>butirato-esterasa<s n="n"/></l><r>butiratoesterasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cerebrovascular<s n="adj"/></l><r>cerebrovascular<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>cervicobraquial<s n="adj"/></l><r>cervicobraquial<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>cervicobraquialgia<s n="n"/></l><r>cervicobraquiàlgia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cisternografía<s n="n"/></l><r>cisternografia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>citogenética<s n="n"/></l><r>citogenètica<s n="n"/></r></p></e>
+<e a="GVA"><p><l>citoquímica<s n="n"/></l><r>citoquímica<s n="n"/></r></p></e>
+<e a="GVA"><p><l>colangiopancreatografia<s n="n"/></l><r>colangiopancreatografia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>colonoscopia<s n="n"/></l><r>colonoscòpia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>colorectal<s n="adj"/></l><r>colorectal<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>crioaglutinina<s n="n"/></l><r>crioaglutinina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>criocirugía<s n="n"/></l><r>criocirurgia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>crioglobulina<s n="n"/></l><r>crioglobulina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>dermatoma<s n="n"/></l><r>dermatoma<s n="n"/></r></p></e>
+<e a="GVA"><p><l>dermatomo<s n="n"/></l><r>dermàtom<s n="n"/></r></p></e>
+<e a="GVA"><p><l>dermatoscopia<s n="n"/></l><r>dermatoscòpia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>dodecaedro pentakis<s n="n"/></l><r>pentaquisdodecaedre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>electrooculograma<s n="n"/></l><r>electrooculograma<s n="n"/></r></p></e>
+<e a="GVA"><p><l>electroretinograma<s n="n"/></l><r>electroretinograma<s n="n"/></r></p></e>
+<e a="GVA"><p><l>elución<s n="n"/></l><r>elució<s n="n"/></r></p></e>
+<e a="GVA"><p><l>epinefrina<s n="n"/></l><r>epinefrina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>eritrocitario<s n="adj"/></l><r>eritrocitari<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>eritropatología<s n="n"/></l><r>eritropatologia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>eritropoyetina<s n="n"/></l><r>eritropoetina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>espasticidad<s n="n"/></l><r>espasticitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>espinobulbar<s n="adj"/></l><r>espinobulbar<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>espinocerebeloso<s n="adj"/></l><r>espinocerebel·lós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>esterasa<s n="n"/></l><r>esterasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>estroboscópico<s n="adj"/></l><r>estroboscòpic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>exanguinotransfusión<s n="n"/></l><r>exsanguinotransfusió<s n="n"/></r></p></e>
+<e a="GVA"><p><l>falciformación<s n="n"/></l><r>falciformació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>fitoquímico<s n="adj"/></l><r>fitoquímic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>fosfatasa<s n="n"/></l><r>fosfatasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>frotis<s n="n"/></l><r>frotis<s n="n"/></r></p></e>
+<e a="GVA"><p><l>glicoproteína<s n="n"/></l><r>glicoproteïna<s n="n"/></r></p></e>
+<e a="GVA"><p><l>glutatión<s n="n"/></l><r>glutatió<s n="n"/></r></p></e>
+<e a="GVA"><p><l>granulocítico<s n="adj"/></l><r>granulocític<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>granulocito<s n="n"/></l><r>granulòcit<s n="n"/></r></p></e>
+<e a="GVA"><p><l>grupúsculo<s n="n"/></l><r>grupuscle<s n="n"/></r></p></e>
+<e a="GVA"><p><l>haptoglobina<s n="n"/></l><r>haptoglobina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hematimetría<s n="n"/></l><r>hematimetria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hematocrito<s n="n"/></l><r>hematòcrit<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hematometra<s n="n"/></l><r>hematomètria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hemoglobinuria<s n="n"/></l><r>hemoglobinúria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hemosiderina<s n="n"/></l><r>hemosiderina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hemostasia<s n="n"/></l><r>hemostàsia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hemoterapia<s n="n"/></l><r>hemoteràpia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>histidina<s n="n"/></l><r>histidina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>immunohistoquímica<s n="n"/></l><r>immunohistoquímica<s n="n"/></r></p></e>
+<e a="GVA"><p><l>intrahepático<s n="adj"/></l><r>intrahepàtic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>intratorácico<s n="adj"/></l><r>intratoràcic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>isquémico<s n="adj"/></l><r>isquèmic<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>kinasa<s n="n"/></l><r>cinasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>quinasa<s n="n"/></l><r>cinasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>leishmania<s n="n"/></l><r>leishmània<s n="n"/></r></p></e>
+<e a="GVA"><p><l>lepromina<s n="n"/></l><r>lepromina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>leucocitario<s n="adj"/></l><r>leucocitari<s n="adj"/></r></p></e>
+<e r="RL" a="GVA"><p><l>leucoféresis<s n="n"/><s n="f"/><s n="sp"/></l><r>leucafèresi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>leucoféresis<s n="n"/><s n="f"/><s n="sp"/></l><r>leucafèresi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="GVA"><p><l>leucoféresis<s n="n"/><s n="f"/><s n="sp"/></l><r>leucafèresi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="GVA"><p><l>linfocitario<s n="adj"/></l><r>limfocitari<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>linfoproliferativo<s n="adj"/></l><r>limfoproliferatiu<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>lisencefalia<s n="n"/></l><r>lissencefàlia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>lisénfalo<s n="adj"/></l><r>lissènfal<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>lúpico<s n="adj"/></l><r>lúpic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>mielodisplasia<s n="n"/></l><r>mielodisplàsia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mielodisplásico<s n="adj"/></l><r>mielodisplàstic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>mielografía<s n="n"/></l><r>mielografia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mielograma<s n="n"/></l><r>mielograma<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mieloproliferativo<s n="adj"/></l><r>mieloproliferatiu<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>monitorización<s n="n"/></l><r>monitoratge<s n="n"/></r></p></e>
+<e a="GVA"><p><l>monoespecífico<s n="adj"/></l><r>monoespecífic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>multimodal<s n="adj"/></l><r>multimodal<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>mutacional<s n="adj"/></l><r>mutacional<s n="adj"/></r></p></e>
+<e r="RL" a="GVA"><p><l>neurofibromatosis<s n="n"/><s n="f"/><s n="sp"/></l><r>neurofibromatosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>neurofibromatosis<s n="n"/><s n="f"/><s n="sp"/></l><r>neurofibromatosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="GVA"><p><l>neurofibromatosis<s n="n"/><s n="f"/><s n="sp"/></l><r>neurofibromatosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="GVA"><p><l>neurofisiología<s n="n"/></l><r>neurofisiologia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>osmolar<s n="adj"/></l><r>osmolar<s n="adj"/></r></p></e>
+<e r="RL" a="GVA"><p><l>osteoartrosis<s n="n"/><s n="sp"/></l><r>osteoartrosi<s n="n"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>osteoartrosis<s n="n"/><s n="sp"/></l><r>osteoartrosi<s n="n"/><s n="pl"/></r></p></e>
+<e r="RL" a="GVA"><p><l>osteoartrosis<s n="n"/><s n="sp"/></l><r>osteoartrosi<s n="n"/><s n="ND"/></r></p></e>
+<e a="GVA"><p><l>osteomuscular<s n="adj"/></l><r>osteomuscular<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>paroxístico<s n="adj"/></l><r>paroxismal<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>peroxidasa<s n="n"/></l><r>peroxidasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>plaquetario<s n="adj"/></l><r>plaquetari<s n="adj"/></r></p></e>
+<e r="RL" a="GVA"><p><l>plaquetoféresis<s n="n"/><s n="f"/><s n="sp"/></l><r>plaquetoafèresi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>plaquetoféresis<s n="n"/><s n="f"/><s n="sp"/></l><r>plaquetoafèresi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="GVA"><p><l>plaquetoféresis<s n="n"/><s n="f"/><s n="sp"/></l><r>plaquetoafèresi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="GVA"><p><l>plasmaféresis<s n="n"/><s n="f"/><s n="sp"/></l><r>plasmafèresi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="GVA"><p><l>plasmaféresis<s n="n"/><s n="f"/><s n="sp"/></l><r>plasmafèresi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" a="GVA"><p><l>plasmaféresis<s n="n"/><s n="f"/><s n="sp"/></l><r>plasmafèresi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="GVA"><p><l>plasmalógeno<s n="n"/></l><r>plasmalogen<s n="n"/></r></p></e>
+<e a="GVA"><p><l>plasminógeno<s n="n"/></l><r>plasminogen<s n="n"/></r></p></e>
+<e a="GVA"><p><l>poliespecífico<s n="adj"/></l><r>poliespecífic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>polisomnografía<s n="n"/></l><r>polisomnografia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>postgastrectomía<s n="n"/></l><r>postgastrectomia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>postmastectomía<s n="n"/></l><r>postmastectomia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>priónico<s n="adj"/></l><r>priònic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>reticulocito<s n="n"/></l><r>reticulòcit<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ristocetina<s n="n"/></l><r>ristocetina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>somatosensitivo<s n="adj"/></l><r>somatosensorial<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>transcobalamina<s n="n"/></l><r>transcobalamina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>transfusional<s n="adj"/></l><r>transfusional<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>tromboplastina<s n="n"/></l><r>tromboplastina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>urocultivo<s n="n"/></l><r>urinocultiu/urocultiu<s n="n"/></r></p></e>
+<e a="GVA"><p><l>urokinasa<s n="n"/></l><r>urocinasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>uroquinasa<s n="n"/></l><r>urocinasa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>pentatlón<s n="n"/></l><r>pentatló<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hexatlón<s n="n"/></l><r>hexatló<s n="n"/></r></p></e>
+<e a="GVA"><p><l>americio<s n="n"/></l><r>americi<s n="n"/></r></p></e>
+<e a="GVA"><p><l>einstenio<s n="n"/></l><r>einsteini<s n="n"/></r></p></e>
+<e a="GVA"><p><l>argón<s n="n"/></l><r>argó<s n="n"/></r></p></e>
+<e a="GVA"><p><l>radón<s n="n"/></l><r>radó<s n="n"/></r></p></e>
+<e a="GVA"><p><l>lawrencio<s n="n"/></l><r>lawrenci<s n="n"/></r></p></e>
+<e a="GVA"><p><l>nacarado<s n="adj"/></l><r>nacrat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>matificante<s n="adj"/></l><r>matificant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>hidratante<s n="adj"/></l><r>hidratant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>pudin<s n="n"/></l><r>púding<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>pudín<s n="n"/></l><r>púding<s n="n"/></r></p></e>
+<e a="GVA"><p><l>kumite<s n="n"/></l><r>kumite<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ecógrafo<s n="n"/></l><r>ecògraf<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ecocardiógrafo<s n="n"/></l><r>ecocardiògraf<s n="n"/></r></p></e>
+<e a="GVA"><p><l>milhojas<s n="n"/><s n="f"/></l><r>milfulls<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>potingue<s n="n"/><s n="m"/></l><r>potinga<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>yudoca<s n="n"/></l><r>judoka<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>judoca<s n="n"/></l><r>judoka<s n="n"/></r></p></e>
+<e a="GVA"><p><l>relevista<s n="n"/></l><r>rellevista<s n="n"/></r></p></e>
+<e a="GVA"><p><l>segoviano<s n="adj"/></l><r>segovià<s n="adj"/></r></p></e>
+
 
 </section>
 

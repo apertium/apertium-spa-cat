@@ -8099,7 +8099,7 @@
 </rule>
 
 
- <rule> <!-- REGLA: DETERMINANT NOM -->
+ <rule> <!-- REGLA: DETERMINANT NUMERO XIFRA -->
       <pattern>
 	<pattern-item n="det"/>
 	<pattern-item n="nnumero"/>
@@ -8141,7 +8141,7 @@
     </rule>
 
 
- <rule> <!-- REGLA: PREP DETERMINANT NOM -->
+ <rule> <!-- REGLA: PREP DETERMINANT NÚMERO XIFRA -->
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="det"/>
