@@ -1450,9 +1450,8 @@
 <e>       <p><l>a<b/>causa<b/>de<b/>que<s n="cnjadv"/></l><r>a<b/>causa<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>debido<b/>a<b/>que<s n="cnjadv"/></l><r>a<b/>causa<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>aun<b/>así<s n="cnjadv"/></l>     <r>així<b/>i<b/>tot<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>aún<b/>así<s n="cnjadv"/></l>     <r>tot<b/>i<b/>així<s n="cnjadv"/></r></p></e>
-<e r="RL" vr="cat val_gva"><p><l>aún<b/>así<s n="cnjadv"/></l>     <r>tot<b/>i<b/>això<s n="cnjadv"/></r></p></e>
-<e r="RL" vr="val_uni"><p><l>aún<b/>así<s n="cnjadv"/></l>     <r>tot<b/>i<b/>açò<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>aun<b/>así<s n="cnjadv"/></l>     <r>tot<b/>i<b/>així<s n="cnjadv"/></r></p></e>
+<e r="RL"><p><l>aun<b/>así<s n="cnjadv"/></l>     <r>tot<b/>i<b/>això<s n="cnjadv"/></r></p></e>
 <e r="LR"><p><l>aun<b/>cuando<s n="cnjadv"/></l>  <r>tot<b/>i<b/>que<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>a<b/>pesar<b/>de<b/>que<s n="cnjadv"/></l><r>tot<b/>i<b/>que<s n="cnjadv"/></r></p></e>
 <e>       <p><l>aunque<s n="cnjadv"/></l>         <r>encara<b/>que<s n="cnjadv"/></r></p></e>
@@ -2115,6 +2114,7 @@
 <e>       <p><l>carencia<s n="n"/></l>            <r>manca<s n="n"/></r></p></e>
 <e r="RL"><p><l>carencia<s n="n"/></l>            <r>mancança<s n="n"/></r></p></e>
 <e>       <p><l>carga<s n="n"/></l>               <r>càrrega<s n="n"/></r></p></e>
+<e>       <p><l>recarga<s n="n"/></l>             <r>recàrrega<s n="n"/></r></p></e>
 <e>       <p><l>cargo<s n="n"/></l>               <r>càrrec<s n="n"/></r></p></e>
 <e>       <p><l>caricia<s n="n"/></l>             <r>carícia<s n="n"/></r></p></e>
 <e>       <p><l>caridad<s n="n"/></l>             <r>caritat<s n="n"/></r></p></e>
@@ -4031,7 +4031,7 @@
 <e>       <i>retina<s n="n"/></i></e>
 <e>       <i>retirada<s n="n"/></i></e>
 <e>       <p><l>retórica<s n="n"/></l>            <r>retòrica<s n="n"/></r></p></e>
-<e>       <p><l>retorno<s n="n"/><s n="m"/></l>   <r>tornada<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>retorno<s n="n"/></l>             <r>retorn<s n="n"/></r></p></e>
 <e>       <p><l>retraso<s n="n"/></l>             <r>retard<s n="n"/></r></p></e>
 <e>       <p><l>retrato<s n="n"/></l>             <r>retrat<s n="n"/></r></p></e>
 <e>       <p><l>reunión<s n="n"/></l>             <r>reunió<s n="n"/></r></p></e>
@@ -5271,6 +5271,7 @@
 <e>       <p><l>cabalgar<s n="vblex"/></l>        <r>cavalcar<s n="vblex"/></r></p></e>
 <e>       <p><l>caber<s n="vblex"/></l>           <r>cabre<s n="vblex"/></r></p></e>
 <e>       <p><l>caer<s n="vblex"/></l>            <r>caure<s n="vblex"/></r></p></e>
+<e>       <p><l>caer<g><b/>al<b/>suelo</g><s n="vblex"/></l>      <r>caure<g><b/>a<b/>terra</g><s n="vblex"/></r></p></e>
 <e>       <i>calcular<s n="vblex"/></i></e>
 <e>       <p><l>caldear<s n="vblex"/></l>         <r>caldejar<s n="vblex"/></r></p></e>
 <e vr="cat"><p><l>calentar<s n="vblex"/></l>        <r>escalfar<s n="vblex"/></r></p></e>
@@ -5545,7 +5546,9 @@
 <e>       <i>destinar<s n="vblex"/></i></e>
 <e>       <p><l>destrozar<s n="vblex"/></l>       <r>destrossar<s n="vblex"/></r></p></e>
 <e>       <i>destruir<s n="vblex"/></i></e>
-<e vr="cat">       <p><l>desvelar<s n="vblex"/></l>        <r>desvetllar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>desvelar<s n="vblex"/></l>        <r>desvetllar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>desvelar<s n="vblex"/></l>        <r>desvetlar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>desvelar<s n="vblex"/></l>        <r>revelar<s n="vblex"/></r></p></e>
 <e>       <i>desviar<s n="vblex"/></i></e>
 <e>       <i>detectar<s n="vblex"/></i></e>
 <e>       <p><l>detener<s n="vblex"/></l>         <r>detenir<s n="vblex"/></r></p></e>
@@ -6264,6 +6267,7 @@
 <e>       <p><l>temblar<s n="vblex"/></l>         <r>tremolar<s n="vblex"/></r></p></e>
 <e>       <p><l>temer<s n="vblex"/></l>           <r>témer<s n="vblex"/></r></p></e>
 <e>       <p><l>tender<s n="vblex"/></l>          <r>tendir<s n="vblex"/></r></p></e>
+<e>       <p><l>tender<g><b/>puentes</g><s n="vblex"/></l><r>bastir<s n="vblex"/><g><b/>ponts</g></r></p></e>
 <e>       <p><l>tener<s n="vblex"/></l>           <r>tenir<s n="vblex"/></r></p></e>
 <e>       <p><l>tensar<s n="vblex"/></l>          <r>tibar<s n="vblex"/></r></p></e>
 <e>       <p><l>tentar<s n="vblex"/></l>          <r>temptar<s n="vblex"/></r></p></e>
@@ -9588,7 +9592,7 @@
 <e>       <p><l>frecuentemente<s n="adv"/></l>    <r>freqüentment<s n="adv"/></r></p></e>
 <e r="LR"><p><l>frescor<s n="n"/><s n="m"/></l>   <r>frescor<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>frescura<s n="n"/><s n="f"/></l>  <r>frescor<s n="n"/><s n="f"/></r></p></e>
-<e r="LR"><p><l>carente<s n="adj"/><s n="mf"/></l><r>freturós<s n="adj"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>carente<s n="adj"/><s n="mf"/></l><r>mancat<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>carente<s n="adj"/><s n="mf"/></l><r>freturós<s n="adj"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>carente<s n="adj"/><s n="mf"/></l><r>freturós<s n="adj"/><s n="m"/></r></p></e>
 <e>       <p><l>fricción<s n="n"/></l>            <r>fricció<s n="n"/></r></p></e>
@@ -10135,7 +10139,8 @@
 <e>       <i>increpar<s n="vblex"/></i></e>
 <e>       <i>incrustar<s n="vblex"/></i></e>
 <e>       <i>inculcar<s n="vblex"/></i></e>
-<e>       <p><l>inculto<s n="adj"/></l>           <r>incult<s n="adj"/></r></p></e>
+<e>       <p><l>inculto<s n="adj"/></l>           <r>inculte<s n="adj"/></r></p></e>
+<e r="RL"><p><l>inculto<s n="adj"/></l>           <r>incult<s n="adj"/></r></p></e>
 <e>       <i>incultura<s n="n"/></i></e>
 <e>       <p><l>incursión<s n="n"/></l>           <r>incursió<s n="n"/></r></p></e>
 <e>       <i>indagar<s n="vblex"/></i></e>
@@ -11474,7 +11479,7 @@
 <e srl="paella"><i>paella<s n="n"/></i></e>
 <e srl="sartén D"><p><l>sartén<s n="n"/></l>      <r>paella<s n="n"/></r></p></e>
 <e>       <p><l>pagano<s n="adj"/></l>            <r>pagà<s n="adj"/></r></p></e>
-<e r="LR"><p><l>costear<s n="vblex"/></l>         <r>pagar<s n="vblex"/></r></p></e>
+<e>       <p><l>costear<s n="vblex"/></l>         <r>costejar<s n="vblex"/></r></p></e>
 <e>       <p><l>paisano<s n="n"/></l>             <r>paisà<s n="n"/></r></p></e>
 <e r="LR"><p><l>paquistaní<s n="adj"/><s n="mf"/></l><r>pakistanès<s n="adj"/><s n="GD"/></r></p></e>
 <e r="RL"><p><l>paquistaní<s n="adj"/><s n="mf"/></l><r>pakistanès<s n="adj"/><s n="f"/></r></p></e>
@@ -12243,7 +12248,7 @@
 <e r="LR" vr="val_gva val_uni"><p><l>ladrillo<s n="n"/><s n="m"/></l><r>rajola<s n="n"/><s n="f"/></r></p></e>
 
 <e>       <i>Rajoy<s n="np"/></i></e>
-<e>       <p><l>ralentizar<s n="vblex"/></l>      <r>ralentir<s n="vblex"/></r></p></e>
+<e>       <p><l>ralentizar<s n="vblex"/></l>      <r>alentir<s n="vblex"/></r></p></e>
 <e>       <p><l>rally<s n="n"/></l>               <r>ral·li<s n="n"/></r></p></e>
 <e>       <p><l>ganadero<s n="adj"/></l>          <r>ramader<s n="adj"/></r></p></e>
 <e>       <p><l>ganadería<s n="n"/></l>           <r>ramaderia<s n="n"/></r></p></e>
@@ -13547,11 +13552,13 @@
 <e>       <p><l>viabilidad<s n="n"/></l>          <r>viabilitat<s n="n"/></r></p></e>
 <e>       <i>viable<s n="adj"/></i></e>
 <e>       <p><l>viaducto<s n="n"/></l>            <r>viaducte<s n="n"/></r></p></e>
-<e>       <i>vial<s n="adj"/></i></e>
+<e>       <i>vial<s n="n"/></i></e>
+<e r="RL"><i>vial<s n="adj"/></i></e>
+<e r="LR"><p><l>vial<s n="adj"/></l>              <r>viari<s n="adj"/><s n="GD"/></r></p></e>
+<e>       <p><l>viario<s n="adj"/></l>            <r>viari<s n="adj"/></r></p></e>
 <e>       <i>Viana<s n="np"/></i></e>
 <e>       <p><l>peatón<s n="n"/></l>              <r>vianant<s n="n"/></r></p></e>
 <e r="LR"><p><l>viandante<s n="n"/></l>           <r>vianant<s n="n"/></r></p></e>
-<e>       <p><l>viario<s n="adj"/></l>            <r>viari<s n="adj"/></r></p></e>
 <e>       <p><l>vibrante<s n="adj"/></l>          <r>vibrant<s n="adj"/></r></p></e>
 <e>       <i>vibrar<s n="vblex"/></i></e>
 <e>       <p><l>vicario<s n="n"/></l>             <r>vicari<s n="n"/></r></p></e>
@@ -14210,7 +14217,7 @@
 <e a="gema"><p><l>segregar<s n="vblex"/></l>      <r>segregar<s n="vblex"/></r></p></e>
 <e a="gema"><p><l>reverso<s n="n"/></l>           <r>revers<s n="n"/></r></p></e>
 <e a="gema"><p><l>reprografía<s n="n"/></l>       <r>reprografia<s n="n"/></r></p></e>
-<e a="gema"><p><l>rectificativo<s n="adj"/></l>   <r>rectficatiu<s n="adj"/></r></p></e>
+<e a="gema"><p><l>rectificativo<s n="adj"/></l>   <r>rectificatiu<s n="adj"/></r></p></e>
 <e a="gema"><p><l>recapitulativo<s n="adj"/></l>  <r>recapitulatiu<s n="adj"/></r></p></e>
 <e a="gema"><p><l>preceptiva<s n="n"/></l>        <r>preceptiva<s n="n"/></r></p></e>
 <e a="gema"><p><l>preceptivo<s n="adj"/></l>      <r>preceptiu<s n="adj"/></r></p></e>
@@ -15534,7 +15541,8 @@
 <e a="prompsit2adn"><i>distorsionar<s n="vblex"/></i></e>
 <e a="prompsit2adn"><p><l>disturbio<s n="n"/></l> <r>disturbi<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>disuasión<s n="n"/></l> <r>dissuasió<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>disuasorio<s n="adj"/></l><r>dissuasori<s n="adj"/></r></p></e>
+<e a="prompsit2adn" r="RL"><p><l>disuasorio<s n="adj"/></l><r>dissuasori<s n="adj"/></r></p></e>
+<e><p><l>disuasorio<s n="adj"/></l><r>dissuasiu<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>divergencia<s n="n"/></l><r>divergència<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>diversificación<s n="n"/></l><r>diversificació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>dividendo<s n="n"/></l> <r>dividend<s n="n"/></r></p></e>
@@ -16666,7 +16674,8 @@
 <e a="prompsit2adn"><p><l>radiología<s n="n"/></l><r>radiologia<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>radiológico<s n="adj"/></l><r>radiològic<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>radioterapia<s n="n"/></l><r>radioteràpia<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>ralentización<s n="n"/></l><r>ralentització<s n="n"/></r></p></e>
+<e r="RL"><p><l>ralentización<s n="n"/></l><r>ralentització<s n="n"/></r></p></e>
+<e><p><l>ralentización<s n="n"/><s n="f"/></l><r>alentiment<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit2adn"><p><l>ramificación<s n="n"/></l><r>ramificació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>rana<s n="n"/></l>      <r>granota<s n="n"/></r></p></e>
 <e a="prompsit2adn"><i>raptar<s n="vblex"/></i></e>
@@ -17132,7 +17141,10 @@
 <e r="LR" a="prompsit2adn"><p><l>trascurrir<s n="vblex"/></l><r>transcórrer<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>traslación<s n="n"/></l><r>translació<s n="n"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>translación<s n="n"/></l><r>translació<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>trasnochar<s n="vblex"/></l><r>trasnuitar<s n="vblex"/></r></p></e>
+<e r="LR" vr="val_gva val_uni"><p><l>trasnochar<s n="vblex"/></l><r>vetlar<s n="vblex"/></r></p></e>
+<e r="LR" vr="cat"><p><l>trasnochar<s n="vblex"/></l><r>vetllar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>trasnochar<s n="vblex"/></l><r>tranuitar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>trasnochado<s n="adj"/></l>      <r>passat<g><b/>de<b/>moda</g><s n="adj"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>trasponer<s n="vblex"/></l><r>traslladar<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>traste<s n="n"/></l>    <r>trast<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>traumatólogo<s n="n"/></l><r>traumatòleg<s n="n"/></r></p></e>
@@ -22218,8 +22230,8 @@
 <e a="prompsit"><p><l>Once<s n="n"/></l>          <r>Once<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>inmadurez<s n="n"/></l>     <r>immaduresa<s n="n"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>enfurecer<s n="vblex"/></l><r>enfurismar<s n="vblex"/></r></p></e>
-<e a="prompsit"><p><l>enfurecer<s n="vblex"/></l> <r>enfuriar<s n="vblex"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>enfurecer<s n="vblex"/></l><r>enfurir<s n="vblex"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>enfurecer<s n="vblex"/></l> <r>enfuriar<s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>enfurecer<s n="vblex"/></l><r>enfurir<s n="vblex"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>asustar<s n="vblex"/></l><r>espaordir<s n="vblex"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>desbloquear<s n="vblex"/></l><r>desblocar<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>reescribir<s n="vblex"/></l><r>reescriure<s n="vblex"/></r></p></e>
@@ -28504,7 +28516,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>refrigerante<s n="adj"/></l>      <r>refrigerant<s n="adj"/></r></p></e>
 <e>       <p><l>registrable<s n="adj"/></l>       <r>enregistrable<s n="adj"/></r></p></e>
 <e>       <p><l>regresivo<s n="adj"/></l>         <r>regressiu<s n="adj"/></r></p></e>
-<e>       <p><l>regulatorio<s n="adj"/></l>       <r>regulatori<s n="adj"/></r></p></e>
+<e r="RL"><p><l>regulatorio<s n="adj"/></l>       <r>regulatori<s n="adj"/></r></p></e>
+<e>       <p><l>regulatorio<s n="adj"/></l>       <r>regulador<s n="adj"/></r></p></e>
 <e>       <p><l>reimpreso<s n="adj"/></l>         <r>reimprès<s n="adj"/></r></p></e>
 <e>       <p><l>reinsertado<s n="adj"/></l>       <r>reinserit<s n="adj"/></r></p></e>
 <e>       <p><l>relajante<s n="adj"/></l>         <r>relaxant<s n="adj"/></r></p></e>
@@ -29235,7 +29248,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>al<b/>filo<b/>de<b/>la<b/>media<b/>noche<s n="adv"/></l><r>al<b/>caient<b/>de<b/>la<b/>mitjanit<s n="adv"/></r></p></e>
 <e>       <p><l>al<b/>fin<b/>del<b/>mundo<s n="adv"/></l><r>a<b/>l'altra<b/>part<b/>del<b/>món<s n="adv"/></r></p></e>
 <e>       <p><l>al<b/>fin<b/>y<b/>al<b/>cabo<s n="adv"/></l><r>al<b/>cap<b/>i<b/>a<b/>la<b/>fi<s n="adv"/></r></p></e>
-<e r="LR">       <p><l>al<b/>fin<s n="adv"/></l>         <r>per<b/>fi<s n="adv"/></r></p></e>
+<e r="LR">       <p><l>al<b/>fin<s n="adv"/></l>         <r>a<b/>la<b/>fi<s n="adv"/></r></p></e>
 <e>       <p><l>al<b/>menor<b/>descuido<s n="adv"/></l><r>així<b/>que<b/>bades<s n="adv"/></r></p></e>
 <e>       <p><l>al<b/>menudeo<s n="adv"/></l>     <r>a<b/>la<b/>menuda<s n="adv"/></r></p></e>
 <e>       <p><l>al<b/>oído<s n="adv"/></l>        <r>a<b/>cau<b/>d'orella<s n="adv"/></r></p></e>
@@ -29816,7 +29829,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>de<b/>cintura<b/>para<b/>abajo<s n="adv"/></l><r>de<b/>cintura<b/>cap<b/>avall<s n="adv"/></r></p></e>
 <e>       <p><l>de<b/>corta<b/>edad<s n="adv"/></l><r>de<b/>poca<b/>edat<s n="adv"/></r></p></e>
 <e>       <p><l>de<b/>corta<b/>entidad<s n="adv"/></l><r>de<b/>poc<b/>pes<s n="adv"/></r></p></e>
-<e>       <p><l>de<b/>cuando<b/>en<b/>cuando<s n="adv"/></l><r>ara<b/>i<b/>adés<s n="adv"/></r></p></e>
+<e r="LR"><p><l>de<b/>cuando<b/>en<b/>cuando<s n="adv"/></l><r>de<b/>tant<b/>en<b/>tant<s n="adv"/></r></p></e>
+<e r="RL"><p><l>de<b/>cuando<b/>en<b/>cuando<s n="adv"/></l><r>ara<b/>i<b/>adés<s n="adv"/></r></p></e>
 <e r="LR">       <p><l>de<b/>encargo<s n="adv"/></l>     <r>per<b/>encàrrec<s n="adv"/></r></p></e>
 <e>       <p><l>de<b/>espaldas<s n="adv"/></l>    <r>d'esquena<s n="adv"/></r></p></e>
 <e>       <p><l>de<b/>fábula<s n="adv"/></l>      <r>de<b/>meravella<s n="adv"/></r></p></e>
@@ -33030,7 +33044,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>afeminar<s n="vblex"/></l>        <r>efeminar<s n="vblex"/></r></p></e>
 <e>       <p><l>africanizar<s n="vblex"/></l>     <r>africanitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>agasajar<s n="vblex"/></l>        <r>complimentar<s n="vblex"/></r></p></e>
-<e>       <p><l>agazapar<s n="vblex"/></l>        <r>agotnar<s n="vblex"/></r></p></e>
+<e>       <p><l>agazapar<s n="vblex"/></l>        <r>agotzonar<s n="vblex"/></r></p></e>
 <!--<e>       <p><l>aguar<s n="vblex"/></l>           <r>aigualir<s n="vblex"/></r></p></e>-->
 <e>       <p><l>aguijonear<s n="vblex"/></l>      <r>agullonar<s n="vblex"/></r></p></e>
 <e>       <p><l>aguzar<s n="vblex"/></l>          <r>agusar<s n="vblex"/></r></p></e>
@@ -33323,7 +33337,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>emperrar<s n="vblex"/></l>        <r>entestar<s n="vblex"/></r></p></e>
 <e>       <p><l>empitonar<s n="vblex"/></l>       <r>banyegar<s n="vblex"/></r></p></e>
 <e>       <p><l>emplastar<s n="vblex"/></l>       <r>emplastrar<s n="vblex"/></r></p></e>
-<e>       <p><l>empolvar<s n="vblex"/></l>        <r>emoolsar<s n="vblex"/></r></p></e>
+<e>       <p><l>empolvar<s n="vblex"/></l>        <r>empolsar<s n="vblex"/></r></p></e>
 <e>       <p><l>enarenar<s n="vblex"/></l>        <r>arenar<s n="vblex"/></r></p></e>
 <e>       <p><l>encabalgar<s n="vblex"/></l>      <r>encacalcar<s n="vblex"/></r></p></e>
 <e>       <p><l>encaballar<s n="vblex"/></l>      <r>encavallar<s n="vblex"/></r></p></e>
@@ -33988,7 +34002,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni"><p><l>barrer<s n="vblex"/></l>       <r>agranar<s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>calentar<s n="vblex"/></l>     <r>calfar<s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>desatascar<s n="vblex"/></l>   <r>desembossar<s n="vblex"/></r></p></e>
-<e vr="val_gva val_uni"><p><l>desvelar<s n="vblex"/></l>     <r>desvetlar<s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>echar<g><b/>a<b/>correr</g><s n="vblex"/></l><r>arrancar<g><b/>a<b/>córrer</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>ir<g><b/>a<b/>lo<b/>suyo</g><s n="vblex"/></l><r>anar<g><b/>a<b/>la<b/>seua</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>llamar<g><b/>por<b/>teléfono</g><s n="vblex"/></l><r>cridar<g><b/>per<b/>telèfon</g><s n="vblex"/></r></p></e>
@@ -36913,7 +36926,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>tintero<s n="n"/></l>             <r>tinter<s n="n"/></r></p></e>
 <e>       <p><l>tío<b/>abuelo<s n="n"/></l>       <r>besoncle<s n="n"/></r></p></e>
 <e>       <p><l>tirabuzón<s n="n"/></l>           <r>tirabuixó<s n="n"/></r></p></e>
-<e>       <p><l>tirada<s n="n"/><s n="f"/></l>    <r>tiratge<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>tirada<s n="n"/><s n="f"/></l>    <r>tiratge<s n="n"/><s n="m"/></r></p></e>
+<e>       <i>tirada<s n="n"/></i></e>
 <e>       <p><l>tiralíneas<s n="n"/></l>          <r>tiralínies<s n="n"/></r></p></e>
 <e>       <p><l>tirita<s n="n"/></l>              <r>tireta<s n="n"/></r></p></e>
 <e>       <p><l>tiro<g><b/>de<b/>pichón</g><s n="n"/></l><r>tir<g><b/>de<b/>colom</g><s n="n"/></r></p></e>
@@ -37767,7 +37781,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>remanso<s n="n"/></l>             <r>rabeig<s n="n"/></r></p></e>
 <e r="RL"><p><l>reposapiés<s n="n"/></l>          <r>alçapeus<s n="n"/></r></p></e>
 <e r="RL"><p><l>requesón<s n="n"/></l>            <r>brull<s n="n"/></r></p></e>
-<e r="RL"><p><l>retardo<s n="n"/></l>             <r>alentiment<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>riñón<s n="n"/></l>               <r>renyó<s n="n"/></r></p></e>
 <e r="RL"><p><l>rompeolas<s n="n"/><s n="m"/><s n="sp"/></l><r>escullera<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>rompeolas<s n="n"/><s n="m"/><s n="sp"/></l><r>escullera<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -41198,6 +41211,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Zuriaga<s n="np"/></i></e>
 <e>       <i>Zurriaga<s n="np"/></i></e>
 <e>       <i>Josefina<b/>Bueno<s n="np"/></i></e>
+<e>       <i>Adobe<s n="np"/></i></e>
 <e>       <i>Adobe<b/>Photoshop<s n="np"/></i></e>
 <e>       <i>Adobe<b/>Reader<s n="np"/></i></e>
 <e>       <i>Adobe<b/>Flash<b/>Player<s n="np"/></i></e>
