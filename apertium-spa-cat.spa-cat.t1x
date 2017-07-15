@@ -331,6 +331,10 @@
       <cat-item lemma="seguir" tags="vblex.*"/>
     </def-cat>
 
+    <def-cat n="probar">
+      <cat-item lemma="probar" tags="vblex.*"/>
+    </def-cat>
+
     <def-cat n="romper">
       <cat-item lemma="romper" tags="vblex.*"/>
     </def-cat>
@@ -8524,6 +8528,34 @@
         <b/>
         <lu>
           <clip part="whole" pos="2" side="tl"/>
+        </lu>
+        <b/>
+        <lu>
+          <clip part="whole" pos="3" side="tl"/>
+        </lu>
+      </out>
+    </action>
+  </rule>
+
+<rule> <!-- probar a + inf => provar de + inf -->
+    <pattern>
+       <pattern-item n="probar"/>
+       <pattern-item n="a"/>
+       <pattern-item n="inf"/>
+    </pattern>
+    <action>
+      <let>
+        <clip part="lem" pos="1" side="tl"/>
+        <lit v="provar"/>
+      </let>
+      <call-macro n="f_pretind">
+         <with-param pos="1"/>
+      </call-macro> 
+      <out>
+        <b/>
+        <lu>
+          <lit v="de" />
+          <lit-tag v="pr" />
         </lu>
         <b/>
         <lu>
