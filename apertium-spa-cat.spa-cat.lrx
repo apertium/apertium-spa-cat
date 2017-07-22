@@ -6,6 +6,12 @@
         <select lemma="tall" />
     </match>
   </rule>
+  <rule weight="1.0">  <!-- los continuos cortes -->
+    <match lemma="*" tags="adj.m.*"/>
+    <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+  </rule>
   <rule weight="1.0"> 
     <match lemma="corte" tags="n.*">
         <select lemma="tall" />
