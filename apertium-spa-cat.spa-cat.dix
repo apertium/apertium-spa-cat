@@ -1424,8 +1424,10 @@
 <e>       <p><l>en<b/>secreto<s n="adv"/></l>     <r>en<b/>secret<s n="adv"/></r></p></e>
 <e>       <p><l>entre<b/>la<b/>espada<b/>y<b/>la<b/>pared<s n="adv"/></l><r>entre<b/>l'espasa<b/>i<b/>la<b/>paret<s n="adv"/></r></p></e>
 <e>       <p><l>fuera<b/>de<b/>lugar<s n="adv"/></l><r>fora<b/>de<b/>lloc<s n="adv"/></r></p></e>
-<e vr="cat val_uni">       <p><l>hoy<b/>en<b/>día<s n="adv"/></l>  <r>avui<b/>dia<s n="adv"/></r></p></e>
-<e vr="val_gva">       <p><l>hoy<b/>en<b/>día<s n="adv"/></l>  <r>hui<b/>dia<s n="adv"/></r></p></e>
+<e vr="cat val_uni"><p><l>hoy<b/>en<b/>día<s n="adv"/></l>  <r>avui<b/>dia<s n="adv"/></r></p></e>
+<e vr="val_gva"><p><l>hoy<b/>en<b/>día<s n="adv"/></l>  <r>hui<b/>dia<s n="adv"/></r></p></e>
+<e r="LR" vr="cat val_uni"><p><l>a<b/>día<b/>de<b/>hoy<s n="adv"/></l>  <r>avui<b/>dia<s n="adv"/></r></p></e>
+<e r="LR" vr="val_gva"><p><l>a<b/>día<b/>de<b/>hoy<s n="adv"/></l>  <r>hui<b/>dia<s n="adv"/></r></p></e>
 <e r="LR"><p><l>en<b/>Babia<s n="adv"/></l>       <r>a<b/>la<b/>lluna<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>arte<b/>de<b/>magia<s n="adv"/></l><r>per<b/>art<b/>de<b/>màgia<s n="adv"/></r></p></e>
 <e>       <p><l>por<b/>fin<s n="adv"/></l>        <r>per<b/>fi<s n="adv"/></r></p></e>
@@ -4777,7 +4779,6 @@
 <e>       <i>en<s n="pr"/></i></e>
 <e>       <p><l>en<b/>plan<b/>de<s n="pr"/></l>   <r>en<b/>actitud<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>caso<b/>de<b/>que<s n="cnjadv"/></l><r>en<b/>cas<b/>que<s n="cnjadv"/></r></p></e>
-<e>       <p><l>en<b/>comparación<b/>con<s n="pr"/></l><r>en<b/>comparació<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>vez<b/>de<s n="pr"/></l>    <r>en<b/>comptes<b/>de<s n="pr"/></r></p></e>
 <e r="RL"><p><l>en<b/>otros<s n="pr"/></l>        <r>en<b/>d'altres<s n="pr"/></r></p></e>
 <e r="LR"><p><l>con<b/>menoscabo<b/>de<s n="pr"/></l><r>en<b/>detriment<b/>de<s n="pr"/></r></p></e>
@@ -4824,7 +4825,7 @@
 <e>       <p><l>mediante<s n="pr"/></l>           <r>mitjançant<s n="pr"/></r></p></e>
 <e>       <p><l>basta<b/>con<s n="pr"/></l>       <r>n'hi<b/>ha<b/>prou<b/>amb<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>lo<b/>concerniente<b/>a<s n="pr"/></l><r>pel<b/>que<b/>concerneix<s n="pr"/></r></p></e>
-<e r="LR">       <p><l>con<b/>respecto<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e> 
+<e r="LR"><p><l>con<b/>respecto<b/>a<s n="pr"/>   </l><r>respecte<b/>a<s n="pr"/></r></p></e> 
 <e r="RL" a="mireiafarrus">       <p><l>en<b/>cuanto<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
 <e a="mireiafarrus" >       <p><l>en<b/>cuanto<b/>a<s n="pr"/></l>  <r>quant<b/>a<s n="pr"/></r></p></e> <!-- modificat perquè s'ha afegit "pel que fa a / en cuanto a" -->
 <e r="LR"><p><l>en<b/>lo<b/>que<b/>respecta<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e>
@@ -32513,7 +32514,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>he<b/>aquí<s n="adv"/></l>        <r>vet<b/>aquí<s n="adv"/></r></p></e>
 <e r="RL"><p><l>he<b/>aquí<s n="adv"/></l>        <r>veus<b/>ací<s n="adv"/></r></p></e>
 <e r="RL"><p><l>he<b/>aquí<s n="adv"/></l>        <r>veus<b/>aquí<s n="adv"/></r></p></e>
-<e r="RL"><p><l>hoy<b/>en<b/>día<s n="adv"/></l>  <r>hui<b/>dia<s n="adv"/></r></p></e>
 <e r="RL"><p><l>imperfectamente<s n="adv"/></l>   <r>imperfetament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>inalcanzablemente<s n="adv"/></l> <r>inabastablement<s n="adv"/></r></p></e>
 <e r="RL"><p><l>j.<s n="adv"/></l>                <r>dj.<s n="adv"/></r></p></e>
