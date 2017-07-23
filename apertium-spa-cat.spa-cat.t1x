@@ -356,6 +356,10 @@
       <cat-item tags="adj.mf.pl"/>
     </def-cat>
 
+    <def-cat n="tras">
+      <cat-item lemma="tras" tags="pr"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -8637,6 +8641,32 @@
         <b/>
         <lu>
           <clip part="whole" pos="2" side="tl"/>
+        </lu>
+      </out>
+    </action>
+  </rule>
+ 
+  <rule> <!-- años tras año > any rere any -->
+    <pattern>
+       <pattern-item n="nom"/>
+       <pattern-item n="tras"/>
+       <pattern-item n="nom"/>
+    </pattern>
+    <action>
+      <out>
+        <lu>
+          <get-case-from pos="1">
+            <clip part="whole" pos="1" side="tl"/>
+          </get-case-from>
+        </lu>
+        <b/>
+        <lu>
+            <lit v="rere"/>
+            <lit-tag v="adv"/>
+        </lu>
+        <b/>
+        <lu>
+          <clip part="whole" pos="3" side="tl"/>
         </lu>
       </out>
     </action>
