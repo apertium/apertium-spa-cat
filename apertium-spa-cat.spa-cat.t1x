@@ -347,6 +347,15 @@
       <cat-item lemma="hasta" tags="pr"/>
     </def-cat>
 
+    <def-cat n="en_ocasiones">
+      <cat-item lemma="en ocasiones" tags="adv"/>
+    </def-cat>
+
+    <def-cat n="adj-fem-pl">
+      <cat-item tags="adj.f.pl"/>
+      <cat-item tags="adj.mf.pl"/>
+    </def-cat>
+
   </section-def-cats>
 
   <section-def-attrs>
@@ -4356,6 +4365,32 @@
 	
       </action>
     </rule>
+
+  <rule> <!-- en ocasiones especiales: excepció traducció "en ocasiones > a vegades" -->
+    <pattern>
+      <pattern-item n="en_ocasiones"/>
+      <pattern-item n="adj-fem-pl"/>
+    </pattern>
+    <action>
+      <out>
+        <lu>
+          <get-case-from pos="1">
+            <lit v="en" />
+          </get-case-from>
+          <lit-tag v="pr" />
+        </lu>
+        <b/>
+        <lu>
+          <lit v="ocasió"/>
+          <lit-tag v="n.f.pl" />
+        </lu>
+        <b/>
+        <lu>
+          <clip part="whole" pos="2" side="tl"/>
+        </lu>
+      </out>
+    </action>
+  </rule>
 
     <rule> <!-- REGLA: PREP NOM -->
       <pattern>
