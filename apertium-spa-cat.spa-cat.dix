@@ -401,8 +401,11 @@
 <e>       <p><l>desnudo<s n="adj"/></l>           <r>nu<s n="adj"/></r></p></e>
 <e>       <p><l>despierto<s n="adj"/></l>         <r>despert<s n="adj"/></r></p></e>
 <e>       <p><l>diario<s n="adj"/></l>            <r>diari<s n="adj"/></r></p></e>
-<e r="RL"><p><l>dichoso<s n="adj"/></l>           <r>benaurat<s n="adj"/></r></p></e>
-<e r="LR"><p><l>dichoso<s n="adj"/></l>           <r>feliç<s n="adj"/></r></p></e>
+<e>       <p><l>dichoso<s n="adj"/><s n="m"/><s n="pl"/></l><r>feliç<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>dichoso<s n="adj"/><s n="f"/><s n="pl"/></l><r>feliç<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>dichoso<s n="adj"/><s n="m"/><s n="sg"/></l><r>feliç<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>dichoso<s n="adj"/><s n="f"/><s n="sg"/></l><r>feliç<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>dichoso<s n="adj"/><s n="GD"/><s n="sg"/></l><r>feliç<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>diferente<s n="adj"/></l>         <r>diferent<s n="adj"/></r></p></e>
 <e>       <i>difícil<s n="adj"/></i></e>
 <e>       <p><l>digno<s n="adj"/><s n="m"/><s n="sg"/></l><r>digne<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -410,7 +413,6 @@
 <e r="LR"><p><l>digno<s n="adj"/><s n="m"/><s n="pl"/></l><r>digne<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>digno<s n="adj"/><s n="f"/><s n="pl"/></l><r>digne<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>digno<s n="adj"/><s n="GD"/><s n="pl"/></l><r>digne<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e>       <p><l>digno<s n="adj"/></l>             <r>digne<s n="adj"/></r></p></e>
 <e>       <p><l>diminuto<s n="adj"/></l>          <r>diminut<s n="adj"/></r></p></e>
 <e>       <p><l>diplomático<s n="adj"/></l>       <r>diplomàtic<s n="adj"/></r></p></e>
 <e>       <p><l>directo<s n="adj"/><s n="m"/><s n="sg"/></l><r>directe<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4424,6 +4426,8 @@
 <e>       <p><l>barón<s n="n"/></l>               <r>baró<s n="n"/></r></p></e>
 <e>       <p><l>vasco<s n="n"/></l>               <r>basc<s n="n"/></r></p></e>
 <e>       <p><l>vaso<s n="n"/></l>                <r>got<s n="n"/></r></p></e>
+<e r="LR">       <p><l>godo<s n="n"/></l>                <r>got<s n="n"/></r></p></e>
+<e>       <p><l>godo<s n="adj"/></l>                <r>got<s n="adj"/></r></p></e>
 <e>       <p><l>vecino<s n="n"/></l>              <r>veí<s n="n"/></r></p></e>
 <e>       <p><l>vehículo<s n="n"/></l>            <r>vehicle<s n="n"/></r></p></e>
 <e>       <p><l>vejez<s n="n"/></l>               <r>vellesa<s n="n"/></r></p></e>
@@ -7977,8 +7981,8 @@
 <e>       <p><l>consecución<s n="n"/></l>         <r>consecució<s n="n"/></r></p></e>
 <e>       <p><l>consecutivo<s n="adj"/></l>       <r>consecutiu<s n="adj"/></r></p></e>
 <e>       <p><l>consiguiente<s n="adj"/></l>      <r>consegüent<s n="adj"/></r></p></e>
-<e>       <p><l>consejería<s n="n"/></l>          <r>conselleria<s n="n"/></r></p></e>
-<e r="LR"><p><l>consellería<s n="n"/></l>         <r>conselleria<s n="n"/></r></p></e>
+<e r="LR">       <p><l>consejería<s n="n"/></l>          <r>conselleria<s n="n"/></r></p></e>
+<e><p><l>consellería<s n="n"/></l>         <r>conselleria<s n="n"/></r></p></e>
 <e>       <p><l>consejero<s n="n"/></l>           <r>conseller<s n="n"/></r></p></e>
 <e r="LR"><i>conseller<s n="n"/></i></e>
 <e>       <i>Consell<s n="np"/></i></e>
@@ -9070,7 +9074,7 @@
 <e>       <i>espermatozoide<s n="n"/></i></e>
 <e vr="cat"><p><l>espesor<s n="n"/></l>           <r>gruix<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>espesor<s n="n"/><s n="m"/></l> <r>grossària<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>espesura<s n="n"/><s n="f"/></l>  <r>espessor<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>espesura<s n="n"/></l>  <r>espessor<s n="n"/></r></p></e>
 <e>       <p><l>espía<s n="n"/></l>               <r>espia<s n="n"/></r></p></e>
 <e>       <i>espiar<s n="vblex"/></i></e>
 <e>       <i>espina<s n="n"/></i></e>
@@ -10148,14 +10152,17 @@
 <e r="LR"><p><l>incorrecto<s n="adj"/><s n="m"/><s n="pl"/></l><r>incorrecte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>incorrecto<s n="adj"/><s n="f"/><s n="pl"/></l><r>incorrecte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>incorrecto<s n="adj"/><s n="GD"/><s n="pl"/></l><r>incorrecte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-<e>       <p><l>incorrecto<s n="adj"/></l>        <r>incorrecte<s n="adj"/></r></p></e>
 <e>       <p><l>incurrir<s n="vblex"/></l>        <r>incórrer<s n="vblex"/></r></p></e>
 <e>       <p><l>incredulidad<s n="n"/></l>        <r>incredulitat<s n="n"/></r></p></e>
 <e>       <p><l>increíblemente<s n="adv"/></l>    <r>increïblement<s n="adv"/></r></p></e>
 <e>       <i>increpar<s n="vblex"/></i></e>
 <e>       <i>incrustar<s n="vblex"/></i></e>
 <e>       <i>inculcar<s n="vblex"/></i></e>
-<e>       <p><l>inculto<s n="adj"/></l>           <r>inculte<s n="adj"/></r></p></e>
+<e>       <p><l>inculto<s n="adj"/><s n="m"/><s n="sg"/></l><r>inculte<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>inculto<s n="adj"/><s n="f"/><s n="sg"/></l><r>inculte<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>inculto<s n="adj"/><s n="m"/><s n="pl"/></l><r>inculte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>inculto<s n="adj"/><s n="f"/><s n="pl"/></l><r>inculte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>inculto<s n="adj"/><s n="GD"/><s n="pl"/></l><r>inculte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>inculto<s n="adj"/></l>           <r>incult<s n="adj"/></r></p></e>
 <e>       <i>incultura<s n="n"/></i></e>
 <e>       <p><l>incursión<s n="n"/></l>           <r>incursió<s n="n"/></r></p></e>
@@ -11213,8 +11220,8 @@
 <e>       <p><l>murciano<s n="adj"/></l>          <r>murcià<s n="adj"/></r></p></e>
 <e>       <i>Murillo<s n="np"/></i></e>
 <e>       <i>Mur<s n="np"/></i></e>
-<e>       <p><l>pícaro<s n="adj"/></l>            <r>murri<s n="adj"/></r></p></e>
-<e>       <p><l>pícaro<s n="n"/></l>              <r>murri<s n="n"/></r></p></e>
+<e r="LR">       <p><l>pícaro<s n="adj"/></l>            <r>murri<s n="adj"/></r></p></e>
+<e r="LR">       <p><l>pícaro<s n="n"/></l>              <r>murri<s n="n"/></r></p></e>
 <e>       <i>muscular<s n="adj"/></i></e>
 <e>       <i>musculatura<s n="n"/></i></e>
 <e>       <p><l>musicalmente<s n="adv"/></l>      <r>musicalment<s n="adv"/></r></p></e>
@@ -12991,7 +12998,7 @@
 <e>       <p><l>bache<s n="n"/></l>               <r>sot<s n="n"/></r></p></e>
 <e>       <i>Sotomayor<s n="np"/></i></e>
 <e>       <i>Soto<s n="np"/></i></e>
-<e>       <p><l>subdirector<s n="n"/></l>         <r>sotsdirector<s n="n"/></r></p></e>
+<e r="RL">       <p><l>subdirector<s n="n"/></l>         <r>sotsdirector<s n="n"/></r></p></e>
 <e>       <i>Stones<s n="np"/></i></e>
 <e>       <i>Suárez<s n="np"/></i></e>
 <e>       <p><l>suavidad<s n="n"/></l>            <r>suavitat<s n="n"/></r></p></e>
@@ -15019,7 +15026,6 @@
 <e a="prompsit2adn"><p><l>apuntalamiento<s n="n"/></l><r>apuntalament<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>arábigo<s n="adj"/></l> <r>aràbic<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>arancel<s n="n"/></l>   <r>aranzel<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>arañazo<s n="n"/></l>   <r>arrap<s n="n"/></r></p></e>
 <e a="prompsit2adn"><i>arbitrar<s n="vblex"/></i></e>
 <e a="prompsit2adn"><p><l>arbitrario<s n="adj"/></l><r>arbitrari<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>archipiélago<s n="n"/></l><r>arxipèlag<s n="n"/></r></p></e>
@@ -17527,7 +17533,7 @@
 <e a="prompsit2adn"><p><l>sobreproducción<s n="n"/></l><r>sobreproducció<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>sofisticación<s n="n"/></l><r>sofisticació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>sofocación<s n="n"/></l><r>sufocació<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>subdirección<s n="n"/></l><r>sotsdirecció<s n="n"/></r></p></e>
+<e r="RL" a="prompsit2adn"><p><l>subdirección<s n="n"/></l><r>sotsdirecció<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>subordinación<s n="n"/></l><r>subordinació<s n="n"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>subsanación<s n="n"/></l><r>esmena<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>subtitulación<s n="n"/></l><r>subtitulació<s n="n"/></r></p></e>
@@ -18676,7 +18682,6 @@
 <e a="prompsit2adn"><p><l>ébola<s n="n"/></l>     <r>ébola<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>tempranero<s n="adj"/></l><r>matiner<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>telenovela<s n="n"/></l><r>telenovel·la<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>voyeurismo<s n="n"/></l><r>voyeurisme<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>vitae<s n="adj"/></l>   <r>vitae<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>texano<s n="adj"/></l>  <r>texà<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>texano<s n="n"/></l>    <r>texà<s n="n"/></r></p></e>
@@ -21901,7 +21906,7 @@
 <e a="prompsit"><p><l>sufijación<s n="n"/></l>    <r>sufixació<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>tecnificación<s n="n"/></l> <r>tecnificació<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>telesilla<s n="n"/></l>     <r>telecadira<s n="n"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>telesilla<s n="n"/></l><r>telesella<s n="n"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>telesilla<s n="n"/><s n="m"/></l><r>telesella<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit"><p><l>teleesquí<s n="n"/></l>     <r>telesquí<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>termalismo<s n="n"/></l>    <r>termalisme<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>tarrina<s n="n"/></l>       <r>terrina<s n="n"/></r></p></e>
@@ -25910,7 +25915,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>striptease<s n="n"/></l><r>striptease<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>resistor<s n="n"/></l>  <r>resistor<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>rastrillo<s n="n"/></l> <r>rasclet<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>rappel<s n="n"/></l>    <r>ràpel<s n="n"/></r></p></e>
+<e r="LR" a="prompsit2uoc"><p><l>rappel<s n="n"/></l>    <r>ràpel<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>psicrómetro<s n="n"/></l><r>psicròmetre<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>prognatismo<s n="n"/></l><r>prognatisme<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>proemio<s n="n"/></l>   <r>proemi<s n="n"/></r></p></e>
@@ -27958,8 +27963,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>desprevenido<s n="adj"/></l>      <r>desprevingut<s n="adj"/></r></p></e>
 <e>       <p><l>desproporcionado<s n="adj"/></l>  <r>desproporcionat<s n="adj"/></r></p></e>
 <e>       <p><l>desprovisto<s n="adj"/></l>       <r>desproveït<s n="adj"/></r></p></e>
-<e>       <p><l>destructible<s n="adj"/></l>      <r>destructible<s n="adj"/></r></p></e>
-<e r="LR"><p><l>destruible<s n="adj"/></l>        <r>destructible<s n="adj"/></r></p></e>
+<e r="LR">       <p><l>destructible<s n="adj"/></l>      <r>destructible<s n="adj"/></r></p></e>
+<e><p><l>destruible<s n="adj"/></l>        <r>destructible<s n="adj"/></r></p></e>
 <e>       <p><l>desvalido<s n="adj"/></l>         <r>desvalgut<s n="adj"/></r></p></e>
 <e>       <p><l>desventurado<s n="adj"/></l>      <r>desventurat<s n="adj"/></r></p></e>
 <e>       <p><l>desvergonzado<s n="adj"/></l>     <r>desvergonyit<s n="adj"/></r></p></e>
@@ -34092,7 +34097,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>bigrama<s n="n"/></i></e>
 <e>       <i>bimoneda<s n="n"/></i></e>
 <e>       <i>bioquímica<s n="n"/></i></e>
-<e>       <i>blogger<s n="n"/></i></e>
 <e>       <i>BORME<s n="n"/></i></e>
 <e>       <i>borrasca<s n="n"/></i></e>
 <e>       <i>botavara<s n="n"/></i></e>
@@ -35031,7 +35035,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>cascarilla<s n="n"/></l>          <r>pellofa<s n="n"/></r></p></e>
 <e r="RL">       <p><l>casco<b/>antiguo<s n="n"/></l>    <r>nucli<b/>antic<s n="n"/></r></p></e>
 <e r="RL">       <p><l>casco<b/>urbano<s n="n"/></l>     <r>nucli<b/>urbà<s n="n"/></r></p></e>
-<e>       <p><l>Caspio<s n="n"/></l>              <r>Caspi<s n="n"/></r></p></e>
+<e>       <p><l>Caspio<s n="np"/></l>              <r>Caspi<s n="np"/></r></p></e>
 <e>       <p><l>castaña<s n="n"/></l>             <r>castanya<s n="n"/></r></p></e>
 <e>       <p><l>castañuela<s n="n"/></l>          <r>castanyola<s n="n"/></r></p></e>
 <e>       <p><l>castellanoparlante<s n="n"/></l>  <r>castellanoparlant<s n="n"/></r></p></e>
@@ -37642,7 +37646,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>deslinde<s n="n"/></l>            <r>atermenament<s n="n"/></r></p></e>
 <e r="RL"><p><l>desmadre<s n="n"/><s n="m"/></l>  <r>disbauxa<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>destajo<s n="n"/></l>             <r>estall<s n="n"/></r></p></e>
-<e r="RL"><p><l>diablura<s n="n"/></l>            <r>entremaliadura<s n="n"/></r></p></e>
 <e r="RL"><p><l>dorada<s n="n"/></l>              <r>daurada<s n="n"/></r></p></e>
 <e r="RL"><p><l>dorada<s n="n"/></l>              <r>moixarra<s n="n"/></r></p></e>
 <e r="RL"><p><l>ébano<s n="n"/></l>               <r>eben<s n="n"/></r></p></e>
@@ -44470,7 +44473,653 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>relevista<s n="n"/></l><r>rellevista<s n="n"/></r></p></e>
 <e a="GVA"><p><l>segoviano<s n="adj"/></l><r>segovià<s n="adj"/></r></p></e>
 
-
+<e a="GVA"><p><l>neceser<s n="n"/></l><r>necesser<s n="n"/></r></p></e>
+<e a="GVA"><p><l>vaporizador<s n="n"/></l><r>vaporitzador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>desodorante<s n="n"/></l><r>desodorant<s n="n"/></r></p></e>
+<e a="GVA"><p><l>carrillada<s n="n"/></l><r>galta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>pionono<s n="n"/></l><r>pionono<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cogollo<s n="n"/></l><r>cabdell<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ciencia<b/>ficción<s n="n"/></l><r>ciència-ficció<s n="n"/></r></p></e>
+<e a="GVA"><p><l>dependiente<s n="adj"/></l><r>dependent<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>lechazo<s n="n"/></l><r>corder<g><b/>de<b/>llet</g><s n="n"/></r></p></e>
+<e a="GVA"><p><l>maratoniano<s n="adj"/></l><r>maratonià<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>mediofondista<s n="n"/></l><r>migfondista<s n="n"/></r></p></e>
+<e a="GVA"><p><l>postcombustión<s n="n"/></l><r>postcombustió<s n="n"/></r></p></e>
+<e a="GVA"><p><l>precombustión<s n="n"/></l><r>precombustió<s n="n"/></r></p></e>
+<e a="GVA"><p><l>académico-investigador<s n="adj"/></l><r>academicoinvestigador<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>achampañado<s n="adj"/></l><r>aixampanyat<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>adquirente<s n="n"/></l><r>adquirent<s n="n"/></r></p></e>
+<e a="GVA"><p><l>SO2</l><r>SO2</r></p></e>
+<e a="GVA"><p><l>barrita<s n="n"/></l><r>barreta<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>hipoalérgeno<s n="adj"/></l><r>hipoal·lergogen<s n="adj"/></r></p></e>
+<e r="RL" a="GVA"><p><l>hipoalergénico<s n="adj"/></l><r>hipoal·lergen<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>hipoalergénico<s n="adj"/></l><r>hipoal·lergogen<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>acendrado<s n="adj"/></l><r>purificat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>acérrimo<s n="adj"/></l><r>acèrrim<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>afinación<s n="n"/></l><r>afinació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>aglutinador<s n="adj"/></l><r>aglutinador<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>agroganadero<s n="adj"/></l><r>agroramader<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>aguatinta<s n="n"/></l><r>aiguatinta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>aguerrido<s n="adj"/></l><r>aguerrir<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>ajenidad<s n="n"/></l><r>alienitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>alado<s n="adj"/></l><r>alat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>alardear<s n="vblex"/></l><r>fer<g><b/>gala</g><s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>alborotador<s n="adj"/></l><r>esvalotador<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>alcoholímetro<s n="n"/></l><r>alcoholímetre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>alcoholizar<s n="vblex"/></l><r>alcoholitzar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>aleatoriedad<s n="n"/></l><r>aleatorietat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>aletear<s n="vblex"/></l><r>aletejar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>aleteo<s n="n"/></l><r>aleteig<s n="n"/></r></p></e>
+<e a="GVA"><p><l>alholva<s n="n"/></l><r>alfolba<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>alholva<s n="n"/><s n="f"/></l><r>fenigrec<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="GVA"><p><l>alijo<s n="n"/><s n="m"/></l><r>partida<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>almorta<s n="n"/></l><r>guixa<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>alpiste<s n="n"/><s n="m"/></l><r>escaiola<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>alquería<s n="n"/></l><r>alqueria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>altaneria<s n="n"/></l><r>altivesa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>altisonante<s n="adj"/></l><r>altisonant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>altramuz<s n="n"/></l><r>tramús<s n="n"/></r></p></e>
+<e a="GVA"><p><l>amaestrar<s n="vblex"/></l><r>ensinistrar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>amanerado<s n="adj"/></l><r>amanerat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>amarradero<s n="n"/></l><r>amarrador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>amoral<s n="adj"/></l><r>amoral<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>ampulosidad<s n="n"/></l><r>ampul·lositat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>anosmia<s n="n"/></l><r>anòsmia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>anquilosar<s n="vblex"/></l><r>anquilosar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>antemuro<s n="n"/><s n="m"/></l><r>avantmuralla<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>antiagregante<s n="n"/></l><r>antiagregant<s n="n"/></r></p></e>
+<e a="GVA"><p><l>antirretroviral<s n="adj"/></l><r>antiretroviral<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>antirretroceso<s n="n"/></l><r>antiretrocés<s n="n"/></r></p></e>
+<e a="GVA"><p><l>antitranspirante<s n="adj"/></l><r>antitranspirant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>antojar<s n="vblex"/></l><r>antullar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>antropización<s n="n"/></l><r>antropització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>antropizado<s n="adj"/></l><r>antropitzat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>antropizar<s n="vblex"/></l><r>antropitzar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>antropogenia<s n="n"/></l><r>antropogènia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>antropogénico<s n="adj"/></l><r>antropogènic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>aparamenta<s n="n"/><s n="f"/></l><r>aparellatge<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>apilamiento<s n="n"/></l><r>apilament<s n="n"/></r></p></e>
+<e a="GVA"><p><l>apoastro<s n="n"/></l><r>apoastre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>apotropaico<s n="adj"/></l><r>apotropaic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>applet<s n="n"/><s n="m"/></l><r>miniaplicació<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>aprisionar<s n="vblex"/></l><r>empresonar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>arcabuz<s n="n"/></l><r>arcabús<s n="n"/></r></p></e>
+<e a="GVA"><p><l>arce<s n="n"/></l><r>auró<s n="n"/></r></p></e>
+<e a="GVA"><p><l>armatoste<s n="n"/><s n="m"/></l><r>baluerna<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>arremangar<s n="vblex"/></l><r>arromangar<s n="vblex"/></r></p></e>
+<e r="LR" a="GVA"><p><l>arriate<s n="n"/><s n="m"/></l><r>platabanda<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>arteriovenoso<s n="adj"/></l><r>arteriovenós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>artilugio<s n="n"/></l><r>artefacte<s n="n"/></r></p></e>
+<e a="GVA"><p><l>asadura<s n="n"/></l><r>freixura<s n="n"/></r></p></e>
+<e a="GVA"><p><l>asceta<s n="n"/></l><r>asceta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ascético<s n="adj"/></l><r>ascètic<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>audioprotesista<s n="n"/></l><r>audioprotetista<s n="n"/></r></p></e>
+<e a="GVA" r="LR"><p><l>audioprotesista<s n="n"/><s n="mf"/></l><r>audioprotètic<s n="n"/><s n="GD"/></r></p></e>
+<e a="GVA" r="RL"><p><l>audioprotesista<s n="n"/><s n="mf"/></l><r>audioprotètic<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA" r="RL"><p><l>audioprotesista<s n="n"/><s n="mf"/></l><r>audioprotètic<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>autoblocante<s n="adj"/></l><r>autoblocant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>autocensura<s n="n"/></l><r>autocensura<s n="n"/></r></p></e>
+<e a="GVA"><p><l>autoconsulta<s n="n"/></l><r>autoconsulta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>autoconsumo<s n="n"/></l><r>autoconsum<s n="n"/></r></p></e>
+<e a="GVA"><p><l>autógeno<s n="adj"/></l><r>autogen<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>autorizatorio<s n="adj"/></l><r>autoritzatori<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>autorretratar<s n="vblex"/></l><r>autoretratar<s n="vblex"/></r></p></e>
+<e r="LR" a="GVA"><p><l>avejentar<s n="vblex"/></l><r>revellir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>aviejar<s n="vblex"/></l><r>revellir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>axiológico<s n="adj"/></l><r>axiològic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>ballico<s n="n"/></l><r>margall<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>vallico<s n="n"/></l><r>margall<s n="n"/></r></p></e>
+<e a="GVA"><p><l>baremación<s n="n"/></l><r>baremació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>barrabasada<s n="n"/></l><r>barrabassada<s n="n"/></r></p></e>
+<e a="GVA"><p><l>batavia<s n="n"/></l><r>batàvia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>belicoso<s n="adj"/></l><r>bel·licós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>bicipital<s n="adj"/></l><r>bicipital<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>biestable<s n="adj"/></l><r>biestable<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>bífidus<s n="n"/></l><r>bífidus<s n="n"/></r></p></e>
+<e a="GVA"><p><l>bioacumulación<s n="n"/></l><r>bioacumulació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>biocida<s n="n"/></l><r>biocida<s n="n"/></r></p></e>
+<e a="GVA"><p><l>bioenergética<s n="n"/></l><r>bioenergètica<s n="n"/></r></p></e>
+<e a="GVA"><p><l>bioenergético<s n="adj"/></l><r>bioenergètic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>biolimpieza<s n="n"/></l><r>bioneteja<s n="n"/></r></p></e>
+<e a="GVA"><p><l>biolíquido<s n="n"/></l><r>biolíquid<s n="n"/></r></p></e>
+<e a="GVA"><p><l>blanquecino<s n="adj"/></l><r>blanquinós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>blanquinegro<s n="adj"/></l><r>blanc-i-negre<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>blíster<s n="n"/></l><r>blíster<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>blogger<s n="n"/><s n="mf"/></l><r>bloguer<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL" a="GVA"><p><l>blogger<s n="n"/><s n="mf"/></l><r>bloguer<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="GVA"><p><l>blogger<s n="n"/><s n="mf"/></l><r>bloguer<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="GVA"><p><l>bodegón<s n="n"/></l><r>bodegó<s n="n"/></r></p></e>
+<e a="GVA"><p><l>bodegón<s n="n"/><s n="m"/></l><r>natura<b/>morta<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>boquete<s n="n"/></l><r>forat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>bordonadora<s n="n"/></l><r>bordonadora<s n="n"/></r></p></e>
+<e a="GVA"><p><l>bote<b/>sifónico<s n="n"/><s n="m"/></l><r>caixa<b/>sifònica<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>bufido<s n="n"/></l><r>bufit<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cabritilla<s n="n"/></l><r>cabritilla<s n="n"/></r></p></e>
+<e a="GVA"><p><l>calafate<s n="n"/></l><r>calafat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>caldear<s n="vblex"/></l><r>caldejar<s n="vblex"/></r></p></e>
+<e r="LR" a="GVA"><p><l>campiña<s n="n"/></l><r>campanya<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cancerígeno<s n="adj"/></l><r>cancerigen<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>cancerígeno<s n="n"/></l><r>cancerigen<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cañar<s n="n"/></l><r>canyar<s n="n"/></r></p></e>
+<e a="GVA"><p><l>capacitivo<s n="adj"/></l><r>capacitiu<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>caramelizado<s n="adj"/></l><r>caramelitzat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>cardinalidad<s n="n"/></l><r>cardinalitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cardiopulmonar<s n="adj"/></l><r>cardiopulmonar<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>carrilero<s n="n"/></l><r>carriler<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cartujano<s n="adj"/></l><r>cartoixà<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>cartujano<s n="n"/></l><r>cartoixà<s n="n"/></r></p></e>
+<e a="GVA"><p><l>casaca<s n="n"/></l><r>casaca<s n="n"/></r></p></e>
+<e a="GVA"><p><l>casis<s n="n"/></l><r>cassís<s n="n"/></r></p></e>
+<e a="GVA"><p><l>catering<s n="n"/></l><r>servei<b/>d’àpats<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cebolleta<s n="n"/></l><r>ceba<b/>tendra<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cejar<g><b/>en</g><s n="vblex"/></l><r>desistir<g><b/>de</g><s n="vblex"/></r></p></e>
+<e r="LR" a="GVA"><p><l>celdilla<s n="n"/></l><r>cel·la<s n="n"/></r></p></e>
+<e a="GVA"><p><l>centrifugar<s n="vblex"/></l><r>centrifugar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>ceramista<s n="n"/></l><r>ceramista<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cerner<s n="vblex"/></l><r>cendre<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>cernir<s n="vblex"/></l><r>cendre<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>champañero<s n="adj"/></l><r>xampanyer<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>chapar<s n="vblex"/></l><r>xapar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>chubasquero<s n="n"/></l><r>impermeable<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ciberamigo<s n="n"/></l><r>ciberamic<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cibercrimen<s n="n"/></l><r>ciberdelicte<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>ciberdelito<s n="n"/></l><r>ciberdelicte<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cibersexo<s n="n"/></l><r>sexe<b/>virtual<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cienciología<s n="n"/></l><r>cienciologia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cineclub<s n="n"/></l><r>cineclub<s n="n"/></r></p></e>
+<e a="GVA"><p><l>circulador<s n="n"/></l><r>circulador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>citronela<s n="n"/></l><r>citronel·la<s n="n"/></r></p></e>
+<e a="GVA"><p><l>claudicar<s n="n"/></l><r>claudicar<s n="n"/></r></p></e>
+<e a="GVA"><p><l>climatizador<s n="n"/></l><r>climatitzador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cloquear<s n="vblex"/></l><r>cloquejar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>coctelería<s n="n"/></l><r>cocteleria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cohorte<s n="n"/></l><r>cohort<s n="n"/></r></p></e>
+<e a="GVA"><p><l>colear<s n="vblex"/></l><r>cuejar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>colector<s n="adj"/></l><r>col·lector<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>colegiación<s n="n"/></l><r>col·legiació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>colostomía<s n="n"/></l><r>colostomia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>comadre<s n="n"/></l><r>comare<s n="n"/></r></p></e>
+<e a="GVA"><p><l>comanche<s n="n"/></l><r>comanxe<s n="n"/></r></p></e>
+<e a="GVA"><p><l>comanche<s n="adj"/></l><r>comanxe<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>comarketing<s n="n"/></l><r>comàrqueting<s n="n"/></r></p></e>
+<e a="GVA"><p><l>combinacional<s n="adj"/></l><r>combinacional<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>comitente<s n="n"/></l><r>comitent<s n="n"/></r></p></e>
+<e a="GVA"><p><l>compensable<s n="adj"/></l><r>compensable<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>complacencia<s n="n"/></l><r>complaença<s n="n"/></r></p></e>
+<e a="GVA"><p><l>compresa<s n="n"/></l><r>compresa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>compungido<s n="adj"/></l><r>compungit<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>compungir<s n="vblex"/></l><r>compungir<s n="vblex"/></r></p></e>
+<e r="LR" a="GVA"><p><l>computerizado<s n="adj"/></l><r>automatitzat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>concedente<s n="n"/></l><r>concedent<s n="n"/></r></p></e>
+<e a="GVA"><p><l>concedente<s n="adj"/></l><r>concedent<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>conceptismo<s n="n"/></l><r>conceptisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>conceptuación<s n="n"/></l><r>conceptuación<s n="n"/></r></p></e>
+<e a="GVA"><p><l>conceptualismo<s n="n"/></l><r>conceptualisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>confitero<s n="adj"/></l><r>confiter<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>connatural<s n="adj"/></l><r>connatural<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>constreñido<s n="adj"/></l><r>constret<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>constructibilidad<s n="n"/></l><r>constructibilitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>continuadamente<s n="adv"/></l><r>continuadament<s n="adv"/></r></p></e>
+<e r="LR" a="GVA"><p><l>contrainteligencia<s n="n"/></l><r>contraespionatge<s n="n"/></r></p></e>
+<e a="GVA"><p><l>contraespionaje<s n="n"/></l><r>contraespionatge<s n="n"/></r></p></e>
+<e a="GVA"><p><l>convidar<s n="vblex"/></l><r>convidar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>copago<s n="n"/></l><r>copagament<s n="n"/></r></p></e>
+<e a="GVA"><p><l>copatrocinado<s n="adj"/></l><r>copatrocinat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>copatrocinio<s n="n"/></l><r>copatrocini<s n="n"/></r></p></e>
+<e a="GVA"><p><l>correaje<s n="n"/></l><r>corretjam<s n="n"/></r></p></e>
+<e a="GVA"><p><l>coz<s n="n"/></l><r>coça<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cremoso<s n="adj"/></l><r>cremós<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>cretense<s n="adj"/><s n="mf"/></l><r>cretenc<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL" a="GVA"><p><l>cretense<s n="adj"/><s n="mf"/></l><r>cretenc<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL" a="GVA"><p><l>cretense<s n="adj"/><s n="mf"/></l><r>cretenc<s n="adj"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>cretino<s n="n"/></l><r>cretí<s n="n"/></r></p></e>
+<e a="GVA"><p><l>crossmedia<s n="adj"/></l><r>multisuport<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>croupier<s n="n"/></l><r>crupier<s n="n"/></r></p></e>
+<e a="GVA"><p><l>crucifixión<s n="n"/></l><r>crucifixió<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cuadruplicar<s n="vblex"/></l><r>quadruplicar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>cuarto<s n="n"/></l><r>quart<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cúbito<s n="n"/></l><r>cúbit<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cuentakilómetros<s n="n"/></l><r>comptaquilòmetres<s n="n"/></r></p></e>
+<e a="GVA"><p><l>culata<s n="n"/></l><r>culata<s n="n"/></r></p></e>
+<e a="GVA"><p><l>culé<s n="n"/></l><r>culer<s n="n"/></r></p></e>
+<e a="GVA"><p><l>culé<s n="adj"/></l><r>culer<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>culteranismo<s n="n"/></l><r>culteranisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>daguerreotipo<s n="n"/></l><r>daguerreotip<s n="n"/></r></p></e>
+<e a="GVA"><p><l>dátil<s n="n"/></l><r>dàtil<s n="n"/></r></p></e>
+<e a="GVA"><p><l>deambulación<s n="n"/></l><r>deambulació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>degradable<s n="adj"/></l><r>degradable<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>derivador<s n="n"/></l><r>derivador<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>descarche<s n="n"/></l><r>desgebrament<s n="n"/></r></p></e>
+<e a="GVA"><p><l>descolorido<s n="adj"/></l><r>descolorit<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>desdentado<s n="adj"/></l><r>desdentat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>desescarche<s n="n"/></l><r>desgebrament<s n="n"/></r></p></e>
+<e a="GVA"><p><l>desescolarización<s n="n"/></l><r>desescolarització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>desescolarizar<s n="vblex"/></l><r>desescolaritzar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>desestacionalización<s n="n"/></l><r>desestacionalització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>desfloculante<s n="n"/></l><r>desfloculant<s n="n"/></r></p></e>
+<e a="GVA"><p><l>deshonroso<s n="adj"/></l><r>deshonrós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>deshumanizante<s n="adj"/></l><r>deshumanitzant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>desmemoria<s n="n"/></l><r>desmemòria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>desmoldeante<s n="adj"/></l><r>desemmotllant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>desmultiplaje<s n="n"/></l><r>desmultiplexatge<s n="n"/></r></p></e>
+<e a="GVA"><p><l>desmultiplexor<s n="n"/></l><r>desmultiplexor<s n="n"/></r></p></e>
+<e a="GVA"><p><l>desnutrido<s n="adj"/></l><r>desnodrit<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>desnutrir<s n="vblex"/></l><r>desnodrir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>desregulación<s n="n"/></l><r>desregulació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>desverdización<s n="n"/><s n="f"/></l><r>desverdiment<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>desvergüenza<s n="n"/><s n="f"/></l><r>desvergonyiment<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>detraer<s n="vblex"/></l><r>llevar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>diábolo<s n="n"/></l><r>diàbolo<s n="n"/></r></p></e>
+<e a="GVA"><p><l>didactismo<s n="n"/></l><r>didactisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>difuminador<s n="adj"/></l><r>difuminador<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>dilatometría<s n="n"/></l><r>dilatometria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>dimensionalidad<s n="n"/></l><r>dimensionalitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>dinamitar<s n="vblex"/></l><r>dinamitar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>disfónico<s n="adj"/></l><r>disfònic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>disruptivo<s n="n"/></l><r>disruptiu<s n="n"/></r></p></e>
+<e a="GVA"><p><l>distanciación<s n="n"/></l><r>distanciaciament<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>distanciación<s n="n"/></l><r>distanciació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>disuasivo<s n="adj"/></l><r>dissuassiu<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>djmbe<s n="n"/></l><r>djembé<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>doblez<s n="n"/></l><r>plec<s n="n"/></r></p></e>
+<e a="GVA"><p><l>doceavo<s n="adj"/></l><r>dotzé<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>dominico<s n="adj"/></l><r>dominic<s n="adj"/></r></p></e>
+<e r="RL" a="GVA"><p><l>dormitar<s n="vblex"/></l><r>dormitar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>dormitar<s n="vblex"/></l><r>dormisquejar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>dumper<s n="n"/></l><r>dúmper<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ecologización<s n="n"/></l><r>ecologització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>económico-funcional<s n="adj"/></l><r>economicofuncional<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>educando<s n="n"/></l><r>educand<s n="n"/></r></p></e>
+<e a="GVA"><p><l>elegibilidad<s n="n"/></l><r>elegibilitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>elementariedad<s n="n"/></l><r>elementarietat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>embellecimiento<s n="n"/></l><r>embelliment<s n="n"/></r></p></e>
+<e a="GVA"><p><l>embrutecedor<s n="adj"/></l><r>embrutidor<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>emplastro<s n="n"/></l><r>emplastre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>empleabilidad<s n="n"/></l><r>ocupabilitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>empresariado<s n="n"/></l><r>empresariat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>energización<s n="n"/></l><r>energització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>energizar<s n="vblex"/></l><r>energitzar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>enternecimiento<s n="n"/></l><r>entendriment<s n="n"/></r></p></e>
+<e a="GVA"><p><l>entrecejo<s n="n"/><s n="m"/></l><r>entrecella<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="GVA"><p><l>epoxy<s n="adj"/></l><r>epoxi<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>epoxi<s n="adj"/></l><r>epoxi<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>equipación<s n="n"/><s n="f"/></l><r>equipament<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>escalariforme<s n="adj"/></l><r>escalariforme<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>escaña<s n="n"/></l><r>espelta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>escolítido<s n="n"/></l><r>escolítid<s n="n"/></r></p></e>
+<e a="GVA"><p><l>escribiente<s n="n"/></l><r>escrivent<s n="n"/></r></p></e>
+<e a="GVA"><p><l>espaciador<s n="adj"/></l><r>espaiador<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>esparceta<s n="n"/></l><r>esparceta<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>esparceta<s n="n"/></l><r>trepadella<s n="n"/></r></p></e>
+<e a="GVA"><p><l>espelta<s n="n"/></l><r>espelta<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>escandia<s n="n"/></l><r>espelta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>estafador<s n="n"/></l><r>estafador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>esteatopigia<s n="n"/></l><r>esteatopígia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>estocástico<s n="adj"/></l><r>estocàstic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>excedentario<s n="adj"/></l><r>excedentari<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>exhortación<s n="n"/></l><r>exhortació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>exigibilidad<s n="n"/></l><r>exigibilitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ExpoDeporte<s n="n"/></l><r>Expo<b/>Esport<s n="n"/></r></p></e>
+<e a="GVA"><p><l>exquisitez<s n="n"/></l><r>exquisidesa<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>exquisitez<s n="n"/></l><r>exquisitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>familista<s n="n"/></l><r>familiarista<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>fancoil<s n="n"/></l><r>ventiloconvector<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>fan-coil<s n="n"/></l><r>ventiloconvector<s n="n"/></r></p></e>
+<e a="GVA"><p><l>fausto<s n="adj"/></l><r>faust<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>fémina<s n="n"/></l><r>dona<s n="n"/></r></p></e>
+<e a="GVA"><p><l>fibromialgia<s n="n"/></l><r>fibromiàlgia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>figurativismo<s n="n"/></l><r>figurativisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>finalizador<s n="adj"/></l><r>finalitzador<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>fisico-químico<s n="adj"/></l><r>fisicoquímic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>fisicoquímico<s n="adj"/></l><r>fisicoquímic<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>fláccido<s n="adj"/></l><r>flàccid<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>flácido<s n="adj"/></l><r>flàccid<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>flexografía<s n="n"/></l><r>flexografia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>fluidificar<s n="vblex"/></l><r>fluïdificar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>folclorización<s n="n"/></l><r>folklorització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>forrajero<s n="adj"/></l><r>farratger<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>frondosidad<s n="n"/></l><r>frondositat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>frotación<s n="n"/><s n="f"/></l><r>fregament<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>arrugar<g><b/>el<b/>entrecejo</g></l><r><g>arrufar<b/>les<b/>celles</g></r></p></e>
+<e a="GVA"><p><l>frutería<s n="n"/></l><r>fruiteria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>gánster<s n="n"/></l><r>gàngster<s n="n"/></r></p></e>
+<e a="GVA"><p><l>gelatinoso<s n="adj"/></l><r>gelatinós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>geolocalización<s n="n"/></l><r>geolocalització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>gilipollez<s n="n"/></l><r>estupidesa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>glamuroso<s n="adj"/></l><r>glamurós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>gobernanza<s n="n"/></l><r>governança<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>golilla<s n="n"/></l><r>gola<s n="n"/></r></p></e>
+<e a="GVA"><p><l>Grand<b/>Prix<s n="n"/></l><r>Gran<b/>Premi<s n="n"/></r></p></e>
+<e a="GVA"><p><l>granelero<s n="n"/></l><r>vaixell<g><b/>de<b/>càrrega<b/>a<b/>granel</g><s n="n"/></r></p></e>
+<e a="GVA"><p><l>grimpador<s n="n"/></l><r>grimpador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>gruista<s n="n"/></l><r>gruista<s n="n"/></r></p></e>
+<e a="GVA"><p><l>guardiamarina<s n="n"/></l><r>guàrdia<b/>marina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>guayaba<s n="n"/></l><r>guaiaba<s n="n"/></r></p></e>
+<e a="GVA"><p><l>gurú<s n="n"/></l><r>guru<s n="n"/></r></p></e>
+<e a="GVA"><p><l>halterofilista<s n="n"/></l><r>halterofilista<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hexavalente<s n="adj"/></l><r>hexavalent<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>hiperbárica<s n="adj"/></l><r>hiperbàrica<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>hipobárica<s n="adj"/></l><r>hipobàrica<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>hm³<s n="n"/></l><r>hm³<s n="n"/></r></p></e>
+<e a="GVA"><p><l>hojalata<s n="n"/></l><r>llanda<s n="n"/></r></p></e>
+<e a="GVA"><p><l>holganza<s n="n"/></l><r>folgança<s n="n"/></r></p></e>
+<e a="GVA"><p><l>holgazán<s n="n"/></l><r>gandul<s n="n"/></r></p></e>
+<e a="GVA"><p><l>homeotermo<s n="n"/></l><r>homeoterm<s n="n"/></r></p></e>
+<e a="GVA"><p><l>homeotermo<s n="adj"/></l><r>homeoterm<s n="n"/></r></p></e>
+<e a="GVA"><p><l>impelente<s n="adj"/></l><r>impel·lent<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>incumbencia<s n="n"/></l><r>incumbència<s n="n"/></r></p></e>
+<e a="GVA"><p><l>incurso<s n="adj"/></l><r>incurs<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>inexigibilidad<s n="n"/></l><r>inexigibilitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>inexpresivo<s n="adj"/></l><r>inexpressiu<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>infógrafo<s n="n"/></l><r>infògraf<s n="n"/></r></p></e>
+<e a="GVA"><p><l>infravalorar<s n="vblex"/></l><r>infravalorar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>inmiscuirse<s n="vblex"/></l><r>immiscir-se<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>inmótico<s n="adj"/></l><r>immòtic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>innombrable<s n="adj"/></l><r>innomenable<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>inserir<s n="vblex"/></l><r>inserir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>institutriz<s n="n"/></l><r>institutriu<s n="n"/></r></p></e>
+<e a="GVA"><p><l>interdisciplinariedad<s n="n"/></l><r>interdisciplinarietat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>interfásico<s n="adj"/></l><r>interfàsic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>interfaz<b/>gráfico<s n="n"/><s n="m"/></l><r>interfície<b/>gràfica<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>interoperable<s n="adj"/></l><r>interoperable<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>intersectorial<s n="adj"/></l><r>intersectorial<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>intradisciplinariedad<s n="n"/></l><r>intradisciplinarietat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>irrelevancia<s n="n"/></l><r>irrellevància<s n="n"/></r></p></e>
+<e a="GVA"><p><l>isocompactación<s n="n"/></l><r>isocompactación<s n="n"/></r></p></e>
+<e a="GVA"><p><l>isocompactar<s n="vblex"/></l><r>isocompactar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>jadeante<s n="adj"/></l><r>esbufegant<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>jefe<s n="n"/></l><r>cap<s n="n"/></r></p></e>
+<e a="GVA"><p><l>jojoba<s n="n"/></l><r>jojoba<s n="n"/></r></p></e>
+<e a="GVA"><p><l>jurisconsulto<s n="adj"/></l><r>jurisconsult<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>justificadamente<s n="adv"/></l><r>justificadament<s n="adv"/></r></p></e>
+<e a="GVA"><p><l>keratina<s n="n"/></l><r>queratina<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>ketxup<s n="n"/></l><r>quètxup<s n="n"/></r></p></e>
+<e a="GVA"><p><l>kétxup<s n="n"/></l><r>quètxup<s n="n"/></r></p></e>
+<e a="GVA"><p><l>kilotón<s n="n"/><s n="m"/></l><r>kilotona<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>lacayo<s n="n"/></l><r>lacai<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>ladear<s n="vblex"/></l><r>decantar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>laminar<s n="adj"/></l><r>laminar<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>laminar<s n="vblex"/></l><r>laminar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>lasaña<s n="n"/></l><r>lasanya<s n="n"/></r></p></e>
+<e a="GVA"><p><l>lechuga<g><b/>trocadero</g><s n="n"/></l><r>encisam<b/>francés<s n="n"/></r></p></e>
+<e a="GVA"><p><l>lechuguilla<s n="n"/></l><r>gorgera<s n="n"/></r></p></e>
+<e a="GVA"><p><l>legalista<s n="n"/></l><r>legalista<s n="n"/></r></p></e>
+<e a="GVA"><p><l>leguminosa<s n="n"/></l><r>lleguminosa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>leguminosa<s n="adj"/></l><r>lleguminosa<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>lenitivamente<s n="adv"/></l><r>lenitivament<s n="adv"/></r></p></e>
+<e a="GVA"><p><l>lenitivo<s n="adj"/></l><r>lenitiu<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>levadizo<s n="adj"/></l><r>llevadís<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>lichi<s n="n"/></l><r>litxi<s n="n"/></r></p></e>
+<e a="GVA"><p><l>llenazo<s n="n"/></l><r>gran<b/>ple<s n="n"/></r></p></e>
+<e a="GVA"><p><l>locuacidad<s n="n"/></l><r>loquacitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>lofoscopia<s n="n"/></l><r>lofoscòpia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>lofoscópico<s n="adj"/></l><r>lofoscòpic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>logocentrismo<s n="n"/></l><r>logocentrisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>lucrar<s n="vblex"/></l><r>lucrar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>ludeteca<s n="n"/></l><r>ludeteca<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ludismo<s n="n"/></l><r>luddisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>luxómetro<s n="n"/></l><r>luxímetre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>malcriado<s n="adj"/></l><r>malcriat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>malévolo<s n="adj"/></l><r>malèvol<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>malhumorado<s n="adj"/></l><r>malhumorat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>malsano<s n="adj"/></l><r>malsà<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>mandarino<s n="n"/></l><r>mandariner<s n="n"/></r></p></e>
+<e a="GVA"><p><l>manicura<s n="n"/></l><r>manicura<s n="n"/></r></p></e>
+<e a="GVA"><p><l>manojo<s n="n"/></l><r>manoll<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mansedumbre<s n="n"/></l><r>mansuetud<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mañoso<s n="adj"/></l><r>manyós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>marqueo<s n="n"/></l><r>traçatge<s n="n"/></r></p></e>
+<e a="GVA"><p><l>martelleo<s n="n"/></l><r>martelleig<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>mascarilla<s n="n"/></l><r>màscara<s n="n"/></r></p></e>
+<e a="GVA"><p><l>máxime<s n="adv"/></l><r>màximament<s n="adv"/></r></p></e>
+<e a="GVA"><p><l>maxímetro<s n="n"/></l><r>maxímetre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mendrugo<s n="n"/></l><r>rosegó<s n="n"/></r></p></e>
+<e a="GVA"><p><l>menundencia<s n="n"/></l><r>menudesa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>merchandising<s n="n"/></l><r>marxandatge<s n="n"/></r></p></e>
+<e a="GVA"><p><l>metaetiqueta<s n="n"/></l><r>metaetiqueta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>metalistería<s n="n"/></l><r>metal·listeria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>metanfetamina<s n="n"/></l><r>metamfetamina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>metrotecnia<s n="n"/></l><r>metrotècnia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>microblog<s n="n"/></l><r>microblog<s n="n"/></r></p></e>
+<e a="GVA"><p><l>micronización<s n="n"/></l><r>micronització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>microrrelato<s n="n"/></l><r>microrelat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mimetización<s n="n"/></l><r>mimetització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>minorar<s n="vblex"/></l><r>minorar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>mismidad<s n="n"/></l><r>ipseïtat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mitologizante<s n="adj"/></l><r>mitologitzant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>monigote<s n="n"/></l><r>ninot<s n="n"/></r></p></e>
+<e a="GVA"><p><l>monoestrato<s n="n"/></l><r>monoestrat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>monofásico<s n="adj"/></l><r>monofàsic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>mugido<s n="n"/></l><r>mugit<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mugir<s n="vblex"/></l><r>mugir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>mugriento<s n="adj"/></l><r>ronyós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>multidimensional<s n="adj"/></l><r>multidimensional<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>multihilo<s n="n"/></l><r>multifil<s n="n"/></r></p></e>
+<e a="GVA"><p><l>multiplataforma<s n="n"/></l><r>multiplataforma<s n="n"/></r></p></e>
+<e a="GVA"><p><l>multiplexar<s n="vblex"/></l><r>multiplexar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>multiproceso<s n="n"/></l><r>multiprocés<s n="n"/></r></p></e>
+<e a="GVA"><p><l>multiproducto<s n="n"/></l><r>multiproducte<s n="n"/></r></p></e>
+<e a="GVA"><p><l>multirred<s n="n"/></l><r>multixarxa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>multirrespuesta<s n="n"/></l><r>multiresposta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>muñequita<s n="n"/></l><r>nineta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>murmuración<s n="n"/></l><r>murmuració<s n="n"/></r></p></e>
+<e a="GVA"><p><l>musher<s n="n"/></l><r>múixer<s n="n"/></r></p></e>
+<e a="GVA"><p><l>nabina<s n="n"/></l><r>nabina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>naif<s n="adj"/></l><r>naïf<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>nascencia<s n="n"/></l><r>nascència<s n="n"/></r></p></e>
+<e a="GVA"><p><l>nasogástrico<s n="adj"/></l><r>nasogàstric<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>neblinoso<s n="adj"/></l><r>boirós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>neobarroco<s n="adj"/></l><r>neobarroc<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>neoconceptismo<s n="n"/></l><r>neoconceptisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>neoculteranismo<s n="n"/></l><r>neoculteranisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>neomitología<s n="n"/></l><r>neomitologia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ningunear<s n="vblex"/></l><r>menystenir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>novillo<s n="n"/></l><r>jònec<s n="n"/></r></p></e>
+<e r="RL" vr="val_gva val_uni" a="GVA"><p><l>novillo<s n="n"/></l><r>vedell<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>obscuridad<s n="n"/></l><r>foscor<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>obscuro<s n="adj"/></l><r>fosc<s n="adj"/></r></p></e>
+<e r="RL" a="GVA"><p><l>obscuro<s n="adj"/></l><r>obscur<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>oculado<s n="n"/></l><r>oculat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>óculo<s n="n"/></l><r>ull<b/>de<b/>bou<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ocultamiento<s n="n"/><s n="m"/></l><r>ocultació<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>ojito<s n="n"/></l><r>ullet<s n="n"/></r></p></e>
+<e a="GVA"><p><l>olvidadizo<s n="adj"/></l><r>oblidadís<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>on-line<s n="adj"/></l><r>en<b/>línia<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>online<s n="adj"/></l><r>en<b/>línia<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>opacar<s n="vblex"/></l><r>enfosquir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>ostomía<s n="n"/></l><r>ostomia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>palé<s n="n"/></l><r>palet<s n="n"/></r></p></e>
+<e a="GVA"><p><l>paletista<s n="n"/></l><r>paletista<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>paletista<s n="n"/><s n="mf"/></l><r>jugador<g><b/>de<b/>paleta</g><s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="GVA"><p><l>paletista<s n="n"/><s n="mf"/></l><r>jugador<g><b/>de<b/>paleta</g><s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>palidecer<s n="vblex"/></l><r>empal·lidir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>panal<s n="n"/><s n="m"/></l><r>bresca<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>panza<s n="n"/></l><r>panxa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>panzudo<s n="adj"/></l><r>panxut<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>papaya<s n="n"/></l><r>papaia<s n="n"/></r></p></e>
+<e a="GVA"><p><l>paradisíaco<s n="n"/></l><r>paradisíac<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>paragliding<s n="n"/></l><r>parapent<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>parasailing<s n="n"/></l><r>vol<b/>nàutic<s n="n"/></r></p></e>
+<e a="GVA"><p><l>parasitaje<s n="n"/></l><r>parasitatge<s n="n"/></r></p></e>
+<e a="GVA"><p><l>paratriatlón<s n="n"/></l><r>paratriatló<s n="n"/></r></p></e>
+<e a="GVA"><p><l>paria<s n="n"/></l><r>pària<s n="n"/></r></p></e>
+<e a="GVA"><p><l>parroquiano<s n="adj"/></l><r>parroquià<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>particularización<s n="n"/></l><r>particularització<s n="n"/></r></p></e>
+<e a="GVA"><p><l>particularizar<s n="n"/></l><r>particularitzar<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>patrocinio<b/>compartido<s n="n"/></l><r>copatrocini<s n="n"/></r></p></e>
+<e a="GVA"><p><l>pavonear<s n="vblex"/></l><r>gallejar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>pecador<s n="n"/></l><r>pecador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>peletería<s n="n"/></l><r>pelleteria<s n="n"/></r></p></e>
+<e a="GVA"><p><l>peltre<s n="n"/></l><r>peltre<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>performático<s n="adj"/></l><r>performatiu<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>performativo<s n="adj"/></l><r>performatiu<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>pergeñar<s n="vblex"/></l><r>engiponar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>periastro<s n="n"/></l><r>periastre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>peroración<s n="n"/></l><r>peroració<s n="n"/></r></p></e>
+<e a="GVA"><p><l>perpiaño<s n="n"/></l><r>perpany<s n="n"/></r></p></e>
+<e a="GVA"><p><l>personalizable<s n="adj"/></l><r>personalitzable<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>picante<s n="adj"/></l><r>picant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>picotear<s n="vblex"/></l><r>picotejar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>pillo<s n="adj"/></l><r>pillet<s n="adj"/></r></p></e>
+<e r="RL" a="GVA"><p><l>pillo<s n="adj"/></l><r>murri<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>pillo<s n="n"/></l><r>pillet<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>pillo<s n="n"/></l><r>murri<s n="n"/></r></p></e>
+<e a="GVA"><p><l>pimentón<s n="n"/></l><r>pebre<b/>roig<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>pingüe<s n="adj"/></l><r>abundant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>piscicultura<s n="n"/></l><r>piscicultura<s n="n"/></r></p></e>
+<e a="GVA"><p><l>pisto<s n="n"/><s n="m"/></l><r>samfaina<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="GVA"><p><l>plug-in<s n="n"/></l><r>connector<s n="n"/></r></p></e>
+<e a="GVA"><p><l>plurianualidad<s n="n"/></l><r>plurianualitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>plurideficiencia<s n="n"/></l><r>plurideficiència<s n="n"/></r></p></e>
+<e a="GVA"><p><l>pobrecito<s n="adj"/></l><r>pobret<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>pocilga<s n="n"/></l><r>porcatera<s n="n"/></r></p></e>
+<e a="GVA"><p><l>politonalismo<s n="n"/></l><r>politonalisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>pomposo<s n="adj"/></l><r>pompós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>portavocía<s n="n"/></l><r>càrrec<g><b/>de<b/>portaveu</g><s n="n"/></r></p></e>
+<e a="GVA"><p><l>pose<s n="n"/></l><r>posa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>postcosecha<s n="n"/></l><r>postcollita<s n="n"/></r></p></e>
+<e a="GVA"><p><l>postcubismo<s n="n"/></l><r>postcubisme<s n="n"/></r></p></e>
+<e a="GVA"><p><l>postcubista<s n="adj"/></l><r>postcubista<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>postguerra<s n="n"/></l><r>postguerra<s n="n"/></r></p></e>
+<e a="GVA"><p><l>postservicio<s n="n"/></l><r>postservei<s n="n"/></r></p></e>
+<e a="GVA"><p><l>preanunciar<s n="vblex"/></l><r>preanunciar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>preindustrial<s n="adj"/></l><r>preindustrial<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>prendimiento<s n="n"/></l><r>prendiment<s n="n"/></r></p></e>
+<e a="GVA"><p><l>presostato<s n="n"/></l><r>pressòstat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>prolegómeno<s n="n"/></l><r>prolegòmen<s n="n"/></r></p></e>
+<e a="GVA"><p><l>propioceptor<s n="n"/></l><r>propioceptor<s n="n"/></r></p></e>
+<e a="GVA"><p><l>puenting<s n="n"/></l><r>salt<b/>de<b/>pont<s n="n"/></r></p></e>
+<e a="GVA"><p><l>pulpar<s n="adj"/></l><r>pulpar<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>pulular<s n="n"/></l><r>pul·lular<s n="n"/></r></p></e>
+<e a="GVA"><p><l>pulverizador<s n="n"/></l><r>polvoritzador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>putrefacto<s n="adj"/></l><r>putrefacte<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>quebradero<g><b/>de<b/>cabeza</g><s n="n"/></l><r>maldecap<s n="n"/></r></p></e>
+<e a="GVA"><p><l>rabioso<s n="adj"/></l><r>rabiós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>rabioso<s n="n"/></l><r>rabiós<s n="n"/></r></p></e>
+<e a="GVA"><p><l>radiotóxico<s n="adj"/></l><r>radiotòxic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>randa<s n="n"/></l><r>randa<s n="n"/></r></p></e>
+<e a="GVA"><p><l>rapel<s n="n"/></l><r>ràpel<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>rápel<s n="n"/></l><r>ràpel<s n="n"/></r></p></e>
+<e a="GVA"><p><l>rasguño<s n="n"/></l><r>arrap<s n="n"/></r></p></e>
+<e a="GVA"><p><l>razonabilidad<s n="n"/></l><r>raonabilitat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>reafirmante<s n="adj"/></l><r>refermant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>Réaumur<s n="np"/></l><r>Réaumur<s n="np"/></r></p></e>
+<e a="GVA"><p><l>reavivar<s n="vblex"/></l><r>revifar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>recapacitar<s n="vblex"/></l><r>recapacitar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>reconfortar<s n="vblex"/></l><r>reconfortar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>reinante<s n="adj"/></l><r>regnant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>reintroducir<s n="vblex"/></l><r>reintroduir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>relé<s n="n"/></l><r>relé<s n="n"/></r></p></e>
+<e a="GVA"><p><l>rellenable<s n="adj"/></l><r>emplenable<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>remedar<s n="vblex"/></l><r>estrafer<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>removible<s n="adj"/></l><r>amobible<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>remozar<s n="vblex"/></l><r>restaurar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>remplazar<s n="vblex"/></l><r>reemplaçar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>repentizar<s n="vblex"/></l><r>improvisar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>reponedor<s n="adj"/></l><r>reposador<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>reprender<s n="vblex"/></l><r>reprendre<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>reprendido<s n="adj"/></l><r>représ<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>reprimenda<s n="n"/></l><r>reprimenda<s n="n"/></r></p></e>
+<e a="GVA"><p><l>restaurador<s n="n"/></l><r>restaurador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>restaurador<s n="adj"/></l><r>restaurador<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>retermalización<s n="n"/></l><r>regeneració<s n="n"/></r></p></e>
+<e a="GVA"><p><l>retroexcavadora<s n="n"/></l><r>retroexcavadora<s n="n"/></r></p></e>
+<e a="GVA"><p><l>retrotraer<s n="n"/></l><r>retrotaure<s n="n"/></r></p></e>
+<e a="GVA"><p><l>retroviral<s n="n"/></l><r>retroviral<s n="n"/></r></p></e>
+<e a="GVA"><p><l>reverberante<s n="adj"/></l><r>reverberant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>revolotear<s n="vblex"/></l><r>voletejar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>rezumar<s n="vblex"/></l><r>traspuar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>ricino<s n="n"/></l><r>ricí<s n="n"/></r></p></e>
+<e a="GVA"><p><l>rifar<s n="n"/></l><r>rifar<s n="n"/></r></p></e>
+<e a="GVA"><p><l>risotada<s n="n"/></l><r>riallada<s n="n"/></r></p></e>
+<e a="GVA"><p><l>rivalizar<s n="vblex"/></l><r>rivalitzar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>rodaballo<s n="n"/></l><r>rèmol<s n="n"/></r></p></e>
+<e a="GVA"><p><l>rompimiento<s n="n"/></l><r>trencament<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>rompimiento<s n="n"/></l><r>rompiment<s n="n"/></r></p></e>
+<e a="GVA"><p><l>rumiar<s n="vblex"/></l><r>remugar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>rumorear<s n="vblex"/></l><r>rumorejar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>sabelotodo<s n="n"/></l><r>setciències<s n="n"/></r></p></e>
+<e a="GVA"><p><l>salitre<s n="n"/></l><r>salnitre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>salmorejo<s n="n"/></l><r>salmorejo<s n="n"/></r></p></e>
+<e a="GVA"><p><l>salvapantalla<s n="n"/></l><r>estalvi<g><b/>de<b/>pantalla</g><s n="n"/></r></p></e>
+<e a="GVA"><p><l>semidesnudo<s n="adj"/></l><r>seminu<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>semiseco<s n="adj"/></l><r>semisec<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>sentadilla<s n="n"/><s n="f"/></l><r>esquat<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>serba<s n="n"/></l><r>serva<s n="n"/></r></p></e>
+<e a="GVA"><p><l>serpentear<s n="vblex"/></l><r>serpentejar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>servoaccionamiento<s n="n"/></l><r>servoaccionament<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>sexo<b/>virtual<s n="n"/></l><r>sexe<b/>virtual<s n="n"/></r></p></e>
+<e a="GVA"><p><l>shakesperiano<s n="adj"/></l><r>shakesperià<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>sisa<s n="n"/></l><r>cisa<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>snowboarding<s n="n"/></l><r>surf<b/>de<b/>neu<s n="n"/></r></p></e>
+<e a="GVA"><p><l>sobrevalorar<s n="vblex"/></l><r>sobrevalorar<s n="vblex"/></r></p></e>
+<e r="LR" a="GVA"><p><l>socio-cultural<s n="adj"/></l><r>sociocultural<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>solapar<s n="vblex"/></l><r>solapar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>soliloquio<s n="n"/></l><r>soliloqui<s n="n"/></r></p></e>
+<e a="GVA"><p><l>sonante<s n="adj"/></l><r>sonant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>soñoliento<s n="n"/></l><r>somnolent<s n="n"/></r></p></e>
+<e a="GVA"><p><l>subdirección<s n="n"/></l><r>subdirecció<s n="n"/></r></p></e>
+<e a="GVA"><p><l>subdirector<s n="n"/></l><r>subdirector<s n="n"/></r></p></e>
+<e a="GVA"><p><l>sublimidad<s n="n"/></l><r>sublimitat<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>subsanable<s n="adj"/></l><r>corregible<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>subsede<s n="n"/></l><r>subseu<s n="n"/></r></p></e>
+<e a="GVA"><p><l>substituir<s n="vblex"/></l><r>substituir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>subvertir<s n="vblex"/></l><r>subvertir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>superintendente<s n="n"/></l><r>superintendent<s n="n"/></r></p></e>
+<e a="GVA"><p><l>superyó<s n="n"/></l><r>superjó<s n="n"/></r></p></e>
+<e a="GVA"><p><l>suplementación<s n="n"/></l><r>suplementació<s n="n"/></r></p></e>
+<e a="GVA"><p><l>sura<s n="n"/></l><r>sura<s n="n"/></r></p></e>
+<e a="GVA"><p><l>suricata<s n="n"/></l><r>suricata<s n="n"/></r></p></e>
+<e a="GVA"><p><l>sudoriental<s n="adj"/></l><r>sud-oriental<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>suroriental<s n="adj"/></l><r>sud-oriental<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>sustento<s n="n"/></l><r>manteniment<s n="n"/></r></p></e>
+<e a="GVA"><p><l>tabernáculo<s n="n"/></l><r>tabernacle<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>tablita<s n="n"/></l><r>tauleta<s n="n"/></r></p></e>
+<e a="GVA"><p><l>tapiar<s n="vblex"/></l><r>tapiar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>tapizante<s n="adj"/></l><r>entapissant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>tatsoi<s n="n"/></l><r>tatsoi<s n="n"/></r></p></e>
+<e a="GVA"><p><l>telemedida<s n="n"/></l><r>telemesura<s n="n"/></r></p></e>
+<e a="GVA"><p><l>telurómetro<s n="n"/></l><r>tel·luròmetre<s n="n"/></r></p></e>
+<e a="GVA"><p><l>teorizar<s n="vblex"/></l><r>teoritzar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>termobalanza<s n="n"/></l><r>termobalança<s n="n"/></r></p></e>
+<e a="GVA"><p><l>termográfico<s n="adj"/></l><r>termogràfic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>terroso<s n="adj"/></l><r>terrós<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>terso<s n="n"/></l><r>llis<s n="n"/></r></p></e>
+<e a="GVA"><p><l>testamentario<s n="adj"/></l><r>testamentari<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>timorato<s n="adj"/></l><r>timorat<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>tiroide<s n="adj"/></l><r>tiroide<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>tirolina<s n="n"/></l><r>tirolina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>tixotrópico<s n="adj"/></l><r>tixòtrop<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>tondo<s n="n"/></l><r>tondo<s n="n"/></r></p></e>
+<e a="GVA"><p><l>tonificante<s n="adj"/></l><r>tonificant<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>tormentoso<s n="adj"/></l><r>tempestuós<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>totémico<s n="adj"/></l><r>totèmic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>tozudo<s n="adj"/></l><r>tossut<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>tractor<s n="adj"/></l><r>tractor<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>transcender<s n="vblex"/></l><r>transcendir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>transdisciplinariedad<s n="n"/></l><r>transdisciplinarietat<s n="n"/></r></p></e>
+<e a="GVA"><p><l>transfiguració<s n="n"/></l><r>transfiguració<s n="n"/></r></p></e>
+<e a="GVA"><p><l>transfigurar<s n="vblex"/></l><r>transfigurar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>transgredir<s n="vblex"/></l><r>transgredir<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>transigir<s n="vblex"/></l><r>transigir<s n="vblex"/></r></p></e>
+<e r="LR" a="GVA"><p><l>translucir<s n="n"/></l><r>traslluir<s n="n"/></r></p></e>
+<e a="GVA"><p><l>transmedia<s n="adj"/></l><r>transmèdia<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>transterminancia<s n="n"/></l><r>transterminància<s n="n"/></r></p></e>
+<e a="GVA"><p><l>transterminante<s n="adj"/></l><r>trasterminant<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>transtermitancia<s n="n"/></l><r>transterminància<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>trasfigurar<s n="vblex"/></l><r>transfigurar<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>trasgresión<s n="n"/></l><r>transgressió<s n="n"/></r></p></e>
+<e a="GVA"><p><l>traslucir<s n="n"/></l><r>traslluir<s n="n"/></r></p></e>
+<e a="GVA"><p><l>travesura<s n="n"/></l><r>entremaliadura<s n="n"/></r></p></e>
+<e a="GVA"><p><l>triaje<s n="n"/></l><r>triatge<s n="n"/></r></p></e>
+<e a="GVA"><p><l>trigeneración<s n="n"/></l><r>trigeneració<s n="n"/></r></p></e>
+<e a="GVA"><p><l>triticale<s n="n"/></l><r>triticale<s n="n"/></r></p></e>
+<e a="GVA"><p><l>triturar<s n="vblex"/></l><r>triturar<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>arco<b/>iris<s n="n"/></l><r>arc<b/>iris<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>arcoiris<s n="n"/></l><r>arc<b/>iris<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>arco<b/>iris<s n="n"/></l><r>arc<b/>de<b/>Sant<b/>Martí<s n="n"/></r></p></e>
+<e r="RL" a="GVA"><p><l>arco<b/>iris<s n="n"/></l><r>arc<b/>del<b/>cel<s n="n"/></r></p></e>
+<e a="GVA"><p><l>musicógrafo<s n="n"/></l><r>musicògraf<s n="n"/></r></p></e>
 </section>
 
   <section  id="final" type="standard">
