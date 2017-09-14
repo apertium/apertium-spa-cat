@@ -5192,9 +5192,9 @@
 <e>       <p><l>aparecer<s n="vblex"/></l>        <r>aparèixer<s n="vblex"/></r></p></e>
 <e>       <i>apartar<s n="vblex"/></i></e>
 <e>       <p><l>apasionar<s n="vblex"/></l>       <r>apassionar<s n="vblex"/></r></p></e>
-<e r="RL"><p><l>apetecer<s n="vblex"/></l>        <r>abellir<s n="vblex"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>apetecer<s n="vblex"/></l>        <r>abellir<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>apetecer<s n="vblex"/></l>        <r>apetir<s n="vblex"/></r></p></e>
-<e>       <p><l>apetecer<s n="vblex"/></l>        <r>venir<g><b/>de<b/>gust</g><s n="vblex"/></r></p></e>
+<e vr="cat">      <p><l>apetecer<s n="vblex"/></l>        <r>venir<g><b/>de<b/>gust</g><s n="vblex"/></r></p></e>
 <e>       <p><l>aplastar<s n="vblex"/></l>        <r>aixafar<s n="vblex"/></r></p></e>
 <e>       <p><l>chafar<s n="vblex"/></l>          <r>xafar<s n="vblex"/></r></p></e>
 <e>       <i>aplaudir<s n="vblex"/></i></e>
@@ -5484,8 +5484,8 @@
 <e>       <p><l>cubrir<s n="vblex"/></l>          <r>cobrir<s n="vblex"/></r></p></e>
 <e>       <i>cuidar<s n="vblex"/></i></e>
 <e>       <i>culminar<s n="vblex"/></i></e>
-<e>       <p><l>cultivar<s n="vblex"/></l>        <r>conrear<s n="vblex"/></r></p></e>
-<e r="RL"><i>cultivar<s n="vblex"/></i></e>
+<e vr="cat">       <p><l>cultivar<s n="vblex"/></l>        <r>conrear<s n="vblex"/></r></p></e>
+<e vr="val_gva val_uni">       <p><l>cultivar<s n="vblex"/></l>        <r>cultivar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>cumplir<s n="vblex"/></l>         <r>acomplir<s n="vblex"/></r></p></e>
 <e>       <p><l>cumplir<s n="vblex"/></l>         <r>complir<s n="vblex"/></r></p></e>
 <e>       <p><l>curar<s n="vblex"/></l>           <r>guarir<s n="vblex"/></r></p></e>
@@ -11683,7 +11683,8 @@
 <e>       <i>Pedrós<s n="np"/></i></e>
 <e>       <p><l>Pegaso<s n="np"/></l>             <r>Pegàs<s n="np"/></r></p></e>
 <e>       <p><l>parche<s n="n"/></l>              <r>pegat<s n="n"/></r></p></e>
-<e>       <p><l>cáscara<s n="n"/></l>             <r>pela<s n="n"/></r></p></e>
+<e vr="cat">       <p><l>cáscara<s n="n"/></l>             <r>pela<s n="n"/></r></p></e>
+<e r="LR" vr="val_gva val_uni">       <p><l>cáscara<s n="n"/></l>             <r>closca<s n="n"/></r></p></e>
 <e>       <i>Pelayo<s n="np"/></i></e>
 <e>       <p><l>peregrino<s n="adj"/></l>         <r>pelegrí<s n="adj"/></r></p></e>
 <e>       <p><l>peregrino<s n="n"/></l>           <r>pelegrí<s n="n"/></r></p></e>
@@ -34601,7 +34602,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>alameda<s n="n"/></l>             <r>albereda<s n="n"/></r></p></e>
 <e r="LR">       <p><l>álamo<b/>negro<s n="n"/></l>      <r>pollancre<s n="n"/></r></p></e>
 <e>       <p><l>albada<s n="n"/></l>              <r>alborada<s n="n"/></r></p></e>
-<e>       <p><l>albahaca<s n="n"/></l>            <r>alfàbrega<s n="n"/></r></p></e>
+<e vr="cat">       <p><l>albahaca<s n="n"/></l>            <r>alfàbrega<s n="n"/></r></p></e>
 <e>       <p><l>albañal<s n="n"/></l>             <r>clavegueró<s n="n"/></r></p></e>
 <e>       <p><l>albañilería<s n="n"/></l><r>obra<g><b/>de<b/>paleta</g><s n="n"/></r></p></e>
 <e>       <p><l>albarán<s n="n"/></l>             <r>albarà<s n="n"/></r></p></e>
@@ -37572,7 +37573,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>águila<s n="n"/></l>              <r>àliga<s n="n"/></r></p></e>
 <e r="RL"><p><l>albacea<s n="n"/><s n="mf"/></l>  <r>marmessor<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>albacea<s n="n"/><s n="mf"/></l>  <r>marmessor<s n="n"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>albahaca<s n="n"/></l>            <r>alfàbega<s n="n"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>albahaca<s n="n"/></l>            <r>alfàbega<s n="n"/></r></p></e>
 <e r="RL"><p><l>albigense<s n="n"/><s n="mf"/></l><r>albigès<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>albigense<s n="n"/><s n="mf"/></l><r>albigès<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>alcaparra<s n="n"/></l>           <r>tàpena<s n="n"/></r></p></e>
