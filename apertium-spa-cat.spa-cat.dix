@@ -33838,7 +33838,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>acunar<s n="vblex"/></l>          <r>bressolar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>agarrotar<s n="vblex"/></l>       <r>engarrotar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>alborozar<s n="vblex"/></l>       <r>alegrar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>amerizar<s n="vblex"/></l>        <r>amarar<s n="vblex"/></r></p></e>
+<e r="LR" vr="cat"><p><l>amerizar<s n="vblex"/></l>        <r>amarar<s n="vblex"/></r></p></e>
+<e r="LR" vr="val_gva val_uni"><p><l>amerizar<s n="vblex"/></l>        <r>amerar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>apedazar<s n="vblex"/></l>        <r>apedaçar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>apercibir<s n="vblex"/></l>       <r>advertir<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>aporrear<s n="vblex"/></l>        <r>bastonejar<s n="vblex"/></r></p></e>
@@ -44951,6 +44952,30 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>parroquiano<s n="adj"/></l><r>parroquià<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>particularización<s n="n"/></l><r>particularització<s n="n"/></r></p></e>
 <e a="GVA"><p><l>particularizar<s n="n"/></l><r>particularitzar<s n="n"/></r></p></e>
+
+<e r="LR"><p><l>abrebotellas<s n="n"/><s n="m"/><s n="sp"/></l><r>obridor<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>abrebotellas<s n="n"/><s n="m"/><s n="sp"/></l><r>obridor<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>abrebotellas<s n="n"/><s n="m"/><s n="sp"/></l><r>obridor<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="GVA"><p><l>ad<b/>referendum<s n="adv"/></l><r>ad<b/>referendum<s n="adv"/></r></p></e>
+<e a="GVA"><p><l>amazónico<s n="adj"/></l><r>amazònic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>andrajo<s n="n"/></l><r>parrac<s n="n"/></r></p></e>
+<e a="GVA"><p><l>arial<s n="n"/></l><r>arial<s n="n"/></r></p></e>
+<e a="GVA"><p><l>artillero<s n="n"/></l><r>artiller<s n="n"/></r></p></e>
+<e a="GVA"><p><l>astrobiológico<s n="adj"/></l><r>astrobiològic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>atópico<s n="adj"/></l><r>atòpic<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>audioprotésico<s n="n"/></l><r>audioprotètic<s n="n"/></r></p></e>
+<e a="GVA"><p><l>autoconcepto<s n="n"/></l><r>autoconcepte<s n="n"/></r></p></e>
+<e a="GVA"><p><l>avituallamiento<s n="n"/></l><r>avituallament<s n="n"/></r></p></e>
+<e a="GVA"><p><l>basicranial<s n="adj"/></l><r>basicranial<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>biorreacción<s n="n"/></l><r>bioreacció<s n="n"/></r></p></e>
+<e a="GVA"><p><l>biorreactor<s n="n"/></l><r>bioreactor<s n="n"/></r></p></e>
+<e a="GVA"><p><l>bobal<s n="adj"/></l><r>boval<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>bulldog<s n="n"/></l><r>buldog<s n="n"/></r></p></e>
+<e a="GVA"><p><l>cafetera<s n="n"/></l><r>cafetera<s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>canibalización<s n="n"/><s n="f"/></l><r>canibalisme<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>carabina<s n="n"/></l><r>carabina<s n="n"/></r></p></e>
+
+
 <e r="LR" a="GVA"><p><l>patrocinio<b/>compartido<s n="n"/></l><r>copatrocini<s n="n"/></r></p></e>
 <e a="GVA"><p><l>pavonear<s n="vblex"/></l><r>gallejar<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>pecador<s n="n"/></l><r>pecador<s n="n"/></r></p></e>
