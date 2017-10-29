@@ -69,8 +69,8 @@
       <program name="lt-proc">
         <file name="spa-cat.automorf.bin"/>
       </program>
-	  <program name="lrx-proc $2">
-        <file name="spa.lrx.bin"/>
+	  <program name="cg-proc -w">
+        <file name="spa-cat.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="spa-cat.prob"/>
@@ -218,6 +218,9 @@
       <program name="lt-proc">
         <file name="cat-spa.automorf.bin"/>
       </program>
+      <program name="cg-proc -w">
+        <file name="cat-spa.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="cat-spa.prob"/>
       </program>
@@ -242,6 +245,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="cat-spa.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="cat-spa.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="cat-spa.prob"/>
@@ -268,10 +274,24 @@
     </pipeline>
   </mode>
 
+  <mode name="cat-spa-disam" install="no">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="cat-spa.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+         <file name="cat-spa.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="cat-spa-tagger" install="no">
     <pipeline>
       <program name="lt-proc">
         <file name="cat-spa.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+         <file name="cat-spa.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="cat-spa.prob"/>
@@ -284,6 +304,9 @@
       <program name="lt-proc">
         <file name="cat-spa.automorf.bin"/>
       </program>
+      <program name="cg-proc -w">
+         <file name="cat-spa.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="cat-spa.prob"/>
       </program>
@@ -295,6 +318,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="cat-spa.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+         <file name="cat-spa.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="cat-spa.prob"/>
@@ -310,6 +336,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="cat-spa.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+         <file name="cat-spa.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="cat-spa.prob"/>

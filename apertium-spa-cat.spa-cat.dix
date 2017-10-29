@@ -616,7 +616,6 @@
 <e>       <p><l>hábil<s n="adj"/></l>             <r>hàbil<s n="adj"/></r></p></e>
 <e r="LR"><p><l>habilidoso<s n="adj"/><s n="m"/></l><r>hàbil<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>habilidoso<s n="adj"/><s n="f"/></l><r>hàbil<s n="adj"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>habilidoso<s n="adj"/><s n="GD"/></l><r>hàbil<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <i>habitual<s n="adj"/></i></e>
 <e>       <p><l>hambriento<s n="adj"/></l>        <r>famolenc<s n="adj"/></r></p></e>
 <e>       <p><l>harto<s n="adj"/></l>             <r>fart<s n="adj"/></r></p></e>
@@ -18840,7 +18839,7 @@
 <e a="prompsit2adn"><p><l>Olmert<s n="np"/></l>   <r>Olmert<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Osaka<s n="np"/></l>    <r>Osaka<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Kate<s n="np"/></l>     <r>Kate<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Abás<s n="np"/></l>     <r>Abás<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Abás<s n="np"/></l>     <r>Abbas<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Cibeles<s n="np"/></l>  <r>Cibeles<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Musharraf<s n="np"/></l><r>Musharraf<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Lewis<s n="np"/></l>    <r>Lewis<s n="np"/></r></p></e>
@@ -19374,7 +19373,7 @@
 <e a="prompsit2adn"><p><l>Arona<s n="np"/></l>    <r>Arona<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Areces<s n="np"/></l>   <r>Areces<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Aoyama<s n="np"/></l>   <r>Aoyama<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Anbar<s n="np"/></l>    <r>Anbar<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Anbar<s n="np"/></l>    <r>Al-Anbar<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Amurrio<s n="np"/></l>  <r>Amurrio<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Alierta<s n="np"/></l>  <r>Alierta<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Abdullah<s n="np"/></l> <r>Abdullah<s n="np"/></r></p></e>
@@ -26459,7 +26458,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>adenina<s n="n"/></l>   <r>adenina<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>termosfera<s n="n"/></l><r>termosfera<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>mesosfera<s n="n"/></l> <r>mesosfera<s n="n"/></r></p></e>
-<e a="prompsit2uoc" vr="cat"><p><l>bellota<s n="n"/><s n="f"/></l>   <r>gla<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit2uoc" vr="cat"><p><l>bellota<s n="n"/></l><r>gla<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>genciana<s n="n"/></l>  <r>genciana<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>cromatina<s n="n"/></l> <r>cromatina<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>aorta<s n="n"/></l>     <r>aorta<s n="n"/></r></p></e>
@@ -38072,8 +38071,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Alemañ<s n="np"/></i></e>
 <e>       <i>Alenda<s n="np"/></i></e>
 <e>       <i>Alepuz<s n="np"/></i></e>
-<e>       <i>Ales<s n="np"/></i></e>
-<e>       <i>Alés<s n="np"/></i></e>
 <e>       <i>Aletea<s n="np"/></i></e>
 <e>       <i>Aleu<s n="np"/></i></e>
 <e>       <i>Alfafara<s n="np"/></i></e>
@@ -40779,7 +40776,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Sarroca<b/>de<b/>Lleida<s n="np"/></i></e>
 <e>       <i>Sarroca<b/>de<b/>Segre<s n="np"/></i></e>
 <e>       <i>Sartorius<s n="np"/></i></e>
-<e>       <i>S.A.<s n="np"/><s n="al"/></i></e>
+<e r="RL"><i>S.A.<s n="np"/><s n="al"/></i></e>
+<e>       <p><l>S.A.<s n="np"/><s n="al"/></l><r>SA<s n="np"/><s n="al"/></r></p></e>
 <e>       <i>Sauquillo<s n="np"/></i></e>
 <e>       <i>Saus<s n="np"/></i></e>
 <e>       <i>Savallà<b/>del<b/>Comtat<s n="np"/></i></e>
