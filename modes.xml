@@ -129,12 +129,13 @@
     </pipeline>
   </mode>
 
-  <mode name="spa-cat-disamb" install="no">
+  <mode name="spa-cat-disam" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="spa-cat.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
         <file name="spa-cat.rlx.bin"/>
       </program>
     </pipeline>
@@ -276,11 +277,12 @@
 
   <mode name="cat-spa-disam" install="no">
     <pipeline>
-      <program name="lt-proc">
+      <program name="lt-proc -w">
         <file name="cat-spa.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
-         <file name="cat-spa.rlx.bin"/>
+      <program name="cg-conv -a -l"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="cat-spa.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
