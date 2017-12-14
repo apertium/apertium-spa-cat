@@ -2056,8 +2056,8 @@
 <e>       <p><l>caja<s n="n"/></l>                <r>caixa<s n="n"/></r></p></e>
 <e>       <p><l>cajón<s n="n"/></l>               <r>calaix<s n="n"/></r></p></e>
 <e>       <i>calavera<s n="n"/></i></e>
-<e r="RL"><p><l>calcetín<s n="n"/></l>            <r>calcetí<s n="n"/></r></p></e>
-<e>       <p><l>calcetín<s n="n"/></l>            <r>mitjó<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>calcetín<s n="n"/></l>            <r>calcetí<s n="n"/></r></p></e>
+<e vr="cat">       <p><l>calcetín<s n="n"/></l>            <r>mitjó<s n="n"/></r></p></e>
 <e>       <p><l>cálculo<s n="n"/></l>             <r>càlcul<s n="n"/></r></p></e>
 <e>       <p><l>calidad<s n="n"/></l>             <r>qualitat<s n="n"/></r></p></e>
 <e>       <p><l>calle<s n="n"/><s n="f"/></l>     <r>carrer<s n="n"/><s n="m"/></r></p></e>
@@ -3711,7 +3711,8 @@
 <e>       <p><l>paseo<s n="n"/></l>               <r>passeig<s n="n"/></r></p></e>
 <e srl="pasillo D"><p><l>pasillo<s n="n"/></l>    <r>passadís<s n="n"/></r></p></e>
 <e srl="pasadizo"><p><l>pasadizo<s n="n"/></l>    <r>passadís<s n="n"/></r></p></e>
-<e>       <p><l>pasión<s n="n"/></l>              <r>passió<s n="n"/></r></p></e>
+<e>       <p><l>paseo<s n="n"/></l>               <r>passeig<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>pasillo<s n="n"/></l>              <r>corredor<s n="n"/></r></p></e>
 <e>       <p><l>pasividad<s n="n"/></l>           <r>passivitat<s n="n"/></r></p></e>
 <e>       <p><l>paso<s n="n"/><s n="m"/></l>      <r>pas<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>pasta<s n="n"/></i></e>
@@ -5194,7 +5195,8 @@
 <e vr="val_gva val_uni"><p><l>apetecer<s n="vblex"/></l>        <r>abellir<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>apetecer<s n="vblex"/></l>        <r>apetir<s n="vblex"/></r></p></e>
 <e vr="cat">      <p><l>apetecer<s n="vblex"/></l>        <r>venir<g><b/>de<b/>gust</g><s n="vblex"/></r></p></e>
-<e>       <p><l>aplastar<s n="vblex"/></l>        <r>aixafar<s n="vblex"/></r></p></e>
+<e vr="cat">       <p><l>aplastar<s n="vblex"/></l>        <r>aixafar<s n="vblex"/></r></p></e>
+<e vr="val_gva val_uni">       <p><l>aplastar<s n="vblex"/></l>        <r>esclafar<s n="vblex"/></r></p></e>
 <e>       <p><l>chafar<s n="vblex"/></l>          <r>xafar<s n="vblex"/></r></p></e>
 <e>       <i>aplaudir<s n="vblex"/></i></e>
 <e>       <p><l>aplazar<s n="vblex"/></l>         <r>ajornar<s n="vblex"/></r></p></e>
@@ -5801,7 +5803,9 @@
 <e>       <p><l>humedecer<s n="vblex"/></l>       <r>humitejar<s n="vblex"/></r></p></e>
 <e>       <p><l>humillar<s n="vblex"/></l>        <r>humiliar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>hundir<s n="vblex"/></l>          <r>afonar<s n="vblex"/></r></p></e>
-<e>       <p><l>hundir<s n="vblex"/></l>          <r>enfonsar<s n="vblex"/></r></p></e>
+<e vr="cat">       <p><l>hundir<s n="vblex"/></l>          <r>enfonsar<s n="vblex"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>hundir<s n="vblex"/></l>          <r>afonar<s n="vblex"/></r></p></e>
+
 <e r="LR"><p><l>venir<g><b/>abajo</g><s n="vblex"/></l><r>enfonsar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>hundir<s n="vblex"/></l>          <r>ensorrar<s n="vblex"/></r></p></e>
 <e>       <p><l>hurgar<s n="vblex"/></l>          <r>furgar<s n="vblex"/></r></p></e>
@@ -7397,7 +7401,8 @@
 <e>       <i>Briz<s n="np"/></i></e>
 <e>       <p><l>bordar<s n="vblex"/></l>          <r>brodar<s n="vblex"/></r></p></e>
 <e>       <p><l>bordado<s n="n"/></l>             <r>brodat<s n="n"/></r></p></e>
-<e>       <p><l>caldo<s n="n"/></l>               <r>brou<s n="n"/></r></p></e>
+<e vr="cat">       <p><l>caldo<s n="n"/></l>               <r>brou<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>caldo<s n="n"/></l>               <r>caldo<s n="n"/></r></p></e>
 <e>       <i>Bruguera<s n="np"/></i></e>
 <e>       <p><l>brújula<s n="n"/></l>             <r>brúixola<s n="n"/></r></p></e>
 <e>       <i>Bruno<s n="np"/></i></e>
@@ -7413,7 +7418,8 @@
 <e>       <i>Buda<s n="np"/></i></e>
 <e>       <p><l>budismo<s n="n"/></l>             <r>budisme<s n="n"/></r></p></e>
 <e>       <i>bufanda<s n="n"/></i></e>
-<e>       <p><l>bofetada<s n="n"/></l>            <r>bufetada<s n="n"/></r></p></e>
+<e vr="cat">       <p><l>bofetada<s n="n"/></l>            <r>bufetada<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>bofetada<s n="n"/></l>            <r>galtada<s n="n"/></r></p></e>
 <e>       <p><l>bufete<s n="n"/></l>              <r>bufet<s n="n"/></r></p></e>
 <e>       <p><l>lavandería<s n="n"/></l>          <r>bugaderia<s n="n"/></r></p></e>
 <e>       <i>Bugs<s n="np"/></i></e>
@@ -8171,6 +8177,7 @@
 <e>       <p><l>criminalizar<s n="vblex"/></l>    <r>criminalitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>crispación<s n="n"/></l>          <r>crispació<s n="n"/></r></p></e>
 <e>       <p><l>palomita<s n="n"/></l>            <r>crispeta<s n="n"/></r></p></e>
+<e r="RL" vr="val_gva val_uni" a="GVA">       <p><l>palomita<s n="n"/></l>            <r>rosa<s n="n"/></r></p></e>
 <e>       <i>Cristian<s n="np"/></i></e>
 <e>       <i>Cristina<s n="np"/></i></e>
 <e>       <p><l>Cristo<s n="np"/></l>             <r>Crist<s n="np"/></r></p></e>
@@ -8831,6 +8838,7 @@
 <e r="LR"><p><l>encendedor<s n="n"/></l>          <r>encenedor<s n="n"/></r></p></e>
 <e>       <p><l>mechero<s n="n"/></l>             <r>encenedor<s n="n"/></r></p></e>
 <e>       <p><l>lechuga<s n="n"/><s n="f"/></l>   <r>enciam<s n="n"/><s n="m"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>lechuga<s n="n"/><s n="f"/></l>   <r>encisam<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>enclave<s n="n"/></l>             <r>enclavament<s n="n"/></r></p></e>
 <e>       <p><l>yunque<s n="n"/><s n="m"/></l>    <r>enclusa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>encubrir<s n="vblex"/></l>        <r>encobrir<s n="vblex"/></r></p></e>
@@ -10623,8 +10631,10 @@
 <e>       <p><l>ratero<s n="n"/></l>              <r>lladregot<s n="n"/></r></p></e>
 <e>       <p><l>langostino<s n="n"/></l>          <r>llagostí<s n="n"/></r></p></e>
 <e>       <i>Llamazares<s n="np"/></i></e>
-<e r="LR"><p><l>chuchería<s n="n"/></l>           <r>llaminadura<s n="n"/></r></p></e>
-<e>       <p><l>golosina<s n="n"/></l>            <r>llaminadura<s n="n"/></r></p></e>
+<e r="LR" vr="cat"><p><l>chuchería<s n="n"/></l>           <r>llaminadura<s n="n"/></r></p></e>
+<e vr="cat">       <p><l>golosina<s n="n"/></l>            <r>llaminadura<s n="n"/></r></p></e>
+<e r="LR" vr="val_gva val_uni" a="GVA"><p><l>chuchería<s n="n"/></l>           <r>llepolia<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>golosina<s n="n"/></l>            <r>llepolia<s n="n"/></r></p></e>
 <e>       <p><l>lanzadera<s n="n"/></l>           <r>llançadora<s n="n"/></r></p></e>
 <e>       <p><l>lanzador<s n="n"/></l>            <r>llançador<s n="n"/></r></p></e>
 <e>       <p><l>linterna<s n="n"/></l>            <r>llanterna<s n="n"/></r></p></e>
@@ -10857,6 +10867,8 @@
 <e>       <p><l>albóndiga<s n="n"/></l>           <r>mandonguilla<s n="n"/></r></p></e>
 <e>       <p><l>pereza<s n="n"/></l>              <r>mandra<s n="n"/></r></p></e>
 <e>       <p><l>perezoso<s n="adj"/></l>          <r>mandrós<s n="adj"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>pereza<s n="n"/></l>              <r>peresa<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>perezoso<s n="adj"/></l>          <r>peresós<s n="adj"/></r></p></e>
 <e>       <p><l>mango<s n="n"/></l>               <r>mànec<s n="n"/></r></p></e>
 <e r="LR"><p><l>mango¹<s n="n"/></l>              <r>mango<s n="n"/></r></p></e>
 <e r="RL"><p><l>mango<s n="n"/></l>               <r>mango<s n="n"/></r></p></e>
@@ -16523,6 +16535,7 @@
 <e a="prompsit2adn"><p><l>pirómano<s n="adj"/></l><r>piròman<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>pistacho<s n="n"/></l>  <r>festuc<s n="n"/></r></p></e>
 <e r="RL" a="prompsit2adn"><p><l>pistacho<s n="n"/></l><r>pistatxo<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>pistacho<s n="n"/></l>  <r>pistatxo<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>pistolero<s n="n"/></l> <r>pistoler<s n="n"/></r></p></e>
 <e a="prompsit2adn" r="LR"><p><l>pito<s n="n"/></l>      <r>xiulet<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>pizarra<s n="n"/></l>   <r>pissarra<s n="n"/></r></p></e>
@@ -25071,7 +25084,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>carbohidrato<s n="n"/></l><r>carbohidrat<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>manglar<s n="n"/></l>   <r>manglar<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>germanio<s n="n"/></l>  <r>germani<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>chopo<s n="n"/></l>     <r>pollancre<s n="n"/></r></p></e>
+<e vr="cat" a="prompsit2uoc"><p><l>chopo<s n="n"/></l>     <r>pollancre<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>chopo<s n="n"/></l>     <r>xop<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>plutonio<s n="n"/></l>  <r>plutoni<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>leucocito<s n="n"/></l> <r>leucòcit<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>macho<b/>cabrío<s n="n"/></l><r>boc<s n="n"/></r></p></e>
@@ -25762,7 +25776,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR" a="prompsit2uoc"><p><l>hioides<s n="n"/><s n="m"/><s n="sp"/></l><r>hioide<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
 <e r="RL" a="prompsit2uoc"><p><l>hioides<s n="n"/><s n="m"/><s n="sp"/></l><r>hioide<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL" a="prompsit2uoc"><p><l>hioides<s n="n"/><s n="m"/><s n="sp"/></l><r>hioide<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e a="prompsit2uoc" r="RL"><p><l>hélice<s n="n"/></l>    <r>hèlice<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="RL" vr="cat"><p><l>hélice<s n="n"/></l>    <r>hèlice<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>hélice<s n="n"/></l>    <r>hèlice<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>guanaco<s n="n"/></l>   <r>guanac<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>franqueo<s n="n"/></l>  <r>franqueig<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>fondue<s n="n"/></l>    <r>fondue<s n="n"/></r></p></e>
@@ -26394,7 +26409,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL" a="prompsit2uoc"><p><l>lámpara<s n="n"/></l><r>làmpada<s n="n"/></r></p></e>
 <e r="LR" a="prompsit2uoc"><p><l>lámpada<s n="n"/></l><r>làmpada<s n="n"/></r></p></e>
 <e vr="cat" a="prompsit2uoc"><p><l>tomillo<s n="n"/><s n="m"/></l><r>farigola<s n="n"/><s n="f"/></r></p></e>
-<e a="prompsit2uoc"><p><l>helecho<s n="n"/><s n="m"/></l><r>falguera<s n="n"/><s n="f"/></r></p></e>
+<e vr="cat" a="prompsit2uoc"><p><l>helecho<s n="n"/><s n="m"/></l><r>falguera<s n="n"/><s n="f"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>helecho<s n="n"/><s n="m"/></l><r>falaguera<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2uoc"><p><l>dopamina<s n="n"/></l>  <r>dopamina<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>pandereta<s n="n"/></l> <r>pandereta<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>esmeralda<s n="n"/></l> <r>maragda<s n="n"/></r></p></e>
@@ -26587,7 +26603,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>loza<s n="n"/></l>      <r>pisa<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>horchata<s n="n"/></l>  <r>orxata<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>obsidiana<s n="n"/></l> <r>obsidiana<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>níspero<s n="n"/><s n="m"/></l><r>nespra<s n="n"/><s n="f"/></r></p></e>
+<e vr="cat" a="prompsit2uoc"><p><l>níspero<s n="n"/><s n="m"/></l><r>nespra<s n="n"/><s n="f"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>níspero<s n="n"/><s n="m"/></l><r>nispro<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>limonada<s n="n"/></l>  <r>llimonada<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>linfa<s n="n"/></l>     <r>limfa<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>hurón<s n="n"/><s n="m"/></l><r>fura<s n="n"/><s n="f"/></r></p></e>
@@ -34818,6 +34835,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>autosuficiencia<s n="n"/></l>     <r>autosuficiència<s n="n"/></r></p></e>
 <e>       <p><l>avalúo<s n="n"/></l>              <r>apreuament<s n="n"/></r></p></e>
 <e>       <p><l>avda.<s n="n"/></l>               <r>av.<s n="n"/></r></p></e>
+<e vr="cat">       <p><l>avena<s n="n"/></l>               <r>civada<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>avena<s n="n"/></l>               <r>avena<s n="n"/></r></p></e>
 <e>       <p><l>avena<s n="n"/></l>               <r>civada<s n="n"/></r></p></e>
 <e>       <p><l>avenencia<s n="n"/><s n="f"/></l> <r>avinença<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>avidez<s n="n"/></l>              <r>avidesa<s n="n"/></r></p></e>
@@ -35124,7 +35143,10 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>chollo<s n="n"/><s n="m"/></l>    <r>ganga<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>chorro<b/>de<b/>tinta<s n="n"/></l><r>raig<b/>de<b/>tinta<s n="n"/></r></p></e>
 <e vr="cat">       <p><l>chufa<s n="n"/></l>               <r>xufla<s n="n"/></r></p></e>
-<e>       <p><l>chupete<s n="n"/></l>             <r>xumet<s n="n"/></r></p></e>
+
+<e vr="cat">       <p><l>chupete<s n="n"/></l>             <r>xumet<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>chupete<s n="n"/></l>             <r>xupló<s n="n"/></r></p></e>
+
 <e>       <p><l>chupetón<s n="n"/><s n="m"/></l>  <r>xuclada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>chupito<s n="n"/></l>             <r>xopet<s n="n"/></r></p></e>
 <e>       <p><l>churrasco<s n="n"/></l> <r>xurrasco<s n="n"/></r></p></e>
@@ -36106,6 +36128,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>lic.<s n="n"/></l>                <r>llic.<s n="n"/></r></p></e>
 <e>       <p><l>licuación<s n="n"/></l>           <r>liquació<s n="n"/></r></p></e>
 <e>       <p><l>limonero<s n="n"/></l>            <r>llimoner<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>limonero<s n="n"/></l>            <r>llimera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>limpiacristales<s n="n"/></l>     <r>netejavidres<s n="n"/></r></p></e>
 <e>       <p><l>linaje<s n="n"/></l>              <r>llinatge<s n="n"/></r></p></e>
 <e>       <p><l>linde<s n="n"/><s n="m"/></l>     <r>boga<s n="n"/><s n="f"/></r></p></e>
@@ -36163,6 +36186,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>mal<b/>humor<s n="n"/></l>            <r>mal<b/>humor<s n="n"/></r></p></e>
 <e r="LR">       <p><l>malhumor<s n="n"/></l>            <r>mal<b/>humor<s n="n"/></r></p></e>
 <e>       <p><l>manantial<s n="n"/><s n="m"/></l> <r>deu<s n="n"/><s n="f"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>manantial<s n="n"/><s n="m"/></l> <r>brollador<s n="n"/></r></p></e>
 <e>       <p><l>mancomunidad<s n="n"/></l>        <r>mancomunitat<s n="n"/></r></p></e>
 <e>       <p><l>manco<s n="n"/></l>               <r>manxol<s n="n"/></r></p></e>
 <e>       <p><l>mandoble<s n="n"/><s n="m"/></l>  <r>espasada<s n="n"/><s n="f"/></r></p></e>
@@ -37450,6 +37474,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>sacapuntas<s n="n"/><s n="m"/><s n="sp"/></l><r>maquineta<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>salivajo<s n="n"/><s n="m"/></l>  <r>salivada<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>llagosta<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>saltamartí<s n="n"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>saque<s n="n"/></l>               <r>servei<s n="n"/></r></p></e>
 <e r="LR"><p><l>sarasa<s n="n"/><s n="m"/></l>    <r>marieta<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>sdad.<s n="n"/></l>               <r>soc.<s n="n"/></r></p></e>
@@ -42537,6 +42562,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL" a="eleka">   <p><l>secante<s n="adj"/></l>            <r>secant<s n="adj"/></r></p></e>
 <e r="RL" a="eleka">   <p><l>radián<s n="n"/></l>            <r>radian<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>radián<s n="n"/></l>            <r>radiant<s n="n"/></r></p></e>
+<e  vr="val_gva val_uni" a="GVA">   <p><l>radián<s n="n"/></l>            <r>radian<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>inyectividad<s n="n"/></l>            <r>injectivitat<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>Gauss<s n="np"/></l>            <r>Gauss<s n="np"/></r></p></e>
 <e a="eleka">   <p><l>antiimagen<s n="n"/></l>            <r>antiimatge<s n="n"/></r></p></e>
@@ -44746,7 +44772,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>dinamitar<s n="vblex"/></l><r>dinamitar<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>disfónico<s n="adj"/></l><r>disfònic<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>disruptivo<s n="n"/></l><r>disruptiu<s n="n"/></r></p></e>
-<e a="GVA"><p><l>distanciación<s n="n"/></l><r>distanciaciament<s n="n"/></r></p></e>
+<e a="GVA"><p><l>distanciación<s n="n"/></l><r>distanciament<s n="n"/></r></p></e>
 <e r="RL" a="GVA"><p><l>distanciación<s n="n"/></l><r>distanciació<s n="n"/></r></p></e>
 <e a="GVA"><p><l>disuasivo<s n="adj"/></l><r>dissuassiu<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>djmbe<s n="n"/></l><r>djembé<s n="n"/></r></p></e>
