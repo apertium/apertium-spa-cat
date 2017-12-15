@@ -1126,6 +1126,7 @@
 <e r="LR"><p><l>sujeto<s n="adj"/><s n="m"/><s n="pl"/></l><r>subjecte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>sujeto<s n="adj"/><s n="f"/><s n="pl"/></l><r>subjecte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>sujeto<s n="adj"/><s n="GD"/><s n="pl"/></l><r>subjecte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+
 <e>       <p><l>sumo<s n="adj"/><s n="m"/><s n="sg"/></l><r>summe<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>sumo<s n="adj"/><s n="f"/><s n="sg"/></l><r>summe<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>sumo<s n="adj"/><s n="m"/><s n="pl"/></l><r>summe<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -26178,7 +26179,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>multímetro<s n="n"/></l><r>multímetre<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>monocarril<s n="n"/></l><r>monocarril<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>matricidio<s n="n"/></l><r>matricidi<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>manguito<s n="n"/></l>  <r>maniguet<s n="n"/></r></p></e>
+<e vr="cat" a="prompsit2uoc"><p><l>manguito<s n="n"/></l>  <r>maniguet<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>manguito<s n="n"/></l>  <r>maneguet<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>líber<s n="n"/></l>     <r>líber<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>interfluvio<s n="n"/></l><r>interfluvi<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>goniómetro<s n="n"/></l><r>goniòmetre<s n="n"/></r></p></e>
@@ -28757,7 +28759,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>endeble<s n="adj"/><s n="mf"/></l><r>frèvol<s n="adj"/><s n="GD"/></r></p></e>
 <e r="LR"><p><l>enojoso<s n="adj"/></l>           <r>enutjós<s n="adj"/></r></p></e>
 <e r="LR"><p><l>espeluznante<s n="adj"/><s n="mf"/></l><r>esborronador<s n="adj"/><s n="GD"/></r></p></e>
-<e r="LR"><p><l>estimado<s n="adj"/></l>          <r>benvolgut<s n="adj"/></r></p></e>
+<e r="LR" vr="cat"><p><l>estimado<s n="adj"/></l>          <r>benvolgut<s n="adj"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>estimado<s n="adj"/></l>          <r>estimat<s n="adj"/></r></p></e>
 <e r="LR"><p><l>falaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>fal·laç<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>fetén<s n="adj"/><s n="mf"/></l>  <r>estupend<s n="adj"/><s n="GD"/></r></p></e>
 <e r="LR"><p><l>folklórico<s n="adj"/></l>        <r>folklòric<s n="adj"/></r></p></e>
