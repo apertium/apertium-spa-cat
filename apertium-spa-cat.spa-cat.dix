@@ -1625,6 +1625,7 @@
 <e>       <p><l>tras<b/>otro<s n="adv"/></l>      <r>darrere<b/>l'altre<s n="adv"/></r></p></e>
 <e>       <p><l>uno<s n="det"/></l>               <r>un<s n="det"/></r></p></e>
 <e>       <p><l>veintiuno<s n="n"/></l>           <r>vint-i-u<s n="n"/></r></p></e>
+<e>       <p><l>veintiuno<s n="det"/></l>         <r>vint-i-un<s n="det"/></r></p></e>
 <e>       <p><l>ochenta<b/>y<b/>uno<s n="det"/></l><r>vuitanta-un<s n="det"/></r></p></e>
 <e>       <p><l>lo<s n="detnt"/></l>              <r>el<s n="detnt"/></r></p></e>
 <e>       <p><l>hasta<b/>la<b/>vista<s n="ij"/></l><r>a<b/>reveure<s n="ij"/></r></p></e>
@@ -4665,7 +4666,7 @@
 <e>       <p><l>veintisiete<s n="num"/></l>       <r>vint-i-set<s n="num"/></r></p></e>
 <e>       <p><l>veintiséis<s n="num"/></l>        <r>vint-i-sis<s n="num"/></r></p></e>
 <e>       <p><l>veintitrés<s n="num"/></l>        <r>vint-i-tres<s n="num"/></r></p></e>
-<e>       <p><l>veintiuno<s n="num"/></l>         <r>vint-i-un<s n="num"/></r></p></e>
+<e>       <p><l>veintiuno<s n="num"/></l>         <r>vint-i-u<s n="num"/></r></p></e>
 <e>       <p><l>veintiocho<s n="num"/></l>        <r>vint-i-vuit<s n="num"/></r></p></e>
 <e vr="cat val_uni">       <p><l>ocho<s n="num"/></l>              <r>vuit<s n="num"/></r></p></e>
 <e vr="cat val_uni">       <p><l>ochocientos<s n="num"/></l>       <r>vuit-cents<s n="num"/></r></p></e>
@@ -33064,7 +33065,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>aborregar<s n="vblex"/></l>       <r>aborrallonar<s n="vblex"/></r></p></e>
 <e>       <p><l>abotonar<s n="vblex"/></l>        <r>botonar<s n="vblex"/></r></p></e>
 <e>       <p><l>aboyar<s n="vblex"/></l>          <r>aboiar<s n="vblex"/></r></p></e>
-<e>       <p><l>abrevar<s n="vblex"/></l>         <r>abreurar<s n="vblex"/></r></p></e>
+<e>       <p><l>abrevar<s n="vblex"/></l>         <r>abeurar<s n="vblex"/></r></p></e>
 <e>       <p><l>absortar<s n="vblex"/></l>        <r>esbalair<s n="vblex"/></r></p></e>
 <e>       <p><l>aburguesar<s n="vblex"/></l>      <r>aburgesar<s n="vblex"/></r></p></e>
 <e>       <p><l>acaballonar<s n="vblex"/></l>     <r>cavallonar<s n="vblex"/></r></p></e>
@@ -40251,7 +40252,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Palau-saverdera<s n="np"/></i></e>
 <e>       <i>Palau-solità<s n="np"/></i></e>
 <e>       <i>Palazón<s n="np"/></i></e>
-<e>       <i>Palencia<s n="np"/><s n="ant"/></i></e>
 <e>       <i>Palet<s n="np"/></i></e>
 <e>       <i>Pallardó<s n="np"/></i></e>
 <e>       <i>Pallarès<s n="np"/></i></e>
@@ -44665,8 +44665,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR" a="GVA"><p><l>celdilla<s n="n"/></l><r>cel·la<s n="n"/></r></p></e>
 <e a="GVA"><p><l>centrifugar<s n="vblex"/></l><r>centrifugar<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>ceramista<s n="n"/></l><r>ceramista<s n="n"/></r></p></e>
-<e a="GVA"><p><l>cerner<s n="vblex"/></l><r>cendre<s n="vblex"/></r></p></e>
-<e a="GVA"><p><l>cernir<s n="vblex"/></l><r>cendre<s n="vblex"/></r></p></e>
+<e a="GVA"><p><l>cerner<s n="vblex"/></l><r>cerndre<s n="vblex"/></r></p></e>
+<e a="LR"> <p><l>cernir<s n="vblex"/></l><r>cerndre<s n="vblex"/></r></p></e>
+<e r="RL"> <p><l>cerner<s n="vblex"/></l><r>cendre<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>champañero<s n="adj"/></l><r>xampanyer<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>chapar<s n="vblex"/></l><r>xapar<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>chubasquero<s n="n"/></l><r>impermeable<s n="n"/></r></p></e>
@@ -45099,13 +45100,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>reintroducir<s n="vblex"/></l><r>reintroduir<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>relé<s n="n"/></l><r>relé<s n="n"/></r></p></e>
 <e a="GVA"><p><l>rellenable<s n="adj"/></l><r>emplenable<s n="adj"/></r></p></e>
-
 <e a="GVA"><p><l>remedar<s n="vblex"/></l><r>estrafer<s n="vblex"/></r></p></e>
-
-
-
-
-
 <e a="GVA"><p><l>removible<s n="adj"/></l><r>amobible<s n="adj"/></r></p></e>
 <e r="LR" a="GVA"><p><l>remozar<s n="vblex"/></l><r>restaurar<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>remplazar<s n="vblex"/></l><r>reemplaçar<s n="vblex"/></r></p></e>
