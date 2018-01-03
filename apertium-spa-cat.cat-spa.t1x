@@ -1486,6 +1486,28 @@
 	    <lit-tag v="pl"/>
 	  </let>
 	</when>
+
+        <when>
+          <test>
+            <and>
+            <equal>
+              <clip pos="2" side="tl" part="a_num"/>
+              <lit-tag v="num"/>
+            </equal>
+            <not>
+            <equal>
+              <clip pos="2" side="tl" part="lem"/>
+              <lit v="1"/>
+            </equal>
+            </not>
+            </and>
+          </test>
+          <let>
+            <var n="numero"/>
+            <lit-tag v="pl"/>
+          </let>
+        </when>
+
 	<when>
 	  <test>
 	    <and>
