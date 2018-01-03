@@ -28,7 +28,6 @@ BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON =			\
 	$(PREFIX1).automorf.bin 	\
-	$(LANG1).lrx.bin		\
 	$(PREFIX1).rlx.bin	\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX1).prob		 	\
@@ -45,6 +44,7 @@ TARGETS_COMMON =			\
 	$(PREFIX2).automorf.bin		\
 	$(PREFIX2).prob			\
 	$(PREFIX2).autobil.bin		\
+	$(PREFIX2).autolex.bin  \
 	$(PREFIX2).autogen.bin 		\
 	$(PREFIX2).autopgen.bin 	\
 	$(PREFIX1C).t1x.bin 		\
@@ -124,9 +124,6 @@ $(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
 $(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
 	cg-comp $< $@
 
-$(LANG1).lrx.bin: $(AP_SRC1)/$(LANG1).lrx.bin
-	cp $< $@
-
 $(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 	cp $< $@
 	
@@ -170,11 +167,16 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ## Lexical selection rules
 ###############################################################################
 
-$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+.deps/%.lrx: metalrx-to-lrx.xslt %.metalrx
+	xsltproc $^ > $@.tmp
+	@xmllint --format $@.tmp > $@
+	@rm $@.tmp
+
+$(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 	lrx-comp $< $@
 
-# $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
-# 	lrx-comp $< $@
+$(PREFIX2).autolex.bin: .deps/$(BASENAME).$(PREFIX2).lrx
+	lrx-comp $< $@
 
 
 ###############################################################################
@@ -219,19 +221,19 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 ## Distribution
 ###############################################################################
 
-EXTRA_DIST=								\
-		$(BASENAME).$(PREFIX1).lrx      \
-		$(BASENAME).$(PREFIX2).lrx      \
-		$(BASENAME).$(PREFIX1).dix 		\
-		$(BASENAME).$(PREFIX1).dix 		\
-		$(BASENAME).$(PREFIX1).t1x 		\
-		$(BASENAME).$(PREFIX1C).t1x 	\
-		$(BASENAME).$(PREFIX1V).t1x 	\
-		$(BASENAME).$(PREFIX1U).t1x 	\
-		$(BASENAME).$(PREFIX2).t1x 		\
-		$(BASENAME).$(LANG1).acx 		\
-		$(BASENAME).$(LANG2).acx 		\
-		modes.xml 						\
+EXTRA_DIST=									\
+		.deps/$(BASENAME).$(PREFIX1).lrx	\
+		.deps/$(BASENAME).$(PREFIX2).lrx	\
+		$(BASENAME).$(PREFIX1).dix 			\
+		$(BASENAME).$(PREFIX1).dix 			\
+		$(BASENAME).$(PREFIX1).t1x 			\
+		$(BASENAME).$(PREFIX1C).t1x 		\
+		$(BASENAME).$(PREFIX1V).t1x 		\
+		$(BASENAME).$(PREFIX1U).t1x 		\
+		$(BASENAME).$(PREFIX2).t1x 			\
+		$(BASENAME).$(LANG1).acx 			\
+		$(BASENAME).$(LANG2).acx 			\
+		modes.xml 							\
 		alt.xsl
 
 

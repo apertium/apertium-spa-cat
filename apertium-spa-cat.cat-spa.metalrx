@@ -409,6 +409,7 @@
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
+  
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
     <or><match tags="np.loc"/><match tags="np.top.*"/><match tags="np.hyd.*"/><match tags="np.al"/><match tags="np.al.*"/></or>
@@ -601,6 +602,7 @@
     <or>
       <seq n="verbs_moviment"/>
       <seq n="verbs_donar"/>
+    </or>
     <match tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>

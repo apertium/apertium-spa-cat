@@ -79,6 +79,9 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_uni.autobil.bin"/>
       </program>
+      <program name="lrx-proc $2">
+        <file name="spa-cat.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="spa-cat_valencia_uni.t1x"/>
         <file name="spa-cat_valencia_uni.t1x.bin"/>
@@ -188,6 +191,27 @@
     </pipeline>
   </mode>
 
+  <mode name="spa-cat-lextor" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-cat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="spa-cat.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat.autobil.bin"/>
+      </program>
+      <program name="lrx-proc $2">
+        <file name="spa-cat.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="spa-cat-transfer" install="no">
     <pipeline>
       <program name="lt-proc -w">
@@ -229,6 +253,9 @@
       <program name="lt-proc -b">
         <file name="cat-spa.autobil.bin"/>
       </program>
+      <program name="lrx-proc $2">
+        <file name="cat-spa.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-spa-cat.cat-spa.t1x"/>
         <file name="cat-spa.t1x.bin"/>
@@ -256,6 +283,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="cat-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc $2">
+        <file name="cat-spa.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-spa-cat.cat-spa.t1x"/>
@@ -334,6 +364,27 @@
     </pipeline>
   </mode>
 
+  <mode name="cat-spa-lextor" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="cat-spa.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+         <file name="cat-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="cat-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="cat-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc $2">
+        <file name="cat-spa.autolex.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="cat-spa-transfer" install="no">
     <pipeline>
       <program name="lt-proc -w">
@@ -348,6 +399,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="cat-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc $2">
+        <file name="cat-spa.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-spa-cat.cat-spa.t1x"/>
