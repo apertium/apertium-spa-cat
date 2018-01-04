@@ -6,6 +6,70 @@
 <metalrx>
 
   <def-seqs>
+    <def-seq n="animal">
+      <match lemma="animal" tags="n.*"/>
+      <match lemma="peix" tags="n.*"/>
+      <match lemma="gos" tags="n.*"/>
+      <match lemma="gat" tags="n.*"/>
+      <match lemma="bou" tags="n.*"/>
+      <match lemma="vaca" tags="n.*"/>
+      <match lemma="vedella" tags="n.*"/>
+      <match lemma="vedell" tags="n.*"/>
+      <match lemma="be" tags="n.*"/>
+      <match lemma="xai" tags="n.*"/>
+      <match lemma="corder" tags="n.*"/>
+      <match lemma="ovella" tags="n.*"/>
+      <match lemma="moltó" tags="n.*"/>
+      <match lemma="gall" tags="n.*"/>
+      <match lemma="gallina" tags="n.*"/>
+      <match lemma="pollastre" tags="n.*"/>
+      <match lemma="pollet" tags="n.*"/>
+      <match lemma="ànec" tags="n.*"/>
+      <match lemma="oca" tags="n.*"/>
+      <match lemma="cigne" tags="n.*"/>
+      <match lemma="conill" tags="n.*"/>
+      <match lemma="llebre" tags="n.*"/>
+      <match lemma="lleó" tags="n.*"/>
+      <match lemma="tigre" tags="n.*"/>
+      <match lemma="ós" tags="n.*"/>
+      <match lemma="serp" tags="n.*"/>
+
+      <match lemma="balena" tags="n.*"/>
+      <match lemma="catxalot" tags="n.*"/>
+      <match lemma="orca" tags="n.*"/>
+      <match lemma="dofí" tags="n.*"/>
+      <match lemma="tauró" tags="n.*"/>
+      <match lemma="pop" tags="n.*"/>
+      <match lemma="calamar" tags="n.*"/>
+      <match lemma="sípia" tags="n.*"/>
+      <match lemma="sèpia" tags="n.*"/>
+      <match lemma="sardina" tags="n.*"/>
+      <match lemma="seitó" tags="n.*"/>
+      <match lemma="rap" tags="n.*"/>
+      <match lemma="truita" tags="n.*"/>
+      <match lemma="tonyina" tags="n.*"/>
+      <match lemma="lluç" tags="n.*"/>
+      <match lemma="llucet" tags="n.*"/>
+
+      <match lemma="gamba" tags="n.*"/>
+      <match lemma="escamarlà" tags="n.*"/>
+
+      <match lemma="dinosaure" tags="n.*"/>
+      <match lemma="brontosaure" tags="n.*"/>
+      <match lemma="tiranosaure" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="animal">
+      <match lemma="or" tags="n.*"/>
+      <match lemma="plata" tags="n.*"/>
+      <match lemma="argent" tags="n.*"/>
+      <match lemma="bronze" tags="n.*"/>
+      <match lemma="ferro" tags="n.*"/>
+      <match lemma="acer" tags="n.*"/>
+      <match lemma="niquel" tags="n.*"/>
+      <match lemma="alumini" tags="n.*"/>
+    </def-seq>
+
     <def-seq n="lloc_concret">
       <match lemma="parlament"/>
       <match lemma="congrés"/>
@@ -1123,6 +1187,15 @@
      <match lemma="es" tags="prn.pro.ref.*"/>
      <match lemma="estimar" tags="vblex.*"><select lemma="estimar"/></match>
   </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="cost" tags="n.*"/>
+       <match lemma="valor" tags="n.*"/>
+       <match lemma="suma" tags="n.*"/>
+       <match lemma="quantitat" tags="n.*"/>
+     </or>
+     <match lemma="estimar" tags="vblex.pp.*"><select lemma="istimare"/></match>
+  </rule>
 
 
 <!-- **************** N **************** -->
@@ -1270,7 +1343,7 @@
      <match lemma="a" tags="pr"/>
   </rule>
 
-<!-- cap > jefe, cabo -->
+<!-- cap > jefe, cabo, cabeza, capital -->
 
   <rule weight="0.6">
      <match lemma="cap" tags="n.*"><select lemma="jefe"/></match>
@@ -1283,6 +1356,29 @@
      <match lemma="cap" tags="n.*"><select lemma="cabo"/></match>
      <match lemma="de" tags="pr"/>
      <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="cap" tags="n.*"><select lemma="capital"/></match>
+     <match lemma="de" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+    <match lemma="comarca" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="cap" tags="n.*"><select lemma="cabeza"/></match>
+     <match lemma="de" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+     <or>
+      <match lemma="raqueta" tags="n.*"/>
+      <match lemma="lista" tags="n.*"/>
+      <match lemma="municipio" tags="n.*"/>
+
+      <seq n="animal"/>
+      <seq n="material"/>
+     </or>
   </rule>
 
 <!-- taula > mesa, tabla -->
@@ -1308,6 +1404,10 @@
      </or>
 -->
   </rule>
+  <rule weight="1.0">
+     <match lemma="taula" tags="n.*"><select lemma="tabla"/></match>
+     <match lemma="que"/>
+  </rule>
   <rule weight="1.2">
      <match lemma="taula" tags="n.*"><select lemma="mesa"/></match>
      <match lemma="de" tags="pr"/>
@@ -1324,6 +1424,12 @@
        <match lemma="cronològic" tags="adj.*"/>
        <match lemma="següent" tags="adj.*"/>
        <match lemma="anterior" tags="adj.*"/>
+       <match lemma="superior" tags="adj.*"/>
+       <match lemma="inferior" tags="adj.*"/>
+       <match lemma="esquemàtica" tags="adj.*"/>
+       <match lemma="número"/>
+       <match lemma="núm."/>
+       <match lemma="no."/>
        <match tags="num"/>
      </or>
   </rule>
