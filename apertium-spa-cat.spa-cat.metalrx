@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<metalrx>
+
+  <def-seqs>
+    <def-seq n="num_trencat">
+      <match lemma="meitat"/>
+      <match lemma="terç"/>
+      <match lemma="quart"/>
+      <match lemma="cinquè"/>
+      <match lemma="sisè"/>
+      <match lemma="setè"/>
+      <match lemma="vuitè"/>
+      <match lemma="novè"/>
+    </def-seq>
+  </def-seqs>
+
+<rules>
+
+<!-- **************** NUM **************** -->
+
+<!-- uno > un, u -->
+  <rule weight="0.1"> 
+    <match lemma="uno" tags="num.*">
+        <select lemma="un" />
+    </match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="número"/>
+    <match lemma="uno" tags="num.*">
+        <select lemma="u" />
+    </match>
+  </rule>
+
+<!-- **************** N **************** -->
+
+<!-- corte > corte, tall -->
+  <rule weight="0.1"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="cort" />
+    </match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="*" tags="det.*.m.*"/>
+    <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+  </rule>
+  <rule weight="1.0">  <!-- los continuos cortes -->
+    <match lemma="*" tags="adj.m.*"/>
+    <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+  </rule>
+  <rule weight="1.0"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+    <match lemma="*" tags="adj.m.*"/>
+  </rule>
+  <rule weight="1.0"> 
+    <match lemma="*" tags="det.*.f.*"/>
+    <match lemma="corte" tags="n.*">
+        <select lemma="cort" />
+    </match>
+  </rule>
+  <rule weight="1.0"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="cort" />
+    </match>
+    <match lemma="*" tags="adj.f.*"/>
+  </rule>
+
+</rules>
+</metalrx>
