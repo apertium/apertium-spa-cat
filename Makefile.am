@@ -168,7 +168,7 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 
 .deps/%.metalrx: %.metalrx
-	python metalrx.py %< >$@
+	python3 metalrx.py $< $@
 
 .deps/%.lrx: metalrx-to-lrx.xslt .deps/%.metalrx
 	xsltproc $^ > $@.tmp
