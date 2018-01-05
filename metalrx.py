@@ -1,4 +1,20 @@
 #!/usr/bin/python3
+#
+# Copyright (C) 2018 Xavi Ivars <xavi.ivars@gmail.com>
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2 of the
+# License, or (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, see <http://www.gnu.org/licenses/>.
+# 
 
 import sys
 import xml.etree.ElementTree as ET
@@ -31,14 +47,10 @@ for macro in tree.iter(tag='macro'):
 	macros.append(macro)
 
 allmacrodefs = tree.getroot().find('def-macros')
-print(allmacrodefs)
-print("==============")
-print(ET.tostring(tree.getroot()))
-
-tree.getroot().remove(allmacrodefs)
+if allmacrodefs is not None:
+	tree.getroot().remove(allmacrodefs)
 
 for macro in macros:
 	rules.remove(macro)
-
 
 tree.write(target)
