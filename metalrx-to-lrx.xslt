@@ -26,6 +26,23 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
   <xsl:template match="seq">
     <xsl:copy-of select="/metalrx/def-seqs/def-seq[@n = current()/@n]/*"/>
   </xsl:template>
+  
+  <xsl:template match="prule">
+	<xsl:call-template name="prule1">
+	  <xsl:with-param name="p1" select="@p1" />
+      <xsl:with-param name="p2" select="@p2" />
+	  <xsl:with-param name="p3" select="@p3" />
+      <xsl:with-param name="p4" select="@p4" />
+	</xsl:call-template>
+  </xsl:template>
+
+  <xsl:template name="prule1">
+	<xsl:param name="p1" />
+	<xsl:param name="p2" />
+	<xsl:param name="p3" />
+	<xsl:param name="p4" />
+	
+  </xsl:template>
 
   <!-- Rules that don't have a repeat[@upto] element are
        just copied, their repeats ignored: -->

@@ -167,7 +167,10 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ## Lexical selection rules
 ###############################################################################
 
-.deps/%.lrx: metalrx-to-lrx.xslt %.metalrx
+.deps/%.metalrx: %.metalrx
+	python metalrx.py %< >$@
+
+.deps/%.lrx: metalrx-to-lrx.xslt .deps/%.metalrx
 	xsltproc $^ > $@.tmp
 	@xmllint --format $@.tmp > $@
 	@rm $@.tmp
