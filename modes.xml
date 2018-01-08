@@ -206,7 +206,7 @@
       <program name="lt-proc -b">
         <file name="spa-cat.autobil.bin"/>
       </program>
-      <program name="lrx-proc $2">
+      <program name="lrx-proc -t $2">
         <file name="spa-cat.autolex.bin"/>
       </program>
     </pipeline>
@@ -379,7 +379,7 @@
       <program name="lt-proc -b">
         <file name="cat-spa.autobil.bin"/>
       </program>
-      <program name="lrx-proc $2">
+      <program name="lrx-proc -t $2">
         <file name="cat-spa.autolex.bin"/>
       </program>
     </pipeline>
