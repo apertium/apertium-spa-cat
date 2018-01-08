@@ -19,7 +19,39 @@
 	  </rule>
 	  <rule weight="1.0">
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
-		 <match tags="num.*"/>
+		 <or>
+		   <match tags="num.*"/>
+		   <match lemma="I" tags="adj.*"/>
+		   <match lemma="II" tags="adj.*"/>
+		   <match lemma="III" tags="adj.*"/>
+		   <match lemma="IV" tags="adj.*"/>
+		   <match lemma="V" tags="adj.*"/>
+		   <match lemma="VI" tags="adj.*"/>
+		   <match lemma="VII" tags="adj.*"/>
+		   <match lemma="VIII" tags="adj.*"/>
+		   <match lemma="IX" tags="adj.*"/>
+		   <match lemma="X" tags="adj.*"/>
+		   <match lemma="XI" tags="adj.*"/>
+		   <match lemma="XII" tags="adj.*"/>
+		   <match lemma="XIII" tags="adj.*"/>
+		   <match lemma="XIV" tags="adj.*"/>
+		   <match lemma="XV" tags="adj.*"/>
+		   <match lemma="XVI" tags="adj.*"/>
+		   <match lemma="XVII" tags="adj.*"/>
+		   <match lemma="XVIII" tags="adj.*"/>
+		   <match lemma="XIX" tags="adj.*"/>
+		   <match lemma="XX" tags="adj.*"/>
+		   <match lemma="XXI" tags="adj.*"/>
+		   <match lemma="XXII" tags="adj.*"/>
+		   <match lemma="XXIII" tags="adj.*"/>
+		   <match lemma="XXIV" tags="adj.*"/>
+		   <match lemma="XXV" tags="adj.*"/>
+		   <match lemma="XXVI" tags="adj.*"/>
+		   <match lemma="XXVII" tags="adj.*"/>
+		   <match lemma="XXVIII" tags="adj.*"/>
+		   <match lemma="XXIX" tags="adj.*"/>
+		   <match lemma="XXX" tags="adj.*"/>
+		 </or>
 	  </rule>
 	  <rule weight="1.0">
 		 <or>
