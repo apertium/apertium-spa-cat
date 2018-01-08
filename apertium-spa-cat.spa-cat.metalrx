@@ -57,34 +57,34 @@
 	  <rule weight="1.0">
 		 <or>
 		   <match lemma="papa" tags="n.*"/>
-		   <match lemma="bisbe" tags="n.*"/>
-		   <match lemma="arquebisbe" tags="n.*"/>
-		   <match lemma="sant" tags="n.*"/>
-		   <match lemma="sant" tags="adj.*"/>
-		   <match lemma="apòstol" tags="n.*"/>
+		   <match lemma="obispo" tags="n.*"/>
+		   <match lemma="arzobispo" tags="n.*"/>
+		   <match lemma="santo" tags="n.*"/>
+		   <match lemma="santo" tags="adj.*"/>
+		   <match lemma="apóstol" tags="n.*"/>
 		   <match lemma="emperador" tags="n.*"/>
-		   <match lemma="rei" tags="n.*"/>
-		   <match lemma="tsar" tags="n.*"/>
-		   <match lemma="virrei" tags="n.*"/>
-		   <match lemma="príncep" tags="n.*"/>
-		   <match lemma="infant" tags="n.*"/>
-		   <match lemma="comte" tags="n.*"/>
-		   <match lemma="vescomte" tags="n.*"/>
-		   <match lemma="duc" tags="n.*"/>
-		   <match lemma="arxiduc" tags="n.*"/>
-		   <match lemma="marquès" tags="n.*"/>
-		   <match lemma="baró" tags="n.*"/>
+		   <match lemma="rey" tags="n.*"/>
+		   <match lemma="zar" tags="n.*"/>
+		   <match lemma="virrey" tags="n.*"/>
+		   <match lemma="príncipe" tags="n.*"/>
+		   <match lemma="infante" tags="n.*"/>
+		   <match lemma="conde" tags="n.*"/>
+		   <match lemma="vizconde" tags="n.*"/>
+		   <match lemma="duque" tags="n.*"/>
+		   <match lemma="archiduque" tags="n.*"/>
+		   <match lemma="marqués" tags="n.*"/>
+		   <match lemma="barón" tags="n.*"/>
 		 </or>
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
 	  </rule>
 	  <rule weight="1.0">
 		 <or>
-		   <match lemma="papat" tags="n.*"/>
-		   <match lemma="pontificat" tags="n.*"/>
-		   <match lemma="imperi" tags="n.*"/>
-		   <match lemma="regne" tags="n.*"/>
-		   <match lemma="regnat" tags="n.*"/>
-		   <match lemma="regència" tags="n.*"/>
+		   <match lemma="papado" tags="n.*"/>
+		   <match lemma="pontificado" tags="n.*"/>
+		   <match lemma="imperio" tags="n.*"/>
+		   <match lemma="reino" tags="n.*"/>
+		   <match lemma="reinado" tags="n.*"/>
+		   <match lemma="regencia" tags="n.*"/>
 		 </or>
 		 <match lemma="de" tags="pr"/>
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
