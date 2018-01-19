@@ -494,6 +494,7 @@
       <match lemma="parlar" tags="vblex.*"/>
       <match lemma="cridar" tags="vblex.*"/>
       <match lemma="incorporar" tags="vblex.*"/>
+      <match lemma="dedicar" tags="vblex.*"/>
     </def-seq>
 
     <def-seq n="verbs_ci">
@@ -550,11 +551,8 @@
 
 <rules>
 
-
 <!-- **************** PR **************** -->
 <!-- a > a, en -->
-	
-
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -720,6 +718,14 @@
     </or>
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
   </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="ser" tags="vbser.*"/>
+      <match lemma="estar" tags="vblex.*"/>
+    </or>
+    <match lemma="a" tags="pr"><select lemma="en" tags="a"/></match>
+    <or><match tags="num"/><match tags="num.*"/></or>
+  </rule>
   <rule weight="1.0">
     <or>
       <match lemma="ser" tags="vbser.*"/>
@@ -747,7 +753,7 @@
     <match tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
   </rule>
-  <rule weight="1.0">
+  <rule weight="1.2">
     <or>
       <seq n="verbs_moviment"/>
       <seq n="verbs_donar"/>
@@ -810,6 +816,11 @@
   <rule weight="1.0">
     <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
+    <match lemma="manera" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
   </rule>
 
 <!-- **************** CNJSUB **************** -->

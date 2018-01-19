@@ -20,10 +20,12 @@
 
     <def-cat n="nploc">
       <cat-item tags="np.loc"/>
+      <cat-item tags="np.top.*"/>
     </def-cat>    
     <def-cat n="nom_loc">
       <cat-item tags="n.*"/>
       <cat-item tags="np.loc"/>
+      <cat-item tags="np.top.*"/>
     </def-cat>    
 
     <def-cat n="det">          
@@ -232,6 +234,7 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
     </def-attr>
 
     <def-attr n="a_npant">
@@ -240,6 +243,7 @@
 
     <def-attr n="a_nploc">
       <attr-item tags="np.loc"/>
+      <attr-item tags="np.top"/>
     </def-attr>        
 
     <def-attr n="a_det">          
@@ -6865,7 +6869,7 @@
 	  <b pos="1"/>
 	  <lu>
 	    <clip pos="2" side="tl" part="lem"/>
-	    <clip pos="2" side="tl" part="a_nploc"/> 
+	    <clip pos="2" side="tl" part="tags"/> 
 	  </lu>
 	</out>   
       </action>
@@ -6907,7 +6911,7 @@
 	  <b pos="2"/>
 	  <lu>
 	    <clip pos="3" side="tl" part="lem"/>
-	    <clip pos="3" side="tl" part="a_nploc"/> 
+	    <clip pos="3" side="tl" part="tags"/> 
 	  </lu>
 	</out>   
       </action>
