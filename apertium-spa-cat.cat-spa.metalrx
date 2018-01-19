@@ -753,7 +753,7 @@
     <match tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
   </rule>
-  <rule weight="1.2">
+  <rule weight="1.0">
     <or>
       <seq n="verbs_moviment"/>
       <seq n="verbs_donar"/>

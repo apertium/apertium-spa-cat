@@ -14,10 +14,14 @@
     <def-cat n="descbil">
       <cat-item lemma="@*" tags="n.*"/>
     </def-cat> -->
+
+    <def-cat n="np">
+      <cat-item tags="np.*"/>
+    </def-cat>
     <def-cat n="npant">
       <cat-item tags="np.ant"/>
+      <cat-item tags="np.ant.*"/>
     </def-cat>
-
     <def-cat n="nploc">
       <cat-item tags="np.loc"/>
       <cat-item tags="np.top.*"/>
@@ -3347,6 +3351,24 @@
       </action>
     </rule>
 
+    <rule> <!-- REGLA: NP -->
+      <pattern>
+	<pattern-item n="np"/>
+      </pattern>
+      <action>	
+	<call-macro n="f_concord1">
+	  <with-param pos="1"/>
+	</call-macro>     
+	<out> 
+	  <lu>
+	    <clip pos="1" side="tl" part="lemh"/>
+	    <clip pos="1" side="tl" part="tags"/>
+	    <clip pos="1" side="tl" part="lemq"/> 
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
     <rule> <!-- REGLA: ADJECTIU -->
       <pattern>
 	<pattern-item n="adj"/>
@@ -3409,6 +3431,31 @@
       </action>
     </rule>
 
+    <rule> <!-- REGLA: DET + nploc-->
+      <pattern>
+	<pattern-item n="det"/>
+	<pattern-item n="nploc"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord2">
+	  <with-param pos="2"/>
+	  <with-param pos="1"/>
+	</call-macro> 
+	    <out>   
+	      <lu>
+		<clip pos="1" side="tl" part="lemh"/>
+		<clip pos="1" side="tl" part="tags"/>
+		<clip pos="1" side="tl" part="lemq"/> 
+	      </lu>
+	      <b pos="1"/>
+	      <lu>
+		<clip pos="2" side="tl" part="lemh"/>
+		<clip pos="2" side="tl" part="tags"/>
+		<clip pos="2" side="tl" part="lemq"/>
+	      </lu>	    
+	    </out>
+      </action>
+    </rule>
 
 
     <rule> <!-- REGLA: DETERMINANT NOM -->
@@ -6883,6 +6930,10 @@
 	<pattern-item n="nploc"/>
       </pattern>
       <action>	
+	<call-macro n="f_concord2">
+	  <with-param pos="3"/>
+	  <with-param pos="2"/>
+	</call-macro>     
 	<choose>
 	  <when>
 	    <test>
