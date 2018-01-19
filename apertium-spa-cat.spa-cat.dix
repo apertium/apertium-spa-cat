@@ -13,6 +13,7 @@
     <sdef n="predet" /> 
     <sdef n="detnt" /> 
     <sdef n="loc" /> 
+    <sdef n="top" /> 
     <sdef n="ant" /> 
     <sdef n="al" /> 
     <sdef n="atn" /> 
@@ -108,7 +109,60 @@
   <e r="RL"><p><l><b/>ºC<s n="num"/></l><r>ºC<s n="num"/></r></p></e>
 </pardef>
 
+    <pardef n="sp_ND">
+      <e r="LR"><p><l><s n="sp"/></l><r><s n="ND"/></r></p></e>
+      <e r="RL"><p><l><s n="sp"/></l><r><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="sp"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="pl_ND">
+      <e r="LR"><p><l><s n="pl"/></l><r><s n="ND"/></r></p></e>
+      <e r="RL"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+    <!-- això és pro forma perquè la traducció pugui competir per longitud amb altres traduccions possibles -->
+    <pardef n="sgpl_sgpl">
+      <e>       <p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e>       <p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="mf_GD">
+      <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/></l><r><s n="f"/></r></p></e>
+      <e r="RL"><p><l><s n="mf"/></l><r><s n="m"/></r></p></e>
+    </pardef>
+
+    <pardef n="m_GD">
+      <e r="LR"><p><l><s n="m"/></l><r><s n="GD"/></r></p></e>
+      <e r="RL"><p><l><s n="m"/></l><r><s n="f"/></r></p></e>
+      <e r="RL"><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+    </pardef>
+
+    <pardef n="ND_sp">
+      <e r="LR"><p><l><s n="sg"/></l><r><s n="sp"/></r></p></e>
+      <e r="LR"><p><l><s n="pl"/></l><r><s n="sp"/></r></p></e>
+      <e r="RL"><p><l><s n="ND"/></l><r><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="ND_pl">
+      <e r="LR"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+      <e r="LR"><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><s n="ND"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="GD_mf">
+      <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
+    </pardef>
+
+    <pardef n="GD_m">
+      <e r="LR"><p><l><s n="f"/></l><r><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="m"/></r></p></e>
+    </pardef>
 </pardefs>
+
   <section  id="main" type="standard">
 
 <e>       <p><l>abrumador<s n="adj"/></l>         <r>aclaparador<s n="adj"/></r></p></e>
@@ -42599,6 +42653,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="eleka">   <p><l>Prusia<s n="np"/></l>            <r>Prússia<s n="np"/></r></p></e>
 <e a="eleka">   <p><l>absolutista<s n="adj"/></l>            <r>absolutista<s n="adj"/></r></p></e>
 <e a="eleka">   <p><l>carlista<s n="adj"/></l>            <r>carlista<s n="adj"/></r></p></e>
+<e r="RL" a="hector"><p><l>carlista<s n="adj"/></l>       <r>carlí<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="eleka">   <p><l>sufragismo<s n="n"/></l> <r>sufragisme<s n="n"/></r></p></e>
 <e a="eleka">   <p><l>Jruschov<s n="np"/></l>            <r>Khrusxov<s n="np"/></r></p></e>
 <e a="eleka">   <p><l>Copérnico<s n="np"/></l>            <r>Copèrnic<s n="np"/></r></p></e>
