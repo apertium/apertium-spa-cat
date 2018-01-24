@@ -7079,6 +7079,10 @@
 		  <clip pos="3" side="sl" part="a_nploc"/>
 		  <lit-tag v="np.loc"/>
 		</equal>
+		<equal>
+		  <clip pos="3" side="sl" part="a_nploc"/>
+		  <lit-tag v="np.top"/>
+		</equal>
 	      </or>
 	    </test>
 	    <choose>
@@ -7245,6 +7249,10 @@
 		<equal>
 		  <clip pos="4" side="sl" part="a_nploc"/>
 		  <lit-tag v="np.loc"/>
+		</equal>
+		<equal>
+		  <clip pos="4" side="sl" part="a_nploc"/>
+		  <lit-tag v="np.top"/>
 		</equal>
 	      </or>
 	    </test>
@@ -7442,6 +7450,10 @@
 		  <clip pos="4" side="sl" part="a_nploc"/>
 		  <lit-tag v="np.loc"/>
 		</equal>
+		<equal>
+		  <clip pos="4" side="sl" part="a_nploc"/>
+		  <lit-tag v="np.top"/>
+		</equal>
 	      </or>
 	    </test>
 	    <choose>
@@ -7629,6 +7641,10 @@
 		<equal>
 		  <clip pos="5" side="sl" part="a_nploc"/>
 		  <lit-tag v="np.loc"/>
+		</equal>
+		<equal>
+		  <clip pos="5" side="sl" part="a_nploc"/>
+		  <lit-tag v="np.top"/>
 		</equal>
 	      </or>
 	    </test>
