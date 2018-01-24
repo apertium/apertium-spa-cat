@@ -15,6 +15,7 @@
     <sdef n="loc" /> 
     <sdef n="top" /> 
     <sdef n="ant" /> 
+    <sdef n="cog" /> 
     <sdef n="al" /> 
     <sdef n="atn" /> 
     <sdef n="enc" /> 
@@ -6752,7 +6753,7 @@
 <e>       <i>alga<s n="n"/></i></e>
 <e>       <i>Algarra<s n="np"/></i></e>
 <e>       <p><l>argelino<s n="adj"/></l>          <r>algerià<s n="adj"/></r></p></e>
-<e>       <p><l>Argelia<s n="np"/><s n="loc"/></l><r>Algèria<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Argelia<s n="np"/><s n="loc"/></l><r>Algèria<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Algeciras<s n="np"/></l>          <r>Algesires<s n="np"/></r></p></e>
 <e>       <i>aliar<s n="vblex"/></i></e>
 <e>       <p><l>aleación<s n="n"/><s n="f"/></l>  <r>aliatge<s n="n"/><s n="m"/></r></p></e>
@@ -6968,7 +6969,7 @@
 <e>       <p><l>acuario<s n="n"/></l>             <r>aquari<s n="n"/></r></p></e>
 <e>       <p><l>acuartelamiento<s n="n"/></l>     <r>aquarterament<s n="n"/></r></p></e>
 <e>       <p><l>acuático<s n="adj"/></l>          <r>aquàtic<s n="adj"/></r></p></e>
-<e>       <p><l>Arabia<s n="np"/><s n="loc"/></l> <r>Aràbia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Arabia<s n="np"/><s n="loc"/></l> <r>Aràbia<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Araceli<s n="np"/></i></e>
 <e>       <i>Arafat<s n="np"/></i></e>
 <e>       <p><l>aragonés<s n="adj"/></l>          <r>aragonès<s n="adj"/></r></p></e>
@@ -7048,7 +7049,7 @@
 <e>       <i>Asepeyo<s n="np"/></i></e>
 <e>       <i>asfaltar<s n="vblex"/></i></e>
 <e>       <i>asfixiar<s n="vblex"/></i></e>
-<e>       <p><l>Asia<s n="np"/><s n="loc"/></l>   <r>Àsia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Asia<s n="np"/><s n="loc"/></l>   <r>Àsia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>asiático<s n="adj"/></l>          <r>asiàtic<s n="adj"/></r></p></e>
 <e>       <p><l>asiático<s n="n"/></l>            <r>asiàtic<s n="n"/></r></p></e>
 <e>       <p><l>asimétrico<s n="adj"/></l>        <r>asimètric<s n="adj"/></r></p></e>
@@ -7196,7 +7197,7 @@
 <e>       <i>aviador<s n="n"/></i></e>
 <e>       <p><l>ávidamente<s n="adv"/></l>        <r>àvidament<s n="adv"/></r></p></e>
 <e>       <i>Àvila<s n="np"/><s n="ant"/></i></e>
-<e>       <p><l>Ávila<s n="np"/><s n="loc"/></l>  <r>Àvila<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Ávila<s n="np"/><s n="loc"/></l>  <r>Àvila<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Avilés<s n="np"/></i></e>
 <e>       <p><l>aburrimiento<s n="n"/></l>        <r>avorriment<s n="n"/></r></p></e>
 <e r="LR"><p><l>aborrecer<s n="vblex"/></l>       <r>avorrir<s n="vblex"/></r></p></e>
@@ -7215,7 +7216,7 @@
 <e>       <p><l>baúl<s n="n"/></l>                <r>bagul<s n="n"/></r></p></e>
 <e>       <p><l>Bahrein<s n="np"/></l>            <r>Bahrain<s n="np"/></r></p></e>
 <e>       <i>Bailén<s n="np"/></i></e>
-<e>       <p><l>Bayona<s n="np"/><s n="loc"/></l> <r>Baiona<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Bayona<s n="np"/><s n="loc"/></l> <r>Baiona<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>apeadero<s n="n"/></l>            <r>baixador<s n="n"/></r></p></e>
 <e>       <p><l>bajista<s n="n"/></l>             <r>baixista<s n="n"/></r></p></e>
 <e>       <p><l>bajón<s n="n"/></l>               <r>baixó<s n="n"/></r></p></e>
@@ -7246,6 +7247,7 @@
 <e r="LR"><p><l>baranda<s n="n"/></l>             <r>barana<s n="n"/></r></p></e>
 <e>       <p><l>barandilla<s n="n"/></l>          <r>barana<s n="n"/></r></p></e>
 <e>       <p><l>barbarie<s n="n"/></l>            <r>barbàrie<s n="n"/></r></p></e>
+<e>       <p><l>Barbastro<s n="np"/><s n="loc"/></l><r>Barbastre<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Barberá<s n="np"/></i></e>
 <e>       <i>Barbera<s n="np"/></i></e>
 <e>       <p><l>barbero<s n="n"/></l>             <r>barber<s n="n"/></r></p></e>
@@ -7278,7 +7280,7 @@
 <e>       <p><l>básicamente<s n="adv"/></l>       <r>bàsicament<s n="adv"/></r></p></e>
 <e>       <i>basílica<s n="n"/></i></e>
 <e>       <i>Basilio<s n="np"/></i></e>
-<e>       <p><l>Basora<s n="np"/><s n="loc"/></l> <r>Bàssora<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Basora<s n="np"/><s n="loc"/></l> <r>Bàssora<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>bastante<s n="adj"/><s n="mf"/></l><r>bastant<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>andamio<s n="n"/><s n="m"/></l>   <r>bastida<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bastión<s n="n"/></l>             <r>bastió<s n="n"/></r></p></e>
@@ -7314,7 +7316,7 @@
 <e>       <p><l>balar<s n="vblex"/></l>           <r>belar<s n="vblex"/></r></p></e>
 <e>       <i>Belda<s n="np"/></i></e>
 <e>       <i>Belén<s n="np"/><s n="ant"/></i></e>
-<e>       <p><l>Belén<s n="np"/><s n="loc"/></l>  <r>Betlem<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Belén<s n="np"/><s n="loc"/></l>  <r>Betlem<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Belenguer<s n="np"/></i></e>
 <e>       <p><l>Bélgica<s n="np"/></l>            <r>Bèlgica<s n="np"/></r></p></e>
 <e>       <i>Belinchón<s n="np"/></i></e>
@@ -7324,8 +7326,9 @@
 <e>       <i>Beltrán<s n="np"/></i></e>
 <e>       <i>be<s n="n"/><s n="f"/></i></e>
 <e r="RL">       <p><l>cordero<s n="n"/><s n="m"/></l>   <r>be<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>Benasque<s n="np"/><s n="loc"/></l><r>Benasc<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Benavent<s n="np"/></i></e>
-<e>       <p><l>bemol<s n="n"/></l>             <r>bemoll<s n="n"/></r></p></e>
+<e>       <p><l>bemol<s n="n"/></l>               <r>bemoll<s n="n"/></r></p></e>
 <e>       <p><l>benéfico<s n="adj"/></l>          <r>benèfic<s n="adj"/></r></p></e>
 <e>       <p><l>beneficiario<s n="adj"/></l>      <r>beneficiari<s n="adj"/></r></p></e>
 <e>       <p><l>beneficiario<s n="n"/></l>        <r>beneficiari<s n="n"/></r></p></e>
@@ -7372,6 +7375,7 @@
 <e>       <i>bilingüe<s n="adj"/></i></e>
 <e>       <i>billar<s n="n"/></i></e>
 <e>       <i>Bill<s n="np"/></i></e>
+<e>       <p><l>Binéfar<s n="np"/><s n="loc"/></l><r>Binèfar<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>biología<s n="n"/></l>            <r>biologia<s n="n"/></r></p></e>
 <e>       <p><l>biopsia<s n="n"/></l>             <r>biòpsia<s n="n"/></r></p></e>
 <e>       <p><l>bioquímico<s n="adj"/></l>        <r>bioquímic<s n="adj"/></r></p></e>
@@ -7462,7 +7466,7 @@
 <e>       <p><l>brújula<s n="n"/></l>             <r>brúixola<s n="n"/></r></p></e>
 <e>       <i>Bruno<s n="np"/></i></e>
 <e>       <p><l>bruscamente<s n="adv"/></l>       <r>bruscament<s n="adv"/></r></p></e>
-<e>       <p><l>Bruselas<s n="np"/><s n="loc"/></l><r>Brussel·les<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Bruselas<s n="np"/><s n="loc"/></l><r>Brussel·les<s n="np"/><s n="top"/></r></p></e>
 <e srl="bruto"><p><l>bruto<s n="adj"/></l>        <r>brut<s n="adj"/></r></p></e>
 <e>       <p><l>en<b/>bruto<s n="adj"/></l>       <r>en<b/>brut<s n="adj"/></r></p></e>
 <e>       <p><l>brutalmente<s n="adv"/></l>       <r>brutalment<s n="adv"/></r></p></e>
@@ -7681,7 +7685,7 @@
 <e>       <i>casino<s n="n"/></i></e>
 <e>       <i>Casinos<s n="np"/></i></e>
 <e>       <p><l>casero<s n="adj"/></l>            <r>casolà<s n="adj"/></r></p></e>
-<e>       <p><l>Caspe<s n="np"/><s n="loc"/></l>  <r>Casp<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Caspe<s n="np"/><s n="loc"/></l>  <r>Casp<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>cacerola<s n="n"/></l>            <r>casserola<s n="n"/></r></p></e>
 <e>       <p><l>casto<s n="adj"/></l>             <r>cast<s n="adj"/></r></p></e>
 <e>       <i>casta<s n="n"/></i></e>
@@ -7715,7 +7719,7 @@
 <e>       <p><l>categóricamente<s n="adv"/></l>   <r>categòricament<s n="adv"/></r></p></e>
 <e>       <i>Catherine<s n="np"/></i></e>
 <e>       <p><l>catolicismo<s n="n"/></l>         <r>catolicisme<s n="n"/></r></p></e>
-<e>       <p><l>Cáucaso<s n="np"/><s n="loc"/></l><r>Caucas<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Cáucaso<s n="np"/><s n="loc"/></l><r>Caucas<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>causante<s n="adj"/></l>          <r>causant<s n="adj"/></r></p></e>
 <e>       <i>cautela<s n="n"/><s n="f"/></i></e>
 <e r="LR"><p><l>recato<s n="n"/><s n="m"/></l>    <r>cautela<s n="n"/><s n="f"/></r></p></e>
@@ -7805,7 +7809,7 @@
 <e>       <p><l>cirio<s n="n"/></l>               <r>ciri<s n="n"/></r></p></e>
 <e>       <p><l>cirugía<s n="n"/></l>             <r>cirurgia<s n="n"/></r></p></e>
 <e>       <p><l>cirujano<s n="n"/></l>            <r>cirurgià<s n="n"/></r></p></e>
-<e>       <p><l>Cisjordania<s n="np"/><s n="loc"/></l><r>Cisjordània<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Cisjordania<s n="np"/><s n="loc"/></l><r>Cisjordània<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Cisneros<s n="np"/></i></e>
 <e>       <p><l>cesta<s n="n"/></l>               <r>cistella<s n="n"/></r></p></e>
 <e>       <i>cisterna<s n="n"/></i></e>
@@ -8165,10 +8169,10 @@
 <e>       <p><l>pasamontañas<s n="n"/></l>        <r>passamuntanyes<s n="n"/></r></p></e>
 <e>       <p><l>hora<b/>y<b/>media<s n="n"/></l>  <r>hora<b/>i<b/>mitja<s n="n"/></r></p></e>
 <e>       <p><l>solemnizar<s n="vblex"/></l>      <r>solemnitzar<s n="vblex"/></r></p></e>
-<e>       <p><l>Coria<s n="np"/><s n="loc"/></l>  <r>Còria<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Coria<s n="np"/><s n="loc"/></l>  <r>Còria<s n="np"/><s n="top"/></r></p></e>
 <e srl="coro"><p><l>coro<s n="n"/></l>            <r>cor<s n="n"/></r></p></e>
 <e>       <i>Cornellà<s n="np"/><s n="loc"/></i></e>
-<e r="LR"><p><l>Cornellá<s n="np"/><s n="loc"/></l><r>Cornellà<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Cornellá<s n="np"/><s n="loc"/></l><r>Cornellà<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>cornisa<s n="n"/></i></e>
 <e>       <i>Corominas<s n="np"/></i></e>
 <e>       <p><l>corporación<s n="n"/></l>         <r>corporació<s n="n"/></r></p></e>
@@ -9521,7 +9525,7 @@
 <e>       <i>Fidel<s n="np"/></i></e>
 <e>       <p><l>fiduciario<s n="adj"/></l>          <r>fiduciari<s n="adj"/></r></p></e>
 <e>       <i>FIFA<s n="n"/></i></e>
-<e r="LR"><p><l>Figueras<s n="np"/><s n="loc"/></l><r>Figueres<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Figueras<s n="np"/><s n="loc"/></l><r>Figueres<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Figueres<s n="np"/><s n="loc"/></i></e>
 <e>       <i>Figueroa<s n="np"/></i></e>
 <e>       <p><l>higueral<s n="n"/></l>            <r>figueral<s n="n"/></r></p></e>
@@ -9966,7 +9970,7 @@
 <e>       <i>Haro<s n="np"/></i></e>
 <e>       <i>Harry<s n="np"/></i></e>
 <e>       <p><l>hebreo<s n="adj"/></l>            <r>hebreu<s n="adj"/></r></p></e>
-<e>       <p><l>Hebrón<s n="np"/><s n="loc"/></l> <r>Hebron<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Hebrón<s n="np"/><s n="loc"/></l> <r>Hebron<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>hecatombe<s n="n"/></i></e>
 <e>       <p><l>hectárea<s n="n"/></l>            <r>hectàrea<s n="n"/></r></p></e>
 <e>       <p><l>Hèctor<s n="np"/></l>             <r>Hèctor<s n="np"/></r></p></e>
@@ -10972,7 +10976,7 @@
 <e>       <i>marginar<s n="vblex"/></i></e>
 <e>       <p><l>marginado<s n="adj"/></l>         <r>marginat<s n="adj"/></r></p></e>
 <e>       <i>Mariana<s n="np"/></i></e>
-<e>       <p><l>Marianas<s n="np"/><s n="loc"/></l><r>Mariannes<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Marianas<s n="np"/><s n="loc"/></l><r>Mariannes<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Mariano<s n="np"/></i></e>
 <e>       <i>Maria<s n="np"/><s n="ant"/></i></e>
 <e>       <i>María<s n="np"/></i></e>
@@ -11067,7 +11071,8 @@
 <e>       <i>Medina<s n="np"/></i></e>
 <e>       <p><l>meditación<s n="n"/></l>          <r>meditació<s n="n"/></r></p></e>
 <e>       <p><l>mediterráneo<s n="adj"/></l>      <r>mediterrani<s n="adj"/></r></p></e>
-<e r="RL"><p><l>Mediterráneo<s n="np"/><s n="loc"/></l><r>Mediterrània<s n="np"/><s n="loc"/></r></p></e>
+<e r="RL"><p><l>Mediterráneo<s n="np"/><s n="loc"/></l><r>Mediterrània<s n="np"/><s n="top"/></r></p></e>
+<e r="RL"><p><l>el<b/>Mediterráneo<s n="np"/><s n="loc"/></l><r>la<b/>Mediterrània<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Mediterráneo<s n="np"/></l>       <r>Mediterrani<s n="np"/></r></p></e>
 <e>       <p><l>megáfono<s n="n"/></l>            <r>megàfon<s n="n"/></r></p></e>
 <e>       <i>mega<s n="n"/></i></e>
@@ -11129,7 +11134,7 @@
 <e>       <i>Mila<s n="np"/></i></e>
 <e>       <i>Milá<s n="np"/><s n="ant"/></i></e>
 <e>       <i>Milà<s n="np"/><s n="al"/></i></e>
-<e>       <p><l>Milán<s n="np"/><s n="loc"/></l>  <r>Milà<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Milán<s n="np"/><s n="loc"/></l>  <r>Milà<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Milena<s n="np"/></i></e>
 <e>       <p><l>millonario<s n="adj"/></l>        <r>milionari<s n="adj"/></r></p></e>
 <e>       <p><l>millonario<s n="n"/></l>          <r>milionari<s n="n"/></r></p></e>
@@ -11254,7 +11259,7 @@
 <e>       <p><l>mortalidad<s n="n"/></l>          <r>mortalitat<s n="n"/></r></p></e>
 <e r="LR"><p><l>almirez<s n="n"/></l>             <r>morter<s n="n"/></r></p></e>
 <e>       <p><l>mortero<s n="n"/></l>             <r>morter<s n="n"/></r></p></e>
-<e>       <p><l>Moscova<s n="np"/><s n="loc"/></l><r>Moskva<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Moscova<s n="np"/><s n="loc"/></l><r>Moskva<s n="np"/><s n="top"/></r></p></e>
 <e c="perquè no tradueixi malament els Mossos"><p><l>bocado<s n="n"/><s n="m"/><s n="sg"/></l><r>mos<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>bocado<s n="n"/><s n="m"/><s n="pl"/></l><r>bocada<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>bocado<s n="n"/><s n="m"/><s n="sg"/></l><r>bocada<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -11292,7 +11297,7 @@
 <e>       <i>mural<s n="adj"/></i></e>
 <e>       <i>mural<s n="n"/></i></e>
 <e>       <i>Murcia<s n="np"/><s n="ant"/></i></e>
-<e>       <p><l>Murcia<s n="np"/><s n="loc"/></l> <r>Múrcia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Murcia<s n="np"/><s n="loc"/></l> <r>Múrcia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>murciano<s n="adj"/></l>          <r>murcià<s n="adj"/></r></p></e>
 <e>       <i>Murillo<s n="np"/></i></e>
 <e>       <i>Mur<s n="np"/></i></e>
@@ -11535,7 +11540,8 @@
 <e>       <p><l>originalidad<s n="n"/></l>        <r>originalitat<s n="n"/></r></p></e>
 <e>       <p><l>originario<s n="adj"/></l>        <r>originari<s n="adj"/></r></p></e>
 <e>       <i>orina<s n="n"/></i></e>
-<e>       <p><l>Orihuela<s n="np"/></l>           <r>Oriola<s n="np"/></r></p></e>
+<e>       <p><l>Orihuela<s n="np"/><s n="loc"/></l><r>Oriola<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Oriola<s n="np"/><s n="cog"/></l><r>Oriola<s n="np"/><s n="cog"/></r></p></e>
 <e r="LR"><i>Oriola<s n="np"/></i></e>
 <e>       <i>Oriol<s n="np"/></i></e>
 <e>       <p><l>orografía<s n="n"/></l>           <r>orografia<s n="n"/></r></p></e>
@@ -11917,7 +11923,6 @@
 <e>       <i>pirata<s n="n"/></i></e>
 <e>       <p><l>piratear<s n="vblex"/></l>        <r>piratejar<s n="vblex"/></r></p></e>
 <e>       <p><l>piratería<s n="n"/></l>           <r>pirateria<s n="n"/></r></p></e>
-<e>       <p><l>Pirineo<s n="np"/><s n="loc"/></l><r>Pirineus<s n="np"/><s n="loc"/></r></p></e>
 <e>       <p><l>pirotecnia<s n="n"/></l>          <r>pirotècnia<s n="n"/></r></p></e>
 <e>       <p><l>pirotécnico<s n="adj"/></l>       <r>pirotècnic<s n="adj"/></r></p></e>
 <e>       <i>pita<s n="n"/></i></e>
@@ -12788,7 +12793,7 @@
 <e>       <i>Sagrera<s n="np"/><s n="loc"/></i></e>
 <e r="LR"><i>Sagunt<s n="np"/></i></e>
 <e>       <p><l>Sagunto<s n="np"/></l>            <r>Sagunt<s n="np"/></r></p></e>
-<e>       <p><l>Sáhara<s n="np"/><s n="loc"/></l> <r>Sàhara<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Sáhara<s n="np"/><s n="loc"/></l> <r>Sàhara<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Sainz<s n="np"/></i></e>
 <e>       <i>Saiz<s n="np"/></i></e>
 <e>       <i>Salamanca<s n="np"/></i></e>
@@ -12974,7 +12979,7 @@
 <e>       <p><l>sinuoso<s n="adj"/></l>           <r>sinuós<s n="adj"/></r></p></e>
 <e r="LR"><p><l>jibia<s n="n"/></l>               <r>sípia<s n="n"/></r></p></e>
 <e r="RL"><p><l>sepia<s n="n"/></l>               <r>sípia<s n="n"/></r></p></e>
-<e>       <p><l>Siria<s n="np"/><s n="loc"/></l>  <r>Síria<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Siria<s n="np"/><s n="loc"/></l>  <r>Síria<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>seísmo<s n="n"/></l>              <r>sisme<s n="n"/></r></p></e>
 <e r="LR"><p><l>por<b/>sistema<s n="adv"/></l>    <r>sistemàticament<s n="adv"/></r></p></e>
 <e>       <p><l>sistemáticamente<s n="adv"/></l>  <r>sistemàticament<s n="adv"/></r></p></e>
@@ -13010,7 +13015,7 @@
 <e>       <p><l>socorrer<s n="vblex"/></l>        <r>socórrer<s n="vblex"/></r></p></e>
 <e>       <p><l>sodio<s n="n"/></l>               <r>sodi<s n="n"/></r></p></e>
 <e>       <i>Sofia<s n="np"/><s n="ant"/></i></e>
-<e>       <p><l>Sofía<s n="np"/><s n="loc"/></l>  <r>Sofia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Sofía<s n="np"/><s n="loc"/></l>  <r>Sofia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>sufridor<s n="adj"/></l>          <r>sofridor<s n="adj"/></r></p></e>
 <e>       <p><l>suegro<s n="n"/><s n="m"/><s n="sg"/></l><r>sogre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>suegro<s n="n"/><s n="f"/><s n="sg"/></l><r>sogre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -13051,7 +13056,7 @@
 <e>       <p><l>sórdido<s n="adj"/></l>           <r>sòrdid<s n="adj"/></r></p></e>
 <e>       <i>Soriano<s n="np"/></i></e>
 <e>       <i>Soria<s n="np"/><s n="al"/></i></e>
-<e>       <p><l>Soria<s n="np"/><s n="loc"/></l>  <r>Sòria<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Soria<s n="np"/><s n="loc"/></l>  <r>Sòria<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Soro<s n="np"/></i></e>
 <e r="LR"><p><l>asombrosamente<s n="adv"/></l>    <r>sorprenentment<s n="adv"/></r></p></e>
 <e>       <p><l>sorprendentemente<s n="adv"/></l> <r>sorprenentment<s n="adv"/></r></p></e>
@@ -13123,7 +13128,7 @@
 <e>       <p><l>suculento<s n="adj"/></l>         <r>suculent<s n="adj"/></r></p></e>
 <e>       <i>sucumbir<s n="vblex"/></i></e>
 <e>       <p><l>Sudáfrica<s n="np"/></l>          <r>Sud-àfrica<s n="np"/></r></p></e>
-<e>       <p><l>Suráfrica<s n="np"/><s n="loc"/></l><r>Sud-àfrica<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Suráfrica<s n="np"/><s n="loc"/></l><r>Sud-àfrica<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>sudamericano<s n="adj"/></l>      <r>sud-americà<s n="adj"/></r></p></e>
 <e r="LR"><p><l>suramericano<s n="adj"/></l>      <r>sud-americà<s n="adj"/></r></p></e>
 <e>       <p><l>sudamericano<s n="n"/></l>        <r>sud-americà<s n="n"/></r></p></e>
@@ -13307,7 +13312,7 @@
 <e>       <i>terrenal<s n="adj"/></i></e>
 <e>       <i>territorial<s n="adj"/></i></e>
 <e>       <i>Teruel<s n="np"/><s n="ant"/></i></e>
-<e>       <p><l>Teruel<s n="np"/><s n="loc"/></l> <r>Terol<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Teruel<s n="np"/><s n="loc"/></l> <r>Terol<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>testamento<s n="n"/></l>          <r>testament<s n="n"/></r></p></e>
 <e>       <p><l>atestiguar<s n="vblex"/></l>      <r>testificar<s n="vblex"/></r></p></e>
 <e srl="test D"><i>test<s n="n"/></i></e>
@@ -13364,7 +13369,7 @@
 <e>       <p><l>tonalidad<s n="n"/></l>           <r>tonalitat<s n="n"/></r></p></e>
 <e>       <p><l>tónico<s n="adj"/></l>            <r>tònic<s n="adj"/></r></p></e>
 <e>       <p><l>Tokyo<s n="np"/></l>              <r>Tòquio<s n="np"/></r></p></e>
-<e r="LR"><p><l>Tokio<s n="np"/><s n="loc"/></l>  <r>Tòquio<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Tokio<s n="np"/><s n="loc"/></l>  <r>Tòquio<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>ventisca<s n="n"/><s n="f"/></l>  <r>torb<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>torero<s n="n"/></i></e>
 <e>       <p><l>Turín<s n="np"/></l>              <r>Torí<s n="np"/></r></p></e>
@@ -13547,7 +13552,7 @@
 <e>       <p><l>vagón<s n="n"/></l>               <r>vagó<s n="n"/></r></p></e>
 <e>       <p><l>vajilla<s n="n"/></l>             <r>vaixella<s n="n"/></r></p></e>
 <e>       <i>Valdés<s n="np"/></i></e>
-<e>       <p><l>Valencia<s n="np"/><s n="loc"/></l><r>València<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Valencia<s n="np"/><s n="loc"/></l><r>València<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><i>València<s n="np"/></i></e>
 <e>       <p><l>valentía<s n="n"/></l>            <r>valentia<s n="n"/></r></p></e>
 <e>       <i>Valentín<s n="np"/></i></e>
@@ -13831,7 +13836,7 @@
 <e>       <p><l>chileno<s n="n"/></l>             <r>xilè<s n="n"/></r></p></e>
 <e>       <p><l>Chile<s n="np"/></l>              <r>Xile<s n="np"/></r></p></e>
 <e>       <p><l>tontería<s n="n"/></l>            <r>ximpleria<s n="n"/></r></p></e>
-<e>       <p><l>China<s n="np"/><s n="loc"/></l>  <r>Xina<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>China<s n="np"/><s n="loc"/></l>  <r>Xina<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>chip<s n="n"/></l>                <r>xip<s n="n"/></r></p></e>
 <e>       <p><l>ciprés<s n="n"/></l>              <r>xiprer<s n="n"/></r></p></e>
 <e r="LR"><p><l>Chirivella<s n="np"/></l>         <r>Xirivella<s n="np"/></r></p></e>
@@ -13855,7 +13860,7 @@
 <e>       <i>Zapatero<s n="np"/><s n="ant"/></i></e>
 <e>       <i>Zaplana<s n="np"/></i></e>
 <e>       <i>Zaragoza<s n="np"/><s n="ant"/></i></e>
-<e>       <p><l>Zaragoza<s n="np"/><s n="loc"/></l><r>Saragossa<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Zaragoza<s n="np"/><s n="loc"/></l><r>Saragossa<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Zaragozá<s n="np"/></i></e>
 <e>       <p><l>cebra<s n="n"/></l>               <r>zebra<s n="n"/></r></p></e>
 <e>       <i>Zeta<s n="np"/></i></e>
@@ -13919,7 +13924,7 @@
 <e a="mginesti"><p><l>Lima<s n="np"/></l>         <r>Lima<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Próximo<b/>Oriente<s n="np"/></l><r>Pròxim<b/>Orient<s n="np"/></r></p></e>
 <e>       <p><l>Oriente<b/>Medio<s n="np"/></l>   <r>Orient<b/>Mitjà<s n="np"/></r></p></e>
-<e a="mginesti"><p><l>Marruecos<s n="np"/><s n="loc"/></l>    <r>el<b/>Marroc<s n="np"/><s n="loc"/></r></p></e>
+<e a="mginesti"><p><l>Marruecos<s n="np"/><s n="loc"/></l>    <r>el<b/>Marroc<s n="np"/><s n="top"/></r></p></e>
 <e r="RL" a="mginesti"><p><l>Marruecos<s n="np"/></l><r>Marroc<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Frankfurt<s n="np"/></l>    <r>Frankfurt<s n="np"/></r></p></e>
 <e a="mginesti"><p><l>Navarra<s n="np"/></l>      <r>Navarra<s n="np"/></r></p></e>
@@ -14039,8 +14044,8 @@
 <e>       <i>UVic<s n="n"/></i></e>
 <e>       <i>UdG<s n="n"/></i></e>
 <e>       <i>UdL<s n="n"/></i></e>
-<e>       <p><l>Irak<s n="np"/><s n="loc"/></l>   <r>l'Iraq<s n="np"/><s n="loc"/></r></p></e>
-<e r="LR"><p><l>Iraq<s n="np"/><s n="loc"/></l>   <r>l'Iraq<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Irak<s n="np"/><s n="loc"/></l>   <r>l'Iraq<s n="np"/><s n="top"/></r></p></e>
+<e r="LR"><p><l>Iraq<s n="np"/><s n="loc"/></l>   <r>l'Iraq<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>Gelabert<s n="np"/></i></e>
 <e>       <i>Valle<s n="np"/></i></e>
 <e>       <i>Solé<s n="np"/></i></e>
@@ -14204,9 +14209,9 @@
 <e a="gema"><p><l>a<b/>su<b/>vez<s n="adv"/></l>  <r>al<b/>seu<b/>torn<s n="adv"/></r></p></e>
 <e a="gema"><p><l>San<b/>José<s n="np"/></l>      <r>San<b/>José<s n="np"/></r></p></e>
 <e>       <p><l>San<b/>Juan<s n="np"/><s n="al"/></l>        <r>Sant<b/>Joan<s n="np"/><s n="al"/></r></p></e>
-<e>       <p><l>Sant<b/>Joan<s n="np"/><s n="loc"/></l>        <r>Sant<b/>Joan<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Sant<b/>Joan<s n="np"/><s n="loc"/></l>        <r>Sant<b/>Joan<s n="np"/><s n="top"/></r></p></e>
 <e a="gema"><p><l>con<b/>creces<s n="adv"/></l>   <r>amb<b/>escreix<s n="adv"/></r></p></e>
-<e a="gema"><p><l>Los<b/>Ángeles<s n="np"/><s n="loc"/></l><r>Los<b/>Angeles<s n="np"/><s n="loc"/></r></p></e>
+<e a="gema"><p><l>Los<b/>Ángeles<s n="np"/><s n="loc"/></l><r>Los<b/>Angeles<s n="np"/><s n="top"/></r></p></e>
 <e a="gema"><p><l>santo<b/>y<b/>seña<s n="n"/></l><r>sant<b/>i<b/>senya<s n="n"/></r></p></e>
 <e a="gema"><p><l>de<b/>este<b/>modo<s n="adv"/></l><r>d'aquesta<b/>manera<s n="adv"/></r></p></e>
 <e a="gema"><p><l>de<b/>una<b/>vez<b/>por<b/>todas<s n="adv"/></l><r>d'una<b/>vegada<b/>per<b/>sempre<s n="adv"/></r></p></e>
@@ -14816,7 +14821,7 @@
 <e r="RL"><p><l>mención<s n="n"/></l>             <r>menció<s n="n"/></r></p></e>
 <e>       <p><l>mismo<s n="adv"/></l>             <r>mateix<s n="adv"/></r></p></e>
 <e>       <p><l>marcado<s n="adj"/></l>           <r>marcat<s n="adj"/></r></p></e>
-<e>       <p><l>León<s n="np"/><s n="loc"/></l>   <r>Lleó<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>León<s n="np"/><s n="loc"/></l>   <r>Lleó<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>litigio<s n="n"/></l>             <r>litigi<s n="n"/></r></p></e>
 <e>       <p><l>intelectual<s n="n"/></l>         <r>intel·lectual<s n="n"/></r></p></e>
 <e>       <p><l>influyente<s n="adj"/></l>        <r>influent<s n="adj"/></r></p></e>
@@ -19659,7 +19664,7 @@
 <e a="prompsit2adn"><p><l>Boston<s n="np"/></l>   <r>Boston<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Scotland<s n="np"/></l> <r>Scotland<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Rangún<s n="np"/></l>   <r>Yangon<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Marbella<s n="np"/><s n="loc"/></l> <r>Marbella<s n="np"/><s n="loc"/></r></p></e>
+<e a="prompsit2adn"><p><l>Marbella<s n="np"/><s n="loc"/></l> <r>Marbella<s n="np"/><s n="top"/></r></p></e>
 <e a="prompsit2adn"><p><l>Huesca<s n="np"/></l>   <r>Osca<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Peloponeso<s n="np"/></l><r>Peloponeso<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Talmacsi<s n="np"/></l> <r>Talmacsi<s n="np"/></r></p></e>
@@ -19697,7 +19702,7 @@
 <e a="prompsit2adn"><p><l>Sumatra<s n="np"/></l>  <r>Sumatra<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Kandahar<s n="np"/></l> <r>Kandahar<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Birmingham<s n="np"/></l><r>Birmingham<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Atocha<s n="np"/><s n="loc"/></l>   <r>Atocha<s n="np"/><s n="loc"/></r></p></e>
+<e a="prompsit2adn"><p><l>Atocha<s n="np"/><s n="loc"/></l>   <r>Atocha<s n="np"/><s n="top"/></r></p></e>
 <e a="prompsit2adn"><p><l>Módena<s n="np"/></l>   <r>Mòdena<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Leganés<s n="np"/></l>  <r>Leganés<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Barak<s n="np"/></l>    <r>Barak<s n="np"/></r></p></e>
@@ -19705,7 +19710,7 @@
 <e a="prompsit2adn"><p><l>Hebron<s n="np"/></l>   <r>Hebron<s n="np"/></r></p></e>
 <e r="RL" a="prompsit2adn"><p><l>Montreal<s n="np"/></l><r>Montreal<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Memphis<s n="np"/></l>  <r>Memphis<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Delphi<s n="np"/><s n="loc"/></l>   <r>Delphi<s n="np"/><s n="loc"/></r></p></e>
+<e a="prompsit2adn"><p><l>Delphi<s n="np"/><s n="loc"/></l>   <r>Delphi<s n="np"/><s n="top"/></r></p></e>
 <e a="prompsit2adn"><p><l>Berlín<s n="np"/></l>   <r>Berlín<s n="np"/></r></p></e>
 <e a="prompsit2adn" r="RL"><p><l>Ramala<s n="np"/></l>   <r>Ramala<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Myanmar<s n="np"/></l>  <r>Myanmar<s n="np"/></r></p></e>
@@ -20161,503 +20166,504 @@
 <e>       <p><l>suní<s n="n"/></l>                <r>sunnita<s n="n"/></r></p></e>
 <e>       <p><l>suní<s n="adj"/></l>              <r>sunnita<s n="adj"/></r></p></e>
 <e>       <p><l>maillot<s n="n"/></l>             <r>mallot<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>Abiyán<s n="np"/></l>       <r>Abidjan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Abuya<s n="np"/></l>        <r>Abuja<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Accra<s n="np"/></l>        <r>Accra<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aconcagua<s n="np"/></l>    <r>Aconcagua<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Adís<b/>Abeba<s n="np"/></l><r>Addis<b/>Abeba<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Adelaida<s n="np"/><s n="loc"/></l><r>Adelaide<s n="np"/><s n="loc"/></r></p></e>
-<e a="prompsit"><p><l>Agadir<s n="np"/></l>       <r>Agadir<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Agrigento<s n="np"/></l>    <r>Agrigent<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ajaccio<s n="np"/></l>      <r>Ajaccio<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Alabama<s n="np"/></l>      <r>Alabama<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Åland<s n="np"/></l>        <r>Aland<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Alberta<s n="np"/></l>      <r>Alberta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Alepo<s n="np"/></l>        <r>Alep<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Alessandria<s n="np"/></l>  <r>Alessandria<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Alguer<s n="np"/></l>       <r>L'Alguer<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Alpes<s n="np"/></l>        <r>Alps<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Altai<s n="np"/></l>        <r>Altai<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Amiens<s n="np"/></l>       <r>Amiens<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ammán<s n="np"/></l>        <r>Amman<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ancona<s n="np"/></l>       <r>Ancona<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Andorra<b/>la<b/>Vieja<s n="np"/></l><r>Andorra<b/>la<b/>Vella<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Andraitx<s n="np"/></l>     <r>Andratx<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Angers<s n="np"/></l>       <r>Angers<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Angola<s n="np"/></l>       <r>Angola<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Anguila<s n="np"/></l>      <r>Anguilla<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Anjou<s n="np"/></l>        <r>Anjou<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Annecy<s n="np"/></l>       <r>Annecy<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>An-shan<s n="np"/></l>      <r>Anshan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Antananarivo<s n="np"/></l> <r>Antananarivo<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Antigua<b/>y<b/>Barbuda<s n="np"/></l><r>Antigua<b/>i<b/>Barbuda<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Antillas<s n="np"/></l>     <r>Antilles<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aosta<s n="np"/></l>        <r>Aosta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Apeninos<s n="np"/></l>     <r>Apenins<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Apia<s n="np"/></l>         <r>Apia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Arboç<s n="np"/></l>        <r>Arboç<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Archipiélago<b/>de<b/>Hawái<s n="np"/></l><r>Illes<b/>Sandwich<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ardèche<s n="np"/></l>      <r>Ardecha<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Argos<s n="np"/></l>        <r>Argos<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Arkansas<s n="np"/></l>     <r>Arkansas<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Artois<s n="np"/></l>       <r>Artois<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aruba<s n="np"/></l>        <r>Aruba<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Asmara<s n="np"/></l>       <r>Asmara<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aqmola<s n="np"/></l>       <r>Aqmola<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Astaná<s n="np"/></l>       <r>Astanà<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Asti<s n="np"/></l>         <r>Asti<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Atlanta<s n="np"/></l>      <r>Atlanta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Auckland<s n="np"/></l>     <r>Auckland<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aude<s n="np"/></l>         <r>Aude<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Augsburgo<s n="np"/></l>    <r>Augsburg<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Auxerre<s n="np"/></l>      <r>Auxerre<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aveyron<s n="np"/></l>      <r>Avairon<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Azerbaiyán<s n="np"/></l>   <r>Azerbaidjan<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Azerbaiyán<s n="np"/></l><r>Azerbaitjan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Baalbek<s n="np"/></l>      <r>Baalbek<s n="np"/></r></p></e>
-<e a="prompsit" r="LR"><p><l>Bañolas<s n="np"/></l>      <r>Banyoles<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bahía<b/>de<b/>Baffin<s n="np"/></l><r>badia<b/>de<b/>Baffin<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bahía<b/>de<b/>Bengala<s n="np"/></l><r>golf<b/>de<b/>Bengala<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bahamas<s n="np"/></l>      <r>Bahames<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Baja<b/>Navarra<s n="np"/></l><r>Baixa<b/>Navarra<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Balaguer<s n="np"/></l>     <r>Balaguer<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Baltimore<s n="np"/></l>    <r>Baltimore<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bamako<s n="np"/></l>       <r>Bamako<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bandar<b/>Seri<b/>Begawan<s n="np"/></l><r>Bandar<b/>Seri<b/>Begawan<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Bangladesh<s n="np"/></l><r>Bangla<b/>Desh<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bangui<s n="np"/></l>       <r>Bangui<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Banjul<s n="np"/></l>       <r>Banjul<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Barbados<s n="np"/></l>     <r>Barbados<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Barceloneta<s n="np"/></l>  <r>Barceloneta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bari<s n="np"/></l>         <r>Bari<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Basilea<s n="np"/></l>      <r>Basilea<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Basilicata<s n="np"/></l>   <r>Basilicata<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Basseterre<s n="np"/></l>   <r>Basseterre<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bastia<s n="np"/></l>       <r>Bastia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bausén<s n="np"/></l>       <r>Bausén<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Baviera<s n="np"/></l>      <r>Baviera<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>BCN<s n="np"/></l>          <r>BCN<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bearn<s n="np"/></l>        <r>Bearn<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Belfast<s n="np"/></l>      <r>Belfast<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Belfort<s n="np"/></l>      <r>Belfort<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Belice<s n="np"/></l>       <r>Belize<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Belmopán<s n="np"/></l>     <r>Belmopan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Belo<b/>Horizonte<s n="np"/></l><r>Belo<b/>Horizonte<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Benevento<s n="np"/></l>    <r>Benevent<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bengaluru<s n="np"/></l>    <r>Bangalore<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Berga<s n="np"/></l>        <r>Berga<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bermudas<s n="np"/></l>     <r>Bermudes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bigorra<s n="np"/></l>      <r>Bigorra<s n="np"/></r></p></e>
-<e a="prompsit" r="LR"><p><l>Borjas<b/>Blancas<s n="np"/></l><r>les<b/>Borges<b/>Blanques<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Botsuana<s n="np"/></l>     <r>Botswana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Broadway<s n="np"/></l>     <r>Broadway<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Brunéi<s n="np"/></l>       <r>Brunei<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Buenos<b/>Aires<s n="np"/></l><r>Buenos<b/>Aires<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Burdeos<s n="np"/></l>      <r>Bordeus<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Burkina<b/>Faso<s n="np"/></l><r>Burkina<b/>Faso<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Burundi<s n="np"/></l>      <r>Burundi<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bután<s n="np"/></l>        <r>Bhutan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Cachemira<s n="np"/></l>    <r>Caixmir<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Calais<s n="np"/></l>       <r>Calais<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Camboya<s n="np"/></l>      <r>Cambodja<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Canejan<s n="np"/></l>      <r>Canejan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Cantal<s n="np"/></l>       <r>Cantal<s n="np"/></r></p></e>
-<e a="prompsit" r="LR"><p><l>Carcagente<s n="np"/></l>   <r>Carcaixent<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Carcasona<s n="np"/></l>    <r>Carcassona<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Casablanca<s n="np"/></l>   <r>Casablanca<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Castellar<s n="np"/></l>    <r>Castellar<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Catral<s n="np"/></l>       <r>Catral<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Cerdaña<s n="np"/></l>      <r>Cerdanya<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Chaparral<s n="np"/></l>    <r>Garriga<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Charente<s n="np"/></l>     <r>Charanta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Clermont-Ferrand<s n="np"/></l><r>Clarmont<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Cleveland<s n="np"/></l>    <r>Cleveland<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Comoras<s n="np"/></l>      <r>Comores<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Conflent<s n="np"/></l>     <r>Conflent<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Corrèze<s n="np"/></l>      <r>Corresa<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Costa<b/>de<b/>Marfil<s n="np"/></l><r>Costa<b/>d'Ivori<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Cuneo<s n="np"/></l>        <r>Cuneo<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Delfinado<s n="np"/></l>    <r>Delfinat<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Dordoña<s n="np"/></l>      <r>Dordonya<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Doubs<s n="np"/></l>        <r>Doubs<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Edirne<s n="np"/></l>       <r>Edirne<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>El<b/>Cairo<s n="np"/></l>  <r>el<b/>Caire<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Eritrea<s n="np"/></l>      <r>Eritrea<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Eure<s n="np"/></l>         <r>Eure<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Fiyi<s n="np"/></l>         <r>Fiji<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Fossar<b/>de<b/>les<b/>Moreres<s n="np"/></l><r>Fossar<b/>de<b/>les<b/>Moreres<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Gabón<s n="np"/></l>        <r>Gabon<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Gard<s n="np"/></l>         <r>Gard<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Garona<s n="np"/></l>       <r>Garona<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Gers<s n="np"/></l>         <r>Gers<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Gironda<s n="np"/></l>      <r>Gironda<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Gironella<s n="np"/></l>    <r>Gironella<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Guam<s n="np"/></l>         <r>Guam<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Guayana<s n="np"/></l>      <r>Guaiana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Guernsey<s n="np"/></l>     <r>Guernsey<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Guinea<b/>Ecuatorial<s n="np"/></l><r>Guinea<b/>Equatorial<s n="np"/></r></p></e>
-<e a="prompsit" r="RL"><p><l>Guinea-Bissau<s n="np"/></l><r>Guinea-Bissau<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Guyana<s n="np"/></l>       <r>Guyana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Guyena<s n="np"/></l>       <r>Guiena<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Hamburgo<s n="np"/></l>     <r>Hamburg<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Hérault<s n="np"/></l>      <r>Erau<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Herzegovina<s n="np"/></l>  <r>Hercegovina<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Honduras<s n="np"/></l>     <r>Hondures<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Hostafrancs<s n="np"/></l>  <r>Hostafrancs<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Isla<b/>Bouvet<s n="np"/></l><r>Bouvet<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Isla<b/>de<b/>Man<s n="np"/></l><r>Illa<b/>de<b/>Man<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Isla<b/>de<b/>Navidad<s n="np"/></l><r>Illa<b/>Christmas<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Isla<b/>Norfolk<s n="np"/></l><r>Illa<b/>Norfolk<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Islas<b/>Andamán<b/>y<b/>Nicobar<s n="np"/></l><r>illes<b/>Andaman<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Islas<b/>Baleares<s n="np"/></l><r>Illes<b/>Balears<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Islas<b/>Caimán<s n="np"/></l><r>Illes<b/>Caiman<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Islas<b/>Cocos<s n="np"/></l><r>Illes<b/>Cocos<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Islas<b/>Cook<s n="np"/></l><r>Illes<b/>Cook<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Islas<b/>Marianas<b/>del<b/>Norte<s n="np"/></l><r>Illes<b/>Marianes<b/>del<b/>Nord<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Islas<b/>Marshall<s n="np"/></l><r>Illes<b/>Marshall<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Islas<b/>Turcas<b/>y<b/>Caicos<s n="np"/></l><r>Illes<b/>Turks<b/>i<b/>Caicos<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Jan<b/>Mayen<s n="np"/></l> <r>Jan<b/>Mayen<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Jersey<s n="np"/></l>       <r>Jersey<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Kazajistán<s n="np"/></l>   <r>Kazakhstan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Kirguistán<s n="np"/></l>   <r>Kirguizistan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Kiribati<s n="np"/></l>     <r>Kiribati<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Kuwait<s n="np"/></l>       <r>Kuwait<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>La<b/>Bonaigua<s n="np"/></l><r>Bonaigua<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>La<b/>Haya<s n="np"/></l>   <r>L'Haia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Lago<b/>Baikal<s n="np"/></l><r>llac<b/>Baikal<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Landas<s n="np"/></l>       <r>Landes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Languedoc<s n="np"/></l>    <r>Llenguadoc<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Laos<s n="np"/></l>         <r>Laos<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Lesoto<s n="np"/></l>       <r>Lesotho<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Liechtenstein<s n="np"/></l><r>Liechtenstein<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Limoges<s n="np"/></l>      <r>Llemotges<s n="np"/></r></p></e>
-<e a="prompsit" r="LR"><p><l>Lluchmayor<s n="np"/></l>   <r>Llucmajor<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Loiret<s n="np"/></l>       <r>Loiret<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Lozère<s n="np"/></l>       <r>Losera<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Macao<s n="np"/></l>        <r>Macau<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Malawi<s n="np"/></l>       <r>Malawi<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Maldivas<s n="np"/></l>     <r>Maldives<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mar<b/>de<b/>Aral<s n="np"/></l><r>mar<b/>d'Aral<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mar<b/>de<b/>Azov<s n="np"/></l><r>mar<b/>d'Azov<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mar<b/>de<b/>Barents<s n="np"/></l><r>mar<b/>de<b/>Barents<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mar<b/>de<b/>Beaufort<s n="np"/></l><r>mar<b/>de<b/>Beaufort<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Maresme<s n="np"/></l>      <r>Maresme<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Martinica<s n="np"/></l>    <r>Martinica<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mayotte<s n="np"/></l>      <r>Mayotte<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Melbourne<s n="np"/></l>    <r>Melbourne<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Meridiana<s n="np"/></l>    <r>Meridiana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Midi<s n="np"/></l>         <r>Midi<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Montardo<s n="np"/></l>     <r>Montardo<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Montgarri<s n="np"/></l>    <r>Montgarri<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Montpellier<s n="np"/></l>  <r>Montpeller<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Muret<s n="np"/></l>        <r>Muret<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Naupacto<s n="np"/></l>     <r>Lepant<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Nauru<s n="np"/></l>        <r>Nauru<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Naut<b/>Aran<s n="np"/></l> <r>Naut<b/>Aran<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aran<s n="np"/></l>         <r>Aran<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Valle<b/>de<b/>Aran<s n="np"/></l><r>Vall<b/>d'Aran<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Valle<b/>de<b/>Aran<s n="np"/></l><r>Val<b/>d'Aran<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Nimes<s n="np"/></l>        <r>Nimes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Niue<s n="np"/></l>         <r>Niue<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Noguera<s n="np"/></l>      <r>Noguera<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Normandía<s n="np"/></l>    <r>Normandia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Nueva<b/>York<s n="np"/></l><r>Nova<b/>York<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Oise<s n="np"/></l>         <r>Oise<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Olot<s n="np"/></l>         <r>Olot<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Omán<s n="np"/></l>         <r>Oman<s n="np"/></r></p></e>
-<e a="prompsit" r="LR"><p><l>Onteniente<s n="np"/></l>   <r>Ontinyent<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Orleans<s n="np"/></l>      <r>Orleans<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Palafrugell<s n="np"/></l>  <r>Palafrugell<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Pallars<s n="np"/></l>      <r>Pallars<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Papúa<b/>Nueva<b/>Guinea<s n="np"/></l><r>Papua<b/>Nova<b/>Guinea<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Peralada<s n="np"/></l>     <r>Peralada<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Piamonte<s n="np"/></l>     <r>Piemont<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Pico<b/>Aneto<s n="np"/></l><r>pic<b/>d'Aneto<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Poblenou<s n="np"/></l>     <r>Poblenou<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Portbou<s n="np"/></l>      <r>Portbou<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Portland<s n="np"/></l>     <r>Portland<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Prades<s n="np"/></l>       <r>Prada<b/>de<b/>Conflent<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Puerto<b/>Rico<s n="np"/></l><r>Puerto<b/>Rico<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Quebec<s n="np"/></l>       <r>Quebec<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ripollet<s n="np"/></l>     <r>Ripollet<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ruda<s n="np"/></l>         <r>Ruda<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Saboya<s n="np"/></l>       <r>Savoia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Safor<s n="np"/></l>        <r>Safor<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Salzburgo<s n="np"/></l>    <r>Salzburg<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Samoa<s n="np"/></l>        <r>Samoa<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Sarthe<s n="np"/></l>       <r>Sarthe<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Seychelles<s n="np"/></l>   <r>Seychelles<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Sierra<b/>Leona<s n="np"/></l><r>Sierra<b/>Leone<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Surinam<s n="np"/></l>      <r>Surinam<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Svalbard<s n="np"/></l>     <r>Svalbard<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Tarn<s n="np"/></l>         <r>Tarn<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Tayikistán<s n="np"/></l>   <r>Tadjikistan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Tibidabo<s n="np"/></l>     <r>Tibidabo<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Timor<b/>Oriental<s n="np"/></l><r>Timor-Leste<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Timor<s n="np"/></l>        <r>Timor<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Togo<s n="np"/></l>         <r>Togo<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Tokelau<s n="np"/></l>      <r>Tokelau<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Tonga<s n="np"/></l>        <r>Tonga<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Toscana<s n="np"/></l>      <r>Toscana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Trento<s n="np"/></l>       <r>Trento<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Treviso<s n="np"/></l>      <r>Treviso<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Turkmenistán<s n="np"/></l> <r>Turkmenistan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Tuvalu<s n="np"/></l>       <r>Tuvalu<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Uganda<s n="np"/></l>       <r>Uganda<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Uzbekistán<s n="np"/></l>   <r>Uzbekistan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Valle<b/>de<b/>Aosta<s n="np"/></l><r>Vall<b/>d'Aosta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vanuatu<s n="np"/></l>      <r>Vanuatu<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Velay<s n="np"/></l>        <r>Velai<s n="np"/></r></p></e>
-<e r="LR" a="prompsit"><p><l>Vendrell<s n="np"/><s n="loc"/></l><r>el<b/>Vendrell<s n="np"/><s n="loc"/></r></p></e>
-<e a="prompsit"><p><l>El<b/>Vendrell<s n="np"/><s n="loc"/></l><r>el<b/>Vendrell<s n="np"/><s n="loc"/></r></p></e>
-<e a="prompsit"><p><l>Vosgos<s n="np"/></l>       <r>Vosges<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Wallis<b/>y<b/>Futuna<s n="np"/></l><r>Wallis<b/>i<b/>Futuna<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Yibuti<s n="np"/></l>       <r>Djibouti<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Yonne<s n="np"/></l>        <r>Yonne<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Zúrich<s n="np"/></l>       <r>Zuric<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Zona<b/>franca<s n="np"/></l><r>Zona<b/>Franca<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Azores<s n="np"/></l>      <r>Açores<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aberdeen<s n="np"/></l>     <r>Aberdeen<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Abruzos<s n="np"/></l>      <r>Abruços<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Acarnania<s n="np"/></l>    <r>Acarnània<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Adén<s n="np"/></l>         <r>Aden<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Adiguesia<s n="np"/></l>    <r>Adiguèsia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ahmedabad<s n="np"/></l>    <r>Ahmadabad<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aigüestortes<s n="np"/></l> <r>Aigüestortes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aiguamòg<s n="np"/></l>     <r>Aiguamòg<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aisne<s n="np"/></l>        <r>Ainé<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Alos<s n="np"/></l>         <r>Alos<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Albania<s n="np"/></l>      <r>Albània<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Almería<s n="np"/></l>      <r>Almeria<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Alsacia<s n="np"/></l>      <r>Alsàcia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Olt<s n="np"/></l>          <r>Òlt<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Auvernia<s n="np"/></l>     <r>Alvèrnia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Amalfi<s n="np"/></l>       <r>Amalfi<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>América<b/>Central<s n="np"/></l><r>Amèrica<b/>Central<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>América<b/>del<b/>Norte<s n="np"/></l><r>Amèrica<b/>del<b/>Nord<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Amazonia<s n="np"/></l>     <r>Amazònia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Anatólia<s n="np"/></l>     <r>Anatòlia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>India<s n="np"/></l>        <r>Índia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Àneu<s n="np"/></l>         <r>Àneu<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Antípodas<s n="np"/></l>    <r>Antípodes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Antártida<s n="np"/></l>    <r>Antàrtida<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Apalaches<s n="np"/></l>    <r>Apalatxes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aquisgrán<s n="np"/></l>    <r>Aquisgrà<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aquitania<s n="np"/></l>    <r>Aquitània<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Arcadia<s n="np"/></l>      <r>Arcàdia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ardenes<s n="np"/></l>      <r>Ardenes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Arenys<s n="np"/></l>       <r>Arenys<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ariège<s n="np"/></l>       <r>Arièja<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Armenia<s n="np"/></l>      <r>Armènia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Arnold<s n="np"/></l>       <r>Arnold<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Arró<s n="np"/></l>         <r>Arró<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Arrás<s n="np"/></l>        <r>Arràs<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ártica<s n="np"/></l>       <r>Àrtica<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Arties<s n="np"/></l>       <r>Arties<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Artiga<b/>de<b/>Lin<s n="np"/></l><r>Artiga<b/>de<b/>Lin<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Asís<s n="np"/></l>         <r>Assís<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Astrakhan<s n="np"/></l>    <r>Astrakhan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Asyut<s n="np"/></l>        <r>Asyut<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aubèrt<s n="np"/></l>       <r>Aubèrt<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Aussau<s n="np"/></l>       <r>Aussau<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bordes<s n="np"/></l>       <r>Bòrdes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bosnia<b/>y<b/>Herzegovina<s n="np"/></l><r>Bòsnia<b/>i<b/>Hercegovina<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bòssost<s n="np"/></l>      <r>Bòssost<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Baden-Wurttemberg<s n="np"/></l><r>Baden-Württemberg<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bagergue<s n="np"/></l>     <r>Bagergue<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Baja<b/>Sajonia<s n="np"/></l><r>Baixa<b/>Saxònia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bakú<s n="np"/></l>         <r>Bakú<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Balcanes<s n="np"/></l>     <r>Balcans<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Balmes<s n="np"/></l>       <r>Balmes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bandung<s n="np"/></l>      <r>Bandung<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Barbézieux<s n="np"/></l>   <r>Barbézieux<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Barcino<s n="np"/></l>      <r>Barcino<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Baricauba<s n="np"/></l>    <r>Baricauba<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Barletta<s n="np"/></l>     <r>Barletta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Barnaul<s n="np"/></l>      <r>Barnaul<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Beocia<s n="np"/></l>       <r>Beòcia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Belén<s n="np"/></l>        <r>Belém<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Benós<s n="np"/></l>        <r>Benós<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Benín<s n="np"/></l>        <r>Benín<s n="np"/></r></p></e>
-<e r="LR" a="prompsit"><p><l>Benarés<s n="np"/></l><r>Benarés<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Varanasi<s n="np"/></l>     <r>Benarés<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bengala<s n="np"/></l>      <r>Bengala<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bengasi<s n="np"/></l>      <r>Bengasi<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Beret<s n="np"/></l>        <r>Beret<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Betlan<s n="np"/></l>       <r>Betlan<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Betren<s n="np"/></l>       <r>Betren<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bielorrusia<s n="np"/></l>  <r>Bielorússia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Birmania<s n="np"/></l>     <r>Birmània<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Boí<s n="np"/></l>          <r>Boí<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bonanova<s n="np"/></l>     <r>Bonanova<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Borbonés<s n="np"/></l>     <r>Borbonès<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bordeta<s n="np"/></l>      <r>Bordeta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Borges<s n="np"/></l>       <r>Borges<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bossòst<s n="np"/></l>      <r>Bossòst<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Bracs<s n="np"/></l>        <r>Bracs<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Calabria<s n="np"/></l>     <r>Calàbria<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Caldes<s n="np"/></l>       <r>Caldes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Caledonia<s n="np"/></l>    <r>Caledònia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Campania<s n="np"/></l>     <r>Campània<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Canigó<s n="np"/></l>       <r>Canigó<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Can<b/>Tunis<s n="np"/></l> <r>Can<b/>Tunis<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Casau<s n="np"/></l>        <r>Casau<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Castellciutat<s n="np"/></l><r>Castellciutat<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Castièro<s n="np"/></l>     <r>Castièro<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Cedanya<s n="np"/></l>      <r>Cedanya<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ciutat<b/>Vella<s n="np"/></l><r>Ciutat<b/>Vella<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Collegats<s n="np"/></l>    <r>Collegats<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Collserola<s n="np"/></l>   <r>Collserola<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Comenges<s n="np"/></l>     <r>Comenges<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Conangles<s n="np"/></l>    <r>Conangles<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Corilha<s n="np"/></l>      <r>Corilha<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Costa<b/>Azul<s n="np"/></l><r>Costa<b/>Blava<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Cuixà<s n="np"/></l>        <r>Cuixà<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Dakota<s n="np"/></l>       <r>Dakota<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Delfinado<s n="np"/></l><r>Dalfinat<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Delfinado<s n="np"/></l><r>Daufinat<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Eixample<s n="np"/></l>     <r>Eixample<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>El<b/>Clot<s n="np"/></l>   <r>El<b/>Clot<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ampurias<s n="np"/></l>     <r>Empúries<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ampurdán<s n="np"/></l>     <r>Empordà<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Escudellers<s n="np"/></l>  <r>Escudellers<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Escunhau<s n="np"/></l>     <r>Escunhau<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Estados<b/>Federados<b/>de<b/>Micronesia<s n="np"/></l><r>Estats<b/>Federats<b/>de<b/>Micronèsia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Euroregión<s n="np"/></l>   <r>Euroregió<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Falkland<s n="np"/></l>     <r>Falkland<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Feroe<s n="np"/></l>        <r>Fèroe<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Foix<s n="np"/></l>         <r>Foix<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Fontana<s n="np"/></l>      <r>Fontana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Garós<s n="np"/></l>        <r>Garòs<s n="np"/></r></p></e>
-<e a="prompsit" r="RL"><p><l>Gascuña<s n="np"/></l>      <r>Gasconya<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Gausac<s n="np"/></l>       <r>Gausac<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Gambia<s n="np"/></l>       <r>Gàmbia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Gessa<s n="np"/></l>        <r>Gessa<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Gramenet<s n="np"/></l>     <r>Gramenet<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Groenlandia<s n="np"/></l>  <r>Groenlàndia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Guayana<s n="np"/></l>      <r>Guaiana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Guineueta<s n="np"/></l>    <r>Guineueta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Icaria<s n="np"/></l>       <r>Icària<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>isla<b/>Ascensión<s n="np"/></l><r>illa<b/>de<b/>l'Ascensió<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Isla<b/>Heard<s n="np"/></l><r>Illa<b/>Heard<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>islas<b/>de<b/>las<b/>Antípodas<s n="np"/></l><r>illes<b/>dels<b/>Antípodes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>islas<b/>McDonald<s n="np"/></l><r>Illes<b/>McDonald<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Irak<s n="np"/></l>  <r>Irac<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Irissa<s n="np"/></l>       <r>Irissa<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Isèra<s n="np"/></l>        <r>Isèra<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Joèu<s n="np"/></l>         <r>Joèu<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Keeling<s n="np"/></l>      <r>Keeling<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Lairisa<s n="np"/></l>      <r>Lairissa<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Latakia<s n="np"/></l>      <r>Latakia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Lesseps<s n="np"/></l>      <r>Lesseps<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Liat<s n="np"/></l>         <r>Liat<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Liberia<s n="np"/></l>      <r>Libèria<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Liguria<s n="np"/></l>      <r>Ligúria<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Lloret<s n="np"/></l>       <r>Lloret<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Loir<s n="np"/></l>         <r>Loir<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Lombardia<s n="np"/></l>    <r>Lombardia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Macedonia<s n="np"/></l>    <r>Macedònia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Maine<s n="np"/></l>        <r>Maine<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Malawi<s n="np"/></l>       <r>Malawi<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Malasia<s n="np"/></l>      <r>Malàisia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Malvinas<s n="np"/></l>     <r>Malvines<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Marcatosa<s n="np"/></l>    <r>Marcatosa<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Maremagnum<s n="np"/></l>   <r>Maremàgnum<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Marna<s n="np"/></l>        <r>Marna<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mijaran<s n="np"/></l>      <r>Mijaran<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Miravitlles<s n="np"/></l>  <r>Miravitlles<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mozambique<s n="np"/></l>   <r>Moçambic<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Moldavia<s n="np"/></l>     <r>Moldàvia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mollet<s n="np"/></l>       <r>Mollet<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mongolia<s n="np"/></l>     <r>Mongòlia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Montcorbau<s n="np"/></l>   <r>Montcorbau<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Montnegre<s n="np"/></l>    <r>Montnegre<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Montreal<s n="np"/></l>     <r>Mont-real<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mosel·la<s n="np"/></l>     <r>Mosel·la<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Níger<s n="np"/></l>        <r>Níger<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Namibia<s n="np"/></l>      <r>Namíbia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Neptuno<s n="np"/></l>      <r>Neptú<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Nièvre<s n="np"/></l>       <r>Nièvre<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Nueva<b/>Caledonia<s n="np"/></l><r>Nova<b/>Caledònia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Numancia<s n="np"/><s n="loc"/></l><r>Numància<s n="np"/><s n="loc"/></r></p></e>
-<e a="prompsit"><p><l>Occitania<s n="np"/></l>    <r>Occitània<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Olesa<s n="np"/></l>        <r>Olesa<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>País<b/>Vasco<s n="np"/></l><r>País<b/>Basc<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Países<b/>Bálticos<s n="np"/></l><r>Països<b/>Bàltics<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Peülha<s n="np"/></l>       <r>Peülha<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Pedralbes<s n="np"/></l>    <r>Pedralbes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Peitau<s n="np"/></l>       <r>Peitau<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Pinaret<s n="np"/></l>      <r>Pinaret<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Pitcairn<s n="np"/></l>     <r>Pitcairn<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Pleta<b/>del<b/>Duc<s n="np"/></l><r>Pleta<b/>del<b/>Duc<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Pleta<s n="np"/></l>        <r>Pleta<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Plutón<s n="np"/></l>       <r>Plutó<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Poblet<s n="np"/></l>       <r>Poblet<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Poitou-Charentes<s n="np"/></l><r>Poitou-Charentes<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Polinesia<s n="np"/></l>    <r>Polinèsia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Portaferrissa<s n="np"/></l><r>Portaferrissa<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Portilhon<s n="np"/></l>    <r>Portilhon<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Prats<b/>de<b/>Molló<s n="np"/></l><r>Prats<b/>de<b/>Molló<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Prepirineo<s n="np"/></l>   <r>Prepirineu<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Provenza<s n="np"/></l>     <r>Provença<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Puèi<b/>Domat<s n="np"/></l><r>Puèi<b/>Domat<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Puigcerdá<s n="np"/></l>    <r>Puigcerdà<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Pujólo<s n="np"/></l>       <r>Pujòlo<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ròse<s n="np"/></l>         <r>Ròse<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>República<b/>Centroafricana<s n="np"/></l><r>República<b/>Centreafricana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>República<b/>Dominicana<s n="np"/></l><r>República<b/>Dominicana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ressèc<s n="np"/></l>       <r>Ressèc<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Restanca<s n="np"/></l>     <r>Restanca<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Reunion<s n="np"/></l>      <r>Reunion<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Ribagorça<s n="np"/></l>    <r>Ribagorça<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Roda<b/>de<b/>Barà<s n="np"/></l><r>Roda<b/>de<b/>Barà<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Sagarra<s n="np"/></l>      <r>Sagarra<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Saint<b/>Gaudens<s n="np"/></l><r>Saint<b/>Gaudens<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Salardú<s n="np"/></l>      <r>Salardú<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Salient<s n="np"/></l>      <r>Salient<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Sant<b/>Cristóbal<b/>y<b/>Nieves<s n="np"/></l><r>Sant<b/>Cristopher<b/>i<b/>Nevis<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Santet<s n="np"/></l>       <r>Santet<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Sant<b/>Gervasi<s n="np"/></l><r>Sant<b/>Gervasi<s n="np"/></r></p></e>
-<e a="prompsit" r="RL"><p><l>San<b/>Marino<s n="np"/></l><r>Sant<b/>Marino<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>San<b/>Pedro<b/>y<b/>Miquelón<s n="np"/></l><r>Sant<b/>Pierre<b/>i<b/>Miquelon<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>San<b/>Vincente<b/>i<b/>las<b/>Granadinas<s n="np"/></l><r>Sant<b/>Vincent<b/>i<b/>les<b/>Grenadines<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Sarriá<s n="np"/></l>       <r>Sarrià<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Sèina<s n="np"/></l>        <r>Sèina<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Serbia<s n="np"/></l>       <r>Sèrbia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Somalia<s n="np"/></l>      <r>Somàlia<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Sudáfrica<s n="np"/></l><r>Sudàfrica<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Swansea<s n="np"/></l>      <r>Swansea<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Suazilandia<s n="np"/></l>  <r>Swazilàndia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Terradets<s n="np"/></l>    <r>Terradets<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Tierras<b/>Australes<b/>Francesas<s n="np"/></l><r>Terres<b/>Australs<b/>Franceses<s n="np"/></r></p></e>
-<e a="prompsit" r="LR"><p><l>Torá<s n="np"/></l>         <r>Torà<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Torroella<s n="np"/></l>    <r>Torroella<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Tredòs<s n="np"/></l>       <r>Tredòs<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Trento<s n="np"/></l><r>Trentino<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Tuca<s n="np"/></l>         <r>Tuca<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Túnez<s n="np"/></l>        <r>Tunísia<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Unha<s n="np"/></l>         <r>Unha<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Valclusa<s n="np"/></l>     <r>Valclusa<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Valclusa<s n="np"/></l><r>Vauclusa<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vallcarca<s n="np"/></l>    <r>Vallcarca<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Valldigna<s n="np"/></l>    <r>Valldigna<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Baqueira<s n="np"/></l>     <r>Vaquèira<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Varradòs<s n="np"/></l>     <r>Varradòs<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vetula<s n="np"/></l>       <r>Vetula<s n="np"/></r></p></e>
-<e a="prompsit" r="LR"><p><l>via<b/>Laietana<s n="np"/></l><r>via<b/>Laietana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vielha<s n="np"/></l>       <r>Vielha<s n="np"/></r></p></e>
-<e r="LR" a="prompsit"><p><l>Viella<s n="np"/></l><r>Vielha<s n="np"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>Vielha<s n="np"/></l><r>Viella<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vilac<s n="np"/></l>        <r>Vilac<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vilaine<s n="np"/></l>      <r>Vilaine<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vilamòs<s n="np"/></l>      <r>Vilamòs<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vilassar<s n="np"/></l>     <r>Vilassar<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vinalopó<s n="np"/></l>     <r>Vinalopó<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vinhana<s n="np"/></l>      <r>Vinhana<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Vivarés<s n="np"/></l>      <r>Vivarès<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Júcar<s n="np"/></l>        <r>Xúquer<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>York<s n="np"/></l>         <r>York<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Zambia<s n="np"/></l>       <r>Zàmbia<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>Abiyán<s n="np"/><s n="loc"/></l><r>Abidjan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Abuya<s n="np"/><s n="loc"/></l><r>Abuja<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Accra<s n="np"/><s n="loc"/></l><r>Accra<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aconcagua<s n="np"/><s n="loc"/></l><r>Aconcagua<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Adís<b/>Abeba<s n="np"/><s n="loc"/></l><r>Addis<b/>Abeba<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Adelaida<s n="np"/><s n="loc"/></l><r>Adelaide<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Agadir<s n="np"/><s n="loc"/></l><r>Agadir<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Agrigento<s n="np"/><s n="loc"/></l><r>Agrigent<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ajaccio<s n="np"/><s n="loc"/></l><r>Ajaccio<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Alabama<s n="np"/><s n="loc"/></l><r>Alabama<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Åland<s n="np"/><s n="loc"/></l><r>Aland<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Alberta<s n="np"/><s n="loc"/></l><r>Alberta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Alepo<s n="np"/><s n="loc"/></l><r>Alep<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Alessandria<s n="np"/><s n="loc"/></l><r>Alessandria<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Alguer<s n="np"/><s n="loc"/></l><r>L'Alguer<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Alpes<s n="np"/><s n="loc"/></l><r>Alps<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Altai<s n="np"/><s n="loc"/></l><r>Altai<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Amiens<s n="np"/><s n="loc"/></l><r>Amiens<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ammán<s n="np"/><s n="loc"/></l><r>Amman<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ancona<s n="np"/><s n="loc"/></l><r>Ancona<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Andorra<b/>la<b/>Vieja<s n="np"/><s n="loc"/></l><r>Andorra<b/>la<b/>Vella<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Andraitx<s n="np"/><s n="loc"/></l><r>Andratx<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Angers<s n="np"/><s n="loc"/></l><r>Angers<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Angola<s n="np"/><s n="loc"/></l><r>Angola<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Anguila<s n="np"/><s n="loc"/></l><r>Anguilla<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Anjou<s n="np"/><s n="loc"/></l><r>Anjou<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Annecy<s n="np"/><s n="loc"/></l><r>Annecy<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>An-shan<s n="np"/><s n="loc"/></l><r>Anshan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Antananarivo<s n="np"/><s n="loc"/></l><r>Antananarivo<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Antigua<b/>y<b/>Barbuda<s n="np"/><s n="loc"/></l><r>Antigua<b/>i<b/>Barbuda<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Antillas<s n="np"/><s n="loc"/></l><r>Antilles<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aosta<s n="np"/><s n="loc"/></l><r>Aosta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Apeninos<s n="np"/><s n="loc"/></l><r>Apenins<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Apia<s n="np"/><s n="loc"/></l><r>Apia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Arboç<s n="np"/><s n="loc"/></l><r>Arboç<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Archipiélago<b/>de<b/>Hawái<s n="np"/><s n="loc"/></l><r>Illes<b/>Sandwich<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ardèche<s n="np"/><s n="loc"/></l><r>Ardecha<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Argos<s n="np"/><s n="loc"/></l><r>Argos<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Arkansas<s n="np"/><s n="loc"/></l><r>Arkansas<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Artois<s n="np"/><s n="loc"/></l><r>Artois<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aruba<s n="np"/><s n="loc"/></l><r>Aruba<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Asmara<s n="np"/><s n="loc"/></l><r>Asmara<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aqmola<s n="np"/><s n="loc"/></l><r>Aqmola<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Astaná<s n="np"/><s n="loc"/></l><r>Astanà<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Asti<s n="np"/><s n="loc"/></l><r>Asti<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Atlanta<s n="np"/><s n="loc"/></l><r>Atlanta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Auckland<s n="np"/><s n="loc"/></l><r>Auckland<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aude<s n="np"/><s n="loc"/></l><r>Aude<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Augsburgo<s n="np"/><s n="loc"/></l><r>Augsburg<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Auxerre<s n="np"/><s n="loc"/></l><r>Auxerre<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aveyron<s n="np"/><s n="loc"/></l><r>Avairon<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Azerbaiyán<s n="np"/><s n="loc"/></l><r>Azerbaidjan<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Azerbaiyán<s n="np"/><s n="loc"/></l><r>Azerbaitjan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Baalbek<s n="np"/><s n="loc"/></l><r>Baalbek<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>Bañolas<s n="np"/><s n="loc"/></l><r>Banyoles<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bahía<b/>de<b/>Baffin<s n="np"/><s n="loc"/></l><r>badia<b/>de<b/>Baffin<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bahía<b/>de<b/>Bengala<s n="np"/><s n="loc"/></l><r>golf<b/>de<b/>Bengala<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bahamas<s n="np"/><s n="loc"/></l><r>Bahames<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Baja<b/>Navarra<s n="np"/><s n="loc"/></l><r>Baixa<b/>Navarra<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Balaguer<s n="np"/><s n="loc"/></l><r>Balaguer<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Baltimore<s n="np"/><s n="loc"/></l><r>Baltimore<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bamako<s n="np"/><s n="loc"/></l><r>Bamako<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bandar<b/>Seri<b/>Begawan<s n="np"/><s n="loc"/></l><r>Bandar<b/>Seri<b/>Begawan<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Bangladesh<s n="np"/><s n="loc"/></l><r>Bangla<b/>Desh<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bangui<s n="np"/><s n="loc"/></l><r>Bangui<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Banjul<s n="np"/><s n="loc"/></l><r>Banjul<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Barbados<s n="np"/><s n="loc"/></l><r>Barbados<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Barceloneta<s n="np"/><s n="loc"/></l><r>Barceloneta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bari<s n="np"/><s n="loc"/></l><r>Bari<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Basilea<s n="np"/><s n="loc"/></l><r>Basilea<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Basilicata<s n="np"/><s n="loc"/></l><r>Basilicata<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Basseterre<s n="np"/><s n="loc"/></l><r>Basseterre<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bastia<s n="np"/><s n="loc"/></l><r>Bastia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bausén<s n="np"/><s n="loc"/></l><r>Bausén<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Baviera<s n="np"/><s n="loc"/></l><r>Baviera<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>BCN<s n="np"/><s n="loc"/></l><r>BCN<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bearn<s n="np"/><s n="loc"/></l><r>Bearn<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Belfast<s n="np"/><s n="loc"/></l><r>Belfast<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Belfort<s n="np"/><s n="loc"/></l><r>Belfort<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Belice<s n="np"/><s n="loc"/></l><r>Belize<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Belmopán<s n="np"/><s n="loc"/></l><r>Belmopan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Belo<b/>Horizonte<s n="np"/><s n="loc"/></l><r>Belo<b/>Horizonte<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Benevento<s n="np"/><s n="loc"/></l><r>Benevent<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bengaluru<s n="np"/><s n="loc"/></l><r>Bangalore<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Berga<s n="np"/><s n="loc"/></l><r>Berga<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bermudas<s n="np"/><s n="loc"/></l><r>Bermudes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bigorra<s n="np"/><s n="loc"/></l><r>Bigorra<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>Borjas<b/>Blancas<s n="np"/><s n="loc"/></l><r>les<b/>Borges<b/>Blanques<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Botsuana<s n="np"/><s n="loc"/></l><r>Botswana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Broadway<s n="np"/><s n="loc"/></l><r>Broadway<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Brunéi<s n="np"/><s n="loc"/></l><r>Brunei<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Buenos<b/>Aires<s n="np"/><s n="loc"/></l><r>Buenos<b/>Aires<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Burdeos<s n="np"/><s n="loc"/></l><r>Bordeus<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Burkina<b/>Faso<s n="np"/><s n="loc"/></l><r>Burkina<b/>Faso<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Burundi<s n="np"/><s n="loc"/></l><r>Burundi<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bután<s n="np"/><s n="loc"/></l><r>Bhutan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Cachemira<s n="np"/><s n="loc"/></l><r>Caixmir<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Calais<s n="np"/><s n="loc"/></l><r>Calais<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Camboya<s n="np"/><s n="loc"/></l><r>Cambodja<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Canejan<s n="np"/><s n="loc"/></l><r>Canejan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Cantal<s n="np"/><s n="loc"/></l><r>Cantal<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>Carcagente<s n="np"/><s n="loc"/></l><r>Carcaixent<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Carcasona<s n="np"/><s n="loc"/></l><r>Carcassona<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Casablanca<s n="np"/><s n="loc"/></l><r>Casablanca<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Castellar<s n="np"/><s n="loc"/></l><r>Castellar<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Catral<s n="np"/><s n="loc"/></l><r>Catral<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Cerdaña<s n="np"/><s n="loc"/></l><r>Cerdanya<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Chaparral<s n="np"/><s n="loc"/></l><r>Garriga<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Charente<s n="np"/><s n="loc"/></l><r>Charanta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Clermont-Ferrand<s n="np"/><s n="loc"/></l><r>Clarmont<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Cleveland<s n="np"/><s n="loc"/></l><r>Cleveland<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Comoras<s n="np"/><s n="loc"/></l><r>Comores<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Conflent<s n="np"/><s n="loc"/></l><r>Conflent<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Corrèze<s n="np"/><s n="loc"/></l><r>Corresa<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Costa<b/>de<b/>Marfil<s n="np"/><s n="loc"/></l><r>Costa<b/>d'Ivori<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Cuneo<s n="np"/><s n="loc"/></l><r>Cuneo<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Delfinado<s n="np"/><s n="loc"/></l><r>Delfinat<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Dordoña<s n="np"/><s n="loc"/></l><r>Dordonya<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Doubs<s n="np"/><s n="loc"/></l><r>Doubs<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Edirne<s n="np"/><s n="loc"/></l><r>Edirne<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>El<b/>Cairo<s n="np"/><s n="loc"/></l><r>el<b/>Caire<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Eritrea<s n="np"/><s n="loc"/></l><r>Eritrea<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Eure<s n="np"/><s n="loc"/></l><r>Eure<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Fiyi<s n="np"/><s n="loc"/></l><r>Fiji<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Fossar<b/>de<b/>les<b/>Moreres<s n="np"/><s n="loc"/></l><r>Fossar<b/>de<b/>les<b/>Moreres<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Gabón<s n="np"/><s n="loc"/></l><r>Gabon<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Gard<s n="np"/><s n="loc"/></l><r>Gard<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Garona<s n="np"/><s n="loc"/></l><r>Garona<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Gers<s n="np"/><s n="loc"/></l><r>Gers<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Gironda<s n="np"/><s n="loc"/></l><r>Gironda<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Gironella<s n="np"/><s n="loc"/></l><r>Gironella<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Guam<s n="np"/><s n="loc"/></l><r>Guam<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Guayana<s n="np"/><s n="loc"/></l><r>Guaiana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Guernsey<s n="np"/><s n="loc"/></l><r>Guernsey<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Guinea<b/>Ecuatorial<s n="np"/><s n="loc"/></l><r>Guinea<b/>Equatorial<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>Guinea-Bissau<s n="np"/><s n="loc"/></l><r>Guinea-Bissau<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Guyana<s n="np"/><s n="loc"/></l><r>Guyana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Guyena<s n="np"/><s n="loc"/></l><r>Guiena<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Hamburgo<s n="np"/><s n="loc"/></l><r>Hamburg<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Hérault<s n="np"/><s n="loc"/></l><r>Erau<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Herzegovina<s n="np"/><s n="loc"/></l><r>Hercegovina<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Honduras<s n="np"/><s n="loc"/></l><r>Hondures<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Hostafrancs<s n="np"/><s n="loc"/></l><r>Hostafrancs<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Isla<b/>Bouvet<s n="np"/><s n="loc"/></l><r>Bouvet<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Isla<b/>de<b/>Man<s n="np"/><s n="loc"/></l><r>Illa<b/>de<b/>Man<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Isla<b/>de<b/>Navidad<s n="np"/><s n="loc"/></l><r>Illa<b/>Christmas<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Isla<b/>Norfolk<s n="np"/><s n="loc"/></l><r>Illa<b/>Norfolk<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Islas<b/>Andamán<b/>y<b/>Nicobar<s n="np"/><s n="loc"/></l><r>illes<b/>Andaman<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Islas<b/>Baleares<s n="np"/><s n="loc"/></l><r>Illes<b/>Balears<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Islas<b/>Caimán<s n="np"/><s n="loc"/></l><r>Illes<b/>Caiman<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Islas<b/>Cocos<s n="np"/><s n="loc"/></l><r>Illes<b/>Cocos<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Islas<b/>Cook<s n="np"/><s n="loc"/></l><r>Illes<b/>Cook<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Islas<b/>Marianas<b/>del<b/>Norte<s n="np"/><s n="loc"/></l><r>Illes<b/>Marianes<b/>del<b/>Nord<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Islas<b/>Marshall<s n="np"/><s n="loc"/></l><r>Illes<b/>Marshall<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Islas<b/>Turcas<b/>y<b/>Caicos<s n="np"/><s n="loc"/></l><r>Illes<b/>Turks<b/>i<b/>Caicos<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Jan<b/>Mayen<s n="np"/><s n="loc"/></l><r>Jan<b/>Mayen<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Jersey<s n="np"/><s n="loc"/></l><r>Jersey<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Kazajistán<s n="np"/><s n="loc"/></l><r>Kazakhstan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Kirguistán<s n="np"/><s n="loc"/></l><r>Kirguizistan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Kiribati<s n="np"/><s n="loc"/></l><r>Kiribati<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Kuwait<s n="np"/><s n="loc"/></l><r>Kuwait<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>La<b/>Bonaigua<s n="np"/><s n="loc"/></l><r>Bonaigua<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>La<b/>Haya<s n="np"/><s n="loc"/></l><r>L'Haia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Lago<b/>Baikal<s n="np"/><s n="loc"/></l><r>llac<b/>Baikal<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Landas<s n="np"/><s n="loc"/></l><r>Landes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Languedoc<s n="np"/><s n="loc"/></l><r>Llenguadoc<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Laos<s n="np"/><s n="loc"/></l><r>Laos<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Lesoto<s n="np"/><s n="loc"/></l><r>Lesotho<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Liechtenstein<s n="np"/><s n="loc"/></l><r>Liechtenstein<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Limoges<s n="np"/><s n="loc"/></l><r>Llemotges<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>Lluchmayor<s n="np"/><s n="loc"/></l><r>Llucmajor<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Loiret<s n="np"/><s n="loc"/></l><r>Loiret<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Lozère<s n="np"/><s n="loc"/></l><r>Losera<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Macao<s n="np"/><s n="loc"/></l><r>Macau<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Malawi<s n="np"/><s n="loc"/></l><r>Malawi<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Maldivas<s n="np"/><s n="loc"/></l><r>Maldives<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mar<b/>de<b/>Aral<s n="np"/><s n="loc"/></l><r>mar<b/>d'Aral<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mar<b/>de<b/>Azov<s n="np"/><s n="loc"/></l><r>mar<b/>d'Azov<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mar<b/>de<b/>Barents<s n="np"/><s n="loc"/></l><r>mar<b/>de<b/>Barents<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mar<b/>de<b/>Beaufort<s n="np"/><s n="loc"/></l><r>mar<b/>de<b/>Beaufort<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Maresme<s n="np"/><s n="loc"/></l><r>Maresme<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Martinica<s n="np"/><s n="loc"/></l><r>Martinica<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mayotte<s n="np"/><s n="loc"/></l><r>Mayotte<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Melbourne<s n="np"/><s n="loc"/></l><r>Melbourne<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Meridiana<s n="np"/><s n="loc"/></l><r>Meridiana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Midi<s n="np"/><s n="loc"/></l><r>Midi<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Montardo<s n="np"/><s n="loc"/></l><r>Montardo<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Montgarri<s n="np"/><s n="loc"/></l><r>Montgarri<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Montpellier<s n="np"/><s n="loc"/></l><r>Montpeller<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Muret<s n="np"/><s n="loc"/></l><r>Muret<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Naupacto<s n="np"/><s n="loc"/></l><r>Lepant<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Nauru<s n="np"/><s n="loc"/></l><r>Nauru<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Naut<b/>Aran<s n="np"/><s n="loc"/></l><r>Naut<b/>Aran<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aran<s n="np"/><s n="loc"/></l><r>Aran<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Valle<b/>de<b/>Aran<s n="np"/><s n="loc"/></l><r>Vall<b/>d'Aran<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Valle<b/>de<b/>Aran<s n="np"/><s n="loc"/></l><r>Val<b/>d'Aran<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Nimes<s n="np"/><s n="loc"/></l><r>Nimes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Niue<s n="np"/><s n="loc"/></l><r>Niue<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Noguera<s n="np"/><s n="loc"/></l><r>Noguera<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Normandía<s n="np"/><s n="loc"/></l><r>Normandia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Nueva<b/>York<s n="np"/><s n="loc"/></l><r>Nova<b/>York<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Oise<s n="np"/><s n="loc"/></l><r>Oise<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Olot<s n="np"/><s n="loc"/></l><r>Olot<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Omán<s n="np"/><s n="loc"/></l><r>Oman<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>Onteniente<s n="np"/><s n="loc"/></l><r>Ontinyent<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Orleans<s n="np"/><s n="loc"/></l><r>Orleans<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Palafrugell<s n="np"/><s n="loc"/></l><r>Palafrugell<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Pallars<s n="np"/><s n="loc"/></l><r>Pallars<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Papúa<b/>Nueva<b/>Guinea<s n="np"/><s n="loc"/></l><r>Papua<b/>Nova<b/>Guinea<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Peralada<s n="np"/><s n="loc"/></l><r>Peralada<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Piamonte<s n="np"/><s n="loc"/></l><r>Piemont<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Pico<b/>Aneto<s n="np"/><s n="loc"/></l><r>pic<b/>d'Aneto<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Poblenou<s n="np"/><s n="loc"/></l><r>Poblenou<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Portbou<s n="np"/><s n="loc"/></l><r>Portbou<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Portland<s n="np"/><s n="loc"/></l><r>Portland<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Prades<s n="np"/><s n="loc"/></l><r>Prada<b/>de<b/>Conflent<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Puerto<b/>Rico<s n="np"/><s n="loc"/></l><r>Puerto<b/>Rico<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Quebec<s n="np"/><s n="loc"/></l><r>Quebec<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ripollet<s n="np"/><s n="loc"/></l><r>Ripollet<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ruda<s n="np"/><s n="loc"/></l><r>Ruda<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Saboya<s n="np"/><s n="loc"/></l><r>Savoia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Safor<s n="np"/><s n="loc"/></l><r>Safor<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Salzburgo<s n="np"/><s n="loc"/></l><r>Salzburg<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Samoa<s n="np"/><s n="loc"/></l><r>Samoa<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Sarthe<s n="np"/><s n="loc"/></l><r>Sarthe<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Seychelles<s n="np"/><s n="loc"/></l><r>Seychelles<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Sierra<b/>Leona<s n="np"/><s n="loc"/></l><r>Sierra<b/>Leone<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Surinam<s n="np"/><s n="loc"/></l><r>Surinam<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Svalbard<s n="np"/><s n="loc"/></l><r>Svalbard<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Tarn<s n="np"/><s n="loc"/></l><r>Tarn<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Tayikistán<s n="np"/><s n="loc"/></l><r>Tadjikistan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Tibidabo<s n="np"/><s n="loc"/></l><r>Tibidabo<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Timor<b/>Oriental<s n="np"/><s n="loc"/></l><r>Timor-Leste<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Timor<s n="np"/><s n="loc"/></l><r>Timor<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Togo<s n="np"/><s n="loc"/></l><r>Togo<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Tokelau<s n="np"/><s n="loc"/></l><r>Tokelau<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Tonga<s n="np"/><s n="loc"/></l><r>Tonga<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Toscana<s n="np"/><s n="loc"/></l><r>Toscana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Trento<s n="np"/><s n="loc"/></l><r>Trento<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Treviso<s n="np"/><s n="loc"/></l><r>Treviso<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Turkmenistán<s n="np"/><s n="loc"/></l><r>Turkmenistan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Tuvalu<s n="np"/><s n="loc"/></l><r>Tuvalu<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Uganda<s n="np"/><s n="loc"/></l><r>Uganda<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Uzbekistán<s n="np"/><s n="loc"/></l><r>Uzbekistan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Valle<b/>de<b/>Aosta<s n="np"/><s n="loc"/></l><r>Vall<b/>d'Aosta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vanuatu<s n="np"/><s n="loc"/></l><r>Vanuatu<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Velay<s n="np"/><s n="loc"/></l><r>Velai<s n="np"/><s n="top"/></r></p></e>
+<e r="LR" a="prompsit"><p><l>Vendrell<s n="np"/><s n="loc"/></l><r>el<b/>Vendrell<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>El<b/>Vendrell<s n="np"/><s n="loc"/></l><r>el<b/>Vendrell<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vosgos<s n="np"/><s n="loc"/></l><r>Vosges<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Wallis<b/>y<b/>Futuna<s n="np"/><s n="loc"/></l><r>Wallis<b/>i<b/>Futuna<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Yibuti<s n="np"/><s n="loc"/></l><r>Djibouti<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Yonne<s n="np"/><s n="loc"/></l><r>Yonne<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Zúrich<s n="np"/><s n="loc"/></l><r>Zuric<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Zona<b/>franca<s n="np"/><s n="loc"/></l><r>Zona<b/>Franca<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Azores<s n="np"/><s n="loc"/></l><r>Açores<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aberdeen<s n="np"/><s n="loc"/></l><r>Aberdeen<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Abruzos<s n="np"/><s n="loc"/></l><r>Abruços<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Acarnania<s n="np"/><s n="loc"/></l><r>Acarnània<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Adén<s n="np"/><s n="loc"/></l><r>Aden<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Adiguesia<s n="np"/><s n="loc"/></l><r>Adiguèsia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ahmedabad<s n="np"/><s n="loc"/></l><r>Ahmadabad<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aigüestortes<s n="np"/><s n="loc"/></l><r>Aigüestortes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aiguamòg<s n="np"/><s n="loc"/></l><r>Aiguamòg<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aisne<s n="np"/><s n="loc"/></l><r>Ainé<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Alos<s n="np"/><s n="loc"/></l><r>Alos<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Albania<s n="np"/><s n="loc"/></l><r>Albània<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Almería<s n="np"/><s n="loc"/></l><r>Almeria<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Alsacia<s n="np"/><s n="loc"/></l><r>Alsàcia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Olt<s n="np"/><s n="loc"/></l><r>Òlt<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Auvernia<s n="np"/><s n="loc"/></l><r>Alvèrnia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Amalfi<s n="np"/><s n="loc"/></l><r>Amalfi<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>América<b/>Central<s n="np"/><s n="loc"/></l><r>Amèrica<b/>Central<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>América<b/>del<b/>Norte<s n="np"/><s n="loc"/></l><r>Amèrica<b/>del<b/>Nord<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Amazonia<s n="np"/><s n="loc"/></l><r>Amazònia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Anatólia<s n="np"/><s n="loc"/></l><r>Anatòlia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>India<s n="np"/><s n="loc"/></l><r>Índia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Àneu<s n="np"/><s n="loc"/></l><r>Àneu<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Antípodas<s n="np"/><s n="loc"/></l><r>Antípodes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Antártida<s n="np"/><s n="loc"/></l><r>Antàrtida<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Apalaches<s n="np"/><s n="loc"/></l><r>Apalatxes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aquisgrán<s n="np"/><s n="loc"/></l><r>Aquisgrà<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aquitania<s n="np"/><s n="loc"/></l><r>Aquitània<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Arcadia<s n="np"/><s n="loc"/></l><r>Arcàdia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ardenes<s n="np"/><s n="loc"/></l><r>Ardenes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Arenys<s n="np"/><s n="loc"/></l><r>Arenys<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ariège<s n="np"/><s n="loc"/></l><r>Arièja<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Armenia<s n="np"/><s n="loc"/></l><r>Armènia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Arnold<s n="np"/><s n="loc"/></l><r>Arnold<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Arró<s n="np"/><s n="loc"/></l><r>Arró<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Arrás<s n="np"/><s n="loc"/></l><r>Arràs<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ártica<s n="np"/><s n="loc"/></l><r>Àrtica<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Arties<s n="np"/><s n="loc"/></l><r>Arties<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Artiga<b/>de<b/>Lin<s n="np"/><s n="loc"/></l><r>Artiga<b/>de<b/>Lin<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Asís<s n="np"/><s n="loc"/></l><r>Assís<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Astrakhan<s n="np"/><s n="loc"/></l><r>Astrakhan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Asyut<s n="np"/><s n="loc"/></l><r>Asyut<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aubèrt<s n="np"/><s n="loc"/></l><r>Aubèrt<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Aussau<s n="np"/><s n="loc"/></l><r>Aussau<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bordes<s n="np"/><s n="loc"/></l><r>Bòrdes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bosnia<b/>y<b/>Herzegovina<s n="np"/><s n="loc"/></l><r>Bòsnia<b/>i<b/>Hercegovina<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bòssost<s n="np"/><s n="loc"/></l><r>Bòssost<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Baden-Wurttemberg<s n="np"/><s n="loc"/></l><r>Baden-Württemberg<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bagergue<s n="np"/><s n="loc"/></l><r>Bagergue<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Baja<b/>Sajonia<s n="np"/><s n="loc"/></l><r>Baixa<b/>Saxònia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bakú<s n="np"/><s n="loc"/></l><r>Bakú<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Balcanes<s n="np"/><s n="loc"/></l><r>Balcans<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Balmes<s n="np"/><s n="loc"/></l><r>Balmes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bandung<s n="np"/><s n="loc"/></l><r>Bandung<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Barbézieux<s n="np"/><s n="loc"/></l><r>Barbézieux<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Barcino<s n="np"/><s n="loc"/></l><r>Barcino<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Baricauba<s n="np"/><s n="loc"/></l><r>Baricauba<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Barletta<s n="np"/><s n="loc"/></l><r>Barletta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Barnaul<s n="np"/><s n="loc"/></l><r>Barnaul<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Beocia<s n="np"/><s n="loc"/></l><r>Beòcia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Belén<s n="np"/><s n="loc"/></l><r>Belém<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Benós<s n="np"/><s n="loc"/></l><r>Benós<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Benín<s n="np"/><s n="loc"/></l><r>Benín<s n="np"/><s n="top"/></r></p></e>
+<e r="LR" a="prompsit"><p><l>Benarés<s n="np"/><s n="loc"/></l><r>Benarés<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Varanasi<s n="np"/><s n="loc"/></l><r>Benarés<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bengala<s n="np"/><s n="loc"/></l><r>Bengala<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bengasi<s n="np"/><s n="loc"/></l><r>Bengasi<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Beret<s n="np"/><s n="loc"/></l><r>Beret<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Betlan<s n="np"/><s n="loc"/></l><r>Betlan<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Betren<s n="np"/><s n="loc"/></l><r>Betren<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bielorrusia<s n="np"/><s n="loc"/></l><r>Bielorússia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Birmania<s n="np"/><s n="loc"/></l><r>Birmània<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Boí<s n="np"/><s n="loc"/></l><r>Boí<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bonanova<s n="np"/><s n="loc"/></l><r>Bonanova<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Borbonés<s n="np"/><s n="loc"/></l><r>Borbonès<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bordeta<s n="np"/><s n="loc"/></l><r>Bordeta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Borges<s n="np"/><s n="loc"/></l><r>Borges<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bossòst<s n="np"/><s n="loc"/></l><r>Bossòst<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Bracs<s n="np"/><s n="loc"/></l><r>Bracs<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Calabria<s n="np"/><s n="loc"/></l><r>Calàbria<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Caldes<s n="np"/><s n="loc"/></l><r>Caldes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Caledonia<s n="np"/><s n="loc"/></l><r>Caledònia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Campania<s n="np"/><s n="loc"/></l><r>Campània<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Canigó<s n="np"/><s n="loc"/></l><r>Canigó<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Can<b/>Tunis<s n="np"/><s n="loc"/></l><r>Can<b/>Tunis<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Casau<s n="np"/><s n="loc"/></l><r>Casau<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Castellciutat<s n="np"/><s n="loc"/></l><r>Castellciutat<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Castièro<s n="np"/><s n="loc"/></l><r>Castièro<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Cedanya<s n="np"/><s n="loc"/></l><r>Cedanya<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ciutat<b/>Vella<s n="np"/><s n="loc"/></l><r>Ciutat<b/>Vella<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Collegats<s n="np"/><s n="loc"/></l><r>Collegats<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Collserola<s n="np"/><s n="loc"/></l><r>Collserola<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Comenges<s n="np"/><s n="loc"/></l><r>Comenges<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Conangles<s n="np"/><s n="loc"/></l><r>Conangles<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Corilha<s n="np"/><s n="loc"/></l><r>Corilha<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Costa<b/>Azul<s n="np"/><s n="loc"/></l><r>Costa<b/>Blava<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Cuixà<s n="np"/><s n="loc"/></l><r>Cuixà<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Dakota<s n="np"/><s n="loc"/></l><r>Dakota<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Delfinado<s n="np"/><s n="loc"/></l><r>Dalfinat<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Delfinado<s n="np"/><s n="loc"/></l><r>Daufinat<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Eixample<s n="np"/><s n="loc"/></l><r>Eixample<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>El<b/>Clot<s n="np"/><s n="loc"/></l><r>El<b/>Clot<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ampurias<s n="np"/><s n="loc"/></l><r>Empúries<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ampurdán<s n="np"/><s n="loc"/></l><r>Empordà<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Escudellers<s n="np"/><s n="loc"/></l><r>Escudellers<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Escunhau<s n="np"/><s n="loc"/></l><r>Escunhau<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Estados<b/>Federados<b/>de<b/>Micronesia<s n="np"/><s n="loc"/></l><r>Estats<b/>Federats<b/>de<b/>Micronèsia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Euroregión<s n="np"/><s n="loc"/></l><r>Euroregió<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Falkland<s n="np"/><s n="loc"/></l><r>Falkland<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Feroe<s n="np"/><s n="loc"/></l><r>Fèroe<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Foix<s n="np"/><s n="loc"/></l><r>Foix<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Fontana<s n="np"/><s n="loc"/></l><r>Fontana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Garós<s n="np"/><s n="loc"/></l><r>Garòs<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>Gascuña<s n="np"/><s n="loc"/></l><r>Gasconya<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Gausac<s n="np"/><s n="loc"/></l><r>Gausac<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Gambia<s n="np"/><s n="loc"/></l><r>Gàmbia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Gessa<s n="np"/><s n="loc"/></l><r>Gessa<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Gramenet<s n="np"/><s n="loc"/></l><r>Gramenet<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Groenlandia<s n="np"/><s n="loc"/></l><r>Groenlàndia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Guayana<s n="np"/><s n="loc"/></l><r>Guaiana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Guineueta<s n="np"/><s n="loc"/></l><r>Guineueta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Icaria<s n="np"/><s n="loc"/></l><r>Icària<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>isla<b/>Ascensión<s n="np"/><s n="loc"/></l><r>illa<b/>de<b/>l'Ascensió<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Isla<b/>Heard<s n="np"/><s n="loc"/></l><r>Illa<b/>Heard<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>islas<b/>de<b/>las<b/>Antípodas<s n="np"/><s n="loc"/></l><r>illes<b/>dels<b/>Antípodes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>islas<b/>McDonald<s n="np"/><s n="loc"/></l><r>Illes<b/>McDonald<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Irak<s n="np"/><s n="loc"/></l><r>Irac<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Irissa<s n="np"/><s n="loc"/></l><r>Irissa<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Isèra<s n="np"/><s n="loc"/></l><r>Isèra<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Joèu<s n="np"/><s n="loc"/></l><r>Joèu<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Keeling<s n="np"/><s n="loc"/></l><r>Keeling<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Lairisa<s n="np"/><s n="loc"/></l><r>Lairissa<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Latakia<s n="np"/><s n="loc"/></l><r>Latakia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Lesseps<s n="np"/><s n="loc"/></l><r>Lesseps<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Liat<s n="np"/><s n="loc"/></l><r>Liat<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Liberia<s n="np"/><s n="loc"/></l><r>Libèria<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Liguria<s n="np"/><s n="loc"/></l><r>Ligúria<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Lloret<s n="np"/><s n="loc"/></l><r>Lloret<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Loir<s n="np"/><s n="loc"/></l><r>Loir<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Lombardia<s n="np"/><s n="loc"/></l><r>Lombardia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Macedonia<s n="np"/><s n="loc"/></l><r>Macedònia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Maine<s n="np"/><s n="loc"/></l><r>Maine<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Malawi<s n="np"/><s n="loc"/></l><r>Malawi<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Malasia<s n="np"/><s n="loc"/></l><r>Malàisia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Malvinas<s n="np"/><s n="loc"/></l><r>Malvines<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Marcatosa<s n="np"/><s n="loc"/></l><r>Marcatosa<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Maremagnum<s n="np"/><s n="loc"/></l><r>Maremàgnum<s n="np"/><s n="top"/></r></p></e>
+<e a="hector"><p><l>Mare<b/>Nostrum<s n="np"/><s n="loc"/></l><r>Mare<b/>Nostrum<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Marna<s n="np"/><s n="loc"/></l><r>Marna<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mijaran<s n="np"/><s n="loc"/></l><r>Mijaran<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Miravitlles<s n="np"/><s n="loc"/></l><r>Miravitlles<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mozambique<s n="np"/><s n="loc"/></l><r>Moçambic<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Moldavia<s n="np"/><s n="loc"/></l><r>Moldàvia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mollet<s n="np"/><s n="loc"/></l><r>Mollet<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mongolia<s n="np"/><s n="loc"/></l><r>Mongòlia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Montcorbau<s n="np"/><s n="loc"/></l><r>Montcorbau<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Montnegre<s n="np"/><s n="loc"/></l><r>Montnegre<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Montreal<s n="np"/><s n="loc"/></l><r>Mont-real<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Mosel·la<s n="np"/><s n="loc"/></l><r>Mosel·la<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Níger<s n="np"/><s n="loc"/></l><r>Níger<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Namibia<s n="np"/><s n="loc"/></l><r>Namíbia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Neptuno<s n="np"/><s n="loc"/></l><r>Neptú<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Nièvre<s n="np"/><s n="loc"/></l><r>Nièvre<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Nueva<b/>Caledonia<s n="np"/><s n="loc"/></l><r>Nova<b/>Caledònia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Numancia<s n="np"/><s n="loc"/></l><r>Numància<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Occitania<s n="np"/><s n="loc"/></l><r>Occitània<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Olesa<s n="np"/><s n="loc"/></l><r>Olesa<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>País<b/>Vasco<s n="np"/><s n="loc"/></l><r>País<b/>Basc<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Países<b/>Bálticos<s n="np"/><s n="loc"/></l><r>Països<b/>Bàltics<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Peülha<s n="np"/><s n="loc"/></l><r>Peülha<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Pedralbes<s n="np"/><s n="loc"/></l><r>Pedralbes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Peitau<s n="np"/><s n="loc"/></l><r>Peitau<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Pinaret<s n="np"/><s n="loc"/></l><r>Pinaret<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Pitcairn<s n="np"/><s n="loc"/></l><r>Pitcairn<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Pleta<b/>del<b/>Duc<s n="np"/><s n="loc"/></l><r>Pleta<b/>del<b/>Duc<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Pleta<s n="np"/><s n="loc"/></l><r>Pleta<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Plutón<s n="np"/><s n="loc"/></l><r>Plutó<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Poblet<s n="np"/><s n="loc"/></l><r>Poblet<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Poitou-Charentes<s n="np"/><s n="loc"/></l><r>Poitou-Charentes<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Polinesia<s n="np"/><s n="loc"/></l><r>Polinèsia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Portaferrissa<s n="np"/><s n="loc"/></l><r>Portaferrissa<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Portilhon<s n="np"/><s n="loc"/></l><r>Portilhon<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Prats<b/>de<b/>Molló<s n="np"/><s n="loc"/></l><r>Prats<b/>de<b/>Molló<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Prepirineo<s n="np"/><s n="loc"/></l><r>Prepirineu<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Provenza<s n="np"/><s n="loc"/></l><r>Provença<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Puèi<b/>Domat<s n="np"/><s n="loc"/></l><r>Puèi<b/>Domat<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Puigcerdá<s n="np"/><s n="loc"/></l><r>Puigcerdà<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Pujólo<s n="np"/><s n="loc"/></l><r>Pujòlo<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ròse<s n="np"/><s n="loc"/></l><r>Ròse<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>República<b/>Centroafricana<s n="np"/><s n="loc"/></l><r>República<b/>Centreafricana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>República<b/>Dominicana<s n="np"/><s n="loc"/></l><r>República<b/>Dominicana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ressèc<s n="np"/><s n="loc"/></l><r>Ressèc<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Restanca<s n="np"/><s n="loc"/></l><r>Restanca<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Reunion<s n="np"/><s n="loc"/></l><r>Reunion<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Ribagorça<s n="np"/><s n="loc"/></l><r>Ribagorça<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Roda<b/>de<b/>Barà<s n="np"/><s n="loc"/></l><r>Roda<b/>de<b/>Barà<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Sagarra<s n="np"/><s n="loc"/></l><r>Sagarra<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Saint<b/>Gaudens<s n="np"/><s n="loc"/></l><r>Saint<b/>Gaudens<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Salardú<s n="np"/><s n="loc"/></l><r>Salardú<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Salient<s n="np"/><s n="loc"/></l><r>Salient<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Sant<b/>Cristóbal<b/>y<b/>Nieves<s n="np"/><s n="loc"/></l><r>Sant<b/>Cristopher<b/>i<b/>Nevis<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Santet<s n="np"/><s n="loc"/></l><r>Santet<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Sant<b/>Gervasi<s n="np"/><s n="loc"/></l><r>Sant<b/>Gervasi<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>San<b/>Marino<s n="np"/><s n="loc"/></l><r>Sant<b/>Marino<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>San<b/>Pedro<b/>y<b/>Miquelón<s n="np"/><s n="loc"/></l><r>Sant<b/>Pierre<b/>i<b/>Miquelon<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>San<b/>Vincente<b/>i<b/>las<b/>Granadinas<s n="np"/><s n="loc"/></l><r>Sant<b/>Vincent<b/>i<b/>les<b/>Grenadines<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Sarriá<s n="np"/><s n="loc"/></l><r>Sarrià<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Sèina<s n="np"/><s n="loc"/></l><r>Sèina<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Serbia<s n="np"/><s n="loc"/></l><r>Sèrbia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Somalia<s n="np"/><s n="loc"/></l><r>Somàlia<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Sudáfrica<s n="np"/><s n="loc"/></l><r>Sudàfrica<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Swansea<s n="np"/><s n="loc"/></l><r>Swansea<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Suazilandia<s n="np"/><s n="loc"/></l><r>Swazilàndia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Terradets<s n="np"/><s n="loc"/></l><r>Terradets<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Tierras<b/>Australes<b/>Francesas<s n="np"/><s n="loc"/></l><r>Terres<b/>Australs<b/>Franceses<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>Torá<s n="np"/><s n="loc"/></l><r>Torà<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Torroella<s n="np"/><s n="loc"/></l><r>Torroella<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Tredòs<s n="np"/><s n="loc"/></l><r>Tredòs<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Trento<s n="np"/><s n="loc"/></l><r>Trentino<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Tuca<s n="np"/><s n="loc"/></l><r>Tuca<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Túnez<s n="np"/><s n="loc"/></l><r>Tunísia<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Unha<s n="np"/><s n="loc"/></l><r>Unha<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Valclusa<s n="np"/><s n="loc"/></l><r>Valclusa<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Valclusa<s n="np"/><s n="loc"/></l><r>Vauclusa<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vallcarca<s n="np"/><s n="loc"/></l><r>Vallcarca<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Valldigna<s n="np"/><s n="loc"/></l><r>Valldigna<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Baqueira<s n="np"/><s n="loc"/></l><r>Vaquèira<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Varradòs<s n="np"/><s n="loc"/></l><r>Varradòs<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vetula<s n="np"/><s n="loc"/></l><r>Vetula<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>via<b/>Laietana<s n="np"/><s n="loc"/></l><r>via<b/>Laietana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vielha<s n="np"/><s n="loc"/></l><r>Vielha<s n="np"/><s n="top"/></r></p></e>
+<e r="LR" a="prompsit"><p><l>Viella<s n="np"/><s n="loc"/></l><r>Vielha<s n="np"/><s n="top"/></r></p></e>
+<e r="RL" a="prompsit"><p><l>Vielha<s n="np"/><s n="loc"/></l><r>Viella<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vilac<s n="np"/><s n="loc"/></l><r>Vilac<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vilaine<s n="np"/><s n="loc"/></l><r>Vilaine<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vilamòs<s n="np"/><s n="loc"/></l><r>Vilamòs<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vilassar<s n="np"/><s n="loc"/></l><r>Vilassar<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vinalopó<s n="np"/><s n="loc"/></l><r>Vinalopó<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vinhana<s n="np"/><s n="loc"/></l><r>Vinhana<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Vivarés<s n="np"/><s n="loc"/></l><r>Vivarès<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Júcar<s n="np"/><s n="loc"/></l><r>Xúquer<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>York<s n="np"/><s n="loc"/></l><r>York<s n="np"/><s n="top"/></r></p></e>
+<e a="prompsit"><p><l>Zambia<s n="np"/><s n="loc"/></l><r>Zàmbia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>de<b/>vez<b/>en<b/>cuando<s n="adv"/></l><r>de<b/>tant<b/>en<b/>tant<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>de<b/>pie<s n="adv"/></l>   <r>dempeus<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>entremedias<s n="adv"/></l> <r>entremig<s n="adv"/></r></p></e>
@@ -23077,7 +23083,7 @@
 <e a="prompsit2uoc"><i>Harvard<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Leonard<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Madeira<s n="np"/></i></e>
-<e a="prompsit2uoc"><p><l>Virginia<s n="np"/><s n="loc"/></l><r>Virgínia<s n="np"/><s n="loc"/></r></p></e>
+<e a="prompsit2uoc"><p><l>Virginia<s n="np"/><s n="loc"/></l><r>Virgínia<s n="np"/><s n="top"/></r></p></e>
 <e a="prompsit2uoc"><i>Massachusetts<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Michigan<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Oklahoma<s n="np"/></i></e>
@@ -41353,7 +41359,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>Aguas<b/>de<b/>Busot<s n="np"/></l><r>Aigües<b/>de<b/>Busot<s n="np"/></r></p></e>
 <e>       <p><l>Aín<s n="np"/></l>                <r>Ahín<s n="np"/></r></p></e>
 <e>       <p><l>Albarracín<s n="np"/></l>         <r>Albarrasí<s n="np"/></r></p></e>
-<e>       <p><l>Albión<s n="np"/><s n="loc"/></l> <r>Albió<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Albión<s n="np"/><s n="loc"/></l> <r>Albió<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Alborache<s n="np"/></l>          <r>Alboraig<s n="np"/></r></p></e>
 <e>       <p><l>Al<b/>Qaeda<s n="np"/><s n="al"/></l><r>Al-Qaeda<s n="np"/><s n="al"/></r></p></e>
 <e>       <p><l>Alcalalí<s n="np"/></l>           <r>Alcanalí<s n="np"/></r></p></e>
@@ -41367,15 +41373,15 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Algimia<b/>de<b/>Almonacid<s n="np"/></l><r>Algímia<b/>d'Almonesir<s n="np"/></r></p></e>
 <e>       <p><l>Algueña<s n="np"/></l>            <r>l'Alguenya<s n="np"/></r></p></e>
 <e>       <p><l>Almedíjar<s n="np"/></l>          <r>Almedíxer<s n="np"/></r></p></e>
-<e>       <p><l>Almonacid<s n="np"/><s n="loc"/></l><r>Almonesir<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Almonacid<s n="np"/><s n="loc"/></l><r>Almonesir<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Alpuente<s n="np"/></l>           <r>Alpont<s n="np"/></r></p></e>
-<e>       <p><l>Alto<b/>Volta<s n="np"/><s n="loc"/></l><r>Alt<b/>Volta<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Amberes<s n="np"/><s n="loc"/></l><r>Anvers<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Amboina<s n="np"/><s n="loc"/></l><r>Ambon<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Alto<b/>Volta<s n="np"/><s n="loc"/></l><r>Alt<b/>Volta<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Amberes<s n="np"/><s n="loc"/></l><r>Anvers<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Amboina<s n="np"/><s n="loc"/></l><r>Ambon<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Anaxágoras<s n="np"/></l>         <r>Anaxàgores<s n="np"/></r></p></e>
 <e>       <p><l>Antibes<s n="np"/></l>            <r>Antíbol<s n="np"/></r></p></e>
 <e>       <p><l>Aquiles<s n="np"/></l>            <r>Aquil·les<s n="np"/></r></p></e>
-<e>       <p><l>Arañuel<s n="np"/><s n="loc"/></l><r>Aranyel<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Arañuel<s n="np"/><s n="loc"/></l><r>Aranyel<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Aras<b/>de<b/>Alpuente<s n="np"/></l><r>Ares<b/>d'Alpont<s n="np"/></r></p></e>
 <e>       <p><l>Argelita<s n="np"/></l>           <r>Argeleta<s n="np"/></r></p></e>
 <e>       <p><l>Argel<s n="np"/></l>              <r>Alger<s n="np"/></r></p></e>
@@ -41384,7 +41390,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Asdrúbal<s n="np"/></l>           <r>Àsdrubal<s n="np"/></r></p></e>
 <e>       <p><l>Ashjabad<s n="np"/></l>           <r>Aixkhabad<s n="np"/></r></p></e>
 <e>       <p><l>Aspe<s n="np"/></l>               <r>Asp<s n="np"/></r></p></e>
-<e>       <p><l>Asuán<s n="np"/><s n="loc"/></l>  <r>Assuan<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Asuán<s n="np"/><s n="loc"/></l>  <r>Assuan<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Atila<s n="np"/></l>              <r>Àtila<s n="np"/></r></p></e>
 <e>       <p><l>Aviñón<s n="np"/></l>             <r>Avinyó<s n="np"/></r></p></e>
 <e>       <p><l>AVV<s n="np"/><s n="al"/></l>     <r>AV<s n="np"/><s n="al"/></r></p></e>
@@ -41396,9 +41402,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Baco<s n="np"/></l>               <r>Bacus<s n="np"/></r></p></e>
 <e>       <p><l>Barents<s n="np"/></l>            <r>Barentz<s n="np"/></r></p></e>
 <e>       <p><l>Barracas<s n="np"/></l>           <r>Barraques<s n="np"/></r></p></e>
-<e>       <p><l>Bearne<s n="np"/><s n="loc"/></l> <r>Bearn<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Bearne<s n="np"/><s n="loc"/></l> <r>Bearn<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Bejís<s n="np"/></l>              <r>Begís<s n="np"/></r></p></e>
-<e>       <p><l>Benabarre<s n="np"/><s n="loc"/></l><r>Benavarri<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Benabarre<s n="np"/><s n="loc"/></l><r>Benavarri<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Benagéber<s n="np"/></l>          <r>Benaixeve<s n="np"/></r></p></e>
 <e>       <p><l>Benasal<s n="np"/></l>            <r>Benassal<s n="np"/></r></p></e>
 <e>       <p><l>Benavites<s n="np"/></l>          <r>Benevites<s n="np"/></r></p></e>
@@ -41408,14 +41414,14 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Beniflá<s n="np"/></l>            <r>Beniflà<s n="np"/></r></p></e>
 <e>       <p><l>Benigánim<s n="np"/></l>          <r>Benigànim<s n="np"/></r></p></e>
 <e>       <p><l>Benijófar<s n="np"/></l>          <r>Benijòfar<s n="np"/></r></p></e>
-<e>       <p><l>Benin<s n="np"/><s n="loc"/></l>  <r>Benín<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Benin<s n="np"/><s n="loc"/></l>  <r>Benín<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Benisanó<s n="np"/></l>           <r>Benissanó<s n="np"/></r></p></e>
 <e>       <p><l>Benisoda<s n="np"/></l>           <r>Benissoda<s n="np"/></r></p></e>
 <e>       <p><l>Benisuera<s n="np"/></l>          <r>Benissuera<s n="np"/></r></p></e>
 <e>       <p><l>Benitachell<s n="np"/></l>        <r>el<b/>Poble<b/>Nou<b/>de<b/>Benitatxell<s n="np"/></r></p></e>
-<e>       <p><l>Benlloch<s n="np"/><s n="loc"/></l>           <r>Bell-lloc<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Benlloch<s n="np"/><s n="loc"/></l>           <r>Bell-lloc<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Benlloch<s n="np"/><s n="ant"/></l>           <r>Benlloch<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Berberia<s n="np"/><s n="loc"/></l><r>Barbaria<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Berberia<s n="np"/><s n="loc"/></l><r>Barbaria<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Bérgamo<s n="np"/></l>            <r>Bèrgam<s n="np"/></r></p></e>
 <e>       <p><l>Bicorp<s n="np"/></l>             <r>Bicorb<s n="np"/></r></p></e>
 <e>       <p><l>Bigastro<s n="np"/></l>           <r>Bigastre<s n="np"/></r></p></e>
@@ -41426,13 +41432,13 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Brandeburgo<s n="np"/></l>        <r>Brandenburg<s n="np"/></r></p></e>
 <e r="LR">       <p><l>Brema<s n="np"/></l>              <r>Bremen<s n="np"/></r></p></e>
 <e>       <p><l>Brindisi<s n="np"/></l>           <r>Bríndisi<s n="np"/></r></p></e>
-<e>       <p><l>Britania<s n="np"/><s n="loc"/></l><r>Britània<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Britania<s n="np"/><s n="loc"/></l><r>Britània<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Buñol<s n="np"/></l>              <r>Bunyol<s n="np"/></r></p></e>
-<e>       <p><l>Cabilia<s n="np"/><s n="loc"/></l><r>Cabília<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>cabo<b/>de<b/>Creus<s n="np"/><s n="loc"/></l><r>cap<b/>de<b/>Creus<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>cabo<b/>de<b/>la<b/>Nao<s n="np"/><s n="loc"/></l><r>cap<b/>de<b/>la<b/>Nau<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>cabo<b/>de<b/>las<b/>Huertas<s n="np"/><s n="loc"/></l><r>cap<b/>de<b/>l'Horta<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Cabo<b/>Kennedy<s n="np"/><s n="loc"/></l><r>Cape<b/>Kennedy<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Cabilia<s n="np"/><s n="loc"/></l><r>Cabília<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>cabo<b/>de<b/>Creus<s n="np"/><s n="loc"/></l><r>cap<b/>de<b/>Creus<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>cabo<b/>de<b/>la<b/>Nao<s n="np"/><s n="loc"/></l><r>cap<b/>de<b/>la<b/>Nau<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>cabo<b/>de<b/>las<b/>Huertas<s n="np"/><s n="loc"/></l><r>cap<b/>de<b/>l'Horta<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Cabo<b/>Kennedy<s n="np"/><s n="loc"/></l><r>Cape<b/>Kennedy<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Cabo<b/>Verde<s n="np"/></l>      <r>Cap<b/>Verd<s n="np"/></r></p></e>
 <e>       <p><l>Cagliari<s n="np"/></l>           <r>Càller<s n="np"/></r></p></e>
 <e>       <p><l>Cálig<s n="np"/></l>              <r>Càlig<s n="np"/></r></p></e>
@@ -41441,10 +41447,10 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Cañada<s n="np"/></l>             <r>la<b/>Canyada<s n="np"/></r></p></e>
 <e r="LR">       <p><l>la<b/>Cañada<s n="np"/></l>             <r>la<b/>Canyada<s n="np"/></r></p></e>
 <e>       <p><l>Caronte<s n="np"/></l>            <r>Caront<s n="np"/></r></p></e>
-<e>       <p><l>Cárpatos<s n="np"/><s n="loc"/></l><r>Carpats<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Cárpatos<s n="np"/><s n="loc"/></l><r>Carpats<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Casas<b/>Altas<s n="np"/></l>     <r>Cases<b/>Altes<s n="np"/></r></p></e>
 <e>       <p><l>Casas<b/>Bajas<s n="np"/></l>     <r>Cases<b/>Baixes<s n="np"/></r></p></e>
-<e>       <p><l>Castillo<b/>de<b/>Vilamalefa<s n="np"/><s n="loc"/></l><r>Castell<b/>de<b/>Vilamalefa<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Castillo<b/>de<b/>Vilamalefa<s n="np"/><s n="loc"/></l><r>Castell<b/>de<b/>Vilamalefa<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Catellbisbal<s n="np"/></l>       <r>Castellbisbal<s n="np"/></r></p></e>
 <e r="RL">       <p><l>Cenicienta<s n="np"/></l>         <r>Cendrellosa<s n="np"/></r></p></e>
 <e>       <p><l>centroamérica<s n="np"/></l>      <r>centreamèrica<s n="np"/></r></p></e>
@@ -41459,30 +41465,30 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Chilches<s n="np"/></l>           <r>Xilxes<s n="np"/></r></p></e>
 <e>       <p><l>Chiva<s n="np"/></l>              <r>Xiva<s n="np"/></r></p></e>
 <e>       <p><l>Chulilla<s n="np"/></l>           <r>Xulilla<s n="np"/></r></p></e>
-<e>       <p><l>Chulilla<s n="np"/><s n="loc"/></l><r>Xulella<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Chulilla<s n="np"/><s n="loc"/></l><r>Xulella<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Cicerón<s n="np"/></l>            <r>Ciceró<s n="np"/></r></p></e>
 <e>       <p><l>Ciudad<b/>de<b/>México<s n="np"/></l><r>Ciutat<b/>de<b/>Mèxic<s n="np"/></r></p></e>
 <e>       <p><l>Ciudad<b/>del<b/>Cabo<s n="np"/></l><r>Ciutat<b/>del<b/>Cap<s n="np"/></r></p></e>
 <e>       <p><l>Cleopatra<s n="np"/></l>          <r>Cleòpatra<s n="np"/></r></p></e>
 <e>       <p><l>Coimbra<s n="np"/></l>            <r>Coïmbra<s n="np"/></r></p></e>
 <e>       <p><l>Colldejou<s n="np"/></l>          <r>Coldejou<s n="np"/></r></p></e>
-<e>       <p><l>Colliure<s n="np"/><s n="loc"/></l><r>Cotlliure<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Constantinopla<s n="np"/><s n="loc"/></l><r>Constantinoble<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Colliure<s n="np"/><s n="loc"/></l><r>Cotlliure<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Constantinopla<s n="np"/><s n="loc"/></l><r>Constantinoble<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Constanza<s n="np"/></l>          <r>Constança<s n="np"/></r></p></e>
 <e>       <p><l>Copenhague<s n="np"/></l>         <r>Copenhaguen<s n="np"/></r></p></e>
-<e>       <p><l>Cornualles<s n="np"/><s n="loc"/></l><r>Cornualla<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Cornualles<s n="np"/><s n="loc"/></l><r>Cornualla<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Cortes<b/>de<b/>Arenoso<s n="np"/></l><r>Cortes<b/>d'Arenós<s n="np"/></r></p></e>
 <e>       <p><l>Cortes<b/>de<b/>Pallás<s n="np"/></l><r>Cortes<b/>de<b/>Pallars<s n="np"/></r></p></e>
 <e>       <p><l>Cox<s n="np"/></l>                <r>Coix<s n="np"/></r></p></e>
 <e>       <p><l>Crevillente<s n="np"/></l>        <r>Crevillent<s n="np"/></r></p></e>
-<e>       <p><l>Cuenca<s n="np"/><s n="loc"/></l> <r>Conca<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Curazao<s n="np"/><s n="loc"/></l><r>Curaçao<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Curdistán<s n="np"/><s n="loc"/></l><r>Kurdistan<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Dahomey<s n="np"/><s n="loc"/></l><r>el<b/>Dahomei<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Cuenca<s n="np"/><s n="loc"/></l> <r>Conca<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Curazao<s n="np"/><s n="loc"/></l><r>Curaçao<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Curdistán<s n="np"/><s n="loc"/></l><r>Kurdistan<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Dahomey<s n="np"/><s n="loc"/></l><r>el<b/>Dahomei<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Damocles<s n="np"/></l>           <r>Dàmocles<s n="np"/></r></p></e>
 <e>       <p><l>Daya<b/>Nueva<s n="np"/></l>      <r>Daia<b/>Nueva<s n="np"/></r></p></e>
 <e>       <p><l>Daya<b/>Vieja<s n="np"/></l>      <r>Daia<b/>Vieja<s n="np"/></r></p></e>
-<e>       <p><l>Dekan<s n="np"/><s n="loc"/></l>  <r>Dècan<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Dekan<s n="np"/><s n="loc"/></l>  <r>Dècan<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Domeño<s n="np"/></l>             <r>Domenyo<s n="np"/></r></p></e>
 <e>       <p><l>don<b/>Juan<s n="np"/></l>        <r>don<b/>Joan<s n="np"/></r></p></e>
 <e>       <p><l>don<b/>Quijote<s n="np"/></l>     <r>el<b/>Quixot<s n="np"/></r></p></e>
@@ -41491,8 +41497,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Dushanbe<s n="np"/></l>           <r>Duixanbe<s n="np"/></r></p></e>
 <e>       <p><l>Edipo<s n="np"/></l>              <r>Èdip<s n="np"/></r></p></e>
 <e>       <p><l>el<b/>Hades<s n="np"/></l>        <r>l'Hades<s n="np"/></r></p></e>
-<e>       <p><l>el<b/>Jordán<s n="np"/><s n="loc"/></l><r>el<b/>Jordà<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>el<b/>Misisipí<s n="np"/><s n="loc"/></l><r>el<b/>Mississipí<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>el<b/>Jordán<s n="np"/><s n="loc"/></l><r>el<b/>Jordà<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>el<b/>Misisipí<s n="np"/><s n="loc"/></l><r>el<b/>Mississipí<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>el<b/>País<b/>Valenciano<s n="np"/></l><r>el<b/>País<b/>Valencià<s n="np"/></r></p></e>
 <e>       <p><l>el<b/>País<b/>Vasco<s n="np"/></l><r>el<b/>País<b/>Basc<s n="np"/></r></p></e>
 <e>       <p><l>el<b/>Peñón<b/>de<b/>Ifach<s n="np"/></l><r>el<b/>Penó<b/>d'Ifach<s n="np"/></r></p></e>
@@ -41512,13 +41518,13 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Esculapio<s n="np"/></l>          <r>Esculapi<s n="np"/></r></p></e>
 <e>       <p><l>Esfinge<s n="np"/></l>            <r>Esfinx<s n="np"/></r></p></e>
 <e>       <p><l>Espadilla<s n="np"/></l>          <r>Espadella<s n="np"/></r></p></e>
-<e>       <p><l>Esquilache<s n="np"/><s n="loc"/></l><r>Squillace<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Esquilache<s n="np"/><s n="loc"/></l><r>Squillace<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Esquilo<s n="np"/></l>            <r>Èsquil<s n="np"/></r></p></e>
 <e>       <p><l>Esterri<b/>de<b/>Cardós<s n="np"/></l><r>Esteri<b/>de<b/>Cardós<s n="np"/></r></p></e>
 <e>       <p><l>Estrómboli<s n="np"/></l>         <r>Stromboli<s n="np"/></r></p></e>
 <e>       <p><l>et.<b/>al.<s n="np"/><s n="al"/></l><r>et<b/>al.<s n="np"/><s n="al"/></r></p></e>
-<e>       <p><l>Éufrates<s n="np"/><s n="loc"/></l><r>Eufrates<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Eurasia<s n="np"/><s n="loc"/></l><r>Euràsia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Éufrates<s n="np"/><s n="loc"/></l><r>Eufrates<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Eurasia<s n="np"/><s n="loc"/></l><r>Euràsia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Eurocámara<s n="np"/><s n="al"/></l><r>Eurocambra<s n="np"/><s n="al"/></r></p></e>
 <e>       <p><l>Facheca<s n="np"/></l>            <r>Fageca<s n="np"/></r></p></e>
 <e>       <p><l>Febo<s n="np"/></l>               <r>Febus<s n="np"/></r></p></e>
@@ -41527,28 +41533,28 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Florencia<s n="np"/></l>          <r>Florència<s n="np"/></r></p></e>
 <e>       <p><l>Friburgo<s n="np"/></l>           <r>Friburg<s n="np"/></r></p></e>
 <e>       <p><l>Frisias<s n="np"/></l>            <r>Frisones<s n="np"/></r></p></e>
-<e>       <p><l>Fuentes<b/>de<b/>Ayódar<s n="np"/><s n="loc"/></l><r>les<b/>Fonts<b/>d'Aiòder<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Fuentes<b/>de<b/>Ayódar<s n="np"/><s n="loc"/></l><r>les<b/>Fonts<b/>d'Aiòder<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Galia<s n="np"/></l>              <r>Gàl·lia<s n="np"/></r></p></e>
-<e>       <p><l>Gante<s n="np"/><s n="loc"/></l>  <r>Gant<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Gante<s n="np"/><s n="loc"/></l>  <r>Gant<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Gascuña<s n="np"/></l>            <r>Gascunya<s n="np"/></r></p></e>
 <e>       <p><l>Gátova<s n="np"/></l>             <r>Gàtova<s n="np"/></r></p></e>
 <e>       <p><l>Generalitat<b/>de<b/>Valencia<s n="np"/><s n="al"/></l><r>Generalitat<b/>de<b/>València<s n="np"/><s n="al"/></r></p></e>
 <e>       <p><l>Genovés<s n="np"/></l>            <r>el<b/>Genovés<s n="np"/></r></p></e>
 <e>       <p><l>Germán<b/>Bernácer<s n="np"/></l> <r>Germà<b/>Bernàcer<s n="np"/></r></p></e>
 <e>       <p><l>Gestalgar<s n="np"/></l>          <r>Xestalgar<s n="np"/></r></p></e>
-<e>       <p><l>Giza<s n="np"/><s n="loc"/></l>   <r>Gizeh<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Granadinas<s n="np"/><s n="loc"/></l><r>Grenadines<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Giza<s n="np"/><s n="loc"/></l>   <r>Gizeh<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Granadinas<s n="np"/><s n="loc"/></l><r>Grenadines<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Granja<b/>de<b/>Rocamora<s n="np"/></l><r>la<b/>Granja<b/>de<b/>Rocamora<s n="np"/></r></p></e>
 <e>       <p><l>Guadalest<s n="np"/></l>          <r>el<b/>Castell<b/>de<b/>Guadalest<s n="np"/></r></p></e>
-<e>       <p><l>Guadalope<s n="np"/><s n="loc"/></l><r>Guadalop<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Guadalope<s n="np"/><s n="loc"/></l><r>Guadalop<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Guadasequies<s n="np"/></l>       <r>Guadassèquies<s n="np"/></r></p></e>
 <e>       <p><l>Guardamar<b/>de<b/>Segura<s n="np"/></l><r>Guardamar<b/>del<b/>Segura<s n="np"/></r></p></e>
-<e>       <p><l>Guayana<b/>británica<s n="np"/><s n="loc"/></l><r>Guaiana<b/>britànica<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Guayana<b/>británica<s n="np"/><s n="loc"/></l><r>Guaiana<b/>britànica<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Guinea-Bissau<s n="np"/></l>      <r>Guinea<b/>Bissau<s n="np"/></r></p></e>
 <e>       <p><l>Hawai<s n="np"/></l>              <r>Hawaii<s n="np"/></r></p></e>
-<e>       <p><l>Hébridas<s n="np"/><s n="loc"/></l><r>Hèbrides<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Hébridas<s n="np"/><s n="loc"/></l><r>Hèbrides<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Hécuba<s n="np"/></l>             <r>Hècuba<s n="np"/></r></p></e>
-<e>       <p><l>Henao<s n="np"/><s n="loc"/></l>  <r>Hainaut<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Henao<s n="np"/><s n="loc"/></l>  <r>Hainaut<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Hendaya<s n="np"/></l>            <r>Hendaia<s n="np"/></r></p></e>
 <e>       <p><l>Heracles<s n="np"/></l>           <r>Hèracles<s n="np"/></r></p></e>
 <e>       <p><l>Herbés<s n="np"/></l>             <r>Herbers<s n="np"/></r></p></e>
@@ -41561,11 +41567,11 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Hondón<b/>de<b/>los<b/>Frailes<s n="np"/></l><r>el<b/>Fondó<b/>dels<b/>Frares<s n="np"/></r></p></e>
 <e>       <p><l>Honolulú<s n="np"/></l>           <r>Honolulu<s n="np"/></r></p></e>
 <e>       <p><l>Ícaro<s n="np"/></l>              <r>Ícar<s n="np"/></r></p></e>
-<e>       <p><l>Indochina<s n="np"/><s n="loc"/></l><r>la<b/>Indoxina<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Indo<s n="np"/><s n="loc"/></l>   <r>Indus<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Indochina<s n="np"/><s n="loc"/></l><r>la<b/>Indoxina<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Indo<s n="np"/><s n="loc"/></l>   <r>Indus<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Indostán<s n="np"/></l>           <r>Hindustan<s n="np"/></r></p></e>
-<e>       <p><l>isla<b/>de<b/>Granada<s n="np"/><s n="loc"/></l><r>illa<b/>de<b/>Grenada<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>isla<b/>de<b/>Guadalupe<s n="np"/><s n="loc"/></l><r>illa<b/>de<b/>Guadeloupe<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>isla<b/>de<b/>Granada<s n="np"/><s n="loc"/></l><r>illa<b/>de<b/>Grenada<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>isla<b/>de<b/>Guadalupe<s n="np"/><s n="loc"/></l><r>illa<b/>de<b/>Guadeloupe<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Islas<b/>Canarias<s n="np"/></l>  <r>Illes<b/>Canàries<s n="np"/></r></p></e>
 <e>       <p><l>Islas<b/>Salomón<s n="np"/></l>   <r>Illes<b/>Salomó<s n="np"/></r></p></e>
 <e>       <p><l>Itaca<s n="np"/></l>              <r>Ítaca<s n="np"/></r></p></e>
@@ -41576,36 +41582,36 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Jasón<s n="np"/></l>              <r>Jàson<s n="np"/></r></p></e>
 <e>       <p><l>J.C.<s n="np"/></l>               <r>JC<s n="np"/></r></p></e>
 <e>       <p><l>Jérica<s n="np"/></l>             <r>Xèrica<s n="np"/></r></p></e>
-<e>       <p><l>Johannesburgo<s n="np"/><s n="loc"/></l><r>Johannesburg<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Judea<s n="np"/><s n="loc"/></l>  <r>la<b/>Judea<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Johannesburgo<s n="np"/><s n="loc"/></l><r>Johannesburg<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Judea<s n="np"/><s n="loc"/></l>  <r>la<b/>Judea<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Juegos<b/>Olímpicos<s n="np"/><s n="al"/></l><r>Jocs<b/>Olímpics<s n="np"/><s n="al"/></r></p></e>
 <e>       <p><l>Juegos<b/>Paralímpicos<s n="np"/></l><r>Jocs<b/>Paralímpics<s n="np"/></r></p></e>
-<e>       <p><l>Jumilla<s n="np"/><s n="loc"/></l><r>Jumella<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Kampuchea<s n="np"/><s n="loc"/></l><r>Kampuchéa<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Jumilla<s n="np"/><s n="loc"/></l><r>Jumella<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Kampuchea<s n="np"/><s n="loc"/></l><r>Kampuchéa<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Katmandú<s n="np"/></l>           <r>Kàtmandu<s n="np"/></r></p></e>
 <e>       <p><l>Kattegat<s n="np"/></l>           <r>Kattigat<s n="np"/></r></p></e>
 <e r="LR">       <p><l>Kazajstán<s n="np"/></l>          <r>Kazakhstan<s n="np"/></r></p></e>
-<e>       <p><l>Keops<s n="np"/><s n="loc"/></l>  <r>Kheops<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Keops<s n="np"/><s n="loc"/></l>  <r>Kheops<s n="np"/><s n="top"/></r></p></e>
 <e r="LR">       <p><l>Kirguizistán<s n="np"/></l>       <r>Kirguizistan<s n="np"/></r></p></e>
 <e>       <p><l>Kishiniov<s n="np"/></l>          <r>Kixinov<s n="np"/></r></p></e>
-<e>       <p><l>Kuriles<s n="np"/><s n="loc"/></l><r>Kurils<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Kuriles<s n="np"/><s n="loc"/></l><r>Kurils<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>la<b/>Comunidad<b/>Valenciana<s n="np"/></l><r>la<b/>Comunitat<b/>Valenciana<s n="np"/></r></p></e>
 <e>       <p><l>la<b/>Eliana<s n="np"/></l>       <r>l'Eliana<s n="np"/></r></p></e>
-<e>       <p><l>La<b/>Haya<s n="np"/><s n="loc"/></l><r>l'Haia<b/><s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>La<b/>Haya<s n="np"/><s n="loc"/></l><r>l'Haia<b/><s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>la<b/>Llacuna<s n="np"/></l>      <r>la<b/>Llancuna<s n="np"/></r></p></e>
-<e>       <p><l>la<b/>Mancha<s n="np"/><s n="loc"/></l><r>la<b/>Manxa<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>la<b/>Mancha<s n="np"/><s n="loc"/></l><r>la<b/>Manxa<s n="np"/><s n="top"/></r></p></e>
 <e r="RL">       <p><l>la<b/>Mata<s n="np"/></l>         <r>la<b/>Mata<b/>de<b/>Morella<s n="np"/></r></p></e>
 <e>       <p><l>La<b/>Romana<s n="np"/></l>       <r>la<b/>Romana<s n="np"/></r></p></e>
 <e>       <p><l>la<b/>Torre<b/>de<b/>Cabdella<s n="np"/></l><r>la<b/>Torre<b/>de<b/>Cabella<s n="np"/></r></p></e>
 <e>       <p><l>La<b/>Yesa<s n="np"/></l>         <r>la<b/>Yesa<s n="np"/></r></p></e>
 <e>       <p><l>Lacio<s n="np"/></l>              <r>Laci<s n="np"/></r></p></e>
-<e>       <p><l>Ladoga<s n="np"/><s n="loc"/></l> <r>Làdoga<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Laponia<s n="np"/><s n="loc"/></l><r>Lapònia<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Laquedivas<s n="np"/><s n="loc"/></l><r>Lacadives<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Ladoga<s n="np"/><s n="loc"/></l> <r>Làdoga<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Laponia<s n="np"/><s n="loc"/></l><r>Lapònia<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Laquedivas<s n="np"/><s n="loc"/></l><r>Lacadives<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Larache<s n="np"/></l>            <r>Larraix<s n="np"/></r></p></e>
-<e>       <p><l>Las<b/>Landas<s n="np"/><s n="loc"/></l><r>les<b/>Landes<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Le<b/>Havre<s n="np"/><s n="loc"/></l><r>Le<b/>Havre<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Lemosín<s n="np"/><s n="loc"/></l><r>Llemosí<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Las<b/>Landas<s n="np"/><s n="loc"/></l><r>les<b/>Landes<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Le<b/>Havre<s n="np"/><s n="loc"/></l><r>Le<b/>Havre<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Lemosín<s n="np"/><s n="loc"/></l><r>Llemosí<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Leningrado<s n="np"/></l>         <r>Leningrad<s n="np"/></r></p></e>
 <e>       <p><l>les<b/>Llosses<s n="np"/></l>     <r>les<b/>Lloses<s n="np"/></r></p></e>
 <e>       <p><l>Lés<s n="np"/></l>                <r>Les<s n="np"/></r></p></e>
@@ -41618,15 +41624,15 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>los<b/>Países<b/>Bajos<s n="np"/></l><r>els<b/>Països<b/>Baixos<s n="np"/></r></p></e>
 <e>       <p><l>los<b/>Països<b/>Catalans<s n="np"/></l><r>els<b/>Països<b/>Catalans<s n="np"/></r></p></e>
 <e>       <p><l>los<b/>Pirineos<s n="np"/></l>    <r>els<b/>Pirineus<s n="np"/></r></p></e>
-<e>       <p><l>Lourdes<s n="np"/><s n="loc"/></l><r>Lorda<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Lourdes<s n="np"/><s n="loc"/></l><r>Lorda<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Luca<s n="np"/></l>               <r>Lucca<s n="np"/></r></p></e>
 <e>       <p><l>Lucena<b/>del<b/>Cid<s n="np"/></l><r>Llucena<s n="np"/></r></p></e>
 <e>       <p><l>Lucifer<s n="np"/><s n="ant"/></l><r>Llucifer<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Ludiente<s n="np"/></l>           <r>Lludient<s n="np"/></r></p></e>
 <e>       <p><l>Lugar<b/>Nuevo<b/>de<b/>Fenollet<s n="np"/></l><r>Llocnou<b/>d'en<b/>Fenollet<s n="np"/></r></p></e>
 <e>       <p><l>Lugar<b/>Nuevo<b/>de<b/>la<b/>Corona<s n="np"/></l><r>Llocnou<b/>de<b/>la<b/>Corona<s n="np"/></r></p></e>
-<e>       <p><l>Luisiana<s n="np"/><s n="loc"/></l><r>Louisiana<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Macasar<s n="np"/><s n="loc"/></l><r>Makasar<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Luisiana<s n="np"/><s n="loc"/></l><r>Louisiana<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Macasar<s n="np"/><s n="loc"/></l><r>Makasar<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Magdeburgo<s n="np"/></l>         <r>Magdeburg<s n="np"/></r></p></e>
 <e>       <p><l>Malaca<s n="np"/></l>             <r>Malacca<s n="np"/></r></p></e>
 <e>       <p><l>Manama<s n="np"/></l>             <r>Al-Manama<s n="np"/></r></p></e>
@@ -41636,57 +41642,57 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Masalavés<s n="np"/></l>          <r>Massalavés<s n="np"/></r></p></e>
 <e>       <p><l>Mascabe<s n="np"/></l>            <r>Masgat<s n="np"/></r></p></e>
 <e>       <p><l>Mazalquivir<s n="np"/></l>        <r>Mers-el-Kebir<s n="np"/></r></p></e>
-<e>       <p><l>Mecklemburgo<s n="np"/><s n="loc"/></l><r>Mecklenburg<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Mecklemburgo<s n="np"/><s n="loc"/></l><r>Mecklenburg<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Megara<s n="np"/></l>             <r>Mègara<s n="np"/></r></p></e>
 <e>       <p><l>Menfis<s n="np"/></l>             <r>Memfis<s n="np"/></r></p></e>
-<e>       <p><l>Mesenia<s n="np"/><s n="loc"/></l><r>Messènia<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Mesenia<s n="np"/><s n="loc"/></l><r>Messènia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Mesina<s n="np"/></l>             <r>Messina<s n="np"/></r></p></e>
-<e>       <p><l>Milanesado<s n="np"/><s n="loc"/></l><r>Milanesat<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Milanesado<s n="np"/><s n="loc"/></l><r>Milanesat<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Millares<s n="np"/></l>           <r>Millars<s n="np"/></r></p></e>
 <e>       <p><l>Millena<s n="np"/></l>            <r>Billeneta<s n="np"/></r></p></e>
-<e>       <p><l>Misisipí<s n="np"/><s n="loc"/></l><r>Mississippi<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Misuri<s n="np"/><s n="loc"/></l> <r>Missouri<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Molucas<s n="np"/><s n="loc"/></l><r>Moluques<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Misisipí<s n="np"/><s n="loc"/></l><r>Mississippi<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Misuri<s n="np"/><s n="loc"/></l> <r>Missouri<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Molucas<s n="np"/><s n="loc"/></l><r>Moluques<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Monforte<b/>del<b/>Cid<s n="np"/></l><r>Montfort<s n="np"/></r></p></e>
 <e>       <p><l>Montaberner<s n="np"/></l>        <r>Montaverner<s n="np"/></r></p></e>
 <e>       <p><l>Montán<s n="np"/></l>             <r>Montant<s n="np"/></r></p></e>
-<e>       <p><l>Montecasino<s n="np"/><s n="loc"/></l><r>Montecassino<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>montes<b/>Metálicos<s n="np"/><s n="loc"/></l><r>muntanyes<b/>Metal·líferes<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Montecasino<s n="np"/><s n="loc"/></l><r>Montecassino<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>montes<b/>Metálicos<s n="np"/><s n="loc"/></l><r>muntanyes<b/>Metal·líferes<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Montesquiu<s n="np"/></l>         <r>Montesquieu<s n="np"/></r></p></e>
 <e>       <p><l>Montichelvo<s n="np"/></l>        <r>Montitxelvo<s n="np"/></r></p></e>
 <e>       <p><l>Montoliu<b/>de<b/>Segarra<s n="np"/></l><r>Montoliu<b/>de<b/>Segarre<s n="np"/></r></p></e>
 <e>       <p><l>Montroy<s n="np"/></l>            <r>Montroi<s n="np"/></r></p></e>
-<e>       <p><l>Mosela<s n="np"/><s n="loc"/></l> <r>Mosel·la<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Mosela<s n="np"/><s n="loc"/></l> <r>Mosel·la<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Muro<b/>de<b/>Alcoy<s n="np"/></l><r>Muro<b/>d'Alcoi<s n="np"/></r></p></e>
-<e>       <p><l>Nablús<s n="np"/><s n="loc"/></l> <r>Nabulus<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Nablús<s n="np"/><s n="loc"/></l> <r>Nabulus<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Nankín<s n="np"/></l>             <r>Nanquín<s n="np"/></r></p></e>
 <e>       <p><l>Náquera<s n="np"/></l>            <r>Nàquera<s n="np"/></r></p></e>
 <e>       <p><l>National<b/>Geographic<s n="np"/></l><r>National<b/>Geographic<s n="np"/></r></p></e>
 <e>       <p><l>Navajas<s n="np"/></l>            <r>Navaixes<s n="np"/></r></p></e>
-<e>       <p><l>Nguane<s n="np"/><s n="loc"/></l> <r>Ngwane<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Niágara<s n="np"/><s n="loc"/></l><r>Niàgara<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Noreste<s n="np"/><s n="loc"/></l>            <r>Nord-est<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Noroeste<s n="np"/><s n="loc"/></l>           <r>Nord-oest<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Norteamérica<s n="np"/><s n="loc"/></l><r>Amèrica<b/>del<b/>Nord<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Nguane<s n="np"/><s n="loc"/></l> <r>Ngwane<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Niágara<s n="np"/><s n="loc"/></l><r>Niàgara<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Noreste<s n="np"/><s n="loc"/></l>            <r>Nord-est<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Noroeste<s n="np"/><s n="loc"/></l>           <r>Nord-oest<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Norteamérica<s n="np"/><s n="loc"/></l><r>Amèrica<b/>del<b/>Nord<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Novelé<s n="np"/></l>             <r>Novetlè<s n="np"/></r></p></e>
-<e>       <p><l>Nueva<b/>Delhi<s n="np"/><s n="loc"/></l><r>Nova<b/>Delhi<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Nueva<b/>Orleans<s n="np"/><s n="loc"/></l><r>Nova<b/>Orleans<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Nueva<b/>Siberia<s n="np"/><s n="loc"/></l><r>Nova<b/>Sibèria<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Nueva<b/>Zembla<s n="np"/><s n="loc"/></l><r>Nova<b/>Terra<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Nuevas<b/>Hébridas<s n="np"/><s n="loc"/></l><r>Noves<b/>Hèbrides<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Nueva<b/>Delhi<s n="np"/><s n="loc"/></l><r>Nova<b/>Delhi<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Nueva<b/>Orleans<s n="np"/><s n="loc"/></l><r>Nova<b/>Orleans<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Nueva<b/>Siberia<s n="np"/><s n="loc"/></l><r>Nova<b/>Sibèria<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Nueva<b/>Zembla<s n="np"/><s n="loc"/></l><r>Nova<b/>Terra<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Nuevas<b/>Hébridas<s n="np"/><s n="loc"/></l><r>Noves<b/>Hèbrides<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Nuku<b/>Alofa<s n="np"/></l>      <r>Nuku'Alofa<s n="np"/></r></p></e>
 <e>       <p><l>Odiseo<s n="np"/></l>             <r>Odiseu<s n="np"/></r></p></e>
 <e>       <p><l>Oeste<s n="np"/></l>              <r>Oest<s n="np"/></r></p></e>
 <e>       <p><l>Olocau<b/>del<b/>Rey<s n="np"/></l><r>Olocau<b/>del<b/>Rei<s n="np"/></r></p></e>
-<e>       <p><l>Orange<s n="np"/><s n="loc"/></l>             <r>Aurenja<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>Oriente<b/>Próximo<s n="np"/><s n="loc"/></l><r>Orient<b/>Pròxim<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Orange<s n="np"/><s n="loc"/></l>             <r>Aurenja<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>Oriente<b/>Próximo<s n="np"/><s n="loc"/></l><r>Orient<b/>Pròxim<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Palas<s n="np"/></l>              <r>Pal·las<s n="np"/></r></p></e>
 <e>       <p><l>Palermo<s n="np"/></l>            <r>Palerm<s n="np"/></r></p></e>
 <e>       <p><l>Palma<b/>de<b/>Gandía<s n="np"/></l><r>Palma<b/>de<b/>Gandia<s n="np"/></r></p></e>
-<e>       <p><l>Palomar<s n="np"/><s n="loc"/></l>            <r>el<b/>Palomar<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Palomar<s n="np"/><s n="loc"/></l>            <r>el<b/>Palomar<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Palomar<s n="np"/><s n="ant"/></l>            <r>Palomar<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Manuel<b/>Palomar<s n="np"/><s n="ant"/></l>            <r>Manuel<b/>Palomar<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>Pantelaria<s n="np"/><s n="loc"/></l><r>Pantel·leria<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Pantelaria<s n="np"/><s n="loc"/></l><r>Pantel·leria<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Papúa<s n="np"/></l>              <r>Papua<s n="np"/></r></p></e>
 <e>       <p><l>Parnaso<s n="np"/></l>            <r>Parnàs<s n="np"/></r></p></e>
 <e>       <p><l>Patroclo<s n="np"/></l>           <r>Pàtrocle<s n="np"/></r></p></e>
@@ -41694,12 +41700,12 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Peñíscola<s n="np"/></l>          <r>Peníscola<s n="np"/></r></p></e>
 <e>       <p><l>Pérgamo<s n="np"/></l>            <r>Pèrgam<s n="np"/></r></p></e>
 <e>       <p><l>Pericles<s n="np"/></l>           <r>Pèricles<s n="np"/></r></p></e>
-<e>       <p><l>Petersburgo<s n="np"/><s n="loc"/></l><r>Petersburg<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Petersburgo<s n="np"/><s n="loc"/></l><r>Petersburg<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Phnom<b/>Penh<s n="np"/></l>      <r>Penh<s n="np"/></r></p></e>
 <e>       <p><l>Picapiedra<s n="np"/></l>         <r>Picapedra<s n="np"/></r></p></e>
 <e r="RL"><p><l>Pilar<b/>de<b/>la<b/>Horadada<s n="np"/></l><r>Pilar<b/>de<b/>la<b/>Foradada<s n="np"/></r></p></e>
 <e>       <p><l>Pilar<b/>de<b/>la<b/>Horadada<s n="np"/></l><r>el<b/>Pilar<b/>de<b/>la<b/>Foradada<s n="np"/></r></p></e>
-<e>       <p><l>Pina<b/>de<b/>Montalgrao<s n="np"/><s n="loc"/></l><r>Pina<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Pina<b/>de<b/>Montalgrao<s n="np"/><s n="loc"/></l><r>Pina<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Pinell<b/>de<b/>Solsonès<s n="np"/></l><r>el<b/>Pinell<b/>de<b/>Solsonès<s n="np"/></r></p></e>
 <e>       <p><l>Pinoso<s n="np"/></l>             <r>el<b/>Pinós<s n="np"/></r></p></e>
 <e>       <p><l>Píramo<s n="np"/></l>             <r>Píram<s n="np"/></r></p></e>
@@ -41719,10 +41725,10 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Puebla<b/>de<b/>San<b/>Miguel<s n="np"/></l><r>la<b/>Pobla<b/>de<b/>Sant<b/>Miquel<s n="np"/></r></p></e>
 <e>       <p><l>Puerto<b/>España<s n="np"/></l>   <r>Port<b/>of<b/>Spain<s n="np"/></r></p></e>
 <e>       <p><l>Puerto<b/>Príncipe<s n="np"/></l> <r>Port-au-Prince<s n="np"/></r></p></e>
-<e>       <p><l>Punjab<s n="np"/><s n="loc"/></l> <r>Panjab<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Punjab<s n="np"/><s n="loc"/></l> <r>Panjab<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Ráfol<b/>de<b/>Almunia<s n="np"/></l><r>el<b/>Ràfol<b/>d'Almúnia<s n="np"/></r></p></e>
 <e>       <p><l>Ráfol<b/>de<b/>Salem<s n="np"/></l><r>el<b/>Ràfol<b/>de<b/>Salem<s n="np"/></r></p></e>
-<e r="RL">       <p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ram<b/>Al·lah<s n="np"/><s n="loc"/></r></p></e>
+<e r="RL">       <p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ram<b/>Al·lah<s n="np"/><s n="top"/></r></p></e>
 <e r="RL">       <p><l>Rangún<s n="np"/></l>             <r>Rangun<s n="np"/></r></p></e>
 <e>       <p><l>Ravena<s n="np"/></l>             <r>Ravenna<s n="np"/></r></p></e>
 <e>       <p><l>Real<b/>Betis<s n="np"/><s n="al"/></l><r>Reial<b/>Betis<s n="np"/><s n="al"/></r></p></e>
@@ -41736,14 +41742,14 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Remo<s n="np"/></l>               <r>Rem<s n="np"/></r></p></e>
 <e>       <p><l>Rentería<s n="np"/></l>           <r>Renteria<s n="np"/></r></p></e>
 <e>       <p><l>República<b/>Checa<s n="np"/></l> <r>República<b/>Txeca<s n="np"/></r></p></e>
-<e>       <p><l>República<b/>Democrática<b/>del<b/>Congo<s n="np"/><s n="loc"/></l><r>República<b/>Democràtica<b/>del<b/>Congo<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>República<b/>Democrática<b/>del<b/>Congo<s n="np"/><s n="loc"/></l><r>República<b/>Democràtica<b/>del<b/>Congo<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>República<b/>Democrática<b/>Popular<b/>de<b/>Corea<s n="np"/></l><r>República<b/>Democràtica<b/>Popular<b/>de<b/>Corea<s n="np"/></r></p></e>
-<e>       <p><l>República<b/>Malgache<s n="np"/><s n="loc"/></l><r>República<b/>Malgaixa<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>República<b/>Malgache<s n="np"/><s n="loc"/></l><r>República<b/>Malgaixa<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>República<b/>Sudafricana<s n="np"/></l><r>República<b/>de<b/>Sud-àfrica<s n="np"/></r></p></e>
 <e>       <p><l>Ribagorza<s n="np"/></l>          <r>Ribargorça<s n="np"/></r></p></e>
 <e>       <p><l>Río<b/>de<b/>Janeiro<s n="np"/></l><r>Rio<b/>de<b/>Janeiro<s n="np"/></r></p></e>
-<e>       <p><l>río<b/>Jordán<s n="np"/><s n="loc"/></l><r>riu<b/>Jordà<s n="np"/><s n="loc"/></r></p></e>
-<e>       <p><l>río<b/>Misisipí<s n="np"/><s n="loc"/></l><r>riu<b/>Mississipí<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>río<b/>Jordán<s n="np"/><s n="loc"/></l><r>riu<b/>Jordà<s n="np"/><s n="top"/></r></p></e>
+<e>       <p><l>río<b/>Misisipí<s n="np"/><s n="loc"/></l><r>riu<b/>Mississipí<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Rojales<s n="np"/></l>            <r>Rojals<s n="np"/></r></p></e>
 <e>       <p><l>Rómulo<s n="np"/></l>             <r>Ròmul<s n="np"/></r></p></e>
 <e>       <p><l>Rotglá<b/>y<b/>Corberá<s n="np"/></l><r>Roglà<b/>i<b/>Corberà<s n="np"/></r></p></e>
@@ -41756,7 +41762,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>San<b/>Fulgencio<s n="np"/></l>   <r>Sant<b/>Fulgenci<s n="np"/></r></p></e>
 <e>       <p><l>San<b/>Juan<b/>de<b/>Moró<s n="np"/></l><r>Sant<b/>Joan<b/>de<b/>Moró<s n="np"/></r></p></e>
 <e>       <p><l>San<b/>Pedro<s n="np"/><s n="ant"/></l><r>Sant<b/>Pere<s n="np"/><s n="ant"/></r></p></e>
-<e>       <p><l>San<b/>Petersburgo<s n="np"/><s n="loc"/></l><r>Sant<b/>Petersburg<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>San<b/>Petersburgo<s n="np"/><s n="loc"/></l><r>Sant<b/>Petersburg<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>San<b/>Vicente<b/>y<b/>las<b/>Granadinas<s n="np"/></l><r>Saint<b/>Vincent<b/>i<b/>les<b/>Grenadines<s n="np"/></r></p></e>
 <e>       <p><l>Sanet<b/>y<b/>Negrals<s n="np"/></l><r>Sanet<b/>i<b/>Negrals<s n="np"/></r></p></e>
 <e>       <p><l>Santa<b/>Lucía<s n="np"/></l>     <r>Saint<b/>Lucia<s n="np"/></r></p></e>
@@ -41773,7 +41779,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Sellent<s n="np"/></l>            <r>Sallent<s n="np"/></r></p></e>
 <e>       <p><l>Setla-Mirarrosa-Miraflor<s n="np"/></l><r>Setla<b/>Mira-rosa<b/>i<b/>Miraflor<s n="np"/></r></p></e>
 <e>       <p><l>Shanghai<s n="np"/></l>           <r>Xangai<s n="np"/></r></p></e>
-<e>       <p><l>Siberia<s n="np"/><s n="loc"/></l><r>Sibèria<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Siberia<s n="np"/><s n="loc"/></l><r>Sibèria<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Sibila<s n="np"/></l>             <r>Sibil·la<s n="np"/></r></p></e>
 <e>       <p><l>Sicilia<s n="np"/></l>            <r>Sicília<s n="np"/></r></p></e>
 <e>       <p><l>Sierra<b/>Engarcerán<s n="np"/></l><r>la<b/>Serra<b/>d'en<b/>Galceran<s n="np"/></r></p></e>
@@ -41787,7 +41793,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Suterranya<s n="np"/></l>         <r>Suterrany<s n="np"/></r></p></e>
 <e r="LR">       <p><l>Swazilandia<s n="np"/></l>        <r>Swazilàndia<s n="np"/></r></p></e>
 <e>       <p><l>Tántalo<s n="np"/></l>            <r>Tàntal<s n="np"/></r></p></e>
-<e>       <p><l>Tarazona<s n="np"/><s n="loc"/></l><r>Tarassona<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Tarazona<s n="np"/><s n="loc"/></l><r>Tarassona<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Tárbena<s n="np"/></l>            <r>Tàrbena<s n="np"/></r></p></e>
 <e>       <p><l>Tarento<s n="np"/></l>            <r>Tàrent<s n="np"/></r></p></e>
 <e>       <p><l>Tashkent<s n="np"/></l>           <r>Taixkent<s n="np"/></r></p></e>
@@ -41820,7 +41826,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Vall<b/>de<b/>Gallinera<s n="np"/></l><r>la<b/>Vall<b/>de<b/>Gallinera<s n="np"/></r></p></e>
 <e>       <p><l>Vall<b/>de<b/>Laguart<s n="np"/></l><r>la<b/>Vall<b/>de<b/>Laguar<s n="np"/></r></p></e>
 <e>       <p><l>Vega<b/>Baja<s n="np"/></l>       <r>Vega<b/>Baixa<s n="np"/></r></p></e>
-<e>       <p><l>vía<b/>Laietana<s n="np"/><s n="loc"/></l><r>via<b/>Laietana<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>vía<b/>Laietana<s n="np"/><s n="loc"/></l><r>via<b/>Laietana<s n="np"/><s n="top"/></r></p></e>
 <e r="RL">       <p><l>Victoria<s n="np"/></l><r>Victòria<s n="np"/></r></p></e>
 <e>       <p><l>Vientane<s n="np"/></l>           <r>Vientiane<s n="np"/></r></p></e>
 <e>       <p><l>Vilademuls<s n="np"/></l>         <r>Vildemuls<s n="np"/></r></p></e>
@@ -41836,7 +41842,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Yamusukro<s n="np"/></l>          <r>Yamussoukro<s n="np"/></r></p></e>
 <e>       <p><l>Yaundé<s n="np"/></l>             <r>Yaoundé<s n="np"/></r></p></e>
 <e>       <p><l>Yecla<s n="np"/></l>              <r>Iecla<s n="np"/></r></p></e>
-<e>       <p><l>Yenín<s n="np"/><s n="loc"/></l>  <r>Jenín<s n="np"/><s n="loc"/></r></p></e>
+<e>       <p><l>Yenín<s n="np"/><s n="loc"/></l>  <r>Jenín<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Yocasta<s n="np"/></l>            <r>Jocasta<s n="np"/></r></p></e>
 <e>       <p><l>Zorita<b/>del<b/>Maestrazgo<s n="np"/></l><r>Sorita<s n="np"/></r></p></e>
 <e>       <p><l>Zucaina<s n="np"/></l>            <r>Sucaina<s n="np"/></r></p></e>
@@ -42028,7 +42034,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>Alquerías<b/>del<b/>Niño<b/>Perdido<s n="np"/></l><r>les<b/>Alqueries<s n="np"/></r></p></e>
 <e r="LR"><p><l>Aranyuel<s n="np"/></l>           <r>Aranyel<s n="np"/></r></p></e>
 <e r="LR"><p><l>Ares<b/>del<b/>Maestre<s n="np"/></l><r>Ares<b/>del<b/>Maestrat<s n="np"/></r></p></e>
-<e r="LR"><p><l>Azerbaiján<s n="np"/><s n="loc"/></l><r>l'Azerbaitjan<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Azerbaiján<s n="np"/><s n="loc"/></l><r>l'Azerbaitjan<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Bagur<s n="np"/></l>              <r>Begur<s n="np"/></r></p></e>
 <e r="LR"><p><l>Bajo<b/>Vinalopó<s n="np"/></l>   <r>Baix<b/>Vinalopó<s n="np"/></r></p></e>
 <e r="LR"><p><l>Bañeres<s n="np"/></l>            <r>Banyeres<b/>de<b/>Mariola<s n="np"/></r></p></e>
@@ -42061,11 +42067,11 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>Castellón<b/>de<b/>la<b/>Plana<s n="np"/></l><r>Castelló<b/>de<b/>la<b/>Plana<s n="np"/></r></p></e>
 <e r="LR"><p><l>Castellón<b/>de<b/>Rugat<s n="np"/></l><r>Castelló<b/>de<b/>Rugat<s n="np"/></r></p></e>
 <e r="LR"><p><l>Castellonet<s n="np"/></l>        <r>Castellonet<b/>de<b/>la<b/>Conquesta<s n="np"/></r></p></e>
-<e r="LR"><p><l>Cerdá<s n="np"/><s n="loc"/></l>              <r>Cerdà<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Cerdá<s n="np"/><s n="loc"/></l>              <r>Cerdà<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Chert<s n="np"/></l>              <r>Xert<s n="np"/></r></p></e>
 <e r="LR"><p><l>Chodos<s n="np"/></l>             <r>Xodos<s n="np"/></r></p></e>
 <e r="LR"><p><l>Corberá<s n="np"/></l>            <r>Corberà<s n="np"/></r></p></e>
-<e r="LR"><p><l>Cortes<b/>de<b/>Arenós<s n="np"/><s n="loc"/></l><r>Cortes<b/>d'Arenós<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Cortes<b/>de<b/>Arenós<s n="np"/><s n="loc"/></l><r>Cortes<b/>d'Arenós<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Cuart<b/>de<b/>les<b/>Valls<s n="np"/></l><r>Quart<b/>de<b/>les<b/>Valls<s n="np"/></r></p></e>
 <e r="LR"><p><l>Cuart<b/>de<b/>Poblet<s n="np"/></l><r>Quart<b/>de<b/>Poblet<s n="np"/></r></p></e>
 <e r="LR"><p><l>Cuartell<s n="np"/></l>           <r>Quartell<s n="np"/></r></p></e>
@@ -42074,24 +42080,24 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>Cuevas<b/>de<b/>Vinromá<s n="np"/></l><r>les<b/>Coves<b/>de<b/>Vinromà<s n="np"/></r></p></e>
 <e r="LR"><p><l>Daimuz<s n="np"/></l>             <r>Daimús<s n="np"/></r></p></e>
 <e r="LR"><p><l>Dosaguas<s n="np"/></l>           <r>Dosaigües<s n="np"/></r></p></e>
-<e r="LR"><p><l>el<b/>Ampurdán<s n="np"/><s n="loc"/></l><r>l'Empordà<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>el<b/>Ampurdán<s n="np"/><s n="loc"/></l><r>l'Empordà<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>el<b/>Castell<b/>de<b/>Vilamalefa<s n="np"/></l><r>Castillo<b/>de<b/>Villamalefa<s n="np"/></r></p></e>
 <e r="LR"><p><l>el<b/>Castell<s n="np"/></l>      <r>es<b/>Castell<s n="np"/></r></p></e>
-<e r="LR"><p><l>el<b/>Havre<s n="np"/><s n="loc"/></l><r>Le<b/>Havre<s n="np"/><s n="loc"/></r></p></e>
-<e r="LR"><p><l>el<b/>Irak<s n="np"/><s n="loc"/></l><r>l'Iraq<s n="np"/><s n="loc"/></r></p></e>
-<e r="LR"><p><l>el<b/>Iraq<s n="np"/><s n="loc"/></l><r>l'Iraq<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>el<b/>Havre<s n="np"/><s n="loc"/></l><r>Le<b/>Havre<s n="np"/><s n="top"/></r></p></e>
+<e r="LR"><p><l>el<b/>Irak<s n="np"/><s n="loc"/></l><r>l'Iraq<s n="np"/><s n="top"/></r></p></e>
+<e r="LR"><p><l>el<b/>Iraq<s n="np"/><s n="loc"/></l><r>l'Iraq<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>el<b/>Mercadal<s n="np"/></l>     <r>es<b/>Mercadal<s n="np"/></r></p></e>
 <e r="LR"><p><l>el<b/>Migjorn<b/>Gran<s n="np"/></l><r>es<b/>Migjorn<b/>Gran<s n="np"/></r></p></e>
 <e r="LR"><p><l>Erivan<s n="np"/></l>             <r>Erevan<s n="np"/></r></p></e>
-<e r="LR"><p><l>Fernando<b/>Po<s n="np"/><s n="loc"/></l><r>Fernando<b/>Poo<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Fernando<b/>Po<s n="np"/><s n="loc"/></l><r>Fernando<b/>Poo<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Ferreolo<s n="np"/><s n="ant"/></l><r>Ferriol<s n="np"/><s n="ant"/></r></p></e>
 <e r="LR"><p><l>Ferréolo<s n="np"/><s n="ant"/></l><r>Ferriol<s n="np"/><s n="ant"/></r></p></e>
-<e r="LR"><p><l>Fidji<s n="np"/><s n="loc"/></l>  <r>Fiji<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Fidji<s n="np"/><s n="loc"/></l>  <r>Fiji<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Fontanares<s n="np"/></l>         <r>Fontanars<b/>dels<b/>Alforins<s n="np"/></r></p></e>
 <e r="LR"><p><l>Fráncfort<s n="np"/></l>          <r>Frankfurt<s n="np"/></r></p></e>
 <e r="LR"><p><l>Fuente<b/>Encarroz<s n="np"/></l> <r>la<b/>Font<b/>d'en<b/>Carròs<s n="np"/></r></p></e>
 <e r="LR"><p><l>Fuente<b/>la<b/>Higuera<s n="np"/></l><r>la<b/>Font<b/>de<b/>la<b/>Figuera<s n="np"/></r></p></e>
-<e r="LR"><p><l>Fuentes<b/>de<b/>Ayóder<s n="np"/><s n="loc"/></l><r>les<b/>Fonts<b/>d'Aiòder<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Fuentes<b/>de<b/>Ayóder<s n="np"/><s n="loc"/></l><r>les<b/>Fonts<b/>d'Aiòder<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Gabarda<s n="np"/></l>            <r>Gavarda<s n="np"/></r></p></e>
 <e r="LR"><p><l>Gayanes<s n="np"/></l>            <r>Gaianes<s n="np"/></r></p></e>
 <e r="LR"><p><l>Guadasuar<s n="np"/></l>          <r>Guadassuar<s n="np"/></r></p></e>
@@ -42122,13 +42128,13 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>Monóvar<s n="np"/></l>            <r>Monòver<s n="np"/></r></p></e>
 <e r="LR"><p><l>Montblanch<s n="np"/></l>         <r>Montblanc<s n="np"/></r></p></e>
 <e r="LR"><p><l>Montuiri<s n="np"/></l>           <r>Montuïri<s n="np"/></r></p></e>
-<e r="LR"><p><l>Naplusa<s n="np"/><s n="loc"/></l><r>Nabulus<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Naplusa<s n="np"/><s n="loc"/></l><r>Nabulus<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Nomdedeu<s n="np"/></l>           <r>Nomdedéu<s n="np"/></r></p></e>
 <e r="LR"><p><l>Ollería<s n="np"/></l>            <r>l'Olleria<s n="np"/></r></p></e>
 <e r="LR"><p><l>Orcheta<s n="np"/></l>            <r>Orxeta<s n="np"/></r></p></e>
 <e r="LR"><p><l>Oropesa<b/>del<b/>Mar<s n="np"/></l><r>Orpesa<s n="np"/></r></p></e>
 <e r="LR"><p><l>Penáguila<s n="np"/></l>          <r>Penàguila<s n="np"/></r></p></e>
-<e r="LR"><p><l>Perugia<s n="np"/><s n="loc"/></l><r>Perusa<s n="np"/><s n="loc"/></r></p></e>
+<e r="LR"><p><l>Perugia<s n="np"/><s n="loc"/></l><r>Perusa<s n="np"/><s n="top"/></r></p></e>
 <e r="LR"><p><l>Petrel<s n="np"/></l>             <r>Petrer<s n="np"/></r></p></e>
 <e r="LR"><p><l>Picasent<s n="np"/></l>           <r>Picassent<s n="np"/></r></p></e>
 <e r="LR"><p><l>Poliñá<b/>del<b/>Júcar<s n="np"/></l><r>Polinyà<b/>de<b/>Xúquer<s n="np"/></r></p></e>
@@ -42178,15 +42184,15 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>Villanueva<b/>de<b/>Alcolea<s n="np"/></l><r>Vilanova<b/>d'Alcolea<s n="np"/></r></p></e>
 <e r="LR"><p><l>Villar<b/>de<b/>Canes<s n="np"/></l><r>Vilar<b/>de<b/>Canes<s n="np"/></r></p></e>
 <e r="RL"><i>Benisuera<s n="np"/></i></e>
-<e r="RL"><p><l>Asuán<s n="np"/><s n="loc"/></l>  <r>Asuan<s n="np"/><s n="loc"/></r></p></e>
-<e r="RL"><p><l>Asuán<s n="np"/><s n="loc"/></l>  <r>Aswan<s n="np"/><s n="loc"/></r></p></e>
+<e r="RL"><p><l>Asuán<s n="np"/><s n="loc"/></l>  <r>Asuan<s n="np"/><s n="top"/></r></p></e>
+<e r="RL"><p><l>Asuán<s n="np"/><s n="loc"/></l>  <r>Aswan<s n="np"/><s n="top"/></r></p></e>
 <e r="RL"><p><l>Azerbaiyán<s n="np"/></l>         <r>l'Azerbaidjan<s n="np"/></r></p></e>
 <e r="RL"><p><l>Borbones<s n="np"/></l>           <r>Borbons<s n="np"/></r></p></e>
 <e r="RL"><p><l>Extremadura<s n="np"/></l>        <r>Estremadura<s n="np"/></r></p></e>
 <e r="RL"><p><l>Granada<s n="np"/></l>            <r>Grenada<s n="np"/></r></p></e>
-<e r="RL"><p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ramal·la<s n="np"/><s n="loc"/></r></p></e>
-<e><p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ramallah<s n="np"/><s n="loc"/></r></p></e>
-<e r="RL"><p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ramal·là<s n="np"/><s n="loc"/></r></p></e>
+<e r="RL"><p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ramal·la<s n="np"/><s n="top"/></r></p></e>
+<e><p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ramallah<s n="np"/><s n="top"/></r></p></e>
+<e r="RL"><p><l>Ramala<s n="np"/><s n="loc"/></l> <r>Ramal·là<s n="np"/><s n="top"/></r></p></e>
 <e r="RL"><p><l>Suazilandia<s n="np"/></l>        <r>Swaziland<s n="np"/></r></p></e>
 
 
