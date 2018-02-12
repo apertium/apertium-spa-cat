@@ -12006,8 +12006,8 @@
 <e>       <i>ponderar<s n="vblex"/></i></e>
 <e slr="pondre"><p><l>poner<s n="vblex"/></l>     <r>pondre<s n="vblex"/></r></p></e>
 <e>       <p><l>ponencia<s n="n"/></l>            <r>ponència<s n="n"/></r></p></e>
-<e srl="ponente D"><p><l>ponente<s n="n"/></l>    <r>ponent<s n="n"/></r></p></e>
-<e srl="poniente"><p><l>poniente<s n="n"/><s n="m"/></l><r>ponent<s n="n"/><s n="mf"/></r></p></e>
+<e srl="ponente D"><p><l>ponente<s n="n"/><s n="mf"/></l><r>ponent<s n="n"/><s n="mf"/></r></p></e>
+<e srl="poniente"><p><l>poniente<s n="n"/><s n="m"/></l><r>ponent<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>Pons<s n="np"/></i></e>
 <e>       <i>Pontevedra<s n="np"/></i></e>
 <e>       <i>Pont<s n="np"/></i></e>
@@ -12269,6 +12269,8 @@
 <e>       <i>pugnar<s n="vblex"/></i></e>
 <e>       <i>Puig<s n="np"/></i></e>
 <e>       <i>Pujol<s n="np"/></i></e>
+<e>       <i>Pujols<s n="np"/></i></e>
+<e>       <i>Creus<s n="np"/></i></e>
 <e>       <p><l>pulsación<s n="n"/></l>           <r>pulsació<s n="n"/></r></p></e>
 <e>       <p><l>patada<s n="n"/></l>              <r>puntada<s n="n"/></r></p></e>
 <e r="LR">       <p><l>puntero<s n="adj"/></l>           <r>capdavanter<s n="adj"/></r></p></e>
@@ -45385,7 +45387,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>universiada<s n="n"/></l><r>universíada<s n="n"/></r></p></e>
 <e a="GVA"><p><l>usabilidad<s n="n"/></l><r>usabilitat<s n="n"/></r></p></e>
 <e a="GVA"><p><l>vademécum<s n="n"/></l><r>vademècum<s n="n"/></r></p></e>
-<e a="GVA"><p><l>variopinto<s n="adj"/></l><r>variat<s n="adj"/></r></p></e>
+<e r="LR" a="GVA"><p><l>variopinto<s n="adj"/></l><r>variat<s n="adj"/></r></p></e>
+<e a="hector"><p><l>variado<s n="adj"/></l><r>variat<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>vectorización<s n="n"/></l><r>vectorització<s n="n"/></r></p></e>
 <e a="GVA"><p><l>veza<s n="n"/></l><r>veça<s n="n"/></r></p></e>
 <e a="GVA"><p><l>via<b/>crucis<s n="n"/></l><r>via<b/>crucis<s n="n"/></r></p></e>

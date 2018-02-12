@@ -67,6 +67,7 @@
 		   <match lemma="virrei" tags="n.*"/>
 		   <match lemma="príncep" tags="n.*"/>
 		   <match lemma="infant" tags="n.*"/>
+		   <match lemma="delfí" tags="n.*"/>
 		   <match lemma="comte" tags="n.*"/>
 		   <match lemma="vescomte" tags="n.*"/>
 		   <match lemma="duc" tags="n.*"/>
@@ -145,7 +146,7 @@
       <match lemma="tiranosaure" tags="n.*"/>
     </def-seq>
 
-    <def-seq n="animal">
+    <def-seq n="material">
       <match lemma="or" tags="n.*"/>
       <match lemma="plata" tags="n.*"/>
       <match lemma="argent" tags="n.*"/>
@@ -1476,8 +1477,8 @@
      </repeat>
      <or>
       <match lemma="raqueta" tags="n.*"/>
-      <match lemma="lista" tags="n.*"/>
-      <match lemma="municipio" tags="n.*"/>
+      <match lemma="llista" tags="n.*"/>
+      <match lemma="municipi" tags="n.*"/>
 
       <seq n="animal"/>
       <seq n="material"/>
@@ -1619,6 +1620,7 @@
   <macro name="noms_propis" p1="Juli" p2="Julio" />
   <macro name="noms_propis" p1="Marc" p2="Marcos" />
   <macro name="noms_propis" p1="Lluc" p2="Lucas" />
+  <macro name="noms_propis" p1="Urbà" p2="Urbano" />
 
 </rules>
 </metalrx>
