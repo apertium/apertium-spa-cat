@@ -28898,7 +28898,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>imperecedero<s n="adj"/><s n="f"/></l><r>imperible<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>imperecedero<s n="adj"/><s n="m"/></l><r>imperible<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR" vr="cat"><p><l>incurso<s n="adj"/><s n="f"/></l> <r>culpable<s n="adj"/><s n="mf"/></r></p></e>
-<e r="LR"vr="cat"><p><l>incurso<s n="adj"/><s n="m"/></l> <r>culpable<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR" vr="cat"><p><l>incurso<s n="adj"/><s n="m"/></l> <r>culpable<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>indubitado<s n="adj"/><s n="f"/></l><r>indubtable<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>indubitado<s n="adj"/><s n="m"/></l><r>indubtable<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>inerte<s n="adj"/><s n="mf"/></l> <r>inert<s n="adj"/><s n="GD"/></r></p></e>
@@ -37596,8 +37596,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>sacapuntas<s n="n"/><s n="m"/><s n="sp"/></l><r>maquineta<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>salivajo<s n="n"/><s n="m"/></l>  <r>salivada<s n="n"/><s n="f"/></r></p></e>
 <e vr="cat" r="LR"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>llagosta<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-<e vr="val_gva val_uni" a="GVA"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>saltamartí<s n="n"/><s n="ND"/></r></p></e>
-<e r="RL"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>saltamartí<s n="n"/><s n="ND"/></r></p></e>
+<e r="LR" vr="val_gva val_uni" a="GVA"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>saltamartí<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+<e r="RL" vr="val_gva val_uni" a="GVA"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>saltamartí<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL" vr="val_gva val_uni" a="GVA"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>saltamartí<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="LR"><p><l>saque<s n="n"/></l>               <r>servei<s n="n"/></r></p></e>
 <e r="LR"><p><l>sarasa<s n="n"/><s n="m"/></l>    <r>marieta<s n="n"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>sdad.<s n="n"/></l>               <r>soc.<s n="n"/></r></p></e>
@@ -37970,8 +37971,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>rompeolas<s n="n"/><s n="m"/><s n="sp"/></l><r>escullera<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>sacapuntas<s n="n"/><s n="m"/><s n="sp"/></l><r>maquineta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>sacapuntas<s n="n"/><s n="m"/><s n="sp"/></l><r>maquineta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>llagosta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>llagosta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" vr="cat"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>llagosta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL" vr="cat"><p><l>saltamontes<s n="n"/><s n="m"/><s n="sp"/></l><r>llagosta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>salvamanteles<s n="n"/><s n="m"/><s n="sp"/></l><r>setiet<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>salvamanteles<s n="n"/><s n="m"/><s n="sp"/></l><r>setiet<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>sandía<s n="n"/><s n="f"/></l>    <r>meló<g><b/>d'aigua</g><s n="n"/><s n="m"/></r></p></e>
@@ -45617,83 +45618,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>retornable<s n="adj"/></l><r>retornable<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>semigraso<s n="adj"/></l><r>semigràs<s n="adj"/></r></p></e>
 
-<e lm="censal" a="GVA"><i>censal</i><par n="abdominal__adj"/></e>
-<e lm="centil" a="GVA"><i>centil</i><par n="abric__n"/></e>
-<e lm="cervesa ale" a="GVA"><i>cerves</i><par n="abell/a__n"/><p><l><b/>ale</l><r><g><b/>ale</g></r></p></e>
-<e lm="xurra" a="GVA"><i>xurr</i><par n="abell/a__n"/></e>
-<e lm="ciberseguretat" a="GVA"><i>ciberseguretat</i><par n="accessibilitat__n"/></e>
-<e lm="porquet" a="GVA"><i>porquet</i><par n="abric__n"/></e>
-<e lm="cofosi" a="GVA"><i>cofosi</i><par n="accessibilitat__n"/></e>
-<e lm="cognoscitiu" a="GVA"><i>cognoscitiu</i><par n="to/u__adj"/></e>
-<e lm="bastó" a="GVA"><i>bast</i><par n="aband/ó__n"/></e>
-<e lm="conjecturar" a="GVA"><i>conjectur</i><par n="abander/ar__vblex"/></e>
-<e lm="contaminador" a="GVA"><i>contaminador</i><par n="absolut__adj"/></e>
-<e lm="cortical" a="GVA"><i>cortical</i><par n="abdominal__adj"/></e>
-<e lm="cortineta" a="GVA"><i>cortinet</i><par n="abell/a__n"/></e>
-<e lm="acarament" a="GVA"><i>acarament</i><par n="abric__n"/></e>
-<e lm="craniofacial" a="GVA"><i>craniofacial</i><par n="abdominal__adj"/></e>
-<e lm="cardar" a="GVA"><i>card</i><par n="abander/ar__vblex"/></e>
-<e lm="cronometrador" a="GVA"><i>cronometrador</i><par n="senyor__n"/></e>
-<e lm="cronometrador" a="GVA"><i>cronometrador</i><par n="absolut__adj"/></e>
-<e lm="cubeta" a="GVA"><i>cubet</i><par n="abell/a__n"/></e>
-<e lm="deglució" a="GVA"><i>degluci</i><par n="acci/ó__n"/></e>
-<e lm="dermatològicament" a="GVA"><i>dermatològicament</i><par n="ahir__adv"/></e>
-<e lm="vessament" a="GVA"><i>vessament</i><par n="abric__n"/></e>
-<e lm="desbridament" a="GVA"><i>desbridament</i><par n="abric__n"/></e>
-<e lm="descontaminar" a="GVA"><i>descontamin</i><par n="abander/ar__vblex"/></e>
-<e lm="deverbal" a="GVA"><i>deverbal</i><par n="abdominal__adj"/></e>
-<e lm="diminutiu" a="GVA"><i>diminutiu</i><par n="abric__n"/></e>
-<e lm="diminutiu" a="GVA"><i>diminuti</i><par n="to/u__adj"/></e>
-<e lm="direccionalitat" a="GVA"><i>direccionalitat</i><par n="accessibilitat__n"/></e>
-<e lm="disàrtria" a="GVA"><i>disàrtri</i><par n="abell/a__n"/></e>
-<e lm="discent" a="GVA"><i>discent</i><par n="abdominal__adj"/></e>
-<e lm="disfàsia" a="GVA"><i>disfàsi</i><par n="abell/a__n"/></e>
-<e lm="disfèmia" a="GVA"><i>disfèmi</i><par n="abell/a__n"/></e>
-<e lm="disfonia" a="GVA"><i>disfoni</i><par n="abell/a__n"/></e>
-<e lm="disglòssia" a="GVA"><i>disglòssi</i><par n="abell/a__n"/></e>
-<e lm="dislàlia" a="GVA"><i>dislàli</i><par n="abell/a__n"/></e>
-<e lm="disortografia" a="GVA"><i>disortografi</i><par n="abell/a__n"/></e>
-<e lm="dispràxia" a="GVA"><i>dispràxi</i><par n="abell/a__n"/></e>
-<e lm="diüresi" a="GVA"><i>diüresi</i><par n="accessibilitat__n"/></e>
-<e lm="ecolàlia" a="GVA"><i>ecolàli</i><par n="abell/a__n"/></e>
-<e lm="embolofràsia" a="GVA"><i>embolofràsi</i><par n="abell/a__n"/></e>
-<e lm="flammulina" a="GVA"><i>flammulin</i><par n="abell/a__n"/></e>
-<e lm="entrecot" a="GVA"><i>entrecot</i><par n="abric__n"/></e>
-<e lm="escleròtic" a="GVA"><i>escleròti</i><par n="acadèmi/c__adj"/></e>
-<e lm="rall" a="GVA"><i>rall</i><par n="abric__n"/></e>
-<e lm="extracortical" a="GVA"><i>extracortical</i><par n="abdominal__adj"/></e>
-<e lm="extraesportiu" a="GVA"><i>extraesporti</i><par n="to/u__adj"/></e>
-<e lm="extrapiramidal" a="GVA"><i>extrapiramidal</i><par n="abdominal__adj"/></e>
-<e lm="fatigabilitat" a="GVA"><i>fatigabilitat</i><par n="accessibilitat__n"/></e>
-<e lm="fitnes" a="GVA"><i>fitnes</i><par n="campus__n"/></e>
-<e lm="fonèmic" a="GVA"><i>fonèmi</i><par n="acadèmi/c__adj"/></e>
-<e lm="fonoarticulatori" a="GVA"><i>fonoarticulat</i><par n="adjudicat/ari__adj"/></e>
-<e lm="fotoenvelliment" a="GVA"><i>fotoenvelliment</i><par n="abric__n"/></e>
-<e lm="fre" a="GVA"><i>fre</i><par n="pa__n"/></e>
-<e lm="líquid de fregar" a="GVA"><i>líquid</i><par n="abric__n"/><p><l><b/>de<b/>fregar</l><r><g><b/>de<b/>fregar</g></r></p></e>
-<e lm="gateig" a="GVA"><i>gate</i><par n="assa/ig__n"/></e>
-<e lm="geniculat" a="GVA"><i>genicula</i><par n="triparti/t__adj"/></e>
-<e lm="glossectomia" a="GVA"><i>glossectomi</i><par n="abell/a__n"/></e>
-<e lm="glucèmic" a="GVA"><i>glucèmi</i><par n="acadèmi/c__adj"/></e>
-<e lm="gominola" a="GVA"><i>gominol</i><par n="abell/a__n"/></e>
-<e lm="grafomotriu" a="GVA"><i>grafomotriu</i><par n="abdominal__adj"/></e>
-<e lm="granola" a="GVA"><i>granol</i><par n="abell/a__n"/></e>
-<e lm="guaranà" a="GVA"><i>guaranà</i><par n="accessibilitat__n"/></e>
-<e lm="cap avant" a="GVA"><i>cap<b/>avant</i><par n="ahir__adv"/></e>
-<e lm="bicicleta de mà" a="GVA"><i>biciclet</i><par n="abell/a__n"/><p><l><b/>de<b/>mà</l><r><g><b/>de<b/>mà</g></r></p></e>
-<e lm="fins a la data límit" a="GVA"><i>fins<b/>a<b/>la<b/>data<b/>límit</i><par n="ahir__adv"/></e>
-<e lm="faig" a="GVA"><i>fa</i><par n="assa/ig__n"/></e>
-<e lm="hidrogel" a="GVA"><i>hidrogel</i><par n="abric__n"/></e>
-<e lm="hiperactivació" a="GVA"><i>hiperactivaci</i><par n="acci/ó__n"/></e>
-<e lm="hiperhidratació" a="GVA"><i>hiperhidrataci</i><par n="acci/ó__n"/></e>
-<e lm="hipoacúsia" a="GVA"><i>hipoacúsi</i><par n="abell/a__n"/></e>
-<e lm="hipoacúsic" a="GVA"><i>hipoacúsi</i><par n="acadèmi/c__adj"/></e>
-<e lm="hipoespontaneïtat" a="GVA"><i>hipoespontaneïtat</i><par n="accessibilitat__n"/></e>
-<e lm="hipoglòs" a="GVA"><i>hipogl</i><par n="antic/òs__n"/></e>
-<e lm="enfornable" a="GVA"><i>enfornable</i><par n="abdominal__adj"/></e>
-<e lm="irrenunciabilitat" a="GVA"><i>irrenunciabilitat</i><par n="accessibilitat__n"/></e>
-<e lm="talc" a="GVA"><i>talc</i><par n="abric__n"/></e>
-<e lm="laleig" a="GVA"><i>lale</i><par n="assa/ig__n"/></e>
 
 </section>
 
