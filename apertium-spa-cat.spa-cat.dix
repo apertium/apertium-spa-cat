@@ -4881,7 +4881,7 @@
 <e r="LR"><p><l>con<b/>menoscabo<b/>de<s n="pr"/></l><r>en<b/>detriment<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>en<b/>aras<b/>de<s n="pr"/></l>   <r>en<b/>honor<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>con<b/>ocasión<b/>de<s n="pr"/></l><r>en<b/>ocasió<b/>de<s n="pr"/></r></p></e>
-<e>       <p><l>en<b/>pago<b/>de<s n="pr"/></l>   <r>en<b/>paga<b/>de<s n="pr"/></r></p></e>
+<e r="LR">       <p><l>en<b/>pago<b/>de<s n="pr"/></l>   <r>en<b/>paga<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>con<b/>relación<b/>a<s n="pr"/></l><r>en<b/>relació<b/>amb<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>apoyo<b/>de<s n="pr"/></l>  <r>en<b/>suport<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>en<b/>son<b/>de<b/>paz<s n="adv"/></l><r>en<b/>to<b/>de<b/>pau<s n="adv"/></r></p></e>
@@ -15895,7 +15895,6 @@
 <e a="prompsit2adn"><p><l>exhumación<s n="n"/></l><r>exhumació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><i>exonerar<s n="vblex"/></i></e>
 <e a="prompsit2adn"><i>expatriar<s n="vblex"/></i></e>
-<e a="prompsit2adn"><p><l>expedientar<s n="vblex"/></l><r>formar<g><b/>expedient</g><s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><i>explicitar<s n="vblex"/></i></e>
 <e a="prompsit2adn"><p><l>explosionar<s n="vblex"/></l><r>fer<g><b/>explotar</g><s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>expoliar<s n="vblex"/></l><r>espoliar<s n="vblex"/></r></p></e>
@@ -17195,8 +17194,6 @@
 <e a="prompsit2adn"><p><l>talud<s n="n"/></l>     <r>talús<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>tampón<s n="n"/></l>    <r>tampó<s n="n"/></r></p></e>
 <e a="prompsit2adn"><i>tangible<s n="adj"/></i></e>
-<e a="prompsit2adn"><p><l>tantear<s n="vblex"/></l><r>temptejar<s n="vblex"/></r></p></e>
-<e a="prompsit2adn"><p><l>tanteo<s n="n"/></l>    <r>tempteig<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>taquillero<s n="n"/></l><r>taquiller<s n="n"/></r></p></e>
 <e a="prompsit2adn"><i>tarifar<s n="vblex"/></i></e>
 <e a="prompsit2adn"><i>tarraconense<s n="adj"/></i></e>
@@ -22654,7 +22651,7 @@
 <e a="prompsit"><p><l>por<b/>cuenta<b/>ajena<s n="adj"/></l><r>per<b/>compte<b/>d'altri<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>si<b/>procede<s n="adv"/></l><r>si<b/>escau<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>si<b/>el<b/>caso<b/>así<b/>lo<b/>requiere<s n="adv"/></l><r>si<b/>el<b/>cas<b/>així<b/>ho<b/>requereix<s n="adv"/></r></p></e>
-<e a="prompsit"><p><l>según<b/>proceda<s n="adv"/></l><r>segons<b/>com<b/>pertocarà<s n="adv"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>según<b/>proceda<s n="adv"/></l><r>segons<b/>com<b/>pertocarà<s n="adv"/></r></p></e>
 <!--<e a="prompsit"><p><l>según<b/>lo<b/>dispuesto<s n="adv"/></l><r>segons<b/>el<b/>que<b/>es<b/>disposa<s n="adv"/></r></p></e> "ja queda inclòs en el següent-->
 <e a="mireiafarrus"><p><l>lo<b/>dispuesto<s n="n"/></l><r>el<b/>que<b/>es<b/>disposa<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>saldo<g><b/>medio</g><s n="n"/></l><r>saldo<g><b/>mitjà</g><s n="n"/></r></p></e>
@@ -34578,7 +34575,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>rotativa<s n="n"/></i></e>
 <e>       <i>saca<s n="n"/></i></e>
 <e>       <i>saladar<s n="n"/></i></e>
-<e>       <i>salvaguarda<s n="n"/></i></e>
 <e>       <i>santoral<s n="n"/></i></e>
 <e>       <i>savoir<b/>faire<s n="n"/></i></e>
 <e>       <i>Secretariat<b/>de<b/>Promoció<b/>del<b/>Valencià<s n="n"/></i></e>
@@ -45617,6 +45613,378 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>reclinable<s n="adj"/></l><r>inclinable<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>retornable<s n="adj"/></l><r>retornable<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>semigraso<s n="adj"/></l><r>semigràs<s n="adj"/></r></p></e>
+
+
+
+<e a="prompsit"><p><l>providencia<s n="n"/></l><r>provisió<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>fdo.<s n="adj"/></l><r>signat<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>Vº<b/>Bº<s n="n"/></l><r>Vist<b/>i<b/>plau<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>por<b/>lo<b/>expuesto<s n="adj"/></l><r>per<b/>tot<b/>l'exposat<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>doy<b/>fe<s n="ij"/></l><r>en<b/>dono<b/>fe<s n="ij"/></r></p></e>
+<e a="prompsit"><p><l>cuadro<g><b/>resumen</g><s n="n"/></l><r>quadre<g><b/>resum</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>cuadro<g>-resumen</g><s n="n"/></l><r>quadre<g>-resum</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>presidente<g><b/>de<b/>la<b/>mesa</g><s n="n"/></l><r>president<g><b/>de<b/>la<b/>mesa</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>seguro<g><b/>de<b/>caución</g><s n="n"/><s n="m"/></l><r>assegurança<g><b/>de<b/>caució</g><s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit"><p><l>certificado<g><b/>del<b/>seguro</g><s n="n"/></l><r>certificat<g><b/>de<b/>l'assegurança</g><s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>surtir<g><b/>efectos</g><s n="vblex"/></l><r>fer<g><b/>efectes</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>adjudicador<s n="n"/></l><r>adjudicador<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>adjudicador<s n="adj"/></l><r>adjudicador<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>Cód.<b/>Proy.<s n="n"/></l><r>Cod.<b/>Proj.<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>informe<g>-propuesta</g><s n="n"/></l><r>informe<g>-proposta</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>informe<g>-memoria</g><s n="n"/></l><r>informe<g>-memoria</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>avance<g><b/>técnico</g><s n="n"/></l><r>avanç<g><b/>tècnic</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>incondicionado<s n="adj"/></l><r>incondicionat<s n="adj"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>subsanable<s n="adj"/></l><r>esmenable<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>número<g><b/>del<b/>expediente</g><s n="n"/></l><r>número<g><b/>de<b/>l'expedient</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>número<g><b/>de<b/>lote</g><s n="n"/></l><r>número<g><b/>de<b/>lot</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>número<g><b/>obtenido</g><s n="n"/></l><r>número<g><b/>obtingut</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>número<g><b/>y<b/>fecha</g><s n="n"/></l><r>número<g><b/>i<b/>data</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>con<b/>el<b/>número<s n="adv"/></l><r>amb<b/>el<b/>número<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>obrante<s n="n"/></l><r>obrant<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>actuante<s n="n"/></l><r>actuant<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>bis<s n="n"/></l><r>bis<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>cinegético<s n="adj"/></l><r>cinegètic<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>habilitante<s n="n"/></l><r>habilitant<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>autotaxi<s n="n"/></l><r>autotaxi<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>CPV<s n="n"/></l><r>CPV<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>ornato<s n="adj"/></l><r>ornat<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>motivadamente<s n="adv"/></l><r>motivadament<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>justificadamente<s n="adv"/></l><r>justificadament<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>preceptuado<s n="adj"/></l><r>preceptuat<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>apícola<s n="adj"/></l><r>apícola<s n="adj"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>melífero<s n="adj"/><s n="m"/><s n="sg"/></l><r>de<b/>la<b/>mel<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>melífero<s n="adj"/><s n="f"/><s n="sg"/></l><r>de<b/>la<b/>mel<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>melífero<s n="adj"/><s n="GD"/><s n="ND"/></l><r>de<b/>la<b/>mel<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>melífero<s n="adj"/><s n="m"/><s n="pl"/></l><r>de<b/>la<b/>mel<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>melífero<s n="adj"/><s n="f"/><s n="pl"/></l><r>de<b/>la<b/>mel<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit"><p><l>teleasistencia<s n="n"/></l><r>teleassistència<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>renting<s n="n"/></l><r>renting<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>cadavérico<s n="adj"/></l><r>cadavèric<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>baremación<s n="n"/></l><r>baremació<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>funcionarización<s n="n"/></l><r>funcionarització<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>maderable<s n="adj"/></l><r>fuster<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>adquirente<s n="adj"/></l><r>adquirent<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>telefax<s n="n"/></l><r>telefax<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>insalubre<s n="adj"/></l><r>insalubre<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>concedente<s n="adj"/></l><r>concedent<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>legalizable<s n="adj"/></l><r>legalitzable<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>pedáneo<s n="adj"/></l><r>pedani<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>dotacional<s n="adj"/></l><r>dotacional<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>equidistribución<s n="n"/></l><r>equidistribució<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>habilitante<s n="adj"/></l><r>habilitant<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>fiscalizador<s n="adj"/></l><r>fiscalitzador<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>emprendimiento<s n="n"/><s n="m"/></l><r>emprenedoria<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit"><p><l>vigesimosegundo<s n="adj"/></l><r>vint-i-dosè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>reinhumación<s n="n"/></l><r>reinhumació<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>vigesimoprimero<s n="adj"/></l><r>vint-i-unè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>transmitente<s n="adj"/></l><r>transmitent<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>individualizadamente<s n="adv"/></l><r>individualitzadament<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>disconforme<s n="adj"/></l><r>disconforme<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>inaplicación<s n="n"/></l><r>inaplicació<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>vigesimotercero<s n="adj"/></l><r>vint-i-tresè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>inmisión<s n="n"/></l><r>immissió<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>vigésimo<s n="adj"/></l><r>vintè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>legitimador<s n="adj"/></l><r>legitimador<s n="adj"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>trascripción<s n="n"/></l><r>transcripció<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>decimosegundo<s n="adj"/></l><r>dosè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>obstaculización<s n="n"/></l><r>obstaculització<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>estimatorio<s n="adj"/></l><r>estimatori<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>reducible<s n="adj"/></l><r>reduïble<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>APU<s n="np"/></l><r>APU<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>otorgante<s n="n"/></l><r>atorgant<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>PER<s n="np"/></l><r>PER<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>refundición<s n="n"/></l><r>refundició<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>redelimitación<s n="n"/></l><r>redelimitació<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>llevanza<s n="n"/></l><r>portança<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>explanación<s n="n"/><s n="f"/></l><r>anivellament<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit"><p><l>factoring<s n="n"/></l><r>factoring<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>subsumible<s n="adj"/></l><r>subsumible<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>arbustivo<s n="adj"/></l><r>arbustiu<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>TRLRHL<s n="n"/></l><r>TRLRHL<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>dotacional<s n="adj"/></l><r>dotacional<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>sectorizado<s n="adj"/></l><r>sectorizat<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>edificatorio<s n="adj"/></l><r>edificatorio<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>confirming<s n="n"/></l><r>confirming<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>EHA<s n="np"/></l><r>EHA<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>INT<s n="np"/></l><r>INT<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>delegante<s n="n"/></l><r>delegant<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>vigesimoquinto<s n="adj"/></l><r>vint-i-cinquè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>vigesimosexto<s n="adj"/></l><r>vint-i-sisè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>vigesimoséptimo<s n="adj"/></l><r>vint-i-setè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>vigesimooctavo<s n="adj"/></l><r>vint-i-vuitè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>vigesimonoveno<s n="adj"/></l><r>vint-i-novè<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>TRLCSP<s n="np"/></l><r>TRLCSP<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>descatalogación<s n="n"/></l><r>descatalogació<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>autorizable<s n="adj"/></l><r>autoritzable<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>discrepante<s n="adj"/></l><r>discrepant<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>CPA<s n="np"/></l><r>CPA<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>censal<s n="adj"/></l><r>censal<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>andamiaje<s n="n"/><s n="m"/></l><r>bastimentada<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit"><p><l>sectorización<s n="n"/></l><r>sectorització<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>RCD<s n="np"/></l><r>RCD<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>contrayente<s n="adj"/></l><r>contraent<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>taxímetro<s n="n"/></l><r>taxímetre<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>recurrible<s n="adj"/></l><r>recurrible<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>razonadamente<s n="adv"/></l><r>raonadament<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>rastrojera<s n="n"/></l><r>rostollada<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>PDSU<s n="np"/></l><r>PDSU<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>dBA<s n="np"/></l><r>dBA<s n="np"/></r></p></e>
+<e a="prompsit"><p><l>a<b/>contar<b/>desde<s n="pr"/></l><r>a<b/>comptar<b/>des<b/>de<s n="pr"/></r></p></e>
+<e a="prompsit"><p><l>rigola<s n="n"/></l><r>rigola<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>protocolizar<s n="vblex"/></l><r>protocolitzar<s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>del<b/>cual<s n="rel"/></l><r>del<b/>qual<s n="rel"/></r></p></e>
+<e a="prompsit"><p><l>al<b/>cual<s n="rel"/></l><r>al<b/>qual<s n="rel"/></r></p></e>
+<e a="prompsit"><p><l>dentro<b/>del<b/>cual<s n="rel"/></l><r>dins<b/>del<b/>qual<s n="rel"/></r></p></e>
+<e a="prompsit"><p><l>equipo<b/>redactor<s n="n"/></l><r>equip<b/>redactor<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>obstativo<s n="adj"/></l><r>obstatiu<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>cese<g><b/>de<b/>la<b/>actividad</g><s n="n"/></l><r>cessament<g><b/>de<b/>l'activitat</g><s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>con<b/>el<b/>objeto<b/>de<s n="pr"/></l><r>a<b/>fi<b/>de<s n="pr"/></r></p></e>
+<e a="prompsit"><p><l>juzgado<g><b/>de<b/>paz</g><s n="n"/></l><r>jutjat<g><b/>de<b/>pau</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>corte<g><b/>de<b/>vía<b/>pública</g><s n="n"/></l><r>tall<g><b/>de<b/>via<b/>pública</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>N.º<b/>Registro<s n="n"/></l><r>Núm.<b/>Registre<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>V.<b/>º<b/>B.<b/>º<s n="n"/></l><r>V.<b/>i<b/>P.<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>a<b/>partir<b/>del<b/>día<b/>siguiente<b/>de<b/>la<b/>publicación<s n="adv"/></l><r>a<b/>partir<b/>de<b/>l'endemà<b/>de<b/>la<b/>publicació<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>colegiación<s n="n"/></l><r>col·legiació<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>lugar<g><b/>objeto</g><s n="n"/></l><r>lloc<g><b/>objecte</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>parcelario<s n="adj"/></l><r>parcel·lari<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>plano<b/>parcelario<s n="n"/></l><r>plànol<b/>parcel·lari<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>parcelar<s n="vblex"/></l><r>parcel·lar<s n="vblex"/></r></p></e>
+<e a="prompsit" r="LR" v="cat val_uni">    <p><l>por<b/>todo<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>tot<b/>això<s n="cnjadv"/></r></p></e>
+<e a="prompsit" r="LR" v="val_gva">    <p><l>por<b/>todo<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>tot<b/>açò<s n="cnjadv"/></r></p></e>
+<e a="prompsit" r="RL">       <p><l>periódico<s n="n"/></l>           <r>diari<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>tablón<g><b/>de<b/>edictos</g><s n="n"/></l><r>tauler<g><b/>d'edictes</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>fin<b/>edificatorio<s n="n"/><s n="m"/></l><r>finalitat<b/>edificatòria<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>salvo<b/>de<s n="pr"/></l>              <r>excepte<b/>de<s n="pr"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>a<b/>contar<b/>de<s n="pr"/></l><r>a<b/>comptar<b/>des<b/>de<s n="pr"/></r></p></e>
+<e a="prompsit"><p><l>a<b/>contar<b/>a<b/>partir<b/>de<s n="pr"/></l><r>a<b/>comptar<b/>a<b/>partir<b/>de<s n="pr"/></r></p></e>
+<e a="prompsit"><p><l>contar<g><b/>a<b/>partir</g><s n="vblex"/></l><r>comptar<g><b/>a<b/>partir</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>creer<g><b/>oportuno</g><s n="vblex"/></l><r>creure<g><b/>oportú</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>creer<g><b/>oportunos</g><s n="vblex"/></l><r>creure<g><b/>oportuns</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>e.<s n="n"/></l><r>e.<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>e)<s n="n"/></l><r>e)<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>plano<g><b/>de<b/>emplazamiento</g><s n="n"/></l><r>plànol<g><b/>d'emplaçament</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>en<b/>todo<b/>caso<s n="adv"/></l><r>en<b/>tot<b/>cas<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>ud.<s n="n"/></l><r>vè.<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>vd.<s n="n"/></l><r>vè.<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>roturación<s n="n"/></l><r>rompuda<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>y<b/>como<b/>tal<s n="adv"/></l><r>i<b/>consegüentment<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>y<b/>como<b/>tales<s n="adv"/></l><r>i<b/>consegüentment<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>nudo<s n="adj"/></l><r>nu<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>dar<g><b/>cuenta<b/>a</g><s n="vblex"/></l><r>donar<g><b/>trasllat<b/>a</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>dar<g><b/>cuenta<b/>al</g><s n="vblex"/></l><r>donar<g><b/>trasllat<b/>al</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>para<b/>su<b/>conocimiento<s n="adv"/></l><r>perquè<b/>en<b/>prengui<b/>coneixement<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>a<b/>su<b/>parecer<s n="adv"/></l><r>al<b/>seu<b/>parer<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>portante<s n="adj"/></l>             <r>portant<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>decoro<s n="n"/></l>             <r>decòrum<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>no<b/>obstante<b/>lo<b/>anterior<s n="cnjadv"/></l> <r>no<b/>obstant<b/>l'anterior<s n="cnjadv"/></r></p></e> 
+<e a="prompsit"><p><l>venir<g><b/>exigido</g><s n="vblex"/></l><r>venir<g><b/>exigit</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>medida<b/>provisional<s n="n"/></l><r>mesura<b/>provisional<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>recalcitrante<s n="adj"/></l>             <r>recalcitrant<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>dimensionado<s n="adj"/></l> <r>dimensionat<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>edafológico<s n="adj"/></l>         <r>edafològic<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>hidrante<s n="adj"/></l>         <r>hidrant<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>tan<b/>solo<s n="adv"/></l>       <r>tan<b/>sols<s n="adv"/></r></p></e>
+<e a="prompsit">       <p><l>al<b/>fin<b/>que<s n="cnjadv"/></l><r>per<b/>a<b/>la<b/>finalitat<b/>que<s n="cnjadv"/></r></p></e>
+<e a="prompsit"><p><l>proindiviso<s n="adj"/></l>         <r>proindivís<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>reparcelatorio<s n="adj"/></l>         <r>reparcel·latori<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>realojamiento<s n="n"/></l>         <r>reallotjament<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>aportante<s n="adj"/></l>         <r>aportant<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>en<b/>pago<b/>de<s n="pr"/></l>   <r>en<b/>pagament<b/>de<s n="pr"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>apreciado<s n="adj"/></l>         <r>apreciat<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>predial<s n="adj"/></l>  <r>predial<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>expropiante<s n="adj"/></l>  <r>expropiant<s n="adj"/></r></p></e>
+<e a="prompsit" r="RL">       <p><l>aprecio<s n="n"/></l>   <r>apreuament<s n="n"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>tantear<s n="vblex"/></l><r>temptejar<s n="vblex"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>tanteo<s n="n"/></l>    <r>tempteig<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>tantear<s n="vblex"/></l><r>tantejar<s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>tanteo<s n="n"/></l>    <r>tanteig<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>retracto<s n="n"/></l>    <r>retracte<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>tantos<b/>como<s n="cnjadv"/></l><r>tants<b/>com<s n="cnjadv"/></r></p></e>
+<e a="prompsit">       <p><l>tantas<b/>como<s n="cnjadv"/></l><r>tantes<b/>com<s n="cnjadv"/></r></p></e>
+<e a="prompsit" r="LR">       <p><l>a<b/>este<b/>fin<s n="adv"/></l> <r>a<b/>aquest<b/>efecte<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR">       <p><l>en<b/>lo<b/>atinente<b/>a<s n="pr"/></l><r>pel<b/>que<b/>fa<b/>a<s n="pr"/></r></p></e> 
+<e a="prompsit"><p><l>medio<b/>rural<s n="n"/></l> <r>medi<b/>rural<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>alguno<b/>de<s n="det"/></l> <r>algun<b/>de<s n="det"/></r></p></e>
+<e a="prompsit"><p><l>cuál<b/>de<b/>ello<s n="prn"/></l> <r>quin<b/>de<s n="prn"/></r></p></e>
+<e a="prompsit"><p><l>cualquier<b/>otro<s n="prn"/></l> <r>qualsevol<b/>altre<s n="prn"/></r></p></e>
+<e a="prompsit"><p><l>la<b/>Mesa<s n="np"/></l> <r>la<b/>Mesa<s n="np"/></r></p></e>
+<e a="prompsit" r="LR">       <i>salvaguarda<s n="n"/></i></e>
+<e a="prompsit"><p><l>salvaguardia<s n="n"/></l><r>salvaguarda<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>en<b/>aras<b/>de<s n="pr"/></l> <r>per<b/>garantir<s n="pr"/></r></p></e>
+<e a="prompsit"><p><l>justo<b/>precio<s n="n"/></l><r>preu<b/>just<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>causahabiente<s n="n"/></l><r>causahavent<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>plurimunicipal<s n="adj"/></l><r>plurimunicipal<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>plurifamiliar<s n="adj"/></l><r>plurifamiliar<s n="adj"/></r></p></e>
+<e a="prompsit" r="LR">       <p><l>respeto<b/>a<s n="pr"/></l>              <r>respecte<b/>a<s n="pr"/></r></p></e>
+<e a="prompsit"><p><l>grafiar<s n="vblex"/></l><r>representar<g><b/>gràficament</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>remolque<g><b/>tienda</g><s n="n"/></l><r>remolc<g><b/>tenda</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>excepcionar<s n="vblex"/></l><r>excepcionar<s n="vblex"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>hasta<b/>tanto<s n="cnjadv"/></l><r>fins<b/>que<s n="cnjadv"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>en<b/>tanto<s n="cnjadv"/></l><r>mentre<b/>que<s n="cnjadv"/></r></p></e>
+<e a="prompsit"><p><l>medio<b/>natural<s n="n"/></l> <r>medi<b/>natural<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>preceptivo</g><s n="vbser"/></l><r>ser<g><b/>preceptiu</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>preceptiva</g><s n="vbser"/></l><r>ser<g><b/>preceptiva</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>preceptivos</g><s n="vbser"/></l><r>ser<g><b/>preceptius</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>preceptivas</g><s n="vbser"/></l><r>ser<g><b/>preceptives</g><s n="vbser"/></r></p></e>
+<e a="prompsit"><p><l>soleamiento<s n="n"/></l> <r>assolellament<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>refrendo<s n="n"/><s n="m"/></l> <r>ratificació<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit">       <p><l>haber<g><b/>lugar<b/>a</g><s n="vbhaver"/></l><r>ser<g><b/>procedent</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>haber<g><b/>debido<b/>a</g><s n="vbhaver"/></l><r>ser<g><b/>degut<b/>a</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>hacer<g><b/>cargo</g><s n="vblex"/></l><r>fer<g><b/>càrrec</g><s n="vblex"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>oír<g><b/>a</g><s n="vblex"/></l><r>escoltar<s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>oír<g><b/>al</g><s n="vblex"/></l><r>escoltar<g><b/>el</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>retrotraer<s n="vblex"/></l><r>retrotreure<s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>creer<g><b/>necesario</g><s n="vblex"/></l><r>creure<g><b/>necessari</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>creer<g><b/>necesaria</g><s n="vblex"/></l><r>creure<g><b/>necessària</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>creer<g><b/>necesarios</g><s n="vblex"/></l><r>creure<g><b/>necessaris</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>creer<g><b/>necesarias</g><s n="vblex"/></l><r>creure<g><b/>necessàries</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>hacer<g><b/>falta</g><s n="vblex"/></l><r>fer<g><b/>falta</g><s n="vblex"/></r></p></e>
+<e a="prompsit" v="cat"><p><l>sea<b/>el<b/>que<b/>fuere<s n="adv"/></l><r>sigui<b/>el<b/>que<b/>sigui<s n="adv"/></r></p></e> 
+<e a="prompsit" v="val_gva val_uni"><p><l>sea<b/>el<b/>que<b/>fuere<s n="adv"/></l><r>siga<b/>el<b/>que<b/>siga<s n="adv"/></r></p></e> 
+<e a="prompsit"><p><l>código<b/>cuenta<b/>cotización<s n="n"/></l> <r>codi<b/>compte<b/>cotització<s n="n"/></r></p></e>
+<e a="prompsit" v="cat" ><p><l>según<b/>proceda<s n="adv"/></l><r>segons<b/>sigui<b/>procedent<s n="adv"/></r></p></e>
+<e a="prompsit" v="val_gva val_uni" ><p><l>según<b/>proceda<s n="adv"/></l><r>segons<b/>siga<b/>procedent<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>guarda<s n="n"/></l> <r>guarda<s n="n"/></r></p></e>
+<e a="prompsit" v="cat"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>sigui<b/>com<b/>sigui<s n="adv"/></r></p></e>
+<e a="prompsit" v="val_gva val_uni"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>siga<b/>com<b/>siga<s n="adv"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>estimado</g><s n="vbser"/></l><r>ser<g><b/>estimat</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>estimada</g><s n="vbser"/></l><r>ser<g><b/>estimada</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>estimados</g><s n="vbser"/></l><r>ser<g><b/>estimats</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>estimadas</g><s n="vbser"/></l><r>ser<g><b/>estimades</g><s n="vbser"/></r></p></e>
+<e a="prompsit"><p><l>a<b/>modo<b/>orientativo<s n="adv"/></l><r>de<b/>manera<b/>orientativa<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>proceso<g><b/>selectivo</g><s n="n"/></l><r>procés<g><b/>selectiu</g><s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>remitir<g><b/>a</g><s n="vblex"/></l><r>remetre<g><b/>a</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>concurso-oposición<s n="n"/></l> <r>concurs-oposició<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>psicotécnico<s n="adj"/></l>       <r>psicotècnic<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>a<b/>modo<b/>de<b/>ejemplo<s n="adv"/></l><r>a<b/>tall<b/>d'exemple<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>refundición<s n="n"/></l><r>refosa<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>compleción<s n="n"/></l><r>compleció<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>predio<s n="n"/></l><r>predi<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>seguro<b/>obligatorio<s n="n"/><s n="m"/></l>     <r>assegurança<b/>obligatòria<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit"><p><l>seguro<b/>obligatorio<b/>concertado<s n="n"/><s n="m"/></l>     <r>assegurança<b/>obligatòria<b/>concertada<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit"><p><l>descontaminado<s n="adj"/></l><r>descontaminat<s n="adj"/></r></p></e>
+<e a="prompsit" r="LR" v="cat val_uni">       <p><l>ello<b/>no<b/>obstante<s n="cnjadv"/></l> <r>això<b/>no<b/>obstant<s n="cnjadv"/></r></p></e> 
+<e a="prompsit" r="LR" v="val_gva">       <p><l>ello<b/>no<b/>obstante<s n="cnjadv"/></l> <r>açò<b/>no<b/>obstant<s n="cnjadv"/></r></p></e> 
+<e a="prompsit"><p><l>dirimente<s n="adj"/></l><r>diriment<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>término<g><b/>de<b/>caducidad</g><s n="n"/></l><r>termini<g><b/>de<b/>caducitat</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>subsumido<s n="adj"/></l><r>subsumit<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>intracentro<s n="n"/></l><r>intracentre<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>extracentro<s n="n"/></l><r>extracentre<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>licencia<b/>ambiental<s n="n"/></l> <r>llicència<b/>ambiental<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>cuanto<b/>sigue<s n="adv"/></l><r>el<b/>següent<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>competente<g><b/>en</g><s n="adj"/></l><r>competent<g><b/>en</g><s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>contrato<g><b/>de<b/>arrendamiento</g><s n="n"/></l><r>contracte<g><b/>d'arrendament</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>reinicio<s n="n"/></l><r>reinici<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>ex<b/>post<s n="adj"/></l><r>ex<b/>post<s n="adj"/></r></p></e>
+<e a="prompsit" r="LR">       <p><l>penosidad<s n="n"/></l>             <r>penúria<s n="n"/></r></p></e>
+<e a="prompsit" r="LR">       <p><l>matarife<s n="n"/></l>            <r>escorxador<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>marco<b/>jurídico<s n="n"/></l><r>marc<b/>jurídic<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>sumariedad<s n="n"/></l>             <r>sumarietat<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>irretroactividad<s n="n"/></l>             <r>irretroactivitat<s n="n"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>expedientar<s n="vblex"/></l><r>formar<g><b/>expedient</g><s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>expedientar<s n="vblex"/></l><r>expedientar<s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>foliado<s n="adj"/></l><r>foliat<s n="adj"/></r></p></e>
+<e a="prompsit" r="LR" v="cat">       <p><l>en<b/>lo<b/>que<b/>sea<b/>posible<s n="adv"/></l><r>en<b/>tant<b/>que<b/>sigui<b/>possible<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR" v="val_gva val_uni">       <p><l>en<b/>lo<b/>que<b/>sea<b/>posible<s n="adv"/></l><r>en<b/>la<b/>mesura<b/>que<b/>siga<b/>possible<s n="adv"/></r></p></e>
+<e a="prompsit">       <p><l>Ilmo<s n="n"/></l>               <r>Il·lm<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>sobre<b/>todo<b/>o<b/>parte<s n="adv"/></l><r>sobre<b/>tot<b/>o<b/>part<s n="adv"/></r></p></e>
+<e a="prompsit">       <p><l>ajardinamiento<s n="n"/></l>               <r>enjardinament<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>extrapresupuestario<s n="adj"/></l>    <r>extrapressupostari<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>pagaduría<s n="n"/></l>               <r>pagadoria<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>IBAN<s n="n"/></l>               <r>IBAN<s n="n"/></r></p></e>
+<e a="prompsit" r="LR">       <p><l>de<b/>este<b/>fin<s n="adv"/></l> <r>d'aquesta<b/>finalitat<s n="adv"/></r></p></e>
+<e a="prompsit">       <p><l>señaladamente<s n="adv"/></l> <r>senyaladament<s n="adv"/></r></p></e>
+<e a="prompsit"><p><l>basar<g><b/>en</g><s n="vblex"/></l><r>basar<g><b/>en</g><s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>para<b/>mayor<b/>información<s n="adv"/></l> <r>per<b/>a<b/>més<b/>informació<s n="adv"/></r></p></e>
+<e a="prompsit">       <p><l>clausulado<s n="n"/></l>               <r>clausulat<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>diferimiento<s n="n"/></l>               <r>diferiment<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>cláusula<b/>suelo<s n="n"/></l>   <r>clàusula<b/>sol<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>opción<b/>suelo<s n="n"/></l>   <r>opció<b/>sol<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>interés<g><b/>de<b/>demora</g><s n="n"/></l><r>interès<g><b/>de<b/>demora</g><s n="n"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>tablón<g><b/>de<b/>anuncios</g><s n="n"/></l><r>taulell<g><b/>d'anuncis</g><s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>Id.<s n="n"/></l>               <r>Id.<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>impuesto<g><b/>de<b/>actividades</g><s n="n"/></l><r>impost<g><b/>d'activitats</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>impuesto<g><b/>sobre</g><s n="n"/></l><r>impost<g><b/>sobre</g><s n="n"/></r></p></e>
+<e a="prompsit"><p><l>detraer<s n="vblex"/></l><r>detreure<s n="vblex"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>condueño<s n="n"/></l>     <r>copropietari<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>visto<b/>lo<b/>cual<s n="adv"/></l><r>vist<b/>això<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>ganancial<s n="adj"/><s n="mf"/><s n="sg"/></l><r>de<b/>guanys<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>ganancial<s n="adj"/><s n="mf"/><s n="pl"/></l><r>de<b/>guanys<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>ganancial<s n="adj"/><s n="mf"/><s n="ND"/></l><r>de<b/>guanys<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>de<b/>ganancial<s n="adj"/><s n="mf"/><s n="sg"/></l><r>de<b/>guanys<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>de<b/>ganancial<s n="adj"/><s n="mf"/><s n="pl"/></l><r>de<b/>guanys<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit" r="RL"><p><l>de<b/>ganancial<s n="adj"/><s n="mf"/><s n="ND"/></l><r>de<b/>guanys<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e a="prompsit"><p><l>presupuesto<g><b/>corriente</g><s n="n"/></l><r>pressupost<g><b/>corrent</g><s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>cuatrienal<s n="adj"/></l>    <r>quadriennal<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>subconcepto<s n="n"/></l>     <r>subconcepte<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>suntuario<s n="adj"/></l>    <r>sumptuari<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>crediticio<s n="adj"/></l>    <r>creditici<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>plurianualidad<s n="n"/></l>   <r>plurianualitat<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>alcanzar<g><b/>a</g><s n="vblex"/></l><r>aconseguir<s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>ancianidad<s n="n"/></l>   <r>ancianitat<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>preceptor<s n="n"/></l>     <r>preceptor<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>minorar<s n="vblex"/></l><r>minorar<s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>muestrear<s n="vblex"/></l><r>mostrejar<s n="vblex"/></r></p></e>
+<e a="prompsit"><p><l>reequilibrio<s n="n"/></l>     <r>reequilibri<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>gasto<g><b/>no<b/>financiero</g><s n="n"/><s n="m"/></l><r>despesa<g><b/>no<b/>financera</g><s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit"><p><l>suma<g><b/>de</g><s n="n"/></l><r>suma<g><b/>de</g><s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>fallar<g><b/>a<b/>favor</g><s n="vblex"/></l><r>disposar<g><b/>a<b/>favor</g><s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>fallar<g><b/>en<b/>contra</g><s n="vblex"/></l><r>disposar<g><b/>en<b/>contra</g><s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>trazabilidad<s n="n"/></l>   <r>traçabilitat<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>kilométrico<s n="adj"/></l>    <r>quilomètric<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>albergue<b/>municipal<s n="n"/></l><r>albergue<b/>municipal<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>consultante<s n="n"/></l>     <r>consultant<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>unísono<s n="n"/></l>     <r>uníson<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>usabilidad<s n="n"/></l>   <r>usabilitat<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>notariado<s n="n"/></l>     <r>notariat<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>adquiriente<s n="n"/></l>     <r>adquirent<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>empleado<b/>público<s n="n"/></l><r>empleat<b/>públic<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>entrada<g><b/>en<b/>vigor</g><s n="n"/></l><r>entrada<g><b/>en<b/>vigor</g><s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>formulario<g><b/>base</g><s n="n"/></l><r>formulari<g><b/>base</g><s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>condicionalidad<s n="n"/></l>   <r>condicionalitat<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>subsunción<s n="n"/></l>     <r>subsunció<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>res<b/>iudicata<s n="n"/></l><r>res<b/>iudicata<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>elegibilidad<s n="n"/></l>   <r>elegibilitat<s n="n"/></r></p></e>
+<e a="prompsit" r="LR">       <p><l>con<b/>fin<b/>de<b/>que<s n="cnjadv"/></l><r>amb<b/>la<b/>finalitat<b/>que<s n="cnjadv"/></r></p></e>
+<e a="prompsit">       <p><l>embargabilidad<s n="n"/></l>   <r>embargabilitat<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>inembargabilidad<s n="n"/></l>   <r>inembargabilitat<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>paritorio<s n="n"/></l>   <r>paritori<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>indemnizatorio<s n="adj"/></l>   <r>indemnitzatori<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>auto-taxi<s n="n"/></l>   <r>auto-taxi<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>ahogamiento<s n="n"/></l>   <r>ofegament<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>número<b/>1<s n="n"/></l>   <r>número<b/>1<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>velador<s n="n"/></l>   <r>vetllador<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>razonabilidad<s n="n"/></l>   <r>raonabilitat<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>día<b/>hábil<s n="n"/></l>   <r>dia<b/>hàbil<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>mantenedor<s n="adj"/></l>   <r>mantenidor<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>refinanciar<s n="vblex"/></l>   <r>refinançar<s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>hora<g><b/>y<b/>media</g><s n="n"/></l>   <r>hora<g><b/>i<b/>mitja</g><s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>tráfico<b/>y<b/>transporte<s n="n"/></l>   <r>trànsit<b/>i<b/>transport<s n="n"/></r></p></e>
+<e a="prompsit"><p><l>contrato<g><b/>de<b/>seguro</g><s n="n"/></l><r>contracte<g><b/>d'assegurança</g><s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>prevalente<s n="adj"/></l>       <r>prevalent<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>valor<b/>cotizado<s n="n"/></l>   <r>valor<b/>cotitzat<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>quedar<g><b/>fuera</g><s n="vblex"/></l><r>quedar<g><b/>fora</g><s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>Ginebra<s n="np"/></l>   <r>Ginebra<s n="np"/></r></p></e>
+<e a="prompsit">       <p><l>postobligatorio<s n="adj"/></l>   <r>postobligatori<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>conveniado<s n="adj"/></l>   <r>conveniat<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>decremento<s n="n"/></l>   <r>decrement<s n="n"/></r></p></e>
+<e a="prompsit" r="RL">       <p><l>fallo<s n="n"/><s n="m"/></l>     <r>dispositiva<s n="n"/><s n="f"/></r></p></e>
+<e a="prompsit">       <p><l>mención<b/>alguna<s n="n"/><s n="f"/></l>   <r>cap<b/>esment<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit">       <p><l>dimanante<s n="adj"/></l>   <r>dimanant<s n="adj"/></r></p></e>
+<e a="prompsit">       <p><l>reclasificar<s n="vblex"/></l>   <r>reclassificar<s n="vblex"/></r></p></e>
+<e a="prompsit">       <p><l>documentado<s n="adj"/></l>     <r>documentat<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>con<b/>base<b/>en<s n="pr"/></l><r>amb<b/>base<b/>en<s n="pr"/></r></p></e>
+<e a="prompsit"><p><l>hoja<g><b/>de<b/>aprecio</g><s n="n"/><s n="f"/></l><r>full<g><b/>d'apreuament</g><s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>desconocido</g><s n="vbser"/></l><r>ser<g><b/>desconegut</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>desconocida</g><s n="vbser"/></l><r>ser<g><b/>desconeguda</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>desconocidos</g><s n="vbser"/></l><r>ser<g><b/>desconeguts</g><s n="vbser"/></r></p></e>
+<e a="prompsit">       <p><l>ser<g><b/>desconocidas</g><s n="vbser"/></l><r>ser<g><b/>desconegudes</g><s n="vbser"/></r></p></e>
+<e a="prompsit"><p><l>presente<b/>contrato<s n="n"/></l><r>contracte<b/>actual<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>encomienda<s n="n"/><s n="f"/></l><r>encàrrec<s n="n"/><s n="m"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>el<b/>mismo<s n="prn"/></l>   <r>aquest<s n="prn"/></r></p></e>
+<e a="prompsit">       <p><l>este<b/>y<b/>oeste<s n="n"/></l>                <r>est<b/>i<b/>oest<s n="n"/></r></p></e>
+<e a="prompsit">       <p><l>al<b/>este<s n="n"/></l>                <r>a<b/>l'est<s n="n"/></r></p></e>
+
 
 
 </section>
