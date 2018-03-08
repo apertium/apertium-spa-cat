@@ -2125,7 +2125,6 @@
 <e>       <p><l>calzado<s n="n"/></l>             <r>calçat<s n="n"/></r></p></e>
 <e>       <p><l>cama<s n="n"/><s n="f"/></l>      <r>llit<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>camarada<s n="n"/></i></e>
-<e slr="càmera D"><p><l>cámara<s n="n"/><s n="f"/></l>      <r>càmera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>camarero<s n="n"/></l>            <r>cambrer<s n="n"/></r></p></e>
 <e>       <p><l>cambio<s n="n"/></l>              <r>canvi<s n="n"/></r></p></e>
 <e a="softcatalà">       <p><l>camerino<s n="n"/></l>              <r>camerino<s n="n"/></r></p></e>
@@ -2506,9 +2505,18 @@
 <e>       <p><l>cuadro<s n="n"/></l>              <r>quadre<s n="n"/></r></p></e>
 <e r="LR"><p><l>cualidad<s n="n"/></l>            <r>qualitat<s n="n"/></r></p></e>
 <e>       <p><l>cuartel<s n="n"/><s n="m"/></l>   <r>caserna<s n="n"/><s n="f"/></r></p></e>
-<e vr="val_gva val_uni" a="GVA"><p><l>cuarto<s n="n"/></l>         <r>quart<s n="n"/></r></p></e>
+<e>       <p><l>cuarto<s n="n"/></l>              <r>quart<s n="n"/></r></p></e>
+<e r="LR"><p><l>cuarto_habitación<s n="n"/><s n="m"/></l><r>habitació<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>cuarto<g><b/>de<b/>aseo</g><s n="n"/></l><r>lavabo<s n="n"/></r></p></e>
+<e r="LR"><p><l>cuarto<g><b/>de<b/>baño</g><s n="n"/><s n="m"/></l><r>bany<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>cuarto<g><b/>de<b/>baño</g><s n="n"/><s n="m"/></l><r>cambra<g><b/>de<b/>bany</g><s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cuarto<g><b/>de<b/>máquinas</g><s n="n"/><s n="m"/></l><r>cambra<g><b/>de<b/>màquines</g><s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cuarto<g><b/>de<b/>al<b/>lado</g><s n="n"/><s n="m"/></l><r>habitació<g><b/>del<b/>costat</g><s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>cámara<s n="n"/></l>              <r>cambra<s n="n"/></r></p></e>
+<e>       <p><l>cámara<s n="n"/></l>              <r>càmera<s n="n"/></r></p></e>
+<!--<e slr="càmera D"><p><l>cámara<s n="n"/><s n="f"/></l>      <r>càmera<s n="n"/><s n="f"/></r></p></e>
 <e slr="cambra D" srl="cuarto"><p><l>cuarto<s n="n"/><s n="m"/></l><r>cambra<s n="n"/><s n="f"/></r></p></e>
-<e slr="cambra" srl="cámara D"><p><l>cámara<s n="n"/><s n="f"/></l><r>cambra<s n="n"/><s n="f"/></r></p></e>
+<e slr="cambra" srl="cámara D"><p><l>cámara<s n="n"/><s n="f"/></l><r>cambra<s n="n"/><s n="f"/></r></p></e>-->
 <e>       <p><l>coro<g><b/>de<b/>cámara</g><s n="n"/></l><r>cor<g><b/>de<b/>cambra</g><s n="n"/></r></p></e>
 <e>       <p><l>cubierta<s n="n"/></l>            <r>coberta<s n="n"/></r></p></e>
 <e>       <p><l>cuchillo<s n="n"/></l>            <r>ganivet<s n="n"/></r></p></e>
@@ -2762,8 +2770,7 @@
 <e>       <p><l>ensayo<s n="n"/></l>              <r>assaig<s n="n"/></r></p></e>
 <e>       <p><l>enseñanza<s n="n"/><s n="f"/></l> <r>ensenyament<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>entendimiento<s n="n"/></l>       <r>enteniment<s n="n"/></r></p></e>
-<e r="LR"><p><l>entendimiento¹<s n="n"/><s n="m"/></l><r>entesa<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>entendimiento<s n="n"/><s n="m"/></l><r>entesa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>entendimiento_acuerdo<s n="n"/><s n="m"/></l><r>entesa<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>entente<s n="n"/></l>             <r>entesa<s n="n"/></r></p></e>
 <e>       <p><l>entidad<s n="n"/></l>             <r>entitat<s n="n"/></r></p></e>
 <e>       <p><l>entierro<s n="n"/></l>            <r>enterrament<s n="n"/></r></p></e>
@@ -10668,8 +10675,6 @@
 <e>       <i>latitud<s n="n"/></i></e>
 <e>       <i>Latorre<s n="np"/></i></e>
 <e>       <i>Laura<s n="np"/></i></e>
-<e r="LR"><p><l>cuarto<g><b/>de<b/>aseo</g><s n="n"/></l><r>lavabo<s n="n"/></r></p></e>
-<e>       <p><l>cuarto<g><b/>de<b/>baño</g><s n="n"/><s n="m"/></l><r>cambra<g><b/>de<b/>bany</g><s n="n"/><s n="f"/></r></p></e>
 <e>       <i>lavabo<s n="n"/></i></e>
 <e>       <i>Lázaro<s n="np"/></i></e>
 <e>       <i>Leal<s n="np"/></i></e>
@@ -44148,7 +44153,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e><p><l>bebida<b/>espirituosa<s n="n"/></l><r>beguda<b/>espirituosa<s n="n"/></r></p></e>
 <e><p><l>licor<b/>espirituoso<s n="n"/></l><r>licor<b/>espirituós<s n="n"/></r></p></e>
 <e><p><l>persona<b/>espirituosa<s n="n"/></l><r>persona<b/>esperitosa<s n="n"/></r></p></e>
-<e><p><l>mango<b/>deshidratado<s n="n"/></l><r>mango<b/>deshidratat<s n="n"/></r></p></e>
 <e><p><l>planta<b/>tapizante<s n="n"/></l><r>planta<b/>entapissant<s n="n"/></r></p></e>
 <e><p><l>tornillo<b/>autoblocante<s n="n"/></l><r>caragol<b/>autoblocant<s n="n"/></r></p></e>
 <e><p><l>tuerca<b/>autoblocante<s n="n"/></l><r>femella<b/>autoblocant<s n="n"/></r></p></e>
@@ -44863,7 +44867,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>croupier<s n="n"/></l><r>crupier<s n="n"/></r></p></e>
 <e a="GVA"><p><l>crucifixión<s n="n"/></l><r>crucifixió<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cuadruplicar<s n="vblex"/></l><r>quadruplicar<s n="vblex"/></r></p></e>
-<e a="GVA"><p><l>cuarto<s n="n"/></l><r>quart<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cúbito<s n="n"/></l><r>cúbit<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cuentakilómetros<s n="n"/></l><r>comptaquilòmetres<s n="n"/></r></p></e>
 <e a="GVA"><p><l>culata<s n="n"/></l><r>culata<s n="n"/></r></p></e>
