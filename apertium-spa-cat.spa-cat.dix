@@ -822,6 +822,7 @@
 <e>       <p><l>mal<s n="adj"/></l>               <r>mal<s n="adj"/></r></p></e>
 <e r="RL"><p><l>malo<s n="adj"/></l>              <r>roí<s n="adj"/></r></p></e>
 <e>       <p><l>maravilloso<s n="adj"/></l>       <r>meravellós<s n="adj"/></r></p></e>
+<e>       <p><l>mariano<s n="adj"/></l>           <r>marià<s n="adj"/></r></p></e>
 <e r="RL"><p><l>marino<s n="adj"/></l>            <r>marès<s n="adj"/></r></p></e>
 <e>       <p><l>marino<s n="adj"/></l>            <r>marí<s n="adj"/></r></p></e>
 <e>       <p><l>marrón<s n="adj"/><s n="mf"/></l> <r>marró<s n="adj"/><s n="mf"/></r></p></e>
@@ -1116,6 +1117,7 @@
 <e r="RL"><p><l>parecido<s n="adj"/><s n="GD"/></l><r>semblant<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>parecido<s n="adj"/><s n="m"/></l><r>semblant<s n="adj"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>parecido<s n="adj"/><s n="f"/></l><r>semblant<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>santificante<s n="adj"/></l>      <r>santificant<s n="adj"/></r></p></e>
 <e>       <p><l>sencillo<s n="adj"/></l>          <r>senzill<s n="adj"/></r></p></e>
 <e>       <p><l>sensato<s n="adj"/></l>           <r>assenyat<s n="adj"/></r></p></e>
 <e>       <i>sensible<s n="adj"/></i></e>
@@ -2423,6 +2425,7 @@
 <e>       <p><l>contracorriente<s n="n"/><s n="f"/></l><r>contracorrent<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>contraste<s n="n"/></l>           <r>contrast<s n="n"/></r></p></e>
 <e>       <p><l>contrato<s n="n"/></l>            <r>contracte<s n="n"/></r></p></e>
+<e>       <p><l>contrición<s n="n"/></l>          <r>contrició<s n="n"/></r></p></e>
 <e>       <i>control<s n="n"/></i></e>
 <e>       <p><l>conveniencia<s n="n"/></l>        <r>conveniència<s n="n"/></r></p></e>
 <e>       <p><l>inconveniencia<s n="n"/></l>        <r>inconveniència<s n="n"/></r></p></e>
@@ -2941,6 +2944,7 @@
 <e r="RL"><i>firma<s n="n"/></i></e>
 <e>       <p><l>firma<s n="n"/></l>               <r>signatura<s n="n"/></r></p></e>
 <e>       <i>fiscal<s n="n"/></i></e>
+<e>       <p><l>flaqueza<s n="n"/></l>            <r>flaquesa<s n="n"/></r></p></e>
 <e>       <i>flora<s n="n"/></i></e>
 <e>       <i>flor<s n="n"/></i></e>
 <e>       <i>flota<s n="n"/></i></e>
@@ -3543,6 +3547,7 @@
 <e>       <p><l>moño<s n="n"/><s n="m"/></l>      <r>trossa<s n="n"/><s n="f"/></r></p></e>
 <e>       <i>moral<s n="n"/></i></e>
 <e>       <i>moro<s n="n"/></i></e>
+<e>       <p><l>mortificación<s n="n"/></l>        <r>mortificació<s n="n"/></r></p></e>
 <e>       <i>mosca<s n="n"/></i></e>
 <e>       <i>mostrador<s n="n"/></i></e>
 <e>       <p><l>motivo<s n="n"/></l>              <r>motiu<s n="n"/></r></p></e>
@@ -14528,9 +14533,8 @@
 <e r="RL" a=" alseoane@gmail.com"><p><l>medio<s n="n"/></l><r>medi<s n="n"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>escozor<s n="n"/><s n="m"/></l><r>coïssor<s n="n"/><s n="f"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>cabelludo<s n="adj"/></l><r>cabellut<s n="adj"/></r></p></e>
-<e a=" alseoane@gmail.com"><p><l>lácteo<s n="adj"/></l><r>làctic<s n="adj"/></r></p></e>
-<e r="LR" a=" alseoane@gmail.com"><p><l>láctico<s n="adj"/></l><r>làctic<s n="adj"/></r></p></e>
-<e r="RL" a=" alseoane@gmail.com"><p><l>lácteo<s n="adj"/></l><r>lacti<s n="adj"/></r></p></e>
+<e a=" alseoane@gmail.com"><p><l>láctico<s n="adj"/></l><r>làctic<s n="adj"/></r></p></e>
+<e a=" alseoane@gmail.com"><p><l>lácteo<s n="adj"/></l><r>lacti<s n="adj"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>antioxidante<s n="n"/></l><r>antioxidant<s n="n"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>amanita<s n="n"/></l><r>amanita<s n="n"/></r></p></e>
 <e a=" alseoane@gmail.com"><p><l>admisible<s n="adj"/></l><r>admissible<s n="adj"/></r></p></e>
@@ -44993,7 +44997,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>homeotermo<s n="adj"/></l><r>homeoterm<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>impelente<s n="adj"/></l><r>impel·lent<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>incumbencia<s n="n"/></l><r>incumbència<s n="n"/></r></p></e>
-<e vr="val_gva val_uni" a="GVA"><p><l>incurso<s n="adj"/></l><r>incurs<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>incurso<s n="adj"/></l><r>incurs<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>inexigibilidad<s n="n"/></l><r>inexigibilitat<s n="n"/></r></p></e>
 <e a="GVA"><p><l>inexpresivo<s n="adj"/></l><r>inexpressiu<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>infógrafo<s n="n"/></l><r>infògraf<s n="n"/></r></p></e>
@@ -45666,7 +45670,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>fonémico<s n="adj"/></l><r>fonèmic<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>fonoarticulatorio<s n="adj"/></l><r>fonoarticulatori<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>fotoenvejecimiento<s n="n"/></l><r>fotoenvelliment<s n="n"/></r></p></e>
-<e a="GVA"><p><l>frenillo<s n="n"/></l><r>fre<s n="n"/></r></p></e>
+<e a="GVA" r="LR"><p><l>frenillo<s n="n"/></l><r>fre<s n="n"/></r></p></e>
 <e a="GVA"><p><l>friegasuelos<s n="n"/></l><r>líquid de fregar<s n="n"/></r></p></e>
 <e a="GVA"><p><l>gateo<s n="n"/></l><r>gateig<s n="n"/></r></p></e>
 <e a="GVA"><p><l>geniculado<s n="adj"/></l><r>geniculat<s n="adj"/></r></p></e>
@@ -45680,6 +45684,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>handbike<s n="n"/></l><r>bicicleta de mà<s n="n"/></r></p></e>
 <e a="GVA"><p><l>hasta la fecha tope<s n="adv"/></l><r>fins a la data límit<s n="adv"/></r></p></e>
 <e a="GVA"><p><l>haya<s n="n"/><s n="f"/></l><r>faig<s n="n"/><s n="m"/></r></p></e>
+<e a="GVA"><p><l>hialurónico<s n="adj"/></l><r>hialurònic<s n="adj"/></r></p></e>
 <e a="GVA"><i>hidrogel<s n="n"/></i></e>
 <e a="GVA"><p><l>hiperactivación<s n="n"/></l><r>hiperactivació<s n="n"/></r></p></e>
 <e a="GVA"><p><l>hiperhidratación<s n="n"/></l><r>hiperhidratació<s n="n"/></r></p></e>
@@ -45689,6 +45694,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>hipogloso<s n="n"/></l><r>hipoglòs<s n="n"/></r></p></e>
 <e a="GVA"><p><l>horneable<s n="adj"/></l><r>enfornable<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>irrenunciabilidad<s n="n"/></l><r>irrenunciabilitat<s n="n"/></r></p></e>
+<e a="GVA" r="LR"><p><l>jaboncillo<s n="n"/></l><r>talc<s n="n"/></r></p></e>
 <e a="GVA"><p><l>laleo<s n="n"/></l><r>laleig<s n="n"/></r></p></e>
 
 <e a="prompsit"><p><l>providencia<s n="n"/></l><r>provisió<s n="n"/></r></p></e>
