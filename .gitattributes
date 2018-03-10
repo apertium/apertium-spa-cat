@@ -1,0 +1,31 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/INSTALL -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/alt.xsl -text
+/apertium-spa-cat.cat-spa.metalrx -text
+/apertium-spa-cat.cat-spa.t1x -text
+/apertium-spa-cat.spa-cat.dix -text
+/apertium-spa-cat.spa-cat.metalrx -text
+/apertium-spa-cat.spa-cat.t1x -text
+/autogen.sh -text
+/configure.ac -text
+dev/generation.sh -text
+dev/streamparser.py -text
+dev/testvoc.cat-spa.txt -text
+dev/testvoc.spa-cat.txt -text
+/gent1x.py -text
+/genvrdix.py -text
+/metalrx-to-lrx.xslt -text
+/metalrx.py -text
+/modes.xml -text
+/translate-to-default-equivalent.xsl -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
