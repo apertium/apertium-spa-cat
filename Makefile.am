@@ -186,15 +186,15 @@ $(PREFIX2).autolex.bin: .deps/$(BASENAME).$(PREFIX2).lrx
 ## Structural transfer rules
 ###############################################################################
 
-$(PREFIX1C).t1x.bin: $(PREFIX1C).t1x
+$(PREFIX1C).t1x.bin: .deps/$(PREFIX1C).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX1V).t1x.bin: $(PREFIX1V).t1x
+$(PREFIX1V).t1x.bin: .deps/$(PREFIX1V).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX1U).t1x.bin: $(PREFIX1U).t1x
+$(PREFIX1U).t1x.bin: .deps/$(PREFIX1U).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
@@ -207,13 +207,13 @@ $(PREFIX1U).t1x.bin: $(PREFIX1U).t1x
 .deps/$(BASENAME).$(PREFIX1).val_uni.t1x: $(BASENAME).$(PREFIX1).t1x
 	python gent1x.py val_uni $< >$@
 
-$(PREFIX1C).t1x: .deps/$(BASENAME).$(PREFIX1).cat.t1x
+.deps/$(PREFIX1C).t1x: .deps/$(BASENAME).$(PREFIX1).cat.t1x
 	xsltproc --stringparam alt cat alt.xsl $< >$@
 
-$(PREFIX1V).t1x: .deps/$(BASENAME).$(PREFIX1).val_gva.t1x
+.deps/$(PREFIX1V).t1x: .deps/$(BASENAME).$(PREFIX1).val_gva.t1x
 	xsltproc --stringparam alt val_gva alt.xsl $< >$@
 
-$(PREFIX1U).t1x: .deps/$(BASENAME).$(PREFIX1).val_uni.t1x
+.deps/$(PREFIX1U).t1x: .deps/$(BASENAME).$(PREFIX1).val_uni.t1x
 	xsltproc --stringparam alt val_uni alt.xsl $< >$@
 
 $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x

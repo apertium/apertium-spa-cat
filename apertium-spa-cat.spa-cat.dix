@@ -8939,8 +8939,8 @@
 <e>       <p><l>encumbrar<s n="vblex"/></l>       <r>encastellar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>encendedor<s n="n"/></l>          <r>encenedor<s n="n"/></r></p></e>
 <e>       <p><l>mechero<s n="n"/></l>             <r>encenedor<s n="n"/></r></p></e>
-<e>       <p><l>lechuga<s n="n"/><s n="f"/></l>   <r>enciam<s n="n"/><s n="m"/></r></p></e>
-<e vr="val_gva val_uni" a="GVA">       <p><l>lechuga<s n="n"/><s n="f"/></l>   <r>encisam<s n="n"/><s n="m"/></r></p></e>
+<e vr="cat"><p><l>lechuga<s n="n"/><s n="f"/></l> <r>enciam<s n="n"/><s n="m"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>lechuga<s n="n"/><s n="f"/></l><r>encisam<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>enclave<s n="n"/></l>             <r>enclavament<s n="n"/></r></p></e>
 <e>       <p><l>yunque<s n="n"/><s n="m"/></l>    <r>enclusa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>encubrir<s n="vblex"/></l>        <r>encobrir<s n="vblex"/></r></p></e>
@@ -14428,7 +14428,6 @@
 <e a="gema"><p><l>delegar<s n="vblex"/></l>       <r>delegar<s n="vblex"/></r></p></e>
 <e a="gema"><p><l>cuantitativo<s n="adj"/></l>    <r>quantitatiu<s n="adj"/></r></p></e>
 <e a="gema"><p><l>cualitativo<s n="adj"/></l>     <r>qualitatiu<s n="adj"/></r></p></e>
-<e a="gema" c="mirar bon paradigma"><p><l>crediticio<s n="adj"/></l><r>creditici<s n="adj"/></r></p></e>
 <e a="gema"><p><l>consultoría<s n="n"/></l>       <r>consultoria<s n="n"/></r></p></e>
 <e a="gema"><p><l>consultable<s n="adj"/></l>     <r>consultable<s n="adj"/></r></p></e>
 <e a="gema"><p><l>consignación<s n="n"/></l>      <r>consignació<s n="n"/></r></p></e>
@@ -26824,7 +26823,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>horchata<s n="n"/></l>  <r>orxata<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>obsidiana<s n="n"/></l> <r>obsidiana<s n="n"/></r></p></e>
 <e vr="cat" a="prompsit2uoc"><p><l>níspero<s n="n"/><s n="m"/></l><r>nespra<s n="n"/><s n="f"/></r></p></e>
-<e vr="val_gva val_uni" a="GVA"><p><l>níspero<s n="n"/><s n="m"/></l><r>nispro<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>níspero<s n="n"/><s n="m"/></l><r>nispro<s n="n"/><s n="m"/></r></p></e>
 <e a="prompsit2uoc"><p><l>limonada<s n="n"/></l>  <r>llimonada<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>linfa<s n="n"/></l>     <r>limfa<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>hurón<s n="n"/><s n="m"/></l><r>fura<s n="n"/><s n="f"/></r></p></e>
@@ -35055,8 +35054,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>autosuficiencia<s n="n"/></l>     <r>autosuficiència<s n="n"/></r></p></e>
 <e>       <p><l>avalúo<s n="n"/></l>              <r>apreuament<s n="n"/></r></p></e>
 <e>       <p><l>avda.<s n="n"/></l>               <r>av.<s n="n"/></r></p></e>
-<e vr="cat">       <p><l>avena<s n="n"/></l>               <r>civada<s n="n"/></r></p></e>
-<e vr="val_gva val_uni">       <p><l>avena<s n="n"/></l>               <r>avena<s n="n"/></r></p></e>
+<e vr="cat">       <p><l>avena<s n="n"/></l>      <r>civada<s n="n"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>avena<s n="n"/></l> <r>avena<s n="n"/></r></p></e>
 <e>       <p><l>avenencia<s n="n"/><s n="f"/></l> <r>avinença<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>avidez<s n="n"/></l>              <r>avidesa<s n="n"/></r></p></e>
 <e>       <p><l>avión<g><b/>a<b/>reacción</g><s n="n"/></l><r>avió<g><b/>de<b/>reacció</g><s n="n"/></r></p></e>
@@ -36405,9 +36404,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>maletín<s n="n"/></l>             <r>maletí<s n="n"/></r></p></e>
 <e>       <p><l>maleza<s n="n"/></l>              <r>mala<b/>herba<s n="n"/></r></p></e>
 <e>       <p><l>mal<b/>humor<s n="n"/></l>            <r>mal<b/>humor<s n="n"/></r></p></e>
-<e r="LR">       <p><l>malhumor<s n="n"/></l>            <r>mal<b/>humor<s n="n"/></r></p></e>
-<e>       <p><l>manantial<s n="n"/><s n="m"/></l> <r>deu<s n="n"/><s n="f"/></r></p></e>
-<e vr="val_gva val_uni" a="GVA">       <p><l>manantial<s n="n"/><s n="m"/></l> <r>brollador<s n="n"/></r></p></e>
+<e r="LR"><p><l>malhumor<s n="n"/></l>            <r>mal<b/>humor<s n="n"/></r></p></e>
+<e vr="cat"><p><l>manantial<s n="n"/><s n="m"/></l> <r>deu<s n="n"/><s n="f"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>manantial<s n="n"/></l> <r>brollador<s n="n"/></r></p></e>
 <e>       <p><l>mancomunidad<s n="n"/></l>        <r>mancomunitat<s n="n"/></r></p></e>
 <e>       <p><l>manco<s n="n"/></l>               <r>manxol<s n="n"/></r></p></e>
 <e>       <p><l>mandoble<s n="n"/><s n="m"/></l>  <r>espasada<s n="n"/><s n="f"/></r></p></e>
@@ -45305,7 +45304,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>remplazar<s n="vblex"/></l><r>reemplaçar<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>repentizar<s n="vblex"/></l><r>improvisar<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>reponedor<s n="adj"/></l><r>reposador<s n="adj"/></r></p></e>
-<e a="GVA"><p><l>reprender<s n="vblex"/></l><r>reprendre<s n="vblex"/></r></p></e>
+<e r="LR" a="GVA"><p><l>reprender<s n="vblex"/></l><r>reprendre<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>reprendido<s n="adj"/></l><r>reprès<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>reprimenda<s n="n"/></l><r>reprimenda<s n="n"/></r></p></e>
 <e a="GVA"><p><l>restaurador<s n="n"/></l><r>restaurador<s n="n"/></r></p></e>
