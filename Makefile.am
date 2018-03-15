@@ -229,13 +229,10 @@ EXTRA_DIST=									\
 		.deps/$(BASENAME).$(PREFIX2).lrx	\
 		$(BASENAME).$(PREFIX1).dix 			\
 		$(BASENAME).$(PREFIX1).dix 			\
-		$(BASENAME).$(PREFIX1).t1x 			\
-		$(BASENAME).$(PREFIX1C).t1x 		\
-		$(BASENAME).$(PREFIX1V).t1x 		\
-		$(BASENAME).$(PREFIX1U).t1x 		\
+		.deps/$(PREFIX1C).t1x 	\
+		.deps/$(PREFIX1V).t1x 	\
+		.deps/$(PREFIX1U).t1x 	\
 		$(BASENAME).$(PREFIX2).t1x 			\
-		$(BASENAME).$(LANG1).acx 			\
-		$(BASENAME).$(LANG2).acx 			\
 		modes.xml 							\
 		alt.xsl
 
@@ -249,10 +246,9 @@ apertium_spa_catdir=$(prefix)/share/apertium/$(BASENAME)/
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
 apertium_spa_cat_DATA=				\
 	$(TARGETS_COMMON)				\
-	$(BASENAME).$(PREFIX1).t1x		\
-	$(PREFIX1C).t1x					\
-	$(PREFIX1V).t1x					\
-	$(PREFIX1U).t1x					\
+	.deps/$(PREFIX1C).t1x			\
+	.deps/$(PREFIX1V).t1x			\
+	.deps/$(PREFIX1U).t1x			\
 	$(BASENAME).$(PREFIX2).t1x		
 
 modes/$(PREFIX1).mode: modes.xml
