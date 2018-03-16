@@ -147,6 +147,27 @@
     <match lemma="*" tags="adj.f.*"/>
   </rule>
 
+  <!-- contar > contar/comptar TODO: no funciona -->
+
+  <rule weight="0.8">
+    <match lemma="contar" tags="vblex.*"><select lemma="comptar"/></match>
+  </rule>
+
+ <rule weight="1.0">
+    <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
+    <repeat from="0" upto="3">
+      <match tags="*"/>
+    </repeat> 
+    <or>
+      <match lemma="historia" tags="n.*"/>
+      <match lemma="cuento" tags="n.*"/>
+      <match lemma="parábola" tags="n.*"/>
+      <match lemma="narración" tags="n.*"/>
+    </or>
+  </rule>
+ 
+
+
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
   <macro name="noms_propis" p1="Luis" p2="Lluís" />

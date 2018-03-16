@@ -5489,13 +5489,11 @@
 <e>       <i>consumir<s n="vblex"/></i></e>
 <e>       <i>contagiar<s n="vblex"/></i></e>
 <e>       <i>contaminar<s n="vblex"/></i></e>
-<e vr="val_gva val_uni" a="GVA"><p><l>contar<s n="vblex"/></l>   <r>comptar<s n="vblex"/></r></p></e>
-<e>       <p><l>contar<g><b/>con</g><s n="vblex"/></l><r>comptar<g><b/>amb</g><s n="vblex"/></r></p></e>
-<e vr="cat" r="LR" slr="explicar D"><p><l>contar<s n="vblex"/></l><r>explicar<s n="vblex"/></r></p></e>
-<e r="RL"><i>contar<s n="vblex"/></i></e>
+<e>       <p><l>contar<s n="vblex"/></l>   <r>comptar<s n="vblex"/></r></p></e> <!--disambiguation: see LRX -->
+<e>       <i>contar<s n="vblex"/></i></e>
 <e>       <i>contemplar<s n="vblex"/></i></e>
 <e>       <p><l>contener<s n="vblex"/></l>        <r>contenir<s n="vblex"/></r></p></e>
-<e r="LR">       <p><l>a<b/>mitad<b/>de<b/>camino<s n="adv"/></l><r>a<b/>mig<b/>camí<s n="adv"/></r></p></e>
+<e r="LR"><p><l>a<b/>mitad<b/>de<b/>camino<s n="adv"/></l><r>a<b/>mig<b/>camí<s n="adv"/></r></p></e>
 <e>       <i>contestar<s n="vblex"/></i></e>
 <e>       <i>TIC<s n="n"/><s n="acr"/></i></e>
 <e>       <i>wiki<s n="n"/></i></e>
@@ -14129,7 +14127,6 @@
 <e>       <p><l>interuniversitario<s n="adj"/></l><r>interuniversitari<s n="adj"/></r></p></e>
 <e>       <p><l>favorecedor<s n="adj"/></l>       <r>afavoridor<s n="adj"/></r></p></e>
 <e>       <p><l>europeo<s n="n"/></l>             <r>europeu<s n="n"/></r></p></e>
-<e r="RL"><p><l>contar<s n="vblex"/></l>          <r>comptar<s n="vblex"/></r></p></e>
 <e>       <i>Amer<s n="np"/></i></e>
 <e>       <p><l>chiita<s n="adj"/></l>            <r>xiïta<s n="adj"/></r></p></e>
 <e>       <i>Villaescusa<s n="np"/></i></e>
@@ -14767,7 +14764,6 @@
 <e r="RL"><p><l>hasta<s n="pr"/></l>              <r>fins<s n="pr"/></r></p></e>
 <e r="LR"><p><l>cual<s n="rel"/><s n="adv"/></l>  <r>com<s n="rel"/><s n="adv"/></r></p></e>
 <e>       <p><l>otro<s n="adj"/></l>              <r>altre<s n="adj"/></r></p></e>
-<e r="RL"><p><l>contar<s n="vblex"/></l>          <r>comptar<s n="vblex"/></r></p></e>
 <e>       <p><l>en<b/>torno<s n="adv"/></l>       <r>entorn<s n="adv"/></r></p></e>
 <e>       <p><l>querer<s n="vblex"/></l>          <r>voler<s n="vblex"/></r></p></e>
 <e>       <p><l>detenido<s n="n"/></l>            <r>detingut<s n="n"/></r></p></e>
@@ -45585,7 +45581,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>verdejo<s n="n"/></l><r>verdejo<s n="n"/></r></p></e>
 <e a="GVA"><p><l>vermut<s n="n"/></l><r>vermut<s n="n"/></r></p></e>
 <e a="GVA"><p><l>wok<s n="n"/></l><r>wok<s n="n"/></r></p></e>
-<e a="GVA"><p><l>a<b/>contar<b/>desde<s n="adv"/></l><r>a<b/>comptar<b/>de<s n="adv"/></r></p></e>
 <e a="GVA"><p><l>almendra<b/>marcona<s n="n"/></l><r>ametla<b/>marcona<s n="n"/></r></p></e>
 <e a="GVA"><p><l>arco<g><b/>de<b/>medio<b/>punto</g><s n="n"/></l><r>arc<g><b/>de<b/>mig<b/>punt</g><s n="n"/></r></p></e>
 <e a="GVA"><p><l>arroz<g><b/>basmati</g><s n="n"/></l><r>arròs<g><b/>basmati</g><s n="n"/></r></p></e>
@@ -45905,7 +45900,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>rastrojera<s n="n"/></l><r>rostollada<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>PDSU<s n="np"/></l><r>PDSU<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>dBA<s n="np"/></l><r>dBA<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>a<b/>contar<b/>desde<s n="pr"/></l><r>a<b/>comptar<b/>des<b/>de<s n="pr"/></r></p></e>
 <e a="prompsit"><p><l>rigola<s n="n"/></l><r>rigola<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>protocolizar<s n="vblex"/></l><r>protocolitzar<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>del<b/>cual<s n="rel"/></l><r>del<b/>qual<s n="rel"/></r></p></e>
@@ -45931,9 +45925,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>tablón<g><b/>de<b/>edictos</g><s n="n"/></l><r>tauler<g><b/>d'edictes</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>fin<b/>edificatorio<s n="n"/><s n="m"/></l><r>finalitat<b/>edificatòria<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>salvo<b/>de<s n="pr"/></l>              <r>excepte<b/>de<s n="pr"/></r></p></e>
-<e a="prompsit" r="LR"><p><l>a<b/>contar<b/>de<s n="pr"/></l><r>a<b/>comptar<b/>des<b/>de<s n="pr"/></r></p></e>
-<e a="prompsit"><p><l>a<b/>contar<b/>a<b/>partir<b/>de<s n="pr"/></l><r>a<b/>comptar<b/>a<b/>partir<b/>de<s n="pr"/></r></p></e>
-<e a="prompsit"><p><l>contar<g><b/>a<b/>partir</g><s n="vblex"/></l><r>comptar<g><b/>a<b/>partir</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>oportuno</g><s n="vblex"/></l><r>creure<g><b/>oportú</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>oportunos</g><s n="vblex"/></l><r>creure<g><b/>oportuns</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>e.<s n="n"/></l><r>e.<s n="n"/></r></p></e>
