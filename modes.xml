@@ -17,7 +17,7 @@
       <program name="lt-proc -b">
         <file name="spa-cat.autobil.bin"/>
       </program>
-      <program name="lrx-proc $2">
+      <program name="lrx-proc -m">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
