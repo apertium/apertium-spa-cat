@@ -202,10 +202,15 @@
     <repeat from="0" upto="2">
       <match tags="adv.*"/>
     </repeat>
-    <or>
       <match lemma="que"/>
-      <match lemma="con"/>
-    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="contar" tags="vblex.*"><select lemma="comptar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv.*"/>
+    </repeat>
+    <match lemma="con"/>
   </rule>
  
   <rule weight="0.9">
