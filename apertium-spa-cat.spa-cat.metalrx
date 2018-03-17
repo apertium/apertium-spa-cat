@@ -155,18 +155,63 @@
 
  <rule weight="1.0">
     <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
-    <repeat from="0" upto="3">
+    <repeat from="0" upto="4">
       <match tags="*"/>
     </repeat> 
     <or>
-      <match lemma="historia" tags="n.*"/>
+      <match lemma="anécdota" tags="n.*"/>
+      <match lemma="aventura" tags="n.*"/>
       <match lemma="cuento" tags="n.*"/>
-      <match lemma="parábola" tags="n.*"/>
+      <match lemma="desventura" tags="n.*"/>
+      <match lemma="episodio" tags="n.*"/>
+      <match lemma="historia" tags="n.*"/>
+      <match lemma="leyenda" tags="n.*"/>
       <match lemma="narración" tags="n.*"/>
+      <match lemma="narrador" tags="n.*"/>
+      <match lemma="parábola" tags="n.*"/>
+      <match lemma="película" tags="n.*"/>
+      <match lemma="peripecia" tags="n.*"/>
+      <match lemma="relato" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="anécdota" tags="n.*"/>
+      <match lemma="aventura" tags="n.*"/>
+      <match lemma="cuento" tags="n.*"/>
+      <match lemma="desventura" tags="n.*"/>
+      <match lemma="episodio" tags="n.*"/>
+      <match lemma="historia" tags="n.*"/>
+      <match lemma="leyenda" tags="n.*"/>
+      <match lemma="narración" tags="n.*"/>
+      <match lemma="narrador" tags="n.*"/>
+      <match lemma="parábola" tags="n.*"/>
+      <match lemma="película" tags="n.*"/>
+      <match lemma="peripecia" tags="n.*"/>
+      <match lemma="relato" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <match tags="*"/>
+    </repeat> 
+    <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv.*"/>
+    </repeat>
+    <or>
+      <match lemma="que"/>
+      <match lemma="con"/>
     </or>
   </rule>
  
-
+  <rule weight="0.9">
+    <match lemma="contar" tags="vblex.*"><select lemma="explicar"/></match>
+    <match tags="prn.*"/>
+  </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
