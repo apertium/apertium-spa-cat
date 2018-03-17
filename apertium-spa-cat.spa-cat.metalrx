@@ -156,7 +156,10 @@
  <rule weight="1.0">
     <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
     <repeat from="0" upto="4">
-      <match tags="*"/>
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+      </or>
     </repeat> 
     <or>
       <match lemma="anécdota" tags="n.*"/>
@@ -192,7 +195,10 @@
       <match lemma="relato" tags="n.*"/>
     </or>
     <repeat from="0" upto="4">
-      <match tags="*"/>
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+      </or>
     </repeat> 
     <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
   </rule>
