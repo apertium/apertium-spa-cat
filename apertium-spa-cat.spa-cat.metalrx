@@ -210,7 +210,12 @@
     <repeat from="0" upto="2">
       <match tags="adv.*"/>
     </repeat>
-    <match lemma="con"/>
+    <or>
+      <match lemma="con"/>
+      <match lemma="conmigo"/>
+      <match lemma="contigo"/>
+      <match lemma="consigo"/>
+    </or>
   </rule>
  
   <rule weight="0.9">
