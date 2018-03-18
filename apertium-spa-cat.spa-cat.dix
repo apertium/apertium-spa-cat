@@ -2094,6 +2094,8 @@
 <!-- a="mireiafarrus" Corregeixo error: "investigació" passa a "investigación" (paraula en castellà). A més a més "recerca->búsqueda" passa a "cerca->búsqueda". Així ara "recerca" es traduirà per "investigación" i no per "búsqueda". Petició del Servei Lingüístic UOC-->
 <e srl="búsqueda D"><p><l>búsqueda<s n="n"/></l>  <r>cerca<s n="n"/></r></p></e>
 <e srl="investigación D" vr="cat"><p><l>investigación<s n="n"/></l><r>recerca<s n="n"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>investigación<s n="n"/></l><r>investigació<s n="n"/></r></p></e>
+<e>  <p><l>investigación<b/>y<b/>desarrollo<s n="n"/></l>         <r>recerca<b/>i<b/>desenvolupament<s n="n"/></r></p></e>
 <e>       <i>butaca<s n="n"/><s n="f"/></i></e>
 <e>       <p><l>caballería<s n="n"/></l>          <r>cavalleria<s n="n"/></r></p></e>
 <e>       <p><l>caballero<s n="n"/></l>           <r>cavaller<s n="n"/></r></p></e>
@@ -3244,7 +3246,6 @@
 <e>       <i>inventor<s n="n"/></i></e>
 <e r="RL"><p><l>inversión<s n="n"/><s n="f"/></l> <r>capgirament<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>inversión<s n="n"/></l>           <r>inversió<s n="n"/></r></p></e>
-<e vr="val_gva val_uni">       <p><l>investigación<s n="n"/></l>       <r>investigació<s n="n"/></r></p></e>
 <e>       <i>investigador<s n="n"/></i></e>
 <e>       <p><l>invierno<s n="n"/></l>            <r>hivern<s n="n"/></r></p></e>
 <e>       <p><l>invitación<s n="n"/></l>          <r>invitació<s n="n"/></r></p></e>
