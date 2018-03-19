@@ -344,7 +344,6 @@
 <e r="RL"><p><l>centésimo<s n="adj"/></l>         <r>centè<s n="adj"/></r></p></e>
 <e>       <p><l>centésimo<s n="adj"/></l>         <r>centèsim<s n="adj"/></r></p></e>
 <e>       <i>central<s n="adj"/></i></e>
-<e srl="cercano D"><p><l>cercano<s n="adj"/></l>  <r>proper<s n="adj"/></r></p></e>
 <e>       <i>cerebral<s n="adj"/></i></e>
 <e r="LR"><p><l>certero<s n="adj"/></l>           <r>precís<s n="adj"/></r></p></e>
 <e>       <p><l>chino<s n="adj"/></l>             <r>xinès<s n="adj"/></r></p></e>
@@ -1024,13 +1023,17 @@
 <e>       <p><l>progresivo<s n="adj"/></l>        <r>progressiu<s n="adj"/></r></p></e>
 <e>       <p><l>propicio<s n="adj"/></l>          <r>propici<s n="adj"/></r></p></e>
 <e>       <p><l>propio<s n="adj"/></l>            <r>propi<s n="adj"/></r></p></e>
+
 <e r="RL"><p><l>próximo<s n="adj"/><s n="GD"/></l><r>vinent<s n="adj"/><s n="mf"/></r></p></e>
-<e vr="cat" srl="próximo"><p><l>próximo<s n="adj"/></l><r>proper<s n="adj"/></r></p></e>
-<e vr="val_gva val_uni">       <p><l>próximo<s n="adj"/></l>           <r>pròxim<s n="adj"/></r></p></e>
+<e vr="cat" srl="próximo"><p><l>próximo<s n="adj"/></l><r>proper<s n="adj"/></r></p></e> <!--estilísticament no és bo. Caldria eliminar-ho, però falta assegurar traduccions com "el proper febrer" > "el pròximo febrero"-->
+<e srl="cercano D"><p><l>cercano<s n="adj"/></l>  <r>proper<s n="adj"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>próximo<s n="adj"/></l><r>pròxim<s n="adj"/></r></p></e>
+<e>       <p><l>próximamente<s n="adv"/></l>      <r>pròximament<s n="adv"/></r></p></e>
+<e r="RL"><p><l>próximamente<s n="adv"/></l>      <r>properament<s n="adv"/></r></p></e>
+<e r="LR"><p><l>cercanamente<s n="adv"/></l>      <r>properament<s n="adv"/></r></p></e>
 
-<e><p><l>protista<s n="adj"/></l>     <r>protista<s n="adj"/></r></p></e>
-<e><p><l>protoctista<s n="adj"/></l>     <r>protoctista<s n="adj"/></r></p></e>
-
+<e>       <p><l>protista<s n="adj"/></l>          <r>protista<s n="adj"/></r></p></e>
+<e>       <p><l>protoctista<s n="adj"/></l>       <r>protoctista<s n="adj"/></r></p></e>
 <e>       <p><l>prudente<s n="adj"/></l>          <r>prudent<s n="adj"/></r></p></e>
 <e>       <p><l>psicológico<s n="adj"/></l>       <r>psicològic<s n="adj"/></r></p></e>
 <e>       <p><l>psíquico<s n="adj"/></l>          <r>psíquic<s n="adj"/></r></p></e>
@@ -12301,7 +12304,6 @@
 <e>       <p><l>provocación<s n="n"/></l>         <r>provocació<s n="n"/></r></p></e>
 <e>       <i>provocador<s n="adj"/></i></e>
 <e>       <p><l>provocativo<s n="adj"/></l>       <r>provocatiu<s n="adj"/></r></p></e>
-<e>       <p><l>próximamente<s n="adv"/></l>      <r>pròximament<s n="adv"/></r></p></e>
 <e>       <p><l>ciruela<s n="n"/></l>             <r>pruna<s n="n"/></r></p></e>
 <e>       <i>PSC<s n="n"/></i></e>
 <e>       <p><l>psicodélico<s n="adj"/></l>       <r>psicodèlic<s n="adj"/></r></p></e>
@@ -20832,7 +20834,6 @@
 <e a="prompsit"><p><l>declaradamente<s n="adv"/></l><r>declaradament<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>al<b/>final<s n="adv"/></l> <r>al<b/>final<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>pausadamente<s n="adv"/></l><r>pausadament<s n="adv"/></r></p></e>
-<e r="RL" a="prompsit"><p><l>próximamente<s n="adv"/></l><r>properament<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>extensamente<s n="adv"/></l><r>extensament<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>aquí<b/>abajo<s n="adv"/></l><r>aquí<b/>sota<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>allí<b/>arriba<s n="adv"/></l><r>allà<b/>dalt<s n="adv"/></r></p></e>
@@ -29837,7 +29838,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>centrífugamente<s n="adv"/></l>   <r>centrífugament<s n="adv"/></r></p></e>
 <e>       <p><l>centrípetamente<s n="adv"/></l>   <r>centrípetament<s n="adv"/></r></p></e>
 <e>       <p><l>cerámicamente<s n="adv"/></l>     <r>ceràmicament<s n="adv"/></r></p></e>
-<e r="LR">       <p><l>cercanamente<s n="adv"/></l>      <r>properament<s n="adv"/></r></p></e>
 <e>       <p><l>cerebralmente<s n="adv"/></l>     <r>cerebralment<s n="adv"/></r></p></e>
 <e>       <p><l>ceremoniosamente<s n="adv"/></l>  <r>cerimoniosament<s n="adv"/></r></p></e>
 <e>       <p><l>chocantemente<s n="adv"/></l>     <r>xocantment<s n="adv"/></r></p></e>
@@ -30421,6 +30421,21 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>el<b/>próximo<b/>miércoles<s n="adv"/></l><r>dimecres<b/>que<b/>ve<s n="adv"/></r></p></e>
 <e>       <p><l>el<b/>próximo<b/>sábado<s n="adv"/></l><r>dissabte<b/>que<b/>ve<s n="adv"/></r></p></e>
 <e>       <p><l>el<b/>próximo<b/>viernes<s n="adv"/></l><r>divendres<b/>que<b/>ve<s n="adv"/></r></p></e>
+<e r="LR"><p><l>la<b/>pasada<b/>semana<s n="adv"/></l><r>la<b/>setmana<b/>passada<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>pasado<b/>mes<s n="adv"/></l><r>el<b/>mes<b/>passat<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>pasado<b/>trimestre<s n="adv"/></l><r>el<b/>trimestre<b/>passat<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>pasado<b/>cuatrimestre<s n="adv"/></l><r>el<b/>quadrimestre<b/>passat<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>pasado<b/>semestre<s n="adv"/></l><r>el<b/>semestre<b/>passat<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>pasado<b/>año<s n="adv"/></l><r>l'any<b/>passat<s n="adv"/></r></p></e>
+<e r="LR"><p><l>la<b/>pasada<b/>década<s n="adv"/></l><r>la<b/>dècada<b/>passada<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>próximo<b/>día<s n="adv"/></l><r>el<b/>pròxim<b/>dia<s n="adv"/></r></p></e>
+<e r="LR"><p><l>la<b/>próxima<b/>semana<s n="adv"/></l><r>la<b/>setmana<b/>vinent<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>próximo<b/>mes<s n="adv"/></l><r>el<b/>mes<b/>vinent<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>próximo<b/>trimestre<s n="adv"/></l><r>el<b/>trimestre<b/>vinent<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>próximo<b/>cuatrimestre<s n="adv"/></l><r>el<b/>quadrimestre<b/>vinent<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>próximo<b/>semestre<s n="adv"/></l><r>el<b/>semestre<b/>vinent<s n="adv"/></r></p></e>
+<e r="LR"><p><l>el<b/>próximo<b/>año<s n="adv"/></l><r>l'any<b/>vinent<s n="adv"/></r></p></e>
+<e r="LR"><p><l>la<b/>próxima<b/>década<s n="adv"/></l><r>la<b/>dècada<b/>vinent<s n="adv"/></r></p></e>
 <e>       <p><l>electamente<s n="adv"/></l>       <r>electament<s n="adv"/></r></p></e>
 <e>       <p><l>eléctricamente<s n="adv"/></l>    <r>elèctricament<s n="adv"/></r></p></e>
 <e>       <p><l>electrolíticamente<s n="adv"/></l><r>electrolíticament<s n="adv"/></r></p></e>
@@ -31522,7 +31537,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>narrativamente<s n="adv"/></l>    <r>narrativament<s n="adv"/></r></p></e>
 <e>       <p><l>natalmente<s n="adv"/></l>        <r>natalment<s n="adv"/></r></p></e>
 <e>       <p><l>natamente<s n="adv"/></l>         <r>natament<s n="adv"/></r></p></e>
-<e>       <p><l>nativamente<s n="adv"/></l>       <r>nadivament<s n="adv"/></r></p></e>
+<e>       <p><l>nativamente<s n="adv"/></l>       <r>nadiuament<s n="adv"/></r></p></e>
 <e>       <p><l>náuticamente<s n="adv"/></l>      <r>nàuticament<s n="adv"/></r></p></e>
 <e>       <p><l>navalmente<s n="adv"/></l>        <r>navalment<s n="adv"/></r></p></e>
 <e>       <p><l>navegablemente<s n="adv"/></l>    <r>navegablement<s n="adv"/></r></p></e>
