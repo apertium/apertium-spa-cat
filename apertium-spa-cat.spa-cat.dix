@@ -184,7 +184,6 @@
 <e>       <i>admirable<s n="adj"/></i></e>
 <e>       <p><l>africano<s n="adj"/></l>          <r>africà<s n="adj"/></r></p></e>
 <e>       <p><l>a<b/>domicilio<s n="adv"/></l>    <r>a<b/>domicili<s n="adv"/></r></p></e>
-<e>       <p><l>al<b/>cubo<s n="adv"/></l>    <r>al<b/>cub<s n="adv"/></r></p></e>
 <e a="termcat">       <p><l>a<b/>quemarropa<s n="adv"/></l><r>a<b/>frec<b/>de<b/>roba<s n="adv"/></r></p></e>
 <e r="RL" a="termcat"><p><l>a<b/>quemarropa<s n="adv"/></l><r>a<b/>crema-roba<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>quema<b/>ropa<s n="adv"/></l><r>a<b/>frec<b/>de<b/>roba<s n="adv"/></r></p></e>
@@ -2510,6 +2509,7 @@
 <e>       <p><l>cuadro<s n="n"/></l>              <r>quadre<s n="n"/></r></p></e>
 <e r="LR"><p><l>cualidad<s n="n"/></l>            <r>qualitat<s n="n"/></r></p></e>
 <e>       <p><l>cuartel<s n="n"/><s n="m"/></l>   <r>caserna<s n="n"/><s n="f"/></r></p></e>
+
 <e>       <p><l>cuarto<s n="n"/></l>              <r>quart<s n="n"/></r></p></e>
 <e r="LR"><p><l>cuarto_habitación<s n="n"/><s n="m"/></l><r>habitació<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>cuarto<g><b/>de<b/>aseo</g><s n="n"/></l><r>lavabo<s n="n"/></r></p></e>
@@ -2526,6 +2526,13 @@
 <e r="RL"><p><l>cámara<s n="n"/></l>              <r>cambra<s n="n"/></r></p></e>
 <e>       <p><l>cámara<s n="n"/></l>              <r>càmera<s n="n"/></r></p></e>
 <e>       <p><l>coro<g><b/>de<b/>cámara</g><s n="n"/></l><r>cor<g><b/>de<b/>cambra</g><s n="n"/></r></p></e>
+
+<e vr="cat"><p><l>cubo<s n="n"/><s n="m"/></l>    <r>galleda<s n="n"/><s n="f"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>cubo<s n="n"/></l>  <r>poal<s n="n"/></r></p></e>
+<e>       <p><l>cubo_matemáticas<s n="n"/></l>    <r>cub<s n="n"/></r></p></e>
+<e>       <p><l>al<b/>cubo<s n="adv"/></l>        <r>al<b/>cub<s n="adv"/></r></p></e>
+<e>       <p><l>cubo<g><b/>de<b/>Rubik</g><s n="n"/></l><r>cub<g><b/>de<b/>Rubik</g><s n="n"/></r></p></e>
+
 <e>       <p><l>cubierta<s n="n"/></l>            <r>coberta<s n="n"/></r></p></e>
 <e>       <p><l>cuchillo<s n="n"/></l>            <r>ganivet<s n="n"/></r></p></e>
 <e>       <p><l>cuello<s n="n"/></l>              <r>coll<s n="n"/></r></p></e>
@@ -9801,7 +9808,6 @@
 <e>       <i>Galindo<s n="np"/></i></e>
 <e>       <i>Gallardón<s n="np"/></i></e>
 <e>       <i>Gallardo<s n="np"/></i></e>
-<e vr="cat" c="eliminat slr=galleda D">       <p><l>cubo<s n="n"/><s n="m"/></l>      <r>galleda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Gales<s n="np"/></l>              <r>Gal·les<s n="np"/></r></p></e>
 
 <e r="RL"><p><l>galo<s n="n"/><s n="f"/></l>      <r>gal<s n="n"/><s n="f"/></r></p></e>
@@ -38201,7 +38207,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni"><p><l>chaleco<s n="n"/></l>          <r>jupetí<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>charla<s n="n"/></l>           <r>xarrada<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>contramoldura<s n="n"/></l>    <r>contramotlura<s n="n"/></r></p></e>
-<e vr="val_gva val_uni" c="eliminat slr=poal D"><p><l>cubo<s n="n"/></l>             <r>poal<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>escayolista<s n="n"/></l>      <r>algepsaire<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>escoba<s n="n"/></l>           <r>granera<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>espaldera<s n="n"/></l>        <r>espatlera<s n="n"/></r></p></e>
