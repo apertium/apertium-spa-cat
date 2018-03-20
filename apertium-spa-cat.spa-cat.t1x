@@ -99,6 +99,10 @@
       <cat-item tags="prn.pro.*"/>
     </def-cat>
 
+    <def-cat n="prnpro_le">
+      <cat-item lemma="le" tags="prn.pro.p3.mf.sg"/>
+    </def-cat>
+
     <def-cat n="verb">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
@@ -152,6 +156,12 @@
 
     <def-cat n="caber">
       <cat-item lemma="caber" tags="vblex.*"/>
+    </def-cat>
+
+    <def-cat n="verbos_considerar">
+      <cat-item lemma="considerar" tags="vblex.*"/>
+      <cat-item lemma="nombrar" tags="vblex.*"/>
+      <cat-item lemma="definir" tags="vblex.*"/>
     </def-cat>
 
     <def-cat n="lquest">
@@ -9541,6 +9551,35 @@
           <clip part="whole" pos="3" side="tl"/>
         </lu>
       </out>
+    </action>
+  </rule>
+
+  <rule> <!-- se le considera, se le nombró > se'l considera, se'l va nomenar.
+    Innecessari en plural perquè "les" (spa) ja és "els" (cat) -->
+    <pattern>
+       <pattern-item n="prnproref3"/>
+       <pattern-item n="prnpro_le"/>
+       <pattern-item n="verbos_considerar"/>
+    </pattern>
+    <action>
+      <out>
+        <lu>
+          <clip part="whole" pos="1" side="tl"/>
+        </lu>
+        <b/>
+        <lu> 
+          <lit v="el"/>
+          <lit-tag v="prn"/>
+          <lit-tag v="pro"/>
+          <lit-tag v="p3"/>
+          <lit-tag v="m"/>
+          <lit-tag v="sg"/>
+        </lu>
+        <b/>
+       </out>
+       <call-macro n="f_pretind">
+         <with-param pos="3"/>
+       </call-macro>
     </action>
   </rule>
 
