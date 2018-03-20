@@ -103,6 +103,10 @@
       <cat-item lemma="le" tags="prn.pro.p3.mf.sg"/>
     </def-cat>
 
+    <def-cat n="prnpro_se_lo">
+      <cat-item lemma="le" tags="prn.pro.p3.mf.sp"/>
+    </def-cat>
+
     <def-cat n="verb">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
@@ -158,10 +162,19 @@
       <cat-item lemma="caber" tags="vblex.*"/>
     </def-cat>
 
-    <def-cat n="verbos_considerar">
-      <cat-item lemma="considerar" tags="vblex.*"/>
-      <cat-item lemma="nombrar" tags="vblex.*"/>
-      <cat-item lemma="definir" tags="vblex.*"/>
+    <def-cat n="verbos_impersonal"> <!-- leísmo: se le considera -->
+      <cat-item lemma="considerar" tags="vblex.*.p3.sg"/> 
+      <cat-item lemma="nombrar" tags="vblex.*.p3.sg"/>
+      <cat-item lemma="definir" tags="vblex.*.p3.sg"/>
+      <cat-item lemma="obligar" tags="vblex.*.p3.sg"/>
+    </def-cat>
+
+    <def-cat n="verbos_impersonal_reflexivo"> <!-- se la come, se las considera -->
+      <cat-item lemma="considerar" tags="vblex.*.p3.*"/> 
+      <cat-item lemma="nombrar" tags="vblex.*.p3.*"/>
+      <cat-item lemma="definir" tags="vblex.*.p3.*"/>
+      <cat-item lemma="obligar" tags="vblex.*.p3.*"/>
+      <cat-item lemma="comer" tags="vblex.*.p3.*"/>
     </def-cat>
 
     <def-cat n="lquest">
@@ -9554,17 +9567,19 @@
     </action>
   </rule>
 
-  <rule> <!-- se le considera, se le nombró > se'l considera, se'l va nomenar.
+  <rule> <!-- Caso de "leísmo" aceptable: se le considera, se le nombró > se'l considera, se'l va nomenar, 
     Innecessari en plural perquè "les" (spa) ja és "els" (cat) -->
     <pattern>
        <pattern-item n="prnproref3"/>
        <pattern-item n="prnpro_le"/>
-       <pattern-item n="verbos_considerar"/>
+       <pattern-item n="verbos_impersonal"/>
     </pattern>
     <action>
       <out>
         <lu>
-          <clip part="whole" pos="1" side="tl"/>
+          <get-case-from pos="1">  
+            <clip part="whole" pos="1" side="tl"/>
+          </get-case-from>
         </lu>
         <b/>
         <lu> 
@@ -9583,7 +9598,39 @@
     </action>
   </rule>
 
-    <rule> <!-- REGLA: reset variables-->
+  <rule> <!-- Verbos impersonales o reflexivos: se la considera-->
+    <pattern>
+       <pattern-item n="prnpro_se_lo"/>
+       <pattern-item n="prnpro"/>
+       <pattern-item n="verbos_impersonal_reflexivo"/>
+    </pattern>
+    <action>
+      <out>
+        <lu>
+          <get-case-from pos="1"> 
+            <lit v="es"/>
+          </get-case-from>
+          <lit-tag v="prn"/>
+          <lit-tag v="pro"/>
+          <lit-tag v="ref"/>
+          <lit-tag v="p3"/>
+          <lit-tag v="mf"/>
+          <lit-tag v="sp"/>
+        </lu>
+        <b/>
+        <lu> 
+          <clip part="whole" pos="2" side="tl"/>  
+        </lu>
+        <b/>
+       </out>
+       <call-macro n="f_pretind">
+         <with-param pos="3"/>
+       </call-macro>
+    </action>
+  </rule>
+  
+
+   <rule> <!-- REGLA: reset variables-->
       <pattern>
 	<pattern-item n="sent"/>
       </pattern>
