@@ -387,6 +387,27 @@
     <match lemma="tráfico" tags="n.*"><select lemma="tràfic"/></match>
   </rule>
 
+   <!-- sentar > asseure/establir -->
+
+  <rule weight="0.8">
+    <match lemma="sentar" tags="vblex.*"><select lemma="asseure"/></match>
+  </rule>
+
+ <rule weight="1.0">
+    <match lemma="sentar" tags="vblex.*"><select lemma="establir"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="base" tags="n.*"/>
+      <match lemma="precedente" tags="n.*"/>
+      <match lemma="premisa" tags="n.*"/>
+    </or>
+  </rule>
+
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
   <macro name="noms_propis" p1="Luis" p2="Lluís" />
