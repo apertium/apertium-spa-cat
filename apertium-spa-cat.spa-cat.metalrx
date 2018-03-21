@@ -255,7 +255,6 @@
       <match lemma="defensa" tags="n.*"/>
       <match lemma="escollo" tags="n.*"/>
       <match lemma="ilegalización" tags="n.*"/>
-      <match lemma="indignación" tags="n.*"/>
       <match lemma="negativo" tags="adj.*"/>
       <match lemma="oposición" tags="n.*"/>
       <match lemma="peligro" tags="n.*"/>
@@ -289,6 +288,7 @@
       <match lemma="difícil" tags="adj.*"/>
       <match lemma="embestida" tags="n.*"/>
       <match lemma="estorbo" tags="n.*"/>
+      <match lemma="indignación" tags="n.*"/>
       <match lemma="obstáculo" tags="n.*"/>
       <match lemma="paso" tags="n.*"/>
       <match lemma="portero" tags="n.*"/>
@@ -297,6 +297,94 @@
       <match lemma="tropezón" tags="n.*"/>
       <match lemma="tropiezo" tags="n.*"/>
     </or>
+  </rule>
+
+   <!-- tráfico > trànsit/tràfic -->
+
+  <rule weight="0.8">
+    <match lemma="tráfico" tags="n.*"><select lemma="trànsit"/></match>
+  </rule>
+
+ <rule weight="1.0">
+    <match lemma="tráfico" tags="n.*"><select lemma="tràfic"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="arma" tags="n.*"/>
+      <match lemma="blanqueo" tags="n.*"/>
+      <match lemma="cocaína" tags="n.*"/>
+      <match lemma="colonial" tags="n.*"/>
+      <match lemma="compraventa" tags="n.*"/>
+      <match lemma="contrabandista" tags="n.*"/>
+      <match lemma="contrabando" tags="n.*"/>
+      <match lemma="contrata" tags="n.*"/>
+      <match lemma="corrupción" tags="n.*"/>
+      <match lemma="divisa" tags="n.*"/>
+      <match lemma="droga" tags="n.*"/>
+      <match lemma="esclavitud" tags="n.*"/>
+      <match lemma="esclavo" tags="n.*"/>
+      <match lemma="especia" tags="n.*"/>
+      <match lemma="estupefaciente" tags="n.*"/>
+      <match lemma="exportación" tags="n.*"/>
+      <match lemma="exportar" tags="vblex.*"/>
+      <match lemma="hachís" tags="n.*"/>
+      <match lemma="heroína" tags="n.*"/>
+      <match lemma="ilegal" tags="adj.*"/>
+      <match lemma="ilícito" tags="adj.*"/>
+      <match lemma="importación" tags="n.*"/>
+      <match lemma="importar" tags="vblex.*"/>
+      <match lemma="influencia" tags="n.*"/>
+      <match lemma="inmigrante" tags="n.*"/>
+      <match lemma="jurídico" tags="adj.*"/>
+      <match lemma="mafia" tags="n.*"/>
+      <match lemma="marfil" tags="n.*"/>
+      <match lemma="marihuana" tags="n.*"/>
+      <match lemma="mercancía" tags="n.*"/>
+      <match lemma="mercantil" tags="adj.*"/>
+      <match lemma="narcótico" tags="n.*"/>
+      <match lemma="negocio" tags="n.*"/>
+      <match lemma="negrero" tags="n.*"/>
+      <match lemma="persona" tags="n.*"/>
+      <match lemma="prostitución" tags="n.*"/>
+      <match lemma="ser humano" tags="n.*"/>
+      <match lemma="sexual" tags="adj.*"/>
+      <match lemma="tabaco" tags="n.*"/>
+      <match lemma="órgano" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="acusación" tags="n.*"/>
+      <match lemma="acusar" tags="vblex.*"/>
+      <match lemma="compraventa" tags="n.*"/>
+      <match lemma="contrabandista" tags="n.*"/>
+      <match lemma="contrabando" tags="n.*"/>
+      <match lemma="contrata" tags="n.*"/>
+      <match lemma="corrupción" tags="n.*"/>
+      <match lemma="droga" tags="n.*"/>
+      <match lemma="esclavitud" tags="n.*"/>
+      <match lemma="esclavo" tags="n.*"/>
+      <match lemma="exportación" tags="n.*"/>
+      <match lemma="exportar" tags="vblex.*"/>
+      <match lemma="importación" tags="n.*"/>
+      <match lemma="importar" tags="vblex.*"/>
+      <match lemma="mafia" tags="n.*"/>
+      <match lemma="negocio" tags="n.*"/>
+      <match lemma="negrero" tags="n.*"/>
+      <match lemma="prostitución" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <match lemma="tráfico" tags="n.*"><select lemma="tràfic"/></match>
   </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
