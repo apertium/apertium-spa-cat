@@ -147,7 +147,7 @@
     <match lemma="*" tags="adj.f.*"/>
   </rule>
 
-  <!-- contar > contar/comptar TODO: no funciona -->
+  <!-- contar > contar/comptar -->
 
   <rule weight="0.8">
     <match lemma="contar" tags="vblex.*"><select lemma="comptar"/></match>
@@ -229,6 +229,74 @@
   <rule weight="0.9">
     <match lemma="contar" tags="vblex.*"><select lemma="explicar"/></match>
     <match tags="prn.*"/>
+  </rule>
+
+  <!-- sortear > sortejar/evitar/superar -->
+
+  <rule weight="0.8">
+    <match lemma="sortear" tags="vblex.*"><select lemma="sortejar"/></match>
+  </rule>
+
+ <rule weight="1.0">
+    <match lemma="sortear" tags="vblex.*"><select lemma="eludir"/></match>
+    <repeat from="0" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="accidente" tags="n.*"/>
+      <match lemma="ataque" tags="n.*"/>
+      <match lemma="barrera" tags="n.*"/>
+      <match lemma="bloqueo" tags="n.*"/>
+      <match lemma="castigo" tags="n.*"/>
+      <match lemma="competidor" tags="n.*"/>
+      <match lemma="defensa" tags="n.*"/>
+      <match lemma="escollo" tags="n.*"/>
+      <match lemma="ilegalización" tags="n.*"/>
+      <match lemma="indignación" tags="n.*"/>
+      <match lemma="negativo" tags="adj.*"/>
+      <match lemma="oposición" tags="n.*"/>
+      <match lemma="peligro" tags="n.*"/>
+      <match lemma="pena" tags="n.*"/>
+      <match lemma="pregunta" tags="n.*"/>
+      <match lemma="presión" tags="n.*"/>
+      <match lemma="problema" tags="n.*"/>
+      <match lemma="prohibición" tags="n.*"/>
+      <match lemma="riesgo" tags="n.*"/>
+      <match lemma="sanción" tags="n.*"/>
+      <match lemma="trampa" tags="n.*"/>
+      <match lemma="táctica" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="sortear" tags="vblex.*"><select lemma="superar"/></match>
+    <repeat from="0" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="adversario" tags="n.*"/>
+      <match lemma="barranco" tags="n.*"/>
+      <match lemma="contratiempo" tags="n.*"/>
+      <match lemma="crisis" tags="n.*"/>
+      <match lemma="desfiladero" tags="n.*"/>
+      <match lemma="dificultad" tags="n.*"/>
+      <match lemma="difícil" tags="adj.*"/>
+      <match lemma="embestida" tags="n.*"/>
+      <match lemma="estorbo" tags="n.*"/>
+      <match lemma="obstáculo" tags="n.*"/>
+      <match lemma="paso" tags="n.*"/>
+      <match lemma="portero" tags="n.*"/>
+      <match lemma="río" tags="n.*"/>
+      <match lemma="traba" tags="n.*"/>
+      <match lemma="tropezón" tags="n.*"/>
+      <match lemma="tropiezo" tags="n.*"/>
+    </or>
   </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
