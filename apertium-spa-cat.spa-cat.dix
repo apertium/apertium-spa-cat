@@ -188,6 +188,7 @@
 <e r="RL" a="termcat"><p><l>a<b/>quemarropa<s n="adv"/></l><r>a<b/>crema-roba<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>quema<b/>ropa<s n="adv"/></l><r>a<b/>frec<b/>de<b/>roba<s n="adv"/></r></p></e>
 <e>       <i>la<b/>Fura<b/>dels<b/>Baus<s n="np"/></i></e>
+<e>       <p><l>afrutado<s n="adj"/></l>          <r>afruitat<s n="adj"/></r></p></e>
 <e>       <p><l>ágil<s n="adj"/></l>              <r>àgil<s n="adj"/></r></p></e>
 <e>       <p><l>agrario<s n="adj"/></l>           <r>agrari<s n="adj"/></r></p></e>
 <e>       <p><l>agresivo<s n="adj"/></l>          <r>agressiu<s n="adj"/></r></p></e>
@@ -2609,7 +2610,7 @@
 <e>       <p><l>deporte<s n="n"/></l>             <r>esport<s n="n"/></r></p></e>
 <e>       <p><l>deportista<s n="n"/></l>          <r>esportista<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>depósito<s n="n"/></l>            <r>depòsit<s n="n"/></r></p></e>
-<e vr="cat">       <p><l>depósito<s n="n"/></l>            <r>dipòsit<s n="n"/></r></p></e>
+<e vr="cat"><p><l>depósito<s n="n"/></l>          <r>dipòsit<s n="n"/></r></p></e>
 <e>       <p><l>depresión<s n="n"/></l>           <r>depressió<s n="n"/></r></p></e>
 <e>       <p><l>derecha<s n="n"/></l>             <r>dreta<s n="n"/></r></p></e>
 <e>       <p><l>derecho<s n="n"/></l>             <r>dret<s n="n"/></r></p></e>
@@ -5625,7 +5626,8 @@
 <e>       <i>denominar<s n="vblex"/></i></e>
 <e>       <i>denunciar<s n="vblex"/></i></e>
 <e>       <p><l>depender<s n="vblex"/></l>        <r>dependre<s n="vblex"/></r></p></e>
-<e>       <p><l>depositar<s n="vblex"/></l>       <r>dipositar<s n="vblex"/></r></p></e>
+<e vr="cat"><p><l>depositar<s n="vblex"/></l>       <r>dipositar<s n="vblex"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>depositar<s n="vblex"/></l><r>depositar<s n="vblex"/></r></p></e>
 <e>       <i>deprimir<s n="vblex"/></i></e>
 <e>       <i>derivar<s n="vblex"/></i></e>
 <e>       <p><l>derramar<s n="vblex"/></l>        <r>vessar<s n="vblex"/></r></p></e>
@@ -35293,6 +35295,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>campo<b/>de<b/>golf<s n="n"/></l> <r>camp<b/>de<b/>golf<s n="n"/></r></p></e>
 <e>       <p><l>canalizador<s n="n"/></l>         <r>canalitzador<s n="n"/></r></p></e>
 <e>       <p><l>canalón<s n="n"/></l>             <r>canaló<s n="n"/></r></p></e>
+<e>       <p><l>canelón<s n="n"/></l>             <r>caneló<s n="n"/></r></p></e>
 <e>       <p><l>canapé<s n="n"/></l>              <r>canapè<s n="n"/></r></p></e>
 <e>       <p><l>cancel<s n="n"/></l>              <r>cancell<s n="n"/></r></p></e>
 <e>       <p><l>candidez<s n="n"/></l>            <r>candidesa<s n="n"/></r></p></e>
