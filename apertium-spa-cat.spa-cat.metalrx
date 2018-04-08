@@ -243,6 +243,7 @@
       <or>
         <match tags="*.*"/>
         <match tags="pr"/>
+        <match tags="adv"/>
       </or>
     </repeat> 
     <or>
@@ -276,6 +277,7 @@
       <or>
         <match tags="*.*"/>
         <match tags="pr"/>
+        <match tags="adv"/>
       </or>
     </repeat> 
     <or>
@@ -311,6 +313,7 @@
       <or>
         <match tags="*.*"/>
         <match tags="pr"/>
+        <match tags="adv"/>
       </or>
     </repeat> 
     <or>
@@ -382,6 +385,7 @@
       <or>
         <match tags="*.*"/>
         <match tags="pr"/>
+        <match tags="adv"/>
       </or>
     </repeat> 
     <match lemma="tráfico" tags="n.*"><select lemma="tràfic"/></match>
@@ -399,6 +403,7 @@
       <or>
         <match tags="*.*"/>
         <match tags="pr"/>
+        <match tags="adv"/>
       </or>
     </repeat> 
     <or>
