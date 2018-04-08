@@ -4174,7 +4174,6 @@
 <e>       <p><l>rodilla<s n="n"/><s n="f"/></l>   <r>genoll<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>rojo<s n="n"/></l>                <r>roig<s n="n"/></r></p></e>
 <e>       <p><l>rollo<s n="n"/></l>               <r>rotllo<s n="n"/></r></p></e>
-<e vr="cat">       <p><l>romero<s n="n"/></l>              <r>romaní<s n="n"/></r></p></e>
 <e>       <p><l>ropa<s n="n"/></l>                <r>roba<s n="n"/></r></p></e>
 <e>       <i>rosa<s n="n"/></i></e>
 <e>       <p><l>rosario<s n="n"/></l>             <r>rosari<s n="n"/></r></p></e>
@@ -44393,7 +44392,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni"><p><l>reembolsar<s n="vblex"/></l><r>reembossar<s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>reembolso<s n="n"/></l> <r>reembossament<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>reembolsable<s n="adj"/></l><r>reembossable<s n="adj"/></r></p></e>
-<e vr="val_gva val_uni"><p><l>romero<s n="n"/></l>   <r>romer<s n="n"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>romero<s n="n"/></l>    <r>romer<s n="n"/></r></p></e>
+<e vr="cat">            <p><l>romero<s n="n"/></l>    <r>romaní<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>ternero<s n="n"/></l>   <r>jònec<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>zancada<s n="n"/></l>   <r>camallada<s n="n"/></r></p></e>
 <e vr="val_gva val_uni" r="LR"><p><l>yeso<s n="n"/><s n="m"/><s n="sg"/></l>   <r>algeps<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -50567,7 +50567,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>cárnico<s n="adj"/></l>            <r>carni<s n="adj"/></r></p></e>
 
 <!-- noms -->
-<e>       <p><l>romaní<s n="n"/></l>               <r>romaní<s n="n"/></r></p></e>
+<e>       <p><l>romaní<s n="n"/></l>               <r>romaní_gitano<s n="n"/></r></p></e>
+<e>       <p><l>romaní<s n="adj"/></l>             <r>romaní_gitano<s n="adj"/></r></p></e>
 <e>       <p><l>responsabilización<s n="n"/></l>   <r>responsabilització<s n="n"/></r></p></e>
 <e>       <p><l>aceración<s n="n"/></l>            <r>aceració<s n="n"/></r></p></e>
 <e>       <p><l>actinón<s n="n"/></l>              <r>actinó<s n="n"/></r></p></e>
