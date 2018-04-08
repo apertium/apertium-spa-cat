@@ -2300,7 +2300,6 @@
 <e>       <p><l>claridad<s n="n"/></l>            <r>claredat<s n="n"/></r></p></e>
 <e r="RL"><p><l>claridad<s n="n"/></l>            <r>claror<s n="n"/></r></p></e>
 <e>       <p><l>clase<s n="n"/></l>               <r>classe<s n="n"/></r></p></e>
-<e r="RL"><p><l>tipo<s n="n"/><s n="m"/></l>      <r>mena<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>clasificación<s n="n"/></l>       <r>classificació<s n="n"/></r></p></e>
 <e>       <i>clientela<s n="n"/></i></e>
 <e>       <p><l>cliente<s n="n"/></l>             <r>client<s n="n"/></r></p></e>
@@ -2319,7 +2318,10 @@
 <e>       <p><l>cohete<s n="n"/></l>              <r>coet<s n="n"/></r></p></e>
 <e>       <p><l>colaboración<s n="n"/></l>        <r>col·laboració<s n="n"/></r></p></e>
 <e>       <p><l>colaborador<s n="n"/></l>         <r>col·laborador<s n="n"/></r></p></e>
-<e>       <p><l>cola<s n="n"/><s n="f"/></l>      <r>cua<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>coca-cola<s n="n"/></l>           <r>coca-cola<s n="n"/></r></p></e>
+<e>       <p><l>cola<s n="n"/></l>                <r>cua<s n="n"/></r></p></e>
+<e>       <p><l>cola_sustancia<s n="n"/></l>      <r>cola<s n="n"/></r></p></e>
+<e r="LR"><p><l>pegamento<s n="n"/><s n="m"/></l> <r>cola<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>colección<s n="n"/></l>           <r>col·lecció<s n="n"/></r></p></e>
 <e>       <p><l>colectivo<s n="n"/></l>           <r>col·lectiu<s n="n"/></r></p></e>
 <e>       <p><l>colega<s n="n"/></l>              <r>col·lega<s n="n"/></r></p></e>
@@ -4420,9 +4422,10 @@
 <e>       <p><l>tiniebla<s n="n"/></l>            <r>tenebra<s n="n"/></r></p></e>
 <e>       <p><l>tío<s n="n"/><s n="m"/></l>                 <r>oncle<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tío<s n="n"/><s n="f"/></l>                 <r>tia<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>tipo<s n="n"/><s n="m"/><s n="ND"/></l><r>tipus<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL"><p><l>tipo<s n="n"/><s n="m"/><s n="ND"/></l><r>tipus<s n="n"/><s n="m"/><s n="sp"/></r></p></e> <!-- Crea massa "tipus" en català, que haurien de ser "menca, classe"! -->
 <e r="LR"><p><l>tipo<s n="n"/><s n="m"/><s n="pl"/></l><r>tipus<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>tipo<s n="n"/><s n="m"/><s n="sg"/></l><r>tipus<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e r="RL"><p><l>tipo<s n="n"/><s n="m"/></l>      <r>mena<s n="n"/><s n="f"/></r></p></e>
 <e>       <i>tirador<s n="n"/></i></e>
 <e>       <p><l>tirón<s n="n"/><s n="m"/></l>     <r>estirada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tiro<s n="n"/></l>                <r>tir<s n="n"/></r></p></e>
@@ -7743,7 +7746,8 @@
 <e>       <p><l>cartero<s n="n"/></l>             <r>carter<s n="n"/></r></p></e>
 <e>       <i>cartilla<s n="n"/></i></e>
 <e>       <p><l>cartulina<s n="n"/></l>           <r>cartolina<s n="n"/></r></p></e>
-<e vr="cat">       <p><l>cartón<s n="n"/></l>              <r>cartró<s n="n"/></r></p></e>
+<e r="RL"><p><l>cartón<s n="n"/></l>              <r>cartró<s n="n"/></r></p></e>
+<e>       <p><l>cartón<s n="n"/></l>              <r>cartó<s n="n"/></r></p></e>
 <e>       <p><l>cartucho<s n="n"/></l>            <r>cartutx<s n="n"/></r></p></e>
 <e>       <i>Carvalho<s n="np"/></i></e>
 <e>       <p><l>alcachofa<s n="n"/></l>           <r>carxofa<s n="n"/></r></p></e>
@@ -7934,7 +7938,6 @@
 <e r="LR"><i>Cofrents<s n="np"/></i></e>
 <e>       <p><l>coherencia<s n="n"/></l>          <r>coherència<s n="n"/></r></p></e>
 <e>       <p><l>coincidencia<s n="n"/></l>        <r>coincidència<s n="n"/></r></p></e>
-<e>       <p><l>pegamento<s n="n"/><s n="m"/></l> <r>cola<s n="n"/><s n="f"/></r></p></e>
 <e>       <i>colar<s n="vblex"/></i></e>
 <e>       <i>colesterol<s n="n"/></i></e>
 <e>       <i>Collado<s n="np"/></i></e>
@@ -38223,7 +38226,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni"><p><l>atasco<s n="n"/></l>           <r>embós<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>barnizador<s n="n"/></l>       <r>envernissador<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>bragas<s n="n"/></l>           <r>bragues<s n="n"/></r></p></e>
-<e vr="val_gva val_uni"><p><l>cartón<s n="n"/></l>           <r>cartó<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>chaleco<s n="n"/></l>          <r>jupetí<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>charla<s n="n"/></l>           <r>xarrada<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>contramoldura<s n="n"/></l>    <r>contramotlura<s n="n"/></r></p></e>
