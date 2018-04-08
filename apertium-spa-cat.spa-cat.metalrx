@@ -387,13 +387,13 @@
     <match lemma="tráfico" tags="n.*"><select lemma="tràfic"/></match>
   </rule>
 
-   <!-- sentar > asseure/establir -->
+  <!-- sentar > asseure/establir -->
 
   <rule weight="0.8">
     <match lemma="sentar" tags="vblex.*"><select lemma="asseure"/></match>
   </rule>
 
- <rule weight="1.0">
+  <rule weight="1.0">
     <match lemma="sentar" tags="vblex.*"><select lemma="establir"/></match>
     <repeat from="0" upto="2">
       <or>
@@ -405,6 +405,28 @@
       <match lemma="base" tags="n.*"/>
       <match lemma="precedente" tags="n.*"/>
       <match lemma="premisa" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- emplear > emprar/ocupar -->
+
+  <rule weight="0.8">
+    <match lemma="emplear" tags="vblex.*"><select lemma="emprar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="emplear" tags="vblex.*"><select lemma="ocupar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="trabajador" tags="n.*"/>
+      <match lemma="obrero" tags="n.*"/>
+      <match lemma="obrero" tags="adj.*"/>
     </or>
   </rule>
 
