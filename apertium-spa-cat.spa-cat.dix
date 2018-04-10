@@ -4304,7 +4304,7 @@
 <e r="LR"><p><l>socorro<s n="n"/><s n="m"/><s n="pl"/></l><r>socors<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>socorro<s n="n"/><s n="m"/><s n="sg"/></l><r>socors<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>sofá<s n="n"/></l>                <r>sofà<s n="n"/></r></p></e>
-<e>       <p><l>soldado<s n="n"/></l>             <r>soldat<s n="n"/></r></p></e>
+<e>       <p><l>soldado<s n="n"/></l>             <r>soldat<s n="n"/><s n="GD"/></r></p></e>
 <e>       <p><l>soledad<s n="n"/></l>             <r>solitud<s n="n"/></r></p></e>
 <e>       <p><l>solidaridad<s n="n"/></l>         <r>solidaritat<s n="n"/></r></p></e>
 <e>       <i>sol<s n="n"/></i></e>
@@ -8443,6 +8443,8 @@
 <e>       <p><l>denegación<s n="n"/></l>          <r>denegació<s n="n"/></r></p></e>
 <e>       <i>denegar<s n="vblex"/></i></e>
 <e>       <i>Dénia<s n="np"/></i></e>
+<!--<e>       <i>Denia<s n="np"/></i></e>-->
+<e r="LR"><p><l>Denia<s n="np"/></l>              <r>Dénia<s n="np"/></r></p></e>
 <e>       <i>Yaser<s n="np"/></i></e>
 <e>       <p><l>denominación<s n="n"/></l>        <r>denominació<s n="n"/></r></p></e>
 <e>       <p><l>econometría<s n="n"/></l>         <r>econometria<s n="n"/></r></p></e>
@@ -9961,6 +9963,7 @@
 <e>       <p><l>gótico<s n="adj"/></l>            <r>gòtic<s n="adj"/></r></p></e>
 <e>       <p><l>gobernante<s n="adj"/></l>        <r>governant<s n="adj"/></r></p></e>
 <e>       <p><l>gobernante<s n="n"/></l>          <r>governant<s n="n"/></r></p></e>
+<e>       <p><l>gobernanta<s n="n"/></l>          <r>governanta<s n="n"/></r></p></e>
 <e>       <i>Goya<s n="np"/></i></e>
 <e>       <i>GPRS<s n="n"/><s n="acr"/></i></e>
 <e>       <i>Gràcia<s n="np"/></i></e>
@@ -18476,7 +18479,7 @@
 <e a="prompsit2adn"><p><l>megavatio<s n="n"/></l> <r>megavat<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>condal<s n="adj"/></l>  <r>comtal<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>córner<s n="n"/></l>    <r>córner<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>aviar<s n="adj"/></l>   <r>aviari<s n="adj"/></r></p></e>
+<e a="prompsit2adn"><p><l>aviar<s n="adj"/></l>   <r>aviari<s n="adj"/><s n="GD"/></r></p></e>
 <e a="prompsit2adn"><p><l>polonio<s n="n"/></l>   <r>poloni<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>apodar<s n="vblex"/></l><r>sobrenomenar<s n="vblex"/></r></p></e>
 <e a="prompsit2adn"><p><l>vocalista<s n="n"/></l> <r>vocalista<s n="n"/></r></p></e>
@@ -19704,7 +19707,8 @@
 <e a="prompsit2adn"><p><l>Prada<s n="np"/></l>    <r>Prada<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Ibex-<s n="np"/></l>    <r>Ibex-<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Eurostat<s n="np"/></l> <r>Eurostat<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>Columbia<s n="np"/></l> <r>Columbia<s n="np"/></r></p></e>
+<e a="prompsit2adn"><p><l>Columbia<s n="np"/><s n="al"/></l><r>Columbia<s n="np"/><s n="al"/></r></p></e>
+<e a="prompsit2adn"><p><l>Columbia<s n="np"/><s n="top"/></l><r>Colúmbia<s n="np"/><s n="top"/></r></p></e>
 <e a="prompsit2adn"><p><l>iTunes<s n="np"/></l>   <r>iTunes<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Inditex<s n="np"/></l>  <r>Inditex<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Aralar<s n="np"/></l>   <r>Aralar<s n="np"/></r></p></e>
@@ -32890,8 +32894,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>rodando<s n="adv"/></l>           <r>a<b/>rodolons<s n="adv"/></r></p></e>
 <e r="RL"><p><l>rutinariamente<s n="adv"/></l>    <r>d'esma<s n="adv"/></r></p></e>
 <e r="RL"><p><l>rutinariamente<s n="adv"/></l>    <r>d'esme<s n="adv"/></r></p></e>
-<e r="RL"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>siga<b/>quina<b/>siga<s n="adv"/></r></p></e>
-<e r="RL"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>sigui<b/>quina<b/>sigui<s n="adv"/></r></p></e>
+<e r="RL" vr="val_gva val_uni"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>siga<b/>quina<b/>siga<s n="adv"/></r></p></e>
+<e r="RL" vr="cat"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>sigui<b/>quina<b/>sigui<s n="adv"/></r></p></e>
 <e r="RL"><p><l>tarambanamente<s n="adv"/></l>    <r>poca-soltament<s n="adv"/></r></p></e>
 <e r="RL"><p><l>tres<b/>días<b/>después<s n="adv"/></l><r>l'endemà<b/>passat<b/>l'altre<s n="adv"/></r></p></e>
 <e r="RL"><p><l>una<b/>vez<b/>a<b/>la<b/>semana<s n="adv"/></l><r>un<b/>cop<b/>a<b/>la<b/>setmana<s n="adv"/></r></p></e>
@@ -37709,7 +37713,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>menosprecio<s n="n"/></l>         <r>menyspreu<s n="n"/></r></p></e>
 <e r="LR"><p><l>metamorfosis<s n="n"/><s n="f"/><s n="sp"/></l><r>metamorfosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>metátesis<s n="n"/><s n="f"/><s n="sp"/></l><r>metàtesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-<e r="LR"><p><l>mílite<s n="n"/></l>              <r>soldat<s n="n"/></r></p></e>
+<e r="LR"><p><l>mílite<s n="n"/></l>              <r>soldat<s n="n"/><s n="GD"/></r></p></e>
 <e r="LR"><p><l>mirto<s n="n"/><s n="m"/></l>     <r>murta<s n="n"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>mitosis<s n="n"/><s n="f"/><s n="sp"/></l><r>mitosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>mojón<s n="n"/><s n="m"/></l>     <r>fita<s n="n"/><s n="f"/></r></p></e>
@@ -37854,7 +37858,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <!--<e><p><l>vano<s n="adj"/></l>      <r>va<s n="adj"/></r></p></e>-->
 <e r="LR"><p><l>variancia<s n="n"/></l>           <r>variància<s n="n"/></r></p></e>
 <e r="LR"><p><l>vascuence<s n="n"/><s n="mf"/></l><r>basc<s n="n"/><s n="GD"/></r></p></e>
-<e r="LR"><p><l>abr_usted</l>                 <r>vostè</r></p></e>
+<e r="LR"><p><l>abr_usted</l>                     <r>vostè</r></p></e>
 <e r="LR"><p><l>venado<s n="n"/></l>              <r>cérvol<s n="n"/></r></p></e>
 <e r="LR"><p><l>vicesecretaría<s n="n"/></l>      <r>sotssecretaria<s n="n"/></r></p></e>
 <e r="LR"><p><l>videocámara<s n="n"/></l>         <r>càmera<g><b/>de<b/>vídeo</g><s n="n"/></r></p></e>
@@ -39293,7 +39297,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Delapuerta<s n="np"/></i></e>
 <e>       <i>Delgado<s n="np"/></i></e>
 <e>       <i>Deltebre<s n="np"/></i></e>
-<e>       <i>Denia<s n="np"/></i></e>
 <e>       <i>Descanzo<s n="np"/></i></e>
 <e>       <i>Deusdad<s n="np"/><s n="ant"/></i></e>
 <e>       <i>Deusto<s n="np"/></i></e>
@@ -46009,9 +46012,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>parcelario<s n="adj"/></l><r>parcel·lari<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>plano<b/>parcelario<s n="n"/></l><r>plànol<b/>parcel·lari<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>parcelar<s n="vblex"/></l><r>parcel·lar<s n="vblex"/></r></p></e>
-<e a="prompsit" r="LR" v="cat val_uni">    <p><l>por<b/>todo<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>tot<b/>això<s n="cnjadv"/></r></p></e>
-<e a="prompsit" r="LR" v="val_gva">    <p><l>por<b/>todo<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>tot<b/>açò<s n="cnjadv"/></r></p></e>
-<e a="prompsit" r="RL">       <p><l>periódico<s n="n"/></l>           <r>diari<s n="n"/></r></p></e>
+<e a="prompsit" r="LR"><p><l>por<b/>todo<b/>lo<b/>cual<s n="cnjadv"/></l><r>per<b/>tot<b/>això<s n="cnjadv"/></r></p></e>
 <e a="prompsit"><p><l>tablón<g><b/>de<b/>edictos</g><s n="n"/></l><r>tauler<g><b/>d'edictes</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>fin<b/>edificatorio<s n="n"/><s n="m"/></l><r>finalitat<b/>edificatòria<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>salvo<b/>de<s n="pr"/></l>              <r>excepte<b/>de<s n="pr"/></r></p></e>
@@ -46094,14 +46095,14 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>creer<g><b/>necesarios</g><s n="vblex"/></l><r>creure<g><b/>necessaris</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>necesarias</g><s n="vblex"/></l><r>creure<g><b/>necessàries</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>hacer<g><b/>falta</g><s n="vblex"/></l><r>fer<g><b/>falta</g><s n="vblex"/></r></p></e>
-<e a="prompsit" v="cat"><p><l>sea<b/>el<b/>que<b/>fuere<s n="adv"/></l><r>sigui<b/>el<b/>que<b/>sigui<s n="adv"/></r></p></e> 
-<e a="prompsit" v="val_gva val_uni"><p><l>sea<b/>el<b/>que<b/>fuere<s n="adv"/></l><r>siga<b/>el<b/>que<b/>siga<s n="adv"/></r></p></e> 
+<e a="prompsit" vr="cat"><p><l>sea<b/>el<b/>que<b/>fuere<s n="adv"/></l><r>sigui<b/>el<b/>que<b/>sigui<s n="adv"/></r></p></e> 
+<e a="prompsit" vr="val_gva val_uni"><p><l>sea<b/>el<b/>que<b/>fuere<s n="adv"/></l><r>siga<b/>el<b/>que<b/>siga<s n="adv"/></r></p></e> 
 <e a="prompsit"><p><l>código<b/>cuenta<b/>cotización<s n="n"/></l> <r>codi<b/>compte<b/>cotització<s n="n"/></r></p></e>
-<e a="prompsit" v="cat" ><p><l>según<b/>proceda<s n="adv"/></l><r>segons<b/>sigui<b/>procedent<s n="adv"/></r></p></e>
-<e a="prompsit" v="val_gva val_uni" ><p><l>según<b/>proceda<s n="adv"/></l><r>segons<b/>siga<b/>procedent<s n="adv"/></r></p></e>
+<e a="prompsit" vr="cat" ><p><l>según<b/>proceda<s n="adv"/></l><r>segons<b/>sigui<b/>procedent<s n="adv"/></r></p></e>
+<e a="prompsit" vr="val_gva val_uni" ><p><l>según<b/>proceda<s n="adv"/></l><r>segons<b/>siga<b/>procedent<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>guarda<s n="n"/></l> <r>guarda<s n="n"/></r></p></e>
-<e a="prompsit" v="cat"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>sigui<b/>com<b/>sigui<s n="adv"/></r></p></e>
-<e a="prompsit" v="val_gva val_uni"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>siga<b/>com<b/>siga<s n="adv"/></r></p></e>
+<e a="prompsit" vr="cat"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>sigui<b/>com<b/>sigui<s n="adv"/></r></p></e>
+<e a="prompsit" vr="val_gva val_uni"><p><l>sea<b/>cual<b/>sea<s n="adv"/></l><r>siga<b/>com<b/>siga<s n="adv"/></r></p></e>
 <e a="prompsit">       <p><l>ser<g><b/>estimado</g><s n="vbser"/></l><r>ser<g><b/>estimat</g><s n="vbser"/></r></p></e>
 <e a="prompsit">       <p><l>ser<g><b/>estimada</g><s n="vbser"/></l><r>ser<g><b/>estimada</g><s n="vbser"/></r></p></e>
 <e a="prompsit">       <p><l>ser<g><b/>estimados</g><s n="vbser"/></l><r>ser<g><b/>estimats</g><s n="vbser"/></r></p></e>
@@ -46118,8 +46119,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>seguro<b/>obligatorio<s n="n"/><s n="m"/></l>     <r>assegurança<b/>obligatòria<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit"><p><l>seguro<b/>obligatorio<b/>concertado<s n="n"/><s n="m"/></l>     <r>assegurança<b/>obligatòria<b/>concertada<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit"><p><l>descontaminado<s n="adj"/></l><r>descontaminat<s n="adj"/></r></p></e>
-<e a="prompsit" r="LR" v="cat val_uni">       <p><l>ello<b/>no<b/>obstante<s n="cnjadv"/></l> <r>això<b/>no<b/>obstant<s n="cnjadv"/></r></p></e> 
-<e a="prompsit" r="LR" v="val_gva">       <p><l>ello<b/>no<b/>obstante<s n="cnjadv"/></l> <r>açò<b/>no<b/>obstant<s n="cnjadv"/></r></p></e> 
+<e a="prompsit" r="LR"><p><l>ello<b/>no<b/>obstante<s n="cnjadv"/></l> <r>això<b/>no<b/>obstant<s n="cnjadv"/></r></p></e> 
 <e a="prompsit"><p><l>dirimente<s n="adj"/></l><r>diriment<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>término<g><b/>de<b/>caducidad</g><s n="n"/></l><r>termini<g><b/>de<b/>caducitat</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>subsumido<s n="adj"/></l><r>subsumit<s n="adj"/></r></p></e>
@@ -46139,8 +46139,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit" r="RL"><p><l>expedientar<s n="vblex"/></l><r>formar<g><b/>expedient</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>expedientar<s n="vblex"/></l><r>expedientar<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>foliado<s n="adj"/></l><r>foliat<s n="adj"/></r></p></e>
-<e a="prompsit" r="LR" v="cat">       <p><l>en<b/>lo<b/>que<b/>sea<b/>posible<s n="adv"/></l><r>en<b/>tant<b/>que<b/>sigui<b/>possible<s n="adv"/></r></p></e>
-<e a="prompsit" r="LR" v="val_gva val_uni">       <p><l>en<b/>lo<b/>que<b/>sea<b/>posible<s n="adv"/></l><r>en<b/>la<b/>mesura<b/>que<b/>siga<b/>possible<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR" vr="cat"><p><l>en<b/>lo<b/>que<b/>sea<b/>posible<s n="adv"/></l><r>en<b/>tant<b/>que<b/>sigui<b/>possible<s n="adv"/></r></p></e>
+<e a="prompsit" r="LR" vr="val_gva val_uni"><p><l>en<b/>lo<b/>que<b/>sea<b/>posible<s n="adv"/></l><r>en<b/>la<b/>mesura<b/>que<b/>siga<b/>possible<s n="adv"/></r></p></e>
 <e a="prompsit">       <p><l>Ilmo<s n="n"/></l>               <r>Il·lm<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>sobre<b/>todo<b/>o<b/>parte<s n="adv"/></l><r>sobre<b/>tot<b/>o<b/>part<s n="adv"/></r></p></e>
 <e a="prompsit">       <p><l>ajardinamiento<s n="n"/></l>               <r>enjardinament<s n="n"/></r></p></e>
