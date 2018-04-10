@@ -5295,7 +5295,6 @@
 <e r="LR">       <p><l>amanecer<s n="vblex"/></l>        <r>clarejar<s n="vblex"/></r></p></e>
 <e>       <p><l>clarear<s n="vblex"/></l>        <r>clarejar<s n="vblex"/></r></p></e>
 <e>       <i>amargar<s n="vblex"/></i></e>
-<e r="LR"><p><l>amar<s n="vblex"/></l>            <r>estimar<s n="vblex"/></r></p></e>
 <e>       <p><l>amenazar<s n="vblex"/></l>        <r>amenaçar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>amontonar<s n="vblex"/></l>       <r>amuntonar<s n="vblex"/></r></p></e>
 <e>       <p><l>amparar<s n="vblex"/></l>         <r>emparar<s n="vblex"/></r></p></e>
@@ -5823,8 +5822,6 @@
 <e>       <p><l>estallar<s n="vblex"/></l>        <r>esclatar<s n="vblex"/></r></p></e>
 <e>       <p><l>estar<g><b/>de<b/>acuerdo</g><s n="vblex"/></l><r>estar<g><b/>d'acord</g><s n="vblex"/></r></p></e>
 <e>       <i>estar<s n="vblex"/></i></e>
-<e srl="estimar D"><i>estimar<s n="vblex"/></i></e>
-<e slr="estimar" srl="querer"><p><l>querer<s n="vblex"/></l><r>estimar<s n="vblex"/></r></p></e>
 <e>       <i>estimular<s n="vblex"/></i></e>
 <e>       <i>estirar<s n="vblex"/></i></e>
 <e>       <p><l>estorbar<s n="vblex"/></l>        <r>destorbar<s n="vblex"/></r></p></e>
@@ -6221,8 +6218,6 @@
 
 <e>       <i>quedar<s n="vblex"/></i></e>
 <e>       <p><l>quejar<s n="vblex"/></l>          <r>queixar<s n="vblex"/></r></p></e>
-<e slr="voler D"><p><l>querer<s n="vblex"/></l>   <r>voler<s n="vblex"/></r></p></e>
-<e>       <p><l>querer<s n="vbmod"/></l>          <r>voler<s n="vbmod"/></r></p></e>
 <e>       <p><l>quitar<s n="vblex"/></l>          <r>llevar<s n="vblex"/></r></p></e>
 <e>       <i>radicar<s n="vblex"/></i></e>
 <e>       <p><l>rastrear<s n="vblex"/></l>        <r>rastrejar<s n="vblex"/></r></p></e>
@@ -14819,7 +14814,6 @@
 <e r="LR"><p><l>cual<s n="rel"/><s n="adv"/></l>  <r>com<s n="rel"/><s n="adv"/></r></p></e>
 <e>       <p><l>otro<s n="adj"/></l>              <r>altre<s n="adj"/></r></p></e>
 <e>       <p><l>en<b/>torno<s n="adv"/></l>       <r>entorn<s n="adv"/></r></p></e>
-<e>       <p><l>querer<s n="vblex"/></l>          <r>voler<s n="vblex"/></r></p></e>
 <e>       <p><l>detenido<s n="n"/></l>            <r>detingut<s n="n"/></r></p></e>
 <e>       <p><l>Senado<s n="np"/></l>             <r>Senat<s n="np"/></r></p></e>
 <e>       <p><l>Platón<s n="np"/></l>             <r>Plató<s n="np"/></r></p></e>
@@ -21456,8 +21450,13 @@
 <e a="prompsit"><p><l>crujir<s n="vblex"/></l>    <r>cruixir<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>hervir<s n="vblex"/></l>    <r>bullir<s n="vblex"/></r></p></e>
 <e a="prompsit"><i>desertar<s n="vblex"/></i></e>
-<e r="LR" a="prompsit"><p><l>amar</l>             <r>estimar<s n="vblex"/></r></p></e>
 <e a="prompsit"><i>estimar<s n="vblex"/></i></e>
+<e r="LR">      <p><l>amar<s n="vblex"/></l>            <r>estimar<s n="vblex"/></r></p></e>
+<e srl="estimar D"><i>estimar<s n="vblex"/></i></e>   <!--TODO: disambig estimar/querer estimar/voler-->
+<e slr="estimar" srl="querer"><p><l>querer<s n="vblex"/></l><r>estimar<s n="vblex"/></r></p></e>
+<e>             <p><l>querer<s n="vblex"/></l>          <r>voler<s n="vblex"/></r></p></e>
+<e slr="voler D"><p><l>querer<s n="vblex"/></l>   <r>voler<s n="vblex"/></r></p></e>
+<e>             <p><l>querer<s n="vbmod"/></l>          <r>voler<s n="vbmod"/></r></p></e>
 <e a="prompsit"><p><l>interceder<s n="vblex"/></l><r>intercedir<s n="vblex"/></r></p></e>
 <e a="prompsit"><i>formar<s n="vblex"/></i></e>
 <e a="prompsit"><i>fragmentar<s n="vblex"/></i></e>
@@ -34105,11 +34104,11 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>sintonizar<s n="vblex"/></l>      <r>sintonitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>sisear<s n="vblex"/></l>          <r>xiuxiuar<s n="vblex"/></r></p></e>
 <e>       <p><l>sobreentender<s n="vblex"/></l>   <r>sobreentendre<s n="vblex"/></r></p></e>
-<e>       <p><l>sobrescribir<s n="vblex"/></l>   <r>sobreescriure<s n="vblex"/></r></p></e>
+<e>       <p><l>sobrescribir<s n="vblex"/></l>    <r>sobreescriure<s n="vblex"/></r></p></e>
 <e>       <p><l>sobreexceder<s n="vblex"/></l>    <r>sobreexcedir<s n="vblex"/></r></p></e>
 <e>       <p><l>sobrehilar<s n="vblex"/></l>      <r>sobrefilar<s n="vblex"/></r></p></e>
 <e>       <p><l>sobrestimar<s n="vblex"/></l>     <r>sobreestimar<s n="vblex"/></r></p></e>
-<e>       <p><l>subestimar<s n="vblex"/></l>     <r>subestimar<s n="vblex"/></r></p></e>
+<e>       <p><l>subestimar<s n="vblex"/></l>      <r>subestimar<s n="vblex"/></r></p></e>
 <e>       <p><l>sofreír<s n="vblex"/></l>         <r>sofregir<s n="vblex"/></r></p></e>
 <e>       <p><l>solazar<s n="vblex"/></l>         <r>solaçar<s n="vblex"/></r></p></e>
 <e>       <p><l>solfear<s n="vblex"/></l>         <r>solfejar<s n="vblex"/></r></p></e>
@@ -46538,7 +46537,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>aprehensible<s n="adj"/></i></e>
 <e>       <i>apuntador<s n="adj"/></i></e>
 <e>       <i>arable<s n="adj"/></i></e>
-<e>       <i>arapaho<s n="adj"/></i></e>
 <e>       <i>arboriforme<s n="adj"/></i></e>
 <e>       <i>arborícola<s n="adj"/></i></e>
 <e>       <i>arenícola<s n="adj"/></i></e>
@@ -47284,7 +47282,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>iterable<s n="adj"/></i></e>
 <e>       <i>jansenista<s n="adj"/></i></e>
 <e>       <i>jubilar<s n="adj"/></i></e>
-<e>       <i>junior<s n="adj"/></i></e>
 <e>       <i>jurador<s n="adj"/></i></e>
 <e>       <i>juridicopenal<s n="adj"/></i></e>
 <e>       <i>justiciable<s n="adj"/></i></e>
@@ -47977,6 +47974,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>vulcanista<s n="adj"/></i></e>
 <e>       <i>vulvar<s n="adj"/></i></e>
 <e>       <i>zen<s n="adj"/></i></e>
+<e>       <p><l>arapahoe<s n="adj"/></l>           <r>arapaho<s n="adj"/></r></p></e>
 <e>       <p><l>afrocubano<s n="adj"/></l>         <r>afrocubà<s n="adj"/></r></p></e>
 <e>       <p><l>alano<s n="adj"/></l>              <r>alà<s n="adj"/></r></p></e>
 <e>       <p><l>ambrosiano<s n="adj"/></l>         <r>ambrosià<s n="adj"/></r></p></e>
@@ -47990,7 +47988,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>artesiano<s n="adj"/></l>          <r>artesià<s n="adj"/></r></p></e>
 <e>       <p><l>bayesiano<s n="adj"/></l>          <r>bayesià<s n="adj"/></r></p></e>
 <e>       <p><l>bostoniano<s n="adj"/></l>         <r>bostonià<s n="adj"/></r></p></e>
-<e>       <p><l>butano<s n="adj"/></l>             <r>butà<s n="adj"/></r></p></e>
 <e>       <p><l>carpiano<s n="adj"/></l>           <r>carpià<s n="adj"/></r></p></e>
 <e>       <p><l>caucasiano<s n="adj"/></l>         <r>caucasià<s n="adj"/></r></p></e>
 <e>       <p><l>cesariano<s n="adj"/></l>          <r>cesarià<s n="adj"/></r></p></e>
@@ -49352,7 +49349,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>bordelés<s n="adj"/></l>           <r>bordelès<s n="adj"/></r></p></e>
 <e>       <p><l>cantonés<s n="adj"/></l>           <r>cantonès<s n="adj"/></r></p></e>
 <e>       <p><l>cingalés<s n="adj"/></l>           <r>cingalès<s n="adj"/></r></p></e>
-<e>       <p><l>descortés<s n="adj"/></l>          <r>descortès<s n="adj"/></r></p></e>
+<e>       <p><l>descortés<s n="adj"/></l>          <r>descortès<s n="adj"/><s n="GD"/></r></p></e>
 <e>       <p><l>galaicoportugués<s n="adj"/></l>   <r>galaicoportuguès<s n="adj"/></r></p></e>
 <e>       <p><l>gironés<s n="adj"/></l>            <r>gironès<s n="adj"/></r></p></e>
 <e>       <p><l>guyanés<s n="adj"/></l>            <r>guyanès<s n="adj"/></r></p></e>
@@ -49383,7 +49380,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>aurífero<s n="adj"/></l>           <r>aurífer<s n="adj"/></r></p></e>
 <e>       <p><l>benemérito<s n="adj"/></l>         <r>benemèrit<s n="adj"/></r></p></e>
 <e>       <p><l>bifloro<s n="adj"/></l>            <r>biflor<s n="adj"/></r></p></e>
-<e>       <p><l>bogomilo<s n="adj"/></l>           <r>bogomil<s n="adj"/></r></p></e>
+<e>       <p><l>bogomilo<s n="adj"/></l>           <r>bogomil<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>borrasquero<s n="adj"/></l>        <r>borrasquer<s n="adj"/></r></p></e>
 <e>       <p><l>borreguero<s n="adj"/></l>         <r>borreguer<s n="adj"/></r></p></e>
 <e>       <p><l>bracero<s n="adj"/></l>            <r>bracer<s n="adj"/></r></p></e>
@@ -49456,12 +49453,10 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>hemimetábolo<s n="adj"/></l>       <r>hemimetàbol<s n="adj"/></r></p></e>
 <e>       <p><l>heterodonto<s n="adj"/></l>        <r>heterodont<s n="adj"/></r></p></e>
 <e>       <p><l>heterometábolo<s n="adj"/></l>     <r>heterometàbol<s n="adj"/></r></p></e>
-<e>       <p><l>heterozigoto<s n="adj"/></l>       <r>heterozigot<s n="adj"/></r></p></e>
 <e>       <p><l>hidrocéfalo<s n="adj"/></l>        <r>hidrocèfal<s n="adj"/></r></p></e>
 <e>       <p><l>hipsodonto<s n="adj"/></l>         <r>hipsodont<s n="adj"/></r></p></e>
 <e>       <p><l>holometábolo<s n="adj"/></l>       <r>holometàbol<s n="adj"/></r></p></e>
 <e>       <p><l>homodonto<s n="adj"/></l>          <r>homodont<s n="adj"/></r></p></e>
-<e>       <p><l>homozigoto<s n="adj"/></l>         <r>homozigot<s n="adj"/></r></p></e>
 <e>       <p><l>hullero<s n="adj"/></l>            <r>huller<s n="adj"/></r></p></e>
 <e>       <p><l>humífero<s n="adj"/></l>           <r>humífer<s n="adj"/></r></p></e>
 <e>       <p><l>ignaro<s n="adj"/></l>             <r>ignar<s n="adj"/></r></p></e>
@@ -50613,6 +50608,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>albanokosovar<s n="adj"/></l>      <r>albanokosovar<s n="adj"/></r></p></e>
 <e>       <p><l>serbokosovar<s n="adj"/></l>       <r>serbokosovar<s n="adj"/></r></p></e>
 <e>       <p><l>manufacturero<s n="adj"/></l>      <r>manufacturer<s n="adj"/></r></p></e>
+<e>       <p><l>menchevique<s n="adj"/></l>        <r>menxevic<s n="adj"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
 <e>       <p><l>patentabilidad<s n="n"/></l>       <r>patentabilitat<s n="n"/></r></p></e>
