@@ -199,7 +199,7 @@
 <e r="RL"><p><l>agrio<s n="adj"/><s n="GD"/><s n="pl"/></l><r>agre<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e>       <p><l>agrio<s n="adj"/></l>             <r>agre<s n="adj"/></r></p></e>
 <e>       <p><l>agudo<s n="adj"/></l>             <r>agut<s n="adj"/></r></p></e>
-<e vr="cat">       <p><l>ajeno<s n="adj"/></l>             <r>aliè<s n="adj"/></r></p></e>
+<e>       <p><l>ajeno<s n="adj"/></l>             <r>aliè<s n="adj"/></r></p></e>
 <e>       <p><l>alarmante<s n="adj"/></l>         <r>alarmant<s n="adj"/></r></p></e>
 <e>       <i>alegre<s n="adj"/></i></e>
 <e>       <p><l>alemán<s n="adj"/></l>            <r>alemany<s n="adj"/></r></p></e>
@@ -1533,9 +1533,11 @@
 <e>       <p><l>tener<g><b/>en<b/>cuenta</g><s n="vblex"/></l><r>tenir<g><b/>en<b/>compte</g><s n="vblex"/></r></p></e>
 <e r="RL"><p><l>tener<g><b/>en<b/>cuenta</g><s n="vblex"/></l><r>prendre<g><b/>en<b/>compte</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dado<b/>el<b/>caso<b/>que<s n="cnjadv"/></l><r>donat<b/>cas<b/>que<s n="cnjadv"/></r></p></e>
-<e r="RL"><p><l>dado<b/>que<s n="cnjadv"/></l>    <r>atés<b/>que<s n="cnjadv"/></r></p></e>
-<e>       <p><l>dado<b/>que<s n="cnjadv"/></l>    <r>atès<b/>que<s n="cnjadv"/></r></p></e>
-<e>       <p><l>dando<b/>por<b/>sentado<b/>que<s n="cnjadv"/></l><r>amb<b/>el<b/>benentès<b/>que<s n="cnjadv"/></r></p></e>
+<e vr="val_gva"><p><l>dado<b/>que<s n="cnjadv"/></l>        <r>atés<b/>que<s n="cnjadv"/></r></p></e>
+<e vr="cat val_uni"><p><l>dado<b/>que<s n="cnjadv"/></l>    <r>atès<b/>que<s n="cnjadv"/></r></p></e>
+<e vr="val_gva"><p><l>dando<b/>por<b/>sentado<b/>que<s n="cnjadv"/></l><r>amb<b/>el<b/>benentés<b/>que<s n="cnjadv"/></r></p></e>
+<e vr="cat val_uni"><p><l>dando<b/>por<b/>sentado<b/>que<s n="cnjadv"/></l><r>amb<b/>el<b/>benentès<b/>que<s n="cnjadv"/></r></p></e>
+
 <e r="LR"><p><l>de<b/>ahí<b/>que<s n="cnjadv"/></l><r>per<b/>aquest<b/>motiu<s n="cnjadv"/></r></p></e>
 <e r="RL"><p><l>de<b/>lo<b/>contrario<s n="cnjadv"/></l><r>altrament<s n="cnjadv"/></r></p></e>
 <e>       <p><l>desde<b/>que<s n="cnjadv"/></l>   <r>des<b/>que<s n="cnjadv"/></r></p></e>
@@ -4119,6 +4121,7 @@
 <e>       <i>república<s n="n"/></i></e>
 <e>       <p><l>ex<b/>república<s n="n"/></l>           <r>exrepública<s n="n"/></r></p></e>
 <e>       <p><l>requisito<s n="n"/></l>           <r>requisit<s n="n"/></r></p></e>
+<e>       <p><l>prerrequisito<s n="n"/></l>       <r>prerequisit<s n="n"/></r></p></e>
 <e>       <p><l>rescate<s n="n"/></l>             <r>rescat<s n="n"/></r></p></e>
 <e>       <p><l>resentimiento<s n="n"/></l>       <r>ressentiment<s n="n"/></r></p></e>
 <e>       <i>reserva<s n="n"/></i></e>
@@ -4336,7 +4339,6 @@
 <e>       <p><l>superioridad<s n="n"/></l>        <r>superioritat<s n="n"/></r></p></e>
 <e>       <p><l>supervivencia<s n="n"/></l>       <r>supervivència<s n="n"/></r></p></e>
 <e>       <p><l>suposición<s n="n"/></l>          <r>suposició<s n="n"/></r></p></e>
-<e r="RL"><p><l>supuesto<s n="n"/><s n="m"/><s n="sg"/></l><r>benentès<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>supuesto<s n="n"/></l>            <r>supòsit<s n="n"/></r></p></e>
 <e>       <p><l>por<b/>supuesto<s n="adv"/></l>   <r>per<b/>descomptat<s n="adv"/></r></p></e>
 <e>       <p><l>sur<s n="n"/></l>                 <r>sud<s n="n"/></r></p></e>
@@ -50601,6 +50603,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>kosovar<s n="adj"/></l>            <r>kosovar<s n="adj"/></r></p></e>
 <e>       <p><l>albanokosovar<s n="adj"/></l>      <r>albanokosovar<s n="adj"/></r></p></e>
 <e>       <p><l>serbokosovar<s n="adj"/></l>       <r>serbokosovar<s n="adj"/></r></p></e>
+<e>       <p><l>manufacturero<s n="adj"/></l>      <r>manufacturer<s n="adj"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
 <e>       <p><l>patentabilidad<s n="n"/></l>       <r>patentabilitat<s n="n"/></r></p></e>
