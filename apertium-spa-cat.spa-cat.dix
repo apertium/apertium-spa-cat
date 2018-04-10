@@ -1247,7 +1247,6 @@
 <e r="RL"><p><l>trasero<s n="adj"/><s n="GD"/><s n="ND"/></l><r>del<b/>darrere<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>tremendo<s n="adj"/></l>          <r>tremend<s n="adj"/></r></p></e>
 <e>       <p><l>tricentésimo<s n="adj"/></l>      <r>tres-centè<s n="adj"/></r></p></e>
-<e>       <p><l>trigésimo<s n="adj"/></l>         <r>trentè<s n="adj"/></r></p></e>
 <e>       <i>triple<s n="adj"/></i></e>
 <e r="RL"><p><l>triste<s n="adj"/><s n="mf"/></l> <r>trist<s n="adj"/><s n="f"/></r></p></e>
 <e r="LR"><p><l>triste<s n="adj"/><s n="mf"/></l> <r>trist<s n="adj"/><s n="GD"/></r></p></e>
@@ -13175,9 +13174,10 @@
 <e r="LR"><p><l>sonsacar<s n="vblex"/></l>        <r>sostreure<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>substraer<s n="vblex"/></l>       <r>sostreure<s n="vblex"/></r></p></e>
 <e>       <p><l>sustraer<s n="vblex"/></l>        <r>sostreure<s n="vblex"/></r></p></e>
-<e vr="cat">       <p><l>debajo<s n="adv"/></l>            <r>sota<s n="adv"/></r></p></e>
-<e>       <p><l>por<b/>debajo<s n="adv"/></l>     <r>per<b/>sota<s n="adv"/></r></p></e>
-<e vr="val_gva val_uni" a="GVA">       <p><l>por<b/>debajo<s n="adv"/></l>     <r>per<b/>davall<s n="adv"/></r></p></e>
+<e vr="cat"><p><l>debajo<s n="adv"/></l>            <r>sota<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>debajo<s n="adv"/></l><r>davall<s n="adv"/></r></p></e>
+<e vr="cat"><p><l>por<b/>debajo<s n="adv"/></l>     <r>per<b/>sota<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>por<b/>debajo<s n="adv"/></l><r>per<b/>davall<s n="adv"/></r></p></e>
 <e>       <i>sotana<s n="n"/></i></e>
 <e r="LR"><p><l>enterramiento<s n="n"/></l>       <r>enterrament<s n="n"/></r></p></e>
 <e>       <p><l>soterramiento<s n="n"/></l>       <r>soterrament<s n="n"/></r></p></e>
@@ -45399,7 +45399,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>restaurador<s n="adj"/></l><r>restaurador<s n="adj"/></r></p></e>
 <e r="LR" a="GVA"><p><l>retermalización<s n="n"/></l><r>regeneració<s n="n"/></r></p></e>
 <e a="GVA"><p><l>retroexcavadora<s n="n"/></l><r>retroexcavadora<s n="n"/></r></p></e>
-<e a="GVA" vr="val_uni val_gva"><p><l>retrotraer<s n="n"/></l><r>retrotaure<s n="n"/></r></p></e>
 <e a="GVA"><p><l>retroviral<s n="n"/></l><r>retroviral<s n="n"/></r></p></e>
 <e a="GVA"><p><l>reverberante<s n="adj"/></l><r>reverberant<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>revolotear<s n="vblex"/></l><r>voletejar<s n="vblex"/></r></p></e>
@@ -45701,7 +45700,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>político-ideológico<s n="adj"/></l><r>políticoideològic<s n="adj"/></r></p></e>
 <e a="GVA" r="LR"><p><l>técnico<b/>económico<s n="adj"/></l><r>tecnicoeconòmic<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>técnico-económico<s n="adj"/></l><r>tecnicoeconòmic<s n="adj"/></r></p></e>
-<e a="GVA"><p><l>ácido<b/>hialurónico<s n="n"/></l><r>àcid<b/>hialurònic<s n="n"/></r></p></e>
 <e a="GVA"><p><l>relleno<g><b/>de<b/>nata</g><s n="adj"/></l><r>farcit<g><b/>de<b/>nata</g><s n="adj"/></r></p></e>
 <e a="GVA"><p><l>sabor<b/>a<b/>nata<s n="n"/></l><r>sabor<b/>de<b/>nata<s n="n"/></r></p></e>
 <e a="GVA"><p><l>te<g><b/>chai</g><s n="n"/></l><r>te<g><b/>chai</g><s n="n"/></r></p></e>
@@ -45802,14 +45800,15 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>reclinable<s n="adj"/></l><r>inclinable<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>retornable<s n="adj"/></l><r>retornable<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>semigraso<s n="adj"/></l><r>semigràs<s n="adj"/></r></p></e>
-
 <e a="GVA"><i>censal<s n="adj"/></i></e>
 <e a="GVA"><i>centil<s n="n"/></i></e>
 <e a="GVA"><p><l>cerveza<g><b/>ale</g><s n="n"/></l><r>cervesa<g><b/>ale</g><s n="n"/></r></p></e>
 <e a="GVA"><p><l>churra<s n="n"/></l><r>xurra<s n="n"/></r></p></e>
 <e a="GVA"><p><l>ciberseguridad<s n="n"/></l><r>ciberseguretat<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cochinillo<s n="n"/></l><r>porquet<s n="n"/></r></p></e>
-<e a="GVA"><p><l>cofosis<s n="n"/></l><r>cofosi<s n="n"/></r></p></e>
+<e r="LR"><p><l>cofosis<s n="n"/><s n="f"/><s n="sp"/></l><r>cofosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>cofosis<s n="n"/><s n="f"/><s n="sp"/></l><r>cofosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>cofosis<s n="n"/><s n="f"/><s n="sp"/></l><r>cofosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="GVA"><p><l>cognoscitivo<s n="adj"/></l><r>cognoscitiu<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>colín<s n="n"/></l><r>bastó<s n="n"/></r></p></e>
 <e a="GVA"><p><l>conjeturar<s n="vblex"/></l><r>conjecturar<s n="vblex"/></r></p></e>
@@ -45839,10 +45838,12 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>dislalia<s n="n"/></l><r>dislàlia<s n="n"/></r></p></e>
 <e a="GVA"><p><l>disortografía<s n="n"/></l><r>disortografia<s n="n"/></r></p></e>
 <e a="GVA"><p><l>dispraxia<s n="n"/></l><r>dispràxia<s n="n"/></r></p></e>
-<e a="GVA"><p><l>diuresis<s n="n"/></l><r>diüresi<s n="n"/></r></p></e>
+<e r="LR"><p><l>diuresis<s n="n"/><s n="f"/><s n="sp"/></l><r>diüresi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>diuresis<s n="n"/><s n="f"/><s n="sp"/></l><r>diüresi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>diuresis<s n="n"/><s n="f"/><s n="sp"/></l><r>diüresi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="GVA"><p><l>ecolalia<s n="n"/></l><r>ecolàlia<s n="n"/></r></p></e>
 <e a="GVA"><p><l>embolofrasia<s n="n"/></l><r>embolofràsia<s n="n"/></r></p></e>
-<e a="GVA"><p><l>enoki<s n="n"/></l><r>flammulina<s n="n"/></r></p></e>
+<e a="GVA"><p><l>enoki<s n="n"/><s n="m"/></l><r>flammulina<s n="n"/><s n="f"/></r></p></e>
 <e a="GVA"><i>entrecot<s n="n"/></i></e>
 <e a="GVA"><p><l>esclerótico<s n="adj"/></l><r>escleròtic<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>esparavel<s n="n"/></l><r>rall<s n="n"/></r></p></e>
@@ -45856,7 +45857,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>fonoarticulatorio<s n="adj"/></l><r>fonoarticulatori<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>fotoenvejecimiento<s n="n"/></l><r>fotoenvelliment<s n="n"/></r></p></e>
 <e a="GVA" r="LR"><p><l>frenillo<s n="n"/></l><r>fre<s n="n"/></r></p></e>
-<e a="GVA"><p><l>friegasuelos<s n="n"/></l><r>líquid de fregar<s n="n"/></r></p></e>
+<e r="LR"><p><l>friegasuelos<s n="n"/><s n="m"/><s n="sp"/></l><r>líquid<g><b/>de<b/>fregar</g><s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>friegasuelos<s n="n"/><s n="m"/><s n="sp"/></l><r>líquid<g><b/>de<b/>fregar</g><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>friegasuelos<s n="n"/><s n="m"/><s n="sp"/></l><r>líquid<g><b/>de<b/>fregar</g><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e a="GVA"><p><l>gateo<s n="n"/></l><r>gateig<s n="n"/></r></p></e>
 <e a="GVA"><p><l>geniculado<s n="adj"/></l><r>geniculat<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>glosectomía<s n="n"/></l><r>glossectomia<s n="n"/></r></p></e>
@@ -45866,7 +45869,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><i>granola<s n="n"/></i></e>
 <e a="GVA"><p><l>guaraná<s n="n"/></l><r>guaranà<s n="n"/></r></p></e>
 <e a="GVA"><p><l>hacia delante<s n="adv"/></l><r>cap avant<s n="adv"/></r></p></e>
-<e a="GVA"><p><l>handbike<s n="n"/></l><r>bicicleta de mà<s n="n"/></r></p></e>
+<e r="LR"> <p><l>handbike<s n="n"/></l><r>bicicleta<g><b/>de<b/>mà</g><s n="n"/></r></p></e>
 <e a="GVA"><p><l>hasta la fecha tope<s n="adv"/></l><r>fins a la data límit<s n="adv"/></r></p></e>
 <e a="GVA"><p><l>haya<s n="n"/><s n="f"/></l><r>faig<s n="n"/><s n="m"/></r></p></e>
 <e a="GVA"><p><l>hialurónico<s n="adj"/></l><r>hialurònic<s n="adj"/></r></p></e>
@@ -45926,7 +45929,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>renting<s n="n"/></l><r>renting<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>cadavérico<s n="adj"/></l><r>cadavèric<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>funcionarización<s n="n"/></l><r>funcionarització<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>maderable<s n="adj"/></l><r>fuster<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>maderable<s n="adj"/></l><r>fuster<s n="adj"/><s n="GD"/></r></p></e>
 <e a="prompsit"><p><l>adquirente<s n="adj"/></l><r>adquirent<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>telefax<s n="n"/></l><r>telefax<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>insalubre<s n="adj"/></l><r>insalubre<s n="adj"/></r></p></e>
@@ -45938,16 +45941,13 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>habilitante<s n="adj"/></l><r>habilitant<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>fiscalizador<s n="adj"/></l><r>fiscalitzador<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>emprendimiento<s n="n"/><s n="m"/></l><r>emprenedoria<s n="n"/><s n="f"/></r></p></e>
-<e a="prompsit"><p><l>vigesimosegundo<s n="adj"/></l><r>vint-i-dosè<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>reinhumación<s n="n"/></l><r>reinhumació<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>vigesimoprimero<s n="adj"/></l><r>vint-i-unè<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>transmitente<s n="adj"/></l><r>transmitent<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>individualizadamente<s n="adv"/></l><r>individualitzadament<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>disconforme<s n="adj"/></l><r>disconforme<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>inaplicación<s n="n"/></l><r>inaplicació<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>vigesimotercero<s n="adj"/></l><r>vint-i-tresè<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>inmisión<s n="n"/></l><r>immissió<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>vigésimo<s n="adj"/></l><r>vintè<s n="adj"/></r></p></e>
+
 <e a="prompsit"><p><l>legitimador<s n="adj"/></l><r>legitimador<s n="adj"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>trascripción<s n="n"/></l><r>transcripció<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>decimosegundo<s n="adj"/></l><r>dosè<s n="adj"/></r></p></e>
@@ -45966,17 +45966,32 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>arbustivo<s n="adj"/></l><r>arbustiu<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>TRLRHL<s n="n"/></l><r>TRLRHL<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>dotacional<s n="adj"/></l><r>dotacional<s n="adj"/></r></p></e>
-<e a="prompsit"><p><l>sectorizado<s n="adj"/></l><r>sectorizat<s n="adj"/></r></p></e>
-<e a="prompsit"><p><l>edificatorio<s n="adj"/></l><r>edificatorio<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>sectorizado<s n="adj"/></l><r>sectoritzat<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>edificatorio<s n="adj"/></l><r>edificatori<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>confirming<s n="n"/></l><r>confirming<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>EHA<s n="np"/></l><r>EHA<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>INT<s n="np"/></l><r>INT<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>delegante<s n="n"/></l><r>delegant<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>vigesimoquinto<s n="adj"/></l><r>vint-i-cinquè<s n="adj"/></r></p></e>
-<e a="prompsit"><p><l>vigesimosexto<s n="adj"/></l><r>vint-i-sisè<s n="adj"/></r></p></e>
-<e a="prompsit"><p><l>vigesimoséptimo<s n="adj"/></l><r>vint-i-setè<s n="adj"/></r></p></e>
-<e a="prompsit"><p><l>vigesimooctavo<s n="adj"/></l><r>vint-i-vuitè<s n="adj"/></r></p></e>
-<e a="prompsit"><p><l>vigesimonoveno<s n="adj"/></l><r>vint-i-novè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<s n="adj"/></l><r>vintè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<b/>primero<s n="adj"/></l><r>vint-i-unè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<b/>segundo<s n="adj"/></l><r>vint-i-dosè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<b/>tercero<s n="adj"/></l><r>vint-i-tresè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<b/>cuarto<s n="adj"/></l><r>vint-i-quatrè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<b/>quinto<s n="adj"/></l><r>vint-i-cinquè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<b/>sexto<s n="adj"/></l><r>vint-i-sisè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<b/>séptimo<s n="adj"/></l><r>vint-i-setè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<b/>octavo<s n="adj"/></l><r>vint-i-vuitè<s n="adj"/></r></p></e>
+<e>             <p><l>vigésimo<b/>noveno<s n="adj"/></l><r>vint-i-novè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<s n="adj"/></l><r>trentè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<b/>primero<s n="adj"/></l><r>trenta-unè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<b/>segundo<s n="adj"/></l><r>trenta-dosè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<b/>tercero<s n="adj"/></l><r>trenta-tresè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<b/>cuarto<s n="adj"/></l><r>trenta-quatrè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<b/>quinto<s n="adj"/></l><r>trenta-cinquè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<b/>sexto<s n="adj"/></l><r>trenta-sisè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<b/>séptimo<s n="adj"/></l><r>trenta-setè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<b/>octavo<s n="adj"/></l><r>trenta-vuitè<s n="adj"/></r></p></e>
+<e>             <p><l>trigésimo<b/>noveno<s n="adj"/></l><r>trenta-novè<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>TRLCSP<s n="np"/></l><r>TRLCSP<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>descatalogación<s n="n"/></l><r>descatalogació<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>autorizable<s n="adj"/></l><r>autoritzable<s n="adj"/></r></p></e>
@@ -46089,7 +46104,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit">       <p><l>hacer<g><b/>cargo</g><s n="vblex"/></l><r>fer<g><b/>càrrec</g><s n="vblex"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>oír<g><b/>a</g><s n="vblex"/></l><r>escoltar<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>oír<g><b/>al</g><s n="vblex"/></l><r>escoltar<g><b/>el</g><s n="vblex"/></r></p></e>
-<e vr="cat">    <p><l>retrotraer<s n="vblex"/></l><r>retrotreure<s n="vblex"/></r></p></e>
+<e>             <p><l>retrotraer<s n="vblex"/></l><r>retrotreure<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>necesario</g><s n="vblex"/></l><r>creure<g><b/>necessari</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>necesaria</g><s n="vblex"/></l><r>creure<g><b/>necessària</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>necesarios</g><s n="vblex"/></l><r>creure<g><b/>necessaris</g><s n="vblex"/></r></p></e>
