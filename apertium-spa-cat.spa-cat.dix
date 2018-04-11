@@ -21411,7 +21411,6 @@
 <e a="prompsit"><p><l>Ventura<s n="np"/></l>      <r>Ventura<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Verdaguer<s n="np"/></l>    <r>Verdaguer<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Vergés<s n="np"/></l>       <r>Vergés<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Victoria<s n="np"/></l>     <r>Victoria<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Villada<s n="np"/></l>      <r>Villada<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Vince<s n="np"/></l>        <r>Vince<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Vincent<s n="np"/></l>      <r>Vincent<s n="np"/></r></p></e>
@@ -42014,7 +42013,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Santa<b/>Magdalena<b/>de<b/>Pulpis<s n="np"/></l><r>Santa<b/>Magdalena<b/>de<b/>Polpís<s n="np"/></r></p></e>
 <e>       <p><l>Santafé<b/>de<b/>Bogotá<s n="np"/></l><r>Santafé<b/>de<b/>Bogotà<s n="np"/></r></p></e>
 <e>       <p><l>Sant<b/>Antoni<b/>de<b/>Portamany<s n="np"/></l><r>Sant<b/>Antoni<b/>de<b/>Portmany<s n="np"/></r></p></e>
-<e>       <p><l>Sant<b/>Julià<b/>de<b/>Cerdanyola<s n="np"/></l><r>Sant<b/>Julià<b/>de<b/>Cerdanyol<s n="np"/></r></p></e>
+<e>       <p><l>Sant<b/>Julià<b/>de<b/>Cerdanyola<s n="np"/></l><r>Sant<b/>Julià<b/>de<b/>Cerdanyola<s n="np"/></r></p></e>
 <e>       <p><l>Santo<b/>Tomé<b/>y<b/>Príncipe<s n="np"/></l><r>Sao<b/>Tomé<b/>i<b/>Príncipe<s n="np"/></r></p></e>
 <e>       <p><l>Santo<b/>Tomé<s n="np"/></l>      <r>Sao<b/>Tomé<s n="np"/></r></p></e>
 <e>       <p><l>Sarratella<s n="np"/></l>         <r>la<b/>Serratella<s n="np"/></r></p></e>
@@ -42074,7 +42073,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>via<b/>Laietana<s n="np"/><s n="loc"/></l><r>Via<b/>Laietana<s n="np"/><s n="top"/></r></p></e>
 <e r="RL"><p><l>vía<b/>Laietana<s n="np"/><s n="loc"/></l><r>via<b/>Laietana<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>vía<b/>Laietana<s n="np"/><s n="loc"/></l><r>Via<b/>Laietana<s n="np"/><s n="top"/></r></p></e>
-<e r="RL"><p><l>Victoria<s n="np"/></l><r>Victòria<s n="np"/></r></p></e>
+<e>       <p><l>Victoria<s n="np"/></l>           <r>Victòria<s n="np"/></r></p></e> <!-- Però no es traudeix si és nom de persona-->
+<e r="RL"><p><l>Victoria<s n="np"/></l>           <r>Victoria<s n="np"/></r></p></e>
 <e>       <p><l>Vientane<s n="np"/></l>           <r>Vientiane<s n="np"/></r></p></e>
 <e>       <p><l>Vilademuls<s n="np"/></l>         <r>Vildemuls<s n="np"/></r></p></e>
 <e>       <p><l>Villahermosa<b/>del<b/>Río<s n="np"/></l><r>Vilafermosa<s n="np"/></r></p></e>
