@@ -331,9 +331,6 @@
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match lemma="dar# cuenta" tags="vblex.*.p3.pl"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
-    <match lemma="dar# cuenta" tags="*.prn.pro.ref.p3.mf.sp"><select lemma="adonar"/></match>
-  </rule>
 
   <rule weight="1">
     <match tags="prn.pro.p1.mf.sg"/>
