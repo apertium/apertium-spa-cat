@@ -45931,7 +45931,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>renting<s n="n"/></l><r>renting<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>cadavérico<s n="adj"/></l><r>cadavèric<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>funcionarización<s n="n"/></l><r>funcionarització<s n="n"/></r></p></e>
-<e a="prompsit"><p><l>maderable<s n="adj"/></l><r>fuster<s n="adj"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>maderable<s n="adj"/><s n="mf"/></l>   <r>fuster<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>maderable<s n="adj"/><s n="mf"/></l>   <r>fuster<s n="adj"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>maderable<s n="adj"/><s n="mf"/></l>   <r>fuster<s n="adj"/><s n="m"/></r></p></e>
 <e a="prompsit"><p><l>adquirente<s n="adj"/></l><r>adquirent<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>telefax<s n="n"/></l><r>telefax<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>insalubre<s n="adj"/></l><r>insalubre<s n="adj"/></r></p></e>
@@ -45949,7 +45951,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>disconforme<s n="adj"/></l><r>disconforme<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>inaplicación<s n="n"/></l><r>inaplicació<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>inmisión<s n="n"/></l><r>immissió<s n="n"/></r></p></e>
-
 <e a="prompsit"><p><l>legitimador<s n="adj"/></l><r>legitimador<s n="adj"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>trascripción<s n="n"/></l><r>transcripció<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>decimosegundo<s n="adj"/></l><r>dosè<s n="adj"/></r></p></e>
@@ -48044,7 +48045,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>pelviano<s n="adj"/></l>           <r>pelvià<s n="adj"/></r></p></e>
 <e>       <p><l>pentapolitano<s n="adj"/></l>      <r>pentapolità<s n="adj"/></r></p></e>
 <e>       <p><l>picassiano<s n="adj"/></l>         <r>picassià<s n="adj"/></r></p></e>
-<e>       <p><l>pigre<s n="adj"/></l>              <r>pigre<s n="adj"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>pigre<s n="adj"/><s n="mf"/></l>   <r>pigre<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>pigre<s n="adj"/><s n="mf"/></l>   <r>pigre<s n="adj"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>pigre<s n="adj"/><s n="mf"/></l>   <r>pigre<s n="adj"/><s n="m"/></r></p></e>
 <e>       <p><l>plasenciano<s n="adj"/></l>        <r>plasencià<s n="adj"/></r></p></e>
 <e>       <p><l>postdiluviano<s n="adj"/></l>      <r>postdiluvià<s n="adj"/></r></p></e>
 <e>       <p><l>postmeridiano<s n="adj"/></l>      <r>postmeridià<s n="adj"/></r></p></e>
@@ -48076,7 +48079,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>tripolitano<s n="adj"/></l>        <r>tripolità<s n="adj"/></r></p></e>
 <e>       <p><l>ufano<s n="adj"/></l>              <r>ufà<s n="adj"/></r></p></e>
 <e>       <p><l>ultramundano<s n="adj"/></l>       <r>ultramundà<s n="adj"/></r></p></e>
-<e>       <p><l>unípede<s n="adj"/></l>            <r>unípede<s n="adj"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>unípede<s n="adj"/><s n="mf"/></l> <r>unípede<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>unípede<s n="adj"/><s n="mf"/></l> <r>unípede<s n="adj"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>unípede<s n="adj"/><s n="mf"/></l> <r>unípede<s n="adj"/><s n="m"/></r></p></e>
 <e>       <p><l>valentiniano<s n="adj"/></l>       <r>valentinià<s n="adj"/></r></p></e>
 <e>       <p><l>vallesano<s n="adj"/></l>          <r>vallesà<s n="adj"/></r></p></e>
 <e>       <p><l>varsoviano<s n="adj"/></l>         <r>varsovià<s n="adj"/></r></p></e>
@@ -49310,7 +49315,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>risorio<s n="adj"/></l>            <r>risori<s n="adj"/></r></p></e>
 <e>       <p><l>rogatorio<s n="adj"/></l>          <r>rogatori<s n="adj"/></r></p></e>
 <e>       <p><l>rotario<s n="adj"/></l>            <r>rotari<s n="adj"/></r></p></e>
-<e>       <p><l>samio<s n="adj"/><s n="GD"/></l>   <r>sami<s n="adj"/></r></p></e>
+<e r="LR"><p><l>samio<s n="adj"/><s n="f"/></l>    <r>sami<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>samio<s n="adj"/><s n="m"/></l>    <r>sami<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>samio<s n="adj"/><s n="GD"/></l>   <r>sami<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>secretorio<s n="adj"/></l>         <r>secretori<s n="adj"/></r></p></e>
 <e>       <p><l>segmentario<s n="adj"/></l>        <r>segmentari<s n="adj"/></r></p></e>
 <e>       <p><l>senario<s n="adj"/></l>            <r>senari<s n="adj"/></r></p></e>
@@ -49347,7 +49354,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>bordelés<s n="adj"/></l>           <r>bordelès<s n="adj"/></r></p></e>
 <e>       <p><l>cantonés<s n="adj"/></l>           <r>cantonès<s n="adj"/></r></p></e>
 <e>       <p><l>cingalés<s n="adj"/></l>           <r>cingalès<s n="adj"/></r></p></e>
-<e>       <p><l>descortés<s n="adj"/></l>          <r>descortès<s n="adj"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>descortés<s n="adj"/><s n="mf"/></l><r>descortès<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>descortés<s n="adj"/><s n="mf"/></l><r>descortès<s n="adj"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>descortés<s n="adj"/><s n="mf"/></l><r>descortès<s n="adj"/><s n="m"/></r></p></e>
 <e>       <p><l>galaicoportugués<s n="adj"/></l>   <r>galaicoportuguès<s n="adj"/></r></p></e>
 <e>       <p><l>gironés<s n="adj"/></l>            <r>gironès<s n="adj"/></r></p></e>
 <e>       <p><l>guyanés<s n="adj"/></l>            <r>guyanès<s n="adj"/></r></p></e>
@@ -49355,7 +49364,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>jaenés<s n="adj"/></l>             <r>jaenès<s n="adj"/></r></p></e>
 <e>       <p><l>jaqués<s n="adj"/></l>             <r>jaquès<s n="adj"/></r></p></e>
 <e>       <p><l>lisbonés<s n="adj"/></l>           <r>lisbonès<s n="adj"/></r></p></e>
-<e>       <p><l>muniqués<s n="adj"/></l>           <r>muniquès<s n="adj"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>muniqués<s n="adj"/><s n="mf"/></l><r>muniquès<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>muniqués<s n="adj"/><s n="mf"/></l><r>muniquès<s n="adj"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>muniqués<s n="adj"/><s n="mf"/></l><r>muniquès<s n="adj"/><s n="m"/></r></p></e>
 <e>       <p><l>narbonés<s n="adj"/></l>           <r>narbonès<s n="adj"/></r></p></e>
 <e>       <p><l>sienés<s n="adj"/></l>             <r>sienès<s n="adj"/></r></p></e>
 <e>       <p><l>tirolés<s n="adj"/></l>            <r>tirolès<s n="adj"/></r></p></e>
