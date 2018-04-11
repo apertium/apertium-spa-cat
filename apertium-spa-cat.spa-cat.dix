@@ -14130,7 +14130,6 @@
 <e r="LR"><p><l>sacar<g><b/>al<b/>público</g><s n="vblex"/></l><r>fer<g><b/>públic</g><s n="vblex"/></r></p></e>
 <e>       <p><l>hacer<g><b/>daño</g><s n="vblex"/></l><r>fer<g><b/>mal</g><s n="vblex"/></r></p></e>
 <e>       <p><l>hacer<g><b/>añicos</g><s n="vblex"/></l><r>fer<g><b/>miques</g><s n="vblex"/></r></p></e>
-<e>       <p><l>dar<g><b/>cuenta</g><s n="vblex"/></l><r>adonar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>percatar<s n="vblex"/></l><r>adonar<s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>miedo</g><s n="vblex"/></l><r>fer<g><b/>por</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>risa</g><s n="vblex"/></l><r>fer<g><b/>riure</g><s n="vblex"/></r></p></e>
@@ -33528,7 +33527,11 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>dar<g><b/>asco</g><s n="vblex"/></l><r>fer<g><b/>fàstic</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>clase</g><s n="vblex"/></l><r>fer<g><b/>classe</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>clases</g><s n="vblex"/></l><r>fer<g><b/>classes</g><s n="vblex"/></r></p></e>
-<e>       <p><l>dar<g><b/>cuenta</g><s n="vblex"/></l><r>adonar<s n="vblex"/></r></p></e>
+
+<e r="LR"><p><l>darse_cuenta<s n="vblex"/></l>    <r>adonar_se<s n="vblex"/></r></p></e> <!--infinitiu i gerundi-->
+<e>       <p><l>dar<g><b/>cuenta</g><s n="vblex"/></l><r>adonar<s n="vblex"/></r></p></e> <!-- disambig in lrx -->
+<e>       <p><l>dar<g><b/>cuenta</g><s n="vblex"/></l><r>donar<g><b/>compte</g><s n="vblex"/></r></p></e>
+
 <e>       <p><l>dar<g><b/>el<b/>sol</g><s n="vblex"/></l><r>tocar<g><b/>el<b/>sol</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>ganas</g><s n="vblex"/></l><r>fer<g><b/>venir<b/>ganes</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>la<b/>gana</g><s n="vblex"/></l><r>donar<g><b/>la<b/>gana</g><s n="vblex"/></r></p></e>
@@ -46040,8 +46043,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>y<b/>como<b/>tal<s n="adv"/></l><r>i<b/>consegüentment<s n="adv"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>y<b/>como<b/>tales<s n="adv"/></l><r>i<b/>consegüentment<s n="adv"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>nudo<s n="adj"/></l><r>nu<s n="adj"/></r></p></e>
-<e a="prompsit"><p><l>dar<g><b/>cuenta<b/>a</g><s n="vblex"/></l><r>donar<g><b/>trasllat<b/>a</g><s n="vblex"/></r></p></e>
-<e a="prompsit"><p><l>dar<g><b/>cuenta<b/>al</g><s n="vblex"/></l><r>donar<g><b/>trasllat<b/>al</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>para<b/>su<b/>conocimiento<s n="adv"/></l><r>perquè<b/>en<b/>prengui<b/>coneixement<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>a<b/>su<b/>parecer<s n="adv"/></l><r>al<b/>seu<b/>parer<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>portante<s n="adj"/></l>             <r>portant<s n="adj"/></r></p></e>

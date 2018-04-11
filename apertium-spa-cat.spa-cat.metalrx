@@ -301,6 +301,71 @@
     </or>
   </rule>
 
+   <!-- darse cuenta > adonar-se / dar cuenta > donar compte -->
+
+  <rule weight="0.8">
+    <match lemma="dar# cuenta" tags="vblex.*"><select lemma="donar# compte"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.*.p1.sg"><select lemma="adonar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.*.p2.sg"><select lemma="adonar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="dar# cuenta" tags="vblex.*.p3.sg"><select lemma="adonar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.*.p1.pl"><select lemma="adonar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.*.p2.pl"><select lemma="adonar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="dar# cuenta" tags="vblex.*.p3.pl"><select lemma="adonar"/></match>
+  </rule>
+  <rule weight="1">
+    <match lemma="dar# cuenta" tags="*.prn.pro.ref.p3.mf.sp"><select lemma="adonar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
+  </rule>
+  
    <!-- tráfico > trànsit/tràfic -->
 
   <rule weight="0.8">
