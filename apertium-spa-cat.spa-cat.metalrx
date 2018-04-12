@@ -362,6 +362,15 @@
     <match tags="vbmod.*.p3.pl"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
+
+  <rule weight="1"> <!-- No funcciona en un cas: "tienes que darme cuenta a mi" (molt rar)-->
+    <match lemma="dar# cuenta"><select lemma="adonar"/></match>
+        <or>
+            <match tags="prn.enc.ref.p3.mf.sp"/>
+            <match tags="prn.enc.p1.mf.*"/>
+            <match tags="prn.enc.p2.mf.*"/>
+        </or>
+  </rule>
   
    <!-- tráfico > trànsit/tràfic -->
 
