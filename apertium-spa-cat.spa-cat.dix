@@ -899,6 +899,12 @@
 <e r="LR"><p><l>negro<s n="adj"/><s n="f"/><s n="pl"/></l><r>negre<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>negro<s n="adj"/><s n="GD"/><s n="pl"/></l><r>negre<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e>       <p><l>negro<s n="adj"/></l>             <r>negre<s n="adj"/></r></p></e>
+<e>       <p><l>blanquinegro<s n="adj"/><s n="m"/><s n="sg"/></l><r>blanc-i-negre<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>blanquinegro<s n="adj"/><s n="f"/><s n="sg"/></l><r>blanc-i-negre<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>blanquinegro<s n="adj"/><s n="m"/><s n="pl"/></l><r>blanc-i-negre<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>blanquinegro<s n="adj"/><s n="f"/><s n="pl"/></l><r>blanc-i-negre<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>blanquinegro<s n="adj"/><s n="GD"/><s n="pl"/></l><r>blanc-i-negre<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e>       <p><l>blanquinegro<s n="adj"/></l>             <r>blanc-i-negre<s n="adj"/></r></p></e>
 <e>       <p><l>nervioso<s n="adj"/></l>          <r>nerviós<s n="adj"/></r></p></e>
 <e>       <i>noble<s n="adj"/></i></e>
 <e>       <p><l>nocturno<s n="adj"/></l>          <r>nocturn<s n="adj"/></r></p></e>
@@ -11030,6 +11036,7 @@
 <e>       <p><l>manifestante<s n="n"/></l>        <r>manifestant<s n="n"/></r></p></e>
 <e>       <i>manipulador<s n="adj"/></i></e>
 <e>       <i>maniquí<s n="n"/></i></e>
+<e>       <i>colibrí<s n="n"/></i></e>
 <e>       <i>Manolo<s n="np"/></i></e>
 <e>       <i>Manresa<s n="np"/></i></e>
 <e>       <i>Manrique<s n="np"/></i></e>
@@ -44947,7 +44954,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>biolimpieza<s n="n"/></l><r>bioneteja<s n="n"/></r></p></e>
 <e a="GVA"><p><l>biolíquido<s n="n"/></l><r>biolíquid<s n="n"/></r></p></e>
 <e a="GVA"><p><l>blanquecino<s n="adj"/></l><r>blanquinós<s n="adj"/></r></p></e>
-<e a="GVA"><p><l>blanquinegro<s n="adj"/></l><r>blanc-i-negre<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>blíster<s n="n"/></l><r>blíster<s n="n"/></r></p></e>
 <e r="LR" a="GVA"><p><l>blogger<s n="n"/><s n="mf"/></l><r>bloguer<s n="n"/><s n="GD"/></r></p></e>
 <e r="RL" a="GVA"><p><l>blogger<s n="n"/><s n="mf"/></l><r>bloguer<s n="n"/><s n="m"/></r></p></e>
@@ -44960,7 +44966,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>bufido<s n="n"/></l><r>bufit<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cabritilla<s n="n"/></l><r>cabritilla<s n="n"/></r></p></e>
 <e a="GVA"><p><l>calafate<s n="n"/></l><r>calafat<s n="n"/></r></p></e>
-<e a="GVA"><p><l>caldear<s n="vblex"/></l><r>caldejar<s n="vblex"/></r></p></e>
 <e r="LR" a="GVA"><p><l>campiña<s n="n"/></l><r>campanya<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cancerígeno<s n="adj"/></l><r>cancerigen<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>cancerígeno<s n="n"/></l><r>cancerigen<s n="n"/></r></p></e>
@@ -50619,6 +50624,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>menchevique<s n="adj"/></l>        <r>menxevic<s n="adj"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
+<e>       <i>nata<s n="n"/></i></e>
 <e>       <p><l>patentabilidad<s n="n"/></l>       <r>patentabilitat<s n="n"/></r></p></e>
 <e>       <p><l>superestado<s n="n"/></l>          <r>superestat<s n="n"/></r></p></e>
 <e>       <p><l>cabotaje<s n="n"/></l>             <r>cabotatge<s n="n"/></r></p></e>
