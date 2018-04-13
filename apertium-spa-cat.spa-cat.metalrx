@@ -176,6 +176,7 @@
       <match lemma="película" tags="n.*"/>
       <match lemma="peripecia" tags="n.*"/>
       <match lemma="relato" tags="n.*"/>
+      <match lemma="vida" tags="n.*"/>
     </or>
   </rule>
 
@@ -195,6 +196,7 @@
       <match lemma="película" tags="n.*"/>
       <match lemma="peripecia" tags="n.*"/>
       <match lemma="relato" tags="n.*"/>
+      <match lemma="vida" tags="n.*"/>
     </or>
     <repeat from="0" upto="4">
       <or>
