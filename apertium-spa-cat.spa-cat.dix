@@ -2707,6 +2707,7 @@
 <e>       <p><l>disgusto<s n="n"/></l>            <r>disgust<s n="n"/></r></p></e>
 <e r="RL"><p><l>disparate<s n="n"/></l>           <r>desficaci<s n="n"/></r></p></e>
 <e>       <p><l>disparate<s n="n"/></l>           <r>disbarat<s n="n"/></r></p></e>
+<e r="LR"><p><l>desatino<s n="n"/></l>            <r>desficaci<s n="n"/></r></p></e>
 <e srl="disparo D"><p><l>disparo<s n="n"/></l>    <r>tret<s n="n"/></r></p></e>
 <e>       <p><l>disposición<s n="n"/></l>         <r>disposició<s n="n"/></r></p></e>
 <e>       <p><l>distancia<s n="n"/></l>           <r>distància<s n="n"/></r></p></e>
@@ -5284,6 +5285,7 @@
 <e>       <i>albergar<s n="vblex"/></i></e>
 <e r="LR"><p><l>alcanzar<s n="vblex"/></l>        <r>aconseguir<s n="vblex"/></r></p></e>
 <e>       <i>alegrar<s n="vblex"/></i></e>
+<e r="LR"><p><l>regocijar<s n="vblex"/></l>       <r>alegrar<s n="vblex"/></r></p></e>
 <e>       <p><l>alejar<s n="vblex"/></l>          <r>allunyar<s n="vblex"/></r></p></e>
 <e>       <p><l>alentar<s n="vblex"/></l>         <r>encoratjar<s n="vblex"/></r></p></e>
 <e>       <i>alimentar<s n="vblex"/></i></e>
@@ -5295,11 +5297,11 @@
 <e>       <i>alterar<s n="vblex"/></i></e>
 <e>       <i>alternar<s n="vblex"/></i></e>
 <e>       <p><l>aludir<s n="vblex"/></l>          <r>al·ludir<s n="vblex"/></r></p></e>
-<e r="RL">       <p><l>alumbrar<s n="vblex"/></l>        <r>enllumenar<s n="vblex"/></r></p></e>
-<e r="LR">       <p><l>alumbrar<s n="vblex"/></l>        <r>il·luminar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>alzar<s n="vblex"/></l>      <r>alçar<s n="vblex"/></r></p></e>
-<e r="LR">       <p><l>amanecer<s n="vblex"/></l>        <r>clarejar<s n="vblex"/></r></p></e>
-<e>       <p><l>clarear<s n="vblex"/></l>        <r>clarejar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>alumbrar<s n="vblex"/></l>        <r>enllumenar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>alumbrar<s n="vblex"/></l>        <r>il·luminar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>alzar<s n="vblex"/></l>           <r>alçar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>amanecer<s n="vblex"/></l>        <r>començar<g><b/>el<b/>dia</g><s n="vblex"/></r></p></e>
+<e>       <p><l>clarear<s n="vblex"/></l>         <r>clarejar<s n="vblex"/></r></p></e>
 <e>       <i>amargar<s n="vblex"/></i></e>
 <e>       <p><l>amenazar<s n="vblex"/></l>        <r>amenaçar<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>amontonar<s n="vblex"/></l>       <r>amuntonar<s n="vblex"/></r></p></e>
@@ -5442,7 +5444,8 @@
 <e>       <i>celebrar<s n="vblex"/></i></e>
 <e>       <p><l>cenar<s n="vblex"/></l>           <r>sopar<s n="vblex"/></r></p></e>
 <e>       <p><l>centrar<s n="vblex"/></l>           <r>centrar<s n="vblex"/></r></p></e>
-<e>       <p><l>centrar<g><b/>en</g><s n="vblex"/></l>           <r>centrar<g><b/>en</g><s n="vblex"/></r></p></e>
+<e>       <p><l>centrar<g><b/>en</g><s n="vblex"/></l><r>centrar<g><b/>en</g><s n="vblex"/></r></p></e>
+<e r="LR"><p><l>cejar<g><b/>en</g><s n="vblex"/></l><r>desistir<g><b/>de</g><s n="vblex"/></r></p></e>
 <e>       <p><l>ceñir<s n="vblex"/></l>           <r>cenyir<s n="vblex"/></r></p></e>
 <e r="RL"><p><l>cerrar<s n="vblex"/></l>          <r>cloure<s n="vblex"/></r></p></e>
 <e>       <p><l>cesar<s n="vblex"/></l>           <r>cessar<s n="vblex"/></r></p></e>
@@ -6324,6 +6327,7 @@
 <e>       <p><l>rogar<s n="vblex"/></l>           <r>pregar<s n="vblex"/></r></p></e>
 <e>       <p><l>romper<s n="vblex"/></l>          <r>trencar<s n="vblex"/></r></p></e>
 <e>       <i>rondar<s n="vblex"/></i></e>
+<e r="LR"><p><l>corretear<s n="vblex"/></l>       <r>rondar<s n="vblex"/></r></p></e>
 <e>       <i>rugir<s n="vblex"/></i></e>
 <e>       <i>saber<s n="vblex"/></i></e>
 <e>       <p><l>sacar<s n="vblex"/></l>           <r>treure<s n="vblex"/></r></p></e>
@@ -8908,7 +8912,7 @@
 <e>       <p><l>embalse<s n="n"/></l>             <r>embassament<s n="n"/></r></p></e>
 <e>       <p><l>embellecer<s n="vblex"/></l>      <r>embellir<s n="vblex"/></r></p></e>
 <e>       <p><l>vendar<s n="vblex"/></l>          <r>embenar<s n="vblex"/></r></p></e>
-<e>       <p><l>vendaje<s n="n"/></l>          <r>embenatge<s n="n"/></r></p></e>
+<e>       <p><l>vendaje<s n="n"/></l>             <r>embenatge<s n="n"/></r></p></e>
 <e>       <i>emblema<s n="n"/></i></e>
 <e>       <p><l>emblemático<s n="adj"/></l>       <r>emblemàtic<s n="adj"/></r></p></e>
 <e>       <p><l>envoltorio<s n="n"/><s n="m"/></l><r>embolcall<s n="n"/><s n="m"/></r></p></e>
@@ -12462,7 +12466,8 @@
 <e>       <p><l>ganadero<s n="adj"/></l>          <r>ramader<s n="adj"/></r></p></e>
 <e>       <p><l>ganadería<s n="n"/></l>           <r>ramaderia<s n="n"/></r></p></e>
 <e>       <p><l>ganadero<s n="n"/></l>            <r>ramader<s n="n"/></r></p></e>
-<e>       <p><l>rebaño<s n="n"/></l>              <r>ramat<s n="n"/></r></p></e>
+<e r="LR"><p><l>rebaño<s n="n"/></l>              <r>ramat<s n="n"/></r></p></e>
+<e>       <p><l>manada<s n="n"/><s n="f"/></l>    <r>ramat<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>rambla<s n="n"/></i></e>
 <e>       <i>Ramírez<s n="np"/></i></e>
 <e>       <p><l>Ramir<s n="np"/><s n="ant"/></l><r>Ramir<s n="np"/><s n="ant"/></r></p></e>
@@ -45622,7 +45627,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>tuareg<s n="n"/></l><r>tuareg<s n="n"/></r></p></e>
 <e a="GVA"><p><l>tucán<s n="n"/></l><r>tucà<s n="n"/></r></p></e>
 <e a="GVA"><p><l>tunear<s n="vblex"/></l><r>personalitzar<s n="vblex"/></r></p></e>
-<e a="GVA"><p><l>tupido<s n="adj"/></l><r>espés<s n="adj"/></r></p></e>
+<e r="LR"> <p><l>tupido<s n="adj"/></l><r>espès<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>tutorización<s n="n"/></l><r>tutorització<s n="n"/></r></p></e>
 <e a="GVA"><p><l>universiada<s n="n"/></l><r>universíada<s n="n"/></r></p></e>
 <e a="GVA"><p><l>usabilidad<s n="n"/></l><r>usabilitat<s n="n"/></r></p></e>
@@ -46179,7 +46184,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit">       <p><l>Id.<s n="n"/></l>               <r>Id.<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>impuesto<g><b/>de<b/>actividades</g><s n="n"/></l><r>impost<g><b/>d'activitats</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>impuesto<g><b/>sobre</g><s n="n"/></l><r>impost<g><b/>sobre</g><s n="n"/></r></p></e>
-<e a="prompsit"><p><l>detraer<s n="vblex"/></l><r>detreure<s n="vblex"/></r></p></e>
+<e r="LR">      <p><l>detraer<s n="vblex"/></l><r>sostreure<s n="vblex"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>condueño<s n="n"/></l>     <r>copropietari<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>visto<b/>lo<b/>cual<s n="adv"/></l><r>vist<b/>això<s n="adv"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>ganancial<s n="adj"/><s n="mf"/><s n="sg"/></l><r>de<b/>guanys<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -47198,6 +47203,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>infusible<s n="adj"/></i></e>
 <e>       <i>inguinal<s n="adj"/></i></e>
 <e>       <i>iniciador<s n="adj"/></i></e>
+<e>       <i>iniciador<s n="n"/></i></e>
 <e>       <i>inidentificable<s n="adj"/></i></e>
 <e>       <i>inimitable<s n="adj"/></i></e>
 <e>       <i>inimputable<s n="adj"/></i></e>
@@ -50622,8 +50628,16 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>serbokosovar<s n="adj"/></l>       <r>serbokosovar<s n="adj"/></r></p></e>
 <e>       <p><l>manufacturero<s n="adj"/></l>      <r>manufacturer<s n="adj"/></r></p></e>
 <e>       <p><l>menchevique<s n="adj"/></l>        <r>menxevic<s n="adj"/></r></p></e>
+<e r="LR"><p><l>recatado<s n="adj"/></l>           <r>pudorós<s n="adj"/></r></p></e>
+<e r="RL"><p><l>adintelado<s n="adj"/><s n="GD"/><s n="ND"/></l><r>de<b/>llinda<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>adintelado<s n="adj"/><s n="m"/><s n="sg"/></l><r>de<b/>llinda<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>adintelado<s n="adj"/><s n="m"/><s n="pl"/></l><r>de<b/>llinda<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>adintelado<s n="adj"/><s n="f"/><s n="sg"/></l><r>de<b/>llinda<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>adintelado<s n="adj"/><s n="f"/><s n="pl"/></l><r>de<b/>llinda<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
+<e r="LR"><p><l>hartazgo<s n="n"/></l>             <r>cansament<s n="n"/></r></p></e> <!-- sovint en s. f.-->
+<e>       <p><l>progenie<s n="n"/></l>             <r>progènie<s n="n"/></r></p></e>
 <e>       <i>nata<s n="n"/></i></e>
 <e>       <p><l>patentabilidad<s n="n"/></l>       <r>patentabilitat<s n="n"/></r></p></e>
 <e>       <p><l>superestado<s n="n"/></l>          <r>superestat<s n="n"/></r></p></e>
@@ -51009,6 +51023,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>marginalización<s n="n"/></l>      <r>marginalització<s n="n"/></r></p></e>
 <e>       <p><l>rigurosidad<s n="n"/></l>          <r>rigorositat<s n="n"/></r></p></e>
 <e>       <p><l>comitología<s n="n"/></l>          <r>comitologia<s n="n"/></r></p></e>
+<e>       <p><l>grafeno<s n="n"/></l>              <r>grafè<s n="n"/></r></p></e>
+<e>       <p><l>meteco<s n="n"/></l>               <r>metec<s n="n"/></r></p></e>
 
 <e r="LR"><p><l>alborozadamente<s n="adv"/></l><r>alegrement<s n="adv"/></r></p></e>
 <e r="LR"><p><l>atinadamente<s n="adv"/></l><r>encertadament<s n="adv"/></r></p></e>
