@@ -46112,8 +46112,10 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit">       <p><l>haber<g><b/>lugar<b/>a</g><s n="vbhaver"/></l><r>ser<g><b/>procedent</g><s n="vbser"/></r></p></e>
 <e a="prompsit">       <p><l>haber<g><b/>debido<b/>a</g><s n="vbhaver"/></l><r>ser<g><b/>degut<b/>a</g><s n="vbser"/></r></p></e>
 <e a="prompsit">       <p><l>hacer<g><b/>cargo</g><s n="vblex"/></l><r>fer<g><b/>càrrec</g><s n="vblex"/></r></p></e>
-<e a="prompsit" r="LR"><p><l>oír<g><b/>a</g><s n="vblex"/></l><r>escoltar<s n="vblex"/></r></p></e>
-<e a="prompsit"><p><l>oír<g><b/>al</g><s n="vblex"/></l><r>escoltar<g><b/>el</g><s n="vblex"/></r></p></e>
+<e r="LR"><p><l>oír<g><b/>a</g><s n="vblex"/></l><r>sentir<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>oír<g><b/>al</g><s n="vblex"/></l><r>sentir<g><b/>el</g><s n="vblex"/></r></p></e>
+<e r="LR"><p><l>escuchar<g><b/>a</g><s n="vblex"/></l><r>escoltar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>escuchar<g><b/>al</g><s n="vblex"/></l><r>escoltar<g><b/>el</g><s n="vblex"/></r></p></e>
 <e>             <p><l>retrotraer<s n="vblex"/></l><r>retrotreure<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>necesario</g><s n="vblex"/></l><r>creure<g><b/>necessari</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>necesaria</g><s n="vblex"/></l><r>creure<g><b/>necessària</g><s n="vblex"/></r></p></e>
@@ -49399,7 +49401,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>aurífero<s n="adj"/></l>           <r>aurífer<s n="adj"/></r></p></e>
 <e>       <p><l>benemérito<s n="adj"/></l>         <r>benemèrit<s n="adj"/></r></p></e>
 <e>       <p><l>bifloro<s n="adj"/></l>            <r>biflor<s n="adj"/></r></p></e>
-<e>       <p><l>bogomilo<s n="adj"/></l>           <r>bogomil<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>bogomilo<s n="adj"/><s n="m"/></l> <r>bogomil<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>bogomilo<s n="adj"/><s n="f"/></l> <r>bogomil<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>bogomilo<s n="adj"/><s n="GD"/></l><r>bogomil<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>borrasquero<s n="adj"/></l>        <r>borrasquer<s n="adj"/></r></p></e>
 <e>       <p><l>borreguero<s n="adj"/></l>         <r>borreguer<s n="adj"/></r></p></e>
 <e>       <p><l>bracero<s n="adj"/></l>            <r>bracer<s n="adj"/></r></p></e>
