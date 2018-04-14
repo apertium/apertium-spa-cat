@@ -22755,8 +22755,11 @@
 <e a="prompsit"><p><l>impuesto<g><b/>sobre<b/>sociedades</g><s n="n"/></l><r>impost<g><b/>de<b/>societats</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>póliza<g><b/>de<b/>seguro</g><s n="n"/></l><r>pòlissa<g><b/>d'assegurança</g><s n="n"/></r></p></e>
 <e a="prompsit"><p><l>donde<b/>hubiere<b/>lugar<s n="adv"/></l><r>on<b/>pertocarà<s n="adv"/></r></p></e>
-<e r="LR" a="prompsit"><p><l>haber<g><b/>lugar</g><s n="vbhaver"/></l><r>pertocar<s n="vblex"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>corresponder<s n="vblex"/></l><r>pertocar<s n="vblex"/></r></p></e>
+<e r="LR" a="prompsit"><p><l>haber<g><b/>lugar</g><s n="vbhaver"/></l><r>pertocar<s n="vblex"/></r></p></e>
+<e r="LR">             <p><l>haber<g><b/>lugar<b/>a</g><s n="vbhaver"/></l><r>ser<g><b/>procedent</g><s n="vbser"/></r></p></e>
+<e r="RL">             <p><l>no<b/>ha<b/>lugar<s n="vblex"/></l><r>no<b/>escau<s n="vblex"/></r></p></e>
+<!--<e a="prompsit">       <p><l>haber<g><b/>debido<b/>a</g><s n="vbhaver"/></l><r>ser<g><b/>degut<b/>a</g><s n="vbser"/></r></p></e>-->
 <e a="prompsit"><p><l>recibido<b/>y<b/>conforme<s n="adj"/></l><r>rebut<b/>i<b/>conforme<s n="adj"/></r></p></e>
 <e a="prompsit"><p><l>lo<b/>que<b/>no<b/>proceda<s n="n"/></l><r>allò<b/>no<b/>procedent<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>European<b/>Free<b/>Trade<b/>Association<s n="np"/></l><r>European<b/>Free<b/>Trade<b/>Association<s n="np"/></r></p></e>
@@ -34009,7 +34012,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>moralizar<s n="vblex"/></l>       <r>moralitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>musitar<s n="vblex"/></l>         <r>mussitar<s n="vblex"/></r></p></e>
 <e>       <p><l>naturalizar<s n="vblex"/></l>     <r>naturalitzar<s n="vblex"/></r></p></e>
-<e>       <p><l>no<b/>ha<b/>lugar<s n="vblex"/></l><r>no<b/>escau<s n="vblex"/></r></p></e>
 <e>       <p><l>objetivar<s n="vblex"/></l>       <r>objectivar<s n="vblex"/></r></p></e>
 <e>       <p><l>ocluir<s n="vblex"/></l>          <r>ocloure<s n="vblex"/></r></p></e>
 <e>       <p><l>ojear<s n="vblex"/></l>           <r>llambregar<s n="vblex"/></r></p></e>
@@ -46109,13 +46111,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit">       <p><l>ser<g><b/>preceptivas</g><s n="vbser"/></l><r>ser<g><b/>preceptives</g><s n="vbser"/></r></p></e>
 <e a="prompsit"><p><l>soleamiento<s n="n"/></l> <r>assolellament<s n="n"/></r></p></e>
 <e a="prompsit" r="LR"><p><l>refrendo<s n="n"/><s n="m"/></l> <r>ratificació<s n="n"/><s n="f"/></r></p></e>
-<e a="prompsit">       <p><l>haber<g><b/>lugar<b/>a</g><s n="vbhaver"/></l><r>ser<g><b/>procedent</g><s n="vbser"/></r></p></e>
-<e a="prompsit">       <p><l>haber<g><b/>debido<b/>a</g><s n="vbhaver"/></l><r>ser<g><b/>degut<b/>a</g><s n="vbser"/></r></p></e>
 <e a="prompsit">       <p><l>hacer<g><b/>cargo</g><s n="vblex"/></l><r>fer<g><b/>càrrec</g><s n="vblex"/></r></p></e>
-<e r="LR"><p><l>oír<g><b/>a</g><s n="vblex"/></l><r>sentir<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>oír<g><b/>al</g><s n="vblex"/></l><r>sentir<g><b/>el</g><s n="vblex"/></r></p></e>
-<e r="LR"><p><l>escuchar<g><b/>a</g><s n="vblex"/></l><r>escoltar<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>escuchar<g><b/>al</g><s n="vblex"/></l><r>escoltar<g><b/>el</g><s n="vblex"/></r></p></e>
 <e>             <p><l>retrotraer<s n="vblex"/></l><r>retrotreure<s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>necesario</g><s n="vblex"/></l><r>creure<g><b/>necessari</g><s n="vblex"/></r></p></e>
 <e a="prompsit"><p><l>creer<g><b/>necesaria</g><s n="vblex"/></l><r>creure<g><b/>necessària</g><s n="vblex"/></r></p></e>
