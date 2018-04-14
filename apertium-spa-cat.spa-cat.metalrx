@@ -153,7 +153,7 @@
     <match lemma="contar" tags="vblex.*"><select lemma="comptar"/></match>
   </rule>
 
- <rule weight="1.0">
+  <rule weight="1.0">
     <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
     <repeat from="0" upto="4">
       <or>
@@ -507,6 +507,66 @@
       <match lemma="obrero" tags="adj.*"/>
     </or>
   </rule>
+
+  <!-- orden religiosa > orde religiós -->
+
+  <rule weight="0.8">
+    <match lemma="orden" tags="n.f.*"><select lemma="ordre"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="orden" tags="n.f.*"><select lemma="orde"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adj.*"/>
+        <match tags="det.def.*"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="agustiniano"/>
+      <match lemma="benedictino"/>
+      <match lemma="caballeresco"/>
+      <match lemma="capuchino"/>
+      <match lemma="carmelita"/>
+      <match lemma="cartujano"/>
+      <match lemma="cistercense"/>
+      <match lemma="conventual"/>
+      <match lemma="caballería"/>
+      <match lemma="dominico"/>
+      <match lemma="escolapio"/>
+      <match lemma="franciscano"/>
+      <match lemma="jerónimo"/>
+      <match lemma="jesuíta"/>
+      <match lemma="marista"/>
+      <match lemma="mayor"/>
+      <match lemma="mendicante"/>
+      <match lemma="menor"/>
+      <match lemma="mercedario"/>
+      <!--<match lemma="militar"/> ambigu-->
+      <match lemma="monástico"/>
+      <match lemma="regular"/>
+      <match lemma="religioso"/>
+      <match lemma="sacerdotal"/>
+      <match lemma="salesiano"/>
+      <match lemma="templario"/>
+      <match lemma="teutónico"/>
+      <match lemma="mérito"/>
+      <match lemma="Temple"/>
+      <match lemma="Cartuja"/>
+      <match lemma="Malta"/>
+      <match lemma="Canadá"/>
+      <match lemma="Montesa"/>
+      <match lemma="toisón"/>
+      <match lemma="santo"/>
+      <match lemma="sepulcro"/>
+      <match lemma="cartujano"/>
+      <match lemma="sepulcro"/>
+      <match tags="np.*"/>
+    </or>
+  </rule>
+
+
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
