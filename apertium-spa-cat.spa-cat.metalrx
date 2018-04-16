@@ -568,6 +568,94 @@
     </or>
   </rule>
 
+  <!-- tienda > botiga / tenda -->
+
+  <rule weight="0.8">
+    <match lemma="tienda" tags="n.*"><select lemma="botiga"/></match>
+  </rule>
+
+ <rule weight="1.0">
+    <match lemma="tienda" tags="n.*"><select lemma="tenda"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="campamento"/>
+      <match lemma="encuentro"/>
+      <match lemma="oráculo"/>
+      <match lemma="tabernáculo"/>
+      <match lemma="altar"/>
+      <match lemma="Jehová" />
+      <match lemma="Israel" />
+      <match lemma="israelita"/>
+      <match lemma="campaña"/>
+      <match lemma="acampar"/>
+      <match lemma="plantar"/>
+      <match lemma="lona"/>
+      <match lemma="arca"/>
+      <match lemma="holocausto"/>
+      <match lemma="sacrificio"/>
+      <match lemma="estaca"/>
+      <match lemma="tormenta"/>
+      <match lemma="tempestad"/>
+      <match lemma="Aquiles"/>
+      <match lemma="tribu"/>
+      <match lemma="alianza"/>
+      <match lemma="hoguera"/>
+      <match lemma="estandarte"/>
+      <match lemma="montaña"/>
+      <match lemma="prado"/>
+      <match lemma="camping"/>
+      <match lemma="cámping"/>
+      <match lemma="piqueta"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="campamento"/>
+      <match lemma="encuentro"/>
+      <match lemma="oráculo"/>
+      <match lemma="tabernáculo"/>
+      <match lemma="altar"/>
+      <match lemma="Jehová" />
+      <match lemma="Israel" />
+      <match lemma="israelita"/>
+      <!--<match lemma="campaña"/>-->
+      <match lemma="acampar"/>
+      <match lemma="plantar"/>
+      <match lemma="lona"/>
+      <match lemma="arca"/>
+      <match lemma="holocausto"/>
+      <match lemma="sacrificio"/>
+      <match lemma="estaca"/>
+      <match lemma="tormenta"/>
+      <match lemma="tempestad"/>
+      <match lemma="Aquiles"/>
+      <match lemma="tribu"/>
+      <match lemma="alianza"/>
+      <match lemma="hoguera"/>
+      <match lemma="estandarte"/>
+      <match lemma="montaña"/>
+      <match lemma="prado"/>
+      <match lemma="camping"/>
+      <match lemma="cámping"/>
+      <match lemma="piqueta"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <match lemma="tienda" tags="n.*"><select lemma="tenda"/></match>
+  </rule>
+
 
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
