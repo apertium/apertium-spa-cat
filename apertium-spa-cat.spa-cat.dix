@@ -4321,7 +4321,8 @@
 <e r="LR"><p><l>socorro<s n="n"/><s n="m"/><s n="sg"/></l><r>socors<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>sofá<s n="n"/></l>                <r>sofà<s n="n"/></r></p></e>
 <e>       <p><l>soldado<s n="n"/></l>             <r>soldat<s n="n"/><s n="GD"/></r></p></e>
-<e>       <p><l>soledad<s n="n"/></l>             <r>solitud<s n="n"/></r></p></e>
+<e vr="cat">       <p><l>soledad<s n="n"/></l>             <r>solitud<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>soledad<s n="n"/></l>             <r>soledat<s n="n"/></r></p></e>
 <e>       <p><l>solidaridad<s n="n"/></l>         <r>solidaritat<s n="n"/></r></p></e>
 <e>       <i>sol<s n="n"/></i></e>
 <e>       <p><l>solución<s n="n"/></l>            <r>solució<s n="n"/></r></p></e>
@@ -24840,7 +24841,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>orfebrería<s n="n"/></l><r>orfebreria<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>hidrocefalia<s n="n"/></l><r>hidrocefàlia<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>francmasonería<s n="n"/></l><r>francmaçoneria<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>regaliz<s n="n"/><s n="m"/></l><r>regalèssia<s n="n"/><s n="f"/></r></p></e>
+<e vr="cat" a="prompsit2uoc"><p><l>regaliz<s n="n"/><s n="m"/></l><r>regalèssia<s n="n"/><s n="f"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>regaliz<s n="n"/><s n="m"/></l><r>regalíssia<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2uoc"><p><l>perfumería<s n="n"/></l><r>perfumeria<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>protuberancia<s n="n"/></l><r>protuberància<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>precedencia<s n="n"/></l><r>precedència<s n="n"/></r></p></e>
@@ -25511,7 +25513,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>reumatismo<s n="n"/></l><r>reumatisme<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>rectorado<s n="n"/></l> <r>rectorat<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>ombligo<s n="n"/></l>   <r>melic<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>malta<s n="n"/><s n="f"/></l><r>malt<s n="n"/><s n="m"/></r></p></e>
+<e vr="cat" a="prompsit2uoc"><p><l>malta<s n="n"/><s n="f"/></l><r>malt<s n="n"/><s n="m"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <i>malta<s n="n"/></i></e>
 <e a="prompsit2uoc"><p><l>latifundio<s n="n"/></l><r>latifundi<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>glande<s n="n"/></l>    <r>gland<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>spot<s n="n"/></l>      <r>espot<s n="n"/></r></p></e>
@@ -26757,7 +26760,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>serpentina<s n="n"/></l><r>serpentina<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>malva<s n="n"/></l>     <r>malva<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>candela<s n="n"/></l>   <r>candela<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>manzanilla<s n="n"/></l><r>camamilla<s n="n"/></r></p></e>
+<e vr="cat" a="prompsit2uoc"><p><l>manzanilla<s n="n"/></l><r>camamilla<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>amapola<s n="n"/></l>   <r>rosella<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>hipérbola<s n="n"/></l> <r>hipèrbola<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>berlina<s n="n"/></l>   <r>berlina<s n="n"/></r></p></e>
@@ -37063,7 +37066,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>reposapiés<s n="n"/></l>          <r>reposapeus<s n="n"/></r></p></e>
 <e>       <p><l>reproche<s n="n"/></l>            <r>retret<s n="n"/></r></p></e>
 <e>       <p><l>repudio<s n="n"/></l>             <r>repudi<s n="n"/></r></p></e>
-<e>       <p><l>requesón<s n="n"/></l>            <r>mató<s n="n"/></r></p></e>
+<e vr="cat" a="GVA">       <p><l>requesón<s n="n"/></l>            <r>mató<s n="n"/></r></p></e>
 <e>       <p><l>requiebro<s n="n"/><s n="m"/></l> <r>floreta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>resarcimiento<s n="n"/></l>       <r>rescabalament<s n="n"/></r></p></e>
 <e>       <p><l>resbalón<s n="n"/><s n="m"/></l>  <r>relliscada<s n="n"/><s n="f"/></r></p></e>
@@ -38110,7 +38113,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>lisboeta<s n="n"/><s n="mf"/></l> <r>lisbonès<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>llamarada<s n="n"/></l>           <r>flamerada<s n="n"/></r></p></e>
 <e r="RL"><p><l>llanura<s n="n"/></l>             <r>planura<s n="n"/></r></p></e>
-<e r="RL"><p><l>manzanilla<s n="n"/></l>          <r>camamil·la<s n="n"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>manzanilla<s n="n"/></l>          <r>camamil·la<s n="n"/></r></p></e>
 <e r="RL"><p><l>maremoto<s n="n"/></l>            <r>terratrèmol<b/>submarí<s n="n"/></r></p></e>
 <e r="RL"><p><l>mariquita<s n="n"/></l>           <r>marieta<g><b/>de<b/>set<b/>punts</g><s n="n"/></r></p></e>
 <e r="RL"><p><l>máscara<s n="n"/></l>             <r>màsquera<s n="n"/></r></p></e>
@@ -38183,7 +38186,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>remache<s n="n"/><s n="m"/></l>   <r>rebladura<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>remanso<s n="n"/></l>             <r>rabeig<s n="n"/></r></p></e>
 <e r="RL"><p><l>reposapiés<s n="n"/></l>          <r>alçapeus<s n="n"/></r></p></e>
-<e r="RL"><p><l>requesón<s n="n"/></l>            <r>brull<s n="n"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>requesón<s n="n"/></l>            <r>brull<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>riñón<s n="n"/></l>               <r>renyó<s n="n"/></r></p></e>
 <e r="RL"><p><l>rompeolas<s n="n"/><s n="m"/><s n="sp"/></l><r>escullera<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>rompeolas<s n="n"/><s n="m"/><s n="sp"/></l><r>escullera<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
