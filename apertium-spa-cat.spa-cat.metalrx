@@ -10,6 +10,7 @@
 	  <rule weight="1.0">
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
 		 <match lemma="de" tags="pr"/>
+     <repeat from="0" upto="1"><match tags="det.def.*"/></repeat>
 		 <or><match tags="np.loc"/><match tags="np.top.*"/></or>
 	  </rule>
 	  <rule weight="1.0">
@@ -682,6 +683,8 @@
   <macro name="noms_propis" p1="Bonifacio" p2="Bonifaci" />
   <macro name="noms_propis" p1="Inocencio" p2="Innocenci" />
   <macro name="noms_propis" p1="Sixto" p2="Sixt" />
+  <macro name="noms_propis" p1="Victoria" p2="Victòria" />
+  <macro name="noms_propis" p1="Ignacio" p2="Ignasi" />
 
   <macro name="noms_propis" p1="Vilfredo" p2="Guifré" />
   <macro name="noms_propis" p1="Ramón" p2="Ramon" />

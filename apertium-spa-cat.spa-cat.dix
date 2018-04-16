@@ -4475,7 +4475,7 @@
 <!--<e vr="val_gva val_uni"><p><l>tienda<s n="n"/></l>       <r>tenda<s n="n"/></r></p></e> No: "tenda" és forma secundària en el DNV-->
 <e>       <p><l>tierra<s n="n"/><s n="f"/></l>    <r>terra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>suelo<s n="n"/></l>               <r>sòl<s n="n"/></r></p></e>
-<e  r="RL"><p><l>suelo<s n="n"/><s n="f"/></l>    <r>terra<s n="n"/><s n="m"/></r></p></e>
+<e  r="RL"><p><l>suelo<s n="n"/><s n="m"/></l>    <r>terra<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tiniebla<s n="n"/></l>            <r>tenebra<s n="n"/></r></p></e>
 <e>       <p><l>tío<s n="n"/><s n="m"/></l>       <r>oncle<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tío<s n="n"/><s n="f"/></l>       <r>tia<s n="n"/><s n="f"/></r></p></e>
@@ -9300,7 +9300,7 @@
 <e>       <p><l>esparcimiento<s n="n"/></l>       <r>esplai<s n="n"/></r></p></e>
 <e>       <p><l>explanada<s n="n"/></l>           <r>esplanada<s n="n"/></r></p></e>
 <e>       <p><l>explanar<s n="vblex"/></l>        <r>esplanar<s n="vblex"/></r></p></e>
-<e>       <i>Esplá<s n="np"/></i></e>
+<e>       <p><l>Esplá<s n="np"/></l>              <r>Esplá<s n="np"/></r></p></e>
 <e>       <i>Esplugues<s n="np"/></i></e>
 <e>       <p><l>espontaneidad<s n="n"/></l>       <r>espontaneïtat<s n="n"/></r></p></e>
 <e>       <p><l>esporádico<s n="adj"/></l>        <r>esporàdic<s n="adj"/></r></p></e>
@@ -10049,6 +10049,7 @@
 <e>       <p><l>gratuidad<s n="n"/></l>           <r>gratuïtat<s n="n"/></r></p></e>
 <e>       <i>Grau<s n="np"/></i></e>
 <e>       <p><l>Grecia<s n="np"/></l>             <r>Grècia<s n="np"/></r></p></e>
+<e>       <p><l>Samotracia<s n="np"/><s n="loc"/></l><r>Samotràcia<s n="np"/><s n="top"/></r></p></e>
 <e>       <i>El<b/>Greco<s n="np"/><s n="ant"/></i></e>
 <e>       <i>Greenpeace<s n="np"/><s n="al"/></i></e>
 <e>       <p><l>gremio<s n="n"/></l>              <r>gremi<s n="n"/></r></p></e>
@@ -10230,8 +10231,6 @@
 <e>       <i>idolatrar<s n="vblex"/></i></e>
 <e>       <p><l>idoneidad<s n="n"/></l>           <r>idoneïtat<s n="n"/></r></p></e>
 <e>       <i>IES<s n="np"/><s n="al"/></i></e>
-<e>       <i>Ignacio<s n="np"/></i></e>
-<e>       <i>Ignasi<s n="np"/></i></e>
 <e>       <p><l>ignorante<s n="adj"/></l>         <r>ignorant<s n="adj"/></r></p></e>
 <e>       <i>Igor<s n="np"/></i></e>
 <e>       <i>igualar<s n="vblex"/></i></e>
@@ -10977,7 +10976,7 @@
 <e>       <p><l>lotería<s n="n"/></l>             <r>loteria<s n="n"/></r></p></e>
 <e>       <p><l>lote<s n="n"/></l>                <r>lot<s n="n"/></r></p></e>
 <e>       <i>Louis<s n="np"/></i></e>
-<e>       <i>Loyola<s n="np"/></i></e>
+<e>       <p><l>Loyola<s n="np"/></l>             <r>Loyola<s n="np"/></r></p></e>
 <e>       <i>Lozano<s n="np"/></i></e>
 <e>       <i>Lozoya<s n="np"/></i></e>
 <e>       <i>Lucas<s n="np"/></i></e>
@@ -11582,8 +11581,6 @@
 <e>       <p><l>nulidad<s n="n"/></l>             <r>nul·litat<s n="n"/></r></p></e>
 <e>       <i>numerar<s n="vblex"/></i></e>
 <e>       <i>Núñez<s n="np"/></i></e>
-<e>       <i>Nuria<s n="np"/></i></e>
-<e>       <i>Núria<s n="np"/></i></e>
 <e>       <p><l>nutrición<s n="n"/></l>           <r>nutrició<s n="n"/></r></p></e>
 <e>       <p><l>chapuza<s n="n"/><s n="f"/></l>   <r>nyap<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>obediente<s n="adj"/></l>         <r>obedient<s n="adj"/></r></p></e>
@@ -11937,7 +11934,9 @@
 <e>       <p><l>penalti<s n="n"/></l>             <r>penal<s n="n"/></r></p></e>
 <e>       <p><l>tanda<g><b/>de<b/>penaltis</g><s n="n"/><s n="f"/></l><r>torn<g><b/>de<b/>penals</g><s n="n"/><s n="m"/></r></p></e>
 <e>       <i>penar<s n="vblex"/></i></e>
-<e>       <i>Penedès<s n="np"/><s n="loc"/></i></e>
+<e r="LR"><p><l>Penedés<s n="np"/></l>            <r>Penedès<s n="np"/></r></p></e>
+<e r="RL"><p><l>Penedés<s n="np"/></l>            <r>Penedés<s n="np"/></r></p></e>
+<e>       <p><l>Penedès<s n="np"/></l>            <r>Penedès<s n="np"/></r></p></e>
 <e>       <p><l>arrepentir<s n="vblex"/></l>      <r>penedir<s n="vblex"/></r></p></e>
 <e>       <p><l>Penèlope<s n="np"/></l>           <r>Penèlope<s n="np"/></r></p></e>
 <e>       <p><l>penetración<s n="n"/></l>         <r>penetració<s n="n"/></r></p></e>
@@ -14958,7 +14957,7 @@
 <e r="RL"><p><l>vivienda<s n="n"/><s n="f"/></l>  <r>vivenda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>turco<s n="n"/></l>               <r>turc<s n="n"/></r></p></e>
 <e>       <p><l>llamada<s n="n"/></l>             <r>trucada<s n="n"/></r></p></e>
-<e>       <p><l>rellamada<s n="n"/></l>             <r>repetició<g><b/>de<b/>trucada</g><s n="n"/></r></p></e>
+<e>       <p><l>rellamada<s n="n"/></l>           <r>repetició<g><b/>de<b/>trucada</g><s n="n"/></r></p></e>
 <e>       <p><l>tópico<s n="adj"/></l>            <r>tòpic<s n="adj"/></r></p></e>
 <e>       <p><l>tampoco<s n="adv"/></l>           <r>tampoc<s n="adv"/></r></p></e>
 <e>       <p><l>Taipeh<s n="np"/></l>             <r>Taipei<s n="np"/></r></p></e>
@@ -14983,7 +14982,6 @@
 <e>       <p><l>intelectual<s n="n"/></l>         <r>intel·lectual<s n="n"/></r></p></e>
 <e>       <p><l>influyente<s n="adj"/></l>        <r>influent<s n="adj"/></r></p></e>
 <e>       <p><l>humano<s n="n"/></l>              <r>humà<s n="n"/></r></p></e>
-<e>       <i>Gràcia<s n="np"/></i></e>
 <e>       <i>Palau<s n="np"/></i></e>
 <e>       <i>Verdi<s n="np"/></i></e>
 <e>       <i>Renoir<s n="np"/></i></e>
@@ -26684,7 +26682,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>curvatura<s n="n"/></l> <r>curvatura<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>cascada<s n="n"/></l>   <r>cascada<s n="n"/></r></p></e>
 <e r="RL" a="prompsit2uoc"><p><l>villa<s n="n"/></l><r>vil·la<s n="n"/></r></p></e>
-<e a="prompsit2uoc"><p><l>magistratura<s n="n"/></l><r>magistratura<s n="f"/></r></p></e>
+<e a="prompsit2uoc"><p><l>magistratura<s n="n"/></l><r>magistratura<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>púrpura<s n="adj"/><s n="f"/></l><r>porpra<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>púrpura<s n="n"/></l>   <r>porpra<s n="n"/></r></p></e>
 <e r="RL" a="prompsit2uoc"><p><l>púrpura<s n="n"/></l><r>púrpura<s n="n"/></r></p></e>
@@ -36040,8 +36038,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>escollera<s n="n"/></l>           <r>escullera<s n="n"/></r></p></e>
 <e>       <p><l>escoplo<s n="n"/><s n="m"/></l>   <r>escarpra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>escoria<s n="n"/></l>             <r>escòria<s n="n"/></r></p></e>
-<e>       <p><l>escorpena<s n="n"/></l>           <r>escórpora<s n="n"/></r></p></e>
-<e r="LR"><p><l>cabracho<s n="n"/></l>            <r>escórpora<s n="n"/></r></p></e>
+<e r="LR"><p><l>escorpena<s n="n"/></l>           <r>escórpora<s n="n"/></r></p></e>
+<e>       <p><l>cabracho<s n="n"/></l>            <r>escórpora<s n="n"/></r></p></e>
+<e r="RL"><p><l>cabracho<s n="n"/></l>            <r>cap-roig<s n="n"/></r></p></e>
 <e>       <p><l>escorpénido<s n="n"/></l>         <r>escorpènid<s n="n"/></r></p></e>
 <e>       <p><l>escorpión<s n="n"/></l>           <r>escorpí<s n="n"/></r></p></e>
 <e>       <p><l>escorzo<s n="n"/></l>             <r>escorç<s n="n"/></r></p></e>
@@ -37370,8 +37369,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>tibieza<s n="n"/></l>             <r>tebiesa<s n="n"/></r></p></e>
 <e>       <p><l>tilde<s n="n"/></l>               <r>titlla<s n="n"/></r></p></e>
 <e r="LR"><p><l>timonel<s n="n"/></l>             <r>timoner<s n="n"/><s n="GD"/></r></p></e>
-<e r="RL"><p><l>timonel<s n="n"/></l>             <r>timoner<s n="n"/><s n="f"/></r></p></e>
-<e r="RL"><p><l>timonel<s n="n"/></l>             <r>timoner<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>timonel<s n="n"/><s n="mf"/></l>  <r>timoner<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>timonel<s n="n"/><s n="mf"/></l>  <r>timoner<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>timoneo<s n="n"/></l>             <r>timoneig<s n="n"/></r></p></e>
 <e>       <p><l>tintero<s n="n"/></l>             <r>tinter<s n="n"/></r></p></e>
 <e>       <p><l>tío<b/>abuelo<s n="n"/></l>       <r>besoncle<s n="n"/></r></p></e>
@@ -39809,7 +39808,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Gósol<s n="np"/></i></e>
 <e>       <i>Goti<s n="np"/></i></e>
 <e>       <i>Gozálvez<s n="np"/></i></e>
-<e>       <i>Gracia<s n="np"/></i></e>
 <e>       <i>Grady<s n="np"/></i></e>
 <e>       <i>Granera<s n="np"/></i></e>
 <e>       <i>Granyanella<s n="np"/></i></e>
@@ -40698,7 +40696,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Penadés<s n="np"/></i></e>
 <e>       <i>Penàguila<s n="np"/></i></e>
 <e>       <i>Penalva<s n="np"/></i></e>
-<e>       <i>Penedés<s n="np"/></i></e>
 <e>       <i>Penella<s n="np"/></i></e>
 <e>       <i>Penelles<s n="np"/></i></e>
 <e>       <i>Peñalver<s n="np"/></i></e>
@@ -41838,7 +41835,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Esquilache<s n="np"/><s n="loc"/></l><r>Squillace<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Esquilo<s n="np"/></l>            <r>Èsquil<s n="np"/></r></p></e>
 <e>       <p><l>Estrómboli<s n="np"/></l>         <r>Stromboli<s n="np"/></r></p></e>
-<e>       <p><l>et.<b/>al.<s n="np"/><s n="al"/></l><r>et<b/>al.<s n="np"/><s n="al"/></r></p></e>
+<e>       <p><l>et<b/>al.<s n="adv"/></l>         <r>et<b/>al.<s n="adv"/></r></p></e>
+<e>       <p><l>et<b/>alii<s n="adv"/></l>        <r>et<b/>alii<s n="adv"/></r></p></e>
 <e>       <p><l>Éufrates<s n="np"/><s n="loc"/></l><r>Eufrates<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Eurasia<s n="np"/><s n="loc"/></l><r>Euràsia<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>Eurocámara<s n="np"/><s n="al"/></l><r>Eurocambra<s n="np"/><s n="al"/></r></p></e>
@@ -42131,7 +42129,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Trinidad<b/>y<b/>Tobago<s n="np"/></l><r>Trinitat<b/>i<b/>Tobago<s n="np"/></r></p></e>
 <e>       <p><l>Tritón<s n="np"/></l>             <r>Tritó<s n="np"/></r></p></e>
 <e>       <p><l>Tuéjar<s n="np"/></l>             <r>Toixa<s n="np"/></r></p></e>
-<e r="LR">       <p><l>Tunicia<s n="np"/></l>            <r>Tunísia<s n="np"/></r></p></e>
+<e r="LR"><p><l>Tunicia<s n="np"/></l>            <r>Tunísia<s n="np"/></r></p></e>
 <e>       <p><l>Turís<s n="np"/></l>              <r>Torís<s n="np"/></r></p></e>
 <e>       <p><l>Uagadugú<s n="np"/></l>           <r>Ouagadougou<s n="np"/></r></p></e>
 <e>       <p><l>Ulises<s n="np"/></l>             <r>Ulisses<s n="np"/></r></p></e>
@@ -42144,8 +42142,21 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>via<b/>Laietana<s n="np"/><s n="loc"/></l><r>Via<b/>Laietana<s n="np"/><s n="top"/></r></p></e>
 <e r="RL"><p><l>vía<b/>Laietana<s n="np"/><s n="loc"/></l><r>via<b/>Laietana<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>vía<b/>Laietana<s n="np"/><s n="loc"/></l><r>Via<b/>Laietana<s n="np"/><s n="top"/></r></p></e>
-<e>       <p><l>Victoria<s n="np"/></l>           <r>Victòria<s n="np"/></r></p></e> <!-- Però no es traudeix si és nom de persona-->
-<e r="RL"><p><l>Victoria<s n="np"/></l>           <r>Victoria<s n="np"/></r></p></e>
+<e>       <p><l>Ignasi<s n="np"/><s n="ant"/></l>   <r>Ignasi<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Ignacio<s n="np"/><s n="ant"/></l>  <r>Ignacio<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Ignacio<s n="np"/><s n="ant"/></l>  <r>Ignasi<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Victòria<s n="np"/><s n="ant"/></l><r>Victòria<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Victoria<s n="np"/><s n="ant"/></l><r>Victoria<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Victoria<s n="np"/><s n="ant"/></l><r>Victòria<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Núria<s n="np"/><s n="ant"/></l>   <r>Núria<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Nuria<s n="np"/><s n="ant"/></l>   <r>Nuria<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Nuria<s n="np"/><s n="ant"/></l>   <r>Núria<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Lídia<s n="np"/><s n="ant"/></l>   <r>Lídia<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Lidia<s n="np"/><s n="ant"/></l>   <r>Lidia<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Lidia<s n="np"/><s n="ant"/></l>   <r>Lídia<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Gràcia<s n="np"/><s n="ant"/></l>   <r>Gràcia<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Gracia<s n="np"/><s n="ant"/></l>   <r>Gracia<s n="np"/><s n="ant"/></r></p></e>
+<e>       <p><l>Gracia<s n="np"/><s n="ant"/></l>   <r>Gràcia<s n="np"/><s n="ant"/></r></p></e>
 <e>       <p><l>Vientane<s n="np"/></l>           <r>Vientiane<s n="np"/></r></p></e>
 <e>       <p><l>Vilademuls<s n="np"/></l>         <r>Vildemuls<s n="np"/></r></p></e>
 <e>       <p><l>Villahermosa<b/>del<b/>Río<s n="np"/></l><r>Vilafermosa<s n="np"/></r></p></e>
@@ -45520,9 +45531,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>trigeneración<s n="n"/></l><r>trigeneració<s n="n"/></r></p></e>
 <e a="GVA"><p><l>triticale<s n="n"/></l><r>triticale<s n="n"/></r></p></e>
 <e a="GVA"><p><l>triturar<s n="vblex"/></l><r>triturar<s n="vblex"/></r></p></e>
-<e>       <p><l>arco<g><b/>iris</g><s n="n"/></l> <r>arc<g><b/>de<b/>Sant<b/>Martí</g><s n="n"/></r></p></e>
-<e r="RL" a="GVA"><p><l>arcoíris<s n="n"/><s n="ND"/></l><r>arc<g><b/>de<b/>Sant<b/>Martí</g><s n="n"/></r></p></e>
-<e r="RL" a="GVA"><p><l>arco<b/>iris<s n="n"/></l><r>arc<g><b/>del<b/>cel</g><s n="n"/></r></p></e>
+<e>               <p><l>arco<g><b/>iris</g><s n="n"/></l><r>arc<g><b/>de<b/>Sant<b/>Martí</g><s n="n"/></r></p></e>
+<e r="LR" a="GVA"><p><l>arcoíris<s n="n"/></l>           <r>arc<g><b/>de<b/>Sant<b/>Martí</g><s n="n"/><s n="ND"/></r></p></e>
+<e r="RL" a="GVA"><p><l>arco<g><b/>iris</g><s n="n"/></l><r>arc<g><b/>del<b/>cel</g><s n="n"/></r></p></e>
 <e a="GVA"><p><l>musicógrafo<s n="n"/></l><r>musicògraf<s n="n"/></r></p></e>
 <e>        <p><l>abridor<s n="n"/></l>   <r>obridor<s n="n"/></r></p></e>
 <e vr="cat"><p><l>abrebotellas<s n="n"/></l>   <r>obreampolles<s n="n"/></r></p></e>
@@ -45673,7 +45684,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>zulla<s n="n"/></l><r>sulla<s n="n"/></r></p></e>
 <e a="GVA"><p><l>zumbido<s n="n"/></l><r>brunzit<s n="n"/></r></p></e>
 <e a="GVA"><p><l>bígaro<s n="n"/></l><r>caragolí<s n="n"/></r></p></e>
-<e a="GVA"><p><l>cabracho<s n="n"/></l><r>cap-roig<s n="n"/></r></p></e>
 <e a="GVA"><p><l>capuccino<s n="n"/></l><r>caputxino<s n="n"/></r></p></e>
 <e a="GVA"><p><l>carambola<s n="n"/></l><r>carambola<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cashemir<s n="n"/></l><r>caixmir<s n="n"/></r></p></e>
