@@ -6884,9 +6884,10 @@
 <e>       <i>Alicia<s n="np"/></i></e>
 <e>       <p><l>alienación<s n="n"/></l>          <r>alienació<s n="n"/></r></p></e>
 <e r="LR"><p><l>enajenación<s n="n"/></l>         <r>alienació<s n="n"/></r></p></e>
-<e r="RL"><p><l>sobrenombre<s n="n"/><s n="m"/><s n="ND"/></l><r>àlies<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>sobrenombre<s n="n"/><s n="m"/><s n="pl"/></l><r>àlies<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>sobrenombre<s n="n"/><s n="m"/><s n="sg"/></l><r>àlies<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>alias<s n="n"/></l>               <r>àlies<s n="n"/></r></p></e>
+<e r="LR"><p><l>apodo<s n="n"/></l>               <r>sobrenom<s n="n"/></r></p></e>
+<e>       <p><l>sobrenombre<s n="n"/></l>         <r>sobrenom<s n="n"/></r></p></e>
+<e>       <p><l>mote<s n="n"/></l>                <r>malnom<s n="n"/></r></p></e>
 <e>       <p><l>alimentario<s n="adj"/></l>       <r>alimentari<s n="adj"/></r></p></e>
 <e>       <p><l>alimenticio<s n="adj"/></l>       <r>alimentós<s n="adj"/></r></p></e>
 <e>       <i>alinear<s n="vblex"/></i></e>
@@ -11062,7 +11063,6 @@
 <e>       <i>Mallorca<s n="np"/></i></e>
 <e>       <p><l>mallorquín<s n="adj"/></l>        <r>mallorquí<s n="adj"/></r></p></e>
 <e>       <p><l>mallorquín<s n="n"/></l>          <r>mallorquí<s n="n"/></r></p></e>
-<e>       <p><l>mote<s n="n"/></l>                <r>malnom<s n="n"/></r></p></e>
 <e>       <p><l>malsonante<s n="adj"/></l>        <r>malsonant<s n="adj"/></r></p></e>
 <e>       <i>Malta<s n="np"/></i></e>
 <e>       <p><l>maltrato<s n="n"/></l>            <r>maltractament<s n="n"/></r></p></e>
@@ -13157,7 +13157,6 @@
 <e>       <i>sobredimensionar<s n="vblex"/></i></e>
 <e>       <p><l>sobredimensionado<s n="adj"/></l> <r>sobredimensionat<s n="adj"/></r></p></e>
 <e>       <i>sobrenatural<s n="adj"/></i></e>
-<e>       <p><l>apodo<s n="n"/></l>               <r>sobrenom<s n="n"/></r></p></e>
 <e>       <p><l>sobreponer<s n="vblex"/></l>      <r>sobreposar<s n="vblex"/></r></p></e>
 <e>       <p><l>sobreseimiento<s n="n"/></l>      <r>sobreseïment<s n="n"/></r></p></e>
 <e>       <p><l>sobreseer<s n="vblex"/></l>       <r>sobreseure<s n="vblex"/></r></p></e>
@@ -15184,7 +15183,9 @@
 <e a="prompsit2adn"><i>alcista<s n="adj"/></i></e>
 <e a="prompsit2adn"><p><l>aleatorio<s n="adj"/></l><r>aleatori<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>alevosía<s n="n"/></l>  <r>traïdoria<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>alférez<s n="n"/></l>   <r>alferes<s n="n"/></r></p></e>
+<e r="RL"><p><l>alférez<s n="n"/><s n="mf"/><s n="ND"/></l>  <r>alferes<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>alférez<s n="n"/><s n="mf"/><s n="sg"/></l>  <r>alferes<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR"><p><l>alférez<s n="n"/><s n="mf"/><s n="pl"/></l>  <r>alferes<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e a="prompsit2adn"><p><l>álgido<s n="adj"/></l>  <r>àlgid<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>algoritmo<s n="n"/></l> <r>algorisme<s n="n"/></r></p></e>
 <e r="RL" a="prompsit2adn"><p><l>algoritmo<s n="n"/></l><r>algoritme<s n="n"/></r></p></e>
@@ -18341,11 +18342,9 @@
 <e a="prompsit2adn"><p><l>todoterreno<s n="adj"/></l><r>tot<b/>terreny<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>budista<s n="adj"/></l> <r>budista<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>budista<s n="n"/></l>   <r>budista<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>alias<s n="n"/></l>     <r>àlies<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>nipón<s n="n"/></l>     <r>nipó<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>nipón<s n="adj"/></l>   <r>nipó<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>nipón<s n="n"/></l>     <r>nipó<s n="n"/></r></p></e>
-<e r="LR" a="prompsit2adn"><p><l>alias<s n="n"/></l><r>àlies<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>aftoso<s n="adj"/></l>  <r>aftós<s n="adj"/></r></p></e>
 <e r="LR" a="prompsit2adn"><p><l>topillo<s n="n"/></l><r>talp<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>luso<s n="n"/></l>      <r>lusità<s n="n"/></r></p></e>
@@ -36039,7 +36038,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>escoplo<s n="n"/><s n="m"/></l>   <r>escarpra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>escoria<s n="n"/></l>             <r>escòria<s n="n"/></r></p></e>
 <e r="LR"><p><l>escorpena<s n="n"/></l>           <r>escórpora<s n="n"/></r></p></e>
-<e>       <p><l>cabracho<s n="n"/></l>            <r>escórpora<s n="n"/></r></p></e>
+<e>       <p><l>cabracho<s n="n"/><s n="m"/></l>  <r>escórpora<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>cabracho<s n="n"/></l>            <r>cap-roig<s n="n"/></r></p></e>
 <e>       <p><l>escorpénido<s n="n"/></l>         <r>escorpènid<s n="n"/></r></p></e>
 <e>       <p><l>escorpión<s n="n"/></l>           <r>escorpí<s n="n"/></r></p></e>
