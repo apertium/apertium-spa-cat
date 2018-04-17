@@ -5062,7 +5062,8 @@
 <e>       <i>sobre<s n="pr"/></i></e>
 <e>       <p><l>en<b/>base<b/>a<s n="pr"/></l>    <r>sobre<b/>la<b/>base<b/>de<s n="pr"/></r></p></e>
 <e>       <p><l>bajo<s n="pr"/></l>               <r>sota<s n="pr"/></r></p></e>
-<e r="LR"><p><l>debajo<b/>de<s n="pr"/></l>       <r>sota<s n="pr"/></r></p></e>
+<e r="LR" vr="cat">            <p><l>debajo<b/>de<s n="pr"/></l>       <r>sota<s n="pr"/></r></p></e>
+<e r="LR" vr="val_gva val_uni"><p><l>debajo<b/>de<s n="pr"/></l>       <r>davall<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>so<s n="pr"/></l>                 <r>sota<s n="pr"/></r></p></e>
 <e r="LR"><p><l>so<b/>capa<b/>de<s n="pr"/></l>   <r>sota<b/>capa<b/>de<s n="pr"/></r></p></e>
 <e r="LR"><p><l>so<b/>color<b/>de<s n="pr"/></l>  <r>sota<b/>color<b/>de<s n="pr"/></r></p></e>
@@ -13229,9 +13230,9 @@
 <e r="LR"><p><l>sonsacar<s n="vblex"/></l>        <r>sostreure<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>substraer<s n="vblex"/></l>       <r>sostreure<s n="vblex"/></r></p></e>
 <e>       <p><l>sustraer<s n="vblex"/></l>        <r>sostreure<s n="vblex"/></r></p></e>
-<e vr="cat"><p><l>debajo<s n="adv"/></l>            <r>sota<s n="adv"/></r></p></e>
+<e vr="cat"><p><l>debajo<s n="adv"/></l>          <r>sota<s n="adv"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>debajo<s n="adv"/></l><r>davall<s n="adv"/></r></p></e>
-<e vr="cat"><p><l>por<b/>debajo<s n="adv"/></l>     <r>per<b/>sota<s n="adv"/></r></p></e>
+<e vr="cat"><p><l>por<b/>debajo<s n="adv"/></l>    <r>per<b/>sota<s n="adv"/></r></p></e>
 <e vr="val_gva val_uni" a="GVA"><p><l>por<b/>debajo<s n="adv"/></l><r>per<b/>davall<s n="adv"/></r></p></e>
 <e>       <i>sotana<s n="n"/></i></e>
 <e r="LR"><p><l>enterramiento<s n="n"/></l>       <r>enterrament<s n="n"/></r></p></e>
@@ -13281,7 +13282,6 @@
 <e>       <p><l>sustitutivo<s n="adj"/></l>       <r>substitutiu<s n="adj"/></r></p></e>
 <e r="LR"><p><l>substituto<s n="n"/></l>          <r>substitut<s n="n"/></r></p></e>
 <e>       <p><l>sustituto<s n="n"/></l>           <r>substitut<s n="n"/></r></p></e>
-<e vr="cat">       <p><l>sustracción<s n="n"/></l>         <r>substracció<s n="n"/></r></p></e>
 <e>       <p><l>subtítulo<s n="n"/></l>           <r>subtítol<s n="n"/></r></p></e>
 <e>       <i>subvencionar<s n="vblex"/></i></e>
 <e>       <p><l>sucesivamente<s n="adv"/></l>     <r>successivament<s n="adv"/></r></p></e>
@@ -38348,7 +38348,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni"><p><l>riñonera<s n="n"/></l>         <r>renyonera<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>salida<s n="n"/></l>           <r>eixida<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>sandía<s n="n"/><s n="f"/></l> <r>meló<g><b/>d'Alger</g><s n="n"/><s n="m"/></r></p></e>
-<e vr="val_gva val_uni"><p><l>sustracción<s n="n"/></l>      <r>sostracció<s n="n"/></r></p></e>
+<e>                     <p><l>sustracción<s n="n"/></l>      <r>sostracció<s n="n"/></r></p></e>
+<e r="RL">              <p><l>sustracción<s n="n"/></l>      <r>subtracció<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>velatorio<s n="n"/><s n="m"/></l><r>vetla<s n="n"/><s n="f"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>verbena<s n="n"/></l>          <r>revetla<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>zorro<s n="n"/><s n="m"/></l>  <r>rabosa<s n="n"/><s n="f"/></r></p></e>
