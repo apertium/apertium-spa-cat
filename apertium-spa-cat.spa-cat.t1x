@@ -95,6 +95,10 @@
       <cat-item lemma="lo" tags="prn.pro.p3.f.pl"/>
     </def-cat>
 
+    <def-cat n="prnpro_las">
+      <cat-item lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </def-cat>
+
     <def-cat n="prnpro_todos">           
       <cat-item tags="prn.pro.*"/>
     </def-cat>
@@ -175,6 +179,13 @@
       <cat-item lemma="definir" tags="vblex.*.p3.*"/>
       <cat-item lemma="obligar" tags="vblex.*.p3.*"/>
       <cat-item lemma="comer" tags="vblex.*.p3.*"/>
+      <cat-item lemma="ingeniar" tags="vblex.*.p3.*"/>
+    </def-cat>
+
+    <def-cat n="verbos_ver_haber_tener"> 
+      <cat-item lemma="ver" tags="vblex.*.p3.*"/> 
+      <cat-item lemma="haber" tags="vbhaver.*.p3.*"/>
+      <cat-item lemma="tener" tags="vblex.*.p3.*"/>
     </def-cat>
 
     <def-cat n="lquest">
@@ -9629,6 +9640,43 @@
     </action>
   </rule>
   
+  <rule> <!-- se las vieron/han/tuvieron con -->
+    <pattern>
+       <pattern-item n="prnpro_se_lo"/>
+       <pattern-item n="prnpro_las"/>
+       <pattern-item n="verbos_ver_haber_tener"/>
+       <pattern-item n="con"/>
+    </pattern>
+    <action>
+      <out>
+        <lu>
+          <get-case-from pos="1"> 
+            <lit v="es"/>
+          </get-case-from>
+          <lit-tag v="prn"/>
+          <lit-tag v="pro"/>
+          <lit-tag v="ref"/>
+          <lit-tag v="p3"/>
+          <lit-tag v="mf"/>
+          <lit-tag v="sp"/>
+        </lu>
+        <b/>
+        <lu> 
+          <clip part="whole" pos="2" side="tl"/>  
+        </lu>
+        <b/>
+       </out>
+       <call-macro n="f_pretind">
+         <with-param pos="3"/>
+       </call-macro>
+       <out>
+       <b/>
+        <lu> 
+          <clip part="whole" pos="4" side="tl"/>  
+        </lu>
+        </out>
+    </action>
+  </rule>
 
    <rule> <!-- REGLA: reset variables-->
       <pattern>
