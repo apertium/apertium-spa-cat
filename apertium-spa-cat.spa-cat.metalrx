@@ -509,6 +509,21 @@
     </or>
   </rule>
 
+    <!-- número > número/nombre -->
+
+  <rule weight="0.8">
+    <match lemma="número" tags="n.*"><select lemma="número"/></match>
+  </rule>
+
+  <rule weight="1.0">  <!-- nombre de coses -->
+    <match lemma="número" tags="n.*"><select lemma="nombre"/></match>
+    <match lemma="de"/>
+    <or>
+      <match tags="n.*.pl"/>
+      <match tags="adj.*.pl"/>
+    </or>
+  </rule>
+
   <!-- orden religiosa > orde religiós -->
 
   <rule weight="0.8">

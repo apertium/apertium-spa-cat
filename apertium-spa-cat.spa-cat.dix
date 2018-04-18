@@ -3735,9 +3735,8 @@
 <e>       <p><l>núcleo<s n="n"/></l>              <r>nucli<s n="n"/></r></p></e>
 <e r="RL"><p><l>nudo<s n="n"/></l>                <r>nuc<s n="n"/></r></p></e>
 <e>       <p><l>nudo<s n="n"/></l>                <r>nus<s n="n"/></r></p></e>
-<e slr="nombre D"><p><l>número<s n="n"/></l>      <r>nombre<s n="n"/></r></p></e>
-<e slr="número"><i>número<s n="n"/></i></e>
-
+<e>       <p><l>número<s n="n"/></l>              <r>nombre<s n="n"/></r></p></e> <!--disambig en LRX-->
+<e>       <i>número<s n="n"/></i></e>
 <e><i>número<b/>e<s n="n"/><s n="m"/><s n="sg"/></i></e>
 <e><i>número<b/>pi<s n="n"/><s n="m"/><s n="sg"/></i></e>
 <e><p><l>letra<b/>e<s n="n"/><s n="f"/><s n="sg"/></l><r>lletra<b/>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -10767,6 +10766,7 @@
 <e>       <i>Lajara<s n="np"/></i></e>
 <e>       <p><l>lamentablemente<s n="adv"/></l>   <r>lamentablement<s n="adv"/></r></p></e>
 <e>       <p><l>lámina<s n="n"/></l>              <r>làmina<s n="n"/></r></p></e>
+<e r="LR"><p><l>lama<s n="n"/></l>                <r>làmina<s n="n"/></r></p></e>
 <e r="RL"><p><l>fontanero<s n="n"/><s n="GD"/></l><r>lampista<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>fontanero<s n="n"/><s n="f"/></l> <r>lampista<s n="n"/><s n="mf"/></r></p></e>
 <e r="LR"><p><l>fontanero<s n="n"/><s n="m"/></l> <r>lampista<s n="n"/><s n="mf"/></r></p></e>
