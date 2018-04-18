@@ -310,7 +310,7 @@
       <cat-item lemma="afanar# en" tags="vblex.pp.*"/> 
     </def-cat>
 
-        <def-cat n="ser_de_aplicacion">
+    <def-cat n="ser_de_aplicacion">
       <cat-item lemma="ser# de aplicación" tags="vbser.*"/>
     </def-cat>
     <def-cat n="poder">
@@ -319,6 +319,9 @@
     <def-cat n="deber">
       <cat-item lemma="deber" tags="vbmod.*"/>
       <cat-item lemma="deber" tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="deber_de_ifi">
+      <cat-item lemma="deber# de" tags="vbmod.ifi.*"/>
     </def-cat>
     <def-cat n="dies">
       <cat-item lemma="lunes" tags="n.m.sp"/>
@@ -9673,6 +9676,24 @@
        <b/>
         <lu> 
           <clip part="whole" pos="4" side="tl"/>  
+        </lu>
+        </out>
+    </action>
+  </rule>
+
+  <rule> <!-- lo debieron de decir: degueren dir / NO: van deure dir -->
+    <pattern>
+       <pattern-item n="deber_de_ifi"/>
+       <pattern-item n="inf"/>
+    </pattern>
+    <action>
+      <out>
+        <lu> 
+          <clip part="whole" pos="1" side="tl"/>  
+        </lu>
+        <b/>
+        <lu> 
+          <clip part="whole" pos="2" side="tl"/>  
         </lu>
         </out>
     </action>
