@@ -685,6 +685,36 @@
   </rule>
 
 
+  <!-- plano > pla / plànol -->
+
+  <rule weight="0.8">
+    <match lemma="plano" tags="n.*"><select lemma="pla"/></match>
+  </rule>
+
+ <rule weight="1.0">
+    <match lemma="plano" tags="n.*"><select lemma="plànol"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="det.*"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match tags="np.*"/>
+      <match lemma="urbano"/>
+      <match lemma="ciudad"/>
+      <match lemma="barrio"/>
+      <match lemma="país"/>
+      <match lemma="región"/>
+      <match lemma="comunidad" />
+      <match lemma="comarca" />
+      <match lemma="mundo"/>
+      <match lemma="edificio"/>
+      <match lemma="vegetación"/>
+    </or>
+  </rule>
+  
+
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />

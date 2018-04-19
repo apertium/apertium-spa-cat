@@ -3951,8 +3951,9 @@
 <e>       <p><l>placer<s n="n"/></l>              <r>plaer<s n="n"/></r></p></e>
 <e>       <i>plaga<s n="n"/></i></e>
 <e>       <i>planeta<s n="n"/></i></e>
-<e>       <p><l>plan<s n="n"/></l>                <r>pla<s n="n"/></r></p></e>
+<e>       <p><l>plan<s n="n"/></l>                <r>pla<s n="n"/></r></p></e> <!-- falta desambiguació: pla> plan/plano-->
 <e>       <p><l>plano<s n="n"/></l>               <r>plànol<s n="n"/></r></p></e>
+<e r="LR"><p><l>plano<s n="n"/></l>               <r>pla<s n="n"/></r></p></e> <!-- disambig: RLX-->
 <e>       <i>planta<s n="n"/></i></e>
 <e>       <p><l>planteamiento<s n="n"/></l>       <r>plantejament<s n="n"/></r></p></e>
 <e>       <i>plantilla<s n="n"/></i></e>
@@ -51043,6 +51044,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>capuchino<s n="adj"/></l>           <r>caputxí<s n="adj"/></r></p></e>
 <e>       <p><l>templario<s n="adj"/></l>           <r>templer<s n="adj"/></r></p></e>
 <e>       <p><l>teutónico<s n="adj"/></l>           <r>teutònic<s n="adj"/></r></p></e>
+<e>       <p><l>alegórico<s n="adj"/></l>           <r>al·legòric<s n="adj"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
 <e>       <p><l>involucramiento<s n="n"/></l>      <r>involucrament<s n="n"/></r></p></e>
