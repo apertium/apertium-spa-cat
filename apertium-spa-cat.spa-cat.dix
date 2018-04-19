@@ -296,6 +296,7 @@
 <e>       <p><l>brasileño<s n="adj"/></l>         <r>brasiler<s n="adj"/></r></p></e>
 <e>       <p><l>breve<s n="adj"/></l>             <r>breu<s n="adj"/></r></p></e>
 <e>       <p><l>brillante<s n="adj"/></l>         <r>brillant<s n="adj"/></r></p></e>
+<e r="LR"><p><l>cintilante<s n="adj"/></l>        <r>centellejant<s n="adj"/></r></p></e>
 <e>       <p><l>británico<s n="adj"/></l>         <r>britànic<s n="adj"/></r></p></e>
 <e>       <p><l>brusco<s n="adj"/></l>            <r>brusc<s n="adj"/></r></p></e>
 <e>       <i>brutal<s n="adj"/></i></e>
@@ -3923,6 +3924,7 @@
 <e>       <p><l>peseta<s n="n"/></l>              <r>pesseta<s n="n"/></r></p></e>
 <e>       <p><l>pesimismo<s n="n"/></l>           <r>pessimisme<s n="n"/></r></p></e>
 <e>       <p><l>peso<s n="n"/></l>                <r>pes<s n="n"/></r></p></e>
+<e r="LR"><p><l>pesa<s n="n"/><s n="f"/></l>      <r>pes<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pestaña<s n="n"/></l>             <r>pestanya<s n="n"/></r></p></e>
 <e>       <p><l>peste<s n="n"/></l>               <r>pesta<s n="n"/></r></p></e>
 <e>       <p><l>petición<s n="n"/></l>            <r>petició<s n="n"/></r></p></e>
@@ -29059,7 +29061,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>yacente<s n="adj"/></l>           <r>jacent<s n="adj"/></r></p></e>
 <e>       <p><l>yámbico<s n="adj"/></l>           <r>iàmbic<s n="adj"/></r></p></e>
 <e>       <p><l>zafio<s n="adj"/></l>             <r>grosser<s n="adj"/></r></p></e>
-<e>       <p><l>centelleante<s n="adj"/></l>             <r>centellejant<s n="adj"/></r></p></e>
+<e>       <p><l>centelleante<s n="adj"/></l>      <r>centellejant<s n="adj"/></r></p></e>
 <e r="LR"><p><l>admvo.<s n="adj"/></l>            <r>admtiu.<s n="adj"/></r></p></e>
 <e r="LR"><p><l>advo.<s n="adj"/></l>             <r>admtiu.<s n="adj"/></r></p></e>
 <e r="LR"><p><l>agorero<s n="adj"/></l>           <r>malastruc<s n="adj"/></r></p></e>
@@ -34753,7 +34755,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>mass<b/>media<s n="n"/></i></e>
 <e>       <i>melonar<s n="n"/></i></e>
 <e>       <i>menestral<s n="n"/></i></e>
-<e>       <i>menestral<s n="adj"/></i></e>
+<e r="LR"><p><l>menestral<s n="adj"/><s n="m"/></l><r>menestral<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>menestral<s n="adj"/><s n="f"/></l><r>menestral<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>menestral<s n="adj"/><s n="GD"/></l><r>menestral<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <i>metaliteratura<s n="n"/></i></e>
 <e>       <i>MIBOR<s n="n"/></i></e>
 <e>       <i>microempresa<s n="n"/></i></e>
@@ -44321,7 +44325,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni" r="RL"><p><l>empapar<s n="vblex"/></l><r>amerar<s n="vblex"/></r></p></e>
 <e vr="cat" r="RL"><p><l>empapar<s n="vblex"/></l><r>amarar<s n="vblex"/></r></p></e>
 <e><p><l>espagueti<s n="n"/></l><r>espagueti<s n="n"/></r></p></e>
-<e><p><l>micromecenazgo<s n="n"/></l><r>micromecenatge<s n="n"/></r></p></e>
 <e><p><l>Everest<s n="np"/></l><r>Everest<s n="np"/></r></p></e>
 <e><p><l>El<b/>Álamo<s n="np"/></l><r>El<b/>Álamo<s n="np"/></r></p></e>
 <e><p><l>El<b/>Toboso<s n="np"/></l><r>El<b/>Toboso<s n="np"/></r></p></e>
@@ -45949,8 +45952,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA" r="LR"><p><l>jaboncillo<s n="n"/></l><r>talc<s n="n"/></r></p></e>
 <e a="GVA"><p><l>laleo<s n="n"/></l><r>laleig<s n="n"/></r></p></e>
 
-<e a="GVA"><p><l>afrutado<s n="adj"/></l><r>afruitat<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>ambientador<s n="n"/></l><r>ambientador<s n="n"/></r></p></e>
+<e a="GVA"><p><l>ambientador<s n="adj"/></l><r>ambientador<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>aviónica<s n="n"/></l><r>aviònica<s n="n"/></r></p></e>
 <e a="GVA"><p><l>desarenado<s n="n"/></l><r>desarenament<s n="n"/></r></p></e>
 <e a="GVA"><p><l>desarenar<s n="vblex"/></l><r>desarenar<s n="vblex"/></r></p></e>
@@ -45958,10 +45961,11 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>dosimetría<s n="n"/></l><r>dosimetria<s n="n"/></r></p></e>
 <e a="GVA"><p><l>encajable<s n="adj"/></l><r>encaixable<s n="adj"/></r></p></e>
 <e a="GVA" r="LR"><p><l>guardarropía<s n="n"/><s n="f"/></l><r>vestuari<s n="n"/><s n="m"/></r></p></e>
-<e a="GVA"><p><l>juguetería<s n="n"/></l><r>botiga<b/>de<b/>joguets<s n="n"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>juguetería<s n="n"/></l><r>botiga<g><b/>de<b/>joguets</g><s n="n"/></r></p></e>
+<e vr="cat"><p><l>juguetería<s n="n"/></l><r>botiga<g><b/>de<b/>joguines</g><s n="n"/></r></p></e>
 <e a="GVA"><p><l>laca<s n="n"/></l><r>laca<s n="n"/></r></p></e>
 <e a="GVA" r="LR"><p><l>llevanza<s n="n"/></l><r>gestió<s n="n"/></r></p></e>
-<e a="GVA"><p><l>mountain<b/>bike<s n="n"/></l><r>bicicleta<b/>de<b/>muntanya<s n="n"/></r></p></e>
+<e a="GVA"><p><l>mountain<b/>bike<s n="n"/></l><r>bicicleta<g><b/>de<b/>muntanya</g><s n="n"/></r></p></e>
 <e a="GVA"><p><l>mudamiento<s n="n"/></l><r>mudament<s n="n"/></r></p></e>
 <e a="GVA"><p><l>multiplexación<s n="n"/></l><r>multiplexació<s n="n"/></r></p></e>
 <e a="GVA"><p><l>multiplexado<s n="n"/></l><r>multiplexatge<s n="n"/></r></p></e>
@@ -45970,13 +45974,12 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>mutagénico<s n="adj"/></l><r>mutagen<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>mutoscopio<s n="n"/></l><r>mutoscopi<s n="n"/></r></p></e>
 <e a="GVA"><p><l>nanofiltración<s n="n"/></l><r>nanofiltració<s n="n"/></r></p></e>
-<e a="GVA"><p><l>narbonés<s n="adj"/></l><r>narbonés<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>narbonés<s n="adj"/></l><r>narbonès<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>neofiguración<s n="n"/></l><r>neofiguració<s n="n"/></r></p></e>
 <e a="GVA"><p><l>neomaniqueísmo<s n="n"/></l><r>neomaniqueisme<s n="n"/></r></p></e>
 <e a="GVA"><p><l>neotradicionalismo<s n="n"/></l><r>neotradicionalisme<s n="n"/></r></p></e>
 <e a="GVA"><p><l>neotradicionalista<s n="adj"/></l><r>neotradicionalista<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>neovanguardia<s n="n"/></l><r>neoavantguarda<s n="n"/></r></p></e>
-<e a="GVA"><p><l>neoyorkino<s n="adj"/></l><r>novaiorqués<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>ñora<s n="n"/></l><r>nyora<s n="n"/></r></p></e>
 <e a="GVA" r="LR"><p><l>osmosis<s n="n"/><s n="sp"/></l><r>osmosi<s n="n"/><s n="sg"/></r></p></e>
 <e a="GVA" r="LR"><p><l>ozonación<s n="n"/></l><r>ozonització<s n="n"/></r></p></e>
@@ -46001,12 +46004,11 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>centuriación<s n="n"/></l><r>centuriació<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cha-cha-cha<s n="n"/></l><r>txa-txa-txa<s n="n"/></r></p></e>
 <e a="GVA"><p><l>chamánico<s n="adj"/></l><r>xamànic<s n="adj"/></r></p></e>
-<e a="GVA"><p><l>check<b/>box<s n="n"/><s n="m"/></l><r>casella<b/>de<b/>selecció<s n="n"/><s n="f"/></r></p></e>
-<e a="GVA" r="LR"><p><l>checkbox<s n="n"/><s n="m"/></l><r>casella<b/>de<b/>selecció<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>check<b/>box<s n="n"/><s n="m"/></l><r>casella<g><b/>de<b/>selecció<s n="n"/><s n="f"/></g></r></p></e>
+<e a="GVA" r="LR"><p><l>checkbox<s n="n"/><s n="m"/></l><r>casella<g><b/>de<b/>selecció<s n="n"/><s n="f"/></g></r></p></e>
 <e a="GVA"><p><l>cinefilia<s n="n"/></l><r>cinefília<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cinerario<s n="adj"/></l><r>cinerari<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>cinestésico<s n="adj"/></l><r>cinestèsic<s n="adj"/></r></p></e>
-<e a="GVA"><p><l>cintilante<s n="adj"/></l><r>brillant<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>cintilar<s n="vblex"/></l><r>brillar<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>citoquina<s n="n"/></l><r>citocina<s n="n"/></r></p></e>
 <e a="GVA"><p><l>clipmetraje<s n="n"/></l><r>clipmetratge<s n="n"/></r></p></e>
@@ -46027,7 +46029,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>coriónico<s n="adj"/></l><r>coriònic<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>crisotilo<s n="n"/></l><r>crisòtil<s n="n"/></r></p></e>
 <e a="GVA"><p><l>criticidad<s n="n"/></l><r>criticitat<s n="n"/></r></p></e>
-<e a="GVA"><p><l>crowdfunding<s n="n"/></l><r>micromecenatge<s n="n"/></r></p></e>
+<e>       <p><l>micromecenazgo<s n="n"/></l><r>micromecenatge<s n="n"/></r></p></e>
+<e a="GVA" r="LR"><p><l>crowdfunding<s n="n"/></l><r>micromecenatge<s n="n"/></r></p></e>
 <e a="GVA"><p><l>crucerista<s n="adj"/></l><r>creuerista<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>cuadríptico<s n="n"/></l><r>quadríptic<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cuantil<s n="n"/></l><r>quantil<s n="n"/></r></p></e>
@@ -46066,14 +46069,14 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>electrohidráulico<s n="adj"/></l><r>electrohidràulic<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>electroneumático<s n="adj"/></l><r>electropneumàtic<s n="adj"/></r></p></e>
 <e a="GVA" r="LR"><p><l>emplastecer<s n="vblex"/></l><r>empastar<s n="vblex"/></r></p></e>
-
-<e a="GVA" r="LR"><p><l>pesa<s n="n"/><s n="f"/></l><r>pes<s n="n"/><s n="m"/></r></p></e>
 <e a="GVA" r="LR"><p><l>emulsificación<s n="n"/><s n="f"/></l><r>emulsionament<s n="n"/><s n="m"/></r></p></e>
 <e a="GVA"><p><l>emulsionamiento<s n="n"/></l><r>emulsionament<s n="n"/></r></p></e>
 <e a="GVA"><p><l>encajador<s n="adj"/></l><r>encaixador<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>encuadernador<s n="n"/></l><r>enquadernador<s n="n"/></r></p></e>
 <e a="GVA"><p><l>ergogénico<s n="adj"/></l><r>ergogènic<s n="adj"/></r></p></e>
-<e a="GVA"><p><l>eritropoyesis<s n="n"/></l><r>eritropoesi<s n="n"/></r></p></e>
+<e r="LR" a="prompsit2adn"><p><l>eritropoyesis<s n="n"/><s n="f"/><s n="sp"/></l><r>eritropoesi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="prompsit2adn"><p><l>eritropoyesis<s n="n"/><s n="f"/><s n="sp"/></l><r>eritropoesi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL" a="prompsit2adn"><p><l>eritropoyesis<s n="n"/><s n="f"/><s n="sp"/></l><r>eritropoesi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="GVA"><p><l>escupidera<s n="n"/></l><r>escopidora<s n="n"/></r></p></e>
 <e a="GVA"><p><l>escupidor<s n="adj"/></l><r>escopidor<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>esomeprazol<s n="n"/></l><r>esomeprazole<s n="n"/></r></p></e>
@@ -46094,14 +46097,16 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>franco<b/>bordo<s n="n"/></l><r>francbord<s n="n"/></r></p></e>
 <e a="GVA" r="LR"><p><l>francobordo<s n="n"/></l><r>francbord<s n="n"/></r></p></e>
 <e a="GVA"><p><l>freelance<s n="adj"/></l><r>freelance<s n="adj"/></r></p></e>
-<e a="GVA"><p><l>fribrinolisis<s n="n"/></l><r>fibrinòlisi<s n="n"/></r></p></e>
+<e r="LR" a="prompsit2adn"><p><l>fribrinolisis<s n="n"/><s n="f"/><s n="sp"/></l><r>fibrinòlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL" a="prompsit2adn"><p><l>fribrinolisis<s n="n"/><s n="f"/><s n="sp"/></l><r>fibrinòlisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL" a="prompsit2adn"><p><l>fribrinolisis<s n="n"/><s n="f"/><s n="sp"/></l><r>fibrinòlisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e a="GVA"><p><l>ftalato<s n="n"/></l><r>ftalat<s n="n"/></r></p></e>
 <e a="GVA"><p><l>galerístico<s n="adj"/></l><r>galerístic<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>gigantografía<s n="n"/></l><r>gigantografia<s n="n"/></r></p></e>
 <e a="GVA"><p><l>grafitación<s n="n"/></l><r>grafitació<s n="n"/></r></p></e>
 <e a="GVA"><p><l>grauvaca<s n="n"/></l><r>grauvaca<s n="n"/></r></p></e>
-<e a="GVA" r="LR"><p><l>guardacantos<s n="n"/><s n="m"/></l><r>cantonera<s n="n"/><s n="f"/></r></p></e>
-<e a="GVA" r="LR"><p><l>guardavivos<s n="n"/><s n="m"/></l><r>cantonera<s n="n"/><s n="f"/></r></p></e>
+<e a="GVA" r="LR"><p><l>guardacantos<s n="n"/><s n="m"/></l><r>cantonera<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e a="GVA" r="LR"><p><l>guardavivos<s n="n"/><s n="m"/></l><r>cantonera<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e a="GVA"><p><l>habitacionista<s n="n"/></l><r>habitacionista<s n="n"/></r></p></e>
 <e a="GVA"><p><l>hashtag<s n="n"/><s n="m"/></l><r>etiqueta<s n="n"/><s n="f"/></r></p></e>
 <e a="GVA"><p><l>hendedor<s n="adj"/></l><r>fenedor<s n="adj"/></r></p></e>
@@ -46170,7 +46175,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>depurativo<s n="adj"/></l><r>depuratiu<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>en<b/>concepto<b/>de<b/>prima<s n="n"/></l><r>en<b/>concepte<b/>de<b/>prima<s n="n"/></r></p></e>
 <e a="GVA"><p><l>en<b/>concepto<b/>de<b/>primas<s n="n"/></l><r>en<b/>concepte<b/>de<b/>primes<s n="n"/></r></p></e>
-<e a="GVA"><p><l>estadillo<s n="n"/><s n="m"/></l><r>butlleta<g><b/>d’estat</g><s n="n"/><s n="f"/></r></p></e>
+<e a="GVA"><p><l>estadillo<s n="n"/><s n="m"/></l><r>butlleta<g><b/>d'estat</g><s n="n"/><s n="f"/></r></p></e>
 <e a="GVA" r="LR"><p><l>excepcionar<s n="vblex"/></l><r>exceptuar<s n="vblex"/></r></p></e>
 <e a="GVA"><p><l>guacamole<s n="n"/></l><r>guacamole<s n="n"/></r></p></e>
 <e a="GVA"><p><l>herramienta<g><b/>de<b/>corte</g><s n="n"/></l><r>eina<g><b/>de<b/>tall</g><s n="n"/></r></p></e>
@@ -46222,7 +46227,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>lo<b/>establecido<s n="adv"/></l><r>el<b/>que<b/>s'estableix<s n="adv"/></r></p></e>
 <e a="GVA"><p><l>lo<b/>previsto<s n="adv"/></l><r>el<b/>que<b/>es<b/>preveu<s n="adv"/></r></p></e>
 <e a="GVA"><p><l>primado<s n="n"/></l><r>primat<s n="n"/></r></p></e>
-<e a="GVA"><p><l>primado<s n="adj"/></l><r>primacial<s n="adj"/></r></p></e>
+<e r="LR"><p><l>primado<s n="adj"/><s n="m"/></l><r>primacial<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR"><p><l>primado<s n="adj"/><s n="f"/></l><r>primacial<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>primado<s n="adj"/><s n="GD"/></l><r>primacial<s n="adj"/><s n="mf"/></r></p></e>
 <e a="GVA"><p><l>lazada<s n="n"/></l><r>llaçada<s n="n"/></r></p></e>
 <e a="GVA"><p><l>jubón<s n="n"/></l><r>gipó<s n="n"/></r></p></e>
 <e a="GVA"><p><l>pendiente<g><b/>de<b/>oro</g><s n="n"/><s n="m"/></l><r>arracada<g><b/>d'or</g><s n="n"/><s n="f"/></r></p></e>
@@ -46235,7 +46242,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>escarpado<s n="adj"/></l><r>escarpat<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>cortinaje<s n="n"/></l><r>cortinatge<s n="n"/></r></p></e>
 <e a="GVA"><p><l>carmesí<s n="n"/></l><r>carmesí<s n="n"/></r></p></e>
-<e a="GVA"><p><l>carmesí<s n="adj"/></l><r>carmesí<s n="adj"/></r></p></e>
+<e r="RL"><p><l>carmesí<s n="adj"/><s n="mf"/></l><r>carmesí<s n="adj"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>carmesí<s n="adj"/><s n="mf"/></l><r>carmesí<s n="adj"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>carmesí<s n="adj"/><s n="mf"/></l><r>carmesí<s n="adj"/><s n="GD"/></r></p></e>
 <e a="GVA" r="LR"><p><l>verdugado<s n="n"/></l><r>mirinyac<s n="n"/></r></p></e>
 <e a="GVA"><p><l>miriñaque<s n="n"/></l><r>mirinyac<s n="n"/></r></p></e>
 <e a="GVA"><p><l>relicario<s n="n"/></l><r>reliquiari<s n="n"/></r></p></e>
@@ -46251,8 +46260,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>dermoprotector<s n="adj"/></l><r>dermoprotector<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>alhaja<s n="n"/></l><r>joia<s n="n"/></r></p></e>
 <e a="GVA"><p><l>apaisado<s n="adj"/></l><r>apaïsat<s n="adj"/></r></p></e>
-<e a="GVA" r="LR"><p><l>de<b/>bulto<b/>redondo<s n="adj"/></l><r>exempt<s n="adj"/></r></p></e>
-<e a="GVA" r="LR"><p><l>en<b/>bulto<b/>redondo<s n="adj"/></l><r>exempt<s n="adj"/></r></p></e>
+<e a="GVA" r="LR"><p><l>de<b/>bulto<b/>redondo<s n="adj"/></l><r>exempt<s n="adj"/><s n="ND"/><s n="GD"/></r></p></e>
+<e a="GVA" r="LR"><p><l>en<b/>bulto<b/>redondo<s n="adj"/></l><r>exempt<s n="adj"/><s n="ND"/><s n="GD"/></r></p></e>
 <e a="GVA"><p><l>virrey<s n="n"/></l><r>virrei<s n="n"/></r></p></e>
 <e a="GVA"><p><l>cortinaje<s n="n"/></l><r>cortinatge<s n="n"/></r></p></e>
 <e a="GVA"><p><l>ceroferario<s n="n"/></l><r>ceroferari<s n="n"/></r></p></e>
@@ -46808,7 +46817,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>caipiriña<s n="n"/></l><r>caipirinha<s n="n"/></r></p></e>
 <e a="GVA"><p><l>caldereta<s n="n"/></l><r>caldereta<s n="n"/></r></p></e>
 <e a="GVA"><p><l>caloportador<s n="adj"/></l><r>termòfor<s n="adj"/></r></p></e>
-<e a="GVA"><p><l>canelones<s n="n"/></l><r>canelons<s n="n"/></r></p></e>
 
 <e>       <i>Puigdemont<s n="np"/></i></e>
 <e>       <i>Colell<s n="np"/></i></e>
@@ -47677,7 +47685,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>irrescatable<s n="adj"/></i></e>
 <e>       <i>irrespirable<s n="adj"/></i></e>
 <e>       <i>irrigable<s n="adj"/></i></e>
-<e>       <i>irrigador<s n="adj"/></i></e>
 <e>       <i>irrisible<s n="adj"/></i></e>
 <e>       <i>irritable<s n="adj"/></i></e>
 <e>       <i>irrompible<s n="adj"/></i></e>
