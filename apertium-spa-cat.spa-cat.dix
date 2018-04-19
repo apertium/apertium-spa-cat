@@ -20855,7 +20855,8 @@
 <e a="prompsit"><p><l>año<b/>tras<b/>año<s n="adv"/></l><r>any<b/>rere<b/>any<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>en<b/>general<s n="adv"/></l><r>en<b/>general<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>desde<b/>ahora<s n="adv"/></l><r>des<b/>d'ara<s n="adv"/></r></p></e>
-<e a="prompsit"><p><l>aquí<b/>mismo<s n="adv"/></l><r>aquí<b/>mateix<s n="adv"/></r></p></e>
+<e vr="cat" a="prompsit"><p><l>aquí<b/>mismo<s n="adv"/></l><r>aquí<b/>mateix<s n="adv"/></r></p></e>
+<e "val_gva val_uni" a="GVA"a="prompsit"><p><l>aquí<b/>mismo<s n="adv"/></l><r>ací<b/>mateix<s n="adv"/></r></p></e>
 <e r="RL" a="prompsit"><p><l>debajo<s n="adv"/></l><r>a<b/>sota<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>de<b/>momento<s n="adv"/></l><r>de<b/>moment<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>más<b/>bien<s n="adv"/></l> <r>més<b/>aviat<s n="adv"/></r></p></e>
@@ -20941,7 +20942,8 @@
 <e a="prompsit"><p><l>al<b/>final<s n="adv"/></l> <r>al<b/>final<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>pausadamente<s n="adv"/></l><r>pausadament<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>extensamente<s n="adv"/></l><r>extensament<s n="adv"/></r></p></e>
-<e a="prompsit"><p><l>aquí<b/>abajo<s n="adv"/></l><r>aquí<b/>sota<s n="adv"/></r></p></e>
+<e vr="cat" a="prompsit"><p><l>aquí<b/>abajo<s n="adv"/></l><r>aquí<b/>sota<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA"><p><l>aquí<b/>abajo<s n="adv"/></l><r>aci<b/>baix<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>allí<b/>arriba<s n="adv"/></l><r>allà<b/>dalt<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>allí<b/>abajo<s n="adv"/></l><r>allà<b/>baix<s n="adv"/></r></p></e>
 <e a="prompsit"><p><l>20<b/>minutos<s n="np"/></l><r>20<b/>minutos<s n="np"/></r></p></e>
@@ -30329,16 +30331,25 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni">       <p><l>en<b/>tanto<b/>sea<b/>posible<s n="adv"/></l><r>en<b/>la<b/>mesura<b/>que<b/>siga<b/>possible<s n="adv"/></r></p></e>
 <e>       <p><l>dentro<b/>de<b/>nada<s n="adv"/></l><r>d'ací<b/>a<b/>no<b/>res<s n="adv"/></r></p></e>
 <e r="RL">       <p><l>dentro<b/>de<b/>poco<s n="adv"/></l><r>abans<b/>de<b/>gaire<s n="adv"/></r></p></e>
-<e>       <p><l>dentro<b/>de<b/>unas<b/>décadas<s n="adv"/></l><r>d'aquí<b/>a<b/>unes<b/>dècades<s n="adv"/></r></p></e>
-<e>       <p><l>dentro<b/>de<b/>unas<b/>horas<s n="adv"/></l><r>d'aquí<b/>a<b/>unes<b/>hores<s n="adv"/></r></p></e>
-<e>       <p><l>dentro<b/>de<b/>unas<b/>semanas<s n="adv"/></l><r>d'aquí<b/>a<b/>unes<b/>setmanes<s n="adv"/></r></p></e>
+<e vr= "cat">       <p><l>dentro<b/>de<b/>unas<b/>décadas<s n="adv"/></l><r>d'aquí<b/>a<b/>unes<b/>dècades<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>dentro<b/>de<b/>unas<b/>décadas<s n="adv"/></l><r>d'ací<b/>a<b/>unes<b/>dècades<s n="adv"/></r></p></e>
+<e vr= "cat">       <p><l>dentro<b/>de<b/>unas<b/>horas<s n="adv"/></l><r>d'aquí<b/>a<b/>unes<b/>hores<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>dentro<b/>de<b/>unas<b/>horas<s n="adv"/></l><r>d'ací<b/>a<b/>unes<b/>hores<s n="adv"/></r></p></e>
+<e vr= "cat">       <p><l>dentro<b/>de<b/>unas<b/>semanas<s n="adv"/></l><r>d'aquí<b/>a<b/>unes<b/>setmanes<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>dentro<b/>de<b/>unas<b/>semanas<s n="adv"/></l><r>d'ací<b/>a<b/>unes<b/>setmanes<s n="adv"/></r></p></e>
 <e>       <p><l>dentro<b/>de<b/>un<b/>instante<s n="adv"/></l><r>d'ací<b/>a<b/>un<b/>moment<s n="adv"/></r></p></e>
-<e r="LR">       <p><l>dentro<b/>de<b/>un<b/>poco<s n="adv"/></l><r>d'aquí<b/>a<b/>una<b/>mica<s n="adv"/></r></p></e>
-<e>       <p><l>dentro<b/>de<b/>unos<b/>años<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>anys<s n="adv"/></r></p></e>
-<e>       <p><l>dentro<b/>de<b/>unos<b/>días<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>dies<s n="adv"/></r></p></e>
-<e>       <p><l>dentro<b/>de<b/>unos<b/>meses<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>mesos<s n="adv"/></r></p></e>
-<e>       <p><l>dentro<b/>de<b/>unos<b/>minutos<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>minuts<s n="adv"/></r></p></e>
-<e>       <p><l>dentro<b/>de<b/>unos<b/>siglos<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>segles<s n="adv"/></r></p></e>
+<e vr= "cat" r="LR">       <p><l>dentro<b/>de<b/>un<b/>poco<s n="adv"/></l><r>d'aquí<b/>a<b/>una<b/>mica<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA" r="LR">      <p><l>dentro<b/>de<b/>un<b/>poco<s n="adv"/></l><r>d'ací<b/>a<b/>un<b/>poc<s n="adv"/></r></p></e>
+<e vr= "cat">       <p><l>dentro<b/>de<b/>unos<b/>años<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>anys<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>dentro<b/>de<b/>unos<b/>años<s n="adv"/></l><r>d'ací<b/>a<b/>uns<b/>anys<s n="adv"/></r></p></e>
+<e vr= "cat">       <p><l>dentro<b/>de<b/>unos<b/>días<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>dies<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>dentro<b/>de<b/>unos<b/>días<s n="adv"/></l><r>d'ací<b/>a<b/>uns<b/>dies<s n="adv"/></r></p></e>
+<e vr= "cat">       <p><l>dentro<b/>de<b/>unos<b/>meses<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>mesos<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>dentro<b/>de<b/>unos<b/>meses<s n="adv"/></l><r>d'ací<b/>a<b/>uns<b/>mesos<s n="adv"/></r></p></e>
+<e vr= "cat">       <p><l>dentro<b/>de<b/>unos<b/>minutos<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>minuts<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>dentro<b/>de<b/>unos<b/>minutos<s n="adv"/></l><r>d'ací<b/>a<b/>uns<b/>minuts<s n="adv"/></r></p></e>
+<e vr= "cat">       <p><l>dentro<b/>de<b/>unos<b/>siglos<s n="adv"/></l><r>d'aquí<b/>a<b/>uns<b/>segles<s n="adv"/></r></p></e>
+<e vr="val_gva val_uni" a="GVA">       <p><l>dentro<b/>de<b/>unos<b/>siglos<s n="adv"/></l><r>d'ací<b/>a<b/>uns<b/>segles<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>partir<b/>del<b/>día<b/>siguiente<b/>de<b/>su<b/>publicación<s n="adv"/></l><r>a<b/>partir<b/>de<b/>l'endemà<b/>de<b/>publicar-se<s n="adv"/></r></p></e>
 <e>       <p><l>dependientemente<s n="adv"/></l>  <r>depenentment<s n="adv"/></r></p></e>
 <e>       <p><l>deplorablemente<s n="adv"/></l>   <r>deplorablement<s n="adv"/></r></p></e>
