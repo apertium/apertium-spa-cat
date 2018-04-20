@@ -1932,6 +1932,7 @@
 <e>       <p><l>archivo<s n="n"/></l>             <r>arxiu<s n="n"/></r></p></e>
 <e>       <p><l>arco<s n="n"/></l>                <r>arc<s n="n"/></r></p></e>
 <e>       <p><l>área<s n="n"/></l>                <r>àrea<s n="n"/></r></p></e>
+<e>       <p><l>centiárea<s n="n"/></l>           <r>centiàrea<s n="n"/></r></p></e>
 <e vr="val_gva val_uni" c="eliminat slr=arena"><i>arena<s n="n"/></i></e>
 <e vr="cat" c="eliminat slr=sorra D"><p><l>arena<s n="n"/></l>        <r>sorra<s n="n"/></r></p></e>
 <e>       <p><l>argentino<s n="n"/></l>           <r>argentí<s n="n"/></r></p></e>
@@ -5474,8 +5475,9 @@
 <e>       <p><l>caer<g><b/>al<b/>suelo</g><s n="vblex"/></l>      <r>caure<g><b/>a<b/>terra</g><s n="vblex"/></r></p></e>
 <e>       <i>calcular<s n="vblex"/></i></e>
 <e>       <p><l>caldear<s n="vblex"/></l>         <r>caldejar<s n="vblex"/></r></p></e>
-<e vr="cat"><p><l>calentar<s n="vblex"/></l>        <r>escalfar<s n="vblex"/></r></p></e>
+<e vr="cat"><p><l>calentar<s n="vblex"/></l>      <r>escalfar<s n="vblex"/></r></p></e>
 <e>       <p><l>calificar<s n="vblex"/></l>       <r>qualificar<s n="vblex"/></r></p></e>
+<e>       <p><l>recalificar<s n="vblex"/></l>     <r>requalificar<s n="vblex"/></r></p></e>
 <e>       <i>callar<s n="vblex"/></i></e>
 <e>       <i>calmar<s n="vblex"/></i></e>
 <e>       <p><l>cambiar<s n="vblex"/></l>         <r>canviar<s n="vblex"/></r></p></e>
@@ -6953,6 +6955,7 @@
 <e>       <i>Amaya<s n="np"/></i></e>
 <e>       <p><l>ambientación<s n="n"/></l>        <r>ambientació<s n="n"/></r></p></e>
 <e>       <i>ambiental<s n="adj"/></i></e>
+<e>       <i>agroambiental<s n="adj"/></i></e>
 <e>       <i>ambientar<s n="vblex"/></i></e>
 <e>       <p><l>ambulancia<s n="n"/></l>          <r>ambulància<s n="n"/></r></p></e>
 <e>       <p><l>ambulante<s n="adj"/></l>         <r>ambulant<s n="adj"/></r></p></e>
@@ -7398,6 +7401,7 @@
 <e>       <i>Barceló<s n="np"/></i></e>
 <e>       <i>Barea<s n="np"/></i></e>
 <e>       <p><l>baremo<s n="n"/></l>              <r>barem<s n="n"/></r></p></e>
+<e>       <p><l>autobaremo<s n="n"/></l>          <r>autobarem<s n="n"/></r></p></e>
 <e>       <p><l>barómetro<s n="n"/></l>           <r>baròmetre<s n="n"/></r></p></e>
 <e>       <p><l>orador<s n="n"/></l>              <r>orador<s n="n"/></r></p></e>
 <e srl="barraca D"><i>barraca<s n="n"/></i></e>
@@ -13178,6 +13182,7 @@
 <e>       <p><l>sobrepeso<s n="n"/></l>           <r>sobrepès<s n="n"/></r></p></e>
 <e>       <p><l>sobrecargar<s n="vblex"/></l>     <r>sobrecarregar<s n="vblex"/></r></p></e>
 <e>       <i>sobredimensionar<s n="vblex"/></i></e>
+<e>       <i>dimensionar<s n="vblex"/></i></e>
 <e>       <p><l>sobredimensionado<s n="adj"/></l> <r>sobredimensionat<s n="adj"/></r></p></e>
 <e>       <i>sobrenatural<s n="adj"/></i></e>
 <e>       <p><l>sobreponer<s n="vblex"/></l>      <r>sobreposar<s n="vblex"/></r></p></e>
@@ -29378,6 +29383,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>in<b/>pectore<s n="adv"/></i></e>
 <e>       <i>in<b/>sacris<s n="adv"/></i></e>
 <e>       <i>in<b/>situ<s n="adv"/></i></e>
+<e>       <i>cum<b/>laude<s n="adv"/></i></e>
 <e>       <i>in<b/>vitro<s n="adv"/></i></e>
 <e>       <i>in<b/>vivo<s n="adv"/></i></e>
 <e>       <i>inter<b/>nos<s n="adv"/></i></e>
@@ -34675,6 +34681,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>expansor<s n="n"/></i></e>
 <e>       <i>explorer<s n="n"/></i></e>
 <e>       <i>exp.<s n="n"/></i></e>
+<e r="LR"><p><l>expte.<s n="n"/></l>              <r>exp.<s n="n"/></r></p></e>
 <e>       <i>exterior<s n="n"/></i></e>
 <e>       <i>extranet<s n="n"/></i></e>
 <e>       <i>ext.<s n="n"/></i></e>
@@ -37610,7 +37617,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><i>Corts<b/>Valencianes<s n="n"/></i></e>
 <e r="LR"><i>estima<s n="n"/><s n="f"/></i></e>
 <e r="LR"><i>gel<s n="n"/></i></e>
-<e r="LR"><i>hertz<s n="n"/></i></e>
 <e r="LR"><i>murta<s n="n"/></i></e>
 <e r="LR"><i>núm.<s n="n"/></i></e>
 <e r="LR"><i>pedrera<s n="n"/></i></e>
@@ -37779,7 +37785,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>haz<s n="n"/></l>                 <r>feix<s n="n"/></r></p></e>
 <e r="LR"><p><l>hemodiálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hemodiàlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e>       <p><l>hercio<s n="n"/></l>              <r>hertz<s n="n"/></r></p></e>
-<e r="LR"><p><l>hertzio<s n="n"/></l>              <r>hertz<s n="n"/></r></p></e>
+<e>       <p><l>megahercio<s n="n"/></l>          <r>megahertz<s n="n"/></r></p></e>
+<e r="LR"><p><l>hertzio<s n="n"/></l>             <r>hertz<s n="n"/></r></p></e>
+<e r="LR"><p><l>hertz<s n="n"/></l>               <r>hertz<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>hidrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hidròlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>hincha<s n="n"/><s n="mf"/></l>   <r>seguidor<s n="n"/><s n="GD"/></r></p></e>
 <e r="LR"><p><l>hispanoparlante<s n="n"/></l>     <r>hispanoparlant<s n="n"/></r></p></e>
@@ -37817,8 +37825,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>mataperros<s n="n"/><s n="mf"/><s n="sp"/></l><r>trinxa<s n="n"/><s n="mf"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>mazonería<s n="n"/></l>           <r>maçoneria<s n="n"/></r></p></e>
 <e r="LR"><p><l>mediana<s n="n"/></l>             <r>mitjana<s n="n"/></r></p></e>
-<e r="LR"><p><l>megahercio<s n="n"/><s n="m"/><s n="pl"/></l><r>megahertz<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>megahercio<s n="n"/><s n="m"/><s n="sg"/></l><r>megahertz<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>meiosis<s n="n"/><s n="f"/><s n="sp"/></l><r>meiosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>menosprecio<s n="n"/></l>         <r>menyspreu<s n="n"/></r></p></e>
 <e r="LR"><p><l>metamorfosis<s n="n"/><s n="f"/><s n="sp"/></l><r>metamorfosi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
@@ -38198,7 +38204,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>máscara<s n="n"/><s n="f"/></l>   <r>mascarot<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>mataperros<s n="n"/><s n="mf"/><s n="sp"/></l><r>trinxa<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>mataperros<s n="n"/><s n="mf"/><s n="sp"/></l><r>trinxa<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>megahercio<s n="n"/><s n="m"/><s n="ND"/></l><r>megahertz<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>meiosis<s n="n"/><s n="f"/><s n="sp"/></l><r>meiosi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>meiosis<s n="n"/><s n="f"/><s n="sp"/></l><r>meiosi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>melocotón<s n="n"/><s n="m"/></l> <r>bresquilla<s n="n"/><s n="f"/></r></p></e>
@@ -43872,6 +43877,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit"><p><l>Arag<s n="np"/></l><r>Arag<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Cospedal<s n="np"/></l><r>Cospedal<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Braille<s n="np"/></l><r>Braille<s n="np"/></r></p></e>
+<e>             <p><l>braille<s n="n"/></l><r>braille<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>Papandreu<s n="np"/></l><r>Papandreu<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Francino<s n="np"/></l><r>Francino<s n="np"/></r></p></e>
 
@@ -45405,7 +45411,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>paria<s n="n"/></l><r>pària<s n="n"/></r></p></e>
 <e a="GVA"><p><l>parroquiano<s n="adj"/></l><r>parroquià<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>particularización<s n="n"/></l><r>particularització<s n="n"/></r></p></e>
-<e a="GVA"><p><l>particularizar<s n="n"/></l><r>particularitzar<s n="n"/></r></p></e>
+<e a="GVA"><p><l>particularizar<s n="vblex"/></l><r>particularitzar<s n="vblex"/></r></p></e>
 
 <e r="LR" a="GVA"><p><l>patrocinio<b/>compartido<s n="n"/></l><r>copatrocini<s n="n"/></r></p></e>
 <e a="GVA"><p><l>pavonear<s n="vblex"/></l><r>gallejar<s n="vblex"/></r></p></e>
@@ -51095,9 +51101,23 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>drogodependiente<s n="adj"/></l>    <r>drogodependent<s n="adj"/></r></p></e>
 <e>       <p><l>infrarrepresentado<s n="adj"/></l>  <r>infrarepresentat<s n="adj"/></r></p></e>
 <e r="LR"><p><l>recayente<s n="adj"/></l>           <r>que<b/>dóna<s n="adj"/></r></p></e>
+<e>       <p><l>concesional<s n="adj"/></l>         <r>concessional<s n="adj"/></r></p></e>
+<e>       <p><l>perseverante<s n="adj"/></l>        <r>perseverant<s n="adj"/></r></p></e>
+<e>       <p><l>hortofrutícola<s n="adj"/></l>      <r>hortofructícola<s n="adj"/></r></p></e>
+<e>       <p><l>multifuncional<s n="adj"/></l>      <r>multifuncional<s n="adj"/></r></p></e>
+<e>       <p><l>suprarregional<s n="adj"/></l>      <r>supraregional<s n="adj"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
-<e>       <p><l>regante<s n="n"/></l>           <r>regant<s n="n"/></r></p></e>
+
+<e>       <p><l>crupier<s n="n"/></l>               <r>crupier<s n="n"/></r></p></e>
+<e>       <p><l>alegante<s n="n"/></l>              <r>al·legant<s n="n"/></r></p></e>
+<e>       <p><l>fanera<s n="n"/></l>                <r>fànera<s n="n"/></r></p></e>
+<e>       <p><l>algarrobo<s n="n"/></l>             <r>garrofer<s n="n"/></r></p></e>
+<e>       <p><l>vocalía<s n="n"/></l>               <r>vocalia<s n="n"/></r></p></e>
+<e>       <p><l>subsidiación<s n="n"/></l>          <r>subsidiació<s n="n"/></r></p></e>
+<e>       <p><l>solera<s n="n"/></l>                <r>solera<s n="n"/></r></p></e>
+<e>       <p><l>gallinaza<s n="n"/></l>             <r>gallinassa<s n="n"/></r></p></e>
+<e>       <p><l>regante<s n="n"/></l>               <r>regant<s n="n"/></r></p></e>
 <e>       <p><l>codemandado<s n="n"/></l>           <r>codemandat<s n="n"/></r></p></e>
 <e>       <p><l>demandado<s n="n"/></l>             <r>demandat<s n="n"/></r></p></e>
 <e r="LR"><p><l>legionelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>legionel·losi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
