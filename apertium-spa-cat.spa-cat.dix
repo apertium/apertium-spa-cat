@@ -329,6 +329,14 @@
 <e r="RL"><p><l>capaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>capaç<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>capaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>capaç<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>capaz<s n="adj"/><s n="mf"/><s n="sg"/></l><r>capaç<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>rapaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>rapaç<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>rapaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>rapaç<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>rapaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>rapaç<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>rapaz<s n="adj"/><s n="mf"/><s n="sg"/></l><r>rapaç<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>incapaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>incapaç<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>incapaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>incapaç<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>incapaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>incapaç<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>incapaz<s n="adj"/><s n="mf"/><s n="sg"/></l><r>incapaç<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>capital<s n="adj"/></l>           <r>cabdal<s n="adj"/></r></p></e>
 <e>       <p><l>caprichoso<s n="adj"/></l>        <r>capritxós<s n="adj"/></r></p></e>
 <e>       <p><l>característico<s n="adj"/></l>    <r>característic<s n="adj"/></r></p></e>
@@ -706,10 +714,6 @@
 <e>       <p><l>impresionante<s n="adj"/></l>     <r>impressionant<s n="adj"/></r></p></e>
 <e>       <i>imprevisible<s n="adj"/></i></e>
 <e>       <i>impune<s n="adj"/></i></e>
-<e r="LR"><p><l>incapaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>incapaç<s n="adj"/><s n="GD"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>incapaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>incapaç<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>incapaz<s n="adj"/><s n="mf"/><s n="pl"/></l><r>incapaç<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-<e>       <p><l>incapaz<s n="adj"/><s n="mf"/><s n="sg"/></l><r>incapaç<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e>       <p><l>incierto<s n="adj"/></l>          <r>incert<s n="adj"/></r></p></e>
 <e>       <p><l>incómodo<s n="adj"/></l>          <r>incòmode<s n="adj"/></r></p></e>
 <e>       <p><l>inconsciente<s n="adj"/></l>      <r>inconscient<s n="adj"/></r></p></e>
@@ -2996,6 +3000,7 @@
 <e>       <p><l>fines<b/>de<b/>semana<s n="n"/></l><r>caps<b/>de<b/>setmana<s n="n"/></r></p></e>
 <e r="RL"><i>firma<s n="n"/></i></e>
 <e>       <p><l>firma<s n="n"/></l>               <r>signatura<s n="n"/></r></p></e>
+<e r="LR"><p><l>signatura<s n="n"/></l>           <r>signatura<s n="n"/></r></p></e>
 <e>       <i>fiscal<s n="n"/></i></e>
 <e>       <p><l>flaqueza<s n="n"/></l>            <r>flaquesa<s n="n"/></r></p></e>
 <e>       <i>flora<s n="n"/></i></e>
@@ -14346,9 +14351,6 @@
 <e>       <p><l>clemencia<s n="n"/></l>           <r>clemència<s n="n"/></r></p></e>
 <e>       <p><l>ciudadano<s n="adj"/></l>         <r>ciutadà<s n="adj"/></r></p></e>
 <e>       <p><l>católico<s n="n"/></l>            <r>catòlic<s n="n"/></r></p></e>
-<e r="LR"><p><l>capaz<s n="adj"/><s n="mf"/></l>  <r>capaç<s n="adj"/><s n="GD"/></r></p></e>
-<e r="RL"><p><l>capaz<s n="adj"/><s n="mf"/></l>  <r>capaç<s n="adj"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>capaz<s n="adj"/><s n="mf"/></l>  <r>capaç<s n="adj"/><s n="f"/></r></p></e>
 <e>       <i>Biosca<s n="np"/></i></e>
 <e>       <i>BCE<s n="n"/></i></e>
 <e r="RL"><p><l>comida<s n="n"/><s n="f"/></l>    <r>àpat<s n="n"/><s n="m"/></r></p></e>
@@ -14936,9 +14938,6 @@
 <e>       <p><l>nublar<s n="vblex"/></l>          <r>ennuvolar<s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni">       <p><l>este<b/>año<s n="adv"/></l>       <r>enguany<s n="adv"/></r></p></e>
 <e>       <p><l>castellano<s n="adj"/></l>        <r>castellà<s n="adj"/></r></p></e>
-<e r="LR"><p><l>capaz<s n="adj"/><s n="mf"/></l>  <r>capaç<s n="adj"/><s n="GD"/></r></p></e>
-<e r="RL"><p><l>capaz<s n="adj"/><s n="mf"/></l>  <r>capaç<s n="adj"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>capaz<s n="adj"/><s n="mf"/></l>  <r>capaç<s n="adj"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>asunto<s n="n"/></l>              <r>afer<s n="n"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>casi<s n="preadv"/></l>           <r>quasi<s n="preadv"/></r></p></e>
 <e>       <p><l>prometido<s n="n"/></l>           <r>promès<s n="n"/></r></p></e>
