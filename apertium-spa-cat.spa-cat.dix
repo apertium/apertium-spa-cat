@@ -44206,6 +44206,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>tórax<s n="n"/><s n="m"/><s n="sp"/></l><r>tòrax<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>tórax<s n="n"/><s n="m"/><s n="sp"/></l><r>tòrax<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>tórax<s n="n"/><s n="m"/><s n="sp"/></l><r>tòrax<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>neumotórax<s n="n"/><s n="m"/><s n="sp"/></l><r>pneumotòrax<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>neumotórax<s n="n"/><s n="m"/><s n="sp"/></l><r>pneumotòrax<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>neumotórax<s n="n"/><s n="m"/><s n="sp"/></l><r>pneumotòrax<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 <e><p><l>artritis<s n="n"/></l><r>artritis<s n="n"/></r></p></e>
 <e><p><l>bronquitis<s n="n"/></l><r>bronquitis<s n="n"/></r></p></e>
@@ -51090,8 +51093,16 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>proforma<s n="adj"/></l>            <r>proforma<s n="adj"/></r></p></e>
 <e r="LR"><p><l>pro<b/>forma<s n="adj"/></l>        <r>proforma<s n="adj"/></r></p></e>
 <e>       <p><l>drogodependiente<s n="adj"/></l>    <r>drogodependent<s n="adj"/></r></p></e>
+<e>       <p><l>infrarrepresentado<s n="adj"/></l>  <r>infrarepresentat<s n="adj"/></r></p></e>
+<e r="LR"><p><l>recayente<s n="adj"/></l>           <r>que<b/>dóna<s n="adj"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
+<e>       <p><l>regante<s n="n"/></l>           <r>regant<s n="n"/></r></p></e>
+<e>       <p><l>codemandado<s n="n"/></l>           <r>codemandat<s n="n"/></r></p></e>
+<e>       <p><l>demandado<s n="n"/></l>             <r>demandat<s n="n"/></r></p></e>
+<e r="LR"><p><l>legionelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>legionel·losi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>legionelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>legionel·losi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>legionelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>legionel·losi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>bimestre<s n="n"/></l>             <r>bimestre<s n="n"/></r></p></e>
 <e r="LR"><p><l>aparataje<s n="n"/><s n="m"/><s n="sg"/></l><r>aparell<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>lixiviado<s n="n"/></l>            <r>lixiviat<s n="n"/></r></p></e>
