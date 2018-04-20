@@ -35304,7 +35304,10 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>bestiario<s n="n"/></l>           <r>bestiari<s n="n"/></r></p></e>
 <e>       <p><l>besuqueo<s n="n"/></l>            <r>petoneig<s n="n"/></r></p></e>
 <e>       <p><l>biberón<s n="n"/></l>             <r>biberó<s n="n"/></r></p></e>
-<e>       <p><l>bicicleta<g><b/>de<b/>montaña</g><s n="n"/></l><r>bicicleta<g><b/>tot<b/>terreny</g><s n="n"/></r></p></e>
+<e r="RL"><p><l>bicicleta<g><b/>de<b/>montaña</g><s n="n"/></l><r>bicicleta<g><b/>tot<b/>terreny</g><s n="n"/></r></p></e>
+<e>       <p><l>bicicleta<g><b/>de<b/>montaña</g><s n="n"/></l><r>bicicleta<g><b/>de<b/>muntanya</g><s n="n"/></r></p></e>
+<e r="LR"><p><l>mountain<b/>bike<s n="n"/></l>    <r>bicicleta<g><b/>de<b/>muntanya</g><s n="n"/></r></p></e>
+<e>       <p><l>handbike<s n="n"/></l>            <r>bicicleta<g><b/>de<b/>mà</g><s n="n"/></r></p></e>
 <e>       <p><l>bienaventuranza<s n="n"/></l>     <r>benaurança<s n="n"/></r></p></e>
 <e>       <p><l>bien<b/>ajeno<s n="n"/></l>       <r>bé<g><b/>d'altri</g><s n="n"/></r></p></e>
 <e>       <p><l>bienio<s n="n"/></l>              <r>bienni<s n="n"/></r></p></e>
@@ -45936,7 +45939,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><i>granola<s n="n"/></i></e>
 <e a="GVA"><p><l>guaraná<s n="n"/></l><r>guaranà<s n="n"/></r></p></e>
 <e a="GVA"><p><l>hacia delante<s n="adv"/></l><r>cap avant<s n="adv"/></r></p></e>
-<e r="LR"> <p><l>handbike<s n="n"/></l><r>bicicleta<g><b/>de<b/>mà</g><s n="n"/></r></p></e>
 <e a="GVA"><p><l>hasta la fecha tope<s n="adv"/></l><r>fins a la data límit<s n="adv"/></r></p></e>
 <e a="GVA"><p><l>haya<s n="n"/><s n="f"/></l><r>faig<s n="n"/><s n="m"/></r></p></e>
 <e a="GVA"><p><l>hialurónico<s n="adj"/></l><r>hialurònic<s n="adj"/></r></p></e>
@@ -45965,7 +45967,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="cat"><p><l>juguetería<s n="n"/></l><r>botiga<g><b/>de<b/>joguines</g><s n="n"/></r></p></e>
 <e a="GVA"><p><l>laca<s n="n"/></l><r>laca<s n="n"/></r></p></e>
 <e a="GVA" r="LR"><p><l>llevanza<s n="n"/></l><r>gestió<s n="n"/></r></p></e>
-<e a="GVA"><p><l>mountain<b/>bike<s n="n"/></l><r>bicicleta<g><b/>de<b/>muntanya</g><s n="n"/></r></p></e>
 <e a="GVA"><p><l>mudamiento<s n="n"/></l><r>mudament<s n="n"/></r></p></e>
 <e a="GVA"><p><l>multiplexación<s n="n"/></l><r>multiplexació<s n="n"/></r></p></e>
 <e a="GVA"><p><l>multiplexado<s n="n"/></l><r>multiplexatge<s n="n"/></r></p></e>
@@ -46275,7 +46276,11 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>sacrílego<s n="adj"/></l><r>sacríleg<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>pasamanería<s n="n"/></l><r>passamaneria<s n="n"/></r></p></e>
 <e a="GVA"><p><l>agustino<s n="n"/></l><r>agustí<s n="n"/></r></p></e>
-<e a="GVA"><p><l>recoleto<s n="n"/></l><r>recol·lecte<s n="n"/></r></p></e>
+<e>       <p><l>recoleto<s n="adj"/><s n="m"/><s n="sg"/></l><r>recol·lecte<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>recoleto<s n="adj"/><s n="f"/><s n="sg"/></l><r>recol·lecte<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>recoleto<s n="adj"/><s n="m"/><s n="pl"/></l><r>recol·lecte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>recoleto<s n="adj"/><s n="f"/><s n="pl"/></l><r>recol·lecte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>recoleto<s n="adj"/><s n="GD"/><s n="pl"/></l><r>recol·lecte<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 <e a="GVA"><p><l>novicio<s n="adj"/></l><r>novici<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>maitines<s n="n"/><s n="m"/></l><r>matines<s n="n"/><s n="f"/></r></p></e>
 <e a="GVA" r="LR"><p><l>a<b/>pasos<b/>agigantados<s n="adv"/></l><r>amb<b/>passes<b/>de<b/>gegant<s n="adv"/></r></p></e>
