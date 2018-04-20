@@ -2000,6 +2000,7 @@
 <e>       <p><l>autonomía<s n="n"/></l>           <r>autonomia<s n="n"/></r></p></e>
 <e>       <p><l>autoridad<s n="n"/></l>           <r>autoritat<s n="n"/></r></p></e>
 <e>       <i>autor<s n="n"/></i></e>
+<e>       <i>coautor<s n="n"/></i></e>
 <e>       <p><l>avance<s n="n"/></l>              <r>avanç<s n="n"/></r></p></e>
 <e>       <p><l>ave<s n="n"/><s n="f"/></l>       <r>au<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>avenida<s n="n"/></l>             <r>avinguda<s n="n"/></r></p></e>
@@ -8778,6 +8779,7 @@
 <e>       <p><l>discapacitado<s n="adj"/></l>     <r>discapacitat<s n="adj"/></r></p></e>
 <e>       <p><l>discapacitado<s n="n"/></l>       <r>discapacitat_minusvalid<s n="n"/></r></p></e>
 <e>       <p><l>discapacidad<s n="n"/></l>        <r>discapacitat_minusvalidesa<s n="n"/></r></p></e>
+<e r="LR"><p><l>discapacitación<s n="n"/></l>     <r>discapacitat_minusvalidesa<s n="n"/></r></p></e>
 <e>       <p><l>discográfico<s n="adj"/></l>      <r>discogràfic<s n="adj"/></r></p></e>
 <e>       <p><l>disconformidad<s n="n"/></l>      <r>disconformitat<s n="n"/></r></p></e>
 <e>       <p><l>discontinuo<s n="adj"/></l>       <r>discontinu<s n="adj"/></r></p></e>
@@ -10635,7 +10637,6 @@
 <e>       <p><l>irlandés<s n="n"/></l>            <r>irlandès<s n="n"/></r></p></e>
 <e>       <p><l>irónico<s n="adj"/></l>           <r>irònic<s n="adj"/></r></p></e>
 <e>       <i>IRPF<s n="n"/></i></e>
-<e>       <i>HTML<s n="n"/></i></e>
 <e>       <i>html<s n="n"/></i></e>
 <e>       <i>irracional<s n="adj"/></i></e>
 <e>       <i>irreal<s n="adj"/></i></e>
@@ -37777,8 +37778,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>harpía<s n="n"/></l>              <r>harpia<s n="n"/></r></p></e>
 <e r="LR"><p><l>haz<s n="n"/></l>                 <r>feix<s n="n"/></r></p></e>
 <e r="LR"><p><l>hemodiálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hemodiàlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
-<e r="LR"><p><l>hercio<s n="n"/><s n="m"/><s n="pl"/></l><r>hertz<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>hercio<s n="n"/><s n="m"/><s n="sg"/></l><r>hertz<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>hercio<s n="n"/></l>              <r>hertz<s n="n"/></r></p></e>
+<e r="LR"><p><l>hertzio<s n="n"/></l>              <r>hertz<s n="n"/></r></p></e>
 <e r="LR"><p><l>hidrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hidròlisi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>hincha<s n="n"/><s n="mf"/></l>   <r>seguidor<s n="n"/><s n="GD"/></r></p></e>
 <e r="LR"><p><l>hispanoparlante<s n="n"/></l>     <r>hispanoparlant<s n="n"/></r></p></e>
@@ -51082,9 +51083,19 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>museográfico<s n="adj"/></l>        <r>museogràfic<s n="adj"/></r></p></e>
 <e>       <p><l>ejerciente<s n="adj"/></l>          <r>exercent<s n="adj"/></r></p></e>
 <e>       <i>expropiable<s n="adj"/></i></e>
-
+<e>       <p><l>predoctoral<s n="adj"/></l>         <r>predoctoral<s n="adj"/></r></p></e>
+<e>       <p><l>postdoctoral<s n="adj"/></l>        <r>postdoctoral<s n="adj"/></r></p></e>
+<e r="LR"><p><l>posdoctoral<s n="adj"/></l>         <r>postdoctoral<s n="adj"/></r></p></e>
+<e>       <p><l>juzgador<s n="adj"/></l>            <r>jutjador<s n="adj"/></r></p></e>
+<e>       <p><l>proforma<s n="adj"/></l>            <r>proforma<s n="adj"/></r></p></e>
+<e r="LR"><p><l>pro<b/>forma<s n="adj"/></l>        <r>proforma<s n="adj"/></r></p></e>
+<e>       <p><l>drogodependiente<s n="adj"/></l>    <r>drogodependent<s n="adj"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
+<e>       <p><l>bimestre<s n="n"/></l>             <r>bimestre<s n="n"/></r></p></e>
+<e r="LR"><p><l>aparataje<s n="n"/><s n="m"/><s n="sg"/></l><r>aparell<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>lixiviado<s n="n"/></l>            <r>lixiviat<s n="n"/></r></p></e>
+<e>       <p><l>minimis<s n="n"/></l>              <r>minimis<s n="n"/></r></p></e>
 <e>       <p><l>personación<s n="n"/></l>          <r>personació<s n="n"/></r></p></e>
 <e>       <p><l>microrreserva<s n="n"/></l>        <r>microreserva<s n="n"/></r></p></e>
 <e>       <p><l>inundabilidad<s n="n"/></l>        <r>inundabilitat<s n="n"/></r></p></e>
