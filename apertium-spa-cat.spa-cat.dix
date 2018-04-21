@@ -838,6 +838,7 @@
 <e>       <p><l>masivo<s n="adj"/></l>            <r>massiu<s n="adj"/></r></p></e>
 <e>       <p><l>matemático<s n="adj"/></l>        <r>matemàtic<s n="adj"/></r></p></e>
 <e>       <i>material<s n="adj"/></i></e>
+<e>       <i>monomaterial<s n="adj"/></i></e>
 <e>       <p><l>máximo<s n="adj"/></l>            <r>màxim<s n="adj"/></r></p></e>
 <e>       <p><l>mayor<s n="adj"/></l>             <r>major<s n="adj"/></r></p></e>
 <e>       <p><l>mecánico<s n="adj"/></l>          <r>mecànic<s n="adj"/></r></p></e>
@@ -1278,6 +1279,8 @@
 <e>       <p><l>último<s n="adj"/></l>            <r>últim<s n="adj"/></r></p></e>
 <e>       <p><l>unánime<s n="adj"/></l>           <r>unànime<s n="adj"/></r></p></e>
 <e>       <p><l>undécimo<s n="adj"/></l>          <r>onzè<s n="adj"/></r></p></e>
+<e r="LR"><p><l>decimoprimero<s n="adj"/></l>          <r>onzè<s n="adj"/></r></p></e>
+<e r="LR"><p><l>onceavo<s n="adj"/></l>           <r>onzè<s n="adj"/></r></p></e>
 <e>       <p><l>único<s n="adj"/></l>             <r>únic<s n="adj"/></r></p></e>
 <e>       <i>universal<s n="adj"/></i></e>
 <e>       <p><l>universitario<s n="adj"/></l>     <r>universitari<s n="adj"/></r></p></e>
@@ -1465,6 +1468,7 @@
 <e>       <p><l>a<b/>brazo<b/>partido<s n="adv"/></l><r>amb<b/>totes<b/>les<b/>forces<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>la<b/>cabeza<s n="adv"/></l> <r>al<b/>capdavant<s n="adv"/></r></p></e>
 <e>       <p><l>al<b/>frente<s n="adv"/></l>      <r>al<b/>capdavant<s n="adv"/></r></p></e>
+<e>       <p><l>al<b/>trebolillo<s n="adv"/></l>  <r>a<b/>portell<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>contramano<s n="adv"/></l>   <r>contra<b/>direcció<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>mi<b/>contra<s n="adv"/></l><r>en<b/>contra<b/>meva<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>tu<b/>contra<s n="adv"/></l><r>en<b/>contra<b/>teva<s n="adv"/></r></p></e>
@@ -8952,6 +8956,8 @@
 <e>       <p><l>egoísta<s n="adj"/></l>           <r>egoista<s n="adj"/></r></p></e>
 <e>       <i>ego<s n="n"/></i></e>
 <e>       <p><l>herramienta<s n="n"/></l>         <r>eina<s n="n"/></r></p></e>
+<e r="RL"><p><l>herramienta<s n="n"/></l>         <r>aïna<s n="n"/></r></p></e>
+<e r="RL"><p><l>herramienta<s n="n"/></l>         <r>ferramenta<s n="n"/></r></p></e>
 <e r="LR"><i>Eivissa<s n="np"/></i></e>
 <e>       <p><l>Ibiza<s n="np"/></l>              <r>Eivissa<s n="np"/></r></p></e>
 <e>       <i>Eizaguirre<s n="np"/></i></e>
@@ -28250,6 +28256,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>clarividente<s n="adj"/></l>      <r>clarivident<s n="adj"/></r></p></e>
 <e>       <p><l>claroscuro<s n="adj"/></l>        <r>clarobscur<s n="adj"/></r></p></e>
 <e>       <p><l>clasificatorio<s n="adj"/></l>    <r>classificatori<s n="adj"/></r></p></e>
+<e>       <p><l>reclasificatorio<s n="adj"/></l>  <r>reclassificatori<s n="adj"/></r></p></e>
 <e>       <p><l>clasista<s n="adj"/></l>          <r>classista<s n="adj"/></r></p></e>
 <e>       <p><l>clemente<s n="adj"/></l>          <r>clement<s n="adj"/></r></p></e>
 <e>       <p><l>inclemente<s n="adj"/></l>        <r>inclement<s n="adj"/></r></p></e>
@@ -28419,6 +28426,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>endoplasmático<s n="adj"/></l>    <r>endoplasmàtic<s n="adj"/></r></p></e>
 <e>       <p><l>enemigo<s n="adj"/></l>           <r>enemic<s n="adj"/></r></p></e>
 <e>       <p><l>engorroso<s n="adj"/></l>         <r>enutjós<s n="adj"/></r></p></e>
+<e r="LR"><p><l>enojoso<s n="adj"/></l>           <r>enutjós<s n="adj"/></r></p></e>
+<e>       <p><l>fastidioso<s n="adj"/></l>        <r>enutjós<s n="adj"/></r></p></e>
 <e>       <p><l>engreído<s n="adj"/></l>          <r>envanit<s n="adj"/></r></p></e>
 <e>       <p><l>enjuto<s n="adj"/></l>            <r>eixut<s n="adj"/></r></p></e>
 <e>       <p><l>enmendable<s n="adj"/></l>        <r>esmenable<s n="adj"/></r></p></e>
@@ -29136,7 +29145,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>en<b/>neto<s n="adj"/><s n="mf"/><s n="sp"/></l><r>net<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
 <e r="LR"><p><l>encontrado<s n="adj"/></l>        <r>oposat<s n="adj"/></r></p></e>
 <e r="LR"><p><l>endeble<s n="adj"/><s n="mf"/></l><r>frèvol<s n="adj"/><s n="GD"/></r></p></e>
-<e r="LR"><p><l>enojoso<s n="adj"/></l>           <r>enutjós<s n="adj"/></r></p></e>
 <e r="LR"><p><l>espeluznante<s n="adj"/><s n="mf"/></l><r>esborronador<s n="adj"/><s n="GD"/></r></p></e>
 <e r="LR" vr="cat"><p><l>estimado<s n="adj"/></l>          <r>benvolgut<s n="adj"/></r></p></e>
 <e vr="val_gva val_uni" a="GVA"><p><l>estimado<s n="adj"/></l>          <r>estimat<s n="adj"/></r></p></e>
@@ -34244,7 +34252,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>tomar<g><b/>carrerilla</g><s n="vblex"/></l><r>prendre<g><b/>impuls</g><s n="vblex"/></r></p></e>
 <e>       <p><l>tomar<g><b/>el<b/>pelo</g><s n="vblex"/></l><r>prendre<g><b/>el<b/>pèl</g><s n="vblex"/></r></p></e>
 <e>       <p><l>transcribir<s n="vblex"/></l>     <r>transcriure<s n="vblex"/></r></p></e>
-<e r="LR">       <p><l>trasegar<s n="vblex"/></l>        <r>trasbalsar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>trascribir<s n="vblex"/></l>      <r>transcriure<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>trasegar<s n="vblex"/></l>        <r>trasbalsar<s n="vblex"/></r></p></e>
 <e>       <p><l>trasquilar<s n="vblex"/></l>      <r>esquilar<s n="vblex"/></r></p></e>
 <e>       <p><l>trinchar<s n="vblex"/></l>        <r>trinxar<s n="vblex"/></r></p></e>
 <e>       <p><l>trivializar<s n="vblex"/></l>     <r>trivialitzar<s n="vblex"/></r></p></e>
@@ -38176,9 +38185,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>guisante<s n="n"/></l>            <r>pésol<s n="n"/></r></p></e>
 <e r="RL"><p><l>hemodiálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hemodiàlisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>hemodiálisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hemodiàlisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>hercio<s n="n"/><s n="m"/><s n="ND"/></l><r>hertz<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-<e r="RL"><p><l>herramienta<s n="n"/></l>         <r>aïna<s n="n"/></r></p></e>
-<e r="RL"><p><l>herramienta<s n="n"/></l>         <r>ferramenta<s n="n"/></r></p></e>
 <e r="RL"><p><l>hibisco<s n="n"/><s n="m"/><s n="ND"/></l><r>hibiscus<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>hidrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hidròlisi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>hidrólisis<s n="n"/><s n="f"/><s n="sp"/></l><r>hidròlisi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -44809,7 +44815,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="GVA"><p><l>citoquímica<s n="n"/></l><r>citoquímica<s n="n"/></r></p></e>
 <e a="GVA"><p><l>colangiopancreatografia<s n="n"/></l><r>colangiopancreatografia<s n="n"/></r></p></e>
 <e a="GVA"><p><l>colonoscopia<s n="n"/></l><r>colonoscòpia<s n="n"/></r></p></e>
-<e a="GVA"><p><l>colorectal<s n="adj"/></l><r>colorectal<s n="adj"/></r></p></e>
+<e a="GVA"><p><l>colorrectal<s n="adj"/></l><r>colorectal<s n="adj"/></r></p></e>
 <e a="GVA"><p><l>crioaglutinina<s n="n"/></l><r>crioaglutinina<s n="n"/></r></p></e>
 <e a="GVA"><p><l>criocirugía<s n="n"/></l><r>criocirurgia<s n="n"/></r></p></e>
 <e a="GVA"><p><l>crioglobulina<s n="n"/></l><r>crioglobulina<s n="n"/></r></p></e>
@@ -46884,6 +46890,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 
 <!-- Traduccions d'adjectius de LanguageTool -->
 
+<e>       <i>auxiliable<s n="adj"/></i></e>
 <e>       <i>abacial<s n="adj"/></i></e>
 <e>       <i>abandonista<s n="adj"/></i></e>
 <e>       <i>abaxial<s n="adj"/></i></e>
@@ -51123,9 +51130,45 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>fotogramétrico<s n="adj"/></l>      <r>fotogramètric<s n="adj"/></r></p></e>
 <e>       <p><l>inscribible<s n="adj"/></l>         <r>inscriptible<s n="adj"/></r></p></e>
 <e>       <p><l>pregraduado<s n="adj"/></l>         <r>pregraduat<s n="adj"/></r></p></e>
+<e>       <p><l>cuadrilongo<s n="adj"/></l>         <r>quadrilong<s n="adj"/></r></p></e>
+<e>       <p><l>naturalístico<s n="adj"/></l>       <r>naturalístic<s n="adj"/></r></p></e>
+<e>       <p><l>metrológico<s n="adj"/></l>         <r>metrològic<s n="adj"/></r></p></e>
+<e>       <p><l>protegible<s n="adj"/></l>          <r>protegible<s n="adj"/></r></p></e>
+<e>       <p><l>proteaginoso<s n="adj"/></l>        <r>proteaginós<s n="adj"/></r></p></e>
+<e>       <p><l>vexilológico<s n="adj"/></l>        <r>vexil·lològic<s n="adj"/></r></p></e>
+<e r="LR"><p><l>concesorio<s n="adj"/></l>          <r>de<b/>concessió<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
 
+<e>       <p><l>dormidero<s n="n"/></l>             <r>dormidor<s n="n"/></r></p></e>
+<e>       <p><l>mandante<s n="n"/></l>              <r>mandant<s n="n"/></r></p></e>
+<e>       <p><l>campa<s n="n"/></l>                 <r>campa<s n="n"/></r></p></e>
+<e>       <p><l>subvencionalidad<s n="n"/></l>      <r>subvencionalitat<s n="n"/></r></p></e>
+<e>       <p><l>corvina<s n="n"/></l>               <r>corbina<s n="n"/></r></p></e>
+<e r="LR"><p><l>turnicidad<s n="n"/></l>            <r>treball<g><b/>per<b/>torns</g><s n="n"/></r></p></e>
+<e>       <p><l>azagador<s n="n"/></l>              <r>assagador<s n="n"/></r></p></e>
+<e r="RL"><p><l>azagador<s n="n"/></l>              <r>assegador<s n="n"/></r></p></e>
+<e r="LR"><p><l>azagadero<s n="n"/></l>             <r>assagador<s n="n"/></r></p></e>
+<e>       <p><l>bronquiopatía<s n="n"/></l>         <r>bronquiopatia<s n="n"/></r></p></e>
+<e>       <p><l>Xylella<b/>fastidiosa<s n="n"/></l> <r>Xylella<b/>fastidiosa<s n="n"/></r></p></e>
+<e>       <p><l>cañada<s n="n"/></l>                <r>canyada<s n="n"/></r></p></e>
+<e r="LR"><p><l>labranza<s n="n"/><s n="f"/></l>    <r>cultiu<s n="n"/><s n="m"/></r></p></e>
+<e vr="cat val_uni"><p><l>apero<s n="n"/><s n="m"/><s n="pl"/></l><r>eina<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e vr="val_gva"><p><l>apero<s n="n"/><s n="m"/><s n="pl"/></l><r>ferramenta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR"><p><l>apero<s n="n"/><s n="m"/><s n="sg"/></l><r>ormeig<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>apero<s n="n"/><s n="m"/><s n="pl"/></l><r>ormeig<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>contraparte<s n="n"/></l>           <r>contrapart<s n="n"/></r></p></e>
+<e>       <p><l>marga<s n="n"/></l>                 <r>marga<s n="n"/></r></p></e>
+<e>       <p><l>icnita<s n="n"/></l>                <r>icnita<s n="n"/></r></p></e>
+<e>       <p><l>decil<s n="n"/></l>                 <r>decil<s n="n"/></r></p></e>
+<e>       <p><l>mmHg<s n="n"/></l>                  <r>mmHg<s n="n"/></r></p></e>
+<e>       <p><l>hemopatía<s n="n"/></l>             <r>hemopatia<s n="n"/></r></p></e>
+<e>       <p><l>atomizador<s n="n"/></l>            <r>atomitzador<s n="n"/></r></p></e>
+<e>       <p><l>celador<s n="n"/></l>               <r>zelador<s n="n"/></r></p></e>
+<e r="LR"><p><l>ujier<s n="n"/><s n="mf"/></l>      <r>uixer<s n="n"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>ujier<s n="n"/><s n="mf"/></l>      <r>uixer<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ujier<s n="n"/><s n="mf"/></l>      <r>uixer<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>planilla<s n="n"/><s n="f"/></l>    <r>full<g><b/>d'anotacions</g><s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>dispersor<s n="n"/></l>             <r>dispersor<s n="n"/></r></p></e>
 <e r="LR"><p><l>dispersor<s n="adj"/></l>           <r>dispersiu<s n="adj"/></r></p></e>
 <e>       <p><l>dispersivo<s n="adj"/></l>          <r>dispersiu<s n="adj"/></r></p></e>
