@@ -1797,6 +1797,7 @@
 <e>       <p><l>preadhesión<s n="n"/></l>         <r>preadhesió<s n="n"/></r></p></e>
 <e>       <p><l>adiós<s n="n"/></l>               <r>adéu<s n="n"/></r></p></e>
 <e>       <p><l>administración<s n="n"/></l>      <r>administració<s n="n"/></r></p></e>
+<e>       <p><l>teleadministración<s n="n"/></l>  <r>teleadministració<s n="n"/></r></p></e>
 <e>       <i>administrador<s n="n"/></i></e>
 <e>       <p><l>admiración<s n="n"/></l>          <r>admiració<s n="n"/></r></p></e>
 <e>       <p><l>adolescente<s n="n"/></l>         <r>adolescent<s n="n"/></r></p></e>
@@ -4671,6 +4672,7 @@
 <e>       <p><l>yegua<s n="n"/></l>               <r>egua<s n="n"/></r></p></e>
 <e>       <p><l>zapato<s n="n"/><s n="m"/></l>    <r>sabata<s n="n"/><s n="f"/></r></p></e>
 <e>       <i>zona<s n="n"/></i></e>
+<e>       <i>subzona<s n="n"/></i></e>
 
 <e>       <p><l>nuevo<b/>rico<s n="n"/></l>       <r>nou-ric<s n="n"/></r></p></e>
 <e>       <p><l>ikastola<s n="n"/></l>            <r>ikastola<s n="n"/></r></p></e>
@@ -6738,7 +6740,6 @@
 <e>       <p><l>adhesivo<s n="adj"/></l>          <r>adhesiu<s n="adj"/></r></p></e>
 <e>       <p><l>pegatina<s n="n"/><s n="f"/></l>  <r>adhesiu<s n="n"/><s n="m"/></r></p></e>
 <e>       <i>adinerar<s n="vblex"/></i></e>
-<e>       <p><l>adyacente<s n="adj"/></l>         <r>adjacent<s n="adj"/></r></p></e>
 <e>       <p><l>adjetivo<s n="n"/></l>            <r>adjectiu<s n="n"/></r></p></e>
 <e>       <p><l>adjudicación<s n="n"/></l>        <r>adjudicació<s n="n"/></r></p></e>
 <e>       <p><l>adjudicatario<s n="adj"/></l>     <r>adjudicatari<s n="adj"/></r></p></e>
@@ -8172,8 +8173,9 @@
 <e>       <p><l>conformidad<s n="n"/></l>         <r>conformitat<s n="n"/></r></p></e>
 <e>       <i>confort<s n="n"/></i></e>
 <e>       <p><l>confrontación<s n="n"/></l>       <r>confrontació<s n="n"/></r></p></e>
-<e>       <p><l>colindante<s n="n"/></l>          <r>confrontant<s n="n"/></r></p></e>
-<e><p><l>colindante<s n="adj"/></l><r>adjacent<s n="adj"/></r></p></e>
+<e r="LR"><p><l>lindante<s n="adj"/></l>          <r>confrontant<s n="adj"/></r></p></e>
+<e>       <p><l>colindante<s n="adj"/></l>        <r>confrontant<s n="adj"/></r></p></e>
+<e>       <p><l>adyacente<s n="adj"/></l>         <r>adjacent<s n="adj"/></r></p></e>
 <e>       <i>confrontar<s n="vblex"/></i></e>
 <e>       <p><l>congelación<s n="n"/></l>         <r>congelació<s n="n"/></r></p></e>
 <e>       <p><l>congénere<s n="adj"/></l>         <r>congènere<s n="adj"/></r></p></e>
@@ -8433,9 +8435,11 @@
 <e>       <i>currículum<s n="n"/></i></e>
 <e>       <i>curriculum<b/>vitae<s n="n"/></i></e>
 <e r="LR"><p><l>currículum<b/>vitae<s n="n"/></l> <r>curriculum<b/>vitae<s n="n"/></r></p></e>
+<e r="LR"><p><l>currículum<b/>vítae<s n="n"/></l> <r>curriculum<b/>vitae<s n="n"/></r></p></e>
 <e r="RL"><p><l>curriculum<b/>vitae<s n="n"/></l> <r>currículum<b/>vitae<s n="n"/></r></p></e>
 <e r="RL"><p><l>currículum<s n="n"/></l>          <r>curriculum<s n="n"/></r></p></e>
 <e r="LR"><p><l>curriculum<s n="n"/></l>          <r>currículum<s n="n"/></r></p></e>
+<e r="LR"><p><l>currícula<s n="n"/></l>           <r>currículum<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>vitae<s n="adj"/></l>   <r>vitae<s n="adj"/></r></p></e>
 <e>       <i>cursar<s n="vblex"/></i></e>
 <e>       <p><l>cortocircuito<s n="n"/></l>       <r>curtcircuit<s n="n"/></r></p></e>
@@ -8726,6 +8730,7 @@
 <e>       <p><l>diagnóstico<s n="adj"/></l>       <r>diagnòstic<s n="adj"/></r></p></e>
 <e>       <i>diagnosticar<s n="vblex"/></i></e>
 <e>       <p><l>diagnóstico<s n="n"/></l>         <r>diagnòstic<s n="n"/></r></p></e>
+<e>       <p><l>radiodiagnóstico<s n="n"/></l>    <r>radiodiagnòstic<s n="n"/></r></p></e>
 <e>       <i>Diagonal<s n="np"/><s n="loc"/></i></e>
 <e>       <p><l>dialecto<s n="n"/></l>            <r>dialecte<s n="n"/></r></p></e>
 <e>       <p><l>dialéctico<s n="adj"/></l>        <r>dialèctic<s n="adj"/></r></p></e>
@@ -14579,6 +14584,7 @@
 <e a="gema"><p><l>arqueo<s n="n"/></l>            <r>arqueig<s n="n"/></r></p></e>
 <e a="gema"><p><l>aduana<s n="n"/></l>            <r>duana<s n="n"/></r></p></e>
 <e a="gema"><p><l>adenda<s n="n"/></l>            <r>addenda<s n="n"/></r></p></e>
+<e r="LR">  <p><l>addenda<s n="n"/></l>           <r>addenda<s n="n"/></r></p></e>
 <e a="gema"><p><l>aclaración<s n="n"/><s n="f"/></l>        <r>aclariment<s n="n"/><s n="m"/></r></p></e>
 <e a="gema"><p><l>numérico<s n="adj"/></l>        <r>numèric<s n="adj"/></r></p></e>
 <e a="gema"><p><l>medio<b/>ambiente<s n="n"/></l> <r>medi<b/>ambient<s n="n"/></r></p></e>
@@ -15701,6 +15707,7 @@
 <e a="prompsit2adn"><p><l>deliberación<s n="n"/></l><r>deliberació<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>deliberadamente<s n="adv"/></l><r>deliberadament<s n="adv"/></r></p></e>
 <e a="prompsit2adn"><i>delimitar<s n="vblex"/></i></e>
+<e>                 <i>redelimitar<s n="vblex"/></i></e>
 <e a="prompsit2adn"><i>delinquir<s n="vblex"/></i></e>
 <e a="prompsit2adn"><p><l>delirante<s n="adj"/></l><r>delirant<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><i>delta<s n="n"/></i></e>
@@ -16458,6 +16465,7 @@
 <e a="prompsit2adn"><p><l>masía<s n="n"/></l>     <r>masia<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>masón<s n="n"/></l>     <r>maçó<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>máster<s n="n"/></l>    <r>màster<s n="n"/></r></p></e>
+<e r="LR">          <p><l>master<s n="n"/></l>    <r>màster<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>mástil<s n="n"/></l>    <r>masteler<s n="n"/></r></p></e>
 <e a="prompsit2adn"><i>matador<s n="n"/></i></e>
 <e a="prompsit2adn"><i>matador<s n="adj"/></i></e>
@@ -36040,6 +36048,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>entendedor<s n="n"/></l>          <r>entenedor<s n="n"/></r></p></e>
 <e>       <p><l>entero<s n="n"/></l>              <r>enter<s n="n"/></r></p></e>
 <e>       <p><l>entlo.<s n="n"/></l>              <r>entl.<s n="n"/></r></p></e>
+<e>       <p><l>ssp.<s n="n"/></l>                <r>ssp.<s n="n"/></r></p></e>
+<e>       <p><l>subsp.<s n="n"/></l>              <r>subsp.<s n="n"/></r></p></e>
 <e>       <p><l>entrañas<s n="n"/></l>            <r>entranyes<s n="n"/></r></p></e>
 <e>       <p><l>entrecubierta<s n="n"/></l>       <r>entrecoberta<s n="n"/></r></p></e>
 <e>       <p><l>entrelazamiento<s n="n"/></l>     <r>entrellaçament<s n="n"/></r></p></e>
@@ -36922,6 +36932,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>peritación<s n="n"/></l>          <r>peritació<s n="n"/></r></p></e>
 <e>       <p><l>permanganato<s n="n"/></l>        <r>permanganat<s n="n"/></r></p></e>
 <e>       <p><l>permeabilidad<s n="n"/></l>       <r>permeabilitat<s n="n"/></r></p></e>
+<e>       <p><l>impermeabilidad<s n="n"/></l>     <r>impermeabilitat<s n="n"/></r></p></e>
 <e>       <p><l>permiano<s n="n"/></l>            <r>permià<s n="n"/></r></p></e>
 <e>       <p><l>perno<s n="n"/></l>               <r>pern<s n="n"/></r></p></e>
 <e>       <p><l>peronismo<s n="n"/></l>           <r>peronisme<s n="n"/></r></p></e>
@@ -37049,6 +37060,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>próximo<b/>venidero<s n="n"/></l> <r>propvinent<s n="n"/></r></p></e>
 <e>       <p><l>proyeccionista<s n="n"/></l>      <r>projeccionista<s n="n"/></r></p></e>
 <e>       <p><l>psicopatía<s n="n"/></l>          <r>psicopatia<s n="n"/></r></p></e>
+<e>       <p><l>broncopatía<s n="n"/></l>         <r>broncopatia<s n="n"/></r></p></e>
 <e>       <p><l>ps.<s n="n"/></l>                 <r>pg.<s n="n"/></r></p></e>
 <e>       <p><l>púa<s n="n"/></l>                 <r>pua<s n="n"/></r></p></e>
 <e>       <p><l>puebla<s n="n"/></l>              <r>pobla<s n="n"/></r></p></e>
@@ -44187,6 +44199,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 
 <e a="prompsit"><p><l>marco<b/>legal<s n="n"/></l><r>marc<b/>legal<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>plano<b/>inclinado<s n="n"/></l><r>pla<b/>inclinat<s n="n"/></r></p></e>
+<e>             <p><l>pino<b/>carrasco<s n="n"/></l><r>pi<b/>blanc<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>coligativo<s n="adj"/></l><r>col·ligatiu<s n="adj"/></r></p></e>	
 <e><p><l>enjuagar<s n="vblex"/></l><r>esbandir<s n="vblex"/></r></p></e>	
 <e><p><l>enjugar<s n="vblex"/></l><r>eixugar<s n="vblex"/></r></p></e>	
@@ -49442,7 +49455,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>difusivo<s n="adj"/></l>           <r>difusiu<s n="adj"/></r></p></e>
 <e>       <p><l>dilatativo<s n="adj"/></l>         <r>dilatatiu<s n="adj"/></r></p></e>
 <e>       <p><l>disgregativo<s n="adj"/></l>       <r>disgregatiu<s n="adj"/></r></p></e>
-<e>       <p><l>dispersivo<s n="adj"/></l>         <r>dispersiu<s n="adj"/></r></p></e>
 <e>       <p><l>diversivo<s n="adj"/></l>          <r>diversiu<s n="adj"/></r></p></e>
 <e>       <p><l>durativo<s n="adj"/></l>           <r>duratiu<s n="adj"/></r></p></e>
 <e>       <p><l>edificativo<s n="adj"/></l>        <r>edificatiu<s n="adj"/></r></p></e>
@@ -51104,13 +51116,31 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>hortofrutícola<s n="adj"/></l>      <r>hortofructícola<s n="adj"/></r></p></e>
 <e>       <p><l>multifuncional<s n="adj"/></l>      <r>multifuncional<s n="adj"/></r></p></e>
 <e>       <p><l>suprarregional<s n="adj"/></l>      <r>supraregional<s n="adj"/></r></p></e>
+<e>       <p><l>vacuo<s n="adj"/></l>               <r>vacu<s n="adj"/></r></p></e>
+<e>       <p><l>amoniacal<s n="adj"/></l>           <r>amoniacal<s n="adj"/></r></p></e>
+<e>       <p><l>preadoptivo<s n="adj"/></l>         <r>preadoptiu<s n="adj"/></r></p></e>
+<e>       <p><l>venoso<s n="adj"/></l>              <r>venós<s n="adj"/></r></p></e>
+<e>       <p><l>fotogramétrico<s n="adj"/></l>      <r>fotogramètric<s n="adj"/></r></p></e>
+<e>       <p><l>inscribible<s n="adj"/></l>         <r>inscriptible<s n="adj"/></r></p></e>
+<e>       <p><l>pregraduado<s n="adj"/></l>         <r>pregraduat<s n="adj"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
 
+<e>       <p><l>dispersor<s n="n"/></l>             <r>dispersor<s n="n"/></r></p></e>
+<e r="LR"><p><l>dispersor<s n="adj"/></l>           <r>dispersiu<s n="adj"/></r></p></e>
+<e>       <p><l>dispersivo<s n="adj"/></l>          <r>dispersiu<s n="adj"/></r></p></e>
+<e r="LR"><p><l>aclareo<s n="n"/><s n="m"/></l>     <r>aclarida<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>variz<s n="n"/></l>                 <r>variça<s n="n"/></r></p></e>
+<e r="RL"><p><l>variz<s n="n"/></l>                 <r>variu<s n="n"/></r></p></e>
+<e>       <p><l>olivar<s n="n"/></l>                <r>olivar<s n="n"/></r></p></e>
+<e>       <p><l>marjal<s n="n"/><s n="m"/></l>      <r>marjal<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cronograma<s n="n"/></l>            <r>cronograma<s n="n"/></r></p></e>
+<e>       <p><l>gules<s n="n"/></l>                 <r>gules<s n="n"/></r></p></e>
 <e>       <p><l>crupier<s n="n"/></l>               <r>crupier<s n="n"/></r></p></e>
 <e>       <p><l>alegante<s n="n"/></l>              <r>al·legant<s n="n"/></r></p></e>
 <e>       <p><l>fanera<s n="n"/></l>                <r>fànera<s n="n"/></r></p></e>
-<e>       <p><l>algarrobo<s n="n"/></l>             <r>garrofer<s n="n"/></r></p></e>
+<e vr="cat"><p><l>algarrobo<s n="n"/></l>           <r>garrofer<s n="n"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>algarrobo<s n="n"/><s n="m"/></l>   <r>garrofera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>vocalía<s n="n"/></l>               <r>vocalia<s n="n"/></r></p></e>
 <e>       <p><l>subsidiación<s n="n"/></l>          <r>subsidiació<s n="n"/></r></p></e>
 <e>       <p><l>solera<s n="n"/></l>                <r>solera<s n="n"/></r></p></e>
@@ -51125,6 +51155,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>aparataje<s n="n"/><s n="m"/><s n="sg"/></l><r>aparell<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>lixiviado<s n="n"/></l>            <r>lixiviat<s n="n"/></r></p></e>
 <e>       <p><l>minimis<s n="n"/></l>              <r>minimis<s n="n"/></r></p></e>
+<e r="LR"><p><l>mínimis<s n="n"/></l>              <r>minimis<s n="n"/></r></p></e>
 <e>       <p><l>personación<s n="n"/></l>          <r>personació<s n="n"/></r></p></e>
 <e>       <p><l>microrreserva<s n="n"/></l>        <r>microreserva<s n="n"/></r></p></e>
 <e>       <p><l>inundabilidad<s n="n"/></l>        <r>inundabilitat<s n="n"/></r></p></e>
