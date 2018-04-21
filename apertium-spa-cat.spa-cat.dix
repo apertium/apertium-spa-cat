@@ -4688,7 +4688,8 @@
 <e>       <p><l>catavinos<s n="n"/></l>           <r>tastavins<s n="n"/></r></p></e>
 <e r="RL"><p><l>perito<s n="n"/></l>              <r>pèrit<s n="n"/></r></p></e>
 <e>       <p><l>nº<s n="n"/></l>                  <r>núm.<s n="n"/></r></p></e>
-
+<e r="LR"><i>núm.<s n="n"/></i></e>
+<e r="LR"><p><l>núms.<s n="n"/></l>               <r>núm.<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 <e>       <i>C<s n="num"/></i></e>
 <e>       <i>D<s n="num"/></i></e>
@@ -8994,6 +8995,7 @@
 <e>       <p><l>Elche<s n="np"/></l>              <r>Elx<s n="np"/></r></p></e>
 <e r="LR"><i>Elx<s n="np"/></i></e>
 <e>       <i>emanar<s n="vblex"/></i></e>
+<e>       <i>dimanar<s n="vblex"/></i></e>
 <e>       <i>emancipar<s n="vblex"/></i></e>
 <e>       <p><l>embobar<s n="vblex"/></l>         <r>embadalir<s n="vblex"/></r></p></e>
 <e>       <p><l>embarcación<s n="n"/></l>         <r>embarcació<s n="n"/></r></p></e>
@@ -36058,6 +36060,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>entendedor<s n="n"/></l>          <r>entenedor<s n="n"/></r></p></e>
 <e>       <p><l>entero<s n="n"/></l>              <r>enter<s n="n"/></r></p></e>
 <e>       <p><l>entlo.<s n="n"/></l>              <r>entl.<s n="n"/></r></p></e>
+<e>       <p><l>proc.<s n="n"/></l>               <r>proc.<s n="n"/></r></p></e>
 <e>       <p><l>ssp.<s n="n"/></l>                <r>ssp.<s n="n"/></r></p></e>
 <e>       <p><l>subsp.<s n="n"/></l>              <r>subsp.<s n="n"/></r></p></e>
 <e>       <p><l>entrañas<s n="n"/></l>            <r>entranyes<s n="n"/></r></p></e>
@@ -37639,7 +37642,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><i>estima<s n="n"/><s n="f"/></i></e>
 <e r="LR"><i>gel<s n="n"/></i></e>
 <e r="LR"><i>murta<s n="n"/></i></e>
-<e r="LR"><i>núm.<s n="n"/></i></e>
 <e r="LR"><i>pedrera<s n="n"/></i></e>
 <e r="LR"><i>RO<s n="n"/></i></e>
 <e r="LR"><i>universitat<s n="n"/></i></e>
@@ -44046,12 +44048,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
       <r>reparcel·lació<s n="n"/></r>
     </p>
   </e>
-  <e>
-    <p>
-      <l>sustanciación<s n="n"/></l>
-      <r>substanciació<s n="n"/></r>
-    </p>
-  </e>
+<e>       <p><l>sustanciación<s n="n"/></l>      <r>substanciació<s n="n"/></r></p>  </e>
+<e r="LR"><p><l>substanciación<s n="n"/></l>     <r>substanciació<s n="n"/></r></p>  </e>
   <e>
     <p>
       <l>proyectista<s n="n"/></l>
@@ -51142,6 +51140,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 
 <!-- Traduccions de noms de LanguageTool -->
 
+<e>       <p><l>biodiésel<s n="n"/></l>             <r>biodièsel<s n="n"/></r></p></e>
 <e>       <p><l>vinificación<s n="n"/></l>          <r>vinificació<s n="n"/></r></p></e>
 <e>       <p><l>marroquinería<s n="n"/></l>         <r>marroquineria<s n="n"/></r></p></e>
 <e r="LR"><p><l>pedimento<s n="n"/><s n="m"/></l>   <r>petició<s n="n"/><s n="f"/></r></p></e>
