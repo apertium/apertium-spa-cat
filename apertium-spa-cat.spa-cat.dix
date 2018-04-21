@@ -1468,7 +1468,7 @@
 <e>       <p><l>a<b/>brazo<b/>partido<s n="adv"/></l><r>amb<b/>totes<b/>les<b/>forces<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>la<b/>cabeza<s n="adv"/></l> <r>al<b/>capdavant<s n="adv"/></r></p></e>
 <e>       <p><l>al<b/>frente<s n="adv"/></l>      <r>al<b/>capdavant<s n="adv"/></r></p></e>
-<e>       <p><l>al<b/>trebolillo<s n="adv"/></l>  <r>a<b/>portell<s n="adv"/></r></p></e>
+<e>       <p><l>al<b/>tresbolillo<s n="adv"/></l> <r>a<b/>portell<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>contramano<s n="adv"/></l>   <r>contra<b/>direcció<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>mi<b/>contra<s n="adv"/></l><r>en<b/>contra<b/>meva<s n="adv"/></r></p></e>
 <e>       <p><l>en<b/>tu<b/>contra<s n="adv"/></l><r>en<b/>contra<b/>teva<s n="adv"/></r></p></e>
@@ -13281,6 +13281,7 @@
 <e r="LR"><p><l>enterramiento<s n="n"/></l>       <r>enterrament<s n="n"/></r></p></e>
 <e>       <p><l>soterramiento<s n="n"/></l>       <r>soterrament<s n="n"/></r></p></e>
 <e>       <p><l>sótano<s n="n"/></l>              <r>soterrani<s n="n"/></r></p></e>
+<e>       <p><l>semisótano<s n="n"/></l>          <r>semisoterrani<s n="n"/></r></p></e>
 <e>       <p><l>sepultado<s n="adj"/></l>         <r>soterrat<s n="adj"/></r></p></e>
 <e r="LR"><p><l>sepulto<s n="adj"/></l>           <r>soterrat<s n="adj"/></r></p></e>
 <e r="LR"><p><l>soterrado<s n="adj"/></l>         <r>soterrat<s n="adj"/></r></p></e>
@@ -46890,6 +46891,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 
 <!-- Traduccions d'adjectius de LanguageTool -->
 
+<e>       <i>incentivable<s n="adj"/></i></e>
 <e>       <i>auxiliable<s n="adj"/></i></e>
 <e>       <i>abacial<s n="adj"/></i></e>
 <e>       <i>abandonista<s n="adj"/></i></e>
@@ -51140,12 +51142,15 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 
 <!-- Traduccions de noms de LanguageTool -->
 
+<e>       <p><l>vinificación<s n="n"/></l>          <r>vinificació<s n="n"/></r></p></e>
+<e>       <p><l>marroquinería<s n="n"/></l>         <r>marroquineria<s n="n"/></r></p></e>
+<e r="LR"><p><l>pedimento<s n="n"/><s n="m"/></l>   <r>petició<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>dormidero<s n="n"/></l>             <r>dormidor<s n="n"/></r></p></e>
 <e>       <p><l>mandante<s n="n"/></l>              <r>mandant<s n="n"/></r></p></e>
 <e>       <p><l>campa<s n="n"/></l>                 <r>campa<s n="n"/></r></p></e>
 <e>       <p><l>subvencionalidad<s n="n"/></l>      <r>subvencionalitat<s n="n"/></r></p></e>
 <e>       <p><l>corvina<s n="n"/></l>               <r>corbina<s n="n"/></r></p></e>
-<e r="LR"><p><l>turnicidad<s n="n"/></l>            <r>treball<g><b/>per<b/>torns</g><s n="n"/></r></p></e>
+<e r="LR"><p><l>turnicidad<s n="n"/><s n="f"/></l>  <r>treball<g><b/>per<b/>torns</g><s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>azagador<s n="n"/></l>              <r>assagador<s n="n"/></r></p></e>
 <e r="RL"><p><l>azagador<s n="n"/></l>              <r>assegador<s n="n"/></r></p></e>
 <e r="LR"><p><l>azagadero<s n="n"/></l>             <r>assagador<s n="n"/></r></p></e>
@@ -51191,6 +51196,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>regante<s n="n"/></l>               <r>regant<s n="n"/></r></p></e>
 <e>       <p><l>codemandado<s n="n"/></l>           <r>codemandat<s n="n"/></r></p></e>
 <e>       <p><l>demandado<s n="n"/></l>             <r>demandat<s n="n"/></r></p></e>
+<e r="LR"><p><l>salmonelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>salmonel·losi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>salmonelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>salmonel·losi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>salmonelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>salmonel·losi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>legionelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>legionel·losi<s n="n"/><s n="f"/><s n="ND"/></r></p></e>
 <e r="RL"><p><l>legionelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>legionel·losi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="RL"><p><l>legionelosis<s n="n"/><s n="f"/><s n="sp"/></l><r>legionel·losi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
