@@ -117,6 +117,20 @@
         <select lemma="cort" />
     </match>
   </rule>
+  <rule weight="1.0"> 
+    <match lemma="*" tags="det.*.f.*"/>
+    <match lemma="corte" tags="n.*">
+        <select lemma="cort" />
+    </match>
+  </rule>
+  <rule weight="1.0"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="cort" />
+    </match>
+    <match lemma="*" tags="adj.f.*"/>
+  </rule>
+
+
   <rule weight="1.0">
     <match lemma="*" tags="det.*.m.*"/>
     <match lemma="corte" tags="n.*">
@@ -135,18 +149,13 @@
     </match>
     <match lemma="*" tags="adj.m.*"/>
   </rule>
-  <rule weight="1.0"> 
-    <match lemma="*" tags="det.*.f.*"/>
+  <rule weight="1.0">  <!-- un monumental corte -->
+    <match lemma="*" tags="det.*.m.*"/>
+    <match lemma="*" tags="adj.mf.*"/>
     <match lemma="corte" tags="n.*">
-        <select lemma="cort" />
+        <select lemma="tall" />
     </match>
-  </rule>
-  <rule weight="1.0"> 
-    <match lemma="corte" tags="n.*">
-        <select lemma="cort" />
-    </match>
-    <match lemma="*" tags="adj.f.*"/>
-  </rule>
+  </rule> 
 
   <!-- contar > contar/comptar -->
 
@@ -727,7 +736,6 @@
         <match tags="det.*"/>
         <match tags="adj.*"/>
         <match tags="adv"/>
-        <match tags="pr"/>
       </or>
     </repeat> 
     <or>
@@ -750,10 +758,26 @@
       <match lemma="periódico" tags="n.*"/>
       <match lemma="diario" tags="n.*"/>
       <match lemma="saludo" tags="n.*"/>
-      <match lemma="calle" tags="n.*"/>
     </or>
   </rule>
   
+  <rule weight="1.0"> <!-- també: engegar -->
+    <match lemma="mandar" tags="vblex.*"><select lemma="enviar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="calle" tags="n.*"/>
+      <match lemma="mierda" tags="n.*"/>
+      <match lemma="porra" tags="n.*"/>
+      <match lemma="paseo" tags="n.*"/>
+    </or>
+  </rule>
 
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
