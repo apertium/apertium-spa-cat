@@ -7362,7 +7362,7 @@
 <e>       <p><l>abortar<s n="vblex"/></l>         <r>avortar<s n="vblex"/></r></p></e>
 <e>       <i>Aznar<s n="np"/></i></e>
 <e>       <i>Azorín<s n="np"/></i></e>
-<e>       <p><l>bobo<s n="adj"/></l>   			  <r>babau<s n="adj"/></r></p></e>
+<e>       <p><l>bobo<s n="adj"/></l>   			      <r>babau<s n="adj"/></r></p></e>
 <e>       <p><l>bacalao<s n="n"/></l>             <r>bacallà<s n="n"/></r></p></e>
 <e>       <i>Badajoz<s n="np"/></i></e>
 <e>       <i>Badalona<s n="np"/></i></e>
@@ -7378,13 +7378,16 @@
 <e>       <p><l>Bayona<s n="np"/><s n="loc"/></l> <r>Baiona<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>apeadero<s n="n"/></l>            <r>baixador<s n="n"/></r></p></e>
 <e>       <p><l>bajista<s n="n"/></l>             <r>baixista<s n="n"/></r></p></e>
-<e>       <p><l>bajón<s n="n"/></l>               <r>baixó<s n="n"/></r></p></e>
+<e>       <p><l>bajista<s n="adj"/></l>           <r>baixista<s n="adj"/></r></p></e>
+<e r="RL"><p><l>bajón<s n="n"/></l>               <r>baixó<s n="n"/></r></p></e>
+<e r="LR"><p><l>bajón<s n="n"/><s n="m"/></l>     <r>baixada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>despilfarro<s n="n"/></l>         <r>balafiament<s n="n"/></r></p></e>
 <e>       <p><l>balanza<s n="n"/></l>             <r>balança<s n="n"/></r></p></e>
 <e>       <i>Balboa<s n="np"/></i></e>
 <e>       <i>balear<s n="adj"/></i></e>
 <e>       <i>balear<s n="n"/></i></e>
 <e>       <p><l>Baleares<s n="np"/></l>           <r>Balears<s n="np"/></r></p></e>
+<e>       <p><l>les<b/>Valls<s n="np"/></l>       <r>les<b/>Valls<s n="np"/></r></p></e>
 <e>       <p><l>bailaor<s n="n"/></l>             <r>ballador<s n="n"/></r></p></e>
 <e>       <p><l>bailarín<s n="n"/></l>            <r>ballarí<s n="n"/></r></p></e>
 <e>       <p><l>danzar<s n="vblex"/></l>          <r>dansar<s n="vblex"/></r></p></e>
@@ -29136,8 +29139,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>ateniense<s n="adj"/><s n="mf"/></l><r>atenès<s n="adj"/><s n="GD"/></r></p></e>
 <e r="LR"><p><l>atolondrado<s n="adj"/></l>       <r>atabalat<s n="adj"/></r></p></e>
 <e r="LR"><p><l>atontado<s n="adj"/></l>          <r>encantat<s n="adj"/></r></p></e>
-<e r="LR"><p><l>bajista<s n="adj"/><s n="mf"/><s n="pl"/></l><r>a<b/>la<b/>baixa<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
-<e r="LR"><p><l>bajista<s n="adj"/><s n="mf"/><s n="sg"/></l><r>a<b/>la<b/>baixa<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>barriobajero<s n="adj"/><s n="f"/><s n="pl"/></l><r>de<b/>barriada<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>barriobajero<s n="adj"/><s n="f"/><s n="sg"/></l><r>de<b/>barriada<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="LR"><p><l>barriobajero<s n="adj"/><s n="m"/><s n="pl"/></l><r>de<b/>barriada<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -29258,7 +29259,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="RL"><p><l>arcilloso<s n="adj"/></l>         <r>argilós<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ateniense<s n="adj"/><s n="mf"/></l><r>atenès<s n="adj"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>ateniense<s n="adj"/><s n="mf"/></l><r>atenès<s n="adj"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>bajista<s n="adj"/><s n="mf"/><s n="ND"/></l><r>a<b/>la<b/>baixa<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>barriobajero<s n="adj"/><s n="GD"/><s n="ND"/></l><r>de<b/>barriada<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>bisiesto<s n="adj"/><s n="GD"/><s n="ND"/></l><r>de<b/>traspàs<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e r="RL"><p><l>borde<s n="adj"/><s n="mf"/></l>  <r>bord<s n="adj"/><s n="f"/></r></p></e>
@@ -32883,6 +32883,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e r="LR"><p><l>para<b/>siempre<s n="adv"/></l>   <r>per<b/>sempre<s n="adv"/></r></p></e>
 <e r="LR"><p><l>p.ej.<s n="adv"/></l>             <r>p.<b/>ex.<s n="adv"/></r></p></e>
 <e r="LR"><p><l>poco<b/>a<b/>poco<s n="adv"/></l> <r>a<b/>poc<b/>a<b/>poc<s n="adv"/></r></p></e>
+<e>       <p><l>paso<b/>a<b/>paso<s n="adv"/></l> <r>pas<b/>a<b/>pas<s n="adv"/></r></p></e>
 <e r="LR"><p><l>por<b/>arrobas<s n="adv"/></l>    <r>a<b/>cabassos<s n="adv"/></r></p></e>
 <e r="LR"><p><l>por<b/>correspondencia<s n="adv"/></l><r>per<b/>correu<s n="adv"/></r></p></e>
 <e r="LR"><p><l>por<b/>de<b/>pronto<s n="adv"/></l><r>d'antuvi<s n="adv"/></r></p></e>
