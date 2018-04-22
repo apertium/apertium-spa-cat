@@ -8404,11 +8404,15 @@
 <e>       <p><l>crucero<s n="n"/></l>             <r>creuer<s n="n"/></r></p></e>
 <e>       <p><l>crianza<s n="n"/></l>             <r>criança<s n="n"/></r></p></e>
 <e>       <p><l>llamamiento<s n="n"/><s n="m"/></l><r>crida<s n="n"/><s n="f"/></r></p></e>
-<e srl="llamar D"><p><l>llamar<s n="vblex"/></l>  <r>cridar<s n="vblex"/></r></p></e>
+<e>       <p><l>llamar<s n="vblex"/></l>          <r>cridar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>llamar<s n="vblex"/></l>          <r>telefonar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>llamar<s n="vblex"/></l>          <r>trucar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>llamar<s n="vblex"/></l>          <r>anomenar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>llamar<s n="vblex"/></l>          <r>dir<s n="vblex"/></r></p></e>
 <e>       <p><l>criminalizar<s n="vblex"/></l>    <r>criminalitzar<s n="vblex"/></r></p></e>
 <e>       <p><l>crispación<s n="n"/></l>          <r>crispació<s n="n"/></r></p></e>
-<e vr="cat"><p><l>palomita<s n="n"/></l>            <r>crispeta<s n="n"/></r></p></e>
-<e r="LR" vr="val_gva val_uni" a="GVA">       <p><l>palomita<s n="n"/></l>            <r>rosa<s n="n"/></r></p></e>
+<e vr="cat"><p><l>palomita<s n="n"/></l>          <r>crispeta<s n="n"/></r></p></e>
+<e r="LR" vr="val_gva val_uni" a="GVA"><p><l>palomita<s n="n"/></l><r>rosa<s n="n"/></r></p></e>
 <e>       <i>Cristian<s n="np"/></i></e>
 <e>       <i>Cristina<s n="np"/></i></e>
 <e>       <p><l>Cristo<s n="np"/></l>             <r>Crist<s n="np"/></r></p></e>
@@ -34499,6 +34503,8 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="cat" r="LR"><p><l>apretar<g><b/>a<b/>correr</g><s n="vblex"/></l><r>arrencar<g><b/>a<b/>córrer</g><s n="vblex"/></r></p></e>
 <e vr="cat"><p><l>ir<g><b/>a<b/>lo<b/>suyo</g><s n="vblex"/></l><r>anar<g><b/>a<b/>la<b/>seva</g><s n="vblex"/></r></p></e>
 <e vr="cat"><p><l>llamar<g><b/>por<b/>teléfono</g><s n="vblex"/></l><r>trucar<g><b/>per<b/>telèfon</g><s n="vblex"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>llamar<g><b/>por<b/>teléfono</g><s n="vblex"/></l><r>telefonar<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>llamar<g><b/>por<b/>teléfono</g><s n="vblex"/></l><r>cridar<g><b/>per<b/>telèfon</g><s n="vblex"/></r></p></e>
 <e><p><l>meter<g><b/>baza</g><s n="vblex"/></l><r>ficar<g><b/>cullerada</g><s n="vblex"/></r></p></e>
 <e vr="cat"><p><l>salir<g><b/>de<b/>apuros</g><s n="vblex"/></l><r>sortir<g><b/>d'un<b/>mal<b/>pas</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>agachar<s n="vblex"/></l>      <r>acatxar<s n="vblex"/></r></p></e>
@@ -34511,7 +34517,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni"><p><l>echar<g><b/>a<b/>correr</g><s n="vblex"/></l><r>arrancar<g><b/>a<b/>córrer</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni" r="LR"><p><l>apretar<g><b/>a<b/>correr</g><s n="vblex"/></l><r>arrancar<g><b/>a<b/>córrer</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>ir<g><b/>a<b/>lo<b/>suyo</g><s n="vblex"/></l><r>anar<g><b/>a<b/>la<b/>seua</g><s n="vblex"/></r></p></e>
-<e vr="val_gva val_uni"><p><l>llamar<g><b/>por<b/>teléfono</g><s n="vblex"/></l><r>cridar<g><b/>per<b/>telèfon</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>salir<g><b/>de<b/>apuros</g><s n="vblex"/></l><r>eixir<g><b/>d'un<b/>mal<b/>pas</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>velar<s n="vblex"/></l>        <r>vetlar<s n="vblex"/></r></p></e>
 <e r="LR" slr="trencar"><p><l>quebrantar</l>                    <r>trencar<s n="vblex"/></r></p></e>
@@ -39083,7 +39088,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Brochard<s n="np"/></i></e>
 <e>       <i>Broseta<s n="np"/></i></e>
 <e>       <i>Brotons<s n="np"/></i></e>
-<e r="LR">       <i>Brunei<s n="np"/></i></e>
+<e r="LR"><i>Brunei<s n="np"/></i></e>
 <e>       <i>Brunyola<s n="np"/></i></e>
 <e>       <i>Bru<s n="np"/></i></e>
 <e>       <i>Brutus<s n="np"/></i></e>
@@ -41760,6 +41765,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>Albión<s n="np"/><s n="loc"/></l> <r>Albió<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>San<b/>Francisco<s n="np"/><s n="loc"/></l> <r>San<b/>Francisco<s n="np"/><s n="top"/></r></p></e>
 <e>       <p><l>san<b/>Francisco<b/>de<b/>Asís<s n="np"/></l> <r>sant<b/>Francesc<b/>d'Assís<s n="np"/></r></p></e>
+<e>       <p><l>Tombatossals<s n="np"/></l>       <r>Tombatossals<s n="np"/></r></p></e>
 <e>       <p><l>Alborache<s n="np"/></l>          <r>Alboraig<s n="np"/></r></p></e>
 <e>       <p><l>Al<b/>Qaeda<s n="np"/><s n="al"/></l><r>Al-Qaeda<s n="np"/><s n="al"/></r></p></e>
 <e>       <p><l>Alcalalí<s n="np"/></l>           <r>Alcanalí<s n="np"/></r></p></e>
@@ -51169,6 +51175,10 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 
 <!-- Traduccions de noms de LanguageTool -->
 
+
+<e>       <p><l>dron<s n="n"/></l>                  <r>dron<s n="n"/></r></p></e>
+<e r="LR"><p><l>drone<s n="n"/><s n="m"/><s n="sg"/></l><r>dron<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>dron<s n="n"/></l>                  <r>drone<s n="n"/></r></p></e>
 <e>       <p><l>pintauñas<s n="n"/></l>             <r>pintaungles<s n="n"/></r></p></e>
 <e>       <p><l>cazalla<s n="n"/></l>               <r>cassalla<s n="n"/></r></p></e>
 <e>       <p><l>cantaor<s n="n"/></l>               <r>cantaor<s n="n"/></r></p></e>

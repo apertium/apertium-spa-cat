@@ -155,7 +155,26 @@
     <match lemma="corte" tags="n.*">
         <select lemma="tall" />
     </match>
-  </rule> 
+  </rule>
+  <rule weight="1.0"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+    <match lemma="de"/>
+    <repeat from="0" to="1">
+      <match lemma="*" tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="vía"/>
+      <match lemma="luz"/>
+      <match lemma="tráfico"/>
+      <match lemma="tránsito"/>
+      <match lemma="suministro"/>
+      <match lemma="carretera"/>
+      <match lemma="electricidad"/>
+      <match lemma="energía"/>
+    </or>
+  </rule>
 
   <!-- contar > contar/comptar -->
 
@@ -777,6 +796,84 @@
       <match lemma="porra" tags="n.*"/>
       <match lemma="paseo" tags="n.*"/>
     </or>
+  </rule>
+
+  <!-- llamar > cridar/telefonar/anomenar -->
+
+  <rule weight="0.6">
+    <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="telefonar"/></match>
+    <match lemma="a"/>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <or>
+      <match tags="num"/>
+      <match lemma="número" tags="n.*"/>
+      <match lemma="urgencia" tags="n.*"/>
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="emergencia" tags="n.*"/>
+      <match lemma="ambulancia" tags="n.*"/>
+      <match lemma="bombero" tags="n.*"/>
+      <match lemma="policía" tags="n.*"/>
+      <match lemma="central" tags="n.*"/>
+      <match lemma="centralita" tags="n.*"/>
+      <match tags="num"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="telefonar"/></match>
+    <match tags="adv"/>
+    <match lemma="a"/>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <or>
+      <match tags="num"/>
+      <match lemma="número" tags="n.*"/>
+      <match lemma="urgencia" tags="n.*"/>
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="emergencia" tags="n.*"/>
+      <match lemma="ambulancia" tags="n.*"/>
+      <match lemma="bombero" tags="n.*"/>
+      <match lemma="policía" tags="n.*"/>
+      <match lemma="central" tags="n.*"/>
+      <match lemma="centralita" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="trucar"/></match>
+    <match lemma="a"/>
+    <match tags="det.*"/>
+    <match lemma="teléfono"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="telefonar"/></match>
+    <match tags="prn.enc.*"/>
+    <match lemma="a"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
+      <or>
+        <match lemma="así"/>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+      </or>
   </rule>
 
 
