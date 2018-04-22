@@ -3710,6 +3710,7 @@
 <e r="LR"><p><l>navidad<s n="n"/><s n="f"/><s n="sg"/></l><r>nadal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>navidad<s n="n"/><s n="f"/><s n="pl"/></l><r>nadal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>navidad<s n="n"/><s n="f"/></l>   <r>nadal<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>Gordo<s n="n"/><s n="m"/></l>     <r>Grossa<s n="n"/><s n="f"/></r></p></e>
 <e>       <i>nazi<s n="n"/></i></e>
 <e>       <p><l>necesidad<s n="n"/></l>           <r>necessitat<s n="n"/></r></p></e>
 <e>       <i>negativa<s n="n"/></i></e>
@@ -3950,8 +3951,8 @@
 <e>       <p><l>petróleo<s n="n"/></l>            <r>petroli<s n="n"/></r></p></e>
 <e srl="pez"><p><l>pez<s n="n"/></l>              <r>peix<s n="n"/></r></p></e>
 <e>       <i>piano<s n="n"/></i></e>
-<e slr="bec D"><p><l>pico<s n="n"/></l>           <r>bec<s n="n"/></r></p></e>
-<e slr="pic"><p><l>pico<s n="n"/></l>             <r>pic<s n="n"/></r></p></e>
+<e>       <p><l>pico<s n="n"/></l>                <r>bec<s n="n"/></r></p></e>
+<e>       <p><l>pico<s n="n"/></l>                <r>pic<s n="n"/></r></p></e>
 <e r="RL"><p><l>pico<s n="n"/></l>                <r>broc<s n="n"/></r></p></e>
 <e>       <p><l>piedad<s n="n"/></l>              <r>pietat<s n="n"/></r></p></e>
 <e>       <p><l>piedra<s n="n"/></l>              <r>pedra<s n="n"/></r></p></e>
@@ -10089,6 +10090,7 @@
 <e>       <p><l>grandioso<s n="adj"/></l>         <r>grandiós<s n="adj"/></r></p></e>
 <e>       <i>Granell<s n="np"/></i></e>
 <e>       <p><l>granito<s n="n"/></l>             <r>granit<s n="n"/></r></p></e>
+<e>       <p><l>granito<s n="n"/></l>             <r>granet<s n="n"/></r></p></e>
 <e>       <i>granja<s n="n"/></i></e>
 <e>       <i>Granollers<s n="np"/></i></e>
 <e r="LR"><p><l>rascacielos<s n="n"/><s n="m"/><s n="sp"/></l><r>gratacel<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
@@ -10674,6 +10676,7 @@
 <e>       <p><l>irlandés<s n="n"/></l>            <r>irlandès<s n="n"/></r></p></e>
 <e>       <p><l>irónico<s n="adj"/></l>           <r>irònic<s n="adj"/></r></p></e>
 <e>       <i>IRPF<s n="n"/></i></e>
+<e>       <i>IBAN<s n="n"/></i></e>
 <e>       <i>html<s n="n"/></i></e>
 <e>       <i>irracional<s n="adj"/></i></e>
 <e>       <i>irreal<s n="adj"/></i></e>
@@ -17561,7 +17564,8 @@
 <e a="prompsit2adn"><p><l>videoconferencia<s n="n"/></l><r>videoconferència<s n="n"/></r></p></e>
 <e a="prompsit2adn"><p><l>videográfico<s n="adj"/></l><r>videogràfic<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>viña<s n="n"/></l>      <r>vinya<s n="n"/></r></p></e>
-<e a="prompsit2adn"><p><l>viñedo<s n="n"/></l>    <r>vinyer<s n="n"/></r></p></e>
+<e r="RL">          <p><l>viñedo<s n="n"/></l>    <r>vinyer<s n="n"/></r></p></e>
+<e r="LR">          <p><l>viñedo<s n="n"/><s n="m"/></l><r>vinya<s n="n"/><s n="f"/></r></p></e>
 <e a="prompsit2adn"><i>violinista<s n="n"/></i></e>
 <e a="prompsit2adn"><p><l>virulento<s n="adj"/></l><r>virulent<s n="adj"/></r></p></e>
 <e a="prompsit2adn"><p><l>viscoso<s n="adj"/></l> <r>viscós<s n="adj"/></r></p></e>
@@ -21368,7 +21372,7 @@
 <e a="prompsit"><p><l>Medan<s n="np"/></l>        <r>Medan<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Melinda<s n="np"/></l>      <r>Melinda<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Mescladís<s n="np"/></l>    <r>Mescladís<s n="np"/></r></p></e>
-<e a="prompsit"><p><l>Mides<s n="np"/></l>        <r>Mides<s n="np"/></r></p></e>
+<e>             <p><l>Midas<s n="np"/></l>        <r>Mides<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Mieras<s n="np"/></l>       <r>Mieras<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Minoves<s n="np"/></l>      <r>Minoves<s n="np"/></r></p></e>
 <e a="prompsit"><p><l>Miquèu<s n="np"/></l>       <r>Miquèu<s n="np"/></r></p></e>
@@ -23644,8 +23648,9 @@
 <e a="prompsit2uoc"><i>Isidor<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Marí<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Celestina<s n="np"/></i></e>
-<e a="prompsit2uoc"><i>Tirant<b/>lo<b/>Blanch<s n="np"/></i></e>
-<e a="prompsit2uoc"><i>Tirant<b/>lo<b/>Blanc<s n="np"/></i></e>
+<e>                 <i>Tirant<b/>lo<b/>Blanch<s n="np"/></i></e>
+<e>                 <i>Tirant<b/>lo<b/>Blanc<s n="np"/></i></e>
+<e>                 <i>Lo<b/>Rat<b/>Penat<s n="np"/></i></e>
 <e a="prompsit2uoc"><p><l>rectangular<s n="adj"/></l><r>rectangular<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>vectorial<s n="adj"/></l><r>vectorial<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>espectral<s n="adj"/></l><r>espectral<s n="adj"/></r></p></e>
@@ -26512,7 +26517,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>historiógrafo<s n="n"/></l><r>historiògraf<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>higrómetro<s n="n"/></l><r>higròmetre<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>helenismo<s n="n"/></l> <r>hel·lenisme<s n="n"/></r></p></e>
-<e r="RL" a="prompsit2uoc"><p><l>granito<s n="n"/></l><r>granet<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>gramaje<s n="n"/></l>   <r>gramatge<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>cubilete<s n="n"/></l>  <r>gobelet<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>geosinónimo<s n="n"/></l><r>geosinònim<s n="n"/></r></p></e>
@@ -33694,6 +33698,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni" a="softvalencià"><p><l>dar<g><b/>un<b/>beso</g><s n="vblex"/></l><r>fer<g><b/>una<b/>besada</g><s n="vblex"/></r></p></e>
 <e vr="cat"><p><l>dar<g><b/>un<b/>beso</g><s n="vblex"/></l><r>fer<g><b/>un<b/>petó</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>un<b/>paseo</g><s n="vblex"/></l><r>fer<g><b/>una<b/>passejada</g><s n="vblex"/></r></p></e>
+<e>       <p><l>dar<g><b/>un<b/>atracón</g><s n="vblex"/></l><r>fer<g><b/>un<b/>panxó</g><s n="vblex"/></r></p></e>
 <e>       <p><l>dar<g><b/>un<b/>rodeo</g><s n="vblex"/></l><r>fer<g><b/>marrada</g><s n="vblex"/></r></p></e>
 <e vr="cat">       <p><l>dar<g><b/>un<b/>vistazo</g><s n="vblex"/></l><r>fer<g><b/>un<b/>cop<b/>d'ull</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni">       <p><l>dar<g><b/>un<b/>vistazo</g><s n="vblex"/></l><r>fer<g><b/>una<b/>ullada</g><s n="vblex"/></r></p></e>
@@ -39987,6 +39992,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Isona<s n="np"/></i></e>
 <e>       <i>Isòvol<s n="np"/></i></e>
 <e>       <i>Iturgaiz<s n="np"/></i></e>
+<e>       <i>Iturbi<s n="np"/></i></e>
 <e>       <i>Iturraspe<s n="np"/></i></e>
 <e>       <i>Itziar<s n="np"/></i></e>
 <e>       <i>Iváñez<s n="np"/></i></e>
@@ -51177,7 +51183,10 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 
 <!-- Traduccions de noms de LanguageTool -->
 
-
+<e>       <p><l>regina<s n="n"/></l>                 <r>regina<s n="n"/></r></p></e>
+<e r="RL"><p><l>reina<s n="n"/></l>                  <r>regina<s n="n"/></r></p></e>
+<e vr="cat"><p><l>atracón<s n="n"/><s n="m"/></l>     <r>fartanera<s n="n"/><s n="f"/></r></p></e>
+<e vr="val_gva val_uni"><p><l>atracón<s n="n"/><s n="m"/></l><r>fartada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>dron<s n="n"/></l>                  <r>dron<s n="n"/></r></p></e>
 <e r="LR"><p><l>drone<s n="n"/><s n="m"/><s n="sg"/></l><r>dron<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL"><p><l>dron<s n="n"/></l>                  <r>drone<s n="n"/></r></p></e>

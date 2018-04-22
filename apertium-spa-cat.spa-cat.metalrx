@@ -876,6 +876,167 @@
       </or>
   </rule>
 
+ <!-- granito > granit/granet/mica -->
+
+  <rule weight="0.6">
+    <match lemma="granito" tags="n.*"><select lemma="granit"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="granito" tags="n.*"><select lemma="granet"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="piel" tags="n.*"/>
+      <match lemma="cara" tags="n.*"/>
+      <match lemma="culo" tags="n.*"/>
+      <match lemma="pierna" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="mano" tags="n.*"/>
+      <match lemma="cuello" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="hombro" tags="n.*"/>
+      <match lemma="pie" tags="n.*"/>
+      <match lemma="estómago" tags="n.*"/>
+      <match lemma="vientre" tags="n.*"/>
+      <match lemma="panza" tags="n.*"/>
+      <match lemma="arena" tags="n.*"/>
+      <match lemma="sal" tags="n.*"/>
+      <match lemma="azúcar" tags="n.*"/>
+      <match lemma="pimienta" tags="n.*"/>
+    </or>
+  </rule>
+
+  <!-- buggy? <rule weight="2.0">
+    <match lemma="granito" tags="n.*"><select lemma="mica"/></match>
+    <match lemma="de"/>
+    <or>
+      <match lemma="sal" tags="n.*"/>
+      <match lemma="azúcar" tags="n.*"/>
+    </or>
+  </rule>-->
+
+
+<!-- pico > pic/bec/... -->
+
+  <rule weight="0.6">
+    <match lemma="pico" tags="n.*"><select lemma="pic"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="pico" tags="n.*"><select lemma="bec"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="flauta" tags="n.*"/>
+      <match lemma="garra" tags="n.*"/>
+      <match lemma="pájaro" tags="n.*"/>
+      <match lemma="ave" tags="n.*"/>
+      <match lemma="graznar" tags="vblex.*"/>
+      <match lemma="picotear" tags="vblex.*"/>
+      <match lemma="buitre" tags="n.*"/>
+      <match lemma="águila" tags="n.*"/>
+      <match lemma="loro" tags="n.*"/>
+      <match lemma="alcohol" tags="n.*"/>
+      <match lemma="marfil" tags="n.*"/>
+      <match lemma="oca" tags="n.*"/>
+      <match lemma="gaviota" tags="n.*"/>
+      <match lemma="gusano" tags="n.*"/>
+      <match lemma="pata" tags="n.*"/>
+      <match lemma="mandíbula" tags="n.*"/>
+      <match lemma="longitud" tags="n.*"/>
+      <match lemma="jaula" tags="n.*"/>
+      <match lemma="búho" tags="n.*"/>
+      <match lemma="cisne" tags="n.*"/>
+      <match lemma="plumaje" tags="n.*"/>
+      <match lemma="paloma" tags="n.*"/>
+      <match lemma="palomo" tags="n.*"/>
+      <match lemma="pato" tags="n.*"/>
+      <match lemma="ala" tags="n.*"/>
+      <match lemma="halcón" tags="n.*"/>
+      <match lemma="urraca" tags="n.*"/>
+      <match lemma="garganta" tags="n.*"/>
+      <match lemma="cigüeña" tags="n.*"/>
+      <match lemma="centímetros" tags="n.*"/>
+      <match lemma="gas" tags="n.*"/>
+      <match lemma="hembra"/>
+      <match lemma="macho"/>
+      <match lemma="ganchudo"/>
+      <match lemma="rapaz"/>
+      <match lemma="carroñero"/>
+      <match lemma="gallina"/>
+      <match lemma="gallo"/>
+      <match lemma="pollo"/>
+      <match lemma="pollito"/>
+      <match lemma="pajarraco"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="flauta" tags="n.*"/>
+      <match lemma="garra" tags="n.*"/>
+      <match lemma="pájaro" tags="n.*"/>
+      <match lemma="ave" tags="n.*"/>
+      <match lemma="graznar" tags="vblex.*"/>
+      <match lemma="picotear" tags="vblex.*"/>
+      <match lemma="buitre" tags="n.*"/>
+      <match lemma="águila" tags="n.*"/>
+      <match lemma="loro" tags="n.*"/>
+      <match lemma="alcohol" tags="n.*"/>
+      <match lemma="marfil" tags="n.*"/>
+      <match lemma="oca" tags="n.*"/>
+      <match lemma="gaviota" tags="n.*"/>
+      <match lemma="gusano" tags="n.*"/>
+      <match lemma="pata" tags="n.*"/>
+      <match lemma="mandíbula" tags="n.*"/>
+      <match lemma="longitud" tags="n.*"/>
+      <match lemma="jaula" tags="n.*"/>
+      <match lemma="búho" tags="n.*"/>
+      <match lemma="cisne" tags="n.*"/>
+      <match lemma="plumaje" tags="n.*"/>
+      <match lemma="paloma" tags="n.*"/>
+      <match lemma="palomo" tags="n.*"/>
+      <match lemma="pato" tags="n.*"/>
+      <match lemma="ala" tags="n.*"/>
+      <match lemma="halcón" tags="n.*"/>
+      <match lemma="urraca" tags="n.*"/>
+      <match lemma="garganta" tags="n.*"/>
+      <match lemma="cigüeña" tags="n.*"/>
+      <match lemma="centímetros" tags="n.*"/>
+      <match lemma="gas" tags="n.*"/>
+      <match lemma="hembra"/>
+      <match lemma="macho"/>
+      <match lemma="ganchudo"/>
+      <match lemma="rapaz"/>
+      <match lemma="carroñero"/>
+      <match lemma="gallina"/>
+      <match lemma="gallo"/>
+      <match lemma="pollo"/>
+      <match lemma="pollito"/>
+      <match lemma="pajarraco"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>  
+    <match lemma="pico" tags="n.*"><select lemma="bec"/></match>
+  </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
