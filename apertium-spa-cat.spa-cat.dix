@@ -2745,6 +2745,10 @@
 <e>       <i>dolor<s n="n"/></i></e>
 <e>       <p><l>domicilio<s n="n"/></l>           <r>domicili<s n="n"/></r></p></e>
 <e>       <p><l>domingo<s n="n"/></l>             <r>diumenge<s n="n"/></r></p></e>
+<e>       <p><l>domingo<g><b/>de<b/>Ramos<s n="n"/></l><r>diumenge<g><b/>de<b/>Rams<s n="n"/></r></p></e>
+<e>       <p><l>domingo<g><b/>de<b/>Gloria<s n="n"/></l><r>diumenge<g><b/>de<b/>Glòria<s n="n"/></r></p></e>
+<e>       <p><l>domingo<g><b/>de<b/>Pascua<s n="n"/></l><r>diumenge<g><b/>de<b/>Pasqua<s n="n"/></r></p></e>
+<e>       <p><l>domingo<g><b/>de<b/>Resurrección<s n="n"/></l><r>diumenge<g><b/>de<b/>Resurrecció<s n="n"/></r></p></e>
 <e>       <p><l>dominicano<s n="n"/></l>          <r>dominicà<s n="n"/></r></p></e>
 <e>       <p><l>dominio<s n="n"/></l>             <r>domini<s n="n"/></r></p></e>
 <e>       <p><l>doncella<s n="n"/></l>            <r>donzella<s n="n"/></r></p></e>
@@ -4490,6 +4494,7 @@
 <e>       <p><l>tienda<s n="n"/></l>              <r>tenda<s n="n"/></r></p></e>
 <e>       <p><l>tienda<g><b/>de<b/>campaña</g><s n="n"/></l><r>tenda<g><b/>de<b/>campanya</g><s n="n"/></r></p></e>
 <!--<e vr="val_gva val_uni"><p><l>tienda<s n="n"/></l>       <r>tenda<s n="n"/></r></p></e> No: "tenda" és forma secundària en el DNV-->
+<e>       <p><l>megatienda<s n="n"/></l>          <r>megabotiga<s n="n"/></r></p></e>
 <e>       <p><l>tierra<s n="n"/><s n="f"/></l>    <r>terra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>suelo<s n="n"/></l>               <r>sòl<s n="n"/></r></p></e>
 <e  r="RL"><p><l>suelo<s n="n"/><s n="m"/></l>    <r>terra<s n="n"/><s n="m"/></r></p></e>
@@ -5422,9 +5427,7 @@
 <e r="RL"><p><l>arreglar<s n="vblex"/></l>        <r>arranjar<s n="vblex"/></r></p></e>
 <e>       <i>arreglar<s n="vblex"/></i></e>
 <e>       <p><l>arriesgar<s n="vblex"/></l>       <r>arriscar<s n="vblex"/></r></p></e>
-
-<e r="LR" vr="cat"><p><l>arrimar<s n="vblex"/></l><r>apropar<s n="vblex"/></r></p></e>
-<e r="LR" vr="val_gva val_uni"><p><l>arrimar<s n="vblex"/></l><r>acostar<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>arrimar<s n="vblex"/></l>         <r>acostar<s n="vblex"/></r></p></e>
 <e r="LR"><p><l>arrojar<s n="vblex"/></l>         <r>llançar<s n="vblex"/></r></p></e>
 <e>       <i>arrugar<s n="vblex"/></i></e>
 <e>       <p><l>arruinar<s n="vblex"/></l>        <r>arruïnar<s n="vblex"/></r></p></e>
@@ -6618,7 +6621,6 @@
 <e>       <p><l>abad<s n="n"/></l>                <r>abat<s n="n"/></r></p></e>
 <e>       <i>ABC<s n="np"/></i></e>
 <e>       <i>Facebook<s n="np"/></i></e>
-<e>       <i>The<b/>New<b/>York<b/>Times<s n="np"/></i></e>
 <e>       <i>abdominal<s n="adj"/></i></e>
 <e>       <p><l>abeja<s n="n"/></l>               <r>abella<s n="n"/></r></p></e>
 <e>       <p><l>diario<b/>Avui<s n="np"/></l>               <r>diari<b/>Avui<s n="np"/></r></p></e>
@@ -19714,7 +19716,13 @@
 <e a="prompsit2adn"><p><l>Press<s n="np"/></l>    <r>Press<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>ADNes<s n="np"/></l>    <r>ADNes<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>ADN.es<s n="np"/></l>   <r>ADN.es<s n="np"/></r></p></e>
-<e a="prompsit2adn"><p><l>The<b/>Times<s n="np"/></l><r>The<b/>Times<s n="np"/></r></p></e>
+<e>     <p><l>The<b/>New<b/>York<b/>Times<s n="np"/></l>   <r>The<b/>New<b/>York<b/>Times<s n="np"/></r></p></e>
+<e>     <p><l>New<b/>York<b/>Times<s n="np"/></l>          <r>New<b/>York<b/>Times<s n="np"/></r></p></e>
+<e>     <p><l>The<b/>Times<s n="np"/></l>                  <r>The<b/>Times<s n="np"/></r></p></e>
+<e>     <p><l>Financial<b/>Times<s n="np"/></l>            <r>Financial<b/>Times<s n="np"/></r></p></e>
+<e>     <p><l>Times<s n="np"/></l>                         <r>Times<s n="np"/></r></p></e>
+<e>     <p><l>Metropolitan<s n="np"/></l>                  <r>Metropolitan<s n="np"/></r></p></e>
+<e>     <p><l>Times<b/>Square<s n="np"/></l>               <r>Times<b/>Square<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Al<b/>Qaeda<s n="np"/></l><r>Al<b/>Qaeda<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Al<b/>Qaida<s n="np"/></l><r>Al<b/>Qaida<s n="np"/></r></p></e>
 <e a="prompsit2adn"><p><l>Mediapro<s n="np"/></l> <r>Mediapro<s n="np"/></r></p></e>
@@ -23622,8 +23630,8 @@
 <e a="prompsit2uoc"><i>Isidor<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Marí<s n="np"/></i></e>
 <e a="prompsit2uoc"><i>Celestina<s n="np"/></i></e>
-<e a="prompsit2uoc"><i>Tirant<b/>Lo<b/>Blanch<s n="np"/></i></e>
-<e a="prompsit2uoc"><i>Tirant<b/>Lo<b/>Blanc<s n="np"/></i></e>
+<e a="prompsit2uoc"><i>Tirant<b/>lo<b/>Blanch<s n="np"/></i></e>
+<e a="prompsit2uoc"><i>Tirant<b/>lo<b/>Blanc<s n="np"/></i></e>
 <e a="prompsit2uoc"><p><l>rectangular<s n="adj"/></l><r>rectangular<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>vectorial<s n="adj"/></l><r>vectorial<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>espectral<s n="adj"/></l><r>espectral<s n="adj"/></r></p></e>
@@ -34483,6 +34491,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="cat"><p><l>barnizar<s n="vblex"/></l>     <r>vernissar<s n="vblex"/></r></p></e>
 <e vr="cat"><p><l>desatascar<s n="vblex"/></l>   <r>desembussar<s n="vblex"/></r></p></e>
 <e vr="cat"><p><l>echar<g><b/>a<b/>correr</g><s n="vblex"/></l><r>arrencar<g><b/>a<b/>córrer</g><s n="vblex"/></r></p></e>
+<e vr="cat" r="LR"><p><l>apretar<g><b/>a<b/>correr</g><s n="vblex"/></l><r>arrencar<g><b/>a<b/>córrer</g><s n="vblex"/></r></p></e>
 <e vr="cat"><p><l>ir<g><b/>a<b/>lo<b/>suyo</g><s n="vblex"/></l><r>anar<g><b/>a<b/>la<b/>seva</g><s n="vblex"/></r></p></e>
 <e vr="cat"><p><l>llamar<g><b/>por<b/>teléfono</g><s n="vblex"/></l><r>trucar<g><b/>per<b/>telèfon</g><s n="vblex"/></r></p></e>
 <e><p><l>meter<g><b/>baza</g><s n="vblex"/></l><r>ficar<g><b/>cullerada</g><s n="vblex"/></r></p></e>
@@ -34495,6 +34504,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e vr="val_gva val_uni"><p><l>calentar<s n="vblex"/></l>     <r>calfar<s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>desatascar<s n="vblex"/></l>   <r>desembossar<s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>echar<g><b/>a<b/>correr</g><s n="vblex"/></l><r>arrancar<g><b/>a<b/>córrer</g><s n="vblex"/></r></p></e>
+<e vr="val_gva val_uni" r="LR"><p><l>apretar<g><b/>a<b/>correr</g><s n="vblex"/></l><r>arrancar<g><b/>a<b/>córrer</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>ir<g><b/>a<b/>lo<b/>suyo</g><s n="vblex"/></l><r>anar<g><b/>a<b/>la<b/>seua</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>llamar<g><b/>por<b/>teléfono</g><s n="vblex"/></l><r>cridar<g><b/>per<b/>telèfon</g><s n="vblex"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>salir<g><b/>de<b/>apuros</g><s n="vblex"/></l><r>eixir<g><b/>d'un<b/>mal<b/>pas</g><s n="vblex"/></r></p></e>
@@ -46889,6 +46899,9 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Albano<s n="np"/></i></e>
 <e>       <i>Fachín<s n="np"/></i></e>
 <e>       <i>Churchill<s n="np"/></i></e>
+<e>       <i>Pelé<s n="np"/></i></e>
+<e>       <i>Rato<s n="np"/></i></e>
+<e>       <i>Camarón<s n="np"/></i></e>
 
 
 <!-- Traduccions d'adjectius de LanguageTool -->
