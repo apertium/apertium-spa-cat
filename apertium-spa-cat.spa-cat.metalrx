@@ -713,6 +713,46 @@
       <match lemma="vegetación"/>
     </or>
   </rule>
+
+  <!-- mandar > manar/enviar -->
+
+  <rule weight="0.8">
+    <match lemma="mandar" tags="vblex.*"><select lemma="manar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="mandar" tags="vblex.*"><select lemma="enviar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="carta" tags="n.*"/>
+      <match lemma="mensaje" tags="n.*"/>
+      <match lemma="mail" tags="n.*"/>
+      <match lemma="email" tags="n.*"/>
+      <match lemma="e-mail" tags="n.*"/>
+      <match lemma="paquete" tags="n.*"/>
+      <match lemma="sobre" tags="n.*"/>
+      <match lemma="postal" tags="n.*"/>
+      <match lemma="regalo" tags="n.*"/>
+      <match lemma="fuera"/>
+      <match lemma="abrazo" tags="n.*"/>
+      <match lemma="beso" tags="n.*"/>
+      <match lemma="recuerdo" tags="n.*"/>
+      <match lemma="flor" tags="n.*"/>
+      <match lemma="libro" tags="n.*"/>
+      <match lemma="revista" tags="n.*"/>
+      <match lemma="periódico" tags="n.*"/>
+      <match lemma="diario" tags="n.*"/>
+      <match lemma="saludo" tags="n.*"/>
+      <match lemma="calle" tags="n.*"/>
+    </or>
+  </rule>
   
 
 

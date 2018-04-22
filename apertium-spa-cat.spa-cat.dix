@@ -6110,10 +6110,12 @@
 <e r="LR"><p><l>lograr<s n="vblex"/></l>          <r>aconseguir<s n="vblex"/></r></p></e>
 <e>       <p><l>luchar<s n="vblex"/></l>          <r>lluitar<s n="vblex"/></r></p></e>
 <e>       <p><l>lucir<s n="vblex"/></l>           <r>lluir<s n="vblex"/></r></p></e>
+<e>       <p><l>deslucir<s n="vblex"/></l>        <r>deslluir<s n="vblex"/></r></p></e>
 <e>       <p><l>maldecir<s n="vblex"/></l>        <r>maleir<s n="vblex"/></r></p></e>
 <e>       <p><l>maltratar<s n="vblex"/></l>       <r>maltractar<s n="vblex"/></r></p></e>
 <e>       <p><l>manchar<s n="vblex"/></l>         <r>tacar<s n="vblex"/></r></p></e>
-<e>       <p><l>mandar<s n="vblex"/></l>          <r>manar<s n="vblex"/></r></p></e>
+<e>       <p><l>mandar<s n="vblex"/></l>          <r>manar<s n="vblex"/></r></p></e> <!--disambig en LRX -->
+<e r="LR"><p><l>mandar<s n="vblex"/></l>          <r>enviar<s n="vblex"/></r></p></e>
 <e>       <i>manejar<s n="vblex"/></i></e>
 <e>       <i>manifestar<s n="vblex"/></i></e>
 <e>       <i>manipular<s n="vblex"/></i></e>
@@ -25998,6 +26000,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="prompsit2uoc"><p><l>colorímetro<s n="n"/></l><r>colorímetre<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>colectivismo<s n="n"/></l><r>col·lectivisme<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>alucinógeno<s n="n"/></l><r>al·lucinogen<s n="n"/></r></p></e>
+<e>                 <p><l>alucinógeno<s n="adj"/></l><r>al·lucinogen<s n="adj"/></r></p></e>
 <e a="prompsit2uoc"><p><l>trombo<s n="n"/></l>    <r>trombe<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>termistor<s n="n"/></l> <r>termistor<s n="n"/></r></p></e>
 <e a="prompsit2uoc"><p><l>subjetivismo<s n="n"/></l><r>subjectivisme<s n="n"/></r></p></e>
@@ -34114,9 +34117,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>malcreer<s n="vblex"/></l>        <r>malcreure<s n="vblex"/></r></p></e>
 <e>       <p><l>malvender<s n="vblex"/></l>       <r>malvendre<s n="vblex"/></r></p></e>
 <e>       <p><l>malvivir<s n="vblex"/></l>        <r>malviure<s n="vblex"/></r></p></e>
-<e>       <p><l>mandar<g><b/>una<b/>carta</g><s n="vblex"/></l><r>enviar<g><b/>una<b/>carta</g><s n="vblex"/></r></p></e>
-<e>       <p><l>mandar<g><b/>un<b/>e-mail</g><s n="vblex"/></l><r>enviar<g><b/>un<b/>e-mail</g><s n="vblex"/></r></p></e>
-<e>       <p><l>mandar<g><b/>un<b/>mensaje</g><s n="vblex"/></l><r>enviar<g><b/>un<b/>missatge</g><s n="vblex"/></r></p></e>
 <e>       <p><l>mangar<s n="vblex"/></l>          <r>pispar<s n="vblex"/></r></p></e>
 <e>       <p><l>marchitar<s n="vblex"/></l>       <r>marcir<s n="vblex"/></r></p></e>
 <e>       <p><l>martillear<s n="vblex"/></l>      <r>martellejar<s n="vblex"/></r></p></e>
@@ -34682,6 +34682,7 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>electrocardiograma<s n="n"/></i></e>
 <e>       <i>electroquímica<s n="n"/></i></e>
 <e>       <i>e-mail<s n="n"/></i></e>
+<e>       <i>look<s n="n"/></i></e>
 <e>       <i>embocadura<s n="n"/></i></e>
 <e>       <i>endosfera<s n="n"/></i></e>
 <e>       <i>entrevistador<s n="n"/></i></e>
@@ -51155,9 +51156,14 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <p><l>proteaginoso<s n="adj"/></l>        <r>proteaginós<s n="adj"/></r></p></e>
 <e>       <p><l>vexilológico<s n="adj"/></l>        <r>vexil·lològic<s n="adj"/></r></p></e>
 <e r="LR"><p><l>concesorio<s n="adj"/></l>          <r>de<b/>concessió<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>danzante<s n="adj"/></l>            <r>dansaire<s n="adj"/></r></p></e>
 
 <!-- Traduccions de noms de LanguageTool -->
 
+<e>       <p><l>pintauñas<s n="n"/></l>             <r>pintaungles<s n="n"/></r></p></e>
+<e>       <p><l>cazalla<s n="n"/></l>               <r>cassalla<s n="n"/></r></p></e>
+<e>       <p><l>cantaor<s n="n"/></l>               <r>cantaor<s n="n"/></r></p></e>
+<e>       <p><l>look<s n="n"/></l>                  <r>look<s n="n"/></r></p></e>
 <e>       <p><l>biodiésel<s n="n"/></l>             <r>biodièsel<s n="n"/></r></p></e>
 <e>       <p><l>vinificación<s n="n"/></l>          <r>vinificació<s n="n"/></r></p></e>
 <e>       <p><l>marroquinería<s n="n"/></l>         <r>marroquineria<s n="n"/></r></p></e>
