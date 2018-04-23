@@ -356,6 +356,18 @@
     <def-cat n="los_las">
       <cat-item lemma="lo" tags="prn.pro.p3.*" />
     </def-cat>
+    <!--<def-cat n="pr_1s"><cat-item lemma="me" tags="prn.pro.p1.mf.sg" /></def-cat>
+    <def-cat n="ir_1s"><cat-item lemma="ir" tags="vblex.*.p1.sg" /></def-cat>
+    <def-cat n="pr_2s"><cat-item lemma="te" tags="prn.pro.p2.mf.sg" /></def-cat>
+    <def-cat n="ir_2s"><cat-item lemma="ir" tags="vblex.*.p2.sg" /></def-cat>
+    <def-cat n="pr_3s"><cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp" /></def-cat>
+    <def-cat n="ir_3s"><cat-item lemma="ir" tags="vblex.*.p3.sg" /></def-cat>
+    <def-cat n="pr_1p"><cat-item lemma="nos" tags="prn.pro.p1.mf.pl" /></def-cat>
+    <def-cat n="ir_1p"><cat-item lemma="ir" tags="vblex.*.p1.pl" /></def-cat>
+    <def-cat n="pr_2p"><cat-item lemma="os" tags="prn.pro.p2.mf.pl" /></def-cat>
+    <def-cat n="ir_2p"><cat-item lemma="ir" tags="vblex.*.p2.pl" /></def-cat>
+    <def-cat n="pr_3p"><cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp" /></def-cat>
+    <def-cat n="ir_3p"><cat-item lemma="ir" tags="vblex.*.p3.pl" /></def-cat>-->
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -9779,6 +9791,85 @@
         </out>
       </action>
     </rule>
+    <!-- REGLA: irse > anar-se'n -->
+    <!--<rule>
+      <pattern>
+        <pattern-item n="pr_1s" />
+        <pattern-item n="ir_1s" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_2s" />
+        <pattern-item n="ir_2s" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_3s" />
+        <pattern-item n="ir_3s" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_1p" />
+        <pattern-item n="ir_1p" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_2p" />
+        <pattern-item n="ir_2p" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pr_3p" />
+        <pattern-item n="ir_3p" />
+      </pattern>
+      <action>
+        <out>
+          <lu><clip part="whole" pos="1" side="tl" /></lu><b />
+          <lu><lit v="en" /><lit-tag v="prn" /><lit-tag v="pro" /><lit-tag v="adv" /></lu><b />
+        </out>
+        <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
+      </action>
+    </rule>-->
     <rule>
       <!-- REGLA: reset variables-->
       <pattern>
