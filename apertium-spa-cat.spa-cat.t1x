@@ -9211,7 +9211,91 @@
       </action>
     </rule>
     <rule>
+      <pattern>
+        <pattern-item n="seguir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <let>
+          <clip part="lem" pos="1" side="tl" />
+          <lit v="continuar" />
+        </let>
+        <call-macro n="f_pretind">
+          <with-param pos="1" />
+        </call-macro>
+        <out>
+          <b />
+          <mlu>
+              <lu>
+                <clip pos="2" side="tl" part="lemh" />
+                <clip pos="2" side="tl" part="a_verb" />
+                <clip pos="2" side="tl" part="temps" />
+                <clip pos="2" side="tl" part="persona" />
+                <clip pos="2" side="tl" part="nbr" />
+              </lu>
+              <lu>
+                <clip pos="3" side="tl" part="lem" />
+                <clip pos="3" side="tl" part="a_prnenc" />
+                <clip pos="3" side="tl" part="persona" />
+                <clip pos="3" side="tl" part="gen" />
+                <clip pos="3" side="tl" part="nbr" />
+                <clip pos="2" side="tl" part="lemq" />
+              </lu>
+            </mlu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="seguir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <let>
+          <clip part="lem" pos="1" side="tl" />
+          <lit v="continuar" />
+        </let>
+        <call-macro n="f_pretind">
+          <with-param pos="1" />
+        </call-macro>
+        <out>
+          <b />
+          <mlu>
+              <lu>
+                <clip pos="2" side="tl" part="lemh" />
+                <clip pos="2" side="tl" part="a_verb" />
+                <clip pos="2" side="tl" part="temps" />
+                <clip pos="2" side="tl" part="persona" />
+                <clip pos="2" side="tl" part="nbr" />
+              </lu>
+              <lu>
+                <clip pos="3" side="tl" part="lem" />
+                <clip pos="3" side="tl" part="a_prnenc" />
+                <clip pos="3" side="tl" part="persona" />
+                <clip pos="3" side="tl" part="gen" />
+                <clip pos="3" side="tl" part="nbr" />
+                <clip pos="3" side="tl" part="lemq" />
+              </lu>
+              <lu>
+                <clip pos="4" side="tl" part="lem" />
+                <clip pos="4" side="tl" part="a_prnenc" />
+                <clip pos="4" side="tl" part="persona" />
+                <clip pos="4" side="tl" part="gen" />
+                <clip pos="4" side="tl" part="nbr" />
+                <clip pos="2" side="tl" part="lemq" />
+                </lu>
+            </mlu>
+        </out>
+      </action>
+    </rule>
+
+
+      <!-- -->
       <!-- cuáles son las que vienen -> quines són les que venen-->
+    <rule>
       <pattern>
         <pattern-item n="cuál" />
         <pattern-item n="ser_parecer" />
