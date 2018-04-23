@@ -4695,10 +4695,8 @@
 <e>       <p><l>pasamanero<s n="n"/></l>          <r>passamaner<s n="n"/></r></p></e>
 <e>       <p><l>catavinos<s n="n"/></l>           <r>tastavins<s n="n"/></r></p></e>
 <e r="RL"><p><l>perito<s n="n"/></l>              <r>pèrit<s n="n"/></r></p></e>
-<e>       <p><l>nº<s n="n"/></l>                  <r>núm.<s n="n"/></r></p></e>
-<e r="LR"><i>núm.<s n="n"/></i></e>
-<e r="LR"><p><l>núms.<s n="n"/></l>               <r>núm.<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-
+<e>       <p><l>n.º<s n="n"/></l>                 <r>núm.<s n="n"/></r></p></e>
+<e r="RL"><p><l>n.º<s n="n"/></l>                 <r>nre.<s n="n"/></r></p></e>
 <e>       <i>C<s n="num"/></i></e>
 <e>       <i>D<s n="num"/></i></e>
 <e>       <i>I<s n="num"/></i></e>
@@ -42636,7 +42634,6 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e a="mireiafarrus">   <p><l>ex<b/>vocal<s n="n"/></l>       <r>exvocal<s n="n"/></r></p></e>
 <e a="mireiafarrus">   <i>copista<s n="n"/></i></e>
 <e a="mireiafarrus">   <p><l>autocontención<s n="n"/></l>    <r>autocontenció<s n="n"/></r></p></e>
-<e a="mireiafarrus">   <p><l>cata<s n="n"/><s n="f"/></l>    <r>tast<s n="n"/><s n="m"/></r></p></e>
 <e a="mireiafarrus">   <p><l>autocategorización<s n="n"/></l><r>autocategorització<s n="n"/></r></p></e>
 <e a="mireiafarrus">   <p><l>fotoblog<s n="n"/></l>              <r>fotoblog<s n="n"/></r></p></e>
 <!-- <e a="mireiafarrus">   <p><l>autodidacta<s n="n"/></l><r>autodidacte<s n="n"/></r></p></e> -->
@@ -51183,9 +51180,13 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 
 <!-- Traduccions de noms de LanguageTool -->
 
-<e>       <p><l>regina<s n="n"/></l>                 <r>regina<s n="n"/></r></p></e>
-<e r="RL"><p><l>reina<s n="n"/></l>                  <r>regina<s n="n"/></r></p></e>
-<e vr="cat"><p><l>atracón<s n="n"/><s n="m"/></l>     <r>fartanera<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>cata<s n="n"/><s n="f"/></l>        <r>sondatge<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cata<s n="n"/><s n="f"/></l>        <r>tast<s n="n"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>calicata<s n="n"/><s n="f"/></l>    <r>sondatge<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>sondaje<s n="n"/></l>               <r>sondatge<s n="n"/></r></p></e>
+<e r="LR"><p><l>regina<s n="n"/></l>                <r>regina<s n="n"/></r></p></e>
+<e r="RL"><p><l>reina<s n="n"/></l>                 <r>regina<s n="n"/></r></p></e>
+<e vr="cat"><p><l>atracón<s n="n"/><s n="m"/></l>   <r>fartanera<s n="n"/><s n="f"/></r></p></e>
 <e vr="val_gva val_uni"><p><l>atracón<s n="n"/><s n="m"/></l><r>fartada<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>dron<s n="n"/></l>                  <r>dron<s n="n"/></r></p></e>
 <e r="LR"><p><l>drone<s n="n"/><s n="m"/><s n="sg"/></l><r>dron<s n="n"/><s n="m"/><s n="sg"/></r></p></e>

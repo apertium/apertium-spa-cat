@@ -1038,6 +1038,36 @@
     <match lemma="pico" tags="n.*"><select lemma="bec"/></match>
   </rule>
 
+
+<!-- cata > tast/sondatge/... -->
+
+  <rule weight="0.6">
+    <match lemma="cata" tags="n.*"><select lemma="tast"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cata" tags="n.*"><select lemma="sondatge"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="suelo" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="excavación" tags="n.*"/>
+      <match lemma="inspección" tags="n.*"/>
+      <match lemma="edificio" tags="n.*"/>
+      <match lemma="inspector" tags="n.*"/>
+      <match lemma="vivienda" tags="n.*"/>
+      <match lemma="cimiento" tags="n.*"/>
+      <match lemma="exploración" tags="n.*"/>
+    </or>
+  </rule>
+
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
   <macro name="noms_propis" p1="Luis" p2="Lluís" />
