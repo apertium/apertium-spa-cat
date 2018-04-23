@@ -544,6 +544,10 @@
       <attr-item tags="prn.enc.ref"/>
     </def-attr>
 
+    <def-attr n="a_ref">
+      <attr-item tags="ref"/>
+    </def-attr>
+
     <def-attr n="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
@@ -9025,56 +9029,223 @@
 	</out>
       </action>
 </rule>
-	  
-<rule> <!--REGLA: IR + A + INF -> FUTUR-->
-      <pattern>
-	<pattern-item n="ir"/>
-	<pattern-item n="a"/>
-	<pattern-item n="inf"/>
-      </pattern>
-      <action>
-       <choose>
-       <when>
-         <test>
-          <or>
-            <equal>
-		<clip pos="1" side="tl" part="temps"/>
-		<lit-tag v="pri"/>
-            </equal>
-            <equal>
-		<clip pos="1" side="tl" part="temps"/>
-		<lit-tag v="fti"/>
-            </equal>
-          </or>
-         </test>
- 	 <out>             
-	      <lu>
-		<clip pos="3" side="tl" part="lemh"/>
-		<clip pos="3" side="tl" part="a_verb"/>
-                <lit-tag v="fti"/>
-  	        <clip pos="1" side="tl" part="persona"/>
-	        <clip pos="1" side="tl" part="gen"/>
-	        <clip pos="1" side="tl" part="nbr"/>
-		<clip pos="3" side="tl" part="lemq"/> 
-	      </lu>		
-	 </out>
-       </when>
-       <otherwise>
-         <out>             
-	      <lu>
-		<clip pos="3" side="tl" part="lemh"/>
-		<clip pos="3" side="tl" part="a_verb"/>
-                <clip pos="1" side="tl" part="temps"/>
-  	        <clip pos="1" side="tl" part="persona"/>
-	        <clip pos="1" side="tl" part="gen"/>
-	        <clip pos="1" side="tl" part="nbr"/>
-		<clip pos="3" side="tl" part="lemq"/> 
-	      </lu>		
-	 </out>
-     
-       </otherwise>
-     </choose>
-      </action>
+	 
+<!--REGLA: IR (presente) + A + INF -> FUTUR-->    
+<rule>
+   <pattern>
+      <pattern-item n="ir" />
+      <pattern-item n="a" />
+      <pattern-item n="inf" />
+   </pattern>
+   <action>
+      <choose>
+         <when>
+            <test>
+               <equal>
+                  <clip part="temps" pos="1" side="tl" />
+                  <lit-tag v="pri" />
+               </equal>
+            </test>
+            <out>
+               <lu>
+                  <get-case-from pos="1">
+                    <clip part="lemh" pos="3" side="tl" />
+                  </get-case-from>
+                  <clip part="a_verb" pos="3" side="tl" />
+                  <lit-tag v="fti" />
+                  <clip part="persona" pos="1" side="tl" />
+                  <clip part="gen" pos="1" side="tl" />
+                  <clip part="nbr" pos="1" side="tl" />
+                  <clip part="lemq" pos="3" side="tl" />
+               </lu>
+            </out>
+         </when>
+         <otherwise>
+            <call-macro n="f_pretind">
+               <with-param pos="1" />
+            </call-macro>
+            <out>
+               <b />
+               <lu>
+                  <clip part="whole" pos="2" side="tl" />
+               </lu>
+               <b />
+               <lu>
+                  <clip part="whole" pos="3" side="tl" />
+               </lu>
+            </out>
+         </otherwise>
+      </choose>
+   </action>
+</rule>
+
+<!--REGLA: IR (presente) + A + INF + enclíticos -> FUTUR--> 
+<rule>
+   <pattern>
+      <pattern-item n="ir" />
+      <pattern-item n="a" />
+      <pattern-item n="inf" />
+      <pattern-item n="prnenc" />
+   </pattern>
+   <action>
+      <choose>
+         <when>
+            <test>
+               <equal>
+                  <clip part="temps" pos="1" side="tl" />
+                  <lit-tag v="pri" />
+               </equal>
+            </test>
+            <out>
+                  <lu>
+                    <get-case-from pos="1">
+                      <clip pos="4" side="tl" part="lem"/>
+                    </get-case-from>
+                    <lit-tag v="prn"/>
+                    <lit-tag v="pro"/>
+                    <clip pos="4" side="tl" part="a_ref"/>
+                    <clip pos="4" side="tl" part="persona"/>
+                    <clip pos="4" side="tl" part="gen"/>
+                    <clip pos="4" side="tl" part="nbr"/>
+                    <clip pos="4" side="tl" part="lemq"/>
+                  </lu> 
+                  <b/>
+                  <lu>
+                    <clip part="lemh" pos="3" side="tl" />
+                    <clip part="a_verb" pos="3" side="tl" />
+                    <lit-tag v="fti" />
+                    <clip part="persona" pos="1" side="tl" />
+                    <clip part="gen" pos="1" side="tl" />
+                    <clip part="nbr" pos="1" side="tl" />
+                    <clip part="lemq" pos="3" side="tl" />
+                 </lu>
+            </out>
+         </when>
+         <otherwise>
+            <call-macro n="f_pretind">
+               <with-param pos="1" />
+            </call-macro>
+            <out>
+               <b />
+               <lu>
+                  <clip part="whole" pos="2" side="tl" />
+               </lu>
+               <b />
+               <mlu>
+                  <lu>
+                    <clip pos="3" side="tl" part="lemh"/>
+                    <clip pos="3" side="tl" part="a_verb"/>
+                    <clip pos="3" side="tl" part="temps"/>
+                    <clip pos="3" side="tl" part="persona"/>
+                    <clip pos="3" side="tl" part="nbr"/>
+                  </lu>
+                  <lu>
+                    <clip pos="4" side="tl" part="lem"/>
+                    <clip pos="4" side="tl" part="a_prnenc"/>
+                    <clip pos="4" side="tl" part="persona"/>
+                    <clip pos="4" side="tl" part="gen"/>
+                    <clip pos="4" side="tl" part="nbr"/>
+                    <clip pos="3" side="tl" part="lemq"/>
+                  </lu>  
+                </mlu>
+            </out>
+         </otherwise>
+      </choose>
+   </action>
+</rule>
+
+<rule>
+   <pattern>
+      <pattern-item n="ir" />
+      <pattern-item n="a" />
+      <pattern-item n="inf" />
+      <pattern-item n="prnenc" />
+      <pattern-item n="prnenc" />
+   </pattern>
+   <action>
+      <choose>
+         <when>
+            <test>
+               <equal>
+                  <clip part="temps" pos="1" side="tl" />
+                  <lit-tag v="pri" />
+               </equal>
+            </test>
+            <out>
+                  <lu>
+                    <get-case-from pos="1">
+                      <clip pos="4" side="tl" part="lem"/>
+                    </get-case-from>
+                    <lit-tag v="prn"/>
+                    <lit-tag v="pro"/>
+                    <clip pos="4" side="tl" part="a_ref"/>
+                    <clip pos="4" side="tl" part="persona"/>
+                    <clip pos="4" side="tl" part="gen"/>
+                    <clip pos="4" side="tl" part="nbr"/>
+                    <clip pos="4" side="tl" part="lemq"/>
+                  </lu>
+                  <b/>
+                  <lu>
+                    <clip pos="5" side="tl" part="lem"/>
+                    <lit-tag v="prn"/>
+                    <lit-tag v="pro"/>
+                    <clip pos="5" side="tl" part="a_ref"/>
+                    <clip pos="5" side="tl" part="persona"/>
+                    <clip pos="5" side="tl" part="gen"/>
+                    <clip pos="5" side="tl" part="nbr"/>
+                    <clip pos="5" side="tl" part="lemq"/>
+                  </lu> 
+                  <b/>
+                  <lu>
+                    <clip part="lemh" pos="3" side="tl" />
+                    <clip part="a_verb" pos="3" side="tl" />
+                    <lit-tag v="fti" />
+                    <clip part="persona" pos="1" side="tl" />
+                    <clip part="gen" pos="1" side="tl" />
+                    <clip part="nbr" pos="1" side="tl" />
+                    <clip part="lemq" pos="3" side="tl" />
+                 </lu>
+            </out>
+         </when>
+         <otherwise>
+            <call-macro n="f_pretind">
+               <with-param pos="1" />
+            </call-macro>
+            <out>
+               <b />
+               <lu>
+                  <clip part="whole" pos="2" side="tl" />
+               </lu>
+               <b />
+               <mlu>
+                  <lu>
+                    <clip pos="3" side="tl" part="lemh"/>
+                    <clip pos="3" side="tl" part="a_verb"/>
+                    <clip pos="3" side="tl" part="temps"/>
+                    <clip pos="3" side="tl" part="persona"/>
+                    <clip pos="3" side="tl" part="nbr"/>
+                  </lu>
+                  <lu>
+                    <clip pos="4" side="tl" part="lem"/>
+                    <clip pos="4" side="tl" part="a_prnenc"/>
+                    <clip pos="4" side="tl" part="persona"/>
+                    <clip pos="4" side="tl" part="gen"/>
+                    <clip pos="4" side="tl" part="nbr"/>
+                    <clip pos="4" side="tl" part="lemq"/>
+                  </lu>
+                  <lu>
+                    <clip pos="5" side="tl" part="lem"/>
+                    <clip pos="5" side="tl" part="a_prnenc"/>
+                    <clip pos="5" side="tl" part="persona"/>
+                    <clip pos="5" side="tl" part="gen"/>
+                    <clip pos="5" side="tl" part="nbr"/>
+                    <clip pos="3" side="tl" part="lemq"/>
+                  </lu>  
+                </mlu>
+            </out>
+         </otherwise>
+      </choose>
+   </action>
 </rule>
 
 
