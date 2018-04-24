@@ -356,6 +356,13 @@
     <def-cat n="los_las">
       <cat-item lemma="lo" tags="prn.pro.p3.*" />
     </def-cat>
+    <def-cat n="algo">
+      <cat-item lemma="algo" tags="prn.*"/>
+    </def-cat>
+    <def-cat n="adj-masc-sg">
+      <cat-item tags="adj.m.sg" />
+      <cat-item tags="adj.m.sp" />
+    </def-cat>
     <!--<def-cat n="pr_1s"><cat-item lemma="me" tags="prn.pro.p1.mf.sg" /></def-cat>
     <def-cat n="ir_1s"><cat-item lemma="ir" tags="vblex.*.p1.sg" /></def-cat>
     <def-cat n="pr_2s"><cat-item lemma="te" tags="prn.pro.p2.mf.sg" /></def-cat>
@@ -9870,6 +9877,27 @@
         <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
       </action>
     </rule>-->
+        <!-- REGLA: algo + adj > alguna cosa + adj (fem) -->
+    <rule>
+      <pattern>
+        <pattern-item n="algo" />
+        <pattern-item n="adj-masc-sg" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip part="whole" pos="1" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="lem" pos="2" side="tl" />
+            <lit-tag v="adj" />
+            <lit-tag v="f"/>
+            <clip part="nbr" pos="2" side="tl" />
+          </lu>
+        </out>
+      </action>
+    </rule>
     <rule>
       <!-- REGLA: reset variables-->
       <pattern>
