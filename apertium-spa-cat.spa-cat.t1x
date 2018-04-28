@@ -288,6 +288,11 @@
       <cat-item lemma="mañana" tags="n.f.sg" />
       <cat-item lemma="tarde" tags="n.f.sg" />
     </def-cat>
+    <def-cat n="pagina">
+      <cat-item lemma="página" tags="n.f.*" />
+      <cat-item lemma="posición" tags="n.f.*" />
+      <cat-item lemma="fila" tags="n.f.*" />
+    </def-cat>
     <def-cat n="cm">
       <cat-item tags="cm" />
     </def-cat>
@@ -8860,6 +8865,82 @@
           <b />
           <lu>
             <clip pos="2" side="tl" part="whole" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <!-- REGLA: página dos > pàgina dos (no *dues)-->
+      <pattern>
+        <pattern-item n="pagina" />
+        <pattern-item n="num" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+          <b />
+          <lu>
+             <clip pos="2" side="tl" part="lem" />
+             <lit-tag v="num" />
+             <lit-tag v="mf" />
+             <lit-tag v="sp" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="det" />
+        <pattern-item n="pagina" />
+        <pattern-item n="num" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b />
+          <lu>
+             <clip pos="3" side="tl" part="lem" />
+             <lit-tag v="num" />
+             <lit-tag v="mf" />
+             <lit-tag v="sp" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="det" />
+        <pattern-item n="pagina" />
+        <pattern-item n="num" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+          <b />
+          <lu>
+             <clip pos="4" side="tl" part="lem" />
+             <lit-tag v="num" />
+             <lit-tag v="mf" />
+             <lit-tag v="sp" />
           </lu>
         </out>
       </action>
