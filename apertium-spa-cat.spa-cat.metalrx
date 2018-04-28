@@ -1068,6 +1068,24 @@
     </or>
   </rule>
 
+<!-- medio (adj) > mitjà/mitg/... -->
+
+  <rule weight="0.6">
+    <match lemma="medio" tags="adj.*"><select lemma="mitjà"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="n.m.*"/>
+    <match lemma="y"/>
+    <match lemma="medio" tags="adj.m.sg"><select lemma="mig"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="n.f.*"/>
+    <match lemma="y"/>
+    <match lemma="medio" tags="adj.f.sg"><select lemma="mig"/></match>
+  </rule>
+
+
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
   <macro name="noms_propis" p1="Luis" p2="Lluís" />

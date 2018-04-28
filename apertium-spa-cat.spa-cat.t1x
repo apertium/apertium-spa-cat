@@ -16,6 +16,9 @@
       <cat-item tags="det.*" />
       <cat-item tags="predet.*" />
     </def-cat>
+    <def-cat n="detdef">
+      <cat-item tags="det.def.*" />
+    </def-cat>
     <def-cat n="det_rel">
       <cat-item tags="det.*" />
       <cat-item tags="predet.*" />
@@ -3824,7 +3827,7 @@
     <rule>
       <!-- REGLA: DET NOM i NOM-->
       <pattern>
-        <pattern-item n="det" />
+        <pattern-item n="detdef" />
         <pattern-item n="nom" />
         <pattern-item n="cnjoadv" />
         <pattern-item n="nom" />
