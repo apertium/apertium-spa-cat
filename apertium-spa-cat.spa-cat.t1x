@@ -6,6 +6,9 @@
       <cat-item tags="n.*" />
       <cat-item tags="np.ant" />
     </def-cat>
+    <def-cat n="nomcomun">
+      <cat-item tags="n.*" />
+    </def-cat>
     <def-cat n="nomp">
       <cat-item tags="np.ant" />
     </def-cat>
@@ -370,6 +373,24 @@
     <def-cat n="adj-masc-sg">
       <cat-item tags="adj.m.sg" />
       <cat-item tags="adj.m.sp" />
+    </def-cat>
+    <def-cat n="ninguno">
+      <cat-item lemma="ninguno" tags="det.ind.*" />
+    </def-cat>
+    <def-cat n="nada">
+      <cat-item lemma="nada" tags="prn.*" />
+    </def-cat>
+    <def-cat n="gracia">
+      <cat-item lemma="gracia" tags="n.*" />
+      <cat-item lemma="importancia" tags="n.*" />
+      <cat-item lemma="interés" tags="n.*" />
+      <cat-item lemma="estima" tags="n.*" />
+      <cat-item lemma="simpatía" tags="n.*" />
+      <cat-item lemma="gana" tags="n.*" />
+      <cat-item lemma="respeto" tags="n.*" />
+      <cat-item lemma="miedo" tags="n.*" />
+      <cat-item lemma="pena" tags="n.*" />
+      <cat-item lemma="prisa" tags="n.*" />
     </def-cat>
     <!--<def-cat n="pr_1s"><cat-item lemma="me" tags="prn.pro.p1.mf.sg" /></def-cat>
     <def-cat n="ir_1s"><cat-item lemma="ir" tags="vblex.*.p1.sg" /></def-cat>
@@ -3207,6 +3228,59 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+    <!-- REGLA: ninguna gracia  > gens de gràcia -->
+    <rule>
+      <pattern>
+        <pattern-item n="ninguno" />
+        <pattern-item n="gracia" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="gens" />
+            </get-case-from>
+            <lit-tag v="adv" />
+          </lu>
+          <b/>
+          <lu>
+            <lit v="de" />
+            <lit-tag v="pr" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="whole" pos="2" side="tl" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <!-- REGLA: nada de paciencia  > gens de paciència -->
+    <rule>
+      <pattern>
+        <pattern-item n="nada" />
+        <pattern-item n="de" />
+        <pattern-item n="nomcomun" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="gens" />
+            </get-case-from>
+            <lit-tag v="adv" />
+          </lu>
+          <b/>
+          <lu>
+            <lit v="de" />
+            <lit-tag v="pr" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="whole" pos="3" side="tl" />
+          </lu>
+        </out>
+      </action>
+    </rule>
     <rule>
       <!-- los hay > n'hi ha -->
       <pattern>
@@ -9961,7 +10035,7 @@
         <call-macro n="f_pretind"><with-param pos="2" /></call-macro>
       </action>
     </rule>-->
-        <!-- REGLA: algo + adj > alguna cosa + adj (fem) -->
+    <!-- REGLA: algo + adj > alguna cosa + adj (fem) -->
     <rule>
       <pattern>
         <pattern-item n="algo" />

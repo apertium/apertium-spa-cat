@@ -1098,6 +1098,24 @@
     </repeat>
     <match lemma="de"/>  
   </rule>
+
+  <!-- sí (lo) es > sí que (ho) és -->
+
+  <rule weight="0.6">
+    <match lemma="sí" tags="adv"><select lemma="sí"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="sí" tags="adv"><select lemma="sí que"/></match>
+    <repeat from="0" upto="1">
+      <match tags="prn.*"/>
+    </repeat>
+    <or>
+      <match tags="vblex.*"/>  
+      <match tags="vbmod.*"/>
+      <match tags="vbser.*"/> 
+    </or>
+  </rule>
   
 
 
