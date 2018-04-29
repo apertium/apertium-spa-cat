@@ -1085,6 +1085,21 @@
     <match lemma="medio" tags="adj.f.sg"><select lemma="mig"/></match>
   </rule>
 
+  <!-- librar > lliurar/deslliurar/... -->
+
+  <rule weight="0.6">
+    <match lemma="librar" tags="vblex.*"><select lemma="lliurar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="librar" tags="vblex.*"><select lemma="deslliurar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>  
+  </rule>
+  
+
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />

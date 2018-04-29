@@ -1572,6 +1572,28 @@
      </or>
   </rule>
 
+    <!-- deslliurar > liberar/librar de... -->
+
+  <rule weight="0.6">
+    <match lemma="deslliurar" tags="vblex.*"><select lemma="liberar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="deslliurar" tags="vblex.*"><select lemma="librar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>  
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="en" tags="prn.*"/>
+    <repeat from="0" upto="1">
+      <match lemma="anar" tags="vblex.*"/>
+    </repeat>
+    <match lemma="deslliurar" tags="vblex.*"><select lemma="librar"/></match>
+  </rule>
+
 
 <!-- **************** NP **************** -->
 
