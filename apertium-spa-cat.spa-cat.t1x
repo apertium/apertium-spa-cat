@@ -9087,8 +9087,14 @@
               </lu>
               <b />
               <lu>
-                <clip part="whole" pos="3" side="tl" />
-              </lu>
+              <clip part="lemh" pos="3" side="tl" />
+              <clip pos="3" side="tl" part="a_verb" />
+              <clip pos="3" side="tl" part="temps" />
+              <clip pos="3" side="tl" part="persona" />
+              <clip pos="3" side="tl" part="gen" />
+              <clip pos="3" side="tl" part="nbr" />
+              <clip pos="3" side="tl" part="lemq" />
+            </lu>
             </out>
           </otherwise>
         </choose>
