@@ -1178,6 +1178,53 @@
       <match tags="vbser.ger"/> 
     </or>  
   </rule>
+
+  <!-- ningún > cap /gens de ... -->
+
+  <rule weight="0.6">
+    <match lemma="ninguno" tags="det.ind.*"><select lemma="cap"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="ninguno" tags="det.ind.*"><select lemma="gens de"/></match>
+    <or>
+      <match lemma="gracia" tags="n.*" />
+      <match lemma="importancia" tags="n.*" />
+      <match lemma="interés" tags="n.*" />
+      <match lemma="estima" tags="n.*" />
+      <match lemma="simpatía" tags="n.*" />
+      <match lemma="gana" tags="n.*" />
+      <match lemma="respeto" tags="n.*" />
+      <match lemma="miedo" tags="n.*" />
+      <match lemma="pena" tags="n.*" />
+      <match lemma="prisa" tags="n.*" />
+      <match lemma="dinero" tags="n.*" />
+    </or>   
+  </rule>
+
+   <!-- probar a + inf > provar de  ... -->
+
+  <rule weight="0.6">
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="probar" tags="vblex.*"/>
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
+    <match tags="*.inf"/>
+  </rule>
+
+   <!-- en + inf > a + inf  ... -->
+
+  <rule weight="0.6">
+    <match lemma="en" tags="pr"><select lemma="en"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <match tags="*.inf"/>
+  </rule>
+
   
 
 

@@ -17,7 +17,9 @@
     </def-cat>
     <def-cat n="det">
       <cat-item tags="det.*" />
-      <cat-item tags="predet.*" />
+      <cat-item tags="predet.m.*" />
+      <cat-item tags="predet.f.*" />
+      <!--evita el neutre: nt-->
     </def-cat>
     <def-cat n="detdef">
       <cat-item tags="det.def.*" />
@@ -3230,32 +3232,6 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
-    <!-- REGLA: ninguna gracia  > gens de gràcia -->
-    <rule>
-      <pattern>
-        <pattern-item n="ninguno" />
-        <pattern-item n="gracia" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="gens" />
-            </get-case-from>
-            <lit-tag v="adv" />
-          </lu>
-          <b/>
-          <lu>
-            <lit v="de" />
-            <lit-tag v="pr" />
-          </lu>
-          <b/>
-          <lu>
-            <clip part="whole" pos="2" side="tl" />
-          </lu>
-        </out>
-      </action>
-    </rule>
     <!-- REGLA: nada de paciencia  > gens de paciència -->
     <rule>
       <pattern>
@@ -6485,103 +6461,6 @@
       </action>
     </rule>
     <rule>
-      <!--REGLA: prep "en" + inf = a + inf : "especialistas en investigar -> especialistes a investigar -->
-      <pattern>
-        <pattern-item n="en" />
-        <pattern-item n="inf" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="a" />
-            </get-case-from>
-            <clip pos="1" side="tl" part="a_prep" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <clip pos="2" side="tl" part="lemh" />
-            <clip pos="2" side="tl" part="a_inf" />
-            <clip pos="2" side="tl" part="lemq" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!--REGLA: prep "en" + inf +enc= a + inf+enc -->
-      <pattern>
-        <pattern-item n="en" />
-        <pattern-item n="inf" />
-        <pattern-item n="prnenc" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="a" />
-            </get-case-from>
-            <clip pos="1" side="tl" part="a_prep" />
-          </lu>
-          <b pos="1" />
-          <mlu>
-            <lu>
-              <clip pos="2" side="tl" part="lemh" />
-              <clip pos="2" side="tl" part="a_inf" />
-            </lu>
-            <lu>
-              <clip pos="3" side="tl" part="lem" />
-              <clip pos="3" side="tl" part="a_prnenc" />
-              <clip pos="3" side="tl" part="persona" />
-              <clip pos="3" side="tl" part="gen" />
-              <clip pos="3" side="tl" part="nbr" />
-              <clip pos="2" side="tl" part="lemq" />
-            </lu>
-          </mlu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!--REGLA: prep "en" + inf +enc+enc = a + inf+enc+enc -->
-      <pattern>
-        <pattern-item n="en" />
-        <pattern-item n="inf" />
-        <pattern-item n="prnenc" />
-        <pattern-item n="prnenc" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="a" />
-            </get-case-from>
-            <clip pos="1" side="tl" part="a_prep" />
-          </lu>
-          <b pos="1" />
-          <mlu>
-            <lu>
-              <clip pos="2" side="tl" part="lemh" />
-              <clip pos="2" side="tl" part="a_inf" />
-            </lu>
-            <lu>
-              <clip pos="3" side="tl" part="lem" />
-              <clip pos="3" side="tl" part="a_prnenc" />
-              <clip pos="3" side="tl" part="persona" />
-              <clip pos="3" side="tl" part="gen" />
-              <clip pos="3" side="tl" part="nbr" />
-            </lu>
-            <lu>
-              <clip pos="4" side="tl" part="lem" />
-              <clip pos="4" side="tl" part="a_prnenc" />
-              <clip pos="4" side="tl" part="persona" />
-              <clip pos="4" side="tl" part="gen" />
-              <clip pos="4" side="tl" part="nbr" />
-              <clip pos="2" side="tl" part="lemq" />
-            </lu>
-          </mlu>
-        </out>
-      </action>
-    </rule>
-    <rule>
       <!--REGLA: prep "al" + inf = en + inf : al salir->en sortir -->
       <pattern>
         <pattern-item n="a" />
@@ -9616,34 +9495,6 @@
           <b />
           <lu>
             <clip part="whole" pos="2" side="tl" />
-          </lu>
-          <b />
-          <lu>
-            <clip part="whole" pos="3" side="tl" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- probar a + inf => provar de + inf -->
-      <pattern>
-        <pattern-item n="probar" />
-        <pattern-item n="a" />
-        <pattern-item n="inf" />
-      </pattern>
-      <action>
-        <let>
-          <clip part="lem" pos="1" side="tl" />
-          <lit v="provar" />
-        </let>
-        <call-macro n="f_pretind">
-          <with-param pos="1" />
-        </call-macro>
-        <out>
-          <b />
-          <lu>
-            <lit v="de" />
-            <lit-tag v="pr" />
           </lu>
           <b />
           <lu>
