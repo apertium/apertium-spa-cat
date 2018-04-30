@@ -1594,6 +1594,19 @@
     <match lemma="deslliurar" tags="vblex.*"><select lemma="librar"/></match>
   </rule>
 
+  <!-- recórrer > recorrer/recurrir a... -->
+
+  <rule weight="0.6">
+    <match lemma="recórrer" tags="vblex.*"><select lemma="recorrer"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="recórrer" tags="vblex.*"><select lemma="recurrir"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a"/>  
+  </rule>
 
 <!-- **************** NP **************** -->
 

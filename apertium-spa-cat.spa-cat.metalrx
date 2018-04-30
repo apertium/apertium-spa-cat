@@ -1116,6 +1116,68 @@
       <match tags="vbser.*"/> 
     </or>
   </rule>
+
+  <!-- seguir > seguir / continuar + gerundi... -->
+
+  <rule weight="0.6">
+    <match lemma="seguir" tags="vblex.*"><select lemma="seguir"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="seguir" tags="vblex.*"><select lemma="continuar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="vblex.ger"/>  
+      <match tags="vbmod.ger"/>
+      <match tags="vbser.ger"/> 
+    </or>  
+  </rule>
+
+  <!-- barajar > remenar / considerar + inf... -->
+
+  <rule weight="0.6">
+    <match lemma="barajar" tags="vblex.*"><select lemma="remenar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="barajar" tags="vblex.*"><select lemma="considerar"/></match>
+    <or>
+      <match tags="vblex.inf"/>  
+      <match tags="vbmod.inf"/>
+      <match tags="vbser.inf"/> 
+    </or>  
+  </rule>
+
+  <!-- hasta > fins a/fins ... -->
+
+  <rule weight="0.6">
+    <match lemma="hasta" tags="pr"><select lemma="fins a"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="hasta" tags="pr"><select lemma="fins"/></match>
+    <or>
+      <match tags="adv"/>
+      <match tags="rel.adv"/>
+      <match lemma="que"/>
+      <match lemma="cuando"/>
+      <match lemma="cuándo"/>
+      <match lemma="cuanto"/>
+      <match lemma="cuánto"/>
+    </or>   
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="hasta" tags="pr"><select lemma="fins"/></match>
+    <or>
+      <match tags="prn.*"/>
+      <match tags="vblex.ger"/>  
+      <match tags="vbmod.ger"/>
+      <match tags="vbser.ger"/> 
+    </or>  
+  </rule>
   
 
 

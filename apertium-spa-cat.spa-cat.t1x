@@ -335,9 +335,6 @@
     <def-cat n="barajar">
       <cat-item lemma="barajar" tags="vblex.*" />
     </def-cat>
-    <def-cat n="seguir">
-      <cat-item lemma="seguir" tags="vblex.*" />
-    </def-cat>
     <def-cat n="probar">
       <cat-item lemma="probar" tags="vblex.*" />
     </def-cat>
@@ -3702,7 +3699,7 @@
           </lu>
           <b pos="4" />
           <lu>
-            <clip pos="5" side="tl" part="lemh" />
+            <clip pos="5" side="tl" part="whole" />
           </lu>
           <b pos="5" />
           <lu>
@@ -3898,8 +3895,10 @@
         </out>
       </action>
     </rule>
+    <!-- REGLA: DET NOM i NOM-->
+    <!-- demasiados problemas
     <rule>
-      <!-- REGLA: DET NOM i NOM-->
+      
       <pattern>
         <pattern-item n="detdef" />
         <pattern-item n="nom" />
@@ -3950,7 +3949,7 @@
           </lu>
         </out>
       </action>
-    </rule>
+    </rule>-->
     <rule>
       <!-- REGLA: DET NOM ADJECTIU i ADJECTIU-->
       <pattern>
@@ -9342,136 +9341,7 @@
         </out>
       </action>
     </rule>
-    <rule>
-      <!-- barajar + infintiu (spa) => considerar + infinitiu (cat) -->
-      <pattern>
-        <pattern-item n="barajar" />
-        <pattern-item n="inf" />
-      </pattern>
-      <action>
-        <let>
-          <clip part="lem" pos="1" side="tl" />
-          <lit v="considerar" />
-        </let>
-        <call-macro n="f_pretind">
-          <with-param pos="1" />
-        </call-macro>
-        <out>
-          <b />
-          <lu>
-            <clip part="whole" pos="2" side="tl" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <!-- seguir + gerundi (spa) => continuar + gerundi (cat).
-  'Seguir' no és incorrecte, però és menys genuí i se n'abusa molt.-->
-    <rule>
-      <pattern>
-        <pattern-item n="seguir" />
-        <pattern-item n="ger" />
-      </pattern>
-      <action>
-        <let>
-          <clip part="lem" pos="1" side="tl" />
-          <lit v="continuar" />
-        </let>
-        <call-macro n="f_pretind">
-          <with-param pos="1" />
-        </call-macro>
-        <out>
-          <b />
-          <lu>
-            <clip part="whole" pos="2" side="tl" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <pattern>
-        <pattern-item n="seguir" />
-        <pattern-item n="ger" />
-        <pattern-item n="prnenc" />
-      </pattern>
-      <action>
-        <let>
-          <clip part="lem" pos="1" side="tl" />
-          <lit v="continuar" />
-        </let>
-        <call-macro n="f_pretind">
-          <with-param pos="1" />
-        </call-macro>
-        <out>
-          <b />
-          <mlu>
-              <lu>
-                <clip pos="2" side="tl" part="lemh" />
-                <clip pos="2" side="tl" part="a_verb" />
-                <clip pos="2" side="tl" part="temps" />
-                <clip pos="2" side="tl" part="persona" />
-                <clip pos="2" side="tl" part="nbr" />
-              </lu>
-              <lu>
-                <clip pos="3" side="tl" part="lem" />
-                <clip pos="3" side="tl" part="a_prnenc" />
-                <clip pos="3" side="tl" part="persona" />
-                <clip pos="3" side="tl" part="gen" />
-                <clip pos="3" side="tl" part="nbr" />
-                <clip pos="2" side="tl" part="lemq" />
-              </lu>
-            </mlu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <pattern>
-        <pattern-item n="seguir" />
-        <pattern-item n="ger" />
-        <pattern-item n="prnenc" />
-        <pattern-item n="prnenc" />
-      </pattern>
-      <action>
-        <let>
-          <clip part="lem" pos="1" side="tl" />
-          <lit v="continuar" />
-        </let>
-        <call-macro n="f_pretind">
-          <with-param pos="1" />
-        </call-macro>
-        <out>
-          <b />
-          <mlu>
-              <lu>
-                <clip pos="2" side="tl" part="lemh" />
-                <clip pos="2" side="tl" part="a_verb" />
-                <clip pos="2" side="tl" part="temps" />
-                <clip pos="2" side="tl" part="persona" />
-                <clip pos="2" side="tl" part="nbr" />
-              </lu>
-              <lu>
-                <clip pos="3" side="tl" part="lem" />
-                <clip pos="3" side="tl" part="a_prnenc" />
-                <clip pos="3" side="tl" part="persona" />
-                <clip pos="3" side="tl" part="gen" />
-                <clip pos="3" side="tl" part="nbr" />
-                <clip pos="3" side="tl" part="lemq" />
-              </lu>
-              <lu>
-                <clip pos="4" side="tl" part="lem" />
-                <clip pos="4" side="tl" part="a_prnenc" />
-                <clip pos="4" side="tl" part="persona" />
-                <clip pos="4" side="tl" part="gen" />
-                <clip pos="4" side="tl" part="nbr" />
-                <clip pos="2" side="tl" part="lemq" />
-                </lu>
-            </mlu>
-        </out>
-      </action>
-    </rule>
-
-
-      <!-- -->
-      <!-- cuáles son las que vienen -> quines són les que venen-->
+    <!-- cuáles son las que vienen -> quines són les que venen-->
     <rule>
       <pattern>
         <pattern-item n="cuál" />
@@ -9767,47 +9637,6 @@
           <b />
           <lu>
             <clip part="whole" pos="3" side="tl" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- hasta + verb/prn => "fins" / no "fins a" -->
-      <pattern>
-        <pattern-item n="hasta" />
-        <pattern-item n="verb" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="fins" />
-            </get-case-from>
-            <lit-tag v="pr" />
-          </lu>
-          <b />
-        </out>
-        <call-macro n="f_pretind">
-          <with-param pos="2" />
-        </call-macro>
-      </action>
-    </rule>
-    <rule>
-      <pattern>
-        <pattern-item n="hasta" />
-        <pattern-item n="prnpro_todos" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="fins" />
-            </get-case-from>
-            <lit-tag v="pr" />
-          </lu>
-          <b />
-          <lu>
-            <clip part="whole" pos="2" side="tl" />
           </lu>
         </out>
       </action>
