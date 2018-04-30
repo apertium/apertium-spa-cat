@@ -202,6 +202,10 @@
     </def-cat>
     <def-cat n="porque">
       <cat-item lemma="porque" tags="cnjadv" />
+      <cat-item lemma="quizá" tags="adv" />
+      <cat-item lemma="quizás" tags="adv" />
+      <cat-item lemma="probablemente" tags="adv"/>
+      <cat-item lemma="posiblemente" tags="adv"/>
     </def-cat>
     <def-cat n="cnjcoo">
       <cat-item tags="cnjcoo" />
@@ -388,6 +392,7 @@
       <cat-item lemma="miedo" tags="n.*" />
       <cat-item lemma="pena" tags="n.*" />
       <cat-item lemma="prisa" tags="n.*" />
+      <cat-item lemma="dinero" tags="n.*" />
     </def-cat>
     <!--<def-cat n="pr_1s"><cat-item lemma="me" tags="prn.pro.p1.mf.sg" /></def-cat>
     <def-cat n="ir_1s"><cat-item lemma="ir" tags="vblex.*.p1.sg" /></def-cat>
