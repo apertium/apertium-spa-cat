@@ -1239,6 +1239,9 @@
       <match lemma="ayudar" tags="vblex.*"/>
       <match lemma="acusar" tags="vblex.*"/>
       <match lemma="homenajear" tags="vblex.*"/>
+      <match lemma="preocupar" tags="vblex.*"/>
+      <match lemma="obligar" tags="vblex.*"/>
+      <match lemma="fichar" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma=""/></match>
   </rule>
@@ -1251,7 +1254,8 @@
       <match tags="np.loc"/>
       <match tags="np.top"/>   
       <match tags="prn.*"/>  
-      <match lemma="todo"/> 
+      <match lemma="todo"/>
+      <match tags="*.inf"/> 
     </or>
   </rule>
 
@@ -1277,6 +1281,7 @@
       <match lemma="molestar" tags="vblex.*"/>
       <match lemma="preocupar" tags="vblex.*"/>
       <match lemma="obligar" tags="vblex.*"/>
+      <match lemma="fichar" tags="vblex.*"/>
     </or>
     <match lemma="le" tags="prn.enc.*"><select lemma="el"/></match>
   </rule>
@@ -1306,6 +1311,7 @@
       <match lemma="molestar" tags="vblex.*"/>
       <match lemma="preocupar" tags="vblex.*"/>
       <match lemma="obligar" tags="vblex.*"/>
+      <match lemma="fichar" tags="vblex.*"/>
     </or>   
   </rule>
 
