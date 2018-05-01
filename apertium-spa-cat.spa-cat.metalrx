@@ -1170,12 +1170,21 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="hasta" tags="pr"><select lemma="fins a"/></match>
+    <or>
+      <match tags="vblex.inf"/>  
+      <match tags="vbmod.inf"/>
+      <match tags="vbser.inf"/> 
+    </or>  
+  </rule>
+
+  <rule weight="0.8">
     <match lemma="hasta" tags="pr"><select lemma="fins"/></match>
     <or>
       <match tags="prn.*"/>
-      <match tags="vblex.ger"/>  
-      <match tags="vbmod.ger"/>
-      <match tags="vbser.ger"/> 
+      <match tags="vblex.*"/>  
+      <match tags="vbmod.*"/>
+      <match tags="vbser.*"/> 
     </or>  
   </rule>
 
