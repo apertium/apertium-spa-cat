@@ -1276,6 +1276,7 @@
       <match lemma="homenajear" tags="vblex.*"/>
       <match lemma="molestar" tags="vblex.*"/>
       <match lemma="preocupar" tags="vblex.*"/>
+      <match lemma="obligar" tags="vblex.*"/>
     </or>
     <match lemma="le" tags="prn.enc.*"><select lemma="el"/></match>
   </rule>
@@ -1304,6 +1305,7 @@
       <match lemma="homenajear" tags="vblex.*"/>
       <match lemma="molestar" tags="vblex.*"/>
       <match lemma="preocupar" tags="vblex.*"/>
+      <match lemma="obligar" tags="vblex.*"/>
     </or>   
   </rule>
 
@@ -1321,7 +1323,19 @@
   <!-- deber de > deure (si el castellà és "correcte") / haver de (molt sovint)... -->
 
   <rule weight="0.6">
-    <match lemma="deber# de" tags="vbmod.*"><select lemma="haver# de"/></match> <!-- "incorrecte", però molt freqüent -->
+    <match lemma="deber# de" tags="vbmod.*"><select lemma="haver# de"/></match> <!-- "incorrecte" en castellà, però molt freqüent -->
+  </rule>
+
+  <rule weight="1"> <!-- debieron de decirlo > degueren dir-ho -->
+    <match lemma="deber# de" tags="vbmod.ifi.*"><select lemma="deure"/></match>
+  </rule>
+
+  <rule weight="0.6">
+    <match lemma="deber" tags="vbmod.*"><select lemma="haver# de"/></match> 
+  </rule>
+
+  <rule weight="1"> <!-- debieron decirlo > degueren dir-ho -->
+    <match lemma="deber" tags="vbmod.ifi.*"><select lemma="deure"/></match>
   </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />

@@ -286,6 +286,7 @@
     </def-cat>
     <def-cat n="deber_de_ifi">
       <cat-item lemma="deber# de" tags="vbmod.ifi.*" />
+      <cat-item lemma="deber" tags="vbmod.ifi.*" />
     </def-cat>
     <def-cat n="dies">
       <cat-item lemma="lunes" tags="n.m.sp" />
@@ -3234,6 +3235,19 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+    <!-- lo debieron (de) decir: degueren dir / NO: van deure dir -->
+    <rule>
+      <pattern>
+        <pattern-item n="deber_de_ifi" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip part="whole" pos="1" side="tl" />
+          </lu>
+        </out>
+      </action>
+    </rule>
     <!-- REGLA: nada de paciencia  > gens de paciència -->
     <rule>
       <pattern>
@@ -9503,24 +9517,6 @@
           <b />
           <lu>
             <clip part="whole" pos="4" side="tl" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- lo debieron de decir: degueren dir / NO: van deure dir -->
-      <pattern>
-        <pattern-item n="deber_de_ifi" />
-        <pattern-item n="inf" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip part="whole" pos="1" side="tl" />
-          </lu>
-          <b />
-          <lu>
-            <clip part="whole" pos="2" side="tl" />
           </lu>
         </out>
       </action>
