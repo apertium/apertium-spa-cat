@@ -6,14 +6,16 @@
       <cat-item tags="n.*" />
       <cat-item tags="np.ant" />
     </def-cat>
-    <def-cat n="nomcomun">
-      <cat-item tags="n.*" />
-    </def-cat>
     <def-cat n="nomp">
       <cat-item tags="np.ant" />
     </def-cat>
     <def-cat n="nploc">
       <cat-item tags="np.loc" />
+    </def-cat>
+      <def-cat n="nomcomunsg">
+      <cat-item tags="n.m.sg" />
+      <cat-item tags="n.f.sg" />
+      <cat-item tags="n.mf.sg" />
     </def-cat>
     <def-cat n="det">
       <cat-item tags="det.*" />
@@ -3253,7 +3255,7 @@
       <pattern>
         <pattern-item n="nada" />
         <pattern-item n="de" />
-        <pattern-item n="nomcomun" />
+        <pattern-item n="nomcomunsg" />
       </pattern>
       <action>
         <out>

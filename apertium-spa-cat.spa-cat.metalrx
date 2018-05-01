@@ -1243,7 +1243,7 @@
     <match lemma="a" tags="pr"><select lemma=""/></match>
   </rule>
 
-  <rule weight="1.5">
+  <rule weight="1.1">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
     <or>
       <match tags="np.loc.*"/>
@@ -1336,6 +1336,46 @@
 
   <rule weight="1"> <!-- debieron decirlo > degueren dir-ho -->
     <match lemma="deber" tags="vbmod.ifi.*"><select lemma="deure"/></match>
+  </rule>
+
+  <!-- debido a > degut a / a causa de  -->
+
+  <rule weight="2">
+    <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="a causa"/></match> 
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
+  </rule>  
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="ser" />
+      <match lemma="haber" />
+      <match tags="n.m.sg" />     
+    </or>
+    <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
+    <repeat from="0" to="1">
+      <match lemma="*" tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="ser" />
+      <match lemma="haber" />
+      <match tags="n.m.sg" />     
+    </or>
+    <match lemma="*" tags="adv"/>
+    <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="3"> 
+    <or>
+      <match lemma="ser" />
+      <match lemma="haber" />
+      <match tags="n.m.sg" />     
+    </or>
+    <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
