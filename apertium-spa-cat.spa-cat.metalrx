@@ -1223,7 +1223,91 @@
     <match tags="*.inf"/>
   </rule>
 
-   <!-- en + inf > a + inf  ... -->
+  <!-- elimina "a" en verbs transitius -->
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="perjudicar" tags="vblex.*"/>
+      <match lemma="concernir" tags="vblex.*"/>
+      <match lemma="cansar" tags="vblex.*"/>
+      <match lemma="sorprender" tags="vblex.*"/>
+      <match lemma="informar" tags="vblex.*"/>
+      <match lemma="afectar" tags="vblex.*"/>
+      <match lemma="asesorar" tags="vblex.*"/>
+      <match lemma="apasionar" tags="vblex.*"/>
+      <match lemma="atraer" tags="vblex.*"/>
+      <match lemma="ayudar" tags="vblex.*"/>
+      <match lemma="acusar" tags="vblex.*"/>
+      <match lemma="homenajear" tags="vblex.*"/>
+    </or>
+    <match lemma="a" tags="pr"><select lemma=""/></match>
+  </rule>
+
+  <rule weight="1.5">
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>   
+      <match tags="np.loc"/>
+      <match tags="np.top"/>   
+      <match tags="prn.*"/>  
+      <match lemma="todo"/> 
+    </or>
+  </rule>
+
+  <!-- Verbs transitius: Le afectaba > L'afectava -->
+  <rule weight="0.6">
+    <match lemma="le" tags="prn.*"><select lemma="li"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="perjudicar" tags="vblex.*"/>
+      <match lemma="concernir" tags="vblex.*"/>
+      <match lemma="cansar" tags="vblex.*"/>
+      <match lemma="sorprender" tags="vblex.*"/>
+      <match lemma="informar" tags="vblex.*"/>
+      <match lemma="afectar" tags="vblex.*"/>
+      <match lemma="asesorar" tags="vblex.*"/>
+      <match lemma="apasionar" tags="vblex.*"/>
+      <match lemma="atraer" tags="vblex.*"/>
+      <match lemma="ayudar" tags="vblex.*"/>
+      <match lemma="acusar" tags="vblex.*"/>
+      <match lemma="homenajear" tags="vblex.*"/>
+      <match lemma="molestar" tags="vblex.*"/>
+      <match lemma="preocupar" tags="vblex.*"/>
+    </or>
+    <match lemma="le" tags="prn.enc.*"><select lemma="el"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="le" tags="prn.pro.*"><select lemma="el"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match lemma="ir"/>
+        <match lemma="a"/>
+        <match tags="vbmod.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="perjudicar" tags="vblex.*"/>
+      <match lemma="concernir" tags="vblex.*"/>
+      <match lemma="cansar" tags="vblex.*"/>
+      <match lemma="sorprender" tags="vblex.*"/>
+      <match lemma="informar" tags="vblex.*"/>
+      <match lemma="afectar" tags="vblex.*"/>
+      <match lemma="asesorar" tags="vblex.*"/>
+      <match lemma="apasionar" tags="vblex.*"/>
+      <match lemma="atraer" tags="vblex.*"/>
+      <match lemma="ayudar" tags="vblex.*"/>
+      <match lemma="acusar" tags="vblex.*"/>
+      <match lemma="homenajear" tags="vblex.*"/>
+      <match lemma="molestar" tags="vblex.*"/>
+      <match lemma="preocupar" tags="vblex.*"/>
+    </or>   
+  </rule>
+
+   <!-- en + inf > a + inf  Consiste en hacer > consisteix a fer -->
 
   <rule weight="0.6">
     <match lemma="en" tags="pr"><select lemma="en"/></match>
@@ -1234,8 +1318,11 @@
     <match tags="*.inf"/>
   </rule>
 
-  
+  <!-- deber de > deure (si el castellà és "correcte") / haver de (molt sovint)... -->
 
+  <rule weight="0.6">
+    <match lemma="deber# de" tags="vbmod.*"><select lemma="haver# de"/></match> <!-- "incorrecte", però molt freqüent -->
+  </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
