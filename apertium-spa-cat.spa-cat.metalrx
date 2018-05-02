@@ -1261,7 +1261,10 @@
 
   <!-- Verbs transitius: Le afectaba > L'afectava -->
   <rule weight="0.6">
-    <match lemma="le" tags="prn.*"><select lemma="li"/></match>
+    <match lemma="le" tags="prn.pro.*"><select lemma="li"/></match>
+  </rule>
+  <rule weight="0.6">
+    <match lemma="le" tags="prn.enc.*"><select lemma="li"/></match>
   </rule>
 
   <rule weight="1.0">
@@ -1368,7 +1371,7 @@
     <or>
       <match lemma="ser" />
       <match lemma="haber" />
-      <match tags="n.m.sg" />     
+      <match tags="n.m.sg" />
     </or>
     <match lemma="*" tags="adv"/>
     <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
@@ -1383,6 +1386,15 @@
     <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
+  <!-- No es pot saber <rule weight="3"> 
+    <match tags="n.m.sg" />
+    <or>
+      <match tags="adj.m.sg" />
+      <match tags="adj.mf.sg" />
+    </or>
+    <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>-->
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
