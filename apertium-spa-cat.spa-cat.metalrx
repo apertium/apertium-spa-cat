@@ -1263,6 +1263,7 @@
   <rule weight="0.6">
     <match lemma="le" tags="prn.pro.*"><select lemma="li"/></match>
   </rule>
+
   <rule weight="0.6">
     <match lemma="le" tags="prn.enc.*"><select lemma="li"/></match>
   </rule>
