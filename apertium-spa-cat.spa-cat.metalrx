@@ -1240,7 +1240,7 @@
       <match lemma="acusar" tags="vblex.*"/>
       <match lemma="homenajear" tags="vblex.*"/>
       <match lemma="preocupar" tags="vblex.*"/>
-      <match lemma="obligar" tags="vblex.*"/>
+      <!--<match lemma="obligar" tags="vblex.*"/>-->
       <match lemma="fichar" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma=""/></match>
