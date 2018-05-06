@@ -959,6 +959,10 @@
                         <clip pos="3" side="tl" part="lem" />
                         <lit v="qualsevol" />
                       </equal>
+                      <equal caseless="yes">
+                        <clip pos="3" side="tl" part="lem" />
+                        <lit v="cap" />
+                      </equal>
                     </or>
                   </not>
                 </and>

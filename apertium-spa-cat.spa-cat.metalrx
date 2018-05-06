@@ -161,7 +161,7 @@
         <select lemma="tall" />
     </match>
     <match lemma="de"/>
-    <repeat from="0" to="1">
+    <repeat from="0" upto="1">
       <match lemma="*" tags="det.*"/>
     </repeat>
     <or>
@@ -1242,6 +1242,7 @@
       <match lemma="preocupar" tags="vblex.*"/>
       <!--<match lemma="obligar" tags="vblex.*"/>-->
       <match lemma="fichar" tags="vblex.*"/>
+      <match lemma="felicitar" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma=""/></match>
   </rule>
@@ -1286,6 +1287,7 @@
       <match lemma="preocupar" tags="vblex.*"/>
       <match lemma="obligar" tags="vblex.*"/>
       <match lemma="fichar" tags="vblex.*"/>
+      <match lemma="felicitar" tags="vblex.*"/>
     </or>
     <match lemma="le" tags="prn.enc.*"><select lemma="el"/></match>
   </rule>
@@ -1316,6 +1318,7 @@
       <match lemma="preocupar" tags="vblex.*"/>
       <match lemma="obligar" tags="vblex.*"/>
       <match lemma="fichar" tags="vblex.*"/>
+      <match lemma="felicitar" tags="vblex.*"/>
     </or>   
   </rule>
 
@@ -1366,7 +1369,7 @@
       <match tags="n.m.sg" />     
     </or>
     <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
-    <repeat from="0" to="1">
+    <repeat from="0" upto="1">
       <match lemma="*" tags="adv"/>
     </repeat>
     <match lemma="a" tags="pr"><select lemma="a"/></match>
@@ -1376,30 +1379,17 @@
     <or>
       <match lemma="ser" />
       <match lemma="haber" />
-      <match tags="n.m.sg" />
+      <match lemma="respeto" tags="n.m.sg" />
+      <match lemma="honor" tags="n.m.sg" />
+      <match lemma="culto" tags="n.m.sg" />
+      <match lemma="logro" tags="n.m.sg" />
     </or>
-    <match lemma="*" tags="adv"/>
+    <repeat from="0" upto="1">
+      <match lemma="*" tags="adv"/>
+    </repeat>
     <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
-  <rule weight="3"> 
-    <or>
-      <match lemma="ser" />
-      <match lemma="haber" />
-      <match tags="n.m.sg" />     
-    </or>
-    <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
-    <match lemma="a" tags="pr"><select lemma="a"/></match>
-  </rule>
-  <!-- No es pot saber <rule weight="3"> 
-    <match tags="n.m.sg" />
-    <or>
-      <match tags="adj.m.sg" />
-      <match tags="adj.mf.sg" />
-    </or>
-    <match lemma="deber" tags="vblex.pp.m.sg"><select lemma="deure"/></match>
-    <match lemma="a" tags="pr"><select lemma="a"/></match>
-  </rule>-->
 
   <!-- apoyar > recolzar / donar suport ... -->
 
@@ -1409,11 +1399,17 @@
 
   <rule weight="1.0">
     <match lemma="apoyar" tags="vblex.*"><select lemma="donar# suport a"/></match>
-    <match tags="det.*" />
+    <or>
+      <match tags="det.*" />
+      <match tags="n.*.pl" />
+    </or>
   </rule>
 
  <rule weight="1.5">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="prn.enc.*"/>
+    </repeat>
     <or>
       <match lemma="en"/>
       <match lemma="sobre"/>
@@ -1422,7 +1418,10 @@
 
   <rule weight="1.5">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
-    <match lemma="*" tags="adv"/>
+    <repeat from="0" upto="1">
+      <match tags="prn.enc.*"/>
+    </repeat>
+    <match tags="adv"/>
     <or>
       <match lemma="en"/>
       <match lemma="sobre"/>
