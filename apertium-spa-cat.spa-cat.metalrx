@@ -752,6 +752,7 @@
     <match lemma="mandar" tags="vblex.*"><select lemma="enviar"/></match>
     <repeat from="0" upto="3">
       <or>
+        <match tags="prn.enc.*"/>
         <match tags="det.*"/>
         <match tags="adj.*"/>
         <match tags="adv"/>
@@ -784,6 +785,7 @@
     <match lemma="mandar" tags="vblex.*"><select lemma="enviar"/></match>
     <repeat from="0" upto="3">
       <or>
+        <match tags="prn.enc.*"/>
         <match tags="det.*"/>
         <match tags="adj.*"/>
         <match tags="adv"/>
