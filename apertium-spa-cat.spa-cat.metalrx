@@ -1070,6 +1070,63 @@
     </or>
   </rule>
 
+
+<!-- cumbre > cim /cimera -->
+
+  <rule weight="0.6">
+    <match lemma="cumbre" tags="n.*"><select lemma="cim"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="num"/>
+      <match tags="adj.ord.*"/>
+    </or>
+    <match lemma="cumbre" tags="n.*"><select lemma="cimera"/></match>  
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cumbre" tags="n.*"><select lemma="cimera"/></match>  
+    <match lemma="de"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="ministro" tags="n.*"/>
+      <match lemma="presidente" tags="n.*"/>
+      <match lemma="consejero" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cumbre" tags="n.f.sg"><select lemma="cimera"/></match>  
+    <match lemma="de"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match tags="np.loc"/>
+      <match tags="np.top"/>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cumbre" tags="n.*"><select lemma="cimera"/></match>  
+    <or>
+      <match lemma="europeo" tags="adj.*"/>
+      <match lemma="asiático" tags="adj.*"/>
+      <match lemma="americano" tags="adj.*"/>
+      <match lemma="africano" tags="adj.*"/>
+      <match lemma="suramericano" tags="adj.*"/>
+      <match lemma="iberoamericano" tags="adj.*"/>
+      <match lemma="latinoamericano" tags="adj.*"/>
+      <match lemma="euroasiático" tags="adj.*"/>
+    </or>
+  </rule>
+
+
 <!-- medio (adj) > mitjà/mitg/... -->
 
   <rule weight="0.6">
@@ -1458,6 +1515,7 @@
   <macro name="noms_propis" p1="Ignacio" p2="Ignasi" />
   <macro name="noms_propis" p1="Buenaventura" p2="Bonaventura" />
   <macro name="noms_propis" p1="Calixto" p2="Calixt" />
+  <macro name="noms_propis" p1="Pascual" p2="Pasqual" />
 
   <macro name="noms_propis" p1="Vilfredo" p2="Guifré" />
   <macro name="noms_propis" p1="Ramón" p2="Ramon" />
