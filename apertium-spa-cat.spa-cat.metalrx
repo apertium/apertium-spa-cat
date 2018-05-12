@@ -1127,7 +1127,7 @@
   </rule>
   
   <rule weight="2">
-    <match lemma="cumbre" tags="n.f.*"><select lemma="cimera"/></match>  
+    <match lemma="cumbre" tags="n.f.*"><select lemma="cim"/></match>  
     <repeat from="0" upto="3">
         <match tags="*"/>
     </repeat>
