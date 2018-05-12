@@ -1079,7 +1079,7 @@
 
   <rule weight="1.0">
     <or>
-      <match tags="num"/>
+      <!--<match tags="num"/>-->
       <match tags="adj.ord.*"/>
     </or>
     <match lemma="cumbre" tags="n.*"><select lemma="cimera"/></match>  
@@ -1123,6 +1123,29 @@
       <match lemma="iberoamericano" tags="adj.*"/>
       <match lemma="latinoamericano" tags="adj.*"/>
       <match lemma="euroasiático" tags="adj.*"/>
+    </or>
+  </rule>
+  
+  <rule weight="2">
+    <match lemma="cumbre" tags="n.f.*"><select lemma="cimera"/></match>  
+    <repeat from="0" upto="3">
+        <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="Everest"/>
+      <match lemma="Andes"/>
+      <match lemma="Alpes"/>
+      <match lemma="Himalaya"/>
+      <match lemma="Apalaches"/>
+      <match lemma="Pirineos"/>
+      <match lemma="Urales"/>
+      <match lemma="sierra"/>
+      <match lemma="cordillera"/>
+      <match lemma="sistema"/>
+      <match lemma="alto"/>
+      <match lemma="elevado"/>
+      <match lemma="escalar"/>
+      <match lemma="ascender"/>
     </or>
   </rule>
 
