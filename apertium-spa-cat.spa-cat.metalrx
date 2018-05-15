@@ -1510,6 +1510,28 @@
     </or>
   </rule>
 
+      <!-- cauce > llit (riu) / via ... -->
+
+  <rule weight="0.5">
+    <match lemma="cauce" tags="n.*"><select lemma="llit"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cauce" tags="n.*"><select lemma="via"/></match>
+    <repeat from="0" upto="2">
+      <match tags="*" />
+    </repeat>
+    <or>
+      <match lemma="solución" tags="n.*"/>
+      <match lemma="entendimiento" tags="n.*"/>
+      <match lemma="entendimiento_acuerdo" tags="n.*"/>
+      <match lemma="diálogo" tags="n.*"/>
+      <match lemma="mediación" tags="n.*"/>
+      <match lemma="participación" tags="n.*"/>
+      <match lemma="intercomunicación" tags="n.*"/>      
+    </or>
+  </rule>
+
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
   <macro name="noms_propis" p1="Luis" p2="Lluís" />

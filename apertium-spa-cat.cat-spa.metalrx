@@ -1608,6 +1608,33 @@
     <match lemma="a"/>  
   </rule>
 
+    <!-- llit > cama  / llecho (de río ... -->
+
+  <rule weight="0.5">
+    <match lemma="llit" tags="n.*"><select lemma="cama"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="llit" tags="n.*"><select lemma="lecho"/></match>
+    <repeat from="0" upto="3">
+      <match tags="*" />
+    </repeat>
+    <or>
+      <match lemma="riu" tags="n.*"/>
+      <match lemma="mar" tags="n.*"/>
+      <match lemma="barranc" tags="n.*"/>
+      <match lemma="ria" tags="n.*"/>
+      <match lemma="rierol" tags="n.*"/>
+      <match lemma="corrent" tags="n.*"/>
+      <match lemma="marí" tags="adj.*"/>
+      <match lemma="Túria"/>
+      <match lemma="Xúquer"/>
+      <match lemma="Segura"/>
+      <match lemma="Ebre"/>
+      <match lemma="Tajo"/>
+    </or>
+  </rule>
+
 <!-- **************** NP **************** -->
 
 <!-- Virgili > Virgili, Virgilio -->
