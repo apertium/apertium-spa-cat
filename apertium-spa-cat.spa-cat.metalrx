@@ -878,6 +878,11 @@
       </or>
   </rule>
 
+  <rule weight="1.0">
+    <match tags="adv"/>
+    <match lemma="llamar" tags="vblex.pp.*"><select lemma="dir"/></match> 
+  </rule>
+
  <!-- granito > granit/granet/mica -->
 
   <rule weight="0.6">
