@@ -1562,6 +1562,26 @@
     </or>
   </rule>
 
+  <!-- el mismo > el mateix / aquest  -->
+
+  <!--<rule weight="0.6">
+    <match lemma="el mismo" tags="prn.*"><select lemma="el mateix"/></match>
+  </rule>
+
+  <rule weight="0.6">
+    <match tags="pr"/>
+    <match lemma="el mismo" tags="prn.*"><select lemma="aquest"/></match>
+    <or>
+      <match tags="sent"/>
+      <match tags="cm"/>
+    </or>
+  </rule>-->
+
+  <!--<rule weight="1.0">
+    <match lemma="el mismo" tags="vblex.*"><select lemma="aquest"/></match>
+    
+  </rule>-->
+
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
   <macro name="noms_propis" p1="Luis" p2="Lluís" />
