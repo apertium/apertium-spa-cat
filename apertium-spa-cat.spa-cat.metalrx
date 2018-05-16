@@ -403,6 +403,20 @@
         </or>
   </rule>
   
+<!-- tachar > ratllar / titllar  -->
+
+  <rule weight="0.6">
+    <match lemma="tachar" tags="vblex.*"><select lemma="ratllar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="tachar" tags="vblex.*"><select lemma="titllar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
+  </rule>
+
    <!-- tráfico > trànsit/tràfic -->
 
   <rule weight="0.8">
