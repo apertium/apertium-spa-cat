@@ -883,6 +883,17 @@
     <match lemma="llamar" tags="vblex.pp.*"><select lemma="dir"/></match> 
   </rule>
 
+  <rule weight="3.0">
+    <match tags="adv"/>
+    <match lemma="llamar" tags="vblex.pp.*"><select lemma="cridar"/></match> 
+    <match lemma="por"/>
+  </rule>
+
+  <rule weight="3.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
+    <match lemma="se" tags="prn.enc.*"/>
+  </rule>
+
  <!-- granito > granit/granet/mica -->
 
   <rule weight="0.6">
