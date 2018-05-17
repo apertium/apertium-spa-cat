@@ -1582,10 +1582,19 @@
     <match lemma="el mismo" tags="prn.*"><select lemma="aquest"/></match>    
   </rule>
 
-  <!--<rule weight="1.0">
-    <match lemma="el mismo" tags="vblex.*"><select lemma="aquest"/></match>
-    
-  </rule>-->
+   <!--mientras > metre / mentrestant  -->
+
+  <rule weight="0.6">
+    <match lemma="mientras" tags="adv"><select lemma="mentre"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="mientras" tags="adv"><select lemma="mentrestant"/></match>
+    <or>
+      <match tags="sent"/>
+      <match tags="cm"/>
+    </or>
+  </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
