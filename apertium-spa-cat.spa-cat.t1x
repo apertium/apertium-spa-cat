@@ -768,24 +768,6 @@
         <lit v="" />
       </let>
     </def-macro>
-    <def-macro n="f_coma" npar="1">
-      <choose>
-        <when>
-          <test>
-            <equal caseless="yes">
-              <clip pos="1" side="sl" part="lem" />
-              <lit v="como" />
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem" />
-            <get-case-from pos="1">
-              <lit v="com a" />
-            </get-case-from>
-          </let>
-        </when>
-      </choose>
-    </def-macro>
     <def-macro n="f_preps" npar="2">
       <choose>
         <when>
@@ -4904,9 +4886,6 @@
                 </equal>
               </not>
             </test>
-            <call-macro n="f_coma">
-              <with-param pos="1" />
-            </call-macro>
           </when>
         </choose>
         <call-macro n="f_preps">
@@ -4934,9 +4913,6 @@
         <pattern-item n="adj" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -5071,9 +5047,6 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -5114,9 +5087,6 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -5171,9 +5141,6 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="3" />
@@ -5382,9 +5349,6 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -5683,9 +5647,6 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="3" />
@@ -5801,9 +5762,6 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_coma">
-          <with-param pos="1" />
-        </call-macro>
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />

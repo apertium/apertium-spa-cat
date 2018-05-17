@@ -1582,7 +1582,7 @@
     <match lemma="el mismo" tags="prn.*"><select lemma="aquest"/></match>    
   </rule>
 
-   <!--mientras > metre / mentrestant  -->
+  <!--mientras > metre / mentrestant  -->
 
   <rule weight="0.6">
     <match lemma="mientras" tags="adv"><select lemma="mentre"/></match>
@@ -1593,6 +1593,55 @@
     <or>
       <match tags="sent"/>
       <match tags="cm"/>
+    </or>
+  </rule>
+
+
+  <!-- como > com / com a -->
+
+  <rule weight="0.6">
+    <match lemma="como" tags="pr"><select lemma="com"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="tanto"/>
+      <match lemma="tal"/>
+      <match lemma="así"/>
+      <match lemma="veces"/>
+    </or>
+    <match lemma="como" tags="pr"><select lemma="com"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="tanto"/>
+      <match lemma="tan"/>
+    </or>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <match lemma="como" tags="pr"><select lemma="com"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="como" tags="pr"><select lemma="com a"/></match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/> 
+      <match lemma="tal"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="conocer" tags="vblex.*"/>
+    <match lemma="como" tags="pr"><select lemma="com a"/></match>
+    <or>
+      <match tags="np.*"/>
     </or>
   </rule>
 
