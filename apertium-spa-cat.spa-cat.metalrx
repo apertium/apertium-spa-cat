@@ -1562,20 +1562,25 @@
     </or>
   </rule>
 
-  <!-- el mismo > el mateix / aquest  -->
+  <!--el mismo > el mateix / aquest  -->
 
-  <!--<rule weight="0.6">
+  <rule weight="0.6">
     <match lemma="el mismo" tags="prn.*"><select lemma="el mateix"/></match>
   </rule>
 
-  <rule weight="0.6">
+  <rule weight="1">
     <match tags="pr"/>
     <match lemma="el mismo" tags="prn.*"><select lemma="aquest"/></match>
     <or>
       <match tags="sent"/>
       <match tags="cm"/>
     </or>
-  </rule>-->
+  </rule>
+
+   <rule weight="1">
+    <match tags="pr" lemma="contra"/>
+    <match lemma="el mismo" tags="prn.*"><select lemma="aquest"/></match>    
+  </rule>
 
   <!--<rule weight="1.0">
     <match lemma="el mismo" tags="vblex.*"><select lemma="aquest"/></match>
