@@ -1645,6 +1645,45 @@
     </or>
   </rule>
 
+<!-- a que > al fet que / a què -->
+
+  <rule weight="0.6">
+    <match lemma="a que" tags="cnjsub"><select lemma="al fet que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="a que" tags="cnjsub"><select lemma="a què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+      </repeat> 
+      <or>
+        <match lemma="referir"/>
+        <match lemma="destinar"/>
+        <match lemma="concedir"/>
+        <match lemma="condenar"/>
+        <match lemma="comprometer"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="a que" tags="cnjsub"><select lemma="a què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="hacer"/>
+      <match lemma="referencia"/>
+    </or>
+  </rule>
+
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
   <macro name="noms_propis" p1="Luis" p2="Lluís" />
