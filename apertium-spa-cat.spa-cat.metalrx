@@ -1329,10 +1329,51 @@
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="5.0">
     <match lemma="probar" tags="vblex.*"/>
     <match lemma="a" tags="pr"><select lemma="de"/></match>
     <match tags="*.inf"/>
+  </rule>
+
+     <!-- dar > donar / fer  ... -->
+
+  <rule weight="0.6">
+    <match lemma="dar" tags="vblex.*"><select lemma="donar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dar" tags="vblex.*"><select lemma="fer"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="abrazo"/>
+      <match lemma="asco"/>
+      <match lemma="beso"/>
+      <match lemma="calor"/>
+      <match lemma="chillido"/>
+      <match lemma="concierto"/>
+      <match lemma="grito"/>
+      <match lemma="impresión"/>
+      <match lemma="lástima"/>
+      <match lemma="miedo"/>
+      <match lemma="paseo"/>
+      <match lemma="pellizco"/>
+      <match lemma="película"/>
+      <match lemma="pena"/>
+      <match lemma="rabia"/>
+      <match lemma="recital"/>
+      <match lemma="salto"/>
+      <match lemma="sed"/>
+      <match lemma="silbido"/>
+      <match lemma="vergüenza"/>
+      <match lemma="voltereta"/>
+    </or>  
   </rule>
 
   <!-- elimina "a" en verbs transitius -->
