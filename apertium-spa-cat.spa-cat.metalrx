@@ -1678,10 +1678,27 @@
         <match tags="pr"/>
       </or>
     </repeat> 
+    <match lemma="hacer"/>
+    <match lemma="referencia"/>
+  </rule>
+
+  <rule weight="1">
     <or>
-      <match lemma="hacer"/>
-      <match lemma="referencia"/>
+      <match lemma="esperar"/>
+      <match lemma="apostar"/>
     </or>
+    <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+   <!-- en tanto que > en tant que / com a -->
+
+  <rule weight="0.6">
+    <match lemma="en tanto que" tags="pr"><select lemma="en tant que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="en tanto que" tags="pr"><select lemma="com a"/></match>
+    <match tags="n.*"/>
   </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
