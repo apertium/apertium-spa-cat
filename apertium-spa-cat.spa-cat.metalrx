@@ -332,6 +332,139 @@
     </or>
   </rule>
 
+  <!-- acordar >  / acordar / recordar-se de -->
+
+  <rule weight="0.8">
+    <match lemma="acordar" tags="vblex.*"><select lemma="acordar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match lemma="acordar" tags="vblex.*.p1.sg"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match lemma="acordar" tags="vblex.*.p2.sg"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="acordar" tags="vblex.*.p3.sg"><select lemma="recordar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.pl"/>
+    <match lemma="acordar" tags="vblex.*.p1.pl"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.pl"/>
+    <match lemma="acordar" tags="vblex.*.p2.pl"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="acordar" tags="vblex.*.p3.pl"><select lemma="recordar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match lemma="haber" tags="vbhaver.*.p1.sg"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match lemma="haber" tags="vbhaver.*.p2.sg"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="haber" tags="vbhaver.*.p3.sg"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.pl"/>
+    <match lemma="haber" tags="vbhaver.*.p1.pl"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p2.mf.pl"/>
+    <match lemma="haber" tags="vbhaver.*.p2.pl"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="haber" tags="vbhaver.*.p3.pl"/>
+    <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.sg"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.sg"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.sg"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.pl"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.pl"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.pl"/>
+    <match lemma="acordar" tags="vblex.inf"><select lemma="recordar"/></match>
+  </rule>
+
+  <rule weight="1"> <!-- No funciona en un cas: "tienes que darme cuenta a mi" (molt rar)-->
+    <match lemma="acordar"><select lemma="recordar"/></match>
+        <or>
+            <match tags="prn.enc.ref.p3.mf.sp"/>
+            <match tags="prn.enc.p1.mf.*"/>
+            <match tags="prn.enc.p2.mf.*"/>
+        </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p2.sg"><select lemma="recordar"/></match>
+    <match tags="prn.enc.p2.mf.sg"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p3.sg"><select lemma="recordar"/></match>
+    <match tags="prn.enc.ref.p3.mf.sp"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p1.pl"><select lemma="recordar"/></match>
+    <match tags="prn.pro.p1.mf.pl"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p2.pl"><select lemma="recordar"/></match>
+    <match tags="prn.pro.p2.mf.pl"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="acordar" tags="vblex.imp.p3.pl"><select lemma="recordar"/></match>
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+  </rule>
+
+
+
    <!-- darse cuenta > adonar-se / dar cuenta > donar compte -->
 
   <rule weight="0.8">
@@ -576,6 +709,86 @@
   <rule weight="1.0"> 
     <match lemma="gran"/>
     <match lemma="número" tags="n.*"><select lemma="nombre"/></match>
+  </rule>
+
+  <!-- cámara > càmera / cambra  -->
+
+  <rule weight="0.5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="pintor"/>
+      <match lemma="música"/>
+      <match lemma="orquesta"/>
+      <match lemma="coro"/>
+      <match lemma="obra"/>
+      <match lemma="ayudante"/>
+      <match lemma="conjunto"/>
+      <match lemma="grupo"/>
+    </or>
+    <match lemma="de"/>
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+    <match lemma="de"/>
+    <or>
+      <match lemma="agua"/>
+      <match lemma="aire"/>
+      <match lemma="apelación"/>
+      <match lemma="burbuja"/>
+      <match lemma="carga"/>
+      <match lemma="Castilla"/>
+      <match lemma="combustión"/>
+      <match lemma="comercio"/>
+      <match lemma="compensación"/>
+      <match lemma="común"/>
+      <match lemma="cría"/>
+      <match lemma="cultivo"/>
+      <match lemma="diputado"/>
+      <match lemma="expansión"/>
+      <match lemma="gas"/>
+      <match lemma="industria"/>
+      <match lemma="ionización"/>
+      <match lemma="lord"/>
+      <match lemma="máquina"/>
+      <match lemma="navegación"/>
+      <match lemma="propiedad"/>
+      <match lemma="representando"/>
+      <match lemma="reverberación"/>
+      <match lemma="vapor"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+    <or>
+      <match lemma="acorazar"/>
+      <match lemma="acuoso"/>
+      <match lemma="aerífero"/>
+      <match lemma="agrario"/>
+      <match lemma="alto"/>
+      <match lemma="anecoico"/>
+      <match lemma="apostólico"/>
+      <match lemma="autonómico"/>
+      <match lemma="bajo"/>
+      <match lemma="comercial"/>
+      <match lemma="frigorífico"/>
+      <match lemma="funerario"/>
+      <match lemma="hiperbàric"/>
+      <match lemma="incubador"/>
+      <match lemma="insonorizar"/>
+      <match lemma="legislativo"/>
+      <match lemma="mortuorio"/>
+      <match lemma="oscura"/>
+      <match lemma="regional"/>
+      <match lemma="representativo"/>
+      <match lemma="séptico"/>
+      <match lemma="vítreo"/>
+    </or>
   </rule>
 
   <!-- orden religiosa > orde religiós -->
