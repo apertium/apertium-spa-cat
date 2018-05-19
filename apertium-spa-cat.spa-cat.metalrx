@@ -1757,6 +1757,25 @@
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
 
+  <rule weight="3">
+    <match lemma="deber" tags="vbmod.*"><select lemma="deure"/></match> 
+    <match lemma="hacer"/>
+    <or>
+      <match lemma="frío"/>
+      <match lemma="calor"/>
+    </or>
+  </rule>
+
+  <rule weight="3">
+    <match lemma="deber# de" tags="vbmod.*"><select lemma="deure"/></match> 
+    <match lemma="hacer"/>
+    <or>
+      <match lemma="frío"/>
+      <match lemma="calor"/>
+    </or>
+  </rule>
+  
+
   <!-- apoyar > recolzar / donar suport ... -->
 
   <rule weight="0.5">
