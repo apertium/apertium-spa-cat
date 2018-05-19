@@ -3275,7 +3275,9 @@
       <action>
         <out>
           <lu>
-            <lit v="en" />
+            <get-case-from pos="1">
+              <lit v="en" />
+            </get-case-from>
             <lit-tag v="prn" />
             <lit-tag v="pro" />
             <lit-tag v="adv" />

@@ -1328,6 +1328,18 @@
     </or>
   </rule>
 
+  <!-- daño > mal / danys  -->
+
+  <rule weight="1">
+    <match lemma="daño" tags="n.m.sg"><select lemma="mal"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="daño" tags="n.m.pl"><select lemma="dany"/></match>
+  </rule>
+
+  
+
 
 <!-- cumbre > cim /cimera -->
 
@@ -1487,6 +1499,30 @@
       <match tags="vblex.inf"/>  
       <match tags="vbmod.inf"/>
       <match tags="vbser.inf"/> 
+    </or>  
+  </rule>
+
+  <!-- desatar > deslligar / desfermar... -->
+
+  <rule weight="0.6">
+    <match lemma="desatar" tags="vblex.*"><select lemma="deslligar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="desatar" tags="vblex.*"><select lemma="desfermar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adj.*"/>
+        <match tags="det.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="tormenta"/>
+      <match lemma="pasión"/> 
+      <match lemma="batalla"/>
+      <match lemma="guerra"/>
+      <match lemma="lucha"/>      
     </or>  
   </rule>
 
