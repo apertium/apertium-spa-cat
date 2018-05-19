@@ -365,6 +365,10 @@
   <rule weight="1">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match lemma="acordar" tags="vblex.*.p3.pl"><select lemma="recordar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
   </rule>
 
   <rule weight="1">
@@ -400,6 +404,10 @@
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match lemma="haber" tags="vbhaver.*.p3.pl"/>
     <match lemma="acordar" tags="vblex.pp.*"><select lemma="recordar"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
   </rule>
 
   <rule weight="1">
@@ -440,6 +448,10 @@
             <match tags="prn.enc.p1.mf.*"/>
             <match tags="prn.enc.p2.mf.*"/>
         </or>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>
   </rule>
 
   <rule weight="1">
@@ -735,6 +747,9 @@
   <rule weight="1.0">
     <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
     <match lemma="de"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
     <or>
       <match lemma="agua"/>
       <match lemma="aire"/>
