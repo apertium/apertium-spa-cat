@@ -9027,7 +9027,11 @@
           </lu>
           <b pos="1" />
           <lu>
-            <clip pos="2" side="tl" part="whole" />
+            <clip pos="2" side="tl" part="lem" />
+            <lit-tag v="vaux" />
+            <clip pos="2" side="tl" part="temps" />
+            <clip pos="2" side="tl" part="persona" />
+            <clip pos="2" side="tl" part="nbr" />
           </lu>
           <b pos="2" />
           <lu>
