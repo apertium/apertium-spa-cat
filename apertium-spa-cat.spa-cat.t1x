@@ -918,38 +918,32 @@
                     <clip pos="2" side="tl" part="lem" />
                     <list n="locatiu" />
                   </in>
-                  <not>
-                    <or>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="aquest" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="aquell" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="un" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="algun" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="altre" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="qualsevol" />
-                      </equal>
-                      <equal caseless="yes">
-                        <clip pos="3" side="tl" part="lem" />
-                        <lit v="cap" />
-                      </equal>
-                    </or>
-                  </not>
+                  <or>
+                    <equal caseless="yes">
+                       <clip pos="3" side="tl" part="lem" />
+                       <lit v="el" />
+                    </equal>
+                    <equal caseless="yes">
+                       <clip pos="3" side="tl" part="lem" />
+                       <lit v="el seu" />
+                    </equal>
+                    <equal caseless="yes">
+                       <clip pos="3" side="tl" part="lem" />
+                       <lit v="el teu" />
+                    </equal>
+                    <equal caseless="yes">
+                       <clip pos="3" side="tl" part="lem" />
+                       <lit v="el meu" />
+                    </equal>
+                    <equal caseless="yes">
+                       <clip pos="3" side="tl" part="lem" />
+                       <lit v="el nostre" />
+                    </equal>
+                    <equal caseless="yes">
+                       <clip pos="3" side="tl" part="lem" />
+                       <lit v="el vostre" />
+                    </equal>
+                  </or>
                 </and>
               </test>
               <let>

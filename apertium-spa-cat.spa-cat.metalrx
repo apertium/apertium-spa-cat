@@ -799,6 +799,7 @@
       <match lemma="insonorizar"/>
       <match lemma="legislativo"/>
       <match lemma="mortuorio"/>
+      <match lemma="oficial"/>
       <match lemma="oscura"/>
       <match lemma="regional"/>
       <match lemma="representativo"/>
@@ -1337,6 +1338,11 @@
 
   <rule weight="1">
     <match lemma="daño" tags="n.m.pl"><select lemma="dany"/></match>
+  </rule>
+
+   <rule weight="2">
+    <match lemma="daño" tags="n.*"><select lemma="dany"/></match>
+    <match lemma="cerebral"/>
   </rule>
 
   
