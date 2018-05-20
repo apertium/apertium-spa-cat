@@ -2061,6 +2061,37 @@
       <match tags="sent"/>
     </or>
   </rule>
+
+  <!-- sin embargo > no obstant això, tanmateix -->
+
+  <rule weight="0.6">
+    <match lemma="sin embargo" tags="cnjadv"><select lemma="no obstant això"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="esto"/>
+      <match lemma="eso"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="cm"/>
+    </repeat>
+    <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
+  </rule>
+
+  <rule weight="1">
+    <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
+    <repeat from="0" upto="1">
+      <match tags="cm"/>
+    </repeat>
+    <or>
+      <match lemma="esto"/>
+      <match lemma="eso"/>
+    </or>
+    
+  </rule>
+
+  
     
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
