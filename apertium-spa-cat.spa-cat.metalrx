@@ -2090,6 +2090,44 @@
     </or>  
   </rule>
 
+   <!-- elegir > triar / elegir ... -->
+
+  <rule weight="0.5">
+    <match lemma="elegir" tags="vblex.*"><select lemma="triar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="elegir" tags="vblex.*"><select lemma="elegir"/></match>
+    <repeat from="0" upto="5">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="presidente" />
+      <match lemma="vicepresidente" />
+      <match lemma="ministro" />
+      <match lemma="viceministro" />
+      <match lemma="director" />
+      <match lemma="subdirector" />
+      <match lemma="consejero" />
+      <match lemma="diputado" />
+      <match lemma="senador" />
+      <match lemma="cargo" />
+      <match lemma="secretario" />
+      <match lemma="tesorero" />
+      <match lemma="maestre" />
+      <match lemma="abad" />
+      <match lemma="presidencia" />
+      <match lemma="secretaría" />
+      <match lemma="dirección" />
+      <match lemma="elección" />
+      <match lemma="electoral" />
+      <match lemma="votación" />
+      <match lemma="voto" />
+      <match lemma="urna" />
+      <match lemma="papeleta" />
+    </or>
+  </rule>
+
   
     
 
