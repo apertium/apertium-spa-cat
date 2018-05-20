@@ -2073,22 +2073,21 @@
       <match lemma="esto"/>
       <match lemma="eso"/>
     </or>
-    <repeat from="0" upto="1">
-      <match tags="cm"/>
+    <repeat from="0" upto="4">
+      <match tags="*"/>
     </repeat>
     <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
   </rule>
 
   <rule weight="1">
     <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
-    <repeat from="0" upto="1">
-      <match tags="cm"/>
+    <repeat from="0" upto="4">
+      <match tags="*"/>
     </repeat>
     <or>
       <match lemma="esto"/>
       <match lemma="eso"/>
-    </or>
-    
+    </or>  
   </rule>
 
   
