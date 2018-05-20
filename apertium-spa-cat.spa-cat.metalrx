@@ -2026,6 +2026,37 @@
     <match tags="n.*"/>
   </rule>
 
+  <!-- pues > doncs -->
+
+  <rule weight="0.6">
+    <match lemma="pues" tags="cnjadv"><select lemma="perquè"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="así"/>
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+  </rule>
+  <rule weight="1">
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <or>
+      <match lemma="bien"/>
+      <match lemma="que"/>
+      <match lemma="bueno"/>
+      <match lemma="porque"/>
+      <match lemma="sí"/>
+      <match tags="cm"/>
+    </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <match lemma="no"/>
+    <or>
+      <match tags="cm"/>
+      <match tags="sent"/>
+    </or>
+  </rule>
+    
+
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
   <macro name="noms_propis" p1="Luis" p2="Lluís" />
