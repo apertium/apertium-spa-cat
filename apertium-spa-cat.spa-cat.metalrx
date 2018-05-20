@@ -2068,7 +2068,7 @@
     <match lemma="sin embargo" tags="cnjadv"><select lemma="no obstant això"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="1"> <!-- evita repeticions: això, això-->
     <or>
       <match lemma="esto"/>
       <match lemma="eso"/>
@@ -2125,10 +2125,25 @@
       <match lemma="voto" />
       <match lemma="urna" />
       <match lemma="papeleta" />
+      <match lemma="candidato" />
+      <match lemma="alcalde" />
     </or>
   </rule>
 
-  
+   <!-- precisar > precisar / requerir ... -->
+
+  <rule weight="0.5">
+    <match lemma="precisar" tags="vblex.*"><select lemma="precisar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="precisar" tags="vblex.*"><select lemma="requerir"/></match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="vblex.inf"/>
+    </or>
+  </rule>
+      
     
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
