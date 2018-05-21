@@ -1649,43 +1649,6 @@
     </or>  
   </rule>
 
-  <!-- elimina "a" en verbs transitius -->
-
-  <rule weight="1.0">
-    <or>
-      <match lemma="perjudicar" tags="vblex.*"/>
-      <match lemma="concernir" tags="vblex.*"/>
-      <match lemma="cansar" tags="vblex.*"/>
-      <match lemma="sorprender" tags="vblex.*"/>
-      <match lemma="informar" tags="vblex.*"/>
-      <match lemma="afectar" tags="vblex.*"/>
-      <match lemma="asesorar" tags="vblex.*"/>
-      <match lemma="apasionar" tags="vblex.*"/>
-      <match lemma="atraer" tags="vblex.*"/>
-      <match lemma="ayudar" tags="vblex.*"/>
-      <match lemma="acusar" tags="vblex.*"/>
-      <match lemma="homenajear" tags="vblex.*"/>
-      <match lemma="preocupar" tags="vblex.*"/>
-      <!--<match lemma="obligar" tags="vblex.*"/>-->
-      <match lemma="fichar" tags="vblex.*"/>
-      <match lemma="felicitar" tags="vblex.*"/>
-    </or>
-    <match lemma="a" tags="pr"><select lemma=""/></match>
-  </rule>
-
-  <rule weight="1.1">
-    <match lemma="a" tags="pr"><select lemma="a"/></match>
-    <or>
-      <match tags="np.loc.*"/>
-      <match tags="np.top.*"/>   
-      <match tags="np.loc"/>
-      <match tags="np.top"/>   
-      <match tags="prn.*"/>  
-      <match lemma="todo"/>
-      <match tags="*.inf"/> 
-    </or>
-  </rule>
-
   <!-- Verbs transitius: Le afectaba > L'afectava -->
   <rule weight="0.6">
     <match lemma="le" tags="prn.pro.*"><select lemma="li"/></match>
@@ -2040,8 +2003,29 @@
     <match lemma="pues" tags="cnjadv"><select lemma="perquè"/></match>
   </rule>
 
+  <rule weight="0.8"> <!-- ex.: se añade pues a una red extensa. -->
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+        <match tags="np.*"/>
+        <match tags="cm"/>
+        <match tags="adv.*"/>
+        <match tags="prn.*"/>
+        <match tags="*.pp.*"/>
+      </or>
+    </repeat>
+    <match tags="sent"/>
+  </rule>
+
   <rule weight="1">
-    <match lemma="así"/>
+    <or>
+      <match lemma="así"/>
+      <match lemma="ser"/>
+    </or>
     <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
   </rule>
   <rule weight="1">
@@ -2070,10 +2054,10 @@
     <match lemma="sin embargo" tags="cnjadv"><select lemma="no obstant això"/></match>
   </rule>
 
-  <rule weight="1"> <!-- evita repeticions: això, això-->
+  <rule weight="2"> <!-- evita repeticions: això, això-->
     <or>
-      <match lemma="esto"/>
-      <match lemma="eso"/>
+      <match lemma="esto" tags="prn.tn.nt"/>
+      <match lemma="eso" tags="prn.tn.nt"/>
     </or>
     <repeat from="0" upto="4">
       <match tags="*"/>
@@ -2081,14 +2065,14 @@
     <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
   </rule>
 
-  <rule weight="1">
+  <rule weight="3">
     <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
     <repeat from="0" upto="4">
       <match tags="*"/>
     </repeat>
     <or>
-      <match lemma="esto"/>
-      <match lemma="eso"/>
+      <match lemma="esto" tags="prn.tn.nt"/>
+      <match lemma="eso" tags="prn.tn.nt"/>
     </or>  
   </rule>
 
@@ -2142,7 +2126,7 @@
     <match lemma="precisar" tags="vblex.*"><select lemma="requerir"/></match>
     <or>
       <match tags="n.*"/>
-      <match tags="vblex.inf"/>
+      <match tags="*.inf"/>
     </or>
   </rule>
 
