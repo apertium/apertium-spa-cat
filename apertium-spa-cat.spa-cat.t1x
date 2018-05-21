@@ -668,7 +668,6 @@
       <list-item v="presó" />
       <list-item v="principat" />
       <list-item v="província" />
-      <list-item v="pàgina" />
       <list-item v="recta" />
       <list-item v="regió" />
       <list-item v="roba" />
@@ -9034,7 +9033,7 @@
         </choose>
       </action>
     </rule>
-    <rule alt="val_gva">
+    <rule alt="val_gva val_uni">
       <!-- pronom + haver + participi concordats: las ha comprado = les ha comprades-->
       <pattern>
         <pattern-item n="prnpro" />
@@ -9358,33 +9357,6 @@
             <clip pos="5" side="tl" part="gen" />
             <clip pos="5" side="tl" part="nbr" />
             <clip pos="5" side="tl" part="lemq" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- romper a + inf => esclafir/rompre a -->
-      <pattern>
-        <pattern-item n="romper" />
-        <pattern-item n="a" />
-        <pattern-item n="inf" />
-      </pattern>
-      <action>
-        <let>
-          <clip part="lem" pos="1" side="tl" />
-          <lit v="esclafir" />
-        </let>
-        <call-macro n="f_pretind">
-          <with-param pos="1" />
-        </call-macro>
-        <out>
-          <b />
-          <lu>
-            <clip part="whole" pos="2" side="tl" />
-          </lu>
-          <b />
-          <lu>
-            <clip part="whole" pos="3" side="tl" />
           </lu>
         </out>
       </action>

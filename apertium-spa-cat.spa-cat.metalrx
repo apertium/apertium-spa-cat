@@ -2135,6 +2135,18 @@
   <rule weight="0.5">
     <match lemma="para" tags="pr"><select lemma="per a"/></match>
   </rule>
+
+  <!-- romper > trencar / esclafir a  ... -->
+
+  <rule weight="0.5">
+    <match lemma="romper" tags="vblex.*"><select lemma="trencar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="romper" tags="vblex.*"><select lemma="esclafir"/></match>
+    <match lemma="a"/>
+    <match tags="*.inf"/>
+  </rule>
       
     
 
