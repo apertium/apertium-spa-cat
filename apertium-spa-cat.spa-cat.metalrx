@@ -674,6 +674,64 @@
     </or>
   </rule>
 
+
+    <!-- cruzar > creuar / travessar/ encreuar  -->
+
+  <rule weight="0.5">
+    <match lemma="cruzar" tags="vblex.*"><select lemma="creuar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cruzar" tags="vblex.*"><select lemma="travessar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="autopista" tags="n.*"/>
+      <match lemma="autovía" tags="n.*"/>
+      <match lemma="avenida" tags="n.*"/>
+      <match lemma="calle" tags="n.*"/>
+      <match lemma="carretera" tags="n.*"/>
+      <match lemma="frontera" tags="n.*"/>
+      <match lemma="lago" tags="n.*"/>
+      <match lemma="línea" tags="n.*"/>
+      <match lemma="meta" tags="n.*"/>
+      <match lemma="plaza" tags="n.*"/>
+      <match lemma="puerta" tags="n.*"/>
+      <match lemma="río" tags="n.*"/>
+      <match lemma="umbral" tags="n.*"/>
+      <match lemma="vía" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cruzar" tags="vblex.*"><select lemma="encreuar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="pierna" tags="n.*"/>
+      <match lemma="dedo" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="pierna" tags="n.*"/>
+    </or>
+    <match lemma="cruzar" tags="vblex.*"><select lemma="plegar"/></match>
+  </rule>
+
   <!-- emplear > emprar/ocupar -->
 
   <rule weight="0.8">
