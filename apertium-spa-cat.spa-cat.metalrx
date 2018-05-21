@@ -1971,6 +1971,7 @@
     <or>
       <match lemma="esperar"/>
       <match lemma="apostar"/>
+      <match lemma="animar"/>
     </or>
     <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
@@ -2032,6 +2033,17 @@
       <match lemma="sí"/>
       <match lemma="a"/>
       <match tags="cm"/>
+    </or>
+  </rule>
+  <rule weight="1">
+    <or>
+      <match tags="vblex.*"/>
+      <match tags="vbmod.*"/>
+    </or>
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <or>
+      <match tags="pr"/>      
+      <match tags="*.inf"/>
     </or>
   </rule>
   <rule weight="1">
