@@ -425,9 +425,6 @@
     <def-attr n="a_nomp">
       <attr-item tags="np.ant" />
     </def-attr>
-    <def-attr n="a_nploc">
-      <attr-item tags="np.loc" />
-    </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det.def" />
       <attr-item tags="det.ind" />
@@ -608,84 +605,9 @@
       <list-item v="reunir" />
       <list-item v="autorizar" />
       <list-item v="desautorizar" />
-
     </def-list>
     <def-list n="locatiu">
-      <list-item v="ajuntament" />
-      <list-item v="apartament" />
-      <list-item v="ascensor" />
-      <list-item v="auditori" />
-      <list-item v="aula" />
-      <list-item v="banc" />
-      <list-item v="barri" />
-      <list-item v="biblioteca" />
-      <list-item v="botiga" />
-      <list-item v="cambra" />
-      <list-item v="campus" />
-      <list-item v="canal" />
-      <list-item v="capital" />
-      <list-item v="carpeta" />
-      <list-item v="carrer" />
-      <list-item v="casa" />
-      <list-item v="castell" />
-      <list-item v="centre" />
-      <list-item v="cinema" />
-      <list-item v="ciutat" />
-      <list-item v="classe" />
-      <list-item v="comarca" />
-      <list-item v="comtat" />
-      <list-item v="congrés" />
-      <list-item v="domicili" />
-      <list-item v="dutxa" />
-      <list-item v="edifici" />
-      <list-item v="escola" />
-      <list-item v="església" />
-      <list-item v="espai" />
-      <list-item v="esplanada" />
-      <list-item v="estranger" />
-      <list-item v="franja" />
-      <list-item v="frontera" />
-      <list-item v="fàbrica" />
-      <list-item v="habitació" />
-      <list-item v="hospital" />
-      <list-item v="hotel" />
-      <list-item v="illa" />
-      <list-item v="internet" />
-      <list-item v="mercat" />
-      <list-item v="muntanya" />
-      <list-item v="mà" />
-      <list-item v="món" />
-      <list-item v="parc" />
-      <list-item v="parlament" />
-      <list-item v="pati" />
-      <list-item v="país" />
-      <list-item v="planeta" />
-      <list-item v="platja" />
-      <list-item v="plaça" />
-      <list-item v="poble" />
-      <list-item v="polígon" />
-      <list-item v="portal" />
-      <list-item v="presó" />
-      <list-item v="principat" />
-      <list-item v="província" />
-      <list-item v="recta" />
-      <list-item v="regió" />
-      <list-item v="roba" />
-      <list-item v="sala" />
-      <list-item v="senat" />
-      <list-item v="seu" />
-      <list-item v="terra" />
-      <list-item v="territori" />
-      <list-item v="torre" />
-      <list-item v="tren" />
-      <list-item v="universitat" />
-      <list-item v="UOC" />
-      <list-item v="urbanització" />
-      <list-item v="vall" />
-      <list-item v="web" />
-      <list-item v="xarxa" />
-      <list-item v="zona" />
-      <list-item v="àrea" />
+      <list-item v="lalala" />
     </def-list>
     <def-list n="tiempo">
       <list-item v="enero" />
@@ -788,7 +710,7 @@
         <lit v="" />
       </let>
     </def-macro>
-    <def-macro n="f_preps" npar="2">
+    <def-macro n="f_preps" npar="2"> <!--elimina preposició "a" davant de CD d'alguns verbs -->
       <choose>
         <when>
           <test>
@@ -815,186 +737,6 @@
           </call-macro>
         </when>
         <otherwise>
-          <choose>
-            <when>
-              <test>
-                <and>
-                  <equal caseless="yes">
-                    <clip pos="1" side="sl" part="lem" />
-                    <lit v="de" />
-                  </equal>
-                  <equal>
-                    <var n="tipusverb" />
-                    <lit v="vbde_per" />
-                  </equal>
-                </and>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="per" />
-                </get-case-from>
-              </let>
-            </when>
-            <!-- <when alt="cat">-->
-            <!-- <when>
-        <test>
-    <and>
-      <equal caseless="yes">
-        <clip pos="1" side="sl" part="lem"/>
-        <lit v="en"/>
-      </equal>
-      <in caseless="yes">
-        <clip pos="2" side="tl" part="lem"/>
-        <list n="locatiu"/>
-      </in>
-    </and>
-        </test>
-        <let>
-    <clip pos="1" side="tl" part="lem"/>
-    <get-case-from pos="1">
-      <lit v="a"/>
-    </get-case-from>
-        </let>
-      </when> -->
-            <when>
-              <!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
-              <test>
-                <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem" />
-                  <lit v="para" />
-                </equal>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="per a" />
-                </get-case-from>
-              </let>
-            </when>
-          </choose>
-          <out>
-            <lu>
-              <clip pos="1" side="tl" part="whole" />
-            </lu>
-            <b pos="1" />
-          </out>
-        </otherwise>
-      </choose>
-      <let>
-        <var n="valverb" />
-        <lit v="" />
-      </let>
-      <let>
-        <var n="tipusverb" />
-        <lit v="" />
-      </let>
-    </def-macro>
-    <def-macro n="f_preps_det" npar="3">
-      <!--parámetro 3 = determinante. El único cambio respecto de f_preps es que (sólo para catalán, no para valenciano) se cambia la preposición 'en' por 'a' delante de det + nombre, excepto si el determinante es  'aquest/aquell/un/algun/altre'. La preposición 'en' no se cambia por 'a' en el resto de sintagmas nominales.-->
-      <choose>
-        <when>
-          <test>
-            <and>
-              <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem" />
-                <lit v="a" />
-              </equal>
-              <equal>
-                <var n="valverb" />
-                <lit v="2" />
-              </equal>
-            </and>
-          </test>
-          <call-macro n="f_bcond">
-            <with-param pos="1" />
-            <with-param pos="2" />
-          </call-macro>
-        </when>
-        <otherwise>
-          <choose>
-            <when>
-              <test>
-                <and>
-                  <equal caseless="yes">
-                    <clip pos="1" side="sl" part="lem" />
-                    <lit v="de" />
-                  </equal>
-                  <equal>
-                    <var n="tipusverb" />
-                    <lit v="vbde_per" />
-                  </equal>
-                </and>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="per" />
-                </get-case-from>
-              </let>
-            </when>
-            <when alt="cat">
-              <test>
-                <and>
-                  <equal caseless="yes">
-                    <clip pos="1" side="sl" part="lem" />
-                    <lit v="en" />
-                  </equal>
-                  <in caseless="yes">
-                    <clip pos="2" side="tl" part="lem" />
-                    <list n="locatiu" />
-                  </in>
-                  <or>
-                    <equal caseless="yes">
-                       <clip pos="3" side="tl" part="lem" />
-                       <lit v="el" />
-                    </equal>
-                    <equal caseless="yes">
-                       <clip pos="3" side="tl" part="lem" />
-                       <lit v="el seu" />
-                    </equal>
-                    <equal caseless="yes">
-                       <clip pos="3" side="tl" part="lem" />
-                       <lit v="el teu" />
-                    </equal>
-                    <equal caseless="yes">
-                       <clip pos="3" side="tl" part="lem" />
-                       <lit v="el meu" />
-                    </equal>
-                    <equal caseless="yes">
-                       <clip pos="3" side="tl" part="lem" />
-                       <lit v="el nostre" />
-                    </equal>
-                    <equal caseless="yes">
-                       <clip pos="3" side="tl" part="lem" />
-                       <lit v="el vostre" />
-                    </equal>
-                  </or>
-                </and>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="a" />
-                </get-case-from>
-              </let>
-            </when>
-            <when>
-              <!--en els sintagmes nominals, la preposició 'para' es tradueix sempre com a 'per a' -->
-              <test>
-                <equal caseless="yes">
-                  <clip pos="1" side="sl" part="lem" />
-                  <lit v="para" />
-                </equal>
-              </test>
-              <let>
-                <clip pos="1" side="tl" part="lem" />
-                <get-case-from pos="1">
-                  <lit v="per a" />
-                </get-case-from>
-              </let>
-            </when>
-          </choose>
           <out>
             <lu>
               <clip pos="1" side="tl" part="whole" />
@@ -5037,9 +4779,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord2">
@@ -5205,9 +4946,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord3">
@@ -5255,9 +4995,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord4">
@@ -5320,9 +5059,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord4">
@@ -5419,9 +5157,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="4" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord3">
@@ -5633,9 +5370,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord2">
@@ -5724,9 +5460,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="4" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord4">
@@ -5831,9 +5566,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord3">
@@ -5886,9 +5620,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="4" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord2">
@@ -6134,9 +5867,8 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_preps_det">
+        <call-macro n="f_preps">
           <with-param pos="1" />
-          <with-param pos="4" />
           <with-param pos="2" />
         </call-macro>
         <call-macro n="f_concord3">
@@ -6615,48 +6347,6 @@
           <with-param pos="2" />
           <with-param pos="3" />
         </call-macro>
-      </action>
-    </rule>
-    <rule>
-      <!--REGLA: prep "en" + nploc = a + nploc: en Barcelona -> a Barcelona -->
-      <pattern>
-        <pattern-item n="en" />
-        <pattern-item n="nploc" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="a" />
-            </get-case-from>
-            <lit-tag v="pr" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <clip pos="2" side="tl" part="whole" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- REGLA: PREP NOM (para Barcelona - per a Barcelona-->
-      <pattern>
-        <pattern-item n="para" />
-        <pattern-item n="nploc" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="per a" />
-            </get-case-from>
-            <lit-tag v="pr" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <clip pos="2" side="tl" part="whole" />
-          </lu>
-        </out>
       </action>
     </rule>
     <rule>

@@ -1711,17 +1711,6 @@
     </or>   
   </rule>
 
-   <!-- en + inf > a + inf  Consiste en hacer > consisteix a fer -->
-
-  <rule weight="0.6">
-    <match lemma="en" tags="pr"><select lemma="en"/></match>
-  </rule>
-
-  <rule weight="1.0">
-    <match lemma="en" tags="pr"><select lemma="a"/></match>
-    <match tags="*.inf"/>
-  </rule>
-
   <!-- deber de > deure (si el castellà és "correcte") / haver de (molt sovint)... -->
 
   <rule weight="0.6">
@@ -2135,6 +2124,112 @@
   <rule weight="0.5">
     <match lemma="para" tags="pr"><select lemma="per a"/></match>
   </rule>
+
+  <!-- en > en / a -->
+
+  <rule weight="0.5">
+    <match lemma="en" tags="pr"><select lemma="en"/></match>
+  </rule>
+
+  <rule weight="3">
+    <or>
+      <match lemma="participar"/>
+      <match lemma="incluir"/>
+      <match lemma="interferir"/>
+    </or>
+    <match lemma="en" tags="pr"><select lemma="en"/></match>
+  </rule>
+
+  <rule weight="1.0"> <!-- especialistas en investigar -->
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match tags="np.loc"/>
+      <match tags="np.top"/>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match tags="det.def.*" lemma="el"/>
+      <match tags="det.pos.*" lemma="mío"/>
+      <match tags="det.pos.*" lemma="suyo"/>
+      <match tags="det.pos.*" lemma="tuyo"/>
+      <match tags="det.pos.*" lemma="nuestro"/>
+      <match tags="det.pos.*" lemma="vuestro"/>
+    </or>
+    <or>
+      <match lemma="apartamento" tags="n.*"/>
+      <match lemma="ascensor" tags="n.*"/>
+      <match lemma="auditorio" tags="n.*"/>
+      <match lemma="aula" tags="n.*"/>
+      <match lemma="ayuntamiento" tags="n.*"/>
+      <match lemma="balcón" tags="n.*"/>
+      <match lemma="barrio" tags="n.*"/>
+      <match lemma="biblioteca" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="cabeza" tags="n.*"/>
+      <match lemma="calle" tags="n.*"/>
+      <match lemma="campus" tags="n.*"/>
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="castillo" tags="n.*"/>
+      <match lemma="cine" tags="n.*"/>
+      <match lemma="ciudad" tags="n.*"/>
+      <match lemma="comarca" tags="n.*"/>
+      <match lemma="cuarto_habitación" tags="n.*"/>
+      <match lemma="cuarto de al lado" tags="n.*"/>
+      <match lemma="domicilio" tags="n.*"/>
+      <match lemma="ducha" tags="n.*"/>
+      <match lemma="edificio" tags="n.*"/>
+      <match lemma="escuela" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="esquina" tags="n.*"/>
+      <match lemma="explanada" tags="n.*"/>
+      <match lemma="extranjero" tags="n.*"/>
+      <match lemma="frontera" tags="n.*"/>
+      <match lemma="fábrica" tags="n.*"/>
+      <match lemma="habitación" tags="n.*"/>
+      <match lemma="hospital" tags="n.*"/>
+      <match lemma="hotel" tags="n.*"/>
+      <match lemma="iglesia" tags="n.*"/>
+      <match lemma="isla" tags="n.*"/>
+      <match lemma="jardín" tags="n.*"/>
+      <match lemma="mano" tags="n.*"/>
+      <match lemma="montaña" tags="n.*"/>
+      <match lemma="parlamento" tags="n.*"/>
+      <match lemma="parque" tags="n.*"/>
+      <match lemma="patio" tags="n.*"/>
+      <match lemma="país" tags="n.*"/>
+      <match lemma="pie" tags="n.*"/>
+      <match lemma="pierna" tags="n.*"/>
+      <match lemma="playa" tags="n.*"/>
+      <match lemma="plaza" tags="n.*"/>
+      <match lemma="portal" tags="n.*"/>
+      <match lemma="principado" tags="n.*"/>
+      <match lemma="prisión" tags="n.*"/>
+      <match lemma="provincia" tags="n.*"/>
+      <match lemma="pueblo" tags="n.*"/>
+      <match lemma="puerta" tags="n.*"/>
+      <match lemma="región" tags="n.*"/>
+      <match lemma="ropa" tags="n.*"/>
+      <match lemma="sala" tags="n.*"/>
+      <match lemma="senado" tags="n.*"/>
+      <match lemma="terraza" tags="n.*"/>
+      <match lemma="tienda" tags="n.*"/>
+      <match lemma="torre" tags="n.*"/>
+      <match lemma="tren" tags="n.*"/>
+      <match lemma="urbanización" tags="n.*"/>
+      <match lemma="valle" tags="n.*"/>
+    </or>
+  </rule>
+      
 
   <!-- romper > trencar / esclafir a  ... -->
 
