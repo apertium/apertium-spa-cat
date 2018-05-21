@@ -2002,18 +2002,23 @@
         <match tags="n.*"/>
         <match tags="np.*"/>
         <match tags="cm"/>
-        <match tags="adv.*"/>
+        <match tags="adv"/>
         <match tags="prn.*"/>
         <match tags="*.pp.*"/>
+        <match tags="*.inf"/>
       </or>
     </repeat>
-    <match tags="sent"/>
+    <or>
+      <match tags="sent"/>
+      <match lemma="que"/>
+    </or>
   </rule>
 
   <rule weight="1">
     <or>
-      <match lemma="así"/>
-      <match lemma="ser"/>
+      <match lemma="así" tags="adv"/>
+      <match lemma="ser" tags="vbser.*"/>
+      <match lemma="tratar" tags="vblex"/>
     </or>
     <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
   </rule>
@@ -2025,6 +2030,7 @@
       <match lemma="bueno"/>
       <match lemma="porque"/>
       <match lemma="sí"/>
+      <match lemma="a"/>
       <match tags="cm"/>
     </or>
   </rule>
