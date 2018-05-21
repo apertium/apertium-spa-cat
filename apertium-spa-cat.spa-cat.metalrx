@@ -1342,10 +1342,12 @@
 
    <rule weight="2">
     <match lemma="daño" tags="n.*"><select lemma="dany"/></match>
-    <match lemma="cerebral"/>
+    <or>
+      <match lemma="cerebral"/>
+      <match lemma="anatómico"/>
+    </or>
   </rule>
-
-  
+ 
 
 
 <!-- cumbre > cim /cimera -->
@@ -2142,6 +2144,12 @@
       <match tags="n.*"/>
       <match tags="vblex.inf"/>
     </or>
+  </rule>
+
+   <!-- para > per a / per ... -->
+
+  <rule weight="0.5">
+    <match lemma="para" tags="pr"><select lemma="per a"/></match>
   </rule>
       
     

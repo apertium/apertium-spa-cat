@@ -11,6 +11,7 @@
     </def-cat>
     <def-cat n="nploc">
       <cat-item tags="np.loc" />
+      <cat-item tags="np.top"/>
     </def-cat>
       <def-cat n="nomcomunsg">
       <cat-item tags="n.m.sg" />
@@ -475,13 +476,7 @@
       <attr-item tags="rel.an.mf.sp" />
     </def-attr>
     <def-attr n="a_prn">
-      <attr-item tags="prn.tn.p1" />
-      <attr-item tags="prn.tn.p2" />
-      <attr-item tags="prn.tn.p3" />
-      <attr-item tags="prn.tn" />
-      <attr-item tags="prn.tn.ref.p3" />
-      <attr-item tags="prn.tn.pos" />
-      <attr-item tags="prn.itg" />
+      <attr-item tags="prn" />
     </def-attr>
     <def-attr n="a_encpro">
       <attr-item tags="enc" />
@@ -586,6 +581,34 @@
   <section-def-lists>
     <def-list n="per_de">
       <list-item v="lalala" />
+    </def-list>
+    <def-list n="vb_no_a"> <!--eliminar la preposició "a"-->
+      <!--<list-item v="obligar" />-->
+      <list-item v="acusar" />
+      <list-item v="afectar" />
+      <list-item v="apasionar" />
+      <list-item v="asesorar" />
+      <list-item v="atraer" />
+      <list-item v="ayudar" />
+      <list-item v="cansar" />
+      <list-item v="concernir" />
+      <list-item v="felicitar" />
+      <list-item v="fichar" />
+      <list-item v="homenajear" />
+      <list-item v="informar" />
+      <list-item v="perjudicar" />
+      <list-item v="preocupar" />
+      <list-item v="secuestrar" />
+      <list-item v="sorprender" />
+      <list-item v="secuestrar" />
+      <list-item v="contentar" />
+      <list-item v="ver" />
+      <list-item v="agrupar" />
+      <list-item v="promover" />
+      <list-item v="reunir" />
+      <list-item v="autorizar" />
+      <list-item v="desautorizar" />
+
     </def-list>
     <def-list n="locatiu">
       <list-item v="món" />
@@ -702,10 +725,14 @@
       <choose>
         <when>
           <test>
-            <equal>
+            <!--<equal>
               <clip pos="1" side="sl" part="a_val" />
               <lit-tag v="v2" />
-            </equal>
+            </equal>-->
+            <in caseless="yes">
+              <clip pos="1" side="sl" part="lem" />
+              <list n="vb_no_a" />
+            </in>
           </test>
           <let>
             <var n="valverb" />
@@ -781,6 +808,18 @@
                 <var n="valverb" />
                 <lit v="2" />
               </equal>
+              <not>
+                <equal>
+                  <clip pos="2" side="sl" part="lem" />
+                  <lit v="todo" />
+                </equal>
+              </not>
+              <not>
+                <equal>
+                  <clip pos="2" side="sl" part="a_prn" />
+                  <lit-tag v="prn" />
+                </equal>
+              </not>
             </and>
           </test>
           <call-macro n="f_bcond">
