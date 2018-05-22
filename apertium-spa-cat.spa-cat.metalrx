@@ -2489,8 +2489,7 @@
     </or>
   </rule>
 
-
-    <rule weight="1.0">
+  <rule weight="1.0">
     <match lemma="rayar" tags="vblex.*"><select lemma="vorejar"/></match>
     <repeat from="0" upto="3">
       <or>
@@ -2513,6 +2512,22 @@
       <match tags="num"/>
     </or>
   </rule>
+
+  <!-- pastel > pastís / pastel -->
+
+  <rule weight="0.5">
+    <match lemma="pastel" tags="n.*"><select lemma="pastís"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="tono" tags="n.*"/>
+      <match lemma="tonalidad" tags="n.*"/>
+      <match lemma="color" tags="n.*"/>
+    </or>
+    <match lemma="pastel" tags="n.*"><select lemma="pastel"/></match>
+  </rule>
+    
       
     
 
