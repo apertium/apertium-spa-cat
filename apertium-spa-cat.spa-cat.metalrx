@@ -2383,6 +2383,61 @@
     <match tags="*.inf"/>
   </rule>
 
+  <!-- abonar > abonar /adobarbec/... -->
+
+  <rule weight="0.5">
+    <match lemma="abonar" tags="vblex.*"><select lemma="abonar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="abonar" tags="vblex.*"><select lemma="adobar"/></match>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="tierra" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="sembrado" tags="n.*"/>
+      <match lemma="planta" tags="n.*"/>
+      <match lemma="cultivo" tags="n.*"/>
+      <match lemma="árbol" tags="n.*"/>
+      <match lemma="hortaliza" tags="n.*"/>
+      <match lemma="sembrar" tags="vblex.*"/>
+      <match lemma="plantar" tags="vblex.*"/>
+      <match lemma="regar" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="tierra" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="sembrado" tags="n.*"/>
+      <match lemma="planta" tags="n.*"/>
+      <match lemma="cultivo" tags="n.*"/>
+      <match lemma="árbol" tags="n.*"/>
+      <match lemma="hortaliza" tags="n.*"/>
+      <match lemma="sembrar" tags="vblex.*"/>
+      <match lemma="plantar" tags="vblex.*"/>
+      <match lemma="regar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="abonar" tags="vblex.*"><select lemma="adobar"/></match>
+  </rule>
 
       
     
