@@ -2213,6 +2213,24 @@
     <match lemma="para" tags="pr"><select lemma="per a"/></match>
   </rule>
 
+   <!-- uno y otro > per a / per ... -->
+
+  <rule weight="0.5">
+    <match lemma="uno" tags="prn.*"><select lemma="un"/></match>
+  </rule>
+  <rule weight="0.5">
+    <match lemma="otro" tags="prn.*"><select lemma="un altre"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="uno" tags="prn.*"><select lemma="l'un"/></match>
+    <or>
+      <match tags="pr"/>
+      <match tags="cnjcoo"/>
+    </or>
+    <match lemma="otro" tags="prn.*"><select lemma="l'altre"/></match>
+  </rule>
+
   <!-- en > en / a -->
 
   <rule weight="0.5">
