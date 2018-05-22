@@ -1569,6 +1569,18 @@
     </or>  
   </rule>
 
+    <!-- ser preciso > ser precís / ser necessari -->
+
+  <rule weight="0.6">
+    <match lemma="preciso" tags="adj.*"><select lemma="precís"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="ser"/>
+    <match lemma="preciso" tags="adj.m.sg"><select lemma="necessari"/></match>
+    <match tags="*.inf"/>  
+  </rule>
+
   <!-- desatar > deslligar / desfermar... -->
 
   <rule weight="0.6">
@@ -2248,7 +2260,6 @@
       <match lemma="aula" tags="n.*"/>
       <match lemma="ayuntamiento" tags="n.*"/>
       <match lemma="balcón" tags="n.*"/>
-      <match lemma="barrio" tags="n.*"/>
       <match lemma="biblioteca" tags="n.*"/>
       <match lemma="brazo" tags="n.*"/>
       <match lemma="cabeza" tags="n.*"/>
@@ -2261,9 +2272,7 @@
       <match lemma="comarca" tags="n.*"/>
       <match lemma="cuarto_habitación" tags="n.*"/>
       <match lemma="cuarto de al lado" tags="n.*"/>
-      <match lemma="domicilio" tags="n.*"/>
       <match lemma="ducha" tags="n.*"/>
-      <match lemma="edificio" tags="n.*"/>
       <match lemma="escuela" tags="n.*"/>
       <match lemma="espalda" tags="n.*"/>
       <match lemma="esquina" tags="n.*"/>
@@ -2279,15 +2288,12 @@
       <match lemma="jardín" tags="n.*"/>
       <match lemma="mano" tags="n.*"/>
       <match lemma="montaña" tags="n.*"/>
-      <match lemma="parlamento" tags="n.*"/>
       <match lemma="parque" tags="n.*"/>
       <match lemma="patio" tags="n.*"/>
       <match lemma="país" tags="n.*"/>
       <match lemma="pie" tags="n.*"/>
       <match lemma="pierna" tags="n.*"/>
       <match lemma="playa" tags="n.*"/>
-      <match lemma="plaza" tags="n.*"/>
-      <match lemma="portal" tags="n.*"/>
       <match lemma="principado" tags="n.*"/>
       <match lemma="prisión" tags="n.*"/>
       <match lemma="provincia" tags="n.*"/>
