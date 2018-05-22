@@ -2339,26 +2339,26 @@
       <or>
         <match lemma="acusar" tags="vblex.*"/>
         <match lemma="afectar" tags="vblex.*"/>
+        <match lemma="agrupar" tags="vblex.*"/>
         <match lemma="apasionar" tags="vblex.*"/>
         <match lemma="asesorar" tags="vblex.*"/>
+        <match lemma="autorizar" tags="vblex.*"/>
         <match lemma="cansar" tags="vblex.*"/>
         <match lemma="concernir" tags="vblex.*"/>
+        <match lemma="contentar" tags="vblex.*"/>
+        <match lemma="desautorizar" tags="vblex.*"/>
         <match lemma="felicitar" tags="vblex.*"/>
         <match lemma="fichar" tags="vblex.*"/>
         <match lemma="homenajear" tags="vblex.*"/>
         <match lemma="informar" tags="vblex.*"/>
         <match lemma="perjudicar" tags="vblex.*"/>
         <match lemma="preocupar" tags="vblex.*"/>
+        <match lemma="promover" tags="vblex.*"/>
+        <match lemma="reñir" tags="vblex.*"/>
+        <match lemma="reunir" tags="vblex.*"/>
         <match lemma="secuestrar" tags="vblex.*"/>
         <match lemma="sorprender" tags="vblex.*"/>
-        <match lemma="secuestrar" tags="vblex.*"/>
-        <match lemma="contentar" tags="vblex.*"/>
         <match lemma="ver" tags="vblex.*"/>
-        <match lemma="agrupar" tags="vblex.*"/>
-        <match lemma="promover" tags="vblex.*"/>
-        <match lemma="reunir" tags="vblex.*"/>
-        <match lemma="autorizar" tags="vblex.*"/>
-        <match lemma="desautorizar" tags="vblex.*"/>
       </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
@@ -2383,7 +2383,7 @@
     <match tags="*.inf"/>
   </rule>
 
-  <!-- abonar > abonar /adobarbec/... -->
+  <!-- abonar > abonar /adobar -->
 
   <rule weight="0.5">
     <match lemma="abonar" tags="vblex.*"><select lemma="abonar"/></match>
@@ -2439,6 +2439,80 @@
     <match lemma="abonar" tags="vblex.*"><select lemma="adobar"/></match>
   </rule>
 
+  <!-- reñir > renyir / renyar -->
+
+  <rule weight="0.5">
+    <match lemma="reñir" tags="vblex.*"><select lemma="renyir"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="reñir" tags="vblex.*"><select lemma="renyar"/></match>
+    <match lemma="a" tags="pr"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="prn.pro.*"/>
+    <repeat from="0" upto="1">
+      <match lemma="haber"/>
+    </repeat>
+    <match lemma="reñir" tags="vblex.*"><select lemma="renyar"/></match>
+  </rule>
+
+  <!-- rayar > ratllar / vorejar -->
+
+  <rule weight="0.5">
+    <match lemma="rayar" tags="vblex.*"><select lemma="ratllar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="rayar" tags="vblex.*"><select lemma="ranejar"/></match>
+    <match lemma="en" tags="pr"/>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="ismo" tags="n.*"/>
+      <match lemma="cencia" tags="n.*"/>
+      <match lemma="itud" tags="n.*"/>
+      <match lemma="ción" tags="n.*"/>
+      <match lemma="idad" tags="n.*"/>
+      <match lemma="edad" tags="n.*"/>
+      <match lemma="mayoría" tags="n.*"/>
+      <match lemma="año" tags="n.*"/>
+      <match lemma="amenaza" tags="n.*"/>
+      <match lemma="insulto" tags="n.*"/>
+      <match lemma="absurdo"/>
+      <match tags="num"/>
+    </or>
+  </rule>
+
+
+    <rule weight="1.0">
+    <match lemma="rayar" tags="vblex.*"><select lemma="vorejar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="ismo" tags="n.*"/>
+      <match lemma="cencia" tags="n.*"/>
+      <match lemma="itud" tags="n.*"/>
+      <match lemma="ción" tags="n.*"/>
+      <match lemma="idad" tags="n.*"/>
+      <match lemma="edad" tags="n.*"/>
+      <match lemma="mayoría" tags="n.*"/>
+      <match lemma="año" tags="n.*"/>
+      <match lemma="amenaza" tags="n.*"/>
+      <match lemma="insulto" tags="n.*"/>
+      <match lemma="absurdo"/>
+      <match tags="num"/>
+    </or>
+  </rule>
       
     
 
