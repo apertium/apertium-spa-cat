@@ -157,11 +157,17 @@
       <cat-item lemma="haber" tags="vbhaver.*.p3.*" />
       <cat-item lemma="tener" tags="vblex.*.p3.*" />
     </def-cat>
+    <def-cat n="vbhaver_p3_sg">
+        <cat-item tags="vbhaver.*.p3.sg" />
+    </def-cat>
     <def-cat n="vblex">
         <cat-item tags="vblex.*" />
     </def-cat>
     <def-cat n="vblex_p3_sg">
         <cat-item tags="vblex.*.p3.sg" />
+    </def-cat>
+    <def-cat n="vblex_pp_ms">
+      <cat-item tags="vblex.pp.m.sg" />
     </def-cat>
     <def-cat n="lquest">
       <cat-item tags="lquest" />
@@ -9058,8 +9064,7 @@
         </out>
       </action>
     </rule>
-    <!-- Caso de leísmo aceptable: se le considera, se le nombró > se'l considera, se'l va nomenar, 
-    Innecessari en plural perquè "les" (spa) ja és "els" (cat) -->
+    <!-- Caso de leísmo aceptable: se le considera, se le nombró > se'l considera, se'l va nomenar,  -->
     <rule> 
       <pattern>
         <pattern-item n="prnproref3" />
@@ -9117,6 +9122,72 @@
         <call-macro n="f_pretind">
           <with-param pos="3" />
         </call-macro>
+      </action>
+    </rule>
+    <rule> <!-- se le ha considerado -->
+      <pattern>
+        <pattern-item n="prnproref3" />
+        <pattern-item n="prnpro_le" />
+        <pattern-item n="vbhaver_p3_sg" />
+        <pattern-item n="vblex_pp_ms" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="4" side="sl" part="lem" />
+                <list n="verbos_impersonal" />
+              </in>
+            </test>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="es" />
+                </get-case-from>
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="ref" />
+                <lit-tag v="p3" />
+                <lit-tag v="mf" />
+                <lit-tag v="sp" />
+              </lu>
+              <b/>
+              <lu>
+                <lit v="el" />
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="p3" />
+                <lit-tag v="m" />
+                <lit-tag v="sg" />
+              </lu>
+              <b/>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip part="whole" pos="1" side="tl" />
+                </get-case-from>
+              </lu>
+              <b/>
+              <lu>
+                <clip part="whole" pos="2" side="tl" />
+              </lu>
+              <b/>
+            </out>
+          </otherwise>
+        </choose>
+        <out>
+          <lu>
+             <clip part="whole" pos="3" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+             <clip part="whole" pos="4" side="tl" />
+          </lu>
+        </out>
       </action>
     </rule>
     <!-- Verbos impersonales o reflexivos: se la considera-->
