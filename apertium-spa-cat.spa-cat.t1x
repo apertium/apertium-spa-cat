@@ -87,6 +87,14 @@
       <cat-item lemma="lo" tags="prn.pro.p3.m.pl" />
       <cat-item lemma="lo" tags="prn.pro.p3.f.pl" />
     </def-cat>
+    <def-cat n="prnpro_lo">
+      <cat-item lemma="lo" tags="prn.pro.p3.m.sg" />
+    </def-cat>
+    <def-cat n="prnpro_loslasla">
+      <cat-item lemma="lo" tags="prn.pro.p3.f.sg" />
+      <cat-item lemma="lo" tags="prn.pro.p3.m.pl" />
+      <cat-item lemma="lo" tags="prn.pro.p3.f.pl" />
+    </def-cat>
     <def-cat n="prnpro_las">
       <cat-item lemma="lo" tags="prn.pro.p3.f.pl" />
     </def-cat>
@@ -144,28 +152,16 @@
     <def-cat n="caber">
       <cat-item lemma="caber" tags="vblex.*" />
     </def-cat>
-    <def-cat n="verbos_impersonal">
-      <!-- leísmo: se le considera -->
-      <cat-item lemma="considerar" tags="vblex.*.p3.sg" />
-      <cat-item lemma="nombrar" tags="vblex.*.p3.sg" />
-      <cat-item lemma="definir" tags="vblex.*.p3.sg" />
-      <cat-item lemma="obligar" tags="vblex.*.p3.sg" />
-      <cat-item lemma="invitar" tags="vblex.*.p3.sg" />
-    </def-cat>
-    <def-cat n="verbos_impersonal_reflexivo">
-      <!-- se la come, se las considera -->
-      <cat-item lemma="considerar" tags="vblex.*.p3.*" />
-      <cat-item lemma="nombrar" tags="vblex.*.p3.*" />
-      <cat-item lemma="definir" tags="vblex.*.p3.*" />
-      <cat-item lemma="obligar" tags="vblex.*.p3.*" />
-      <cat-item lemma="invitar" tags="vblex.*.p3.sg" />
-      <cat-item lemma="comer" tags="vblex.*.p3.*" />
-      <cat-item lemma="ingeniar" tags="vblex.*.p3.*" />
-    </def-cat>
     <def-cat n="verbos_ver_haber_tener">
       <cat-item lemma="ver" tags="vblex.*.p3.*" />
       <cat-item lemma="haber" tags="vbhaver.*.p3.*" />
       <cat-item lemma="tener" tags="vblex.*.p3.*" />
+    </def-cat>
+    <def-cat n="vblex">
+        <cat-item tags="vblex.*" />
+    </def-cat>
+    <def-cat n="vblex_p3_sg">
+        <cat-item tags="vblex.*.p3.sg" />
     </def-cat>
     <def-cat n="lquest">
       <cat-item tags="lquest" />
@@ -609,6 +605,27 @@
       <list-item v="experimentar" />
       <list-item v="realizar" />
       <list-item v="trabajar" />
+    </def-list>
+    <def-list n="verbos_impersonal">
+      <!-- se las considera -->
+      <list-item v="citar"/>
+      <list-item v="conocer"/>
+      <list-item v="considerar"/>
+      <list-item v="definir"/>
+      <list-item v="describir"/>
+      <list-item v="invitar"/>
+      <list-item v="nombrar"/>
+      <list-item v="obligar"/>
+      <list-item v="reconocer"/>
+    </def-list>
+    <def-list n="verbos_reflexivo">
+      <!-- se la come-->
+      <list-item v="merecer"/>
+      <list-item v="comer" />
+      <list-item v="beber" />
+      <list-item v="fumar" />
+      <list-item v="ingeniar"/>
+      <list-item v="creer"/>
     </def-list>
   </section-def-lists>
   <section-def-macros>
@@ -9041,68 +9058,272 @@
         </out>
       </action>
     </rule>
-    <rule>
-      <!-- Caso de leísmo aceptable: se le considera, se le nombró > se'l considera, se'l va nomenar, 
+    <!-- Caso de leísmo aceptable: se le considera, se le nombró > se'l considera, se'l va nomenar, 
     Innecessari en plural perquè "les" (spa) ja és "els" (cat) -->
+    <rule> 
       <pattern>
         <pattern-item n="prnproref3" />
         <pattern-item n="prnpro_le" />
-        <pattern-item n="verbos_impersonal" />
+        <pattern-item n="vblex_p3_sg" />
       </pattern>
       <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <clip part="whole" pos="1" side="tl" />
-            </get-case-from>
-          </lu>
-          <b />
-          <lu>
-            <lit v="el" />
-            <lit-tag v="prn" />
-            <lit-tag v="pro" />
-            <lit-tag v="p3" />
-            <lit-tag v="m" />
-            <lit-tag v="sg" />
-          </lu>
-          <b />
-        </out>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lem" />
+                <list n="verbos_impersonal" />
+              </in>
+            </test>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="es" />
+                </get-case-from>
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="ref" />
+                <lit-tag v="p3" />
+                <lit-tag v="mf" />
+                <lit-tag v="sp" />
+              </lu>
+              <b/>
+              <lu>
+                <lit v="el" />
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="p3" />
+                <lit-tag v="m" />
+                <lit-tag v="sg" />
+              </lu>
+              <b/>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip part="whole" pos="1" side="tl" />
+                </get-case-from>
+              </lu>
+              <b/>
+              <lu>
+                <clip part="whole" pos="2" side="tl" />
+              </lu>
+              <b/>
+            </out>
+          </otherwise>         
+        </choose>
         <call-macro n="f_pretind">
           <with-param pos="3" />
         </call-macro>
       </action>
     </rule>
+    <!-- Verbos impersonales o reflexivos: se la considera-->
     <rule>
-      <!-- Verbos impersonales o reflexivos: se la considera-->
       <pattern>
         <pattern-item n="prnpro_se_lo" />
-        <pattern-item n="prnpro" />
-        <pattern-item n="verbos_impersonal_reflexivo" />
+        <pattern-item n="prnpro_lo" />
+        <pattern-item n="vblex" />
       </pattern>
       <action>
-        <out>
-          <lu>
-            <get-case-from pos="1">
-              <lit v="es" />
-            </get-case-from>
-            <lit-tag v="prn" />
-            <lit-tag v="pro" />
-            <lit-tag v="ref" />
-            <lit-tag v="p3" />
-            <lit-tag v="mf" />
-            <lit-tag v="sp" />
-          </lu>
-          <b />
-          <lu>
-            <clip part="whole" pos="2" side="tl" />
-          </lu>
-          <b />
-        </out>
+        <choose>
+          <when>
+            <test>
+              <and>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lem" />
+                <list n="verbos_impersonal" />
+              </in>
+              <equal>
+                <clip pos="3" side="sl" part="persona" />
+                <lit-tag v="p3" />
+              </equal>
+              <equal>
+                <clip pos="3" side="sl" part="nbr" />
+                <lit-tag v="sg" />
+              </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="es" />
+                </get-case-from>
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="ref" />
+                <lit-tag v="p3" />
+                <lit-tag v="mf" />
+                <lit-tag v="sp" />
+              </lu>
+              <b/>
+              <lu>
+                <clip part="whole" pos="2" side="tl" />
+              </lu>
+              <b/>
+            </out>
+          </when>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lem" />
+                <list n="verbos_reflexivo" />
+              </in>
+            </test>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="es" />
+                </get-case-from>
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="ref" />
+                <lit-tag v="p3" />
+                <lit-tag v="mf" />
+                <lit-tag v="sp" />
+              </lu>
+              <b/>
+              <lu>
+                <lit v="ho" /> <!-- canviar per "ho" és arbritrari, no se sap -->
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="p3" />
+                <lit-tag v="nt" />
+              </lu>
+              <b/>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="li" />
+                </get-case-from>
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="p3" />
+                <lit-tag v="mf" />
+                <lit-tag v="sg" />
+              </lu>
+              <b/>
+              <lu>
+                <lit v="ho" /> <!-- "ho" és molt més probable -->
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="p3" />
+                <lit-tag v="nt" />
+              </lu>
+              <b/>
+            </out>
+          </otherwise>         
+        </choose>
         <call-macro n="f_pretind">
           <with-param pos="3" />
         </call-macro>
       </action>
     </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="prnpro_se_lo" />
+        <pattern-item n="prnpro_loslasla" />
+        <pattern-item n="vblex" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <and>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lem" />
+                <list n="verbos_impersonal" />
+              </in>
+              <equal>
+                <clip pos="3" side="sl" part="persona" />
+                <lit-tag v="p3" />
+              </equal>
+              <equal>
+                <clip pos="3" side="sl" part="nbr" />
+                <lit-tag v="sg" />
+              </equal>
+              </and>
+            </test>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="es" />
+                </get-case-from>
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="ref" />
+                <lit-tag v="p3" />
+                <lit-tag v="mf" />
+                <lit-tag v="sp" />
+              </lu>
+              <b/>
+              <lu>
+                <clip part="whole" pos="2" side="tl" />
+              </lu>
+              <b/>
+            </out>
+          </when>
+          <when>
+            <test>
+              <and>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lem" />
+                <list n="verbos_reflexivo" />
+              </in>
+              <equal>
+                <clip pos="3" side="sl" part="persona" />
+                <lit-tag v="p3" />
+              </equal>
+            </and>
+            </test>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="es" />
+                </get-case-from>
+                <lit-tag v="prn" />
+                <lit-tag v="pro" />
+                <lit-tag v="ref" />
+                <lit-tag v="p3" />
+                <lit-tag v="mf" />
+                <lit-tag v="sp" />
+              </lu>
+              <b/>
+              <lu>
+                <clip part="whole" pos="2" side="tl" />
+              </lu>
+              <b/>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                   <clip part="whole" pos="1" side="tl" />
+                </get-case-from>
+              </lu>
+              <b/>
+              <lu>
+                <clip part="whole" pos="2" side="tl" />
+              </lu>
+              <b/>
+            </out>
+          </otherwise>         
+        </choose>
+        <call-macro n="f_pretind">
+          <with-param pos="3" />
+        </call-macro>
+      </action>
+    </rule>
+
+
+
+
     <rule>
       <!-- se las vieron/han/tuvieron con -->
       <pattern>
