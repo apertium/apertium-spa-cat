@@ -1645,6 +1645,22 @@
     </or>
   </rule>
 
+  <!-- grau > grado, grao -->
+
+  <rule weight="0.6">
+     <match lemma="grau" tags="n.*"><select lemma="grado"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="grau" tags="n.*"><select lemma="grao"/></match>
+     <match lemma="de" tags="pr"/>
+     <or>
+       <match lemma="València" tags="np.*"/>
+       <match lemma="Gandia" tags="np.*"/>
+       <match lemma="Castelló" tags="np.*"/>
+       <match lemma="Moncofa" tags="np.*"/>
+     </or>
+  </rule>
+
 <!-- **************** NP **************** -->
 
 <!-- Virgili > Virgili, Virgilio -->
