@@ -1526,7 +1526,7 @@
 
   <rule weight="1.0">
     <match lemma="sí" tags="adv"><select lemma="sí que"/></match>
-    <repeat from="0" upto="1">
+    <repeat from="0" upto="2">
       <match tags="prn.*"/>
     </repeat>
     <or>
@@ -1799,6 +1799,307 @@
     <match lemma="le" tags="prn.enc.*"><select lemma="el"/></match>
   </rule>
 
+  <!-- Se le conoce: cas de leísmo aceptable -->
+
+  <rule weight="1.0">
+    <match lemma="se" tags="prn.pro.ref.p3.mf.sp"/>  
+    <match lemma="le" tags="prn.pro.*"><select lemma="el"/></match>
+    <or>
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.*.p3.sg" />
+      <match lemma="conocer" tags="vblex.*.p3.sg" />
+      <match lemma="considerar" tags="vblex.*.p3.sg" />
+      <match lemma="definir" tags="vblex.*.p3.sg" />
+      <match lemma="denominar" tags="vblex.*.p3.sg" />
+      <match lemma="describir" tags="vblex.*.p3.sg" />
+      <match lemma="designar" tags="vblex.*.p3.sg" />
+      <match lemma="destinar" tags="vblex.*.p3.sg" />
+      <match lemma="identificar" tags="vblex.*.p3.sg" />
+      <match lemma="invitar" tags="vblex.*.p3.sg" />
+      <match lemma="nombrar" tags="vblex.*.p3.sg" />
+      <match lemma="mencionar" tags="vblex.*.p3.sg" />
+      <match lemma="obligar" tags="vblex.*.p3.sg" />
+      <match lemma="reconocer" tags="vblex.*.p3.sg" />
+      <match lemma="usar" tags="vblex.*.p3.sg" />
+      <match lemma="utilizar" tags="vblex.*.p3.sg" />
+      <match lemma="asociar" tags="vblex.*.p3.sg" />
+      <match lemma="relacionar" tags="vblex.*.p3.sg" />
+      <match lemma="relevar" tags="vblex.*.p3.sg" />
+    </or>
+  </rule>
+
+  <rule weight="2.0">
+    <match lemma="se" tags="prn.pro.ref.p3.mf.sp"/>  
+    <match lemma="le" tags="prn.pro.*"><select lemma="li"/></match>
+    <or>
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.*.p3.sg" />
+      <match lemma="conocer" tags="vblex.*.p3.sg" />
+      <match lemma="considerar" tags="vblex.*.p3.sg" />
+      <match lemma="definir" tags="vblex.*.p3.sg" />
+      <match lemma="denominar" tags="vblex.*.p3.sg" />
+      <match lemma="describir" tags="vblex.*.p3.sg" />
+      <match lemma="designar" tags="vblex.*.p3.sg" />
+      <match lemma="destinar" tags="vblex.*.p3.sg" />
+      <match lemma="identificar" tags="vblex.*.p3.sg" />
+      <match lemma="invitar" tags="vblex.*.p3.sg" />
+      <match lemma="nombrar" tags="vblex.*.p3.sg" />
+      <match lemma="mencionar" tags="vblex.*.p3.sg" />
+      <match lemma="obligar" tags="vblex.*.p3.sg" />
+      <match lemma="reconocer" tags="vblex.*.p3.sg" />
+      <match lemma="usar" tags="vblex.*.p3.sg" />
+      <match lemma="utilizar" tags="vblex.*.p3.sg" />
+      <match lemma="asociar" tags="vblex.*.p3.sg" />
+      <match lemma="relacionar" tags="vblex.*.p3.sg" />
+      <match lemma="relevar" tags="vblex.*.p3.sg" />
+    </or>
+    <match tags="det.def.*"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="se" tags="prn.pro.ref.p3.mf.sp"/>  
+    <match lemma="le" tags="prn.pro.*"><select lemma="el"/></match>
+    <match lemma="haber" tags="*.*.p3.sg"/>
+    <or>
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.pp.m.sg" />
+      <match lemma="conocer" tags="vblex.pp.m.sg" />
+      <match lemma="considerar" tags="vblex.pp.m.sg" />
+      <match lemma="definir" tags="vblex.pp.m.sg" />
+      <match lemma="denominar" tags="vblex.pp.m.sg" />
+      <match lemma="describir" tags="vblex.pp.m.sg" />
+      <match lemma="designar" tags="vblex.pp.m.sg" />
+      <match lemma="destinar" tags="vblex.pp.m.sg" />
+      <match lemma="identificar" tags="vblex.pp.m.sg" />
+      <match lemma="invitar" tags="vblex.pp.m.sg" />
+      <match lemma="nombrar" tags="vblex.pp.m.sg" />
+      <match lemma="mencionar" tags="vblex.pp.m.sg" />
+      <match lemma="obligar" tags="vblex.pp.m.sg" />
+      <match lemma="reconocer" tags="vblex.pp.m.sg" />
+      <match lemma="usar" tags="vblex.pp.m.sg" />
+      <match lemma="utilizar" tags="vblex.pp.m.sg" />
+      <match lemma="asociar" tags="vblex.pp.m.sg" />
+      <match lemma="relacionar" tags="vblex.pp.m.sg" />
+      <match lemma="relevar" tags="vblex.pp.m.sg" />
+    </or>
+  </rule>
+
+  <!-- se lo > li ho / se'l -->
+
+  <rule weight="0.5">
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="el"/></match>
+  </rule>
+    <rule weight="0.5">
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="li"/></match> <!-- no es pot saber si la traducció és sg o pl -->
+  </rule>
+
+  <rule weight="1"> <!-- se lo > li ho -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="li"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="ho"/></match>
+  </rule>
+<!-- se lo > s'ho -->
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="ho"/></match>
+    <or>
+      <match lemma="merecer" tags="vblex.*.p3.*" />
+      <match lemma="comer" tags="vblex.*.p3.*" />
+      <match lemma="beber" tags="vblex.*.p3.*" />
+      <match lemma="fumar" tags="vblex.*.p3.*" />
+      <match lemma="ingeniar" tags="vblex.*.p3.*" />
+      <match lemma="creer" tags="vblex.*.p3.*" />
+      <match lemma="encontrar" tags="vblex.*.p3.*" />
+      <match lemma="pensar" tags="vblex.*.p3.*" />
+      <match lemma="tomar" tags="vblex.*.p3.*" />
+      <match lemma="pasar" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> <!-- se lo > se'l -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="el"/></match>
+    <or>
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.*.p3.sg" />
+      <match lemma="conocer" tags="vblex.*.p3.sg" />
+      <match lemma="considerar" tags="vblex.*.p3.sg" />
+      <match lemma="definir" tags="vblex.*.p3.sg" />
+      <match lemma="denominar" tags="vblex.*.p3.sg" />
+      <match lemma="describir" tags="vblex.*.p3.sg" />
+      <match lemma="designar" tags="vblex.*.p3.sg" />
+      <match lemma="destinar" tags="vblex.*.p3.sg" />
+      <match lemma="identificar" tags="vblex.*.p3.sg" />
+      <match lemma="invitar" tags="vblex.*.p3.sg" />
+      <match lemma="nombrar" tags="vblex.*.p3.sg" />
+      <match lemma="mencionar" tags="vblex.*.p3.sg" />
+      <match lemma="obligar" tags="vblex.*.p3.sg" />
+      <match lemma="reconocer" tags="vblex.*.p3.sg" />
+      <match lemma="usar" tags="vblex.*.p3.sg" />
+      <match lemma="utilizar" tags="vblex.*.p3.sg" />
+      <match lemma="asociar" tags="vblex.*.p3.sg" />
+      <match lemma="relacionar" tags="vblex.*.p3.sg" />
+      <match lemma="relevar" tags="vblex.*.p3.sg" />
+    </or>
+  </rule>
+
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </or>
+    <or>
+      <match lemma="merecer" tags="vblex.*.p3.*" />
+      <match lemma="comer" tags="vblex.*.p3.*" />
+      <match lemma="beber" tags="vblex.*.p3.*" />
+      <match lemma="fumar" tags="vblex.*.p3.*" />
+      <match lemma="ingeniar" tags="vblex.*.p3.*" />
+      <match lemma="creer" tags="vblex.*.p3.*" />
+      <match lemma="encontrar" tags="vblex.*.p3.*" />
+      <match lemma="pensar" tags="vblex.*.p3.*" />
+      <match lemma="tomar" tags="vblex.*.p3.*" />
+      <match lemma="pasar" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> <!-- se lo > se'l -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </or>
+    <or>
+      <match lemma="representar" tags="vblex.*.p3.sg" />
+      <match lemma="juzgar" tags="vblex.*.p3.sg" />
+      <match lemma="citar" tags="vblex.*.p3.sg" />
+      <match lemma="conocer" tags="vblex.*.p3.sg" />
+      <match lemma="considerar" tags="vblex.*.p3.sg" />
+      <match lemma="definir" tags="vblex.*.p3.sg" />
+      <match lemma="denominar" tags="vblex.*.p3.sg" />
+      <match lemma="describir" tags="vblex.*.p3.sg" />
+      <match lemma="designar" tags="vblex.*.p3.sg" />
+      <match lemma="destinar" tags="vblex.*.p3.sg" />
+      <match lemma="identificar" tags="vblex.*.p3.sg" />
+      <match lemma="invitar" tags="vblex.*.p3.sg" />
+      <match lemma="nombrar" tags="vblex.*.p3.sg" />
+      <match lemma="mencionar" tags="vblex.*.p3.sg" />
+      <match lemma="obligar" tags="vblex.*.p3.sg" />
+      <match lemma="reconocer" tags="vblex.*.p3.sg" />
+      <match lemma="usar" tags="vblex.*.p3.sg" />
+      <match lemma="utilizar" tags="vblex.*.p3.sg" />
+      <match lemma="asociar" tags="vblex.*.p3.sg" />
+      <match lemma="relacionar" tags="vblex.*.p3.sg" />
+      <match lemma="relevar" tags="vblex.*.p3.sg" />
+    </or>
+  </rule>
+
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="ho"/></match>
+    <match lemma="haber" tags="*.*.p3.*"/>
+    <or>
+      <match lemma="merecer" tags="vblex.pp.m.sg" />
+      <match lemma="comer" tags="vblex.pp.m.sg" />
+      <match lemma="beber" tags="vblex.pp.m.sg" />
+      <match lemma="fumar" tags="vblex.pp.m.sg" />
+      <match lemma="ingeniar" tags="vblex.pp.m.sg" />
+      <match lemma="creer" tags="vblex.pp.m.sg" />
+      <match lemma="encontrar" tags="vblex.pp.m.sg" />
+      <match lemma="pensar" tags="vblex.pp.m.sg" />
+      <match lemma="tomar" tags="vblex.pp.m.sg" />
+      <match lemma="pasar" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> <!-- se lo > se'l -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="el"/></match>
+    <match lemma="haber" tags="*.*.p3.sg"/>
+    <or>
+      <match lemma="representar" tags="vblex.pp.m.sg" />
+      <match lemma="juzgar" tags="vblex.pp.m.sg" />
+      <match lemma="citar" tags="vblex.pp.m.sg" />
+      <match lemma="conocer" tags="vblex.pp.m.sg" />
+      <match lemma="considerar" tags="vblex.pp.m.sg" />
+      <match lemma="definir" tags="vblex.pp.m.sg" />
+      <match lemma="denominar" tags="vblex.pp.m.sg" />
+      <match lemma="describir" tags="vblex.pp.m.sg" />
+      <match lemma="designar" tags="vblex.pp.m.sg" />
+      <match lemma="destinar" tags="vblex.pp.m.sg" />
+      <match lemma="identificar" tags="vblex.pp.m.sg" />
+      <match lemma="invitar" tags="vblex.pp.m.sg" />
+      <match lemma="nombrar" tags="vblex.pp.m.sg" />
+      <match lemma="mencionar" tags="vblex.pp.m.sg" />
+      <match lemma="obligar" tags="vblex.pp.m.sg" />
+      <match lemma="reconocer" tags="vblex.pp.m.sg" />
+      <match lemma="usar" tags="vblex.pp.m.sg" />
+      <match lemma="utilizar" tags="vblex.pp.m.sg" />
+      <match lemma="asociar" tags="vblex.pp.m.sg" />
+      <match lemma="relacionar" tags="vblex.pp.m.sg" />
+      <match lemma="relevar" tags="vblex.pp.m.sg" />
+    </or>
+  </rule>
+
+<rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </or>
+    <match lemma="haber" tags="*.*.p3.*"/>
+    <or>
+      <match lemma="merecer" tags="vblex.pp.m.sg" />
+      <match lemma="comer" tags="vblex.pp.m.sg" />
+      <match lemma="beber" tags="vblex.pp.m.sg" />
+      <match lemma="fumar" tags="vblex.pp.m.sg" />
+      <match lemma="ingeniar" tags="vblex.pp.m.sg" />
+      <match lemma="creer" tags="vblex.pp.m.sg" />
+      <match lemma="encontrar" tags="vblex.pp.m.sg" />
+      <match lemma="pensar" tags="vblex.pp.m.sg" />
+      <match lemma="tomar" tags="vblex.pp.m.sg" />
+      <match lemma="pasar" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> <!-- se lo > se'l -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    </or>
+    <match lemma="haber" tags="*.*.p3.sg"/>
+    <or>
+      <match lemma="representar" tags="vblex.pp.m.sg" />
+      <match lemma="juzgar" tags="vblex.pp.m.sg" />
+      <match lemma="citar" tags="vblex.pp.m.sg" />
+      <match lemma="conocer" tags="vblex.pp.m.sg" />
+      <match lemma="considerar" tags="vblex.pp.m.sg" />
+      <match lemma="definir" tags="vblex.pp.m.sg" />
+      <match lemma="denominar" tags="vblex.pp.m.sg" />
+      <match lemma="describir" tags="vblex.pp.m.sg" />
+      <match lemma="designar" tags="vblex.pp.m.sg" />
+      <match lemma="destinar" tags="vblex.pp.m.sg" />
+      <match lemma="identificar" tags="vblex.pp.m.sg" />
+      <match lemma="invitar" tags="vblex.pp.m.sg" />
+      <match lemma="nombrar" tags="vblex.pp.m.sg" />
+      <match lemma="mencionar" tags="vblex.pp.m.sg" />
+      <match lemma="obligar" tags="vblex.pp.m.sg" />
+      <match lemma="reconocer" tags="vblex.pp.m.sg" />
+      <match lemma="usar" tags="vblex.pp.m.sg" />
+      <match lemma="utilizar" tags="vblex.pp.m.sg" />
+      <match lemma="asociar" tags="vblex.pp.m.sg" />
+      <match lemma="relacionar" tags="vblex.pp.m.sg" />
+      <match lemma="relevar" tags="vblex.pp.m.sg" />
+    </or>
+  </rule>
 
   <!-- deber de > deure (si el castellà és "correcte") / haver de (molt sovint)... -->
 
@@ -2123,6 +2424,10 @@
       <match lemma="a"/>
       <match tags="cm"/>
     </or>
+  </rule>
+  <rule weight="2">
+    <match lemma="pues" tags="cnjadv"><select lemma="perquè"/></match>
+    <match lemma="así"/>
   </rule>
   <rule weight="1">
     <or>
