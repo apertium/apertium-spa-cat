@@ -226,6 +226,11 @@
       <cat-item lemma="no" tags="adv"/>
     </def-cat>
 
+    <def-cat n="ant">
+      <cat-item tags="np.ant.*"/>
+      <cat-item tags="np.cog.*"/>
+    </def-cat>
+
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
@@ -271,6 +276,7 @@
       <attr-item tags="adj.sup"/>
       <attr-item tags="adj.itg"/>
       <attr-item tags="adj.pos"/>
+      <attr-item tags="adj.ord"/>
       <attr-item tags="adj"/>
       <attr-item tags="vblex.pp"/>
       <attr-item tags="vblex.v2.pp"/>
@@ -281,6 +287,7 @@
       <attr-item tags="adj.sup"/>
       <attr-item tags="adj.itg"/>
       <attr-item tags="adj.pos"/>
+      <attr-item tags="adj.ord"/>
       <attr-item tags="adj"/>
       <attr-item tags="vblex.pp"/>
       <attr-item tags="vblex.v2.pp"/>
@@ -8240,6 +8247,36 @@
       </action>
     </rule>
 
+    <rule> <!--REGLA: conserva "i" en noms: Pere Mas i Garcia -->
+      <pattern>
+  <pattern-item n="ant"/>
+  <pattern-item n="ant"/>
+  <pattern-item n="i"/>
+  <pattern-item n="ant"/>
+      </pattern>
+      <action>
+  <out>
+    <lu>
+       <clip pos="1" side="tl" part="whole"/>
+    </lu>
+    <b/>
+    <lu>
+       <clip pos="2" side="tl" part="whole"/>
+    </lu>
+    <b/>
+    <lu>
+       <lit v="i" /> <!-- la "i" en castellà, com a nom de lletra -->
+       <lit-tag v="n" />
+       <lit-tag v="f" />
+       <lit-tag v="sp" />
+    </lu>
+    <b/>
+    <lu>
+       <clip pos="4" side="tl" part="whole"/>
+    </lu>
+  </out>
+      </action>
+    </rule>
 
 
     <rule> <!-- REGLA: reset variables-->

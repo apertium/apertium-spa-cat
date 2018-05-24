@@ -1572,6 +1572,78 @@
      </or>
   </rule>
 
+    <!-- deslliurar > liberar/librar de... -->
+
+  <rule weight="0.6">
+    <match lemma="deslliurar" tags="vblex.*"><select lemma="liberar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="deslliurar" tags="vblex.*"><select lemma="librar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de"/>  
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="en" tags="prn.*"/>
+    <repeat from="0" upto="1">
+      <match lemma="anar" tags="vblex.*"/>
+    </repeat>
+    <match lemma="deslliurar" tags="vblex.*"><select lemma="librar"/></match>
+  </rule>
+
+  <!-- recórrer > recorrer/recurrir a... -->
+
+  <rule weight="0.6">
+    <match lemma="recórrer" tags="vblex.*"><select lemma="recorrer"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="recórrer" tags="vblex.*"><select lemma="recurrir"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a"/>  
+  </rule>
+
+    <!-- llit > cama  / llecho (de río ... -->
+
+  <rule weight="0.5">
+    <match lemma="llit" tags="n.*"><select lemma="cama"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="llit" tags="n.*"><select lemma="lecho"/></match>
+    <repeat from="0" upto="3">
+      <match tags="*" />
+    </repeat>
+    <or>
+      <match lemma="riu" tags="n.*"/>
+      <match lemma="mar" tags="n.*"/>
+      <match lemma="barranc" tags="n.*"/>
+      <match lemma="canal" tags="n.*"/>
+      <match lemma="ria" tags="n.*"/>
+      <match lemma="rierol" tags="n.*"/>
+      <match lemma="corrent" tags="n.*"/>
+      <match lemma="roca" tags="n.*"/>
+      <match lemma="pedra" tags="n.*"/>
+      <match lemma="llac" tags="n.*"/>
+      <match lemma="estany" tags="n.*"/>
+      <match lemma="marí" tags="adj.*"/>
+      <match lemma="fluvial" tags="adj.*"/>
+      <match lemma="seco" tags="adj.*"/>
+      <match lemma="rocós" tags="adj.*"/>
+      <match lemma="Túria"/>
+      <match lemma="Xúquer"/>
+      <match lemma="Segura"/>
+      <match lemma="Ebre"/>
+      <match lemma="Tajo"/>
+      <match lemma="Vinalopó"/>
+      <match lemma="Duero"/>      
+    </or>
+  </rule>
 
 <!-- **************** NP **************** -->
 
@@ -1614,6 +1686,11 @@
   <macro name="noms_propis" p1="Climent" p2="Clemente" />
   <macro name="noms_propis" p1="Innocenci" p2="Inocencio" />
   <macro name="noms_propis" p1="Sixt" p2="Sixto" />
+  <macro name="noms_propis" p1="Victòria" p2="Victoria" />
+  <macro name="noms_propis" p1="Ignasi" p2="Ignacio" />
+  <macro name="noms_propis" p1="Bonaventura" p2="Buenaventura" />
+  <macro name="noms_propis" p1="Calixt" p2="Calixto" />
+  <macro name="noms_propis" p1="Pasqual" p2="Pascual" />
 
   <macro name="noms_propis" p1="Guifré" p2="Vilfredo" />
   <macro name="noms_propis" p1="Ramon" p2="Ramón" />
