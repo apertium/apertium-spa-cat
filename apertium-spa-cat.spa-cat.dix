@@ -3072,6 +3072,7 @@
 <e>       <i>gp<s n="n"/></i></e>
 <e>       <p><l>gracia<s n="n"/><s n="f"/></l>    <r>gràcia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>grado<s n="n"/></l>               <r>grau<s n="n"/></r></p></e>
+<e>       <p><l>grado<g><b/>de</g><s n="n"/></l>               <r>grau<g><b/>de</g><s n="n"/></r></p></e>
 <e>       <p><l>gramo<s n="n"/></l>               <r>gram<s n="n"/></r></p></e>
 <e>       <p><l>granada<s n="n"/></l>             <r>magrana<s n="n"/></r></p></e>
 <e>       <p><l>grandeza<s n="n"/></l>            <r>grandesa<s n="n"/></r></p></e>
@@ -5737,7 +5738,7 @@
 <e>       <i>obstinar<s n="vblex"/></i></e>
 <e>       <p><l>empezar<s n="vblex"/></l>         <r>començar<s n="vblex"/></r></p></e>
 <e>       <i>empinar<s n="vblex"/></i></e>
-<e alt="std"><p><l>emplear<s n="vblex"/></l>      <r>emprar<s n="vblex"/></r></p></e>
+<e><p><l>emplear<s n="vblex"/></l>      <r>emprar<s n="vblex"/></r></p></e>
 <e r="LR" alt="eco"><p><l>emplear<s n="vblex"/></l><r>ocupar<s n="vblex"/></r></p></e>
 <e r="RL" alt="eco"><p><l>emplear<s n="vblex"/></l><r>emprar<s n="vblex"/></r></p></e>
 <e>       <p><l>emprender<s n="vblex"/></l>       <r>emprendre<s n="vblex"/></r></p></e>
@@ -6428,6 +6429,7 @@
 <e>       <p><l>trasladar<s n="vblex"/></l>       <r>traslladar<s n="vblex"/></r></p></e>
 <e>       <p><l>traspasar<s n="vblex"/></l>       <r>traspassar<s n="vblex"/></r></p></e>
 <e>       <p><l>tratar<s n="vblex"/></l>          <r>tractar<s n="vblex"/></r></p></e>
+<e>       <p><l>tratar<g><b/>de</g><s n="vblex"/></l>          <r>tractar<g><b/>de</g><s n="vblex"/></r></p></e>
 <e>       <p><l>trazar<s n="vblex"/></l>          <r>traçar<s n="vblex"/></r></p></e>
 <e>       <p><l>trepar<s n="vblex"/></l>          <r>grimpar<s n="vblex"/></r></p></e>
 <e>       <p><l>triunfar<s n="vblex"/></l>        <r>triomfar<s n="vblex"/></r></p></e>
@@ -22499,7 +22501,7 @@
 <e a="prompsit"><p><l>cédula<s n="n"/></l>        <r>cèdula<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>contravalor<s n="n"/></l>   <r>contravalor<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>convertible<s n="adj"/></l> <r>convertible<s n="adj"/></r></p></e>
-<e a="prompsit2uoc"><p><l>emprendeduría<s n="n"/></l>    <r>emprenedoria<s n="n"/></r></p></e>
+<e a="prompsit2uoc" r="LR"><p><l>emprendeduría<s n="n"/></l>    <r>emprenedoria<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>corretaje<s n="n"/></l>     <r>corretatge<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>correduría<s n="n"/></l>     <r>corredoria<s n="n"/></r></p></e>
 <e a="prompsit"><p><l>cotitular<s n="n"/></l>     <r>cotitular<s n="n"/></r></p></e>
@@ -46377,6 +46379,27 @@ no funciona combinat amb els vr. el translate-equivalent.xslt no respecta les va
 <e>       <i>Albano<s n="np"/></i></e>
 <e>       <i>Fachín<s n="np"/></i></e>
 <e>       <i>Churchill<s n="np"/></i></e>
+
+
+<e r="LR"><p><l>requirente<s n="adj"/><s n="mf"/></l><r>requeridor<s n="adj"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>requirente<s n="adj"/><s n="mf"/></l><r>requeridor<s n="adj"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>requirente<s n="adj"/><s n="mf"/></l><r>requeridor<s n="adj"/><s n="m"/></r></p></e>
+
+
+<e><p><l>acreditadamente<s n="adv"/></l>     <r>acreditadament<s n="adv"/></r></p></e>
+<e><p><l>significadamente<s n="adv"/></l>     <r>significadament<s n="adv"/></r></p></e>
+<e><p><l>subsección<s n="n"/></l>             <r>subsecció<s n="n"/></r></p></e>
+<e><p><l>cabildo<s n="n"/></l>             <r>cabildo<s n="n"/></r></p></e>
+<e><p><l>uniprovincial<s n="adj"/></l>             <r>uniprovincial<s n="adj"/></r></p></e>
+<e a="prompsit"><p><l>jurídicolaboral<s n="adj"/></l><r>juridicolaboral<s n="adj"/></r></p></e>
+<e>       <p><l>indiferenciado<s n="adj"/></l>       <r>indiferenciat<s n="adj"/></r></p></e>
+<e>       <p><l>hernandiano<s n="adj"/></l>       <r>hernandià<s n="adj"/></r></p></e>
+<e><p><l>estiba<s n="n"/></l>             <r>estiba<s n="n"/></r></p></e>
+<e><p><l>desestiba<s n="n"/></l>             <r>desestiba<s n="n"/></r></p></e>
+<e><p><l>estibador<s n="n"/></l>             <r>estibador<s n="n"/></r></p></e>
+<e>       <p><l>absolutorio<s n="adj"/></l>       <r>absolutori<s n="adj"/></r></p></e>
+<e><p><l>espalación<s n="n"/></l>             <r>espal·lació<s n="n"/></r></p></e>
+
 
 
 </section>
