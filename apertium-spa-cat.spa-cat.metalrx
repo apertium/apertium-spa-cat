@@ -2730,9 +2730,41 @@
       <match lemma="valle" tags="n.*"/>
     </or>
   </rule>
+
+  <!-- atendiendo a -->
+
+  <rule weight="10">
+     <match tags="vblex.*"/>
+     <match lemma="atender" tags="vblex.ger"><select lemma="atenent"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+  </rule>
+
+  <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atès"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match tags="det.*.m.sg"/>
+  </rule>
+  <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atès"/></match>
+     <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+  <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atesa"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match tags="det.*.f.sg"/>
+  </rule>
+    <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atesos"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match tags="det.*.m.pl"/>
+  </rule>  
+  <rule weight="6">
+     <match lemma="atender" tags="vblex.ger"><select lemma="ateses"/></match>
+     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match tags="det.*.f.pl"/>
+  </rule>
       
   <!-- a > a / eliminar -->
-
 
 <rule weight="6">
      <match lemma="ayudar" tags="vblex.*"/>
@@ -2781,6 +2813,7 @@
       <match lemma="agrupar" tags="vblex.*"/>
       <match lemma="apasionar" tags="vblex.*"/>
       <match lemma="asesorar" tags="vblex.*"/>
+      <match lemma="atender" tags="vblex.*"/>
       <match lemma="autorizar" tags="vblex.*"/>
       <match lemma="cansar" tags="vblex.*"/>
       <match lemma="concernir" tags="vblex.*"/>
