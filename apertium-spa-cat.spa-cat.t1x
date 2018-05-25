@@ -90,6 +90,19 @@
     <def-cat n="prnpro_lo">
       <cat-item lemma="lo" tags="prn.pro.p3.m.sg" />
     </def-cat>
+    <def-cat n="se">
+      <cat-item lemma="le" tags="prn.pro.p3.mf.sp" />
+      <cat-item lemma="se" tags="prn.pro.ref.p3.mf.sp" />
+    </def-cat>
+    <def-cat n="lelesloloslalas">
+      <cat-item lemma="lo" tags="prn.pro.p3.*" />
+      <cat-item lemma="lo" tags="prn.pro.p3.f.*" />
+      <cat-item lemma="lo" tags="prn.pro.p3.m.*" />
+      <cat-item lemma="le" tags="prn.pro.p3.mf.*" />
+    </def-cat>
+    <def-cat n="llamar">
+      <cat-item lemma="llamar" tags="vblex.*.p3.sg" />
+    </def-cat>
     <def-cat n="prnpro_loslasla">
       <cat-item lemma="lo" tags="prn.pro.p3.f.sg" />
       <cat-item lemma="lo" tags="prn.pro.p3.m.pl" />
@@ -2994,8 +3007,46 @@
         </out>
       </action>
     </rule>
+
+    <!-- se les llama > se'n diu -->
+    <rule>  
+      <pattern>
+        <pattern-item n="se" />
+        <pattern-item n="lelesloloslalas" />
+        <pattern-item n="llamar" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="es" />
+            </get-case-from>
+            <lit-tag v="prn" />
+            <lit-tag v="pro" />
+            <lit-tag v="ref" />
+            <lit-tag v="p3" />
+            <lit-tag v="mf" />
+            <lit-tag v="sp" />
+          </lu>
+          <b />
+          <lu>
+            <get-case-from pos="2">
+              <lit v="en" />
+            </get-case-from>
+            <lit-tag v="prn" />
+            <lit-tag v="pro" />
+            <lit-tag v="adv" />
+          </lu>
+          <b />
+        </out>
+        <call-macro n="f_pretind">
+        <with-param pos="3" />
+      </call-macro>
+      </action>
+    </rule>
+
+    <!-- los hay > n'hi ha -->
     <rule>
-      <!-- los hay > n'hi ha -->
       <pattern>
         <pattern-item n="los_las" />
         <pattern-item n="hay" />

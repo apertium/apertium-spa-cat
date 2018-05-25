@@ -1180,6 +1180,15 @@
       </or>
   </rule>
 
+  <rule weight="2.0">
+    <or>
+      <match lemma="se" tags="prn.pro.ref.p3.mf.sp"/>
+      <match lemma="le" tags="prn.pro.p3.mf.sp"/>
+    </or>
+    <match tags="prn.pro.p3.*" />
+    <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
+  </rule>
+
   <rule weight="1.0">
     <match tags="adv"/>
     <match lemma="llamar" tags="vblex.pp.*"><select lemma="dir"/></match> 
