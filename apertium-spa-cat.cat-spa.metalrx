@@ -1661,6 +1661,27 @@
      </or>
   </rule>
 
+  <rule weight="1.0">
+    <or>
+       <match lemma="carretera" tags="n.*"/>
+       <match lemma="camí" tags="n.*"/>
+       <match lemma="via" tags="n.*"/>
+       <match lemma="sud" tags="n.*"/>
+       <match lemma="nord" tags="n.*"/>
+       <match lemma="est" tags="n.*"/>
+       <match lemma="oest" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="2">
+      <or>
+        <match lemma="de" tags="pr"/>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
+    <match lemma="grau" tags="n.*"><select lemma="grao"/></match>
+     
+     
+  </rule>
+
 <!-- **************** NP **************** -->
 
 <!-- Virgili > Virgili, Virgilio -->
