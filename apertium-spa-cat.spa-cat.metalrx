@@ -2366,6 +2366,74 @@
     <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
 
+  <!-- de que > que / de què -->
+
+  <rule weight="0.6">
+    <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+      </repeat>
+      <or>
+        <match lemma="depender" tags="vblex.*"/>
+        <match lemma="disponer" tags="vblex.*"/>
+        <match lemma="tratar" tags="vblex.*"/>
+        <match lemma="constar" tags="vblex.*"/>
+      </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+      </repeat>
+      <match lemma="ser" tags="vbser.*"/>
+      <or>
+        <match lemma="objeto" tags="n.*"/>
+        <match lemma="víctima" tags="n.*"/>
+        <match lemma="heredero" tags="n.*"/>
+      </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+      </repeat>
+      <or>
+        <match lemma="haber" />
+        <match lemma="tener" tags="vblex.*"/>
+      </or>
+      <or>
+        <match lemma="constancia" tags="n.*"/>
+      </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+      </repeat>
+      <match lemma="formar" tags="vblex.*"/>
+      <match lemma="parte" tags="n.*"/>
+  </rule>
+
    <!-- en tanto que > en tant que / com a -->
 
   <rule weight="0.6">
