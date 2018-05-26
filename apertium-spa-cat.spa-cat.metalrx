@@ -2409,11 +2409,22 @@
       <match lemma="particularidad"/>
       <match lemma="creencia"/>
       <match lemma="realidad"/>
-      <match lemma="dudar" tags="vblex.*"/>
-      <match lemma="sospechar" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adj.*"/>
+    </repeat>
+    <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="dudar" tags="vblex.*"/>
+      <match lemma="sospechar" tags="vblex.*"/>
+      <match lemma="persuadir" tags="vblex.*"/>
+      <match lemma="convencer" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <match tags="*"/>
     </repeat>
     <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
