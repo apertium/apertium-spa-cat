@@ -2437,6 +2437,7 @@
         <match tags="adv"/>
         <match tags="vbmod.*"/>
         <match lemma="a" tags="pr"/>
+        <match lemma="ir" tags="vblex.*.p3.*"/>
       </or>
       </repeat>
       <or>
