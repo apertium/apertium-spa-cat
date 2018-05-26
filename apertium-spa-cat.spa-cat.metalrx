@@ -2785,8 +2785,12 @@
 
   <rule weight="10">
      <match tags="vblex.*"/>
-     <match lemma="atender" tags="vblex.ger"><select lemma="atenent"/></match>
+     <match lemma="atender" tags="vblex.ger"><select lemma="atendre"/></match>
      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+  </rule>
+    <rule weight="10">
+     <match lemma="atender" tags="vblex.ger"><select lemma="atendre"/></match>
+     <match tags="prn.enc.*"></match>
   </rule>
 
   <rule weight="6">
