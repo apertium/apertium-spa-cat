@@ -2347,9 +2347,10 @@
       <or>
         <match lemma="referir"/>
         <match lemma="destinar"/>
-        <match lemma="concedir"/>
+        <match lemma="conceder"/>
         <match lemma="condenar"/>
         <match lemma="comprometer"/>
+        <match lemma="pertenecer"/>
     </or>
   </rule>
 
@@ -2381,13 +2382,50 @@
     <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
 
+  <rule weight="2">
+    <match lemma="sin"/>
+    <or>
+      <match lemma="perjuicio"/>
+      <match lemma="necesidad"/>
+    </or>
+    <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="indicio"/>
+      <match lemma="prueba"/>
+      <match lemma="fin"/>
+      <match lemma="finalidad"/>
+      <match lemma="objetivo"/>
+      <match lemma="objeto"/>
+      <match lemma="caso"/>
+      <match lemma="cualidad"/>
+      <match lemma="característica"/>
+      <match lemma="seguro"/>
+      <match lemma="hipótesis"/>
+      <match lemma="ilusión"/>
+      <match lemma="conclusión"/>
+      <match lemma="particularidad"/>
+      <match lemma="creencia"/>
+      <match lemma="realidad"/>
+      <match lemma="dudar" tags="vblex.*"/>
+      <match lemma="sospechar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
   <rule weight="1">
     <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
     <repeat from="0" upto="3">
       <or>
-        <match tags="*.*"/>
+        <match tags="prn.*"/>
         <match tags="adv"/>
-        <match tags="pr"/>
+        <match tags="vbmod.*"/>
+        <match lemma="a" tags="pr"/>
       </or>
       </repeat>
       <or>
@@ -3083,6 +3121,7 @@
   <macro name="noms_propis" p1="Buenaventura" p2="Bonaventura" />
   <macro name="noms_propis" p1="Calixto" p2="Calixt" />
   <macro name="noms_propis" p1="Pascual" p2="Pasqual" />
+  <macro name="noms_propis" p1="Amadeo" p2="Amadeu" />
 
   <macro name="noms_propis" p1="Vilfredo" p2="Guifré" />
   <macro name="noms_propis" p1="Ramón" p2="Ramon" />
