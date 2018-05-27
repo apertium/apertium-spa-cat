@@ -1177,6 +1177,7 @@
         <match lemma="así"/>
         <match tags="adj.*"/>
         <match tags="n.*"/>
+        <match tags="det.*"/>
       </or>
   </rule>
 
@@ -2372,7 +2373,20 @@
       <match lemma="esperar"/>
       <match lemma="apostar"/>
       <match lemma="animar"/>
+      <match lemma="instar"/>
+      <match lemma="motivar"/>
     </or>
+    <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+    <rule weight="2">
+    <or>
+      <match lemma="instar" tags="vblex.*"/>
+      <match lemma="incitar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
     <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
 
@@ -2423,7 +2437,7 @@
       <match lemma="persuadir" tags="vblex.*"/>
       <match lemma="convencer" tags="vblex.*"/>
     </or>
-    <repeat from="0" upto="4">
+    <repeat from="0" upto="5">
       <match tags="*"/>
     </repeat>
     <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
@@ -2438,6 +2452,7 @@
         <match tags="vbmod.*"/>
         <match lemma="a" tags="pr"/>
         <match lemma="ir" tags="vblex.*.p3.*"/>
+        <match lemma="haber"/>
       </or>
       </repeat>
       <or>
