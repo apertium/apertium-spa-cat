@@ -1108,6 +1108,18 @@
     <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
   </rule>
 
+  <rule weight="4.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match> 
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+      </or>
+    </repeat>
+    <match lemma="atención"/>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="llamar" tags="vblex.*"><select lemma="telefonar"/></match>
     <match lemma="a"/>
