@@ -1576,6 +1576,14 @@
     </or>  
   </rule>
 
+  <rule weight="1.0"> <!-- seguir igual/enfermo > continuar igual/malalat-->
+    <match lemma="seguir" tags="vblex.*"><select lemma="continuar"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="adj.*"/>
+  </rule>
+
   <!-- barajar > remenar / considerar + inf... -->
 
   <rule weight="0.6">
@@ -3132,6 +3140,36 @@
     <match lemma="pastel" tags="n.*"><select lemma="pastel"/></match>
   </rule>
     
+    <!-- lo que > el que / la qual cosa -->
+
+  <rule weight="0.5">
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="cm"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="cm"/>
+    <match tags="pr" lemma="por"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="cnjcoo"/>
+    <repeat from="1" upto="5">
+      <or>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
       
     
 

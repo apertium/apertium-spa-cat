@@ -8281,49 +8281,6 @@
       </action>
     </rule>
     <rule>
-      <!-- REGLA: , lo que -> la cual cosa -->
-      <pattern>
-        <pattern-item n="cm" />
-        <pattern-item n="lo_que" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <lit v="la qual cosa" />
-            <lit-tag v="rel.an.nt" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- REGLA: , por lo que -> , per la cual cosa -->
-      <pattern>
-        <pattern-item n="cm" />
-        <pattern-item n="por" />
-        <pattern-item n="lo_que" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <clip pos="2" side="tl" part="whole" />
-          </lu>
-          <b pos="2" />
-          <lu>
-            <lit v="la qual cosa" />
-            <lit-tag v="rel.an.nt" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
       <!-- REGLA: ser de aplicación + ADJ (perquè els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-->
       <pattern>
         <pattern-item n="ser_de_aplicacion" />
