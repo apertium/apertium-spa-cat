@@ -1,0 +1,25 @@
+dist: trusty
+before_install:
+    - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
+    - sudo apt-get install apertium lttoolbox apertium-dev lttoolbox-dev cg3 apertium-lex-tools
+    - wget https://github.com/apertium/apertium-spa/archive/master.zip
+    - unzip master.zip
+    - mv apertium-spa-master apertium-spa
+    - pushd apertium-spa && ./autogen.sh && ./configure && make && popd
+    - rm master.zip
+    - wget https://github.com/apertium/apertium-cat/archive/master.zip
+    - unzip master.zip
+    - mv apertium-cat-master apertium-cat
+    - pushd apertium-cat && ./autogen.sh && ./configure && make && popd
+    - rm master.zip
+script:
+    - ./autogen.sh --with-lang1=./apertium-spa --with-lang2=./apertium-cat
+    - make langs
+    - pushd dev && ./test-translations.sh
+notifications:
+    irc:
+        channels:
+            - "chat.freenode.net#apertium"
+        on_failure: change
+        on_success: never
+
