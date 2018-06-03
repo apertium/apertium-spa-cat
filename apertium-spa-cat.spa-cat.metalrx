@@ -3126,6 +3126,65 @@
     </or>
   </rule>
 
+  <!-- volver > tornar / girar -->
+
+  <rule weight="0.5">
+    <match lemma="volver" tags="vblex.*"><select lemma="tornar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="volver" tags="vblex.*"><select lemma="girar"/></match>
+    <match lemma="en" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="det.pos.*"/>
+    </repeat>
+    <match lemma="contra" tags="n.*"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="volver" tags="vblex.*"><select lemma="girar"/></match>
+    <or>
+      <match lemma="en mi contra" tags="adv"/>
+      <match lemma="en tu contra" tags="adv"/>
+      <match lemma="en su contra" tags="adv"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="volver" tags="vblex.*"><select lemma="girar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="ojo" tags="n.*"/>
+      <match lemma="mirada" tags="n.*"/>
+      <match lemma="vista" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="ojo" tags="n.*"/>
+      <match lemma="mirada" tags="n.*"/>
+      <match lemma="vista" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="prn.pro.*"/>
+        <match tags="adv"/>
+        <match lemma="haber"/>
+        <match lemma="ir"/>
+        <match lemma="a" tags="pr"/>
+      </or>
+    </repeat>
+    <match lemma="volver" tags="vblex.*"><select lemma="girar"/></match>
+  </rule>
+
+
   <!-- pastel > pastís / pastel -->
 
   <rule weight="0.5">
