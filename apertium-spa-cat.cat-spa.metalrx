@@ -302,16 +302,21 @@
       <match lemma="títol"/>
     </def-seq>
 
+
     <def-seq n="periode">
       <match lemma="minut" tags="n.*"/>
       <match lemma="hora" tags="n.*"/>
       <match lemma="dia" tags="n.*"/>
       <match lemma="setmana" tags="n.*"/>
       <match lemma="mes" tags="n.*"/>
+      <match lemma="trimestre" tags="n.*"/>
+      <match lemma="quadrimestre" tags="n.*"/>
+      <match lemma="semestre" tags="n.*"/>
       <match lemma="any" tags="n.*"/>
+      <match lemma="lustre" tags="n.*"/>
       <match lemma="dècada" tags="n.*"/>
       <match lemma="segle" tags="n.*"/>
-      <match lemma="mil·leni" tags="n.*"/>
+      <match lemma="mil·lenni" tags="n.*"/>
       <match lemma="període" tags="n.*"/>
       <match lemma="etapa" tags="n.*"/>
       <match lemma="infantesa" tags="n.*"/>
@@ -1680,9 +1685,8 @@
       </or>
     </repeat>
     <match lemma="grau" tags="n.*"><select lemma="grao"/></match>
-     
-     
   </rule>
+
 
 <!-- **************** NP **************** -->
 

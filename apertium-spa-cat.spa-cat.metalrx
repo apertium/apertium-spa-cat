@@ -3171,7 +3171,28 @@
     </repeat>
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
-      
+    
+      <!-- propio  > propi / mateix -->
+
+  <rule weight="0.5">
+    <match lemma="propio" tags="adj.*"><select lemma="propi"/></match>
+  </rule>
+
+  <rule weight="3">
+    <match tags="det.pos.*"/>
+    <match lemma="propio" tags="adj.*"><select lemma="propi"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="det.def.*"/>
+    <match lemma="propio" tags="adj.*"><select lemma="mateix"/></match>
+    <or>
+      <match lemma="autor" tags="n.*"/>
+      <match tags="np.*"/>
+    </or>
+  </rule>
+
+ 
     
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
