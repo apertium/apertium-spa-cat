@@ -1584,6 +1584,15 @@
     <match tags="adj.*"/>
   </rule>
 
+  <rule weight="2.0"> <!-- seguir varias conversaciones > seguir -->
+    <match lemma="seguir" tags="vblex.*"><select lemma="seguir"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="adj.*"/>
+    <match tags="n.*"/>
+  </rule>
+
   <!-- barajar > remenar / considerar + inf... -->
 
   <rule weight="0.6">
@@ -2733,8 +2742,14 @@
     <match lemma="en" tags="pr"><select lemma="en"/></match>
   </rule>
 
-  <rule weight="1.0"> <!-- especialistas en investigar -->
+  <rule weight="4"> <!-- especialistas en investigar, piensa en respirar -->
     <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="4"> <!-- especialistas en investigar, piensa en respirar -->
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <match lema="no" tags="adv"/>
     <match tags="*.inf"/>
   </rule>
 
@@ -3201,7 +3216,7 @@
   </rule>
     
     <!-- lo que > el que / la qual cosa -->
-
+    <!-- TODO: s'haurà de fer en Constraint Grammar, si es vol millorar -->
   <rule weight="0.5">
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
@@ -3215,20 +3230,6 @@
     <match tags="cm"/>
     <match tags="pr" lemma="por"/>
     <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
-  </rule>
-
-  <rule weight="1.0">
-    <match tags="cnjcoo"/>
-    <repeat from="1" upto="5">
-      <or>
-        <match tags="cm"/>
-        <match tags="pr"/>
-        <match tags="det.*"/>
-        <match tags="n.*"/>
-        <match tags="adj.*"/>
-      </or>
-    </repeat>
-    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
     
       <!-- propio  > propi / mateix -->
