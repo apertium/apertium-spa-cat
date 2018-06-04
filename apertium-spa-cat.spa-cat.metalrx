@@ -3147,6 +3147,12 @@
     <match lemma="volver" tags="vblex.*"><select lemma="tornar"/></match>
   </rule>
 
+  <rule weight="2"> <!-- la (re)vista volvió a dedicarle (innecessari si no hi hagués bug en RLX) -->
+    <match lemma="volver" tags="vblex.*"><select lemma="tornar"/></match>
+    <match lemma="a" tags="pr"/>
+    <match tags="*.inf"/>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="volver" tags="vblex.*"><select lemma="girar"/></match>
     <match lemma="en" tags="pr"/>
