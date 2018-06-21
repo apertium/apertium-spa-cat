@@ -3258,6 +3258,31 @@
     </or>
   </rule>
 
+     <!-- por su parte > per part seva, per la seva part -->
+
+  <rule weight="0.5">
+    <match lemma="por su parte" tags="adv"><select lemma="per la seua part"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="por su parte" tags="adv"><select lemma="per la seva part"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="por su parte" tags="adv"><select lemma="per part seua"/></match>
+    <or>
+      <match tags="cm"/>
+      <match tags="sent"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="por su parte" tags="adv"><select lemma="per part seva"/></match>
+    <or>
+      <match tags="cm"/>
+      <match tags="sent"/>
+    </or>
+  </rule>
  
     
 
