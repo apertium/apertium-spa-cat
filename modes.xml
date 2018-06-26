@@ -7,7 +7,7 @@
       <program name="lt-proc -w">
         <file name="spa-cat.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w" debug-suff="disamb">
         <file name="spa-cat.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -38,7 +38,7 @@
       <program name="lt-proc -w">
         <file name="spa-cat.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w" debug-suff="disamb">
         <file name="spa-cat.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -69,7 +69,7 @@
       <program name="lt-proc -w">
         <file name="spa-cat.automorf.bin"/>
       </program>
-	  <program name="cg-proc -w">
+	  <program name="cg-proc -w" debug-suff="disamb">
         <file name="spa-cat.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -95,16 +95,26 @@
     </pipeline>
   </mode>
 
+  <mode name="spa-cat-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-cat.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="spa-cat.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
 
   
-
   <!-- cat → spa -->
   <mode name="cat-spa" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="cat-spa.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w" debug-suff="disamb">
         <file name="cat-spa.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -126,6 +136,18 @@
       </program>
       <program name="lt-proc -p">
         <file name="cat-spa.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="cat-spa-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="cat-spa.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="cat-spa.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
