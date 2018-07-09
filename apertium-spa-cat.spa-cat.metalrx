@@ -1471,6 +1471,20 @@
     </or>
   </rule>
 
+    <rule weight="1.0">
+    <match lemma="cumbre" tags="n.f.sg"><select lemma="cimera"/></match>  
+    <match lemma="en"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match tags="np.loc"/>
+      <match tags="np.top"/>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>
+    </or>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="cumbre" tags="n.*"><select lemma="cimera"/></match>  
     <or>
@@ -2006,6 +2020,15 @@
     </or>
   </rule>
 
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    <or>
+      <match lemma="arreglar" tags="vblex.*.p3.*" />
+      <match lemma="ver" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
   <rule weight="3"> <!-- se lo > se'l -->
     <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
     <or>
@@ -2085,7 +2108,7 @@
     </or>
   </rule>
 
-<rule weight="3"> 
+  <rule weight="3"> 
     <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
     <or>
       <match lemma="lo" tags="prn.pro.p3.m.pl"/>
@@ -2104,6 +2127,16 @@
       <match lemma="pensar" tags="vblex.pp.m.sg" />
       <match lemma="tomar" tags="vblex.pp.m.sg" />
       <match lemma="pasar" tags="vblex.*.p3.*" />
+    </or>
+  </rule>
+
+  <rule weight="3"> 
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+    <match lemma="haber" tags="*.*.p3.*"/>
+    <or>
+      <match lemma="arreglar" tags="vblex.pp.m.sg" />
+      <match lemma="ver" tags="vblex.pp.m.sg" />
     </or>
   </rule>
 
