@@ -833,7 +833,7 @@
             </get-case-from>
           </let>
         </when>
-        <when>
+        <!--<when>
           <test>
             <equal caseless="yes">
               <clip pos="1" side="tl" part="lem" />
@@ -846,7 +846,7 @@
               <lit v="mig" />
             </get-case-from>
           </let>
-        </when>
+        </when>-->
       </choose>
     </def-macro>
     <def-macro n="f_llamado" npar="1">
