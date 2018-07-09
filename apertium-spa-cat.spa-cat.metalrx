@@ -3329,6 +3329,31 @@
     <match tags="det.*"/>
     <match lemma="mano" tags="n.f.*"/>
   </rule>
+
+  <!-- cebar > encebar / acarnissar -->
+
+  <rule weight="0.5">
+    <match lemma="cebar" tags="vblex.*"><select lemma="encebar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="prn.pro.*"/>
+    <repeat from="0" upto="2">
+      <or>
+        <match lemma="haber" tags="vbhaver.*"/>
+        <match lemma="ir" tags="vblex.*"/>
+        <match lemma="a" tags="pr"/>
+      </or>
+    </repeat>
+    <match lemma="cebar" tags="vblex.*"><select lemma="acarnissar"/></match>
+    <match lemma="con" tags="pr"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cebar" tags="vblex.*"><select lemma="acarnissar"/></match>
+    <match tags="prn.enc.*"/>
+    <match lemma="con" tags="pr"/>
+  </rule>
     
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
