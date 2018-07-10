@@ -2398,6 +2398,75 @@
     </or>
   </rule>
 
+  <!-- respaldo > suport /respatler ... -->
+
+  <rule weight="0.5">
+    <match lemma="respaldo" tags="n.*"><select lemma="suport"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="respaldo" tags="n.*"><select lemma="respatller"/></match>
+    <repeat from="0" upto="5">
+      <match tags="*" />
+    </repeat>
+    <or>
+      <match lemma="silla" tags="n.*"/>
+      <match lemma="sofá" tags="n.*"/>
+      <match lemma="taburete" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="asiento" tags="n.*"/>
+      <match lemma="sentar" tags="vblex.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="silla" tags="n.*"/>
+      <match lemma="sofá" tags="n.*"/>
+      <match lemma="taburete" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="asiento" tags="n.*"/>
+      <match lemma="sentar" tags="vblex.*"/>
+    </or>    
+    <repeat from="0" upto="5">
+      <match tags="*" />
+    </repeat>
+    <match lemma="respaldo" tags="n.*"><select lemma="respatller"/></match>
+  </rule>
+
+    <rule weight="1.0">
+    <match lemma="respaldo" tags="n.*"><select lemma="respatler"/></match>
+    <repeat from="0" upto="5">
+      <match tags="*" />
+    </repeat>
+    <or>
+      <match lemma="silla" tags="n.*"/>
+      <match lemma="sofá" tags="n.*"/>
+      <match lemma="taburete" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="asiento" tags="n.*"/>
+      <match lemma="sentar" tags="vblex.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="silla" tags="n.*"/>
+      <match lemma="sofá" tags="n.*"/>
+      <match lemma="taburete" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="asiento" tags="n.*"/>
+      <match lemma="sentar" tags="vblex.*"/>
+    </or>    
+    <repeat from="0" upto="5">
+      <match tags="*" />
+    </repeat>
+    <match lemma="respaldo" tags="n.*"><select lemma="respatler"/></match>
+  </rule>
+
+
   <!--el mismo > el mateix / aquest  -->
 
   <rule weight="0.6">
