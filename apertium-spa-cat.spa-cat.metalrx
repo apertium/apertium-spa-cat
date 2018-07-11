@@ -1591,6 +1591,8 @@
       <match lemma="empresa" tags="n.*"/>
       <match lemma="empresario" tags="n.*"/>
       <match lemma="negocio" tags="n.*"/>
+      <match lemma="este" tags="n.*"/>
+      <match lemma="oeste" tags="n.*"/>
     </or>
   </rule>
 
@@ -1600,6 +1602,8 @@
       <match lemma="grado" tags="n.*"/>
       <match lemma="técnico" tags="n.*"/>
       <match lemma="resistencia" tags="n.*"/>
+      <match lemma="educación" tags="n.*"/>
+      <match lemma="enseñanza" tags="n.*"/>
     </or>
     <match lemma="medio" tags="adj.*"><select lemma="mitjà"/></match>
   </rule>
@@ -1643,6 +1647,32 @@
       <match tags="n.f.pl"/>
       <match tags="n.mf.pl"/>
     </or>
+  </rule>
+
+  <!-- tanto > punt / al corrent... -->
+
+  <rule weight="0.5">
+    <match lemma="tanto" tags="n.*"><select lemma="punt"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="continuar" tags="vblex.*"/>
+      <match lemma="estar" tags="vblex.*"/>
+      <match lemma="mantener" tags="vblex.*"/>
+      <match lemma="poner" tags="vblex.*"/>
+      <match lemma="seguir" tags="vblex.*"/>
+      <match lemma="tener" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="prn.enc.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+    <match lemma="el" tags="det.def.m.sg"/>
+    <match lemma="tanto" tags="n.m.sg"><select lemma="corrent"/></match>
   </rule>
  
 
