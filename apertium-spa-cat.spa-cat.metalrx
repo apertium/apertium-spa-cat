@@ -1566,6 +1566,10 @@
     <or>
       <match lemma="pequeño" tags="adj.*"/>
       <match lemma="grande" tags="adj.*"/>
+      <match lemma="bajo" tags="adj.*"/>
+      <match lemma="alto" tags="adj.*"/>
+      <match lemma="largo" tags="adj.*"/>
+      <match lemma="corto" tags="adj.*"/>
     </or>
     <or>
       <match lemma="y" tags="cnjcoo"/>
@@ -1584,7 +1588,20 @@
       <match lemma="altura" tags="n.*"/>
       <match lemma="tamaño" tags="n.*"/>
       <match lemma="dimensión" tags="n.*"/>
+      <match lemma="empresa" tags="n.*"/>
+      <match lemma="empresario" tags="n.*"/>
+      <match lemma="negocio" tags="n.*"/>
     </or>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="nota" tags="n.*"/>
+      <match lemma="grado" tags="n.*"/>
+      <match lemma="técnico" tags="n.*"/>
+      <match lemma="resistencia" tags="n.*"/>
+    </or>
+    <match lemma="medio" tags="adj.*"><select lemma="mitjà"/></match>
   </rule>
 
   <rule weight="1.0">
