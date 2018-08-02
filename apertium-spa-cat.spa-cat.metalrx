@@ -2926,6 +2926,17 @@
     </or>
   </rule>
 
+  <!-- cacarear > escatainar / esbombar ... -->
+
+  <rule weight="0.5">
+    <match lemma="cacarear" tags="vblex.*"><select lemma="escatainar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="tan"/>
+    <match lemma="cacarear" tags="vblex.pp.*"><select lemma="esbombar"/></match>
+  </rule>
+
    <!-- precisar > precisar / requerir ... -->
 
   <rule weight="0.5">
