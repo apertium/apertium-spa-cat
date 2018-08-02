@@ -2933,7 +2933,10 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="tan"/>
+    <or>
+      <match tags="preadv"/>
+      <match tags="adv"/>
+    </or>
     <match lemma="cacarear" tags="vblex.pp.*"><select lemma="esbombar"/></match>
   </rule>
 
