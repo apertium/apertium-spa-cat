@@ -2936,6 +2936,7 @@
     <or>
       <match tags="preadv"/>
       <match tags="adv"/>
+      <match tags="det.*"/>
     </or>
     <match lemma="cacarear" tags="vblex.pp.*"><select lemma="esbombar"/></match>
   </rule>
