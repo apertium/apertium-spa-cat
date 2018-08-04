@@ -3612,6 +3612,28 @@
     <match lemma="mano" tags="n.f.*"/>
   </rule>
 
+  <!-- tipo > tipus / mena -->
+
+  <rule weight="0.5">
+    <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <or>
+      <match lemma="todo"/>
+      <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    </or>
+    <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
+  </rule>
+
+    <rule weight="1">
+    <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
+
   <!-- cebar > encebar / acarnissar -->
 
   <rule weight="0.5">
