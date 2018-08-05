@@ -3628,7 +3628,10 @@
 
   <rule weight="1.0">
     <match lemma="mucho" tags="det.ind.m.sg"><select lemma="molt de"/></match>
-    <match tags="n.m.sg"/>
+    <or>
+      <match tags="n.m.sg"/>
+      <match tags="n.mf.sg"/>
+    </or>
   </rule>
 
   <!-- tipo > tipus / mena -->
