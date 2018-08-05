@@ -2961,7 +2961,7 @@
     <match lemma="para" tags="pr"><select lemma="per a"/></match>
   </rule>
 
-   <!-- uno y otro > per a / per ... -->
+   <!-- uno y otro > l'un i l'altre ... -->
 
   <rule weight="0.5">
     <match lemma="uno" tags="prn.*"><select lemma="un"/></match>
@@ -2977,6 +2977,14 @@
       <match tags="cnjcoo"/>
     </or>
     <match lemma="otro" tags="prn.*"><select lemma="l'altre"/></match>
+  </rule>
+
+  <!-- entre otros > entre altres --> 
+  <!-- És opcional: entre altres/entre d'altres-->
+
+  <rule weight="1">
+    <match lemma="entre" tags="pr"/>
+    <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
   </rule>
 
   <!-- en > en / a -->
@@ -3632,7 +3640,6 @@
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
     <match lemma="de" tags="pr"/>
   </rule>
-
 
   <!-- cebar > encebar / acarnissar -->
 
