@@ -3620,6 +3620,17 @@
     <match lemma="mano" tags="n.f.*"/>
   </rule>
 
+   <!-- mucho > molt de /molta/molts/moltes -->
+
+  <rule weight="0.5">
+    <match lemma="mucho" tags="det.ind.*"><select lemma="molt"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="mucho" tags="det.ind.m.sg"><select lemma="molt de"/></match>
+    <match tags="n.m.sg"/>
+  </rule>
+
   <!-- tipo > tipus / mena -->
 
   <rule weight="0.5">
