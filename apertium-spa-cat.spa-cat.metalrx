@@ -3630,6 +3630,8 @@
     <match lemma="mucho" tags="det.ind.m.sg"><select lemma="molt de"/></match>
     <or>
       <match tags="n.m.sg"/>
+      <match tags="n.m.sp"/>
+      <match tags="n.mf.sp"/>
       <match tags="n.mf.sg"/>
     </or>
   </rule>
