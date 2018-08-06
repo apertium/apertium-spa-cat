@@ -3560,6 +3560,39 @@
     <match tags="pr" lemma="por"/>
     <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
   </rule>
+
+  <!-- por lo que a ... respecta -->
+  <rule weight="0.5">
+    <match tags="pr" lemma="respecta"><select lemma="respecta"/></match>
+  </rule>
+
+  <rule weight="4.0">
+    <match lemma="por" tags="pr"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que respecta"/></match>
+    <match lemma="a" tags="pr"/>
+    <repeat from="1" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="respecta"><select lemma="preposicio_buida"/></match>
+  </rule>
+
+  <rule weight="4.0">
+    <match lemma="en" tags="pr"><select lemma="per"/></match>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que respecta"/></match>
+    <match lemma="a" tags="pr"/>
+    <repeat from="1" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="respecta"><select lemma="preposicio_buida"/></match>
+  </rule> 
     
       <!-- propio  > propi / mateix -->
 
