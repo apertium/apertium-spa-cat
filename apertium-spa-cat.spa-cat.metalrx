@@ -1705,21 +1705,37 @@
   <rule weight="1.0">
     <match lemma="pelo" tags="n.*"><select lemma="cabell"/></match>
     <or>
+      <match tags="adj.*" lemma="afro"/>
+      <match tags="adj.*" lemma="azul"/>
       <match tags="adj.*" lemma="blanco"/>
       <match tags="adj.*" lemma="brillante"/>
+      <match tags="adj.*" lemma="castaño"/>
       <match tags="adj.*" lemma="corto"/>
-      <match tags="vblex.pp.*" lemma="encrespar"/>
-      <match tags="vblex.pp.*" lemma="escalar"/>
+      <match tags="adj.*" lemma="fino"/>
+      <match tags="adj.*" lemma="fuerte"/>
       <match tags="adj.*" lemma="graso"/>
       <match tags="adj.*" lemma="gris"/>
       <match tags="adj.*" lemma="largo"/>
+      <match tags="adj.*" lemma="liso"/>
+      <match tags="adj.*" lemma="moreno"/>
+      <match tags="adj.*" lemma="naranja"/>
       <match tags="adj.*" lemma="negro"/>
-      <match tags="vblex.pp.*" lemma="ondular"/>
-      <match tags="vblex.pp.*" lemma="rizar"/>
-      <match tags="adj.*" lemma="rubio"/>
+      <match tags="adj.*" lemma="pelirrojo"/>
       <match tags="adj.*" lemma="rojo"/>
-      <match tags="adj.*" lemma="verde"/>
+      <match tags="adj.*" lemma="rosa"/>
+      <match tags="adj.*" lemma="rubio"/>
+      <match tags="adj.*" lemma="sintético"/>
       <match tags="adj.*" lemma="suave"/>
+      <match tags="adj.*" lemma="sucio"/>
+      <match tags="adj.*" lemma="suelto"/>
+      <match tags="adj.*" lemma="verde"/>
+      <match tags="vblex.pp.*" lemma="degradar"/>
+      <match tags="vblex.pp.*" lemma="encrespar"/>
+      <match tags="vblex.pp.*" lemma="escalar"/>
+      <match tags="vblex.pp.*" lemma="ondular"/>
+      <match tags="vblex.pp.*" lemma="rapar"/>
+      <match tags="vblex.pp.*" lemma="rizar"/>
+      <match tags="vblex.pp.*" lemma="trenzar"/>
     </or>
   </rule>
 
