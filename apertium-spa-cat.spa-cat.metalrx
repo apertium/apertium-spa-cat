@@ -2548,6 +2548,18 @@
     </or>
   </rule>
 
+  <!--tras > després de / rere  -->
+
+  <rule weight="0.6">
+    <match lemma="tras" tags="pr"><select lemma="després de"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="n.*"/>
+    <match lemma="tras" tags="pr"><select lemma="rere"/></match>
+    <match tags="n.*"/>
+  </rule>
+
 
   <!-- como > com / com a -->
 
