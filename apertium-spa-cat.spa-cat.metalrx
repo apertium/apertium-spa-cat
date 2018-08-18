@@ -1696,6 +1696,33 @@
     <match tags="n.*" lemma="importancia"/>
   </rule>
 
+    <!-- pelo > pèl / cabells -->
+
+  <rule weight="0.6">
+    <match lemma="pelo" tags="n.*"><select lemma="pèl"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="pelo" tags="n.*"><select lemma="cabell"/></match>
+    <or>
+      <match tags="adj.*" lemma="blanco"/>
+      <match tags="adj.*" lemma="brillante"/>
+      <match tags="adj.*" lemma="corto"/>
+      <match tags="vblex.pp.*" lemma="encrespar"/>
+      <match tags="vblex.pp.*" lemma="escalar"/>
+      <match tags="adj.*" lemma="graso"/>
+      <match tags="adj.*" lemma="gris"/>
+      <match tags="adj.*" lemma="largo"/>
+      <match tags="adj.*" lemma="negro"/>
+      <match tags="vblex.pp.*" lemma="ondular"/>
+      <match tags="vblex.pp.*" lemma="rizar"/>
+      <match tags="adj.*" lemma="rubio"/>
+      <match tags="adj.*" lemma="rojo"/>
+      <match tags="adj.*" lemma="verde"/>
+      <match tags="adj.*" lemma="suave"/>
+    </or>
+  </rule>
+
   <!-- librar > lliurar/deslliurar/... -->
 
   <rule weight="0.6">
