@@ -1675,6 +1675,26 @@
     <match lemma="tanto" tags="n.m.sg"><select lemma="corrent"/></match>
   </rule>
  
+  <!-- capital > cabdal / capital... Només per varietat estilistica. -->
+
+  <rule weight="0.6">
+    <match lemma="capital" tags="adj.*"><select lemma="capital"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*" lemma="punto"/>
+      <match tags="n.*" lemma="referencia"/>
+      <match tags="n.*" lemma="importancia"/>
+      <match tags="n.*" lemma="obra"/>
+    </or>
+    <match lemma="capital" tags="adj.*"><select lemma="cabdal"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="capital" tags="adj.*"><select lemma="cabdal"/></match>
+    <match tags="n.*" lemma="importancia"/>
+  </rule>
 
   <!-- librar > lliurar/deslliurar/... -->
 
