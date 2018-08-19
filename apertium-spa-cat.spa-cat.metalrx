@@ -2676,6 +2676,12 @@
     <match tags="n.f.sg"/>
   </rule>
 
+    <rule weight="1">
+    <match tags="n.f.sp"/>
+    <match lemma="tras" tags="pr"><select lemma="rere"/></match>
+    <match tags="n.f.sp"/>
+  </rule>
+
 
   <!-- como > com / com a -->
 
