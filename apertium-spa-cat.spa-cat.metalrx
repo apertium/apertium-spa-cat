@@ -1703,41 +1703,88 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="pelo" tags="n.*"><select lemma="cabell"/></match>
+    <match lemma="pelo" tags="n.m.sg"><select lemma="cabell"/></match>
     <or>
-      <match tags="adj.*" lemma="afro"/>
-      <match tags="adj.*" lemma="azul"/>
-      <match tags="adj.*" lemma="blanco"/>
-      <match tags="adj.*" lemma="brillante"/>
-      <match tags="adj.*" lemma="castaño"/>
-      <match tags="adj.*" lemma="corto"/>
-      <match tags="adj.*" lemma="fino"/>
-      <match tags="adj.*" lemma="fuerte"/>
-      <match tags="adj.*" lemma="graso"/>
-      <match tags="adj.*" lemma="gris"/>
-      <match tags="adj.*" lemma="largo"/>
-      <match tags="adj.*" lemma="liso"/>
-      <match tags="adj.*" lemma="moreno"/>
-      <match tags="adj.*" lemma="naranja"/>
-      <match tags="adj.*" lemma="negro"/>
-      <match tags="adj.*" lemma="pelirrojo"/>
-      <match tags="adj.*" lemma="rojo"/>
-      <match tags="adj.*" lemma="rosa"/>
-      <match tags="adj.*" lemma="rubio"/>
-      <match tags="adj.*" lemma="sintético"/>
-      <match tags="adj.*" lemma="suave"/>
-      <match tags="adj.*" lemma="sucio"/>
-      <match tags="adj.*" lemma="suelto"/>
-      <match tags="adj.*" lemma="verde"/>
-      <match tags="vblex.pp.*" lemma="degradar"/>
-      <match tags="vblex.pp.*" lemma="encrespar"/>
-      <match tags="vblex.pp.*" lemma="escalar"/>
-      <match tags="vblex.pp.*" lemma="ondular"/>
-      <match tags="vblex.pp.*" lemma="rapar"/>
-      <match tags="vblex.pp.*" lemma="rizar"/>
-      <match tags="vblex.pp.*" lemma="trenzar"/>
+      <match tags="adj.m.sg" lemma="afro"/>
+      <match tags="adj.m.sg" lemma="azul"/>
+      <match tags="adj.m.sg" lemma="blanco"/>
+      <match tags="adj.m.sg" lemma="brillante"/>
+      <match tags="adj.m.sg" lemma="castaño"/>
+      <match tags="adj.m.sg" lemma="corto"/>
+      <match tags="adj.m.sg" lemma="fino"/>
+      <match tags="adj.m.sg" lemma="fuerte"/>
+      <match tags="adj.m.sg" lemma="graso"/>
+      <match tags="adj.m.sg" lemma="gris"/>
+      <match tags="adj.m.sg" lemma="largo"/>
+      <match tags="adj.m.sg" lemma="liso"/>
+      <match tags="adj.m.sg" lemma="moreno"/>
+      <match tags="adj.m.sg" lemma="naranja"/>
+      <match tags="adj.m.sg" lemma="negro"/>
+      <match tags="adj.m.sg" lemma="pelirrojo"/>
+      <match tags="adj.m.sg" lemma="rojo"/>
+      <match tags="adj.m.sg" lemma="rosa"/>
+      <match tags="adj.m.sg" lemma="rubio"/>
+      <match tags="adj.m.sg" lemma="sintético"/>
+      <match tags="adj.m.sg" lemma="suave"/>
+      <match tags="adj.m.sg" lemma="sucio"/>
+      <match tags="adj.m.sg" lemma="suelto"/>
+      <match tags="adj.m.sg" lemma="verde"/>
+      <match tags="vblex.pp.m.sg" lemma="degradar"/>
+      <match tags="vblex.pp.m.sg" lemma="encrespar"/>
+      <match tags="vblex.pp.m.sg" lemma="escalar"/>
+      <match tags="vblex.pp.m.sg" lemma="ondular"/>
+      <match tags="vblex.pp.m.sg" lemma="rapar"/>
+      <match tags="vblex.pp.m.sg" lemma="rizar"/>
+      <match tags="vblex.pp.m.sg" lemma="trenzar"/>
     </or>
   </rule>
+
+  <rule weight="2.0">
+    <match lemma="pelo" tags="n.*"><select lemma="pèl"/></match>
+    <repeat from="0" upto="15">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="animal"/>
+      <match lemma="canino"/>
+      <match lemma="felino"/>
+      <match lemma="vegetal"/>
+      <match tags="n.*" lemma="cachorro"/>
+      <match tags="n.*" lemma="cola"/>
+      <match tags="n.*" lemma="gato"/>
+      <match tags="n.*" lemma="hoja"/>
+      <match tags="n.*" lemma="morro"/>
+      <match tags="n.*" lemma="oso"/>
+      <match tags="n.*" lemma="perro"/>
+      <match tags="n.*" lemma="planta"/>
+      <match tags="n.*" lemma="raza"/>
+      <match tags="n.*" lemma="vientre"/>
+    </or>
+  </rule>
+
+  <rule weight="2.0">
+    <or>
+      <match lemma="animal"/>
+      <match lemma="canino"/>
+      <match lemma="felino"/>
+      <match lemma="vegetal"/>
+      <match tags="n.*" lemma="cachorro"/>
+      <match tags="n.*" lemma="cola"/>
+      <match tags="n.*" lemma="gato"/>
+      <match tags="n.*" lemma="hoja"/>
+      <match tags="n.*" lemma="morro"/>
+      <match tags="n.*" lemma="oso"/>
+      <match tags="n.*" lemma="perro"/>
+      <match tags="n.*" lemma="planta"/>
+      <match tags="n.*" lemma="raza"/>
+      <match tags="n.*" lemma="vientre"/>
+    </or>
+    <repeat from="0" upto="15">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="pelo" tags="n.*"><select lemma="pèl"/></match>
+  </rule>
+
 
   <!-- librar > lliurar/deslliurar/... -->
 
