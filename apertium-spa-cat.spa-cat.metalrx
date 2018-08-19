@@ -2665,9 +2665,15 @@
   </rule>
 
   <rule weight="1">
-    <match tags="n.*"/>
+    <match tags="n.m.sg"/> <!--idealment hauria de ser la mateixa paraula repetida-->
     <match lemma="tras" tags="pr"><select lemma="rere"/></match>
-    <match tags="n.*"/>
+    <match tags="n.m.sg"/>
+  </rule>
+
+  <rule weight="1">
+    <match tags="n.f.sg"/>
+    <match lemma="tras" tags="pr"><select lemma="rere"/></match>
+    <match tags="n.f.sg"/>
   </rule>
 
 
