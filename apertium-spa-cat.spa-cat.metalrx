@@ -1120,6 +1120,21 @@
     <match lemma="atención"/>
   </rule>
 
+  <rule weight="3.0">
+    <match tags="vbser.*"/>
+    <match lemma="llamar" tags="vblex.pp.*"><select lemma="cridar"/></match>
+    <or>
+      <match lemma="por" tags="pr"/>
+      <match lemma="a" tags="pr"/>
+    </or>
+  </rule>
+
+  <rule weight="3.0">
+    <match tags="adv"/>
+    <match lemma="llamar" tags="vblex.pp.*"><select lemma="cridar"/></match> 
+    <match lemma="por"/>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="llamar" tags="vblex.*"><select lemma="telefonar"/></match>
     <match lemma="a"/>
@@ -1208,14 +1223,26 @@
   </rule>
 
   <rule weight="3.0">
-    <match tags="adv"/>
-    <match lemma="llamar" tags="vblex.pp.*"><select lemma="cridar"/></match> 
-    <match lemma="por"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
+    <match lemma="se" tags="prn.enc.*"/>
   </rule>
 
   <rule weight="3.0">
-    <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
-    <match lemma="se" tags="prn.enc.*"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match> 
+    <match tags="prn.enc.*"/>
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+
+  <rule weight="3.0">
+    <or>
+      <match lemma="como"/>
+      <match lemma="cómo"/>
+    </or>
+    <match tags="prn.pro.*"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match>
   </rule>
 
  <!-- granito > granit/granet/mica -->
