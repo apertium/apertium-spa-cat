@@ -3862,6 +3862,25 @@
     <match lemma="de" tags="pr"/>
   </rule>
 
+  <!-- escuchar > escoltar / sentir -->
+
+  <rule weight="0.5">
+    <match lemma="escuchar" tags="vblex.*"><select lemma="escoltar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="escuchar" tags="vblex.*"><select lemma="sentir"/></match>
+    <repeat from="0" upto="3">
+        <match tags="adv"/>
+    </repeat>
+    <match tags="*.inf"/>
+  </rule>
+
+    <rule weight="1">
+    <match lemma="escuchar" tags="vblex.*"><select lemma="sentir"/></match>
+    <match lemma="que" tags="cnjsub"/>
+  </rule>
+
   <!-- cebar > encebar / acarnissar -->
 
   <rule weight="0.5">
