@@ -3756,7 +3756,7 @@
     <match tags="pr" lemma="respecta"><select lemma="preposicio_buida"/></match>
   </rule> 
     
-      <!-- propio  > propi / mateix -->
+    <!-- propio  > propi / mateix -->
 
   <rule weight="0.5">
     <match lemma="propio" tags="adj.*"><select lemma="propi"/></match>
@@ -3774,6 +3774,53 @@
       <match lemma="autor" tags="n.*"/>
       <match tags="np.*"/>
     </or>
+  </rule>
+
+      <!-- cerca  > prop / a prop -->
+
+  <rule weight="0.5">
+    <match lemma="cerca" tags="adv"><select lemma="a prop"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <match lemma="cerca" tags="adv"><select lemma="prop"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="abajo" tags="adv"><select lemma="a baix"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <match lemma="abajo" tags="adv"><select lemma="baix"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="río" tags="n.*"/>
+      <match lemma="cuesta" tags="n.*"/>
+      <match lemma="escalera" tags="n.*"/>
+    </or>
+    <match lemma="abajo" tags="adv"><select lemma="avall"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="arriba" tags="adv"><select lemma="a dalt"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <match lemma="arriba" tags="adv"><select lemma="dalt"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="río" tags="n.*"/>
+      <match lemma="cuesta" tags="n.*"/>
+      <match lemma="escalera" tags="n.*"/>
+    </or>
+    <match lemma="arriba" tags="adv"><select lemma="amunt"/></match>
   </rule>
 
      <!-- por su parte > per part seva, per la seva part -->
