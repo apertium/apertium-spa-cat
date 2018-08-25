@@ -3871,7 +3871,10 @@
   <rule weight="1">
     <match lemma="escuchar" tags="vblex.*"><select lemma="sentir"/></match>
     <repeat from="0" upto="3">
+      <or>
         <match tags="adv"/>
+        <match tags="prn.enc.*"/>
+      </or>
     </repeat>
     <match tags="*.inf"/>
   </rule>
@@ -3879,6 +3882,30 @@
     <rule weight="1">
     <match lemma="escuchar" tags="vblex.*"><select lemma="sentir"/></match>
     <match lemma="que" tags="cnjsub"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="escuchar" tags="vblex.*"><select lemma="sentir"/></match>
+      <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="pr"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match tagger="n.*" lemma="cañón"/>
+      <match tagger="n.*" lemma="disparo"/>
+      <match tagger="n.*" lemma="fuego"/>
+      <match tagger="n.*" lemma="fusil"/>
+      <match tagger="n.*" lemma="grito"/>
+      <match tagger="n.*" lemma="petardo"/>
+      <match tagger="n.*" lemma="pistola"/>
+      <match tagger="n.*" lemma="relámpago"/>
+      <match tagger="n.*" lemma="tiro"/>
+      <match tagger="n.*" lemma="tormenta"/>
+      <match tagger="n.*" lemma="trueno"/>
+    </or>
   </rule>
 
   <!-- cebar > encebar / acarnissar -->
