@@ -3776,7 +3776,7 @@
     </or>
   </rule>
 
-      <!-- cerca  > prop / a prop -->
+      <!-- cerca, arriba, abajo  > prop / a prop -->
 
   <rule weight="0.5">
     <match lemma="cerca" tags="adv"><select lemma="a prop"/></match>
@@ -3821,6 +3821,17 @@
       <match lemma="escalera" tags="n.*"/>
     </or>
     <match lemma="arriba" tags="adv"><select lemma="amunt"/></match>
+  </rule>
+
+  <!-- apenas  > a penes / tot just -->
+
+  <rule weight="0.5">
+    <match lemma="apenas" tags="adv"><select lemma="a penes"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="pr"/>
+    <match lemma="apenas" tags="adv"><select lemma="tot just"/></match>
   </rule>
 
      <!-- por su parte > per part seva, per la seva part -->
