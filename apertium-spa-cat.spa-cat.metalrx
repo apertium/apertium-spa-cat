@@ -3772,6 +3772,11 @@
     <match lemma="propio" tags="adj.*"><select lemma="mateix"/></match>
     <or>
       <match lemma="autor" tags="n.*"/>
+      <match lemma="ponente" tags="n.*"/>
+      <match lemma="escritor" tags="n.*"/>
+      <match lemma="pintor" tags="n.*"/>
+      <match lemma="poeta" tags="n.*"/>
+      <match lemma="escultor" tags="n.*"/>
       <match tags="np.*"/>
     </or>
   </rule>
@@ -3946,7 +3951,9 @@
     <match lemma="escuchar" tags="vblex.*"><select lemma="sentir"/></match>
       <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
         <match tags="pr"/>
         <match tags="adv"/>
       </or>
