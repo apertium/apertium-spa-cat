@@ -2446,6 +2446,60 @@
     </or>
   </rule>
 
+  <!-- lo > ho / el -->
+
+  <rule weight="0.5">
+    <match lemma="lo" tags="prn.*.p3.nt"><select lemma="ho"/></match>
+  </rule>
+
+ <rule weight="1">
+    <match tags="det.*.m.sg"/>
+    <match tags="n.m.sg"/>
+    <repeat from="0" upto="10">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+        <match tags="cm"/>
+      </or>
+    </repeat>
+    <match lemma="lo" tags="prn.*.p3.nt"><select lemma="el"/></match>
+  </rule>
+
+<rule weight="2">
+    <match tags="prn.tn.nt"/>
+    <repeat from="0" upto="10">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+        <match tags="cm"/>
+      </or>
+    </repeat>
+    <match lemma="lo" tags="prn.*.p3.nt"><select lemma="ho"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="adv" lemma="así"/>
+    <match lemma="lo" tags="prn.pro.p3.nt"><select lemma="ho"/></match>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="lo" tags="prn.pro.p3.nt"><select lemma="el"/></match>
+    <match tags="vblex.*" lemma="ayudar"/>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="lo" tags="prn.pro.p3.nt"><select lemma="ho"/></match>
+    <or>
+      <match tags="vbser.*" lemma="ser"/>
+      <match tags="vblex.*" lemma="estar"/>
+    </or>
+  </rule>
+ 
+
   <!-- deber de > deure (si el castellà és "correcte") / haver de (molt sovint)... -->
 
   <rule weight="0.6">
