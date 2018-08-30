@@ -2485,6 +2485,16 @@
   </rule>
 
   <rule weight="2">
+    <or>
+      <match tags="vblex.*" lemma="desear"/>
+      <match tags="vblex.*" lemma="decir"/>
+      <match tags="vblex.*" lemma="estar"/>
+      <match tags="vbser.*" lemma="ser"/>
+    </or>
+    <match lemma="lo" tags="prn.enc.p3.nt"><select lemma="ho"/></match>
+  </rule>
+
+  <rule weight="2">
     <match tags="prn.tn.nt"/>
     <repeat from="0" upto="10">
       <or>
