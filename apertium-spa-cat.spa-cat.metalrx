@@ -3084,12 +3084,14 @@
 
   <rule weight="1">
     <or>
-      <match lemma="así" tags="adv"/>
-      <match lemma="ser" tags="vbser.*"/>
-      <match lemma="tratar" tags="vblex"/>
+      <match lemma="tratar" tags="vblex.*"/>
+      <match lemma="así" tags="adv"/>  
+      <match lemma="ser"/> <!-- bug si s'usa vbser.* amb: Lo digo pues ? -->
+      <match lemma="estar"/>
     </or>
     <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
   </rule>
+
   <rule weight="1">
     <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
     <or>
@@ -3098,7 +3100,7 @@
       <match lemma="bueno"/>
       <match lemma="porque"/>
       <match lemma="sí"/>
-      <match lemma="a"/>
+      <match lemma="a" tags="pr"/>
       <match tags="cm"/>
     </or>
   </rule>
