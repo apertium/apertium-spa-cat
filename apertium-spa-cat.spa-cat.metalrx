@@ -1717,6 +1717,7 @@
       <match tags="n.*" lemma="referencia"/>
       <match tags="n.*" lemma="importancia"/>
       <match tags="n.*" lemma="obra"/>
+      <match tags="n.*" lemma="papel"/>
     </or>
     <match lemma="capital" tags="adj.*"><select lemma="cabdal"/></match>
   </rule>
@@ -2470,7 +2471,20 @@
     <match lemma="lo" tags="prn.*.p3.nt"><select lemma="el"/></match>
   </rule>
 
-<rule weight="2">
+  <rule weight="1">
+    <match lemma="lo" tags="prn.*.p3.nt"><select lemma="ho"/></match>
+    <repeat from="1" upto="4">
+    <or>
+      <match tags="pr"/>
+      <match tags="vblex.*"/>
+      <match tags="vbser.*"/>
+      <match tags="vbhaver.*"/>
+    </or>
+  </repeat>
+    <match lemma="todo" tags="prn.tn.m.sg"/>
+  </rule>
+
+  <rule weight="2">
     <match tags="prn.tn.nt"/>
     <repeat from="0" upto="10">
       <or>
@@ -2496,6 +2510,9 @@
 
   <rule weight="5">
     <match lemma="lo" tags="prn.pro.p3.nt"><select lemma="ho"/></match>
+    <repeat from="0" upto="1">
+      <match lemma="haber"/>
+    </repeat>
     <or>
       <match tags="vblex.*" lemma="agradecer"/>
       <match tags="vblex.*" lemma="comprender"/>
@@ -2503,11 +2520,27 @@
       <match tags="vblex.*" lemma="entender"/>
       <match tags="vblex.*" lemma="estar"/>
       <match tags="vblex.*" lemma="estimar"/>
-      <match tags="vblex.*" lemma="haver"/>
+      <match tags="vblex.*" lemma="hablar"/>
       <match tags="vblex.*" lemma="impedir"/>
       <match tags="vblex.*" lemma="permitir"/>
       <match tags="vbser.*" lemma="ser"/>
     </or>
+  </rule>
+
+  <rule weight="5">
+    <or>
+      <match tags="vblex.*" lemma="agradecer"/>
+      <match tags="vblex.*" lemma="comprender"/>
+      <match tags="vblex.*" lemma="desear"/>
+      <match tags="vblex.*" lemma="entender"/>
+      <match tags="vblex.*" lemma="estar"/>
+      <match tags="vblex.*" lemma="estimar"/>
+      <match tags="vblex.*" lemma="hablar"/>
+      <match tags="vblex.*" lemma="impedir"/>
+      <match tags="vblex.*" lemma="permitir"/>
+      <match tags="vbser.*" lemma="ser"/>
+    </or>
+    <match lemma="lo" tags="prn.enc.p3.nt"><select lemma="ho"/></match>
   </rule>
  
   <!-- deber de > deure (si el castellà és "correcte") / haver de (molt sovint)... -->
