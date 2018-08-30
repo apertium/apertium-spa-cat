@@ -3992,7 +3992,7 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="mucho" tags="det.ind.m.sg"><select lemma="molt de"/></match>
+    <match lemma="mucho" tags="det.ind.m.sg"><select lemma="molt de"/></match> <!-- caldria mirar el gènere de la traducció, no el de l'original-->
     <or>
       <match tags="n.m.sg"/>
       <match tags="n.m.sp"/>
@@ -4031,6 +4031,29 @@
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
     <match lemma="de" tags="pr"/>
   </rule>
+
+  <!-- caber la posibilidad > haver-hi la possibilitat -->
+
+  <rule weight="0.5">
+    <match lemma="caber" tags="vblex.*"><select lemma="cabre"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="caber" tags="vblex.*.p3.*"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.inf"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.ger"><select lemma="haver"/></match>
+    </or>
+    <match tags="det.*.f.*"/>
+    <or>
+      <match tags="n.f.*" lemma="posibilidad"/>
+      <match tags="n.f.*" lemma="opción"/>
+      <match tags="n.f.*" lemma="alternativa"/>
+      <match tags="n.f.*" lemma="elección"/>
+      <match tags="n.f.*" lemma="duda"/>
+    </or>
+  </rule>
+
 
   <!-- escuchar > escoltar / sentir -->
 
