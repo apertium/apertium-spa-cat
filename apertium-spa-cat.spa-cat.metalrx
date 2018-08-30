@@ -2497,12 +2497,20 @@
   <rule weight="5">
     <match lemma="lo" tags="prn.pro.p3.nt"><select lemma="ho"/></match>
     <or>
-      <match tags="vbser.*" lemma="ser"/>
+      <match tags="vblex.*" lemma="agradecer"/>
+      <match tags="vblex.*" lemma="comprender"/>
+      <match tags="vblex.*" lemma="considerar"/>
+      <match tags="vblex.*" lemma="desear"/>
+      <match tags="vblex.*" lemma="entender"/>
       <match tags="vblex.*" lemma="estar"/>
+      <match tags="vblex.*" lemma="estimar"/>
+      <match tags="vblex.*" lemma="haver"/>
+      <match tags="vblex.*" lemma="impedir"/>
+      <match tags="vblex.*" lemma="permitir"/>
+      <match tags="vbser.*" lemma="ser"/>
     </or>
   </rule>
  
-
   <!-- deber de > deure (si el castellà és "correcte") / haver de (molt sovint)... -->
 
   <rule weight="0.6">
