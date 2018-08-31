@@ -784,26 +784,47 @@
   <!-- cámara > càmera / cambra  -->
 
   <rule weight="0.5">
-    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="5">
     <or>
-      <match lemma="pintor"/>
-      <match lemma="música"/>
-      <match lemma="orquesta"/>
-      <match lemma="coro"/>
-      <match lemma="obra"/>
+      <match lemma="ayuda"/>
       <match lemma="ayudante"/>
+      <match lemma="carpintero"/>
+      <match lemma="clericato"/>
+      <match lemma="clérigo"/>
       <match lemma="conjunto"/>
-      <match lemma="grupo"/>
       <match lemma="consejo"/>
-      <match lemma="tribunal"/>
-      <match lemma="presidente"/>
-      <match lemma="vicepresidente"/>
-      <match lemma="secretario"/>
-      <match lemma="tesorero"/>
+      <match lemma="coro"/>
+      <match lemma="debate"/>
+      <match lemma="diputado"/>
+      <match lemma="escultor"/>
+      <match lemma="feudo"/>
+      <match lemma="gentilhombre"/>
+      <match lemma="grupo"/>
+      <match lemma="maestro"/>
+      <match lemma="maestría"/>
       <match lemma="miembro"/>
+      <match lemma="montero"/>
+      <match lemma="mozo"/>
+      <match lemma="música"/>
+      <match lemma="obra"/>
+      <match lemma="orquesta"/>
+      <match lemma="paje"/>
+      <match lemma="parlamentario"/>
+      <match lemma="pintor"/>
+      <match lemma="presidente"/>
+      <match lemma="representando"/>
+      <match lemma="representante"/>
+      <match lemma="ropa"/>
+      <match lemma="secretario"/>
+      <match lemma="senador"/>
+      <match lemma="teatro"/>
+      <match lemma="tesorero"/>
+      <match lemma="tribunal"/>
+      <match lemma="ujier"/>
+      <match lemma="vicepresidente"/>
     </or>
     <or>
       <match lemma="de" tags="pr"/>
@@ -815,7 +836,7 @@
     <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="5">
     <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
     <match lemma="de"/>
     <repeat from="0" upto="1">
@@ -825,6 +846,7 @@
       <match lemma="agua"/>
       <match lemma="aire"/>
       <match lemma="apelación"/>
+      <match lemma="arma"/>
       <match lemma="burbuja"/>
       <match lemma="carga"/>
       <match lemma="Castilla"/>
@@ -832,26 +854,32 @@
       <match lemma="comercio"/>
       <match lemma="compensación"/>
       <match lemma="común"/>
+      <match lemma="consejo"/>
       <match lemma="cría"/>
       <match lemma="cultivo"/>
       <match lemma="diputado"/>
       <match lemma="expansión"/>
       <match lemma="gas"/>
+      <match lemma="india"/>
       <match lemma="industria"/>
       <match lemma="ionización"/>
       <match lemma="lord"/>
       <match lemma="máquina"/>
       <match lemma="navegación"/>
+      <match lemma="paño"/>
+      <match lemma="parlamentario"/>
       <match lemma="propiedad"/>
       <match lemma="representando"/>
       <match lemma="representante"/>
       <match lemma="reverberación"/>
-      <match lemma="vapor"/>
+      <match lemma="rey"/>
+      <match lemma="senador"/>
       <match lemma="vacío"/>
+      <match lemma="vapor"/>
     </or>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="5">
     <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
     <or>
       <match lemma="acorazar"/>
@@ -861,9 +889,11 @@
       <match lemma="alto"/>
       <match lemma="anecoico"/>
       <match lemma="apostólico"/>
+      <match lemma="ardiente"/>
       <match lemma="autonómico"/>
       <match lemma="bajo"/>
       <match lemma="comercial"/>
+      <match lemma="doblar"/>
       <match lemma="frigorífico"/>
       <match lemma="funerario"/>
       <match lemma="hiperbàric"/>
@@ -873,12 +903,213 @@
       <match lemma="mortuorio"/>
       <match lemma="metálico"/>
       <match lemma="oficial"/>
+      <match lemma="parlamentario"/>
       <match lemma="oscura"/>
       <match lemma="regional"/>
       <match lemma="representativo"/>
       <match lemma="séptico"/>
       <match lemma="vítreo"/>
     </or>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+    <match lemma="de"/>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="cine"/>
+      <match lemma="alto" tags="adj.*"/>
+      <match lemma="cinematografía"/>
+      <match lemma="fotografía"/>
+      <match lemma="televisión"/>
+      <match lemma="vídeo"/>
+      <match lemma="videovigilancia"/>
+      <match lemma="vigilancia"/>
+      <match lemma="web"/>
+    </or>
+  </rule>
+
+    <rule weight="5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+    <or>
+      <match lemma="analógico"/>
+      <match lemma="automático"/>
+      <match lemma="cinematográfico"/>
+      <match lemma="claro"/>
+      <match lemma="digital"/>
+      <match lemma="fotográfico"/>
+      <match lemma="infrarrojo"/>
+      <match lemma="lento"/>
+      <match lemma="lúcido"/>
+      <match lemma="rápido"/>
+      <match lemma="réflex"/>
+      <match lemma="superlento"/>
+      <match lemma="web"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+    <match lemma="y" tags="cnjcoo"/>
+    <match lemma="acción" tags="n.f.sg"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="actor"/>
+      <match lemma="actriz"/>
+      <match lemma="Allen"/>
+      <match lemma="binóculo"/>
+      <match lemma="carrete"/>
+      <match lemma="cine"/>
+      <match lemma="cineasta"/>
+      <match lemma="cinematografía"/>
+      <match lemma="cinematográfico"/>
+      <match lemma="debut"/>
+      <match lemma="desenvoltura"/>
+      <match lemma="digital"/>
+      <match lemma="documental"/>
+      <match lemma="emisor"/>
+      <match lemma="emisora"/>
+      <match lemma="encuadrar"/>
+      <match lemma="encuadre"/>
+      <match lemma="enfocar"/>
+      <match lemma="enfoque"/>
+      <match lemma="estadio"/>
+      <match lemma="filmación"/>
+      <match lemma="filmar"/>
+      <match lemma="flash"/>
+      <match lemma="fotógrafo"/>
+      <match lemma="grabar"/>
+      <match lemma="guionista"/>
+      <match lemma="guión"/>
+      <match lemma="infrarrojo"/>
+      <match lemma="inmortalizar"/>
+      <match lemma="internet"/>
+      <match lemma="micrófono"/>
+      <match lemma="micrófono"/>
+      <match lemma="montador"/>
+      <match lemma="noticiario"/>
+      <match lemma="operador"/>
+      <match lemma="parking"/>
+      <match lemma="película"/>
+      <match lemma="periodista"/>
+      <match lemma="presentador"/>
+      <match lemma="reportero"/>
+      <match lemma="retransmisión"/>
+      <match lemma="retransmitir"/>
+      <match lemma="retratar"/>
+      <match lemma="rodaje"/>
+      <match lemma="rodar"/>
+      <match lemma="secuencia"/>
+      <match lemma="televisión"/>
+      <match lemma="transmisión"/>
+      <match lemma="transmitir"/>
+      <match lemma="trípode"/>
+      <match lemma="videovigilancia"/>
+      <match lemma="vigilancia"/>
+      <match lemma="visor"/>
+      <match lemma="vídeo"/>
+      <match lemma="zoom"/>
+      <match lemma="Telemadrid"/>
+      <match lemma="TV3"/>
+      <match lemma="Antena 3"/>
+      <match lemma="Telecinco"/>
+      <match lemma="Canal Plus"/>
+      <match lemma="Canal Nou"/>
+      <match lemma="À Punt"/>
+      <match lemma="CNN"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="actor"/>
+      <match lemma="actriz"/>
+      <match lemma="Allen"/>
+      <match lemma="binóculo"/>
+      <match lemma="carrete"/>
+      <match lemma="cine"/>
+      <match lemma="cineasta"/>
+      <match lemma="cinematografía"/>
+      <match lemma="cinematográfico"/>
+      <match lemma="debut"/>
+      <match lemma="desenvoltura"/>
+      <match lemma="digital"/>
+      <match lemma="documental"/>
+      <match lemma="emisor"/>
+      <match lemma="emisora"/>
+      <match lemma="encuadrar"/>
+      <match lemma="encuadre"/>
+      <match lemma="enfocar"/>
+      <match lemma="enfoque"/>
+      <match lemma="estadio"/>
+      <match lemma="filmación"/>
+      <match lemma="filmar"/>
+      <match lemma="flash"/>
+      <match lemma="fotógrafo"/>
+      <match lemma="grabar"/>
+      <match lemma="guionista"/>
+      <match lemma="guión"/>
+      <match lemma="infrarrojo"/>
+      <match lemma="inmortalizar"/>
+      <match lemma="internet"/>
+      <match lemma="micrófono"/>
+      <match lemma="micrófono"/>
+      <match lemma="montador"/>
+      <match lemma="noticiario"/>
+      <match lemma="operador"/>
+      <match lemma="parking"/>
+      <match lemma="película"/>
+      <match lemma="periodista"/>
+      <match lemma="presentador"/>
+      <match lemma="reportero"/>
+      <match lemma="retransmisión"/>
+      <match lemma="retransmitir"/>
+      <match lemma="retratar"/>
+      <match lemma="rodaje"/>
+      <match lemma="rodar"/>
+      <match lemma="secuencia"/>
+      <match lemma="televisión"/>
+      <match lemma="transmisión"/>
+      <match lemma="transmitir"/>
+      <match lemma="trípode"/>
+      <match lemma="videovigilancia"/>
+      <match lemma="vigilancia"/>
+      <match lemma="visor"/>
+      <match lemma="vídeo"/>
+      <match lemma="zoom"/>
+      <match lemma="Telemadrid"/>
+      <match lemma="TV3"/>
+      <match lemma="Antena 3"/>
+      <match lemma="Telecinco"/>
+      <match lemma="Canal Plus"/>
+      <match lemma="Canal Nou"/>
+      <match lemma="À Punt"/>
+      <match lemma="CNN"/>
+    </or>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
   </rule>
 
   <!-- orden religiosa > orde religiós -->
@@ -3072,6 +3303,11 @@
     <match lemma="pues" tags="cnjadv"><select lemma="perquè"/></match>
   </rule>
 
+  <rule weight="1">
+    <match tags="*.imp.*"/>
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+  </rule>
+
   <rule weight="0.8"> <!-- ex.: se añade pues a una red extensa. -->
     <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
     <repeat from="0" upto="8">
@@ -3096,12 +3332,17 @@
 
   <rule weight="1">
     <or>
-      <match lemma="tratar" tags="vblex.*"/>
       <match lemma="así" tags="adv"/>  
       <match lemma="ser"/> <!-- bug si s'usa vbser.* amb: Lo digo pues ? -->
       <match lemma="estar"/>
     </or>
     <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+  </rule>
+
+    <rule weight="1">
+      <match lemma="tratar" tags="vblex.*"/>
+      <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+      <match lemma="de" tags="pr"/>
   </rule>
 
   <rule weight="1">
@@ -3113,8 +3354,12 @@
       <match lemma="porque"/>
       <match lemma="sí"/>
       <match lemma="a" tags="pr"/>
-      <match tags="cm"/>
     </or>
+  </rule>
+  <rule weight="1">
+    <match tags="cm"/>
+    <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <match tags="cm"/>
   </rule>
   <rule weight="2">
     <match lemma="pues" tags="cnjadv"><select lemma="perquè"/></match>
