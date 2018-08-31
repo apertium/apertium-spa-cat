@@ -60,6 +60,9 @@
       <cat-item tags="prn.tn.*" />
       <cat-item tags="prn.itg.*" />
     </def-cat>
+    <def-cat n="prntn">
+      <cat-item tags="prn.tn.*" />
+    </def-cat>
     <def-cat n="prnenc">
       <cat-item tags="prn.enc.*" />
     </def-cat>
@@ -164,6 +167,12 @@
     </def-cat>
     <def-cat n="caber">
       <cat-item lemma="caber" tags="vblex.*" />
+    </def-cat>
+    <def-cat n="duda">
+      <cat-item lemma="duda" tags="n.f.*" />
+      <cat-item lemma="opción" tags="n.f.*" />
+      <cat-item lemma="alternativa" tags="n.f.*" />
+      <cat-item lemma="la menor duda" tags="n.f.*" />
     </def-cat>
     <def-cat n="verbos_ver_haber_tener">
       <cat-item lemma="ver" tags="vblex.*.p3.*" />
@@ -8280,6 +8289,104 @@
         </out>
       </action>
     </rule>
+    
+    
+    <!--REGLA: No me cabe ninguna duda > no en tinc cap dubte -->
+    <rule>
+      <pattern>
+        <pattern-item n="prnproobj" />
+        <pattern-item n="caber" />
+        <pattern-item n="det" />
+        <pattern-item n="duda" />
+      </pattern>
+      <action>
+        <let>
+          <clip pos="2" side="tl" part="lem" />
+          <get-case-from pos="1">
+            <lit v="tenir" />
+          </get-case-from>
+        </let>
+        <let>
+          <clip pos="2" side="sl" part="nbr" />
+          <clip pos="1" side="sl" part="nbr" />
+        </let>
+        <let>
+          <clip pos="2" side="sl" part="persona" />
+          <clip pos="1" side="sl" part="persona" />
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="nbr" />
+          <clip pos="1" side="sl" part="nbr" />
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="persona" />
+          <clip pos="1" side="sl" part="persona" />
+        </let>
+        <call-macro n="f_pretind">
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="4" />
+          <with-param pos="3" />
+        </call-macro>
+        <call-macro n="f_lexicDet">
+          <with-param pos="3" />
+        </call-macro>
+        <out>
+          <b pos="1" />
+          <lu>
+              <clip pos="3" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+              <clip pos="4" side="tl" part="whole" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="prnproobj" />
+        <pattern-item n="caber" />
+        <pattern-item n="duda" />
+      </pattern>
+      <action>
+        <let>
+          <clip pos="2" side="tl" part="lem" />
+          <get-case-from pos="1">
+            <lit v="tenir" />
+          </get-case-from>
+        </let>
+        <let>
+          <clip pos="2" side="sl" part="nbr" />
+          <clip pos="1" side="sl" part="nbr" />
+        </let>
+        <let>
+          <clip pos="2" side="sl" part="persona" />
+          <clip pos="1" side="sl" part="persona" />
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="nbr" />
+          <clip pos="1" side="sl" part="nbr" />
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="persona" />
+          <clip pos="1" side="sl" part="persona" />
+        </let>
+        <call-macro n="f_pretind">
+          <with-param pos="2" />
+        </call-macro>
+        <out>
+          <b pos="1" />
+          <lu>
+              <clip pos="3" side="tl" part="whole" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
     <rule>
       <!-- REGLA: ser de aplicación + ADJ (perquè els del servei ling UA volen que tradueixi "ser aplicable", cal aquesta regla per quan va seguit d'adjectiu-->
       <pattern>

@@ -4314,6 +4314,22 @@
     </or>
   </rule>
 
+  <rule weight="1">
+    <or>
+      <match lemma="caber" tags="vblex.*.p3.*"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.inf"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.ger"><select lemma="haver"/></match>
+    </or>
+    <or>
+      <match tags="n.f.*" lemma="posibilidad"/>
+      <match tags="n.f.*" lemma="opción"/>
+      <match tags="n.f.*" lemma="alternativa"/>
+      <match tags="n.f.*" lemma="elección"/>
+      <match tags="n.f.*" lemma="duda"/>
+      <match tags="n.f.*" lemma="la menor duda"/>
+    </or>
+  </rule>
+
 
   <!-- escuchar > escoltar / sentir -->
 
