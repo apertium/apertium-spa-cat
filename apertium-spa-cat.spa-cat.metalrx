@@ -799,8 +799,19 @@
       <match lemma="grupo"/>
       <match lemma="consejo"/>
       <match lemma="tribunal"/>
+      <match lemma="presidente"/>
+      <match lemma="vicepresidente"/>
+      <match lemma="secretario"/>
+      <match lemma="tesorero"/>
+      <match lemma="miembro"/>
     </or>
-    <match lemma="de"/>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match lemma="en" tags="pr"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
     <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
   </rule>
 
@@ -833,6 +844,7 @@
       <match lemma="navegación"/>
       <match lemma="propiedad"/>
       <match lemma="representando"/>
+      <match lemma="representante"/>
       <match lemma="reverberación"/>
       <match lemma="vapor"/>
       <match lemma="vacío"/>
