@@ -847,6 +847,7 @@
       <match lemma="aire"/>
       <match lemma="apelación"/>
       <match lemma="arma"/>
+      <match lemma="bombeo"/>
       <match lemma="burbuja"/>
       <match lemma="carga"/>
       <match lemma="Castilla"/>
@@ -854,6 +855,8 @@
       <match lemma="comercio"/>
       <match lemma="compensación"/>
       <match lemma="común"/>
+      <match lemma="congelación"/>
+      <match lemma="congreso"/>
       <match lemma="consejo"/>
       <match lemma="cría"/>
       <match lemma="cultivo"/>
@@ -869,8 +872,10 @@
       <match lemma="paño"/>
       <match lemma="parlamentario"/>
       <match lemma="propiedad"/>
+      <match lemma="presión"/>
       <match lemma="representando"/>
       <match lemma="representante"/>
+      <match lemma="resonancia"/>
       <match lemma="reverberación"/>
       <match lemma="rey"/>
       <match lemma="senador"/>
@@ -895,17 +900,22 @@
       <match lemma="bajo"/>
       <match lemma="comercial"/>
       <match lemma="doblar"/>
+      <match lemma="estatal"/>
       <match lemma="frigorífico"/>
       <match lemma="funerario"/>
-      <match lemma="hiperbàric"/>
+      <match lemma="hiperbárico"/>
       <match lemma="incubador"/>
       <match lemma="insonorizar"/>
+      <match lemma="institucional"/>
       <match lemma="legislativo"/>
-      <match lemma="mortuorio"/>
+      <match lemma="local"/>
       <match lemma="metálico"/>
+      <match lemma="mortuorio"/>
+      <match lemma="nacional"/>
       <match lemma="oficial"/>
-      <match lemma="parlamentario"/>
       <match lemma="oscura"/>
+      <match lemma="parlamentario"/>
+      <match lemma="provincial"/>
       <match lemma="regional"/>
       <match lemma="representativo"/>
       <match lemma="séptico"/>
@@ -922,14 +932,19 @@
       </or>
     </repeat>
     <or>
-      <match lemma="cine"/>
       <match lemma="alto" tags="adj.*"/>
+      <match lemma="cine"/>
       <match lemma="cinematografía"/>
+      <match lemma="foto"/>
       <match lemma="fotografía"/>
+      <match lemma="mano"/>
+      <match lemma="observación"/>
+      <match lemma="seguridad"/>
       <match lemma="televisión"/>
-      <match lemma="vídeo"/>
+      <match lemma="video"/>
       <match lemma="videovigilancia"/>
       <match lemma="vigilancia"/>
+      <match lemma="vídeo"/>
       <match lemma="web"/>
     </or>
   </rule>
@@ -941,13 +956,16 @@
       <match lemma="automático"/>
       <match lemma="cinematográfico"/>
       <match lemma="claro"/>
+      <match lemma="compacto"/>
       <match lemma="digital"/>
+      <match lemma="estenopeico"/>
       <match lemma="fotográfico"/>
       <match lemma="infrarrojo"/>
       <match lemma="lento"/>
       <match lemma="lúcido"/>
       <match lemma="rápido"/>
       <match lemma="réflex"/>
+      <!--<match lemma="submarino"/>  és ambigu -->
       <match lemma="superlento"/>
       <match lemma="web"/>
     </or>
@@ -963,151 +981,245 @@
     <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*.*"/>
-        <match tags="adv"/>
-        <match tags="pr"/>
-        <match tags="cnjcoo"/>
+        <match tags="*"/>
       </or>
     </repeat>
     <or>
+      <match lemma="2D"/>
+      <match lemma="3D"/>
       <match lemma="actor"/>
       <match lemma="actriz"/>
       <match lemma="Allen"/>
+      <match lemma="animación"/>
+      <match lemma="Antena 3"/>
+      <match lemma="audiovisual"/>
+      <match lemma="BBC"/>
       <match lemma="binóculo"/>
+      <match lemma="Canal Nou"/>
+      <match lemma="Canal Plus"/>
+      <match lemma="captura"/>
       <match lemma="carrete"/>
+      <match lemma="CCTV"/>
       <match lemma="cine"/>
       <match lemma="cineasta"/>
       <match lemma="cinematografía"/>
       <match lemma="cinematográfico"/>
+      <match lemma="claqueta"/>
+      <match lemma="CNN"/>
       <match lemma="debut"/>
       <match lemma="desenvoltura"/>
+      <match lemma="difracción"/>
       <match lemma="digital"/>
+      <match lemma="digital"/>
+      <match lemma="digitalizar"/>
+      <match lemma="diodo"/>
+      <match lemma="director"/>
       <match lemma="documental"/>
+      <match lemma="electrónica"/>
+      <match lemma="electrónico"/>
+      <match lemma="eléctrico"/>
       <match lemma="emisor"/>
       <match lemma="emisora"/>
+      <match lemma="emitir"/>
       <match lemma="encuadrar"/>
       <match lemma="encuadre"/>
       <match lemma="enfocar"/>
       <match lemma="enfoque"/>
       <match lemma="estadio"/>
+      <match lemma="film"/>
       <match lemma="filmación"/>
       <match lemma="filmar"/>
       <match lemma="flash"/>
+      <match lemma="flux"/>
+      <match lemma="focalización"/>
+      <match lemma="foto"/>
+      <match lemma="fotográfico"/>
       <match lemma="fotógrafo"/>
+      <match lemma="geometría"/>
+      <match lemma="grabación"/>
       <match lemma="grabar"/>
       <match lemma="guionista"/>
       <match lemma="guión"/>
+      <match lemma="Hollywood"/>
+      <match lemma="iluminación"/>
+      <match lemma="IMAX"/>
       <match lemma="infrarrojo"/>
       <match lemma="inmortalizar"/>
       <match lemma="internet"/>
+      <match lemma="lente"/>
+      <match lemma="megapíxel"/>
       <match lemma="micrófono"/>
       <match lemma="micrófono"/>
+      <match lemma="monitor"/>
       <match lemma="montador"/>
+      <match lemma="montaje"/>
+      <match lemma="movimiento"/>
+      <match lemma="narrativa"/>
       <match lemma="noticiario"/>
+      <match lemma="obturación"/>
+      <match lemma="obturar"/>
       <match lemma="operador"/>
       <match lemma="parking"/>
       <match lemma="película"/>
       <match lemma="periodista"/>
       <match lemma="presentador"/>
+      <match lemma="proyector"/>
+      <match lemma="píxel"/>
+      <match lemma="render"/>
       <match lemma="reportero"/>
       <match lemma="retransmisión"/>
       <match lemma="retransmitir"/>
       <match lemma="retratar"/>
       <match lemma="rodaje"/>
       <match lemma="rodar"/>
+      <match lemma="RTVE"/>
       <match lemma="secuencia"/>
+      <match lemma="sensor"/>
+      <match lemma="teatro"/>
+      <match lemma="Telecinco"/>
+      <match lemma="Telemadrid"/>
       <match lemma="televisión"/>
+      <match lemma="tiro"/>
       <match lemma="transmisión"/>
       <match lemma="transmitir"/>
       <match lemma="trípode"/>
+      <match lemma="TV3"/>
+      <match lemma="TVE"/>
+      <match lemma="unidad"/>
+      <match lemma="vestuario"/>
+      <match lemma="video"/>
       <match lemma="videovigilancia"/>
       <match lemma="vigilancia"/>
+      <match lemma="visión"/>
       <match lemma="visor"/>
       <match lemma="vídeo"/>
       <match lemma="zoom"/>
-      <match lemma="Telemadrid"/>
-      <match lemma="TV3"/>
-      <match lemma="Antena 3"/>
-      <match lemma="Telecinco"/>
-      <match lemma="Canal Plus"/>
-      <match lemma="Canal Nou"/>
       <match lemma="À Punt"/>
-      <match lemma="CNN"/>
+      <match lemma="ángulo"/>
+      <match lemma="óptica"/>
+      <match lemma="óptico"/>
     </or>
   </rule>
 
   <rule weight="1">
     <or>
+      <match lemma="2D"/>
+      <match lemma="3D"/>
       <match lemma="actor"/>
       <match lemma="actriz"/>
       <match lemma="Allen"/>
+      <match lemma="animación"/>
+      <match lemma="Antena 3"/>
+      <match lemma="audiovisual"/>
+      <match lemma="BBC"/>
       <match lemma="binóculo"/>
+      <match lemma="Canal Nou"/>
+      <match lemma="Canal Plus"/>
+      <match lemma="captura"/>
       <match lemma="carrete"/>
+      <match lemma="CCTV"/>
       <match lemma="cine"/>
       <match lemma="cineasta"/>
       <match lemma="cinematografía"/>
       <match lemma="cinematográfico"/>
+      <match lemma="claqueta"/>
+      <match lemma="CNN"/>
       <match lemma="debut"/>
       <match lemma="desenvoltura"/>
+      <match lemma="difracción"/>
       <match lemma="digital"/>
+      <match lemma="digital"/>
+      <match lemma="digitalizar"/>
+      <match lemma="diodo"/>
+      <match lemma="director"/>
       <match lemma="documental"/>
+      <match lemma="electrónica"/>
+      <match lemma="electrónico"/>
+      <match lemma="eléctrico"/>
       <match lemma="emisor"/>
       <match lemma="emisora"/>
+      <match lemma="emitir"/>
       <match lemma="encuadrar"/>
       <match lemma="encuadre"/>
       <match lemma="enfocar"/>
       <match lemma="enfoque"/>
       <match lemma="estadio"/>
+      <match lemma="film"/>
       <match lemma="filmación"/>
       <match lemma="filmar"/>
       <match lemma="flash"/>
+      <match lemma="flux"/>
+      <match lemma="focalización"/>
+      <match lemma="foto"/>
+      <match lemma="fotográfico"/>
       <match lemma="fotógrafo"/>
+      <match lemma="geometría"/>
+      <match lemma="grabación"/>
       <match lemma="grabar"/>
       <match lemma="guionista"/>
       <match lemma="guión"/>
+      <match lemma="Hollywood"/>
+      <match lemma="iluminación"/>
+      <match lemma="IMAX"/>
       <match lemma="infrarrojo"/>
       <match lemma="inmortalizar"/>
       <match lemma="internet"/>
+      <match lemma="lente"/>
+      <match lemma="megapíxel"/>
       <match lemma="micrófono"/>
       <match lemma="micrófono"/>
+      <match lemma="monitor"/>
       <match lemma="montador"/>
+      <match lemma="montaje"/>
+      <match lemma="movimiento"/>
+      <match lemma="narrativa"/>
       <match lemma="noticiario"/>
+      <match lemma="obturación"/>
+      <match lemma="obturar"/>
       <match lemma="operador"/>
       <match lemma="parking"/>
       <match lemma="película"/>
       <match lemma="periodista"/>
       <match lemma="presentador"/>
+      <match lemma="proyector"/>
+      <match lemma="píxel"/>
+      <match lemma="render"/>
       <match lemma="reportero"/>
       <match lemma="retransmisión"/>
       <match lemma="retransmitir"/>
       <match lemma="retratar"/>
       <match lemma="rodaje"/>
       <match lemma="rodar"/>
+      <match lemma="RTVE"/>
       <match lemma="secuencia"/>
+      <match lemma="sensor"/>
+      <match lemma="teatro"/>
+      <match lemma="Telecinco"/>
+      <match lemma="Telemadrid"/>
       <match lemma="televisión"/>
+      <match lemma="tiro"/>
       <match lemma="transmisión"/>
       <match lemma="transmitir"/>
       <match lemma="trípode"/>
+      <match lemma="TV3"/>
+      <match lemma="TVE"/>
+      <match lemma="unidad"/>
+      <match lemma="vestuario"/>
+      <match lemma="video"/>
       <match lemma="videovigilancia"/>
       <match lemma="vigilancia"/>
+      <match lemma="visión"/>
       <match lemma="visor"/>
       <match lemma="vídeo"/>
       <match lemma="zoom"/>
-      <match lemma="Telemadrid"/>
-      <match lemma="TV3"/>
-      <match lemma="Antena 3"/>
-      <match lemma="Telecinco"/>
-      <match lemma="Canal Plus"/>
-      <match lemma="Canal Nou"/>
       <match lemma="À Punt"/>
-      <match lemma="CNN"/>
+      <match lemma="ángulo"/>
+      <match lemma="óptica"/>
+      <match lemma="óptico"/>
     </or>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*.*"/>
-        <match tags="adv"/>
-        <match tags="pr"/>
-        <match tags="cnjcoo"/>
+        <match tags="*"/>
       </or>
     </repeat>
     <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
@@ -1733,9 +1845,12 @@
 
   <rule weight="1.0">
     <match lemma="cumbre" tags="n.f.sg"><select lemma="cimera"/></match>  
-    <match lemma="de"/>
-    <repeat from="0" upto="1">
-      <match tags="det.*"/>
+    
+    <repeat from="0" upto="2">
+      <or>
+        <match lemma="de"/>
+        <match tags="det.*"/>
+      </or>
     </repeat>
     <or>
       <match tags="np.loc"/>
@@ -3343,6 +3458,9 @@
     <rule weight="1">
       <match lemma="tratar" tags="vblex.*"/>
       <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
+      <repeat from="0" upto="1">
+        <match tags="adv"/>
+      </repeat>
       <match lemma="de" tags="pr"/>
   </rule>
 
