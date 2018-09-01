@@ -935,6 +935,7 @@
       <match lemma="alto" tags="adj.*"/>
       <match lemma="cine"/>
       <match lemma="cinematografía"/>
+      <match lemma="circuito"/>
       <match lemma="foto"/>
       <match lemma="fotografía"/>
       <match lemma="mano"/>
@@ -992,6 +993,8 @@
       <match lemma="Allen"/>
       <match lemma="animación"/>
       <match lemma="Antena 3"/>
+      <match lemma="astrofísica"/>
+      <match lemma="astronoomía"/>
       <match lemma="audiovisual"/>
       <match lemma="BBC"/>
       <match lemma="binóculo"/>
@@ -1038,6 +1041,7 @@
       <match lemma="geometría"/>
       <match lemma="grabación"/>
       <match lemma="grabar"/>
+      <match lemma="gráfico"/>
       <match lemma="guionista"/>
       <match lemma="guión"/>
       <match lemma="Hollywood"/>
@@ -1075,9 +1079,11 @@
       <match lemma="RTVE"/>
       <match lemma="secuencia"/>
       <match lemma="sensor"/>
+      <match lemma="sonda"/>
       <match lemma="teatro"/>
       <match lemma="Telecinco"/>
       <match lemma="Telemadrid"/>
+      <match lemma="telescopio"/>
       <match lemma="televisión"/>
       <match lemma="tiro"/>
       <match lemma="transmisión"/>
@@ -1110,6 +1116,8 @@
       <match lemma="Allen"/>
       <match lemma="animación"/>
       <match lemma="Antena 3"/>
+      <match lemma="astrofísica"/>
+      <match lemma="astronoomía"/>
       <match lemma="audiovisual"/>
       <match lemma="BBC"/>
       <match lemma="binóculo"/>
@@ -1156,6 +1164,7 @@
       <match lemma="geometría"/>
       <match lemma="grabación"/>
       <match lemma="grabar"/>
+      <match lemma="gráfico"/>
       <match lemma="guionista"/>
       <match lemma="guión"/>
       <match lemma="Hollywood"/>
@@ -1193,9 +1202,11 @@
       <match lemma="RTVE"/>
       <match lemma="secuencia"/>
       <match lemma="sensor"/>
+      <match lemma="sonda"/>
       <match lemma="teatro"/>
       <match lemma="Telecinco"/>
       <match lemma="Telemadrid"/>
+      <match lemma="telescopio"/>
       <match lemma="televisión"/>
       <match lemma="tiro"/>
       <match lemma="transmisión"/>
@@ -1840,12 +1851,12 @@
       <match lemma="ministro" tags="n.*"/>
       <match lemma="presidente" tags="n.*"/>
       <match lemma="consejero" tags="n.*"/>
+      <match lemma="unión" tags="n.*"/>
     </or>
   </rule>
 
   <rule weight="1.0">
     <match lemma="cumbre" tags="n.f.sg"><select lemma="cimera"/></match>  
-    
     <repeat from="0" upto="2">
       <or>
         <match lemma="de"/>
@@ -1857,6 +1868,7 @@
       <match tags="np.top"/>
       <match tags="np.loc.*"/>
       <match tags="np.top.*"/>
+      <match lemma="unión" tags="n.*"/>
     </or>
   </rule>
 
@@ -1885,6 +1897,7 @@
       <match lemma="iberoamericano" tags="adj.*"/>
       <match lemma="latinoamericano" tags="adj.*"/>
       <match lemma="euroasiático" tags="adj.*"/>
+      <match lemma="unión" tags="n.*"/>
     </or>
   </rule>
   
