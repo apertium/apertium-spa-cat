@@ -1414,6 +1414,23 @@
     </or>
   </rule>
 
+   <rule weight="2">
+    <match lemma="plano" tags="n.*"><select lemma="pla"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="det.*"/>
+        <match tags="pr"/>
+      </or>
+    </repeat> 
+    <or>
+      <match tags="np.*" lemma="UE"/>
+      <match tags="np.*" lemma="EUA"/>
+      <match tags="np.*" lemma="España"/>
+      <match tags="np.*" lemma="Francia"/>
+      <match tags="np.*" lemma="Alemania"/>
+    </or>
+  </rule>
+
   <!-- mandar > manar/enviar -->
 
   <rule weight="0.8">
