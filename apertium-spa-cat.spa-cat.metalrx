@@ -982,7 +982,12 @@
     <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*"/>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
       </or>
     </repeat>
     <or>
@@ -1230,7 +1235,12 @@
     </or>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*"/>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
       </or>
     </repeat>
     <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
