@@ -814,6 +814,7 @@
       <match lemma="paje"/>
       <match lemma="parlamentario"/>
       <match lemma="pintor"/>
+      <match lemma="plenario"/>
       <match lemma="pleno"/>
       <match lemma="presidente"/>
       <match lemma="representando"/>
@@ -862,6 +863,7 @@
       <match lemma="cría"/>
       <match lemma="cultivo"/>
       <match lemma="diputado"/>
+      <match lemma="empresario"/>
       <match lemma="expansión"/>
       <match lemma="gas"/>
       <match lemma="india"/>
@@ -872,6 +874,57 @@
       <match lemma="navegación"/>
       <match lemma="paño"/>
       <match lemma="parlamentario"/>
+      <match lemma="productor"/>
+      <match lemma="propiedad"/>
+      <match lemma="presión"/>
+      <match lemma="representando"/>
+      <match lemma="representante"/>
+      <match lemma="resonancia"/>
+      <match lemma="reverberación"/>
+      <match lemma="rey"/>
+      <match lemma="senador"/>
+      <match lemma="vacío"/>
+      <match lemma="vapor"/>
+    </or>
+  </rule>
+<rule weight="5">
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+    <match tags="adj.*"/>
+    <match lemma="de"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match lemma="agua"/>
+      <match lemma="aire"/>
+      <match lemma="apelación"/>
+      <match lemma="arma"/>
+      <match lemma="bombeo"/>
+      <match lemma="burbuja"/>
+      <match lemma="carga"/>
+      <match lemma="Castilla"/>
+      <match lemma="combustión"/>
+      <match lemma="comercio"/>
+      <match lemma="compensación"/>
+      <match lemma="común"/>
+      <match lemma="congelación"/>
+      <match lemma="congreso"/>
+      <match lemma="consejo"/>
+      <match lemma="cría"/>
+      <match lemma="cultivo"/>
+      <match lemma="diputado"/>
+      <match lemma="empresario"/>
+      <match lemma="expansión"/>
+      <match lemma="gas"/>
+      <match lemma="india"/>
+      <match lemma="industria"/>
+      <match lemma="ionización"/>
+      <match lemma="lord"/>
+      <match lemma="máquina"/>
+      <match lemma="navegación"/>
+      <match lemma="paño"/>
+      <match lemma="parlamentario"/>
+      <match lemma="productor"/>
       <match lemma="propiedad"/>
       <match lemma="presión"/>
       <match lemma="representando"/>
@@ -1041,6 +1094,7 @@
       <match lemma="filmar"/>
       <match lemma="flash"/>
       <match lemma="flux"/>
+      <match lemma="fílmico"/>
       <match lemma="focalización"/>
       <match lemma="foto"/>
       <match lemma="fotográfico"/>
@@ -1057,7 +1111,7 @@
       <match lemma="infrarrojo"/>
       <match lemma="inmortalizar"/>
       <match lemma="internet"/>
-      <match lemma="lente"/>
+      <match lemma="lente" tags="n.f.*"/>
       <match lemma="megapíxel"/>
       <match lemma="micrófono"/>
       <match lemma="micrófono"/>
@@ -1163,6 +1217,7 @@
       <match lemma="filmar"/>
       <match lemma="flash"/>
       <match lemma="flux"/>
+      <match lemma="fílmico"/>
       <match lemma="focalización"/>
       <match lemma="foto"/>
       <match lemma="fotográfico"/>
@@ -1179,7 +1234,7 @@
       <match lemma="infrarrojo"/>
       <match lemma="inmortalizar"/>
       <match lemma="internet"/>
-      <match lemma="lente"/>
+      <match lemma="lente" tags="n.f.*"/>
       <match lemma="megapíxel"/>
       <match lemma="micrófono"/>
       <match lemma="micrófono"/>
@@ -1224,7 +1279,7 @@
       <match lemma="video"/>
       <match lemma="videovigilancia"/>
       <match lemma="vigilancia"/>
-      <match lemma="visión"/>
+      <match lemma="visión"/>  <!-- división! -->
       <match lemma="visor"/>
       <match lemma="vídeo"/>
       <match lemma="zoom"/>
@@ -1244,6 +1299,72 @@
       </or>
     </repeat>
     <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="candidato"/>
+      <match lemma="censo"/>
+      <match lemma="consejería"/>
+      <match lemma="conselleria"/>
+      <match lemma="diputado"/>
+      <match lemma="ejecutivo"/>
+      <match lemma="electoral"/>
+      <match lemma="Generalidad"/>
+      <match lemma="Generalitat"/>
+      <match lemma="legislativo"/>
+      <match lemma="operístico"/>
+      <match lemma="presidente"/>
+      <match lemma="repertorio"/>
+      <match lemma="secretario"/>
+      <match lemma="secretaría"/>
+      <match lemma="senador"/>
+      <match lemma="sinfónico"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="candidato"/>
+      <match lemma="censo"/>
+      <match lemma="consejería"/>
+      <match lemma="conselleria"/>
+      <match lemma="diputado"/>
+      <match lemma="ejecutivo"/>
+      <match lemma="electoral"/>
+      <match lemma="Generalidad"/>
+      <match lemma="Generalitat"/>
+      <match lemma="legislativo"/>
+      <match lemma="operístico"/>
+      <match lemma="presidente"/>
+      <match lemma="repertorio"/>
+      <match lemma="secretario"/>
+      <match lemma="secretaría"/>
+      <match lemma="senador"/>
+      <match lemma="sinfónico"/>
+    </or>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
   </rule>
 
   <!-- orden religiosa > orde religiós -->
