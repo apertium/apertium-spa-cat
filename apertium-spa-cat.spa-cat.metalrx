@@ -3734,6 +3734,33 @@
     </or>
   </rule>
 
+    <!-- hambre > fam / gana ... -->
+
+  <rule weight="0.5">
+    <match lemma="hambre" tags="n.f.*"><select lemma="fam"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="tener" tags="vblex.*"/>
+      <match lemma="perder" tags="vblex.*"/>
+      <match lemma="matar" tags="vblex.*"/>
+      <match lemma="sentir" tags="vblex.*"/>
+      <match lemma="quitar" tags="vblex.*"/>
+      <match lemma="saciar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="cm"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <match lemma="hambre" tags="n.f.sg"><select lemma="gana"/></match>
+  </rule>
+
   <!-- cacarear > escatainar / esbombar ... -->
 
   <rule weight="0.5">

@@ -1687,6 +1687,16 @@
     <match lemma="grau" tags="n.*"><select lemma="grao"/></match>
   </rule>
 
+  <!-- gana > gana / hambre -->
+
+  <rule weight="0.5">
+    <match lemma="gana" tags="n.f.sg"><select lemma="hambre"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="gana" tags="n.f.pl"><select lemma="gana"/></match>
+  </rule>
+  
 
 <!-- **************** NP **************** -->
 
