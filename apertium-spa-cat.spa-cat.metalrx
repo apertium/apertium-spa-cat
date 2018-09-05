@@ -1720,11 +1720,24 @@
     </or>
   </rule>
 
+  <rule weight="3.0">
+    <or>
+      <match lemma="teléfono"/>
+      <match lemma="puerta"/>
+    </or>
+    <match lemma="a" tags="pr"/>
+    <match tags="rel.*"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="trucar"/></match> 
+  </rule>
+
   <rule weight="1.0">
     <match lemma="llamar" tags="vblex.*"><select lemma="trucar"/></match>
     <match lemma="a"/>
     <match tags="det.*"/>
-    <match lemma="teléfono"/>
+    <or>
+      <match lemma="teléfono"/>
+      <match lemma="puerta"/>
+    </or>
   </rule>
 
   <rule weight="1.0">
