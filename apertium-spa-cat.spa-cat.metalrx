@@ -1647,6 +1647,21 @@
     </or>
   </rule>
 
+  <rule weight="3.0">  
+    <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
+    <repeat from="0" upto="10">
+      <or>
+        <match tags="n.*"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+    <match tags="*.inf"/>
+  </rule>
+
   <rule weight="3.0">
     <match tags="adv"/>
     <match lemma="llamar" tags="vblex.pp.*"><select lemma="cridar"/></match> 
