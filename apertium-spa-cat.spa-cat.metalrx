@@ -1726,6 +1726,9 @@
       <match lemma="puerta"/>
     </or>
     <match lemma="a" tags="pr"/>
+    <repeat from="0" upto="1">
+        <match tags="det.*"/>
+    </repeat> 
     <match tags="rel.*"/>
     <match lemma="llamar" tags="vblex.*"><select lemma="trucar"/></match> 
   </rule>
