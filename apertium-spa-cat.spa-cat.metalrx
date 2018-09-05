@@ -1651,10 +1651,12 @@
     <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
     <repeat from="0" upto="10">
       <or>
+        <match tags="pr" lemma="a"/>
+        <match tags="pr" lemma="de"/>
         <match tags="n.*"/>
         <match tags="det.*"/>
         <match tags="adj.*"/>
-        <match tags="pr"/>
+        <!--<match tags="pr"/>-->
         <match tags="cnjcoo"/>
       </or>
     </repeat>
