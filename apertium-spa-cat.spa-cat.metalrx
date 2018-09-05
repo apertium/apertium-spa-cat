@@ -1763,6 +1763,11 @@
     <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match>
   </rule>
 
+  <rule weight="2.0">
+    <match tags="rel.*"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match>
+  </rule>
+
  <!-- granito > granit/granet/mica -->
 
   <rule weight="0.6">
