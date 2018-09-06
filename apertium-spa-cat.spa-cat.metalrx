@@ -4898,6 +4898,17 @@
     <match lemma="con" tags="pr"/>
   </rule>
 
+   <!-- el día siguiente > l'endemà / el dia següent -->
+
+  <rule weight="0.5">
+    <match lemma="día siguiente" tags="n.m.sg"><select lemma="endemà"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="día siguiente" tags="n.m.sg"><select lemma="endemà del dia"/></match>
+    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match lemma="el que" tags="rel.an.m.sg"><select lemma="que"/></match>
+  </rule>
    
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
