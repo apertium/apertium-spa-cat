@@ -4993,6 +4993,17 @@
     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
     <match lemma="el que" tags="rel.an.m.sg"><select lemma="que"/></match>
   </rule>
+
+     <!-- sumo > summe / suprem -->
+
+  <rule weight="0.5">
+    <match lemma="sumo" tags="adj.*"><select lemma="summe"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="grado" tags="n.*"/>
+    <match lemma="sumo" tags="adj.*"><select lemma="suprem"/></match>
+  </rule>
    
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
