@@ -2621,6 +2621,11 @@
     </or>  
   </rule>
 
+  <rule weight="2">
+    <match lemma="dar" tags="vblex.*"><select lemma="donar"/></match>
+    <match lemma="paso" tags="n.m.sg"/>
+  </rule>
+
   <!-- Verbs transitius: Le afectaba > L'afectava -->
   <rule weight="0.6">
     <match lemma="le" tags="prn.pro.*"><select lemma="li"/></match>
