@@ -3632,7 +3632,10 @@
   </rule>
 
   <rule weight="5">
-    <match tags="pr" lemma="excepto"/>
+    <or>
+      <match tags="pr" lemma="excepto"/>
+      <match tags="pr" lemma="respecto a"/>
+    </or>
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
@@ -3753,6 +3756,17 @@
 
   <rule weight="3"> 
     <or>
+      <match lemma="más" tags="adv"/>
+      <match lemma="menos" tags="adv"/>
+      <match lemma="más" tags="adj.*"/>
+      <match lemma="más allá" tags="adv"/>
+    </or>
+    <match tags="pr" lemma="de"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
       <match lemma="hacer" tags="vblex.*"/>
       <match lemma="dar" tags="vblex.*"/>
     </or>
@@ -3776,7 +3790,12 @@
 
 
   <rule weight="3.2"> 
-    <match tags="vbhaver.*"/>
+    <or>
+      <match tags="vbhaver.*"/>
+      <match tags="vbmod.*"/>
+      <match tags="vblex.*" lemma="ver"/>
+      <match tags="vblex.*" lemma="sentir"/>
+    </or>
     <match tags="vblex.pp.*"/>
     <repeat from="0" upto="1">
       <match tags="adv"/>
