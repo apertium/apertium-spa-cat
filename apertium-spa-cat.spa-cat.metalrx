@@ -3602,6 +3602,153 @@
       <match lemma="parte" tags="n.*"/>
   </rule>
 
+   <!-- el que > el que / el qual -->
+
+  <rule weight="0.5">
+    <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.*"><select lemma="el qual"/></match>
+  </rule>
+
+  <rule weight="5">
+    <match tags="pr" lemma="excepto"/>
+    <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="2"> <!-- per a donar varietat i no traduri sempre "en el qual"-->
+    <or>
+      <match lemma="año" tags="n.m.*"/>
+      <match lemma="día" tags="n.m.*"/>
+      <match lemma="mes" tags="n.m.*"/>
+    </or>
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.an.m.*"><select lemma="què"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="alternativo" tags="adj.*"/>
+      <match lemma="anterior" tags="adj.*"/>
+      <match lemma="análogo" tags="adj.*"/>
+      <match lemma="contrario" tags="adj.*"/>
+      <match lemma="correspondiente" tags="adj.*"/>
+      <match lemma="diferente" tags="adj.*"/>
+      <match lemma="distinto" tags="adj.*"/>
+      <match lemma="equiparable" tags="adj.*"/>
+      <match lemma="equivalente" tags="adj.*"/>
+      <match lemma="igual" tags="adj.*"/>
+      <match lemma="inferior" tags="adj.*"/>
+      <match lemma="inverso" tags="adj.*"/>
+      <match lemma="mejor" tags="adj.*"/>
+      <match lemma="paralelo" tags="adj.*"/>
+      <match lemma="peor" tags="adj.*"/>
+      <match lemma="posterior" tags="adj.*"/>
+      <match lemma="próximo" tags="adj.*"/>
+      <match lemma="referente" tags="adj.*"/>
+      <match lemma="semejante" tags="adj.*"/>
+      <match lemma="similar" tags="adj.*"/>
+      <match lemma="superior" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="pr" lemma="a"/>
+      <match tags="pr" lemma="de"/>
+    </or>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="hacer" tags="vblex.*"/>
+      <match lemma="dar" tags="vblex.*"/>
+    </or>
+    <or>
+      <match lemma="origen" tags="n.*"/>
+      <match lemma="frente" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="a"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="más" tags="adv"/>
+      <match lemma="menos" tags="adv"/>
+      <match lemma="más" tags="adj.*"/>
+      <match lemma="menos" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="de"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="hacer" tags="vblex.*"/>
+      <match lemma="dar" tags="vblex.*"/>
+    </or>
+    <or>
+      <match lemma="caso" tags="n.*"/>
+      <match lemma="mención" tags="n.*"/>
+      <match lemma="cargo" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="pr" lemma="a"/>
+      <match tags="pr" lemma="de"/>
+    </or>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+
+  <rule weight="3"> 
+    <match tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <match tags="n.*" lemma="comparación"/>
+    <or>
+      <match tags="pr" lemma="a"/>
+      <match tags="pr" lemma="de"/>
+      <match tags="pr" lemma="con"/>
+    </or>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+
    <!-- en tanto que > en tant que / com a -->
 
   <rule weight="0.6">
@@ -4079,6 +4226,8 @@
         <match tags="det.*"/>
         <match tags="n.*"/>
         <match tags="adj.*"/>
+        <match tags="rel.an.*" lemma="el que"/>
+        <match tags="rel.an.*" lemma="lo que"/>
       </or>
   </rule>
 
@@ -4748,7 +4897,8 @@
     <match tags="prn.enc.*"/>
     <match lemma="con" tags="pr"/>
   </rule>
-    
+
+   
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />

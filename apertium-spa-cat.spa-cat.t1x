@@ -226,9 +226,6 @@
       <cat-item lemma="que" tags="cnjsub" />
       <cat-item lemma="que" tags="rel.an.mf.sp" />
     </def-cat>
-    <def-cat n="el_que">
-      <cat-item lemma="el que" tags="rel.an.*" />
-    </def-cat>
     <def-cat n="uno_prn">
       <cat-item lemma="uno" tags="prn.tn.*" />
     </def-cat>
@@ -5998,27 +5995,6 @@
           <b pos="1" />
           <lu>
             <clip pos="2" side="tl" part="whole" />
-          </lu>
-        </out>
-      </action>
-    </rule>
-    <rule>
-      <!-- prep + el que -> prep el qual -->
-      <pattern>
-        <pattern-item n="prep" />
-        <pattern-item n="el_que" />
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <lit v="el qual" />
-            <lit-tag v="rel.an" />
-            <clip pos="2" side="sl" part="gen" />
-            <clip pos="2" side="sl" part="nbr" />
           </lu>
         </out>
       </action>
