@@ -4014,7 +4014,7 @@
       <match lemma="tener" tags="vblex.*"/>
       <match lemma="perder" tags="vblex.*"/>
       <match lemma="matar" tags="vblex.*"/>
-      <match lemma="sentir" tags="vblex.*"/>
+      <!--<match lemma="sentir" tags="vblex.*"/>  BUG!! -->
       <match lemma="quitar" tags="vblex.*"/>
       <match lemma="saciar" tags="vblex.*"/>
     </or>
