@@ -2244,6 +2244,17 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="tanto" tags="n.*"><select lemma="tant"/></match>
+    <match lemma="por" tags="pr"/>
+    <or>
+      <match lemma="ciento"/>
+      <match lemma="cien"/>
+      <match lemma="tanto"/>
+      <match lemma="mil"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
     <or>
       <match lemma="continuar" tags="vblex.*"/>
       <match lemma="estar" tags="vblex.*"/>
@@ -2594,6 +2605,8 @@
       <match lemma="impresión"/>
       <match lemma="lástima"/>
       <match lemma="miedo"/>
+      <match lemma="paso"/>
+      <match lemma="pasito"/>
       <match lemma="paseo"/>
       <match lemma="pellizco"/>
       <match lemma="película"/>
@@ -3618,7 +3631,7 @@
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
-  <rule weight="2"> <!-- per a donar varietat i no traduri sempre "en el qual"-->
+  <rule weight="2"> <!-- per a donar varietat i no traduir sempre "en el qual"-->
     <or>
       <match lemma="año" tags="n.m.*"/>
       <match lemma="día" tags="n.m.*"/>
@@ -3654,7 +3667,6 @@
     </or>
     <repeat from="0" upto="3">
       <or>
-        <match tags="n.*"/>
         <match tags="adj.*"/>
         <match tags="cm"/>
         <match tags="adv"/>
@@ -3664,6 +3676,35 @@
       <match tags="pr" lemma="a"/>
       <match tags="pr" lemma="de"/>
     </or>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="alternativo" tags="adj.*"/>
+      <match lemma="anterior" tags="adj.*"/>
+      <match lemma="análogo" tags="adj.*"/>
+      <match lemma="contrario" tags="adj.*"/>
+      <match lemma="correspondiente" tags="adj.*"/>
+      <match lemma="diferente" tags="adj.*"/>
+      <match lemma="distinto" tags="adj.*"/>
+      <match lemma="equiparable" tags="adj.*"/>
+      <match lemma="equivalente" tags="adj.*"/>
+      <match lemma="igual" tags="adj.*"/>
+      <match lemma="inferior" tags="adj.*"/>
+      <match lemma="inverso" tags="adj.*"/>
+      <match lemma="mejor" tags="adj.*"/>
+      <match lemma="paralelo" tags="adj.*"/>
+      <match lemma="peor" tags="adj.*"/>
+      <match lemma="posterior" tags="adj.*"/>
+      <match lemma="próximo" tags="adj.*"/>
+      <match lemma="referente" tags="adj.*"/>
+      <match lemma="semejante" tags="adj.*"/>
+      <match lemma="similar" tags="adj.*"/>
+      <match lemma="superior" tags="adj.*"/>
+    </or>
+    <match tags="n.*"/>
+    <match tags="pr" lemma="a"/>
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
   </rule>
 
@@ -3728,6 +3769,25 @@
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
   </rule>
 
+
+  <rule weight="3.2"> 
+    <match tags="vbhaver.*"/>
+    <match tags="vblex.pp.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3.1"> 
+    <match tags="vblex.pp.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el qual"/></match>
+  </rule>
 
   <rule weight="3"> 
     <match tags="vblex.*"/>
