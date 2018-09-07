@@ -3681,12 +3681,25 @@
         <match tags="adv"/>
       </or>
     </repeat>
-    <or>
-      <match tags="pr" lemma="a"/>
-      <match tags="pr" lemma="de"/>
-    </or>
+    <match tags="pr" lemma="a"/>
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
   </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="diferente" tags="adj.*"/>
+      <match lemma="distinto" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adj.*"/>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="de"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule> 
 
   <rule weight="3"> 
     <or>
@@ -3791,12 +3804,13 @@
 
 
   <rule weight="3.2"> 
-    <or>
-      <match tags="vbhaver.*"/>
+    <match tags="vbhaver.*"/>
+    <!--<or>
+      
       <match tags="vbmod.*"/>
       <match tags="vblex.*" lemma="ver"/>
       <match tags="vblex.*" lemma="sentir"/>
-    </or>
+    </or>-->
     <match tags="vblex.pp.*"/>
     <repeat from="0" upto="1">
       <match tags="adv"/>
@@ -4302,6 +4316,85 @@
       <match lemma="reñir" tags="vblex.*"/>
       <match lemma="secuestrar" tags="vblex.*"/>
       <match lemma="sorprender" tags="vblex.*"/>
+  </or>
+      <repeat from="0" upto="1">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <or>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match tags="rel.an.*" lemma="el que"/>
+        <match tags="rel.an.*" lemma="lo que"/>
+      </or>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="acusar" tags="vblex.pp.*"/>
+      <match lemma="afectar" tags="vblex.pp.*"/>
+      <match lemma="agrupar" tags="vblex.pp.*"/>
+      <match lemma="apasionar" tags="vblex.pp.*"/>
+      <match lemma="asesorar" tags="vblex.pp.*"/>
+      <match lemma="atender" tags="vblex.pp.*"/>
+      <match lemma="autorizar" tags="vblex.pp.*"/>
+      <match lemma="cansar" tags="vblex.pp.*"/>
+      <match lemma="concernir" tags="vblex.pp.*"/>
+      <match lemma="contentar" tags="vblex.pp.*"/>
+      <match lemma="entrevistar" tags="vblex.pp.*"/>
+      <match lemma="felicitar" tags="vblex.pp.*"/>
+      <match lemma="fichar" tags="vblex.pp.*"/>
+      <match lemma="homenajear" tags="vblex.pp.*"/>
+      <match lemma="implicar" tags="vblex.pp.*"/>
+      <match lemma="informar" tags="vblex.pp.*"/>
+      <match lemma="perjudicar" tags="vblex.pp.*"/>
+      <match lemma="preocupar" tags="vblex.pp.*"/>
+      <match lemma="promover" tags="vblex.pp.*"/>
+      <match lemma="reunir" tags="vblex.pp.*"/>
+      <match lemma="reñir" tags="vblex.pp.*"/>
+      <match lemma="secuestrar" tags="vblex.pp.*"/>
+      <match lemma="sorprender" tags="vblex.pp.*"/>
+  </or>
+      <repeat from="0" upto="1">
+        <match tags="adv"/>
+      </repeat>
+      <match lemma="a" tags="pr"><select lemma="a"/></match>
+      <or>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match tags="rel.an.*" lemma="el que"/>
+        <match tags="rel.an.*" lemma="lo que"/>
+      </or>
+  </rule>
+
+    <rule weight="2">
+    <match tags="vbhaver.*"/>  
+    <or>
+      <match lemma="acusar" tags="vblex.pp.m.sg"/>
+      <match lemma="afectar" tags="vblex.pp.m.sg"/>
+      <match lemma="agrupar" tags="vblex.pp.m.sg"/>
+      <match lemma="apasionar" tags="vblex.pp.m.sg"/>
+      <match lemma="asesorar" tags="vblex.pp.m.sg"/>
+      <match lemma="atender" tags="vblex.pp.m.sg"/>
+      <match lemma="autorizar" tags="vblex.pp.m.sg"/>
+      <match lemma="cansar" tags="vblex.pp.m.sg"/>
+      <match lemma="concernir" tags="vblex.pp.m.sg"/>
+      <match lemma="contentar" tags="vblex.pp.m.sg"/>
+      <match lemma="entrevistar" tags="vblex.pp.m.sg"/>
+      <match lemma="felicitar" tags="vblex.pp.m.sg"/>
+      <match lemma="fichar" tags="vblex.pp.m.sg"/>
+      <match lemma="homenajear" tags="vblex.pp.m.sg"/>
+      <match lemma="implicar" tags="vblex.pp.m.sg"/>
+      <match lemma="informar" tags="vblex.pp.m.sg"/>
+      <match lemma="perjudicar" tags="vblex.pp.m.sg"/>
+      <match lemma="preocupar" tags="vblex.pp.m.sg"/>
+      <match lemma="promover" tags="vblex.pp.m.sg"/>
+      <match lemma="reunir" tags="vblex.pp.m.sg"/>
+      <match lemma="reñir" tags="vblex.pp.m.sg"/>
+      <match lemma="secuestrar" tags="vblex.pp.m.sg"/>
+      <match lemma="sorprender" tags="vblex.pp.m.sg"/>
   </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
