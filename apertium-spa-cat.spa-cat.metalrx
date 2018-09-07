@@ -2592,6 +2592,7 @@
         <match tags="adj.*"/>
         <match tags="pr"/>
         <match tags="adv"/>
+        <match tags="num.*"/>
       </or>
     </repeat>
     <or>
