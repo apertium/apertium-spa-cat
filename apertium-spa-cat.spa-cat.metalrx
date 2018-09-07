@@ -3689,6 +3689,7 @@
     <or>
       <match lemma="diferente" tags="adj.*"/>
       <match lemma="distinto" tags="adj.*"/>
+      <match lemma="mejor" tags="adj.*"/>
     </or>
     <repeat from="0" upto="3">
       <or>
