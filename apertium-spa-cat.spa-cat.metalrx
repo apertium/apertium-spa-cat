@@ -5204,25 +5204,49 @@
       </or>
     </repeat>
     <or>
-      <match lemma="fuezo" tags="n.*"/>
+      <match lemma="animosidad" tags="n.*"/>
+      <match lemma="brasa" tags="n.*"/>
+      <match lemma="conflicto" tags="n.*"/>
+      <match lemma="especulación" tags="n.*"/>
+      <match lemma="fuego" tags="n.*"/>
       <match lemma="hogar" tags="n.*"/>
+      <match lemma="impaciencia" tags="n.*"/>
+      <match lemma="miedo" tags="n.*"/>
       <match lemma="odio" tags="n.*"/>
       <match lemma="pasión" tags="n.*"/>
-      <match lemma="impaciencia" tags="n.*"/>
-      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="pánico" tags="n.*"/>
+      <match lemma="racismo" tags="n.*"/>
       <match lemma="rivalidad" tags="n.*"/>
+      <match lemma="sentimiento" tags="n.*"/>
+      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="temor" tags="n.*"/>
+      <match lemma="tensión" tags="n.*"/>
+      <match lemma="violencia" tags="n.*"/>
+      <match lemma="xenofobia" tags="n.*"/>
     </or>
   </rule>
 
   <rule weight="1">
     <or>
-      <match lemma="fuezo" tags="n.*"/>
+      <match lemma="animosidad" tags="n.*"/>
+      <match lemma="brasa" tags="n.*"/>
+      <match lemma="conflicto" tags="n.*"/>
+      <match lemma="especulación" tags="n.*"/>
+      <match lemma="fuego" tags="n.*"/>
       <match lemma="hogar" tags="n.*"/>
+      <match lemma="impaciencia" tags="n.*"/>
+      <match lemma="miedo" tags="n.*"/>
       <match lemma="odio" tags="n.*"/>
       <match lemma="pasión" tags="n.*"/>
-      <match lemma="impaciencia" tags="n.*"/>
-      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="pánico" tags="n.*"/>
+      <match lemma="racismo" tags="n.*"/>
       <match lemma="rivalidad" tags="n.*"/>
+      <match lemma="sentimiento" tags="n.*"/>
+      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="temor" tags="n.*"/>
+      <match lemma="tensión" tags="n.*"/>
+      <match lemma="violencia" tags="n.*"/>
+      <match lemma="xenofobia" tags="n.*"/>
     </or>
     <repeat from="0" upto="5">
       <or>
