@@ -5206,6 +5206,9 @@
       <match lemma="hogar" tags="n.*"/>
       <match lemma="odio" tags="n.*"/>
       <match lemma="pasión" tags="n.*"/>
+      <match lemma="impaciencia" tags="n.*"/>
+      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="rivalidad" tags="n.*"/>
     </or>
   </rule>
 
@@ -5215,6 +5218,9 @@
       <match lemma="hogar" tags="n.*"/>
       <match lemma="odio" tags="n.*"/>
       <match lemma="pasión" tags="n.*"/>
+      <match lemma="impaciencia" tags="n.*"/>
+      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="rivalidad" tags="n.*"/>
     </or>
     <repeat from="0" upto="5">
       <or>
