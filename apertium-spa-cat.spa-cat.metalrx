@@ -4855,6 +4855,7 @@
       <match lemma="río" tags="n.*"/>
       <match lemma="cuesta" tags="n.*"/>
       <match lemma="escalera" tags="n.*"/>
+      <match lemma="agua" tags="n.*"/>
     </or>
     <match lemma="abajo" tags="adv"><select lemma="avall"/></match>
   </rule>
@@ -4873,6 +4874,7 @@
       <match lemma="río" tags="n.*"/>
       <match lemma="cuesta" tags="n.*"/>
       <match lemma="escalera" tags="n.*"/>
+      <match lemma="agua" tags="n.*"/>
     </or>
     <match lemma="arriba" tags="adv"><select lemma="amunt"/></match>
   </rule>
