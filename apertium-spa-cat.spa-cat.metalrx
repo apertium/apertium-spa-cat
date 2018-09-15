@@ -539,6 +539,37 @@
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
 
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbhaver.*.p1.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbhaver.*.p2.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbhaver.*.p3.sg"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbhaver.*.p1.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbhaver.*.p2.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbhaver.*.p3.pl"/>
+    <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
+  </rule>
+
   <rule weight="1"> <!-- No funciona en un cas: "tienes que darme cuenta a mi" (molt rar)-->
     <match lemma="dar# cuenta"><select lemma="adonar"/></match>
         <or>

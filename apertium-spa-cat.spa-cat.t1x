@@ -50,6 +50,9 @@
       <cat-item tags="adj.mf.*"/>
       <cat-item tags="vblex.pp.*" />
     </def-cat>
+    <def-cat n="adjecitg">
+      <cat-item tags="adj.itg.*" />
+    </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*" />
     </def-cat>
@@ -3317,6 +3320,46 @@
             <clip pos="4" side="tl" part="gen" />
             <clip pos="4" side="tl" part="nbr" />
             <clip pos="4" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <!-- REGLA: ITG ADJECTIU NOM -->
+      <pattern>
+        <pattern-item n="adjecitg" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="nom" />
+      </pattern>
+      <action>
+        <call-macro n="f_concord3">
+          <with-param pos="3" />
+          <with-param pos="2" />
+          <with-param pos="1" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh" />
+            <clip pos="1" side="tl" part="a_adjec" />
+            <clip pos="1" side="tl" part="gen" />
+            <clip pos="1" side="tl" part="nbr" />
+            <clip pos="1" side="tl" part="lemq" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="a_adjec" />
+            <clip pos="2" side="tl" part="gen" />
+            <clip pos="2" side="tl" part="nbr" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="lemh" />
+            <clip pos="3" side="tl" part="a_nom" />
+            <clip pos="3" side="tl" part="gen" />
+            <clip pos="3" side="tl" part="nbr" />
+            <clip pos="3" side="tl" part="lemq" />
           </lu>
         </out>
       </action>
