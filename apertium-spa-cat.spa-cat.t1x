@@ -40,6 +40,16 @@
       <cat-item tags="adj.*" />
       <cat-item tags="vblex.pp.*" />
     </def-cat>
+    <def-cat n="adjec0"> <!-- sense itg -->
+      <cat-item tags="adj.ind.*" />
+      <cat-item tags="adj.sup.*" />
+      <cat-item tags="adj.pos.*" />
+      <cat-item tags="adj.ord.*"/>
+      <cat-item tags="adj.m.*"/>
+      <cat-item tags="adj.f.*"/>
+      <cat-item tags="adj.mf.*"/>
+      <cat-item tags="vblex.pp.*" />
+    </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*" />
     </def-cat>
@@ -3231,7 +3241,7 @@
       <!-- REGLA: NOM ADJECTIU-->
       <pattern>
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord2">
