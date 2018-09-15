@@ -3274,9 +3274,9 @@
       <!-- REGLA: NOM ADJECTIU i ADJECTIU-->
       <pattern>
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
         <pattern-item n="cnjoadv" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -3503,8 +3503,8 @@
       <!-- REGLA: NOM ADJECTIU ADJECTIU-->
       <pattern>
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -3645,7 +3645,7 @@
       <pattern>
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -3742,7 +3742,7 @@
       <pattern>
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
         <pattern-item n="cnjoadv" />
         <pattern-item n="adjec" />
       </pattern>
@@ -3802,8 +3802,8 @@
       <pattern>
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord4">
@@ -3853,8 +3853,8 @@
       <!-- REGLA: NOM ADJECTIU ADJECTIU-->
       <pattern>
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4087,7 +4087,7 @@
         <pattern-item n="predet" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord4">
@@ -4166,7 +4166,7 @@
       <pattern>
         <pattern-item n="adj" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4213,7 +4213,7 @@
         <pattern-item n="det" />
         <pattern-item n="adjec" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
@@ -4522,7 +4522,7 @@
       <pattern>
         <pattern-item n="num" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
@@ -4842,7 +4842,7 @@
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_preps">
@@ -4880,7 +4880,7 @@
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
         <pattern-item n="cnjoadv" />
         <pattern-item n="adjec" />
       </pattern>
@@ -4975,7 +4975,7 @@
         <pattern-item n="prep" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
@@ -5022,9 +5022,9 @@
         <pattern-item n="prep" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
         <pattern-item n="cnjoadv" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
@@ -5087,8 +5087,8 @@
         <pattern-item n="prep" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
@@ -5140,8 +5140,8 @@
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_preps">
@@ -5348,7 +5348,7 @@
         <pattern-item n="predet" />
         <pattern-item n="det" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
@@ -5437,7 +5437,7 @@
         <pattern-item n="prep" />
         <pattern-item n="adj" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_preps">
@@ -5489,7 +5489,7 @@
         <pattern-item n="det" />
         <pattern-item n="adjec" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_lexicDet">
@@ -5800,7 +5800,7 @@
         <pattern-item n="prep" />
         <pattern-item n="num" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_preps">
@@ -6596,7 +6596,7 @@
       <pattern>
         <pattern-item n="cuyo" />
         <pattern-item n="nom" />
-        <pattern-item n="adjec" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <choose>
