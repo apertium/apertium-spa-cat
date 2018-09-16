@@ -4752,7 +4752,7 @@
       <!-- REGLA: PREP ADJECTIU -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="adj" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_preps">
