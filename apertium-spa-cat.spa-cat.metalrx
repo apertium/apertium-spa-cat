@@ -483,11 +483,16 @@
     <match lemma="dar# cuenta" tags="vblex.*"><select lemma="donar# compte"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="1.5">
+    <match lemma="dar# cuenta" tags="vblex.*"><select lemma="donar# compte"/></match>
+    <match lemma="a" tags="pr"/>
+  </rule>
+
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match lemma="dar# cuenta" tags="vblex.*.p1.sg"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p2.mf.sg"/>
     <match lemma="dar# cuenta" tags="vblex.*.p2.sg"><select lemma="adonar"/></match>
   </rule>
@@ -495,25 +500,25 @@
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match lemma="dar# cuenta" tags="vblex.*.p3.sg"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.pl"/>
     <match lemma="dar# cuenta" tags="vblex.*.p1.pl"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p2.mf.pl"/>
     <match lemma="dar# cuenta" tags="vblex.*.p2.pl"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match lemma="dar# cuenta" tags="vblex.*.p3.pl"><select lemma="adonar"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match tags="vbmod.*.p1.sg"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
-    <rule weight="1">
+    <rule weight="2">
     <match tags="prn.pro.p2.mf.sg"/>
     <match tags="vbmod.*.p2.sg"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
@@ -523,28 +528,28 @@
     <match tags="vbmod.*.p3.sg"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match tags="vbmod.*.p1.pl"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
-    <rule weight="1">
+    <rule weight="2">
     <match tags="prn.pro.p2.mf.sg"/>
     <match tags="vbmod.*.p2.pl"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
-    <rule weight="1">
+    <rule weight="2">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match tags="vbmod.*.p3.pl"/>
     <match lemma="dar# cuenta" tags="vblex.inf"><select lemma="adonar"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match tags="vbhaver.*.p1.sg"/>
     <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
   </rule>
-    <rule weight="1">
+    <rule weight="2">
     <match tags="prn.pro.p2.mf.sg"/>
     <match tags="vbhaver.*.p2.sg"/>
     <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
@@ -554,29 +559,38 @@
     <match tags="vbhaver.*.p3.sg"/>
     <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
   </rule>
-  <rule weight="1">
+  <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match tags="vbhaver.*.p1.pl"/>
     <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
   </rule>
-    <rule weight="1">
+    <rule weight="2">
     <match tags="prn.pro.p2.mf.sg"/>
     <match tags="vbhaver.*.p2.pl"/>
     <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
   </rule>
-    <rule weight="1">
+    <rule weight="2">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match tags="vbhaver.*.p3.pl"/>
     <match lemma="dar# cuenta" tags="vblex.pp.m.sg"><select lemma="adonar"/></match>
   </rule>
 
-  <rule weight="1"> <!-- No funciona en un cas: "tienes que darme cuenta a mi" (molt rar)-->
+  <rule weight="1"> 
     <match lemma="dar# cuenta"><select lemma="adonar"/></match>
-        <or>
-            <match tags="prn.enc.ref.p3.mf.sp"/>
-            <match tags="prn.enc.p1.mf.*"/>
-            <match tags="prn.enc.p2.mf.*"/>
-        </or>
+    <or>
+        <match tags="prn.enc.ref.p3.mf.sp"/>
+        <match tags="prn.enc.p1.mf.*"/>
+        <match tags="prn.enc.p2.mf.*"/>
+    </or>
+  </rule>
+  <rule weight="1.5"> 
+    <match lemma="dar# cuenta"><select lemma="donar# compte"/></match>
+    <or>
+        <match tags="prn.enc.ref.p3.mf.sp"/>
+        <match tags="prn.enc.p1.mf.*"/>
+        <match tags="prn.enc.p2.mf.*"/>
+    </or>
+    <match lemma="a" tags="pr"/>
   </rule>
   
 <!-- tachar > ratllar / titllar  -->
@@ -2506,9 +2520,15 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="ser"/>
+    <or>
+      <match lemma="ser" tags="vbser.*"/>
+      <match lemma="resultar" tags="vblex.*"/>
+    </or>
     <match lemma="preciso" tags="adj.m.sg"><select lemma="necessari"/></match>
-    <match tags="*.inf"/>  
+    <or>
+      <match tags="*.inf"/>
+      <match lemma="que"/>
+    </or>  
   </rule>
 
   <!-- desatar > deslligar / desfermar... -->
@@ -5290,6 +5310,21 @@
       </or>
     </repeat>
     <match lemma="atizar" tags="vblex.*"><select lemma="atiar"/></match>
+  </rule>
+
+  <!-- qué duda cabe > no hi ha dubte / no n'hi ha dubte -->
+
+  <rule weight="0.5">
+    <match lemma="qué duda cabe" tags="adv"><select lemma="no n'hi ha dubte"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="qué duda cabe" tags="adv"><select lemma="no hi ha dubte"/></match>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match lemma="que" />
+      <match lemma="de que"/>
+    </or>
   </rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
