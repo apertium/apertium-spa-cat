@@ -2576,6 +2576,11 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="hasta" tags="pr"><select lemma="fins i tot"/></match>
+    <match lemma="en" tags="pr"/>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="hasta" tags="pr"><select lemma="fins a"/></match>
     <or>
       <match tags="vblex.inf"/>  
