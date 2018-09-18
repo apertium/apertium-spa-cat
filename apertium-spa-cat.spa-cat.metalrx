@@ -4196,6 +4196,9 @@
 
   <rule weight="3">
     <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.def.*"/>
+    </repeat>
     <or>
       <match tags="np.loc"/>
       <match tags="np.top"/>
@@ -5326,6 +5329,11 @@
       <match lemma="de que"/>
     </or>
   </rule>
+
+  <!-- topònims amb article -->
+  <rule weight="0.5"><match lemma="Vendrell"><select lemma="el Vendrell"/></match></rule>         <rule weight="1"><match tags="det.*.m.sg"/><match lemma="Vendrell"><select lemma="Vendrell"/></match></rule>
+  <rule weight="0.5"><match lemma="Estados Unidos"><select lemma="els Estats Units"/></match></rule><rule weight="1"><match tags="det.*.m.pl"/><match lemma="Estados Unidos"><select lemma="Estats Units"/></match></rule>
+  <rule weight="0.5"><match lemma="China"><select lemma="la Xina"/></match></rule><rule weight="1"><match tags="det.*.f.sg"/><match lemma="China"><select lemma="Xina"/></match></rule>
 
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
