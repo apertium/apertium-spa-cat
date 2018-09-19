@@ -2576,11 +2576,6 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="hasta" tags="pr"><select lemma="fins"/></match>
-    <match lemma="en" tags="pr"><select lemma="a"/></match>
-  </rule>
-
-  <rule weight="1.0">
     <match lemma="hasta" tags="pr"><select lemma="fins a"/></match>
     <or>
       <match tags="vblex.inf"/>  
@@ -4213,17 +4208,20 @@
     </or>
   </rule>
 
-  <rule weight="3">
+  <rule weight="1.0">
     <match lemma="hasta" tags="pr"><select lemma="fins i tot"/></match>
+    <match lemma="en" tags="pr"/>
+  </rule>
+
+  <rule weight="2.0">
+    <match lemma="hasta" tags="pr"><select lemma="fins"/></match>
     <match lemma="en" tags="pr"><select lemma="a"/></match>
     <repeat from="0" upto="1">
-      <match tags="det.def.*"/>
+      <match tags="det.*"/>
     </repeat>
     <or>
-      <match tags="np.loc"/>
-      <match tags="np.top"/>
-      <match tags="np.loc.*"/>
-      <match tags="np.top.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
     </or>
   </rule>
 
