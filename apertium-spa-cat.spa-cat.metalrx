@@ -2576,8 +2576,8 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="hasta" tags="pr"><select lemma="fins i tot"/></match>
-    <match lemma="en" tags="pr"/>
+    <match lemma="hasta" tags="pr"><select lemma="fins"/></match>
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
   </rule>
 
   <rule weight="1.0">
@@ -4184,6 +4184,7 @@
       <match lemma="incluir"/>
       <match lemma="interferir"/>
       <match lemma="pensar"/>
+      <match lemma="convertir"/>
     </or>
     <match lemma="en" tags="pr"><select lemma="en"/></match>
   </rule>
@@ -4200,6 +4201,20 @@
   </rule>
 
   <rule weight="3">
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.def.*"/>
+    </repeat>
+    <or>
+      <match tags="np.loc"/>
+      <match tags="np.top"/>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>
+    </or>
+  </rule>
+
+  <rule weight="3">
+    <match lemma="hasta" tags="pr"><select lemma="fins i tot"/></match>
     <match lemma="en" tags="pr"><select lemma="a"/></match>
     <repeat from="0" upto="1">
       <match tags="det.def.*"/>
