@@ -826,6 +826,23 @@
     <match lemma="número" tags="n.*"><select lemma="nombre"/></match>
   </rule>
 
+
+ <!-- hasta la fecha > fins avui / fins a la data  -->
+
+  <rule weight="0.5">
+    <match lemma="hasta la fecha" tags="adv"><select lemma="fins avui"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="hasta la fecha" tags="adv"><select lemma="fins a la data"/></match>
+    <or>
+      <match lemma="de" tags="pr"/>
+      <match tags="adj.f.*"/>
+      <match tags="adj.mf.*"/>
+      <match tags="*.pp.f.sg"/>
+    </or>
+  </rule>
+
   <!-- bolsa > bossa / borsa  -->
 
   <rule weight="0.5">
