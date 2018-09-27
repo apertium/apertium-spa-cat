@@ -3585,6 +3585,57 @@
         </out>
       </action>
     </rule>
+
+    <rule>
+      <!--REGLA: HABER 3ª persona + PP (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver")-->
+      <pattern>
+        <pattern-item n="haber3p" />
+        <pattern-item n="pp_nohaber" />
+      </pattern>
+      <action>
+        <!--Cambia el verbo "haber" por la forma auxiliar , ya que la forma no auxiliar "vbhaver" en las terceras formas singulares se traduce en el diccionario por el verbo "haver-hi"-->
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem" />
+            <lit-tag v="vaux" />
+            <clip pos="1" side="tl" part="temps" />
+            <clip pos="1" side="tl" part="persona" />
+            <clip pos="1" side="tl" part="nbr" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="a_verb" />
+            <clip pos="2" side="tl" part="temps" />
+            <clip pos="2" side="tl" part="gen" />
+            <clip pos="2" side="tl" part="nbr" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <!-- REGLA: haber + participio + NOM  (excepció regla següent)-->  
+      <pattern>
+        <pattern-item n="haber" />
+        <pattern-item n="pp_nohaber" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+        </out>
+        <call-macro n="f_seleccioLex">
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_pretind">
+          <with-param pos="2" />
+        </call-macro>
+      </action>
+    </rule> 
     <rule>
       <!-- REGLA: ADJECTIU NOM -->
       <pattern>
@@ -4978,7 +5029,7 @@
       <!-- REGLA: PREP ADJECTIU NOM -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="adj" />
+        <pattern-item n="adjec" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -7705,34 +7756,6 @@
       <var n="interrogativa"/>
       <lit v="true"/>
       </let>  -->
-      </action>
-    </rule>
-    <rule>
-      <!--REGLA: HABER 3ª persona + PP (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver")-->
-      <pattern>
-        <pattern-item n="haber3p" />
-        <pattern-item n="pp_nohaber" />
-      </pattern>
-      <action>
-        <!--Cambia el verbo "haber" por la forma auxiliar , ya que la forma no auxiliar "vbhaver" en las terceras formas singulares se traduce en el diccionario por el verbo "haver-hi"-->
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lem" />
-            <lit-tag v="vaux" />
-            <clip pos="1" side="tl" part="temps" />
-            <clip pos="1" side="tl" part="persona" />
-            <clip pos="1" side="tl" part="nbr" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <clip pos="2" side="tl" part="lemh" />
-            <clip pos="2" side="tl" part="a_verb" />
-            <clip pos="2" side="tl" part="temps" />
-            <clip pos="2" side="tl" part="gen" />
-            <clip pos="2" side="tl" part="nbr" />
-            <clip pos="2" side="tl" part="lemq" />
-          </lu>
-        </out>
       </action>
     </rule>
     <rule>
