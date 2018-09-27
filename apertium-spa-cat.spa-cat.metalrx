@@ -937,6 +937,8 @@
       <match lemma="financiar"/>
       <match lemma="financiero"/>
       <match lemma="fondo" tags="n.m.*"/>
+      <match lemma="inversor"/>
+      <match lemma="invertir"/>
       <match lemma="jubilación"/>
       <match lemma="mercado" tags="n.m.*"/>
       <match lemma="multinacional"/>
@@ -948,7 +950,48 @@
     </or>
   </rule>
 
-  <rule weight="2">
+  <rule weight="1">
+    <or>
+      <match lemma="acción"/>
+      <match lemma="agente" tags="n.*"/>
+      <match lemma="banco" tags="n.*"/>
+      <match lemma="capital" tags="n.*"/>
+      <match lemma="competencia" tags="n.f.*"/>
+      <match lemma="corredor" tags="n.*"/>
+      <match lemma="cotización"/>
+      <match lemma="cotizar"/>
+      <match lemma="crisis" tags="n.f.*"/>
+      <match lemma="economía" tags="n.f.*"/>
+      <match lemma="empresa" tags="n.f.*"/>
+      <match lemma="financiación"/>
+      <match lemma="financiar"/>
+      <match lemma="financiero"/>
+      <match lemma="fondo" tags="n.m.*"/>
+      <match lemma="inversor"/>
+      <match lemma="invertir"/>
+      <match lemma="jubilación"/>
+      <match lemma="mercado" tags="n.m.*"/>
+      <match lemma="multinacional"/>
+      <match lemma="negociar"/>
+      <match lemma="pensión"/>
+      <match lemma="renta" tags="n.*"/>
+      <match lemma="start-up"/>
+      <match lemma="valor" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
+  </rule>
+
+    <rule weight="2">
     <match lemma="bolsa" tags="n.f.*"><select lemma="bossa"/></match>
     <repeat from="0" upto="3">
       <or>
@@ -978,46 +1021,6 @@
       <match lemma="térmico" tags="adj.*"/>
       <match lemma="viaje" tags="n.*"/>
     </or>
-  </rule>
-  
-
-  <rule weight="1">
-    <or>
-      <match lemma="acción"/>
-      <match lemma="agente" tags="n.*"/>
-      <match lemma="banco" tags="n.*"/>
-      <match lemma="capital" tags="n.*"/>
-      <match lemma="competencia" tags="n.f.*"/>
-      <match lemma="corredor" tags="n.*"/>
-      <match lemma="cotización"/>
-      <match lemma="cotizar"/>
-      <match lemma="crisis" tags="n.f.*"/>
-      <match lemma="economía" tags="n.f.*"/>
-      <match lemma="empresa" tags="n.f.*"/>
-      <match lemma="financiación"/>
-      <match lemma="financiar"/>
-      <match lemma="financiero"/>
-      <match lemma="fondo" tags="n.m.*"/>
-      <match lemma="jubilación"/>
-      <match lemma="mercado" tags="n.m.*"/>
-      <match lemma="multinacional"/>
-      <match lemma="negociar"/>
-      <match lemma="pensión"/>
-      <match lemma="renta" tags="n.*"/>
-      <match lemma="start-up"/>
-      <match lemma="valor" tags="n.*"/>
-    </or>
-    <repeat from="0" upto="20">
-      <or>
-        <match tags="*.*"/>
-        <match tags="adv"/>
-        <match tags="preadv"/>
-        <match tags="cm"/>
-        <match tags="pr"/>
-        <match tags="cnjcoo"/>
-      </or>
-    </repeat>
-    <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
   </rule>
 
   <!-- cámara > càmera / cambra  -->

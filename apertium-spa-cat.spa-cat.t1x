@@ -3588,7 +3588,7 @@
     <rule>
       <!-- REGLA: ADJECTIU NOM -->
       <pattern>
-        <pattern-item n="adj" />
+        <pattern-item n="adjec" />
         <pattern-item n="nom" />
       </pattern>
       <action>
