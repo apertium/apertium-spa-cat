@@ -826,6 +826,81 @@
     <match lemma="número" tags="n.*"><select lemma="nombre"/></match>
   </rule>
 
+  <!-- bolsa > bossa / borsa  -->
+
+  <rule weight="0.5">
+    <match lemma="bolsa" tags="n.f.*"><select lemma="bossa"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match lemma="de"/>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="np.loc"/>
+      <match tags="np.top"/>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>
+      <match lemma="sudeste" tags="n.*"/>
+      <match lemma="sureste" tags="n.*"/>
+      <match lemma="unión" tags="n.*"/>
+      <match lemma="trabajo" tags="n.*"/>
+      <match lemma="interino" tags="n.*"/>
+      <match lemma="suplente"/>
+      <match lemma="médico" tags="n.*"/>
+      <match lemma="enfermero" tags="n.*"/>
+      <match lemma="profesor" tags="n.*"/>
+      <match lemma="maestro" tags="n.*"/>
+      <match lemma="asiático" tags="adj.*"/>
+      <match lemma="europeo" tags="adj.*"/>
+      <match lemma="americano" tags="adj.*"/>
+      <match lemma="estadounidense" tags="adj.*"/>
+      <match lemma="norteamericano" tags="adj.*"/>
+      <match lemma="suramericano" tags="adj.*"/>
+      <match lemma="asiático" tags="adj.*"/>
+      <match lemma="latinoamericano" tags="adj.*"/>
+      <match lemma="africano" tags="adj.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="acción"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="acción"/>
+    </or>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
+  </rule>
+
   <!-- cámara > càmera / cambra  -->
 
   <rule weight="0.5">
@@ -951,14 +1026,19 @@
       <match lemma="combustión"/>
       <match lemma="comercio"/>
       <match lemma="compensación"/>
+      <match lemma="compresión"/>
       <match lemma="común"/>
       <match lemma="congelación"/>
       <match lemma="congreso"/>
       <match lemma="consejo"/>
+      <match lemma="conservación"/>
       <match lemma="cría"/>
       <match lemma="cultivo"/>
+      <match lemma="descongelación"/>
+      <match lemma="desverdización"/>
       <match lemma="diputado"/>
       <match lemma="empresario"/>
+      <match lemma="enfriamiento"/>
       <match lemma="expansión"/>
       <match lemma="gas"/>
       <match lemma="india"/>
@@ -967,14 +1047,20 @@
       <match lemma="lord"/>
       <match lemma="máquina"/>
       <match lemma="navegación"/>
-      <match lemma="paño"/>
       <match lemma="parlamentario"/>
+      <match lemma="paño"/>
+      <match lemma="postcombustión"/>
+      <match lemma="precipitación"/>
+      <match lemma="precombustión"/>
+      <match lemma="presión"/>
       <match lemma="productor"/>
       <match lemma="propiedad"/>
-      <match lemma="presión"/>
+      <match lemma="recuperación"/>
+      <match lemma="regulación"/>
       <match lemma="representando"/>
       <match lemma="representante"/>
       <match lemma="resonancia"/>
+      <match lemma="retención"/>
       <match lemma="reverberación"/>
       <match lemma="rey"/>
       <match lemma="senador"/>
@@ -1000,17 +1086,23 @@
       <match lemma="comercial"/>
       <match lemma="doblar"/>
       <match lemma="estatal"/>
+      <match lemma="espiral"/>
       <match lemma="frigorífico"/>
       <match lemma="funerario"/>
       <match lemma="hiperbárico"/>
+      <match lemma="hipobárico"/>
+      <match lemma="hidropónico"/>
       <match lemma="incubador"/>
+      <match lemma="impelente"/>
       <match lemma="insonorizar"/>
       <match lemma="institucional"/>
       <match lemma="legislativo"/>
       <match lemma="local"/>
       <match lemma="metálico"/>
+      <match lemma="magmático"/>
       <match lemma="mortuorio"/>
       <match lemma="nacional"/>
+      <match lemma="ocular"/>
       <match lemma="oficial"/>
       <match lemma="oscura"/>
       <match lemma="parlamentario"/>
