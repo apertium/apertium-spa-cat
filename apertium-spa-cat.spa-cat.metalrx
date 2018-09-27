@@ -863,7 +863,7 @@
     <match lemma="bolsa" tags="n.f.*"><select lemma="bossa"/></match>
   </rule>
 
-  <rule weight="2">
+  <rule weight="1">
     <match lemma="Bolsa" tags="n.f.*"><select lemma="borsa"/></match>
   </rule>
 
@@ -947,6 +947,39 @@
       <match lemma="valor" tags="n.*"/>
     </or>
   </rule>
+
+  <rule weight="2">
+    <match lemma="bolsa" tags="n.f.*"><select lemma="bossa"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match lemma="de" tags="pr"/>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="agua" tags="n.*"/>
+      <match lemma="aire" tags="n.*"/>
+      <match lemma="anticontagio" tags="adj.*"/>
+      <match lemma="aspiración" tags="n.*"/>
+      <match lemma="basura" tags="n.*"/>
+      <match lemma="biodegradable" tags="adj.*"/>
+      <match lemma="colector" tags="adj.*"/>
+      <match lemma="comida" tags="n.*"/>
+      <match lemma="compra" tags="n.*"/>
+      <match lemma="golf" tags="n.*"/>
+      <match lemma="mano" tags="n.*"/>
+      <match lemma="papel" tags="n.*"/>
+      <match lemma="piel" tags="n.*"/>
+      <match lemma="plástico" tags="n.*"/>
+      <match lemma="pobreza" tags="n.*"/>
+      <match lemma="tela" tags="n.*"/>
+      <match lemma="testicular" tags="adj.*"/>
+      <match lemma="transparente" tags="adj.*"/>
+      <match lemma="térmico" tags="adj.*"/>
+      <match lemma="viaje" tags="n.*"/>
+    </or>
+  </rule>
+  
 
   <rule weight="1">
     <or>
