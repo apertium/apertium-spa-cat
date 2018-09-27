@@ -864,6 +864,10 @@
   </rule>
 
   <rule weight="2">
+    <match lemma="Bolsa" tags="n.f.*"><select lemma="borsa"/></match>
+  </rule>
+
+  <rule weight="2">
     <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
     <repeat from="0" upto="3">
       <or>
@@ -1246,11 +1250,16 @@
     </or>
   </rule>
 
-  <rule weight="1">
+  <rule weight="5">
     <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
     <match lemma="y" tags="cnjcoo"/>
     <match lemma="acción" tags="n.f.sg"/>
   </rule>
+
+  <rule weight="2">
+    <match lemma="Cámara" tags="n.f.*"><select lemma="Cambra"/></match>
+  </rule>
+
 
   <rule weight="1">
     <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
