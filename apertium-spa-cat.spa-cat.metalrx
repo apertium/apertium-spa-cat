@@ -833,6 +833,20 @@
     <match lemma="hasta la fecha" tags="adv"><select lemma="fins avui"/></match>
   </rule>
 
+   <rule weight="1.5">
+    <match lemma="hasta la fecha" tags="adv"><select lemma="fins avui"/></match>
+    <match tags="adj.mf.*" lemma="gran"/>
+  </rule>
+
+  <rule weight="1.5">
+    <match lemma="hasta la fecha" tags="adv"><select lemma="fins avui"/></match>
+    <match tags="pr" lemma="de"/>
+    <or>
+      <match tags="n.f.sg" lemma="manera"/>
+      <match tags="n.f.sg" lemma="forma"/>
+    </or>
+  </rule>
+
   <rule weight="1">
     <match lemma="hasta la fecha" tags="adv"><select lemma="fins a la data"/></match>
     <or>
@@ -849,11 +863,13 @@
     <match lemma="bolsa" tags="n.f.*"><select lemma="bossa"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="2">
     <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
-    <repeat from="0" upto="2">
+    <repeat from="0" upto="3">
       <or>
-        <match lemma="de"/>
+        <match lemma="de" tags="pr"/>
+        <match lemma="a" tags="pr"/>
+        <match lemma="todo"/>
         <match tags="det.*"/>
       </or>
     </repeat>
@@ -863,6 +879,10 @@
       <match tags="np.loc.*"/>
       <match tags="np.top.*"/>
       <match lemma="sudeste" tags="n.*"/>
+      <match lemma="valor" tags="n.*"/>
+      <match lemma="mundo" tags="n.*"/>
+      <match lemma="mudial" tags="adj.*"/>
+      <match lemma="internacional" tags="adj.*"/>
       <match lemma="sureste" tags="n.*"/>
       <match lemma="unión" tags="n.*"/>
       <match lemma="trabajo" tags="n.*"/>
@@ -898,12 +918,56 @@
     </repeat>
     <or>
       <match lemma="acción"/>
+      <match lemma="agente" tags="n.*"/>
+      <match lemma="banco" tags="n.*"/>
+      <match lemma="capital" tags="n.*"/>
+      <match lemma="competencia" tags="n.f.*"/>
+      <match lemma="corredor" tags="n.*"/>
+      <match lemma="cotización"/>
+      <match lemma="cotizar"/>
+      <match lemma="crisis" tags="n.f.*"/>
+      <match lemma="economía" tags="n.f.*"/>
+      <match lemma="empresa" tags="n.f.*"/>
+      <match lemma="financiación"/>
+      <match lemma="financiar"/>
+      <match lemma="financiero"/>
+      <match lemma="fondo" tags="n.m.*"/>
+      <match lemma="jubilación"/>
+      <match lemma="mercado" tags="n.m.*"/>
+      <match lemma="multinacional"/>
+      <match lemma="negociar"/>
+      <match lemma="pensión"/>
+      <match lemma="renta" tags="n.*"/>
+      <match lemma="start-up"/>
+      <match lemma="valor" tags="n.*"/>
     </or>
   </rule>
 
   <rule weight="1">
     <or>
       <match lemma="acción"/>
+      <match lemma="agente" tags="n.*"/>
+      <match lemma="banco" tags="n.*"/>
+      <match lemma="capital" tags="n.*"/>
+      <match lemma="competencia" tags="n.f.*"/>
+      <match lemma="corredor" tags="n.*"/>
+      <match lemma="cotización"/>
+      <match lemma="cotizar"/>
+      <match lemma="crisis" tags="n.f.*"/>
+      <match lemma="economía" tags="n.f.*"/>
+      <match lemma="empresa" tags="n.f.*"/>
+      <match lemma="financiación"/>
+      <match lemma="financiar"/>
+      <match lemma="financiero"/>
+      <match lemma="fondo" tags="n.m.*"/>
+      <match lemma="jubilación"/>
+      <match lemma="mercado" tags="n.m.*"/>
+      <match lemma="multinacional"/>
+      <match lemma="negociar"/>
+      <match lemma="pensión"/>
+      <match lemma="renta" tags="n.*"/>
+      <match lemma="start-up"/>
+      <match lemma="valor" tags="n.*"/>
     </or>
     <repeat from="0" upto="20">
       <or>
