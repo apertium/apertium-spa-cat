@@ -651,6 +651,8 @@
       <list-item v="experimentar" />
       <list-item v="realizar" />
       <list-item v="trabajar" />
+      <list-item v="tener" />
+      <list-item v="seguir" />
     </def-list>
   </section-def-lists>
   <section-def-macros>
@@ -3620,7 +3622,11 @@
             </let>
             <out>
               <lu>
-                <clip pos="1" side="tl" part="whole" />
+                <clip pos="1" side="tl" part="lem" />
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
               </lu>
               <b pos="1" />
             </out>
@@ -3635,7 +3641,11 @@
           <otherwise>
             <out>
               <lu>
-                <clip pos="1" side="tl" part="whole" />
+                <clip pos="1" side="tl" part="lem" />
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" />              
               </lu>
               <b pos="1" />
             </out>
@@ -3693,8 +3703,12 @@
               <b pos="2" />
               <lu>
                 <get-case-from pos="2">
-                  <clip pos="1" side="tl" part="whole" />
+                  <clip pos="1" side="tl" part="lem" />
                 </get-case-from>
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
               </lu>
               <b pos="1" />
             </out>
@@ -3706,8 +3720,12 @@
             <out>
               <lu>
                 <get-case-from pos="1">
-                  <clip pos="1" side="tl" part="whole" />
+                  <clip pos="1" side="tl" part="lem" />
                 </get-case-from>
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
               </lu>
               <b pos="1" />
             </out>
@@ -3783,8 +3801,12 @@
               <b />
               <lu>
                 <get-case-from pos="2">
-                  <clip pos="1" side="tl" part="whole" />
+                  <clip pos="1" side="tl" part="lem" />
                 </get-case-from>
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
               </lu>
               <b pos="2" />
             </out>
@@ -3796,8 +3818,12 @@
               <out>
               <lu>
                 <get-case-from pos="1">
-                  <clip pos="1" side="tl" part="whole" />
+                  <clip pos="1" side="tl" part="lem" />
                 </get-case-from>
+                <lit-tag v="vaux" />   <!--Para que traduzca "haber" como auxiliar (lo mismo que hace la regla HABER 3ª persona -->
+                <clip pos="1" side="tl" part="temps" />
+                <clip pos="1" side="tl" part="persona" />
+                <clip pos="1" side="tl" part="nbr" /> 
               </lu>
               <b pos="1" />
             </out>
