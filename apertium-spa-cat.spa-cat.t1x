@@ -640,6 +640,7 @@
     <def-list n="perif_venir">
       <list-item v="ser" />
       <list-item v="decir" />
+      <list-item v="hacer" />
       <list-item v="contar" />
       <list-item v="celebrar" />
       <list-item v="experimentar" />
@@ -3586,6 +3587,448 @@
       </action>
     </rule>
 
+
+
+    <rule>
+      <!--REGLA: perífrasis verbales: HABER + VENIDO + GER (ser)-->
+      <pattern>
+        <pattern-item n="haber" />
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="lem" />
+              <clip pos="3" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="2" side="tl" part="a_verb" />
+              <clip pos="3" side="tl" part="a_verb" />
+            </let>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole" />
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+            <call-macro n="f_bcond">
+              <with-param pos="2" />
+              <with-param pos="3" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole" />
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+            <out>
+              <b pos="2" />
+              <lu>
+                <clip pos="3" side="tl" part="lemh" />
+                <clip pos="3" side="tl" part="a_verb" />
+                <clip pos="3" side="tl" part="temps" />
+                <clip pos="3" side="tl" part="lemq" />
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+    <rule>
+      <!--REGLA: perífrasis verbales: HABER + VENIDO + GER (ser)-->
+      <pattern>
+        <pattern-item n="haber" />
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="lem" />
+              <clip pos="3" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="2" side="tl" part="a_verb" />
+              <clip pos="3" side="tl" part="a_verb" />
+            </let>
+            <let>
+              <clip pos="4" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="4" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="2" />
+              <lu>
+                <get-case-from pos="2">
+                  <clip pos="1" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="1" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+            <out>
+              <b pos="2" />
+              <mlu>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh" />
+                  <clip pos="3" side="tl" part="a_verb" />
+                  <clip pos="3" side="tl" part="temps" />
+                </lu>
+                <lu>
+                  <clip pos="4" side="tl" part="lem" />
+                  <clip pos="4" side="tl" part="a_prnenc" />
+                  <clip pos="4" side="tl" part="persona" />
+                  <clip pos="4" side="tl" part="gen" />
+                  <clip pos="4" side="tl" part="nbr" />
+                  <clip pos="3" side="tl" part="lemq" />
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+    <rule>
+      <!--REGLA: perífrasis verbales: HABER + VENIDO + GER (ser)-->
+      <pattern>
+        <pattern-item n="haber" />
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="3" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="lem" />
+              <clip pos="3" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="2" side="tl" part="a_verb" />
+              <clip pos="3" side="tl" part="a_verb" />
+            </let>
+            <let>
+              <clip pos="4" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <let>
+              <clip pos="5" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="4" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="2" />
+              <lu>
+                <clip pos="5" side="tl" part="whole" />
+              </lu>
+              <b />
+              <lu>
+                <get-case-from pos="2">
+                  <clip pos="1" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="2" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+          </when>
+          <otherwise>
+              <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="1" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="2" />
+            </call-macro>
+            <out>
+              <b pos="2" />
+              <mlu>
+                <lu>
+                  <clip pos="3" side="tl" part="lemh" />
+                  <clip pos="3" side="tl" part="a_verb" />
+                  <clip pos="3" side="tl" part="temps" />
+                </lu>
+                <lu>
+                  <clip pos="4" side="tl" part="lem" />
+                  <clip pos="4" side="tl" part="a_prnenc" />
+                  <clip pos="4" side="tl" part="persona" />
+                  <clip pos="4" side="tl" part="gen" />
+                  <clip pos="4" side="tl" part="nbr" />
+                </lu>
+                <lu>
+                  <clip pos="5" side="tl" part="lem" />
+                  <clip pos="5" side="tl" part="a_prnenc" />
+                  <clip pos="5" side="tl" part="persona" />
+                  <clip pos="5" side="tl" part="gen" />
+                  <clip pos="5" side="tl" part="nbr" />
+                  <clip pos="3" side="tl" part="lemq" />
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+
+
+
+
+
+    <rule>
+      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+      <pattern>
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="2" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="lem" />
+              <clip pos="2" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_verb" />
+              <clip pos="2" side="tl" part="a_verb" />
+            </let>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+            <call-macro n="f_bcond">
+              <with-param pos="1" />
+              <with-param pos="2" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+            <out>
+              <b pos="1" />
+              <lu>
+                <clip pos="2" side="tl" part="lemh" />
+                <clip pos="2" side="tl" part="a_verb" />
+                <clip pos="2" side="tl" part="temps" />
+                <clip pos="2" side="tl" part="lemq" />
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+    <rule>
+      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+      <pattern>
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="2" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="lem" />
+              <clip pos="2" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_verb" />
+              <clip pos="2" side="tl" part="a_verb" />
+            </let>
+            <let>
+              <clip pos="3" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="3" side="tl" part="whole" />
+                </get-case-from>
+              </lu>
+              <b pos="1" />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+            <out>
+              <b pos="1" />
+              <mlu>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh" />
+                  <clip pos="2" side="tl" part="a_verb" />
+                  <clip pos="2" side="tl" part="temps" />
+                </lu>
+                <lu>
+                  <clip pos="3" side="tl" part="lem" />
+                  <clip pos="3" side="tl" part="a_prnenc" />
+                  <clip pos="3" side="tl" part="persona" />
+                  <clip pos="3" side="tl" part="gen" />
+                  <clip pos="3" side="tl" part="nbr" />
+                  <clip pos="2" side="tl" part="lemq" />
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+    <rule>
+      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
+      <pattern>
+        <pattern-item n="venir" />
+        <pattern-item n="ger" />
+        <pattern-item n="prnenc" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="2" side="sl" part="lemh" />
+                <list n="perif_venir" />
+              </in>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="lem" />
+              <clip pos="2" side="tl" part="lem" />
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_verb" />
+              <clip pos="2" side="tl" part="a_verb" />
+            </let>
+            <let>
+              <clip pos="3" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <let>
+              <clip pos="4" side="tl" part="a_encpro" />
+              <lit-tag v="pro" />
+            </let>
+            <out>
+              <lu>
+                <clip pos="3" side="tl" part="whole" />
+              </lu>
+              <b pos="1" />
+              <lu>
+                <clip pos="4" side="tl" part="whole" />
+              </lu>
+              <b />
+            </out>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+          </when>
+          <otherwise>
+            <call-macro n="f_pretind">
+              <with-param pos="1" />
+            </call-macro>
+            <out>
+              <b pos="1" />
+              <mlu>
+                <lu>
+                  <clip pos="2" side="tl" part="lemh" />
+                  <clip pos="2" side="tl" part="a_verb" />
+                  <clip pos="2" side="tl" part="temps" />
+                </lu>
+                <lu>
+                  <clip pos="3" side="tl" part="lem" />
+                  <clip pos="3" side="tl" part="a_prnenc" />
+                  <clip pos="3" side="tl" part="persona" />
+                  <clip pos="3" side="tl" part="gen" />
+                  <clip pos="3" side="tl" part="nbr" />
+                </lu>
+                <lu>
+                  <clip pos="4" side="tl" part="lem" />
+                  <clip pos="4" side="tl" part="a_prnenc" />
+                  <clip pos="4" side="tl" part="persona" />
+                  <clip pos="4" side="tl" part="gen" />
+                  <clip pos="4" side="tl" part="nbr" />
+                  <clip pos="2" side="tl" part="lemq" />
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
     <rule>
       <!--REGLA: HABER 3ª persona + PP (para cambiar la traducción de la 3ª persona ("haver-hi") por la traducción del verbo "haver" en forma auxiliar ("haver")-->
       <pattern>
@@ -3622,6 +4065,9 @@
         <pattern-item n="pp_nohaber" />
       </pattern>
       <action>
+        <call-macro n="f_tipusverb">
+          <with-param pos="1" />
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -4258,7 +4704,7 @@
     <rule>
       <!-- REGLA: ADJECTIU NOM ADJECTIU-->
       <pattern>
-        <pattern-item n="adj" />
+        <pattern-item n="adjec0" />
         <pattern-item n="nom" />
         <pattern-item n="adjec0" />
       </pattern>
@@ -5529,7 +5975,7 @@
       <!-- REGLA: PREP ADJECTIU NOM ADJECTIU-->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="adj" />
+        <pattern-item n="adjec" />
         <pattern-item n="nom" />
         <pattern-item n="adjec0" />
       </pattern>
@@ -8036,198 +8482,6 @@
             <clip pos="4" side="tl" part="lemq" />
           </lu>
         </out>
-      </action>
-    </rule>
-    <rule>
-      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
-      <pattern>
-        <pattern-item n="venir" />
-        <pattern-item n="ger" />
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-              <in caseless="yes">
-                <clip pos="2" side="sl" part="lemh" />
-                <list n="perif_venir" />
-              </in>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="lem" />
-              <clip pos="2" side="tl" part="lem" />
-            </let>
-            <let>
-              <clip pos="1" side="tl" part="a_verb" />
-              <clip pos="2" side="tl" part="a_verb" />
-            </let>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-            <call-macro n="f_bcond">
-              <with-param pos="1" />
-              <with-param pos="2" />
-            </call-macro>
-          </when>
-          <otherwise>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-            <out>
-              <b pos="1" />
-              <lu>
-                <clip pos="2" side="tl" part="lemh" />
-                <clip pos="2" side="tl" part="a_verb" />
-                <clip pos="2" side="tl" part="temps" />
-                <clip pos="2" side="tl" part="lemq" />
-              </lu>
-            </out>
-          </otherwise>
-        </choose>
-      </action>
-    </rule>
-    <rule>
-      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
-      <pattern>
-        <pattern-item n="venir" />
-        <pattern-item n="ger" />
-        <pattern-item n="prnenc" />
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-              <in caseless="yes">
-                <clip pos="2" side="sl" part="lemh" />
-                <list n="perif_venir" />
-              </in>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="lem" />
-              <clip pos="2" side="tl" part="lem" />
-            </let>
-            <let>
-              <clip pos="1" side="tl" part="a_verb" />
-              <clip pos="2" side="tl" part="a_verb" />
-            </let>
-            <let>
-              <clip pos="3" side="tl" part="a_encpro" />
-              <lit-tag v="pro" />
-            </let>
-            <out>
-              <lu>
-                <clip pos="3" side="tl" part="whole" />
-              </lu>
-              <b pos="1" />
-            </out>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-          </when>
-          <otherwise>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-            <out>
-              <b pos="1" />
-              <mlu>
-                <lu>
-                  <clip pos="2" side="tl" part="lemh" />
-                  <clip pos="2" side="tl" part="a_verb" />
-                  <clip pos="2" side="tl" part="temps" />
-                </lu>
-                <lu>
-                  <clip pos="3" side="tl" part="lem" />
-                  <clip pos="3" side="tl" part="a_prnenc" />
-                  <clip pos="3" side="tl" part="persona" />
-                  <clip pos="3" side="tl" part="gen" />
-                  <clip pos="3" side="tl" part="nbr" />
-                  <clip pos="2" side="tl" part="lemq" />
-                </lu>
-              </mlu>
-            </out>
-          </otherwise>
-        </choose>
-      </action>
-    </rule>
-    <rule>
-      <!--REGLA: perífrasis verbales: VENIR + GER (ser)-->
-      <pattern>
-        <pattern-item n="venir" />
-        <pattern-item n="ger" />
-        <pattern-item n="prnenc" />
-        <pattern-item n="prnenc" />
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-              <in caseless="yes">
-                <clip pos="2" side="sl" part="lemh" />
-                <list n="perif_venir" />
-              </in>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="lem" />
-              <clip pos="2" side="tl" part="lem" />
-            </let>
-            <let>
-              <clip pos="1" side="tl" part="a_verb" />
-              <clip pos="2" side="tl" part="a_verb" />
-            </let>
-            <let>
-              <clip pos="3" side="tl" part="a_encpro" />
-              <lit-tag v="pro" />
-            </let>
-            <let>
-              <clip pos="4" side="tl" part="a_encpro" />
-              <lit-tag v="pro" />
-            </let>
-            <out>
-              <lu>
-                <clip pos="3" side="tl" part="whole" />
-              </lu>
-              <b pos="1" />
-              <lu>
-                <clip pos="4" side="tl" part="whole" />
-              </lu>
-              <b />
-            </out>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-          </when>
-          <otherwise>
-            <call-macro n="f_pretind">
-              <with-param pos="1" />
-            </call-macro>
-            <out>
-              <b pos="1" />
-              <mlu>
-                <lu>
-                  <clip pos="2" side="tl" part="lemh" />
-                  <clip pos="2" side="tl" part="a_verb" />
-                  <clip pos="2" side="tl" part="temps" />
-                </lu>
-                <lu>
-                  <clip pos="3" side="tl" part="lem" />
-                  <clip pos="3" side="tl" part="a_prnenc" />
-                  <clip pos="3" side="tl" part="persona" />
-                  <clip pos="3" side="tl" part="gen" />
-                  <clip pos="3" side="tl" part="nbr" />
-                </lu>
-                <lu>
-                  <clip pos="4" side="tl" part="lem" />
-                  <clip pos="4" side="tl" part="a_prnenc" />
-                  <clip pos="4" side="tl" part="persona" />
-                  <clip pos="4" side="tl" part="gen" />
-                  <clip pos="4" side="tl" part="nbr" />
-                  <clip pos="2" side="tl" part="lemq" />
-                </lu>
-              </mlu>
-            </out>
-          </otherwise>
-        </choose>
       </action>
     </rule>
     <rule>
