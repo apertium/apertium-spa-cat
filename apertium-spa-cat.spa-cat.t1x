@@ -6566,6 +6566,23 @@
         </let>
       </action>
     </rule>
+    <rule>
+      <!-- desactiva la variable porque -->
+      <pattern>
+        <pattern-item n="que" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+        </out>
+        <let>
+          <var n="varporque" />
+          <lit v="no" />
+        </let>
+      </action>
+    </rule>
     <!-- Para traducir "dije" por "vaig dir" -->
     <!-- REGLA: PERIF -->
     <!-- <rule> 
