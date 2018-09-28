@@ -239,6 +239,11 @@
       <cat-item lemma="que" tags="cnjsub" />
       <cat-item lemma="que" tags="rel.an.mf.sp" />
     </def-cat>
+    <def-cat n="que_si">
+      <cat-item lemma="que" tags="cnjsub" />
+      <cat-item lemma="que" tags="rel.an.mf.sp" />
+      <cat-item lemma="si" tags="cnjadv" />
+    </def-cat>
     <def-cat n="uno_prn">
       <cat-item lemma="uno" tags="prn.tn.*" />
     </def-cat>
@@ -4704,7 +4709,7 @@
     <rule>
       <!-- REGLA: ADJECTIU NOM ADJECTIU-->
       <pattern>
-        <pattern-item n="adjec0" />
+        <pattern-item n="adjec" />
         <pattern-item n="nom" />
         <pattern-item n="adjec0" />
       </pattern>
@@ -6569,7 +6574,7 @@
     <rule>
       <!-- desactiva la variable porque -->
       <pattern>
-        <pattern-item n="que" />
+        <pattern-item n="que_si" />
       </pattern>
       <action>
         <out>
@@ -9349,7 +9354,7 @@
         <pattern-item n="cuál" />
         <pattern-item n="ser_parecer" />
         <pattern-item n="det_rel" />
-        <pattern-item n="adj" />
+        <pattern-item n="adjec0" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -9407,7 +9412,7 @@
         <pattern-item n="ser_parecer" />
         <pattern-item n="det_rel" />
         <pattern-item n="nom" />
-        <pattern-item n="adj" />
+        <pattern-item n="adjec0" />
       </pattern>
       <action>
         <call-macro n="f_concord3">
