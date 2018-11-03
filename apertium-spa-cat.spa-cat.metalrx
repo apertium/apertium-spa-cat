@@ -4913,6 +4913,26 @@
     <match lemma="reñir" tags="vblex.*"><select lemma="renyar"/></match>
   </rule>
 
+  <!-- realizar > realitzar / fer -->
+
+  <rule weight="0.5">
+    <match lemma="realizar" tags="vblex.*"><select lemma="realitzar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="realizar" tags="vblex.*"><select lemma="fer"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="tarea" tags="n.*"/>
+      <match lemma="trabajo" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- rayar > ratllar / vorejar -->
 
   <rule weight="0.5">
