@@ -9652,6 +9652,31 @@
       </action>
     </rule>
     <rule>
+      <pattern>
+        <pattern-item n="algo" />
+        <pattern-item n="adv" />
+        <pattern-item n="adj-masc-sg" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip part="whole" pos="1" side="tl" />
+          </lu>
+          <b/>
+            <lu>
+            <clip part="whole" pos="2" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="lem" pos="3" side="tl" />
+            <lit-tag v="adj" />
+            <lit-tag v="f"/>
+            <clip part="nbr" pos="3" side="tl" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
       <!-- REGLA: reset variables-->
       <pattern>
         <pattern-item n="sent" />
