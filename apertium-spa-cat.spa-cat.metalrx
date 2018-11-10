@@ -4620,6 +4620,8 @@
       <match lemma="reñir" tags="vblex.*"/>
       <match lemma="secuestrar" tags="vblex.*"/>
       <match lemma="sorprender" tags="vblex.*"/>
+      <match lemma="cesar" tags="vblex.*"/>
+      <match lemma="destituir" tags="vblex.*"/>
   </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
@@ -4629,6 +4631,8 @@
         <match tags="det.*"/>
         <match tags="n.*"/>
         <match tags="adj.*"/>
+        <match tags="num.*"/>
+        <match tags="num"/>
         <match tags="rel.an.*" lemma="el que"/>
         <match tags="rel.an.*" lemma="lo que"/>
       </or>
@@ -5573,6 +5577,35 @@
       </or>
     </repeat>
     <match lemma="atizar" tags="vblex.*"><select lemma="atiar"/></match>
+  </rule>
+
+  <!-- cesar > cessar / destituir -->
+
+  <rule weight="0.5">
+    <match lemma="cesar" tags="vblex.*"><select lemma="cessar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="ser" tags="vbser.*"/>
+    <match lemma="cesar" tags="vblex.pp.*"><select lemma="destituir"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cesar" tags="vblex.*"><select lemma="destituir"/></match>
+    <repeat from="1" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="pr"/>
+        <match tags="num"/>
+        <match tags="num.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="n.*" lemma="ministro"/>
+      <match tags="n.*" lemma="consejero"/>
+      <match tags="n.*" lemma="presidente"/>
+      <match tags="n.*" lemma="director"/>
+    </or>
   </rule>
 
   <!-- qué duda cabe > no hi ha dubte / no n'hi ha dubte -->
