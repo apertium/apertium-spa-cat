@@ -422,6 +422,7 @@
     </def-cat>
     <def-cat n="adj-masc-sg">
       <cat-item tags="adj.m.sg" />
+      <cat-item tags="adj.mf.sg" />
       <cat-item tags="adj.m.sp" />
       <cat-item tags="vblex.pp.m.sg" />
     </def-cat>
@@ -8918,7 +8919,7 @@
       <!-- REGLA: uno similar - un de similar -->
       <pattern>
         <pattern-item n="uno_prn" />
-        <pattern-item n="adj" />
+        <pattern-item n="adj-masc-sg" />
       </pattern>
       <action>
         <out>
