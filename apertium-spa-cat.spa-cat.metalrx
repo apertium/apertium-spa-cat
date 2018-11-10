@@ -5590,6 +5590,18 @@
     </or>
   </rule>
 
+  <!-- algo > alguna cosa / una cosa -->
+
+  <rule weight="0.5">
+    <match lemma="algo" tags="prn.*"><select lemma="alguna cosa"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
+    <match lemma="así" tags="adv"/>
+    <match lemma="como" tags="adv"/>
+  </rule>
+
   <!-- topònims amb article -->
 
   <rule weight="0.5"><match lemma="Argentina"><select lemma="l'Argentina"/></match></rule>
