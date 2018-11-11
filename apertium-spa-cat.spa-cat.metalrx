@@ -5595,7 +5595,7 @@
     <repeat from="1" upto="3">
       <or>
         <match tags="det.*"/>
-        <match tags="pr"/>
+        <match tags="pr" lemma="a"/>
         <match tags="num"/>
         <match tags="num.*"/>
       </or>
@@ -5607,6 +5607,7 @@
       <match tags="n.*" lemma="director"/>
       <match tags="n.*" lemma="rector"/>
       <match tags="n.*" lemma="cargo"/>
+      <match tags="n.*" lemma="miembro"/>
     </or>
   </rule>
 
@@ -5634,7 +5635,7 @@
   <rule weight="1">
     <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
     <match lemma="así" tags="adv"/>
-    <match lemma="como" tags="adv"/>
+    <!--<match lemma="como" tags="adv"/>-->
   </rule>
 
   <rule weight="1">

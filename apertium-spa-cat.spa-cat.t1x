@@ -244,8 +244,11 @@
       <cat-item lemma="que" tags="rel.an.mf.sp" />
       <cat-item lemma="si" tags="cnjadv" />
     </def-cat>
-    <def-cat n="uno_prn">
-      <cat-item lemma="uno" tags="prn.tn.*" />
+    <def-cat n="uno_prn_ms">
+      <cat-item lemma="uno" tags="prn.tn.m.sg" />
+    </def-cat>
+    <def-cat n="uno_prn_fs">
+      <cat-item lemma="uno" tags="prn.tn.f.sg" />
     </def-cat>
     <def-cat n="porque">
       <cat-item lemma="porque" tags="cnjadv" />
@@ -425,6 +428,12 @@
       <cat-item tags="adj.mf.sg" />
       <cat-item tags="adj.m.sp" />
       <cat-item tags="vblex.pp.m.sg" />
+    </def-cat>
+    <def-cat n="adj-fem-sg">
+      <cat-item tags="adj.f.sg" />
+      <cat-item tags="adj.mf.sg" />
+      <cat-item tags="adj.f.sp" />
+      <cat-item tags="vblex.pp.f.sg" />
     </def-cat>
     <def-cat n="ninguno">
       <cat-item lemma="ninguno" tags="det.ind.*" />
@@ -8918,8 +8927,32 @@
     <rule>
       <!-- REGLA: uno similar - un de similar -->
       <pattern>
-        <pattern-item n="uno_prn" />
+        <pattern-item n="uno_prn_ms" />
         <pattern-item n="adj-masc-sg" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <lit v="de" />
+            <lit-tag v="pr" />
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="tags" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="uno_prn_fs" />
+        <pattern-item n="adj-fem-sg" />
       </pattern>
       <action>
         <out>
