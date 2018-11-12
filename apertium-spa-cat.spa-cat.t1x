@@ -8924,8 +8924,9 @@
         </out>
       </action>
     </rule>
-    <rule>
-      <!-- REGLA: uno similar - un de similar -->
+    <!-- REGLA: uno similar - un de similar -->
+    <!-- Té massa problemes. S'ha de revisar. Potser cal limitar a uns pocs adjectius: similar, etc.
+    <rule>    
       <pattern>
         <pattern-item n="uno_prn_ms" />
         <pattern-item n="adj-masc-sg" />
@@ -8972,7 +8973,7 @@
           </lu>
         </out>
       </action>
-    </rule>
+    </rule>-->
     <!--REGLA: IR (presente) + A + INF -> FUTUR-->
     <rule>
       <pattern>
