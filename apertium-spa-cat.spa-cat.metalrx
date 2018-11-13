@@ -5626,6 +5626,17 @@
     </or>
   </rule>
 
+  <!-- por entonces > en aquells dies / llavors -->
+
+  <rule weight="0.5">
+    <match lemma="por entonces" tags="adv"><select lemma="en aquells dies"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="det.*"/>
+    <match lemma="por entonces" tags="adv"><select lemma="llavors"/></match>
+  </rule>
+    
   <!-- algo > alguna cosa / una cosa -->
 
   <rule weight="0.5">
