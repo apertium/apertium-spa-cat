@@ -5636,7 +5636,25 @@
     <match tags="det.*"/>
     <match lemma="por entonces" tags="adv"><select lemma="llavors"/></match>
   </rule>
-    
+  
+
+  <!-- berenjenal > embolic / vesper / camp d'albergínies  -->
+
+  <rule weight="0.5">
+    <match lemma="berenjenal" tags="n.*"><select lemma="embolic"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="meter"/>
+      <match lemma="entrar"/>
+    </or>
+    <repeat from="0" upto="5">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="berenjenal" tags="n.*"><select lemma="vesper"/></match>
+  </rule>
+
   <!-- algo > alguna cosa / una cosa -->
 
   <rule weight="0.5">
