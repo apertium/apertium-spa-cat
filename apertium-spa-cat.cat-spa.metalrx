@@ -1190,6 +1190,20 @@
 
 <!-- **************** V VBLEX **************** -->
 
+<!-- escaure > proceder, ocurrir -->
+
+  <rule weight="0.6">
+     <match lemma="escaure" tags="vblex.*"><select lemma="proceder"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="escaure" tags="prn.pro.ref.*"/> <!-- TODO: però falta eliminar el pronom-->
+    <match lemma="escaure" tags="vblex.*"><select lemma="ocurrir"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="escaure" tags="vblex.*"><select lemma="ocurrir"/></match>
+    <match lemma="escaure" tags="prn.enc.ref.*"/>
+  </rule>
+
 <!-- demanar > pretuntar, pedir -->
 
   <rule weight="0.6">
