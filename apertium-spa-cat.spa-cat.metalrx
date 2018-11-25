@@ -5083,12 +5083,28 @@
   <rule weight="2">
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
     <or>
+      <match tags="vblex.*.*"/>
+      <match tags="vbser.*.*"/> <!-- no infinitiu, gerundi...-->
+    </or>
+    <or>
+      <match tags="vblex.*.*"/>
+      <match tags="vbser.*.*"/> <!-- no infinitiu, gerundi...-->
+    </or>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+    <or>
+      <match tags="vblex.*"/>
+      <match tags="vbser.*"/> 
+    </or>
+    <or>
       <match tags="vblex.*"/>
       <match tags="vbser.*"/>
     </or>
     <or>
       <match tags="vblex.*"/>
-      <match tags="vbser.*"/>
+      <match tags="vbser.*"/> 
     </or>
   </rule>
 
