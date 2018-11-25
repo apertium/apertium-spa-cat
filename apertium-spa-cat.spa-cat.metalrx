@@ -5080,6 +5080,24 @@
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
+  <rule weight="2">
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+    <or>
+      <match tags="vblex.*"/>
+      <match tags="vbser.*"/>
+    </or>
+    <or>
+      <match tags="vblex.*"/>
+      <match tags="vbser.*"/>
+    </or>
+  </rule>
+
+  <rule weight="2.0">
+    <match tags="cnjadv"/>
+    <match tags="cm"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
   <rule weight="1.0">
     <match tags="cm"/>
     <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
