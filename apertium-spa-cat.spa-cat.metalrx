@@ -5083,12 +5083,14 @@
   <rule weight="2">
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
     <or>
-      <match tags="vblex.*.*"/>
-      <match tags="vbser.*.*"/> <!-- no infinitiu, gerundi...-->
+      <match tags="*.*.p1.*"/>
+      <match tags="*.*.p2.*"/>
+      <match tags="*.*.p3.*"/>
     </or>
     <or>
-      <match tags="vblex.*.*"/>
-      <match tags="vbser.*.*"/> <!-- no infinitiu, gerundi...-->
+      <match tags="*.*.p1.*"/>
+      <match tags="*.*.p2.*"/>
+      <match tags="*.*.p3.*"/> <!-- no infinitiu, gerundi, participi...-->
     </or>
   </rule>
 
@@ -5096,15 +5098,20 @@
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
     <or>
       <match tags="vblex.*"/>
-      <match tags="vbser.*"/> 
+      <match tags="vbser.*"/>
+      <match tags="vbmod.*"/>
+      <match tags="prn.*"/>
     </or>
     <or>
       <match tags="vblex.*"/>
       <match tags="vbser.*"/>
+      <match tags="vbmod.*"/>
+      <match tags="prn.*"/>
     </or>
     <or>
       <match tags="vblex.*"/>
-      <match tags="vbser.*"/> 
+      <match tags="vbser.*"/>
+      <match tags="vbmod.*"/>
     </or>
   </rule>
 
