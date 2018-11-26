@@ -5083,14 +5083,20 @@
   <rule weight="2">
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
     <or>
-      <match tags="*.*.p1.*"/>
-      <match tags="*.*.p2.*"/>
-      <match tags="*.*.p3.*"/>
+      <match tags="vblex.*.p1.*"/>
+      <match tags="vblex.*.p2.*"/>
+      <match tags="vblex.*.p3.*"/>
+      <match tags="vbser.*.p1.*"/>
+      <match tags="vbser.*.p2.*"/>
+      <match tags="vbser.*.p3.*"/>
     </or>
     <or>
-      <match tags="*.*.p1.*"/>
-      <match tags="*.*.p2.*"/>
-      <match tags="*.*.p3.*"/> <!-- no infinitiu, gerundi, participi...-->
+      <match tags="vblex.*.p1.*"/>
+      <match tags="vblex.*.p2.*"/>
+      <match tags="vblex.*.p3.*"/>
+      <match tags="vbser.*.p1.*"/>
+      <match tags="vbser.*.p2.*"/>
+      <match tags="vbser.*.p3.*"/>
     </or>
   </rule>
 
