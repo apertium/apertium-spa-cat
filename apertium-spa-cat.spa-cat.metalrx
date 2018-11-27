@@ -5115,9 +5115,12 @@
       <match tags="prn.*"/>
     </or>
     <or>
-      <match tags="vblex.*"/>
-      <match tags="vbser.*"/>
-      <match tags="vbmod.*"/>
+      <match tags="vblex.*.p1.*"/>
+      <match tags="vblex.*.p2.*"/>
+      <match tags="vblex.*.p3.*"/>
+      <match tags="vbser.*.p1.*"/>
+      <match tags="vbser.*.p2.*"/>
+      <match tags="vbser.*.p3.*"/>
     </or>
   </rule>
 
