@@ -5124,6 +5124,42 @@
     </or>
   </rule>
 
+  <rule weight="3"> <!-- excepció a l'anterior-->
+    <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
+    <match tags="prn.*"/>
+    <match tags="prn.*"/>
+    <or>
+      <match tags="vblex.*.p1.*"/>
+      <match tags="vblex.*.p2.*"/>
+      <match tags="vblex.*.p3.*"/>
+      <match tags="vbser.*.p1.*"/>
+      <match tags="vbser.*.p2.*"/>
+      <match tags="vbser.*.p3.*"/>
+    </or>
+  </rule>
+
+  <rule weight="4"> <!-- excepció a l'anterior-->
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+    <match tags="prn.*"/>
+    <match tags="prn.*"/>
+    <or>
+      <match tags="vblex.*.p1.*"/>
+      <match tags="vblex.*.p2.*"/>
+      <match tags="vblex.*.p3.*"/>
+      <match tags="vbser.*.p1.*"/>
+      <match tags="vbser.*.p2.*"/>
+      <match tags="vbser.*.p3.*"/>
+    </or>
+    <or>
+      <match tags="vblex.*.p1.*"/>
+      <match tags="vblex.*.p2.*"/>
+      <match tags="vblex.*.p3.*"/>
+      <match tags="vbser.*.p1.*"/>
+      <match tags="vbser.*.p2.*"/>
+      <match tags="vbser.*.p3.*"/>
+    </or>
+  </rule>
+
   <rule weight="2.0">
     <match tags="cnjadv"/>
     <match tags="cm"/>
