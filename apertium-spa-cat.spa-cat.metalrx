@@ -5135,6 +5135,9 @@
 
   <rule weight="3"> <!-- excepció a l'anterior-->
     <match tags="cm"/>
+    <repeat from="0" upto="1">
+      <match tags="pr" lemma="por"/>
+    </repeat>
     <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
     <match tags="prn.*"/>
     <match tags="prn.*"/>
@@ -5187,12 +5190,9 @@
 
   <rule weight="1.0">
     <match tags="cm"/>
-    <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
-  </rule>
-
-  <rule weight="1.0">
-    <match tags="cm"/>
-    <match tags="pr" lemma="por"/>
+    <repeat from="0" upto="1">
+      <match tags="pr" lemma="por"/>
+    </repeat>
     <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
   </rule>
 
