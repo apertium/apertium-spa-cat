@@ -5461,6 +5461,56 @@
   </rule>
 
 
+<!-- albergar > albergar / tenir -->
+
+  <rule weight="0.5">
+    <match lemma="albergar" tags="vblex.*"><select lemma="albergar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="albergar" tags="vblex.*"><select lemma="tenir"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="ilusión" tags="n.*"/>
+      <match lemma="esperanza" tags="n.*"/>
+      <match lemma="duda" tags="n.*"/>
+      <match lemma="inquietud" tags="n.*"/>
+      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="intención" tags="n.*"/>
+      <match lemma="plan" tags="n.*"/>
+      <match lemma="certeza" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="abrigar" tags="vblex.*"><select lemma="abrigar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="abrigar" tags="vblex.*"><select lemma="nodrir"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="ilusión" tags="n.*"/>
+      <match lemma="esperanza" tags="n.*"/>
+      <match lemma="duda" tags="n.*"/>
+      <match lemma="inquietud" tags="n.*"/>
+      <match lemma="sospecha" tags="n.*"/>
+      <match lemma="intención" tags="n.*"/>
+      <match lemma="plan" tags="n.*"/>
+      <match lemma="certeza" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- escuchar > escoltar / sentir -->
 
   <rule weight="0.5">
