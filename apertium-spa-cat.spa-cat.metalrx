@@ -4390,6 +4390,13 @@
     <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
   </rule>
 
+  <!-- muchos otros > molts altres --> 
+
+  <rule weight="1">
+    <match lemma="muchos"/>
+    <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
+  </rule>
+
   <!-- en > en / a -->
 
   <rule weight="0.5">
@@ -5095,8 +5102,10 @@
         <match tags="pr"/>
         <match tags="det.*"/>
         <match tags="n.*"/>
+        <match tags="np.*"/>
         <match tags="adj.*"/>
         <match tags="prn.tn.*"/>
+        <match tags="adv"/>
       </or>
     </repeat>
     <or>
@@ -5123,6 +5132,17 @@
       <match tags="vbmod.*"/>
       <match tags="prn.*"/>
     </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="np.*"/>
+        <match tags="adj.*"/>
+        <match tags="prn.tn.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
     <or>
       <match tags="vblex.*.p1.*"/>
       <match tags="vblex.*.p2.*"/>
@@ -5168,8 +5188,10 @@
         <match tags="pr"/>
         <match tags="det.*"/>
         <match tags="n.*"/>
+        <match tags="np.*"/>
         <match tags="adj.*"/>
         <match tags="prn.tn.*"/>
+        <match tags="adv"/>
       </or>
     </repeat>
     <or>
