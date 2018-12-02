@@ -2843,6 +2843,7 @@
       <match lemma="prisa" tags="n.*" />
       <match lemma="dinero" tags="n.*" />
       <match lemma="rigor" tags="n.*" />
+      <match lemma="trascendencia" tags="n.*" />
     </or>   
   </rule>
 
@@ -2865,6 +2866,7 @@
       <match lemma="prisa" tags="n.*" />
       <match lemma="dinero" tags="n.*" />
       <match lemma="rigor" tags="n.*" />
+      <match lemma="trascendencia" tags="n.*" />
     </or>
     <match lemma="alguno_negativo" tags="det.ind.*"><select lemma="gens de"/></match>
   </rule>
@@ -5449,6 +5451,11 @@
     <match lemma="ninguno" tagger="det.ind.m.sg"/>
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
     <match lemma="de" tags="pr"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
+    <match lemma="alguno_negativo" tagger="det.ind.m.sg"/>
   </rule>
 
   <!-- caber la posibilidad > haver-hi la possibilitat -->
