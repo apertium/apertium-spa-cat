@@ -5521,7 +5521,7 @@
   </rule>
 
   <rule weight="1">
-    <match lemma="abrigar" tags="vblex.*"><select lemma="nodrir"/></match>
+    <match lemma="abrigar" tags="vblex.*"><select lemma="tenir"/></match>
     <repeat from="0" upto="3">
       <or>
         <match tags="det.*"/>
