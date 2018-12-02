@@ -5303,9 +5303,7 @@
       </action>
     </rule>
 
-
     <rule>
-      <!-- REGLA: NOM ADJECTIU-->
       <pattern>
         <pattern-item n="nom" />
         <pattern-item n="adjec0" />
@@ -5338,6 +5336,49 @@
             <clip pos="2" side="tl" part="gen" />
             <clip pos="2" side="tl" part="nbr" />
             <clip pos="2" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="nom" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="alguno_negativo" />
+      </pattern>
+      <action>
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="2" />
+          <with-param pos="3" />
+        </call-macro>
+        <call-macro n="f_llamado">
+          <with-param pos="3" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="4" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="a_nom" />
+            <clip pos="2" side="tl" part="gen" />
+            <clip pos="2" side="tl" part="nbr" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="lemh" />
+            <clip pos="3" side="tl" part="a_adjec" />
+            <clip pos="3" side="tl" part="gen" />
+            <clip pos="3" side="tl" part="nbr" />
+            <clip pos="3" side="tl" part="lemq" />
           </lu>
         </out>
       </action>
