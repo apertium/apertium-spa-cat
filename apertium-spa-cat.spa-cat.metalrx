@@ -2053,12 +2053,17 @@
     </or>
   </rule>
 
-  <rule weight="3.0">
+  <rule weight="5.0">
     <or>
       <match lemma="como"/>
       <match lemma="cómo"/>
     </or>
-    <match tags="prn.pro.*"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="prn.pro.*"/>
+        <match tags="vbser.*"/>
+      </or>
+    </repeat>
     <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match>
   </rule>
 
@@ -2837,9 +2842,33 @@
       <match lemma="pena" tags="n.*" />
       <match lemma="prisa" tags="n.*" />
       <match lemma="dinero" tags="n.*" />
+      <match lemma="rigor" tags="n.*" />
     </or>   
   </rule>
 
+
+  <rule weight="0.6">
+    <match lemma="alguno_negativo" tags="det.ind.*"><select lemma="cap"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="gracia" tags="n.*" />
+      <match lemma="importancia" tags="n.*" />
+      <match lemma="interés" tags="n.*" />
+      <match lemma="estima" tags="n.*" />
+      <match lemma="simpatía" tags="n.*" />
+      <match lemma="gana" tags="n.*" />
+      <match lemma="respeto" tags="n.*" />
+      <match lemma="miedo" tags="n.*" />
+      <match lemma="pena" tags="n.*" />
+      <match lemma="prisa" tags="n.*" />
+      <match lemma="dinero" tags="n.*" />
+      <match lemma="rigor" tags="n.*" />
+    </or>
+    <match lemma="alguno_negativo" tags="det.ind.*"><select lemma="gens de"/></match>
+  </rule>
+  
    <!-- probar a + inf > provar de  ... -->
 
   <rule weight="0.6">

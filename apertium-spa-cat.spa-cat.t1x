@@ -453,6 +453,10 @@
       <cat-item lemma="pena" tags="n.*" />
       <cat-item lemma="prisa" tags="n.*" />
       <cat-item lemma="dinero" tags="n.*" />
+      <cat-item lemma="rigor" tags="n.*" />
+    </def-cat>
+    <def-cat n="alguno_negativo">
+      <cat-item lemma="alguno_negativo" tags="det.*"/>
     </def-cat>
     <!--<def-cat n="pr_1s"><cat-item lemma="me" tags="prn.pro.p1.mf.sg" /></def-cat>
     <def-cat n="ir_1s"><cat-item lemma="ir" tags="vblex.*.p1.sg" /></def-cat>
@@ -3007,6 +3011,24 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+    <rule>
+      <!-- REGLA: CASO ALGUNO -->
+      <pattern>
+        <pattern-item n="nom" />
+        <pattern-item n="alguno_negativo" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+        </out>
+      </action>
+    </rule>
     <!-- lo debieron (de) decir: degueren dir / NO: van deure dir -->
     <rule>
       <pattern>
@@ -9720,6 +9742,8 @@
         </out>
       </action>
     </rule>
+
+
     <rule>
       <!-- REGLA: reset variables-->
       <pattern>
