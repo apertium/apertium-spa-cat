@@ -4819,6 +4819,108 @@
     <match tags="*.inf"/>
   </rule>
 
+<!-- rajar > esberlar / arronsar-se -->
+
+  <rule weight="0.5">
+    <match lemma="rajar" tags="vblex.*"><select lemma="esberlar"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match lemma="rajar" tags="vblex.*.p1.sg"><select lemma="arronsar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match lemma="rajar" tags="vblex.*.p2.sg"><select lemma="arronsar"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="rajar" tags="vblex.*.p3.sg"><select lemma="arronsar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.pl"/>
+    <match lemma="rajar" tags="vblex.*.p1.pl"><select lemma="arronsar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p2.mf.pl"/>
+    <match lemma="rajar" tags="vblex.*.p2.pl"><select lemma="arronsar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="rajar" tags="vblex.*.p3.pl"><select lemma="arronsar"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.sg"/>
+    <match lemma="rajar" tags="vblex.inf"><select lemma="arronsar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.sg"/>
+    <match lemma="rajar" tags="vblex.inf"><select lemma="arronsar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.sg"/>
+    <match lemma="rajar" tags="vblex.inf"><select lemma="arronsar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.pl"/>
+    <match lemma="rajar" tags="vblex.inf"><select lemma="arronsar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.pl"/>
+    <match lemma="rajar" tags="vblex.inf"><select lemma="arronsar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.pl"/>
+    <match lemma="rajar" tags="vblex.inf"><select lemma="arronsar"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbhaver.*.p1.sg"/>
+    <match lemma="rajar" tags="vblex.pp.m.sg"><select lemma="arronsar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbhaver.*.p2.sg"/>
+    <match lemma="rajar" tags="vblex.pp.m.sg"><select lemma="arronsar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbhaver.*.p3.sg"/>
+    <match lemma="rajar" tags="vblex.pp.m.sg"><select lemma="arronsar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbhaver.*.p1.pl"/>
+    <match lemma="rajar" tags="vblex.pp.m.sg"><select lemma="arronsar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbhaver.*.p2.pl"/>
+    <match lemma="rajar" tags="vblex.pp.m.sg"><select lemma="arronsar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbhaver.*.p3.pl"/>
+    <match lemma="rajar" tags="vblex.pp.m.sg"><select lemma="arronsar"/></match>
+  </rule>
+
+  <rule weight="1"> 
+    <match lemma="rajar"><select lemma="arronsar"/></match>
+    <or>
+        <match tags="prn.enc.ref.p3.mf.sp"/>
+        <match tags="prn.enc.p1.mf.*"/>
+        <match tags="prn.enc.p2.mf.*"/>
+    </or>
+  </rule>
+
   <!-- abonar > abonar /adobar -->
 
   <rule weight="0.5">
