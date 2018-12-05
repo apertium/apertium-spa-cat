@@ -5289,6 +5289,19 @@
     <match lemma="pastel" tags="n.*"><select lemma="pastel"/></match>
   </rule>
 
+  <!-- serie > sèrie seguit -->
+
+  <rule weight="0.5">
+    <match lemma="serie" tags="n.*"><select lemma="sèrie"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="todo" tags="predet.f.sg"/>
+    <match lemma="un" tags="det.ind.f.sg"/>
+    <match lemma="serie" tags="n.f.sg"><select lemma="seguit"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
   <!-- mota > bri, taca, brossa -->
 
   <rule weight="0.5">
