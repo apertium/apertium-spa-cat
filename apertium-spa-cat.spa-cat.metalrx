@@ -4977,6 +4977,61 @@
     <match lemma="abonar" tags="vblex.*"><select lemma="adobar"/></match>
   </rule>
 
+  <!-- abonado > abonat /adobament -->
+  <rule weight="0.5">
+    <match lemma="abonado" tags="n.m.*"><select lemma="abonat"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="abonado" tags="n.m.*"><select lemma="adobament"/></match>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="tierra" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="sembrado" tags="n.*"/>
+      <match lemma="planta" tags="n.*"/>
+      <match lemma="cultivo" tags="n.*"/>
+      <match lemma="árbol" tags="n.*"/>
+      <match lemma="hortaliza" tags="n.*"/>
+      <match lemma="sembrar" tags="n.m.*"/>
+      <match lemma="plantar" tags="n.m.*"/>
+      <match lemma="regar" tags="n.m.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="tierra" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="sembrado" tags="n.*"/>
+      <match lemma="planta" tags="n.*"/>
+      <match lemma="cultivo" tags="n.*"/>
+      <match lemma="árbol" tags="n.*"/>
+      <match lemma="hortaliza" tags="n.*"/>
+      <match lemma="sembrar" tags="n.m.*"/>
+      <match lemma="plantar" tags="n.m.*"/>
+      <match lemma="regar" tags="n.m.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="abonado" tags="n.m.*"><select lemma="adobament"/></match>
+  </rule>
+
   <!-- abono > abonament / adob -->
 
   <rule weight="0.5">
@@ -5037,7 +5092,27 @@
     </repeat>
   </rule>
 
+  <!-- real > real / reial -->
+  <rule weight="0.5">
+    <match lemma="real" tags="adj.*"><select lemma="real"/></match>
+  </rule>
 
+  <rule weight="1.0">
+    <or>
+      <match lemma="alteza" tags="n.*"/>
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="familia" tags="n.*"/>
+    </or>
+    <match lemma="real" tags="adj.*"><select lemma="reial"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="real" tags="adj.*"><select lemma="reial"/></match>
+    <or>
+      <match lemma="academia" tags="n.*"/>
+      <match lemma="monaterio" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- reñir > renyir / renyar -->
 
@@ -5212,6 +5287,25 @@
       <match lemma="color" tags="n.*"/>
     </or>
     <match lemma="pastel" tags="n.*"><select lemma="pastel"/></match>
+  </rule>
+
+  <!-- mota > bri, taca, brossa -->
+
+  <rule weight="0.5">
+    <match lemma="mota" tags="n.*"><select lemma="bri"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="mota" tags="n.*"><select lemma="taca"/></match>
+    <match lemma="negro" tags="adj.*"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="mota" tags="n.*"><select lemma="brossa"/></match>
+    <repeat from="0" upto="3">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="ojo" tags="n.*"/>
   </rule>
     
     <!-- lo que > el que / la qual cosa -->
