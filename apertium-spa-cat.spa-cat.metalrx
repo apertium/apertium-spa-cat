@@ -2673,6 +2673,21 @@
     <match lemma="de"/>  
   </rule>
 
+    <!-- andar > caminar/anar -->
+
+  <rule weight="0.6">
+    <match lemma="andar" tags="vblex.*"><select lemma="caminar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="andar" tags="vblex.*"><select lemma="anar"/></match>
+    <match lemma="algo"/>
+    <or>
+      <match tags="adj.*"/>
+      <match tags="*.pp.*"/>
+    </or>
+  </rule>
+
   <!-- sí (lo) es > sí que (ho) és -->
 
   <rule weight="0.6">
