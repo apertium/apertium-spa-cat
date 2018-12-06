@@ -2108,6 +2108,44 @@
     </or>
   </rule>
 
+  <rule weight="3.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
+    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+        <match tags="np.*"/>
+      </or>
+    </repeat> 
+    <match tags="pr" lemma="a"/> 
+    <match tags="*.inf"/>
+  </rule>
+
+<rule weight="3.0">
+    <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
+    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match tags="det.*"/>
+    <or>
+      <match tags="n.*"/>
+      <match tags="np.*"/>
+    </or>
+    <match tags="cnjcoo"/>
+    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="n.*"/>
+        <match tags="np.*"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="a"/> 
+    <match tags="*.inf"/>
+  </rule>
+
   <!-- buggy? <rule weight="2.0">
     <match lemma="granito" tags="n.*"><select lemma="mica"/></match>
     <match lemma="de"/>
