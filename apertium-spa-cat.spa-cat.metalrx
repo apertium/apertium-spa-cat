@@ -3690,6 +3690,17 @@
     </or>
   </rule>
 
+    <!-- lo > el / això  -->
+
+  <rule weight="0.6">
+    <match lemma="lo" tags="detnt"><select lemma="el"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="lo" tags="detnt"><select lemma="això"/></match>
+    <match tags="pr" lemma="de"/>
+  </rule>
+
   <!--tras > després de / rere  -->
 
   <rule weight="0.6">
