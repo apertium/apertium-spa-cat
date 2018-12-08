@@ -157,12 +157,12 @@
     </match>
   </rule>
   <rule weight="1.0"> 
-    <match lemma="corte" tags="n.*">
-        <select lemma="tall" />
-    </match>
-    <match lemma="de"/>
-    <repeat from="0" upto="1">
-      <match lemma="*" tags="det.*"/>
+    <match lemma="corte" tags="n.*"><select lemma="tall" /></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match lemma="*" tags="det.*"/>
+        <match lemma="de"/>
+      </or>
     </repeat>
     <or>
       <match lemma="vía"/>
@@ -173,6 +173,23 @@
       <match lemma="carretera"/>
       <match lemma="electricidad"/>
       <match lemma="energía"/>
+      <match lemma="digestión"/>
+      <match lemma="pelo"/>
+      <match lemma="cabello"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0"> 
+    <match lemma="corte" tags="n.*"><select lemma="tall" /></match>
+    <match lemma="en"/>
+    <match lemma="juliana"/>
+  </rule>
+
+  <rule weight="1.0"> <!-- alguns adjectius mf -->
+    <match lemma="corte" tags="n.*"><select lemma="tall" /></match>
+    <or>
+      <match lemma="transversal"/>
+      <match lemma="total"/>
     </or>
   </rule>
 
