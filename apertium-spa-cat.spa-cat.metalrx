@@ -3847,6 +3847,7 @@
       <match tags="n.*"/>
       <match tags="adj.*"/> 
       <match lemma="tal"/>
+      <match lemma="Unión Europea"/>
     </or>
   </rule>
 
@@ -4538,6 +4539,17 @@
     <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
   </rule>
 
+  <!-- a base de -->
+
+  <rule weight="0.5">
+    <match lemma="a base de" tags="pr"><select lemma="a base de"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="a base de" tags="pr"><select lemma="a força de"/></match>
+    <match tags="*.inf"/>
+  </rule>
+
   <!-- en > en / a -->
 
   <rule weight="0.5">
@@ -4551,6 +4563,7 @@
       <match lemma="interferir"/>
       <match lemma="pensar"/>
       <match lemma="convertir"/>
+      <match lemma="confiar"/>
     </or>
     <match lemma="en" tags="pr"><select lemma="en"/></match>
   </rule>
