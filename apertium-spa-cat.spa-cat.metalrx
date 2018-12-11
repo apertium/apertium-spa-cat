@@ -1842,7 +1842,24 @@
       <match tags="np.*" lemma="España"/>
       <match tags="np.*" lemma="Francia"/>
       <match tags="np.*" lemma="Alemania"/>
+      <match tags="np.*" lemma="Unión Europea"/>
     </or>
+  </rule>
+
+  <!-- zafar > escapolir / desempallegar (suposant que és reflexiu!)-->
+
+  <rule weight="0.8">
+    <match lemma="zafar" tags="vblex.*"><select lemma="escapolir"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="zafar" tags="vblex.*"><select lemma="desempallegar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <match lemma="de" tags="pr"/>
   </rule>
 
   <!-- mandar > manar/enviar -->
