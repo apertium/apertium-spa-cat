@@ -4703,6 +4703,66 @@
     <match lemma="hambre" tags="n.f.sg"><select lemma="gana"/></match>
   </rule>
 
+    <!-- archivo > arxiu / arxivament  ... -->
+
+  <rule weight="0.5">
+    <match lemma="archivo" tags="n.m.*"><select lemma="arxiu"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="archivo" tags="n.m.*"><select lemma="arxivament"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="actuación" tags="n.*"/>
+      <match lemma="causa" tags="n.*"/>
+      <match lemma="caso" tags="n.*"/>
+      <match lemma="instrucción" tags="n.*"/>
+      <match lemma="investigación" tags="n.*"/>
+      <match lemma="querella" tags="n.*"/>
+      <match lemma="denuncia" tags="n.*"/>
+      <match lemma="diligencia" tags="n.*"/>
+      <match lemma="expediente" tags="n.*"/>
+      <match lemma="proceso" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="archivo" tags="n.m.*"><select lemma="arxivament"/></match>
+    <or>
+      <match tags="vblex.pp.*" lemma="dictar"/>
+      <match tags="vblex.pp.*" lemma="ordenar"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*" lemma="juez"/>
+      <match tags="n.*" lemma="sobreseimiento"/>
+      <match tags="n.*" lemma="fiscal"/>
+      <match tags="n.*" lemma="fiscalía"/>
+      <match tags="n.*" lemma="anticorrupción"/>
+      <match tags="n.*" lemma="recurso"/>
+      <match tags="vblex.*" lemma="recurrir"/>
+      <match tags="vblex.*" lemma="sobreseer"/>
+    </or>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="archivo" tags="n.m.*"><select lemma="arxivament"/></match>
+  </rule>
+
   <!-- cacarear > escatainar / esbombar ... -->
 
   <rule weight="0.5">
