@@ -4951,6 +4951,17 @@
     <match tags="*.inf"/>
   </rule>
 
+  <!-- en aras de -->
+
+  <rule weight="0.5">
+    <match lemma="en aras de" tags="pr"><select lemma="en nom de"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="en aras de" tags="pr"><select lemma="a fi de"/></match>
+    <match tags="*.inf"/>
+  </rule>
+
   <!-- en > en / a -->
 
   <rule weight="0.5">
