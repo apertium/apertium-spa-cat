@@ -616,10 +616,10 @@
     <match lemma="dar# prisa" tags="vblex.*"><select lemma="donar# pressa"/></match>
   </rule>
 
-  <rule weight="1.5">
+  <!--<rule weight="1.5">
     <match lemma="dar# prisa" tags="vblex.*"><select lemma="donar# pressa"/></match>
     <match lemma="a" tags="pr"/>
-  </rule>
+  </rule>-->
 
   <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
@@ -732,11 +732,6 @@
     <match lemma="armar# un jaleo" tags="vblex.*"><select lemma="armar# tabola"/></match>
   </rule>
 
-  <rule weight="1.5">
-    <match lemma="armar# un jaleo" tags="vblex.*"><select lemma="armar# tabola"/></match>
-    <match lemma="a" tags="pr"/>
-  </rule>
-
   <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match lemma="armar# un jaleo" tags="vblex.*.p1.sg"><select lemma="fer# un embolic"/></match>
@@ -832,14 +827,112 @@
         <match tags="prn.enc.p2.mf.*"/>
     </or>
   </rule>
-  <rule weight="1.5"> 
-    <match lemma="armar# un jaleo"><select lemma="armar# tabola"/></match>
+
+  <!-- dormirse > adormir-se / dormir > dormir -->
+
+  <rule weight="0.8">
+    <match lemma="dormir" tags="vblex.*"><select lemma="dormir"/></match>
+  </rule>
+
+  <!--<rule weight="1.5">
+    <match lemma="dormir" tags="vblex.*"><select lemma="dormir"/></match>
+    <match lemma="a" tags="pr"/>
+  </rule>-->
+
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match lemma="dormir" tags="vblex.*.p1.sg"><select lemma="adormir"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match lemma="dormir" tags="vblex.*.p2.sg"><select lemma="adormir"/></match>
+  </rule>
+  <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="dormir" tags="vblex.*.p3.sg"><select lemma="adormir"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.pl"/>
+    <match lemma="dormir" tags="vblex.*.p1.pl"><select lemma="adormir"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p2.mf.pl"/>
+    <match lemma="dormir" tags="vblex.*.p2.pl"><select lemma="adormir"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match lemma="dormir" tags="vblex.*.p3.pl"><select lemma="adormir"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.sg"/>
+    <match lemma="dormir" tags="vblex.inf"><select lemma="adormir"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.sg"/>
+    <match lemma="dormir" tags="vblex.inf"><select lemma="adormir"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.sg"/>
+    <match lemma="dormir" tags="vblex.inf"><select lemma="adormir"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbmod.*.p1.pl"/>
+    <match lemma="dormir" tags="vblex.inf"><select lemma="adormir"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbmod.*.p2.pl"/>
+    <match lemma="dormir" tags="vblex.inf"><select lemma="adormir"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.pl"/>
+    <match lemma="dormir" tags="vblex.inf"><select lemma="adormir"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbhaver.*.p1.sg"/>
+    <match lemma="dormir" tags="vblex.pp.m.sg"><select lemma="adormir"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbhaver.*.p2.sg"/>
+    <match lemma="dormir" tags="vblex.pp.m.sg"><select lemma="adormir"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbhaver.*.p3.sg"/>
+    <match lemma="dormir" tags="vblex.pp.m.sg"><select lemma="adormir"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <match tags="vbhaver.*.p1.pl"/>
+    <match lemma="dormir" tags="vblex.pp.m.sg"><select lemma="adormir"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbhaver.*.p2.pl"/>
+    <match lemma="dormir" tags="vblex.pp.m.sg"><select lemma="adormir"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbhaver.*.p3.pl"/>
+    <match lemma="dormir" tags="vblex.pp.m.sg"><select lemma="adormir"/></match>
+  </rule>
+
+  <rule weight="1"> 
+    <match lemma="dormir"><select lemma="adormir"/></match>
     <or>
         <match tags="prn.enc.ref.p3.mf.sp"/>
         <match tags="prn.enc.p1.mf.*"/>
         <match tags="prn.enc.p2.mf.*"/>
     </or>
-    <match lemma="a" tags="pr"/>
   </rule>
   
 <!-- tachar > ratllar / titllar  -->
@@ -1076,7 +1169,7 @@
   </rule>
 
  <!-- o sea > és a dir / o sigui -->
- 
+
  <rule weight="0.5">
     <match lemma="o sea" tags="cnjcoo"><select lemma="o sigui"/></match>
  </rule>
