@@ -942,7 +942,7 @@
         </when>
       </choose>
     </def-macro>
-    <def-macro n="f_seleccioLex" npar="1">
+    <!--<def-macro n="f_seleccioLex" npar="1">
       <choose>
         <when>
           <test>
@@ -1029,7 +1029,7 @@
           </let>
         </when>
       </choose>
-    </def-macro>
+    </def-macro>-->
     <def-macro n="f_concord1" npar="1">
       <choose>
         <!--To determine value of variables of gender and
@@ -4124,9 +4124,9 @@
           </lu>
           <b pos="1" />
         </out>
-        <call-macro n="f_seleccioLex">
+        <!--<call-macro n="f_seleccioLex">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_pretind">
           <with-param pos="2" />
         </call-macro>
@@ -6811,9 +6811,9 @@
         <pattern-item n="verb" />
       </pattern>
       <action>
-        <call-macro n="f_seleccioLex">
+        <!--<call-macro n="f_seleccioLex">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_pretind">
           <with-param pos="1" />
         </call-macro>
