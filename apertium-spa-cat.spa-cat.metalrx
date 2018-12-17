@@ -1174,16 +1174,16 @@
     <match lemma="o sea" tags="cnjcoo"><select lemma="o sigui"/></match>
  </rule>
  <rule weight="1">
-    <match lemma="cm"/>
+    <match tags="cm"/>
     <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
  </rule>
- <rule weight="1">
+ <!--<rule weight="1">
     <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
     <or>
       <match lemma="que" tags="cnjsub"/>
       <match lemma="que" tags="rel.*"/>
     </or>
- </rule>
+ </rule>-->
 
  <!-- hasta la fecha > fins avui / fins a la data  -->
 
