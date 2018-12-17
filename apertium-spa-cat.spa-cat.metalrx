@@ -1075,6 +1075,22 @@
     <match lemma="número" tags="n.*"><select lemma="nombre"/></match>
   </rule>
 
+ <!-- o sea > és a dir / o sigui -->
+ 
+ <rule weight="0.5">
+    <match lemma="o sea" tags="cnjcoo"><select lemma="o sigui"/></match>
+ </rule>
+ <rule weight="1">
+    <match lemma="cm"/>
+    <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
+ </rule>
+ <rule weight="1">
+    <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
+    <or>
+      <match lemma="que" tags="cnjsub"/>
+      <match lemma="que" tags="rel.*"/>
+    </or>
+ </rule>
 
  <!-- hasta la fecha > fins avui / fins a la data  -->
 
