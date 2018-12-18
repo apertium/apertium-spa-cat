@@ -1181,13 +1181,28 @@
     <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
     <match tags="cm"/>
  </rule>
- <!--<rule weight="1">
+ <rule weight="1">
     <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
     <or>
       <match lemma="que" tags="cnjsub"/>
       <match lemma="que" tags="rel.*"/>
     </or>
- </rule>-->
+ </rule>
+
+<rule weight="1">
+    <match lemma="ser" tags="vbser.prs.p3.sg"/>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="o sea" tags="cnjcoo"><select lemma="o sigui"/></match>
+ </rule>
 
  <!-- hasta la fecha > fins avui / fins a la data  -->
 
