@@ -1177,6 +1177,10 @@
     <match tags="cm"/>
     <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
  </rule>
+ <rule weight="1">
+    <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
+    <match tags="cm"/>
+ </rule>
  <!--<rule weight="1">
     <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
     <or>
