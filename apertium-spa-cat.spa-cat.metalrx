@@ -4040,6 +4040,20 @@
     </or>
   </rule>
 
+  <!-- forma > forma / manera  ... -->
+
+  <rule weight="0.5">
+    <match lemma="forma" tags="n.*"><select lemma="forma"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="forma" tags="n.*"><select lemma="manera"/></match>
+    <match lemma="de" tags="pr"/>
+    <match tags="*.inf"/>
+  </rule>
+
+  <!-- TODO: de forma continua > de manera contínua -->
+
   <!-- respaldo > suport /respatler ... -->
 
   <rule weight="0.5">
