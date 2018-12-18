@@ -3913,6 +3913,15 @@
     <match lemma="deber" tags="vbmod.ifi.*"><select lemma="deure"/></match>
   </rule>
 
+  <rule weight="2">
+    <match lemma="deber# de" tags="vbmod.inf"><select lemma="deure# de"/></match> <!-- és substantiu! -->
+  </rule>
+  <rule weight="3">
+    <match lemma="ir" tags="vblex.*"/>
+    <match lemma="a" tags="pr"/>
+    <match lemma="deber# de" tags="vbmod.inf"><select lemma="haver# de"/></match>
+  </rule>
+
   <!-- debido a > degut a / a causa de  -->
 
   <rule weight="0.5">

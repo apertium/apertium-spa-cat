@@ -159,15 +159,21 @@
       <cat-item tags="vblex.inf" />
       <cat-item tags="vbser.inf" />
       <cat-item tags="vbhaver.inf" />
-      <cat-item tags="vbmod.inf" lemma="deber"/> <!-- exclòs: deber de (és substantiu)-->
-      <cat-item tags="vbmod.inf" lemma="haber que"/>
-      <cat-item tags="vbmod.inf" lemma="hacer falta"/>
-      <cat-item tags="vbmod.inf" lemma="haber de"/>
+      <cat-item tags="vbmod.inf"/>
+    </def-cat>
+    <def-cat n="inf2"> <!-- exclòs: deber de (és substantiu)-->
+      <cat-item tags="vblex.inf" />
+      <cat-item tags="vbser.inf" />
+      <cat-item tags="vbhaver.inf" />
+      <cat-item tags="vbmod.inf" lemma="deber"/> 
+      <cat-item tags="vbmod.inf" lemma="haber# que"/>
+      <cat-item tags="vbmod.inf" lemma="hacer# falta"/>
+      <cat-item tags="vbmod.inf" lemma="haber# de"/>
       <cat-item tags="vbmod.inf" lemma="poder"/>
       <cat-item tags="vbmod.inf" lemma="querer"/>
-      <cat-item tags="vbmod.inf" lemma="ser preciso"/>
-      <cat-item tags="vbmod.inf" lemma="ser menester"/>
-      <cat-item tags="vbmod.inf" lemma="tener que"/>
+      <cat-item tags="vbmod.inf" lemma="ser# preciso"/>
+      <cat-item tags="vbmod.inf" lemma="ser# menester"/>
+      <cat-item tags="vbmod.inf" lemma="tener# que"/>
     </def-cat>
     <def-cat n="ger">
       <cat-item tags="vblex.ger" />
@@ -6961,7 +6967,7 @@
       <pattern>
         <pattern-item n="a" />
         <pattern-item n="el" />
-        <pattern-item n="inf" />
+        <pattern-item n="inf2" />
       </pattern>
       <action>
         <out>
