@@ -5275,13 +5275,35 @@
         <pattern-item n="que_cnjsub" />
       </pattern>
       <action>
-        <out>
-          <lu>
-            <clip pos="2" side="tl" part="whole" />
-          </lu>
-        </out>
+        <choose>
+          <when>
+            <test>
+              <equal caseless="yes">
+                <clip pos="2" side="tl" part="lem" />
+                <lit v="que" /> <!-- no es fa quan es tradueix per "el fet que"-->
+              </equal>
+            </test>
+            <out>
+            <lu>
+              <clip pos="2" side="tl" part="whole" />
+            </lu>
+          </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole" />
+              </lu>
+              <b pos="1" />
+              <lu>
+                <clip pos="2" side="tl" part="whole" />
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
+ 
 
     <!-- REGLA: CASO ALGUNO -->
     <rule>

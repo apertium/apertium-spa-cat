@@ -193,6 +193,83 @@
     </or>
   </rule>
 
+  <!-- apretar > estrényer -->
+
+  <rule weight="0.8">
+    <match lemma="apretar" tags="vblex.*"><select lemma="estrènyer"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="apretar" tags="vblex.*"><select lemma="prémer"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <match lemma="gatillo" tags="n.*"/>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="apretar" tags="vblex.*"><select lemma="pitjar"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="cm"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="botón" tags="n.*"/>
+      <match lemma="acelerador" tags="n.*"/>
+      <match lemma="freno" tags="n.*"/>
+      <match lemma="embrague" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="apretar" tags="vblex.*"><select lemma="collar# fort"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="cm"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="tornillo" tags="n.*"/>
+      <match lemma="arandela" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="frío" tags="n.*"/>
+      <match lemma="calor" tags="n.*"/>
+      <match lemma="lluvia" tags="n.*"/>
+      <match lemma="viento" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="cm"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <match lemma="apretar" tags="vblex.*"><select lemma="refermar"/></match>
+  </rule>
+
   <!-- contar > contar/comptar -->
 
   <rule weight="0.8">
@@ -4240,6 +4317,22 @@
       <match tags="np.*"/>
     </or>
   </rule>
+
+<!-- con que > amb el fet que / que -->
+
+  <rule weight="0.5">
+    <match lemma="que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="tener# que ver" tags="vblex.*"/>
+      <match lemma="concordar" tags="vblex.*"/>
+    </or>
+    <match lemma="con" tags="pr"/>
+    <match lemma="que" tags="cnjsub"><select lemma="el fet que"/></match>
+  </rule>
+
 
 <!-- a que > al fet que / a què -->
 
