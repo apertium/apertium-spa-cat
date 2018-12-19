@@ -471,6 +471,21 @@
     <def-cat n="alguno_negativo">
       <cat-item lemma="alguno_negativo" tags="det.*"/>
     </def-cat>
+    <def-cat n="no_tampoco">
+      <cat-item lemma="no" tags="adv"/>
+      <cat-item lemma="tampoco" tags="adv"/>
+    </def-cat>
+    <def-cat n="haber_que">
+      <cat-item lemma="haber que" tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="olvidar"> 
+      <cat-item lemma="olvidar" tags="vblex.inf"/>
+      <cat-item lemma="confundir" tags="vblex.inf"/>
+      <cat-item lemma="ignorar" tags="vblex.inf"/>
+      <cat-item lemma="desconocer" tags="vblex.inf"/>
+      <cat-item lemma="descuidar" tags="vblex.inf"/>
+    </def-cat>
+
     <!--<def-cat n="pr_1s"><cat-item lemma="me" tags="prn.pro.p1.mf.sg" /></def-cat>
     <def-cat n="ir_1s"><cat-item lemma="ir" tags="vblex.*.p1.sg" /></def-cat>
     <def-cat n="pr_2s"><cat-item lemma="te" tags="prn.pro.p2.mf.sg" /></def-cat>
@@ -5283,11 +5298,15 @@
                 <lit v="que" /> <!-- no es fa quan es tradueix per "el fet que"-->
               </equal>
             </test>
+            <call-macro n="f_bcond">
+              <with-param pos="1" />
+              <with-param pos="2" />
+            </call-macro>
             <out>
-            <lu>
-              <clip pos="2" side="tl" part="whole" />
-            </lu>
-          </out>
+              <lu>
+                <clip pos="2" side="tl" part="whole" />
+              </lu>
+            </out>
           </when>
           <otherwise>
             <out>
@@ -5303,8 +5322,34 @@
         </choose>
       </action>
     </rule>
- 
 
+    <!-- REGLA: No hay que olvidar > cal no oblidar -->
+    <rule>
+      <pattern>
+        <pattern-item n="no_tampoco" />
+        <pattern-item n="haber_que" />
+        <pattern-item n="olvidar" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <clip part="whole" pos="2" side="tl" />
+            </get-case-from>
+          </lu>
+          <b />
+          <lu>
+            <lit v="no" />
+            <lit-tag v="adv" />
+          </lu>
+          <b />
+          <lu>
+            <clip part="whole" pos="3" side="tl" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+ 
     <!-- REGLA: CASO ALGUNO -->
     <rule>
       <pattern>
