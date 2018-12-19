@@ -245,6 +245,9 @@
       <cat-item lemma="que" tags="cnjsub" />
       <cat-item lemma="que" tags="rel.an.mf.sp" />
     </def-cat>
+    <def-cat n="que_cnjsub">
+      <cat-item lemma="que" tags="cnjsub" />
+    </def-cat>
     <def-cat n="que_si">
       <cat-item lemma="que" tags="cnjsub" />
       <cat-item lemma="que" tags="rel.an.mf.sp" />
@@ -5269,7 +5272,7 @@
     <rule>
       <pattern>
         <pattern-item n="prep_a_en_de_con" />
-        <pattern-item n="que" />
+        <pattern-item n="que_cnjsub" />
       </pattern>
       <action>
         <out>
