@@ -4749,6 +4749,20 @@
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
   </rule>
 
+  <rule weight="3"> 
+    <or>
+      <match tags="pr" lemma="en"/>
+      <match tags="pr" lemma="de"/>
+    </or>
+    <or>
+      <match tags="n.*" lemma="acuerdo"/>
+      <match tags="n.*" lemma="desacuerdo"/>
+    </or>
+    <or>
+      <match tags="pr" lemma="con"/>
+    </or>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
 
    <!-- en tanto que > en tant que / com a -->
 

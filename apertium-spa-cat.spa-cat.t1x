@@ -5349,6 +5349,47 @@
         </out>
       </action>
     </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="no_tampoco" />
+        <pattern-item n="haber_que" />
+        <pattern-item n="olvidar" />
+        <pattern-item n="prnenc" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <clip part="whole" pos="2" side="tl" />
+            </get-case-from>
+          </lu>
+          <b />
+          <lu>
+            <lit v="no" />
+            <lit-tag v="adv" />
+          </lu>
+          <b />
+          <mlu>
+            <lu>
+              <clip pos="3" side="tl" part="lemh" />
+              <clip pos="3" side="tl" part="a_verb" />
+              <clip pos="3" side="tl" part="temps" />
+              <clip pos="3" side="tl" part="persona" />
+              <clip pos="3" side="tl" part="nbr" />
+            </lu>
+            <lu>
+              <clip pos="4" side="tl" part="lem" />
+              <clip pos="4" side="tl" part="a_prnenc" />
+              <clip pos="4" side="tl" part="persona" />
+              <clip pos="4" side="tl" part="gen" />
+              <clip pos="4" side="tl" part="nbr" />
+              <clip pos="3" side="tl" part="lemq" />
+            </lu>
+          </mlu>
+        </out>
+      </action>
+    </rule>
  
     <!-- REGLA: CASO ALGUNO -->
     <rule>
