@@ -4320,11 +4320,12 @@
 
 <!-- con que > amb el fet que / que -->
 
-  <rule weight="0.5">
+  <rule weight="1">
+    <match lemma="con" tags="pr"/>
     <match lemma="que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="2">
     <or>
       <match lemma="tener# que ver" tags="vblex.*"/>
       <match lemma="concordar" tags="vblex.*"/>
