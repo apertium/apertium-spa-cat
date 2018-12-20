@@ -1218,6 +1218,11 @@
     </or>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="estar" tags="vblex.*"/>
+    <match lemma="emplear" tags="vblex.pp.*"><select lemma="ocupar"/></match>
+  </rule>
+
     <!-- número > número/nombre -->
 
   <rule weight="0.8">
@@ -4334,6 +4339,23 @@
     <match lemma="que" tags="cnjsub"><select lemma="el fet que"/></match>
   </rule>
 
+  <rule weight="2">
+    <or>
+      <match lemma="diferenciar" tags="vblex.*"/>
+      <match lemma="distinguir" tags="vblex.*"/>
+      <match lemma="acento" tags="n.*"/>  
+      <match lemma="énfasis" tags="n.*"/>  
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="cm"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <match lemma="en" tags="pr"/>
+    <match lemma="que" tags="cnjsub"><select lemma="el fet que"/></match>
+  </rule>
+
 
 <!-- a que > al fet que / a què -->
 
@@ -6196,6 +6218,10 @@
       <match lemma="pintor" tags="n.*"/>
       <match lemma="poeta" tags="n.*"/>
       <match lemma="escultor" tags="n.*"/>
+      <match lemma="presidente" tags="n.*"/>
+      <match lemma="ministro" tags="n.*"/>
+      <match lemma="exministro" tags="n.*"/>
+      <match lemma="expresidente" tags="n.*"/>
       <match tags="np.*"/>
     </or>
   </rule>
