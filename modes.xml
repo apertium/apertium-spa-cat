@@ -27,6 +27,44 @@
       <program name="lt-proc $1">
         <file name="spa-cat.autogen.bin"/>
       </program>
+      <program name="lt-proc -x">
+        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="spa-cat.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- spa → cat diacritics nous -->
+  <mode name="spa-cat_iec2017" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-cat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w" debug-suff="disamb">
+        <file name="spa-cat.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="spa-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b" debug-suff="transfer">
+        <file name="spa-cat.t1x"/>
+        <file name="spa-cat.t1x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="spa-cat.autogen.bin"/>
+      </program>
+      <program name="lt-proc -x">
+        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
+      </program>
       <program name="lt-proc -p">
         <file name="spa-cat.autopgen.bin"/>
       </program>
@@ -58,6 +96,43 @@
       <program name="lt-proc $1">
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
+      <program name="lt-proc -x">
+        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="spa-cat_valencia_gva.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-cat_valencia_iec2017" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-cat.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w" debug-suff="disamb">
+        <file name="spa-cat.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat_valencia_gva.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="spa-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b" debug-suff="transfer">
+        <file name="spa-cat_valencia_gva.t1x"/>
+        <file name="spa-cat_valencia_gva.t1x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="spa-cat_valencia_gva.autogen.bin"/>
+      </program>
+      <program name="lt-proc -x">
+        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
+      </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_gva.autopgen.bin"/>
       </program>
@@ -88,6 +163,43 @@
       </program>
       <program name="lt-proc $1">
         <file name="spa-cat_valencia_uni.autogen.bin"/>
+      </program>
+      <program name="lt-proc -x">
+        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="spa-cat_valencia_uni.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="spa-cat_valencia_uni_iec2017" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="spa-cat.automorf.bin"/>
+      </program>
+	  <program name="cg-proc -w" debug-suff="disamb">
+        <file name="spa-cat.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-cat.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-cat_valencia_uni.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="spa-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b" debug-suff="transfer">
+        <file name="spa-cat_valencia_uni.t1x"/>
+        <file name="spa-cat_valencia_uni.t1x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="spa-cat_valencia_uni.autogen.bin"/>
+      </program>
+      <program name="lt-proc -x">
+        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_uni.autopgen.bin"/>
