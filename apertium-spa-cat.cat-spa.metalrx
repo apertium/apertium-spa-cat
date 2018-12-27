@@ -1321,6 +1321,140 @@
   </rule>
 
 
+<!-- **************** A **************** -->
+
+  <rule weight="0.5">
+     <match lemma="net" tags="adj.*"><select lemma="limpio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*" lemma="actiu"/>
+      <match tags="n.*" lemma="afirmació"/>
+      <match tags="n.*" lemma="aportació"/>
+      <match tags="n.*" lemma="augment"/>
+      <match tags="n.*" lemma="baixada"/>
+      <match tags="n.*" lemma="benefici"/>
+      <match tags="n.*" lemma="beneficiari"/>
+      <match tags="n.*" lemma="capital"/>
+      <match tags="n.*" lemma="consum"/>
+      <match tags="n.*" lemma="contribució"/>
+      <match tags="n.*" lemma="contribuïdor"/>
+      <match tags="n.*" lemma="cost"/>
+      <match tags="n.*" lemma="creació"/>
+      <match tags="n.*" lemma="creixement"/>
+      <match tags="n.*" lemma="davallada"/>
+      <match tags="n.*" lemma="decreixement"/>
+      <match tags="n.*" lemma="descens"/>
+      <match tags="n.*" lemma="despesa"/>
+      <match tags="n.*" lemma="destrucció"/>
+      <match tags="n.*" lemma="deute"/>
+      <match tags="n.*" lemma="diferència"/>
+      <match tags="n.*" lemma="efecte"/>
+      <match tags="n.*" lemma="endeutament"/>
+      <match tags="n.*" lemma="exportador"/>
+      <match tags="n.*" lemma="finançament"/>
+      <match tags="n.*" lemma="formació"/>
+      <match tags="n.*" lemma="fortuna"/>
+      <match tags="n.*" lemma="força"/>
+      <match tags="n.*" lemma="gasto"/>
+      <match tags="n.*" lemma="guany"/>
+      <match tags="n.*" lemma="haver"/>
+      <match tags="n.*" lemma="impacte"/>
+      <match tags="n.*" lemma="importador"/>
+      <match tags="n.*" lemma="increment"/>
+      <match tags="n.*" lemma="ingrés"/>
+      <match tags="n.*" lemma="posició"/>
+      <match tags="n.*" lemma="producció"/>
+      <match tags="n.*" lemma="producte"/>
+      <match tags="n.*" lemma="proteïna"/>
+      <match tags="n.*" lemma="préstec"/>
+      <match tags="n.*" lemma="pujada"/>
+      <match tags="n.*" lemma="pèrdua"/>
+      <match tags="n.*" lemma="receptor"/>
+      <match tags="n.*" lemma="reducció"/>
+      <match tags="n.*" lemma="renda"/>
+      <match tags="n.*" lemma="resultat"/>
+      <match tags="n.*" lemma="salari"/>
+      <match tags="n.*" lemma="saldo"/>
+      <match tags="n.*" lemma="situació"/>
+      <match tags="n.*" lemma="sou"/>
+      <match tags="n.*" lemma="suma"/>
+      <match tags="n.*" lemma="taxa"/>
+    </or>
+    <repeat from="0" upto="2">
+      <match tags="adj.*"/>
+      <match tags="vblex.pp.*"/>
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="net" tags="adj.*"><select lemma="neto"/></match>
+  </rule>
+
+  <rule weight="0.5">
+     <match lemma="brut" tags="adj.*"><select lemma="sucio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*" lemma="actiu"/>
+      <match tags="n.*" lemma="afirmació"/>
+      <match tags="n.*" lemma="aportació"/>
+      <match tags="n.*" lemma="augment"/>
+      <match tags="n.*" lemma="baixada"/>
+      <match tags="n.*" lemma="benefici"/>
+      <match tags="n.*" lemma="beneficiari"/>
+      <match tags="n.*" lemma="capital"/>
+      <match tags="n.*" lemma="consum"/>
+      <match tags="n.*" lemma="contribució"/>
+      <match tags="n.*" lemma="contribuïdor"/>
+      <match tags="n.*" lemma="cost"/>
+      <match tags="n.*" lemma="creació"/>
+      <match tags="n.*" lemma="creixement"/>
+      <match tags="n.*" lemma="davallada"/>
+      <match tags="n.*" lemma="decreixement"/>
+      <match tags="n.*" lemma="descens"/>
+      <match tags="n.*" lemma="despesa"/>
+      <match tags="n.*" lemma="destrucció"/>
+      <match tags="n.*" lemma="deute"/>
+      <match tags="n.*" lemma="diferència"/>
+      <match tags="n.*" lemma="efecte"/>
+      <match tags="n.*" lemma="endeutament"/>
+      <match tags="n.*" lemma="exportador"/>
+      <match tags="n.*" lemma="finançament"/>
+      <match tags="n.*" lemma="formació"/>
+      <match tags="n.*" lemma="fortuna"/>
+      <match tags="n.*" lemma="força"/>
+      <match tags="n.*" lemma="gasto"/>
+      <match tags="n.*" lemma="guany"/>
+      <match tags="n.*" lemma="haver"/>
+      <match tags="n.*" lemma="impacte"/>
+      <match tags="n.*" lemma="importador"/>
+      <match tags="n.*" lemma="increment"/>
+      <match tags="n.*" lemma="ingrés"/>
+      <match tags="n.*" lemma="posició"/>
+      <match tags="n.*" lemma="producció"/>
+      <match tags="n.*" lemma="producte"/>
+      <match tags="n.*" lemma="proteïna"/>
+      <match tags="n.*" lemma="préstec"/>
+      <match tags="n.*" lemma="pujada"/>
+      <match tags="n.*" lemma="pèrdua"/>
+      <match tags="n.*" lemma="receptor"/>
+      <match tags="n.*" lemma="reducció"/>
+      <match tags="n.*" lemma="renda"/>
+      <match tags="n.*" lemma="resultat"/>
+      <match tags="n.*" lemma="salari"/>
+      <match tags="n.*" lemma="saldo"/>
+      <match tags="n.*" lemma="situació"/>
+      <match tags="n.*" lemma="sou"/>
+      <match tags="n.*" lemma="suma"/>
+      <match tags="n.*" lemma="taxa"/>
+    </or>
+    <repeat from="0" upto="2">
+      <match tags="adj.*"/>
+      <match tags="vblex.pp.*"/>
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="brut" tags="adj.*"><select lemma="bruto"/></match>
+  </rule>
+
 <!-- **************** N **************** -->
 
 <!-- sant > santo, san -->
