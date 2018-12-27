@@ -1382,9 +1382,11 @@
       <match tags="n.*" lemma="taxa"/>
     </or>
     <repeat from="0" upto="2">
-      <match tags="adj.*"/>
-      <match tags="vblex.pp.*"/>
-      <match tags="adv"/>
+      <or>
+        <match tags="adj.*"/>
+        <match tags="vblex.pp.*"/>
+        <match tags="adv"/>
+      </or>
     </repeat>
     <match lemma="net" tags="adj.*"><select lemma="neto"/></match>
   </rule>
@@ -1448,9 +1450,11 @@
       <match tags="n.*" lemma="taxa"/>
     </or>
     <repeat from="0" upto="2">
-      <match tags="adj.*"/>
-      <match tags="vblex.pp.*"/>
-      <match tags="adv"/>
+      <or>
+        <match tags="adj.*"/>
+        <match tags="vblex.pp.*"/>
+        <match tags="adv"/>
+      </or>
     </repeat>
     <match lemma="brut" tags="adj.*"><select lemma="bruto"/></match>
   </rule>
