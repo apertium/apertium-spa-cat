@@ -1376,6 +1376,7 @@
       <match tags="n.*" lemma="ingrés"/>
       <match tags="n.*" lemma="patrimoni"/>
       <match tags="n.*" lemma="posició"/>
+      <match tags="n.*" lemma="potència"/>
       <match tags="n.*" lemma="prima"/>
       <match tags="n.*" lemma="producció"/>
       <match tags="n.*" lemma="producte"/>
@@ -1467,6 +1468,7 @@
       <match tags="n.*" lemma="ingrés"/>
       <match tags="n.*" lemma="patrimoni"/>
       <match tags="n.*" lemma="posició"/>
+      <match tags="n.*" lemma="potència"/>
       <match tags="n.*" lemma="prima"/>
       <match tags="n.*" lemma="producció"/>
       <match tags="n.*" lemma="producte"/>
@@ -1514,6 +1516,7 @@
       <match tags="adj.*" lemma="trimestral"/>
       <match tags="adj.*" lemma="positiu"/>
       <match tags="adj.*" lemma="negatiu"/>
+      <match tags="adj.*" lemma="patrimonial"/>
     </or>
   </rule>
 
@@ -1526,6 +1529,7 @@
       <match tags="adj.*" lemma="trimestral"/>
       <match tags="adj.*" lemma="positiu"/>
       <match tags="adj.*" lemma="negatiu"/>
+      <match tags="adj.*" lemma="patrimonial"/>
     </or>
   </rule>
 
