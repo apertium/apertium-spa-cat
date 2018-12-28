@@ -1328,6 +1328,10 @@
   </rule>
   <rule weight="1.0">
     <or>
+      <match tags="adj.*" lemma="anual"/>
+      <match tags="adj.*" lemma="mensual"/>
+      <match tags="adj.*" lemma="quadrimestral"/>
+      <match tags="adj.*" lemma="trimestral"/>
       <match tags="n.*" lemma="actiu"/>
       <match tags="n.*" lemma="afirmació"/>
       <match tags="n.*" lemma="aportació"/>
@@ -1349,8 +1353,11 @@
       <match tags="n.*" lemma="destrucció"/>
       <match tags="n.*" lemma="deute"/>
       <match tags="n.*" lemma="diferència"/>
+      <match tags="n.*" lemma="dotació"/>
+      <match tags="n.*" lemma="edificabilitat"/>
       <match tags="n.*" lemma="efecte"/>
       <match tags="n.*" lemma="endeutament"/>
+      <match tags="n.*" lemma="euro"/>
       <match tags="n.*" lemma="exportador"/>
       <match tags="n.*" lemma="finançament"/>
       <match tags="n.*" lemma="formació"/>
@@ -1360,9 +1367,12 @@
       <match tags="n.*" lemma="guany"/>
       <match tags="n.*" lemma="haver"/>
       <match tags="n.*" lemma="impacte"/>
+      <match tags="n.*" lemma="import"/>
       <match tags="n.*" lemma="importador"/>
+      <match tags="n.*" lemma="impost"/>
       <match tags="n.*" lemma="increment"/>
       <match tags="n.*" lemma="ingrés"/>
+      <match tags="n.*" lemma="patrimoni"/>
       <match tags="n.*" lemma="posició"/>
       <match tags="n.*" lemma="producció"/>
       <match tags="n.*" lemma="producte"/>
@@ -1370,16 +1380,25 @@
       <match tags="n.*" lemma="préstec"/>
       <match tags="n.*" lemma="pujada"/>
       <match tags="n.*" lemma="pèrdua"/>
+      <match tags="n.*" lemma="quota"/>
       <match tags="n.*" lemma="receptor"/>
       <match tags="n.*" lemma="reducció"/>
       <match tags="n.*" lemma="renda"/>
+      <match tags="n.*" lemma="rendiment"/>
+      <match tags="n.*" lemma="resposta"/>
       <match tags="n.*" lemma="resultat"/>
+      <match tags="n.*" lemma="retenció"/>
+      <match tags="n.*" lemma="retribució"/>
       <match tags="n.*" lemma="salari"/>
       <match tags="n.*" lemma="saldo"/>
       <match tags="n.*" lemma="situació"/>
       <match tags="n.*" lemma="sou"/>
+      <match tags="n.*" lemma="subvenció"/>
       <match tags="n.*" lemma="suma"/>
       <match tags="n.*" lemma="taxa"/>
+      <match tags="n.*" lemma="terme"/>
+      <match tags="n.*" lemma="volum"/>
+      <match tags="num"/>
     </or>
     <repeat from="0" upto="2">
       <or>
@@ -1396,6 +1415,10 @@
   </rule>
   <rule weight="1.0">
     <or>
+      <match tags="adj.*" lemma="anual"/>
+      <match tags="adj.*" lemma="mensual"/>
+      <match tags="adj.*" lemma="quadrimestral"/>
+      <match tags="adj.*" lemma="trimestral"/>
       <match tags="n.*" lemma="actiu"/>
       <match tags="n.*" lemma="afirmació"/>
       <match tags="n.*" lemma="aportació"/>
@@ -1417,8 +1440,11 @@
       <match tags="n.*" lemma="destrucció"/>
       <match tags="n.*" lemma="deute"/>
       <match tags="n.*" lemma="diferència"/>
+      <match tags="n.*" lemma="dotació"/>
+      <match tags="n.*" lemma="edificabilitat"/>
       <match tags="n.*" lemma="efecte"/>
       <match tags="n.*" lemma="endeutament"/>
+      <match tags="n.*" lemma="euro"/>
       <match tags="n.*" lemma="exportador"/>
       <match tags="n.*" lemma="finançament"/>
       <match tags="n.*" lemma="formació"/>
@@ -1428,9 +1454,12 @@
       <match tags="n.*" lemma="guany"/>
       <match tags="n.*" lemma="haver"/>
       <match tags="n.*" lemma="impacte"/>
+      <match tags="n.*" lemma="import"/>
       <match tags="n.*" lemma="importador"/>
+      <match tags="n.*" lemma="impost"/>
       <match tags="n.*" lemma="increment"/>
       <match tags="n.*" lemma="ingrés"/>
+      <match tags="n.*" lemma="patrimoni"/>
       <match tags="n.*" lemma="posició"/>
       <match tags="n.*" lemma="producció"/>
       <match tags="n.*" lemma="producte"/>
@@ -1438,16 +1467,25 @@
       <match tags="n.*" lemma="préstec"/>
       <match tags="n.*" lemma="pujada"/>
       <match tags="n.*" lemma="pèrdua"/>
+      <match tags="n.*" lemma="quota"/>
       <match tags="n.*" lemma="receptor"/>
       <match tags="n.*" lemma="reducció"/>
       <match tags="n.*" lemma="renda"/>
+      <match tags="n.*" lemma="rendiment"/>
+      <match tags="n.*" lemma="resposta"/>
       <match tags="n.*" lemma="resultat"/>
+      <match tags="n.*" lemma="retenció"/>
+      <match tags="n.*" lemma="retribució"/>
       <match tags="n.*" lemma="salari"/>
       <match tags="n.*" lemma="saldo"/>
       <match tags="n.*" lemma="situació"/>
       <match tags="n.*" lemma="sou"/>
+      <match tags="n.*" lemma="subvenció"/>
       <match tags="n.*" lemma="suma"/>
       <match tags="n.*" lemma="taxa"/>
+      <match tags="n.*" lemma="terme"/>
+      <match tags="n.*" lemma="volum"/>
+      <match tags="num"/>
     </or>
     <repeat from="0" upto="2">
       <or>
@@ -1457,6 +1495,30 @@
       </or>
     </repeat>
     <match lemma="brut" tags="adj.*"><select lemma="bruto"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="brut" tags="adj.*"><select lemma="bruto"/></match>
+    <or>
+      <match tags="adj.*" lemma="anual"/>
+      <match tags="adj.*" lemma="mensual"/>
+      <match tags="adj.*" lemma="quadrimestral"/>
+      <match tags="adj.*" lemma="trimestral"/>
+      <match tags="adj.*" lemma="positiu"/>
+      <match tags="adj.*" lemma="negatiu"/>
+    </or>
+  </rule>
+
+    <rule weight="1.0">
+    <match lemma="net" tags="adj.*"><select lemma="neto"/></match>
+    <or>
+      <match tags="adj.*" lemma="anual"/>
+      <match tags="adj.*" lemma="mensual"/>
+      <match tags="adj.*" lemma="quadrimestral"/>
+      <match tags="adj.*" lemma="trimestral"/>
+      <match tags="adj.*" lemma="positiu"/>
+      <match tags="adj.*" lemma="negatiu"/>
+    </or>
   </rule>
 
 <!-- **************** N **************** -->
