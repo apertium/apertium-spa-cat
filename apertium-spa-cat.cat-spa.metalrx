@@ -1204,6 +1204,22 @@
     <match lemma="escaure" tags="prn.enc.ref.*"/>
   </rule>
 
+  <!-- mancar > carecer, faltar -->
+
+  <rule weight="0.6">
+     <match lemma="mancar" tags="vblex.*"><select lemma="faltar"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="mancar" tags="vblex.*"><select lemma="carecer"/></match>
+     <repeat from="0" upto="2">
+      <or>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
 <!-- demanar > pretuntar, pedir -->
 
   <rule weight="0.6">
