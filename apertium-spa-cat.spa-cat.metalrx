@@ -4569,20 +4569,23 @@
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
+  <rule weight="1">
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.*"><select lemma="el qual"/></match>
+  </rule>
 
-  <rule weight="3"> <!-- que/de alguno de los que -->
-    <or>
-      <match lemma="que"/>
-      <match tags="pr"/>
-    </or>
+  <rule weight="3"> <!-- de alguno de los que -->
+    <match tags="pr"/>
     <match lemma="alguno"/>
     <match tags="pr" lemma="de"/>
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
-  <rule weight="1">
-    <match tags="pr"/>
-    <match lemma="el que" tags="rel.*"><select lemma="el qual"/></match>
+  <rule weight="3"> <!-- que alguno de los que -->
+    <match lemma="que" tags="cnjsub"/>
+    <match lemma="alguno"/>
+    <match tags="pr" lemma="de"/>
+    <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
   <rule weight="5">
