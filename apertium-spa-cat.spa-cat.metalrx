@@ -2304,6 +2304,44 @@
     <match lemma="de" tags="pr"/>
   </rule>
 
+  <!-- cuartear > esquerdar (reflexiu) / quarterar -->
+
+  <rule weight="0.8">
+    <match lemma="cuartear" tags="vblex.*"><select lemma="quarterar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="prn.pro.ref.*"/>
+    <repeat from="0" upto="1">
+      <match lemma="vbhaver.*"/>
+    </repeat>
+    <match lemma="cuartear" tags="vblex.*"><select lemma="esquerdar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cuartear" tags="vblex.*"><select lemma="esquerdar"/></match>
+    <match tags="prn.enc.ref.*"/>
+  </rule>
+
+  <!-- codear > tractar (reflexiu) / donar colzades -->
+
+  <rule weight="0.8">
+    <match lemma="codear" tags="vblex.*"><select lemma="donar# colzades"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="prn.pro.*"/>
+    <repeat from="0" upto="1">
+      <match lemma="vbhaver.*"/>
+    </repeat>
+    <match lemma="codear" tags="vblex.*"><select lemma="tractar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="codear" tags="vblex.*"><select lemma="tractar"/></match>
+    <match tags="prn.enc.*"/>
+  </rule>
+
   <!-- mandar > manar/enviar -->
 
   <rule weight="0.8">
@@ -2359,6 +2397,10 @@
       <match lemma="mierda" tags="n.*"/>
       <match lemma="porra" tags="n.*"/>
       <match lemma="paseo" tags="n.*"/>
+      <match tags="np.loc"/>
+      <match tags="np.top"/>
+      <match tags="np.loc.*"/>
+      <match tags="np.top.*"/>
     </or>
   </rule>
 
