@@ -2389,7 +2389,7 @@
         <match tags="det.*"/>
         <match tags="adj.*"/>
         <match tags="adv"/>
-        <match tags="pr"/>
+        <match tags="pr" lemma="a"/>
       </or>
     </repeat> 
     <or>
@@ -4868,6 +4868,18 @@
       <match tags="pr" lemma="con"/>
     </or>
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="diferencia"/>
+      <match lemma="enfrentamiento"/>
+      <match lemma="lucha"/>
+      <match lemma="debate"/>
+      <match lemma="discusión"/>
+    </or>
+    <match tags="pr" lemma="entre"/>
+    <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
    <!-- en tanto que > en tant que / com a -->
