@@ -6110,6 +6110,31 @@
     </repeat>
     <match lemma="ojo" tags="n.*"/>
   </rule>
+
+  <!-- pesado > pesat / pesant -->
+
+  <rule weight="0.5">
+    <match lemma="pesado" tags="adj.*"><select lemma="pesat"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*" lemma="agua"/>
+      <match tags="n.*" lemma="peso"/>
+      <match tags="n.*" lemma="industria"/>
+      <match tags="n.*" lemma="metal"/>
+      <match tags="n.*" lemma="maquinaria"/>
+      <match tags="n.*" lemma="armamento"/>
+      <match tags="n.*" lemma="arma"/>
+      <match tags="n.*" lemma="artillería"/>
+      <match tags="n.*" lemma="partícula"/>
+      <match tags="n.*" lemma="elemento"/>
+      <match tags="n.*" lemma="núcleo"/>
+      <match tags="n.*" lemma="quark"/>
+      <match tags="n.*" lemma="vehículo"/>
+    </or>
+    <match lemma="pesado" tags="adj.*"><select lemma="pesant"/></match>
+  </rule>
     
     <!-- lo que > el que / la qual cosa -->
     <!-- TODO: s'haurà de fer en Constraint Grammar, si es vol millorar -->
