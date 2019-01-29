@@ -6526,6 +6526,30 @@
       <match lemma="caber" tags="vblex.inf"><select lemma="haver"/></match>
       <match lemma="caber" tags="vblex.ger"><select lemma="haver"/></match>
     </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+      </or>
+    </repeat>
+    <or>
+      <match tags="n.f.*" lemma="posibilidad"/>
+      <match tags="n.f.*" lemma="opción"/>
+      <match tags="n.f.*" lemma="alternativa"/>
+      <match tags="n.f.*" lemma="elección"/>
+      <match tags="n.f.*" lemma="duda"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="caber" tags="vblex.*.p3.*"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.inf"><select lemma="haver"/></match>
+      <match lemma="caber" tags="vblex.ger"><select lemma="haver"/></match>
+    </or>
     <or>
       <match tags="n.f.*" lemma="posibilidad"/>
       <match tags="n.f.*" lemma="opción"/>
