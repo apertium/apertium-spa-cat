@@ -4056,16 +4056,8 @@
     <match lemma="deber# de" tags="vbmod.*"><select lemma="haver# de"/></match> <!-- "incorrecte" en castellà, però molt freqüent -->
   </rule>
 
-  <rule weight="1"> <!-- debieron de decirlo > degueren dir-ho -->
-    <match lemma="deber# de" tags="vbmod.ifi.*"><select lemma="deure"/></match>
-  </rule>
-
   <rule weight="0.6">
     <match lemma="deber" tags="vbmod.*"><select lemma="haver# de"/></match> 
-  </rule>
-
-  <rule weight="1"> <!-- debieron decirlo > degueren dir-ho -->
-    <match lemma="deber" tags="vbmod.ifi.*"><select lemma="deure"/></match>
   </rule>
 
   <!-- debido a > degut a / a causa de  -->
