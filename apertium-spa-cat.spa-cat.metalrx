@@ -5183,7 +5183,9 @@
     <match lemma="a" tags="pr"><select lemma="de"/></match>
     <or>
       <match tags="n.*"/>
-      <match tags="adj.*"/>
+      <match tags="adj.m.*"/>
+      <match tags="adj.f.*"/>
+      <match tags="adj.mf.*"/>
       <match lemma="poco"/>
     </or>
   </rule>
