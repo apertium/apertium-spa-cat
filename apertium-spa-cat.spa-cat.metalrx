@@ -1012,6 +1012,296 @@
         <match tags="prn.enc.p2.mf.*"/>
     </or>
   </rule>
+
+  <!-- llevarse > emportar-se / llevar > portar -->
+
+  <rule weight="0.8">
+    <match lemma="llevar" tags="vblex.*"><select lemma="portar"/></match>
+  </rule>
+
+  <!--<rule weight="1.5">
+    <match lemma="llevar" tags="vblex.*"><select lemma="portar"/></match>
+    <match lemma="a" tags="pr"/>
+  </rule>-->
+
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match lemma="llevar" tags="vblex.*.p1.sg"><select lemma="emportar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match lemma="llevar" tags="vblex.*.p2.sg"><select lemma="emportar"/></match>
+  </rule>
+  <rule weight="1"> 
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match lemma="llevar" tags="vblex.*.p3.sg"><select lemma="emportar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.pl"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match lemma="llevar" tags="vblex.*.p1.pl"><select lemma="emportar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p2.mf.pl"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match lemma="llevar" tags="vblex.*.p2.pl"><select lemma="emportar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match lemma="llevar" tags="vblex.*.p3.pl"><select lemma="emportar"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match tags="vbmod.*.p1.sg"/>
+    <match lemma="llevar" tags="vblex.inf"><select lemma="emportar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match tags="vbmod.*.p2.sg"/>
+    <match lemma="llevar" tags="vblex.inf"><select lemma="emportar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.sg"/>
+    <match lemma="llevar" tags="vblex.inf"><select lemma="emportar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match tags="vbmod.*.p1.pl"/>
+    <match lemma="llevar" tags="vblex.inf"><select lemma="emportar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match tags="vbmod.*.p2.pl"/>
+    <match lemma="llevar" tags="vblex.inf"><select lemma="emportar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <match tags="vbmod.*.p3.pl"/>
+    <match lemma="llevar" tags="vblex.inf"><select lemma="emportar"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match tags="vbhaver.*.p1.sg"/>
+    <match lemma="llevar" tags="vblex.pp.m.sg"><select lemma="emportar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match tags="vbhaver.*.p2.sg"/>
+    <match lemma="llevar" tags="vblex.pp.m.sg"><select lemma="emportar"/></match>
+  </rule>
+    <rule weight="1">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match tags="vbhaver.*.p3.sg"/>
+    <match lemma="llevar" tags="vblex.pp.m.sg"><select lemma="emportar"/></match>
+  </rule>
+  <rule weight="2">
+    <match tags="prn.pro.p1.mf.sg"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match tags="vbhaver.*.p1.pl"/>
+    <match lemma="llevar" tags="vblex.pp.m.sg"><select lemma="emportar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.p2.mf.sg"/>
+    <match tags="vbhaver.*.p2.pl"/>
+    <match lemma="llevar" tags="vblex.pp.m.sg"><select lemma="emportar"/></match>
+  </rule>
+    <rule weight="2">
+    <match tags="prn.pro.ref.p3.mf.sp"/>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+        <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+        <match lemma="lo" tags="prn.pro.p3.nt"/>
+      </or>
+    </repeat>
+    <match tags="vbhaver.*.p3.pl"/>
+    <match lemma="llevar" tags="vblex.pp.m.sg"><select lemma="emportar"/></match>
+  </rule>
+
+  <rule weight="1"> 
+    <match lemma="llevar"><select lemma="emportar"/></match>
+    <match tags="prn.enc.ref.p3.mf.sp"/>
+  </rule>
+
+  <rule weight="3"> <!--llevarse bien-->
+    <match lemma="llevar"><select lemma="portar"/></match>
+    <match tags="prn.enc.ref.p3.mf.sp"/>
+    <or>
+      <match tags="adv"/>
+      <match lemma="bien"/>
+      <match lemma="mal"/>
+    </or>
+  </rule>
+
+  <rule weight="3"> <!-- se llevaban bien -->
+    <match lemma="llevar"><select lemma="portar"/></match>
+    <or>
+      <match tags="adv"/>
+      <match lemma="bien"/>
+      <match lemma="mal"/>
+    </or>    
+  </rule>
+
+  <rule weight="3"> <!--se lo llevaron-->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"/>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+    </or>
+    <match lemma="llevar" tags="vblex.*.p3.*"><select lemma="emportar"/></match>
+  </rule>
+  <rule weight="3"> <!--se lo llevaron-->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"/>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+    </or>
+    <match tags="vbhaver.*.p3.*"/>
+    <match lemma="llevar" tags="vblex.pp.m.sg"><select lemma="emportar"/></match>
+  </rule>
+  <rule weight="3"> <!--se lo llevaron-->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"/>
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.m.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+      <match lemma="lo" tags="prn.pro.p3.f.pl"/>
+      <match lemma="lo" tags="prn.pro.p3.m.sg"/>
+    </or>
+    <match tags="vbmod.*.p3.*"/>
+    <match lemma="llevar" tags="vblex.inf"><select lemma="emportar"/></match>
+  </rule>
   
 <!-- tachar > ratllar / titllar  -->
 
@@ -3755,6 +4045,7 @@
       <match lemma="asociar" tags="vblex.*.p3.sg" />
       <match lemma="relacionar" tags="vblex.*.p3.sg" />
       <match lemma="relevar" tags="vblex.*.p3.sg" />
+      <match lemma="llevar" tags="vblex.*.p3.*" />
     </or>
   </rule>
 
@@ -3776,6 +4067,7 @@
       <match lemma="pensar" tags="vblex.*.p3.*" />
       <match lemma="tomar" tags="vblex.*.p3.*" />
       <match lemma="pasar" tags="vblex.*.p3.*" />
+      <match lemma="llevar" tags="vblex.*.p3.*" />
     </or>
   </rule>
 
@@ -3817,6 +4109,7 @@
       <match lemma="asociar" tags="vblex.*.p3.sg" />
       <match lemma="relacionar" tags="vblex.*.p3.sg" />
       <match lemma="relevar" tags="vblex.*.p3.sg" />
+      <match lemma="llevar" tags="vblex.*.p3.*" />
     </or>
   </rule>
 
@@ -3834,7 +4127,7 @@
       <match lemma="encontrar" tags="vblex.pp.m.sg" />
       <match lemma="pensar" tags="vblex.pp.m.sg" />
       <match lemma="tomar" tags="vblex.pp.m.sg" />
-      <match lemma="pasar" tags="vblex.*.p3.*" />
+      <match lemma="pasar" tags="vblex.pp.m.sg" />
     </or>
   </rule>
 
@@ -3867,6 +4160,14 @@
     </or>
   </rule>
 
+  <rule weight="3"> <!-- se lo > se l'han emportat -->
+    <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="el"/></match>
+    <match lemma="haber" tags="*.*.p3.*"/>
+    <match lemma="llevar" tags="vblex.pp.m.sg" />
+  </rule>
+
+
   <rule weight="3"> 
     <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
     <or>
@@ -3885,7 +4186,8 @@
       <match lemma="encontrar" tags="vblex.pp.m.sg" />
       <match lemma="pensar" tags="vblex.pp.m.sg" />
       <match lemma="tomar" tags="vblex.pp.m.sg" />
-      <match lemma="pasar" tags="vblex.*.p3.*" />
+      <match lemma="pasar" tags="vblex.pp.m.sg" />
+      <match lemma="llevar" tags="vblex.pp.m.sg" />
     </or>
   </rule>
 
@@ -4064,6 +4366,21 @@
       <match tags="vbser.*" lemma="ser"/>
     </or>
     <match lemma="lo" tags="prn.enc.p3.nt"><select lemma="ho"/></match>
+  </rule>
+
+  <rule weight="6">
+    <or>
+      <match lemma="lo" tags="prn.pro.p3.nt"><select lemma="ho"/></match>
+      <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="ho"/></match>
+    </or>
+    <repeat from="0" upto="1">
+      <or>
+        <match lemma="haber"/>
+        <match tags="vmod.*"/>
+      </or>
+    </repeat>
+    <match tags="vblex.*"/>
+    <match lemma="todo" tags="prn.tn.m.sg"/>
   </rule>
  
   <!-- deber de > deure (si el castellà és "correcte") / haver de (molt sovint)... -->
