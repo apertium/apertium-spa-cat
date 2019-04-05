@@ -1028,13 +1028,13 @@
       </or>
     </repeat>
     <or>
+      <match lemma="certificación"/>
       <match lemma="control"/>
       <match lemma="instalar" tags="vblex.pp.*"/>
-      <match lemma="testimonio"/>
-      <match lemma="certificación"/>
       <match lemma="mantenimiento"/>
       <match lemma="original"/>
       <match lemma="registro"/>
+      <match lemma="testimonio"/>
     </or>
   </rule>
   <rule weight="3">
@@ -1047,16 +1047,16 @@
       </or>
     </repeat>
     <or>
+      <match lemma="actuación"/>
       <match lemma="cabo"/>
-      <match lemma="efecto"/>
-      <match lemma="registro"/>
+      <match lemma="catálogo"/>
+      <match lemma="cuaderno"/>
       <match lemma="día"/>
+      <match lemma="efecto"/>
       <match lemma="gestor"/>
       <match lemma="libro"/>
       <match lemma="registro"/>
-      <match lemma="catálogo"/>
-      <match lemma="cuaderno"/>
-      <match lemma="actuación"/>
+      <match lemma="registro"/>
     </or>
   </rule>
   <rule weight="10">
