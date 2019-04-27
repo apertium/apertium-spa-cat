@@ -6860,12 +6860,24 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="mucho" tags="det.ind.m.sg"><select lemma="molt de"/></match> <!-- caldria mirar el gènere de la traducció, no el de l'original-->
+    <match lemma="mucho" tags="det.ind.*.sg"><select lemma="molt de"/></match> <!-- caldria mirar el gènere de la traducció, no el de l'original-->
     <or>
-      <match tags="n.m.sg"/>
-      <match tags="n.m.sp"/>
-      <match tags="n.mf.sp"/>
-      <match tags="n.mf.sg"/>
+      <match tags="n.*.sg"/>
+      <match tags="n.*.sp"/>
+    </or>
+  </rule>
+
+  <!-- tanto > tant de /tant/tants/tantes -->
+
+  <rule weight="0.5">
+    <match lemma="tanto" tags="adj.*"><select lemma="tant"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="tanto" tags="adj.*.sg"><select lemma="tant de"/></match> <!-- caldria mirar el gènere de la traducció, no el de l'original-->
+    <or>
+      <match tags="n.*.sg"/>
+      <match tags="n.*.sp"/>
     </or>
   </rule>
 
