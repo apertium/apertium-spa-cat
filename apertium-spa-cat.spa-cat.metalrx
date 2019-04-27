@@ -2746,6 +2746,10 @@
     <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
   </rule>
 
+  <rule weight="1">
+    <match lemma="llamar" tags="vblex.pp.*"><select lemma="anomenar"/></match>
+  </rule>
+
   <rule weight="4.0">
     <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match> 
     <repeat from="0" upto="4">
@@ -2869,14 +2873,18 @@
     <match lemma="a"/>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="0.9">
     <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
       <or>
-        <match lemma="así"/>
         <match tags="adj.*"/>
         <match tags="n.*"/>
         <match tags="det.*"/>
       </or>
+  </rule>
+
+  <rule weight="1.1">
+    <match lemma="llamar" tags="vblex.*"><select lemma="dir"/></match> 
+    <match lemma="así"/>
   </rule>
 
   <rule weight="2.0">

@@ -920,29 +920,6 @@
         </when>-->
       </choose>
     </def-macro>
-    <def-macro n="f_llamado" npar="1">
-      <!--'una molécula llamada' - el tagger debería escoger el adj, pero si escoge vblex.pp (llamar), entonces hay que cambiar la traducción para que diga 'anomenada' -->
-      <choose>
-        <when>
-          <test>
-            <and>
-              <equal caseless="yes">
-                <clip pos="1" side="sl" part="lem" />
-                <lit v="llamar" />
-              </equal>
-              <equal>
-                <clip pos="1" side="sl" part="a_adjec" />
-                <lit-tag v="vblex.pp" />
-              </equal>
-            </and>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem" />
-            <lit v="anomenar" />
-          </let>
-        </when>
-      </choose>
-    </def-macro>
     <def-macro n="f_lexicDet" npar="1">
       <choose>
         <when>
@@ -3303,9 +3280,6 @@
           <with-param pos="1" />
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="2" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh" />
@@ -3337,12 +3311,6 @@
         <call-macro n="f_concord3">
           <with-param pos="1" />
           <with-param pos="2" />
-          <with-param pos="4" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="2" />
-        </call-macro>
-        <call-macro n="f_llamado">
           <with-param pos="4" />
         </call-macro>
         <out>
@@ -3433,9 +3401,6 @@
         <call-macro n="f_lexicDet">
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="4" />
-        </call-macro>
         <choose>
           <when>
             <test>
@@ -3515,12 +3480,6 @@
         </call-macro>
         <call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="4" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="6" />
         </call-macro>
         <choose>
           <when>
@@ -3605,9 +3564,6 @@
         <call-macro n="f_concord3">
           <with-param pos="1" />
           <with-param pos="2" />
-          <with-param pos="3" />
-        </call-macro>
-        <call-macro n="f_llamado">
           <with-param pos="3" />
         </call-macro>
         <out>
@@ -4271,9 +4227,6 @@
         <call-macro n="f_lexicDet">
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="3" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -4371,12 +4324,6 @@
         <call-macro n="f_lexicDet">
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="3" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="5" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -4430,9 +4377,6 @@
         <call-macro n="f_lexicDet">
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="4" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -4475,9 +4419,6 @@
         <call-macro n="f_concord3">
           <with-param pos="1" />
           <with-param pos="2" />
-          <with-param pos="3" />
-        </call-macro>
-        <call-macro n="f_llamado">
           <with-param pos="3" />
         </call-macro>
         <out>
@@ -4525,9 +4466,6 @@
         </call-macro>
         <call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="2" />
         </call-macro>
         <choose>
           <when>
@@ -4714,9 +4652,6 @@
         <call-macro n="f_lexicDet">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="4" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -4758,9 +4693,6 @@
         <call-macro n="f_lexicDet">
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="2" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -4791,9 +4723,6 @@
         </call-macro>
         <call-macro n="f_lexicAdj">
           <with-param pos="1" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="3" />
         </call-macro>
         <out>
           <lu>
@@ -4843,12 +4772,6 @@
         <call-macro n="f_lexicAdj">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="2" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="4" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -4892,9 +4815,6 @@
           <with-param pos="1" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="3" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh" />
@@ -4933,9 +4853,6 @@
         <call-macro n="f_concord3">
           <with-param pos="2" />
           <with-param pos="1" />
-          <with-param pos="4" />
-        </call-macro>
-        <call-macro n="f_llamado">
           <with-param pos="4" />
         </call-macro>
         <out>
@@ -5143,9 +5060,6 @@
         <call-macro n="f_concord3">
           <with-param pos="2" />
           <with-param pos="1" />
-          <with-param pos="3" />
-        </call-macro>
-        <call-macro n="f_llamado">
           <with-param pos="3" />
         </call-macro>
         <out>
@@ -5451,9 +5365,6 @@
           <with-param pos="1" />
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="2" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="3" side="tl" part="whole" />
@@ -5492,9 +5403,6 @@
         </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="2" />
-          <with-param pos="3" />
-        </call-macro>
-        <call-macro n="f_llamado">
           <with-param pos="3" />
         </call-macro>
         <out>
@@ -5706,9 +5614,6 @@
           <with-param pos="2" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="3" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="2" side="tl" part="lemh" />
@@ -5745,12 +5650,6 @@
         <call-macro n="f_concord3">
           <with-param pos="2" />
           <with-param pos="3" />
-          <with-param pos="5" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="3" />
-        </call-macro>
-        <call-macro n="f_llamado">
           <with-param pos="5" />
         </call-macro>
         <out>
@@ -5843,9 +5742,6 @@
           <with-param pos="4" />
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="4" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="2" side="tl" part="whole" />
@@ -5892,12 +5788,6 @@
           <with-param pos="4" />
           <with-param pos="6" />
           <with-param pos="2" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="4" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="6" />
         </call-macro>
         <out>
           <lu>
@@ -6057,9 +5947,6 @@
         <call-macro n="f_lexicAdj">
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="3" />
-        </call-macro>
         <choose>
           <when>
             <test>
@@ -6217,9 +6104,6 @@
           <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="5" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="2" side="tl" part="whole" />
@@ -6266,9 +6150,6 @@
           <with-param pos="3" />
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="3" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="2" side="tl" part="whole" />
@@ -6304,9 +6185,6 @@
         </call-macro>
         <call-macro n="f_lexicAdj">
           <with-param pos="2" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="4" />
         </call-macro>
         <out>
           <lu>
@@ -6361,12 +6239,6 @@
         <call-macro n="f_lexicAdj">
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="3" />
-        </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="5" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="2" side="tl" part="whole" />
@@ -6415,9 +6287,6 @@
           <with-param pos="2" />
           <with-param pos="4" />
         </call-macro>
-        <call-macro n="f_llamado">
-          <with-param pos="4" />
-        </call-macro>
         <out>
           <lu>
             <clip pos="2" side="tl" part="lemh" />
@@ -6461,9 +6330,6 @@
         <call-macro n="f_concord3">
           <with-param pos="3" />
           <with-param pos="2" />
-          <with-param pos="5" />
-        </call-macro>
-        <call-macro n="f_llamado">
           <with-param pos="5" />
         </call-macro>
         <out>
@@ -6663,9 +6529,6 @@
         <call-macro n="f_concord3">
           <with-param pos="3" />
           <with-param pos="2" />
-          <with-param pos="4" />
-        </call-macro>
-        <call-macro n="f_llamado">
           <with-param pos="4" />
         </call-macro>
         <out>
