@@ -1958,6 +1958,7 @@
      <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
   </rule>
 
+  <macro name="noms_propis" p1="Joan Carles" p2="Juan Carlos" />
   <macro name="noms_propis" p1="Carles" p2="Carlos" />
   <macro name="noms_propis" p1="Felip" p2="Felipe" />
   <macro name="noms_propis" p1="Lluís" p2="Luis" />
