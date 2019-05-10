@@ -7428,6 +7428,8 @@
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Uruguay"><select lemma="Uruguai"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vendrell"><select lemma="Vendrell"/></match></rule>
 
+  <macro name="noms_propis" p1="Alberto Carlos" p2="Albert Carles" />
+  <macro name="noms_propis" p1="Francisco José" p2="Francesc Josep" />
   <macro name="noms_propis" p1="Juan Carlos" p2="Joan Carles" />
   <macro name="noms_propis" p1="Carlos" p2="Carles" />
   <macro name="noms_propis" p1="Felipe" p2="Felip" />
