@@ -5679,7 +5679,7 @@
     </or>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="1.5">
     <match lemma="hasta" tags="pr"><select lemma="fins i tot"/></match>
     <match lemma="en" tags="pr"/>
   </rule>
