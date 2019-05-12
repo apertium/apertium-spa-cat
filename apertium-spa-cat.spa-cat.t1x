@@ -388,6 +388,7 @@
     </def-cat>
     <def-cat n="divulgado">
       <cat-item lemma="divulgar" tags="vblex.pp.*" />
+      <cat-item lemma="fallecer" tags="vblex.pp.*" />
     </def-cat>
     <def-cat n="recién_participi">
       <cat-item tags="vblex.pp.*" />
@@ -9371,17 +9372,17 @@
       <action>
         <out>
           <lu>
+            <clip pos="1" side="tl" part="lem" />
+            <clip pos="1" side="tl" part="a_adv" />
+          </lu>
+          <b pos="1" />
+          <lu>
             <clip pos="2" side="tl" part="lemh" />
             <clip pos="2" side="tl" part="a_verb" />
             <clip pos="2" side="tl" part="temps" />
             <clip pos="2" side="tl" part="gen" />
             <clip pos="2" side="tl" part="nbr" />
             <clip pos="2" side="tl" part="lemq" />
-          </lu>
-          <b pos="1" />
-          <lu>
-            <clip pos="1" side="tl" part="lem" />
-            <clip pos="1" side="tl" part="a_adv" />
           </lu>
         </out>
       </action>
