@@ -3736,6 +3736,7 @@
     <match lemma="hasta" tags="pr"><select lemma="fins"/></match>
     <or>
       <match tags="adv"/>
+      <match tags="pr"/>
       <match tags="rel.adv"/>
       <match lemma="que"/>
       <match lemma="cuando"/>
