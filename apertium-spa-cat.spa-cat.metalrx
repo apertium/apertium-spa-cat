@@ -6984,6 +6984,32 @@
     </or>
   </rule>
 
+  <!-- cimentar > fonamentar / consolidar -->
+
+  <rule weight="0.5">
+    <match lemma="cimentar" tags="vblex.*"><select lemma="consolidar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cimentar" tags="vblex.*"><select lemma="fonamentar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="edificio" tags="n.*"/>
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="vivienda" tags="n.*"/>
+      <match lemma="castillo" tags="n.*"/>
+      <match lemma="palacio" tags="n.*"/>
+      <match lemma="presa" tags="n.*"/>
+      <match lemma="construcción" tags="n.*"/>
+    </or>
+  </rule>
+
 
 <!-- albergar > albergar / tenir -->
 
