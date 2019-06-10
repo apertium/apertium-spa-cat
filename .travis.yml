@@ -1,4 +1,4 @@
-dist: trusty
+dist: xenial
 before_install:
     - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
     - sudo apt-get install apertium lttoolbox apertium-dev lttoolbox-dev cg3 apertium-lex-tools

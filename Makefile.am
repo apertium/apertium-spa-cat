@@ -53,7 +53,7 @@ TARGETS_COMMON =			\
 	$(PREFIX1V).t1x.bin 		\
 	$(PREFIX1U).t1x.bin 		\
 	$(PREFIX2).t1x.bin
-	
+
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
 @ap_include@
@@ -85,7 +85,7 @@ $(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 
 $(PREFIX2).autopgen.bin: $(AP_SRC1)/$(LANG1).autopgen.bin
 	cp $< $@
-	
+
 # -------------------
 # Catalan analysis:
 # -------------------
@@ -128,13 +128,13 @@ $(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
 
 $(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
 	cp $< $@
-	
+
 $(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
 	cg-comp $< $@
 
 $(PREFIX2).prob: $(AP_SRC2)/$(LANG2).prob
 	cp $< $@
-	
+
 $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 	cg-comp $< $@
 
@@ -154,7 +154,7 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 
 .deps/$(PREFIX1).val_uni.dix: .deps/$(PREFIX1).dix
 	python genvrdix.py val_uni $< >$@
-	
+
 $(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=cat lr $< $@
@@ -257,12 +257,7 @@ apertium_spa_cat_DATA=				\
 	$(PREFIX1C).t1x			\
 	$(PREFIX1V).t1x			\
 	$(PREFIX1U).t1x			\
-	$(BASENAME).$(PREFIX2).t1x		
-
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
+	$(BASENAME).$(PREFIX2).t1x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
@@ -277,3 +272,17 @@ install-data-local: install-modes
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
 	-rm -rf .deps modes
+
+
+###############################################################################
+## Test
+###############################################################################
+
+test: all
+	echo "pero" | apertium -d . spa-cat | tee .test-mt
+	@echo "però" > .test-ref
+	@diff .test-ref .test-mt
+	echo "però" | apertium -d . cat-spa | tee .test-mt
+	@echo "pero" > .test-ref
+	@diff .test-ref .test-mt
+	@rm .test-ref .test-mt
