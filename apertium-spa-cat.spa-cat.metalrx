@@ -7397,6 +7397,18 @@
     <match lemma="berenjenal" tags="n.*"><select lemma="vesper"/></match>
   </rule>
 
+
+<!-- D. > Sr. / D.  -->
+
+  <rule weight="0.5">
+    <match lemma="D." tags="n.*"><select lemma="D."/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="D." tags="n.*"><select lemma="Sr."/></match>
+    <match tags="np.*"/>
+  </rule> 
+  
   <!-- algo > alguna cosa / una cosa -->
 
   <rule weight="0.5">
