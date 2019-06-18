@@ -6755,6 +6755,34 @@
     </or>
   </rule>
 
+  <!-- cromo  > crom / cromo -->
+
+  <rule weight="0.5">
+    <match lemma="cromo" tags="n.*"><select lemma="crom"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cromo" tags="n.m.pl"><select lemma="cromo"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="cambio"/>
+      <match lemma="cambiar"/>
+    </or>
+    <repeat from="0" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="cromo" tags="n.*"><select lemma="cromo"/></match>
+  </rule>
+
       <!-- cerca, arriba, abajo  > prop / a prop -->
 
   <rule weight="0.5">
