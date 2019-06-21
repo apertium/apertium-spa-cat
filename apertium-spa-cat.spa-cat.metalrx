@@ -6302,6 +6302,59 @@
     </repeat>
   </rule>
 
+  <!-- despreciable > menyspreable / negligible -->
+  <rule weight="0.5">
+    <match lemma="despreciable" tags="adj.*"><select lemma="menyspreable"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="valor" tags="n.*"/>
+      <match lemma="cantidad" tags="n.*"/>
+      <match lemma="número" tags="n.*"/>
+      <match lemma="cifra" tags="n.*"/>
+      <match lemma="suma" tags="n.*"/>
+      <match lemma="importe" tags="n.*"/>
+      <match lemma="dosis" tags="n.*"/>
+      <match lemma="porción" tags="n.*"/>
+      <match lemma="parte" tags="n.*"/>
+      <match lemma="carga" tags="n.*"/>
+      <match lemma="ración" tags="n.*"/>
+      <match lemma="partida" tags="n.*"/>
+      <match lemma="total" tags="n.*"/>
+      <match lemma="volumen" tags="n.*"/>
+      <match lemma="peso" tags="n.*"/>
+      <match lemma="duración" tags="n.*"/>
+      <match lemma="tiempo" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="2">
+        <match tags="*"/>
+    </repeat>
+    <match lemma="despreciable" tags="adj.*"><select lemma="negligible"/></match>
+  </rule>
+
+  <!-- calado > calat / gran importància -->
+  <rule weight="0.5">
+    <match lemma="calado" tags="n.*"><select lemma="calat"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <match lemma="calado" tags="n.m.sg"><select lemma="gran importància"/></match>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="embarcación" tags="n.*"/>
+      <match lemma="metro" tags="n.*"/>
+      <match lemma="m" tags="n.*"/>
+      <match lemma="barco" tags="n.*"/>
+      <match lemma="barca" tags="n.*"/>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match lemma="calado" tags="n.m.sg"><select lemma="calat"/></match>
+  </rule>
+
   <!-- real > real / reial -->
   <rule weight="0.5">
     <match lemma="real" tags="adj.*"><select lemma="real"/></match>
