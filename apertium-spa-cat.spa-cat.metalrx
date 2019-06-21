@@ -6309,23 +6309,24 @@
 
   <rule weight="1.0">
     <or>
-      <match lemma="valor" tags="n.*"/>
       <match lemma="cantidad" tags="n.*"/>
-      <match lemma="número" tags="n.*"/>
-      <match lemma="cifra" tags="n.*"/>
-      <match lemma="suma" tags="n.*"/>
-      <match lemma="importe" tags="n.*"/>
-      <match lemma="dosis" tags="n.*"/>
-      <match lemma="porción" tags="n.*"/>
-      <match lemma="parte" tags="n.*"/>
       <match lemma="carga" tags="n.*"/>
-      <match lemma="ración" tags="n.*"/>
-      <match lemma="partida" tags="n.*"/>
-      <match lemma="total" tags="n.*"/>
-      <match lemma="volumen" tags="n.*"/>
-      <match lemma="peso" tags="n.*"/>
+      <match lemma="cifra" tags="n.*"/>
+      <match lemma="dosis" tags="n.*"/>
       <match lemma="duración" tags="n.*"/>
+      <match lemma="error" tags="n.*"/>
+      <match lemma="importe" tags="n.*"/>
+      <match lemma="número" tags="n.*"/>
+      <match lemma="parte" tags="n.*"/>
+      <match lemma="partida" tags="n.*"/>
+      <match lemma="peso" tags="n.*"/>
+      <match lemma="porción" tags="n.*"/>
+      <match lemma="ración" tags="n.*"/>
+      <match lemma="suma" tags="n.*"/>
       <match lemma="tiempo" tags="n.*"/>
+      <match lemma="total" tags="n.*"/>
+      <match lemma="valor" tags="n.*"/>
+      <match lemma="volumen" tags="n.*"/>
     </or>
     <repeat from="0" upto="2">
         <match tags="*"/>
@@ -7586,6 +7587,7 @@
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Pilar de la Horadada"><select lemma="Pilar de la Foradada"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ráfol de Salem"><select lemma="Ràfol de Salem"/></match></rule>
   
+  <macro name="noms_propis" p1="Lucrecia" p2="Lucrècia" />
   <macro name="noms_propis" p1="Alberto Carlos" p2="Albert Carles" />
   <macro name="noms_propis" p1="Francisco José" p2="Francesc Josep" />
   <macro name="noms_propis" p1="Juan Carlos" p2="Joan Carles" />
