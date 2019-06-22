@@ -6352,6 +6352,7 @@
       <match lemma="m" tags="n.*"/>
       <match lemma="barco" tags="n.*"/>
       <match lemma="barca" tags="n.*"/>
+      <match lemma="nivel" tags="n.*"/>
     </or>
     <match lemma="de" tags="pr"/>
     <match lemma="calado" tags="n.m.sg"><select lemma="calat"/></match>
@@ -7587,7 +7588,8 @@
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Forcall"><select lemma="Forcall"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Pilar de la Horadada"><select lemma="Pilar de la Foradada"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ráfol de Salem"><select lemma="Ràfol de Salem"/></match></rule>
-  
+
+  <macro name="noms_propis" p1="Agustín" p2="Agustí" />  
   <macro name="noms_propis" p1="Lucrecia" p2="Lucrècia" />
   <macro name="noms_propis" p1="Alberto Carlos" p2="Albert Carles" />
   <macro name="noms_propis" p1="Francisco José" p2="Francesc Josep" />
