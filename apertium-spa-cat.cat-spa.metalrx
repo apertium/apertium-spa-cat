@@ -1341,6 +1341,23 @@
 <!-- **************** A **************** -->
 
   <rule weight="0.5">
+     <match lemma="divers" tags="adj.*"><select lemma="diverso"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"/>
+     <match tags="det.def.*"/>
+     <match lemma="divers" tags="adj.*"><select lemma="vario"/></match>
+     <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="de" tags="pr"/>
+     <match tags="det.def.*"/>
+     <match lemma="divers" tags="adj.*"><select lemma="vario"/></match>
+     <match tags="adj.*"/>
+     <match tags="n.*"/>
+  </rule>
+
+  <rule weight="0.5">
      <match lemma="net" tags="adj.*"><select lemma="limpio"/></match>
   </rule>
   <rule weight="1.0">

@@ -110,6 +110,21 @@
     </match>
   </rule>
 
+<!-- **************** ADJ **************** -->
+
+  <rule weight="0.5">
+     <match lemma="vario" tags="adj.*"><select lemma="vari"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="vario" tags="adj.*.pl"><select lemma="divers"/></match>
+     <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="vario" tags="adj.*.pl"><select lemma="divers"/></match>
+     <match tags="adj.*"/>
+     <match tags="n.*"/>
+  </rule>
+
 <!-- **************** N **************** -->
 
 <!-- corte > corte, tall -->
