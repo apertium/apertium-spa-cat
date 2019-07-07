@@ -7572,6 +7572,10 @@
   <rule weight="0.5"><match lemma="Forcall"><select lemma="el Forcall"/></match></rule>
   <rule weight="0.5"><match lemma="Pilar de la Horadada"><select lemma="el Pilar de la Foradada"/></match></rule>
   <rule weight="0.5"><match lemma="Ráfol de Salem"><select lemma="el Ràfol de Salem"/></match></rule>
+  <rule weight="0.5"><match lemma="Campo de Mirra"><select lemma="el Camp de Mirra"/></match></rule>
+  <rule weight="0.5"><match lemma="Ráfol de Almunia"><select lemma="el Ràfol d'Almúnia"/></match></rule>
+  <rule weight="0.5"><match lemma="Vall de Laguart"><select lemma="la Vall de Laguar"/></match></rule>
+  <rule weight="0.5"><match lemma="Benitachell"><select lemma="el Poble Nou de Benitatxell"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Argentina"><select lemma="Argentina"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Brasil"><select lemma="Brasil"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Canadá"><select lemma="Canadà"/></match></rule>
@@ -7606,6 +7610,10 @@
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Forcall"><select lemma="Forcall"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Pilar de la Horadada"><select lemma="Pilar de la Foradada"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ráfol de Salem"><select lemma="Ràfol de Salem"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Campo de Mirra"><select lemma="Camp de Mirra"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ráfol de Almunia"><select lemma="Ràfol d'Almúnia"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vall de Laguart"><select lemma="Vall de Laguar"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Benitachell"><select lemma="Poble Nou de Benitatxell"/></match></rule>
 
   <macro name="noms_propis" p1="José" p2="Josep" />  
   <macro name="noms_propis" p1="Agustín" p2="Agustí" />  
