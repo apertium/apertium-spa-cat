@@ -7555,7 +7555,8 @@
   <rule weight="0.5"><match lemma="Alcudia de Veo"><select lemma="l'Alcúdia de Veo"/></match></rule>
   <rule weight="0.5"><match lemma="Algueña"><select lemma="l'Alguenya"/></match></rule>
   <rule weight="0.5"><match lemma="Cañada"><select lemma="la Canyada"/></match></rule>
-  <rule weight="0.5"><match lemma="Fuente de la Reina"><select lemma="la Font de la Reina"/></match></rule>
+  <rule weight="0.5"><match lemma="Castillo de Villamalefa"><select lemma="el Castell de Vilamalefa"/></match></rule>
+  <rule weight="0.5"><match lemma="Fuente la Reina"><select lemma="la Font de la Reina"/></match></rule>
   <rule weight="0.5"><match lemma="Granja de Rocamora"><select lemma="la Granja de Rocamora"/></match></rule>
   <rule weight="0.5"><match lemma="Losa del Obispo"><select lemma="la Llosa del Bisbe"/></match></rule>
   <rule weight="0.5"><match lemma="Puebla de Arenoso"><select lemma="la Pobla d'Arenós"/></match></rule>
@@ -7588,7 +7589,8 @@
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Alcudia de Veo"><select lemma="Alcúdia de Veo"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Algueña"><select lemma="Alguenya"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Cañada"><select lemma="Canyada"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Fuente de la Reina"><select lemma="Font de la Reina"/></match></rule>
+    <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Castillo de Villamalefa"><select lemma="Castell de Vilamalefa"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Fuente la Reina"><select lemma="Font de la Reina"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Granja de Rocamora"><select lemma="Granja de Rocamora"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Losa del Obispo"><select lemma="Llosa del Bisbe"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Puebla de Arenoso"><select lemma="Pobla d'Arenós"/></match></rule>
