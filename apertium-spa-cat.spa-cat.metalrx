@@ -110,6 +110,21 @@
     </match>
   </rule>
 
+<!-- **************** ADJ **************** -->
+
+  <rule weight="0.5">
+     <match lemma="vario" tags="adj.*"><select lemma="vari"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="vario" tags="adj.*.pl"><select lemma="divers"/></match>
+     <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="vario" tags="adj.*.pl"><select lemma="divers"/></match>
+     <match tags="adj.*"/>
+     <match tags="n.*"/>
+  </rule>
+
 <!-- **************** N **************** -->
 
 <!-- corte > corte, tall -->
@@ -1471,6 +1486,7 @@
       <match lemma="base" tags="n.*"/>
       <match lemma="precedente" tags="n.*"/>
       <match lemma="premisa" tags="n.*"/>
+      <match lemma="jurisprudencia" tags="n.*"/>
     </or>
   </rule>
 
@@ -3221,6 +3237,7 @@
       <match lemma="presidente" tags="n.*"/>
       <match lemma="consejero" tags="n.*"/>
       <match lemma="unión" tags="n.*"/>
+      <match lemma="euro" tags="n.*"/>
     </or>
   </rule>
 
@@ -6302,6 +6319,61 @@
     </repeat>
   </rule>
 
+  <!-- despreciable > menyspreable / negligible -->
+  <rule weight="0.5">
+    <match lemma="despreciable" tags="adj.*"><select lemma="menyspreable"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="cantidad" tags="n.*"/>
+      <match lemma="carga" tags="n.*"/>
+      <match lemma="cifra" tags="n.*"/>
+      <match lemma="dosis" tags="n.*"/>
+      <match lemma="duración" tags="n.*"/>
+      <match lemma="error" tags="n.*"/>
+      <match lemma="importe" tags="n.*"/>
+      <match lemma="número" tags="n.*"/>
+      <match lemma="parte" tags="n.*"/>
+      <match lemma="partida" tags="n.*"/>
+      <match lemma="peso" tags="n.*"/>
+      <match lemma="porción" tags="n.*"/>
+      <match lemma="ración" tags="n.*"/>
+      <match lemma="suma" tags="n.*"/>
+      <match lemma="tiempo" tags="n.*"/>
+      <match lemma="total" tags="n.*"/>
+      <match lemma="valor" tags="n.*"/>
+      <match lemma="volumen" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="2">
+        <match tags="*"/>
+    </repeat>
+    <match lemma="despreciable" tags="adj.*"><select lemma="negligible"/></match>
+  </rule>
+
+  <!-- calado > calat / gran importància -->
+  <rule weight="0.5">
+    <match lemma="calado" tags="n.*"><select lemma="calat"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="de" tags="pr"/>
+    <match lemma="calado" tags="n.m.sg"><select lemma="gran importància"/></match>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match lemma="embarcación" tags="n.*"/>
+      <match lemma="metro" tags="n.*"/>
+      <match lemma="m" tags="n.*"/>
+      <match lemma="barco" tags="n.*"/>
+      <match lemma="barca" tags="n.*"/>
+      <match lemma="nivel" tags="n.*"/>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match lemma="calado" tags="n.m.sg"><select lemma="calat"/></match>
+  </rule>
+
   <!-- real > real / reial -->
   <rule weight="0.5">
     <match lemma="real" tags="adj.*"><select lemma="real"/></match>
@@ -6753,6 +6825,34 @@
       <match lemma="expresidente" tags="n.*"/>
       <match tags="np.*"/>
     </or>
+  </rule>
+
+  <!-- cromo  > crom / cromo -->
+
+  <rule weight="0.5">
+    <match lemma="cromo" tags="n.*"><select lemma="crom"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="cromo" tags="n.m.pl"><select lemma="cromo"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="cambio"/>
+      <match lemma="cambiar"/>
+    </or>
+    <repeat from="0" upto="5">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="cromo" tags="n.*"><select lemma="cromo"/></match>
   </rule>
 
       <!-- cerca, arriba, abajo  > prop / a prop -->
@@ -7452,6 +7552,30 @@
   <rule weight="0.5"><match lemma="Senegal"><select lemma="el Senegal"/></match></rule>
   <rule weight="0.5"><match lemma="Uruguay"><select lemma="l'Uruguai"/></match></rule>
   <rule weight="0.5"><match lemma="Vendrell"><select lemma="el Vendrell"/></match></rule>
+  <rule weight="0.5"><match lemma="Alcudia de Veo"><select lemma="l'Alcúdia de Veo"/></match></rule>
+  <rule weight="0.5"><match lemma="Algueña"><select lemma="l'Alguenya"/></match></rule>
+  <rule weight="0.5"><match lemma="Cañada"><select lemma="la Canyada"/></match></rule>
+  <rule weight="0.5"><match lemma="Castillo de Villamalefa"><select lemma="el Castell de Vilamalefa"/></match></rule>
+  <rule weight="0.5"><match lemma="Fuente la Reina"><select lemma="la Font de la Reina"/></match></rule>
+  <rule weight="0.5"><match lemma="Granja de Rocamora"><select lemma="la Granja de Rocamora"/></match></rule>
+  <rule weight="0.5"><match lemma="Losa del Obispo"><select lemma="la Llosa del Bisbe"/></match></rule>
+  <rule weight="0.5"><match lemma="Puebla de Arenoso"><select lemma="la Pobla d'Arenós"/></match></rule>
+  <rule weight="0.5"><match lemma="Puebla de San Miguel"><select lemma="la Pobla de Sant Miquel"/></match></rule>
+  <rule weight="0.5"><match lemma="Sierra Engarcerán"><select lemma="la Serra d'en Galceran"/></match></rule>
+  <rule weight="0.5"><match lemma="Todolella"><select lemma="la Todolella"/></match></rule>
+  <rule weight="0.5"><match lemma="Vall d'Alba"><select lemma="la Vall d'Alba"/></match></rule>
+  <rule weight="0.5"><match lemma="Vall de Almonacid"><select lemma="la Vall d'Almonesir"/></match></rule>
+  <rule weight="0.5"><match lemma="Vall de Gallinera"><select lemma="la Vall de Gallinera"/></match></rule>
+  <rule weight="0.5"><match lemma="Fuentes de Ayódar"><select lemma="les Fonts d'Aiòder"/></match></rule>
+  <rule weight="0.5"><match lemma="Hondón de los Frailes"><select lemma="el Fondó dels Frares"/></match></rule>
+  <rule weight="0.5"><match lemma="Hondón de las Nieves"><select lemma="el Fondó de les Neus"/></match></rule>
+  <rule weight="0.5"><match lemma="Forcall"><select lemma="el Forcall"/></match></rule>
+  <rule weight="0.5"><match lemma="Pilar de la Horadada"><select lemma="el Pilar de la Foradada"/></match></rule>
+  <rule weight="0.5"><match lemma="Ráfol de Salem"><select lemma="el Ràfol de Salem"/></match></rule>
+  <rule weight="0.5"><match lemma="Campo de Mirra"><select lemma="el Camp de Mirra"/></match></rule>
+  <rule weight="0.5"><match lemma="Ráfol de Almunia"><select lemma="el Ràfol d'Almúnia"/></match></rule>
+  <rule weight="0.5"><match lemma="Vall de Laguart"><select lemma="la Vall de Laguar"/></match></rule>
+  <rule weight="0.5"><match lemma="Benitachell"><select lemma="el Poble Nou de Benitatxell"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Argentina"><select lemma="Argentina"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Brasil"><select lemma="Brasil"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Canadá"><select lemma="Canadà"/></match></rule>
@@ -7466,7 +7590,34 @@
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Senegal"><select lemma="Senegal"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Uruguay"><select lemma="Uruguai"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vendrell"><select lemma="Vendrell"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Alcudia de Veo"><select lemma="Alcúdia de Veo"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Algueña"><select lemma="Alguenya"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Cañada"><select lemma="Canyada"/></match></rule>
+    <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Castillo de Villamalefa"><select lemma="Castell de Vilamalefa"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Fuente la Reina"><select lemma="Font de la Reina"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Granja de Rocamora"><select lemma="Granja de Rocamora"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Losa del Obispo"><select lemma="Llosa del Bisbe"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Puebla de Arenoso"><select lemma="Pobla d'Arenós"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Puebla de San Miguel"><select lemma="Pobla de Sant Miquel"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Sierra Engarcerán"><select lemma="Serra d'en Galceran"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Todolella"><select lemma="Todolella"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vall d'Alba"><select lemma="Vall d'Alba"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vall de Almonacid"><select lemma="Vall d'Almonesir"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vall de Gallinera"><select lemma="Vall de Gallinera"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Fuentes de Ayódar"><select lemma="Fonts d'Aiòder"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Hondón de los Frailes"><select lemma="Fondó dels Frares"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Hondón de las Nieves"><select lemma="Fondó de les Neus"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Forcall"><select lemma="Forcall"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Pilar de la Horadada"><select lemma="Pilar de la Foradada"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ráfol de Salem"><select lemma="Ràfol de Salem"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Campo de Mirra"><select lemma="Camp de Mirra"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ráfol de Almunia"><select lemma="Ràfol d'Almúnia"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vall de Laguart"><select lemma="Vall de Laguar"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Benitachell"><select lemma="Poble Nou de Benitatxell"/></match></rule>
 
+  <macro name="noms_propis" p1="José" p2="Josep" />  
+  <macro name="noms_propis" p1="Agustín" p2="Agustí" />  
+  <macro name="noms_propis" p1="Lucrecia" p2="Lucrècia" />
   <macro name="noms_propis" p1="Alberto Carlos" p2="Albert Carles" />
   <macro name="noms_propis" p1="Francisco José" p2="Francesc Josep" />
   <macro name="noms_propis" p1="Juan Carlos" p2="Joan Carles" />
