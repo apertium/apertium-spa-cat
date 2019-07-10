@@ -239,16 +239,19 @@
       <program name="lrx-proc -m">
         <file name="cat-spa.autolex.bin"/>
       </program>
+      
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-spa-cat.cat-spa.t1x"/>
         <file name="cat-spa.t1x.bin"/>
       </program>
+      
       <program name="lt-proc $1">
         <file name="cat-spa.autogen.bin"/>
       </program>
+      <!--
       <program name="lt-proc -p">
         <file name="cat-spa.autopgen.bin"/>
-      </program>
+      </program>-->
     </pipeline>
   </mode>
 
