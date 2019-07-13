@@ -5901,6 +5901,7 @@
         <match tags="num"/>
         <match tags="rel.an.*" lemma="el que"/>
         <match tags="rel.an.*" lemma="lo que"/>
+        <match tags="pr.tn.*" lemma="l'altre"/>
       </or>
   </rule>
 
@@ -5940,6 +5941,7 @@
         <match tags="adj.*"/>
         <match tags="rel.an.*" lemma="el que"/>
         <match tags="rel.an.*" lemma="lo que"/>
+        <match tags="pr.tn.*" lemma="l'altre"/>
       </or>
   </rule>
 
@@ -5980,6 +5982,7 @@
         <match tags="adj.*"/>
         <match tags="rel.an.*" lemma="el que"/>
         <match tags="rel.an.*" lemma="lo que"/>
+        <match tags="pr.tn.*" lemma="l'altre"/>
       </or>
   </rule>
 
@@ -6031,6 +6034,7 @@
       <match tags="det.*"/>
       <match tags="n.*"/>
       <match tags="adj.*"/>
+      <match tags="pr.tn.*" lemma="l'altre"/>
     </or>
   </rule>
 
