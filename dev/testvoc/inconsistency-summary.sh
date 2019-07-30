@@ -18,12 +18,12 @@ for i in "${!POS[@]}"; do
 		CONFIG=$(sed "s/,/ -e /g" <<< $CONFIG)
 		ALL=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX | grep -v -e $CONFIG);
 		TOTAL=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX | grep -v -e $CONFIG | wc -l);
-		AT=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX | grep -v -e $CONFIG | grep '@' | wc -l);
+		AT=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX | grep -v -e $CONFIG | grep ' \\@' | wc -l);
 		HASH=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX | grep -v -e $CONFIG | grep ' #' | wc -l);
 	else
 		ALL=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX);
 		TOTAL=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX | wc -l);
-		AT=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX | grep '@' | wc -l);
+		AT=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX | grep ' \\@' | wc -l);
 		HASH=$(cat $INC | grep "<${POS[$i]}>" | grep -v REGEX | grep ' #' | wc -l);
 	fi
 	UNCLEAN=`bc <<< $AT+$HASH`;

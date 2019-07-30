@@ -21,10 +21,15 @@ EOF
     exit 1
 fi
 
-while getopts "e" opt; do
+TRIMMED=true
+
+while getopts "et" opt; do
   case $opt in
     e)
       ENCLITICS=true
+      ;;
+    t)
+      TRIMMED=false
       ;;
   esac
 done
@@ -51,6 +56,14 @@ expand_poly () {
         mv $POLY2 $POLY1
     done
     cat $POLY1 | sed 's/\/\//\//g' | sed "s|>/~/|>/|g" | sed "s|\$+\^|$ ^|g"
+}
+
+trim () {
+    if [[ $TRIMMED = true ]]; then
+        grep -v '>/@'
+    else
+        cat
+    fi
 }
 
 LANG1=$(sed 's/-.*//' <<< $MODE)
@@ -103,7 +116,7 @@ lt-expand $MONODIX | grep -v 'REGEX' | grep -v ':<:' |  # The monodix is expande
 sed 's/:>:/\'$'\t/g' | sed 's/:/\'$'\t/g' | cut -f2 -d$'\t' |  # Surface forms are removed
 sed 's/^/^/g' | sed 's/\(.*\)/[\\\1\$]\1/g' | sed 's/$/$ ^.<sent>$/g' |  # Entries are converted to Apertium pipeline format, preceded by the source form and followed by a full stop
 bash "$PIPELINE_LEX" |  # Lexical transfer takes place
-grep -v '>/@' |  # The list of entries is trimmed according to the bidix
+trim |  # The list of entries is trimmed according to the bidix
 expand_poly |  # Polysemic entries are expanded into multiple lines
 bash "$PIPELINE_TFR" |  # Structural transfer takes place
 bash "$PIPELINE_GEN" |  # Target language surface forms are generated

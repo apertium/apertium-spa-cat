@@ -5,7 +5,9 @@ if ! [[ -e testvoc.conf ]]; then
     exit 1
 fi
 
-while getopts "equ" opt; do
+TRIMMED=true
+
+while getopts "equt" opt; do
   case $opt in
     e)
       ENCLITICS=true  # If the -e flag is used, enclitics are skipped for faster processing
@@ -15,6 +17,9 @@ while getopts "equ" opt; do
       ;;
     u)
       UNKNOWNS=true  # If the -u flag is used, unknown words are checked
+      ;;
+    t)
+      TRIMMED=false  # If the -t flag is used, the source monodix is not trimmed
       ;;
   esac
 done
@@ -28,12 +33,16 @@ unset IFS
 
 for i in "${!modes[@]}"; do
     printf "== %.45s\n" "${modenames[$i]} ============================================"
-    if [[ $ENCLITICS ]]; then
+    if [[ $ENCLITICS = true ]] && [[ $TRIMMED = false ]]; then
+        bash inconsistency.sh -et ${modes[$i]} auto > .testvoc
+    elif [[ $ENCLITICS = true ]]; then
         bash inconsistency.sh -e ${modes[$i]} auto > .testvoc
+    elif [[ $TRIMMED = false ]]; then
+        bash inconsistency.sh -t ${modes[$i]} auto > .testvoc
     else
         bash inconsistency.sh ${modes[$i]} auto > .testvoc
     fi
-    grep -vP '(?!\\)\/.*   --------->   [^#].*\\\/' .testvoc | grep -e ' #' -e '\\\/' > testvoc-errors.${modes[$i]}.txt
+    grep -vP '(?!\\)\/.*   --------->   [^#].*\\\/' .testvoc | grep -vP '^\^@.*   --------->   \\@.*' | grep -e ' #' -e '\\\/' -e ' \\@' > testvoc-errors.${modes[$i]}.txt
 
     if ! [[ $QUIET ]]; then
         bash inconsistency-summary.sh .testvoc ${modes[$i]}
