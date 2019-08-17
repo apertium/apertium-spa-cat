@@ -173,6 +173,11 @@
       <cat-item tags="vbhaver.ger" />
       <cat-item tags="vbmod.ger" />
     </def-cat>
+    <def-cat n="gerinf_atender_caber">
+      <cat-item lemma="atender" tags="vblex.ger" />
+      <cat-item lemma="caber" tags="vblex.ger" />
+      <cat-item lemma="caber" tags="vblex.inf" />
+    </def-cat>
     <def-cat n="pretind">
       <cat-item tags="vblex.ifi.*" />
       <cat-item tags="vbser.ifi.*" />
@@ -4053,6 +4058,112 @@
                   <clip pos="4" side="tl" part="gen" />
                   <clip pos="4" side="tl" part="nbr" />
                   <clip pos="2" side="tl" part="lemq" />
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+    <rule c="GER/INF (atender/caber) + ENC">
+      <pattern>
+        <pattern-item n="gerinf_atender_caber"/>
+        <pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <or>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="pp" />
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <lit v="haver" />
+                </equal>
+              </or>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <mlu>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                </lu>
+                <lu>
+                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="2" side="tl" part="a_prnenc"/>
+                  <clip pos="2" side="tl" part="persona"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </mlu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+    <rule c="GER/INF (atender/caber) + ENC + ENC">
+      <pattern>
+        <pattern-item n="gerinf_atender_caber"/>
+        <pattern-item n="prnenc"/>
+        <pattern-item n="prnenc"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <or>
+                <equal>
+                  <clip pos="1" side="tl" part="temps"/>
+                  <lit-tag v="pp" />
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="lem"/>
+                  <lit v="haver" />
+                </equal>
+              </or>
+            </test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <mlu>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <clip pos="1" side="tl" part="temps"/>
+                </lu>
+                <lu>
+                  <clip pos="2" side="tl" part="lem"/>
+                  <clip pos="2" side="tl" part="a_prnenc"/>
+                  <clip pos="2" side="tl" part="persona"/>
+                  <clip pos="2" side="tl" part="gen"/>
+                  <clip pos="2" side="tl" part="nbr"/>
+                </lu>
+                <lu>
+                  <clip pos="3" side="tl" part="lem"/>
+                  <clip pos="3" side="tl" part="a_prnenc"/>
+                  <clip pos="3" side="tl" part="persona"/>
+                  <clip pos="3" side="tl" part="gen"/>
+                  <clip pos="3" side="tl" part="nbr"/>
+                  <clip pos="1" side="tl" part="lemq"/>
                 </lu>
               </mlu>
             </out>
