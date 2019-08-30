@@ -3255,6 +3255,9 @@
       <match tags="np.loc.*"/>
       <match tags="np.top.*"/>
       <match lemma="unión" tags="n.*"/>
+      <match lemma="G7"/>
+      <match lemma="G8"/>
+      <match lemma="G20"/>
     </or>
   </rule>
 
@@ -3309,9 +3312,6 @@
       <match lemma="elevado"/>
       <match lemma="escalar"/>
       <match lemma="ascender"/>
-      <match lemma="G7"/>
-      <match lemma="G8"/>
-      <match lemma="G20"/>
     </or>
   </rule>
 
