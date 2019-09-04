@@ -6872,7 +6872,7 @@
   </rule>
 
   <rule weight="1">
-    <match lemma="de" tags="pr"/>
+    <match tags="pr"/>
     <match lemma="cerca" tags="adv"><select lemma="prop"/></match>
   </rule>
 
@@ -6881,7 +6881,7 @@
   </rule>
 
   <rule weight="1">
-    <match lemma="de" tags="pr"/>
+    <match tags="pr"/>
     <match lemma="abajo" tags="adv"><select lemma="baix"/></match>
   </rule>
 
@@ -6900,7 +6900,7 @@
   </rule>
 
   <rule weight="1">
-    <match lemma="de" tags="pr"/>
+    <match tags="pr"/>
     <match lemma="arriba" tags="adv"><select lemma="dalt"/></match>
   </rule>
 
@@ -7008,7 +7008,7 @@
   </rule>
 
   <rule weight="1">
-    <match lemma="a" tags="pr"/>
+    <match tags="pr"/>
     <or>
       <match lemma="todo"/>
       <match lemma="ninguno" tagger="det.ind.m.sg"/>
