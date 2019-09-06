@@ -351,7 +351,10 @@
     <repeat from="0" upto="2">
       <match tags="adv.*"/>
     </repeat>
-      <match lemma="que"/>
+      <or>
+        <match lemma="que"/>
+        <match lemma="lo que"/>
+      </or>
   </rule>
 
   <rule weight="1.0">
@@ -6393,6 +6396,7 @@
   <rule weight="1.0">
     <or>
       <match lemma="alteza" tags="n.*"/>
+      <match lemma="su alteza" tags="n.*"/>
       <match lemma="casa" tags="n.*"/>
       <match lemma="familia" tags="n.*"/>
     </or>
