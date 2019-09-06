@@ -1739,6 +1739,7 @@
     </repeat>
     <or>
       <match lemma="acción"/>
+      <match lemma="transacción"/>
       <match lemma="agente" tags="n.*"/>
       <match lemma="banco" tags="n.*"/>
       <match lemma="capital" tags="n.*"/>
@@ -1769,6 +1770,7 @@
   <rule weight="1">
     <or>
       <match lemma="acción"/>
+      <match lemma="transacción"/>
       <match lemma="agente" tags="n.*"/>
       <match lemma="banco" tags="n.*"/>
       <match lemma="capital" tags="n.*"/>
@@ -2836,6 +2838,9 @@
       <match lemma="bombero" tags="n.*"/>
       <match lemma="policía" tags="n.*"/>
       <match lemma="central" tags="n.*"/>
+      <match lemma="cliente"/>
+      <match lemma="proveedor"/>
+      <match lemma="tienda"/>
       <match lemma="centralita" tags="n.*"/>
       <match tags="num"/>
     </or>
@@ -2862,6 +2867,9 @@
       <match lemma="bombero" tags="n.*"/>
       <match lemma="policía" tags="n.*"/>
       <match lemma="central" tags="n.*"/>
+      <match lemma="cliente"/>
+      <match lemma="proveedor"/>
+      <match lemma="tienda"/>
       <match lemma="centralita" tags="n.*"/>
     </or>
   </rule>
@@ -2877,6 +2885,19 @@
     </repeat> 
     <match tags="rel.*"/>
     <match lemma="llamar" tags="vblex.*"><select lemma="trucar"/></match> 
+  </rule>
+
+  <rule weight="3.0">
+    <or>
+      <match lemma="cliente"/>
+      <match lemma="proveedor"/>
+      <match lemma="usuario"/>
+      <match lemma="persona"/>
+      <match lemma="hombre"/>
+      <match lemma="mujer"/>
+    </or>
+    <match tags="rel.*"/>
+    <match lemma="llamar" tags="vblex.*"><select lemma="telefonar"/></match> 
   </rule>
 
   <rule weight="1.0">
@@ -3890,6 +3911,7 @@
       <match lemma="rabia"/>
       <match lemma="recital"/>
       <match lemma="salto"/>
+      <match lemma="asalto"/>
       <match lemma="sed"/>
       <match lemma="silbido"/>
       <match lemma="vergüenza"/>
@@ -4430,6 +4452,7 @@
       <match tags="vblex.*" lemma="impedir"/>
       <match tags="vblex.*" lemma="permitir"/>
       <match tags="vbser.*" lemma="ser"/>
+      <match tags="vblex.*" lemma="lamentar"/>
     </or>
   </rule>
 
@@ -4445,6 +4468,7 @@
       <match tags="vblex.*" lemma="impedir"/>
       <match tags="vblex.*" lemma="permitir"/>
       <match tags="vbser.*" lemma="ser"/>
+      <match tags="vblex.*" lemma="lamentar"/>
     </or>
     <match lemma="lo" tags="prn.enc.p3.nt"><select lemma="ho"/></match>
   </rule>
@@ -5040,6 +5064,7 @@
     <or>
       <match tags="pr" lemma="excepto"/>
       <match tags="pr" lemma="respecto a"/>
+      <match tags="pr" lemma="con respecto a"/>
     </or>
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
@@ -5163,6 +5188,12 @@
     <or>
       <match lemma="más" tags="adv"/>
       <match lemma="menos" tags="adv"/>
+      <match lemma="mucho más" tags="adv"/>
+      <match lemma="mucho menos" tags="adv"/>
+      <match lemma="mucho antes" tags="adv"/>
+      <match lemma="mucho después" tags="adv"/>
+      <match lemma="mucho mejor" tags="adv"/>
+      <match lemma="mucho peor" tags="adv"/>
       <match lemma="más" tags="adj.*"/>
       <match lemma="menos" tags="adj.*"/>
     </or>
@@ -5310,7 +5341,15 @@
     <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
   </rule>
 
-  <rule weight="0.8"> <!-- ex.: se añade pues a una red extensa. -->
+  <rule weight="1">
+    <match lemma="Pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <repeat from="0" upto="1">
+      <match tags="cm"/>
+    </repeat>
+    <match lemma="para"/>
+  </rule>
+
+  <rule weight="0.85"> <!-- ex.: se añade pues a una red extensa. -->
     <match lemma="pues" tags="cnjadv"><select lemma="doncs"/></match>
     <repeat from="0" upto="8">
       <or>
@@ -5328,7 +5367,11 @@
     </repeat>
     <or>
       <match tags="sent"/>
-      <match lemma="que"/>
+      <match lemma="que" tags="cnjsub"/>
+      <!--<match lemma="que"/>
+      <match lemma="el que"/>
+      <match lemma="lo que"/>
+      <match tags="rel.*"/>-->
     </or>
   </rule>
 
@@ -5690,6 +5733,13 @@
   <rule weight="4"> <!-- especialistas en investigar, piensa en respirar -->
     <match lemma="en" tags="pr"><select lemma="a"/></match>
     <match lemma="no" tags="adv"/>
+    <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="5"> <!-- haces bien en ir > fas bé d'anar -->
+    <match lemma="hacer"/>
+    <match lemma="bien"/>
+    <match lemma="en" tags="pr"><select lemma="de"/></match>
     <match tags="*.inf"/>
   </rule>
 
@@ -6352,6 +6402,7 @@
       <match lemma="partida" tags="n.*"/>
       <match lemma="peso" tags="n.*"/>
       <match lemma="porción" tags="n.*"/>
+      <match lemma="proporción" tags="n.*"/>
       <match lemma="ración" tags="n.*"/>
       <match lemma="suma" tags="n.*"/>
       <match lemma="tiempo" tags="n.*"/>
