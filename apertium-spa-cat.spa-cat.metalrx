@@ -2094,7 +2094,7 @@
       <match lemma="lúcido"/>
       <match lemma="rápido"/>
       <match lemma="réflex"/>
-      <!--<match lemma="submarino"/>  és ambigu -->
+      <match lemma="submarino"/>  <!--és ambigu -->
       <match lemma="superlento"/>
       <match lemma="web"/>
     </or>
@@ -2216,7 +2216,7 @@
       <match lemma="rodaje"/>
       <match lemma="rodar"/>
       <match lemma="RTVE"/>
-      <!--<match lemma="secuencia"/>-->
+      <match lemma="secuencia"/>
       <match lemma="sensor"/>
       <match lemma="sonda"/>
       <match lemma="teatro"/>
@@ -2339,7 +2339,7 @@
       <match lemma="rodaje"/>
       <match lemma="rodar"/>
       <match lemma="RTVE"/>
-      <!--<match lemma="secuencia"/>-->
+      <match lemma="secuencia"/>
       <match lemma="sensor"/>
       <match lemma="sonda"/>
       <match lemma="teatro"/>
@@ -2989,6 +2989,15 @@
     </or>
   </rule>
 
+  <rule weight="2.0">
+    <match lemma="granito" tags="n.*"><select lemma="mica"/></match>
+    <match lemma="de"/>
+    <or>
+      <match lemma="sal" tags="n.*"/>
+      <match lemma="azúcar" tags="n.*"/>
+    </or>
+  </rule>
+
   <rule weight="3.0">
     <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
@@ -3038,15 +3047,6 @@
     <match tags="pr" lemma="a"/> 
     <match tags="*.inf"/>
   </rule>
-
-  <!-- buggy? <rule weight="2.0">
-    <match lemma="granito" tags="n.*"><select lemma="mica"/></match>
-    <match lemma="de"/>
-    <or>
-      <match lemma="sal" tags="n.*"/>
-      <match lemma="azúcar" tags="n.*"/>
-    </or>
-  </rule>-->
 
 
 <!-- pico > pic/bec/... -->
@@ -3223,7 +3223,8 @@
 
   <rule weight="1.0">
     <or>
-      <!--<match tags="num"/>-->
+      <match tags="num"/>
+      <match tags="num.*"/>
       <match tags="adj.ord.*"/>
     </or>
     <match lemma="cumbre" tags="n.*"><select lemma="cimera"/></match>  
@@ -5465,7 +5466,7 @@
       <match lemma="tener" tags="vblex.*"/>
       <match lemma="perder" tags="vblex.*"/>
       <match lemma="matar" tags="vblex.*"/>
-      <!--<match lemma="sentir" tags="vblex.*"/>  BUG!! -->
+      <match lemma="sentir" tags="vblex.*"/> <!-- was buggy! -->
       <match lemma="quitar" tags="vblex.*"/>
       <match lemma="saciar" tags="vblex.*"/>
     </or>
