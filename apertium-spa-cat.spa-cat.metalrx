@@ -4769,6 +4769,16 @@
       <match lemma="allá"/>
     </or>
   </rule>
+  <rule weight="2">
+    <match lemma="estar" tags="vblex.*"><select lemma="estar"/></match>
+    <or>
+      <match lemma="aquí"/>
+      <match lemma="ahí"/>
+      <match lemma="allí"/>
+      <match lemma="allá"/>
+    </or>
+    <match tags="*.ger"/>
+  </rule>
 
   <rule weight="2">
     <match lemma="estar" tags="vblex.*"><select lemma="ser"/></match>
@@ -4814,7 +4824,7 @@
       <match lemma="iglesia" tags="n.*"/>
       <match lemma="isla" tags="n.*"/>
       <match lemma="jardín" tags="n.*"/>
-      <!--<match lemma="mano" tags="n.*"/>-->
+      <match lemma="mano" tags="n.*"/>
       <match lemma="montaña" tags="n.*"/>
       <match lemma="parque" tags="n.*"/>
       <match lemma="patio" tags="n.*"/>
@@ -5846,7 +5856,22 @@
       <match lemma="exención"/>
       <match lemma="precariedad"/>
       <match lemma="mal"/>
-      <match lemma="malo"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="acabar" tags="vblex.*"><select lemma="posar# fi"/></match>
+    <match lemma="con" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+   <match lemma="malo"/>
+    <or>
+      <match lemma="administración"/>
+      <match lemma="gestión"/>
+      <match lemma="costumbre"/>
     </or>
   </rule>
 
@@ -6972,6 +6997,7 @@
       <match tags="n.*" lemma="núcleo"/>
       <match tags="n.*" lemma="quark"/>
       <match tags="n.*" lemma="vehículo"/>
+      <match tags="n.*" lemma="mercancía"/>
     </or>
     <match lemma="pesado" tags="adj.*"><select lemma="pesant"/></match>
   </rule>
@@ -7340,10 +7366,18 @@
     <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
   </rule>
 
-  <rule weight="0.5">
+  <rule weight="5">
     <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
     <match lemma="de"/>
-    <match lemma="cambio"/>
+    <or>
+      <match lemma="cambio"/>
+      <match lemma="interés"/>
+    </or>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="cada"/>
+    <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
   </rule>
 
   <rule weight="1">
