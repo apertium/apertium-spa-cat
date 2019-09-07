@@ -5482,9 +5482,13 @@
       <match tags="prn.*"/>  
     </repeat>
     <or>
+      <match lemma="beneficiar"/>
+      <match lemma="constar"/>
+      <match lemma="depender"/>
+      <match lemma="discrepar"/>
+      <match lemma="disponer"/>
       <match lemma="hablar"/>
       <match lemma="tratar"/>
-      <match lemma="discrepar"/>
     </or>
   </rule>
 
