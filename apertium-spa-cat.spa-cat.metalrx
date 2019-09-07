@@ -5815,6 +5815,39 @@
     <match lemma="cacarear" tags="vblex.pp.*"><select lemma="esbombar"/></match>
   </rule>
 
+  <!-- acabar con > acabar amb / posar fi a ... -->
+
+  <rule weight="0.5">
+    <match lemma="acabar" tags="vblex.*"><select lemma="acabar"/></match>
+  </rule>
+  <rule weight="0.5">
+    <match lemma="con" tags="pr"><select lemma="amb"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="acabar" tags="vblex.*"><select lemma="posar# fi"/></match>
+    <match lemma="con" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <or> 
+      <match lemma="vida"/>
+      <match lemma="dinastía"/>
+      <match lemma="reinado"/>
+      <match lemma="discriminación"/>
+      <match lemma="abuso"/>
+      <match lemma="fraude"/>
+      <match lemma="plaga"/>
+      <match lemma="peste"/>
+      <match lemma="infección"/>
+      <match lemma="situación"/>
+      <match lemma="exención"/>
+      <match lemma="precariedad"/>
+    </or>
+  </rule>
+
    <!-- precisar > precisar / requerir ... -->
 
   <rule weight="0.5">
