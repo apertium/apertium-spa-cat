@@ -1437,7 +1437,7 @@
       <match lemma="mafia" tags="n.*"/>
       <match lemma="marfil" tags="n.*"/>
       <match lemma="marihuana" tags="n.*"/>
-      <match lemma="mercancía" tags="n.*"/>
+      <!--<match lemma="mercancía" tags="n.*"/>-->
       <match lemma="mercantil" tags="adj.*"/>
       <match lemma="narcótico" tags="n.*"/>
       <match lemma="negocio" tags="n.*"/>
@@ -4754,6 +4754,91 @@
     <match lemma="el mismo" tags="prn.*"><select lemma="aquest"/></match>    
   </rule>
 
+  <!-- estar > estar / ser-->
+
+  <rule weight="0.6">
+    <match lemma="estar" tags="vblex.*"><select lemma="estar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="estar" tags="vblex.*"><select lemma="ser"/></match>
+    <or>
+      <match lemma="aquí"/>
+      <match lemma="ahí"/>
+      <match lemma="allí"/>
+      <match lemma="allá"/>
+    </or>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="estar" tags="vblex.*"><select lemma="ser"/></match>
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match tags="det.def.*" lemma="el"/>
+      <match tags="det.pos.*" lemma="mío"/>
+      <match tags="det.pos.*" lemma="suyo"/>
+      <match tags="det.pos.*" lemma="tuyo"/>
+      <match tags="det.pos.*" lemma="nuestro"/>
+      <match tags="det.pos.*" lemma="vuestro"/>
+    </or>
+    <or>
+      <match lemma="apartamento" tags="n.*"/>
+      <match lemma="ascensor" tags="n.*"/>
+      <match lemma="auditorio" tags="n.*"/>
+      <match lemma="aula" tags="n.*"/>
+      <match lemma="ayuntamiento" tags="n.*"/>
+      <match lemma="balcón" tags="n.*"/>
+      <match lemma="biblioteca" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+      <match lemma="cabeza" tags="n.*"/>
+      <match lemma="calle" tags="n.*"/>
+      <match lemma="campus" tags="n.*"/>
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="castillo" tags="n.*"/>
+      <match lemma="cine" tags="n.*"/>
+      <match lemma="ciudad" tags="n.*"/>
+      <match lemma="comarca" tags="n.*"/>
+      <match lemma="cuarto_habitación" tags="n.*"/>
+      <match lemma="cuarto de al lado" tags="n.*"/>
+      <match lemma="ducha" tags="n.*"/>
+      <match lemma="escuela" tags="n.*"/>
+      <match lemma="espalda" tags="n.*"/>
+      <match lemma="esquina" tags="n.*"/>
+      <match lemma="explanada" tags="n.*"/>
+      <match lemma="extranjero" tags="n.*"/>
+      <match lemma="frontera" tags="n.*"/>
+      <match lemma="fábrica" tags="n.*"/>
+      <match lemma="habitación" tags="n.*"/>
+      <match lemma="hospital" tags="n.*"/>
+      <match lemma="hotel" tags="n.*"/>
+      <match lemma="iglesia" tags="n.*"/>
+      <match lemma="isla" tags="n.*"/>
+      <match lemma="jardín" tags="n.*"/>
+      <match lemma="mano" tags="n.*"/>
+      <match lemma="montaña" tags="n.*"/>
+      <match lemma="parque" tags="n.*"/>
+      <match lemma="patio" tags="n.*"/>
+      <match lemma="país" tags="n.*"/>
+      <match lemma="pie" tags="n.*"/>
+      <match lemma="pierna" tags="n.*"/>
+      <match lemma="playa" tags="n.*"/>
+      <match lemma="principado" tags="n.*"/>
+      <match lemma="prisión" tags="n.*"/>
+      <match lemma="provincia" tags="n.*"/>
+      <match lemma="pueblo" tags="n.*"/>
+      <match lemma="puerta" tags="n.*"/>
+      <match lemma="región" tags="n.*"/>
+      <match lemma="ropa" tags="n.*"/>
+      <match lemma="sala" tags="n.*"/>
+      <match lemma="terraza" tags="n.*"/>
+      <match lemma="tienda" tags="n.*"/>
+      <match lemma="torre" tags="n.*"/>
+      <match lemma="tren" tags="n.*"/>
+      <match lemma="urbanización" tags="n.*"/>
+      <match lemma="valle" tags="n.*"/>
+    </or>
+  </rule>
+
   <!--mientras > metre / mentrestant  -->
 
   <rule weight="0.6">
@@ -4952,6 +5037,16 @@
     <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
 
+  <!-- en contra de que -->
+  <rule weight="0.6">
+    <match lemma="en contra de" tags="cnjsub"><select lemma="en contra de"/></match>
+  </rule>
+
+  <rule weight="0.6">
+    <match lemma="en contra de" tags="cnjsub"><select lemma="en contra"/></match>
+    <match lemma="que"/>
+  </rule>
+
   <!-- de que > que / de què -->
 
   <rule weight="0.6">
@@ -5139,7 +5234,6 @@
       <match lemma="comparar" tags="vblex.*"/>
       <match lemma="responder" tags="vblex.*"/>
       <match lemma="contestar" tags="vblex.*"/>
-      <match lemma="no" tags="adv"/>
     </or>
     <repeat from="0" upto="3">
       <or>
@@ -5148,6 +5242,12 @@
         <match tags="adv"/>
       </or>
     </repeat>
+    <match tags="pr" lemma="a"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3">
+    <match lemma="no" tags="adv"/>
     <match tags="pr" lemma="a"/>
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
   </rule>
@@ -5163,7 +5263,7 @@
       <match lemma="mejor" tags="adj.*"/>
       <match lemma="equivalente" tags="adj.*"/>
     </or>
-    <repeat from="0" upto="3"> <!-- quian hi ha només una coma, no hauria d'aplicar-se-->
+    <repeat from="0" upto="3"> <!-- quan hi ha només una coma, no hauria d'aplicar-se-->
       <or>
         <match tags="adj.*"/>
         <match tags="cm"/>
@@ -5294,7 +5394,6 @@
 
 
   <rule weight="3.2"> 
-    
     <or>
       <match tags="vbhaver.*"/>
       <match tags="vbser.*"/>
@@ -5376,6 +5475,19 @@
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
   </rule>
 
+  <rule weight="5"> 
+    <match tags="pr" lemma="de"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el qual"/></match>
+    <repeat from="0" upto="1">
+      <match tags="prn.*"/>  
+    </repeat>
+    <or>
+      <match lemma="hablar"/>
+      <match lemma="tratar"/>
+      <match lemma="discrepar"/>
+    </or>
+  </rule>
+
    <!-- en tanto que > en tant que / com a -->
 
   <rule weight="0.6">
@@ -5385,6 +5497,23 @@
   <rule weight="1">
     <match lemma="en tanto que" tags="pr"><select lemma="com a"/></match>
     <match tags="n.*"/>
+  </rule>
+
+  <!-- aun cuando > tot i que / encara que-->
+  <rule weight="0.6">
+    <match lemma="aun cuando" tags="cnjadv"><select lemma="tot i que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="aun cuando" tags="cnjadv"><select lemma="encara que"/></match>
+    <repeat from="0" upto="15">
+        <match tags="*"/>
+    </repeat>
+    <or>
+      <match tags="*.prs.*"/>
+      <match tags="*.pis.*"/>
+      <match tags="*.fts.*"/>
+    </or>
   </rule>
 
   <!-- pues > doncs -->
@@ -5404,6 +5533,11 @@
       <match tags="cm"/>
     </repeat>
     <match lemma="para"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="Pues" tags="cnjadv"><select lemma="doncs"/></match>
+    <match tags="precisamente"/>
   </rule>
 
   <rule weight="0.85"> <!-- ex.: se añade pues a una red extensa. -->
@@ -5890,7 +6024,6 @@
       <match lemma="región" tags="n.*"/>
       <match lemma="ropa" tags="n.*"/>
       <match lemma="sala" tags="n.*"/>
-      <match lemma="senado" tags="n.*"/>
       <match lemma="terraza" tags="n.*"/>
       <match lemma="tienda" tags="n.*"/>
       <match lemma="torre" tags="n.*"/>
@@ -5959,10 +6092,44 @@
       <match tags="*.inf"/>
   </rule>
 
+  <rule weight="8">
+      <or>
+        <match lemma="obligar" tags="vblex.pp.*"/>
+        <match lemma="ayudar" tags="vblex.pp.*"/>
+      </or> 
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+
   <rule weight="6">
       <or>
         <match lemma="obligar" tags="vblex.*"/>
         <match lemma="ayudar" tags="vblex.*"/>
+      </or>
+      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <or>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+      </or>
+      <repeat from="0" upto="5">
+        <or>
+          <match tags="*.*"/>
+          <match tags="*"/>
+          <match tags="preadv"/>
+          <match tags="adv"/>
+          <match tags="pr"/>
+          <match tags="cnjcoo"/>
+        </or>
+      </repeat>
+      <match lemma="a" tags="pr"/>
+      <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="10">
+    <match lemma="haber"/>
+      <or>
+        <match lemma="obligar" tags="vblex.pp.m.sg"/>
+        <match lemma="ayudar" tags="vblex.pp.m.sg"/>
       </or>
       <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
       <or>
@@ -6643,7 +6810,7 @@
     <repeat from="0" upto="1">
       <match tags="det.pos.*"/>
     </repeat>
-    <match lemma="contra" tags="n.*"/>
+      <match lemma="contra" tags="n.*"/>
   </rule>
 
   <rule weight="1.0">
@@ -6652,6 +6819,7 @@
       <match lemma="en mi contra" tags="adv"/>
       <match lemma="en tu contra" tags="adv"/>
       <match lemma="en su contra" tags="adv"/>
+      <match lemma="en contra de"/>
     </or>
   </rule>
 
@@ -6669,6 +6837,7 @@
       <match lemma="mirada" tags="n.*"/>
       <match lemma="vista" tags="n.*"/>
       <match lemma="espalda" tags="n.*"/>
+      <match lemma="en contra de"/>
     </or>
   </rule>
 
@@ -7140,7 +7309,8 @@
     <match tags="pr"/>
     <or>
       <match lemma="todo"/>
-      <match lemma="ninguno" tagger="det.ind.m.sg"/>
+      <match tagger="det.ind.m.sg"/>
+      <match tagger="det.dem.m.sg"/>
     </or>
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
     <match lemma="de" tags="pr"/>
@@ -7680,15 +7850,18 @@
     </or>
   </rule>
 
-  <!-- topònims amb article -->
+  <!-- topònims amb article --> 
 
   <rule weight="0.5"><match lemma="Argentina"><select lemma="l'Argentina"/></match></rule>
+  <rule weight="0.5"><match lemma="Azerbaiyán"><select lemma="l'Azerbaidjan"/></match></rule>
   <rule weight="0.5"><match lemma="Brasil"><select lemma="el Brasil"/></match></rule>
   <rule weight="0.5"><match lemma="Canadá"><select lemma="el Canadà"/></match></rule>
   <rule weight="0.5"><match lemma="China"><select lemma="la Xina"/></match></rule>
   <rule weight="0.5"><match lemma="Ecuador"><select lemma="l'Equador"/></match></rule>
   <rule weight="0.5"><match lemma="EE. UU."><select lemma="els EUA"/></match></rule>
   <rule weight="0.5"><match lemma="Estados Unidos"><select lemma="els Estats Units"/></match></rule>
+  <rule weight="0.5"><match lemma="Irak"><select lemma="l'Iraq"/></match></rule>
+  <rule weight="0.5"><match lemma="Iran"><select lemma="l'Iran"/></match></rule>
   <rule weight="0.5"><match lemma="India"><select lemma="l'Índia"/></match></rule>
   <rule weight="0.5"><match lemma="Japón"><select lemma="el Japó"/></match></rule>
   <rule weight="0.5"><match lemma="Marruecos"><select lemma="el Marroc"/></match></rule>
@@ -7721,6 +7894,7 @@
   <rule weight="0.5"><match lemma="Vall de Laguart"><select lemma="la Vall de Laguar"/></match></rule>
   <rule weight="0.5"><match lemma="Benitachell"><select lemma="el Poble Nou de Benitatxell"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Argentina"><select lemma="Argentina"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Azerbaiyán"><select lemma="Azerbaidjan"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Brasil"><select lemma="Brasil"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Canadá"><select lemma="Canadà"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="China"><select lemma="Xina"/></match></rule>
@@ -7728,6 +7902,8 @@
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="EE. UU."><select lemma="EUA"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Estados Unidos"><select lemma="Estats Units"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="India"><select lemma="Índia"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Irak"><select lemma="Iraq"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Iran"><select lemma="Iran"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Japón"><select lemma="Japó"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Marruecos"><select lemma="Marroc"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Perú"><select lemma="Perú"/></match></rule>
