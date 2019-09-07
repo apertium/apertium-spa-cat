@@ -4814,7 +4814,7 @@
       <match lemma="iglesia" tags="n.*"/>
       <match lemma="isla" tags="n.*"/>
       <match lemma="jardín" tags="n.*"/>
-      <match lemma="mano" tags="n.*"/>
+      <!--<match lemma="mano" tags="n.*"/>-->
       <match lemma="montaña" tags="n.*"/>
       <match lemma="parque" tags="n.*"/>
       <match lemma="patio" tags="n.*"/>
@@ -7336,8 +7336,14 @@
 
   <!-- tipo > tipus / mena -->
 
+  <rule weight="2">
+    <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
+  </rule>
+
   <rule weight="0.5">
     <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
+    <match lemma="de"/>
+    <match lemma="cambio"/>
   </rule>
 
   <rule weight="1">
