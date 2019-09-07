@@ -5095,11 +5095,12 @@
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
-  <rule weight="5">
+  <rule weight="5">  <!--TODO: excepte si concorda amb el nom anterior-->
     <or>
       <match tags="pr" lemma="excepto"/>
       <match tags="pr" lemma="respecto a"/>
       <match tags="pr" lemma="con respecto a"/>
+      <match tags="pr" lemma="en contra de"/>
     </or>
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
@@ -5136,6 +5137,9 @@
       <match lemma="similar" tags="adj.*"/>
       <match lemma="superior" tags="adj.*"/>
       <match lemma="comparar" tags="vblex.*"/>
+      <match lemma="responder" tags="vblex.*"/>
+      <match lemma="contestar" tags="vblex.*"/>
+      <match lemma="no" tags="adv"/>
     </or>
     <repeat from="0" upto="3">
       <or>
@@ -5257,6 +5261,9 @@
       <match lemma="mucho después" tags="adv"/>
       <match lemma="mucho mejor" tags="adv"/>
       <match lemma="mucho peor" tags="adv"/>
+      <match lemma="a favor" tags="adv"/>
+      <match lemma="contra"/>
+      <match lemma="en contra"/>
     </or>
     <match tags="pr" lemma="de"/>
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
@@ -5365,7 +5372,7 @@
     <repeat from="0" upto="1">
       <match tags="cm"/>  
     </repeat>
-    <match tags="pr"/>
+    <match tags="pr" lemma="de"/>
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
   </rule>
 
