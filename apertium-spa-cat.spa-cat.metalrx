@@ -4930,6 +4930,11 @@
     </or>
   </rule>
 
+  <rule weight="2">
+    <match lemma="como" tags="pr"><select lemma="com"/></match>
+    <match tags="adj.*" lemma="dicho"/> 
+  </rule>
+
   <rule weight="1">
     <match lemma="conocer" tags="vblex.*"/>
     <match lemma="como" tags="pr"><select lemma="com a"/></match>
