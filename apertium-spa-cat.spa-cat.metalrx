@@ -5065,6 +5065,7 @@
     <or>
       <match lemma="tener# que ver" tags="vblex.*"/>
       <match lemma="concordar" tags="vblex.*"/>
+      <match lemma="ver" tags="vblex.*"/>
     </or>
     <match lemma="con" tags="pr"/>
     <match lemma="que" tags="cnjsub"><select lemma="el fet que"/></match>
@@ -5180,7 +5181,7 @@
 
   <rule weight="2">
     <match lemma="el"/>
-    <match lemma="hecho"/>
+    <match lemma="hecho" tags="n.m.sg"/>
     <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
 
