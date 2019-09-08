@@ -4998,7 +4998,10 @@
 
   <rule weight="2">
     <match lemma="como" tags="pr"><select lemma="com"/></match>
-    <match tags="adj.*" lemma="dicho"/> 
+    <or>
+      <match tags="adj.*" lemma="dicho"/> 
+      <match tags="adj.*" lemma="tanto"/> 
+    </or>
   </rule>
 
   <rule weight="1">
@@ -5188,6 +5191,7 @@
         <match lemma="disponer" tags="vblex.*"/>
         <match lemma="tratar" tags="vblex.*"/>
         <match lemma="constar" tags="vblex.*"/>
+        <match lemma="hablar" tags="vblex.*"/>
       </or>
   </rule>
   <rule weight="1">
@@ -7455,6 +7459,13 @@
   <rule weight="5">
     <match lemma="cada"/>
     <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
+  </rule>
+
+  <rule weight="6">
+    <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    <match lemma="tipo" tags="n.*"><select lemma="mena"/></match>
+    <match lemma="de"/>
+    <match lemma="interés"/>
   </rule>
 
   <rule weight="1">
