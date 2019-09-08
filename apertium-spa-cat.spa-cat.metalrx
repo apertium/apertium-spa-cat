@@ -1602,6 +1602,11 @@
     <match lemma="emplear" tags="vblex.pp.*"><select lemma="ocupar"/></match>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="emplear" tags="vblex.*"><select lemma="ocupar"/></match>
+    <match lemma="a fondo"/>
+  </rule>
+
     <!-- número > número/nombre -->
 
   <rule weight="0.8">
@@ -3909,6 +3914,13 @@
     <match tags="*.inf"/>
   </rule>
 
+  <!-- miedo a ser > por de ser -->
+  <rule weight="5.0">
+    <match lemma="miedo"/>
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
+    <match tags="*.inf"/>
+  </rule>
+
      <!-- dar > donar / fer  ... -->
 
   <rule weight="0.6">
@@ -4663,7 +4675,51 @@
     <match tags="*.inf"/>
   </rule>
 
-  <!-- TODO: de forma continua > de manera contínua -->
+  <rule weight="2.0">
+    <match lemma="de"/>
+    <match lemma="forma" tags="n.*"><select lemma="manera"/></match>
+    <or>
+      <match tags="adj.f.sg"/>
+      <match tags="adj.mf.sg"/>
+      <match tags="adj.mf.sp"/>
+    </or>
+  </rule>
+
+  <rule weight="3.0">   <!-- de forma continua > de manera contínua -->
+    <match lemma="de"/>
+    <match lemma="forma" tags="n.*"><select lemma="forma"/></match>
+    <or>
+      <!--<match tags="regular"/>-->
+      <match lemma="achatado"/>
+      <match lemma="aplanado"/>
+      <match lemma="binómico"/>
+      <match lemma="circular"/>
+      <match lemma="cuadrado"/>
+      <match lemma="cuadrangular"/>
+      <match lemma="decagonal"/>
+      <match lemma="elíptico"/>
+      <match lemma="esférico"/>
+      <match lemma="farmacéutico"/>
+      <match lemma="heptagonal"/>
+      <match lemma="hexagonal"/>
+      <match lemma="horizontal"/>
+      <match lemma="integrado"/>
+      <match lemma="longitudinal"/>
+      <match lemma="ochavado"/>
+      <match lemma="octagonal"/>
+      <match lemma="octogonal"/>
+      <match lemma="ovoidal"/>
+      <match lemma="pentagonal"/>
+      <match lemma="polar"/>
+      <match lemma="poligonal"/>
+      <match lemma="puntiagudo"/>
+      <match lemma="rectangular"/>
+      <match lemma="redondo"/>
+      <match lemma="triangular"/>
+      <match lemma="trigonométrico"/>
+      <match lemma="vertical"/>
+    </or>
+  </rule>
 
   <!-- respaldo > suport /respatler ... -->
 
