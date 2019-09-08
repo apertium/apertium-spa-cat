@@ -5137,23 +5137,32 @@
   </rule>
 
   <rule weight="2">
+    <match lemma="el"/>
+    <match lemma="hecho"/>
+    <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+
+  <rule weight="2">
     <or>
-      <match lemma="indicio"/>
-      <match lemma="prueba"/>
+      <match lemma="característica"/>
+      <match lemma="caso"/>
+      <match lemma="conclusión"/>
+      <match lemma="creencia"/>
+      <match lemma="cualidad"/>
+      <match lemma="duda"/>
       <match lemma="fin"/>
       <match lemma="finalidad"/>
-      <match lemma="objetivo"/>
-      <match lemma="objeto"/>
-      <match lemma="caso"/>
-      <match lemma="cualidad"/>
-      <match lemma="característica"/>
-      <match lemma="seguro"/>
       <match lemma="hipótesis"/>
       <match lemma="ilusión"/>
-      <match lemma="conclusión"/>
+      <match lemma="indicio"/>
+      <match lemma="objetivo"/>
+      <match lemma="objeto"/>
       <match lemma="particularidad"/>
-      <match lemma="creencia"/>
+      <match lemma="prueba"/>
       <match lemma="realidad"/>
+      <match lemma="sentido"/>
+      <match lemma="seguro"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adj.*"/>
@@ -5161,12 +5170,13 @@
     <match lemma="de que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
 
-  <rule weight="2">
+  <rule weight="3">
     <or>
       <match lemma="dudar" tags="vblex.*"/>
       <match lemma="sospechar" tags="vblex.*"/>
       <match lemma="persuadir" tags="vblex.*"/>
       <match lemma="convencer" tags="vblex.*"/>
+      <match lemma="amenazar" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="5">
       <match tags="*"/>
@@ -5194,6 +5204,12 @@
         <match lemma="hablar" tags="vblex.*"/>
       </or>
   </rule>
+
+ <rule weight="2">
+    <match lemma="depender" tags="vblex.*"/>
+    <match lemma="de que" tags="cnjsub"><select lemma="del fet que"/></match>
+  </rule>
+
   <rule weight="1">
     <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
     <repeat from="0" upto="3">
