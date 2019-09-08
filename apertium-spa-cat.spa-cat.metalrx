@@ -381,6 +381,47 @@
     <match tags="prn.*"/>
   </rule>
 
+  <!-- tener que : haver de -->
+  <rule weight="0.1">
+    <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
+  </rule>  
+  <rule weight="0.1">
+    <match lemma="que" tags="cnjsub.*"><select lemma="que"/></match>
+  </rule>  
+
+  <rule weight="2">
+    <match lemma="tener" tags="vblex.*"><select lemma="haver_de"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="cm"/>
+      </or>
+    </repeat>
+    <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
+    <match tags="*.inf"/>
+  </rule>  
+  <rule weight="2">
+    <match lemma="tener" tags="vblex.*"><select lemma="haver_de"/></match>
+    <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="cm"/>
+      </or>
+    </repeat>
+    <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
+    <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
+    <match lemma="ver" tags="vblex.inf"/>
+    <match lemma="con"/>
+  </rule> 
+
+
   <!-- sortear > sortejar/evitar/superar -->
 
   <rule weight="0.8">
@@ -4881,6 +4922,7 @@
       <match lemma="isla" tags="n.*"/>
       <match lemma="jardín" tags="n.*"/>
       <match lemma="mano" tags="n.*"/>
+      <match lemma="mar" tags="n.*"/>
       <match lemma="montaña" tags="n.*"/>
       <match lemma="parque" tags="n.*"/>
       <match lemma="patio" tags="n.*"/>
