@@ -5490,6 +5490,16 @@
     <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
   </rule>
 
+  <rule weight="3"> 
+    <or>
+      <match tags="adv"/>
+      <match lemma="como"/>
+      <match lemma="tanto"/>
+    </or>
+    <match tags="pr" lemma="para"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
   <rule weight="5"> 
     <match tags="pr" lemma="de"/>
     <match lemma="el que" tags="rel.an.*"><select lemma="el qual"/></match>
@@ -7362,7 +7372,7 @@
 
   <!-- tipo > tipus / mena -->
 
-  <rule weight="2">
+  <rule weight="0.5">
     <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
   </rule>
 
@@ -7372,6 +7382,17 @@
     <or>
       <match lemma="cambio"/>
       <match lemma="interés"/>
+      <match lemma="letra"/>
+    </or>
+  </rule>
+
+  <rule weight="5">
+    <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
+    <or>
+      <match lemma="impositivo"/>
+      <match lemma="monetario"/>
+      <match lemma="romano"/>
+      <match lemma="elzeviriano"/>
     </or>
   </rule>
 
@@ -7937,6 +7958,7 @@
   <!-- topònims amb article --> 
 
   <rule weight="0.5"><match lemma="Argentina"><select lemma="l'Argentina"/></match></rule>
+  <rule weight="0.5"><match lemma="Arabia Saudí"><select lemma="l'Aràbia Saudita"/></match></rule>
   <rule weight="0.5"><match lemma="Azerbaiyán"><select lemma="l'Azerbaidjan"/></match></rule>
   <rule weight="0.5"><match lemma="Brasil"><select lemma="el Brasil"/></match></rule>
   <rule weight="0.5"><match lemma="Canadá"><select lemma="el Canadà"/></match></rule>
@@ -7949,6 +7971,7 @@
   <rule weight="0.5"><match lemma="India"><select lemma="l'Índia"/></match></rule>
   <rule weight="0.5"><match lemma="Japón"><select lemma="el Japó"/></match></rule>
   <rule weight="0.5"><match lemma="Marruecos"><select lemma="el Marroc"/></match></rule>
+  <rule weight="0.5"><match lemma="Pakistán"><select lemma="el Pakistan"/></match></rule>
   <rule weight="0.5"><match lemma="Perú"><select lemma="el Perú"/></match></rule>
   <rule weight="0.5"><match lemma="Senegal"><select lemma="el Senegal"/></match></rule>
   <rule weight="0.5"><match lemma="Uruguay"><select lemma="l'Uruguai"/></match></rule>
@@ -7978,6 +8001,7 @@
   <rule weight="0.5"><match lemma="Vall de Laguart"><select lemma="la Vall de Laguar"/></match></rule>
   <rule weight="0.5"><match lemma="Benitachell"><select lemma="el Poble Nou de Benitatxell"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Argentina"><select lemma="Argentina"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Arabia Saudí"><select lemma="Aràbia Saudita"/></match></rule>  
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Azerbaiyán"><select lemma="Azerbaidjan"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Brasil"><select lemma="Brasil"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Canadá"><select lemma="Canadà"/></match></rule>
@@ -7990,6 +8014,7 @@
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Iran"><select lemma="Iran"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Japón"><select lemma="Japó"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Marruecos"><select lemma="Marroc"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Pakistán"><select lemma="Pakistan"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Perú"><select lemma="Perú"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Senegal"><select lemma="Senegal"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Uruguay"><select lemma="Uruguai"/></match></rule>
