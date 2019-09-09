@@ -559,6 +559,15 @@
 <rules>
 
 <!-- **************** PR **************** -->
+
+<!-- a > que -->
+
+  <rule weight="2">
+    <match lemma="tenir"/>
+    <match lemma="a" tags="pr"><select lemma="que" tags="cnjsub"/></match>
+    <match lemma="veure"/>
+  </rule>
+
 <!-- a > a, en -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
