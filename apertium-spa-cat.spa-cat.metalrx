@@ -418,8 +418,58 @@
     <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
     <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
     <match lemma="ver" tags="vblex.inf"/>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
     <match lemma="con"/>
   </rule> 
+
+  <rule weight="5">
+    <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
+    <or>
+      <match lemma="algo"/>
+      <match lemma="mucho"/>
+      <match lemma="poco"/>
+      <match lemma="nada"/>
+    </or>
+    <match lemma="que" tags="cnjsub"/>
+    <match tags="vblex.inf"/>
+  </rule> 
+
+  <rule weight="5">
+    <or>
+      <match lemma="algo"/>
+      <match lemma="mucho"/>
+      <match lemma="poco"/>
+      <match lemma="nada"/>
+    </or>
+    <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
+    <match tags="vblex.inf"/>
+  </rule> 
+
+  <rule weight="5">
+    <or>
+      <match lemma="nada"/>
+      <match lemma="qué"/>
+    </or>
+    <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
+    <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
+    <match lemma="ver" tags="vblex.inf"/>
+  </rule>
+
+  <rule weight="6">
+    <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
+    <match lemma="más"/>
+    <match lemma="que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
 
 
   <!-- sortear > sortejar/evitar/superar -->
@@ -4734,9 +4784,11 @@
       <match lemma="achatado"/>
       <match lemma="aplanado"/>
       <match lemma="binómico"/>
+      <match lemma="cilíndrico"/>
       <match lemma="circular"/>
       <match lemma="cuadrado"/>
       <match lemma="cuadrangular"/>
+      <match lemma="cónico"/>
       <match lemma="decagonal"/>
       <match lemma="elíptico"/>
       <match lemma="esférico"/>
@@ -4751,6 +4803,7 @@
       <match lemma="octogonal"/>
       <match lemma="ovoidal"/>
       <match lemma="pentagonal"/>
+      <match lemma="piramidal"/>
       <match lemma="polar"/>
       <match lemma="poligonal"/>
       <match lemma="puntiagudo"/>
@@ -4758,6 +4811,7 @@
       <match lemma="redondo"/>
       <match lemma="triangular"/>
       <match lemma="trigonométrico"/>
+      <match lemma="troncocónico"/>
       <match lemma="vertical"/>
     </or>
   </rule>
@@ -7495,13 +7549,121 @@
     <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
   </rule>
 
-  <rule weight="5">
+  <rule weight="5">  <!-- algunes excepcions, també per varietat -->
     <match lemma="tipo" tags="n.*"><select lemma="tipus"/></match>
     <match lemma="de"/>
     <or>
+      <match lemma="abdominal"/>
+      <match lemma="arroz"/>
+      <match lemma="avispa"/>
+      <match lemma="bachillerato"/>
+      <match lemma="barba"/>
+      <match lemma="barco"/>
+      <match lemma="barómetro"/>
+      <match lemma="bañador"/>
+      <match lemma="beso"/>
+      <match lemma="bikini"/>
+      <match lemma="bisagra"/>
+      <match lemma="bombilla"/>
       <match lemma="cambio"/>
+      <match lemma="contrato"/>
+      <match lemma="danza"/>
+      <match lemma="despido"/>
+      <match lemma="dieta"/>
+      <match lemma="dinosaurio"/>
+      <match lemma="documento"/>
+      <match lemma="dolor"/>
+      <match lemma="droga"/>
+      <match lemma="embarcación"/>
+      <match lemma="empresa"/>
+      <match lemma="enchufe"/>
+      <match lemma="falta"/>
+      <match lemma="flor"/>
+      <match lemma="flujo"/>
+      <match lemma="frase"/>
+      <match lemma="fuente"/>
+      <match lemma="funcionario"/>
+      <match lemma="gafa"/>
+      <match lemma="glóbulo"/>
+      <match lemma="gobierno"/>
+      <match lemma="gravamen"/>
+      <match lemma="habilidad"/>
+      <match lemma="halcón"/>
+      <match lemma="hepatitis"/>
+      <match lemma="herida"/>
+      <match lemma="hernia"/>
+      <match lemma="hez"/>
+      <match lemma="hoja"/>
+      <match lemma="hongo"/>
+      <match lemma="hormiga"/>
+      <match lemma="identificación"/>
       <match lemma="interés"/>
+      <match lemma="IVA"/>
+      <match lemma="jabalí"/>
+      <match lemma="jamón"/>
+      <match lemma="jazz"/>
+      <match lemma="jefe"/>
+      <match lemma="jornada"/>
+      <match lemma="juego"/>
+      <match lemma="katana"/>
+      <match lemma="lechuga"/>
       <match lemma="letra"/>
+      <match lemma="licitación"/>
+      <match lemma="luz"/>
+      <match lemma="madera"/>
+      <match lemma="manzana"/>
+      <match lemma="medicamento"/>
+      <match lemma="medusa"/>
+      <match lemma="mermelada"/>
+      <match lemma="microorganismo"/>
+      <match lemma="moto"/>
+      <match lemma="movimiento"/>
+      <match lemma="música"/>
+      <match lemma="nariz"/>
+      <match lemma="negocio"/>
+      <match lemma="número"/>
+      <match lemma="obesidad"/>
+      <match lemma="oposición"/>
+      <match lemma="oración"/>
+      <match lemma="orquídea"/>
+      <match lemma="pantalón"/>
+      <match lemma="pasta"/>
+      <match lemma="perro"/>
+      <match lemma="picada"/>
+      <match lemma="picadura"/>
+      <match lemma="pie"/>
+      <match lemma="piel"/>
+      <match lemma="publicidad"/>
+      <match lemma="queratitis"/>
+      <match lemma="queso"/>
+      <match lemma="quiste"/>
+      <match lemma="reactor"/>
+      <match lemma="residencia"/>
+      <match lemma="residuo"/>
+      <match lemma="retención"/>
+      <match lemma="rizo"/>
+      <match lemma="rodillo"/>
+      <match lemma="rostro"/>
+      <match lemma="sangre"/>
+      <match lemma="sintagma"/>
+      <match lemma="subordinada"/>
+      <match lemma="sushi"/>
+      <match lemma="sustantivo"/>
+      <match lemma="texto"/>
+      <match lemma="transporte"/>
+      <match lemma="triángulo"/>
+      <match lemma="unidad"/>
+      <match lemma="USB"/>
+      <match lemma="usuario"/>
+      <match lemma="uva"/>
+      <match lemma="vestido"/>
+      <match lemma="vino"/>
+      <match lemma="visado"/>
+      <match lemma="volcán"/>
+      <match lemma="vía"/>
+      <match lemma="yate"/>
+      <match lemma="zapato"/>
+      <match lemma="árbol"/>
     </or>
   </rule>
 
@@ -8083,6 +8245,7 @@
 
   <!-- topònims amb article --> 
 
+<rule weight="0.5"><match lemma="Afganistán"><select lemma="l'Afganistan"/></match></rule>
   <rule weight="0.5"><match lemma="Argentina"><select lemma="l'Argentina"/></match></rule>
   <rule weight="0.5"><match lemma="Arabia Saudí"><select lemma="l'Aràbia Saudita"/></match></rule>
   <rule weight="0.5"><match lemma="Azerbaiyán"><select lemma="l'Azerbaidjan"/></match></rule>
@@ -8096,6 +8259,7 @@
   <rule weight="0.5"><match lemma="Iran"><select lemma="l'Iran"/></match></rule>
   <rule weight="0.5"><match lemma="India"><select lemma="l'Índia"/></match></rule>
   <rule weight="0.5"><match lemma="Japón"><select lemma="el Japó"/></match></rule>
+  <rule weight="0.5"><match lemma="Kazajistán"><select lemma="el Kazakhstan"/></match></rule>
   <rule weight="0.5"><match lemma="Marruecos"><select lemma="el Marroc"/></match></rule>
   <rule weight="0.5"><match lemma="Pakistán"><select lemma="el Pakistan"/></match></rule>
   <rule weight="0.5"><match lemma="Perú"><select lemma="el Perú"/></match></rule>
@@ -8126,6 +8290,7 @@
   <rule weight="0.5"><match lemma="Ráfol de Almunia"><select lemma="el Ràfol d'Almúnia"/></match></rule>
   <rule weight="0.5"><match lemma="Vall de Laguart"><select lemma="la Vall de Laguar"/></match></rule>
   <rule weight="0.5"><match lemma="Benitachell"><select lemma="el Poble Nou de Benitatxell"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Afganistán"><select lemma="Afganistan"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Argentina"><select lemma="Argentina"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Arabia Saudí"><select lemma="Aràbia Saudita"/></match></rule>  
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Azerbaiyán"><select lemma="Azerbaidjan"/></match></rule>
@@ -8139,6 +8304,7 @@
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Irak"><select lemma="Iraq"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Iran"><select lemma="Iran"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Japón"><select lemma="Japó"/></match></rule>
+  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Kazajistán"><select lemma="Kazakhstan"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Marruecos"><select lemma="Marroc"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Pakistán"><select lemma="Pakistan"/></match></rule>
   <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Perú"><select lemma="Perú"/></match></rule>
