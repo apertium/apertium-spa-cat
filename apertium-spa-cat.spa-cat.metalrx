@@ -7599,6 +7599,7 @@
       <match lemma="gafa"/>
       <match lemma="glóbulo"/>
       <match lemma="gobierno"/>
+      <match lemma="grasa"/>
       <match lemma="gravamen"/>
       <match lemma="habilidad"/>
       <match lemma="halcón"/>
@@ -7669,6 +7670,7 @@
       <match lemma="USB"/>
       <match lemma="usuario"/>
       <match lemma="uva"/>
+      <match lemma="vegetación"/>
       <match lemma="vestido"/>
       <match lemma="vino"/>
       <match lemma="visado"/>
@@ -7723,6 +7725,13 @@
   </rule>
 
   <rule weight="1">
+    <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
+  <rule weight="6">
+    <match lemma="sin"/>
     <match lemma="ninguno" tagger="det.ind.m.sg"/>
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
     <match lemma="de" tags="pr"/>
