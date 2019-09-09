@@ -391,11 +391,14 @@
 
   <rule weight="2">
     <match lemma="tener" tags="vblex.*"><select lemma="haver_de"/></match>
-    <repeat from="0" upto="4">
+    <repeat from="0" upto="6">
       <or>
-        <match tags="preadv"/>
+        <match tags="*.*"/>
         <match tags="adv"/>
+        <match tags="preadv"/>
         <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
       </or>
     </repeat>
     <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
@@ -404,11 +407,14 @@
   <rule weight="2">
     <match lemma="tener" tags="vblex.*"><select lemma="haver_de"/></match>
     <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
-    <repeat from="0" upto="4">
+    <repeat from="0" upto="6">
       <or>
-        <match tags="preadv"/>
+        <match tags="*.*"/>
         <match tags="adv"/>
+        <match tags="preadv"/>
         <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
       </or>
     </repeat>
     <match tags="*.inf"/>
@@ -418,15 +424,14 @@
     <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
     <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
     <match lemma="ver" tags="vblex.inf"/>
-    <repeat from="0" upto="6">
+    <repeat from="0" upto="14">
       <or>
-        <match tags="preadv"/>
+        <match tags="*.*"/>
         <match tags="adv"/>
+        <match tags="preadv"/>
         <match tags="cm"/>
         <match tags="pr"/>
-        <match tags="n.*"/>
-        <match tags="adj.*"/>
-        <match tags="det.*"/>
+        <match tags="cnjcoo"/>
       </or>
     </repeat>
     <match lemma="con"/>
@@ -451,6 +456,31 @@
       <match lemma="poco"/>
       <match lemma="nada"/>
     </or>
+    <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
+    <match tags="vblex.inf"/>
+  </rule> 
+
+  <rule weight="5">
+    <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
+    <or>
+      <match lemma="algo"/>
+      <match lemma="mucho"/>
+      <match lemma="poco"/>
+      <match lemma="nada"/>
+    </or>
+    <match lemma="más"/>
+    <match lemma="que" tags="cnjsub"/>
+    <match tags="vblex.inf"/>
+  </rule> 
+
+  <rule weight="5">
+    <or>
+      <match lemma="algo"/>
+      <match lemma="mucho"/>
+      <match lemma="poco"/>
+      <match lemma="nada"/>
+    </or>
+    <match lemma="más"/>
     <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
     <match tags="vblex.inf"/>
   </rule> 
@@ -482,6 +512,16 @@
     </or>
     <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
     <match tags="*.inf"/>
+  </rule>
+
+  <rule weight="6">
+    <or>
+      <match lemma="no"/>
+      <match lemma="sí"/>
+    </or>
+    <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
+    <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
+    <match lemma="ver" tags="*.inf"/>
   </rule>
 
 
@@ -4989,7 +5029,7 @@
       <match lemma="isla" tags="n.*"/>
       <match lemma="jardín" tags="n.*"/>
       <match lemma="mano" tags="n.*"/>
-      <match lemma="mar" tags="n.*"/>
+      <!--<match lemma="mar" tags="n.*"/>-->
       <match lemma="montaña" tags="n.*"/>
       <match lemma="parque" tags="n.*"/>
       <match lemma="patio" tags="n.*"/>
