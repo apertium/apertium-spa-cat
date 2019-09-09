@@ -466,9 +466,20 @@
   </rule>
 
   <rule weight="6">
+    <match lemma="no"/>
     <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
     <match lemma="más"/>
     <match lemma="que" tags="cnjsub"><select lemma="que"/></match>
+  </rule>
+
+  <rule weight="7">
+    <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
+    <or>
+      <match lemma="más"/>
+      <match lemma="menos"/>
+    </or>
+    <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
+    <match lemma="ver"/>
   </rule>
 
 
