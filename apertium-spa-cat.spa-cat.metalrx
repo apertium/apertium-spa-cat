@@ -465,21 +465,23 @@
     <match lemma="ver" tags="vblex.inf"/>
   </rule>
 
-  <rule weight="6">
+  <rule weight="7">
     <match lemma="no"/>
     <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
     <match lemma="más"/>
     <match lemma="que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
 
-  <rule weight="7">
+  <rule weight="6">
     <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
     <or>
       <match lemma="más"/>
+      <match lemma="mucho más"/>
       <match lemma="menos"/>
+      <match lemma="mucho menos"/>
     </or>
     <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
-    <match lemma="ver"/>
+    <match tags="*.inf"/>
   </rule>
 
 
