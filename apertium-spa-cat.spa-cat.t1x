@@ -63,8 +63,11 @@
     <def-cat n="prep">
       <cat-item tags="pr" />
     </def-cat>
-    <def-cat n="prep_conj">
-      <cat-item tags="pr" />
+    <def-cat n="prep_conj"> <!-- cuyo -->
+      <cat-item tags="pr" lemma="a" />
+      <cat-item tags="pr" lemma="en" />
+      <cat-item tags="pr" lemma="de" />
+      <cat-item tags="pr" lemma="con" />
       <cat-item tags="cnjcoo" />
     </def-cat>
     <def-cat n="prep_a_en_de_con">
