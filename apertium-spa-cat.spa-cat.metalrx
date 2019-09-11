@@ -127,6 +127,52 @@
 
 <!-- **************** N **************** -->
 
+<!-- trabajo > treball, feina/faena -->
+
+  <rule weight="0.5"> 
+    <match lemma="trabajo" tags="n.*"><select lemma="treball" /></match>
+  </rule>
+
+  <rule weight="2"> 
+    <or>
+      <match lemma="mucho"/>
+      <match lemma="buen"/>
+    </or>
+    <match lemma="trabajo" tags="n.m.sg"><select lemma="feina" /></match>
+  </rule>
+
+<!-- fallo > fallada, dispositiva, decisió -->
+
+  <rule weight="0.5"> 
+    <match lemma="fallo" tags="n.*"><select lemma="fallada" /></match>
+  </rule>
+
+  <rule weight="2"> 
+    <or>
+      <match lemma="encabezamiento"/>
+      <match lemma="sentencia"/>
+    </or>
+    <match lemma="y"/>
+    <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
+  </rule>
+
+  <rule weight="2"> 
+    <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
+    <repeat from="0" upto="3">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="sentencia"/>
+  </rule>
+
+  <rule weight="1"> 
+    <match lemma="fallo" tags="n.*"><select lemma="decisió" /></match>
+    <repeat from="0" upto="3">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="jurado"/>
+  </rule>
+
+
 <!-- corte > corte, tall -->
   <rule weight="0.1"> 
     <match lemma="corte" tags="n.*">
@@ -1870,29 +1916,30 @@
       <match tags="np.top"/>
       <match tags="np.loc.*"/>
       <match tags="np.top.*"/>
-      <match lemma="sudeste" tags="n.*"/>
-      <match lemma="valor" tags="n.*"/>
-      <match lemma="mundo" tags="n.*"/>
-      <match lemma="mudial" tags="adj.*"/>
-      <match lemma="internacional" tags="adj.*"/>
-      <match lemma="sureste" tags="n.*"/>
-      <match lemma="unión" tags="n.*"/>
-      <match lemma="trabajo" tags="n.*"/>
-      <match lemma="interino" tags="n.*"/>
-      <match lemma="suplente"/>
-      <match lemma="médico" tags="n.*"/>
-      <match lemma="enfermero" tags="n.*"/>
-      <match lemma="profesor" tags="n.*"/>
-      <match lemma="maestro" tags="n.*"/>
-      <match lemma="asiático" tags="adj.*"/>
-      <match lemma="europeo" tags="adj.*"/>
-      <match lemma="americano" tags="adj.*"/>
-      <match lemma="estadounidense" tags="adj.*"/>
-      <match lemma="norteamericano" tags="adj.*"/>
-      <match lemma="suramericano" tags="adj.*"/>
-      <match lemma="asiático" tags="adj.*"/>
-      <match lemma="latinoamericano" tags="adj.*"/>
       <match lemma="africano" tags="adj.*"/>
+      <match lemma="americano" tags="adj.*"/>
+      <match lemma="asiático" tags="adj.*"/>
+      <match lemma="asiático" tags="adj.*"/>
+      <match lemma="empleo" tags="n.*"/>
+      <match lemma="enfermero" tags="n.*"/>
+      <match lemma="estadounidense" tags="adj.*"/>
+      <match lemma="europeo" tags="adj.*"/>
+      <match lemma="interino" tags="n.*"/>
+      <match lemma="internacional" tags="adj.*"/>
+      <match lemma="latinoamericano" tags="adj.*"/>
+      <match lemma="maestro" tags="n.*"/>
+      <match lemma="mudial" tags="adj.*"/>
+      <match lemma="mundo" tags="n.*"/>
+      <match lemma="médico" tags="n.*"/>
+      <match lemma="norteamericano" tags="adj.*"/>
+      <match lemma="profesor" tags="n.*"/>
+      <match lemma="sudeste" tags="n.*"/>
+      <match lemma="suplente"/>
+      <match lemma="suramericano" tags="adj.*"/>
+      <match lemma="sureste" tags="n.*"/>
+      <match lemma="trabajo" tags="n.*"/>
+      <match lemma="unión" tags="n.*"/>
+      <match lemma="valor" tags="n.*"/>
     </or>
   </rule>
 
