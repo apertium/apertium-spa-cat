@@ -137,6 +137,7 @@
     <or>
       <match lemma="mucho"/>
       <match lemma="buen"/>
+      <match lemma="gran"/>
     </or>
     <match lemma="trabajo" tags="n.m.sg"><select lemma="feina" /></match>
   </rule>
@@ -490,6 +491,7 @@
       <match lemma="mucho"/>
       <match lemma="poco"/>
       <match lemma="nada"/>
+      <match lemma="trabajo"/>
     </or>
     <match lemma="que" tags="cnjsub"/>
     <match tags="vblex.inf"/>
@@ -501,6 +503,7 @@
       <match lemma="mucho"/>
       <match lemma="poco"/>
       <match lemma="nada"/>
+      <match lemma="trabajo"/>
     </or>
     <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
     <match tags="vblex.inf"/>
@@ -1920,7 +1923,8 @@
       <match lemma="americano" tags="adj.*"/>
       <match lemma="asiático" tags="adj.*"/>
       <match lemma="asiático" tags="adj.*"/>
-      <match lemma="empleo" tags="n.*"/>
+      <match lemma="empleo"/>
+      <match lemma="desempleo"/>
       <match lemma="enfermero" tags="n.*"/>
       <match lemma="estadounidense" tags="adj.*"/>
       <match lemma="europeo" tags="adj.*"/>
