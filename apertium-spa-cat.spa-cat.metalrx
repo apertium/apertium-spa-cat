@@ -162,7 +162,23 @@
     <repeat from="0" upto="3">
       <match tags="*"/>
     </repeat>
-    <match lemma="sentencia"/>
+    <or>
+      <match lemma="sentencia"/>
+      <match lemma="parte dispositiva"/>
+      <match lemma="dispositiva"/>
+    </or>
+  </rule>
+
+  <rule weight="2"> 
+    <or>
+      <match lemma="sentencia"/>
+      <match lemma="parte dispositiva"/>
+      <match lemma="dispositiva"/>
+    </or>
+    <repeat from="0" upto="3">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
   </rule>
 
   <rule weight="1"> 
