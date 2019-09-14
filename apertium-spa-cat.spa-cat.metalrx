@@ -3,6 +3,22 @@
 <metalrx>
 
   <def-macros>
+    
+  <def-macro name="toponims_article">
+    <rule weight="0.5">
+      <match lemma="{{p1}}"><select lemma="{{p3}}"/></match>
+    </rule>
+    <rule weight="1">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="vblex.pp.*"/>
+        <match tags="n.*"/>
+      </or>
+      <match lemma="{{p1}}"><select lemma="{{p2}}"/></match>
+    </rule>
+  </def-macro>
+
 	<def-macro name="noms_propis">
 	  <rule weight="0.6">
 		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p1}}"/></match>
@@ -8374,96 +8390,53 @@
 
   <!-- topònims amb article --> 
 
-  <rule weight="0.5"><match lemma="Afganistán"><select lemma="l'Afganistan"/></match></rule>
-  <rule weight="0.5"><match lemma="Argentina"><select lemma="l'Argentina"/></match></rule>
-  <rule weight="0.5"><match lemma="Arabia Saudí"><select lemma="l'Aràbia Saudita"/></match></rule>
-  <rule weight="0.5"><match lemma="Azerbaiyán"><select lemma="l'Azerbaidjan"/></match></rule>
-  <rule weight="0.5"><match lemma="Brasil"><select lemma="el Brasil"/></match></rule>
-  <rule weight="0.5"><match lemma="Canadá"><select lemma="el Canadà"/></match></rule>
-  <rule weight="0.5"><match lemma="China"><select lemma="la Xina"/></match></rule>
-  <rule weight="0.5"><match lemma="Ecuador"><select lemma="l'Equador"/></match></rule>
-  <rule weight="0.5"><match lemma="EE. UU."><select lemma="els EUA"/></match></rule>
-  <rule weight="0.5"><match lemma="Estados Unidos"><select lemma="els Estats Units"/></match></rule>
-  <rule weight="0.5"><match lemma="Irak"><select lemma="l'Iraq"/></match></rule>
-  <rule weight="0.5"><match lemma="Iran"><select lemma="l'Iran"/></match></rule>
-  <rule weight="0.5"><match lemma="India"><select lemma="l'Índia"/></match></rule>
-  <rule weight="0.5"><match lemma="Japón"><select lemma="el Japó"/></match></rule>
-  <rule weight="0.5"><match lemma="Kazajistán"><select lemma="el Kazakhstan"/></match></rule>
-  <rule weight="0.5"><match lemma="Marruecos"><select lemma="el Marroc"/></match></rule>
-  <rule weight="0.5"><match lemma="Pakistán"><select lemma="el Pakistan"/></match></rule>
-  <rule weight="0.5"><match lemma="Perú"><select lemma="el Perú"/></match></rule>
-  <rule weight="0.5"><match lemma="Senegal"><select lemma="el Senegal"/></match></rule>
-  <rule weight="0.5"><match lemma="Uruguay"><select lemma="l'Uruguai"/></match></rule>
-  <rule weight="0.5"><match lemma="Vendrell"><select lemma="el Vendrell"/></match></rule>
-  <rule weight="0.5"><match lemma="Alcudia de Veo"><select lemma="l'Alcúdia de Veo"/></match></rule>
-  <rule weight="0.5"><match lemma="Algueña"><select lemma="l'Alguenya"/></match></rule>
-  <rule weight="0.5"><match lemma="Cañada"><select lemma="la Canyada"/></match></rule>
-  <rule weight="0.5"><match lemma="Castillo de Villamalefa"><select lemma="el Castell de Vilamalefa"/></match></rule>
-  <rule weight="0.5"><match lemma="Fuente la Reina"><select lemma="la Font de la Reina"/></match></rule>
-  <rule weight="0.5"><match lemma="Granja de Rocamora"><select lemma="la Granja de Rocamora"/></match></rule>
-  <rule weight="0.5"><match lemma="Losa del Obispo"><select lemma="la Llosa del Bisbe"/></match></rule>
-  <rule weight="0.5"><match lemma="Puebla de Arenoso"><select lemma="la Pobla d'Arenós"/></match></rule>
-  <rule weight="0.5"><match lemma="Puebla de San Miguel"><select lemma="la Pobla de Sant Miquel"/></match></rule>
-  <rule weight="0.5"><match lemma="Sierra Engarcerán"><select lemma="la Serra d'en Galceran"/></match></rule>
-  <rule weight="0.5"><match lemma="Todolella"><select lemma="la Todolella"/></match></rule>
-  <rule weight="0.5"><match lemma="Vall d'Alba"><select lemma="la Vall d'Alba"/></match></rule>
-  <rule weight="0.5"><match lemma="Vall de Almonacid"><select lemma="la Vall d'Almonesir"/></match></rule>
-  <rule weight="0.5"><match lemma="Vall de Gallinera"><select lemma="la Vall de Gallinera"/></match></rule>
-  <rule weight="0.5"><match lemma="Fuentes de Ayódar"><select lemma="les Fonts d'Aiòder"/></match></rule>
-  <rule weight="0.5"><match lemma="Hondón de los Frailes"><select lemma="el Fondó dels Frares"/></match></rule>
-  <rule weight="0.5"><match lemma="Hondón de las Nieves"><select lemma="el Fondó de les Neus"/></match></rule>
-  <rule weight="0.5"><match lemma="Forcall"><select lemma="el Forcall"/></match></rule>
-  <rule weight="0.5"><match lemma="Pilar de la Horadada"><select lemma="el Pilar de la Foradada"/></match></rule>
-  <rule weight="0.5"><match lemma="Ráfol de Salem"><select lemma="el Ràfol de Salem"/></match></rule>
-  <rule weight="0.5"><match lemma="Campo de Mirra"><select lemma="el Camp de Mirra"/></match></rule>
-  <rule weight="0.5"><match lemma="Ráfol de Almunia"><select lemma="el Ràfol d'Almúnia"/></match></rule>
-  <rule weight="0.5"><match lemma="Vall de Laguart"><select lemma="la Vall de Laguar"/></match></rule>
-  <rule weight="0.5"><match lemma="Benitachell"><select lemma="el Poble Nou de Benitatxell"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Afganistán"><select lemma="Afganistan"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Argentina"><select lemma="Argentina"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Arabia Saudí"><select lemma="Aràbia Saudita"/></match></rule>  
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Azerbaiyán"><select lemma="Azerbaidjan"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Brasil"><select lemma="Brasil"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Canadá"><select lemma="Canadà"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="China"><select lemma="Xina"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ecuador"><select lemma="Equador"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="EE. UU."><select lemma="EUA"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Estados Unidos"><select lemma="Estats Units"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="India"><select lemma="Índia"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Irak"><select lemma="Iraq"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Iran"><select lemma="Iran"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Japón"><select lemma="Japó"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Kazajistán"><select lemma="Kazakhstan"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Marruecos"><select lemma="Marroc"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Pakistán"><select lemma="Pakistan"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Perú"><select lemma="Perú"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Senegal"><select lemma="Senegal"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Uruguay"><select lemma="Uruguai"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vendrell"><select lemma="Vendrell"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Alcudia de Veo"><select lemma="Alcúdia de Veo"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Algueña"><select lemma="Alguenya"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Cañada"><select lemma="Canyada"/></match></rule>
-    <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Castillo de Villamalefa"><select lemma="Castell de Vilamalefa"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Fuente la Reina"><select lemma="Font de la Reina"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Granja de Rocamora"><select lemma="Granja de Rocamora"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Losa del Obispo"><select lemma="Llosa del Bisbe"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Puebla de Arenoso"><select lemma="Pobla d'Arenós"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Puebla de San Miguel"><select lemma="Pobla de Sant Miquel"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Sierra Engarcerán"><select lemma="Serra d'en Galceran"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Todolella"><select lemma="Todolella"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vall d'Alba"><select lemma="Vall d'Alba"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vall de Almonacid"><select lemma="Vall d'Almonesir"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vall de Gallinera"><select lemma="Vall de Gallinera"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Fuentes de Ayódar"><select lemma="Fonts d'Aiòder"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Hondón de los Frailes"><select lemma="Fondó dels Frares"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Hondón de las Nieves"><select lemma="Fondó de les Neus"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Forcall"><select lemma="Forcall"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Pilar de la Horadada"><select lemma="Pilar de la Foradada"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ráfol de Salem"><select lemma="Ràfol de Salem"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Campo de Mirra"><select lemma="Camp de Mirra"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Ráfol de Almunia"><select lemma="Ràfol d'Almúnia"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Vall de Laguart"><select lemma="Vall de Laguar"/></match></rule>
-  <rule weight="1"><or><match tags="det.*"/><match tags="adj.*"/><match tags="vblex.pp.*"/><match tags="n.*"/></or><match lemma="Benitachell"><select lemma="Poble Nou de Benitatxell"/></match></rule>
+  <macro name="toponims_article" p1="Afganistán" p2="Afganistan" p3="l'Afganistan" />
+  <macro name="toponims_article" p1="Argentina" p2="Argentina" p3="l'Argentina" />
+  <macro name="toponims_article" p1="Arabia Saudí" p2="Aràbia Saudita" p3="l'Aràbia Saudita" />
+  <macro name="toponims_article" p1="Azerbaiyán" p2="Azerbaidjan" p3="l'Azerbaidjan" />
+  <macro name="toponims_article" p1="Brasil" p2="Brasil" p3="el Brasil" />
+  <macro name="toponims_article" p1="Canadá" p2="Canadà" p3="el Canadà" />
+  <macro name="toponims_article" p1="China" p2="Xina" p3="la Xina" />
+  <macro name="toponims_article" p1="Ecuador" p2="Equador" p3="l'Equador" />
+  <macro name="toponims_article" p1="EE. UU." p2="EUA" p3="els EUA" />
+  <macro name="toponims_article" p1="Estados Unidos" p2="Estats Units" p3="els Estats Units" />
+  <macro name="toponims_article" p1="Irak" p2="Iraq" p3="l'Iraq" />
+  <macro name="toponims_article" p1="Iran" p2="Iran" p3="l'Iran" />
+  <macro name="toponims_article" p1="India" p2="Índia" p3="l'Índia" />
+  <macro name="toponims_article" p1="Japón" p2="Japó" p3="el Japó" />
+  <macro name="toponims_article" p1="Kazajistán" p2="Kazakhstan" p3="el Kazakhstan" />
+  <macro name="toponims_article" p1="Marruecos" p2="Marroc" p3="el Marroc" />
+  <macro name="toponims_article" p1="Pakistán" p2="Pakistan" p3="el Pakistan" />
+  <macro name="toponims_article" p1="Perú" p2="Perú" p3="el Perú" />
+  <macro name="toponims_article" p1="Senegal" p2="Senegal" p3="el Senegal" />
+  <macro name="toponims_article" p1="Uruguay" p2="Uruguai" p3="l'Uruguai" />
+  <macro name="toponims_article" p1="Vendrell" p2="Vendrell" p3="el Vendrell" />
+  <macro name="toponims_article" p1="Alcudia de Veo" p2="Alcúdia de Veo" p3="l'Alcúdia de Veo" />
+  <macro name="toponims_article" p1="Algueña" p2="Alguenya" p3="l'Alguenya" />
+  <macro name="toponims_article" p1="Cañada" p2="Canyada" p3="la Canyada" />
+  <macro name="toponims_article" p1="Castillo de Villamalefa" p2="Castell de Vilamalefa" p3="el Castell de Vilamalefa" />
+  <macro name="toponims_article" p1="Fuente la Reina" p2="Font de la Reina" p3="la Font de la Reina" />
+  <macro name="toponims_article" p1="Granja de Rocamora" p2="Granja de Rocamora" p3="la Granja de Rocamora" />
+  <macro name="toponims_article" p1="Losa del Obispo" p2="Llosa del Bisbe" p3="la Llosa del Bisbe" />
+  <macro name="toponims_article" p1="Puebla de Arenoso" p2="Pobla d'Arenós" p3="la Pobla d'Arenós" />
+  <macro name="toponims_article" p1="Puebla de San Miguel" p2="Pobla de Sant Miquel" p3="la Pobla de Sant Miquel" />
+  <macro name="toponims_article" p1="Sierra Engarcerán" p2="Serra d'en Galceran" p3="la Serra d'en Galceran" />
+  <macro name="toponims_article" p1="Todolella" p2="Todolella" p3="la Todolella" />
+  <macro name="toponims_article" p1="Vall d'Alba" p2="Vall d'Alba" p3="la Vall d'Alba" />
+  <macro name="toponims_article" p1="Vall de Almonacid" p2="Vall d'Almonesir" p3="la Vall d'Almonesir" />
+  <macro name="toponims_article" p1="Vall de Gallinera" p2="Vall de Gallinera" p3="la Vall de Gallinera" />
+  <macro name="toponims_article" p1="Fuentes de Ayódar" p2="Fonts d'Aiòder" p3="les Fonts d'Aiòder" />
+  <macro name="toponims_article" p1="Hondón de los Frailes" p2="Fondó dels Frares" p3="el Fondó dels Frares" />
+  <macro name="toponims_article" p1="Hondón de las Nieves" p2="Fondó de les Neus" p3="el Fondó de les Neus" />
+  <macro name="toponims_article" p1="Forcall" p2="Forcall" p3="el Forcall" />
+  <macro name="toponims_article" p1="Pilar de la Horadada" p2="Pilar de la Foradada" p3="el Pilar de la Foradada" />
+  <macro name="toponims_article" p1="Ráfol de Salem" p2="Ràfol de Salem" p3="el Ràfol de Salem" />
+  <macro name="toponims_article" p1="Campo de Mirra" p2="Camp de Mirra" p3="el Camp de Mirra" />
+  <macro name="toponims_article" p1="Ráfol de Almunia" p2="Ràfol d'Almúnia" p3="el Ràfol d'Almúnia" />
+  <macro name="toponims_article" p1="Vall de Laguart" p2="Vall de Laguar" p3="la Vall de Laguar" />
+  <macro name="toponims_article" p1="Benitachell" p2="Poble Nou de Benitatxell" p3="el Poble Nou de Benitatxell" />
+
+  <!-- noms propis -->
 
   <macro name="noms_propis" p1="Fausto" p2="Faust" />
   <macro name="noms_propis" p1="Tomás" p2="Tomàs" />
