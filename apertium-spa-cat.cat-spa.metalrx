@@ -1578,6 +1578,17 @@
 
 <!-- **************** N **************** -->
 
+<!-- ocupació > ocupación, empleo -->
+
+  <rule weight="0.6">
+     <match lemma="ocupació" tags="n.*"><select lemma="ocupación"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="borsa"/>
+    <match lemma="de"/>
+    <match lemma="ocupació" tags="n.*"><select lemma="empleo"/></match> 
+  </rule>
+
 <!-- sant > santo, san -->
 
   <rule weight="0.6">
@@ -1984,6 +1995,7 @@
      <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
   </rule>
 
+  <macro name="noms_propis" p1="Tomàs" p2="Tomás" />  
   <macro name="noms_propis" p1="Josep" p2="José" />  
   <macro name="noms_propis" p1="Agustí" p2="Agustín" />  
   <macro name="noms_propis" p1="Lucrècia" p2="Lucrecia" />
