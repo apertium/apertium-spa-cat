@@ -8415,7 +8415,7 @@
       <match lemma="Dr."/>
       <match lemma="nuevo"/>
     </or>
-    <match lemma="Fausto" tags="n.*"><select lemma="Faust"/></match>
+    <match lemma="Fausto" tags="np.*"><select lemma="Faust"/></match>
   </rule>
 
   <rule weight="5">
@@ -8430,7 +8430,7 @@
     <repeat form="0" upto="8">
       <match tags="*"/>
     </repeat>
-    <match lemma="Fausto" tags="n.*"><select lemma="Faust"/></match>
+    <match lemma="Fausto" tags="np.*"><select lemma="Faust"/></match>
   </rule>
 
   <rule weight="5">
@@ -8445,7 +8445,7 @@
       <match lemma="pacto"/>
       <match lemma="diablo"/>
     </or>
-    <match lemma="Fausto" tags="n.*"><select lemma="Faust"/></match>
+    <match lemma="Fausto" tags="np.*"><select lemma="Faust"/></match>
   </rule>
   
 
