@@ -3252,6 +3252,7 @@
 
   <rule weight="5.0">
     <or>
+      <match lemma="tal como"/>
       <match lemma="como"/>
       <match lemma="cómo"/>
     </or>
@@ -3263,6 +3264,17 @@
     </repeat>
     <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match>
   </rule>
+
+  <rule weight="5.0">
+    <or>
+      <match lemma="tal como"/>
+      <match lemma="como"/>
+      <match lemma="cómo"/>
+    </or>
+    <match lemma="le" tags="prn.pro.*"><select lemma="el"/></match>
+    <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match>
+  </rule>
+
 
   <rule weight="2.0">
     <match tags="rel.*"/>
