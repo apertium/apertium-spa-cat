@@ -1755,10 +1755,22 @@
   </rule>
 
 
-    <!-- cruzar > creuar / travessar/ encreuar  -->
+    <!-- cruzar > creuar / travessar/ encreuar /fer -->
 
   <rule weight="0.5">
     <match lemma="cruzar" tags="vblex.*"><select lemma="creuar"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="apuesta" tags="n.*"><select lemma="aposta"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="cruzar" tags="vblex.*"><select lemma="fer"/></match>
+    <repeat from="0" upto="2">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="apuesta" tags="n.*"><select lemma="travessa"/></match>
   </rule>
 
   <rule weight="1.0">
