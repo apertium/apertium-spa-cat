@@ -164,11 +164,24 @@
     <match lemma="mesa" tags="n.*"><select lemma="taula" /></match>
   </rule>
 
-  <rule weight="1"> 
-    <match lemma="Mesa" tags="n.*"><select lemma="mesa" /></match>
+  <rule weight="1"> <!-- en majúscula i sense context: "la Mesa (del Parlamento)"-->
+    <match lemma="Mesa" tags="n.f.sg"><select lemma="mesa" /></match>
   </rule>
 
-  <rule weight="2"> 
+
+  <rule weight="1.5"> 
+    <match lemma="Mesa" tags="n.f.sg"><select lemma="taula" /></match>
+    <or>
+      <match lemma="de"/>
+      <match tags="adj.f.sg"/>
+      <match tags="adj.mf.sg"/>
+      <match tags="adj.f.sp"/>
+      <match tags="adj.mf.sp"/>
+    </or>
+  </rule>
+
+
+  <rule weight="3"> 
     <match lemma="mesa" tags="n.*"><select lemma="taula" /></match>
     <or>
       <match lemma="general"/>
@@ -190,6 +203,7 @@
     <or>
       <match lemma="autónomo"/>
       <match lemma="cambio"/>
+      <match lemma="corte"/>
       <match lemma="control"/>
       <match lemma="cultivo"/>
       <match lemma="debate"/>
@@ -222,7 +236,7 @@
     <match lemma="de"/>
     <match tags="det.def.*"/>
     <or>
-      <match lemma="corte"/>
+      <match lemma="corte" tags="n.f.pl"/>
       <match lemma="parlamento"/>
       <match lemma="congreso"/>
       <match lemma="senado"/>
@@ -234,7 +248,10 @@
       <match lemma="presidente"/>
       <match lemma="vicepresidente"/>
       <match lemma="secretario"/>
+      <match lemma="vicesecretario"/>
+      <match lemma="subsecretario"/>
       <match lemma="vocal"/>
+      <match lemma="letrado"/>
     </or>
     <match lemma="de"/>
     <match tags="det.def.*"/>
@@ -330,6 +347,12 @@
   <rule weight="1.0">
     <match lemma="*" tags="det.*.m.*"/>
     <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+  </rule>
+  <rule weight="0.5"> <!--de corte -->
+    <match tags="pr"/>
+    <match lemma="corte" tags="n.mf.sg">
         <select lemma="tall" />
     </match>
   </rule>
