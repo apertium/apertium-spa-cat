@@ -170,26 +170,41 @@
 
   <rule weight="2"> 
     <match lemma="mesa" tags="n.*"><select lemma="taula" /></match>
-    <match lemma="redondo"/>
+    <or>
+      <match lemma="general"/>
+      <match lemma="negociador"/>
+      <match lemma="quirúrgico"/>
+      <match lemma="redondo"/>
+      <match lemma="sectorial"/>
+      <match lemma="territorial"/>
+      <match lemma="técnico"/>
+    </or>
   </rule>
 
   <rule weight="3"> 
     <match lemma="mesa" tags="n.*"><select lemma="taula" /></match>
-    <match lemma="de"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match tags="pr"/>
     <or>
+      <match lemma="autónomo"/>
+      <match lemma="cambio"/>
+      <match lemma="control"/>
+      <match lemma="cultivo"/>
       <match lemma="debate"/>
       <match lemma="discusión"/>
       <match lemma="estudio"/>
+      <match lemma="negociación"/>
+      <match lemma="operación"/>
+      <match lemma="trabajo"/>
+      <match lemma="quirófano"/>
     </or>
   </rule>
 
   <rule weight="2"> 
     <match lemma="mesa" tags="n.*"><select lemma="mesa" /></match>
-    <or>
-      <match lemma="electoral"/>
-      <match lemma="técnico"/>
-      <match lemma="sectorial"/>
-    </or>
+    <match lemma="electoral"/>
   </rule>
 
   <rule weight="2"> 
