@@ -169,7 +169,7 @@
   </rule>
 
 
-  <rule weight="1.5"> 
+  <!--<rule weight="1.5">  serviria si es pogués marcar que és principi de frase
     <match lemma="Mesa" tags="n.f.sg"><select lemma="taula" /></match>
     <or>
       <match lemma="de"/>
@@ -178,8 +178,14 @@
       <match tags="adj.f.sp"/>
       <match tags="adj.mf.sp"/>
     </or>
-  </rule>
+  </rule>-->
 
+
+  <rule weight="3">
+    <match lemma="uva"/>
+    <match lemma="de"/>
+    <match lemma="mesa" tags="n.*"><select lemma="taula" /></match>
+  </rule>
 
   <rule weight="3"> 
     <match lemma="mesa" tags="n.*"><select lemma="taula" /></match>
@@ -234,12 +240,20 @@
   <rule weight="2"> 
     <match lemma="mesa" tags="n.*"><select lemma="mesa" /></match>
     <match lemma="de"/>
-    <match tags="det.def.*"/>
+    <match tags="det.*"/>
     <or>
       <match lemma="corte" tags="n.f.pl"/>
       <match lemma="parlamento"/>
       <match lemma="congreso"/>
+      <match lemma="asamblea"/>
+      <match lemma="cámara"/>
+      <match lemma="presidencia"/>
+      <match lemma="convención"/>
+      <match lemma="consejo"/>
+      <match lemma="presidente"/>
       <match lemma="senado"/>
+      <match lemma="Cortes Valencianas"/>
+      <match lemma="Corts Valencianes"/>
     </or>
   </rule>
 
@@ -351,11 +365,29 @@
     </match>
   </rule>
   <rule weight="0.5"> <!--de corte -->
-    <match tags="pr"/>
+    <match lemma="de"/>
     <match lemma="corte" tags="n.mf.sg">
         <select lemma="tall" />
     </match>
   </rule>
+
+  <rule weight="2"> <!--de corte -->
+    <or>
+      <match lemma="pintor"/>
+      <match lemma="pintura"/>
+      <match lemma="ropa"/>
+      <match lemma="vestido"/>
+    </or>
+    <match lemma="de"/>
+    <match lemma="corte" tags="n.mf.sg"><select lemma="cort" /></match>
+  </rule>
+
+  <rule weight="2"> <!--de corte -->
+    <match lemma="corte" tags="n.mf.sg"><select lemma="cort" /></match>
+    <match lemma="y"/>
+    <match lemma="confección"/>
+  </rule>
+
   <rule weight="1.0">  <!-- los continuos cortes -->
     <match lemma="*" tags="adj.m.*"/>
     <match lemma="corte" tags="n.*">
@@ -410,6 +442,23 @@
       <match lemma="transversal"/>
       <match lemma="total"/>
     </or>
+  </rule>
+
+  <!-- embolsar > embutxacar / embossar -->
+
+  <rule weight="0.8">
+    <match lemma="embolsar" tags="vblex.*"><select lemma="embutxacar"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="uva"/>
+      <match lemma="uva# de mesa"/>
+    </or>
+    <repeat from="0" upto="2">
+      <match ltags="*"/>
+    </repeat>
+    <match lemma="embolsar" tags="vblex.*"><select lemma="embossar"/></match>
   </rule>
 
   <!-- apretar > estrényer -->
@@ -8635,6 +8684,7 @@
 
   <!-- noms propis -->
 
+  <macro name="noms_propis" p1="Salomón" p2="Salomó" />
   <macro name="noms_propis" p1="Fausto" p2="Faust" />
   <macro name="noms_propis" p1="Tomás" p2="Tomàs" />
   <macro name="noms_propis" p1="José" p2="Josep" />
