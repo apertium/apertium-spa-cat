@@ -187,6 +187,23 @@
     <match lemma="mesa" tags="n.*"><select lemma="taula" /></match>
   </rule>
 
+  <rule weight="5">
+    <or>
+      <match lemma="continuar"/>
+      <match lemma="estar"/>
+      <match lemma="permanecer"/>
+      <match lemma="poner"/>
+      <match lemma="proseguir"/>
+      <match lemma="seguir"/>
+    </or>
+    <or>
+      <match lemma="sobre"/>
+      <match lemma="encima de"/>
+    </or>
+    <match tags="det.*"/>
+    <match lemma="mesa" tags="n.*"><select lemma="taula" /></match>
+  </rule>
+
   <rule weight="3"> 
     <match lemma="mesa" tags="n.*"><select lemma="taula" /></match>
     <or>
@@ -248,9 +265,9 @@
       <match lemma="asamblea"/>
       <match lemma="cámara"/>
       <match lemma="presidencia"/>
-      <match lemma="convención"/>
-      <match lemma="consejo"/>
-      <match lemma="presidente"/>
+      <!--<match lemma="convención"/>-->
+      <!--<match lemma="consejo"/>-->
+      <!--<match lemma="presidente"/>-->
       <match lemma="senado"/>
       <match lemma="Cortes Valencianas"/>
       <match lemma="Corts Valencianes"/>
@@ -7721,6 +7738,7 @@
       <match lemma="escultor" tags="n.*"/>
       <match lemma="presidente" tags="n.*"/>
       <match lemma="ministro" tags="n.*"/>
+      <match lemma="mesa" tags="n.*"/>
       <match lemma="exministro" tags="n.*"/>
       <match lemma="expresidente" tags="n.*"/>
       <match tags="np.*"/>
