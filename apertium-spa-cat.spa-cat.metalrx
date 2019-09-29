@@ -5707,6 +5707,17 @@
       <match lemma="parte" tags="n.*"/>
   </rule>
 
+  <!-- todo lo cual -->
+
+  <rule weight="0.5">
+    <match lemma="todo lo cual" tags="prn.*"><select lemma="tot això"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match tags="cm"/>
+    <match lemma="todo lo cual" tags="prn.*"><select lemma="i tot això"/></match>
+  </rule>
+
    <!-- el que > el que / el qual -->
 
   <rule weight="0.5">
