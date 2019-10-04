@@ -1,7 +1,7 @@
 dist: bionic
 before_install:
     - wget http://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
-    - sudo apt-get install apertium lttoolbox apertium-dev lttoolbox-dev cg3 apertium-lex-tools
+    - sudo apt-get install apertium lttoolbox apertium-dev lttoolbox-dev cg3 cg3-dev apertium-lex-tools
     - wget https://github.com/apertium/apertium-spa/archive/master.zip
     - unzip master.zip
     - mv apertium-spa-master apertium-spa
