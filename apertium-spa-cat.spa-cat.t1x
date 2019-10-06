@@ -5051,6 +5051,55 @@
         </out>
       </action>
     </rule>
+        <rule>
+      <!-- REGLA: DET ADJECTIU ADJECTIU NOM -->
+      <pattern>
+        <pattern-item n="det" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="adjec0" />
+        <pattern-item n="nom" />
+      </pattern>
+      <action>
+        <call-macro n="f_concord4">
+          <with-param pos="4" />
+          <with-param pos="2" />
+          <with-param pos="3" />
+          <with-param pos="1" />
+        </call-macro>
+        <call-macro n="f_lexicDet">
+          <with-param pos="1" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole" />
+          </lu>
+          <b pos="1" />
+          <lu>
+            <clip pos="2" side="tl" part="lemh" />
+            <clip pos="2" side="tl" part="a_adjec" />
+            <clip pos="2" side="tl" part="gen" />
+            <clip pos="2" side="tl" part="nbr" />
+            <clip pos="2" side="tl" part="lemq" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="lemh" />
+            <clip pos="3" side="tl" part="a_adjec" />
+            <clip pos="3" side="tl" part="gen" />
+            <clip pos="3" side="tl" part="nbr" />
+            <clip pos="3" side="tl" part="lemq" />
+          </lu>
+          <b pos="3" />
+          <lu>
+            <clip pos="4" side="tl" part="lemh" />
+            <clip pos="4" side="tl" part="a_nom" />
+            <clip pos="4" side="tl" part="gen" />
+            <clip pos="4" side="tl" part="nbr" />
+            <clip pos="4" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
     <rule>
       <!-- REGLA: NOM ADJECTIU ADJECTIU-->
       <pattern>
