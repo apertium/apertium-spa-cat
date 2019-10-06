@@ -6429,6 +6429,52 @@
     </or>
   </rule>
 
+  <!-- malo > dolent / mal ... -->
+
+  <rule weight="0.5">
+    <match lemma="malo" tags="adj.*"><select lemma="dolent"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="malo" tags="adj.m.sg"><select lemma="mal"/></match>
+    <or>
+      <match tags="n.m.sg"/>
+      <match tags="n.mf.sg"/>
+      <match tags="n.m.sp"/>
+      <match tags="n.mf.sp"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="malo" tags="adj.f.sg"><select lemma="mal"/></match>
+    <or>
+      <match tags="n.f.sg"/>
+      <match tags="n.mf.sg"/>
+      <match tags="n.f.sp"/>
+      <match tags="n.mf.sp"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="malo" tags="adj.m.pl"><select lemma="mal"/></match>
+    <or>
+      <match tags="n.m.pl"/>
+      <match tags="n.mf.pl"/>
+      <match tags="n.m.sp"/>
+      <match tags="n.mf.sp"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="malo" tags="adj.f.pl"><select lemma="mal"/></match>
+    <or>
+      <match tags="n.f.pl"/>
+      <match tags="n.mf.pl"/>
+      <match tags="n.f.sp"/>
+      <match tags="n.mf.sp"/>
+    </or>
+  </rule>
+
    <!-- precisar > precisar / requerir ... -->
 
   <rule weight="0.5">
