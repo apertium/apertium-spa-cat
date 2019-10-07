@@ -354,6 +354,17 @@
     <match lemma="jurado"/>
   </rule>
 
+  <rule weight="1"> 
+    <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
+    <repeat from="0" upto="3">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="juez"/>
+      <match lemma="audiencia"/>
+    </or>
+  </rule>
+
 
 <!-- corte > corte, tall -->
   <rule weight="0.1"> 
