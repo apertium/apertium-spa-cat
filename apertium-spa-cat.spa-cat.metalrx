@@ -6429,7 +6429,7 @@
     </or>
   </rule>
 
-  <!-- malo > dolent / mal ... -->
+  <!-- malo > dolent / mal ... 
 
   <rule weight="0.5">
     <match lemma="malo" tags="adj.*"><select lemma="dolent"/></match>
@@ -6473,7 +6473,7 @@
       <match tags="n.f.sp"/>
       <match tags="n.mf.sp"/>
     </or>
-  </rule>
+  </rule>-->
 
    <!-- precisar > precisar / requerir ... -->
 

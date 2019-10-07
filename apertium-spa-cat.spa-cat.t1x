@@ -5069,6 +5069,12 @@
         <call-macro n="f_lexicDet">
           <with-param pos="1" />
         </call-macro>
+        <call-macro n="f_lexicAdj">
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_lexicAdj">
+          <with-param pos="3" />
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
