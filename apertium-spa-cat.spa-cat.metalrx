@@ -3237,6 +3237,70 @@
     </or>
   </rule>
 
+  <!-- llamada > crida/trucada -->
+
+  <rule weight="0.6">
+    <match lemma="llamada" tags="n.*"><select lemma="crida"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="llamada" tags="n.*"><select lemma="trucada"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*.*"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="emergencia"/>
+      <match lemma="urgencia"/>
+      <match lemma="teléfono"/>
+      <match lemma="telefonía"/>
+      <match lemma="móvil"/>
+      <match lemma="telefónico"/>
+      <match lemma="policía"/>
+      <match lemma="vendedor"/>
+      <match lemma="comercial"/>
+      <match lemma="interlocutor"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="emergencia"/>
+      <match lemma="urgencia"/>
+      <match lemma="teléfono"/>
+      <match lemma="telefonía"/>
+      <match lemma="móvil"/>
+      <match lemma="telefónico"/>
+      <match lemma="policía"/>
+      <match lemma="vendedor"/>
+      <match lemma="comercial"/>
+      <match lemma="interlocutor"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*.*"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="llamada" tags="n.*"><select lemma="trucada"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="recibir"/>
+    </or>
+    <match tags="det.*"/>
+    <match lemma="llamada" tags="n.*"><select lemma="trucada"/></match>
+  </rule>
+
   <!-- llamar > cridar/telefonar/anomenar -->
 
   <rule weight="0.6">
