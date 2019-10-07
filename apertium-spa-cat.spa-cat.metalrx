@@ -3245,12 +3245,26 @@
 
   <rule weight="1">
     <match lemma="llamada" tags="n.*"><select lemma="trucada"/></match>
+    <or>
+      <match lemma="perder"/>
+      <match lemma="fallido"/>
+    </or>
+  </rule>
+  <rule weight="1">
+    <match lemma="llamada" tags="n.*"><select lemma="trucada"/></match>
+    <match lemma="sin"/>
+    <match lemma="respuesta"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="llamada" tags="n.*"><select lemma="trucada"/></match>
     <repeat from="0" upto="8">
       <or>
         <match tags="*.*"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
+        <match tags="cm"/>
         <match tags="cnjcoo"/>
       </or>
     </repeat>
@@ -3265,6 +3279,10 @@
       <match lemma="vendedor"/>
       <match lemma="comercial"/>
       <match lemma="interlocutor"/>
+      <match lemma="videoconferencia"/>
+      <match lemma="internet"/>
+      <match lemma="Internet"/>
+      <match lemma="itinerancia"/>
     </or>
   </rule>
 
@@ -3280,6 +3298,8 @@
       <match lemma="vendedor"/>
       <match lemma="comercial"/>
       <match lemma="interlocutor"/>
+      <match lemma="videoconferencia"/>
+      <match lemma="itinerancia"/>
     </or>
     <repeat from="0" upto="8">
       <or>
@@ -3287,6 +3307,7 @@
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
+        <match tags="cm"/>
         <match tags="cnjcoo"/>
       </or>
     </repeat>
