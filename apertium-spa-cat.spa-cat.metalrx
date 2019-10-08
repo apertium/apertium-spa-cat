@@ -5415,12 +5415,22 @@
   <rule weight="2">
     <match lemma="estar" tags="vblex.*"><select lemma="ser"/></match>
     <repeat from="0" upto="1">
-      <match tags="adv"/>
+      <or>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
     </repeat>
     <or>
       <match lemma="claro"/>
       <match lemma="considerar" tags="vblex.pp.*"/>
       <match lemma="causar" tags="vblex.pp.*"/>
+      <match lemma="atribuir" tags="vblex.pp.*"/>
+      <match lemma="provocar" tags="vblex.pp.*"/>
+      <match lemma="financiar" tags="vblex.pp.*"/>
+      <match lemma="gestionar" tags="vblex.pp.*"/>
+      <match lemma="originar" tags="vblex.pp.*"/>
+      <match lemma="elegir" tags="vblex.pp.*"/>
+      <match lemma="escoger" tags="vblex.pp.*"/>
     </or>
   </rule>
 
