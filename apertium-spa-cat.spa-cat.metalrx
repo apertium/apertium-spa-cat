@@ -5400,6 +5400,7 @@
       <match lemma="allá"/>
     </or>
   </rule>
+
   <rule weight="2">
     <match lemma="estar" tags="vblex.*"><select lemma="estar"/></match>
     <or>
@@ -5409,6 +5410,18 @@
       <match lemma="allá"/>
     </or>
     <match tags="*.ger"/>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="estar" tags="vblex.*"><select lemma="ser"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="claro"/>
+      <match lemma="considerar" tags="vblex.pp.*"/>
+      <match lemma="causar" tags="vblex.pp.*"/>
+    </or>
   </rule>
 
   <rule weight="2">
