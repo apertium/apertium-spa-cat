@@ -3247,7 +3247,10 @@
     <match lemma="llamada" tags="n.*"><select lemma="trucada"/></match>
     <or>
       <match lemma="perder"/>
+      <match lemma="atender"/>
       <match lemma="fallido"/>
+      <match lemma="gratuita"/>
+      <match lemma="internacional"/>
     </or>
   </rule>
   <rule weight="1">
@@ -3266,6 +3269,8 @@
         <match tags="pr"/>
         <match tags="cm"/>
         <match tags="cnjcoo"/>
+        <match tags="lpar"/>
+        <match tags="rpar"/>
       </or>
     </repeat>
     <or>
@@ -3283,6 +3288,8 @@
       <match lemma="internet"/>
       <match lemma="Internet"/>
       <match lemma="itinerancia"/>
+      <match lemma="central"/>
+      <match lemma="centralita"/>
     </or>
   </rule>
 
@@ -3300,8 +3307,30 @@
       <match lemma="interlocutor"/>
       <match lemma="videoconferencia"/>
       <match lemma="itinerancia"/>
+      <match lemma="central"/>
+      <match lemma="centralita"/>
+      <match lemma="coste"/>
     </or>
     <repeat from="0" upto="8">
+      <or>
+        <match tags="*.*"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+        <match tags="lpar"/>
+        <match tags="rpar"/>
+      </or>
+    </repeat>
+    <match lemma="llamada" tags="n.*"><select lemma="trucada"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="centro"/>
+    </or>
+    <repeat from="0" upto="2">
       <or>
         <match tags="*.*"/>
         <match tags="preadv"/>
@@ -8822,7 +8851,7 @@
   <macro name="toponims_article" p1="EE. UU." p2="EUA" p3="els EUA" />
   <macro name="toponims_article" p1="Estados Unidos" p2="Estats Units" p3="els Estats Units" />
   <macro name="toponims_article" p1="Irak" p2="Iraq" p3="l'Iraq" />
-  <macro name="toponims_article" p1="Iran" p2="Iran" p3="l'Iran" />
+  <macro name="toponims_article" p1="Irán" p2="Iran" p3="l'Iran" />
   <macro name="toponims_article" p1="India" p2="Índia" p3="l'Índia" />
   <macro name="toponims_article" p1="Japón" p2="Japó" p3="el Japó" />
   <macro name="toponims_article" p1="Kazajistán" p2="Kazakhstan" p3="el Kazakhstan" />
