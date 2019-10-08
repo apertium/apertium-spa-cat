@@ -8757,6 +8757,16 @@
   </rule>
 
 
+<!-- puesto que > ja que / com que-->
+
+  <rule weight="0.5">
+    <match lemma="puesto que" tags="cnjadv"><select lemma="ja que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="Puesto que" tags="cnjadv"><select lemma="com que"/></match>
+  </rule> 
+
 <!-- D. > Sr. / D.  -->
 
   <rule weight="0.5">
