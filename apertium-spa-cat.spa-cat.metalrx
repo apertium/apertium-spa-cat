@@ -8767,6 +8767,7 @@
     <or>
       <match tags="n.*"/>
       <match tags="adj.*"/>
+      <match tags="vblex.*"/>
       <match tags="adv"/>
     </or>
     <match lemma="puesto que" tags="cnjadv"><select lemma="perquè"/></match>
