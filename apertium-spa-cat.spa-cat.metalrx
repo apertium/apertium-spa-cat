@@ -8763,7 +8763,29 @@
     <match lemma="puesto que" tags="cnjadv"><select lemma="ja que"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="1"> <!-- quan no hi ha coma -->
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+      <match tags="adv"/>
+    </or>
+    <match lemma="puesto que" tags="cnjadv"><select lemma="perquè"/></match>
+  </rule>
+
+  <rule weight="2">
+    <or>
+      <match tags="cnjcoo"/>
+      <match lemma="que"/>
+    </or>
+    <match lemma="puesto que" tags="cnjadv"><select lemma="com que"/></match>
+  </rule> 
+  <rule weight="2">
+    <match lemma="que"/>
+    <match tags="cm"/>
+    <match lemma="puesto que" tags="cnjadv"><select lemma="com que"/></match>
+  </rule> 
+
+  <rule weight="4">
     <match lemma="Puesto que" tags="cnjadv"><select lemma="com que"/></match>
   </rule> 
 
