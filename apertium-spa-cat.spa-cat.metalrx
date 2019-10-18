@@ -4488,6 +4488,18 @@
     <match tags="*.inf"/>
   </rule>
 
+  <!-- olor a > olor de -->
+  <rule weight="5.0">
+    <or>
+      <match lemma="olor"/>
+      <match lemma="tufo"/>
+      <match lemma="gusto"/>
+      <match lemma="sabor"/>
+    </or>
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
+    <match tags="n.*"/>
+  </rule>
+
      <!-- dar > donar / fer  ... -->
 
   <rule weight="0.6">
