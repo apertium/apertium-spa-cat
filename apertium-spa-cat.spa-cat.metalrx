@@ -4493,11 +4493,19 @@
     <or>
       <match lemma="olor"/>
       <match lemma="tufo"/>
+      <match lemma="tufillo"/>
       <match lemma="gusto"/>
       <match lemma="sabor"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="de"/></match>
     <match tags="n.*"/>
+  </rule>
+
+  <rule weight="6.0">
+    <match lemma="con"/>
+    <match lemma="mucho"/>
+    <match lemma="gusto"/>  
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
 
      <!-- dar > donar / fer  ... -->
@@ -6252,7 +6260,7 @@
 
   <!-- pues > doncs -->
 
-  <rule weight="0.6">
+  <rule weight="0.61">
     <match lemma="pues" tags="cnjadv"><select lemma="perquè"/></match>
   </rule>
 
@@ -7759,6 +7767,7 @@
       <match tags="n.*" lemma="quark"/>
       <match tags="n.*" lemma="vehículo"/>
       <match tags="n.*" lemma="mercancía"/>
+      <match tags="n.*" lemma="fuelóleo"/>
     </or>
     <match lemma="pesado" tags="adj.*"><select lemma="pesant"/></match>
   </rule>
