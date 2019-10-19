@@ -14,6 +14,7 @@
         <match tags="adj.*"/>
         <match tags="vblex.pp.*"/>
         <match tags="n.*"/>
+        <match tags="np.*"/>
       </or>
       <match lemma="{{p1}}"><select lemma="{{p2}}"/></match>
     </rule>
@@ -3924,6 +3925,7 @@
       <match lemma="internacional" tags="adj.*"/>
       <match lemma="reivindicativo" tags="adj.*"/>
       <match lemma="unión" tags="n.*"/>
+      <match lemma="informal" tags="adj.*"/>
     </or>
   </rule>
   
