@@ -5205,7 +5205,24 @@
   </rule>
 
   <rule weight="2">
+    <match lemma="le"/>
+    <match lemma="haber"/>
+    <match lemma="apoyar" tags="vblex.*"><select lemma="donar# suport"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="apoyar" tags="vblex.*"><select lemma="donar# suport"/></match>
+    <match lemma="le" tags="prn.enc.*"/>
+  </rule>
+
+  <rule weight="2">
     <match lemma="lo"/>
+    <match lemma="apoyar" tags="vblex.*"><select lemma="secundar"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="lo"/>
+    <match lemma="haber"/>
     <match lemma="apoyar" tags="vblex.*"><select lemma="secundar"/></match>
   </rule>
 
@@ -5227,8 +5244,13 @@
 
  <rule weight="1.5">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
-    <repeat from="0" upto="1">
-      <match tags="prn.enc.*"/>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="prn.enc.*"/>
+        <match tags="cm"/>
+        <match tags="adv"/>
+        <match tags="adj.*"/>
+      </or>
     </repeat>
     <or>
       <match lemma="en"/>
