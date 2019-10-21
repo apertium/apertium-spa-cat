@@ -5325,6 +5325,16 @@
     </or>
   </rule>
 
+  <rule weight="2">
+    <match lemma="en"/>
+    <match tags="rel.*"/>
+    <match lemma="se"/>
+    <repeat from="0" upto="1">
+      <match lemma="haber"/>
+    </repeat>
+    <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
+  </rule>
+
   <!-- apoyarse > recolzar-se  -->
 
   <rule weight="2">
@@ -5335,10 +5345,10 @@
     <match tags="prn.pro.p2.mf.sg"/>
     <match lemma="apoyar" tags="vblex.*.p2.sg"><select lemma="recolzar"/></match>
   </rule>
-  <rule weight="1">
+  <!--<rule weight="1">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match lemma="apoyar" tags="vblex.*.p3.sg"><select lemma="recolzar"/></match>
-  </rule>
+  </rule>-->
   <rule weight="2">
     <match tags="prn.pro.p1.mf.pl"/>
     <match lemma="apoyar" tags="vblex.*.p1.pl"><select lemma="recolzar"/></match>
@@ -5347,10 +5357,10 @@
     <match tags="prn.pro.p2.mf.pl"/>
     <match lemma="apoyar" tags="vblex.*.p2.pl"><select lemma="recolzar"/></match>
   </rule>
-  <rule weight="2">
+  <!--<rule weight="2">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match lemma="apoyar" tags="vblex.*.p3.pl"><select lemma="recolzar"/></match>
-  </rule>
+  </rule>-->
 
   <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
@@ -5362,11 +5372,11 @@
     <match tags="vbmod.*.p2.sg"/>
     <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
   </rule>
-    <rule weight="1">
+  <!--<rule weight="1">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match tags="vbmod.*.p3.sg"/>
     <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
-  </rule>
+  </rule>-->
   <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match tags="vbmod.*.p1.pl"/>
@@ -5377,11 +5387,11 @@
     <match tags="vbmod.*.p2.pl"/>
     <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
   </rule>
-    <rule weight="2">
+  <!--<rule weight="2">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match tags="vbmod.*.p3.pl"/>
     <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
-  </rule>
+  </rule>-->
 
   <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
@@ -5393,11 +5403,11 @@
     <match tags="vbhaver.*.p2.sg"/>
     <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
   </rule>
-    <rule weight="1">
+  <!--<rule weight="1">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match tags="vbhaver.*.p3.sg"/>
     <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
-  </rule>
+  </rule>-->
   <rule weight="2">
     <match tags="prn.pro.p1.mf.sg"/>
     <match tags="vbhaver.*.p1.pl"/>
@@ -5408,11 +5418,11 @@
     <match tags="vbhaver.*.p2.pl"/>
     <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
   </rule>
-    <rule weight="2">
+  <!--<rule weight="2">
     <match tags="prn.pro.ref.p3.mf.sp"/>
     <match tags="vbhaver.*.p3.pl"/>
     <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
-  </rule>
+  </rule>-->
 
 
   <!-- apoyarse -->
