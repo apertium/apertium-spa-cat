@@ -5225,13 +5225,17 @@
   <rule weight="2">
     <match lemma="apoyar" tags="vblex.*"><select lemma="donar# suport"/></match>
     <or>
-      <match lemma="le" tags="prn.enc.*"/>
       <match lemma="te" tags="prn.enc.*"/>
       <match lemma="me" tags="prn.enc.*"/>
       <match lemma="nos" tags="prn.enc.*"/>
       <match lemma="os" tags="prn.enc.*"/>
     </or>
   </rule>
+
+   <rule weight="3">
+    <match lemma="apoyar" tags="vblex.*"><select lemma="donar# suport"/></match>
+    <match lemma="le" tags="prn.enc.*"/>
+   </rule>
 
   <rule weight="2">
     <match lemma="apoyar" tags="vblex.*"><select lemma="secundar"/></match>
@@ -5430,6 +5434,15 @@
    <rule weight="2">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match tags="prn.enc.*" lemma="se"/>
+   </rule>
+
+   <rule weight="1">
+    <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
+    <match tags="prn.enc.*"/>
+    <or>
+      <match lemma="en"/>
+      <match lemma="sobre"/>
+    </or>
    </rule>
 
    <rule weight="3">
