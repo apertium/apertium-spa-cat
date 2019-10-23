@@ -662,6 +662,26 @@
     <match tags="prn.enc.*"/>
   </rule>
 
+  <rule weight="0.9">
+    <match lemma="contar" tags="vblex.*"><select lemma="explicar"/></match>
+    <or>
+      <match lemma="esto"/>
+      <match lemma="eso"/>
+      <match lemma="aquello"/>
+      <match lemma="todo"/>
+    </or>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="contar" tags="vblex.*"><select lemma="comptar"/></match>
+    <or>
+      <match lemma="esto"/>
+      <match lemma="eso"/>
+    </or>
+    <match lemma="con"/>
+    <match tags="det.*"/>
+  </rule>
+
   <!-- tener que : haver de -->
   <rule weight="0.1">
     <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
@@ -5291,13 +5311,8 @@
   <rule weight="1.5">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match tags="cm"/>
-    <repeat from="0" upto="4">
-      <or>
-        <match tags="prn.enc.*"/>
-        <match tags="pr"/>
-        <match tags="adv"/>
-        <match tags="adj.*"/>
-      </or>
+    <repeat from="0" upto="5">
+        <match tags="*"/>
     </repeat>
     <match tags="cm"/>
     <or>
@@ -5453,7 +5468,19 @@
 
    <rule weight="3">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
+    <match lemma="mutuamente"/>
+   </rule>
+
+   <rule weight="3">
+    <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match tags="prn.enc.*" lemma="se"/>
+    <match lemma="uno"/>
+    <match lemma="a"/>
+    <match lemma="otro"/>
+   </rule>
+
+   <rule weight="3">
+    <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match lemma="uno"/>
     <match lemma="a"/>
     <match lemma="otro"/>
