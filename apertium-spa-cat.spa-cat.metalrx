@@ -140,7 +140,7 @@
       <match tags="vbmod.*.p1.sg"/>
       <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
     </rule>
-      <rule weight="2">
+    <rule weight="2">
       <match tags="prn.pro.p2.mf.sg"/>
       <match tags="vbmod.*.p2.sg"/>
       <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
@@ -155,7 +155,7 @@
       <match tags="vbmod.*.p1.pl"/>
       <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
     </rule>
-      <rule weight="2">
+    <rule weight="2">
       <match tags="prn.pro.p2.mf.sg"/>
       <match tags="vbmod.*.p2.pl"/>
       <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
@@ -176,7 +176,7 @@
       <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
       <match tags="prn.enc.p2.mf.sg"/>
     </rule>
-      <rule weight="1">
+    <rule weight="1">
       <match tags="vbmod.*.p3.sg"/>
       <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
       <match tags="prn.enc.ref.p3.mf.sp"/>
@@ -191,7 +191,7 @@
       <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
       <match tags="prn.enc.p2.mf.sg"/>
     </rule>
-      <rule weight="2">
+    <rule weight="2">
       <match tags="vbmod.*.p3.pl"/>
       <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
       <match tags="prn.enc.ref.p3.mf.sp"/>
@@ -207,9 +207,96 @@
       <match tags="vbhaver.*.p2.sg"/>
       <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
     </rule>
-      <rule weight="1">
+    <rule weight="1">
       <match tags="prn.pro.ref.p3.mf.sp"/>
       <match tags="vbhaver.*.p3.sg"/>
+      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+    </rule>
+    <rule weight="2">
+      <match tags="prn.pro.p1.mf.sg"/>
+      <match tags="vbhaver.*.p1.pl"/>
+      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+    </rule>
+    <rule weight="2">
+      <match tags="prn.pro.p2.mf.sg"/>
+      <match tags="vbhaver.*.p2.pl"/>
+      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+    </rule>
+      <rule weight="2">
+      <match tags="prn.pro.ref.p3.mf.sp"/>
+      <match tags="vbhaver.*.p3.pl"/>
+      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+    </rule>
+  </def-macro>
+
+  <def-macro name="verbs_reflexius_no_impersonal"> <!-- traducció del verb si va acompanyat per un pronom reflexiu, excepte 3a persona-->
+    <rule weight="2">
+      <match tags="prn.pro.p1.mf.sg"/>
+      <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p2}}"/></match>
+    </rule>
+    <rule weight="2">
+      <match tags="prn.pro.p2.mf.sg"/>
+      <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p2}}"/></match>
+    </rule>
+    <rule weight="2">
+      <match tags="prn.pro.p1.mf.pl"/>
+      <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p2}}"/></match>
+    </rule>
+    <rule weight="2">
+      <match tags="prn.pro.p2.mf.pl"/>
+      <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p2}}"/></match>
+    </rule>
+
+    <rule weight="2">
+      <match tags="prn.pro.p1.mf.sg"/>
+      <match tags="vbmod.*.p1.sg"/>
+      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+    </rule>
+      <rule weight="2">
+      <match tags="prn.pro.p2.mf.sg"/>
+      <match tags="vbmod.*.p2.sg"/>
+      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+    </rule>
+    <rule weight="2">
+      <match tags="prn.pro.p1.mf.sg"/>
+      <match tags="vbmod.*.p1.pl"/>
+      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+    </rule>
+      <rule weight="2">
+      <match tags="prn.pro.p2.mf.sg"/>
+      <match tags="vbmod.*.p2.pl"/>
+      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+    </rule>
+
+    <rule weight="2">
+      <match tags="vbmod.*.p1.sg"/>
+      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match tags="prn.enc.p1.mf.sg"/>
+    </rule>
+      <rule weight="2">
+      <match tags="vbmod.*.p2.sg"/>
+      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match tags="prn.enc.p2.mf.sg"/>
+    </rule>
+    <rule weight="2">
+      <match tags="vbmod.*.p1.pl"/>
+      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match tags="prn.enc.p1.mf.sg"/>
+    </rule>
+      <rule weight="2">
+      <match tags="vbmod.*.p2.pl"/>
+      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match tags="prn.enc.p2.mf.sg"/>
+    </rule>
+
+    <rule weight="2">
+      <match tags="prn.pro.p1.mf.sg"/>
+      <match tags="vbhaver.*.p1.sg"/>
+      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+    </rule>
+      <rule weight="2">
+      <match tags="prn.pro.p2.mf.sg"/>
+      <match tags="vbhaver.*.p2.sg"/>
       <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
     </rule>
     <rule weight="2">
@@ -222,13 +309,8 @@
       <match tags="vbhaver.*.p2.pl"/>
       <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
     </rule>
-      <rule weight="2">
-      <match tags="prn.pro.ref.p3.mf.sp"/>
-      <match tags="vbhaver.*.p3.pl"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
-    </rule>
   </def-macro>
-  </def-macros>
+</def-macros>
 
 <rules>
 
@@ -5134,104 +5216,29 @@
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
   </rule>
 
+  <rule weight="2">
+    <match lemma="en"/>
+    <match tags="rel.*"/>
+    <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
+    <match lemma="se"/>
+  </rule>
+
   <!-- apoyarse > recolzar-se  -->
 
-  <rule weight="2">
-    <match tags="prn.pro.p1.mf.sg"/>
-    <match lemma="apoyar" tags="vblex.*.p1.sg"><select lemma="recolzar"/></match>
-  </rule>
-  <rule weight="2">
-    <match tags="prn.pro.p2.mf.sg"/>
-    <match lemma="apoyar" tags="vblex.*.p2.sg"><select lemma="recolzar"/></match>
-  </rule>
-  <!--<rule weight="1">
-    <match tags="prn.pro.ref.p3.mf.sp"/>
-    <match lemma="apoyar" tags="vblex.*.p3.sg"><select lemma="recolzar"/></match>
-  </rule>-->
-  <rule weight="2">
-    <match tags="prn.pro.p1.mf.pl"/>
-    <match lemma="apoyar" tags="vblex.*.p1.pl"><select lemma="recolzar"/></match>
-  </rule>
-  <rule weight="2">
-    <match tags="prn.pro.p2.mf.pl"/>
-    <match lemma="apoyar" tags="vblex.*.p2.pl"><select lemma="recolzar"/></match>
-  </rule>
-  <!--<rule weight="2">
-    <match tags="prn.pro.ref.p3.mf.sp"/>
-    <match lemma="apoyar" tags="vblex.*.p3.pl"><select lemma="recolzar"/></match>
-  </rule>-->
+  <macro name="verbs_reflexius_no_impersonal" p1="apoyar" p2="recolzar"/>
 
-  <rule weight="2">
-    <match tags="prn.pro.p1.mf.sg"/>
-    <match tags="vbmod.*.p1.sg"/>
-    <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
-  </rule>
-    <rule weight="2">
-    <match tags="prn.pro.p2.mf.sg"/>
-    <match tags="vbmod.*.p2.sg"/>
-    <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
-  </rule>
-  <!--<rule weight="1">
-    <match tags="prn.pro.ref.p3.mf.sp"/>
-    <match tags="vbmod.*.p3.sg"/>
-    <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
-  </rule>-->
-  <rule weight="2">
-    <match tags="prn.pro.p1.mf.sg"/>
-    <match tags="vbmod.*.p1.pl"/>
-    <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
-  </rule>
-    <rule weight="2">
-    <match tags="prn.pro.p2.mf.sg"/>
-    <match tags="vbmod.*.p2.pl"/>
-    <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
-  </rule>
-  <!--<rule weight="2">
-    <match tags="prn.pro.ref.p3.mf.sp"/>
-    <match tags="vbmod.*.p3.pl"/>
-    <match lemma="apoyar" tags="vblex.inf"><select lemma="recolzar"/></match>
-  </rule>-->
+  <!-- impersonal: se apoya --> <!-- TODO: se apoyan > es dóna suport a -->
 
-  <rule weight="2">
-    <match tags="prn.pro.p1.mf.sg"/>
-    <match tags="vbhaver.*.p1.sg"/>
-    <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
-  </rule>
-    <rule weight="2">
-    <match tags="prn.pro.p2.mf.sg"/>
-    <match tags="vbhaver.*.p2.sg"/>
-    <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
-  </rule>
-  <!--<rule weight="1">
-    <match tags="prn.pro.ref.p3.mf.sp"/>
-    <match tags="vbhaver.*.p3.sg"/>
-    <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
-  </rule>-->
-  <rule weight="2">
-    <match tags="prn.pro.p1.mf.sg"/>
-    <match tags="vbhaver.*.p1.pl"/>
-    <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
-  </rule>
-    <rule weight="2">
-    <match tags="prn.pro.p2.mf.sg"/>
-    <match tags="vbhaver.*.p2.pl"/>
-    <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
-  </rule>
-  <!--<rule weight="2">
-    <match tags="prn.pro.ref.p3.mf.sp"/>
-    <match tags="vbhaver.*.p3.pl"/>
-    <match lemma="apoyar" tags="vblex.pp.m.sg"><select lemma="recolzar"/></match>
-  </rule>-->
 
 
   <!-- apoyarse -->
 
-   <rule weight="2">
+   <!--<rule weight="2">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match tags="prn.enc.*" lemma="se"/>
    </rule>
 
-   <!--<rule weight="1">
+   <rule weight="1">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match tags="prn.enc.*"/>
     <or>
@@ -5240,26 +5247,24 @@
     </or>
    </rule>-->
 
-   <rule weight="3">
+   <!-- apoyarse mutuamemte, unos a otros-->
+   <rule weight="6">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match tags="prn.enc.*" lemma="se"/>
     <match lemma="mutuamente"/>
    </rule>
-
-   <rule weight="3">
+   <rule weight="6">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match lemma="mutuamente"/>
    </rule>
-
-   <rule weight="3">
+   <rule weight="6">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match tags="prn.enc.*" lemma="se"/>
     <match lemma="uno"/>
     <match lemma="a"/>
     <match lemma="otro"/>
    </rule>
-
-   <rule weight="3">
+   <rule weight="6">
     <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
     <match lemma="uno"/>
     <match lemma="a"/>
