@@ -6805,7 +6805,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: PER + adv + infinitiu = per no trobar -> para no encontrar-->
+    <!--<rule> REGLA: PER + adv + infinitiu = per no trobar -> para no encontrar
       <pattern>
 	<pattern-item n="per"/>
 	<pattern-item n="adv"/>
@@ -6840,7 +6840,7 @@
     </rule> 
 
 
-    <rule> <!--REGLA: PER + adv + infinitiu + enclític= per no trobar-se -> para no encontrarse-->
+    <rule> REGLA: PER + adv + infinitiu + enclític= per no trobar-se -> para no encontrarse
       <pattern>
 	<pattern-item n="per"/>
 	<pattern-item n="adv"/>
@@ -6874,7 +6874,7 @@
       </action>
     </rule>
 
-    <rule> <!--REGLA: PER + adv + infinitiu + enclític + enclític = per no explicar-los-ho -> para no explicárselo-->
+    <rule> REGLA: PER + adv + infinitiu + enclític + enclític = per no explicar-los-ho -> para no explicárselo
       <pattern>
 	<pattern-item n="per"/>
 	<pattern-item n="adv"/>
@@ -6908,11 +6908,11 @@
 	  <with-param pos="5"/>
 	</call-macro>	 
       </action>
-    </rule>
+    </rule> -->
 
 
 
-    <rule> <!--REGLA: a + nploc = a Barcelona -> en Barcelona-->
+    <!--<rule> REGLA: a + nploc = a Barcelona -> en Barcelona
       <pattern>
 	<pattern-item n="a"/>
 	<pattern-item n="nploc"/>
@@ -6932,7 +6932,7 @@
 	  </lu>
 	</out>   
       </action>
-    </rule> 
+    </rule> -->
 
 
     <rule> <!--REGLA NOVA 6: a + DET + nploc = al Segrià -> en el Segrià "mireiafarrus"-->

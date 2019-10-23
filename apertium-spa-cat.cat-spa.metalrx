@@ -505,6 +505,7 @@
     </def-seq>
 
     <def-seq n="verbs_ci">
+      <match lemma="accedir" tags="vblex.*"/>
        <match lemma="afegir" tags="vblex.*"/>
        <match lemma="agafar" tags="vblex.*"/>
        <match lemma="atorgar" tags="vblex.*"/>
@@ -547,6 +548,7 @@
 
     <def-seq n="verbs_mov_amb_a">
        <match lemma="apropar" tags="vblex.*"/>
+       <match lemma="acostar" tags="vblex.*"/>
        <match lemma="aproximar" tags="vblex.*"/>
        <match lemma="llençar" tags="vblex.*"/>
        <match lemma="llançar" tags="vblex.*"/>
@@ -579,6 +581,8 @@
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
+
+
   
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
@@ -708,7 +712,7 @@
     <match tags="adj.*"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
-  <rule weight="1.0">
+  <!--<rule weight="1.0">
     <or>
       <match lemma="ser" tags="vbser.*"/>
       <match lemma="estar" tags="vblex.*"/>
@@ -733,7 +737,7 @@
       <match lemma="aterrar" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
-  </rule>
+  </rule>-->
   <rule weight="1.2">
     <or>
       <match lemma="ser" tags="vbser.*"/>
@@ -773,6 +777,7 @@
     <or>
       <seq n="verbs_moviment"/>
       <seq n="verbs_donar"/>
+      <seq n="verbs_ci"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -780,6 +785,7 @@
     <or>
       <seq n="verbs_moviment"/>
       <seq n="verbs_donar"/>
+      <seq n="verbs_ci"/>
     </or>
     <match tags="adv"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
