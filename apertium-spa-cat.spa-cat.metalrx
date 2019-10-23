@@ -659,7 +659,7 @@
  
   <rule weight="0.9">
     <match lemma="contar" tags="vblex.*"><select lemma="explicar"/></match>
-    <match tags="prn.*"/>
+    <match tags="prn.enc.*"/>
   </rule>
 
   <!-- tener que : haver de -->
