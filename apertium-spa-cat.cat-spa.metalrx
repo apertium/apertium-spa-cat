@@ -203,7 +203,7 @@
       <match lemma="mort"/>
       <match lemma="estudi"/>
       <match lemma="curs"/>
-      <match lemma="claase"/>
+      <match lemma="clase"/>
       <match lemma="investigació"/>
       <match lemma="recerca"/>
       <match lemma="cerca"/>
@@ -556,6 +556,42 @@
        <match lemma="posar" tags="vblex.*"/>
     </def-seq>
 
+    <def-seq n="regeix_a">
+       <match lemma="accedir"/>
+       <match lemma="accés"/>
+       <match lemma="adreçar"/>
+       <match lemma="adscrit"/>
+       <match lemma="adscriure"/>
+       <match lemma="ajustar"/>
+       <match lemma="alternatiu"/>
+       <match lemma="anterior"/>
+       <match lemma="asistir"/>
+       <match lemma="connectar"/>
+       <match lemma="connexió"/>
+       <match lemma="contribució"/>
+       <match lemma="corresponent"/>
+       <match lemma="destí"/>
+       <match lemma="dirigir"/>
+       <match lemma="equivalent"/>
+       <match lemma="equivaler"/>
+       <match lemma="extern"/>
+       <match lemma="intern"/>
+       <match lemma="pertànyer"/>
+       <match lemma="pertanyent"/>
+       <match lemma="posterior"/>
+       <match lemma="presentar"/>
+       <match lemma="procedir"/>
+       <match lemma="promoció"/>
+       <match lemma="promoure"/>
+       <match lemma="proper"/>
+       <match lemma="prorrogable"/>
+       <match lemma="prorrogar"/>
+       <match lemma="pròxim"/>
+       <match lemma="següent"/>
+       <match lemma="sotmetre"/>
+       <match lemma="suport"/>
+     </def-seq>
+
   </def-seqs>
 
 <rules>
@@ -574,10 +610,9 @@
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
-  <rule weight="1.0">
+  <rule weight="2.0">
     <or>
-       <match lemma="proper"/>
-       <match lemma="pròxim"/>
+      <seq n="regeix_a"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
@@ -636,7 +671,7 @@
       <seq n="mitja_comunicacio"/>
     </or>
   </rule>
-  <rule weight="1.0">
+  <!--<rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
     <or>
       <seq n="lloc_concret"/>
@@ -645,7 +680,7 @@
       <seq n="part_ciutat"/>
       <seq n="periode"/>
     </or>
-  </rule>
+  </rule>-->
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
     <match tags="det.*"/>
@@ -831,6 +866,7 @@
     <match tags="nom.*"/>
     <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
   </rule>
+  <!--
   <rule weight="1.0">
     <or><match lemma="estar"/><match lemma="ser"/><match lemma="quedar"/></or>
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
@@ -843,7 +879,7 @@
     <match lemma="a" tags="pr"><select lemma="en" tags="pr"/></match>
     <match lemma="manera" tags="n.*"/>
     <match lemma="de" tags="pr"/>
-  </rule>
+  </rule>-->
 
 <!-- **************** CNJSUB **************** -->
 
@@ -2066,3 +2102,4 @@
   <macro name="noms_propis" p1="Humbert" p2="Humberto" />
 </rules>
 </metalrx>
+

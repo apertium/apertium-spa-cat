@@ -4841,7 +4841,8 @@
       </action>
     </rule>
     
-    <rule> <!-- REGLA: PREP NOM-->
+    <!-- REGLA: PREP NOM-->
+    <!--<rule> 
       <pattern>
 	<pattern-item n="prep"/>
 	<pattern-item n="nom"/>
@@ -4864,7 +4865,7 @@
 	  </lu>
 	</out>
       </action>
-    </rule>
+    </rule>-->
     
     <rule> <!-- REGLA: PREP ADJECTIU -->
       <pattern>

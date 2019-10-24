@@ -5255,23 +5255,23 @@
 
    <!-- apoyarse mutuamemte, unos a otros-->
    <rule weight="6">
-    <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
+    <match lemma="apoyar" tags="vblex.*"><select lemma="donar# suport"/></match>
     <match tags="prn.enc.*" lemma="se"/>
     <match lemma="mutuamente"/>
    </rule>
    <rule weight="6">
-    <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
+    <match lemma="apoyar" tags="vblex.*"><select lemma="donar# suport"/></match>
     <match lemma="mutuamente"/>
    </rule>
    <rule weight="6">
-    <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
+    <match lemma="apoyar" tags="vblex.*"><select lemma="donar# suport"/></match>
     <match tags="prn.enc.*" lemma="se"/>
     <match lemma="uno"/>
     <match lemma="a"/>
     <match lemma="otro"/>
    </rule>
    <rule weight="6">
-    <match lemma="apoyar" tags="vblex.*"><select lemma="recolzar"/></match>
+    <match lemma="apoyar" tags="vblex.*"><select lemma="donar# suport"/></match>
     <match lemma="uno"/>
     <match lemma="a"/>
     <match lemma="otro"/>
