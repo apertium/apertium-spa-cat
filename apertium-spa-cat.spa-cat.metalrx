@@ -4130,6 +4130,11 @@
     <match lemma="de"/>  
   </rule>
 
+<rule weight="1.0">
+    <match lemma="librar" tags="vblex.*"><select lemma="deslliurar"/></match>
+    <match tags="prn.enc.*"/>
+    <match lemma="de"/>  
+  </rule>
     <!-- andar > caminar/anar -->
 
   <rule weight="0.6">
