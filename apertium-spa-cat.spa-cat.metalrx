@@ -1035,6 +1035,23 @@
     <match lemma="ver" tags="*.inf"/>
   </rule>
 
+  <rule weight="6"> <!--no tiene observación alguna que efectuar-->
+    <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
+    <repeat from="0" upto="6">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="alguno_negativo"/>
+    <match lemma="que" tags="cnjsub"><select lemma="a"/></match>
+    <match tags="*.inf"/>
+  </rule>
+
 
   <!-- sortear > sortejar/evitar/superar -->
 
@@ -4124,17 +4141,34 @@
 
   <rule weight="1.0">
     <match lemma="librar" tags="vblex.*"><select lemma="deslliurar"/></match>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="prn.enc.*"/>
+        <match tags="adv"/>
+      </or>
     </repeat>
     <match lemma="de"/>  
   </rule>
-
-<rule weight="1.0">
-    <match lemma="librar" tags="vblex.*"><select lemma="deslliurar"/></match>
-    <match tags="prn.enc.*"/>
+  
+  <rule weight="2.0">
+    <match lemma="librar" tags="vblex.*"><select lemma="lliurar"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="prn.enc.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
     <match lemma="de"/>  
+    <or>
+      <match lemma="manera"/>
+      <match lemma="forma"/>
+    </or>
+    <or>
+      <match tags="adj.*"/>
+      <match tags="vblex.pp.f.sg"/>
+    </or>
   </rule>
+
     <!-- andar > caminar/anar -->
 
   <rule weight="0.6">
