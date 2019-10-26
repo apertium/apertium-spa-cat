@@ -6476,7 +6476,7 @@
   <!-- sin embargo > no obstant això, tanmateix -->
 
   <rule weight="0.6">
-    <match lemma="sin embargo" tags="cnjadv"><select lemma="no obstant això"/></match>
+    <match lemma="sin embargo" tags="adv"><select lemma="no obstant això"/></match>
   </rule>
 
   <rule weight="2"> <!-- evita repeticions: això, això-->
@@ -6487,11 +6487,11 @@
     <repeat from="0" upto="4">
       <match tags="*"/>
     </repeat>
-    <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
+    <match lemma="sin embargo" tags="adv"><select lemma="tanmateix"/></match>   
   </rule>
 
   <rule weight="3">
-    <match lemma="sin embargo" tags="cnjadv"><select lemma="tanmateix"/></match>   
+    <match lemma="sin embargo" tags="adv"><select lemma="tanmateix"/></match>   
     <repeat from="0" upto="4">
       <match tags="*"/>
     </repeat>
@@ -8008,6 +8008,14 @@
     <match tags="cm"/>
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
+
+ <rule weight="4.0">
+    <match tags="cm"/>
+    <match tags="adv"/> <!-- sin embargo -->
+    <match tags="cm"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
 
   <rule weight="1.0">
     <match tags="cm"/>
