@@ -8017,6 +8017,19 @@
   </rule>
 
 
+  <rule weight="4.0">
+    <match tags="sent"/>
+    <match tags="adv"/> <!-- Sin embargo (principi de frase) -->
+    <match tags="cm"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3.0">
+    <match tags="adv"/> <!-- Sin embargo (primera frase?) -->
+    <match tags="cm"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
   <rule weight="1.0">
     <match tags="cm"/>
     <repeat from="0" upto="1">
