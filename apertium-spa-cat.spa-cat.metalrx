@@ -4733,7 +4733,8 @@
     <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="li"/></match>
     <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="ho"/></match>
   </rule>
-<!-- se lo > s'ho -->
+
+  <!-- se lo > s'ho -->
   <rule weight="3"> 
     <match lemma="le" tags="prn.pro.p3.mf.sp"><select lemma="es"/></match>
     <match lemma="lo" tags="prn.pro.p3.m.sg"><select lemma="ho"/></match>
@@ -4749,6 +4750,23 @@
       <match lemma="tomar" tags="vblex.*.p3.*" />
       <match lemma="pasar" tags="vblex.*.p3.*" />
     </or>
+  </rule>
+
+  <rule weight="3"> 
+    <or>
+      <match lemma="merecer" tags="vblex.*" />
+      <match lemma="comer" tags="vblex.*" />
+      <match lemma="beber" tags="vblex.*" />
+      <match lemma="fumar" tags="vblex.*" />
+      <match lemma="ingeniar" tags="vblex.*" />
+      <match lemma="creer" tags="vblex.*" />
+      <match lemma="encontrar" tags="vblex.*" />
+      <match lemma="pensar" tags="vblex.*" />
+      <match lemma="tomar" tags="vblex.*" />
+      <match lemma="pasar" tags="vblex.*" />
+    </or>
+    <match lemma="le" tags="prn.enc.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="lo" tags="prn.enc.p3.nt"><select lemma="ho"/></match>
   </rule>
 
   <rule weight="3"> <!-- se lo > se'l -->
@@ -4777,6 +4795,7 @@
       <match lemma="relacionar" tags="vblex.*.p3.sg" />
       <match lemma="relevar" tags="vblex.*.p3.sg" />
       <match lemma="llevar" tags="vblex.*.p3.*" />
+      <match lemma="investigar" tags="vblex.*.p3.*" />
     </or>
   </rule>
 
