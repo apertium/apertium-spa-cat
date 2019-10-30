@@ -2888,6 +2888,63 @@
     </or>
   </rule>
 
+  <!-- en su caso > si escau / en el seu cas -->
+
+  <rule weight="0.8">
+    <match lemma="en su caso" tags="adv"><select lemma="en el seu cas"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="adoptar"/>
+      <match lemma="aprobar"/>
+      <match lemma="determinar"/>
+      <match lemma="decidir"/>
+      <match lemma="decisión"/>
+      <match lemma="obligar"/>
+      <match lemma="acompañar"/>
+      <match lemma="tomar"/>
+      <match lemma="bonificar"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="en su caso" tags="adv"><select lemma="si escau"/></match>
+  </rule>
+  
+
+  <rule weight="1">
+    <match lemma="en su caso" tags="adv"><select lemma="si escau"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="adoptar"/>
+      <match lemma="aprobar"/>
+      <match lemma="determinar"/>
+      <match lemma="decidir"/>
+      <match lemma="decisión"/>
+      <match lemma="obligar"/>
+      <match lemma="acompañar"/>
+      <match lemma="tomar"/>
+      <match lemma="bonificar"/>
+    </or>
+  </rule>
+
   <!-- tienda > botiga / tenda -->
 
   <rule weight="0.8">
