@@ -2905,6 +2905,9 @@
       <match lemma="acompañar"/>
       <match lemma="tomar"/>
       <match lemma="bonificar"/>
+      <match lemma="proceder"/>
+      <match lemma="aplicar"/>
+      <match lemma="aplicación"/>
     </or>
     <repeat from="0" upto="4">
       <or>
@@ -2942,6 +2945,9 @@
       <match lemma="acompañar"/>
       <match lemma="tomar"/>
       <match lemma="bonificar"/>
+      <match lemma="proceder"/>
+      <match lemma="aplicar"/>
+      <match lemma="aplicación"/>
     </or>
   </rule>
 
@@ -8087,6 +8093,20 @@
     <match tags="adv"/> <!-- Sin embargo (primera frase?) -->
     <match tags="cm"/>
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="4.0">
+    <or>
+      <match tags="vblex.*"/>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+      <match tags="np.*"/>
+      <match tags="adv"/>
+      <match tags="prn.*"/>
+    </or>
+    <match tags="adv"/> <!-- excepció a anterior perquè només sigui a principi de frase: Sin embargo, lo que -->
+    <match tags="cm"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
   </rule>
 
   <rule weight="1.0">
