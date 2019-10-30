@@ -2788,6 +2788,7 @@
       <match lemma="secretaría"/>
       <match lemma="senador"/>
       <match lemma="sinfónico"/>
+      <match lemma="voto"/>
     </or>
   </rule>
 
@@ -2810,6 +2811,7 @@
       <match lemma="secretaría"/>
       <match lemma="senador"/>
       <match lemma="sinfónico"/>
+      <match lemma="voto"/>
       <match lemma="remitir"/>  <!-- bug emitir -->
     </or>
     <repeat from="0" upto="20">
