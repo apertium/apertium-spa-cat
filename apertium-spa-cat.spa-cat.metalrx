@@ -2896,20 +2896,47 @@
 
   <rule weight="1">
     <or>
+      <match lemma="acompañar"/>
+      <match lemma="acordar"/>
+      <match lemma="acreditación"/>
+      <match lemma="acreditar"/>
+      <match lemma="acuerdo"/>
+      <match lemma="adjudicación"/>
+      <match lemma="adjudicar"/>
       <match lemma="adoptar"/>
+      <match lemma="aplicación"/>
+      <match lemma="aplicar"/>
       <match lemma="aprobar"/>
-      <match lemma="determinar"/>
+      <match lemma="bonificar"/>
+      <match lemma="cancelación"/>
+      <match lemma="cancelar"/>
+      <match lemma="constar"/>
       <match lemma="decidir"/>
       <match lemma="decisión"/>
+      <match lemma="definir"/>
+      <match lemma="depósito"/>
+      <match lemma="designación"/>
+      <match lemma="designar"/>
+      <match lemma="determinar"/>
+      <match lemma="dictamen"/>
+      <match lemma="dictaminar"/>
+      <match lemma="ejercer"/>
+      <match lemma="ejercitar"/>
+      <match lemma="motivar"/>
+      <match lemma="motivo"/>
+      <match lemma="mérito"/>
       <match lemma="obligar"/>
-      <match lemma="acompañar"/>
-      <match lemma="tomar"/>
-      <match lemma="bonificar"/>
+      <match lemma="plazo"/>
       <match lemma="proceder"/>
-      <match lemma="aplicar"/>
-      <match lemma="aplicación"/>
+      <match lemma="procedimiento"/>
+      <match lemma="registro"/>
+      <match lemma="resolución"/>
+      <match lemma="resolver"/>
+      <match lemma="revisar"/>
+      <match lemma="tomar"/>
+      <match lemma="valorar"/>
     </or>
-    <repeat from="0" upto="4">
+    <repeat from="0" upto="6">
       <or>
         <match tags="*.*"/>
         <match tags="adv"/>
@@ -2925,7 +2952,7 @@
 
   <rule weight="1">
     <match lemma="en su caso" tags="adv"><select lemma="si escau"/></match>
-    <repeat from="0" upto="3">
+    <repeat from="0" upto="4">
       <or>
         <match tags="*.*"/>
         <match tags="adv"/>
@@ -2936,18 +2963,45 @@
       </or>
     </repeat>
     <or>
+      <match lemma="acompañar"/>
+      <match lemma="acordar"/>
+      <match lemma="acreditación"/>
+      <match lemma="acreditar"/>
+      <match lemma="acuerdo"/>
+      <match lemma="adjudicación"/>
+      <match lemma="adjudicar"/>
       <match lemma="adoptar"/>
+      <match lemma="aplicación"/>
+      <match lemma="aplicar"/>
       <match lemma="aprobar"/>
-      <match lemma="determinar"/>
+      <match lemma="bonificar"/>
+      <match lemma="cancelación"/>
+      <match lemma="cancelar"/>
+      <match lemma="constar"/>
       <match lemma="decidir"/>
       <match lemma="decisión"/>
+      <match lemma="definir"/>
+      <match lemma="depósito"/>
+      <match lemma="designación"/>
+      <match lemma="designar"/>
+      <match lemma="determinar"/>
+      <match lemma="dictamen"/>
+      <match lemma="dictaminar"/>
+      <match lemma="ejercer"/>
+      <match lemma="ejercitar"/>
+      <match lemma="motivar"/>
+      <match lemma="motivo"/>
+      <match lemma="mérito"/>
       <match lemma="obligar"/>
-      <match lemma="acompañar"/>
-      <match lemma="tomar"/>
-      <match lemma="bonificar"/>
+      <match lemma="plazo"/>
       <match lemma="proceder"/>
-      <match lemma="aplicar"/>
-      <match lemma="aplicación"/>
+      <match lemma="procedimiento"/>
+      <match lemma="registro"/>
+      <match lemma="resolución"/>
+      <match lemma="resolver"/>
+      <match lemma="revisar"/>
+      <match lemma="tomar"/>
+      <match lemma="valorar"/>
     </or>
   </rule>
 
@@ -8110,6 +8164,13 @@
 
   <rule weight="3.0">
     <match tags="adv"/> <!-- Sin embargo (primera frase?) -->
+    <match tags="cm"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3.0">
+    <match lemma="Ahora"/> 
+    <match lemma="bien"/>
     <match tags="cm"/>
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
