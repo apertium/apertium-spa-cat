@@ -4616,7 +4616,7 @@
 
   <rule weight="1.0">
     <or>
-      <!--<match lemma="obligar" tags="vblex.*"/>-->
+      <match lemma="obligar" tags="vblex.*"/>
       <match lemma="acusar" tags="vblex.*"/>
       <match lemma="afectar" tags="vblex.*"/>
       <match lemma="apasionar" tags="vblex.*"/>
@@ -4647,7 +4647,7 @@
       </or>
     </repeat>
     <or>
-      <!--<match lemma="obligar" tags="vblex.*"/>-->
+      <match lemma="obligar" tags="vblex.*"/>
       <match lemma="acusar" tags="vblex.*"/>
       <match lemma="afectar" tags="vblex.*"/>
       <match lemma="apasionar" tags="vblex.*"/>
@@ -4665,24 +4665,6 @@
       <match lemma="preocupar" tags="vblex.*"/>
       <match lemma="sorprender" tags="vblex.*"/>
     </or>   
-  </rule>
-
-
-  <rule weight="1.0"> <!-- whis is this necessary? Bug?-->
-    <match lemma="le" tags="prn.pro.*"><select lemma="el"/></match>
-    <repeat from="0" upto="2">
-      <or>
-        <match lemma="ir"/>
-        <match lemma="a"/>
-        <match tags="vbmod.*"/>
-      </or>
-    </repeat>
-    <match lemma="obligar" tags="vblex.*"/>
-  </rule>
-
-  <rule weight="1.0">
-    <match lemma="obligar" tags="vblex.*"/>  
-    <match lemma="le" tags="prn.enc.*"><select lemma="el"/></match>
   </rule>
 
   <!-- Se le conoce: cas de leísmo aceptable -->
