@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <metalrx>
-
   <def-macros>
 
   <def-macro name="toponims_article">
@@ -4819,7 +4818,7 @@
       <match lemma="tomar" tags="vblex.*" />
       <match lemma="pasar" tags="vblex.*" />
     </or>
-    <match lemma="le" tags="prn.enc.p3.mf.sp"><select lemma="es"/></match>
+    <match lemma="se" tags="prn.enc.*"/>
     <match lemma="lo" tags="prn.enc.p3.nt"><select lemma="ho"/></match>
   </rule>
 
