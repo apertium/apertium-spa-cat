@@ -8185,12 +8185,57 @@
     <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
     <match lemma="ser" tags="vbser.*.p3.sg"/>
     <or>
-      <match  tags="adj.*"/>
+      <match tags="adj.*"/>
       <match tags="vblex.pp.*.sg"/>
     </or>
-    <!--<match lemma="que"/>-->
+    <!--<match lemma="que"/> (Excessiu en algun cas?-->
   </rule>
 
+  <rule weight="2.0"> <!-- excepcions a l'anterior-->
+    <or>
+      <match tags="vblex.*.p1.*"/>
+      <match tags="vblex.*.p2.*"/>
+      <match tags="vblex.*.p3.*"/>
+      <match tags="prn.enc.*"/>
+      <match lemma="reforzar"/>
+      <match lemma="guiar"/>
+      <match lemma="apostar"/>
+    </or>
+    <match tags="pr" lemma="por"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+
+  <rule weight="0.5">
+    <match tags="pr" lemma="por"><select lemma="per"/></match>
+  </rule>
+
+  <rule weight="4.0"> <!-- es por esta razón por lo que-->
+    <match tags="vbser.*.p3.sg"/>
+    <match lemma="por"/>
+    <repeat from="1" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="n.*"/>
+        <match tags="adj.*"/>
+        <match lemma="ello"/>
+        <match lemma="eso"/>
+        <match lemma="esto"/>
+      </or>
+    </repeat>
+    <match tags="pr" lemma="por"><select lemma="preposicio_buida"/></match>
+    <match lemma="lo que" tags="rel.*"><select lemma="que"/></match>
+  </rule>
+
+<rule weight="4.0"> <!-- es por esta razón por lo que-->
+    <match tags="vbser.*.p3.sg"/>
+    <or>
+      <match lemma="por eso"/>
+      <match lemma="por ello"/>
+    </or>  
+    <match tags="pr" lemma="por"><select lemma="preposicio_buida"/></match>
+    <match lemma="lo que" tags="rel.*"><select lemma="que"/></match>
+  </rule>
   <!-- por lo que a ... respecta -->
   <rule weight="0.5">
     <match tags="pr" lemma="respecta"><select lemma="respecta"/></match>
