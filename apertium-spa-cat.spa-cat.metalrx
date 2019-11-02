@@ -8180,6 +8180,17 @@
     <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
   </rule>
 
+  <rule weight="1.0">
+    <match tags="pr" lemma="por"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="la qual cosa"/></match>
+    <match lemma="ser" tags="vbser.*.p3.sg"/>
+    <or>
+      <match  tags="adj.*"/>
+      <match tags="vblex.pp.*.sg"/>
+    </or>
+    <!--<match lemma="que"/>-->
+  </rule>
+
   <!-- por lo que a ... respecta -->
   <rule weight="0.5">
     <match tags="pr" lemma="respecta"><select lemma="respecta"/></match>
