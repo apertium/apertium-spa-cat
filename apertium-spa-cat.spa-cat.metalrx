@@ -9162,6 +9162,62 @@
     <match lemma="Puesto que" tags="cnjadv"><select lemma="com que"/></match>
   </rule> 
 
+  <!-- de pie > dempeus / dret  -->
+
+  <rule weight="0.5">
+    <match lemma="de pie" tags="adv"><select lemma="dempeus"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="poner" tags="vblex.*.*.sg"/>
+      <match lemma="estar" tags="vblex.*.*.sg"/>
+      <match lemma="mantener" tags="vblex.*.*.sg"/>
+    </or>
+    <match lemma="de pie" tags="adv"><select lemma="dret"/></match>   
+  </rule> 
+
+  <rule weight="1">
+    <or>
+      <match lemma="poner" tags="vblex.*.*.pl"/>
+      <match lemma="estar" tags="vblex.*.*.pl"/>
+      <match lemma="mantener" tags="vblex.*.*.pl"/>
+    </or>
+    <match lemma="de pie" tags="adv"><select lemma="drets"/></match>   
+  </rule> 
+
+  <rule weight="3">
+    <or>
+      <match tags="*.f.sg"/>
+      <match tags="*.*.*.f.sg"/>
+    </or>
+    <repeat from="0" upto="2">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="poner" tags="vblex.*.*.sg"/>
+      <match lemma="estar" tags="vblex.*.*.sg"/>
+      <match lemma="mantener" tags="vblex.*.*.sg"/>
+    </or>
+    <match lemma="de pie" tags="adv"><select lemma="dreta"/></match>   
+  </rule> 
+
+  <rule weight="3">
+    <or>
+      <match tags="*.f.pl"/>
+      <match tags="*.*.*.f.pl"/>
+    </or>
+    <repeat from="0" upto="2">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="poner" tags="vblex.*.*.pl"/>
+      <match lemma="estar" tags="vblex.*.*.pl"/>
+      <match lemma="mantener" tags="vblex.*.*.pl"/>
+    </or>
+    <match lemma="de pie" tags="adv"><select lemma="dretes"/></match>   
+  </rule>
+
 <!-- D. > Sr. / D.  -->
 
   <rule weight="0.5">
