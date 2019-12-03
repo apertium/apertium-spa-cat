@@ -6703,12 +6703,13 @@
 
   <rule weight="1.0">
     <or>
+      <match lemma="camisa"/>
+      <match lemma="chaqueta"/>
+      <match lemma="falda"/>
       <match lemma="hacer"/>
+      <match lemma="pantalón"/>
       <match lemma="ropa"/>
       <match lemma="traje"/>
-      <match lemma="pantalón"/>
-      <match lemma="chaqueta"/>
-      <match lemma="camisa"/>
     </or>
     <match lemma="a"/>
     <match lemma="medida" tags="n.f.sg"><select lemma="mida"/></match>
