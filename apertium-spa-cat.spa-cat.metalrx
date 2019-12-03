@@ -6689,6 +6689,31 @@
     <match lemma="hambre" tags="n.f.sg"><select lemma="gana"/></match>
   </rule>
 
+  <!-- medida > mesura / mida -->
+
+  <rule weight="0.5">
+    <match lemma="medida" tags="n.f.*"><select lemma="mesura"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="a"/>
+    <match lemma="medida" tags="n.f.*"><select lemma="mesura"/></match>
+    <match lemma="que"/>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="hacer"/>
+      <match lemma="ropa"/>
+      <match lemma="traje"/>
+      <match lemma="pantalón"/>
+      <match lemma="chaqueta"/>
+      <match lemma="camisa"/>
+    </or>
+    <match lemma="a"/>
+    <match lemma="medida" tags="n.f.sg"><select lemma="mida"/></match>
+  </rule>
+
   <!-- de brocha gorda > de parets / matusser  ... -->
 
   <rule weight="0.5">
