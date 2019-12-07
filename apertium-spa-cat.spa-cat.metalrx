@@ -5841,6 +5841,15 @@
     </or>
   </rule>
 
+  <rule weight="2">
+    <match lemma="como" tags="pr"><select lemma="a"/></match>
+    <match lemma="consecuencia" tags="n.f.sg"/>
+    <or>
+      <match lemma="de"/>
+      <match lemma="de que"/>
+    </or>
+  </rule>
+
 <!-- con que > amb el fet que / que -->
 
   <rule weight="1">
