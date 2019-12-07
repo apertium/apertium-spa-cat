@@ -8481,6 +8481,16 @@
     <match lemma="lo malo" tags="n.*"><select lemma="el que és dolent"/></match>
   </rule>
 
+  <rule weight="0.5">
+    <match lemma="lo bueno" tags="n.*"><select lemma="la part bona"/></match>
+  </rule>
+
+    <rule weight="1.0">
+    <match lemma="todo"/>
+    <match lemma="lo bueno" tags="n.*"><select lemma="el que és bo"/></match>
+  </rule>
+
+
    <!-- mucho > molt de /molta/molts/moltes -->
 
   <rule weight="0.5">
@@ -9401,6 +9411,7 @@
 
   <!-- noms propis -->
 
+  <macro name="noms_propis" p1="Octavio" p2="Octavi" />
   <macro name="noms_propis" p1="Salomón" p2="Salomó" />
   <macro name="noms_propis" p1="Fausto" p2="Faust" />
   <macro name="noms_propis" p1="Tomás" p2="Tomàs" />
