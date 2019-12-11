@@ -6861,12 +6861,18 @@
     </or>
   </rule>
 
-  <!-- malo > dolent / mal ... 
+  <!-- malo > dolent / mal ... -->
 
   <rule weight="0.5">
     <match lemma="malo" tags="adj.*"><select lemma="dolent"/></match>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="Lo"/>
+    <match lemma="malo" tags="adj.m.sg"><select lemma="mal"/></match>
+    <match lemma="ser"/>
+  </rule>
+<!--
   <rule weight="1.0">
     <match lemma="malo" tags="adj.m.sg"><select lemma="mal"/></match>
     <or>
@@ -8465,7 +8471,7 @@
     <match lemma="mano" tags="n.f.*"/>
   </rule>
 
-    <!-- lo malo > el mal/la part dolenta/el que és dolent -->
+    <!-- lo malo > el mal/la part dolenta/el que és dolent 
 
   <rule weight="0.5">
     <match lemma="lo malo" tags="n.*"><select lemma="la part dolenta"/></match>
@@ -8488,7 +8494,7 @@
     <rule weight="1.0">
     <match lemma="todo"/>
     <match lemma="lo bueno" tags="n.*"><select lemma="el que és bo"/></match>
-  </rule>
+  </rule>-->
 
 
    <!-- mucho > molt de /molta/molts/moltes -->
