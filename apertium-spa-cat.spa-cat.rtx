@@ -1,0 +1,328 @@
+! POS
+
+adj: _.adj_type.gender.number ;
+adv: _.adv_type ;
+cm: _ ;
+cnjcoo: _ ;
+det: _.adj_type.gender.number ;
+n: _.acr.gender.number ;
+num: _.gender.number ;
+num_digits: _ ;
+np: _.np_type.gender.number ;
+pr: _ ;
+preadv: _ ;
+predet: _.adj_type.gender.number ;
+prn: _.prn_type.prn_type2.gender.number ;
+prnpers: _.prn_type.person.gender.number ;
+rel: _.rel_type.gender.number ;
+vbhaver: _.tense.person.number ;
+vblex: _.tense.person.number ;
+vbmod: _.tense.person.number ;
+vbser: _.tense.person.number ;
+vb_impers: _.tense ;
+vb_pp: _.tense.gender.number ;
+
+NULL: _ ;
+PV: _ ;
+SAdj: _.adj_type.gender_chunk.number ;
+SAdv: _.adv_type ;
+SDet: _.adj_type.gender_chunk.number ;
+SN: _.SN_det.np_type.person.gender_chunk.number ;
+SNum: _.gender_chunk.number ;
+SPredet: _.adj_type.gender_chunk.number ;
+SPrep: _.SPrep_type ;
+SRel: _.rel_type.gender_chunk.number ;
+SV: _.vb_type.vb_cnj.tense.person.gender_chunk.number ;
+
+
+
+! Attributes
+
+acr = acr ;
+adj_type = def dem ind ord pos sup itg ;
+adv_type = itg ;
+gender = (GD m) m f nt @mf GD ;
+gender_chunk = (GD m) m f GD ;
+np_type = ant cog top al loc ;
+number = (ND sg) sg pl @sp ND ;
+person = (PD p3) p1 p2 p3 PD ;
+prn_type = tn itg pro enc ;
+prn_type2 = pos ;
+rel_type = aa an nn ;
+tense = pri fti cni imp prs pis fts pii ifi inf ger pp ;
+vb_type = vbhaver vblex vbmod vbser ;
+vb_cnj = cnj impers ;
+
+SN_det = undet det predet nodet prnpers ;
+SPrep_type = pr SN ;
+
+gender>gender_chunk: mf GD, nt GD ;
+gender_chunk>gender: GD GD ;
+
+
+
+! Rules
+
+NULL -> 0: lquest {} ;
+
+PV ->   1: SN SV.*.cnj
+                { 1 _1 2[person=1.person,gender=1.gender,number=1.number] } ;
+
+
+SAdj -> 1: %adj
+                [$lem=1.lem/sl]
+                { %1 } |
+        0: %SV.vblex.impers.pp
+                { %1 } |
+
+        1: SAdv %SAdj
+                { 1 _1 %2 } |
+        2: recién@SAdv %SV.vblex.impers.pp
+                { acabar@vblex.pp.[$gender].[$number] _ de@pr _1 2[tense=inf] } |
+
+        1: %SAdj cm SAdj
+                [$gender_chunk=(if(1.gender=GD)3.gender else 1.gender),$number=(if(1.number=ND)3.number else 1.number)]
+                { %1 _1 2 _2 %3 } |
+        1: %SAdj cnjcoo SAdj
+                [$gender_chunk=(if(1.gender=GD)3.gender else 1.gender),$number=(if(1.number=ND)3.number else 1.number)]
+                { %1 _1 2 _2 %3 } ;
+
+
+SAdv -> 1: %adv
+                [$lem=1.lem/sl]
+                { 1 } |
+        1: %preadv
+                [$lem=1.lem/sl]
+                { 1 } ;
+
+
+SDet -> 1: %det
+                [$lem=1.lem/sl]
+                { %1 } ;
+
+
+SN ->   1: %n
+                [$lem=1.lem/sl,$SN_det=undet]
+                { %1 } |
+
+        1: %np.ant
+                [$lem=1.lem/sl,$SN_det=det]
+                { %1[gender="",number=""] } |
+        1: %np.cog
+                [$lem=1.lem/sl,$SN_det=det]
+                { %1 } |
+        1: %SN.det.ant SN.det.cog
+                { %1 _1 2 } |
+        1: %np.top
+                [$lem=1.lem/sl,$SN_det=undet]
+                { %1 } |
+        1: %np.loc
+                [$lem=1.lem/sl,$SN_det=undet]
+                { %1[gender="",number=""] } |
+        1: %np.al
+                [$lem=1.lem/sl,$SN_det=undet]
+                { %1[gender="",number=""] } |
+
+        2: %prn.tn.[person]
+                [$lem=1.lem/sl,$SN_det=prnpers]
+                { %1(prnpers) } |
+        1: %prn.tn
+                [$lem=1.lem/sl,$SN_det=nodet]
+                { %1 } |
+        1: %prn.itg
+                [$lem=1.lem/sl,$SN_det=nodet]
+                { %1 } |
+
+        2: %SN SPrep.SN
+                { %1 _1 2 } |
+
+        2: %SN SAdj
+                [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number=(if(1.number=ND)2.number else 1.number)]
+                { %1 _1 2[gender=$gender,number=$number] } |
+        2: SAdj.ord %SN
+                [$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender,number=$number] _1 %2 } |
+        2: SAdj %SN
+                [$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender,number=$number] _1 %2 } |
+
+        1: SDet %SN.undet
+                [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender,number=$number] _1 %2 } |
+        1: %SN.undet alguno_negativo@SDet
+                [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                { 2[gender=$gender,number=$number] _1 %1 } |
+
+        1: SPredet %SN.det
+                [$SN_det=predet,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender,number=$number] _1 %2 } |
+
+        1: SNum %SN.undet
+                [$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender] _1 %2 } |
+
+        2: %SN.det SRel
+                [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number=(if(1.number=ND)2.number else 1.number)]
+                { %1 _1 2[gender=$gender,number=$number] } |
+        2: %SN.det cm SRel
+                [$gender_chunk=(if(1.gender=GD)3.gender else 1.gender),$number=(if(1.number=ND)3.number else 1.number)]
+                { %1 _1 2 _2 3[gender=$gender,number=$number] } ;
+
+
+SNum -> 0: %num
+                [$lem=1.lem/sl]
+                { %1(num_digits) } |
+        1: %num.[gender]
+                [$lem=1.lem/sl]
+                { %1 } |
+        2: SNum %SNum
+                [$lem=1.lem/sl]
+                { 1 _1 %2 } |
+
+        1: %SNum cm SNum
+                { %1 _1 2 _2 %3 } |
+        1: %SNum cnjcoo SNum
+                { %1 _1 2 _2 %3 } |
+        1: %SNum cnjcoo SAdv
+                { %1 _1 2 _2 3 } ;
+
+
+SPredet -> 0: %predet
+                [$lem=1.lem/sl]
+                { %1 } ;
+
+
+SPrep -> 0: %pr
+                [$lem=1.lem/sl,$SPrep_type=pr]
+                { 1 } |
+         0: %SPrep.pr SN
+                [$SPrep_type=SN]
+                { 1 _1 2 } ;
+
+
+SRel -> 1: cuyo@rel SN.undet
+                [$rel_type=1.rel_type]
+                { el@det.def.[2.gender].[2.number] _ 2 _ de@pr _1 "el qual"@rel.an.$gender.$number } |
+        1: cuyo@rel SN.undet SV.*.cnj
+                [$rel_type=1.rel_type]
+                { el@det.def.[2.gender].[2.number] _ 2 _ de@pr _1 "el qual"@rel.an.$gender.$number _2 3[gender=2.gender,number=2.number] } |
+
+        1: SPrep.pr %SRel
+                { 1 _1 %2 } ;
+
+
+SV ->   1: %vblex
+                [$lem=1.lem/sl,$vb_cnj=cnj]
+                { %1 } |
+        2: %vblex.ifi
+                [$lem=1.lem/sl,$vb_cnj=cnj]
+                { anar@vaux.$person.$number _ 1(vb_impers)[tense=inf] } |
+        2: %vblex.inf
+                [$lem=1.lem/sl,$vb_cnj=impers]
+                { %1(vb_impers) } |
+        2: %vblex.ger
+                [$lem=1.lem/sl,$vb_cnj=impers]
+                { %1(vb_impers) } |
+        2: %vblex.pp
+                [$lem=1.lem/sl,$vb_cnj=impers]
+                { (if($tense=pp)%1(vb_pp) else %1(vb_impers)) } |
+
+        1: %vbser
+                [$lem=1.lem/sl,$vb_cnj=cnj]
+                { %1 } |
+        2: %vbser.ifi
+                [$lem=1.lem/sl,$vb_cnj=cnj]
+                { anar@vaux.$person.$number _ 1(vb_impers)[tense=inf] } |
+        2: %vbser.inf
+                [$lem=1.lem/sl,$vb_cnj=impers]
+                { %1(vb_impers) } |
+        2: %vbser.ger
+                [$lem=1.lem/sl,$vb_cnj=impers]
+                { %1(vb_impers) } |
+        2: %vbser.pp
+                [$lem=1.lem/sl,$vb_cnj=impers]
+                { (if($tense=pp)%1(vb_pp) else %1(vb_impers)) } |
+
+        2: %SV.*.cnj SAdj
+                { %1 _1 2[gender=$gender,number=$number] } ;
+
+
+
+
+
+
+
+
+! Regles pendents
+! 3571
+! 3599
+! 3636
+! 3884
+! 4136
+! 4205
+! 4294
+! 4405
+! 4453
+! 4519
+! 4600
+! 4649
+! 4706
+! 4735
+! 4792
+! 4818
+! 5419
+! 5502
+! 5705
+! 5769
+! 5994
+! 6022
+! 6062
+! 6088
+! 6289
+! 6362
+! 6954
+! 7182
+! 7301
+! 7473
+! 7515
+! 7548
+! 7565
+! 7649
+! 7728
+! 7767
+! 7795
+! 7835
+! 7873
+! 9845
+! 9924
+! 9978
+! 10063
+! 10087
+! 10125
+! 10156
+! 10194
+! 10239
+! 10292
+! 10334
+! 10430
+! 10451
+! 10476
+! 10532
+! 10557
+! 10611
+! 10685
+! 10810
+! 10862
+! 10898
+! 10945
+! 10992
+! 11049
+! 11106
+! 11158
+! 11171
+! 11184
+! 11197
+! 11210
+! 11224
+! 11245
+! 11271

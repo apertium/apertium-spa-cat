@@ -50,7 +50,7 @@ TARGETS_COMMON =			\
 	$(PREFIX2).autolex.bin  \
 	$(PREFIX2).autogen.bin 		\
 	$(PREFIX2).autopgen.bin 	\
-	$(PREFIX1C).t1x.bin 		\
+	$(PREFIX1C).rtx.bin 		\
 	$(PREFIX1V).t1x.bin 		\
 	$(PREFIX1U).t1x.bin 		\
 	$(PREFIX2).t1x.bin		\
@@ -212,9 +212,8 @@ $(PREFIX1).autolex-toponims-trad.bin: .deps/$(BASENAME).$(PREFIX1).toponims-trad
 ## Structural transfer rules
 ###############################################################################
 
-$(PREFIX1C).t1x.bin: $(PREFIX1C).t1x
-	apertium-validate-transfer $<
-	apertium-preprocess-transfer $< $@
+$(PREFIX1C).rtx.bin: $(BASENAME).$(PREFIX1C).rtx
+	rtx-comp $< $@
 
 $(PREFIX1V).t1x.bin: $(PREFIX1V).t1x
 	apertium-validate-transfer $<
@@ -224,17 +223,11 @@ $(PREFIX1U).t1x.bin: $(PREFIX1U).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-.deps/$(BASENAME).$(PREFIX1).cat.t1x: $(BASENAME).$(PREFIX1).t1x
-	python3 gent1x.py cat $< >$@
-
 .deps/$(BASENAME).$(PREFIX1).val_gva.t1x: $(BASENAME).$(PREFIX1).t1x
 	python3 gent1x.py val_gva $< >$@
 
 .deps/$(BASENAME).$(PREFIX1).val_uni.t1x: $(BASENAME).$(PREFIX1).t1x
 	python3 gent1x.py val_uni $< >$@
-
-$(PREFIX1C).t1x: .deps/$(BASENAME).$(PREFIX1).cat.t1x
-	xsltproc --stringparam alt cat alt.xsl $< >$@
 
 $(PREFIX1V).t1x: .deps/$(BASENAME).$(PREFIX1).val_gva.t1x
 	xsltproc --stringparam alt val_gva alt.xsl $< >$@

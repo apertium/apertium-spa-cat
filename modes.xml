@@ -26,9 +26,8 @@
       <program name="apertium-anaphora">
         <file name="apertium-spa-cat.spa-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
-        <file name="spa-cat.t1x"/>
-        <file name="spa-cat.t1x.bin"/>
+      <program name="rtx-proc -a" debug-suff="transfer">
+        <file name="spa-cat.rtx.bin"/>
       </program>
       <program name="apertium-posttransfer"/>
       <program name="lt-proc $1 -b">
@@ -68,9 +67,8 @@
       <program name="apertium-anaphora">
         <file name="apertium-spa-cat.spa-cat.arx"/>
       </program>
-      <program name="apertium-transfer -b" debug-suff="transfer">
-        <file name="spa-cat.t1x"/>
-        <file name="spa-cat.t1x.bin"/>
+      <program name="rtx-proc -a" debug-suff="transfer">
+        <file name="spa-cat.rtx.bin"/>
       </program>
       <program name="apertium-posttransfer"/>
       <program name="lt-proc $1 -b">
