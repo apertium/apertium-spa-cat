@@ -1372,6 +1372,23 @@
     </or>
   </rule>
 
+  <!-- agraviar > agreujar / ofendre's -->
+
+  <rule weight="0.8">
+    <match lemma="agraviar" tags="vblex.*"><select lemma="agreujar"/></match>
+  </rule>
+
+  <macro name="verbs_reflexius" p1="ofendre" p2="agraviar"/>
+
+  <rule weight="1"> 
+    <match lemma="agraviar"><select lemma="ofendre"/></match>
+    <or>
+        <match tags="prn.enc.ref.p3.mf.sp"/>
+        <match tags="prn.enc.p1.mf.*"/>
+        <match tags="prn.enc.p2.mf.*"/>
+    </or>
+  </rule>
+
   <!-- llevarse > emportar-se / llevar > portar -->
 
   <rule weight="0.8">
