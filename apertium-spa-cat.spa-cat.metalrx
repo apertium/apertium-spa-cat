@@ -1378,7 +1378,7 @@
     <match lemma="agraviar" tags="vblex.*"><select lemma="agreujar"/></match>
   </rule>
 
-  <macro name="verbs_reflexius" p1="ofendre" p2="agraviar"/>
+  <macro name="verbs_reflexius" p1="agraviar" p2="ofendre"/>
 
   <rule weight="1"> 
     <match lemma="agraviar"><select lemma="ofendre"/></match>
