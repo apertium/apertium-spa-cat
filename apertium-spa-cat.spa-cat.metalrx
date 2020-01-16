@@ -874,6 +874,26 @@
     </or>
   </rule>
 
+  <rule weight="1.0">
+    <or>
+      <match lemma="plazo" tags="n.*"/>
+      <match lemma="presentación" tags="n.*"/>
+      <match lemma="día" tags="n.*"/>
+      <match lemma="hábil" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="12">
+      <or>
+        <match tags="*.*"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <match lemma="contar" tags="vblex.*"><select lemma="comptar"/></match>
+  </rule>
+
   <rule weight="1">
     <match lemma="lo"/>
     <match lemma="contar" tags="vblex.*"><select lemma="explicar"/></match>
