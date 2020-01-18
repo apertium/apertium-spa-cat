@@ -774,7 +774,7 @@
     <match lemma="contar" tags="vblex.*"><select lemma="comptar"/></match>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="2.0">
     <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
     <repeat from="0" upto="4">
       <or>
@@ -804,7 +804,7 @@
     </or>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="2.0">
     <or>
       <match lemma="anécdota" tags="n.*"/>
       <match lemma="aventura" tags="n.*"/>
@@ -834,7 +834,7 @@
     <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="1.5">
     <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
     <repeat from="0" upto="2">
       <match tags="adv.*"/>
@@ -845,7 +845,7 @@
       </or>
   </rule>
 
-  <rule weight="1.0">
+  <rule weight="1.5">
     <match lemma="contar" tags="vblex.*"><select lemma="comptar"/></match>
     <repeat from="0" upto="2">
       <match tags="adv.*"/>
