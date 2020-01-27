@@ -142,10 +142,10 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 ## Bilingual dictionaries
 ###############################################################################
 
-$(BASENAME).$(PREFIX1).dix: $(BASENAME).$(PREFIX1).metadix 
+.deps/$(BASENAME).$(PREFIX1).dix: $(BASENAME).$(PREFIX1).metadix 
 	python3 convert-metadix-dix.py $< $@ 
 
-.deps/$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
+.deps/$(PREFIX1).dix: .deps/$(BASENAME).$(PREFIX1).dix .deps/.d
 	apertium-translate-to-default-equivalent $< $@
 
 .deps/$(PREFIX1).cat.dix: .deps/$(PREFIX1).dix
@@ -169,7 +169,7 @@ $(PREFIX1U).autobil.bin: .deps/$(PREFIX1).val_uni.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=val_uni lr $< $@
 
-$(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
+$(PREFIX2).autobil.bin: .deps/$(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
@@ -235,8 +235,8 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 EXTRA_DIST=									\
 		.deps/$(BASENAME).$(PREFIX1).lrx	\
 		.deps/$(BASENAME).$(PREFIX2).lrx	\
-		$(BASENAME).$(PREFIX1).dix 			\
-		$(BASENAME).$(PREFIX1).dix 			\
+		$(BASENAME).$(PREFIX1).metadix 			\
+		$(BASENAME).$(PREFIX1).metadix 			\
 		$(PREFIX1C).t1x 	\
 		$(PREFIX1V).t1x 	\
 		$(PREFIX1U).t1x 	\
