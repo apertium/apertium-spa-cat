@@ -142,6 +142,9 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 ## Bilingual dictionaries
 ###############################################################################
 
+$(BASENAME).$(PREFIX1).dix: $(BASENAME).$(PREFIX1).metadix 
+	python3 convert-metadix-dix.py $< $@ 
+
 .deps/$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix .deps/.d
 	apertium-translate-to-default-equivalent $< $@
 
