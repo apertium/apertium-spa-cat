@@ -23,6 +23,7 @@ vb_impers: _.tense ;
 vb_pp: _.tense.gender.number ;
 
 NULL: _ ;
+Clt: _.prn_type.person.gender.number ;
 PV: _ ;
 SAdj: _.adj_type.gender_chunk.number ;
 SAdv: _.adv_type ;
@@ -63,6 +64,9 @@ gender_chunk>gender: GD GD ;
 
 ! Rules
 
+Clt ->  1: %prn.enc
+                { %1(prnpers) } ;
+
 NULL -> 0: lquest {} ;
 
 PV ->   1: SN SV.*.cnj
@@ -70,7 +74,6 @@ PV ->   1: SN SV.*.cnj
 
 
 SAdj -> 1: %adj
-                [$lem=1.lem/sl]
                 { %1 } |
         0: %SV.vblex.impers.pp
                 { %1 } |
@@ -89,48 +92,48 @@ SAdj -> 1: %adj
 
 
 SAdv -> 1: %adv
-                [$lem=1.lem/sl]
                 { 1 } |
         1: %preadv
-                [$lem=1.lem/sl]
                 { 1 } ;
 
 
 SDet -> 1: %det
+                { %1 } |
+        2: %alguno_negativo@det
                 [$lem=1.lem/sl]
-                { %1 } ;
+                { 1(pr) } ;
 
 
 SN ->   1: %n
-                [$lem=1.lem/sl,$SN_det=undet]
+                [$SN_det=undet]
                 { %1 } |
 
         1: %np.ant
-                [$lem=1.lem/sl,$SN_det=det]
+                [$SN_det=det]
                 { %1[gender="",number=""] } |
         1: %np.cog
-                [$lem=1.lem/sl,$SN_det=det]
+                [$SN_det=det]
                 { %1 } |
-        1: %SN.det.ant SN.det.cog
+        1: %SN.det.ant SN.det.ant
                 { %1 _1 2 } |
         1: %np.top
-                [$lem=1.lem/sl,$SN_det=undet]
+                [$SN_det=undet]
                 { %1 } |
         1: %np.loc
-                [$lem=1.lem/sl,$SN_det=undet]
+                [$SN_det=undet]
                 { %1[gender="",number=""] } |
         1: %np.al
-                [$lem=1.lem/sl,$SN_det=undet]
+                [$SN_det=undet]
                 { %1[gender="",number=""] } |
 
         2: %prn.tn.[person]
-                [$lem=1.lem/sl,$SN_det=prnpers]
+                [$SN_det=prnpers]
                 { %1(prnpers) } |
         1: %prn.tn
-                [$lem=1.lem/sl,$SN_det=nodet]
+                [$SN_det=nodet]
                 { %1 } |
         1: %prn.itg
-                [$lem=1.lem/sl,$SN_det=nodet]
+                [$SN_det=nodet]
                 { %1 } |
 
         2: %SN SPrep.SN
@@ -150,7 +153,7 @@ SN ->   1: %n
                 [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
                 { 1[gender=$gender,number=$number] _1 %2 } |
         1: %SN.undet alguno_negativo@SDet
-                [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                [$SN_det=det,$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number=(if(1.number=ND)2.number else 1.number)]
                 { 2[gender=$gender,number=$number] _1 %1 } |
 
         1: SPredet %SN.det
@@ -166,17 +169,17 @@ SN ->   1: %n
                 { %1 _1 2[gender=$gender,number=$number] } |
         2: %SN.det cm SRel
                 [$gender_chunk=(if(1.gender=GD)3.gender else 1.gender),$number=(if(1.number=ND)3.number else 1.number)]
-                { %1 _1 2 _2 3[gender=$gender,number=$number] } ;
+                { %1 _1 2 _2 3[gender=$gender,number=$number] } |
+
+        1: %nada@SN de@SPrep.pr SN.undet.*.sg
+                { gens@adv _1 2 _2 3 } ;
 
 
 SNum -> 0: %num
-                [$lem=1.lem/sl]
                 { %1(num_digits) } |
         1: %num.[gender]
-                [$lem=1.lem/sl]
                 { %1 } |
         2: SNum %SNum
-                [$lem=1.lem/sl]
                 { 1 _1 %2 } |
 
         1: %SNum cm SNum
@@ -188,23 +191,20 @@ SNum -> 0: %num
 
 
 SPredet -> 0: %predet
-                [$lem=1.lem/sl]
                 { %1 } ;
 
 
 SPrep -> 0: %pr
-                [$lem=1.lem/sl,$SPrep_type=pr]
+                [$SPrep_type=pr]
                 { 1 } |
          0: %SPrep.pr SN
                 [$SPrep_type=SN]
                 { 1 _1 2 } ;
 
 
-SRel -> 1: cuyo@rel SN.undet
-                [$rel_type=1.rel_type]
+SRel -> 1: cuyo@rel.$rel_type SN.undet
                 { el@det.def.[2.gender].[2.number] _ 2 _ de@pr _1 "el qual"@rel.an.$gender.$number } |
-        1: cuyo@rel SN.undet SV.*.cnj
-                [$rel_type=1.rel_type]
+        1: cuyo@rel.$rel_type SN.undet SV.*.cnj
                 { el@det.def.[2.gender].[2.number] _ 2 _ de@pr _1 "el qual"@rel.an.$gender.$number _2 3[gender=2.gender,number=2.number] } |
 
         1: SPrep.pr %SRel
@@ -212,36 +212,97 @@ SRel -> 1: cuyo@rel SN.undet
 
 
 SV ->   1: %vblex
-                [$lem=1.lem/sl,$vb_cnj=cnj]
+                [$vb_cnj=cnj]
                 { %1 } |
         2: %vblex.ifi
-                [$lem=1.lem/sl,$vb_cnj=cnj]
+                [$vb_cnj=cnj]
                 { anar@vaux.$person.$number _ 1(vb_impers)[tense=inf] } |
         2: %vblex.inf
-                [$lem=1.lem/sl,$vb_cnj=impers]
-                { %1(vb_impers) } |
+                [$vb_cnj=impers]
+                { (if($vb_cnj=impers)
+                        %1(vb_impers)
+                else
+                        %1) } |
         2: %vblex.ger
-                [$lem=1.lem/sl,$vb_cnj=impers]
+                [$vb_cnj=impers]
                 { %1(vb_impers) } |
         2: %vblex.pp
-                [$lem=1.lem/sl,$vb_cnj=impers]
-                { (if($tense=pp)%1(vb_pp) else %1(vb_impers)) } |
+                [$vb_cnj=impers]
+                { (if($tense=pp)
+                        %1(vb_pp)
+                else
+                        %1(vb_impers)) } |
 
         1: %vbser
-                [$lem=1.lem/sl,$vb_cnj=cnj]
+                [$vb_cnj=cnj]
                 { %1 } |
         2: %vbser.ifi
-                [$lem=1.lem/sl,$vb_cnj=cnj]
+                [$vb_cnj=cnj]
                 { anar@vaux.$person.$number _ 1(vb_impers)[tense=inf] } |
         2: %vbser.inf
-                [$lem=1.lem/sl,$vb_cnj=impers]
-                { %1(vb_impers) } |
+                [$vb_cnj=impers]
+                { (if($vb_cnj=impers)
+                        %1(vb_impers)
+                else
+                        %1) } |
         2: %vbser.ger
-                [$lem=1.lem/sl,$vb_cnj=impers]
+                [$vb_cnj=impers]
                 { %1(vb_impers) } |
         2: %vbser.pp
-                [$lem=1.lem/sl,$vb_cnj=impers]
-                { (if($tense=pp)%1(vb_pp) else %1(vb_impers)) } |
+                [$vb_cnj=impers]
+                { (if($tense=pp)
+                        %1(vb_pp)
+                else
+                        %1(vb_impers)) } |
+
+        1: %vbhaver
+                [$vb_cnj=cnj]
+                { %1 } |
+        2: %vbhaver.ifi
+                [$vb_cnj=cnj]
+                { anar@vaux.$person.$number _ 1(vb_impers)[tense=inf] } |
+        2: %vbhaver.inf
+                [$vb_cnj=impers]
+                { (if($vb_cnj=impers)
+                        %1(vb_impers)
+                else
+                        %1) } |
+        2: %vbhaver.ger
+                [$vb_cnj=impers]
+                { %1(vb_impers) } |
+        2: %vbhaver.pp
+                [$vb_cnj=impers]
+                { (if($tense=pp)
+                        %1(vb_pp)
+                else
+                        %1(vb_impers)) } |
+
+        2: anar@SV.vblex.cnj.pri.$person.$number.$vb_cnj a@SPrep.pr %SV.*.impers.inf
+                [$tense=fti]
+                { %3 } |
+        1: anar@SV.vblex.cnj.$person.$number.$vb_cnj.$tense a@SPrep.pr %SV.*.impers.inf
+                { 1 _2 2 _2 3 } |
+
+        1: %SV.*.impers.inf Clt.enc
+                { %1 + 2 } |
+        3: %SV.*.impers.inf Clt.enc Clt.enc
+                { %1 + 2 + 3 } |
+
+        1: %SV.*.impers.ger Clt.enc
+                { %1 + 2 } |
+        3: %SV.*.impers.ger Clt.enc Clt.enc
+                { %1 + 2 + 3 } |
+
+        1: %SV.*.cnj.imp Clt.enc
+                { (if(1.lem equalcl "veure" & 1.person=p3 & 1.number=sg & 2.lem equalcl "es") ! véase > vegeu
+                        [%1[person=p2,number=pl]]
+                else
+                        [%1 + 2]) } |
+        3: %SV.*.cnj.imp Clt.enc Clt.enc
+                { %1 + 2 + 3 } |
+
+        2: %SV.vbhaver SV.*.impers.pp.$lem.$vb_type
+                { %1 _1 2 } |
 
         2: %SV.*.cnj SAdj
                 { %1 _1 2[gender=$gender,number=$number] } ;
@@ -254,10 +315,8 @@ SV ->   1: %vblex
 
 
 ! Regles pendents
-! 3571
 ! 3599
 ! 3636
-! 3884
 ! 4136
 ! 4205
 ! 4294
@@ -266,8 +325,6 @@ SV ->   1: %vblex
 ! 4519
 ! 4600
 ! 4649
-! 4706
-! 4735
 ! 4792
 ! 4818
 ! 5419
@@ -287,8 +344,6 @@ SV ->   1: %vblex
 ! 7515
 ! 7548
 ! 7565
-! 7649
-! 7728
 ! 7767
 ! 7795
 ! 7835
@@ -308,9 +363,7 @@ SV ->   1: %vblex
 ! 10451
 ! 10476
 ! 10532
-! 10557
-! 10611
-! 10685
+
 ! 10810
 ! 10862
 ! 10898
@@ -323,6 +376,3 @@ SV ->   1: %vblex
 ! 11184
 ! 11197
 ! 11210
-! 11224
-! 11245
-! 11271
