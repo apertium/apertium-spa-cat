@@ -8964,10 +8964,21 @@
   </rule>
 
   <rule weight="1">
+    <or>
+      <match lemma="seguir"/>
+      <match lemma="estar"/>
+      <match lemma="continuar"/>
+    </or>
+    <match lemma="cebar" tags="vblex.*"><select lemma="acarnissar"/></match>
+    <match lemma="con" tags="pr"/>
+  </rule>
+
+  <rule weight="1">
     <match lemma="cebar" tags="vblex.*"><select lemma="acarnissar"/></match>
     <match tags="prn.enc.*"/>
     <match lemma="con" tags="pr"/>
   </rule>
+
 
    <!-- el día siguiente > l'endemà / el dia següent -->
 
