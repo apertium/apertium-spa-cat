@@ -868,6 +868,8 @@
     <or>
       <match lemma="qué"/>
       <match lemma="esto"/>
+      <match lemma="cómo"/>
+      <match lemma="como"/>
       <match lemma="eso"/>
       <match lemma="aquello"/>
       <match lemma="todo" tags="prn.tn.m.sg"/>
@@ -4432,6 +4434,7 @@
     <or>
       <match lemma="ser" tags="vbser.*"/>
       <match lemma="resultar" tags="vblex.*"/>
+      <match lemma="hacer" tags="vblex.*"/>
     </or>
     <match lemma="preciso" tags="adj.m.sg"><select lemma="necessari"/></match>
     <or>
@@ -4441,6 +4444,26 @@
       <match lemma="colaboración"/>
     </or>  
   </rule>
+
+  <rule weight="0.5">
+    <match lemma="montante" tags="n.*"><select lemma="muntant"/></match>
+  </rule>  
+
+  <rule weight="1">
+    <match lemma="montante" tags="n.*"><select lemma="import"/></match>
+    <match lemma="de"/>
+  </rule>  
+
+  <rule weight="1">
+    <or>
+      <match lemma="sumar"/>
+      <match lemma="aumentar"/>
+      <match lemma="incrementar"/>
+      <match lemma="decrementar"/>
+    </or>
+    <match tags="det.*"/>
+    <match lemma="montante" tags="n.*"><select lemma="import"/></match>
+  </rule>  
 
   <!-- desatar > deslligar / desfermar... -->
 
