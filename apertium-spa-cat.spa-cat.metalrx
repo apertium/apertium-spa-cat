@@ -869,7 +869,7 @@
       <match lemma="qué"/>
       <match lemma="esto"/>
       <match lemma="cómo"/>
-      <match lemma="como"/>
+      <!--<match lemma="como"/>-->
       <match lemma="eso"/>
       <match lemma="aquello"/>
       <match lemma="todo" tags="prn.tn.m.sg"/>
@@ -6729,6 +6729,17 @@
       <match lemma="candidato" />
       <match lemma="alcalde" />
     </or>
+  </rule>
+
+  <!-- fitar > acotar / lindar ... -->
+
+  <rule weight="0.5">
+    <match lemma="fitar" tags="vblex.*"><select lemma="acotar"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="fitar" tags="vblex.*"><select lemma="lindar"/></match>
+    <match lemma="amb" tags="pr"/>
   </rule>
 
     <!-- hambre > fam / gana ... -->
