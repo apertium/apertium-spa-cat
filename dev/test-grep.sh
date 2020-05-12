@@ -28,5 +28,4 @@ do
 done
 } > "greptests.txt"
 
-echo "Checking for differences"
-git diff --exit-code
+
