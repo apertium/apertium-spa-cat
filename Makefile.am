@@ -283,3 +283,4 @@ test: all
 	@echo "pero" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
+	bash -x dev/test-translations.sh
