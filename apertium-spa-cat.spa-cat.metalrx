@@ -7050,16 +7050,21 @@
   <!-- És opcional: entre altres/entre d'altres-->
 
   <rule weight="1">
-    <!--<match lemma="entre" tags="pr"/>-->
+    <match lemma="entre" tags="pr"/>
     <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
   </rule>
 
-  <!-- muchos otros > molts altres  
+  <!-- muchos otros > molts altres --> 
 
   <rule weight="1">
     <match lemma="muchos"/>
     <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
-  </rule>-->
+  </rule>
+
+  <rule weight="0.7">
+    <match tags="cnjcoo"/>
+    <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
+  </rule>
 
   <!-- a base de -->
 
