@@ -3944,6 +3944,7 @@
     <repeat from="0" upto="2">
       <or>
         <match lemma="de"/>
+        <match lemma="entre"/>
         <match tags="det.*"/>
       </or>
     </repeat>
