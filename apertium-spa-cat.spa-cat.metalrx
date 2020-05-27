@@ -5542,8 +5542,13 @@
     </or>
   </rule>
 
-  <rule weight="3.0">   <!-- de forma continua > de manera contínua -->
+  <rule weight="2.0">
     <match lemma="de"/>
+    <match lemma="este" tags="det.dem.f.sg"/>
+    <match lemma="forma" tags="n.*"><select lemma="manera"/></match>
+  </rule>
+
+  <rule weight="3.0">   <!-- de forma continua > de manera contínua -->
     <match lemma="forma" tags="n.*"><select lemma="forma"/></match>
     <or>
       <!--<match tags="regular"/>-->
@@ -5688,6 +5693,7 @@
       <match lemma="ahí"/>
       <match lemma="allí"/>
       <match lemma="allá"/>
+      <match lemma="presente"/>
     </or>
   </rule>
 
@@ -7044,16 +7050,16 @@
   <!-- És opcional: entre altres/entre d'altres-->
 
   <rule weight="1">
-    <match lemma="entre" tags="pr"/>
+    <!--<match lemma="entre" tags="pr"/>-->
     <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
   </rule>
 
-  <!-- muchos otros > molts altres --> 
+  <!-- muchos otros > molts altres  
 
   <rule weight="1">
     <match lemma="muchos"/>
     <match lemma="otro" tags="prn.tn.*.pl"><select lemma="altre"/></match>
-  </rule>
+  </rule>-->
 
   <!-- a base de -->
 
@@ -7357,6 +7363,11 @@
       <match lemma="sorprender" tags="vblex.*"/>
       <match lemma="cesar" tags="vblex.*"/>
       <match lemma="destituir" tags="vblex.*"/>
+      <match lemma="contratar" tags="vblex.*"/>
+      <match lemma="desnudar" tags="vblex.*"/>
+      <match lemma="vestir" tags="vblex.*"/>
+      <match lemma="castigar" tags="vblex.*"/>
+      <match lemma="instar" tags="vblex.*"/>
   </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
