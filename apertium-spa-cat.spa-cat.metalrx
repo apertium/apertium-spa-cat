@@ -9399,6 +9399,12 @@
     <match tags="np.*"/>
   </rule> 
   
+  <rule weight="2"> <!--Franklin D. Roosevelt-->
+    <match tags="np.*"/>
+    <match lemma="D." tags="n.*"><select lemma="D."/></match>
+    <match tags="np.*"/>
+  </rule>
+
   <!-- algo > alguna cosa / una cosa -->
 
   <rule weight="0.5">
