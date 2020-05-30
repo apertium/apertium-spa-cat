@@ -4529,9 +4529,15 @@
     <match lemma="fin" tags="n.*"><select lemma="fi_masc"/></match>
   </rule>
 
+  <rule weight="1.5"> <!-- ??? -->
+    <match lemma="a"/>
+    <match tags="det.pos.*"/>
+    <match lemma="fin" tags="n.*"><select lemma="fi_fem"/></match>
+  </rule>
+
   <rule weight="1">
     <match lemma="medio"/>
-    <repeat from="0" upto="20">
+    <repeat from="0" upto="10">
       <or>
         <match tags="*.*"/>
         <match tags="preadv"/>
@@ -4545,7 +4551,7 @@
 
   <rule weight="1">
     <match lemma="fin" tags="n.*"><select lemma="fi_masc"/></match>
-    <repeat from="0" upto="20">
+    <repeat from="0" upto="10">
       <or>
         <match tags="*.*"/>
         <match tags="preadv"/>
@@ -4557,6 +4563,11 @@
     <match lemma="medio"/>
   </rule>
  
+ <rule weight="1.5">
+    <match lemma="el" tags="det.*"/>
+    <match lemma="fin" tags="n.*"><select lemma="fi_fem"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
 
 
   <!-- hasta > fins a/fins ... -->
@@ -7449,6 +7460,7 @@
       <match lemma="castigar" tags="vblex.*"/>
       <match lemma="instar" tags="vblex.*"/>
       <match lemma="discriminar" tags="vblex.*"/>
+      <match lemma="mencionar" tags="vblex.*"/>
   </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
@@ -9484,6 +9496,12 @@
   </rule>
 
   <rule weight="1">
+    <match lemma="algo" tags="prn.*"><select lemma="una mica"/></match>
+    <match lemma="de"/>
+    <match tags="n.*"/>
+  </rule>
+
+  <rule weight="1">
     <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
     <match lemma="así" tags="adv"/>
     <!--<match lemma="como" tags="adv"/>-->
@@ -9502,6 +9520,28 @@
       <match tags="adj.mf.sg"/>
       <match tags="vblex.pp.m.sg"/>
     </or>
+  </rule>
+
+  <rule weight="4">
+    <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
+    <match tags="pr"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el qual"/></match> <!--femení-->
+  </rule>
+
+  <rule weight="4">
+    <match lemma="ser"/>
+    <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
+    <match lemma="que"/>
+  </rule>
+
+  <rule weight="5">
+    <or>
+      <match lemma="entender"/>
+      <match lemma="comprender"/>
+    </or>
+    <match lemma="algo" tags="prn.*"><select lemma="alguna cosa"/></match>
+    <match lemma="de" tags="pr"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
   <!-- Fausto > Faust /Fausto  -->
