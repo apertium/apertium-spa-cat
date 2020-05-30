@@ -4519,7 +4519,7 @@
     <match lemma="fin" tags="n.*"><select lemma="fi_fem"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="3">
     <match lemma="fin" tags="n.m.pl"><select lemma="fi_masc"/></match>
   </rule>
 
@@ -4550,7 +4550,7 @@
   <rule weight="1.5"> <!-- ??? -->
     <match lemma="a"/>
     <match tags="det.pos.*"/>
-    <match lemma="fin" tags="n.*"><select lemma="fi_fem"/></match>
+    <match lemma="fin" tags="n.m.sg"><select lemma="fi_fem"/></match>
   </rule>
 
   <rule weight="1">
@@ -4583,7 +4583,7 @@
  
  <rule weight="1.5">
     <match lemma="el" tags="det.*"/>
-    <match lemma="fin" tags="n.*"><select lemma="fi_fem"/></match>
+    <match lemma="fin" tags="n.m.sg"><select lemma="fi_fem"/></match>
     <match lemma="de" tags="pr"/>
   </rule>
 
@@ -5796,6 +5796,9 @@
       <match lemma="allí"/>
       <match lemma="allá"/>
       <match lemma="presente"/>
+      <match lemma="cerca"/>
+      <match lemma="próximo"/>
+      <match lemma="cercano"/>
     </or>
   </rule>
 
@@ -5925,6 +5928,21 @@
   <rule weight="1">
     <match lemma="lo" tags="detnt"><select lemma="això"/></match>
     <match tags="pr" lemma="de"/>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="lo" tags="detnt"><select lemma="el que és"/></match>
+    <match tags="adj.*"/>
+    <match lemma="de"/>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="lo" tags="detnt"><select lemma="el"/></match>
+    <match tags="adj.*"/>
+    <match tags="cnjcoo"/>
+    <match lemma="lo" tags="detnt"><select lemma="el"/></match>
+    <match tags="adj.*"/>
+    <match lemma="de"/>
   </rule>
 
   <!--tras > després de / rere  -->
@@ -9559,6 +9577,16 @@
     </or>
     <match lemma="algo" tags="prn.*"><select lemma="alguna cosa"/></match>
     <match lemma="de" tags="pr"/>
+    <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="5">
+    <or>
+      <match lemma="añadir"/>
+      <match lemma="sumar"/>
+    </or>
+    <match lemma="algo" tags="prn.*"><select lemma="alguna cosa"/></match>
+    <match lemma="a" tags="pr"/>
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
