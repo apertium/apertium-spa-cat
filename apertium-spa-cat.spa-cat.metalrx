@@ -6283,6 +6283,60 @@
       <match lemma="parte" tags="n.*"/>
   </rule>
 
+  <!--destino > destí / destinació -->
+  <rule weight="0.5">
+    <match lemma="destino" tags="n.*"><select lemma="destí"/></match>
+  </rule>  
+
+  <rule weight="1">
+    <match lemma="con"/>
+    <match lemma="destino" tags="n.*"><select lemma="destinació"/></match>
+  </rule>  
+
+  <rule weight="1">
+    <match lemma="destino" tags="n.*"><select lemma="destinació"/></match>
+    <repeat from="0" upto="10">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="aeropuerto"/>
+      <match lemma="autobús"/>
+      <match lemma="autocar"/>
+      <match lemma="avenida"/>
+      <match lemma="avión"/>
+      <match lemma="calle"/>
+      <match lemma="dirección_postal"/>
+      <match lemma="estación"/>
+      <match lemma="ferrocarril"/>
+      <match lemma="llegada"/>
+      <match lemma="puerto"/>
+      <match lemma="taxi"/>
+      <match lemma="tren"/>
+    </or>
+  </rule>  
+
+  <rule weight="1">
+    <or>
+      <match lemma="aeropuerto"/>
+      <match lemma="autobús"/>
+      <match lemma="autocar"/>
+      <match lemma="avenida"/>
+      <match lemma="avión"/>
+      <match lemma="calle"/>
+      <match lemma="dirección_postal"/>
+      <match lemma="estación"/>
+      <match lemma="ferrocarril"/>
+      <match lemma="llegada"/>
+      <match lemma="puerto"/>
+      <match lemma="taxi"/>
+      <match lemma="tren"/>
+    </or>
+    <repeat from="0" upto="10">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="destino" tags="n.*"><select lemma="destinació"/></match>
+  </rule>  
+
   <!-- todo lo cual -->
 
   <rule weight="0.5">
