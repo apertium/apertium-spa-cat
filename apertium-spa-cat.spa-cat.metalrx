@@ -5929,11 +5929,21 @@
     <match lemma="lo" tags="detnt"><select lemma="això"/></match>
     <match tags="pr" lemma="de"/>
   </rule>
-
+<!--
   <rule weight="1">
     <match lemma="lo" tags="detnt"><select lemma="el que és"/></match>
     <match tags="adj.*"/>
     <match lemma="de"/>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="lo" tags="detnt"><select lemma="el"/></match>
+    <or>
+      <match tags="adj.*" lemma="mismo"/>
+      <match tags="adj.*" lemma="mejor"/>
+      <match tags="adj.*" lemma="contrario"/>
+      <match tags="adj.*" lemma="máximo"/>
+    </or>
   </rule>
 
   <rule weight="2">
@@ -5944,7 +5954,7 @@
     <match tags="adj.*"/>
     <match lemma="de"/>
   </rule>
-
+-->
   <!--tras > després de / rere  -->
 
   <rule weight="0.6">
@@ -6295,6 +6305,14 @@
 
   <rule weight="1">
     <match lemma="destino" tags="n.*"><select lemma="destinació"/></match>
+    <or>
+      <match lemma="turístico"/>
+      <match lemma="lejano"/>
+    </or>
+  </rule> 
+
+  <rule weight="1">
+    <match lemma="destino" tags="n.*"><select lemma="destinació"/></match>
     <repeat from="0" upto="10">
       <match tags="*"/>
     </repeat>
@@ -6307,11 +6325,18 @@
       <match lemma="calle"/>
       <match lemma="dirección_postal"/>
       <match lemma="estación"/>
+      <match lemma="estado"/>
       <match lemma="ferrocarril"/>
       <match lemma="llegada"/>
+      <match lemma="lugar"/>
+      <match lemma="origen"/>
+      <match lemma="mercancía"/>
+      <match lemma="país"/>
       <match lemma="puerto"/>
+      <match lemma="región"/>
       <match lemma="taxi"/>
       <match lemma="tren"/>
+      <match lemma="viaje"/>
     </or>
   </rule>  
 
@@ -6325,11 +6350,18 @@
       <match lemma="calle"/>
       <match lemma="dirección_postal"/>
       <match lemma="estación"/>
+      <match lemma="estado"/>
       <match lemma="ferrocarril"/>
       <match lemma="llegada"/>
+      <match lemma="lugar"/>
+      <match lemma="origen"/>
+      <match lemma="mercancía"/>
+      <match lemma="país"/>
       <match lemma="puerto"/>
+      <match lemma="región"/>
       <match lemma="taxi"/>
       <match lemma="tren"/>
+      <match lemma="viaje"/>
     </or>
     <repeat from="0" upto="10">
       <match tags="*"/>
@@ -9591,19 +9623,27 @@
     <match lemma="algo" tags="prn.*"><select lemma="alguna cosa"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="0.6">
     <match lemma="algo" tags="prn.*"><select lemma="una mica"/></match>
     <match lemma="de"/>
     <match tags="n.*"/>
   </rule>
 
-  <rule weight="1">
+  <rule weight="0.7">
+    <or>
+      <match lemma="hacer"/>
+      <match lemma="enseñar"/>
+    </or>
+    <match lemma="algo" tags="prn.*"><select lemma="alguna cosa"/></match>
+  </rule>
+
+  <rule weight="1.5">
     <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
     <match lemma="así" tags="adv"/>
     <!--<match lemma="como" tags="adv"/>-->
   </rule>
 
-  <rule weight="1">
+  <rule weight="1.5">
     <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
     <repeat from="0" upto="2">
       <or>
@@ -9622,6 +9662,17 @@
     <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
     <match tags="pr"/>
     <match lemma="lo que" tags="rel.*"><select lemma="el qual"/></match> <!--femení-->
+  </rule>
+
+
+  <rule weight="1">
+    <match lemma="lo cual" tags="rel.*"><select lemma="la qual cosa"/></match> 
+  </rule>
+
+  <rule weight="4">
+    <match lemma="algo" tags="prn.*"><select lemma="una cosa"/></match>
+    <match tags="pr"/>
+    <match lemma="lo cual" tags="rel.*"><select lemma="el qual"/></match> <!--femení-->
   </rule>
 
   <rule weight="4">
@@ -9655,6 +9706,9 @@
       <match lemma="alejar"/>
       <match lemma="acercar"/>
       <match lemma="aproximar"/>
+      <match lemma="diferir"/>
+      <match lemma="diferenciar"/>
+      <match lemma="distinguir"/>
     </or>
     <match lemma="algo" tags="prn.*"><select lemma="una mica"/></match>
   </rule>
