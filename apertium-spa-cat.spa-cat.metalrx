@@ -3915,6 +3915,10 @@
     <match lemma="cumbre" tags="n.*"><select lemma="cim"/></match>
   </rule>
 
+  <rule weight="0.7">
+    <match lemma="Cumbre" tags="n.*"><select lemma="Cimera"/></match>
+  </rule>
+
   <rule weight="1.0">
     <or>
       <match tags="num"/>
@@ -7444,6 +7448,7 @@
       <match lemma="vestir" tags="vblex.*"/>
       <match lemma="castigar" tags="vblex.*"/>
       <match lemma="instar" tags="vblex.*"/>
+      <match lemma="discriminar" tags="vblex.*"/>
   </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
