@@ -6341,6 +6341,12 @@
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
+  <rule weight="3"> 
+    <match lemma="algo"/>
+    <match tags="pr" lemma="de"/>
+    <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
   <rule weight="5">  <!--TODO: excepte si concorda amb el nom anterior-->
     <or>
       <match tags="pr" lemma="excepto"/>
@@ -9588,6 +9594,15 @@
     <match lemma="algo" tags="prn.*"><select lemma="alguna cosa"/></match>
     <match lemma="a" tags="pr"/>
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="5">
+    <or>
+      <match lemma="alejar"/>
+      <match lemma="acercar"/>
+      <match lemma="aproximar"/>
+    </or>
+    <match lemma="algo" tags="prn.*"><select lemma="una mica"/></match>
   </rule>
 
   <!-- Fausto > Faust /Fausto  -->
