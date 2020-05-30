@@ -4491,6 +4491,70 @@
     </or>  
   </rule>
 
+  <!-- fin > fi (masc / fem) -->
+
+  <rule weight="0.5">
+    <match lemma="fin" tags="n.*"><select lemma="fi_fem"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="fin" tags="n.m.pl"><select lemma="fi_masc"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="para"/>
+    <match tags="det.*"/>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="adj.*"/>
+        <match tags="vblex.pp.*"/>
+      </or>
+    </repeat>
+    <match lemma="fin" tags="n.*"><select lemma="fi_masc"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="a"/>
+    <repeat from="1" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="vblex.pp.*"/>
+      </or>
+    </repeat>
+    <match lemma="fin" tags="n.*"><select lemma="fi_masc"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="medio"/>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <match lemma="fin" tags="n.*"><select lemma="fi_masc"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="fin" tags="n.*"><select lemma="fi_masc"/></match>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <match lemma="medio"/>
+  </rule>
+ 
+
+
   <!-- hasta > fins a/fins ... -->
 
   <rule weight="0.6">
@@ -6684,8 +6748,9 @@
     <or>
       <match lemma="esto" tags="prn.tn.nt"/>
       <match lemma="eso" tags="prn.tn.nt"/>
+      <match lemma="ello" tags="prn.tn.p3.nt"/>
     </or>
-    <repeat from="0" upto="4">
+    <repeat from="0" upto="10">
       <match tags="*"/>
     </repeat>
     <match lemma="sin embargo" tags="adv"><select lemma="tanmateix"/></match>   
@@ -6693,12 +6758,13 @@
 
   <rule weight="3">
     <match lemma="sin embargo" tags="adv"><select lemma="tanmateix"/></match>   
-    <repeat from="0" upto="4">
+    <repeat from="0" upto="10">
       <match tags="*"/>
     </repeat>
     <or>
       <match lemma="esto" tags="prn.tn.nt"/>
       <match lemma="eso" tags="prn.tn.nt"/>
+      <match lemma="ello" tags="prn.tn.p3.nt"/>
     </or>  
   </rule>
 
@@ -7934,6 +8000,7 @@
     <or>
       <match lemma="tarea" tags="n.*"/>
       <match lemma="trabajo" tags="n.*"/>
+      <match lemma="cambio" tags="n.*"/>
     </or>
   </rule>
 
