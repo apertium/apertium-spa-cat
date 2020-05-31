@@ -4562,7 +4562,7 @@
     <match lemma="fin" tags="n.m.sg"><select lemma="fi_fem"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="3">
     <match lemma="medio"/>
     <repeat from="0" upto="10">
       <or>
@@ -4576,7 +4576,7 @@
     <match lemma="fin" tags="n.*"><select lemma="fi_masc"/></match>
   </rule>
 
-  <rule weight="1">
+  <rule weight="3">
     <match lemma="fin" tags="n.*"><select lemma="fi_masc"/></match>
     <repeat from="0" upto="10">
       <or>
@@ -4591,6 +4591,20 @@
   </rule>
  
  <rule weight="1.5">
+    <match lemma="el" tags="det.*"/>
+    <match lemma="fin" tags="n.m.sg"><select lemma="fi_fem"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
+  <rule weight="4">
+    <match lemma="por"/>
+    <match lemma="el" tags="det.*"/>
+    <match lemma="fin" tags="n.m.sg"><select lemma="fi_fem"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
+  <rule weight="4">
+    <match lemma="por"/>
     <match lemma="el" tags="det.*"/>
     <match lemma="fin" tags="n.m.sg"><select lemma="fi_fem"/></match>
     <match lemma="de" tags="pr"/>
@@ -6142,6 +6156,9 @@
       <match lemma="animar"/>
       <match lemma="instar"/>
       <match lemma="motivar"/>
+      <match lemma="llamar"/> <!-- seria millor convertir-ho en infinitiu: invitar a + inf -->
+      <match lemma="invitar"/>
+      <match lemma="convidar"/>
     </or>
     <match lemma="a que" tags="cnjsub"><select lemma="que"/></match>
   </rule>
@@ -6248,6 +6265,7 @@
         <match lemma="tratar" tags="vblex.*"/>
         <match lemma="constar" tags="vblex.*"/>
         <match lemma="hablar" tags="vblex.*"/>
+        <match lemma="disfrutar" tags="vblex.*"/>
       </or>
   </rule>
 
@@ -6487,6 +6505,8 @@
       <match lemma="comparar" tags="vblex.*"/>
       <match lemma="responder" tags="vblex.*"/>
       <match lemma="contestar" tags="vblex.*"/>
+      <match lemma="llamamiento" tags="n.*"/>
+      <match lemma="llamada" tags="n.*"/>
     </or>
     <repeat from="0" upto="3">
       <or>
