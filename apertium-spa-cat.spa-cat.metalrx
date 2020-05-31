@@ -6334,18 +6334,19 @@
       <match lemma="calle"/>
       <match lemma="dirección_postal"/>
       <match lemma="estación"/>
-      <match lemma="estado"/>
+      <!--<match lemma="estado"/>-->
       <match lemma="ferrocarril"/>
       <match lemma="llegada"/>
-      <match lemma="lugar"/>
+      <!--<match lemma="lugar"/>-->
       <match lemma="origen"/>
       <match lemma="mercancía"/>
-      <match lemma="país"/>
+      <!--<match lemma="país"/>-->
       <match lemma="puerto"/>
       <match lemma="región"/>
       <match lemma="taxi"/>
       <match lemma="tren"/>
       <match lemma="viaje"/>
+      <match lemma="vacaciones"/>
     </or>
   </rule>  
 
@@ -6359,20 +6360,20 @@
       <match lemma="calle"/>
       <match lemma="dirección_postal"/>
       <match lemma="estación"/>
-      <!--<match lemma="estado"/>-->
+      <match lemma="estado"/>
       <match lemma="ferrocarril"/>
       <match lemma="llegada"/>
-      <!--<match lemma="lugar"/>-->
+      <match lemma="lugar"/>
       <match lemma="origen"/>
       <match lemma="mercancía"/>
-      <!--<match lemma="país"/>-->
+      <match lemma="país"/>
       <match lemma="puerto"/>
       <match lemma="región"/>
       <match lemma="taxi"/>
       <match lemma="tren"/>
       <match lemma="viaje"/>
     </or>
-    <repeat from="0" upto="10">
+    <repeat from="0" upto="5">
       <match tags="*"/>
     </repeat>
     <match lemma="destino" tags="n.*"><select lemma="destinació"/></match>
