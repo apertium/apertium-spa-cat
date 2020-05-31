@@ -6226,6 +6226,8 @@
       <match lemma="realidad"/>
       <match lemma="sentido"/>
       <match lemma="seguro"/>
+      <match lemma="motivo"/>
+      <match lemma="razón"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adj.*"/>
