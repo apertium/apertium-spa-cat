@@ -6598,6 +6598,21 @@
   </rule>
 
   <rule weight="3"> 
+    <match lemma="sino"/>
+    <repeat from="0" upto="1">
+      <match lemma="también"/>
+    </repeat>
+    <match tags="pr"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+  </rule>
+
+  <rule weight="3"> 
+    <match tags="pr" lemma="a"/>
+    <match lemma="el que" tags="rel.an.*"><select lemma="el que"/></match>
+    <match lemma="abusar"/>
+  </rule>
+
+  <rule weight="3"> 
     <or>
       <match lemma="más" tags="adv"/>
       <match lemma="menos" tags="adv"/>
