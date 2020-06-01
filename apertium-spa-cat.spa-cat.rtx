@@ -13,6 +13,7 @@ pr: _ ;
 preadv: _ ;
 predet: _.adj_type.gender.number ;
 prn: _.prn_type.prn_type2.gender.number ;
+prnclt: _.prn_type.prn_ref.person.gender.number ;
 prnpers: _.prn_type.person.gender.number ;
 rel: _.rel_type.gender.number ;
 vbhaver: _.tense.person.number ;
@@ -23,7 +24,7 @@ vb_impers: _.tense ;
 vb_pp: _.tense.gender.number ;
 
 NULL: _ ;
-Clt: _.prn_type.person.gender.number ;
+Clt: _.prn_type.prn_ref.person.gender.number ;
 PV: _ ;
 SAdj: _.adj_type.gender_chunk.number ;
 SAdv: _.adv_type ;
@@ -31,8 +32,8 @@ SDet: _.adj_type.gender_chunk.number ;
 SN: _.SN_det.np_type.person.gender_chunk.number ;
 SNum: _.gender_chunk.number ;
 SPredet: _.adj_type.gender_chunk.number ;
-SPrep: _.SPrep_type ;
-SRel: _.rel_type.gender_chunk.number ;
+SPrep: _.content_type ;
+SRel: _.content_type.rel_type.gender_chunk.number ;
 SV: _.vb_type.vb_cnj.tense.person.gender_chunk.number ;
 
 
@@ -47,6 +48,7 @@ gender_chunk = (GD m) m f GD ;
 np_type = ant cog top al loc ;
 number = (ND sg) sg pl @sp ND ;
 person = (PD p3) p1 p2 p3 PD ;
+prn_ref = ref ;
 prn_type = tn itg pro enc ;
 prn_type2 = pos ;
 rel_type = aa an nn ;
@@ -54,18 +56,29 @@ tense = pri fti cni imp prs pis fts pii ifi inf ger pp ;
 vb_type = vbhaver vblex vbmod vbser ;
 vb_cnj = cnj impers ;
 
+content_type = base SN ;
 SN_det = undet det predet nodet prnpers ;
-SPrep_type = pr SN ;
 
 gender>gender_chunk: mf GD, nt GD ;
 gender_chunk>gender: GD GD ;
 
 
 
+! Lex groups
+
+pàgines = capítol pàgina secció volum ;
+divulgar = divulgar morir ;
+verbspron = caure riure callar marxar apuntar baixar ;
+perif_venir = ser dir fer comptar celebrar experimentar realitzar treballar tenir seguir ;
+
+
+
 ! Rules
 
 Clt ->  1: %prn.enc
-                { %1(prnpers) } ;
+                { %1(prnclt) } |
+        1: %prn.pro
+                { %1(prnclt) } ;
 
 NULL -> 0: lquest {} ;
 
@@ -80,8 +93,10 @@ SAdj -> 1: %adj
 
         1: SAdv %SAdj
                 { 1 _1 %2 } |
-        2: recién@SAdv %SV.vblex.impers.pp
+        2: recentment@SAdv %SV.vblex.impers.pp
                 { acabar@vblex.pp.[$gender].[$number] _ de@pr _1 2[tense=inf] } |
+        3: recentment@SAdv %SV.vblex.impers.pp ?(2.lem incl divulgar)
+                { 1 _1 %2 } |
 
         1: %SAdj cm SAdj
                 [$gender_chunk=(if(1.gender=GD)3.gender else 1.gender),$number=(if(1.number=ND)3.number else 1.number)]
@@ -94,7 +109,15 @@ SAdj -> 1: %adj
 SAdv -> 1: %adv
                 { 1 } |
         1: %preadv
-                { 1 } ;
+                { 1 } |
+
+        0: SPrep
+                [$adv_type=""]
+                { 1 } |
+
+        1: a@SPrep el@SDet SV.*.impers.inf
+                [$adv_type=""]
+                { en@pr _1 3 } ;
 
 
 SDet -> 1: %det
@@ -164,6 +187,12 @@ SN ->   1: %n
                 [$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
                 { 1[gender=$gender] _1 %2 } |
 
+        1: SAdv %SN.undet
+                { 1 _1 %2 } |
+
+        1: %SN.undet.$gender_chunk.$number SNum ?(1.lem incl pàgines)
+                { %1 _1 2[gender=mf,number=sp] } |
+
         2: %SN.det SRel
                 [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number=(if(1.number=ND)2.number else 1.number)]
                 { %1 _1 2[gender=$gender,number=$number] } |
@@ -171,8 +200,22 @@ SN ->   1: %n
                 [$gender_chunk=(if(1.gender=GD)3.gender else 1.gender),$number=(if(1.number=ND)3.number else 1.number)]
                 { %1 _1 2 _2 3[gender=$gender,number=$number] } |
 
-        1: %nada@SN de@SPrep.pr SN.undet.*.sg
-                { gens@adv _1 2 _2 3 } ;
+        1: SDet %SAdj.[gender]
+                [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender,number=$number] _1 %2 } |
+        1: SNum %SAdj.[gender]
+                [$SN_det=undet,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender,number=$number] _1 %2 } |
+
+        1: %nada@SN de@SPrep.base SN.undet.*.sg
+                { gens@adv _1 2 _2 3 } |
+
+        1: %SN SRel
+                { %1 _1 2 } |
+
+        0: %SNum
+                [$SN_det=undet,$number=pl]
+                { %1 } ;
 
 
 SNum -> 0: %num
@@ -195,34 +238,50 @@ SPredet -> 0: %predet
 
 
 SPrep -> 0: %pr
-                [$SPrep_type=pr]
+                [$content_type=base]
                 { 1 } |
-         0: %SPrep.pr SN
-                [$SPrep_type=SN]
+         0: %SPrep.base SN
+                [$content_type=SN]
+                { 1 _1 2 } |
+         0: %SPrep.base SAdj
+                [$content_type=SN]
                 { 1 _1 2 } ;
 
 
-SRel -> 1: cuyo@rel.$rel_type SN.undet
+SRel -> 1: %rel
+                [$content_type=base]
+                { %1 } |
+
+        3: %"que el seu"@SRel.base SN.undet
+                [$content_type=SN]
                 { el@det.def.[2.gender].[2.number] _ 2 _ de@pr _1 "el qual"@rel.an.$gender.$number } |
-        1: cuyo@rel.$rel_type SN.undet SV.*.cnj
+        4: %"que el seu"@SRel.base SN.undet SV.*.cnj
+                [$content_type=SN]
                 { el@det.def.[2.gender].[2.number] _ 2 _ de@pr _1 "el qual"@rel.an.$gender.$number _2 3[gender=2.gender,number=2.number] } |
 
-        1: SPrep.pr %SRel
+        2: %SRel.base SV.*.cnj
+                [$content_type=SN]
+                { %1 _1 2 } |
+        3: %SRel.base SN SV.*.cnj
+                [$content_type=SN]
+                { %1 _1 2 _2 3[gender=2.gender,number=2.number] } |
+
+        1: SPrep.base %SRel
                 { 1 _1 %2 } ;
 
 
 SV ->   1: %vblex
                 [$vb_cnj=cnj]
-                { %1 } |
+                { %1[lemh=$lemh,lemq=$lemq] } |
         2: %vblex.ifi
                 [$vb_cnj=cnj]
                 { anar@vaux.$person.$number _ 1(vb_impers)[tense=inf] } |
         2: %vblex.inf
                 [$vb_cnj=impers]
                 { (if($vb_cnj=impers)
-                        %1(vb_impers)
+                        %1(vb_impers)[lemh=$lemh,lemq=$lemq]
                 else
-                        %1) } |
+                        %1[lemh=$lemh,lemq=$lemq]) } |
         2: %vblex.ger
                 [$vb_cnj=impers]
                 { %1(vb_impers) } |
@@ -277,11 +336,33 @@ SV ->   1: %vblex
                 else
                         %1(vb_impers)) } |
 
-        2: anar@SV.vblex.cnj.pri.$person.$number.$vb_cnj a@SPrep.pr %SV.*.impers.inf
+        1: %vbmod
+                [$vb_cnj=cnj]
+                { %1[lemh=$lemh,lemq=$lemq] } |
+        2: %vbmod.ifi
+                [$vb_cnj=cnj]
+                { anar@vaux.$person.$number _ 1(vb_impers)[tense=inf] } |
+        2: %vbmod.inf
+                [$vb_cnj=impers]
+                { (if($vb_cnj=impers)
+                        %1(vb_impers)[lemh=$lemh,lemq=$lemq]
+                else
+                        %1[lemh=$lemh,lemq=$lemq]) } |
+        2: %vbmod.ger
+                [$vb_cnj=impers]
+                { %1(vb_impers) } |
+        2: %vbmod.pp
+                [$vb_cnj=impers]
+                { (if($tense=pp)
+                        %1(vb_pp)
+                else
+                        %1(vb_impers)) } |
+
+        2: anar@SV.vblex.cnj.pri.$person.$number.$vb_cnj a@SPrep.base %SV.*.impers.inf
                 [$tense=fti]
-                { %3 } |
-        1: anar@SV.vblex.cnj.$person.$number.$vb_cnj.$tense a@SPrep.pr %SV.*.impers.inf
-                { 1 _2 2 _2 3 } |
+                { %3[lemh=$lemh,lemq=$lemq] } |
+        1: anar@SV.vblex.cnj.$person.$number.$vb_cnj.$tense a@SPrep.base %SV.*.impers.inf
+                { 1 _2 2 _2 3[lemh=$lemh,lemq=$lemq] } |
 
         1: %SV.*.impers.inf Clt.enc
                 { %1 + 2 } |
@@ -300,12 +381,50 @@ SV ->   1: %vblex
                         [%1 + 2]) } |
         3: %SV.*.cnj.imp Clt.enc Clt.enc
                 { %1 + 2 + 3 } |
+        2: %SV.*.cnj Clt.enc
+                { 2[prn_type=pro] _ %1 } |
+        5: %SV.*.cnj Clt.enc Clt.enc
+                { 2[prn_type=pro] _ 3[prn_type=pro] _ %1 } |
+
+        1: Clt.pro %SV.*.cnj
+                { 1 _1 %2 } |
+        3: Clt.pro Clt.pro %SV.*.cnj
+                { 1 _1 2 _2 %3 } |
+
+        2: Clt.pro.p3.*.pl %"haver"@SV.*.cnj
+                { en@prn.pro.adv _1 %2 } |
+        2: Clt.pro.p3.*.pl  %"hi ha"@SV.*.cnj
+                { en@prn.pro.adv _1 %2 } |
+        4: es@Clt.pro Clt.pro.p3  %"dir"@SV.*.cnj
+                { 1 _1 en@prn.pro.adv _2 %3 } |
+
+        ! *** Regles que es podrien evitar amb apertium-separable ***
+        2: Clt.pro %"cridar"@SV.vblex.cnj ?(1.person=2.person)
+                [$lem="dir"]
+                { 1 _1 %2[lem=$lem] } |
+        2: Clt.pro %"semblar"@SV.vblex.cnj ?(1.person=2.person)
+                [$lem="assemblar"]
+                { 1 _1 %2[lem=$lem] } |
+        2: Clt.pro %"fer# fallida"@SV.vblex.cnj ?(1.person=2.person)
+                [$lem="trencar",$lemq=""]
+                { 1 _1 %2[lem=$lem,lemq=$lemq] } |
+        2: Clt.pro %SV.vblex.cnj ?(2.lem incl verbspron & 1.person=2.person)
+                { %2 } |
+        ! ***********************************************************
 
         2: %SV.vbhaver SV.*.impers.pp.$lem.$vb_type
                 { %1 _1 2 } |
 
+        1: %SV.vbmod SV.*.impers.inf
+                { %1 _1 2 } |
+
         2: %SV.*.cnj SAdj
-                { %1 _1 2[gender=$gender,number=$number] } ;
+                { %1 _1 2[gender=$gender,number=$number] } |
+
+        0: SAdv %SV
+                { 1 _1 %2 } |
+        1: %SV SAdv
+                { %1 _1 2 } ;
 
 
 
@@ -315,64 +434,37 @@ SV ->   1: %vblex
 
 
 ! Regles pendents
-! 3599
-! 3636
 ! 4136
-! 4205
-! 4294
 ! 4405
-! 4453
-! 4519
-! 4600
-! 4649
+
 ! 4792
 ! 4818
-! 5419
-! 5502
-! 5705
-! 5769
-! 5994
+
 ! 6022
+
 ! 6062
 ! 6088
-! 6289
-! 6362
-! 6954
-! 7182
-! 7301
+
 ! 7473
 ! 7515
 ! 7548
 ! 7565
-! 7767
-! 7795
-! 7835
-! 7873
-! 9845
-! 9924
-! 9978
-! 10063
-! 10087
+
+! 7795 (Feta però fallen els pesos quan hi ha noms davant)
+
 ! 10125
-! 10156
-! 10194
 ! 10239
 ! 10292
-! 10334
-! 10430
-! 10451
-! 10476
-! 10532
 
-! 10810
+! 10334
+
+! 10380
+! 10407
+
 ! 10862
-! 10898
-! 10945
-! 10992
-! 11049
+
 ! 11106
-! 11158
-! 11171
-! 11184
-! 11197
-! 11210
+
+
+! Errors
+! A estos animales se les llama
