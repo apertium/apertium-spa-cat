@@ -4610,6 +4610,12 @@
     <match lemma="de" tags="pr"/>
   </rule>
 
+  <rule weight="1.5">
+    <match lemma="cumplir"/>
+    <match lemma="el" tags="det.*"/>
+    <match lemma="fin" tags="n.m.sg"><select lemma="fi_masc"/></match>
+  </rule>
+
 
   <!-- hasta > fins a/fins ... -->
 
@@ -7365,7 +7371,14 @@
       <match lemma="convertir"/>
       <match lemma="confiar"/>
       <match lemma="basar"/>
+      <match lemma="centrar"/>
     </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adv"/>
+        <match tags="prn.enc.*"/>
+      </or>
+    </repeat>
     <match lemma="en" tags="pr"><select lemma="en"/></match>
   </rule>
 
