@@ -6485,6 +6485,9 @@
       <match lemma="año" tags="n.m.*"/>
       <match lemma="día" tags="n.m.*"/>
       <match lemma="mes" tags="n.m.*"/>
+      <match lemma="modo" tags="n.m.*"/>
+      <match lemma="manera" tags="n.m.*"/>
+      <match lemma="forma" tags="n.m.*"/>
     </or>
     <match tags="pr"/>
     <match lemma="el que" tags="rel.an.m.*"><select lemma="què"/></match>
@@ -7372,6 +7375,7 @@
       <match lemma="confiar"/>
       <match lemma="basar"/>
       <match lemma="centrar"/>
+      <match lemma="interés"/>
     </or>
     <repeat from="0" upto="3">
       <or>
@@ -7650,6 +7654,13 @@
       <match lemma="instar" tags="vblex.*"/>
       <match lemma="discriminar" tags="vblex.*"/>
       <match lemma="mencionar" tags="vblex.*"/>
+      <match lemma="nombrar" tags="vblex.*"/>
+      <match lemma="conmocionar" tags="vblex.*"/>
+      <match lemma="incumbir" tags="vblex.*"/>
+      <match lemma="escuchar" tags="vblex.*"/>
+      <match lemma="calmar" tags="vblex.*"/>
+      <match lemma="liberar" tags="vblex.*"/>
+      <match lemma="perseguir" tags="vblex.*"/>
   </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
@@ -8187,6 +8198,22 @@
       <match lemma="haber"/>
     </repeat>
     <match lemma="reñir" tags="vblex.*"><select lemma="renyar"/></match>
+  </rule>
+
+
+  <!-- duro (adv)  -->
+
+  <rule weight="0.5">
+    <match lemma="dur" tags="adv"><select lemma="intensament"/></match>
+  </rule>
+
+  <rule weight="1">
+    <or>
+      <match lemma="golpear"/>
+      <match lemma="pegar"/>
+      <match lemma="dar"/>
+    </or>
+    <match lemma="dur" tags="adv"><select lemma="fort"/></match>
   </rule>
 
   <!-- realizar > realitzar / fer -->
