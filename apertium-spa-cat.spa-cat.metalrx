@@ -1977,6 +1977,7 @@
       <match lemma="trabajador" tags="n.*"/>
       <match lemma="obrero" tags="n.*"/>
       <match lemma="obrero" tags="adj.*"/>
+      <match lemma="ciudadano"/>
     </or>
   </rule>
 
@@ -7375,7 +7376,7 @@
       <match lemma="confiar"/>
       <match lemma="basar"/>
       <match lemma="centrar"/>
-      <match lemma="interés"/>
+      <match lemma="interés" tags="n.m.sg"/>
     </or>
     <repeat from="0" upto="3">
       <or>
@@ -7384,6 +7385,19 @@
       </or>
     </repeat>
     <match lemma="en" tags="pr"><select lemma="en"/></match>
+  </rule>
+
+  <rule weight="3">
+    <match lemma="tipo"/>
+    <match lemma="de"/>
+    <match lemma="interés" tags="n.m.sg"/>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adv"/>
+        <match tags="prn.enc.*"/>
+      </or>
+    </repeat>
+    <match lemma="en" tags="pr"><select lemma="a"/></match>
   </rule>
 
   <rule weight="4"> <!-- especialistas en investigar, piensa en respirar -->
@@ -7658,9 +7672,12 @@
       <match lemma="conmocionar" tags="vblex.*"/>
       <match lemma="incumbir" tags="vblex.*"/>
       <match lemma="escuchar" tags="vblex.*"/>
+      <match lemma="oír" tags="vblex.*"/>
       <match lemma="calmar" tags="vblex.*"/>
       <match lemma="liberar" tags="vblex.*"/>
       <match lemma="perseguir" tags="vblex.*"/>
+      <match lemma="proteger" tags="vblex.*"/>
+      <match lemma="emplear" tags="vblex.*"/>
   </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
@@ -8204,7 +8221,7 @@
   <!-- duro (adv)  -->
 
   <rule weight="0.5">
-    <match lemma="dur" tags="adv"><select lemma="intensament"/></match>
+    <match lemma="duro" tags="adv"><select lemma="intensament"/></match>
   </rule>
 
   <rule weight="1">
@@ -8213,7 +8230,7 @@
       <match lemma="pegar"/>
       <match lemma="dar"/>
     </or>
-    <match lemma="dur" tags="adv"><select lemma="fort"/></match>
+    <match lemma="duro" tags="adv"><select lemma="fort"/></match>
   </rule>
 
   <!-- realizar > realitzar / fer -->
@@ -9913,6 +9930,7 @@
   <macro name="noms_propis" p1="Enrique" p2="Enric" />
   <macro name="noms_propis" p1="Pedro" p2="Pere" />
   <macro name="noms_propis" p1="Jaime" p2="Jaume" />
+  <macro name="noms_propis" p1="Valentín" p2="Valentí" />
   <macro name="noms_propis" p1="Fernando" p2="Ferran" />
   <macro name="noms_propis" p1="Alfonso" p2="Alfons" />
   <macro name="noms_propis" p1="Juan" p2="Joan" />
