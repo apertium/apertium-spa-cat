@@ -1995,7 +1995,15 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="estar" tags="vblex.*"/>
+    <or>
+      <match lemma="persona"/>
+      <match lemma="hombre"/>
+      <match lemma="mujer"/>
+      <match lemma="obrero"/>
+      <match lemma="ciudadano"/>
+      <match lemma="habitante"/>
+      <match lemma="estar" tags="vblex.*"/>
+    </or>
     <match lemma="emplear" tags="vblex.pp.*"><select lemma="ocupar"/></match>
   </rule>
 
