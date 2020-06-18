@@ -7770,9 +7770,7 @@
       <match lemma="engañar" tags="vblex.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
-    </repeat>
+    <match tags="adv"/>
     <or>
       <match tags="det.*"/>
       <match tags="n.*"/>
