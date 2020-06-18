@@ -7678,6 +7678,7 @@
       <match lemma="perseguir" tags="vblex.*"/>
       <match lemma="proteger" tags="vblex.*"/>
       <match lemma="emplear" tags="vblex.*"/>
+      <match lemma="engañar" tags="vblex.*"/>
   </or>
       <repeat from="0" upto="1">
         <match tags="adv"/>
