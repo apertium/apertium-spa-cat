@@ -1964,7 +1964,7 @@
 
   <rule weight="1.0">
     <match lemma="emplear" tags="vblex.*"><select lemma="ocupar"/></match>
-    <repeat from="0" upto="6">
+    <repeat from="0" upto="7">
       <or>
         <match tags="*.*"/>
         <match tags="preadv"/>
@@ -1974,6 +1974,8 @@
         <match lemma="millón"/>
         <match lemma="mil"/>
         <match lemma="medio"/>
+        <match lemma="total"/>
+        <match lemma="mitad"/>
         <match tags="num.*"/>
         <match tags="num"/>
       </or>
