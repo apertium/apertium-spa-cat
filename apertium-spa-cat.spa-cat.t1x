@@ -228,7 +228,6 @@
       <cat-item tags="lquest" />
     </def-cat>
     <def-cat n="num">
-      <cat-item tags="num" />
       <cat-item tags="num.*" />
     </def-cat>
     <def-cat n="xifra">
@@ -5746,7 +5745,7 @@
     <rule>
       <!-- REGLA: NUMERAL NOM -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -5776,7 +5775,7 @@
     <rule>
       <!-- REGLA: NUMERAL ADJECTIU -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="adjec" />
       </pattern>
       <action>
@@ -5806,9 +5805,9 @@
     <rule>
       <!-- REGLA: NUMERAL cnjcoo NUMERAL NOM (dos o tres semanas) -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="cnjcoo" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -5843,10 +5842,10 @@
     <rule>
       <!-- REGLA: NUMERAL cnjcoo ADV NOM (dos o más semanas)-->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="cnjcoo" />
         <pattern-item n="adv" />
-        <pattern-item n="nom" />
+        <pattern-item n="xifra" />
       </pattern>
       <action>
         <call-macro n="f_concord2">
@@ -5879,7 +5878,7 @@
     <rule>
       <!-- REGLA: NUMERAL NOM ADJECTIU -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
         <pattern-item n="adjec0" />
       </pattern>
@@ -5919,7 +5918,7 @@
     <rule>
       <!-- REGLA: NUMERAL ADJECTIU NOM -->
       <pattern>
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="adjec" />
         <pattern-item n="nom" />
       </pattern>
@@ -5963,7 +5962,7 @@
       <!-- REGLA: DET NUMERAL NOM -->
       <pattern>
         <pattern-item n="det" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -6370,7 +6369,7 @@
       <!-- REGLA: PREP NUMERAL-->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
       </pattern>
       <action>
         <call-macro n="f_preps">
@@ -6426,11 +6425,11 @@
       </action>
     </rule>
     <rule>
-      <!-- REGLA: PREP DETERMINANT NUM -->
+      <!-- REGLA: PREP DET NUM -->
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="det" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
       </pattern>
       <action>
         <call-macro n="f_preps">
@@ -6453,7 +6452,7 @@
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="adv" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
       </pattern>
       <action>
         <call-macro n="f_preps">
@@ -7278,7 +7277,7 @@
       <!-- REGLA: PREP NUMERAL NOM -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -7313,9 +7312,9 @@
       <!-- REGLA: PREP NUMERAL cnjcoo NUMERAL NOM (entre dos y tres semanas)-->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="cnjcoo" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -7355,7 +7354,7 @@
       <!-- REGLA: PREP NUMERAL ADJECTIU -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="adjec" />
       </pattern>
       <action>
@@ -7390,7 +7389,7 @@
       <!-- REGLA: PREP NUMERAL NOM ADJECTIU -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
         <pattern-item n="adjec0" />
       </pattern>
@@ -7435,7 +7434,7 @@
       <!-- REGLA: PREP NUMERAL ADJECTIU NOM -->
       <pattern>
         <pattern-item n="prep" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="adjec" />
         <pattern-item n="nom" />
       </pattern>
@@ -7484,7 +7483,7 @@
       <pattern>
         <pattern-item n="prep" />
         <pattern-item n="det" />
-        <pattern-item n="num" />
+        <pattern-item n="xifra" />
         <pattern-item n="nom" />
       </pattern>
       <action>
@@ -7515,6 +7514,56 @@
             <clip pos="4" side="tl" part="gen" />
             <clip pos="4" side="tl" part="nbr" />
             <clip pos="4" side="tl" part="lemq" />
+          </lu>
+        </out>
+        <let>
+          <var n="numvist" />
+          <lit v="yes" />
+        </let>
+      </action>
+    </rule>
+    <rule>
+      <!-- REGLA: PREP DET NUMERAL ADJ NOM -->
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="det" />
+        <pattern-item n="xifra" />
+        <pattern-item n="adj" />
+        <pattern-item n="nom" />
+      </pattern>
+      <action>
+   <!-- <call-macro n="f_lexicDet">
+          <with-param pos="2" />
+	</call-macro> -->
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord4">
+          <with-param pos="5" />
+          <with-param pos="4" />
+          <with-param pos="3" />
+          <with-param pos="2" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+          <b pos="3" />
+          <lu>
+            <clip pos="4" side="tl" part="whole" />
+          </lu>
+          <b pos="4" />
+          <lu>
+            <clip pos="5" side="tl" part="lemh" />
+            <clip pos="5" side="tl" part="a_nom" />
+            <clip pos="5" side="tl" part="gen" />
+            <clip pos="5" side="tl" part="nbr" />
+            <clip pos="5" side="tl" part="lemq" />
           </lu>
         </out>
         <let>
