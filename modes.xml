@@ -18,6 +18,9 @@
         <file name="spa-cat.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
+        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      </program>
+      <program name="lrx-proc -m">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
@@ -51,6 +54,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="spa-cat.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="spa-cat.autolex-toponims-trad.bin"/>
       </program>
       <program name="lrx-proc -m">
         <file name="spa-cat.autolex.bin"/>
@@ -87,6 +93,9 @@
         <file name="spa-cat_valencia_gva.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
+        <file name="spa-cat.autolex-toponims-oficials.bin"/>
+      </program>
+      <program name="lrx-proc -m">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
@@ -119,6 +128,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_gva.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="spa-cat.autolex-toponims-oficials.bin"/>
       </program>
       <program name="lrx-proc -m">
         <file name="spa-cat.autolex.bin"/>
@@ -155,6 +167,9 @@
         <file name="spa-cat_valencia_uni.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
+        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      </program>
+      <program name="lrx-proc -m">
         <file name="spa-cat.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
@@ -187,6 +202,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_uni.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="spa-cat.autolex-toponims-trad.bin"/>
       </program>
       <program name="lrx-proc -m">
         <file name="spa-cat.autolex.bin"/>

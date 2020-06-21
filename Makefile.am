@@ -34,6 +34,8 @@ TARGETS_COMMON =			\
 	$(PREFIX1V).autobil.bin 	\
 	$(PREFIX1U).autobil.bin 	\
 	$(PREFIX1).autolex.bin  \
+	$(PREFIX1).autolex-toponims-trad.bin  \
+	$(PREFIX1).autolex-toponims-oficials.bin  \
 	$(PREFIX1C).autogen.bin 	\
 	$(PREFIX1V).autogen.bin 	\
 	$(PREFIX1U).autogen.bin 	\
@@ -186,6 +188,11 @@ $(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
 $(PREFIX2).autolex.bin: .deps/$(BASENAME).$(PREFIX2).lrx
 	lrx-comp $< $@
 
+$(PREFIX1).autolex-toponims-oficials.bin: .deps/$(BASENAME).$(PREFIX1).toponims-oficials.lrx
+	lrx-comp $< $@
+
+$(PREFIX1).autolex-toponims-trad.bin: .deps/$(BASENAME).$(PREFIX1).toponims-trad.lrx
+	lrx-comp $< $@
 
 ###############################################################################
 ## Structural transfer rules
@@ -231,6 +238,8 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 
 EXTRA_DIST=									\
 		.deps/$(BASENAME).$(PREFIX1).lrx	\
+		.deps/$(BASENAME).$(PREFIX1).toponims-oficials.lrx	\
+		.deps/$(BASENAME).$(PREFIX1).toponims-trad.lrx	\
 		.deps/$(BASENAME).$(PREFIX2).lrx	\
 		$(BASENAME).$(PREFIX1).dix 			\
 		$(BASENAME).$(PREFIX1).dix 			\

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metalrx>
+  <def-macros>
+
+  <def-macro name="toponims_article">
+    <rule weight="0.5">
+      <match lemma="{{p1}}"><select lemma="{{p3}}"/></match>
+    </rule>
+    <rule weight="1">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="vblex.pp.*"/>
+        <match tags="n.*"/>
+        <match tags="np.*"/>
+      </or>
+      <match lemma="{{p1}}"><select lemma="{{p2}}"/></match>
+    </rule>
+  </def-macro>
+
+</def-macros>
+
+<rules>
+
+  <!-- municipis valencians spa->cat: topònims tradicionals -->
+  <rule><match lemma="Ademuz"><select lemma="Ademús" /></match></rule>
+  <rule><match lemma="Algar de Palancia"><select lemma="Algar de Palància" /></match></rule>
+  <rule><match lemma="Ayódar"><select lemma="Aiòder" /></match></rule>
+  <rule><match lemma="Ayora"><select lemma="Aiora" /></match></rule>
+  <rule><match lemma="Albuixech"><select lemma="Albuixec" /></match></rule>
+  <rule><match lemma="Alcocer de Planes"><select lemma="Alcosser de Planes" /></match></rule>
+  <rule><match lemma="Alfarp"><select lemma="Alfarb" /></match></rule>
+  <rule><match lemma="Alborache"><select lemma="Alboraig" /></match></rule>
+  <rule><match lemma="Alcublas"><select lemma="les Alcubles" /></match></rule>
+  <rule><match lemma="Alcudia de Veo"><select lemma="l'Alcúdia de Veo" /></match></rule>
+  <rule><match lemma="Algimia de Almonacid"><select lemma="Algímia d'Almonesir" /></match></rule>
+  <rule><match lemma="Algueña"><select lemma="l'Alguenya" /></match></rule>
+  <rule><match lemma="Almedíjar"><select lemma="Almedíxer" /></match></rule>
+  <rule><match lemma="Alpuente"><select lemma="Alpont" /></match></rule>
+  <rule><match lemma="Arañuel"><select lemma="Aranyel" /></match></rule>
+  <rule><match lemma="Argelita"><select lemma="Argeleta" /></match></rule>
+  <rule><match lemma="Aspe"><select lemma="Asp" /></match></rule>
+  <rule><match lemma="Azuébar"><select lemma="Assuévar" /></match></rule>
+  <rule><match lemma="Barracas"><select lemma="Barraques" /></match></rule>
+  <rule><match lemma="Bejís"><select lemma="Begís" /></match></rule>
+  <rule><match lemma="Benagéber"><select lemma="Benaixeve" /></match></rule>
+  <rule><match lemma="Benejúzar"><select lemma="Benejússer" /></match></rule>
+  <rule><match lemma="Beniardá"><select lemma="Beniardà" /></match></rule>
+  <rule><match lemma="Beniflá"><select lemma="Beniflà" /></match></rule>
+  <rule><match lemma="Benijófar"><select lemma="Benijòfer" /></match></rule>
+  <rule><match lemma="Bicorp"><select lemma="Bicorb" /></match></rule>
+  <rule><match lemma="Bigastro"><select lemma="Bigastre" /></match></rule>
+  <rule><match lemma="Bolbaite"><select lemma="Bolbait" /></match></rule>
+  <rule><match lemma="Buñol"><select lemma="Bunyol" /></match></rule>
+  <rule><match lemma="Cañada"><select lemma="la Canyada" /></match></rule>
+  <rule><match lemma="Casas Altas"><select lemma="Cases Altes" /></match></rule>
+  <rule><match lemma="Casas Bajas"><select lemma="Cases Baixes" /></match></rule>
+  <rule><match lemma="Castillo de Villamalefa"><select lemma="el Castell de Vilamalefa" /></match></rule>
+  <rule><match lemma="Castellnovo"><select lemma="Castellnou" /></match></rule>
+  <rule><match lemma="Cervera del Maestre"><select lemma="Cervera del Maestrat" /></match></rule>
+  <rule><match lemma="Cofrentes"><select lemma="Cofrents" /></match></rule>
+  <rule><match lemma="Cox"><select lemma="Coix" /></match></rule>
+  <rule><match lemma="Cortes de Arenoso"><select lemma="Cortes d'Arenós" /></match></rule>
+  <rule><match lemma="Cortes de Pallás"><select lemma="Cortes de Pallars" /></match></rule>
+  <rule><match lemma="Daya Nueva"><select lemma="Daia Nova" /></match></rule>
+  <rule><match lemma="Daya Vieja"><select lemma="Daia Vella" /></match></rule>
+  <rule><match lemma="Domeño"><select lemma="Domenyo" /></match></rule>
+  <rule><match lemma="Dos Aguas"><select lemma="Dosaigües" /></match></rule>
+  <rule><match lemma="Enguera"><select lemma="Énguera" /></match></rule>
+  <rule><match lemma="Espadilla"><select lemma="Espadella" /></match></rule>
+  <rule><match lemma="Facheca"><select lemma="Fageca" /></match></rule>
+  <rule><match lemma="Fuente la Reina"><select lemma="la Font de la Reina" /></match></rule>
+  <rule><match lemma="Fuente de la Reina"><select lemma="la Font de la Reina" /></match></rule>
+  <rule><match lemma="Gátova"><select lemma="Gàtova" /></match></rule>
+  <rule><match lemma="Higueras"><select lemma="Figueres" /></match></rule>
+  <rule><match lemma="Higueruelas"><select lemma="Figueroles de Domenyo" /></match></rule>
+  <rule><match lemma="Hondón de los Frailes"><select lemma="el Fondó dels Frares" /></match></rule>
+  <rule><match lemma="Fuentes de Ayódar"><select lemma="les Fonts d'Aiòder" /></match></rule>
+  <rule><match lemma="Forcall"><select lemma="el Forcall" /></match></rule>
+  <rule><match lemma="Gatová"><select lemma="Gatovà" /></match></rule>
+  <rule><match lemma="Granja de Rocamora"><select lemma="la Granja de Rocamora" /></match></rule>
+  <rule><match lemma="Herbés"><select lemma="Herbers" /></match></rule>
+  <rule><match lemma="Yátova"><select lemma="Iàtova" /></match></rule>
+  <rule><match lemma="La Yesa"><select lemma="la Iessa" /></match></rule>
+  <rule><match lemma="Losa del Obispo"><select lemma="la Llosa del Bisbe" /></match></rule>
+  <rule><match lemma="Ludiente"><select lemma="Lludient" /></match></rule>
+  <rule><match lemma="Millares"><select lemma="Millars" /></match></rule>
+  <rule><match lemma="Montán"><select lemma="Montant" /></match></rule>
+  <rule><match lemma="Moncada"><select lemma="Montcada" /></match></rule>
+  <rule><match lemma="Monforte del Cid"><select lemma="Montfort" /></match></rule>
+  <rule><match lemma="Muro de Alcoy"><select lemma="Muro d'Alcoi" /></match></rule>
+  <rule><match lemma="Navajas"><select lemma="Navaixes" /></match></rule>
+  <rule><match lemma="Olocau del Rey"><select lemma="Olocau del Rei" /></match></rule>
+  <rule><match lemma="Orihuela"><select lemma="Oriola" /></match></rule>
+  <rule><match lemma="Palma de Gandía"><select lemma="Palma de Gandia" /></match></rule>
+  <rule><match lemma="Pavías"><select lemma="Pavies" /></match></rule>
+  <rule><match lemma="Pilar de la Horadada"><select lemma="el Pilar de la Foradada" /></match></rule>
+  <rule><match lemma="Pina de Montalgrao"><select lemma="Pina" /></match></rule>
+  <rule><match lemma="Puebla de Arenoso"><select lemma="la Pobla d'Arenós" /></match></rule>
+  <rule><match lemma="Puebla de San Miguel"><select lemma="la Pobla de Sant Miquel" /></match></rule>
+  <rule><match lemma="Ráfol de Salem"><select lemma="el Ràfol de Salem" /></match></rule>
+  <rule><match lemma="Redován"><select lemma="Redovà" /></match></rule>
+  <rule><match lemma="Rojales"><select lemma="Rojals" /></match></rule>
+  <rule><match lemma="Rótova"><select lemma="Ròtova" /></match></rule>
+  <rule><match lemma="Sacañet"><select lemma="Sacanyet" /></match></rule>
+  <rule><match lemma="Sax"><select lemma="Saix" /></match></rule>
+  <rule><match lemma="Salinas"><select lemma="Salines" /></match></rule>
+  <rule><match lemma="Sanet y Negrals"><select lemma="Sanet i els Negrals" /></match></rule>
+  <rule><match lemma="San Antonio de Benagéber"><select lemma="Sant Antoni de Benaixeve" /></match></rule>
+  <rule><match lemma="San Fulgencio"><select lemma="Sant Fulgenci" /></match></rule>
+  <rule><match lemma="San Isidro"><select lemma="Sant Isidre" /></match></rule>
+  <rule><match lemma="San Miguel de Salinas"><select lemma="Sant Miquel de les Salines" /></match></rule>
+  <rule><match lemma="San Rafael del Río"><select lemma="Sant Rafel del Riu" /></match></rule>
+  <rule><match lemma="Santa Magdalena de Pulpis"><select lemma="Santa Magdalena de Polpís" /></match></rule>
+  <rule><match lemma="Sierra Engarcerán"><select lemma="la Serra d'en Galceran" /></match></rule>
+  <rule><match lemma="Siete Aguas"><select lemma="Setaigües" /></match></rule>
+  <rule><match lemma="Sinarcas"><select lemma="Sinarques" /></match></rule>
+  <rule><match lemma="Segorbe"><select lemma="Sogorb" /></match></rule>
+  <rule><match lemma="Zorita del Maestrazgo"><select lemma="Sorita" /></match></rule>
+  <rule><match lemma="Sot de Chera"><select lemma="Sot de Xera" /></match></rule>
+  <rule><match lemma="Zucaina"><select lemma="Sucaina" /></match></rule>
+  <rule><match lemma="Teresa de Cofrentes"><select lemma="Teresa de Cofrents" /></match></rule>
+  <rule><match lemma="Titaguas"><select lemma="Titaigües" /></match></rule>
+  <rule><match lemma="Todolella"><select lemma="la Todolella" /></match></rule>
+  <rule><match lemma="Tuéjar"><select lemma="Toixa" /></match></rule>
+  <rule><match lemma="Torás"><select lemma="Toràs" /></match></rule>
+  <rule><match lemma="Turís"><select lemma="Torís" /></match></rule>
+  <rule><match lemma="Torralba del Pinar"><select lemma="Torralba" /></match></rule>
+  <rule><match lemma="Torrebaja"><select lemma="Torrebaixa" /></match></rule>
+  <rule><match lemma="Torrevieja"><select lemma="Torrevella" /></match></rule>
+  <rule><match lemma="Torrechiva"><select lemma="Torre-xiva" /></match></rule>
+  <rule><match lemma="Vall d'Alba"><select lemma="la Vall d'Alba" /></match></rule>
+  <rule><match lemma="Vall de Almonacid"><select lemma="la Vall d'Almonesir" /></match></rule>
+  <rule><match lemma="Vall de Gallinera"><select lemma="la Vall de Gallinera" /></match></rule>
+  <rule><match lemma="Villahermosa del Río"><select lemma="Vilafermosa" /></match></rule>
+  <rule><match lemma="Villamalur"><select lemma="Vilamalur" /></match></rule>
+  <rule><match lemma="Villanueva de Castellón"><select lemma="Vilanova de Castelló" /></match></rule>
+  <rule><match lemma="Villanueva de Viver"><select lemma="Vilanova de la Reina" /></match></rule>
+  <rule><match lemma="Villar del Arzobispo"><select lemma="el Villar" /></match></rule>
+  <rule><match lemma="Jacarilla"><select lemma="Xacarella" /></match></rule>
+  <rule><match lemma="Jalance"><select lemma="Xalans" /></match></rule>
+  <rule><match lemma="Jarafuel"><select lemma="Xarafull" /></match></rule>
+  <rule><match lemma="Chella"><select lemma="Xella" /></match></rule>
+  <rule><match lemma="Chelva"><select lemma="Xelva" /></match></rule>
+  <rule><match lemma="Chera"><select lemma="Xera" /></match></rule>
+  <rule><match lemma="Jérica"><select lemma="Xèrica" /></match></rule>
+  <rule><match lemma="Cheste"><select lemma="Xest" /></match></rule>
+  <rule><match lemma="Gestalgar"><select lemma="Xestalgar" /></match></rule>
+  <rule><match lemma="Chiva"><select lemma="Xiva" /></match></rule>
+  <rule><match lemma="Chóvar"><select lemma="Xóvar" /></match></rule>
+  <rule><match lemma="Chulilla"><select lemma="Xulilla" /></match></rule>
+  <rule><match lemma="Hondón de los Frailes"><select lemma="Fondó dels Frares" /></match></rule>
+  <rule><match lemma="Forcall"><select lemma="Forcall" /></match></rule>
+  <rule><match lemma="Pilar de la Horadada"><select lemma="Pilar de la Foradada" /></match></rule>
+  <rule><match lemma="Ráfol de Salem"><select lemma="Ràfol de Salem" /></match></rule>
+  <rule><match lemma="Alcudia de Veo"><select lemma="Alcúdia de Veo" /></match></rule>
+  <rule><match lemma="Algueña"><select lemma="Alguenya" /></match></rule>
+  <rule><match lemma="Cañada"><select lemma="Canyada" /></match></rule>
+  <rule><match lemma="Granja de Rocamora"><select lemma="Granja de Rocamora" /></match></rule>
+  <rule><match lemma="Losa del Obispo"><select lemma="Llosa del Bisbe" /></match></rule>
+  <rule><match lemma="Puebla de Arenoso"><select lemma="Pobla d'Arenós" /></match></rule>
+  <rule><match lemma="Puebla de San Miguel"><select lemma="Pobla de Sant Miquel" /></match></rule>
+  <rule><match lemma="Sierra Engarcerán"><select lemma="Serra d'en Galceran" /></match></rule>
+  <rule><match lemma="Todolella"><select lemma="Todolella" /></match></rule>
+  <rule><match lemma="Vall d'Alba"><select lemma="Vall d'Alba" /></match></rule>
+  <rule><match lemma="Vall de Almonacid"><select lemma="Vall d'Almonesir" /></match></rule>
+  <rule><match lemma="Vall de Gallinera"><select lemma="Vall de Gallinera" /></match></rule>
+  <rule><match lemma="Fuentes de Ayódar"><select lemma="Fonts d'Aiòder" /></match></rule>
+  <rule><match lemma="Castillo de Villamalefa"><select lemma="Castell de Vilamalefa" /></match></rule>
+  <rule><match lemma="Fuente la Reina"><select lemma="Font de la Reina" /></match></rule>
+
+  <!-- topònims amb article --> 
+
+  <macro name="toponims_article" p1="NN. UU." p2="Nacions Unides" p3="les Nacions Unides" />
+  <macro name="toponims_article" p1="Afganistán" p2="Afganistan" p3="l'Afganistan" />
+  <macro name="toponims_article" p1="Argentina" p2="Argentina" p3="l'Argentina" />
+  <macro name="toponims_article" p1="Arabia Saudí" p2="Aràbia Saudita" p3="l'Aràbia Saudita" />
+  <macro name="toponims_article" p1="Azerbaiyán" p2="Azerbaidjan" p3="l'Azerbaidjan" />
+  <macro name="toponims_article" p1="Brasil" p2="Brasil" p3="el Brasil" />
+  <macro name="toponims_article" p1="Canadá" p2="Canadà" p3="el Canadà" />
+  <macro name="toponims_article" p1="China" p2="Xina" p3="la Xina" />
+  <macro name="toponims_article" p1="Ecuador" p2="Equador" p3="l'Equador" />
+  <macro name="toponims_article" p1="EE. UU." p2="EUA" p3="els EUA" />
+  <macro name="toponims_article" p1="Estados Unidos" p2="Estats Units" p3="els Estats Units" />
+  <macro name="toponims_article" p1="Irak" p2="Iraq" p3="l'Iraq" />
+  <macro name="toponims_article" p1="Irán" p2="Iran" p3="l'Iran" />
+  <macro name="toponims_article" p1="India" p2="Índia" p3="l'Índia" />
+  <macro name="toponims_article" p1="Japón" p2="Japó" p3="el Japó" />
+  <macro name="toponims_article" p1="Kazajistán" p2="Kazakhstan" p3="el Kazakhstan" />
+  <macro name="toponims_article" p1="Marruecos" p2="Marroc" p3="el Marroc" />
+  <macro name="toponims_article" p1="Pakistán" p2="Pakistan" p3="el Pakistan" />
+  <macro name="toponims_article" p1="Perú" p2="Perú" p3="el Perú" />
+  <macro name="toponims_article" p1="Senegal" p2="Senegal" p3="el Senegal" />
+  <macro name="toponims_article" p1="Uruguay" p2="Uruguai" p3="l'Uruguai" />
+  <macro name="toponims_article" p1="Vendrell" p2="Vendrell" p3="el Vendrell" />
+  <macro name="toponims_article" p1="Alcudia de Veo" p2="Alcúdia de Veo" p3="l'Alcúdia de Veo" />
+  <macro name="toponims_article" p1="Algueña" p2="Alguenya" p3="l'Alguenya" />
+  <macro name="toponims_article" p1="Cañada" p2="Canyada" p3="la Canyada" />
+  <macro name="toponims_article" p1="Castillo de Villamalefa" p2="Castell de Vilamalefa" p3="el Castell de Vilamalefa" />
+  <macro name="toponims_article" p1="Fuente la Reina" p2="Font de la Reina" p3="la Font de la Reina" />
+  <macro name="toponims_article" p1="Granja de Rocamora" p2="Granja de Rocamora" p3="la Granja de Rocamora" />
+  <macro name="toponims_article" p1="Losa del Obispo" p2="Llosa del Bisbe" p3="la Llosa del Bisbe" />
+  <macro name="toponims_article" p1="Puebla de Arenoso" p2="Pobla d'Arenós" p3="la Pobla d'Arenós" />
+  <macro name="toponims_article" p1="Puebla de San Miguel" p2="Pobla de Sant Miquel" p3="la Pobla de Sant Miquel" />
+  <macro name="toponims_article" p1="Sierra Engarcerán" p2="Serra d'en Galceran" p3="la Serra d'en Galceran" />
+  <macro name="toponims_article" p1="Todolella" p2="Todolella" p3="la Todolella" />
+  <macro name="toponims_article" p1="Vall d'Alba" p2="Vall d'Alba" p3="la Vall d'Alba" />
+  <macro name="toponims_article" p1="Vall de Almonacid" p2="Vall d'Almonesir" p3="la Vall d'Almonesir" />
+  <macro name="toponims_article" p1="Vall de Gallinera" p2="Vall de Gallinera" p3="la Vall de Gallinera" />
+  <macro name="toponims_article" p1="Fuentes de Ayódar" p2="Fonts d'Aiòder" p3="les Fonts d'Aiòder" />
+  <macro name="toponims_article" p1="Hondón de los Frailes" p2="Fondó dels Frares" p3="el Fondó dels Frares" />
+  <macro name="toponims_article" p1="Hondón de las Nieves" p2="Fondó de les Neus" p3="el Fondó de les Neus" />
+  <macro name="toponims_article" p1="Forcall" p2="Forcall" p3="el Forcall" />
+  <macro name="toponims_article" p1="Pilar de la Horadada" p2="Pilar de la Foradada" p3="el Pilar de la Foradada" />
+  <macro name="toponims_article" p1="Ráfol de Salem" p2="Ràfol de Salem" p3="el Ràfol de Salem" />
+  <macro name="toponims_article" p1="Campo de Mirra" p2="Camp de Mirra" p3="el Camp de Mirra" />
+  <macro name="toponims_article" p1="Ráfol de Almunia" p2="Ràfol d'Almúnia" p3="el Ràfol d'Almúnia" />
+  <macro name="toponims_article" p1="Vall de Laguart" p2="Vall de Laguar" p3="la Vall de Laguar" />
+  <macro name="toponims_article" p1="Benitachell" p2="Poble Nou de Benitatxell" p3="el Poble Nou de Benitatxell" />
+</rules>
+</metalrx>
