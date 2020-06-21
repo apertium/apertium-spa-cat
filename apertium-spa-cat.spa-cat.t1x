@@ -1170,7 +1170,7 @@
         </when>-->
       </choose>
     </def-macro>
-    <def-macro n="f_lexicDet" npar="1">
+    <!--<def-macro n="f_lexicDet" npar="1">
       <choose>
         <when>
           <test>
@@ -1193,7 +1193,7 @@
           </let>
         </when>
       </choose>
-    </def-macro>
+    </def-macro>-->
     <!--<def-macro n="f_seleccioLex" npar="1">
       <choose>
         <when>
@@ -3671,9 +3671,9 @@
         <call-macro n="f_concord1">
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -3795,9 +3795,9 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -3942,9 +3942,9 @@
           <with-param pos="4" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <choose>
           <when>
             <test>
@@ -4022,9 +4022,9 @@
           <with-param pos="6" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <choose>
           <when>
             <test>
@@ -4874,9 +4874,9 @@
           <with-param pos="3" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -4971,9 +4971,9 @@
           <with-param pos="5" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5024,9 +5024,9 @@
           <with-param pos="4" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5073,9 +5073,9 @@
           <with-param pos="3" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_lexicAdj">
           <with-param pos="2" />
         </call-macro>
@@ -5169,9 +5169,9 @@
         <call-macro n="f_lexicAdj">
           <with-param pos="2" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <choose>
           <when>
             <test>
@@ -5283,9 +5283,9 @@
         <call-macro n="f_lexicAdj">
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <choose>
           <when>
             <test>
@@ -5401,9 +5401,9 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5436,12 +5436,12 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
-        <call-macro n="f_lexicDet">
+        </call-macro>-->
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5476,9 +5476,9 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5517,9 +5517,9 @@
           <with-param pos="2" />
           <with-param pos="1" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole" />
@@ -5587,9 +5587,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_concord4">
           <with-param pos="3" />
           <with-param pos="4" />
@@ -5674,9 +5674,9 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_concord3">
           <with-param pos="2" />
           <with-param pos="1" />
@@ -5717,9 +5717,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_concord2">
           <with-param pos="3" />
           <with-param pos="1" />
@@ -5967,9 +5967,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="1" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_concord3">
           <with-param pos="3" />
           <with-param pos="2" />
@@ -6399,9 +6399,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6603,9 +6603,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6649,9 +6649,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6707,9 +6707,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6805,9 +6805,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -6923,9 +6923,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="4" />
@@ -6964,9 +6964,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="4" />
@@ -7012,9 +7012,9 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -7096,9 +7096,9 @@
         <pattern-item n="adjec0" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -7193,9 +7193,9 @@
         <pattern-item n="adjec" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -7241,12 +7241,12 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
-        <call-macro n="f_lexicDet">
+        </call-macro>-->
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -7488,9 +7488,9 @@
         <pattern-item n="nom" />
       </pattern>
       <action>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="2" />
-        </call-macro>
+        </call-macro>-->
         <call-macro n="f_preps">
           <with-param pos="1" />
           <with-param pos="2" />
@@ -10326,9 +10326,9 @@
           <with-param pos="4" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <b pos="1" />
           <lu>
@@ -10961,9 +10961,9 @@
           <with-param pos="4" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <get-case-from pos="1">
@@ -11008,9 +11008,9 @@
           <with-param pos="4" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <get-case-from pos="1">
@@ -11057,9 +11057,9 @@
           <with-param pos="4" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+        <!--<call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <get-case-from pos="1">
@@ -11114,9 +11114,9 @@
           <with-param pos="5" />
           <with-param pos="3" />
         </call-macro>
-        <call-macro n="f_lexicDet">
+       <!-- <call-macro n="f_lexicDet">
           <with-param pos="3" />
-        </call-macro>
+        </call-macro>-->
         <out>
           <lu>
             <get-case-from pos="1">

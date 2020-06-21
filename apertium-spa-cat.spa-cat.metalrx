@@ -1977,7 +1977,12 @@
         <match lemma="medio"/>
         <match lemma="total"/>
         <match lemma="mitad"/>
+        <match lemma="tercio"/>
+        <match lemma="mucho"/>
+        <match lemma="número"/>
+        <match lemma="cantidad"/>
         <match tags="num.*"/>
+        <match tags="adj.*"/>
         <match tags="num"/>
       </or>
     </repeat> 
