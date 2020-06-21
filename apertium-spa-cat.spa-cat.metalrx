@@ -3722,7 +3722,7 @@
 
   <rule weight="3.0">
     <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
-    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
     <repeat from="0" upto="4">
       <or>
         <match tags="det.*"/>
@@ -3749,14 +3749,14 @@
 
 <rule weight="3.0">
     <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match>
-    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
     <match tags="det.*"/>
     <or>
       <match tags="n.*"/>
       <match tags="np.*"/>
     </or>
     <match tags="cnjcoo"/>
-    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
     <repeat from="0" upto="4">
       <or>
         <match tags="det.*"/>
@@ -7551,7 +7551,7 @@
   <rule weight="10">
      <match tags="vblex.*"/>
      <match lemma="atender" tags="vblex.ger"><select lemma="atendre"/></match>
-     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match lemma="a" tags="pr"><remove tags="pr"/></match>
   </rule>
     <rule weight="10">
      <match lemma="atender" tags="vblex.ger"><select lemma="atendre"/></match>
@@ -7560,7 +7560,7 @@
 
   <rule weight="6">
      <match lemma="atender" tags="vblex.ger"><select lemma="atès"/></match>
-     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match lemma="a" tags="pr"><remove tags="pr"/></match>
      <match tags="det.*.m.sg"/>
   </rule>
   <rule weight="6">
@@ -7569,17 +7569,17 @@
   </rule>
   <rule weight="6">
      <match lemma="atender" tags="vblex.ger"><select lemma="atesa"/></match>
-     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match lemma="a" tags="pr"><remove tags="pr"/></match>
      <match tags="det.*.f.sg"/>
   </rule>
     <rule weight="6">
      <match lemma="atender" tags="vblex.ger"><select lemma="atesos"/></match>
-     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match lemma="a" tags="pr"><remove tags="pr"/></match>
      <match tags="det.*.m.pl"/>
   </rule>  
   <rule weight="6">
      <match lemma="atender" tags="vblex.ger"><select lemma="ateses"/></match>
-     <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+     <match lemma="a" tags="pr"><remove tags="pr"/></match>
      <match tags="det.*.f.pl"/>
   </rule>
       
@@ -7593,7 +7593,7 @@
 
 <rule weight="6">
      <match lemma="ayudar" tags="vblex.*"/>
-      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <match lemma="a" tags="pr"><remove tags="pr"/></match>
       <or>
         <match tags="det.*"/>
         <match tags="n.*"/>
@@ -7624,7 +7624,7 @@
         <match lemma="obligar" tags="vblex.*"/>
         <match lemma="ayudar" tags="vblex.*"/>
       </or>
-      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <match lemma="a" tags="pr"><remove tags="pr"/></match>
       <or>
         <match tags="det.*"/>
         <match tags="n.*"/>
@@ -7650,7 +7650,7 @@
         <match lemma="obligar" tags="vblex.pp.m.sg"/>
         <match lemma="ayudar" tags="vblex.pp.m.sg"/>
       </or>
-      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <match lemma="a" tags="pr"><remove tags="pr"/></match>
       <or>
         <match tags="det.*"/>
         <match tags="n.*"/>
@@ -7719,7 +7719,7 @@
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
     <or>
       <match tags="det.*"/>
       <match tags="n.*"/>
@@ -7779,7 +7779,7 @@
       <match lemma="emplear" tags="vblex.*"/>
       <match lemma="engañar" tags="vblex.*"/>
     </or>
-    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
     <match tags="adv"/>
     <or>
       <match tags="det.*"/>
@@ -7861,7 +7861,7 @@
       <repeat from="0" upto="1">
         <match tags="adv"/>
       </repeat>
-      <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+      <match lemma="a" tags="pr"><remove tags="pr"/></match>
       <or>
         <match tags="det.*"/>
         <match tags="n.*"/>
@@ -7904,7 +7904,7 @@
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
     <or>
       <match tags="det.*"/>
       <match tags="n.*"/>
@@ -8780,7 +8780,7 @@
         <match lemma="esto"/>
       </or>
     </repeat>
-    <match tags="pr" lemma="por"><select lemma="preposicio_buida"/></match>
+    <match tags="pr" lemma="por"><remove tags="pr"/></match>
     <match lemma="lo que" tags="rel.*"><select lemma="que"/></match>
   </rule>
 
@@ -8790,7 +8790,7 @@
       <match lemma="por eso"/>
       <match lemma="por ello"/>
     </or>  
-    <match tags="pr" lemma="por"><select lemma="preposicio_buida"/></match>
+    <match tags="pr" lemma="por"><remove tags="pr"/></match>
     <match lemma="lo que" tags="rel.*"><select lemma="que"/></match>
   </rule>
   <!-- por lo que a ... respecta -->
@@ -8811,7 +8811,7 @@
         <match tags="cnjcoo"/>
       </or>
     </repeat>
-    <match tags="pr" lemma="respecta"><select lemma="preposicio_buida"/></match>
+    <match tags="pr" lemma="respecta"><remove tags="pr"/></match>
   </rule>
 
   <rule weight="4.0">
@@ -8827,7 +8827,7 @@
         <match tags="cnjcoo"/>
       </or>
     </repeat>
-    <match tags="pr" lemma="respecta"><select lemma="preposicio_buida"/></match>
+    <match tags="pr" lemma="respecta"><remove tags="pr"/></match>
   </rule> 
     
     <!-- propio  > propi / mateix -->
@@ -9467,7 +9467,7 @@
 
   <rule weight="1">
     <match lemma="día siguiente" tags="n.m.sg"><select lemma="endemà del dia"/></match>
-    <match lemma="a" tags="pr"><select lemma="preposicio_buida"/></match>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
     <match lemma="el que" tags="rel.an.m.sg"><select lemma="que"/></match>
   </rule>
 
