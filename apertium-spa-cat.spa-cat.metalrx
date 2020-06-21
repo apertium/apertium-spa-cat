@@ -1964,15 +1964,16 @@
 
   <rule weight="1.0">
     <match lemma="emplear" tags="vblex.*"><select lemma="ocupar"/></match>
-    <repeat from="0" upto="7">
+    <repeat from="0" upto="8">
       <or>
-        <match tags="*.*"/>
         <match tags="preadv"/>
         <match tags="adv"/>
+        <match tags="det.*"/>
         <match tags="pr"/>
         <match tags="cnjcoo"/>
         <match lemma="millón"/>
         <match lemma="mil"/>
+        <match lemma="centenar"/>
         <match lemma="medio"/>
         <match lemma="total"/>
         <match lemma="mitad"/>
@@ -1989,6 +1990,7 @@
       <match lemma="habitante"/>
       <match lemma="obrero"/>
       <match lemma="ciudadano"/>
+      <match lemma="conciudadano"/>
       <match lemma="asalariado"/>
       <match lemma="mano"/>
       <match lemma="trabajo"/>
@@ -7722,6 +7724,7 @@
       <match tags="rel.an.*" lemma="el que"/>
       <match tags="rel.an.*" lemma="lo que"/>
       <match tags="pr.tn.*" lemma="l'altre"/>
+      <match lemma="más"/>
     </or>
   </rule>
 
@@ -7782,6 +7785,7 @@
       <match tags="rel.an.*" lemma="el que"/>
       <match tags="rel.an.*" lemma="lo que"/>
       <match tags="pr.tn.*" lemma="l'altre"/>
+      <match lemma="más"/>
     </or>
   </rule>
 
@@ -7798,6 +7802,7 @@
         <match tags="rel.an.*" lemma="el que"/>
         <match tags="rel.an.*" lemma="lo que"/>
         <match tags="pr.tn.*" lemma="l'altre"/>
+        <match lemma="más"/>
       </or>
   </rule>
 
