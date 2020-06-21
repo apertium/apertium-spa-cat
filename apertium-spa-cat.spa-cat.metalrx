@@ -8377,12 +8377,12 @@
       </or>
     </repeat>
     <or>
-      <match lemma="ismo" tags="n.*"/>
-      <match lemma="cencia" tags="n.*"/>
-      <match lemma="itud" tags="n.*"/>
-      <match lemma="ción" tags="n.*"/>
-      <match lemma="idad" tags="n.*"/>
-      <match lemma="edad" tags="n.*"/>
+      <match suffix="ismo" tags="n.*"/>
+      <match suffix="cencia" tags="n.*"/>
+      <match suffix="itud" tags="n.*"/>
+      <match suffix="ción" tags="n.*"/>
+      <match suffix="idad" tags="n.*"/>
+      <match suffix="edad" tags="n.*"/>
       <match lemma="mayoría" tags="n.*"/>
       <match lemma="año" tags="n.*"/>
       <match lemma="amenaza" tags="n.*"/>
@@ -8401,12 +8401,12 @@
       </or>
     </repeat>
     <or>
-      <match lemma="ismo" tags="n.*"/>
-      <match lemma="cencia" tags="n.*"/>
-      <match lemma="itud" tags="n.*"/>
-      <match lemma="ción" tags="n.*"/>
-      <match lemma="idad" tags="n.*"/>
-      <match lemma="edad" tags="n.*"/>
+      <match suffix="ismo" tags="n.*"/>
+      <match suffix="cencia" tags="n.*"/>
+      <match suffix="itud" tags="n.*"/>
+      <match suffix="ción" tags="n.*"/>
+      <match suffix="idad" tags="n.*"/>
+      <match suffix="edad" tags="n.*"/>
       <match lemma="mayoría" tags="n.*"/>
       <match lemma="año" tags="n.*"/>
       <match lemma="amenaza" tags="n.*"/>
