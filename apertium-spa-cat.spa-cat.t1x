@@ -6471,6 +6471,42 @@
       </action>
     </rule>
     <rule>
+      <!-- REGLA: PREP ADV NUM NOM-->
+      <pattern>
+        <pattern-item n="prep" />
+        <pattern-item n="adv" />
+        <pattern-item n="xifra" />
+        <pattern-item n="nom" />
+      </pattern>
+      <action>
+        <call-macro n="f_preps">
+          <with-param pos="1" />
+          <with-param pos="2" />
+        </call-macro>
+        <call-macro n="f_concord2">
+          <with-param pos="3" />
+          <with-param pos="4" />
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="2" side="tl" part="whole" />
+          </lu>
+          <b pos="2" />
+          <lu>
+            <clip pos="3" side="tl" part="whole" />
+          </lu>
+           <b pos="3" />
+          <lu>
+            <clip pos="4" side="tl" part="lemh" />
+            <clip pos="4" side="tl" part="a_nom" />
+            <clip pos="4" side="tl" part="gen" />
+            <clip pos="4" side="tl" part="nbr" />
+            <clip pos="4" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule>
       <!-- REGLA: PREP NOM ADJECTIU-->
       <pattern>
         <pattern-item n="prep" />
