@@ -5842,10 +5842,10 @@
     <rule>
       <!-- REGLA: NUMERAL cnjcoo ADV NOM (dos o más semanas)-->
       <pattern>
-        <pattern-item n="xifra" />
+        <pattern-item n="num" />
         <pattern-item n="cnjcoo" />
         <pattern-item n="adv" />
-        <pattern-item n="xifra" />
+        <pattern-item n="num" />
       </pattern>
       <action>
         <call-macro n="f_concord2">
