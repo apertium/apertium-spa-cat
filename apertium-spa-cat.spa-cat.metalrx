@@ -6465,10 +6465,10 @@
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
   </rule>
 
-  <rule weight="2">
+  <!--<rule weight="2">
     <match tags="pr" lemma="hasta"/>
     <match lemma="el que" tags="rel.*"><select lemma="el que"/></match>
-  </rule>
+  </rule>-->
 
   <rule weight="2">
     <match lemma="de"/>

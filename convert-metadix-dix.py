@@ -19,6 +19,34 @@
 import sys, re
 import xml.etree.ElementTree as ET
 
+def wordL(e):
+    word = None
+    for part in e:
+        if part.tag == "i":
+            word = part.text
+    if word is None:
+        p = e.find("p")
+        if p:
+            l = p.find("l")
+            word = l.text
+    if word is None:
+        word = ""
+    return word
+
+def wordR(e):
+    word = None
+    for part in e:
+        if part.tag == "i":
+            word = part.text
+    if word is None:
+        p = e.find("p")
+        if p:
+            l = p.find("r")
+            word = l.text
+    if word is None:
+        word = ""
+    return word
+
 source = sys.argv[1]
 target = sys.argv[2]
 
@@ -49,6 +77,14 @@ for e in mainsection.iter(tag='e'):
             par = i.find('s')
     if par is None:
         continue
+
+    wordStrL = wordL(e)
+    if len(wordStrL)<5 or '<b/>' in wordStrL or '_' in wordStrL:
+        continue
+    wordStrR = wordR(e)
+    if len(wordStrR)<5 or '<b/>' in wordStrR or '_' in wordStrR:
+        continue
+
     parname = par.get("n")
     for prefix in prefixes.keys():        
         if parname == prefix:
