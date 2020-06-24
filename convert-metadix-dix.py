@@ -19,6 +19,32 @@
 import sys, re
 import xml.etree.ElementTree as ET
 
+def isMultiword(e):
+    for part in e:
+        if part.tag == "i":
+            b = i.find("b")
+            if b:
+                return True
+    p = e.find("p")
+    if p:
+        l=p.find("l")
+        if l:
+            g = l.find("g")
+            if g:
+                return True
+            b = l.find("b")
+            if b:
+                return True
+        r=p.find("r")
+        if r:
+            g = r.find("g")
+            if g:
+                return True
+            b = r.find("b")
+            if b:
+                return True
+    return False
+
 def wordL(e):
     word = None
     for part in e:
@@ -77,12 +103,15 @@ for e in mainsection.iter(tag='e'):
             par = i.find('s')
     if par is None:
         continue
-
-    wordStrL = wordL(e)
-    if len(wordStrL)<5 or '<b/>' in wordStrL or '_' in wordStrL:
+    if isMultiword(e):
         continue
+    wordStrL = wordL(e)
     wordStrR = wordR(e)
-    if len(wordStrR)<5 or '<b/>' in wordStrR or '_' in wordStrR:
+    if '<b' in wordStrL or '_' in wordStrL or '<b' in wordStrR or '_' in wordStrR:
+        continue
+    if len(wordStrL)<4 and len(wordStrR)<4:
+        continue
+    if len(wordStrL)<3 or len(wordStrR)<3:
         continue
 
     parname = par.get("n")
