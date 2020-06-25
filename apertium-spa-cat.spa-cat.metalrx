@@ -4164,12 +4164,20 @@
   </rule>
 
   <rule weight="1.0">
-    <match tags="n.m.*"/>
+    <or>
+      <match tags="n.m.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <match lemma="y" tags="cnjcoo"/>
     <match lemma="medio" tags="adj.m.sg"><select lemma="mig"/></match>
   </rule>
   <rule weight="1.0">
-    <match tags="n.f.*"/>
+    <or>
+      <match tags="n.f.*"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
     <match lemma="y" tags="cnjcoo"/>
     <match lemma="medio" tags="adj.f.sg"><select lemma="mig"/></match>
   </rule>
