@@ -674,6 +674,27 @@
     </or>
   </rule>
 
+  <!-- doler > fer mal / doldre -->
+
+  <rule weight="0.8">
+    <match lemma="doler" tags="vblex.*"><select lemma="fer# mal"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="doler" tags="vblex.*"><select lemma="doldre"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="que"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="doler" tags="vblex.*"><select lemma="doldre"/></match>
+    <repeat from="0" upto="2">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vblex.inf"/>
+  </rule>
+
   <!-- embolsar > embutxacar / embossar -->
 
   <rule weight="0.8">
