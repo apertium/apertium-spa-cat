@@ -1973,6 +1973,12 @@
     </or>
   </rule>
 
+  <!-- posar > poner, posar -->
+
+  <rule weight="0.6">
+     <match lemma="posar" tags="vblex.*"><select lemma="poner"/></match>
+  </rule>  
+
   <!-- grau > grado, grao -->
 
   <rule weight="0.6">

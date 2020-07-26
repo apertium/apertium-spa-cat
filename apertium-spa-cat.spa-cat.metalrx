@@ -6250,6 +6250,20 @@
     <match lemma="que"/>
   </rule>
 
+  <!-- aquello por lo que/cual -->
+
+  <rule weight="3">
+    <match lemma="aquello" tags="prn.tn.nt"/>
+    <match tags="pr"/>
+    <match lemma="lo que" tags="rel.an.nt"><select lemma="què"/></match>
+  </rule>
+
+  <rule weight="3">
+    <match lemma="aquello" tags="prn.tn.nt"/>
+    <match tags="pr"/>
+    <match lemma="lo cual" tags="rel.an.nt"><select lemma="què"/></match>
+  </rule>
+
   <!-- de que > que / de què -->
 
   <rule weight="0.6">
@@ -9354,8 +9368,24 @@
     </or>
   </rule>
 
+  <!-- encontrar > trobar / estar (però falta eliminar el "se") -->
+  <rule weight="0.5">
+    <match lemma="encontrar" tags="vblex.*"><select lemma="trobar"/></match>
+  </rule>
 
-<!-- albergar > albergar / tenir -->
+  <rule weight="1">
+    <match lemma="se" tags="prn.pro.ref.p3.mf.sp"><remove tags="prn.pro.ref.p3.mf.sp"/></match>
+    <match lemma="encontrar" tags="vblex.*"><select lemma="estar"/></match>
+    <or>
+      <match lemma="situar" tags="vblex.pp.*"/>
+      <match lemma="ubicar" tags="vblex.pp.*"/>
+      <match lemma="colocar" tags="vblex.pp.*"/>
+      <match lemma="emplazar" tags="vblex.pp.*"/>
+      <match lemma="instalar" tags="vblex.pp.*"/>
+    </or>
+  </rule>  
+
+  <!-- albergar > albergar / tenir -->
 
   <rule weight="0.5">
     <match lemma="albergar" tags="vblex.*"><select lemma="albergar"/></match>
