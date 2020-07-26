@@ -1,16 +1,11 @@
-dist: xenial
-language: cpp
-compiler:
-  - clang
-  - gcc
+dist: bionic
 before_install:
   - wget https://apertium.projectjj.com/apt/install-nightly.sh -O - | sudo bash
   - sudo apt-get install -qfy apertium-dev cg3-dev gawk pkg-config python3 apertium-lex-tools
-  - git clone https://github.com/apertium/apertium-spa /tmp/apertium-spa
-  - git clone https://github.com/apertium/apertium-cat /tmp/apertium-cat
+  - git clone --depth 1 https://github.com/apertium/apertium-spa /tmp/apertium-spa
+  - git clone --depth 1 https://github.com/apertium/apertium-cat /tmp/apertium-cat
   - ( cd /tmp/apertium-spa && ./autogen.sh )
   - ( cd /tmp/apertium-cat && ./autogen.sh )
-
 
 script:
   - ./autogen.sh --with-lang1=/tmp/apertium-spa --with-lang2=/tmp/apertium-cat
