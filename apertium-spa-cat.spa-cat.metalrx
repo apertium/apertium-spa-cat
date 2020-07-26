@@ -2074,6 +2074,7 @@
  <rule weight="0.5">
     <match lemma="o sea" tags="cnjcoo"><select lemma="o sigui"/></match>
  </rule>
+
  <rule weight="1">
     <match tags="cm"/>
     <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
@@ -2084,6 +2085,22 @@
  </rule>
  <rule weight="1">
     <match lemma="o sea" tags="cnjcoo"><select lemma="és a dir"/></match>
+    <or>
+      <match lemma="que" tags="cnjsub"/>
+      <match lemma="que" tags="rel.*"/>
+    </or>
+ </rule>
+
+ <rule weight="1">
+    <match tags="cm"/>
+    <match lemma="O sea" tags="cnjcoo"><select lemma="És a dir"/></match>
+ </rule>
+ <rule weight="1">
+    <match lemma="O sea" tags="cnjcoo"><select lemma="És a dir"/></match>
+    <match tags="cm"/>
+ </rule>
+ <rule weight="1">
+    <match lemma="O sea" tags="cnjcoo"><select lemma="És a dir"/></match>
     <or>
       <match lemma="que" tags="cnjsub"/>
       <match lemma="que" tags="rel.*"/>
