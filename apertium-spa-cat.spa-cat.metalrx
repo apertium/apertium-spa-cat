@@ -9369,13 +9369,13 @@
   </rule>
 
   <!-- encontrar > trobar / estar (però falta eliminar el "se") -->
-  <rule weight="0.5">
+  <rule weight="0.5"> 
     <match lemma="encontrar" tags="vblex.*"><select lemma="trobar"/></match>
   </rule>
 
   <rule weight="1">
     <match lemma="se" tags="prn.pro.ref.p3.mf.sp"><remove tags="prn.pro.ref.p3.mf.sp"/></match>
-    <match lemma="encontrar" tags="vblex.*"><select lemma="estar"/></match>
+    <match lemma="encontrar" tags="vblex.*.p3.*"><select lemma="estar"/></match>
     <or>
       <match lemma="situar" tags="vblex.pp.*"/>
       <match lemma="ubicar" tags="vblex.pp.*"/>
