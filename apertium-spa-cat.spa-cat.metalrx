@@ -2091,7 +2091,7 @@
     </or>
  </rule>
 
- <rule weight="1">
+ <!--<rule weight="1">
     <match tags="cm"/>
     <match lemma="O sea" tags="cnjcoo"><select lemma="És a dir"/></match>
  </rule>
@@ -2105,7 +2105,7 @@
       <match lemma="que" tags="cnjsub"/>
       <match lemma="que" tags="rel.*"/>
     </or>
- </rule>
+ </rule>-->
 
 <rule weight="1">
     <match lemma="ser" tags="vbser.prs.p3.sg"/>
@@ -8442,12 +8442,13 @@
       </or>
     </repeat>
     <or>
-      <match suffix="ismo" tags="n.*"/>
+      <match suffix="ismo" tags="n.*"/> <!-- bug? suffix not working. The rule accepts any word with any suffix. -->
       <match suffix="cencia" tags="n.*"/>
       <match suffix="itud" tags="n.*"/>
       <match suffix="ción" tags="n.*"/>
       <match suffix="idad" tags="n.*"/>
       <match suffix="edad" tags="n.*"/>
+      <match suffix="ez" tags="n.*"/>
       <match lemma="mayoría" tags="n.*"/>
       <match lemma="año" tags="n.*"/>
       <match lemma="amenaza" tags="n.*"/>
@@ -8472,6 +8473,7 @@
       <match suffix="ción" tags="n.*"/>
       <match suffix="idad" tags="n.*"/>
       <match suffix="edad" tags="n.*"/>
+      <match suffix="ez" tags="n.*"/>
       <match lemma="mayoría" tags="n.*"/>
       <match lemma="año" tags="n.*"/>
       <match lemma="amenaza" tags="n.*"/>
