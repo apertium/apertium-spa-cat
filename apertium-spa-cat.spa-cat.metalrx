@@ -8444,6 +8444,7 @@
     <or>
       <match suffix="ismo" tags="n.*"/> <!-- bug? suffix not working. The rule accepts any word with any suffix. -->
       <match suffix="cencia" tags="n.*"/>
+      <match suffix="tencia" tags="n.*"/>
       <match suffix="itud" tags="n.*"/>
       <match suffix="ción" tags="n.*"/>
       <match suffix="idad" tags="n.*"/>
@@ -8457,6 +8458,12 @@
       <match tags="num"/>
     </or>
   </rule>
+    
+    <rule weight="1.0">
+        <match lemma="rayar" tags="vblex.*"><select lemma="ranejar"/></match>
+        <match lemma="en" tags="pr"/>
+        <match tags="detnt"/>
+    </rule>
 
   <rule weight="1.0">
     <match lemma="rayar" tags="vblex.*"><select lemma="vorejar"/></match>
@@ -8464,6 +8471,7 @@
       <or>
         <match tags="det.*"/>
         <match tags="adj.*"/>
+        <match tags="adv"/>
       </or>
     </repeat>
     <or>
