@@ -3269,7 +3269,22 @@
     <or>
       <match lemma="archivo"/>
       <match lemma="fichero"/>
+      <match lemma="contraseña"/>
+      <match lemma="documento"/>
     </or>
+  </rule>
+  
+  <rule weight="1">
+    <or>
+      <match lemma="archivo"/>
+      <match lemma="fichero"/>
+      <match lemma="contraseña"/>
+      <match lemma="documento"/>
+    </or>
+    <repeat from="0" upto="3">
+      <match/>  
+    </repeat>
+    <match lemma="guardar" tags="vblex.*"><select lemma="desar"/></match>
   </rule>
 
   <!-- zafar > escapolir / desempallegar (suposant que és reflexiu!)-->
