@@ -566,9 +566,29 @@
       <match lemma="audiencia"/>
     </or>
   </rule>
+  
+  <!-- vuelta > volta, tornada -->
+  <rule weight="0.5"> 
+    <match lemma="vuelta" tags="n.*"><select lemma="volta" /></match>
+  </rule>
+  <rule weight="1"> 
+    <match lemma="vuelta" tags="n.*"><select lemma="tornada" /></match>
+    <match lemma="a"/>
+    <match lemma="casa"></match>
+  </rule>
+  <rule weight="1"> 
+    <match lemma="vuelta" tags="n.*"><select lemma="tornada" /></match>
+    <match lemma="a"/>
+    <match tags="det.*"/>
+    <match lemma="cole"/>
+  </rule>
+  <rule weight="1"> 
+    <match tags="det.pos.*"/>
+    <match lemma="vuelta" tags="n.*"><select lemma="tornada" /></match>
+    <match lemma="a"/>
+  </rule>
 
-
-<!-- corte > corte, tall -->
+  <!-- corte > corte, tall -->
   <rule weight="0.1"> 
     <match lemma="corte" tags="n.*">
         <select lemma="cort" />
