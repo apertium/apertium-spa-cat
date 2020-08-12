@@ -808,6 +808,21 @@
     </repeat>
     <match lemma="apretar" tags="vblex.*"><select lemma="refermar"/></match>
   </rule>
+  
+  <!-- alcanzar -->
+  <rule weight="0.5">
+    <match lemma="alcanzar" tags="vblex.*"><select lemma="aconseguir"/></match>
+  </rule>
+  
+  <rule weight="2">
+    <match lemma="alcanzar" tags="vblex.*"><select lemma="arribar"/></match>
+    <match lemma="a" tags="pr"/>
+    <or>
+      <match tags="vblex.inf"/>
+      <match tags="vbser.inf"/>
+      <match tags="vbhaver.inf"/>
+    </or>
+  </rule>
 
   <!-- contar > contar/comptar -->
 
