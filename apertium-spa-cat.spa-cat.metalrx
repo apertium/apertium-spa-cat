@@ -823,6 +823,18 @@
       <match tags="vbhaver.inf"/>
     </or>
   </rule>
+  
+  <rule weight="4">
+    <match lemma="alcanzar" tags="vblex.*"><select lemma="aconseguir"/></match>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
+    <or>
+      <match tags="vblex.inf" lemma="llegar"/>
+      <match tags="vblex.inf" lemma="saber"/>
+      <match tags="vblex.inf" lemma="encontrar"/>
+      <match tags="vblex.inf" lemma="comprender"/>
+      <match tags="vblex.inf" lemma="entender"/>
+    </or>
+  </rule>
 
   <!-- contar > contar/comptar -->
 
