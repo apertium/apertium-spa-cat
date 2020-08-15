@@ -35,8 +35,11 @@ while getopts "et" opt; do
 done
 
 expand_poly () {
-    sed 's/>\//>\/\//g' | sed 's/<sent>\/\//<sent>\/~\//g' > $POLY1
-    while grep -q "//" $POLY1; do 
+    sed 's/>\/\([^/]\)/>\/\/\1/g' | sed 's/<sent>\/\//<sent>\/~\//g' > $POLY1
+    for (( i=0; i<50; i++ )) do  # This runs for a limited number of iterations to avoid endless loops
+        if ! grep -q "//" $POLY; then
+            break
+        fi
         cat $POLY1 | 
         awk '# This program expands polysemic entries into multiple lines
         # so each possibility is tested during testvoc. Each time
@@ -102,8 +105,11 @@ if [[ $MONODIX != "auto" ]]; then
 else
     MONODIX="$LANG1DIR/apertium-$LANG1.$LANG1.dix"
     if ! [[ -e $MONODIX ]]; then
-        echo "Monolingual dictionary ($MONODIX) not found."
-        exit 1
+        MONODIX="$LANG1DIR/.deps/apertium-$LANG1.$LANG1.dix"
+        if ! [[ -e $MONODIX ]]; then
+            echo "Monolingual dictionary ($MONODIX) not found."
+            exit 1
+        fi
     fi
 fi
 

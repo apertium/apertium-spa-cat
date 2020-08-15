@@ -53,7 +53,7 @@ done
 if [[ $UNKNOWNS ]]; then
     for i in "${!langs[@]}"; do
         printf "== %.45s\n" "${langnames[$i]} ============================================"
-        pushd ../../ > /dev/null; bash dev/testvoc/bidix-unknowns.sh ${langs[$i]} | grep -v ":<:" | grep -v "<prn><enc>" > dev/testvoc/testvoc-missing.${langs[$i]}.txt; popd > /dev/null;
+        pushd ../../ > /dev/null; bash dev/testvoc/bidix-unknowns.sh ${langs[$i]} | grep -v ":<:" | grep -v "REGEX" | grep -v "<prn><enc>" > dev/testvoc/testvoc-missing.${langs[$i]}.txt; popd > /dev/null;
         printf "%s\n" "Missing entries: $(cat testvoc-missing.${langs[$i]}.txt | wc -l)"
     done
 fi
