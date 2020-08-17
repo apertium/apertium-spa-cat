@@ -107,7 +107,7 @@ for e in mainsection.iter(tag='e'):
         continue
     wordStrL = wordL(e)
     wordStrR = wordR(e)
-    if '<b' in wordStrL or '_' in wordStrL or '<b' in wordStrR or '_' in wordStrR:
+    if '<b' in wordStrL or '_' in wordStrL or '<b' in wordStrR or '_' in wordStrR or '.' in wordStrL or '.' in wordStrR:
         continue
     if len(wordStrL)<4 and len(wordStrR)<4:
         continue
