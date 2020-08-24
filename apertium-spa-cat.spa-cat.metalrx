@@ -364,6 +364,7 @@
   <rule weight="0.5"> 
     <match lemma="hueco" tags="n.*"><select lemma="buit" /></match>
   </rule>
+
   <rule weight="1"> 
     <or>
       <match lemma="encontrar"/>
@@ -374,6 +375,7 @@
     </repeat>
     <match lemma="hueco" tags="n.*"><select lemma="lloc" /></match>
   </rule>
+
 <!-- mesa > taula, mesa -->
 
   <rule weight="0.5"> 
