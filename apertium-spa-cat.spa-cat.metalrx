@@ -360,6 +360,15 @@
 
 <!-- **************** N **************** -->
 
+<!-- aseo > lavabo / higiene -->
+  <rule weight="0.5"> 
+    <match lemma="aseo" tags="n.*"><select lemma="lavabo" /></match>
+  </rule>
+<rule weight="1"> 
+    <match tags="pr"/>
+    <match lemma="aseo" tags="n.*"><select lemma="higiene" /></match>
+  </rule>
+
 <!-- hueco > buit / lloc -->
   <rule weight="0.5"> 
     <match lemma="hueco" tags="n.*"><select lemma="buit" /></match>
