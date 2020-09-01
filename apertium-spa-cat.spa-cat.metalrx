@@ -364,9 +364,40 @@
   <rule weight="0.5"> 
     <match lemma="aseo" tags="n.*"><select lemma="lavabo" /></match>
   </rule>
-<rule weight="1"> 
+  <rule weight="1"> 
     <match tags="pr"/>
-    <match lemma="aseo" tags="n.*"><select lemma="higiene" /></match>
+    <match lemma="aseo" tags="n.m.sg"><select lemma="higiene" /></match>
+  </rule>
+  <rule weight="1"> 
+    <or>
+        <match lemma="vestido"/>
+        <match lemma="limpieza"/>
+        <match lemma="higiene"/>
+    </or>  
+    <or>
+        <match tags="cnjcoo"/>
+        <match tags="cm"/>
+    </or>
+    <match lemma="aseo" tags="n.m.sg"><select lemma="higiene" /></match>
+  </rule>
+  <rule weight="1"> 
+    <match lemma="aseo" tags="n.m.sg"><select lemma="higiene" /></match>
+    <or>
+        <match tags="cnjcoo"/>
+        <match tags="cm"/>
+    </or>
+    <or>
+        <match lemma="vestido"/>
+        <match lemma="limpieza"/>
+        <match lemma="higiene"/>
+    </or>
+  </rule>  
+  <rule weight="1"> 
+    <match lemma="aseo" tags="n.m.sg"><select lemma="higiene" /></match>
+    <or>
+        <match lemma="personal"/>
+        <match lemma="diario"/>
+    </or>
   </rule>
 
 <!-- hueco > buit / lloc -->
