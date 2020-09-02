@@ -372,7 +372,6 @@
     <or>
         <match lemma="vestido"/>
         <match lemma="limpieza"/>
-        <match lemma="higiene"/>
     </or>  
     <or>
         <match tags="cnjcoo"/>
@@ -389,7 +388,6 @@
     <or>
         <match lemma="vestido"/>
         <match lemma="limpieza"/>
-        <match lemma="higiene"/>
     </or>
   </rule>  
   <rule weight="1"> 
@@ -397,8 +395,26 @@
     <or>
         <match lemma="personal"/>
         <match lemma="diario"/>
+        <match lemma="habitual"/>
+        <match lemma="rutinario"/>
     </or>
   </rule>
+  <rule weight="1"> 
+    <match lemma="higiene"/>
+    <or>
+        <match tags="cnjcoo"/>
+        <match tags="cm"/>
+    </or>
+    <match lemma="aseo" tags="n.m.sg"><select lemma="neteja" /></match>
+  </rule>
+  <rule weight="1"><match lemma="aseo" tags="n.m.sg"><select lemma="neteja" /></match>
+    <or>
+        <match tags="cnjcoo"/>
+        <match tags="cm"/>
+    </or>
+    <match lemma="higiene"/>
+  </rule>
+
 
 <!-- hueco > buit / lloc -->
   <rule weight="0.5"> 
