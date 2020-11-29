@@ -33,7 +33,7 @@ def isMultiword(e):
             if g:
                 return True
             b = l.find("b")
-            if b:
+            if b is not None:
                 return True
         r=p.find("r")
         if r:
@@ -41,7 +41,7 @@ def isMultiword(e):
             if g:
                 return True
             b = r.find("b")
-            if b:
+            if b is not None:
                 return True
     return False
 
