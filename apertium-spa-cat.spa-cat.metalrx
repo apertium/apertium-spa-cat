@@ -7541,8 +7541,59 @@
     </or>
   </rule>
 
-   <!-- para > per a / per ... -->
+   <!-- a reacción -> de reacció -->
+   <rule weight="2">
+     <or>
+        <match lemma="avión"/>
+        <match lemma="barca"/>
+        <match lemma="barco"/>
+        <match lemma="blusón"/>
+        <match lemma="blusa"/>
+        <match lemma="bombardero"/>
+        <match lemma="camisa"/>
+        <match lemma="camiseta"/>
+        <match lemma="caza"/>
+        <match lemma="coche"/>
+        <match lemma="cocina"/>
+        <match lemma="combustible"/>
+        <match lemma="corbata"/>
+        <match lemma="embarcación"/>
+        <match lemma="falda"/>
+        <match lemma="fogón"/>
+        <match lemma="fragata"/>
+        <match lemma="gusto"/>
+        <match lemma="impresora"/>
+        <match lemma="jet"/>
+        <match lemma="mal olor"/>
+        <match lemma="motor"/>
+        <match lemma="máquina"/>
+        <match lemma="olla"/>
+        <match lemma="olor"/>
+        <match lemma="pantalones"/>
+        <match lemma="plancha"/>
+        <match lemma="radio"/>
+        <match lemma="vehículo"/>
+     </or>
+     <match lemma="a" tags="pr"><select lemma="de"/></match>
+     <or>
+        <match lemma="butano"/>
+        <match lemma="colonia"/>
+        <match lemma="color"/>
+        <match lemma="coñac"/>
+        <match lemma="cuadro"/>
+        <match lemma="gas"/>
+        <match lemma="motor"/>
+        <match lemma="petróleo"/>
+        <match lemma="pila"/>
+        <match lemma="presión"/>
+        <match lemma="raya"/>
+        <match lemma="reacción"/>
+        <match lemma="vapor"/>
+        <match lemma="vela"/>
+    </or>
+   </rule>
 
+   <!-- para > per a / per ... -->
   <rule weight="0.5">
     <match lemma="para" tags="pr"><select lemma="per a"/></match>
   </rule>
