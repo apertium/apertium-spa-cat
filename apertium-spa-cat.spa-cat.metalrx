@@ -9096,6 +9096,7 @@
     <match lemma="lo que" tags="rel.*"><select lemma="el que"/></match>
     <match lemma="se"/>
     <match lemma="ver"/>
+    <match tags="cm"/>
   </rule>
 
   <rule weight="3.0">
