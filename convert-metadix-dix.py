@@ -22,7 +22,7 @@ import xml.etree.ElementTree as ET
 def isMultiword(e):
     for part in e:
         if part.tag == "i":
-            b = i.find("b")
+            b = part.find("b")
             if b:
                 return True
     p = e.find("p")
