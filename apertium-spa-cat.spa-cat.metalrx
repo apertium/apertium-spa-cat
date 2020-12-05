@@ -7541,6 +7541,13 @@
     </or>
   </rule>
 
+  <!-- entorno a -> entorn de -->
+  <rule weight="2">
+       <match lemma="entorno"/>
+       <match lemma="a" tags="pr"><select lemma="de"/></match>
+  </rule>
+ 
+
    <!-- a reacción -> de reacció -->
    <rule weight="2">
      <or>
