@@ -7541,11 +7541,12 @@
     </or>
   </rule>
 
-  <!-- entorno a -> entorn de -->
+  <!-- entorno a -> entorn de
+   error en castellà: *entorno a > en torno a
   <rule weight="2">
        <match lemma="entorno"/>
        <match lemma="a" tags="pr"><select lemma="de"/></match>
-  </rule>
+  </rule> -->
  
 
    <!-- a reacción -> de reacció -->
