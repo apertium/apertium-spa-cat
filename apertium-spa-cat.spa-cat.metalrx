@@ -2162,6 +2162,38 @@
     <match lemma="a fondo"/>
   </rule>
 
+  <!--aunque -->
+  <rule weight="0.5">
+    <match lemma="aunque" tags="cnjadv"><select lemma="encara que"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="aunque" tags="cnjadv"><select lemma="si bé"/></match>
+    <or>
+      <match lemma="aún"/>
+      <match lemma="todavía"/>
+    </or>
+  </rule>
+
+  <rule weight="2">
+    <match lemma="aunque" tags="cnjadv"><select lemma="malgrat que"/></match>
+    <or>
+      <match lemma="aún"/>
+      <match lemma="todavía"/>
+    </or>
+    <repeat from="0" upto="20">
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match tags="*.prs.*"/>
+  </rule>
+
     <!-- número > número/nombre -->
 
   <rule weight="0.8">
