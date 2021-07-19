@@ -1,0 +1,22 @@
+{
+    "cat-spa": {
+        "input": "cat-spa-input.txt",
+        "mode": "cat-spa"
+    },
+    "spa-cat": {
+        "input": "spa-cat-input.txt",
+        "mode": "spa-cat"
+    },
+    "grep": {
+        "input": null,
+        "command": "bash -x test/test-grep.sh"
+    },
+    "sentences-spa-cat": {
+        "input": "test-sentences-spa.txt",
+        "mode": "spa-cat"
+    },
+    "sentences-spa-cat_valencia": {
+        "input": "test-sentences-spa.txt",
+        "mode": "spa-cat_valencia"
+    }
+}

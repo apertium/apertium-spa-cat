@@ -23,3 +23,9 @@
 /dev/testvoc/.*
 /dev/testvoc/testvoc-errors.*.txt
 /dev/testvoc/testvoc-missing.*.txt
+/*.hfst
+/*.zhfst
+/.DS_Store
+/config.in
+/config
+/test/*-output.txt

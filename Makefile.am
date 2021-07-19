@@ -289,11 +289,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "pero" | apertium -d . spa-cat | tee .test-mt
-	@echo "però" > .test-ref
-	@diff .test-ref .test-mt
-	echo "però" | apertium -d . cat-spa | tee .test-mt
-	@echo "pero" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
-	bash -x dev/test-translations.sh
+	apertium-regtest test

@@ -4,7 +4,7 @@
 #set -o pipefail
 echo "Grep tests"
 {
-    file="../apertium-spa-cat.spa-cat.metadix"
+    file="apertium-spa-cat.spa-cat.metadix"
     grep -H "<i> " $file
     grep -H " </i>" $file
     grep -H "<l> " $file
@@ -22,7 +22,8 @@ echo "Grep tests"
     #Poden ser correctes
     grep -H "<b/></l>" $file #| sed -E '/n="(~|cont)/d'
     grep -H "<b/></r>" $file #| sed -E '/n="(~|cont)/d'
-    grep -H "<b/></i>" $file #| sed -E '/n="(~|cont|romana|.*el_qual__rel|.*el_seu__relecho "")/d' 
-} > "greptests.txt"
+    grep -H "<b/></i>" $file #| sed -E '/n="(~|cont|romana|.*el_qual__rel|.*el_seu__relecho "")/d'
+    exit 0
+}
 
 
