@@ -32,7 +32,7 @@
         <file name="spa-cat.autogen.bin"/>
       </program>
       <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
+        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat.autopgen.bin"/>
@@ -41,7 +41,7 @@
   </mode>
 
   <!-- spa → cat diacritics nous -->
-  <mode name="spa-cat_iec2017" install="yes">
+  <mode name="spa-cat_pre2017" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="spa-cat.automorf.bin"/>
@@ -71,7 +71,7 @@
         <file name="spa-cat.autogen.bin"/>
       </program>
       <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
+        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat.autopgen.bin"/>
@@ -109,7 +109,7 @@
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
       <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
+        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_gva.autopgen.bin"/>
@@ -117,7 +117,7 @@
     </pipeline>
   </mode>
 
-  <mode name="spa-cat_valencia_iec2017" install="yes">
+  <mode name="spa-cat_valencia_pre2017" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="spa-cat.automorf.bin"/>
@@ -147,7 +147,7 @@
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
       <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
+        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_gva.autopgen.bin"/>
@@ -185,7 +185,7 @@
         <file name="spa-cat_valencia_uni.autogen.bin"/>
       </program>
       <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
+        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_uni.autopgen.bin"/>
@@ -193,7 +193,7 @@
     </pipeline>
   </mode>
 
-  <mode name="spa-cat_valencia_uni_iec2017" install="yes">
+  <mode name="spa-cat_valencia_uni_pre2017" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="spa-cat.automorf.bin"/>
@@ -223,7 +223,7 @@
         <file name="spa-cat_valencia_uni.autogen.bin"/>
       </program>
       <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
+        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_uni.autopgen.bin"/>
@@ -260,7 +260,7 @@
       <program name="lt-proc -b">
         <file name="cat-spa.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m" debug-suff="lex">
         <file name="cat-spa.autolex.bin"/>
       </program>
       
