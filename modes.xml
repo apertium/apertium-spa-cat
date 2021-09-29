@@ -40,7 +40,7 @@
     </pipeline>
   </mode>
 
-  <!-- spa → cat diacritics nous -->
+  <!-- spa → cat diacritics vells -->
   <mode name="spa-cat_pre2017" install="yes">
     <pipeline>
       <program name="lt-proc -w">
@@ -108,11 +108,11 @@
         <file name="spa-cat_valencia_gva.t1x.bin"/>
       </program>
       <program name="apertium-posttransfer"/>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="spa-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_gva.autopgen.bin"/>
@@ -146,11 +146,14 @@
         <file name="spa-cat_valencia_gva.t1x.bin"/>
       </program>
       <program name="apertium-posttransfer"/>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc" debug-suff="pre2017prefs">
+        <file name="spa-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="spa-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_gva.autopgen.bin"/>
@@ -184,11 +187,11 @@
         <file name="spa-cat_valencia_uni.t1x.bin"/>
       </program>
       <program name="apertium-posttransfer"/>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_uni.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-nous.bin"/>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="spa-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_uni.autopgen.bin"/>
@@ -222,11 +225,14 @@
         <file name="spa-cat_valencia_uni.t1x.bin"/>
       </program>
       <program name="apertium-posttransfer"/>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_uni.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc" debug-suff="pre2017prefs">
+        <file name="spa-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="spa-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat_valencia_uni.autopgen.bin"/>
