@@ -67,11 +67,14 @@
         <file name="spa-cat.t1x.bin"/>
       </program>
       <program name="apertium-posttransfer"/>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="spa-cat.autogen.bin"/>
       </program>
-      <program name="lt-proc -x">
-        <file name="spa-cat.autopgen-diacritics-vells.bin"/>
+      <program name="cg-proc" debug-suff="pre2017prefs">
+        <file name="spa-cat.pre2017_prefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="prefs">
+        <file name="spa-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="spa-cat.autopgen.bin"/>
