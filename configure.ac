@@ -5,9 +5,9 @@ AM_INIT_AUTOMAKE
 
 AC_PROG_AWK
 
-PKG_CHECK_MODULES(APERTIUM, apertium >= 3.6.0)
-PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.5.0)
-PKG_CHECK_MODULES(CG3, cg3 >= 1.3.0)
+PKG_CHECK_MODULES(APERTIUM, apertium >= 3.7.2)
+PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.5.4)
+PKG_CHECK_MODULES(CG3, cg3 >= 1.3.3)
 
 AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
 AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])
