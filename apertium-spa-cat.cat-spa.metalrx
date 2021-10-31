@@ -1628,11 +1628,11 @@
      <match lemma="oli" tags="n.*"><select lemma="aceite"/></match>
   </rule>
 
-  <rule weight="1">
+<!--  <rule weight="1">
      <match lemma="a"/>
      <match lemma="el"/>
      <match lemma="oli" tags="n.*"><select lemma="óleo"/></match>
-  </rule>
+  </rule>-->
 
   <rule weight="1">
      <or>
