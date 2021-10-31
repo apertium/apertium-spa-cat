@@ -1622,6 +1622,52 @@
 
 <!-- **************** N **************** -->
 
+<!-- oli > aceite, óleo-->
+
+  <rule weight="0.6">
+     <match lemma="oli" tags="n.*"><select lemma="aceite"/></match>
+  </rule>
+
+  <rule weight="1">
+     <match lemma="a"/>
+     <match lemma="el"/>
+     <match lemma="oli" tags="n.*"><select lemma="óleo"/></match>
+  </rule>
+
+  <rule weight="1">
+     <or>
+        <match lemma="quadre"/>
+        <match lemma="quadro"/>
+        <match lemma="obra"/>
+        <match lemma="retrat"/>
+        <match lemma="llenç"/>
+        <match lemma="tècnica"/>
+        <match lemma="pintura"/>
+        <match lemma="pintor"/>
+     </or>
+     <repeat from="0" upto="5">
+      <match tags="*" />
+    </repeat>
+     <match lemma="oli" tags="n.*"><select lemma="óleo"/></match>
+  </rule>
+
+  <rule weight="1"><match lemma="oli" tags="n.*"><select lemma="óleo"/></match>
+     <repeat from="0" upto="5">
+      <match tags="*" />
+     </repeat>
+     <or>
+        <match lemma="quadre"/>
+        <match lemma="quadro"/>
+        <match lemma="obra"/>
+        <match lemma="retrat"/>
+        <match lemma="llenç"/>
+        <match lemma="tècnica"/>
+        <match lemma="pintura"/>
+        <match lemma="pintor"/>
+
+     </or>
+  </rule>
+
 <!-- ocupació > ocupación, empleo -->
 
   <rule weight="0.6">
