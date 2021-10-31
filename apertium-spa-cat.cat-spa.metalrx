@@ -1646,14 +1646,28 @@
         <match lemma="pintor"/>
      </or>
      <repeat from="0" upto="5">
-      <match tags="*" />
-    </repeat>
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+     </repeat>
      <match lemma="oli" tags="n.*"><select lemma="óleo"/></match>
   </rule>
 
   <rule weight="1"><match lemma="oli" tags="n.*"><select lemma="óleo"/></match>
      <repeat from="0" upto="5">
-      <match tags="*" />
+      <or>
+        <match tags="*.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
      </repeat>
      <or>
         <match lemma="quadre"/>
