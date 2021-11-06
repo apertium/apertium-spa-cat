@@ -34,11 +34,25 @@ fi
 if [[ ${monodix} = guess ]]; then
     langdir=$(grep -m1 "^AP_SRC.*apertium-${lang}" config.log | sed "s/^[^=]*='//;s/'$//")
     monodix=${langdir}/apertium-${lang}.${lang}.dix
+    if ! [[ -e $monodix ]]; then
+        monodix=${langdir}/.deps/apertium-${lang}.${lang}.dix
+        if ! [[ -e $monodix ]]; then
+            echo "Monolingual dictionary ($monodix) not found."
+            exit 1
+        fi
+    fi
 fi
 if [[ ${bidix} = guess ]]; then
     basename=$(grep -m1 "^PACKAGE='apertium-" config.log | sed "s/^[^=]*='//;s/'$//")
     pair=${basename##apertium-}
     bidix=${basename}.${pair}.dix
+    if ! [[ -e $bidix ]]; then
+        bidix=.deps/${basename}.${pair}.dix
+        if ! [[ -e $bidix ]]; then
+            echo "Bilingual dictionary ($bidix) not found."
+            exit 1
+        fi
+    fi
 fi
 if [[ ${side} = guess ]]; then
     if [[ ${lang} = ${pair%%-*} ]]; then
