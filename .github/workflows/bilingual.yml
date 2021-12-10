@@ -1,0 +1,14 @@
+name: apertium-spa-cat CI/CD
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  call-workflow:
+    uses: apertium/github-actions/.github/workflows/bilingual-build.yml@master
+    with:
+      lang1: apertium-spa
+      lang2: apertium-cat
