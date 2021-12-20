@@ -54,7 +54,9 @@ TARGETS_COMMON =			\
 	$(PREFIX1V).t1x.bin 		\
 	$(PREFIX1U).t1x.bin 		\
 	$(PREFIX2).t1x.bin		\
-	$(PREFIX1).prefs.rlx.bin	\
+	$(PREFIX1C).prefs.rlx.bin	\
+	$(PREFIX1V).prefs.rlx.bin	\
+	$(PREFIX1U).prefs.rlx.bin	\
 	$(PREFIX1).pre2017_prefs.rlx.bin \
 	prefs/$(PREFIX1).xml
 
@@ -125,9 +127,14 @@ $(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
 $(PREFIX1).pre2017_prefs.rlx.bin: $(AP_SRC2)/$(LANG2).pre2017_prefs.rlx.bin
 	cp $< $@
 
-$(PREFIX1).prefs.rlx.bin: $(AP_SRC2)/$(LANG2).prefs.rlx.bin
+$(PREFIX1C).prefs.rlx.bin: $(AP_SRC2)/$(LANG2C).prefs.rlx.bin
 	cp $< $@
 
+$(PREFIX1V).prefs.rlx.bin: $(AP_SRC2)/$(LANG2V).prefs.rlx.bin
+	cp $< $@
+
+$(PREFIX1U).prefs.rlx.bin: $(AP_SRC2)/$(LANG2U).prefs.rlx.bin
+	cp $< $@
 
 ###############################################################################
 ## Disambiguation models

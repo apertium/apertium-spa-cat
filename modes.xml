@@ -111,6 +111,9 @@
       <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
+      <program name="cg-proc" debug-suff="valencia_gva_prefs">
+        <file name="spa-cat_valencia_gva.prefs.rlx.bin"/>
+      </program>
       <program name="cg-proc -1 -n -g" debug-suff="prefs">
         <file name="spa-cat.prefs.rlx.bin"/>
       </program>
@@ -149,6 +152,9 @@
       <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
+      <program name="cg-proc" debug-suff="valencia_gva_prefs">
+        <file name="spa-cat_valencia_gva.prefs.rlx.bin"/>
+      </program>
       <program name="cg-proc -1 -n -g" debug-suff="prefs">
         <file name="spa-cat.prefs.rlx.bin"/>
       </program>
@@ -186,6 +192,9 @@
       <program name="apertium-posttransfer"/>
       <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_gva.autogen.bin"/>
+      </program>
+      <program name="cg-proc" debug-suff="valencia_gva_prefs">
+        <file name="spa-cat_valencia_gva.prefs.rlx.bin"/>
       </program>
       <program name="cg-proc" debug-suff="pre2017prefs">
         <file name="spa-cat.pre2017_prefs.rlx.bin"/>
@@ -228,6 +237,9 @@
       <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_uni.autogen.bin"/>
       </program>
+      <program name="cg-proc" debug-suff="valencia_uni_prefs">
+        <file name="spa-cat_valencia_uni.prefs.rlx.bin"/>
+      </program>
       <program name="cg-proc -1 -n -g" debug-suff="prefs">
         <file name="spa-cat.prefs.rlx.bin"/>
       </program>
@@ -265,6 +277,9 @@
       <program name="apertium-posttransfer"/>
       <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_uni.autogen.bin"/>
+      </program>
+      <program name="cg-proc" debug-suff="valencia_uni_prefs">
+        <file name="spa-cat_valencia_uni.prefs.rlx.bin"/>
       </program>
       <program name="cg-proc" debug-suff="pre2017prefs">
         <file name="spa-cat.pre2017_prefs.rlx.bin"/>
