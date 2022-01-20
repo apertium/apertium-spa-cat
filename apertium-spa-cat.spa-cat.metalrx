@@ -10295,7 +10295,7 @@
       <match lemma="pacto"/>
       <match lemma="diablo"/>
     </or>
-    <repeat form="0" upto="8">
+    <repeat from="0" upto="8">
       <match tags="*"/>
     </repeat>
     <match lemma="Fausto" tags="np.*"><select lemma="Faust"/></match>
@@ -10303,7 +10303,7 @@
 
   <rule weight="5">
     <match lemma="Fausto" tags="np.*"><select lemma="Faust"/></match>
-    <repeat form="0" upto="8">
+    <repeat from="0" upto="8">
       <match tags="*"/>
     </repeat>
     <or>

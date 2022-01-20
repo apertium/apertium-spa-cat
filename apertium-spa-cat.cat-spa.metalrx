@@ -94,7 +94,7 @@
   </def-macros>
 
   <def-seqs>
-    <def-seq n="animal">
+    <def-seq n="animal"><or>
       <match lemma="animal" tags="n.*"/>
       <match lemma="peix" tags="n.*"/>
       <match lemma="gos" tags="n.*"/>
@@ -145,9 +145,9 @@
       <match lemma="dinosaure" tags="n.*"/>
       <match lemma="brontosaure" tags="n.*"/>
       <match lemma="tiranosaure" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="material">
+    <def-seq n="material"><or>
       <match lemma="or" tags="n.*"/>
       <match lemma="plata" tags="n.*"/>
       <match lemma="argent" tags="n.*"/>
@@ -156,9 +156,9 @@
       <match lemma="acer" tags="n.*"/>
       <match lemma="niquel" tags="n.*"/>
       <match lemma="alumini" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="lloc_concret">
+    <def-seq n="lloc_concret"><or>
       <match lemma="parlament"/>
       <match lemma="congrés"/>
       <match lemma="senat"/>
@@ -196,9 +196,9 @@
       <match lemma="terrat"/>
 
       <match lemma="presó"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="lloc_abstracte">
+    <def-seq n="lloc_abstracte"><or>
       <match lemma="vida"/>
       <match lemma="mort"/>
       <match lemma="estudi"/>
@@ -208,9 +208,9 @@
       <match lemma="recerca"/>
       <match lemma="cerca"/>
       <match lemma="anàlisi"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="mitja_comunicacio">
+    <def-seq n="mitja_comunicacio"><or>
       <match lemma="televisió"/>
       <match lemma="ràdio"/>
       <match lemma="diari"/>
@@ -218,9 +218,9 @@
       <match lemma="revista"/>
       <match lemma="xarxa"/>
       <match lemma="internet"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="punt_cardinal">
+    <def-seq n="punt_cardinal"><or>
       <match lemma="nord"/>
       <match lemma="nord-est"/>
       <match lemma="nord-oest"/>
@@ -229,9 +229,9 @@
       <match lemma="sud-oest"/>
       <match lemma="est"/>
       <match lemma="oest"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="territori">
+    <def-seq n="territori"><or>
       <match lemma="poble"/>
       <match lemma="població"/>
       <match lemma="localitat"/>
@@ -252,9 +252,9 @@
       <match lemma="territori"/>
       <match lemma="comunitat"/>
       <match lemma="estat"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="accident_geogr">
+    <def-seq n="accident_geogr"><or>
       <match lemma="pla"/>
       <match lemma="plana"/>
       <match lemma="vall"/>
@@ -274,9 +274,9 @@
       <match lemma="camp"/>
       <match lemma="aiguamoll"/>
 
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="part_ciutat">
+    <def-seq n="part_ciutat"><or>
       <match lemma="carrer"/>
       <match lemma="plaça"/>
       <match lemma="avinguda"/>
@@ -286,9 +286,9 @@
       <match lemma="baixada"/>
       <match lemma="centre"/>
       <match lemma="perifèria"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="escrit">
+    <def-seq n="escrit"><or>
       <match lemma="escrit"/>
       <match lemma="text"/>
       <match lemma="llibre"/>
@@ -301,10 +301,10 @@
       <match lemma="constitució"/>
       <match lemma="estatut"/>
       <match lemma="títol"/>
-    </def-seq>
+    </or></def-seq>
 
 
-    <def-seq n="periode">
+    <def-seq n="periode"><or>
       <match lemma="minut" tags="n.*"/>
       <match lemma="hora" tags="n.*"/>
       <match lemma="dia" tags="n.*"/>
@@ -345,9 +345,9 @@
       <match lemma="pliocè" tags="n.*"/>
       <match lemma="plistocè" tags="n.*"/>
       <match lemma="holocè" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="part_cos">
+    <def-seq n="part_cos"><or>
       <match lemma="braç"/>
       <match lemma="mà"/>
       <match lemma="cama"/>
@@ -378,9 +378,9 @@
       <match lemma="cor"/>
       <match lemma="pulmó"/>
       <match lemma="budell"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="vestit">
+    <def-seq n="vestit"><or>
       <match lemma="samarreta"/>
       <match lemma="camisa"/>
       <match lemma="pantaló"/>
@@ -391,9 +391,9 @@
       <match lemma="mitjó"/>
       <match lemma="mitja"/>
       <match lemma="sabata"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="mes">
+    <def-seq n="mes"><or>
       <match lemma="gener"/>
       <match lemma="febrer"/>
       <match lemma="març"/>
@@ -406,24 +406,24 @@
       <match lemma="octubre"/>
       <match lemma="novembre"/>
       <match lemma="desembre"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="estacio">
+    <def-seq n="estacio"><or>
       <match lemma="primavera"/>
       <match lemma="estiu"/>
       <match lemma="tardor"/>
       <match lemma="hivern"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="baralla">
+    <def-seq n="baralla"><or>
       <match lemma="guerra"/>
       <match lemma="batalla"/>
       <match lemma="lluita"/>
       <match lemma="combat"/>
       <match lemma="baralla"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="num_trencat">
+    <def-seq n="num_trencat"><or>
       <match lemma="meitat"/>
       <match lemma="terç"/>
       <match lemma="quart"/>
@@ -432,9 +432,9 @@
       <match lemma="setè"/>
       <match lemma="vuitè"/>
       <match lemma="novè"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="llengua">
+    <def-seq n="llengua"><or>
        <match lemma="català" tags="n.*"/>
        <match lemma="castellà" tags="n.*"/>
        <match lemma="espanyol" tags="n.*"/>
@@ -471,9 +471,9 @@
        <match lemma="persa" tags="n.*"/>
        <match lemma="hindi" tags="n.*"/>
        <match lemma="urdu" tags="n.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="verbs_moviment">
+    <def-seq n="verbs_moviment"><or>
       <match lemma="anar" tags="vblex.*"/>
       <match lemma="córrer" tags="vblex.*"/>
       <match lemma="volar" tags="vblex.*"/>
@@ -486,9 +486,9 @@
       <match lemma="eixir" tags="vblex.*"/>
       <match lemma="traslladar" tags="vblex.*"/>
       <match lemma="dirigir" tags="vblex.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="verbs_donar">
+    <def-seq n="verbs_donar"><or>
       <match lemma="donar" tags="vblex.*"/>
       <match lemma="apropar" tags="vblex.*"/>
       <match lemma="servir" tags="vblex.*"/>
@@ -502,9 +502,9 @@
       <match lemma="cridar" tags="vblex.*"/>
       <match lemma="incorporar" tags="vblex.*"/>
       <match lemma="dedicar" tags="vblex.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="verbs_ci">
+    <def-seq n="verbs_ci"><or>
       <match lemma="accedir" tags="vblex.*"/>
        <match lemma="afegir" tags="vblex.*"/>
        <match lemma="agafar" tags="vblex.*"/>
@@ -544,9 +544,9 @@
        <match lemma="telefonar" tags="vblex.*"/>
        <match lemma="trucar" tags="vblex.*"/>
        <match lemma="vendre" tags="vblex.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="verbs_mov_amb_a">
+    <def-seq n="verbs_mov_amb_a"><or>
        <match lemma="apropar" tags="vblex.*"/>
        <match lemma="acostar" tags="vblex.*"/>
        <match lemma="aproximar" tags="vblex.*"/>
@@ -554,9 +554,9 @@
        <match lemma="llançar" tags="vblex.*"/>
        <match lemma="ficar" tags="vblex.*"/>
        <match lemma="posar" tags="vblex.*"/>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="regeix_a">
+    <def-seq n="regeix_a"><or>
        <match lemma="accedir"/>
        <match lemma="accés"/>
        <match lemma="adreçar"/>
@@ -592,7 +592,7 @@
        <match lemma="sotmetre"/>
        <match lemma="suport"/>
        <match lemma="tornada"/>
-     </def-seq>
+     </or></def-seq>
 
   </def-seqs>
 
@@ -696,7 +696,7 @@
       <seq n="baralla"/>
       <seq n="part_ciutat"/>
       <seq n="escrit"/>
-      <seq n="període"/>
+      <seq n="periode"/>
       <seq n="part_cos"/>
       <seq n="vestit"/>
       <seq n="mes"/>
