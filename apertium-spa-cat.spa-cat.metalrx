@@ -8686,7 +8686,8 @@
       </or>
     </repeat>
     <or>
-      <match suffix="ismo" tags="n.*"/> <!-- bug? suffix not working. The rule accepts any word with any suffix. -->
+      <!-- els suficos corresponen en general a noms abstractes -->
+      <match suffix="ismo" tags="n.*"/> 
       <match suffix="cencia" tags="n.*"/>
       <match suffix="tencia" tags="n.*"/>
       <match suffix="itud" tags="n.*"/>
@@ -8694,6 +8695,8 @@
       <match suffix="idad" tags="n.*"/>
       <match suffix="edad" tags="n.*"/>
       <match suffix="ez" tags="n.*"/>
+      <match suffix="ión" tags="n.*"/>
+      <match suffix="obia" tags="n.*"/>
       <match lemma="mayoría" tags="n.*"/>
       <match lemma="año" tags="n.*"/>
       <match lemma="amenaza" tags="n.*"/>
@@ -8720,6 +8723,7 @@
       </or>
     </repeat>
     <or>
+      <!-- els suficos corresponen en general a noms abstractes -->
       <match suffix="ismo" tags="n.*"/>
       <match suffix="cencia" tags="n.*"/>
       <match suffix="itud" tags="n.*"/>
@@ -8727,6 +8731,8 @@
       <match suffix="idad" tags="n.*"/>
       <match suffix="edad" tags="n.*"/>
       <match suffix="ez" tags="n.*"/>
+      <match suffix="ión" tags="n.*"/>
+      <match suffix="obia" tags="n.*"/>
       <match lemma="mayoría" tags="n.*"/>
       <match lemma="año" tags="n.*"/>
       <match lemma="amenaza" tags="n.*"/>
