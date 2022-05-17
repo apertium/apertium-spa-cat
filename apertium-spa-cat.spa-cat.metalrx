@@ -311,7 +311,7 @@
   </def-macro>
 </def-macros>
 
-<rules>
+<rules glob="plus">
 
 <!-- **************** NUM **************** -->
 
@@ -918,7 +918,7 @@
     <match lemma="contar" tags="vblex.*"><select lemma="contar"/></match>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -964,7 +964,7 @@
     </or>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -1025,7 +1025,7 @@
     </or>
     <repeat from="0" upto="12">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -1063,7 +1063,7 @@
     <match lemma="tener" tags="vblex.*"><select lemma="haver_de"/></match>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -1079,7 +1079,7 @@
     <match lemma="que" tags="cnjsub"><select lemma="de"/></match>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -1096,7 +1096,7 @@
     <match lemma="ver" tags="vblex.inf"/>
     <repeat from="0" upto="14">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -1200,7 +1200,7 @@
     <match lemma="tener" tags="vblex.*"><select lemma="tenir"/></match>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -1224,7 +1224,7 @@
     <match lemma="sortear" tags="vblex.*"><select lemma="eludir"/></match>
     <repeat from="0" upto="5">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -1260,7 +1260,7 @@
     <match lemma="sortear" tags="vblex.*"><select lemma="superar"/></match>
     <repeat from="0" upto="5">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -1910,7 +1910,7 @@
     <match lemma="tráfico" tags="n.*"><select lemma="tràfic"/></match>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -1984,7 +1984,7 @@
     </or>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -2004,7 +2004,7 @@
     <match lemma="sentar" tags="vblex.*"><select lemma="establir"/></match>
     <repeat from="0" upto="2">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -2044,7 +2044,7 @@
     <match lemma="cruzar" tags="vblex.*"><select lemma="travessar"/></match>
     <repeat from="0" upto="2">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -2074,7 +2074,7 @@
     <match lemma="cruzar" tags="vblex.*"><select lemma="encreuar"/></match>
     <repeat from="0" upto="2">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -2183,7 +2183,7 @@
     </or>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -2263,7 +2263,7 @@
     <match lemma="ser" tags="vbser.prs.p3.sg"/>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -2362,7 +2362,7 @@
     <match lemma="bolsa" tags="n.f.*"><select lemma="borsa"/></match>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -2431,7 +2431,7 @@
     </or>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -2754,7 +2754,7 @@
     <match lemma="cámara" tags="n.f.*"><select lemma="càmera"/></match>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -3007,7 +3007,7 @@
     </or>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -3022,7 +3022,7 @@
     <match lemma="cámara" tags="n.f.*"><select lemma="cambra"/></match>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -3076,7 +3076,7 @@
     </or>
     <repeat from="0" upto="20">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -3198,7 +3198,7 @@
     </or>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -3214,7 +3214,7 @@
     <match lemma="en su caso" tags="adv"><select lemma="si escau"/></match>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -3275,7 +3275,7 @@
     <match lemma="tienda" tags="n.*"><select lemma="tenda"/></match>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -3348,7 +3348,7 @@
     </or>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -3582,7 +3582,7 @@
     <match lemma="llamada" tags="n.*"><select lemma="trucada"/></match>
     <repeat from="0" upto="8">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -3632,7 +3632,7 @@
     </or>
     <repeat from="0" upto="8">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -3651,7 +3651,7 @@
     </or>
     <repeat from="0" upto="2">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -3684,7 +3684,7 @@
     <match lemma="llamar" tags="vblex.*"><select lemma="cridar"/></match> 
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -3907,7 +3907,7 @@
     <match lemma="granito" tags="n.*"><select lemma="granet"/></match>
     <repeat from="0" upto="3">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -4005,7 +4005,7 @@
     <match lemma="pico" tags="n.*"><select lemma="bec"/></match>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -4103,7 +4103,7 @@
     </or>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -4124,7 +4124,7 @@
     <match lemma="cata" tags="n.*"><select lemma="sondatge"/></match>
     <repeat from="0" upto="4">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -4829,7 +4829,7 @@
     <match lemma="medio"/>
     <repeat from="0" upto="10">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -4843,7 +4843,7 @@
     <match lemma="fin" tags="n.*"><select lemma="fi_masc"/></match>
     <repeat from="0" upto="10">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -5505,7 +5505,7 @@
     <match tags="n.m.sg"/>
     <repeat from="0" upto="10">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="pr"/>
         <match tags="cnjcoo"/>
@@ -5550,7 +5550,7 @@
     <match tags="prn.tn.nt"/>
     <repeat from="0" upto="10">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="pr"/>
         <match tags="cnjcoo"/>
@@ -6295,7 +6295,7 @@
     </or>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="pr"/>
       </or>
@@ -6390,7 +6390,7 @@
     <match lemma="a que" tags="cnjsub"><select lemma="a què"/></match>
     <repeat from="0" upto="3">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="pr"/>
       </or>
@@ -6409,7 +6409,7 @@
     <match lemma="a que" tags="cnjsub"><select lemma="a què"/></match>
     <repeat from="0" upto="3">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="pr"/>
       </or>
@@ -6564,7 +6564,7 @@
     <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
     <repeat from="0" upto="3">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="pr"/>
       </or>
@@ -6580,7 +6580,7 @@
     <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
     <repeat from="0" upto="3">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="pr"/>
       </or>
@@ -6597,7 +6597,7 @@
     <match lemma="de que" tags="cnjsub"><select lemma="de què"/></match>
     <repeat from="0" upto="3">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="pr"/>
       </or>
@@ -7416,7 +7416,7 @@
     </or>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -7942,7 +7942,7 @@
       </or>
       <repeat from="0" upto="5">
         <or>
-          <match tags="*.*"/>
+          <match tags="?.+"/>
           <match tags="*"/>
           <match tags="preadv"/>
           <match tags="adv"/>
@@ -7968,7 +7968,7 @@
       </or>
       <repeat from="0" upto="5">
         <or>
-          <match tags="*.*"/>
+          <match tags="?.+"/>
           <match tags="*"/>
           <match tags="preadv"/>
           <match tags="adv"/>
@@ -8368,7 +8368,7 @@
     <match lemma="abonar" tags="vblex.*"><select lemma="adobar"/></match>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -8406,7 +8406,7 @@
     </or>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -8425,7 +8425,7 @@
     <match lemma="abonado" tags="n.m.*"><select lemma="adobament"/></match>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -8463,7 +8463,7 @@
     </or>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -8483,7 +8483,7 @@
     <match lemma="abono" tags="n.*"><select lemma="adob"/></match>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -8525,7 +8525,7 @@
     </or>
     <repeat from="0" upto="6">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -8695,6 +8695,7 @@
       <match suffix="ción" tags="n.*"/>
       <match suffix="idad" tags="n.*"/>
       <match suffix="edad" tags="n.*"/>
+      <match suffix="umbre" tags="n.*"/>
       <match suffix="ez" tags="n.*"/>
       <match suffix="ión" tags="n.*"/>
       <match suffix="obia" tags="n.*"/>
@@ -8703,6 +8704,7 @@
       <match lemma="amenaza" tags="n.*"/>
       <match lemma="insulto" tags="n.*"/>
       <match lemma="límite" tags="n.*"/>
+      <match lemma="castigo" tags="n.*"/>
       <match lemma="absurdo"/>
       <match tags="num"/>
     </or>
@@ -8725,12 +8727,14 @@
     </repeat>
     <or>
       <!-- els suficos corresponen en general a noms abstractes -->
-      <match suffix="ismo" tags="n.*"/>
+      <match suffix="ismo" tags="n.*"/> 
       <match suffix="cencia" tags="n.*"/>
+      <match suffix="tencia" tags="n.*"/>
       <match suffix="itud" tags="n.*"/>
       <match suffix="ción" tags="n.*"/>
       <match suffix="idad" tags="n.*"/>
       <match suffix="edad" tags="n.*"/>
+      <match suffix="umbre" tags="n.*"/>
       <match suffix="ez" tags="n.*"/>
       <match suffix="ión" tags="n.*"/>
       <match suffix="obia" tags="n.*"/>
@@ -8738,6 +8742,8 @@
       <match lemma="año" tags="n.*"/>
       <match lemma="amenaza" tags="n.*"/>
       <match lemma="insulto" tags="n.*"/>
+      <match lemma="límite" tags="n.*"/>
+      <match lemma="castigo" tags="n.*"/>
       <match lemma="absurdo"/>
       <match tags="num"/>
     </or>
@@ -9131,7 +9137,7 @@
     <match lemma="a" tags="pr"/>
     <repeat from="1" upto="5">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -9160,7 +9166,7 @@
     <match lemma="a" tags="pr"/>
     <repeat from="1" upto="5">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="preadv"/>
         <match tags="adv"/>
         <match tags="pr"/>
@@ -9217,7 +9223,7 @@
     </or>
     <repeat from="0" upto="5">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -9820,8 +9826,11 @@
   <rule weight="0.5">
     <match lemma="día siguiente" tags="n.m.sg"><select lemma="endemà"/></match>
   </rule>
-
-  <rule weight="1">
+  <rule weight="0.5">
+    <match lemma="día siguiente" tags="n.m.sg"><select lemma="endemà"/></match>
+    <match lemma="a" tags="pr"><select lemma="de"/></match>
+  </rule>
+  <rule weight="3">
     <match lemma="día siguiente" tags="n.m.sg"><select lemma="endemà del dia"/></match>
     <match lemma="a" tags="pr"><remove tags="pr"/></match>
     <match lemma="el que" tags="rel.an.m.sg"><select lemma="que"/></match>
@@ -9886,7 +9895,7 @@
     </or>
     <repeat from="0" upto="10">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -9902,7 +9911,7 @@
     <match lemma="agalla" tags="n.*"><select lemma="ganya"/></match>
     <repeat from="0" upto="10">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -9936,7 +9945,7 @@
     <match lemma="atizar" tags="vblex.*"><select lemma="atiar"/></match>
     <repeat from="0" upto="5">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
@@ -9991,7 +10000,7 @@
     </or>
     <repeat from="0" upto="5">
       <or>
-        <match tags="*.*"/>
+        <match tags="?.+"/>
         <match tags="adv"/>
         <match tags="preadv"/>
         <match tags="cm"/>
