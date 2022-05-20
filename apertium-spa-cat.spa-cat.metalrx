@@ -9836,6 +9836,12 @@
     <match lemma="el que" tags="rel.an.m.sg"><select lemma="que"/></match>
   </rule>
 
+  <rule weight="5">
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <match tags="det.def.f.pl"/>
+    <match tags="num"/>
+  </rule>
+
   <!-- sumo > summe / suprem -->
 
   <rule weight="0.5">
