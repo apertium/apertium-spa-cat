@@ -596,7 +596,7 @@
 
   </def-seqs>
 
-<rules>
+<rules glob="plus">
 
 <!-- **************** PR **************** -->
   <rule weight="1">
@@ -909,6 +909,31 @@
   </rule>
   <rule weight="1.0">
      <match lemma="perquè" tags="cnjadv"><select lemma="para que"/></match>
+     <repeat from="0" upto="20">
+      <or>
+        <!-- qualsevol cosa que no sigui un verb en indicatiu -->
+        <match tags="n.*"/>
+        <match tags="np.*"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="pron.*"/>
+        <match tags="vblex.pp.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+        <match tags="cm"/>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+     <or>
+       <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
+       <match tags="vbhaver.prs.*"/><match tags="vbhaver.pis.*"/>
+       <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
+       <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
+     </or>
+  </rule>
+  <!--<rule weight="1.0">
+     <match lemma="perquè" tags="cnjadv"><select lemma="para que"/></match>
      <match tags="adv"/>
      <or>
        <match tags="vblex.prs.*"/><match tags="vblex.pis.*"/>
@@ -1150,7 +1175,7 @@
        <match tags="vbser.prs.*"/><match tags="vbser.pis.*"/>
        <match tags="vbmod.prs.*"/><match tags="vbmod.pis.*"/>
      </or>
-  </rule>
+  </rule>-->
 
 
 <!-- així que > a manera chi, comente -->
@@ -1282,7 +1307,7 @@
     <match lemma="de" tags="pr"/>
   </rule>
 
-<!-- demanar > pretuntar, pedir -->
+<!-- demanar > preguntar, pedir -->
 
   <rule weight="0.6">
      <match lemma="demanar" tags="vblex.*"><select lemma="preguntar"/></match>
