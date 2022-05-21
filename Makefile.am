@@ -50,6 +50,7 @@ TARGETS_COMMON =			\
 	$(PREFIX2).autolex.bin  \
 	$(PREFIX2).autogen.bin 		\
 	$(PREFIX2).autopgen.bin 	\
+	$(PREFIX2).lquest.rlx.bin	\
 	$(PREFIX1C).t1x.bin 		\
 	$(PREFIX1V).t1x.bin 		\
 	$(PREFIX1U).t1x.bin 		\
@@ -245,6 +246,11 @@ $(PREFIX1U).t1x: .deps/$(BASENAME).$(PREFIX1).val_uni.t1x
 $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
+
+
+
+$(PREFIX2).lquest.rlx.bin: $(AP_SRC1)/$(LANG1).lquest.rlx.bin
+	cp $< $@
 
 ###############################################################################
 ## Preferences

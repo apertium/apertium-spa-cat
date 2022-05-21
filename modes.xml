@@ -330,10 +330,12 @@
         <file name="apertium-spa-cat.cat-spa.t1x"/>
         <file name="cat-spa.t1x.bin"/>
       </program>
-      
       <program name="apertium-posttransfer"/>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b">
         <file name="cat-spa.autogen.bin"/>
+      </program>
+      <program name="cg-proc -n -g" debug-suff="lquest">
+        <file name="cat-spa.lquest.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="cat-spa.autopgen.bin"/>
