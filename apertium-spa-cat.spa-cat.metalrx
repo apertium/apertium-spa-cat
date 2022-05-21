@@ -9837,8 +9837,13 @@
   </rule>
 
   <rule weight="5">
+    <or>
+      <match lemma="día siguiente"/>
+      <match lemma="informar"/>
+    </or>
     <match lemma="a" tags="pr"><select lemma="a"/></match>
     <match tags="det.def.f.pl"/>
+    <!-- TODO: limitar a números que puguin ser hores -->
     <match tags="num"/>
   </rule>
 
@@ -10337,7 +10342,18 @@
       <match lemma="diablo"/>
     </or>
   </rule>
-  
+
+<!-- incluyeno -> incloent / incloent-hi -->
+  <rule weight="1">
+    <match lemma="incluir" tags="vblex.ger"><select lemma="incloure"/></match>
+  </rule>
+
+  <rule weight="2">
+    <match tags="cm"/> 
+    <match lemma="incluir" tags="vblex.ger"><select lemma="incloent-hi"/></match>
+    <match tags="det.*"/>
+  </rule>
+
 
   <!-- topònims amb article --> 
 
