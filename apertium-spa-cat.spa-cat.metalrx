@@ -9840,6 +9840,9 @@
     <or>
       <match lemma="día siguiente"/>
       <match lemma="informar"/>
+      <match lemma="reunir"/>
+      <match lemma="escoltar"/>
+      <match lemma="sentir"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a"/></match>
     <match tags="det.def.f.pl"/>
@@ -10351,7 +10354,24 @@
   <rule weight="2">
     <match tags="cm"/> 
     <match lemma="incluir" tags="vblex.ger"><select lemma="incloent-hi"/></match>
-    <match tags="det.*"/>
+    <or>
+      <match tags="det.*"/>
+      <match tags="adj.*"/> 
+      <match tags="n.*"/>
+      <match tags="np.*"></match>
+    </or>
+  </rule>
+  
+  <rule weight="2">
+    <match tags="cm"/> 
+    <match lemma="incluir" tags="vblex.ger"><select lemma="incloent-hi"/></match>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match tags="adj.*"/> 
+      <match tags="n.*"/>
+      <match tags="np.*"></match>
+    </or>
   </rule>
 
 
