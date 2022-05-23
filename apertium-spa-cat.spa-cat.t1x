@@ -33,8 +33,16 @@
       <cat-item tags="rel.an.*" />
       <cat-item tags="prn.tn.*" />
     </def-cat>
+    <def-cat n="detnt_lo">
+      <cat-item lemma="lo" tags="detnt" />
+      <cat-item lemma="lo" tags="detnt" />
+    </def-cat>
     <def-cat n="predet">
       <cat-item tags="predet.*" />
+    </def-cat>
+    <def-cat n="predet_todo">
+      <cat-item lemma="todo" tags="predet.m.sg" />
+      <cat-item lemma="todo" tags="predet.nt.sp" />
     </def-cat>
     <def-cat n="adjec">
       <cat-item tags="adj.*" />
@@ -11643,6 +11651,35 @@
       </action>
     </rule>
 
+    <rule c="Todo lo ADJ que -> tan ADJ com">
+      <pattern>
+        <pattern-item n="predet_todo" />
+        <pattern-item n="detnt_lo" />
+        <pattern-item n="adj" />
+        <pattern-item n="que" />
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="tan" />
+            </get-case-from>
+          <lit-tag v="preadv" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="whole" pos="3" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <get-case-from pos="4">
+              <lit v="com" />
+            </get-case-from>
+            <lit-tag v="pr" />
+          </lu>
+        </out>
+      </action>
+    </rule>
 
     <rule>
       <!-- REGLA: reset variables-->
