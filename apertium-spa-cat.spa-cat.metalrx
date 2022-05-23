@@ -10358,7 +10358,8 @@
       <match tags="det.*"/>
       <match tags="adj.*"/> 
       <match tags="n.*"/>
-      <match tags="np.*"></match>
+      <match tags="np.*"/>
+      <match tagger="adv.*"/>
     </or>
   </rule>
   
