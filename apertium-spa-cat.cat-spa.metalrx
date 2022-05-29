@@ -2119,7 +2119,50 @@
   <rule weight="0.5">
     <match lemma="gana" tags="n.f.pl"><select lemma="gana"/></match>
   </rule>
-  
+
+
+<!-- vespre -->
+  <rule weight="1.0">
+    <or>
+        <match lemma="un quart de vuit"/>
+        <match lemma="dos quarts de vuit"/>
+        <match lemma="tres quarts de vuit"/>
+        <match lemma="set"/>
+        <match lemma="7"/>
+
+        <match lemma="un quart de nou"/>
+        <match lemma="dos quarts de nou"/>
+        <match lemma="tres quarts de nou"/>
+        <match lemma="vuit"/>
+        <match lemma="8"/>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="vespre" tagss="n.m.sg"><select lemma="tarde"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+        <match lemma="un quart de deu"/>
+        <match lemma="dos quarts de deu"/>
+        <match lemma="tres quarts de deu"/>
+        <match lemma="nou"/>
+        <match lemma="9"/>
+
+        <match lemma="un quart d'onze"/>
+        <match lemma="dos quarts d'onze"/>
+        <match lemma="tres quarts d'onze"/>
+        <match lemma="deu"/>
+        <match lemma="10"/>
+    </or>
+    <match lemma="de" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="vespre" tags="n.m.sg"><select lemma="noche"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="vespre" tags="n.m.*"><select lemma="anochecer"/></match>
+  </rule>
 
 <!-- **************** NP **************** -->
 
