@@ -325,12 +325,9 @@
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="cat-spa.autolex.bin"/>
       </program>
-      
-      <program name="apertium-transfer -b" debug-suff="transfer">
-        <file name="apertium-spa-cat.cat-spa.t1x"/>
-        <file name="cat-spa.t1x.bin"/>
+      <program name="rtx-proc" debug-suff="transfer">
+        <file name="cat-spa.rtx.bin"/>
       </program>
-      
       <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="cat-spa.autogen.bin"/>
@@ -352,5 +349,28 @@
       </program>
     </pipeline>
   </mode>
-</modes>
 
+  <mode name="cat-spa-transfer_tree" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="cat-spa.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="cat-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="cat-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="cat-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="cat-spa.autolex.bin"/>
+      </program>
+      <program name="rtx-proc -Tbm nest" >
+        <file name="cat-spa.rtx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>

@@ -53,7 +53,7 @@ TARGETS_COMMON =			\
 	$(PREFIX1C).t1x.bin 		\
 	$(PREFIX1V).t1x.bin 		\
 	$(PREFIX1U).t1x.bin 		\
-	$(PREFIX2).t1x.bin		\
+	$(PREFIX2).rtx.bin		\
 	$(PREFIX1C).prefs.rlx.bin	\
 	$(PREFIX1V).prefs.rlx.bin	\
 	$(PREFIX1U).prefs.rlx.bin	\
@@ -242,9 +242,8 @@ $(PREFIX1V).t1x: .deps/$(BASENAME).$(PREFIX1).val_gva.t1x
 $(PREFIX1U).t1x: .deps/$(BASENAME).$(PREFIX1).val_uni.t1x
 	xsltproc --stringparam alt val_uni alt.xsl $< >$@
 
-$(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
-	apertium-validate-transfer $<
-	apertium-preprocess-transfer $< $@
+$(PREFIX2).rtx.bin: $(BASENAME).$(PREFIX2).rtx
+	rtx-comp $< $@
 
 ###############################################################################
 ## Preferences
@@ -282,7 +281,6 @@ EXTRA_DIST=									\
 		$(PREFIX1C).t1x 	\
 		$(PREFIX1V).t1x 	\
 		$(PREFIX1U).t1x 	\
-		$(BASENAME).$(PREFIX2).t1x 			\
 		modes.xml 							\
 		alt.xsl 		\
 		$(PREFIX1).preferences.xml
@@ -299,8 +297,7 @@ apertium_spa_cat_DATA=				\
 	$(TARGETS_COMMON)				\
 	$(PREFIX1C).t1x			\
 	$(PREFIX1V).t1x			\
-	$(PREFIX1U).t1x			\
-	$(BASENAME).$(PREFIX2).t1x
+	$(PREFIX1U).t1x	
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode $(TARGETS_PREFS)

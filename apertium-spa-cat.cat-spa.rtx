@@ -1,0 +1,67 @@
+! POS
+
+adj: _.adj_type.superlative.gender.number ;
+n: _.acronym.gender.number ;
+vb: _.tense.person.number ;
+vb_impers: _.tense ;
+vb_pp: _.tense.gender.number ;
+
+SAdj: _.adj_type.superlative.gender_chunk.number_chunk ;
+SN: _.SN_det.np_type.person.gender_chunk.number_chunk ;
+SV: _.vb_type.vb_cnj.tense.person.gender_chunk.number_chunk ;
+
+
+! Attributes
+
+acronym = acr ;
+adj_type = def dem ind ord pos itg ;
+superlative = sup ;
+gender = (GD m) m f nt @mf GD ;
+gender_chunk = (GD m) m f GD ;
+np_type = ant cog al top loc ;
+number = (ND sg) sg pl @sp ND ;
+number_chunk = (ND sg) sg pl ND ;
+person = (PD p3) p1 p2 p3 PD ;
+tense = pri fti cni imp prs pis fts pii ifi inf ger pp ;
+vb_type = vbhaver vblex vbmod vbser ;
+vb_cnj = cnj impers ;
+
+SN_det = undet det predet nodet prnpers ;
+
+gender>gender_chunk: mf GD, nt GD ;
+gender_chunk>gender: GD GD ;
+number>number_chunk: sp ND ;
+number_chunk>number: ND ND ;
+
+
+! Rules
+
+SAdj -> 1: %adj
+                { %1 } ;
+
+SN ->   1: %n
+                [$SN_det=undet]
+                { %1[acronym=1.acronym/tl] } | ! Això està pendent d'arreglar a https://github.com/apertium/apertium-recursive/issues/79
+
+        2: %SN SAdj
+                [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number_chunk=(if(1.number=ND)2.number else 1.number)]
+                { %1 _ 2[gender=$gender,number=$number] } ;
+
+SV ->   1: %vblex
+                [$vb_cnj=cnj]
+                { %1(vb)[lemh=$lemh,lemq=$lemq] } |
+
+        2: %vblex.pp
+                [$vb_cnj=impers]
+                { (if($tense=pp)
+                        %1(vb_pp)
+                else
+                        %1(vb_impers)) } |
+
+        2: %vblex.inf
+                [$vb_cnj=impers]
+                { %1(vb_impers) } |
+
+        2: %vblex.ger
+                [$vb_cnj=impers]
+                { %1(vb_impers) } ;
