@@ -23,6 +23,8 @@ number = (ND sg) sg pl @sp ND ;
 number_chunk = (ND sg) sg pl ND ;
 person = (PD p3) p1 p2 p3 PD ;
 tense = pri fti cni imp prs pis fts pii ifi inf ger pp ;
+tense_cnj = pri fti cni imp prs pis fts ifi ;
+tense_impers = inf ger pp ;
 vb_type = vbhaver vblex vbmod vbser ;
 vb_cnj = cnj impers ;
 
@@ -47,21 +49,28 @@ SN ->   1: %n
                 [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number_chunk=(if(1.number=ND)2.number else 1.number)]
                 { %1 _ 2[gender=$gender,number=$number] } ;
 
-SV ->   1: %vblex
+SV ->   1: %vblex.[tense_cnj]
                 [$vb_cnj=cnj]
-                { %1(vb)[lemh=$lemh,lemq=$lemq] } |
+                { %1(vb) } |
 
-        2: %vblex.pp
+        1: %vblex.[tense_impers]
                 [$vb_cnj=impers]
                 { (if($tense=pp)
                         %1(vb_pp)
+                else-if($vb_cnj=impers)
+                        %1(vb_impers)
                 else
-                        %1(vb_impers)) } |
+                        %1(vb)) } |
 
-        2: %vblex.inf
-                [$vb_cnj=impers]
-                { %1(vb_impers) } |
+        1: %vbser.[tense_cnj]
+                [$vb_cnj=cnj]
+                { %1(vb) } |
 
-        2: %vblex.ger
+        1: %vbser.[tense_impers]
                 [$vb_cnj=impers]
-                { %1(vb_impers) } ;
+                { (if($tense=pp)
+                        %1(vb_pp)
+                else-if($vb_cnj=impers)
+                        %1(vb_impers)
+                else
+                        %1(vb)) } ;
