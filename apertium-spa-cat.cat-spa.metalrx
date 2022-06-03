@@ -2124,17 +2124,27 @@
 <!-- vespre -->
   <rule weight="1.0">
     <or>
-        <match lemma="un quart de vuit"/>
-        <match lemma="dos quarts de vuit"/>
-        <match lemma="tres quarts de vuit"/>
-        <match lemma="set"/>
-        <match lemma="7"/>
+        <match lemma="un quart de vuit" tags="n.*"/>
+        <match lemma="dos quarts de vuit" tags="n.*"/>
+        <match lemma="tres quarts de vuit" tags="n.*"/>
+        <match lemma="quarts de vuit" tags="n.*"/>
+        <match lemma="a un quart de vuit" tags="adv"/>
+        <match lemma="a dos quarts de vuit" tags="adv"/>
+        <match lemma="a tres quarts de vuit" tags="adv"/>
+        <match lemma="a quarts de vuit" tags="adv"/>
+        <match lemma="set" tags="num.*"/>
+        <match lemma="7" tags="num"/>
 
-        <match lemma="un quart de nou"/>
-        <match lemma="dos quarts de nou"/>
-        <match lemma="tres quarts de nou"/>
-        <match lemma="vuit"/>
-        <match lemma="8"/>
+        <match lemma="un quart de nou" tags="n.*"/>
+        <match lemma="dos quarts de nou" tags="n.*"/>
+        <match lemma="tres quarts de nou" tags="n.*"/>
+        <match lemma="quarts de nou" tags="n.*"/>
+        <match lemma="a un quart de nou" tags="adv"/>
+        <match lemma="a dos quarts de nou" tags="adv"/>
+        <match lemma="a tres quarts de nou" tags="adv"/>
+        <match lemma="a quarts de nou" tags="adv"/>
+        <match lemma="vuit" tags="num.*"/>
+        <match lemma="8" tags="num"/>
     </or>
     <match lemma="de" tags="pr"/>
     <match tags="det.*"/>
@@ -2143,17 +2153,27 @@
 
   <rule weight="1.0">
     <or>
-        <match lemma="un quart de deu"/>
-        <match lemma="dos quarts de deu"/>
-        <match lemma="tres quarts de deu"/>
-        <match lemma="nou"/>
-        <match lemma="9"/>
+        <match lemma="un quart de deu" tags="n.*"/>
+        <match lemma="dos quarts de deu" tags="n.*"/>
+        <match lemma="tres quarts de deu" tags="n.*"/>
+        <match lemma="quarts de deu" tags="n.*"/>
+        <match lemma="a un quart de deu" tags="adv"/>
+        <match lemma="a dos quarts de deu" tags="adv"/>
+        <match lemma="a tres quarts de deu" tags="adv"/>
+        <match lemma="a quarts de deu" tags="adv"/>
+        <match lemma="nou" tags="num.*"/>
+        <match lemma="9" tags="num"/>
 
-        <match lemma="un quart d'onze"/>
-        <match lemma="dos quarts d'onze"/>
-        <match lemma="tres quarts d'onze"/>
-        <match lemma="deu"/>
-        <match lemma="10"/>
+        <match lemma="un quart d'onze" tags="n.*"/>
+        <match lemma="dos quarts d'onze" tags="n.*"/>
+        <match lemma="tres quarts d'onze" tags="n.*"/>
+        <match lemma="quarts d'onze" tags="n.*"/>
+        <match lemma="a un quart d'onze" tags="adv"/>
+        <match lemma="a dos quarts d'onze" tags="adv"/>
+        <match lemma="a tres quarts d'onze" tags="adv"/>
+        <match lemma="a quarts d'onze" tags="adv"/>
+        <match lemma="deu" tags="num.*"/>
+        <match lemma="10" tags="num"/>
     </or>
     <match lemma="de" tags="pr"/>
     <match tags="det.*"/>
