@@ -2128,10 +2128,16 @@
         <match lemma="dos quarts de vuit" tags="n.*"/>
         <match lemma="tres quarts de vuit" tags="n.*"/>
         <match lemma="quarts de vuit" tags="n.*"/>
+        <match lemma="les set i quart" tags="n.*"/>
+        <match lemma="les set i mitja" tags="n.*"/>
+        <match lemma="les vuit menys quart" tags="n.*"/>
         <match lemma="a un quart de vuit" tags="adv"/>
         <match lemma="a dos quarts de vuit" tags="adv"/>
         <match lemma="a tres quarts de vuit" tags="adv"/>
         <match lemma="a quarts de vuit" tags="adv"/>
+        <match lemma="a les set i quart" tags="adv"/>
+        <match lemma="a les set i mitja" tags="adv"/>
+        <match lemma="a les vuit menys quart" tags="adv"/>
         <match lemma="set" tags="num.*"/>
         <match lemma="7" tags="num"/>
 
@@ -2139,10 +2145,16 @@
         <match lemma="dos quarts de nou" tags="n.*"/>
         <match lemma="tres quarts de nou" tags="n.*"/>
         <match lemma="quarts de nou" tags="n.*"/>
+        <match lemma="les vuit i quart" tags="n.*"/>
+        <match lemma="les vuit i mitja" tags="n.*"/>
+        <match lemma="les nou menys quart" tags="n.*"/>
         <match lemma="a un quart de nou" tags="adv"/>
         <match lemma="a dos quarts de nou" tags="adv"/>
         <match lemma="a tres quarts de nou" tags="adv"/>
         <match lemma="a quarts de nou" tags="adv"/>
+        <match lemma="a les vuit i quart" tags="adv"/>
+        <match lemma="a les vuit i mitja" tags="adv"/>
+        <match lemma="a les nou menys quart" tags="adv"/>
         <match lemma="vuit" tags="num.*"/>
         <match lemma="8" tags="num"/>
     </or>
@@ -2157,10 +2169,16 @@
         <match lemma="dos quarts de deu" tags="n.*"/>
         <match lemma="tres quarts de deu" tags="n.*"/>
         <match lemma="quarts de deu" tags="n.*"/>
+        <match lemma="les nou i quart" tags="n.*"/>
+        <match lemma="les nou i mitja" tags="n.*"/>
+        <match lemma="les deu menys quart" tags="n.*"/>
         <match lemma="a un quart de deu" tags="adv"/>
         <match lemma="a dos quarts de deu" tags="adv"/>
         <match lemma="a tres quarts de deu" tags="adv"/>
         <match lemma="a quarts de deu" tags="adv"/>
+        <match lemma="a les nou i quart" tags="adv"/>
+        <match lemma="a les nou i mitja" tags="adv"/>
+        <match lemma="a les deu menys quart" tags="adv"/>
         <match lemma="nou" tags="num.*"/>
         <match lemma="9" tags="num"/>
 
@@ -2168,10 +2186,16 @@
         <match lemma="dos quarts d'onze" tags="n.*"/>
         <match lemma="tres quarts d'onze" tags="n.*"/>
         <match lemma="quarts d'onze" tags="n.*"/>
+        <match lemma="les deu i quart" tags="n.*"/>
+        <match lemma="les deu i mitja" tags="n.*"/>
+        <match lemma="les onze menys quart" tags="n.*"/>
         <match lemma="a un quart d'onze" tags="adv"/>
         <match lemma="a dos quarts d'onze" tags="adv"/>
         <match lemma="a tres quarts d'onze" tags="adv"/>
         <match lemma="a quarts d'onze" tags="adv"/>
+        <match lemma="a les deu i quart" tags="adv"/>
+        <match lemma="a les deu i mitja" tags="adv"/>
+        <match lemma="a les onze menys quart" tags="adv"/>
         <match lemma="deu" tags="num.*"/>
         <match lemma="10" tags="num"/>
     </or>
