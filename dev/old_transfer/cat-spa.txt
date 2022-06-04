@@ -19,20 +19,20 @@
 | #   | Rule pattern                | Description       |
 |-----|-----------------------------|-------------------|
 | 1   | multiHiha pp                | Undocumented rule |   |
-| 2   | det                         | Undocumented rule |   |
+| 2   | det                         | Undocumented rule | X |
 | 3   | no                          | Undocumented rule |   |
 | 4   | nom                         | Undocumented rule | X |
 | 5   | np                          | Undocumented rule |   |
 | 6   | adj                         | Undocumented rule | X |
 | 7   | prn                         | Undocumented rule |   |
 | 8   | det nploc                   | Undocumented rule |   |
-| 9   | det nom                     | Undocumented rule |   |
+| 9   | det nom                     | Undocumented rule | X |
 | 10  | nom adjec                   | Undocumented rule | X |
 | 11  | nom adjec                   | Undocumented rule | X |
 | 12  | nom adjec adjec             | Undocumented rule | X |
 | 13  | adj nom                     | Undocumented rule |   |
-| 14  | det nom adjec               | Undocumented rule |   |
-| 15  | det nom adjec adjec         | Undocumented rule |   |
+| 14  | det nom adjec               | Undocumented rule | X |
+| 15  | det nom adjec adjec         | Undocumented rule | X |
 | 16  | det nom ser_estar adjec     | Undocumented rule |   |
 | 17  | det nom ser_estar adv adjec | Undocumented rule |   |
 | 18  | det nom adjec i adjec       | Undocumented rule |   |

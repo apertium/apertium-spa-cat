@@ -1,12 +1,14 @@
 ! POS
 
 adj: _.adj_type.superlative.gender.number ;
+det: _.adj_type.gender.number ;
 n: _.acronym.gender.number ;
 vb: _.tense.person.number ;
 vb_impers: _.tense ;
 vb_pp: _.tense.gender.number ;
 
 SAdj: _.adj_type.superlative.gender_chunk.number_chunk ;
+SDet: _.adj_type.gender_chunk.number_chunk ;
 SN: _.SN_det.np_type.person.gender_chunk.number_chunk ;
 SV: _.vb_type.vb_cnj.tense.person.gender_chunk.number_chunk ;
 
@@ -41,13 +43,20 @@ number_chunk>number: ND ND ;
 SAdj -> 1: %adj
                 { %1 } ;
 
+SDet -> 1: %det
+                { %1 } ;
+
 SN ->   1: %n
                 [$SN_det=undet]
                 { %1[acronym=1.acronym/tl] } | ! Això està pendent d'arreglar a https://github.com/apertium/apertium-recursive/issues/79
 
         2: %SN SAdj
                 [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number_chunk=(if(1.number=ND)2.number else 1.number)]
-                { %1 _ 2[gender=$gender,number=$number] } ;
+                { %1 _ 2[gender=$gender,number=$number] } |
+
+        1: SDet %SN.undet
+                [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number_chunk=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender,number=$number] _1 %2 } ;
 
 SV ->   1: %vblex.[tense_cnj]
                 [$vb_cnj=cnj]
