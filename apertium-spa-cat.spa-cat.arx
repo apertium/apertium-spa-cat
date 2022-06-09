@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ref>
   <section-parameters>
+  <delimiter>
+    <parameter-item has-tags="sent"/>
+  </delimiter>
+  <def-parameter n="cuyo">
+    <anaphor>
+      <parameter-item lemma="cuyo" has-tags="rel aa"/>
+    </anaphor>
+    <antecedent>
+      <parameter-item has-tags="n"/>
+      <parameter-item has-tags="np"/>
+    </antecedent>
+  </def-parameter>
+  <def-parameter n="lo/la/los/las">
+    <anaphor>
+      <parameter-item lemma="lo" has-tags="prn pro"/>
+      <parameter-item lemma="lo" has-tags="prn enc"/>
+    </anaphor>
+    <antecedent>
+      <parameter-item has-tags="n"/>
+      <parameter-item has-tags="np"/>
+    </antecedent>
+  </def-parameter>
   </section-parameters>
   <section-def-cats>
+    <def-cat n="nom">
+      <cat-item has-tags="n"/>
+    </def-cat>
+    <def-cat n="np">
+      <cat-item has-tags="np"/>
+    </def-cat>
+    <def-cat n="det">
+      <cat-item has-tags="det"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item has-tags="adj"/>
+    </def-cat>
+    <def-cat n="cnjcoo">
+      <cat-item has-tags="cnjcoo"/>
+    </def-cat>
   </section-def-cats>
   <section-markables>
+  <markable n="SN">
+    <pattern>
+      <pattern-item n="det"/>
+      <pattern-item n="nom"/>
+    </pattern>
+    <pattern>
+      <pattern-item n="det"/>
+      <pattern-item n="nom"/>
+      <pattern-item n="adj"/>
+    </pattern>
+    <score n="1"/>
+  </markable>
   </section-markables>
 </ref>
