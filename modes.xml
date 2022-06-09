@@ -23,6 +23,9 @@
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora">
+        <file name="apertium-spa-cat.spa-cat.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat.t1x"/>
         <file name="spa-cat.t1x.bin"/>
@@ -61,6 +64,9 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora">
+        <file name="apertium-spa-cat.spa-cat.arx"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat.t1x"/>
@@ -103,6 +109,9 @@
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora">
+        <file name="apertium-spa-cat.spa-cat.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat_valencia_gva.t1x"/>
         <file name="spa-cat_valencia_gva.t1x.bin"/>
@@ -144,6 +153,9 @@
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora">
+        <file name="apertium-spa-cat.spa-cat.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat_valencia_gva.t1x"/>
         <file name="spa-cat_valencia_gva.t1x.bin"/>
@@ -184,6 +196,9 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora">
+        <file name="apertium-spa-cat.spa-cat.arx"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat_valencia_gva.t1x"/>
@@ -229,6 +244,9 @@
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
       </program>
+      <program name="apertium-anaphora">
+        <file name="apertium-spa-cat.spa-cat.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat_valencia_uni.t1x"/>
         <file name="spa-cat_valencia_uni.t1x.bin"/>
@@ -269,6 +287,9 @@
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
+      </program>
+      <program name="apertium-anaphora">
+        <file name="apertium-spa-cat.spa-cat.arx"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="spa-cat_valencia_uni.t1x"/>
@@ -325,12 +346,13 @@
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="cat-spa.autolex.bin"/>
       </program>
-      
+      <program name="apertium-anaphora">
+        <file name="apertium-spa-cat.cat-spa.arx"/>
+      </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
         <file name="apertium-spa-cat.cat-spa.t1x"/>
         <file name="cat-spa.t1x.bin"/>
       </program>
-      
       <program name="apertium-posttransfer"/>
       <program name="lt-proc $1">
         <file name="cat-spa.autogen.bin"/>
