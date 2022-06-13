@@ -9572,6 +9572,20 @@
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
     <match lemma="alguno_negativo" tagger="det.ind.m.sg"/>
   </rule>
+  
+  <!-- hoja > full / fulla -->
+  
+  <rule weight="0.5">
+    <match lemma="hoja" tags="n.*"><select lemma="fulla"/></match>
+  </rule>
+  
+  <rule weight="1">
+    <match lemma="hoja" tags="n.*"><select lemma="full"/></match>
+    <or>
+      <match lemma="aparte"/>
+      <match lemma="dominical"/>
+    </or>
+  </rule>
 
   <!-- caber la posibilidad > haver-hi la possibilitat -->
 
