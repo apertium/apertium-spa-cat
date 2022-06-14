@@ -14,7 +14,7 @@
 | 12 | f_concord3  | 3         | Undocumented macro | X |
 | 13 | f_concord4  | 4         | Undocumented macro | X |
 | 14 | f_lexicAdv  | 1         | Undocumented macro |   |
-| 15 | f_lexicAdj  | 1         | Undocumented macro |   |
+| 15 | f_lexicAdj  | 1         | Undocumented macro | X |
 
 | #   | Rule pattern                | Description       |
 |-----|-----------------------------|-------------------|
@@ -22,27 +22,27 @@
 | 2   | det                         | Undocumented rule | X |
 | 3   | no                          | Undocumented rule |   |
 | 4   | nom                         | Undocumented rule | X |
-| 5   | np                          | Undocumented rule |   |
+| 5   | np                          | Undocumented rule | X |
 | 6   | adj                         | Undocumented rule | X |
 | 7   | prn                         | Undocumented rule |   |
-| 8   | det nploc                   | Undocumented rule |   |
+| 8   | det nploc                   | Undocumented rule | X |
 | 9   | det nom                     | Undocumented rule | X |
 | 10  | nom adjec                   | Undocumented rule | X |
 | 11  | nom adjec                   | Undocumented rule | X |
 | 12  | nom adjec adjec             | Undocumented rule | X |
-| 13  | adj nom                     | Undocumented rule |   |
+| 13  | adj nom                     | Undocumented rule | X |
 | 14  | det nom adjec               | Undocumented rule | X |
 | 15  | det nom adjec adjec         | Undocumented rule | X |
 | 16  | det nom ser_estar adjec     | Undocumented rule |   |
 | 17  | det nom ser_estar adv adjec | Undocumented rule |   |
 | 18  | det nom adjec i adjec       | Undocumented rule |   |
 | 19  | nom adjec adjec             | Undocumented rule | X |
-| 20  | det adjec nom               | Undocumented rule |   |
+| 20  | det adjec nom               | Undocumented rule | X |
 | 21  | predet det nom              | Undocumented rule |   |
 | 22  | predet det nom adjec        | Undocumented rule |   |
 | 23  | det adjec                   | Undocumented rule |   |
-| 24  | adj nom adjec               | Undocumented rule |   |
-| 25  | det adjec nom adjec         | Undocumented rule |   |
+| 24  | adj nom adjec               | Undocumented rule | X |
+| 25  | det adjec nom adjec         | Undocumented rule | X |
 | 26  | nom adv adjec               | Undocumented rule |   |
 | 27  | det nom adv adjec           | Undocumented rule |   |
 | 28  | det adv nom                 | Undocumented rule |   |
@@ -81,7 +81,7 @@
 | 61  | prep det nom num            | Undocumented rule |   |
 | 62  | nosaltres det nom           | Undocumented rule |   |
 | 63  | nosaltres det adjec         | Undocumented rule |   |
-| 64  | detdef npant                | Undocumented rule |   |
+| 64  | detdef npant                | Undocumented rule | X |
 | 65  | relat                       | Undocumented rule |   |
 | 66  | prnpro                      | Undocumented rule |   |
 | 67  | anar inf                    | Undocumented rule |   |

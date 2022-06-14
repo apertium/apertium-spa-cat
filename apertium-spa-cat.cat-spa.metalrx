@@ -2204,6 +2204,34 @@
   <macro name="noms_propis" p1="Marc" p2="Marcos" />
   <macro name="noms_propis" p1="Lluc" p2="Lucas" />
   <macro name="noms_propis" p1="Humbert" p2="Humberto" />
+
+
+  <!-- Adjectius que canvien si van davant d'un nom -->
+
+  <rule weight="1">
+    <match lemma="bo" tags="adj.*"><select lemma="buen"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="gran" tags="adj.*"><select lemma="gran"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="primer" tags="adj.*"><select lemma="primer"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="tercer" tags="adj.*"><select lemma="tercer"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="ple" tags="adj.*"><select lemma="pleno"/></match>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1">
+    <match lemma="proper" tags="adj.*"><select lemma="próximo"/></match>
+    <match tags="n.*"/>
+  </rule>
 </rules>
 </metalrx>
 
