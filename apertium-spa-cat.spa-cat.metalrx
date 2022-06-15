@@ -625,18 +625,31 @@
     <repeat from="0" upto="3">
       <match tags="*"/>
     </repeat>
-    <match lemma="jurado"/>
+    <or>
+      <match lemma="jurado"/>
+      <match lemma="juez"/>
+      <match lemma="emitir"/>
+      <match lemma="recurrir"/>
+      <match lemma="tribunal"/>
+      <match lemma="audiencia"/>
+      <match lemma="corte"/>
+    </or>
   </rule>
-
-  <rule weight="1"> 
-    <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
+  
+  <rule weight="1">
+    <or>
+      <match lemma="jurado"/>
+      <match lemma="juez"/>
+      <match lemma="emitir"/>
+      <match lemma="recurrir"/>
+      <match lemma="tribunal"/>
+      <match lemma="audiencia"/>
+      <match lemma="corte"/>
+    </or>
     <repeat from="0" upto="3">
       <match tags="*"/>
     </repeat>
-    <or>
-      <match lemma="juez"/>
-      <match lemma="audiencia"/>
-    </or>
+    <match lemma="fallo" tags="n.*"><select lemma="decisió" /></match>
   </rule>
   
   <!-- vuelta > volta, tornada -->
