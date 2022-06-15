@@ -633,6 +633,8 @@
       <match lemma="tribunal"/>
       <match lemma="audiencia"/>
       <match lemma="corte"/>
+      <match lemma="judicial"/>
+      <match lemma="caso"/>
     </or>
   </rule>
   
@@ -652,6 +654,51 @@
     <match lemma="fallo" tags="n.*"><select lemma="decisió" /></match>
   </rule>
   
+  
+  <rule weight="1"> 
+    <match lemma="fallo" tags="n.*"><select lemma="decisió" /></match>
+    <repeat from="0" upto="12">
+      <or>
+        <match tags="?.+"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="jurado"/>
+      <match lemma="juez"/>
+      <match lemma="tribunal"/>
+      <match lemma="audiencia"/>
+      <match lemma="corte"/>
+      <match lemma="judicial"/>
+    </or>
+  </rule>
+  
+  <rule weight="1">
+    <or>
+      <match lemma="jurado"/>
+      <match lemma="juez"/>
+      <match lemma="tribunal"/>
+      <match lemma="audiencia"/>
+      <match lemma="corte"/>
+      <match lemma="judicial"/>
+    </or>
+    <repeat from="0" upto="12">
+      <or>
+        <match tags="?.+"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <match lemma="fallo" tags="n.*"><select lemma="decisió" /></match>
+  </rule>
+
   <!-- vuelta > volta, tornada -->
   <rule weight="0.5"> 
     <match lemma="vuelta" tags="n.*"><select lemma="volta" /></match>
