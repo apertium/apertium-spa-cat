@@ -43,8 +43,8 @@
 | 23  | det adjec                   | Undocumented rule |   |
 | 24  | adj nom adjec               | Undocumented rule | X |
 | 25  | det adjec nom adjec         | Undocumented rule | X |
-| 26  | nom adv adjec               | Undocumented rule |   |
-| 27  | det nom adv adjec           | Undocumented rule |   |
+| 26  | nom adv adjec               | Undocumented rule | X |
+| 27  | det nom adv adjec           | Undocumented rule | X |
 | 28  | det adv nom                 | Undocumented rule |   |
 | 29  | num nom                     | Undocumented rule |   |
 | 30  | num adjec                   | Undocumented rule |   |
@@ -72,7 +72,7 @@
 | 52  | prep nom adv adjec          | Undocumented rule |   |
 | 53  | prep det nom adv adjec      | Undocumented rule |   |
 | 54  | prep det adv nom            | Undocumented rule |   |
-| 55  | adv adjec                   | Undocumented rule |   |
+| 55  | adv adjec                   | Undocumented rule | X |
 | 56  | prep num nom                | Undocumented rule |   |
 | 57  | prep num adjec              | Undocumented rule |   |
 | 58  | prep num nom adjec          | Undocumented rule |   |

@@ -1,14 +1,17 @@
 ! POS
 
 adj: _.adj_type.superlative.gender.number ;
+adv: _.adv_type ;
 det: _.adj_type.gender.number ;
 n: _.acronym.gender.number ;
 np: _.np_type.gender.number ;
+preadv: _ ;
 vb: _.tense.person.number ;
 vb_impers: _.tense ;
 vb_pp: _.tense.gender.number ;
 
 SAdj: _.adj_type.superlative.gender_chunk.number_chunk ;
+SAdv: _.adv_type ;
 SDet: _.adj_type.gender_chunk.number_chunk ;
 SN: _.SN_det.np_type.person.gender_chunk.number_chunk ;
 SV: _.vb_type.vb_cnj.tense.person.gender_chunk.number_chunk ;
@@ -18,6 +21,7 @@ SV: _.vb_type.vb_cnj.tense.person.gender_chunk.number_chunk ;
 
 acronym = acr ;
 adj_type = def dem ind ord pos itg ;
+adv_type = itg ;
 superlative = sup ;
 gender = (GD m) m f nt @mf GD ;
 gender_chunk = (GD m) m f GD ;
@@ -42,7 +46,16 @@ number_chunk>number: ND ND ;
 ! Rules
 
 SAdj -> 1: %adj
-                { %1 } ;
+                { %1 } |
+
+        1: SAdv %SAdj
+                { 1 _ %2 } ;
+
+SAdv -> 1: %adv
+                { 1 } |
+
+        1: %preadv
+                { 1 } ;
 
 SDet -> 1: %det
                 { %1 } ;
