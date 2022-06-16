@@ -597,13 +597,21 @@
   <rule weight="2"> 
     <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
     <repeat from="0" upto="3">
-      <match tags="*"/>
+      <or>
+        <match tags="?.+"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+      </or>
     </repeat>
     <or>
       <match lemma="sentencia"/>
       <match lemma="sentenciar"/>
       <match lemma="parte dispositiva"/>
       <match lemma="dispositiva"/>
+      <match lemma="resolución"/>
     </or>
   </rule>
 
@@ -615,7 +623,14 @@
       <match lemma="dispositiva"/>
     </or>
     <repeat from="0" upto="3">
-      <match tags="*"/>
+      <or>
+        <match tags="?.+"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+      </or>
     </repeat>
     <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
   </rule>
@@ -623,12 +638,20 @@
   <rule weight="1"> 
     <match lemma="fallo" tags="n.*"><select lemma="decisió" /></match>
     <repeat from="0" upto="3">
-      <match tags="*"/>
+      <or>
+        <match tags="?.+"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+      </or>
     </repeat>
     <or>
       <match lemma="jurado"/>
       <match lemma="juez"/>
       <match lemma="emitir"/>
+      <match lemma="dictar"/>
       <match lemma="recurrir"/>
       <match lemma="tribunal"/>
       <match lemma="audiencia"/>
@@ -643,13 +666,21 @@
       <match lemma="jurado"/>
       <match lemma="juez"/>
       <match lemma="emitir"/>
+      <match lemma="dictar"/>
       <match lemma="recurrir"/>
       <match lemma="tribunal"/>
       <match lemma="audiencia"/>
       <match lemma="corte"/>
     </or>
     <repeat from="0" upto="3">
-      <match tags="*"/>
+      <or>
+        <match tags="?.+"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+      </or>
     </repeat>
     <match lemma="fallo" tags="n.*"><select lemma="decisió" /></match>
   </rule>
