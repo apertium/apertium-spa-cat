@@ -593,6 +593,16 @@
     <match lemma="y"/>
     <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
   </rule>
+  
+  
+  <rule weight="4">
+      <or>
+        <match lemma="resolución"/>
+        <match lemma="sentencia"/>
+      </or>
+    <match lemma="cuyo"></match>
+    <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
+  </rule>
 
   <rule weight="2"> 
     <match lemma="fallo" tags="n.*"><select lemma="part dispositiva" /></match>
