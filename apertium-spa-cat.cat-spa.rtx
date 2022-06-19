@@ -4,8 +4,11 @@ adj: _.adj_type.superlative.gender.number ;
 adv: _.adv_type ;
 det: _.adj_type.gender.number ;
 n: _.acronym.gender.number ;
+num: _.gender.number ;
+num_digits: _ ;
 np: _.np_type.gender.number ;
 preadv: _ ;
+predet: _.adj_type.gender.number ;
 vb: _.tense.person.number ;
 vb_impers: _.tense ;
 vb_pp: _.tense.gender.number ;
@@ -14,6 +17,7 @@ SAdj: _.adj_type.superlative.gender_chunk.number_chunk ;
 SAdv: _.adv_type ;
 SDet: _.adj_type.gender_chunk.number_chunk ;
 SN: _.SN_det.np_type.person.gender_chunk.number_chunk ;
+SNum: _.gender_chunk.number ;
 SV: _.vb_type.vb_cnj.tense.person.gender_chunk.number_chunk ;
 
 
@@ -78,7 +82,22 @@ SN ->   1: %n
 
         1: SDet %SN.undet
                 [$SN_det=det,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number_chunk=(if(2.number=ND)1.number else 2.number)]
-                { 1[gender=$gender,number=$number] _ %2 } ;
+                { 1[gender=$gender,number=$number] _ %2 } |
+
+        1: predet %SN
+                [$SN_det=predet,$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number_chunk=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender,number=$number] _ %2 } |
+
+        1: SNum %SN.undet
+                [$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number=(if(2.number=ND)1.number else 2.number)]
+                { 1[gender=$gender] _ %2 } ;
+
+SNum -> 0: %num
+                { %1(num_digits) } |
+        1: %num.[gender]
+                { %1 } |
+        2: SNum %SNum
+                { 1 _ %2 } ;
 
 SV ->   1: %vblex.[tense_cnj]
                 [$vb_cnj=cnj]
@@ -91,7 +110,7 @@ SV ->   1: %vblex.[tense_cnj]
                 else-if($vb_cnj=impers)
                         %1(vb_impers)
                 else
-                        %1(vb)) } |
+                        %1(vb)[lemcase=$lemcase]) } |
 
         1: %vbser.[tense_cnj]
                 [$vb_cnj=cnj]
@@ -104,7 +123,7 @@ SV ->   1: %vblex.[tense_cnj]
                 else-if($vb_cnj=impers)
                         %1(vb_impers)
                 else
-                        %1(vb)) } |
+                        %1(vb)[lemcase=$lemcase]) } |
 
         1: %vbhaver.[tense_cnj]
                 [$vb_cnj=cnj]
@@ -117,7 +136,7 @@ SV ->   1: %vblex.[tense_cnj]
                 else-if($vb_cnj=impers)
                         %1(vb_impers)
                 else
-                        %1(vb)) } |
+                        %1(vb)[lemcase=$lemcase]) } |
 
         1: %vbmod.[tense_cnj]
                 [$vb_cnj=cnj]
@@ -130,4 +149,8 @@ SV ->   1: %vblex.[tense_cnj]
                 else-if($vb_cnj=impers)
                         %1(vb_impers)
                 else
-                        %1(vb)) } ;
+                        %1(vb)[lemcase=$lemcase]) } |
+
+        1: ir@SV.[vb_type].cnj.pri.$person.$gender_chunk.$number_chunk.$lemcase %SV.[vb_type].impers.inf
+                [$vb_cnj=cnj,$tense=ifi]
+                { %2[lemcase=$lemcase] } ;

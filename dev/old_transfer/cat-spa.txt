@@ -38,21 +38,21 @@
 | 18  | det nom adjec i adjec       | Undocumented rule |   |
 | 19  | nom adjec adjec             | Undocumented rule | X |
 | 20  | det adjec nom               | Undocumented rule | X |
-| 21  | predet det nom              | Undocumented rule |   |
-| 22  | predet det nom adjec        | Undocumented rule |   |
+| 21  | predet det nom              | Undocumented rule | X |
+| 22  | predet det nom adjec        | Undocumented rule | X |
 | 23  | det adjec                   | Undocumented rule |   |
 | 24  | adj nom adjec               | Undocumented rule | X |
 | 25  | det adjec nom adjec         | Undocumented rule | X |
 | 26  | nom adv adjec               | Undocumented rule | X |
 | 27  | det nom adv adjec           | Undocumented rule | X |
 | 28  | det adv nom                 | Undocumented rule |   |
-| 29  | num nom                     | Undocumented rule |   |
+| 29  | num nom                     | Undocumented rule | X |
 | 30  | num adjec                   | Undocumented rule |   |
-| 31  | num nom adjec               | Undocumented rule |   |
-| 32  | num adjec nom               | Undocumented rule |   |
+| 31  | num nom adjec               | Undocumented rule | X |
+| 32  | num adjec nom               | Undocumented rule | X |
 | 33  | det num                     | Undocumented rule |   |
-| 34  | det num nom                 | Undocumented rule |   |
-| 35  | det num adjec               | Undocumented rule |   |
+| 34  | det num nom                 | Undocumented rule | X |
+| 35  | det num adjec               | Undocumented rule | X |
 | 36  | det nom num                 | Undocumented rule |   |
 | 37  | prep adj                    | Undocumented rule |   |
 | 38  | prep prn                    | Undocumented rule |   |
@@ -84,7 +84,7 @@
 | 64  | detdef npant                | Undocumented rule | X |
 | 65  | relat                       | Undocumented rule |   |
 | 66  | prnpro                      | Undocumented rule |   |
-| 67  | anar inf                    | Undocumented rule |   |
+| 67  | anar inf                    | Undocumented rule | X |
 | 68  | anar inf prnenc             | Undocumented rule |   |
 | 69  | anar inf prnenc prnenc      | Undocumented rule |   |
 | 70  | verb                        | Undocumented rule | X |
