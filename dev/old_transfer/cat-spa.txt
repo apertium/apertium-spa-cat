@@ -50,34 +50,34 @@
 | 30  | num adjec                   | Undocumented rule |   |
 | 31  | num nom adjec               | Undocumented rule | X |
 | 32  | num adjec nom               | Undocumented rule | X |
-| 33  | det num                     | Undocumented rule |   |
+| 33  | det num                     | Undocumented rule | X |
 | 34  | det num nom                 | Undocumented rule | X |
 | 35  | det num adjec               | Undocumented rule | X |
 | 36  | det nom num                 | Undocumented rule |   |
 | 37  | prep adj                    | Undocumented rule |   |
 | 38  | prep prn                    | Undocumented rule |   |
-| 39  | prep num                    | Undocumented rule |   |
-| 40  | prep nom adjec              | Undocumented rule |   |
-| 41  | prep adj nom                | Undocumented rule |   |
-| 42  | prep det nom adjec          | Undocumented rule |   |
-| 43  | prep det nom                | Undocumented rule |   |
-| 44  | prep det nom adjec adjec    | Undocumented rule |   |
-| 45  | prep nom adjec adjec        | Undocumented rule |   |
-| 46  | prep det adjec nom          | Undocumented rule |   |
-| 47  | prep predet det nom         | Undocumented rule |   |
-| 48  | prep predet det nom adjec   | Undocumented rule |   |
+| 39  | prep num                    | Undocumented rule | X |
+| 40  | prep nom adjec              | Undocumented rule | X |
+| 41  | prep adj nom                | Undocumented rule | X |
+| 42  | prep det nom adjec          | Undocumented rule | X |
+| 43  | prep det nom                | Undocumented rule | X |
+| 44  | prep det nom adjec adjec    | Undocumented rule | X |
+| 45  | prep nom adjec adjec        | Undocumented rule | X |
+| 46  | prep det adjec nom          | Undocumented rule | X |
+| 47  | prep predet det nom         | Undocumented rule | X |
+| 48  | prep predet det nom adjec   | Undocumented rule | X |
 | 49  | prep det adjec              | Undocumented rule |   |
-| 50  | prep adj nom adjec          | Undocumented rule |   |
-| 51  | prep det adjec nom adjec    | Undocumented rule |   |
-| 52  | prep nom adv adjec          | Undocumented rule |   |
-| 53  | prep det nom adv adjec      | Undocumented rule |   |
+| 50  | prep adj nom adjec          | Undocumented rule | X |
+| 51  | prep det adjec nom adjec    | Undocumented rule | X |
+| 52  | prep nom adv adjec          | Undocumented rule | X |
+| 53  | prep det nom adv adjec      | Undocumented rule | X |
 | 54  | prep det adv nom            | Undocumented rule |   |
 | 55  | adv adjec                   | Undocumented rule | X |
-| 56  | prep num nom                | Undocumented rule |   |
+| 56  | prep num nom                | Undocumented rule | X |
 | 57  | prep num adjec              | Undocumented rule |   |
-| 58  | prep num nom adjec          | Undocumented rule |   |
-| 59  | prep num adjec nom          | Undocumented rule |   |
-| 60  | prep det num nom            | Undocumented rule |   |
+| 58  | prep num nom adjec          | Undocumented rule | X |
+| 59  | prep num adjec nom          | Undocumented rule | X |
+| 60  | prep det num nom            | Undocumented rule | X |
 | 61  | prep det nom num            | Undocumented rule |   |
 | 62  | nosaltres det nom           | Undocumented rule |   |
 | 63  | nosaltres det adjec         | Undocumented rule |   |
