@@ -79,7 +79,7 @@ SN ->   1: %n
                 [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number_chunk=(if(1.number=ND)2.number else 1.number)]
                 { %1 _ 2[gender=$gender,number=$number] } |
 
-        3: %SN SPr
+        3: %SN de@SPr
                 { %1 _ 2 } |
 
         2: SAdj %SN
