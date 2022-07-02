@@ -56,10 +56,10 @@ SAdj -> 1: %adj
                 { %1 } |
 
         1: SAdv %SAdj
-                { 1 _ %2 } |
+                { 1 _ %2 } ;
 
-        2: %SAdj SPr
-                { %1 _ 2 } ;
+!        2: %SAdj SPr
+!                { %1 _ 2 } ;
 
 SAdv -> 1: %adv
                 { 1 } |
@@ -80,8 +80,8 @@ SN ->   1: %n
                 [$gender_chunk=(if(1.gender=GD)2.gender else 1.gender),$number_chunk=(if(1.number=ND)2.number else 1.number)]
                 { %1 _ 2[gender=$gender,number=$number] } |
 
-        3: %SN de@SPr
-                { %1 _ 2 } |
+!        3: %SN de@SPr
+!                { %1 _ 2 } |
 
         2: SAdj %SN
                 [$gender_chunk=(if(2.gender=GD)1.gender else 2.gender),$number_chunk=(if(2.number=ND)1.number else 2.number)]
