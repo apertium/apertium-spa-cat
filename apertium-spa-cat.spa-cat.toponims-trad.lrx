@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<metalrx>
+<lrx>
   <def-macros>
 
-  <def-macro name="toponims_article">
+  <def-macro n="toponims_article" npar="3">
     <rule weight="0.5">
-      <match lemma="{{p1}}"><select lemma="{{p3}}"/></match>
+      <match plemma="1"><select plemma="3"/></match>
     </rule>
     <rule weight="1">
       <or>
@@ -15,7 +15,7 @@
         <match tags="n.*"/>
         <match tags="np.*"/>
       </or>
-      <match lemma="{{p1}}"><select lemma="{{p2}}"/></match>
+      <match plemma="1"><select plemma="2"/></match>
     </rule>
   </def-macro>
 
@@ -172,51 +172,51 @@
 
   <!-- topònims amb article --> 
 
-  <macro name="toponims_article" p1="NN. UU." p2="Nacions Unides" p3="les Nacions Unides" />
-  <macro name="toponims_article" p1="Afganistán" p2="Afganistan" p3="l'Afganistan" />
-  <macro name="toponims_article" p1="Argentina" p2="Argentina" p3="l'Argentina" />
-  <macro name="toponims_article" p1="Arabia Saudí" p2="Aràbia Saudita" p3="l'Aràbia Saudita" />
-  <macro name="toponims_article" p1="Azerbaiyán" p2="Azerbaidjan" p3="l'Azerbaidjan" />
-  <macro name="toponims_article" p1="Brasil" p2="Brasil" p3="el Brasil" />
-  <macro name="toponims_article" p1="Canadá" p2="Canadà" p3="el Canadà" />
-  <macro name="toponims_article" p1="China" p2="Xina" p3="la Xina" />
-  <macro name="toponims_article" p1="Ecuador" p2="Equador" p3="l'Equador" />
-  <macro name="toponims_article" p1="EE. UU." p2="EUA" p3="els EUA" />
-  <macro name="toponims_article" p1="Estados Unidos" p2="Estats Units" p3="els Estats Units" />
-  <macro name="toponims_article" p1="Irak" p2="Iraq" p3="l'Iraq" />
-  <macro name="toponims_article" p1="Irán" p2="Iran" p3="l'Iran" />
-  <macro name="toponims_article" p1="India" p2="Índia" p3="l'Índia" />
-  <macro name="toponims_article" p1="Japón" p2="Japó" p3="el Japó" />
-  <macro name="toponims_article" p1="Kazajistán" p2="Kazakhstan" p3="el Kazakhstan" />
-  <macro name="toponims_article" p1="Marruecos" p2="Marroc" p3="el Marroc" />
-  <macro name="toponims_article" p1="Pakistán" p2="Pakistan" p3="el Pakistan" />
-  <macro name="toponims_article" p1="Perú" p2="Perú" p3="el Perú" />
-  <macro name="toponims_article" p1="Senegal" p2="Senegal" p3="el Senegal" />
-  <macro name="toponims_article" p1="Uruguay" p2="Uruguai" p3="l'Uruguai" />
-  <macro name="toponims_article" p1="Vendrell" p2="Vendrell" p3="el Vendrell" />
-  <macro name="toponims_article" p1="Alcudia de Veo" p2="Alcúdia de Veo" p3="l'Alcúdia de Veo" />
-  <macro name="toponims_article" p1="Algueña" p2="Alguenya" p3="l'Alguenya" />
-  <macro name="toponims_article" p1="Cañada" p2="Canyada" p3="la Canyada" />
-  <macro name="toponims_article" p1="Castillo de Villamalefa" p2="Castell de Vilamalefa" p3="el Castell de Vilamalefa" />
-  <macro name="toponims_article" p1="Fuente la Reina" p2="Font de la Reina" p3="la Font de la Reina" />
-  <macro name="toponims_article" p1="Granja de Rocamora" p2="Granja de Rocamora" p3="la Granja de Rocamora" />
-  <macro name="toponims_article" p1="Losa del Obispo" p2="Llosa del Bisbe" p3="la Llosa del Bisbe" />
-  <macro name="toponims_article" p1="Puebla de Arenoso" p2="Pobla d'Arenós" p3="la Pobla d'Arenós" />
-  <macro name="toponims_article" p1="Puebla de San Miguel" p2="Pobla de Sant Miquel" p3="la Pobla de Sant Miquel" />
-  <macro name="toponims_article" p1="Sierra Engarcerán" p2="Serra d'en Galceran" p3="la Serra d'en Galceran" />
-  <macro name="toponims_article" p1="Todolella" p2="Todolella" p3="la Todolella" />
-  <macro name="toponims_article" p1="Vall d'Alba" p2="Vall d'Alba" p3="la Vall d'Alba" />
-  <macro name="toponims_article" p1="Vall de Almonacid" p2="Vall d'Almonesir" p3="la Vall d'Almonesir" />
-  <macro name="toponims_article" p1="Vall de Gallinera" p2="Vall de Gallinera" p3="la Vall de Gallinera" />
-  <macro name="toponims_article" p1="Fuentes de Ayódar" p2="Fonts d'Aiòder" p3="les Fonts d'Aiòder" />
-  <macro name="toponims_article" p1="Hondón de los Frailes" p2="Fondó dels Frares" p3="el Fondó dels Frares" />
-  <macro name="toponims_article" p1="Hondón de las Nieves" p2="Fondó de les Neus" p3="el Fondó de les Neus" />
-  <macro name="toponims_article" p1="Forcall" p2="Forcall" p3="el Forcall" />
-  <macro name="toponims_article" p1="Pilar de la Horadada" p2="Pilar de la Foradada" p3="el Pilar de la Foradada" />
-  <macro name="toponims_article" p1="Ráfol de Salem" p2="Ràfol de Salem" p3="el Ràfol de Salem" />
-  <macro name="toponims_article" p1="Campo de Mirra" p2="Camp de Mirra" p3="el Camp de Mirra" />
-  <macro name="toponims_article" p1="Ráfol de Almunia" p2="Ràfol d'Almúnia" p3="el Ràfol d'Almúnia" />
-  <macro name="toponims_article" p1="Vall de Laguart" p2="Vall de Laguar" p3="la Vall de Laguar" />
-  <macro name="toponims_article" p1="Benitachell" p2="Poble Nou de Benitatxell" p3="el Poble Nou de Benitatxell" />
+  <macro n="toponims_article"><with-param v="NN. UU."/><with-param v="Nacions Unides"/><with-param v="les Nacions Unides"/></macro>
+  <macro n="toponims_article"><with-param v="Afganistán"/><with-param v="Afganistan"/><with-param v="l'Afganistan"/></macro>
+  <macro n="toponims_article"><with-param v="Argentina"/><with-param v="Argentina"/><with-param v="l'Argentina"/></macro>
+  <macro n="toponims_article"><with-param v="Arabia Saudí"/><with-param v="Aràbia Saudita"/><with-param v="l'Aràbia Saudita"/></macro>
+  <macro n="toponims_article"><with-param v="Azerbaiyán"/><with-param v="Azerbaidjan"/><with-param v="l'Azerbaidjan"/></macro>
+  <macro n="toponims_article"><with-param v="Brasil"/><with-param v="Brasil"/><with-param v="el Brasil"/></macro>
+  <macro n="toponims_article"><with-param v="Canadá"/><with-param v="Canadà"/><with-param v="el Canadà"/></macro>
+  <macro n="toponims_article"><with-param v="China"/><with-param v="Xina"/><with-param v="la Xina"/></macro>
+  <macro n="toponims_article"><with-param v="Ecuador"/><with-param v="Equador"/><with-param v="l'Equador"/></macro>
+  <macro n="toponims_article"><with-param v="EE. UU."/><with-param v="EUA"/><with-param v="els EUA"/></macro>
+  <macro n="toponims_article"><with-param v="Estados Unidos"/><with-param v="Estats Units"/><with-param v="els Estats Units"/></macro>
+  <macro n="toponims_article"><with-param v="Irak"/><with-param v="Iraq"/><with-param v="l'Iraq"/></macro>
+  <macro n="toponims_article"><with-param v="Irán"/><with-param v="Iran"/><with-param v="l'Iran"/></macro>
+  <macro n="toponims_article"><with-param v="India"/><with-param v="Índia"/><with-param v="l'Índia"/></macro>
+  <macro n="toponims_article"><with-param v="Japón"/><with-param v="Japó"/><with-param v="el Japó"/></macro>
+  <macro n="toponims_article"><with-param v="Kazajistán"/><with-param v="Kazakhstan"/><with-param v="el Kazakhstan"/></macro>
+  <macro n="toponims_article"><with-param v="Marruecos"/><with-param v="Marroc"/><with-param v="el Marroc"/></macro>
+  <macro n="toponims_article"><with-param v="Pakistán"/><with-param v="Pakistan"/><with-param v="el Pakistan"/></macro>
+  <macro n="toponims_article"><with-param v="Perú"/><with-param v="Perú"/><with-param v="el Perú"/></macro>
+  <macro n="toponims_article"><with-param v="Senegal"/><with-param v="Senegal"/><with-param v="el Senegal"/></macro>
+  <macro n="toponims_article"><with-param v="Uruguay"/><with-param v="Uruguai"/><with-param v="l'Uruguai"/></macro>
+  <macro n="toponims_article"><with-param v="Vendrell"/><with-param v="Vendrell"/><with-param v="el Vendrell"/></macro>
+  <macro n="toponims_article"><with-param v="Alcudia de Veo"/><with-param v="Alcúdia de Veo"/><with-param v="l'Alcúdia de Veo"/></macro>
+  <macro n="toponims_article"><with-param v="Algueña"/><with-param v="Alguenya"/><with-param v="l'Alguenya"/></macro>
+  <macro n="toponims_article"><with-param v="Cañada"/><with-param v="Canyada"/><with-param v="la Canyada"/></macro>
+  <macro n="toponims_article"><with-param v="Castillo de Villamalefa"/><with-param v="Castell de Vilamalefa"/><with-param v="el Castell de Vilamalefa"/></macro>
+  <macro n="toponims_article"><with-param v="Fuente la Reina"/><with-param v="Font de la Reina"/><with-param v="la Font de la Reina"/></macro>
+  <macro n="toponims_article"><with-param v="Granja de Rocamora"/><with-param v="Granja de Rocamora"/><with-param v="la Granja de Rocamora"/></macro>
+  <macro n="toponims_article"><with-param v="Losa del Obispo"/><with-param v="Llosa del Bisbe"/><with-param v="la Llosa del Bisbe"/></macro>
+  <macro n="toponims_article"><with-param v="Puebla de Arenoso"/><with-param v="Pobla d'Arenós"/><with-param v="la Pobla d'Arenós"/></macro>
+  <macro n="toponims_article"><with-param v="Puebla de San Miguel"/><with-param v="Pobla de Sant Miquel"/><with-param v="la Pobla de Sant Miquel"/></macro>
+  <macro n="toponims_article"><with-param v="Sierra Engarcerán"/><with-param v="Serra d'en Galceran"/><with-param v="la Serra d'en Galceran"/></macro>
+  <macro n="toponims_article"><with-param v="Todolella"/><with-param v="Todolella"/><with-param v="la Todolella"/></macro>
+  <macro n="toponims_article"><with-param v="Vall d'Alba"/><with-param v="Vall d'Alba"/><with-param v="la Vall d'Alba"/></macro>
+  <macro n="toponims_article"><with-param v="Vall de Almonacid"/><with-param v="Vall d'Almonesir"/><with-param v="la Vall d'Almonesir"/></macro>
+  <macro n="toponims_article"><with-param v="Vall de Gallinera"/><with-param v="Vall de Gallinera"/><with-param v="la Vall de Gallinera"/></macro>
+  <macro n="toponims_article"><with-param v="Fuentes de Ayódar"/><with-param v="Fonts d'Aiòder"/><with-param v="les Fonts d'Aiòder"/></macro>
+  <macro n="toponims_article"><with-param v="Hondón de los Frailes"/><with-param v="Fondó dels Frares"/><with-param v="el Fondó dels Frares"/></macro>
+  <macro n="toponims_article"><with-param v="Hondón de las Nieves"/><with-param v="Fondó de les Neus"/><with-param v="el Fondó de les Neus"/></macro>
+  <macro n="toponims_article"><with-param v="Forcall"/><with-param v="Forcall"/><with-param v="el Forcall"/></macro>
+  <macro n="toponims_article"><with-param v="Pilar de la Horadada"/><with-param v="Pilar de la Foradada"/><with-param v="el Pilar de la Foradada"/></macro>
+  <macro n="toponims_article"><with-param v="Ráfol de Salem"/><with-param v="Ràfol de Salem"/><with-param v="el Ràfol de Salem"/></macro>
+  <macro n="toponims_article"><with-param v="Campo de Mirra"/><with-param v="Camp de Mirra"/><with-param v="el Camp de Mirra"/></macro>
+  <macro n="toponims_article"><with-param v="Ráfol de Almunia"/><with-param v="Ràfol d'Almúnia"/><with-param v="el Ràfol d'Almúnia"/></macro>
+  <macro n="toponims_article"><with-param v="Vall de Laguart"/><with-param v="Vall de Laguar"/><with-param v="la Vall de Laguar"/></macro>
+  <macro n="toponims_article"><with-param v="Benitachell"/><with-param v="Poble Nou de Benitatxell"/><with-param v="el Poble Nou de Benitatxell"/></macro>
 </rules>
-</metalrx>
+</lrx>

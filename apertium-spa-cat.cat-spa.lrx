@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<metalrx>
+<lrx>
 
   <def-macros>
-	<def-macro name="noms_propis">
+	<def-macro n="noms_propis" npar="2">
 	  <rule weight="0.6">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p1}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="1"/></match>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match lemma="de" tags="pr"/>
 		 <or><match tags="np.loc"/><match tags="np.top.*"/></or>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="det.*"/>
 		 <match tags="adj.*"/>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <or>
 		   <match tags="num.*"/>
 		   <match lemma="I" tags="adj.*"/>
@@ -76,7 +76,7 @@
 		   <match lemma="marquès" tags="n.*"/>
 		   <match lemma="baró" tags="n.*"/>
 		 </or>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	  <rule weight="1.0">
 		 <or>
@@ -88,7 +88,7 @@
 		   <match lemma="regència" tags="n.*"/>
 		 </or>
 		 <match lemma="de" tags="pr"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	</def-macro>
   </def-macros>
@@ -2160,7 +2160,7 @@
     </or>
     <match lemma="de" tags="pr"/>
     <match tags="det.*"/>
-    <match lemma="vespre" tagss="n.m.sg"><select lemma="tarde"/></match>
+    <match lemma="vespre" tags="n.m.sg"><select lemma="tarde"/></match>
   </rule>
 
   <rule weight="1.0">
@@ -2225,72 +2225,72 @@
      <match lemma="Virgili" tags="np.*"><select lemma="Virgili"/></match>
   </rule>
 
-  <macro name="noms_propis" p1="Cristòfor" p2="Cristóbal" />
-  <macro name="noms_propis" p1="Octavi" p2="Octavio" />
-  <macro name="noms_propis" p1="Salomó" p2="Salomón" />
-  <macro name="noms_propis" p1="Faust" p2="Fausto" />
-  <macro name="noms_propis" p1="Tomàs" p2="Tomás" />  
-  <macro name="noms_propis" p1="Josep" p2="José" />  
-  <macro name="noms_propis" p1="Agustí" p2="Agustín" />  
-  <macro name="noms_propis" p1="Lucrècia" p2="Lucrecia" />
-  <macro name="noms_propis" p1="Albert Carles" p2="Alberto Carlos" />
-  <macro name="noms_propis" p1="Francesc Josep" p2="Francisco José" />
-  <macro name="noms_propis" p1="Joan Carles" p2="Juan Carlos" />
-  <macro name="noms_propis" p1="Carles" p2="Carlos" />
-  <macro name="noms_propis" p1="Felip" p2="Felipe" />
-  <macro name="noms_propis" p1="Lluís" p2="Luis" />
-  <macro name="noms_propis" p1="Guillem" p2="Guillermo" />
-  <macro name="noms_propis" p1="Enric" p2="Enrique" />
-  <macro name="noms_propis" p1="Pere" p2="Pedro" />
-  <macro name="noms_propis" p1="Jaume" p2="Jaime" />
-  <macro name="noms_propis" p1="Valentí" p2="Valentín" />
-  <macro name="noms_propis" p1="Ferran" p2="Fernando" />
-  <macro name="noms_propis" p1="Alfons" p2="Alfonso" />
-  <macro name="noms_propis" p1="Joan" p2="Juan" />
-  <macro name="noms_propis" p1="Joana" p2="Juana" />
-  <macro name="noms_propis" p1="Pau" p2="Pablo" />
-  <macro name="noms_propis" p1="Benet" p2="Benedicto" />
-  <macro name="noms_propis" p1="Francesc" p2="Francisco" />
-  <macro name="noms_propis" p1="Ricard" p2="Ricardo" />
-  <macro name="noms_propis" p1="Martí" p2="Martín" />
-  <macro name="noms_propis" p1="Ramir" p2="Ramiro" />
-  <macro name="noms_propis" p1="Alexandre" p2="Alejandro" />
-  <macro name="noms_propis" p1="Urbà" p2="Urbano" />
-  <macro name="noms_propis" p1="Gregori" p2="Gregorio" />
-  <macro name="noms_propis" p1="Bonifaci" p2="Bonifacio" />
-  <macro name="noms_propis" p1="Climent" p2="Clemente" />
-  <macro name="noms_propis" p1="Innocenci" p2="Inocencio" />
-  <macro name="noms_propis" p1="Sixt" p2="Sixto" />
-  <macro name="noms_propis" p1="Victòria" p2="Victoria" />
-  <macro name="noms_propis" p1="Ignasi" p2="Ignacio" />
-  <macro name="noms_propis" p1="Bonaventura" p2="Buenaventura" />
-  <macro name="noms_propis" p1="Calixt" p2="Calixto" />
-  <macro name="noms_propis" p1="Pasqual" p2="Pascual" />
-  <macro name="noms_propis" p1="Amadeu" p2="Amadeo" />
-  <macro name="noms_propis" p1="Antoni" p2="Antonio" />
-  <macro name="noms_propis" p1="Joaquim" p2="Joaquín" />
-  <macro name="noms_propis" p1="Constantí" p2="Constantino" />
-  <macro name="noms_propis" p1="Pius" p2="Pío" />
+  <macro n="noms_propis"><with-param v="Cristòfor"/><with-param v="Cristóbal"/></macro>
+  <macro n="noms_propis"><with-param v="Octavi"/><with-param v="Octavio"/></macro>
+  <macro n="noms_propis"><with-param v="Salomó"/><with-param v="Salomón"/></macro>
+  <macro n="noms_propis"><with-param v="Faust"/><with-param v="Fausto"/></macro>
+  <macro n="noms_propis"><with-param v="Tomàs"/><with-param v="Tomás"/></macro>  
+  <macro n="noms_propis"><with-param v="Josep"/><with-param v="José"/></macro>  
+  <macro n="noms_propis"><with-param v="Agustí"/><with-param v="Agustín"/></macro>  
+  <macro n="noms_propis"><with-param v="Lucrècia"/><with-param v="Lucrecia"/></macro>
+  <macro n="noms_propis"><with-param v="Albert Carles"/><with-param v="Alberto Carlos"/></macro>
+  <macro n="noms_propis"><with-param v="Francesc Josep"/><with-param v="Francisco José"/></macro>
+  <macro n="noms_propis"><with-param v="Joan Carles"/><with-param v="Juan Carlos"/></macro>
+  <macro n="noms_propis"><with-param v="Carles"/><with-param v="Carlos"/></macro>
+  <macro n="noms_propis"><with-param v="Felip"/><with-param v="Felipe"/></macro>
+  <macro n="noms_propis"><with-param v="Lluís"/><with-param v="Luis"/></macro>
+  <macro n="noms_propis"><with-param v="Guillem"/><with-param v="Guillermo"/></macro>
+  <macro n="noms_propis"><with-param v="Enric"/><with-param v="Enrique"/></macro>
+  <macro n="noms_propis"><with-param v="Pere"/><with-param v="Pedro"/></macro>
+  <macro n="noms_propis"><with-param v="Jaume"/><with-param v="Jaime"/></macro>
+  <macro n="noms_propis"><with-param v="Valentí"/><with-param v="Valentín"/></macro>
+  <macro n="noms_propis"><with-param v="Ferran"/><with-param v="Fernando"/></macro>
+  <macro n="noms_propis"><with-param v="Alfons"/><with-param v="Alfonso"/></macro>
+  <macro n="noms_propis"><with-param v="Joan"/><with-param v="Juan"/></macro>
+  <macro n="noms_propis"><with-param v="Joana"/><with-param v="Juana"/></macro>
+  <macro n="noms_propis"><with-param v="Pau"/><with-param v="Pablo"/></macro>
+  <macro n="noms_propis"><with-param v="Benet"/><with-param v="Benedicto"/></macro>
+  <macro n="noms_propis"><with-param v="Francesc"/><with-param v="Francisco"/></macro>
+  <macro n="noms_propis"><with-param v="Ricard"/><with-param v="Ricardo"/></macro>
+  <macro n="noms_propis"><with-param v="Martí"/><with-param v="Martín"/></macro>
+  <macro n="noms_propis"><with-param v="Ramir"/><with-param v="Ramiro"/></macro>
+  <macro n="noms_propis"><with-param v="Alexandre"/><with-param v="Alejandro"/></macro>
+  <macro n="noms_propis"><with-param v="Urbà"/><with-param v="Urbano"/></macro>
+  <macro n="noms_propis"><with-param v="Gregori"/><with-param v="Gregorio"/></macro>
+  <macro n="noms_propis"><with-param v="Bonifaci"/><with-param v="Bonifacio"/></macro>
+  <macro n="noms_propis"><with-param v="Climent"/><with-param v="Clemente"/></macro>
+  <macro n="noms_propis"><with-param v="Innocenci"/><with-param v="Inocencio"/></macro>
+  <macro n="noms_propis"><with-param v="Sixt"/><with-param v="Sixto"/></macro>
+  <macro n="noms_propis"><with-param v="Victòria"/><with-param v="Victoria"/></macro>
+  <macro n="noms_propis"><with-param v="Ignasi"/><with-param v="Ignacio"/></macro>
+  <macro n="noms_propis"><with-param v="Bonaventura"/><with-param v="Buenaventura"/></macro>
+  <macro n="noms_propis"><with-param v="Calixt"/><with-param v="Calixto"/></macro>
+  <macro n="noms_propis"><with-param v="Pasqual"/><with-param v="Pascual"/></macro>
+  <macro n="noms_propis"><with-param v="Amadeu"/><with-param v="Amadeo"/></macro>
+  <macro n="noms_propis"><with-param v="Antoni"/><with-param v="Antonio"/></macro>
+  <macro n="noms_propis"><with-param v="Joaquim"/><with-param v="Joaquín"/></macro>
+  <macro n="noms_propis"><with-param v="Constantí"/><with-param v="Constantino"/></macro>
+  <macro n="noms_propis"><with-param v="Pius"/><with-param v="Pío"/></macro>
 
-  <macro name="noms_propis" p1="Guifré" p2="Vilfredo" />
-  <macro name="noms_propis" p1="Ramon" p2="Ramón" />
-  <macro name="noms_propis" p1="Ermengol" p2="Armengol" />
-  <macro name="noms_propis" p1="Joan Manuel" p2="Juan Manuel" />
-  <macro name="noms_propis" p1="Joan Carles" p2="Juan Carlos" />
-  <macro name="noms_propis" p1="Joan Pau" p2="Juan Pablo" />
-  <macro name="noms_propis" p1="Francesc Xavier" p2="Francisco Javier" />
-  <macro name="noms_propis" p1="Humbert" p2="Humberto" />
-  <macro name="noms_propis" p1="Nicolau" p2="Nicolás" />
-  <macro name="noms_propis" p1="Maximilià" p2="Maximiliano" />
-  <macro name="noms_propis" p1="Caterina" p2="Catalina" />
-  <macro name="noms_propis" p1="Bernat" p2="Bernardo" />
-  <macro name="noms_propis" p1="Frederic" p2="Federico" />
-  <macro name="noms_propis" p1="Llúcia" p2="Lucía" />
-  <macro name="noms_propis" p1="Josep" p2="José" />
-  <macro name="noms_propis" p1="Juli" p2="Julio" />
-  <macro name="noms_propis" p1="Marc" p2="Marcos" />
-  <macro name="noms_propis" p1="Lluc" p2="Lucas" />
-  <macro name="noms_propis" p1="Humbert" p2="Humberto" />
+  <macro n="noms_propis"><with-param v="Guifré"/><with-param v="Vilfredo"/></macro>
+  <macro n="noms_propis"><with-param v="Ramon"/><with-param v="Ramón"/></macro>
+  <macro n="noms_propis"><with-param v="Ermengol"/><with-param v="Armengol"/></macro>
+  <macro n="noms_propis"><with-param v="Joan Manuel"/><with-param v="Juan Manuel"/></macro>
+  <macro n="noms_propis"><with-param v="Joan Carles"/><with-param v="Juan Carlos"/></macro>
+  <macro n="noms_propis"><with-param v="Joan Pau"/><with-param v="Juan Pablo"/></macro>
+  <macro n="noms_propis"><with-param v="Francesc Xavier"/><with-param v="Francisco Javier"/></macro>
+  <macro n="noms_propis"><with-param v="Humbert"/><with-param v="Humberto"/></macro>
+  <macro n="noms_propis"><with-param v="Nicolau"/><with-param v="Nicolás"/></macro>
+  <macro n="noms_propis"><with-param v="Maximilià"/><with-param v="Maximiliano"/></macro>
+  <macro n="noms_propis"><with-param v="Caterina"/><with-param v="Catalina"/></macro>
+  <macro n="noms_propis"><with-param v="Bernat"/><with-param v="Bernardo"/></macro>
+  <macro n="noms_propis"><with-param v="Frederic"/><with-param v="Federico"/></macro>
+  <macro n="noms_propis"><with-param v="Llúcia"/><with-param v="Lucía"/></macro>
+  <macro n="noms_propis"><with-param v="Josep"/><with-param v="José"/></macro>
+  <macro n="noms_propis"><with-param v="Juli"/><with-param v="Julio"/></macro>
+  <macro n="noms_propis"><with-param v="Marc"/><with-param v="Marcos"/></macro>
+  <macro n="noms_propis"><with-param v="Lluc"/><with-param v="Lucas"/></macro>
+  <macro n="noms_propis"><with-param v="Humbert"/><with-param v="Humberto"/></macro>
 </rules>
-</metalrx>
+</lrx>
 

@@ -193,19 +193,20 @@ $(PREFIX2).autobil.bin: .deps/$(BASENAME).$(PREFIX1).dix
 ## Lexical selection rules
 ###############################################################################
 
-.deps/%.lrx: %.metalrx .deps/.d
-	apertium-metalrx $< $@
-
-$(PREFIX1).autolex.bin: .deps/$(BASENAME).$(PREFIX1).lrx
+$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
-$(PREFIX2).autolex.bin: .deps/$(BASENAME).$(PREFIX2).lrx
+$(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
-$(PREFIX1).autolex-toponims-oficials.bin: .deps/$(BASENAME).$(PREFIX1).toponims-oficials.lrx
+$(PREFIX1).autolex-toponims-oficials.bin: $(BASENAME).$(PREFIX1).toponims-oficials.lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
-$(PREFIX1).autolex-toponims-trad.bin: .deps/$(BASENAME).$(PREFIX1).toponims-trad.lrx
+$(PREFIX1).autolex-toponims-trad.bin: $(BASENAME).$(PREFIX1).toponims-trad.lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 ###############################################################################
@@ -273,10 +274,10 @@ prefs/$(PREFIX1).xml: prefs/$(LANG2).preferences.xml
 ###############################################################################
 
 EXTRA_DIST=									\
-		.deps/$(BASENAME).$(PREFIX1).lrx	\
-		.deps/$(BASENAME).$(PREFIX1).toponims-oficials.lrx	\
-		.deps/$(BASENAME).$(PREFIX1).toponims-trad.lrx	\
-		.deps/$(BASENAME).$(PREFIX2).lrx	\
+		$(BASENAME).$(PREFIX1).lrx	\
+		$(BASENAME).$(PREFIX1).toponims-oficials.lrx	\
+		$(BASENAME).$(PREFIX1).toponims-trad.lrx	\
+		$(BASENAME).$(PREFIX2).lrx	\
 		$(BASENAME).$(PREFIX1).metadix 			\
 		$(BASENAME).$(PREFIX1).metadix 			\
 		$(PREFIX1C).t1x 	\

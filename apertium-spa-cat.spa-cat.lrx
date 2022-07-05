@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<metalrx>
+<lrx>
   <def-macros>
 
-  <def-macro name="toponims_article">
+  <def-macro n="toponims_article" npar="3">
     <rule weight="0.5">
-      <match lemma="{{p1}}"><select lemma="{{p3}}"/></match>
+      <match plemma="1"><select plemma="3"/></match>
     </rule>
     <rule weight="1">
       <or>
@@ -15,27 +15,27 @@
         <match tags="n.*"/>
         <match tags="np.*"/>
       </or>
-      <match lemma="{{p1}}"><select lemma="{{p2}}"/></match>
+      <match plemma="1"><select plemma="2"/></match>
     </rule>
   </def-macro>
 
-	<def-macro name="noms_propis">
+	<def-macro n="noms_propis" npar="2">
 	  <rule weight="0.6">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p1}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="1"/></match>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match lemma="de" tags="pr"/>
      <repeat from="0" upto="1"><match tags="det.def.*"/></repeat>
 		 <or><match tags="np.loc"/><match tags="np.top.*"/></or>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <match tags="det.*"/>
 		 <match tags="adj.*"/>
 	  </rule>
 	  <rule weight="1.0">
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 		 <or>
 		   <match tags="num.*"/>
 		   <match lemma="I" tags="adj.*"/>
@@ -92,7 +92,7 @@
 		   <match lemma="marqués" tags="n.*"/>
 		   <match lemma="barón" tags="n.*"/>
 		 </or>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	  <rule weight="1.0">
 		 <or>
@@ -104,209 +104,209 @@
 		   <match lemma="regencia" tags="n.*"/>
 		 </or>
 		 <match lemma="de" tags="pr"/>
-		 <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+		 <match plemma="1" tags="np.*"><select plemma="2"/></match>
 	  </rule>
 	</def-macro>
 
-  <def-macro name="verbs_reflexius"> <!-- traducció del verb si va acompanyat per un pronom reflexiu -->
+  <def-macro n="verbs_reflexius" npar="2"> <!-- traducció del verb si va acompanyat per un pronom reflexiu -->
     <rule weight="2">
       <match tags="prn.pro.p1.mf.sg"/>
-      <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p1.sg"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p2.mf.sg"/>
-      <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p2.sg"><select plemma="2"/></match>
     </rule>
     <rule weight="1">
       <match tags="prn.pro.ref.p3.mf.sp"/>
-      <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p3.sg"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p1.mf.pl"/>
-      <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p1.pl"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p2.mf.pl"/>
-      <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p2.pl"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.ref.p3.mf.sp"/>
-      <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p3.pl"><select plemma="2"/></match>
     </rule>
 
     <rule weight="2">
       <match tags="prn.pro.p1.mf.sg"/>
       <match tags="vbmod.*.p1.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p2.mf.sg"/>
       <match tags="vbmod.*.p2.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
       <rule weight="1">
       <match tags="prn.pro.ref.p3.mf.sp"/>
       <match tags="vbmod.*.p3.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p1.mf.pl"/>
       <match tags="vbmod.*.p1.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p2.mf.pl"/>
       <match tags="vbmod.*.p2.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
       <rule weight="2">
       <match tags="prn.pro.ref.p3.mf.sp"/>
       <match tags="vbmod.*.p3.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
 
     <rule weight="2">
       <match tags="vbmod.*.p1.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.p1.mf.sg"/>
     </rule>
       <rule weight="2">
       <match tags="vbmod.*.p2.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.p2.mf.sg"/>
     </rule>
     <rule weight="1">
       <match tags="vbmod.*.p3.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.ref.p3.mf.sp"/>
     </rule>
     <rule weight="2">
       <match tags="vbmod.*.p1.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.p1.mf.pl"/>
     </rule>
       <rule weight="2">
       <match tags="vbmod.*.p2.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.p2.mf.pl"/>
     </rule>
     <rule weight="2">
       <match tags="vbmod.*.p3.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.ref.p3.mf.sp"/>
     </rule>
 
     <rule weight="2">
       <match tags="prn.pro.p1.mf.sg"/>
       <match tags="vbhaver.*.p1.sg"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
       <rule weight="2">
       <match tags="prn.pro.p2.mf.sg"/>
       <match tags="vbhaver.*.p2.sg"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
     <rule weight="1">
       <match tags="prn.pro.ref.p3.mf.sp"/>
       <match tags="vbhaver.*.p3.sg"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p1.mf.pl"/>
       <match tags="vbhaver.*.p1.pl"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p2.mf.pl"/>
       <match tags="vbhaver.*.p2.pl"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
       <rule weight="2">
       <match tags="prn.pro.ref.p3.mf.sp"/>
       <match tags="vbhaver.*.p3.pl"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
   </def-macro>
 
-  <def-macro name="verbs_reflexius_no_impersonal"> <!-- traducció del verb si va acompanyat per un pronom reflexiu, excepte 3a persona-->
+  <def-macro n="verbs_reflexius_no_impersonal" npar="2"> <!-- traducció del verb si va acompanyat per un pronom reflexiu, excepte 3a persona-->
     <rule weight="2">
       <match tags="prn.pro.p1.mf.sg"/>
-      <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p1.sg"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p2.mf.sg"/>
-      <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p2.sg"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p1.mf.pl"/>
-      <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p1.pl"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p2.mf.pl"/>
-      <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.*.p2.pl"><select plemma="2"/></match>
     </rule>
 
     <rule weight="2">
       <match tags="prn.pro.p1.mf.sg"/>
       <match tags="*.*.p1.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
       <rule weight="2">
       <match tags="prn.pro.p2.mf.sg"/>
       <match tags="*.*.p2.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p1.mf.pl"/>
       <match tags="*.*.p1.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
       <rule weight="2">
       <match tags="prn.pro.p2.mf.pl"/>
       <match tags="vbmod.*.p2.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
     </rule>
 
     <rule weight="2">
       <match tags="*.*.p1.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.p1.mf.sg"/>
     </rule>
       <rule weight="2">
       <match tags="*.*.p2.sg"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.p2.mf.sg"/>
     </rule>
     <rule weight="2">
       <match tags="*.*.p1.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.p1.mf.pl"/>
     </rule>
       <rule weight="2">
       <match tags="*.*.p2.pl"/>
-      <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
       <match tags="prn.enc.p2.mf.pl"/>
     </rule>
 
     <rule weight="2">
       <match tags="prn.pro.p1.mf.sg"/>
       <match tags="vbhaver.*.p1.sg"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
       <rule weight="2">
       <match tags="prn.pro.p2.mf.sg"/>
       <match tags="vbhaver.*.p2.sg"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
     <rule weight="2">
       <match tags="prn.pro.p1.mf.pl"/>
       <match tags="vbhaver.*.p1.pl"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
       <rule weight="2">
       <match tags="prn.pro.p2.mf.pl"/>
       <match tags="vbhaver.*.p2.pl"/>
-      <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
+      <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
     </rule>
   </def-macro>
 </def-macros>
@@ -900,7 +900,7 @@
       <match lemma="uva# de mesa"/>
     </or>
     <repeat from="0" upto="2">
-      <match ltags="*"/>
+      <match tags="*"/>
     </repeat>
     <match lemma="embolsar" tags="vblex.*"><select lemma="embossar"/></match>
   </rule>
@@ -1545,7 +1545,7 @@
     <match lemma="a" tags="pr"/>
   </rule>
 
-  <macro name="verbs_reflexius" p1="dar# cuenta" p2="adonar"/>
+  <macro n="verbs_reflexius"><with-param v="dar# cuenta"/><with-param v="adonar"/></macro>
 
   <rule weight="1"> 
     <match lemma="dar# cuenta"><select lemma="adonar"/></match>
@@ -1576,7 +1576,7 @@
     <match lemma="a" tags="pr"/>
   </rule>-->
 
-  <macro name="verbs_reflexius" p1="dar# prisa" p2="afanyar"/> 
+  <macro n="verbs_reflexius"><with-param v="dar# prisa"/><with-param v="afanyar"/></macro> 
 
   <rule weight="1"> 
     <match lemma="dar# prisa"><select lemma="afanyar"/></match>
@@ -1602,7 +1602,7 @@
     <match lemma="armar# un jaleo" tags="vblex.*"><select lemma="armar# tabola"/></match>
   </rule>
 
-  <macro name="verbs_reflexius" p1="armar# un jaleo" p2="fer# un embolic"/>
+  <macro n="verbs_reflexius"><with-param v="armar# un jaleo"/><with-param v="fer# un embolic"/></macro>
   
   <rule weight="1"> 
     <match lemma="armar# un jaleo"><select lemma="fer# un embolic"/></match>
@@ -1624,7 +1624,7 @@
     <match lemma="a" tags="pr"/>
   </rule>-->
 
-  <macro name="verbs_reflexius" p1="dormir" p2="adormir"/>
+  <macro n="verbs_reflexius"><with-param v="dormir"/><with-param v="adormir"/></macro>
 
   <rule weight="1"> 
     <match lemma="dormir"><select lemma="adormir"/></match>
@@ -1641,7 +1641,7 @@
     <match lemma="agraviar" tags="vblex.*"><select lemma="agreujar"/></match>
   </rule>
 
-  <macro name="verbs_reflexius" p1="agraviar" p2="ofendre"/>
+  <macro n="verbs_reflexius"><with-param v="agraviar"/><with-param v="ofendre"/></macro>
 
   <rule weight="1"> 
     <match lemma="agraviar"><select lemma="ofendre"/></match>
@@ -5946,7 +5946,7 @@
 
   <!-- apoyarse > recolzar-se  -->
 
-  <macro name="verbs_reflexius_no_impersonal" p1="apoyar" p2="recolzar"/>
+  <macro n="verbs_reflexius_no_impersonal"><with-param v="apoyar"/><with-param v="recolzar"/></macro>
 
   <!-- impersonal: se apoya --> <!-- TODO: se apoyan > es dóna suport a -->
 
@@ -9630,7 +9630,7 @@
   </rule>
 
   <rule weight="6">
-    <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    <match lemma="ninguno" tags="det.ind.m.sg"/>
     <match lemma="tipo" tags="n.*"><select lemma="mena"/></match>
     <match lemma="de"/>
     <match lemma="interés"/>
@@ -9640,7 +9640,7 @@
     <match lemma="de" tags="pr"/>
     <or>
       <match lemma="todo"/>
-      <match lemma="ninguno" tagger="det.ind.m.sg"/>
+      <match lemma="ninguno" tags="det.ind.m.sg"/>
     </or>
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
   </rule>
@@ -9649,29 +9649,29 @@
     <match tags="pr"/>
     <or>
       <match lemma="todo"/>
-      <match tagger="det.ind.m.sg"/>
-      <match tagger="det.dem.m.sg"/>
+      <match tags="det.ind.m.sg"/>
+      <match tags="det.dem.m.sg"/>
     </or>
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
     <match lemma="de" tags="pr"/>
   </rule>
 
   <rule weight="1">
-    <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    <match lemma="ninguno" tags="det.ind.m.sg"/>
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
     <match lemma="de" tags="pr"/>
   </rule>
 
   <rule weight="6">
     <match lemma="sin"/>
-    <match lemma="ninguno" tagger="det.ind.m.sg"/>
+    <match lemma="ninguno" tags="det.ind.m.sg"/>
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
     <match lemma="de" tags="pr"/>
   </rule>
 
   <rule weight="1">
     <match lemma="tipo" tags="n.m.sg"><select lemma="mena"/></match>
-    <match lemma="alguno_negativo" tagger="det.ind.m.sg"/>
+    <match lemma="alguno_negativo" tags="det.ind.m.sg"/>
   </rule>
   
   <!-- hoja > full / fulla -->
@@ -9886,17 +9886,17 @@
       </or>
     </repeat>
     <or>
-      <match tagger="n.*" lemma="cañón"/>
-      <match tagger="n.*" lemma="disparo"/>
-      <match tagger="n.*" lemma="fuego"/>
-      <match tagger="n.*" lemma="fusil"/>
-      <match tagger="n.*" lemma="grito"/>
-      <match tagger="n.*" lemma="petardo"/>
-      <match tagger="n.*" lemma="pistola"/>
-      <match tagger="n.*" lemma="relámpago"/>
-      <match tagger="n.*" lemma="tiro"/>
-      <match tagger="n.*" lemma="tormenta"/>
-      <match tagger="n.*" lemma="trueno"/>
+      <match tags="n.*" lemma="cañón"/>
+      <match tags="n.*" lemma="disparo"/>
+      <match tags="n.*" lemma="fuego"/>
+      <match tags="n.*" lemma="fusil"/>
+      <match tags="n.*" lemma="grito"/>
+      <match tags="n.*" lemma="petardo"/>
+      <match tags="n.*" lemma="pistola"/>
+      <match tags="n.*" lemma="relámpago"/>
+      <match tags="n.*" lemma="tiro"/>
+      <match tags="n.*" lemma="tormenta"/>
+      <match tags="n.*" lemma="trueno"/>
     </or>
   </rule>
 
@@ -10493,122 +10493,122 @@
 
   <!-- topònims amb article --> 
 
-  <macro name="toponims_article" p1="NN. UU." p2="Nacions Unides" p3="les Nacions Unides" />
-  <macro name="toponims_article" p1="Afganistán" p2="Afganistan" p3="l'Afganistan" />
-  <macro name="toponims_article" p1="Argentina" p2="Argentina" p3="l'Argentina" />
-  <macro name="toponims_article" p1="Arabia Saudí" p2="Aràbia Saudita" p3="l'Aràbia Saudita" />
-  <macro name="toponims_article" p1="Azerbaiyán" p2="Azerbaidjan" p3="l'Azerbaidjan" />
-  <macro name="toponims_article" p1="Brasil" p2="Brasil" p3="el Brasil" />
-  <macro name="toponims_article" p1="Canadá" p2="Canadà" p3="el Canadà" />
-  <macro name="toponims_article" p1="Reino Unido" p2="Regne Unit" p3="el Regne Unit" />
-  <macro name="toponims_article" p1="China" p2="Xina" p3="la Xina" />
-  <macro name="toponims_article" p1="Ecuador" p2="Equador" p3="l'Equador" />
-  <macro name="toponims_article" p1="EE. UU." p2="EUA" p3="els EUA" />
-  <macro name="toponims_article" p1="Estados Unidos" p2="Estats Units" p3="els Estats Units" />
-  <macro name="toponims_article" p1="Irak" p2="Iraq" p3="l'Iraq" />
-  <macro name="toponims_article" p1="Irán" p2="Iran" p3="l'Iran" />
-  <macro name="toponims_article" p1="India" p2="Índia" p3="l'Índia" />
-  <macro name="toponims_article" p1="Japón" p2="Japó" p3="el Japó" />
-  <macro name="toponims_article" p1="Kazajistán" p2="Kazakhstan" p3="el Kazakhstan" />
-  <macro name="toponims_article" p1="Marruecos" p2="Marroc" p3="el Marroc" />
-  <macro name="toponims_article" p1="Pakistán" p2="Pakistan" p3="el Pakistan" />
-  <macro name="toponims_article" p1="Perú" p2="Perú" p3="el Perú" />
-  <macro name="toponims_article" p1="Senegal" p2="Senegal" p3="el Senegal" />
-  <macro name="toponims_article" p1="Uruguay" p2="Uruguai" p3="l'Uruguai" />
-  <macro name="toponims_article" p1="Vendrell" p2="Vendrell" p3="el Vendrell" />
-  <macro name="toponims_article" p1="Alcudia de Veo" p2="Alcúdia de Veo" p3="l'Alcúdia de Veo" />
-  <macro name="toponims_article" p1="Algueña" p2="Alguenya" p3="l'Alguenya" />
-  <macro name="toponims_article" p1="Cañada" p2="Canyada" p3="la Canyada" />
-  <macro name="toponims_article" p1="Castillo de Villamalefa" p2="Castell de Vilamalefa" p3="el Castell de Vilamalefa" />
-  <macro name="toponims_article" p1="Fuente la Reina" p2="Font de la Reina" p3="la Font de la Reina" />
-  <macro name="toponims_article" p1="Granja de Rocamora" p2="Granja de Rocamora" p3="la Granja de Rocamora" />
-  <macro name="toponims_article" p1="Losa del Obispo" p2="Llosa del Bisbe" p3="la Llosa del Bisbe" />
-  <macro name="toponims_article" p1="Puebla de Arenoso" p2="Pobla d'Arenós" p3="la Pobla d'Arenós" />
-  <macro name="toponims_article" p1="Puebla de San Miguel" p2="Pobla de Sant Miquel" p3="la Pobla de Sant Miquel" />
-  <macro name="toponims_article" p1="Sierra Engarcerán" p2="Serra d'en Galceran" p3="la Serra d'en Galceran" />
-  <macro name="toponims_article" p1="Todolella" p2="Todolella" p3="la Todolella" />
-  <macro name="toponims_article" p1="Vall d'Alba" p2="Vall d'Alba" p3="la Vall d'Alba" />
-  <macro name="toponims_article" p1="Vall de Almonacid" p2="Vall d'Almonesir" p3="la Vall d'Almonesir" />
-  <macro name="toponims_article" p1="Vall de Gallinera" p2="Vall de Gallinera" p3="la Vall de Gallinera" />
-  <macro name="toponims_article" p1="Fuentes de Ayódar" p2="Fonts d'Aiòder" p3="les Fonts d'Aiòder" />
-  <macro name="toponims_article" p1="Hondón de los Frailes" p2="Fondó dels Frares" p3="el Fondó dels Frares" />
-  <macro name="toponims_article" p1="Hondón de las Nieves" p2="Fondó de les Neus" p3="el Fondó de les Neus" />
-  <macro name="toponims_article" p1="Forcall" p2="Forcall" p3="el Forcall" />
-  <macro name="toponims_article" p1="Pilar de la Horadada" p2="Pilar de la Foradada" p3="el Pilar de la Foradada" />
-  <macro name="toponims_article" p1="Ráfol de Salem" p2="Ràfol de Salem" p3="el Ràfol de Salem" />
-  <macro name="toponims_article" p1="Campo de Mirra" p2="Camp de Mirra" p3="el Camp de Mirra" />
-  <macro name="toponims_article" p1="Ráfol de Almunia" p2="Ràfol d'Almúnia" p3="el Ràfol d'Almúnia" />
-  <macro name="toponims_article" p1="Vall de Laguart" p2="Vall de Laguar" p3="la Vall de Laguar" />
-  <macro name="toponims_article" p1="Benitachell" p2="Poble Nou de Benitatxell" p3="el Poble Nou de Benitatxell" />
+  <macro n="toponims_article"><with-param v="NN. UU."/><with-param v="Nacions Unides"/><with-param v="les Nacions Unides"/></macro>
+  <macro n="toponims_article"><with-param v="Afganistán"/><with-param v="Afganistan"/><with-param v="l'Afganistan"/></macro>
+  <macro n="toponims_article"><with-param v="Argentina"/><with-param v="Argentina"/><with-param v="l'Argentina"/></macro>
+  <macro n="toponims_article"><with-param v="Arabia Saudí"/><with-param v="Aràbia Saudita"/><with-param v="l'Aràbia Saudita"/></macro>
+  <macro n="toponims_article"><with-param v="Azerbaiyán"/><with-param v="Azerbaidjan"/><with-param v="l'Azerbaidjan"/></macro>
+  <macro n="toponims_article"><with-param v="Brasil"/><with-param v="Brasil"/><with-param v="el Brasil"/></macro>
+  <macro n="toponims_article"><with-param v="Canadá"/><with-param v="Canadà"/><with-param v="el Canadà"/></macro>
+  <macro n="toponims_article"><with-param v="Reino Unido"/><with-param v="Regne Unit"/><with-param v="el Regne Unit"/></macro>
+  <macro n="toponims_article"><with-param v="China"/><with-param v="Xina"/><with-param v="la Xina"/></macro>
+  <macro n="toponims_article"><with-param v="Ecuador"/><with-param v="Equador"/><with-param v="l'Equador"/></macro>
+  <macro n="toponims_article"><with-param v="EE. UU."/><with-param v="EUA"/><with-param v="els EUA"/></macro>
+  <macro n="toponims_article"><with-param v="Estados Unidos"/><with-param v="Estats Units"/><with-param v="els Estats Units"/></macro>
+  <macro n="toponims_article"><with-param v="Irak"/><with-param v="Iraq"/><with-param v="l'Iraq"/></macro>
+  <macro n="toponims_article"><with-param v="Irán"/><with-param v="Iran"/><with-param v="l'Iran"/></macro>
+  <macro n="toponims_article"><with-param v="India"/><with-param v="Índia"/><with-param v="l'Índia"/></macro>
+  <macro n="toponims_article"><with-param v="Japón"/><with-param v="Japó"/><with-param v="el Japó"/></macro>
+  <macro n="toponims_article"><with-param v="Kazajistán"/><with-param v="Kazakhstan"/><with-param v="el Kazakhstan"/></macro>
+  <macro n="toponims_article"><with-param v="Marruecos"/><with-param v="Marroc"/><with-param v="el Marroc"/></macro>
+  <macro n="toponims_article"><with-param v="Pakistán"/><with-param v="Pakistan"/><with-param v="el Pakistan"/></macro>
+  <macro n="toponims_article"><with-param v="Perú"/><with-param v="Perú"/><with-param v="el Perú"/></macro>
+  <macro n="toponims_article"><with-param v="Senegal"/><with-param v="Senegal"/><with-param v="el Senegal"/></macro>
+  <macro n="toponims_article"><with-param v="Uruguay"/><with-param v="Uruguai"/><with-param v="l'Uruguai"/></macro>
+  <macro n="toponims_article"><with-param v="Vendrell"/><with-param v="Vendrell"/><with-param v="el Vendrell"/></macro>
+  <macro n="toponims_article"><with-param v="Alcudia de Veo"/><with-param v="Alcúdia de Veo"/><with-param v="l'Alcúdia de Veo"/></macro>
+  <macro n="toponims_article"><with-param v="Algueña"/><with-param v="Alguenya"/><with-param v="l'Alguenya"/></macro>
+  <macro n="toponims_article"><with-param v="Cañada"/><with-param v="Canyada"/><with-param v="la Canyada"/></macro>
+  <macro n="toponims_article"><with-param v="Castillo de Villamalefa"/><with-param v="Castell de Vilamalefa"/><with-param v="el Castell de Vilamalefa"/></macro>
+  <macro n="toponims_article"><with-param v="Fuente la Reina"/><with-param v="Font de la Reina"/><with-param v="la Font de la Reina"/></macro>
+  <macro n="toponims_article"><with-param v="Granja de Rocamora"/><with-param v="Granja de Rocamora"/><with-param v="la Granja de Rocamora"/></macro>
+  <macro n="toponims_article"><with-param v="Losa del Obispo"/><with-param v="Llosa del Bisbe"/><with-param v="la Llosa del Bisbe"/></macro>
+  <macro n="toponims_article"><with-param v="Puebla de Arenoso"/><with-param v="Pobla d'Arenós"/><with-param v="la Pobla d'Arenós"/></macro>
+  <macro n="toponims_article"><with-param v="Puebla de San Miguel"/><with-param v="Pobla de Sant Miquel"/><with-param v="la Pobla de Sant Miquel"/></macro>
+  <macro n="toponims_article"><with-param v="Sierra Engarcerán"/><with-param v="Serra d'en Galceran"/><with-param v="la Serra d'en Galceran"/></macro>
+  <macro n="toponims_article"><with-param v="Todolella"/><with-param v="Todolella"/><with-param v="la Todolella"/></macro>
+  <macro n="toponims_article"><with-param v="Vall d'Alba"/><with-param v="Vall d'Alba"/><with-param v="la Vall d'Alba"/></macro>
+  <macro n="toponims_article"><with-param v="Vall de Almonacid"/><with-param v="Vall d'Almonesir"/><with-param v="la Vall d'Almonesir"/></macro>
+  <macro n="toponims_article"><with-param v="Vall de Gallinera"/><with-param v="Vall de Gallinera"/><with-param v="la Vall de Gallinera"/></macro>
+  <macro n="toponims_article"><with-param v="Fuentes de Ayódar"/><with-param v="Fonts d'Aiòder"/><with-param v="les Fonts d'Aiòder"/></macro>
+  <macro n="toponims_article"><with-param v="Hondón de los Frailes"/><with-param v="Fondó dels Frares"/><with-param v="el Fondó dels Frares"/></macro>
+  <macro n="toponims_article"><with-param v="Hondón de las Nieves"/><with-param v="Fondó de les Neus"/><with-param v="el Fondó de les Neus"/></macro>
+  <macro n="toponims_article"><with-param v="Forcall"/><with-param v="Forcall"/><with-param v="el Forcall"/></macro>
+  <macro n="toponims_article"><with-param v="Pilar de la Horadada"/><with-param v="Pilar de la Foradada"/><with-param v="el Pilar de la Foradada"/></macro>
+  <macro n="toponims_article"><with-param v="Ráfol de Salem"/><with-param v="Ràfol de Salem"/><with-param v="el Ràfol de Salem"/></macro>
+  <macro n="toponims_article"><with-param v="Campo de Mirra"/><with-param v="Camp de Mirra"/><with-param v="el Camp de Mirra"/></macro>
+  <macro n="toponims_article"><with-param v="Ráfol de Almunia"/><with-param v="Ràfol d'Almúnia"/><with-param v="el Ràfol d'Almúnia"/></macro>
+  <macro n="toponims_article"><with-param v="Vall de Laguart"/><with-param v="Vall de Laguar"/><with-param v="la Vall de Laguar"/></macro>
+  <macro n="toponims_article"><with-param v="Benitachell"/><with-param v="Poble Nou de Benitatxell"/><with-param v="el Poble Nou de Benitatxell"/></macro>
 
   <!-- noms propis -->
 
-  <macro name="noms_propis" p1="Cristóbal" p2="Cristòfor" />
-  <macro name="noms_propis" p1="Octavio" p2="Octavi" />
-  <macro name="noms_propis" p1="Salomón" p2="Salomó" />
-  <macro name="noms_propis" p1="Fausto" p2="Faust" />
-  <macro name="noms_propis" p1="Tomás" p2="Tomàs" />
-  <macro name="noms_propis" p1="José" p2="Josep" />
-  <macro name="noms_propis" p1="Agustín" p2="Agustí" />  
-  <macro name="noms_propis" p1="Lucrecia" p2="Lucrècia" />
-  <macro name="noms_propis" p1="Alberto Carlos" p2="Albert Carles" />
-  <macro name="noms_propis" p1="Francisco José" p2="Francesc Josep" />
-  <macro name="noms_propis" p1="Juan Carlos" p2="Joan Carles" />
-  <macro name="noms_propis" p1="Carlos" p2="Carles" />
-  <macro name="noms_propis" p1="Felipe" p2="Felip" />
-  <macro name="noms_propis" p1="Luis" p2="Lluís" />
-  <macro name="noms_propis" p1="Guillermo" p2="Guillem" />
-  <macro name="noms_propis" p1="Enrique" p2="Enric" />
-  <macro name="noms_propis" p1="Pedro" p2="Pere" />
-  <macro name="noms_propis" p1="Jaime" p2="Jaume" />
-  <macro name="noms_propis" p1="Valentín" p2="Valentí" />
-  <macro name="noms_propis" p1="Fernando" p2="Ferran" />
-  <macro name="noms_propis" p1="Alfonso" p2="Alfons" />
-  <macro name="noms_propis" p1="Juan" p2="Joan" />
-  <macro name="noms_propis" p1="Juana" p2="Joana" />
-  <macro name="noms_propis" p1="Pablo" p2="Pau" />
-  <macro name="noms_propis" p1="Benedicto" p2="Benet" />
-  <macro name="noms_propis" p1="Francisco" p2="Francesc" />
-  <macro name="noms_propis" p1="Ricardo" p2="Ricard" />
-  <macro name="noms_propis" p1="Martín" p2="Martí" />
-  <macro name="noms_propis" p1="Ramiro" p2="Ramir" />
-  <macro name="noms_propis" p1="Alejandro" p2="Alexandre" />
-  <macro name="noms_propis" p1="Urbano" p2="Urbà" />
-  <macro name="noms_propis" p1="Gregorio" p2="Gregori" />
-  <macro name="noms_propis" p1="Clemente" p2="Climent" />
-  <macro name="noms_propis" p1="Bonifacio" p2="Bonifaci" />
-  <macro name="noms_propis" p1="Inocencio" p2="Innocenci" />
-  <macro name="noms_propis" p1="Sixto" p2="Sixt" />
-  <macro name="noms_propis" p1="Victoria" p2="Victòria" />
-  <macro name="noms_propis" p1="Ignacio" p2="Ignasi" />
-  <macro name="noms_propis" p1="Buenaventura" p2="Bonaventura" />
-  <macro name="noms_propis" p1="Calixto" p2="Calixt" />
-  <macro name="noms_propis" p1="Pascual" p2="Pasqual" />
-  <macro name="noms_propis" p1="Amadeo" p2="Amadeu" />
-  <macro name="noms_propis" p1="Antonio" p2="Antoni" />
-  <macro name="noms_propis" p1="Joaquín" p2="Joaquim" />
-  <macro name="noms_propis" p1="Constantino" p2="Constantí" />
-  <macro name="noms_propis" p1="Pío" p2="Pius" />
+  <macro n="noms_propis"><with-param v="Cristóbal"/><with-param v="Cristòfor"/></macro>
+  <macro n="noms_propis"><with-param v="Octavio"/><with-param v="Octavi"/></macro>
+  <macro n="noms_propis"><with-param v="Salomón"/><with-param v="Salomó"/></macro>
+  <macro n="noms_propis"><with-param v="Fausto"/><with-param v="Faust"/></macro>
+  <macro n="noms_propis"><with-param v="Tomás"/><with-param v="Tomàs"/></macro>
+  <macro n="noms_propis"><with-param v="José"/><with-param v="Josep"/></macro>
+  <macro n="noms_propis"><with-param v="Agustín"/><with-param v="Agustí"/></macro>  
+  <macro n="noms_propis"><with-param v="Lucrecia"/><with-param v="Lucrècia"/></macro>
+  <macro n="noms_propis"><with-param v="Alberto Carlos"/><with-param v="Albert Carles"/></macro>
+  <macro n="noms_propis"><with-param v="Francisco José"/><with-param v="Francesc Josep"/></macro>
+  <macro n="noms_propis"><with-param v="Juan Carlos"/><with-param v="Joan Carles"/></macro>
+  <macro n="noms_propis"><with-param v="Carlos"/><with-param v="Carles"/></macro>
+  <macro n="noms_propis"><with-param v="Felipe"/><with-param v="Felip"/></macro>
+  <macro n="noms_propis"><with-param v="Luis"/><with-param v="Lluís"/></macro>
+  <macro n="noms_propis"><with-param v="Guillermo"/><with-param v="Guillem"/></macro>
+  <macro n="noms_propis"><with-param v="Enrique"/><with-param v="Enric"/></macro>
+  <macro n="noms_propis"><with-param v="Pedro"/><with-param v="Pere"/></macro>
+  <macro n="noms_propis"><with-param v="Jaime"/><with-param v="Jaume"/></macro>
+  <macro n="noms_propis"><with-param v="Valentín"/><with-param v="Valentí"/></macro>
+  <macro n="noms_propis"><with-param v="Fernando"/><with-param v="Ferran"/></macro>
+  <macro n="noms_propis"><with-param v="Alfonso"/><with-param v="Alfons"/></macro>
+  <macro n="noms_propis"><with-param v="Juan"/><with-param v="Joan"/></macro>
+  <macro n="noms_propis"><with-param v="Juana"/><with-param v="Joana"/></macro>
+  <macro n="noms_propis"><with-param v="Pablo"/><with-param v="Pau"/></macro>
+  <macro n="noms_propis"><with-param v="Benedicto"/><with-param v="Benet"/></macro>
+  <macro n="noms_propis"><with-param v="Francisco"/><with-param v="Francesc"/></macro>
+  <macro n="noms_propis"><with-param v="Ricardo"/><with-param v="Ricard"/></macro>
+  <macro n="noms_propis"><with-param v="Martín"/><with-param v="Martí"/></macro>
+  <macro n="noms_propis"><with-param v="Ramiro"/><with-param v="Ramir"/></macro>
+  <macro n="noms_propis"><with-param v="Alejandro"/><with-param v="Alexandre"/></macro>
+  <macro n="noms_propis"><with-param v="Urbano"/><with-param v="Urbà"/></macro>
+  <macro n="noms_propis"><with-param v="Gregorio"/><with-param v="Gregori"/></macro>
+  <macro n="noms_propis"><with-param v="Clemente"/><with-param v="Climent"/></macro>
+  <macro n="noms_propis"><with-param v="Bonifacio"/><with-param v="Bonifaci"/></macro>
+  <macro n="noms_propis"><with-param v="Inocencio"/><with-param v="Innocenci"/></macro>
+  <macro n="noms_propis"><with-param v="Sixto"/><with-param v="Sixt"/></macro>
+  <macro n="noms_propis"><with-param v="Victoria"/><with-param v="Victòria"/></macro>
+  <macro n="noms_propis"><with-param v="Ignacio"/><with-param v="Ignasi"/></macro>
+  <macro n="noms_propis"><with-param v="Buenaventura"/><with-param v="Bonaventura"/></macro>
+  <macro n="noms_propis"><with-param v="Calixto"/><with-param v="Calixt"/></macro>
+  <macro n="noms_propis"><with-param v="Pascual"/><with-param v="Pasqual"/></macro>
+  <macro n="noms_propis"><with-param v="Amadeo"/><with-param v="Amadeu"/></macro>
+  <macro n="noms_propis"><with-param v="Antonio"/><with-param v="Antoni"/></macro>
+  <macro n="noms_propis"><with-param v="Joaquín"/><with-param v="Joaquim"/></macro>
+  <macro n="noms_propis"><with-param v="Constantino"/><with-param v="Constantí"/></macro>
+  <macro n="noms_propis"><with-param v="Pío"/><with-param v="Pius"/></macro>
 
-  <macro name="noms_propis" p1="Vilfredo" p2="Guifré" />
-  <macro name="noms_propis" p1="Ramón" p2="Ramon" />
-  <macro name="noms_propis" p1="Armengol" p2="Ermengol" />
-  <macro name="noms_propis" p1="Juan Manuel" p2="Joan Manuel" />
-  <macro name="noms_propis" p1="Juan Carlos" p2="Joan Carles" />
-  <macro name="noms_propis" p1="Juan Pablo" p2="Joan Pau" />
-  <macro name="noms_propis" p1="Francisco Javier" p2="Francesc Xavier" />
-  <macro name="noms_propis" p1="Humberto" p2="Humbert" />
-  <macro name="noms_propis" p1="Nicolás" p2="Nicolau" />
-  <macro name="noms_propis" p1="Maximiliano" p2="Maximiliá" />
-  <macro name="noms_propis" p1="Catalina" p2="Caterina" />
-  <macro name="noms_propis" p1="Bernardo" p2="Bernat" />
-  <macro name="noms_propis" p1="Federico" p2="Frederic" />
-  <macro name="noms_propis" p1="Lucia" p2="Llúcía" />
-  <macro name="noms_propis" p1="José" p2="Josep" />
-  <macro name="noms_propis" p1="Julio" p2="Juli" />
-  <macro name="noms_propis" p1="Marcos" p2="Marc" />
-  <macro name="noms_propis" p1="Lucas" p2="Lluc" />
-  <macro name="noms_propis" p1="Humberto" p2="Humbert" />
+  <macro n="noms_propis"><with-param v="Vilfredo"/><with-param v="Guifré"/></macro>
+  <macro n="noms_propis"><with-param v="Ramón"/><with-param v="Ramon"/></macro>
+  <macro n="noms_propis"><with-param v="Armengol"/><with-param v="Ermengol"/></macro>
+  <macro n="noms_propis"><with-param v="Juan Manuel"/><with-param v="Joan Manuel"/></macro>
+  <macro n="noms_propis"><with-param v="Juan Carlos"/><with-param v="Joan Carles"/></macro>
+  <macro n="noms_propis"><with-param v="Juan Pablo"/><with-param v="Joan Pau"/></macro>
+  <macro n="noms_propis"><with-param v="Francisco Javier"/><with-param v="Francesc Xavier"/></macro>
+  <macro n="noms_propis"><with-param v="Humberto"/><with-param v="Humbert"/></macro>
+  <macro n="noms_propis"><with-param v="Nicolás"/><with-param v="Nicolau"/></macro>
+  <macro n="noms_propis"><with-param v="Maximiliano"/><with-param v="Maximiliá"/></macro>
+  <macro n="noms_propis"><with-param v="Catalina"/><with-param v="Caterina"/></macro>
+  <macro n="noms_propis"><with-param v="Bernardo"/><with-param v="Bernat"/></macro>
+  <macro n="noms_propis"><with-param v="Federico"/><with-param v="Frederic"/></macro>
+  <macro n="noms_propis"><with-param v="Lucia"/><with-param v="Llúcía"/></macro>
+  <macro n="noms_propis"><with-param v="José"/><with-param v="Josep"/></macro>
+  <macro n="noms_propis"><with-param v="Julio"/><with-param v="Juli"/></macro>
+  <macro n="noms_propis"><with-param v="Marcos"/><with-param v="Marc"/></macro>
+  <macro n="noms_propis"><with-param v="Lucas"/><with-param v="Lluc"/></macro>
+  <macro n="noms_propis"><with-param v="Humberto"/><with-param v="Humbert"/></macro>
 
 </rules>
-</metalrx>
+</lrx>
