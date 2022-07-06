@@ -261,7 +261,7 @@ echo '</preferences>' >>$@.tmp
 mv $@.tmp $@
 endef
 
-prefs/$(PREFIX1).xml: $(LANG2).preferences.xml $(PREFIX1).preferences.xml
+prefs/$(PREFIX1).xml: prefs/$(LANG2).preferences.xml $(PREFIX1).preferences.xml
 		$(mergePrefs)
 
 
