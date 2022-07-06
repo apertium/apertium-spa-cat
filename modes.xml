@@ -17,8 +17,8 @@
       <program name="lt-proc -b">
         <file name="spa-cat.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="toponims">
-        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      <program name="cg-proc" debug-suff="biprefs">
+        <file name="spa-cat.biprefs.rlx.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
@@ -59,8 +59,8 @@
       <program name="lt-proc -b">
         <file name="spa-cat.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="toponims">
-        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      <program name="cg-proc" debug-suff="biprefs">
+        <file name="spa-cat.biprefs.rlx.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
@@ -103,8 +103,8 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_gva.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="toponims">
-        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      <program name="cg-proc" debug-suff="biprefs">
+        <file name="spa-cat.biprefs.rlx.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
@@ -147,8 +147,11 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_gva.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="toponims">
-        <file name="spa-cat.autolex-toponims-oficials.bin"/>
+      <program name="cg-proc" debug-suff="top-gva_biprefs">
+        <file name="spa-cat.top-gva_biprefs.rlx.bin"/>
+      </program>
+      <program name="cg-proc" debug-suff="biprefs">
+        <file name="spa-cat.biprefs.rlx.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
@@ -191,8 +194,8 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_gva.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="toponims">
-        <file name="spa-cat.autolex-toponims-oficials.bin"/>
+      <program name="cg-proc" debug-suff="biprefs">
+        <file name="spa-cat.biprefs.rlx.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
@@ -238,8 +241,8 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_uni.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="toponims">
-        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      <program name="cg-proc" debug-suff="biprefs">
+        <file name="spa-cat.biprefs.rlx.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
@@ -282,8 +285,8 @@
       <program name="lt-proc -b">
         <file name="spa-cat_valencia_uni.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m" debug-suff="toponims">
-        <file name="spa-cat.autolex-toponims-trad.bin"/>
+      <program name="cg-proc" debug-suff="biprefs">
+        <file name="spa-cat.biprefs.rlx.bin"/>
       </program>
       <program name="lrx-proc -m" debug-suff="lex">
         <file name="spa-cat.autolex.bin"/>
