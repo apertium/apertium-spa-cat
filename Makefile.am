@@ -36,8 +36,8 @@ TARGETS_COMMON =			\
 	$(PREFIX1V).autobil.bin 	\
 	$(PREFIX1U).autobil.bin 	\
 	$(PREFIX1).autolex.bin  \
-	$(PREFIX1).autolex-toponims-trad.bin  \
-	$(PREFIX1).autolex-toponims-oficials.bin  \
+	$(PREFIX1).biprefs.rlx.bin  \
+	$(PREFIX1).top-gva_biprefs.rlx.bin  \
 	$(PREFIX1C).autogen.bin 	\
 	$(PREFIX1V).autogen.bin 	\
 	$(PREFIX1U).autogen.bin 	\
@@ -124,6 +124,12 @@ $(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
 ## Variant preferences
 ###############################################################################
 
+$(PREFIX1).top-gva_biprefs.rlx.bin: $(BASENAME).$(PREFIX1).top-gva_biprefs.rlx
+	cg-comp $< $@
+
+$(PREFIX1).biprefs.rlx.bin: $(BASENAME).$(PREFIX1).biprefs.rlx
+	cg-comp $< $@
+
 $(PREFIX1).pre2017_prefs.rlx.bin: $(AP_SRC2)/$(LANG2).pre2017_prefs.rlx.bin
 	cp $< $@
 
@@ -201,14 +207,6 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 	apertium-validate-lrx $<
 	lrx-comp $< $@
 
-$(PREFIX1).autolex-toponims-oficials.bin: $(BASENAME).$(PREFIX1).toponims-oficials.lrx
-	apertium-validate-lrx $<
-	lrx-comp $< $@
-
-$(PREFIX1).autolex-toponims-trad.bin: $(BASENAME).$(PREFIX1).toponims-trad.lrx
-	apertium-validate-lrx $<
-	lrx-comp $< $@
-
 ###############################################################################
 ## Structural transfer rules
 ###############################################################################
@@ -263,9 +261,7 @@ echo '</preferences>' >>$@.tmp
 mv $@.tmp $@
 endef
 
-# uncomment when we have bilingual preferences
-# prefs/$(PREFIX1).xml: $(LANG2).preferences.xml $(PREFIX1).preferences.xml
-prefs/$(PREFIX1).xml: prefs/$(LANG2).preferences.xml 
+prefs/$(PREFIX1).xml: $(LANG2).preferences.xml $(PREFIX1).preferences.xml
 		$(mergePrefs)
 
 
@@ -274,10 +270,8 @@ prefs/$(PREFIX1).xml: prefs/$(LANG2).preferences.xml
 ###############################################################################
 
 EXTRA_DIST=									\
-		$(BASENAME).$(PREFIX1).lrx	\
-		$(BASENAME).$(PREFIX1).toponims-oficials.lrx	\
-		$(BASENAME).$(PREFIX1).toponims-trad.lrx	\
-		$(BASENAME).$(PREFIX2).lrx	\
+		.deps/$(BASENAME).$(PREFIX1).lrx	\
+		.deps/$(BASENAME).$(PREFIX2).lrx	\
 		$(BASENAME).$(PREFIX1).metadix 			\
 		$(BASENAME).$(PREFIX1).metadix 			\
 		$(PREFIX1C).t1x 	\
