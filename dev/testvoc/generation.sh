@@ -148,7 +148,7 @@ analysis_expansion_hfst () {
 
 only_errs () {
     # turn escaped SOLIDUS into DIVISION SLASH, so we don't grep correct stuff ("A/S" is a possible lemma)
-    sed 's%\\/%∕%g'
+    sed 's%\\/%∕%g' |
     if [[ $PRINT_ALL = true ]]; then
         cat
     else
@@ -256,6 +256,7 @@ mode_after_bidix=$(mktemp -t gentestvoc.XXXXXXXXXXX)
 TMPFILES+=("${mode_after_bidix}")
 grep '|' $pairdir/modes/"${mode}"-dgen.mode \
     | sed "s%.*autobil.bin'* *|% ${split_ambig} |%" \
+    | sed -E "s%lt-proc([^b]*)'%lt-proc\1-b '%" \
     > "${mode_after_bidix}"
 
 lang1=${mode%%-*}
