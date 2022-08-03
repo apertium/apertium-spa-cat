@@ -108,9 +108,9 @@ for i in {1..3}; do
 done
 
 analysis_expansion () {
-    # Sed is used to ignore escaped colon (lemmas may contain it and interfere with the output from lt-expand)
+    # sed workaround to ignore escaped colon (lemmas may contain it and interfere with the output from lt-expand)
     lt-expand "$1" \
-        | sed '/\\:/b;/:[<>]:/b;s/:/:-:/g' \
+        | sed '/:[<>]:/b;s/\\:/§§§/g;s/:/:-:/g;s/§§§/\\:/g' \
         | awk -v clb="$2" -F':[<>\\-]:' '
           /:<:/ {next}
           $2 ~ /<compound-(R|only-L)>|DUE_TO_LT_PROC_HANG|__REGEXP__/ {next}
@@ -201,9 +201,11 @@ TMPFILES+=("${split_ambig}")
 cat >"${split_ambig}" <<EOF
 #!/usr/bin/env ${python}
 import sys
+import re
 from streamparser import parse, reading_to_string, known
 from itertools import product
 for line in sys.stdin:
+    line = re.sub("(?<!\\|>)\+", "\\+", line)
     units = list(parse(line, with_text=True))
     exp = []
     for unit in units:
@@ -222,20 +224,24 @@ split_gen=$(mktemp -t gentestvoc.XXXXXXXXXXX)
 TMPFILES+=("${split_gen}")
 cat >"${split_gen}" <<EOF
 #!/usr/bin/env ${python}
-from streamparser import parse_file, reading_to_string, known
+from streamparser import parse, reading_to_string, known
 import sys
-for blank, lu in parse_file(sys.stdin, with_text=True):
-    readings = {}
-    if lu.knownness == known:
-        for r in lu.readings:
-            tags = "_".join(sorted(r[0].tags))
-            if tags not in readings:
-                readings[tags] = r[0].baseform
-            else:
-                readings[tags] += "/"+r[0].baseform
-        print(blank+" ".join(readings.values()), end="")
-    else:
-        print(blank+reading_to_string(lu.readings[0]), end="")
+import re
+for line in sys.stdin:
+    line = re.sub("(?<!\\|>)\+", "\\+", line)
+    for blank, lu in parse(line, with_text=True):
+        readings = {}
+        if lu.knownness == known:
+            for r in lu.readings:
+                tags = "_".join(sorted(r[0].tags))
+                if tags not in readings:
+                    readings[tags] = r[0].baseform
+                else:
+                    readings[tags] += "/"+r[0].baseform
+            print(blank+" ".join(readings.values()), end="")
+        else:
+            print(blank+reading_to_string(lu.readings[0]), end="")
+    print("")
 EOF
 chmod +x "${split_gen}"
 
