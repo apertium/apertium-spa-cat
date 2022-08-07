@@ -98,13 +98,13 @@ else
     show_help
 fi
 
-pairdir=$(pwd)
+SRCDIR=$(pwd)
 for i in {1..3}; do
-    if [[ -e $pairdir/modes.xml ]]; then
+    if [[ -e $SRCDIR/modes.xml ]]; then
         break
     fi
     cd '..'
-    pairdir=$(pwd)
+    SRCDIR=$(pwd)
 done
 
 analysis_expansion () {
@@ -247,20 +247,20 @@ chmod +x "${split_gen}"
 
 mode_after_analysis=$(mktemp -t gentestvoc.XXXXXXXXXXX)
 TMPFILES+=("${mode_after_analysis}")
-grep '|' $pairdir/modes/"${mode}"-biltrans.mode \
+grep '|' $SRCDIR/modes/"${mode}"-biltrans.mode \
     | sed 's/[^|]*|//' \
     > "${mode_after_analysis}"
 
 mode_after_tagger=$(mktemp -t gentestvoc.XXXXXXXXXXX)
 TMPFILES+=("${mode_after_tagger}")
-grep '|' $pairdir/modes/"${mode}"-biltrans.mode \
+grep '|' $SRCDIR/modes/"${mode}"-biltrans.mode \
     | sed 's/[^|]*|//' \
     | sed 's/.*apertium-pretransfer/apertium-pretransfer/' \
     > "${mode_after_tagger}"
 
 mode_after_bidix=$(mktemp -t gentestvoc.XXXXXXXXXXX)
 TMPFILES+=("${mode_after_bidix}")
-grep '|' $pairdir/modes/"${mode}"-dgen.mode \
+grep '|' $SRCDIR/modes/"${mode}"-dgen.mode \
     | sed "s%.*autobil.bin'* *|% ${split_ambig} |%" \
     | sed -E "s%lt-proc([^b]*)'%lt-proc\1-b '%" \
     > "${mode_after_bidix}"
@@ -274,7 +274,7 @@ esac
 
 if $HFST; then
     if [[ ${dix} = guess ]]; then
-        dix=$(xmllint --xpath "string(/modes/mode[@name = '${mode}']/pipeline/program[1]/file[1]/@name)" $pairdir/modes.xml)
+        dix=$(xmllint --xpath "string(/modes/mode[@name = '${mode}']/pipeline/program[1]/file[1]/@name)" $SRCDIR/modes.xml)
     fi
     analysis_expansion_hfst "${dix}" "${clb}" \
         | exclude_analysis \
@@ -284,7 +284,7 @@ if $HFST; then
         | only_errs
 else
     if [[ ${dix} = guess ]]; then
-        lang1dir=$(grep -m1 "^AP_SRC.*apertium-${lang1}" $pairdir/config.log | sed "s/^[^=]*='//;s/'$//")
+        lang1dir=$(grep -m1 "^AP_SRC.*apertium-${lang1}" $SRCDIR/config.log | sed "s/^[^=]*='//;s/'$//")
         dix=${lang1dir}/apertium-${lang1}.${lang1}.dix
         if ! [[ -e $dix ]]; then
             dix=${lang1dir}/.deps/apertium-${lang1}.${lang1}.dix
