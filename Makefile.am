@@ -270,8 +270,8 @@ prefs/$(PREFIX1).xml: prefs/$(LANG2).preferences.xml $(PREFIX1).preferences.xml
 ###############################################################################
 
 EXTRA_DIST=									\
-		.deps/$(BASENAME).$(PREFIX1).lrx	\
-		.deps/$(BASENAME).$(PREFIX2).lrx	\
+		$(BASENAME).$(PREFIX1).lrx	\
+		$(BASENAME).$(PREFIX2).lrx	\
 		$(BASENAME).$(PREFIX1).metadix 			\
 		$(BASENAME).$(PREFIX1).metadix 			\
 		$(PREFIX1C).t1x 	\
