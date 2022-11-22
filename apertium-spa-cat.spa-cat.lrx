@@ -4402,7 +4402,27 @@
     </or>
   </rule>
 
+<!-- derribar -->
 
+  <rule weight="0.5">
+    <match lemma="derribar" tags="vblex.*"><select lemma="derrocar"/></match>  
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="derribar" tags="vblex.*"><select lemma="abatre"/></match>
+    <repeat from="0" upto="5">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="avión" tags="n.*"/>
+      <match lemma="cohete" tags="n.*"/>
+      <match lemma="misil" tags="n.*"/>
+      <match lemma="dron" tags="n.*"/>
+      <match lemma="pájaro" tags="n.*"/>
+    </or>
+  </rule>
+
+    
 <!-- pequeño -->
 
   <rule weight="0.5">
