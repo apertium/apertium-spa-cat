@@ -7,5 +7,5 @@
 
 DELIMITERS = ".";
 
-IFF (v:top_gva)      IF (0 (VAR:top_gva)) ;
+IFF (v:top_gva) (0 (VAR:top_gva)) ;
 SUBSTITUTE (v:top_gva) (*) TARGET (v:top_gva) ;
