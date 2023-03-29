@@ -10510,6 +10510,27 @@
     </or>
   </rule>
 
+  <rule weight="1">
+    <or>
+      <match lemma="carta" tags="n.*"/>
+      <match lemma="barajar" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="mazo" tags="n.*"><select lemma="pila"/></match>
+  </rule>
+  <rule weight="1">
+    <match lemma="mazo" tags="n.*"><select lemma="pila"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="carta" tags="n.*"/>
+      <match lemma="barajar" tags="vblex.*"/>
+    </or>
+  </rule>
+
 
   <!-- topònims amb article --> 
 
