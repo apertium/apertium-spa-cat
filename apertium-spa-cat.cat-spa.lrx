@@ -2208,27 +2208,6 @@
     <match lemma="vespre" tags="n.m.*"><select lemma="anochecer"/></match>
   </rule>
 
-  <rule weight="1">
-    <or>
-      <match lemma="carta" tags="n.*"/>
-      <match lemma="barrejar" tags="vblex.*"/>
-    </or>
-    <repeat from="0" upto="6">
-      <match tags="*"/>
-    </repeat>
-    <match lemma="pila" tags="n.*"><select lemma="mazo"/></match>
-  </rule>
-  <rule weight="1">
-    <match lemma="pila" tags="n.*"><select lemma="mazo"/></match>
-    <repeat from="0" upto="6">
-      <match tags="*"/>
-    </repeat>
-    <or>
-      <match lemma="carta" tags="n.*"/>
-      <match lemma="barrejar" tags="vblex.*"/>
-    </or>
-  </rule>
-
 <!-- **************** NP **************** -->
 
 <!-- Virgili > Virgili, Virgilio -->
