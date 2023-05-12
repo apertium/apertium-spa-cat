@@ -7204,6 +7204,21 @@
       <match lemma="tratar"/>
     </or>
   </rule>
+  
+   <!-- ETS > MTS / ETS -->
+
+  <rule weight="0.6">
+    <match lemma="ETS" tags="n.*"><select lemma="MTS"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="ETS" tags="n.*"><select lemma="ETS"/></match>
+    <repeat from="0" upto="1">
+        <match lemma="de"/>
+      </repeat>
+    <match tags="n.*"/>
+  </rule>
+
 
    <!-- en tanto que > en tant que / com a -->
 
