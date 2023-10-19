@@ -101,7 +101,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="spa-cat_valencia_gva.autobil.bin"/>
+        <file name="spa-cat_valencia.autobil.bin"/>
       </program>
       <program name="cg-proc" debug-suff="biprefs">
         <file name="spa-cat.biprefs.rlx.bin"/>
@@ -113,12 +113,12 @@
         <file name="apertium-spa-cat.spa-cat.arx"/>
       </program>
       <program name="apertium-transfer -b" debug-suff="transfer">
-        <file name="spa-cat_valencia_gva.t1x"/>
-        <file name="spa-cat_valencia_gva.t1x.bin"/>
+        <file name="spa-cat_valencia.t1x"/>
+        <file name="spa-cat_valencia.t1x.bin"/>
       </program>
       <program name="apertium-posttransfer"/>
       <program name="lt-proc $1 -b">
-        <file name="spa-cat_valencia_gva.autogen.bin"/>
+        <file name="spa-cat_valencia.autogen.bin"/>
       </program>
       <program name="cg-proc" debug-suff="valencia_prefs">
         <file name="spa-cat_valencia.prefs.rlx.bin"/>
