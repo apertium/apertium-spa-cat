@@ -120,14 +120,14 @@
       <program name="lt-proc $1 -b">
         <file name="spa-cat_valencia_gva.autogen.bin"/>
       </program>
-      <program name="cg-proc" debug-suff="valencia_gva_prefs">
-        <file name="spa-cat_valencia_gva.prefs.rlx.bin"/>
+      <program name="cg-proc" debug-suff="valencia_prefs">
+        <file name="spa-cat_valencia.prefs.rlx.bin"/>
       </program>
       <program name="cg-proc -n -g" debug-suff="prefs">
         <file name="spa-cat.prefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="spa-cat_valencia_gva.autopgen.bin"/>
+        <file name="spa-cat_valencia.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>

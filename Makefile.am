@@ -6,21 +6,25 @@ LANG1=spa
 LANG2=cat
 
 VAR1=#leave empty
-VAR2=_valencia_gva
-VAR3=_valencia_uni
+VAR2=_valencia
+VAR3=_valencia_gva
+VAR4=_valencia_uni
 
 LANG2C=$(LANG2)$(VAR1)
 LANG2V=$(LANG2)$(VAR2)
-LANG2U=$(LANG2)$(VAR3)
+LANG2G=$(LANG2)$(VAR3)
+LANG2U=$(LANG2)$(VAR4)
 
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX1C=$(LANG1)-$(LANG2C)
 PREFIX1V=$(LANG1)-$(LANG2V)
+PREFIX1G=$(LANG1)-$(LANG2G)
 PREFIX1U=$(LANG1)-$(LANG2U)
 
 PREFIX2=$(LANG2)-$(LANG1)
 PREFIX2C=$(LANG2C)-$(LANG1)
 PREFIX2V=$(LANG2V)-$(LANG1)
+PREFIX2G=$(LANG2G)-$(LANG1)
 PREFIX2U=$(LANG2U)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
@@ -34,15 +38,18 @@ TARGETS_COMMON =			\
 	$(PREFIX1).prob		 	\
 	$(PREFIX1C).autobil.bin 	\
 	$(PREFIX1V).autobil.bin 	\
+	$(PREFIX1G).autobil.bin 	\
 	$(PREFIX1U).autobil.bin 	\
 	$(PREFIX1).autolex.bin  \
 	$(PREFIX1).biprefs.rlx.bin  \
 	$(PREFIX1).top-gva_biprefs.rlx.bin  \
 	$(PREFIX1C).autogen.bin 	\
 	$(PREFIX1V).autogen.bin 	\
+	$(PREFIX1G).autogen.bin 	\
 	$(PREFIX1U).autogen.bin 	\
 	$(PREFIX1C).autopgen.bin 	\
 	$(PREFIX1V).autopgen.bin 	\
+	$(PREFIX1G).autopgen.bin 	\
 	$(PREFIX1U).autopgen.bin 	\
 	$(PREFIX2).automorf.bin		\
 	$(PREFIX2).prob			\
@@ -52,10 +59,12 @@ TARGETS_COMMON =			\
 	$(PREFIX2).autopgen.bin 	\
 	$(PREFIX1C).t1x.bin 		\
 	$(PREFIX1V).t1x.bin 		\
+	$(PREFIX1G).t1x.bin 		\
 	$(PREFIX1U).t1x.bin 		\
 	$(PREFIX2).t1x.bin		\
 	$(PREFIX1C).prefs.rlx.bin	\
 	$(PREFIX1V).prefs.rlx.bin	\
+	$(PREFIX1G).prefs.rlx.bin	\
 	$(PREFIX1U).prefs.rlx.bin	\
 	$(PREFIX1).pre2017_prefs.rlx.bin \
 	prefs/$(PREFIX1).xml
@@ -75,10 +84,13 @@ TARGETS_COMMON =			\
 $(PREFIX1C).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1C).autobil.bin
 	lt-trim $^ $@
 
-$(PREFIX1V).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1V).autobil.bin
+$(PREFIX1V).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1G).autobil.bin
 	lt-trim $^ $@
 
-$(PREFIX1U).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1V).autobil.bin
+$(PREFIX1G).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1G).autobil.bin
+	lt-trim $^ $@
+
+$(PREFIX1U).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1G).autobil.bin
 	lt-trim $^ $@
 
 # -------------------
@@ -108,6 +120,9 @@ $(PREFIX1C).autogen.bin: $(AP_SRC2)/$(LANG2C).autogen.bin
 $(PREFIX1V).autogen.bin: $(AP_SRC2)/$(LANG2V).autogen.bin
 	cp $< $@
 
+$(PREFIX1G).autogen.bin: $(AP_SRC2)/$(LANG2G).autogen.bin
+	cp $< $@
+
 $(PREFIX1U).autogen.bin: $(AP_SRC2)/$(LANG2U).autogen.bin
 	cp $< $@
 
@@ -115,6 +130,9 @@ $(PREFIX1C).autopgen.bin: $(AP_SRC2)/$(LANG2C).autopgen.bin
 	cp $< $@
 
 $(PREFIX1V).autopgen.bin: $(AP_SRC2)/$(LANG2V).autopgen.bin
+	cp $< $@
+
+$(PREFIX1G).autopgen.bin: $(AP_SRC2)/$(LANG2G).autopgen.bin
 	cp $< $@
 
 $(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
@@ -137,6 +155,9 @@ $(PREFIX1C).prefs.rlx.bin: $(AP_SRC2)/$(LANG2C).prefs.rlx.bin
 	cp $< $@
 
 $(PREFIX1V).prefs.rlx.bin: $(AP_SRC2)/$(LANG2V).prefs.rlx.bin
+	cp $< $@
+
+$(PREFIX1G).prefs.rlx.bin: $(AP_SRC2)/$(LANG2G).prefs.rlx.bin
 	cp $< $@
 
 $(PREFIX1U).prefs.rlx.bin: $(AP_SRC2)/$(LANG2U).prefs.rlx.bin
@@ -173,6 +194,9 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 .deps/$(PREFIX1).cat.dix: .deps/$(PREFIX1).dix
 	apertium-genvrdix cat $< >$@
 
+.deps/$(PREFIX1).val.dix: .deps/$(PREFIX1).dix
+	apertium-genvrdix val_gva $< >$@
+
 .deps/$(PREFIX1).val_gva.dix: .deps/$(PREFIX1).dix
 	apertium-genvrdix val_gva $< >$@
 
@@ -184,6 +208,10 @@ $(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
 	lt-comp --var-right=cat lr $< $@
 
 $(PREFIX1V).autobil.bin: .deps/$(PREFIX1).val_gva.dix
+	apertium-validate-dictionary $<
+	lt-comp --var-right=val_gva lr $< $@
+
+$(PREFIX1G).autobil.bin: .deps/$(PREFIX1).val_gva.dix
 	apertium-validate-dictionary $<
 	lt-comp --var-right=val_gva lr $< $@
 
@@ -219,12 +247,19 @@ $(PREFIX1V).t1x.bin: $(PREFIX1V).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
+$(PREFIX1G).t1x.bin: $(PREFIX1G).t1x
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
+
 $(PREFIX1U).t1x.bin: $(PREFIX1U).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
 .deps/$(BASENAME).$(PREFIX1).cat.t1x: $(BASENAME).$(PREFIX1).t1x
 	python3 gent1x.py cat $< >$@
+
+.deps/$(BASENAME).$(PREFIX1).val.t1x: $(BASENAME).$(PREFIX1).t1x
+	python3 gent1x.py val_gva $< >$@
 
 .deps/$(BASENAME).$(PREFIX1).val_gva.t1x: $(BASENAME).$(PREFIX1).t1x
 	python3 gent1x.py val_gva $< >$@
@@ -235,7 +270,10 @@ $(PREFIX1U).t1x.bin: $(PREFIX1U).t1x
 $(PREFIX1C).t1x: .deps/$(BASENAME).$(PREFIX1).cat.t1x
 	xsltproc --stringparam alt cat alt.xsl $< >$@
 
-$(PREFIX1V).t1x: .deps/$(BASENAME).$(PREFIX1).val_gva.t1x
+$(PREFIX1V).t1x: .deps/$(BASENAME).$(PREFIX1).val.t1x
+	xsltproc --stringparam alt val_gva alt.xsl $< >$@
+
+$(PREFIX1G).t1x: .deps/$(BASENAME).$(PREFIX1).val_gva.t1x
 	xsltproc --stringparam alt val_gva alt.xsl $< >$@
 
 $(PREFIX1U).t1x: .deps/$(BASENAME).$(PREFIX1).val_uni.t1x
@@ -276,6 +314,7 @@ EXTRA_DIST=									\
 		$(BASENAME).$(PREFIX1).metadix 			\
 		$(PREFIX1C).t1x 	\
 		$(PREFIX1V).t1x 	\
+		$(PREFIX1G).t1x 	\
 		$(PREFIX1U).t1x 	\
 		$(BASENAME).$(PREFIX2).t1x 			\
 		modes.xml 							\
