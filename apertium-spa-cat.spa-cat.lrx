@@ -7464,6 +7464,20 @@
     <match lemma="hambre" tags="n.f.sg"><select lemma="gana"/></match>
   </rule>
 
+  <!-- monte > muntanya / mont  ... -->
+
+  <rule weight="0.5">
+    <match lemma="monte" tags="n.*"><select lemma="muntanya"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="monte" tags="n.*"><select lemma="mont"/></match>
+    <or>
+      <match tags="np.*"/>
+      <match tags=""/>
+    </or>
+  </rule>
+
   <!-- medida > mesura / mida -->
 
   <rule weight="0.5">
