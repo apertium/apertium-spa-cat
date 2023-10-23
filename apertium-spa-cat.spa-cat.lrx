@@ -7496,7 +7496,7 @@
 
   <rule weight="1.0">
     <match tags="num"/>
-    <match lemma="encuentro" tags="n.*"><select lemma="partit"/></match>
+    <match lemma="encuentro" tags="n.m.pl"><select lemma="partit"/></match>
   </rule>
 
   <rule weight="1.0"> 
