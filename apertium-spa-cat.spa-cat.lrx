@@ -7478,6 +7478,75 @@
     </or>
   </rule>
 
+  <!-- encuentro > trobada / encontre  ... -->
+
+  <rule weight="0.5">
+    <match lemma="encuentro" tags="n.*"><select lemma="trobada"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="salir"/>
+      <match lemma="ir"/>
+    </or>
+    <match lemma="a"/>
+    <match tags="det.*"/>
+    <match lemma="encuentro" tags="n.*"><select lemma="encontre"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match tags="num"/>
+    <match lemma="encuentro" tags="n.*"><select lemma="partit"/></match>
+  </rule>
+
+  <rule weight="1.0"> 
+    <match lemma="encuentro" tags="n.*"><select lemma="partit"/></match>
+    <repeat from="0" upto="12">
+      <or>
+        <match tags="?.+"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="árbitro"/>
+      <match lemma="gol"/>
+      <match lemma="jugador"/>
+      <match lemma="pelota"/>
+      <match lemma="delantero"/>
+      <match lemma="defensa"/>
+      <match lemma="penalti"/>
+      <match lemma="equipo"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="árbitro"/>
+      <match lemma="gol"/>
+      <match lemma="jugador"/>
+      <match lemma="pelota"/>
+      <match lemma="delantero"/>
+      <match lemma="defensa"/>
+      <match lemma="penalti"/>
+      <match lemma="equipo"/>
+    </or>
+    <repeat from="0" upto="12">
+      <or>
+        <match tags="?.+"/>
+        <match tags="preadv"/>
+        <match tags="adv"/>
+        <match tags="pr"/>
+        <match tags="cm"/>
+        <match tags="cnjcoo"/>
+      </or>
+    </repeat>
+    <match lemma="encuentro" tags="n.*"><select lemma="partit"/></match> 
+  </rule>
+
   <!-- medida > mesura / mida -->
 
   <rule weight="0.5">
