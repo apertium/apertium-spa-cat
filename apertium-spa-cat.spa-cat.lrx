@@ -7484,6 +7484,12 @@
     <match lemma="encuentro" tags="n.*"><select lemma="trobada"/></match>
   </rule>
 
+  <rule weight="2.0">
+    <match lemma="punto"/>
+    <match lemma="de"/>
+    <match lemma="encuentro" tags="n.*"><select lemma="trobada"/></match>
+  </rule>
+
   <rule weight="1.0">
     <or>
       <match lemma="salir"/>
