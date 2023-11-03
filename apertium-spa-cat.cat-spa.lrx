@@ -1427,6 +1427,78 @@
 <!-- **************** A **************** -->
 
   <rule weight="0.5">
+     <match lemma="mitjà" tags="adj.*"><select lemma="medio"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="germà" tags="n.*"/>
+       <match lemma="dit" tags="n.*"/>
+     </or>
+     <match lemma="mitjà" tags="adj.*"><select lemma="mediano"/></match>
+  </rule>
+
+<!--
+  <rule weight="0.5">
+     <match lemma="mitjà" tags="adj.*"><select lemma="mediano"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="mitjà" tags="adj.*"><select lemma="medio"/></match>
+     <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="termini" tags="n.*"/>
+       <match lemma="pressupost" tags="n.*"/>
+       <match lemma="preu" tags="n.*"/>
+       <match lemma="import" tags="n.*"/>
+       <match lemma="cost" tags="n.*"/>
+       <match lemma="valor" tags="n.*"/>
+       <match lemma="salari" tags="n.*"/>
+       <match lemma="posició" tags="n.*"/>
+
+       <match lemma="ciutadà" tags="n.*"/>
+       <match lemma="europeu" tags="n.*"/>
+       <match lemma="americà" tags="n.*"/>
+       <match lemma="nord-americà" tags="n.*"/>
+       <match lemma="sud-americà" tags="n.*"/>
+       <match lemma="brasiler" tags="n.*"/>
+       <match lemma="argentí" tags="n.*"/>
+       <match lemma="belga" tags="n.*"/>
+       <match lemma="suís" tags="n.*"/>
+       <seq n="llengua"/>
+       <match lemma="consumidor" tags="n.*"/>
+       <match lemma="usuari" tags="n.*"/>
+       <match lemma="treballador" tags="n.*"/>
+       <match lemma="professor" tags="n.*"/>
+
+       <match lemma="grandària" tags="n.*"/>
+       <match lemma="tamany" tags="n.*"/>
+       <match lemma="volum" tags="n.*"/>
+       <match lemma="distància" tags="n.*"/>
+       <match lemma="velocitat" tags="n.*"/>
+       <match lemma="acceleració" tags="n.*"/>
+       <match lemma="temperatura" tags="n.*"/>
+       <match lemma="temps" tags="n.*"/>
+       <match lemma="duració" tags="n.*"/>
+       <match lemma="període" tags="n.*"/>
+       <match lemma="vida" tags="n.*"/>
+       <match lemma="punt" tags="n.*"/>
+       <match lemma="edat" tags="n.*"/>
+       <match lemma="classe" tags="n.*"/>
+
+       <match lemma="paleolític" tags="n.*"/>
+       <match lemma="regne" tags="n.*"/>
+       <match lemma="imperi" tags="n.*"/>
+       <match tags="np.top.*"/>
+     </or>
+     <repeat from="0" upto="1">
+       <match tags="adj.*"/>
+     </repeat>
+     <match lemma="mitjà" tags="adj.*"><select lemma="medio"/></match>
+  </rule>
+-->
+
+  <rule weight="0.5">
      <match lemma="divers" tags="adj.*"><select lemma="diverso"/></match>
   </rule>
   <rule weight="1.0">
