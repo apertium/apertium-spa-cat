@@ -823,6 +823,20 @@
     </match>
     <match lemma="*" tags="adj.m.*"/>
   </rule>
+  <rule weight="1.0"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+    <match lemma="*" tags="vblex.pp.m.*"/>
+  </rule>
+  <rule weight="1.0"> 
+    <match lemma="corte" tags="n.*">
+        <select lemma="tall" />
+    </match>
+    <match lemma="puntual" tags="adj.mf.*"/>
+  </rule>
+
+
   <rule weight="1.0">  <!-- un monumental corte -->
     <match lemma="*" tags="det.*.m.*"/>
     <match lemma="*" tags="adj.mf.*"/>
