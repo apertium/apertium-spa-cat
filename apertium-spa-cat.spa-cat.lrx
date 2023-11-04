@@ -6189,6 +6189,18 @@
   </rule>
 
 
+  <!--arrollamiento > atropellament  -->
+
+  <rule weight="1.0">
+    <match lemma="arrollamiento" tags="n.*"><select lemma="atropellament"/></match>
+    <match tags="pr" lemma="de"/>
+    <or>
+      <match lemma="persona" tags="n.*"/>
+      <match lemma="animal" tags="n.*"/>
+    </or>    
+  </rule>
+
+
   <!--el mismo > el mateix / aquest  -->
 
   <rule weight="0.6">
