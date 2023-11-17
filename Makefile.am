@@ -335,6 +335,7 @@ apertium_spa_cat_DATA=				\
 	$(BASENAME).$(PREFIX2).arx          \
 	$(PREFIX1C).t1x			\
 	$(PREFIX1V).t1x			\
+        $(PREFIX1G).t1x                 \
 	$(PREFIX1U).t1x			\
 	$(BASENAME).$(PREFIX2).t1x
 
