@@ -42,7 +42,9 @@ TARGETS_COMMON =			\
 	$(PREFIX1U).autobil.bin 	\
 	$(PREFIX1).autolex.bin  \
 	$(PREFIX1).biprefs.rlx.bin  \
-	$(PREFIX1).top-gva_biprefs.rlx.bin  \
+	$(PREFIX1V).biprefs.rlx.bin  \
+	$(PREFIX1G).biprefs.rlx.bin  \
+	$(PREFIX1U).biprefs.rlx.bin  \
 	$(PREFIX1C).autogen.bin 	\
 	$(PREFIX1V).autogen.bin 	\
 	$(PREFIX1G).autogen.bin 	\
@@ -142,10 +144,16 @@ $(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
 ## Variant preferences
 ###############################################################################
 
-$(PREFIX1).top-gva_biprefs.rlx.bin: $(BASENAME).$(PREFIX1).top-gva_biprefs.rlx
+$(PREFIX1).biprefs.rlx.bin: $(BASENAME).$(PREFIX1).biprefs.rlx
 	cg-comp $< $@
 
-$(PREFIX1).biprefs.rlx.bin: $(BASENAME).$(PREFIX1).biprefs.rlx
+$(PREFIX1V).biprefs.rlx.bin: $(BASENAME).$(PREFIX1V).biprefs.rlx
+	cg-comp $< $@
+
+$(PREFIX1G).biprefs.rlx.bin: $(BASENAME).$(PREFIX1G).biprefs.rlx
+	cg-comp $< $@
+
+$(PREFIX1U).biprefs.rlx.bin: $(BASENAME).$(PREFIX1U).biprefs.rlx
 	cg-comp $< $@
 
 $(PREFIX1).pre2017_prefs.rlx.bin: $(AP_SRC2)/$(LANG2).pre2017_prefs.rlx.bin

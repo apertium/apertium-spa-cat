@@ -9,3 +9,9 @@ DELIMITERS = ".";
 
 IFF (v:top_gva) (0 (VAR:top_gva)) ;
 SUBSTITUTE (v:top_gva) (*) TARGET (v:top_gva) ;
+
+IFF (v:lexic_val) (0 (VAR:lexic_val)) ;
+SUBSTITUTE (v:lexic_val) (*) TARGET (v:lexic_val) ;
+
+IFF (v:lexic_val_gva) (0 (VAR:lexic_val_gva)) ;
+SUBSTITUTE (v:lexic_val_gva) (*) TARGET (v:lexic_val_gva) ;
