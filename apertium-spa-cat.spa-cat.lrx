@@ -4012,6 +4012,32 @@
     <match lemma="llamar" tags="vblex.*"><select lemma="anomenar"/></match>
   </rule>
 
+<!-- navideño > nadalenc / de Nadal -->
+
+  <rule weight="0.6">
+    <match lemma="navideño" tags="adj.*"><select lemma="nadalenc"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="fiesta" tags="n.*"/>
+      <match lemma="noche" tags="n.*"/>
+      <match lemma="luz" tags="n.*"/>
+      <match lemma="iluminación" tags="n.*"/>
+      <match lemma="decoración" tags="n.*"/>
+      <match lemma="feria" tags="n.*"/>
+      <match lemma="vacación" tags="n.*"/>
+      <match lemma="vacaciones" tags="n.*"/>
+      <match lemma="árbol" tags="n.*"/>
+      <match lemma="canción" tags="n.*"/>
+      <match lemma="comida" tags="n.*"/>
+      <match lemma="cena" tags="n.*"/>
+      <match lemma="concierto" tags="n.*"/>
+      <match lemma="lotería" tags="n.*"/>
+    </or>
+    <match lemma="navideño" tags="adj.*"><select lemma="de Nadal"/></match>
+  </rule>
+
  <!-- granito > granit/granet/mica -->
 
   <rule weight="0.6">
