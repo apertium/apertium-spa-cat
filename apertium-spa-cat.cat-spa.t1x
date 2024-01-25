@@ -4456,6 +4456,23 @@
     </rule>
 
 
+    <rule> <!-- REGLA: NUMERAL -->
+      <pattern>
+	<pattern-item n="num"/>
+      </pattern>
+      <action>
+	<call-macro n="f_concord1">
+	  <with-param pos="1"/>
+	</call-macro>   
+	<out>     
+	  <lu>
+	    <clip pos="1" side="tl" part="whole"/>
+	  </lu>
+	</out>
+      </action>
+    </rule>
+
+
     <rule> <!-- REGLA: NUMERAL NOM -->
       <pattern>
 	<pattern-item n="num"/>
