@@ -6146,6 +6146,19 @@
     </or>
   </rule>
 
+  <!-- duelo > dol / duel ... -->
+
+  <rule weight="0.5">
+    <match lemma="duelo" tags="n.*"><select lemma="dol"/></match>
+  </rule>
+  
+  <rule weight="1">
+    <match lemma="duelo" tags="n.*"><select lemma="duel"/></match>
+    <match lemma="entre"/>
+  </rule>
+  <!-- TODO: more exceptions --> 
+
+
   <!-- respaldo > suport /respatler ... -->
 
   <rule weight="0.5">
