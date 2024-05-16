@@ -11681,6 +11681,99 @@
       </action>
     </rule>
 
+    <rule c="CUÁL: Cuál de estas casas > Quina d'aquestes cases">
+      <pattern>
+        <pattern-item n="cuál" />
+        <pattern-item n="de" />
+        <pattern-item n="det_rel" />
+        <pattern-item n="nom" />
+      </pattern>
+      <action>
+        <call-macro n="f_concord2">
+          <with-param pos="4" />
+          <with-param pos="3" />
+        </call-macro>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="quin" />
+            </get-case-from>
+            <lit-tag v="prn" />
+            <lit-tag v="itg" />
+            <clip part="gen" pos="4" side="tl" />
+            <clip pos="1" side="tl" part="nbr" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="whole" pos="2" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="whole" pos="3" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="4" side="tl" part="lemh" />
+            <clip pos="4" side="tl" part="a_nom" />
+            <clip pos="4" side="tl" part="gen" />
+            <clip pos="4" side="tl" part="nbr" />
+            <clip pos="4" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+    <rule c="CUÁL: Cuál de las casas bonitas > Quina de les cases boniques">
+      <pattern>
+        <pattern-item n="cuál" />
+        <pattern-item n="de" />
+        <pattern-item n="det_rel" />
+        <pattern-item n="nom" />
+        <pattern-item n="adjec0" />
+      </pattern>
+      <action>
+        <call-macro n="f_concord3">
+          <with-param pos="4" />
+          <with-param pos="5" />
+          <with-param pos="3" />
+        </call-macro>
+        <out>
+          <lu>
+            <get-case-from pos="1">
+              <lit v="quin" />
+            </get-case-from>
+            <lit-tag v="prn" />
+            <lit-tag v="itg" />
+            <clip part="gen" pos="4" side="tl" />
+            <clip pos="1" side="tl" part="nbr" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="whole" pos="2" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip part="whole" pos="3" side="tl" />
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="4" side="tl" part="lemh" />
+            <clip pos="4" side="tl" part="a_nom" />
+            <clip pos="4" side="tl" part="gen" />
+            <clip pos="4" side="tl" part="nbr" />
+            <clip pos="4" side="tl" part="lemq" />
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="5" side="tl" part="lemh" />
+            <clip pos="5" side="tl" part="a_adj" />
+            <clip pos="5" side="tl" part="gen" />
+            <clip pos="5" side="tl" part="nbr" />
+            <clip pos="5" side="tl" part="lemq" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
     <rule>
       <!-- REGLA: reset variables-->
       <pattern>
