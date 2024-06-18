@@ -2419,6 +2419,17 @@
     </or>
   </rule>
 
+ <!-- distinto > diferent / distint  -->
+
+  <rule weight="0.5">
+    <match lemma="distinto" tags="adj.*.*"><select lemma="distint"/></match>
+  </rule>
+
+  <rule weight="1">
+    <match lemma="distinto" tags="adj.*.pl"><select lemma="diferent"/></match>
+    <match tags="n.*"></match>
+  </rule>
+
   <!-- bolsa > bossa / borsa  -->
 
   <rule weight="0.5">
