@@ -26,19 +26,19 @@ def isMultiword(e):
             if b:
                 return True
     p = e.find("p")
-    if p:
+    if p is not None:
         l=p.find("l")
-        if l:
+        if l is not None:
             g = l.find("g")
-            if g:
+            if g is not None:
                 return True
             b = l.find("b")
             if b is not None:
                 return True
         r=p.find("r")
-        if r:
+        if r is not None:
             g = r.find("g")
-            if g:
+            if g is not None:
                 return True
             b = r.find("b")
             if b is not None:
@@ -52,7 +52,7 @@ def wordL(e):
             word = part.text
     if word is None:
         p = e.find("p")
-        if p:
+        if p is not None:
             l = p.find("l")
             word = l.text
     if word is None:
@@ -66,7 +66,7 @@ def wordR(e):
             word = part.text
     if word is None:
         p = e.find("p")
-        if p:
+        if p is not None:
             l = p.find("r")
             word = l.text
     if word is None:
@@ -95,11 +95,11 @@ for e in mainsection.iter(tag='e'):
     parname = ""
     par = None
     p = e.find('p')
-    if p:
+    if p is not None:
         par = p.find('l').find('s')
     if par is None:
         i = e.find('i')
-        if i:
+        if i is not None:
             par = i.find('s')
     if par is None:
         continue
