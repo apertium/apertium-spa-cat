@@ -44,6 +44,9 @@ TARGETS_COMMON =			\
 	$(PREFIX1U).biprefs.rlx.bin  \
 	$(PREFIX1).autogen.bin 	\
 	$(PREFIX1).autopgen.bin 	\
+	$(PREFIX1V).autopgen.bin 	\
+	$(PREFIX1G).autopgen.bin 	\
+	$(PREFIX1U).autopgen.bin 	\
 	$(PREFIX2).automorf.bin		\
 	$(PREFIX2).prob			\
 	$(PREFIX2).autobil.bin		\
@@ -102,6 +105,15 @@ $(PREFIX1).autogen.bin: $(AP_SRC2)/$(LANG2).autogen.bin
 	cp $< $@
 
 $(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
+	cp $< $@
+
+$(PREFIX1V).autopgen.bin: $(AP_SRC2)/$(LANG2V).autopgen.bin
+	cp $< $@
+
+$(PREFIX1G).autopgen.bin: $(AP_SRC2)/$(LANG2G).autopgen.bin
+	cp $< $@
+
+$(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
 	cp $< $@
 
 ###############################################################################
