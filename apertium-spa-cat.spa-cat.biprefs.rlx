@@ -15,3 +15,18 @@ SUBSTITUTE (v:lexic_val) (*) TARGET (v:lexic_val) ;
 
 IFF (v:lexic_val_gva) (0 (VAR:lexic_val_gva)) ;
 SUBSTITUTE (v:lexic_val_gva) (*) TARGET (v:lexic_val_gva) ;
+
+IFF (v:lexic_llima) (0 (VAR:lexic_llima)) ;
+SUBSTITUTE (v:lexic_llima) (*) TARGET (v:lexic_llima) ;
+
+IFF (v:lexic_llimo) (0 (VAR:lexic_llimo)) ;
+SUBSTITUTE (v:lexic_llimo) (*) TARGET (v:lexic_llimo) ;
+
+IFF (v:lexic_cercar) (0 (VAR:lexic_cercar)) ;
+SUBSTITUTE (v:lexic_cercar) (*) TARGET (v:lexic_cercar) ;
+
+IFF (v:lexic_entregar) (0 (VAR:lexic_entregar)) ;
+SUBSTITUTE (v:lexic_entregar) (*) TARGET (v:lexic_entregar) ;
+
+IFF (v:lexic_val_PENDENT) (0 (VAR:lexic_val_PENDENT)) ;
+SUBSTITUTE (v:lexic_val_PENDENT) (*) TARGET (v:lexic_val_PENDENT) ;

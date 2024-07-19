@@ -36,23 +36,14 @@ TARGETS_COMMON =			\
 	$(PREFIX1).rlx.bin	\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX1).prob		 	\
-	$(PREFIX1C).autobil.bin 	\
-	$(PREFIX1V).autobil.bin 	\
-	$(PREFIX1G).autobil.bin 	\
-	$(PREFIX1U).autobil.bin 	\
+	$(PREFIX1).autobil.bin 	\
 	$(PREFIX1).autolex.bin  \
 	$(PREFIX1).biprefs.rlx.bin  \
 	$(PREFIX1V).biprefs.rlx.bin  \
 	$(PREFIX1G).biprefs.rlx.bin  \
 	$(PREFIX1U).biprefs.rlx.bin  \
-	$(PREFIX1C).autogen.bin 	\
-	$(PREFIX1V).autogen.bin 	\
-	$(PREFIX1G).autogen.bin 	\
-	$(PREFIX1U).autogen.bin 	\
-	$(PREFIX1C).autopgen.bin 	\
-	$(PREFIX1V).autopgen.bin 	\
-	$(PREFIX1G).autopgen.bin 	\
-	$(PREFIX1U).autopgen.bin 	\
+	$(PREFIX1).autogen.bin 	\
+	$(PREFIX1).autopgen.bin 	\
 	$(PREFIX2).automorf.bin		\
 	$(PREFIX2).prob			\
 	$(PREFIX2).autobil.bin		\
@@ -83,16 +74,7 @@ TARGETS_COMMON =			\
 # Spanish analysis:
 # -------------------
 
-$(PREFIX1C).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1C).autobil.bin
-	lt-trim $^ $@
-
-$(PREFIX1V).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1G).autobil.bin
-	lt-trim $^ $@
-
-$(PREFIX1G).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1G).autobil.bin
-	lt-trim $^ $@
-
-$(PREFIX1U).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1G).autobil.bin
+$(PREFIX1).automorf.bin: $(AP_SRC1)/$(LANG1).automorf.bin $(PREFIX1).autobil.bin
 	lt-trim $^ $@
 
 # -------------------
@@ -116,28 +98,10 @@ $(PREFIX2).automorf.bin: $(AP_SRC2)/$(LANG2).automorf.bin $(PREFIX2).autobil.bin
 # Catalan generation:
 # ---------------------
 
-$(PREFIX1C).autogen.bin: $(AP_SRC2)/$(LANG2C).autogen.bin
+$(PREFIX1).autogen.bin: $(AP_SRC2)/$(LANG2).autogen.bin
 	cp $< $@
 
-$(PREFIX1V).autogen.bin: $(AP_SRC2)/$(LANG2V).autogen.bin
-	cp $< $@
-
-$(PREFIX1G).autogen.bin: $(AP_SRC2)/$(LANG2G).autogen.bin
-	cp $< $@
-
-$(PREFIX1U).autogen.bin: $(AP_SRC2)/$(LANG2U).autogen.bin
-	cp $< $@
-
-$(PREFIX1C).autopgen.bin: $(AP_SRC2)/$(LANG2C).autopgen.bin
-	cp $< $@
-
-$(PREFIX1V).autopgen.bin: $(AP_SRC2)/$(LANG2V).autopgen.bin
-	cp $< $@
-
-$(PREFIX1G).autopgen.bin: $(AP_SRC2)/$(LANG2G).autopgen.bin
-	cp $< $@
-
-$(PREFIX1U).autopgen.bin: $(AP_SRC2)/$(LANG2U).autopgen.bin
+$(PREFIX1).autopgen.bin: $(AP_SRC2)/$(LANG2).autopgen.bin
 	cp $< $@
 
 ###############################################################################
@@ -196,36 +160,9 @@ $(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 	python3 convert-metadix-dix.py $< $@ 
 	apertium-validate-dictionary $@
 
-.deps/$(PREFIX1).dix: .deps/$(BASENAME).$(PREFIX1).dix
-	apertium-translate-to-default-equivalent $< $@
-
-.deps/$(PREFIX1).cat.dix: .deps/$(PREFIX1).dix
-	apertium-genvrdix cat $< >$@
-
-.deps/$(PREFIX1).val.dix: .deps/$(PREFIX1).dix
-	apertium-genvrdix val_gva $< >$@
-
-.deps/$(PREFIX1).val_gva.dix: .deps/$(PREFIX1).dix
-	apertium-genvrdix val_gva $< >$@
-
-.deps/$(PREFIX1).val_uni.dix: .deps/$(PREFIX1).dix
-	apertium-genvrdix val_uni $< >$@
-
-$(PREFIX1C).autobil.bin: .deps/$(PREFIX1).cat.dix
+$(PREFIX1).autobil.bin: .deps/$(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $<
-	lt-comp --var-right=cat lr $< $@
-
-$(PREFIX1V).autobil.bin: .deps/$(PREFIX1).val_gva.dix
-	apertium-validate-dictionary $<
-	lt-comp --var-right=val_gva lr $< $@
-
-$(PREFIX1G).autobil.bin: .deps/$(PREFIX1).val_gva.dix
-	apertium-validate-dictionary $<
-	lt-comp --var-right=val_gva lr $< $@
-
-$(PREFIX1U).autobil.bin: .deps/$(PREFIX1).val_uni.dix
-	apertium-validate-dictionary $<
-	lt-comp --var-right=val_uni lr $< $@
+	lt-comp lr $< $@
 
 $(PREFIX2).autobil.bin: .deps/$(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $<
