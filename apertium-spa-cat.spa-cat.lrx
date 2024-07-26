@@ -4026,10 +4026,6 @@
 
 <!-- navideño > nadalenc / de Nadal -->
 
-  <rule weight="0.6">
-    <match lemma="navideño" tags="adj.*"><select lemma="nadalenc"/></match>
-  </rule>
-
   <rule weight="1.0">
     <or>
       <match lemma="fiesta" tags="n.*"/>
