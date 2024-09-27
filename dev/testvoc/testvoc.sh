@@ -7,7 +7,14 @@ fi
 
 TRIMMED=true
 
-while getopts "equt" opt; do
+IFS=","
+modes=($(grep -m 1 "^PairModes=" testvoc.conf | cut -d = -f 2))
+modenames=($(grep -m 1 "^PairModeNames=" testvoc.conf | cut -d = -f 2))
+langs=($(grep -m 1 "^PairLangs=" testvoc.conf | cut -d = -f 2))
+langnames=($(grep -m 1 "^PairLangNames=" testvoc.conf | cut -d = -f 2))
+unset IFS
+
+while getopts "equt:m:" opt; do
   case $opt in
     e)
       ENCLITICS=true  # If the -e flag is used, enclitics are skipped for faster processing
@@ -21,15 +28,18 @@ while getopts "equt" opt; do
     t)
       TRIMMED=false  # If the -t flag is used, the source monodix is not trimmed
       ;;
+    m)  ## If a mode is specified, testvoc only runs for that mode
+      if [[ $OPTARG =~ ^.+\-.+$ ]]; then
+        modes=($OPTARG)
+        modenames=($OPTARG)
+      else
+        echo "Specified mode is invalid."
+        exit 1
+      fi
+      ;;
+    \?)
   esac
 done
-
-IFS=","
-modes=($(grep -m 1 "^PairModes=" testvoc.conf | cut -d = -f 2))
-modenames=($(grep -m 1 "^PairModeNames=" testvoc.conf | cut -d = -f 2))
-langs=($(grep -m 1 "^PairLangs=" testvoc.conf | cut -d = -f 2))
-langnames=($(grep -m 1 "^PairLangNames=" testvoc.conf | cut -d = -f 2))
-unset IFS
 
 for i in "${!modes[@]}"; do
     printf "== %.45s\n" "${modenames[$i]} ============================================"
