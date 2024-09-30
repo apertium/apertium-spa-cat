@@ -2194,6 +2194,35 @@
     <match lemma="gana" tags="n.f.pl"><select lemma="gana"/></match>
   </rule>
 
+<!-- trucar -->
+  <rule weight="1.0">
+    <match lemma="trucar" tags="vblex.*"><select lemma="trucar"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="pr"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+      </or>
+    </repeat>
+    <or>
+       <match lemma="moto" tags="n.*"/>
+       <match lemma="cotxe" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+       <match lemma="moto" tags="n.*"/>
+       <match lemma="cotxe" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <match lemma="trucar" tags="vblex.*"><select lemma="trucar"/></match>
+  </rule>
+
 
 <!-- vespre -->
   <rule weight="1.0">
