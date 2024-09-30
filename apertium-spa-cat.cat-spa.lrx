@@ -2206,12 +2206,16 @@
     </repeat>
     <or>
        <match lemma="moto" tags="n.*"/>
+       <match lemma="motocicleta" tags="n.*"/>
+       <match lemma="motor" tags="n.*"/>
        <match lemma="cotxe" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
     <or>
        <match lemma="moto" tags="n.*"/>
+       <match lemma="motocicleta" tags="n.*"/>
+       <match lemma="motor" tags="n.*"/>
        <match lemma="cotxe" tags="n.*"/>
     </or>
     <repeat from="0" upto="3">
