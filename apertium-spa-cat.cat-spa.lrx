@@ -2209,6 +2209,7 @@
        <match lemma="motocicleta" tags="n.*"/>
        <match lemma="motor" tags="n.*"/>
        <match lemma="cotxe" tags="n.*"/>
+       <match lemma="patinet" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -2217,6 +2218,7 @@
        <match lemma="motocicleta" tags="n.*"/>
        <match lemma="motor" tags="n.*"/>
        <match lemma="cotxe" tags="n.*"/>
+       <match lemma="patinet" tags="n.*"/>
     </or>
     <repeat from="0" upto="3">
       <or>
