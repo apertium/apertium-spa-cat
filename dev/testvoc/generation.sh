@@ -205,7 +205,7 @@ import re
 from streamparser import parse, reading_to_string, known
 from itertools import product
 for line in sys.stdin:
-    line = re.sub("(?<!\\|>)\+", "\\+", line)
+    line = re.sub('(?<!\\\|>)\\\+', '\\\+', line)
     units = list(parse(line, with_text=True))
     exp = []
     for unit in units:
@@ -228,7 +228,7 @@ from streamparser import parse, reading_to_string, known
 import sys
 import re
 for line in sys.stdin:
-    line = re.sub("(?<!\\|>)\+", "\\+", line)
+    line = re.sub('(?<!\\\|>)\\\+', '\\\+', line)
     for blank, lu in parse(line, with_text=True):
         readings = {}
         if lu.knownness == known:
