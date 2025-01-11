@@ -3684,6 +3684,46 @@
     </or>
   </rule>
 
+  <!-- trufa > tòfona/trufa -->
+
+  <rule weight="1.0">
+    <match lemma="trufa" tags="n.*"><select lemma="trufa"/></match>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <or>
+      <match lemma="nata" tags="n.*"/>
+      <match lemma="chocolate" tags="n.*"/>
+      <match lemma="dulce" tags="n.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match lemma="tarta" tags="n.*"/>
+      <match lemma="pastel" tags="n.*"/>
+      <match lemma="roscón" tags="n.*"/>
+      <match lemma="brazo" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="pr"/>
+        <match tags="cnjcoo"/>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat> 
+    <match lemma="trufa" tags="n.*"><select lemma="trufa"/></match>
+
+  </rule>
+
   <!-- llamada > crida/trucada -->
 
   <rule weight="0.6">
