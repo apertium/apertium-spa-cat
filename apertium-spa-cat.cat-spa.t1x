@@ -114,6 +114,9 @@
       <cat-item tags="vbhaver.*"/>
       <cat-item tags="vbmod.*"/>
     </def-cat>
+    <def-cat n="ser">
+      <cat-item tags="vbser.*"/>
+    </def-cat>
     <def-cat n="ser_estar">
       <cat-item tags="vbser.*"/>
       <cat-item lemma="estar" tags="vblex.*"/>
@@ -6549,7 +6552,74 @@
       </action>
     </rule>
 
-
+    <rule c="VERB NOM: És un quart de quatre - > Son las tres y cuarto">
+      <pattern>
+        <pattern-item n="ser"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="f_tipusverb">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="nbr" />
+                  <lit-tag v="sg" />
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="nbr" />
+                  <lit-tag v="sg" />
+                </equal>
+                <equal caseless="yes">
+                  <clip pos="2" side="tl" part="nbr" />
+                  <lit-tag v="pl" />
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nbr" />
+              <lit-tag v="pl" />
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="nbr" />
+                  <lit-tag v="pl" />
+                </equal>
+                <equal>
+                  <clip pos="2" side="sl" part="nbr" />
+                  <lit-tag v="pl" />
+                </equal>
+                <equal caseless="yes">
+                  <clip pos="2" side="tl" part="nbr" />
+                  <lit-tag v="sg" />
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nbr" />
+              <lit-tag v="sg" />
+            </let>
+          </when>
+        </choose>
+        <out>
+	  <lu>
+            <clip pos="1" side="tl" part="whole"/>
+	  </lu>	
+          <b/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
 
     <rule> <!--REGLA: EN + INF-->
       <pattern>
