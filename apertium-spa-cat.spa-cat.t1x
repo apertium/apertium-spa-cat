@@ -8922,7 +8922,7 @@
         </out>
       </action>
     </rule>
-    <rule c="VERB NOM: Son las tres y cuarto -> És un quart de quatre">
+    <rule c="SER NOM: Son las tres y cuarto -> És un quart de quatre">
       <pattern>
         <pattern-item n="ser"/>
         <pattern-item n="nom"/>
@@ -8931,54 +8931,44 @@
         <choose>
           <when>
             <test>
-              <and>
-                <equal>
-                  <clip pos="1" side="sl" part="nbr" />
-                  <lit-tag v="sg" />
-                </equal>
-                <equal>
-                  <clip pos="2" side="sl" part="nbr" />
-                  <lit-tag v="sg" />
-                </equal>
-                <equal caseless="yes">
-                  <clip pos="2" side="tl" part="nbr" />
-                  <lit-tag v="pl" />
-                </equal>
-              </and>
+              <or>
+                <and>
+                  <equal>
+                    <clip pos="2" side="sl" part="nbr" />
+                    <lit-tag v="sg" />
+                  </equal>
+                  <equal caseless="yes">
+                    <clip pos="2" side="tl" part="nbr" />
+                    <lit-tag v="pl" />
+                  </equal>
+                </and>
+                <and>
+                  <equal>
+                    <clip pos="2" side="sl" part="nbr" />
+                    <lit-tag v="pl" />
+                  </equal>
+                  <equal caseless="yes">
+                    <clip pos="2" side="tl" part="nbr" />
+                    <lit-tag v="sg" />
+                  </equal>
+                </and>
+              </or>
             </test>
             <let>
               <clip pos="1" side="tl" part="nbr" />
-              <lit-tag v="pl" />
+              <clip pos="2" side="tl" part="nbr" />
             </let>
           </when>
-        </choose>
-        <choose>
-          <when>
-            <test>
-              <and>
-                <equal>
-                  <clip pos="1" side="sl" part="nbr" />
-                  <lit-tag v="pl" />
-                </equal>
-                <equal>
-                  <clip pos="2" side="sl" part="nbr" />
-                  <lit-tag v="pl" />
-                </equal>
-                <equal caseless="yes">
-                  <clip pos="2" side="tl" part="nbr" />
-                  <lit-tag v="sg" />
-                </equal>
-              </and>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="nbr" />
-              <lit-tag v="sg" />
-            </let>
-          </when>
+          <otherwise>
+            <reject-current-rule shifting="no" />
+          </otherwise>
         </choose>
         <call-macro n="f_pretind">
           <with-param pos="1"/>
         </call-macro>
+	      <call-macro n="f_concord1">
+          <with-param pos="2"/>
+        </call-macro> 
         <out>
           <b/>
           <lu>
