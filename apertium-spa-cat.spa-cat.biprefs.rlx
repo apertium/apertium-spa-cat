@@ -30,3 +30,6 @@ SUBSTITUTE (v:lexic_entregar) (*) TARGET (v:lexic_entregar) ;
 
 IFF (v:lexic_val_PENDENT) (0 (VAR:lexic_val_PENDENT)) ;
 SUBSTITUTE (v:lexic_val_PENDENT) (*) TARGET (v:lexic_val_PENDENT) ;
+
+IFF (v:hores_rellotge) (0 (VAR:hores_rellotge)) ;
+SUBSTITUTE (v:hores_rellotge) (*) TARGET (v:hores_rellotge) ;

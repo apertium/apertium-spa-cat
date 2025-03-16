@@ -6600,6 +6600,9 @@
           </otherwise>
         </choose>
         <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
           <b/>
           <lu>
             <clip pos="2" side="tl" part="whole"/>
