@@ -53,6 +53,7 @@
       <cat-item tags="adj.sup.*" />
       <cat-item tags="adj.pos.*" />
       <cat-item tags="adj.ord.*"/>
+      <cat-item tags="adj.ord.sup.*"/>
       <cat-item tags="adj.m.*"/>
       <cat-item tags="adj.f.*"/>
       <cat-item tags="adj.mf.*"/>
@@ -557,6 +558,7 @@
       <attr-item tags="adj.itg" />
       <attr-item tags="adj.pos" />
       <attr-item tags="adj.ord"/>
+      <attr-item tags="adj.ord.sup"/>
       <attr-item tags="adj" />
       <attr-item tags="vblex.pp" />
     </def-attr>
@@ -566,6 +568,7 @@
       <attr-item tags="adj.itg" />
       <attr-item tags="adj.pos" />
       <attr-item tags="adj.ord" />
+      <attr-item tags="adj.ord.sup" />
       <attr-item tags="adj" />
       <attr-item tags="vblex.pp" />
     </def-attr>
