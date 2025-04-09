@@ -10749,15 +10749,6 @@
     </or>
   </rule>
 
-  <rule weight="1">
-    <or>
-      <match lemma="gran" tags="adj.*"/>
-      <match lemma="grande" tags="adj.*"/>
-      <match lemma="pequeño" tags="adj.*"/>
-    </or>
-    <match lemma="tenedor" tags="n.*"><select lemma="tenidor"/></match>
-  </rule>
-
 
   <!-- topònims amb article --> 
 
