@@ -212,16 +212,16 @@ $(PREFIX1U).t1x.bin: $(PREFIX1U).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-.deps/$(BASENAME).$(PREFIX1).cat.t1x: $(BASENAME).$(PREFIX1).t1x
+.deps/$(BASENAME).$(PREFIX1).cat.t1x: $(BASENAME).$(PREFIX1).t1x .deps/.d
 	python3 gent1x.py cat $< >$@
 
-.deps/$(BASENAME).$(PREFIX1).val.t1x: $(BASENAME).$(PREFIX1).t1x
+.deps/$(BASENAME).$(PREFIX1).val.t1x: $(BASENAME).$(PREFIX1).t1x .deps/.d
 	python3 gent1x.py val_gva $< >$@
 
-.deps/$(BASENAME).$(PREFIX1).val_gva.t1x: $(BASENAME).$(PREFIX1).t1x
+.deps/$(BASENAME).$(PREFIX1).val_gva.t1x: $(BASENAME).$(PREFIX1).t1x .deps/.d
 	python3 gent1x.py val_gva $< >$@
 
-.deps/$(BASENAME).$(PREFIX1).val_uni.t1x: $(BASENAME).$(PREFIX1).t1x
+.deps/$(BASENAME).$(PREFIX1).val_uni.t1x: $(BASENAME).$(PREFIX1).t1x .deps/.d
 	python3 gent1x.py val_uni $< >$@
 
 $(PREFIX1C).t1x: .deps/$(BASENAME).$(PREFIX1).cat.t1x
