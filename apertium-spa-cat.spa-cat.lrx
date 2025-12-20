@@ -10219,10 +10219,6 @@
 
     <!-- palo > pal / bastó -->
 
-  <rule weight="0.5">
-    <match lemma="palo" tags="n.*"><select lemma="pal"/></match>
-  </rule>
-
   <rule weight="3">
     <match lemma="palo" tags="n.*"><select lemma="bastó"/></match>
     <match lemma="en" tags="pr"><select lemma="a"/></match>
@@ -10230,6 +10226,11 @@
     <match lemma="rueda"/>
   </rule>
 
+  <rule weight="3">
+    <match lemma="palo" tags="n.*"><select lemma="bastó"/></match>
+    <match lemma="de" tags="pr"></match>
+    <match lemma="golf" tags="n.*"/>
+  </rule>
 
   <!-- agallas > ganya / coratge (també: amígdala / gala /angina !!)  -->
 
