@@ -601,9 +601,6 @@
 <rules glob="plus">
 
 <!-- **************** PR **************** -->
-  <rule weight="1">
-   <match lemma="de" tags="pr"><select lemma="de"/></match>
-  </rule>
 
   <rule weight="2">
     <match lemma="endemà" tags="n.m.sg"><select lemma="día siguiente"/></match>
@@ -619,9 +616,6 @@
   </rule>
 
 <!-- a > a, en -->
-  <rule weight="0.6">
-    <match lemma="a" tags="pr"><select lemma="a" tags="pr"/></match>
-  </rule>
   <rule weight="2.0">
     <or>
       <seq n="regeix_a"/>
@@ -897,9 +891,6 @@
 
 <!-- perquè > porque, para que -->
 
-  <rule weight="0.6">
-     <match lemma="perquè" tags="cnjadv"><select lemma="porque"/></match>
-  </rule>
   <rule weight="1.0">
      <match lemma="perquè" tags="cnjadv"><select lemma="para que"/></match>
      <or>
@@ -1281,9 +1272,6 @@
 
 <!-- escaure > proceder, ocurrir -->
 
-  <rule weight="0.6">
-     <match lemma="escaure" tags="vblex.*"><select lemma="proceder"/></match>
-  </rule>
   <rule weight="1.0">
     <match lemma="escaure" tags="prn.pro.ref.*"/> <!-- TODO: però falta eliminar el pronom-->
     <match lemma="escaure" tags="vblex.*"><select lemma="ocurrir"/></match>
@@ -1295,9 +1283,6 @@
 
   <!-- mancar > carecer, faltar -->
 
-  <rule weight="0.6">
-     <match lemma="mancar" tags="vblex.*"><select lemma="faltar"/></match>
-  </rule>
   <rule weight="1.0">
      <match lemma="mancar" tags="vblex.*"><select lemma="carecer"/></match>
      <repeat from="0" upto="2">
@@ -1311,9 +1296,6 @@
 
 <!-- demanar > preguntar, pedir -->
 
-  <rule weight="0.6">
-     <match lemma="demanar" tags="vblex.*"><select lemma="preguntar"/></match>
-  </rule>
   <rule weight="1.0">
      <match lemma="demanar" tags="vblex.*"><select lemma="pedir"/></match>
      <match lemma="que" tags="cnjsub"/>
@@ -1400,9 +1382,6 @@
 
 <!-- estimar > querer, estimar -->
 
-  <rule weight="0.6">
-     <match lemma="estimar" tags="vblex.*"><select lemma="querer"/></match>
-  </rule>
   <rule weight="1.0">
      <match lemma="estimar" tags="vblex.*"><select lemma="estimar"/></match>
      <match lemma="en" tags="pr"/>
@@ -1422,7 +1401,7 @@
        <match lemma="suma" tags="n.*"/>
        <match lemma="quantitat" tags="n.*"/>
      </or>
-     <match lemma="estimar" tags="vblex.pp.*"><select lemma="istimare"/></match>
+     <match lemma="estimar" tags="vblex.pp.*"><select lemma="estimar"/></match>
   </rule>
 
 
